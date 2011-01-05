@@ -4,7 +4,7 @@ subtitle:  www.devopsdays.org
 description: development, infrastructure and other stuff
 site:      www.devopsdays.org
 author:    Patrick Debois
-email:     Patrick.Debois@jedi.be
+email:     info@devopsdays.org
 extension: xml
 layout:    nil
 dirty:     true
@@ -15,7 +15,7 @@ filter:
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<atom:link href="http://www.jedi.be/feed/" rel="self" type="application/rss+xml" />
+		<atom:link href="http://www.devopsdays.org/feed/" rel="self" type="application/rss+xml" />
 		<title><%= h(@page.title) %></title>
 		<description><%= h(@page.description) %> </description>
 		<link>http://<%= @page.site %>/</link>

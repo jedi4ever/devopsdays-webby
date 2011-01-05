@@ -19,7 +19,7 @@ filter:    erb
 	   <% end %>
    <% end %>
 
-	<link rel="alternate" type="application/rss+xml" title="devopsdays RSS Feed" href="http://feeds.feedburner.com/jedi/IZwx" >
+	<link rel="alternate" type="application/rss+xml" title="devopsdays RSS Feed" href="http://www.devopsdays.org/feed/" >
 
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>                                                       
     <script type="text/javascript">
@@ -27,40 +27,40 @@ filter:    erb
 	</script>
 
    <!---This is a combined jAmpersand, jqwindont , jPullquote -->
-  <script type="text/javascript" src="/js/jedi.js"></script>
+  <script type="text/javascript" src="/js/devops.js"></script>
 
    <!--- Blueprint CSS Framework Screen + Fancytype-Screen + jedi.css -->
-   <link rel="stylesheet" href="/css/jedi.min.css" type="text/css" media="screen, projection">
+   <link rel="stylesheet" href="/css/devops.min.css" type="text/css" media="screen, projection">
    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
    <!--[if IE]>
       <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
    <![endif]-->
 
 </head>
-<body>
+<body onload="initialize()" onunload="GUnload()">
 
 <div class="container ">
  	<div class="span-24 last" id="header">
 	<%= render(:partial => '/header') %>
 	</div>
 	
-   <div class="span-15 colborder ">
-	   <div class="span-15 first last">
+   <div class="span-15 last">
 	   <h2><%= @page.title %> </h2>
-	   </div>
-	
-	   <div class="span-15  first last ">
-		
-	      <%= @content %>
-	   </div>
    </div>
 
+   <div class="span-15  first ">
+		
+	      <%= @content %>
+   </div>
    <div class="span-8 last">
 	<%= render(:partial => '/twitterfeed') %>
    </div>
+
 </div>
 
 
 <%= render(:partial => '/googleanalytics') %>
+<%= render(:partial => '/footer') %>
+
 </body>
 </html>

@@ -1,1 +1,4 @@
-here comes the twitterfeed
+<div class="box"> 
+	<p><strong>The latest tweets</strong> 
+	<div id="tweetboxwrap"> 
+</div> 
