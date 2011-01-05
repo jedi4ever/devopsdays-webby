@@ -1,0 +1,20 @@
+SITE.base        = 'http://www.devopsdays.org/'
+SITE.xpaths << '/html/body//img'
+SITE.host = 'cooke.sos.be'
+SITE.user = 'deboispa'
+SITE.rsync_args = ['-r', '-c', '--delete' , '--rsh=ssh']
+SITE.remote_dir = '/var/www/www.devopsdays.org-80/html/'
+SITE.create_mode = 'directory'
+
+SITE.page_defaults = {
+  'layout' => 'default',
+  'filter' => ['erb', 'textile']
+}
+
+
+task :default => :build
+
+desc 'deploy the site to the webserver'
+task :deploy => [:clobber, :build, 'deploy:rsync']
+
+# EOF

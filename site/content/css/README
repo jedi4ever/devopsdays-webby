@@ -1,0 +1,3 @@
+#need to remove dependency on erb from jedi.css in order to merge
+
+ juicer merge -o  jedi.min.css blueprint/screen.css  blueprint/plugins/fancy-type/screen.css jedi.css

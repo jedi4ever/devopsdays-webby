@@ -1,0 +1,36 @@
+/* background */
+pre {
+  background: #eee;
+  border:     1px solid #ddd;
+}
+
+/* make the pre overflow if within column */
+pre {
+	overflow:auto
+}
+
+/* resetting the fancytype */
+p + p {
+	margin-top: -0.5em;
+	text-indent: 0;
+}
+
+/* pullquotes */
+span.pulledquote {
+	display: block;
+	float: right;
+	padding: 0 0 0 10px;
+	margin: 0 0 10px 10px;
+	width: 170px;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	text-align: right;
+	color: #666;
+	border-left: 3px solid #ccc;
+}
+
+/* awesomepersands */
+span.amp {
+    font-family: Baskerville, Palatino, Constantia, "Book Antiqua", "URW Palladio L", serif;
+    font-style: italic;
+}

@@ -1,0 +1,67 @@
+---
+title:     Devopsdays
+subtitle:  www.devopsdays.org
+description: development, infrastructure and other stuff
+site:      www.devopsdays.org
+author:    Patrick Debois
+email:     Patrick.Debois@jedi.be
+extension: xml
+layout:    nil
+dirty:     true
+filter:    
+- erb
+---
+<%- require 'rexml/document' -%>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<atom:link href="http://www.jedi.be/feed/" rel="self" type="application/rss+xml" />
+		<title><%= h(@page.title) %></title>
+		<description><%= h(@page.description) %> </description>
+		<link>http://<%= @page.site %>/</link>
+		<pubDate><%= Time.now.gmtime.rfc822 %></pubDate>
+		<generator>webby rss script</generator>
+		<lastBuildDate><%= Time.now.gmtime.rfc822 %></lastBuildDate>
+		<managingEditor><%= @page.email %> (<%= @page.author %>)</managingEditor>
+		<webMaster><%= @page.email %> (<%= @page.author %>)</webMaster>
+		<language>en</language>
+	 <%- @pages.find( :limit => 10,
+		 :in_directory => 'blog',
+		 :recursive => true,
+		 :sort_by => 'created_at',
+		 :reverse => true).each do |article|
+
+	     next if article.blog_post.nil?
+	 -%>
+		<item>
+			<title><%= h(article.title) %></title>
+			<link>http://<%= @page.site %><%= article.url %></link>
+			<% if article.guid.nil? %>
+			<guid isPermaLink="false">http://<%= @page.site %><%= article.url%></guid>
+			<% else %>
+			<guid isPermaLink="false"><%= article.guid %></guid>
+			<% end %>
+			<pubDate><%= article.created_at.gmtime.rfc822 %></pubDate>
+			<comments>http://<%= @page.site %><%= article.url %>#comments</comments>
+			<description><%= normaltext=render(article); 
+			normaltext.gsub!('<img src="/', '<img src="http://'+@page.site+'/')
+			normaltext.gsub!("<img src='/", "<img src='http://"+@page.site+'/')
+
+			 h(normaltext) %></description>
+		
+			<%- if !article.keywords.nil? %>
+				<%- article.keywords.each do |keyword| %>
+		   			<category><![CDATA[<%= keyword %>]]></category>
+				<%- end %>
+		   <% else %>
+           		<% if !article.tags.nil? %>
+					<%- article.tags.each do |tag| %>
+   						<category><![CDATA[<%= tag %>]]></category>
+					<% end %>
+		        <% end %>
+		   <% end %>
+			<content:encoded><![CDATA[<%= REXML::CData.new(render(article)) %>]]></content:encoded>
+		</item>
+	<% end %>
+	</channel>
+</rss>

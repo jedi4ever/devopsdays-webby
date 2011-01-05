@@ -1,0 +1,6 @@
+%ul
+  / sort tags in alphabetical order, and then generate links for each tag
+  -tags_hash.keys.sort.each do |tag|
+    %li
+      %a{:href=>"/tags/#{tag}"}= tag
+      ==(#{tags_hash[tag]})

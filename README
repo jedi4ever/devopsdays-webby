@@ -1,0 +1,8 @@
+This the source of the devopsdays.org website
+
+It uses webby as a framework:
+. devopsdays-webby.ENV
+gem install webby
+
+cd site
+webby autobuild
