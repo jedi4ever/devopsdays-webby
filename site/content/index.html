@@ -4,11 +4,90 @@ filter:    erb
 title: Upcoming devopsdays events
 dirty: true
 ---
+<script src="http://maps.google.com/maps/api/js?key=ABQIAAAA-_xq4xWdGM_Cr0mB475CDxSSYNvTrpZcm-iELUFrQeaPGU-lCxQMzBkamcoXagNy4CeiJIxUCBGnIQ&sensor=false"
+        type="text/javascript">
+</script>
+
+<script type="text/javascript" src="/js/googlemaps_label.js"></script>
+<!---  view-source:http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1/examples/basic.html -->
+<style type="text/css"> 
+  .labels {
+    color: black;
+    background-color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+   
+    border: 1px solid gray;
+    white-space: nowrap;
+  }
+</style>
 
 
-<div id="map_canvas" style="width: 600px; height: 300px"></div>
-
+<script type="text/javascript">
+function initialize() {
+	var homeLatLng=new google.maps.LatLng(37.4419, -122.1419)
+  	var map = new google.maps.Map(document.getElementById("map_canvas"), {
+		zoom: 1,
+		center: homeLatLng,
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		  disableDefaultUI: true,
+	});
 	
-	
+  	var boston2011=new google.maps.LatLng(42.36080,-71.08250);
+	var goteborg2011=new google.maps.LatLng(57.69699 ,	11.98650);
+	var mountainview2011=new google.maps.LatLng(37.36725 ,	-122.02314);
+
+	var bostonmarker = new MarkerWithLabel({
+  		position: boston2011,
+  		draggable: true,
+  		raiseOnDrag: true,
+  		map: map,
+  		labelContent: "Boston<br>3 & 4 February 2011",
+  		labelAnchor: new google.maps.Point(30, 65),
+  		labelClass: "labels", // the CSS class for the label
+  		labelStyle: {opacity: 1}
+	});
+
+  	var iw1 = new google.maps.InfoWindow({
+    	content: "Boston 2011 is happening at the Nerd Center. <a href='/2011-boston'>More</a>"
+  	});
+  	google.maps.event.addListener(bostonmarker, "click", function (e) { iw1.open(map, this); });
+
+	var mountainviewmarker = new MarkerWithLabel({
+  		position: mountainview2011,
+  		draggable: true,
+  		raiseOnDrag: true,
+  		map: map,
+  		labelContent: "Mountain View <br>June 2011",
+  		labelAnchor: new google.maps.Point(30, 65),
+  		labelClass: "labels", // the CSS class for the label
+  		labelStyle: {opacity: 1}
+	});
+
+	var goteborgviewmarker = new MarkerWithLabel({
+  		position: goteborg2011,
+  		draggable: true,
+  		raiseOnDrag: true,
+  		map: map,
+  		labelContent: "Goteborg <br>October 2011",
+  		labelAnchor: new google.maps.Point(30, 65),
+  		labelClass: "labels", // the CSS class for the label
+  		labelStyle: {opacity: 1}
+	});
 
 
+}
+</script>
+
+
+<div id="map_canvas" style="width: 550px; height: 350px"></div>
+<br>
+<h1>Feel the atmosphere</h1>
+<div>
+	<img src="/teasers/1.jpg">
+	<img src="/teasers/2.jpg">
+	<img src="/teasers/3.jpg">
+
+</div>

@@ -1,0 +1,14 @@
+<div class="box" id="dock">
+	<strong>Quick Links</strong>
+	<div>
+		<br>
+		<ul>
+			<li><a href="/2011-boston/">Boston 2011</a></li>
+			<li><a href="/2010-brazil-devops/">Sao Paulo 2010</a></li>
+			<li><a href="/2010-europe/">Hamburg 2010</a></li>
+			<li><a href="/2010-us/">Mountain View 2010</a></li>
+			<li><a href="/2010-devops-down-under/">Sydney 2010</a></li>
+			<li><a href="/ghent09/">Belgium 2009</a></li>
+		</ul>
+	</div>
+</div>

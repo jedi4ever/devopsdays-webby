@@ -1,0 +1,5 @@
+<div>
+<a href="http://www.devopsdays.org/feed"><img width="32px" height="32px" alt="rss feed" title="rss feed" src="/images/feed.png"></a>
+<a href="http://www.twitter.com/devopsdays"><img width="32px" height="32px" alt="twitter" title="twitter" src="/images/twitter.png"></a>
+<a href="http://http://groups.google.com/group/devopsdays"><img width="32px" height="32px" alt="mail" title="mail" src="/images/mail.png"></a>
+</div>
