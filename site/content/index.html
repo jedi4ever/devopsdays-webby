@@ -24,16 +24,38 @@ dirty: true
   }
 </style>
 
+<!-- http://efreedom.com/Question/1-3823693/Map-Darker-Water -->
+<!-- http://code.google.com/apis/maps/documentation/javascript/maptypes.html#StyledMaps -->
+
 
 <script type="text/javascript">
 function initialize() {
+	
+
+	<!-- http://stackoverflow.com/questions/3472040/rgb-value-to-hsl-converter -->	
+	<!-- 197° - 78% 38% -->
+	var darkStyle = [{
+      featureType: 'water',
+      elementType: 'all',
+      stylers: [{visibility: 'simplified'} , 
+<!--			{saturation: 56}, {lightness: -76 }, { hue: '#1581AB' }, { gamma: 1} -->
+			]
+    }];
+
+
 	var homeLatLng=new google.maps.LatLng(37.4419, -122.1419)
   	var map = new google.maps.Map(document.getElementById("map_canvas"), {
 		zoom: 1,
+		mapTypeControlOptions: {
+			mapTypeIds: ['darkwater']		
+		},
 		center: homeLatLng,
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		mapTypeId: 'darkwater',
 		  disableDefaultUI: true,
 	});
+	
+	map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
+    
 	
   	var boston2011=new google.maps.LatLng(42.36080,-71.08250);
 	var goteborg2011=new google.maps.LatLng(57.69699 ,	11.98650);

@@ -34,3 +34,22 @@ span.amp {
     font-family: Baskerville, Palatino, Constantia, "Book Antiqua", "URW Palladio L", serif;
     font-style: italic;
 }
+
+h1 {
+	color: #1581AB;
+	font-weight: bold;
+}
+
+.box {
+	background: #1581AB ;
+	color: white;
+}
+
+.box a {
+	color: white;	
+}
+
+.headermenu {
+	font-color: #1581AB;	
+}
+

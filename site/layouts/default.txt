@@ -34,8 +34,8 @@ filter:    erb
    <!--[if IE]>
       <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
    <![endif]-->
-
 </head>
+
 <body onload="initialize()">
 <div class="container ">
  	<div class="span-24 last" id="header">
@@ -46,7 +46,7 @@ filter:    erb
 	</div>
  	<div class="span-24 last" id="header">	
    <div class="span-15 first">
-	   <h2><%= @page.title %> </h2>
+	   <h1><%= @page.title %> </h1>
    </div>
 
 	<div class="span-8 last">
@@ -60,11 +60,12 @@ filter:    erb
 
 	<div class="span-8 last">
   <div class="span-8 last">
+	<%= render(:partial => '/twitterfeed') %>
+   </div>
+  <div class="span-8 last">
 	<%= render(:partial => '/menu') %>
  	</div>
-  <div class="span-8 last">
-	<%= render(:partial => '/twitterfeed') %>
-   </div>	
+	
    </div>
 
 </div>

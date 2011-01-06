@@ -1,7 +1,8 @@
-<div>
-<table><tr>
-<td><a href="/"><img alt="home" title="home" src="/images/home.png"></a><br>Home</td>
-<td><a href="/contact/"><img alt="contact" title="contact" src="/images/contact.png"></a></td>
-<td><a href="/">Home</a> - <a href="/contact/">Contact</a> - <a href="/about/">About</a></td>
+<div id="headermenu" style="width:300px">
+<table ><tr>
+<td><a href="/"><img alt="home" title="home" src="/images/home.png"></a><br><center>Home</center></td>
+<td><a href="/contact/"><img alt="contact" title="contact" src="/images/contact.png"></a><br><center>contact</center></td>
+<td><a href="/events/"><img alt="events" title="events" src="/images/events.png"></a></td>
+<td><a href="/presentations/"><img alt="contact" title="presentations" src="/images/presentations.png"></a></td>
 </table>
 </div>
