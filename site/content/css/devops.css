@@ -40,16 +40,37 @@ h1 {
 	font-weight: bold;
 }
 
-.box {
+div#quicklinks {
 	background: #1581AB ;
 	color: white;
 }
 
-.box a {
+div#quicklinks a {
 	color: white;	
+	font-weight: bold;
 }
 
-.headermenu {
+div#quicklinks li {
+	list-style-type:none	
+}
+
+div#headermenu {
 	font-color: #1581AB;	
+}
+
+div#headermenu * a {
+	text-decoration: none;
+}
+
+.submenu h3 {
+
+	font-weight: bold;
+	background-color: #CCCCCC;
+	padding: 10px;
+}
+
+.submenu h3 a { 
+	color: #333333;	
+	text-decoration: none;
 }
 

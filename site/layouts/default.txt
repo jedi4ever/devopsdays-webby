@@ -36,35 +36,42 @@ filter:    erb
    <![endif]-->
 </head>
 
+
 <body onload="initialize()">
 <div class="container ">
  	<div class="span-24 last" id="header">
 	<%= render(:partial => '/header') %>
 	</div>
- 	<div class="span-24 last" id="headermenu">
+ 	
+	<div class="span-24 last">
 	<%= render(:partial => '/_headermenu') %>
 	</div>
- 	<div class="span-24 last" id="header">	
-   <div class="span-15 first">
-	   <h1><%= @page.title %> </h1>
-   </div>
+ 	
+	<div class="span-24 last" id="header">	
+   			<div class="span-15 first">
+	   		<h1><%= @page.title %> </h1>
+   			</div>
 
-	<div class="span-8 last">
-		<%= render(:partial => '/buttons') %>
+			<div class="span-8 last">
+			<%= render(:partial => '/buttons') %>
+			</div>
 	</div>
-	</div>
-   <div class="span-15  first ">
-		
+   	<div class="span-15  first ">	
 	      <%= @content %>
    </div>
 
 	<div class="span-8 last">
-  <div class="span-8 last">
-	<%= render(:partial => '/twitterfeed') %>
-   </div>
-  <div class="span-8 last">
-	<%= render(:partial => '/menu') %>
- 	</div>
+  		<div class="span-8 last">	
+		<%= render(:partial => '/twitterfeed') %>
+   		</div>
+
+  		<div style=" padding-top:58px;" class="span-8 last">	
+		<h1>Quick Links</h1>
+ 		</div>
+
+  		<div class="span-8 last">
+		<%= render(:partial => '/menu') %>
+ 		</div>
 	
    </div>
 

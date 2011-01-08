@@ -4,12 +4,12 @@
 new TWTR.Widget({
   version: 2,
   type: 'search',
-  search: 'devopsdays OR devopsday',
+  search: 'devopsdays OR devopsday OR #devopsday OR #devopsdays',
   interval: 6000,
   title: '',
   subject: 'Latest tweets',
   width: 310,
-  height: 250,
+  height: 270,
   theme: {
     shell: {
       background: '#1581AB',
@@ -18,12 +18,12 @@ new TWTR.Widget({
     tweets: {
       background: '#ffffff',
       color: '#444444',
-      links: '#1985b5'
+      links: '#1581AB'
     }
   },
   features: {
-    scrollbar: false,
-    loop: true,
+    scrollbar: true,
+    loop: false,
     live: true,
     hashtags: true,
     timestamp: true,

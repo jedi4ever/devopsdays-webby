@@ -66,7 +66,7 @@ function initialize() {
   		draggable: true,
   		raiseOnDrag: true,
   		map: map,
-  		labelContent: "Boston<br>3 & 4 February 2011",
+  		labelContent: "Boston<br>7 & 8 March 2011",
   		labelAnchor: new google.maps.Point(30, 65),
   		labelClass: "labels", // the CSS class for the label
   		labelStyle: {opacity: 1}
@@ -75,7 +75,6 @@ function initialize() {
   	var iw1 = new google.maps.InfoWindow({
     	content: "Boston 2011 is happening at the Nerd Center. <a href='/2011-boston'>More</a>"
   	});
-  	google.maps.event.addListener(bostonmarker, "click", function (e) { iw1.open(map, this); });
 
 	var mountainviewmarker = new MarkerWithLabel({
   		position: mountainview2011,
@@ -88,7 +87,7 @@ function initialize() {
   		labelStyle: {opacity: 1}
 	});
 
-	var goteborgviewmarker = new MarkerWithLabel({
+	var goteborgmarker = new MarkerWithLabel({
   		position: goteborg2011,
   		draggable: true,
   		raiseOnDrag: true,
@@ -98,6 +97,11 @@ function initialize() {
   		labelClass: "labels", // the CSS class for the label
   		labelStyle: {opacity: 1}
 	});
+
+	<!--  	google.maps.event.addListener(bostonmarker, "click", function (e) { iw1.open(map, this); });-->
+	  	google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/2011-boston"});
+	  	google.maps.event.addListener(goteborgmarker, "click", function (e) { location.href="/2011-goteborg"});
+	  	google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/2011-mountainview"});
 
 
 }
