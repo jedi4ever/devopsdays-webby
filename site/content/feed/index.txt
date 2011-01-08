@@ -5,7 +5,7 @@ description: development, infrastructure and other stuff
 site:      www.devopsdays.org
 author:    Patrick Debois
 email:     info@devopsdays.org
-extension: xml
+extension: html
 layout:    nil
 dirty:     true
 filter:    
@@ -26,7 +26,7 @@ filter:
 		<webMaster><%= @page.email %> (<%= @page.author %>)</webMaster>
 		<language>en</language>
 	 <%- @pages.find( :limit => 10,
-		 :in_directory => '.',
+		 :in_directory => '/blog',
 		 :recursive => true,
 		 :sort_by => 'created_at',
 		 :reverse => true).each do |article|
