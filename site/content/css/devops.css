@@ -60,12 +60,13 @@ div#headermenu {
 
 div#headermenu * a {
 	text-decoration: none;
+	font-weight: bold;
+	color: #1581AB;
 }
 
 .submenu h3 {
-
 	font-weight: bold;
-	background-color: #CCCCCC;
+	background-color: #D7D7D7;
 	padding: 10px;
 }
 

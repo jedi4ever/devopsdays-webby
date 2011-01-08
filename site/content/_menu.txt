@@ -2,18 +2,18 @@
 <table><tr><td>
 	<div style="margin-top:25px">
 		<ul>
-			<li><a href="/2011-boston/">Boston 2011</a></li>
-			<li><a href="/2010-brazil-devops/">Sao Paulo 2010</a></li>
-			<li><a href="/2010-europe/">Hamburg 2010</a></li>
+			<li><a href="/events/2011-boston/">Boston 2011</a></li>
+			<li><a href="/events/2010-brazil/">Sao Paulo 2010</a></li>
+			<li><a href="/events/2010-europe/">Hamburg 2010</a></li>
 
 		</ul>
 	</div>
 	</td><td>
 	<div style="margin-top:25px">
 		<ul>
-			<li><a href="/2010-us/">Mountain View 2010</a></li>
-			<li><a href="/2010-devops-down-under/">Sydney 2010</a></li>
-			<li><a href="/ghent09/">Belgium 2009</a></li>
+			<li><a href="/events/2010-us/">Mountain View 2010</a></li>
+			<li><a href="/events/2010-sydney/">Sydney 2010</a></li>
+			<li><a href="/events/2009-ghent/">Ghent 2009</a></li>
 		</ul>
 	</div>
 	</td></tr></table>

@@ -53,7 +53,7 @@ filter:    erb
    			</div>
 
 			<div class="span-8 last">
-			<%= render(:partial => '/buttons') %>
+			<%= render(:partial => '/_buttons') %>
 			</div>
 	</div>
    	<div class="span-15  first ">	

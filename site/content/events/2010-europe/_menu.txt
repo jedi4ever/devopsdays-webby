@@ -1,0 +1,10 @@
+<div class="submenu">
+<h3>
+<a href="/events/2010-europe/">welcome</a>&nbsp;
+<a href="/events/2010-europe/program">program</a>&nbsp; 
+<a href="/events/2010-europe/lightning-talks">lightning talks</a>&nbsp; 
+<a href="/events/2010-europe/speakers">speakers</a>&nbsp; 
+<a href="/events/2010-europe/contact">contact</a>&nbsp; 
+<a href="/events/2010-europe/reactions">reactions</a>&nbsp; 
+</h3>
+</div>

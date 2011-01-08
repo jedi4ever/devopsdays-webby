@@ -1,0 +1,10 @@
+<div class="submenu">
+<h3>
+<a href="/events/2009-ghent/">welcome</a>&nbsp;
+<a href="/events/2009-ghent/program">program</a>&nbsp; 
+<a href="/events/2009-ghent/reactions">reactions</a>&nbsp; 
+<a href="/events/2009-ghent/speakers">speakers</a>&nbsp; 
+<a href="/events/2009-ghent/participants">participants</a>&nbsp; 
+
+</h3>
+</div>

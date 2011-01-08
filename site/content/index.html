@@ -63,8 +63,8 @@ function initialize() {
 
 	var bostonmarker = new MarkerWithLabel({
   		position: boston2011,
-  		draggable: true,
-  		raiseOnDrag: true,
+  		draggable: false,
+  		raiseOnDrag: false,
   		map: map,
   		labelContent: "Boston<br>7 & 8 March 2011",
   		labelAnchor: new google.maps.Point(30, 65),
@@ -78,8 +78,8 @@ function initialize() {
 
 	var mountainviewmarker = new MarkerWithLabel({
   		position: mountainview2011,
-  		draggable: true,
-  		raiseOnDrag: true,
+  		draggable: false,
+  		raiseOnDrag: false,
   		map: map,
   		labelContent: "Mountain View <br>June 2011",
   		labelAnchor: new google.maps.Point(30, 65),
@@ -89,8 +89,8 @@ function initialize() {
 
 	var goteborgmarker = new MarkerWithLabel({
   		position: goteborg2011,
-  		draggable: true,
-  		raiseOnDrag: true,
+  		draggable: false,
+  		raiseOnDrag: false,
   		map: map,
   		labelContent: "Goteborg <br>October 2011",
   		labelAnchor: new google.maps.Point(30, 65),
@@ -99,9 +99,9 @@ function initialize() {
 	});
 
 	<!--  	google.maps.event.addListener(bostonmarker, "click", function (e) { iw1.open(map, this); });-->
-	  	google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/2011-boston"});
-	  	google.maps.event.addListener(goteborgmarker, "click", function (e) { location.href="/2011-goteborg"});
-	  	google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/2011-mountainview"});
+	  	google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2011-boston"});
+	  	google.maps.event.addListener(goteborgmarker, "click", function (e) { location.href="/events/2011-goteborg"});
+	  	google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2011-mountainview"});
 
 
 }
@@ -112,8 +112,8 @@ function initialize() {
 <br>
 <h1>Feel the atmosphere</h1>
 <div>
-	<img src="/teasers/1.jpg">
-	<img src="/teasers/2.jpg">
-	<img src="/teasers/3.jpg">
+	<img src="/images/teasers/1.jpg">
+	<img src="/images/teasers/2.jpg">
+	<img src="/images/teasers/3.jpg">
 
 </div>

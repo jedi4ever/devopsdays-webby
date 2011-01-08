@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+title: Devopsdays Presentations
+---
+In the future this page will give an overview of all the presentations held at each event. 
+
+For now please check each event individually: 
+
+<ul>
+	<li><a href="/events/2011-boston/program">Boston 2011</a></li>
+	<li><a href="/events/2010-brazil/program">Sao Paulo 2010</a></li>
+	<li><a href="/events/2010-europe/program">Hamburg 2010</a></li>
+	<li><a href="/events/2010-us/program">Mountain View 2010</a></li>
+	<li><a href="/events/2010-sydney/">Sydney 2010</a></li>
+	<li><a href="/events/2009-ghent/program">Ghent 2009</a></li>
+</ul>

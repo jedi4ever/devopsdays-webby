@@ -1,0 +1,12 @@
+<div class="submenu">
+<h3>
+<a href="/events/2011-boston/">welcome</a>&nbsp;
+<a href="/events/2011-boston/program">program</a>&nbsp; 
+<a href="/events/2011-boston/location">location</a>&nbsp; 
+<a href="/events/2011-boston/proposals">proposals</a> &nbsp;
+<a href="/events/2011-boston/contact">contact</a>&nbsp;
+<a href="/events/2011-boston/registration">register</a>
+<a href="/events/2011-boston/sponsor">sponsor</a>
+
+</h3>
+</div>

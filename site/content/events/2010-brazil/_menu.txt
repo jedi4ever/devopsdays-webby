@@ -1,0 +1,8 @@
+<div class="submenu">
+<h3>
+<a href="/events/2010-brazil/">welcome</a>&nbsp;
+<a href="/events/2010-brazil/program">program</a>&nbsp; 
+<a href="/events/2010-brazil/location">location</a>&nbsp; 
+<a href="/events/2010-brazil/contact">contact</a>&nbsp;
+</h3>
+</div>
