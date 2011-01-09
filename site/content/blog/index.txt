@@ -1,0 +1,25 @@
+---
+title:      
+created_at: 2009-09-14 17:11:09.082858 +02:00
+filter:     erb
+dirty:      true
+---
+<%
+  articles = @pages.find(:all, :in_directory => @page.dir, :recursive => true,
+      :sort_by => "created_at", :reverse => true, :blog_post => true)
+  articles.delete(@page)
+  paginate(articles, 10) do |page|
+-%>
+<div class="article">
+  <h1><%= link_to_page(page) %></h1>
+ <span class="date">(<%= page.created_at.strftime('%Y-%m-%d') %>)</span> - <a href="<%= page.url %>#disqus_thread">Comments</a>
+  <div class="body">
+    <%= render(page) %>
+  </div>
+</div>
+<hr>
+<% end -%>
+
+<large><strong><%= link_to("Prev", @pager.prev) if @pager.prev? %></strong></large>
+<large><strong><%= link_to("Next", @pager.next) if @pager.next? %></strong></large>
+
