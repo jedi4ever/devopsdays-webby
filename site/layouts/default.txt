@@ -60,7 +60,7 @@ filter:    erb
    	<div class="span-15  last ">	
 	      <%= @content %>
    </div>
- 	<% if !@page.blog_post.nil? %>
+ 	<% if !@page.blog_post.nil? || !@page.proposal.nil? %>
 	<div class="span-15 first last">
     	<%= render(:partial => '/disqus_comments') %>
 		</div>

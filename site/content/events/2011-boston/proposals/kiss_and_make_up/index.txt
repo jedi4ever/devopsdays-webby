@@ -1,0 +1,15 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+author: Tom Sulston
+title: Kiss and make up. How to help developers and sysadmins learn to love each other again.
+---
+**Abstract:** "One of the practices encouraged by DevOps is the creation of cross-functional delivery teams. These should contain all of the skills necessary to bring software from concept to production: including both developers and system engineers. Historically in the enterprise, development and operations teams have been separate groups; each with their own management, reporting, tools, and practices. 
+
+Bringing these teams closer together can involve a clash of cultures & values that can be both disheartening and unhelpful. In this session, I propose my top ten tips for helping development and operations people overcome their differences and start truly collaborating on the practices necessary to create and run great software, as well as asking the audience to share their experiences of bringing dev and ops together."
+
+**Proposer:** Tom Sulston - Thoughtworks

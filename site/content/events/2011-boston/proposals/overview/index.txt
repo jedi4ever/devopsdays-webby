@@ -1,0 +1,24 @@
+---
+title:  Proposals Overview    
+created_at: 2009-09-14 17:11:09.082858 +02:00
+filter:     erb
+dirty:      true
+---
+<h3>Help the presenters with your feedback!</h3>
+
+<% parent="/events/2011-boston/proposals" %>
+
+<ol>
+<%
+  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "title", :reverse => true, :proposal => true)
+  articles.delete(@page)
+  paginate(articles, 10) do |page|
+-%>
+<li><h3><%= link_to_page(page) %> - <%= page.author %> </h3>
+<% end -%>
+</ol>
+
+<large><strong><%= link_to("Prev", @pager.prev) if @pager.prev? %></strong></large>
+<large><strong><%= link_to("Next", @pager.next) if @pager.next? %></strong></large>
+
