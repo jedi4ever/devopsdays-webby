@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+title: Devopsdays - ignite talks format
+---
+
+If you have a strong devops related message that you really want to share with the DevOps world, we encourage you to send us a proposal for an Ignite presentation. 
+
+These are 5 minute talks with 20 slides which auto-advance. If you aren't familiar with the format, google is your friend (and I won't question your geek cred... *cough* maybe you've just been busy... go check some out, we'll still be here when you get back. ) Ignite is a fun way to introduce people to ideas and leave them wanting more. 
+
+Good examples can be found at [http://igniteshow.com/](http://igniteshow.com)
+
+We have 10 slots scheduled right now and half of those are filled, so you still have a good chance to share your ideas. Tell us about tools, processes, tips, tricks, war stories, whatever... make us laugh, make us cry, show us how to be more awesome... 
+
+The only rule is don't give a straight pitch. That's not even a rule we'll enforce, everyone will just think you are lame... that is punishment enough.
