@@ -56,9 +56,16 @@ filter:    erb
 			<%= render(:partial => '/_buttons') %>
 			</div>
 	</div>
-   	<div class="span-15  first ">	
+   	<div class="span-15  ">	
+   	<div class="span-15  last ">	
 	      <%= @content %>
    </div>
+ 	<% if !@page.blog_post.nil? %>
+	<div class="span-15 first last">
+    	<%= render(:partial => '/disqus_comments') %>
+		</div>
+	<% end %>
+	</div>
 
 	<div class="span-8 last">
   		<div class="span-8 last">	
@@ -80,6 +87,6 @@ filter:    erb
 
 <%= render(:partial => '/googleanalytics') %>
 <%= render(:partial => '/footer') %>
-
+    
 </body>
 </html>
