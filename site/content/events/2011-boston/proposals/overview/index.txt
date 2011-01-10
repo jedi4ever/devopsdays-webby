@@ -1,12 +1,15 @@
 ---
 title:  Boston 2011 Proposals Overview    
 created_at: 2009-09-14 17:11:09.082858 +02:00
-filter:     erb
+filter:     
+- erb
+- markdown
 dirty:      true
 ---
 <%= render(:partial => '/events/2011-boston/_menu') %>
-
 <h3>Help the presenters with your feedback!</h3>
+
+This page list the proposals we have received. It's a great way to express your interest or give feedback.
 
 <% parent="/events/2011-boston/proposals" %>
 
