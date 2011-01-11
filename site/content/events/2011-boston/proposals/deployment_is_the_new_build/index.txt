@@ -5,6 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
+talk: true
 author: Andrew Philips
 title: Deployment is the new build
 ---

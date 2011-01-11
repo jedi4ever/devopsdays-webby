@@ -5,6 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
+talk: true
 author: Daniel Kushner
 title: Application Lifecycle Management
 ---

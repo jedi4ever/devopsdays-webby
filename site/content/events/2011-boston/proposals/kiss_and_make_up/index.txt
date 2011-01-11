@@ -5,6 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
+talk: true
 author: Tom Sulston
 title: Kiss and make up. How to help developers and sysadmins learn to love each other again.
 ---

@@ -1,0 +1,37 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Adam Moskowits
+title: Workplace Presentations 101 for IT Professionals
+---
+**Abstract:** I know that the rule for Ignite slots is "don't give a sales pitch," but
+I'm going to ask you to make an exception to that. . . .
+
+On Saturday, March 12th (at the NERD center), I'm going to be giving a
+one-day class of "Workplace Presentations 101 for IT Professionals."
+It's aimed squarely at sysadmins and devops folks, the intent being to
+help them learn how to give presentations. It's only $20 per person and
+that includes lunch and snacks.
+
+I think this class is of significant interest to many of the folks
+likely to attend the Boston DevOpsDays and to their peers -- so I'm
+asking for one Ignite slot to let folks know it's happening. If it
+matters, I'm running the class as a not-for-profit venture: no one is
+getting paid and no one is making any money from it. Also, I believe I
+can make a strong case for why folks should attend the class (namely,
+it's a skill that I feel is critical for career advancement).
+
+All the details of the class are here:
+
+    http://menlo.com/speak/
+
+I hope you'll consider my request for a slot and for an exception to the
+"no pitch" rule.
+
+
+**Proposer:** Adamm Moskowitz - Menlo
