@@ -1,0 +1,28 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+author: Andrew Philips
+title: Deployment is the new build
+---
+**Abstract:** 
+
+Across the spectrum of Devops activities, application deployment is one of the areas most in need of common understanding, a ubiquitous language and shared concepts. It's no coincidence that it's also an area that varies tremendously across the current IT landscape, from fully manual processes to examples of continuous release and deployment automation.
+With the volume of releases steadily increasing, it is important for us to understand what the future for deployment is, how we can improve it and how joined-up Devops thinking will help get it right.
+
+After sketching the current state of release and deployment across the industry, we'll take a look at how the development of deployment concepts and support infrastructure mirrors the evolution of the software build process. We'll examine some of the trade-offs that allowed build to go from a black box to a model-driven, flexible yet reliable process, and look at similar choices that are coming towards us in the deployment space.
+We'll discuss how an end-to-end Devops perspective will allow us to find a good balance between supporting between application flexibility and ease of release, deployment and management.
+
+Having talked about how deployment is *like* build, we'll finish off by envisioning a "cloudy" future in which deployment *is* the new build. We'll talk about preparing virtual appliances for rollout on hypervisors, IaaS and PaaS platforms and ask what continuous integration, verification, appliance testing etc. will look like in such an environment. 
+
+**Key "take-aways"**
+
+- Shared understanding of key concepts and a "ubiquitous language" for application deployment, and where it fits in the space of Devops activities
+- Awareness of what deployment currently looks like across the IT landscape
+- Vision of how deployment will develop in the future
+- Why joined-up Devops thinking is critical in getting deployment right 
+
+**Proposer:** Andrew Philips
