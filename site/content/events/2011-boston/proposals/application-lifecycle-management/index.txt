@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+author: Daniel Kushner
+title: Application Lifecycle Management
+---
+**Abstract:** "Applications have been deployed into data centers for decades, but only during 2010 did the world realize that the existing methods for application release deployment could not adapt to the changes
+occurring within the modern data center. 
+
+This talk covers the application lifecycle organizational transformation and how technologies and tools try to keep up with the rapid movement. I will discuss where the “big four” fail to deliver solutions to the new IT
+operational groups and why the application-centric approach is mandatory for a holistic solution to application deployment. You will learn what essential components accompany the application code from
+development to deployment, affording your organization with error-free, concise, and on-time releases."
+
+**Proposer:** Daniel Kushner - Noliosoft
