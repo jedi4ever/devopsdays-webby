@@ -13,5 +13,8 @@
 <td><a href="/presentations/"><center><img alt="presentations" title="presentations" src="/images/presentations.png"></a></center>
 <center><a href="/presentations/">Presentations</a></center></td>
 
+<td><a href="/blog/"><center><img alt="blog" title="blog" src="/images/blog.png"></a></center>
+<center><a href="/blog/">Blog</a></center></td>
+
 </table>
 </div>
