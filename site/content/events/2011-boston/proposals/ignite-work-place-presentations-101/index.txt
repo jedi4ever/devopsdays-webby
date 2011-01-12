@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 ignite: true
-author: Adam Moskowits
+author: Adam Moskowitz
 title: Workplace Presentations 101 for IT Professionals
 ---
 **Abstract:** I know that the rule for Ignite slots is "don't give a sales pitch," but
