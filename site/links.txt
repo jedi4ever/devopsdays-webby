@@ -1,0 +1,177 @@
+Meetups:
+========
+
+http://www.meetup.com/devops/ = Devops Chicago
+
+http://www.meetup.com/SVDevOps/ = Silicon Valley Devops
+
+http://www.meetup.com/nycdevops/ New Yost Devops
+
+http://www.meetup.com/devops-melbourne/ - Devops Melbourne
+
+http://www.meetup.com/DevOpsATL/ - Devops ATlanta
+
+http://www.meetup.com/vandevops/ - Vancouver Devops
+
+http://socaldevopsmeetup.eventbrite.com/
+
+San Francisco Bay Area DevOps Meetup!
+
+http://www.meetup.com/SiPMUG/ - Silicon Valley Puppet Master Users Group
+ 
+http://www.meetup.com/LAPMUG/ - Los Angeles Puppet Master User Group
+
+http://groups.google.com/group/madrid-devops - Madrid Devops
+
+http://berlindevops.org/ - Berlin Devops
+
+http://londondevops.org/ - London Devops
+
+London devops Curry Nights - http://bitfieldconsulting.com/currynights
+
+http://devops.fr/
+
+groups.google.com/group/pdxdevops - Portland, Oregon
+
+Lille - groups.google.com/group/lille-devops
+
+Paris - http://lanyrd.com/2011/paris-devops-meetup-2/
+
+Boston - http://www.thesimplelogic.com/boston-devops-meetups/
+http://microsoftcambridge.com/Events/BostonDevOpsMeetup/tabid/480/Default.aspx
+
+
+http://metalab.at/wiki/Devops_Meetup
+http://lists.metalab.at/mailman/listinfo/devops
+
+http://groups.google.com/group/devopsfr
+
+=====
+
+
+http://flv.thruhere.net/presentations/10-oct-lessonslearned.flv
+
+http://flv.thruhere.net/presentations/10-oct-continuousdelivery.flv
+
+http://flv.thruhere.net/presentations/10-oct-kanbanfishbowl.flv
+
+http://flv.thruhere.net/presentations/10-oct-squidwrangling.flv
+
+http://flv.thruhere.net/presentations/10-oct-runtimechanges.flv
+
+=====
+
+Images: 
+
+http://www.flickr.com/search/?q=devopsday
+
+http://www.slideshare.net/search/slideshow?lang=%2A%2A&page=2&q=devopsday&searchfrom=header&sort=relevance#
+
+
+Building Agile Infrastructures with Puppet (Teyo Tyree) - Devopsdays 09
+http://blip.tv/file/3023407/
+
+Non-Functional Requirements: do user stories really help? (Rachel Davies) - devopsdays 09
+http://blip.tv/file/3021957/
+
+
+Continuous Integration, Pipelines and Deployment (Chris Read) 
+http://blip.tv/file/3022239/
+
+Cucumber-nagios + Flapjack: rethinking monitoring for the cloud (Lindsay Holmwood
+http://blip.tv/file/3021653/
+
+Introducing Kanban in operations (Mattias Skarin)
+http://blip.tv/file/3022558/
+
+http://blip.tv/file/3023695/
+A private openQRM Cloud use-case for a developer team (Matthias Rechenburg) - devopsdays 09
+
+Devopsdays 09 - Is Everything a Freaking DNS Problem?
+http://blip.tv/file/2839737/
+
+Devopsdays 09 - Zen vs KVM?
+http://blip.tv/file/2839743/
+
+Automated Deployment With Chris Read of ThoughtWorks
+http://blip.tv/file/2839710/
+
+=============================================
+
+Video: http://www.infoq.com/presentations/infrastructure-as-code
+
+Summary: Automation is essential to DevOps. The infrastructure as code concept drives many of today’s cutting edge automaton techniques. What is it all about? Where are its limitations? 
+
+Bio: Theo Schlossnagle – OmniTI; Luke Kanies – Puppet Labs; Adam Jacob – Opscode; Erik Troan – rPath
+
+=============================================
+Video: http://www.infoq.com/presentations/changing-culture-to-enable-DevOps
+Title: Changing Culture to Enable DevOps
+Summary: Changing tools is easy when compared to changing people and processes. How can we cultivate an organization’s culture to identify and solve DevOps problems? 
+Bio : John Allspaw – Etsy; Lee Thompson – DTO Solutions; Israel Gat – The Agile Executive; Lloyd Taylor – Netelder Associates
+
+=============================================
+Does the Cloud Need DevOps? Does DevOps Need the Cloud?
+http://www.infoq.com/presentations/does-Cloud-need-DevOps
+
+Summary 
+Examining the role that cloud technologies can play in solving DevOps problems and the role that DevOps solutions can play in getting the most out of cloud technologies. 
+
+Bio 
+Benjamin Black; Adrian Cole – Jclouds; Justin Dean – Shopzilla; Joe Arnold – Cloudscaling
+
+=============================================
+
+http://www.infoq.com/presentations/DevOps-requires-visibility
+
+DevOps Requires Visibility: Monitoring, Testing and Performance
+
+Summary 
+Examining the role of monitoring and testing techniques in solving DevOps problems. 
+
+Bio 
+Jyoti Bansal – AppDynamics; Gareth Bowles – Appscio; Matt Ray – Zenoss; Eishay Smith – kaChing; Javier Soltero – SpringSource 
+
+=============================================
+
+
+http://www.infoq.com/presentations/DevOps-outside-Web-Operations
+DevOps outside of Web Operations
+
+Summary 
+Much of the public discussion about DevOps focuses on Web Operations. This panel is about taking the lessons of DevOps to other types of IT. 
+
+Bio 
+Adam Fletcher - ITA Software; Gene Kim – Tripwire; Michael Stahnke; James Turnbull – Puppet Labs
+
+=============================================
+
+
+http://www.infoq.com/presentations/Making-the-business-case
+
+Summary 
+We know that solving DevOps problems improves your business operations and improves the bottom line, but how do you do you explain that to your CEO or CFO? How do you get the executives to buy in and invest in DevOps solutions? 
+
+Bio 
+Kurt Milne – IT Process Institute; Jay Lyman – The 451 Group; Rolf Andrew Russell – ThoughtWorks; Jody Mulkey – Shopzilla
+
+==============================================
+http://www.infoq.com/presentations/DevOps-for-Business
+
+ummary 
+Stephen Nelson-Smith’s presentation is a case study and lessons learned by implementing Agile and Lean practices by both the development and operations team in an attempt to overhaul the entire development, testing, staging, and production process of a UK governmental website. 
+
+Bio 
+Stephen Nelson-Smith is the principle consultant at Atalanta Systems, an Agile Infrastructure consultancy, based in the South of England. He’s an experienced technical manager and solutions architect, passionate about DevOps making a real difference in business to provide a competitive advantage.
+
+==============================================
+http://www.infoq.com/presentations/Continuous-Delivery
+Summary 
+Jez Humble talks on the importance of Continuous Delivery for a business, outlining the foundational principles and practices to be implemented for a successful CD, explaining how to do continuous integration, various ways of testing, canary releasing, and migrating data. 
+
+Bio 
+Jez Humble is the product manager for the Go product at ThoughtWorks Studios and is co-author of “Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation.” He has worked as a developer, system administrator, trainer, consultant, manager, and more. He also has worked with a variety of platforms and technologies, consulting for a wide variety of organizations.
+
+
+====================================================
+
