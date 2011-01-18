@@ -8,10 +8,10 @@ dirty:      true
 ---
 <%= render(:partial => '/events/2011-boston/_menu') %>
 
-<h2>Note: these are only the proposals</h2>
-This page list the proposals we have received. It's a great way to express your interest or give feedback.
-<h3>Help the presenters with your feedback!</h3>
+This page list the proposals we have received. Help the presenters with your feedback! 
+ 
 
+<h3>**Note: these are only the proposals** .</h3>
 
 
 <% parent="/events/2011-boston/proposals" %>
@@ -24,7 +24,7 @@ This page list the proposals we have received. It's a great way to express your 
   articles.delete(@page)
   articles.each do |page|
 -%>
-<li><h3><%= link_to_page(page) %> - <%= page.author %> </h3>
+<li><%= link_to_page(page) %> - <%= page.author %> 
 <% end -%>
 </ol>
 
@@ -36,6 +36,6 @@ This page list the proposals we have received. It's a great way to express your 
   ignites.delete(@page)
   ignites.each do |ignite|
 -%>
-<li><h3><%= link_to_page(ignite) %> - <%= ignite.author %> </h3>
+<li><%= link_to_page(ignite) %> - <%= ignite.author %>
 <% end -%>
 </ol>

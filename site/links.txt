@@ -48,7 +48,6 @@ http://groups.google.com/group/devopsfr
 
 =====
 
-
 http://flv.thruhere.net/presentations/10-oct-lessonslearned.flv
 
 http://flv.thruhere.net/presentations/10-oct-continuousdelivery.flv
