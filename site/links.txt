@@ -66,7 +66,6 @@ http://www.flickr.com/search/?q=devopsday
 
 http://www.slideshare.net/search/slideshow?lang=%2A%2A&page=2&q=devopsday&searchfrom=header&sort=relevance#
 
-
 Building Agile Infrastructures with Puppet (Teyo Tyree) - Devopsdays 09
 http://blip.tv/file/3023407/
 
@@ -157,7 +156,7 @@ Kurt Milne – IT Process Institute; Jay Lyman – The 451 Group; Rolf Andrew Ru
 ==============================================
 http://www.infoq.com/presentations/DevOps-for-Business
 
-ummary 
+Summary 
 Stephen Nelson-Smith’s presentation is a case study and lessons learned by implementing Agile and Lean practices by both the development and operations team in an attempt to overhaul the entire development, testing, staging, and production process of a UK governmental website. 
 
 Bio 
