@@ -9,9 +9,13 @@ talk: true
 author: Harold Giménez
 title: Unleashing the elephant within
 ---
-**Abstract:** "In this talk we will look at what PostgreSQL has to offer as a back end for scalable web applications. The presentation will show how to efficiently use Postgres and it's features from an application development point of view, as well as the basics of configuring and tuning a Postgres server for OLTP loads.
+**Abstract:** "Historically there has been a disconnect between sysadmins and developers. This is especially true when it comes to databases: DBAs worry about database ops and maintenance, schema design, data consistency, profiling, availability and more. Developers worry more about application logic and data persistence. In this talk you will learn about doing many of the tasks that would make your DBA proud.
 
-This talk is interesting to people who have not had enough exposure to some of the advanced features of Postgres that set it apart from the crowd as more than a dumb data store."
+We will look at what PostgreSQL has to offer as a back end for scalable web applications. The presentation will show how to efficiently use Postgres and it's features from an application development point of view, as well as the basics of configuring and tuning a Postgres server for OLTP loads.
+
+This talk is interesting to people who have not had enough exposure to some of the advanced features of Postgres that set it apart from the crowd as more than a dumb data store.
+
+"
 
 **Proposer:** Harold Giménez - thoughtbot, inc.
 
