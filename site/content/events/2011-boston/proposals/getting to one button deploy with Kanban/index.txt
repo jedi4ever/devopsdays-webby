@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Dominica DeGrandis
+title: Getting to one button deploy using Kanban
+---
+**Abstract:**
+
+This presentation recounts the story of the evolution of the [Corbis](http://www.corbis.com) codebase, build and deployment approach and how Kanban affected the culture that led to significant improvements. It’s interesting because of the unintentional consequences the Configuration Management (Devops) team enjoyed being on the periphery of the development team implementing Kanban.
+
+- The transition from manually triggered builds to Continuous Integration.
+- The case for doing away with the three day post production freeze.
+- Codeline strategy - going from 6 branches to 2 branches.
+- Those tricky environment specific config settings
+- Weekend and holiday work reduced
+- Dude, It’s really not a configuration issue – How transparency changed mindsets.
+- So – just when can we upgrade SQLServer on the DB servers? 
+- From constant trouble shooting to actually having time to make improvements.
+
+
+**Proposer:** Dominica DeGrandis - David J. Anderson & Associates
+
