@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Vladimir Vuksan
+title: Deploying Yourself Into Happiness
+---
+**Abstract:** "In this presentation we intend talk about a successful deployment reengineering. We'll describe the deployment methodology prior to engineering than describe the process we came up with. Talk will include
+numerous examples, code snippets and anecdotes."
+
+[http://www.scribd.com/doc/35757228/Deploying-Yourself-Into-Happiness](http://www.scribd.com/doc/35757228/Deploying-Yourself-Into-Happiness)
+
+
+**Proposer:** Vladimir Vuksan
+

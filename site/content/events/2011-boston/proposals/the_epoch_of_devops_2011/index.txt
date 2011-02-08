@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Daniel Kushner
+title: The Epoch of Devops - 2011
+---
+**Abstract:** "Applications have been deployed into the data center for decades, but only during yesteryear did IT organizations realize that their application release deployment processes were not adaptable to the agile methodologies of their development counter parts. This talk covers the transformation that occurred within the application lifecycle and how technologies and tools try to keep up with the rapid movement. I will discuss where advancements in cloud and provisioning technologies assisted IT organizations as well as where they fail to apply an application-centric model for a holistic solution to application deployment."
+
+**Proposer:** Daniel Kushner - Noliosoft
+
+**During this talk, you will learn:**
+
+- What essential application release information is required during the hand-over between organization groups
+- What tools to use for various ITIL release types; Delta Release, Full Release, Package Release
+- What are the limitations of  VM and Cloud image based solutions in regards to application service management
+
+**Keywords:**
+
+- Devops (dah)
+- Application Release Automation
+- Application Lifecycle Management – ALM
+- ITIL Release Management

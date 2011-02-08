@@ -1,0 +1,31 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Oliver Hookins
+title: A new approach to application deployment and automation in Nokia
+---
+**Abstract:** 
+
+- I will attempt to discuss some of the problems we faced getting acceptance of usage of Puppet, Continuous Integration and Deployment and a DevOps mindset in a large traditionally-organised company.
+- How we are approaching deployment of many applications, often complex, lots of people attempting to contribute Puppet manifests/modules (not all of whom have a lot of training) without leading to massive breakage.
+- Some methods we are trying with respect to testing and continuous integration of our Puppet manifests/modules.
+- Our organization of our Puppet modules to allow for differential amounts of change and release frequency while keeping everyone happy.
+- Designing our configuration management platform for user acceptance and ease of use while keeping it stable.
+- How can configuration management and continuous integration/deployment coexist with change management/control.
+- Ultimately, the ingredients for success (IMHO) at implementing DevOps at a large company such as ours.
+
+I initiated two "open space" sessions at DevOpsDays in Hamburg last year to
+discuss issues surrounding:
+
+- Rigid change management in large companies, and how to make it more efficient or get rid of it altogether.
+- Management of configuration of different environments, how to encapsulate those configurations (packages, templates + variables etc) and how to adequately use these mechanisms in the developer + operations workflows.
+
+These sessions probably raised even more questions than they solved, but at least we have some progress since then and can comment on our solutions since DevOpsDays Hamburg (for anyone who has attended both). I would like to present the material based on what we have achieved by February, but also open the floor at the end for questions and suggestions for what could be done better.
+
+
+**Proposer:** Oliver Hookins - Nokia

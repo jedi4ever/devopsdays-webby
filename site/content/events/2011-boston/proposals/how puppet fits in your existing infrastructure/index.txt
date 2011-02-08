@@ -1,0 +1,30 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Garrett Honeycutt
+title: How Puppet fits in to your existing infrastructure
+---
+**Abstract:** "Intro to Puppet and configuration management, then discussing best practices for provisioning and how to tie Puppet in with your
+provisioning tools, managing packages and repositories, data storage and the myth of rolling back. Also speaking about Puppet integration with
+your own CMDB's (asset tracking, internal tools, etc).
+
+.. or ..
+
+I could do more of an Intro to Puppet and go into what the code looks like, how it all works, etc and spend less time on integration points, depending on what would be best for the community.
+
+
+**Proposer:** Garrett Honeycutt - Puppetlabs
+Garrett Honeycutt has been hacking *nix based systems and spreading the
+merits of open source software for over ten years. He began using Puppet
+in 2007 while building out a national carrier grade VoIP system.
+Previously he has worked on such things as building core internet
+infrastructure for an ISP and creating mobile media distribution platforms.
+
+[http://linkedin.com/in/garretthoneycutt](http://linkedin.com/in/garretthoneycutt)
+
+
