@@ -56,7 +56,8 @@ function initialize() {
 	
 	map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
     
-	
+
+	var losangeles2011=new google.maps.LatLng(33.945816 ,	-118.380282);	
   	var boston2011=new google.maps.LatLng(42.36080,-71.08250);
 	var goteborg2011=new google.maps.LatLng(57.69699 ,	11.98650);
 	var mountainview2011=new google.maps.LatLng(37.36725 ,	-122.02314);
@@ -76,6 +77,17 @@ function initialize() {
     	content: "Boston 2011 is happening at the Nerd Center. <a href='/2011-boston'>More</a>"
   	});
 
+	var losangelesmarker = new MarkerWithLabel({
+  		position: losangeles2011,
+  		draggable: false,
+  		raiseOnDrag: false,
+  		map: map,
+  		labelContent: "Los Angeles<br>February 25 2011",
+  		labelAnchor: new google.maps.Point(50, -5),
+  		labelClass: "labels", // the CSS class for the label
+  		labelStyle: {opacity: 1}
+	});
+	
 	var mountainviewmarker = new MarkerWithLabel({
   		position: mountainview2011,
   		draggable: false,
@@ -101,6 +113,8 @@ function initialize() {
 	<!--  	google.maps.event.addListener(bostonmarker, "click", function (e) { iw1.open(map, this); });-->
 	  	google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2011-boston"});
 	  	google.maps.event.addListener(goteborgmarker, "click", function (e) { location.href="/events/2011-goteborg"});
+	  	google.maps.event.addListener(losangelesmarker, "click", function (e) { location.href="http://www.socallinuxexpo.org/scale9x/special-events/devops-day-los-angeles"});
+
 	  	google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2011-mountainview"});
 
 
