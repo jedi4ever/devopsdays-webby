@@ -4,8 +4,8 @@ filter:
 - erb
 - markdown
 dirty: true
-proposal: true
-talk: true
+proposal: false
+talk: false
 author: Oliver Hookins
 title: A new approach to application deployment and automation in Nokia
 ---
