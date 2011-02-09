@@ -1,0 +1,20 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Kit Plummer
+title: Enable devops success
+---
+**Abstract:** "If DevOps indeed is a cultural paradigm of trust bridging the development and operations functions of a software service organization then there are a few derived requirements essential to enabling such a thing. Testing is the most important requirement of them all. 
+
+Quality assurance, regardless of it being its own entity or not, is the "greased skid" that enables successful DevOps. Quality assurance, in automated form, is the proof that is foundational to the trust that enables confidence in both sides. Testing of both functional and non-functional features (e.g. security, performance, scalability, etc.) is critical to driving confidence and trust in the product/service.  So, it is imperative that both development and operations shops take a more active role in how quality assurance is defined and executed. 
+
+This may not be as much of a culture shift as development and operations simply collaborating early - but, my talk will discuss the why's and how's of a more agile quality assurance approach that includes dev and ops.
+
+"
+
+**Proposer:** Kit Plummer - MaestroDev

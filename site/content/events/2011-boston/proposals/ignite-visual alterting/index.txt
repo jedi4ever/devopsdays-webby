@@ -1,0 +1,24 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Dan Rowe
+title: Red Dots Are Bad - Visual Alerting
+---
+
+ 
+###<i>AKA: If you want their attention flash the Devs.</i>
+
+**Abstract:**
+
+Discuss the advantages of visual alerting and monitoring to easily notify Ops and Devs of issues in the Deployment and Hosting System.
+
+We found that by adding visual alerting on NOC style monitors we were able to more effectively react to issues when they occurred.
+
+Basic web/gui/flash interfaces were much more useful than longer term trending graphs and the normal type of things you might find on NOC screens.
+
+**Proposer:** Dan Rowe - CSN Stores
