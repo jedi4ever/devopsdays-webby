@@ -1,0 +1,25 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Rolf Andrew Russell
+title: Continuous Deployment
+---
+**Abstract:** 
+
+Most of us live in a world where production releases are risky, where we don't have confidence in success because there is a history of mistakes.  This means that we slow things down to be safer, we are less reactive to business and market desires, and yet we still have production failures.  Continuous Delivery is a set of principles and practices that aim to address this situation and get to a better world where:
+
+- Code is always production releasable.  You can press the button anytime it makes business sense to do so.
+- The cycle time from idea to production is focused on as a key metric and minimized
+- Rapid feedback drives process, whether from automated testing or real users or where-ever 
+- People have confidence in production and production releases.   Issues are rare and/or can be resolved in minutes.
+- The business views IT as reactive and fast and reliable
+
+This talk will discuss how to achieve Continuous Delivery through systems thinking, heavy automation, pipelining, minimizing work in progress and other techniques.  The fundamental premise is that you need to look at the whole path to production, from development through testing and into production to achieve Continuous Delivery.  The talk takes its name from the book by Jez Humble and Dave Farley, which does an excellent job of laying out many of the approaches.
+
+
+**Proposer:** Rolf Andrew Russell - Thoughtworks

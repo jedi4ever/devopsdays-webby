@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Peter Walsh
+title: Beyond Virtual Machines 
+---
+
+**Abstract:**
+
+Virtual machines make devops happen but there are even more types of resources - virtual services, appliances, bare metal - that can be incorporated into the work flow to enable better development, more thorough testing and smoother operations.
+
+**Proposer:** Peter Walsh - NPLACE

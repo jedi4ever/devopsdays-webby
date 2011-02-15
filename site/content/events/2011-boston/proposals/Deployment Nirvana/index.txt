@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Vincent Partington
+title: Deployment nirvana - what is it and how do I get there?
+---
+**Abstract:** 
+
+You're a middleware administrator and you've had it with manually deploying your apps? Or maybe you're a developer that is tired of waiting for the middleware guys to deploy your new apps? In any case, you are ready to do it automatically! So what will you face before you reach deployment nirvana? You might need to convince a few managers about the business benefits of deployment automation. You'll have to talk to (other) developers, (other) middleware administrators, and network administrators to get all the information you need. But they might need some convincing too. You'll have to define a standard deployment procedure to automate something, but how do you keep the necessary flexibility? And we haven't even discussed the technical hurdles you will be facing!
+
+In this presentation I will present my experiences implementing deployment automation at a number of different clients. I will show you the business value of deployment automation (surprisingly it's usually not in deployments to production environments!). I will talk about packaging your application to make it easier to deploy (we need some standards here!). Finally I will talk about the different technical approaches to deployment automation that are now emerging. And finally, I'll show you that deployment automation can be more than just a time saver. It allows you to do all kinds of cool things that were not possible before, such as self-service deployments and continuous deployment!
+
+
+**Proposer:** Vincent Partington - Xebialabs
+
+**Key "take-aways":**
+
+* Overview of the business, organization and technical aspects of a deployment automation solution.
+* Awareness of the business value of deployment automation and the ability to calculate it for yourself.
+* Understanding of the different groups in an organization that need to be involved.
+* Insight into the myriad of technical approaches and their pros and cons.
+

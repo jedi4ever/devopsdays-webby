@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Peter Walsh
+title: The Micro-Lifespan
+---
+
+**Abstract:**
+
+A talk about the great value in short, repeatable life spans for systems and how that supports rather than contradicts ops requirements. Fried not only tastes good but is good for you.
+
+**Proposer:** Peter Walsh - NPLACE

@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Peter Walsh
+title: Devops in the Government - The Good, The Bad and The Ugly 
+
+---
+**Abstract:** 
+
+Our team is building a toolset to enable & support devops across an enterprise while at the same time (trying) to employ devops best practices. Just to make it more interesting, we have to make this work inside Government environment, culture and processes. The presentation will share some of the things we have and have not been able to accomplish and where we are headed next. While a few of the issues are Government specific, most will map to corporations and regulated industries. 
+
+**Proposer:** Peter Walsh - NPLACE - WVHTC Foundation
