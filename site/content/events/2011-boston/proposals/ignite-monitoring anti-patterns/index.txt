@@ -1,0 +1,23 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Alexis Lê-Quôc
+title: monitoring anti-patterns
+---
+
+**Abstract:**
+about what *not* to do to monitor web services, mostly because the tools widely available are based on dated assumptions.
+ 
+Anti-patterns:
+
+- present all data at once, organize them statically
+- monitoring graphs are like modern art
+- each system, each application is like a snowflake, unique
+- Monitoring is for ops only
+
+**Proposer:** Alexis Lê-Quôc

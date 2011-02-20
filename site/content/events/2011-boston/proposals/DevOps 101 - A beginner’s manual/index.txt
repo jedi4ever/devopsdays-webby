@@ -1,0 +1,40 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Jim Ensell
+title: DevOps 101 - A beginner’s manual
+---
+**Abstract:** 
+
+Perhaps the biggest driver of DevOps is the growing popularity of Agile development processes. Successful Agile projects
+depend on developers getting prompt, accurate information about business needs, deployment requirements, and defects. This is putting pressure on organizations to team software developers with the operations engineers who provision, monitor, manage, support, and troubleshoot the development team’s software.
+
+So how close is your organization to adopting a DevOps model? This presentation will explain everything you need to get started. It will delve into the 4 main characteristics of a DevOps-ready organization:
+
+1. Cross-departmental collaboration of all stakeholders in an information-sharing environment.
+2. Design and development based on operational input.
+3. Iterative deployment processes.
+4. Continuous improvement.
+
+It will also examine the business impact of deploying DevOps solutions
+including:
+
+1. Faster time-to-market.
+2. Better software.
+3. Smoother operations.
+4.Increased productivity.
+
+Attendees will come away from this presentation with practical, strategic goals for adopting DevOps. They’ll learn how to make the
+most of Agile development and Cloud computing, look for ways to integrate departments, share information, and create repeatable,
+collaborative processes that scale from the workgroup to the enterprise.
+
+Proposed Speaker: 
+
+
+**Proposer:** Jim Ensell, chief marketing and strategy officer, CollabNet
+

@@ -1,0 +1,24 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Robin Slomkowski
+title: Service Orient Architecture - How to make your organization support agile delivery teams.
+
+---
+
+**Abstract:** 
+
+- Why small teams work better 6-8 for full end to end responsibility
+- SaaS vs PaaS vs IaaS, using industry buzzwords for management support in building devops style teams
+- Scaling out and relying on others: define your interfaces and earn trust
+- Organizational Architecture should align with software/solution architecture
+- Do one thing well: the modular approach to teams and services
+- Putting it Together: defining application architecture around deployment teams
+- Why this leads to better automation: script yourself out of a job!
+
+**Proposer:** Robin Slomkowski - Nokia

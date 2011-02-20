@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Jesse Robins
+title: DevOps Culture Hacks - Infecting your Boss & your Business with awesome
+---
+**Abstract:** 
+
+In this fast-paced talk, Jesse will explain how to introduce DevOps to your Boss & talk about it inside your Business.   He will explain how to evangelize & overcome cultural resistance to change (& share his own painfully funny lessons on how not to do it ;-).  Jesse will teach you just enough Business Speak to be dangerous while you infect your organization with awesome, make your job better, and get more done.
+
+
+**Proposer:** Jesse Robbins - Opscode
+
