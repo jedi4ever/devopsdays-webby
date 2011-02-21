@@ -1,0 +1,25 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Mitchell Hashimoto
+title: Scaling local development with devops
+---
+**Abstract:** 
+
+Historically, operations teams have been in charge of maintaining staging and production infrastructure. And even as the barrier between development and operations breaks down, local development is still an almost entirely manual process. This separation occurs because infrastructure is meant to be setup on server operating systems, which usually don't match up with a developer's OS, and maintaining the infrastructure configuration to work on both is neither practical nor efficient.
+
+This introduces a variety of problems, both for the development team and for the operations team. Developers are forced to manually setup infrastructure to "best match" production, which can lead to bugs in production where the blame falls on operations. More importantly, scaling your development team becomes difficult, as each new hire needs to setup the local infrastructure.
+
+A simple question to ask is: If we're spending so much time automating our infrastructure setup, why aren't we using this to also setup development infrastructure? Doing so introduces numerous benefits: Developers work hand-in-hand with operations, testing the operations setup, as well as working in an environment which directly and nearly identically mimics production.
+
+In this talk I'll explain the problems stemming from the lack of DevOps practices being used in development environments, and how working in virtualized environments provisioned with the same tools as production solves these issues. I'll then introduce the tools, most notably Vagrant (vagrantup.com), which enable developers to work in virtualized environments provisioned with Chef, Puppet, or any other configuration management utility. I'll also show how this can be integrated with minimal interference to a developer's daily workflow.
+
+With this knowledge in hand, it becomes painless to scale local development, thanks to DevOps practices
+
+**Proposer:** Mitchell Hashimoto
+
