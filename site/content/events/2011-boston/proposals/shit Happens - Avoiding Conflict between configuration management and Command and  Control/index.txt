@@ -1,0 +1,31 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Alex Honor
+title: Sh#% Happens - Avoiding the Conflict Between Configuration Management and Command and Control
+---
+**Abstract:** 
+
+Operations has to live in two modes. You have to be able to deal with well planned changes (often originating in Development) AND react to the unknown. Unfortunately, our favorite tools emphasize one of these activities or the other. 
+
+Configuration Management tools like Chef, Puppet, or Cfengine employ a convergence strategy that is best suited for building up permanent processes. They are your blueprint, your spec, the way you want to stamp things out. Configuration Management tools also encourage proactive behavior because time invested in the tools promises to pay out increasing dividends.
+
+Command & Control activity is what you have to do when reacting to incidents as they come up and are engaging in classic sysadmin firefighting. This is often the kind of activity that you want to jump onto a command prompt and do. However, in a world of increasingly larger and more dynamic infrastructure you'll need tools to help you. Tools like MCollective, Rundeck, or home-built parallel SSH tools are made for this kind of Command & Control activity.
+
+Successfully solving your DevOps problems means successfully combining the use of BOTH types of tools.   But how do you stop one type of tool from clobbering the other? How do you bridge the two concepts? How do you integrate the implementation of both into one cohesive strategy for your organization?
+
+This talk will cover:
+
+- Why Configuration Management vs. Command & Control is the "silent killer" between Development and Operations
+- Understanding the philosophies and automation strategies behind Configuration Management and Command & Control
+- How to make Configuration Management and Command & Control tools interoperate
+- Practical strategies used at some of the fastest growing and largest properties on the web
+
+
+**Proposer:** Alex Honor - DTO Solutions
+
