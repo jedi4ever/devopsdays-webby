@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Dave Connors
+title: Evolution of Agile Ops
+---
+**Abstract:**
+
+This is the story of how Agile Ops has developed at Constant Contact.  Agile started at Constant Contact in development which adopted Scrum practices.  The handoffs to Operations soon turned out to be problematic, so Ops decided to adopt Scrum as well, but faced several challenges as it was not conducive to track all types of Ops work.  Improvements were made in cross-team planning and dependency management to include Ops earlier and to account for Ops' other demand based work.  However, that process then became unwieldy, especially as the number of Dev and Ops teams grew.  
+
+
+Drawing heavily from Kanban practices, an Ops Planning Group (OPG) was formed to improve coordination within and outside Ops. To ensure that planning was done early and often enough, Ops worked with product management and development to create a prioritized list of projects.  The list was based on business value and assigned three leads(Product, Dev, Ops) to all prioritized projects.  To facilitate DevOps coordination and communication, OPG has developed new processes including the non-functional checklist, chit allocation and Ops single point of contact.  On the technological side, implementing configuration management and deployment automation has helped reduce our deployment risks.  You will hear about our journey, improvements made, and lessons learned in our goal to address and lessen the DevOps gap in our organization.
+
+**Proposer:** Dave Connors - ConstantConstant

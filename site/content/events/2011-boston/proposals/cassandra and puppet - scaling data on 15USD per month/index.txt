@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-author: Dave Conners
+author: Dave Connors
 title: Cassandra and Puppet - Scaling data on 15USD per month
 ---
 **Abstract:** 
@@ -37,5 +37,5 @@ How we use Puppet to manage NoSQL
 * Ability to add new monitoring; advantages of applying 1 thing to 72 node
 * Config example
 
-**Proposer:** Dave Conners - Constant Constant
+**Proposer:** Dave Connors - Constant Constant
 
