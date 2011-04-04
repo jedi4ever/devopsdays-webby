@@ -3,7 +3,6 @@ extension: html
 filter:    
 - erb
 - markdown
-dirty: true
 proposal: true
 ignite: true
 author: Peter Walsh

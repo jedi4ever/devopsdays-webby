@@ -3,9 +3,9 @@ extension: html
 filter:    
 - erb
 - markdown
-dirty: true
 proposal: true
 ignite: true
+igniteselected: true
 author: Dave Connors
 title: Evolution of Agile Ops
 ---

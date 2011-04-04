@@ -3,9 +3,9 @@ extension: html
 filter:    
 - erb
 - markdown
-dirty: true
 proposal: true
 ignite: true
+igniteselected: true
 author: Damon Edwards
 title: Is DevOps About to Jump the Shark?
 ---
@@ -14,3 +14,5 @@ title: Is DevOps About to Jump the Shark?
 By definition, all movements come to an end. Some burn bright. Some are a mild whisper. Some are gone in a flash. Some last for years. But at some point they all "Jump the Shark" and decline into irrelevance. We've had 6 DevOps Days, numerous meetups, and an endless stream of #DevOps tweets... but have we done enough to reach escape velocity and push DevOps to the next level? Or are we near the peak that leads DevOps into an inevitable downward drift towards IT oblivion? I'll tell you why I think DevOps is in a precarious position and how we all share the burden of keeping DevOps from Jumping the Shark.
 
 **Proposer:** Damon Edwards - DTO Solutions
+
+**Slides:** [http://www.slideshare.net/dev2ops/will-devops-jump-the-shark](http://www.slideshare.net/dev2ops/will-devops-jump-the-shark)

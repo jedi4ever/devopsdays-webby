@@ -56,38 +56,19 @@ function initialize() {
 	
 	map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
     
-
+	<!-- http://itouchmap.com/latlong.html -->
 	var losangeles2011=new google.maps.LatLng(33.945816 ,	-118.380282);	
   	var boston2011=new google.maps.LatLng(42.36080,-71.08250);
 	var goteborg2011=new google.maps.LatLng(57.69699 ,	11.98650);
 	var mountainview2011=new google.maps.LatLng(37.36725 ,	-122.02314);
-
-	var bostonmarker = new MarkerWithLabel({
-  		position: boston2011,
-  		draggable: false,
-  		raiseOnDrag: false,
-  		map: map,
-  		labelContent: "Boston<br>7 & 8 March 2011",
-  		labelAnchor: new google.maps.Point(30, 65),
-  		labelClass: "labels", // the CSS class for the label
-  		labelStyle: {opacity: 1}
-	});
+	var sydney2011=new google.maps.LatLng(-33.868901,151.207091);
+	var bangalore2011=new google.maps.LatLng(12.971599,77.594563);
+	
 
   	var iw1 = new google.maps.InfoWindow({
     	content: "Boston 2011 is happening at the Nerd Center. <a href='/2011-boston'>More</a>"
   	});
 
-	var losangelesmarker = new MarkerWithLabel({
-  		position: losangeles2011,
-  		draggable: false,
-  		raiseOnDrag: false,
-  		map: map,
-  		labelContent: "Los Angeles<br>February 25 2011",
-  		labelAnchor: new google.maps.Point(50, -5),
-  		labelClass: "labels", // the CSS class for the label
-  		labelStyle: {opacity: 1}
-	});
-	
 	var mountainviewmarker = new MarkerWithLabel({
   		position: mountainview2011,
   		draggable: false,
@@ -109,12 +90,32 @@ function initialize() {
   		labelClass: "labels", // the CSS class for the label
   		labelStyle: {opacity: 1}
 	});
+	
+	var sydneymarker = new MarkerWithLabel({
+  		position: sydney2011,
+  		draggable: false,
+  		raiseOnDrag: false,
+  		map: map,
+  		labelContent: "Sydney <br>August 2011",
+  		labelAnchor: new google.maps.Point(30, 65),
+  		labelClass: "labels", // the CSS class for the label
+  		labelStyle: {opacity: 1}
+	});
 
-	<!--  	google.maps.event.addListener(bostonmarker, "click", function (e) { iw1.open(map, this); });-->
-	  	google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2011-boston"});
+	var bangaloremarker = new MarkerWithLabel({
+  		position: bangalore2011,
+  		draggable: false,
+  		raiseOnDrag: false,
+  		map: map,
+  		labelContent: "Bangalore <br>September 2011",
+  		labelAnchor: new google.maps.Point(30, 65),
+  		labelClass: "labels", // the CSS class for the label
+  		labelStyle: {opacity: 1}
+	});
+	  
+		google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="/events/2011-sydney"});
+		google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="/events/2011-bangalore"});
 	  	google.maps.event.addListener(goteborgmarker, "click", function (e) { location.href="/events/2011-goteborg"});
-	  	google.maps.event.addListener(losangelesmarker, "click", function (e) { location.href="http://www.socallinuxexpo.org/scale9x/special-events/devops-day-los-angeles"});
-
 	  	google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2011-mountainview"});
 
 

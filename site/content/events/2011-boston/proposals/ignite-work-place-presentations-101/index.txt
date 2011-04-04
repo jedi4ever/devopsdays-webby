@@ -3,9 +3,9 @@ extension: html
 filter:    
 - erb
 - markdown
-dirty: true
 proposal: true
 ignite: true
+igniteselected: true
 author: Adam Moskowitz
 title: Workplace Presentations 101 for IT Professionals
 ---

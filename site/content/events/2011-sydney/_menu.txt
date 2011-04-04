@@ -1,5 +1,6 @@
 <div class="submenu">
 <h3>
 <a href="/events/2011-sydney/">welcome</a>&nbsp;
+<a href="/events/2011-sydney/contact">contact</a>&nbsp;
 </h3>
 </div>

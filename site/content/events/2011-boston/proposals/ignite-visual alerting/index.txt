@@ -3,10 +3,10 @@ extension: html
 filter:    
 - erb
 - markdown
-dirty: true
 proposal: true
 ignite: true
 author: Dan Rowe
+igniteselected: true
 title: Red Dots Are Bad - Visual Alerting
 ---
 

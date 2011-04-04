@@ -1,8 +1,8 @@
 <div class="submenu" style="width:550px">
 <h3>
-<a href="http://www.socallinuxexpo.org/scale9x/special-events/devops-day-los-angeles">Los Angeles</a>&nbsp;- 
-<a href="/events/2011-boston/">Boston</a>&nbsp;- 
 <a href="/events/2011-mountainview/">Mountain View</a>&nbsp;-
+<a href="/events/2011-sydney/">Sydney</a>&nbsp;-
+<a href="/events/2011-bangalore/">Bangalore</a>&nbsp;-
 <a href="/events/2011-goteborg/">Goteborg</a>
 </h3>
 </div>
