@@ -74,7 +74,7 @@ function initialize() {
   		draggable: false,
   		raiseOnDrag: false,
   		map: map,
-  		labelContent: "Mountain View <br>June 2011",
+  		labelContent: "Mountain View <br>17 & 18 June 2011",
   		labelAnchor: new google.maps.Point(30, 65),
   		labelClass: "labels", // the CSS class for the label
   		labelStyle: {opacity: 1}
@@ -96,7 +96,7 @@ function initialize() {
   		draggable: false,
   		raiseOnDrag: false,
   		map: map,
-  		labelContent: "Sydney <br>August 2011",
+  		labelContent: "Sydney <br>22 & 23 June 2011",
   		labelAnchor: new google.maps.Point(30, 65),
   		labelClass: "labels", // the CSS class for the label
   		labelStyle: {opacity: 1}
@@ -113,7 +113,7 @@ function initialize() {
   		labelStyle: {opacity: 1}
 	});
 	  
-		google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="/events/2011-sydney"});
+		google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="http://devopsdownunder.org/"});
 		google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="/events/2011-bangalore"});
 	  	google.maps.event.addListener(goteborgmarker, "click", function (e) { location.href="/events/2011-goteborg"});
 	  	google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2011-mountainview"});

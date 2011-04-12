@@ -1,0 +1,11 @@
+<div class="submenu">
+<h3>
+<a href="/events/2011-mountainview/">welcome</a>&nbsp;
+<a href="/events/2011-mountainview/program">program</a>&nbsp; 
+<a href="/events/2011-mountainview/location">location</a>&nbsp; 
+<a href="/events/2011-mountainview/contact">contact</a>&nbsp;
+<a href="/events/2011-mountainview/registration">register</a>&nbsp
+<a href="/events/2011-mountainview/proposals">proposals</a>&nbsp
+<a href="/events/2011-mountainview/sponsor">sponsor</a>
+</h3>
+</div>
