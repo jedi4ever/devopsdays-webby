@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Jeffrey Hulten
+title: Behavior Driven Infrastructure
+---
+**Abstract:** 
+
+Agile brought us test-driven development. DevOps brought us configuring infrastructure as code. If we are coding infrastructure, shouldn't we write tests first? This talk shows how to use Ruby and a testing framework called Cucumber to test the configurations you deploy, ensuring that what is being done matches your intent. We will start with a introduction to Cucumber and the Gherkin test dialect, then dive into writing tests for your systems.
+
+This is primarily a demo-driven talk.
+
+
+**Proposer:** Jeffrey Hulten - Automated Labs

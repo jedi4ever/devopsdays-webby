@@ -1,0 +1,30 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Ashley Owen
+title: Breaking Down the Wall Between Development and Operations 
+---
+**Abstract:** 
+
+A wall has existed between development and operations since the inception of computing. Operations is responsible for protecting the IT infrastructure and making sure that computers, software and applications are available and running smoothly, while it’s development’s job to bring change to the environment by modifying existing applications and creating new releases for the business. Historically, these two groups have not worked well together as the nature of their jobs are diametrically opposed. 
+
+With the introduction of the Web and adoption of smart phones growing at an exponential rate, the computing environment is dramatically changing. Operations and development can no longer afford to function separately from one another. This new environment has created the need for a new approach to release management. This session will explore which tools are best for enabling devops to stay current with regulation and meet business demand. 
+
+**Key Takeaways:**
+
+Attendees will learn:
+
+- How development and operations teams can work together to deploy the right devops tools to deliver the application changes that organizations need to stay competitive 
+- The importance of business process driven release planning and control
+- The need for application-centric automation and how this approach minimizes human error and can reduce release deployment time by 90 percent
+- How to tear down the wall between development and operations
+
+
+**Proposer:** Ash Owen, Director of Orchestrated ALM Strategy at Serena Software
+
+Ash Owen is the Director of Orchestrated ALM Strategy at Serena Software. With over 20+ years in the industry, both in EMEA and the Americas, Ash is considered an authority on orchestrating the disciplines, practices and processes of Application Lifecycle Management across multiple industries with particular emphasis on Demand, Development and Deployment. With successful track records in a variety of roles across development, customer support, product management and marketing, Ash leads the design and development of orchestrated ALM that drives efficiency, productivity and automation across the application lifecycle, from demand to deployment.
