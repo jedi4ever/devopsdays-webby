@@ -26,4 +26,46 @@ Having talked about how deployment is *like* build, we'll finish off by envision
 - Vision of how deployment will develop in the future
 - Why joined-up Devops thinking is critical in getting deployment right 
 
-**Proposer:** Andrew Philips
+**Speaker:** Andrew Philips
+
+<div>
+<!-- Start of Brightcove Player -->
+
+<div style="display:none">
+
+</div>
+
+<!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C 
+found at https://accounts.brightcove.com/en/terms-and-conditions/. 
+-->
+
+<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
+<object id="myExperience915354630001" class="BrightcoveExperience">
+  <param name="bgcolor" value="#FFFFFF" />
+  <param name="width" value="480" />
+  <param name="height" value="270" />
+
+  <param name="playerID" value="831686916001" />
+  <param name="playerKey" value="AQ~~,AAAAwXeOKzE~,gDtKhDWZs1sPjB37DFykmXTwNJL_QzPW" />
+  <param name="isVid" value="true" />
+  <param name="isUI" value="true" />
+  <param name="dynamicStreaming" value="true" />
+  
+  <param name="@videoPlayer" value="915354630001" />
+</object>
+
+<!-- 
+This script tag will cause the Brightcove Players defined above it to be created as soon
+as the line is read by the browser. If you wish to have the player instantiated only after
+the rest of the HTML is processed and the page load is complete, remove the line.
+-->
+<script type="text/javascript">brightcove.createExperiences();</script>
+
+<!-- End of Brightcove Player -->
+
+</div>
+
+<div><div style="width:425px" id="__ss_7227626"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/apwashere/deployment-is-the-new-build" title="Deployment is the new build">Deployment is the new build</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/7227626" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/apwashere">Andrew Phillips</a> </div> </div>
+</div>

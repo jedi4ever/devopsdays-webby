@@ -6,6 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
+selected: true
 author: Jesse Robins
 title: DevOps Culture Hacks - Infecting your Boss & your Business with awesome
 ---
@@ -13,6 +14,44 @@ title: DevOps Culture Hacks - Infecting your Boss & your Business with awesome
 
 In this fast-paced talk, Jesse will explain how to introduce DevOps to your Boss & talk about it inside your Business.   He will explain how to evangelize & overcome cultural resistance to change (& share his own painfully funny lessons on how not to do it ;-).  Jesse will teach you just enough Business Speak to be dangerous while you infect your organization with awesome, make your job better, and get more done.
 
+**Speaker:** Jesse Robbins - Opscode
 
-**Proposer:** Jesse Robbins - Opscode
+[<a href="http://devops.com/2011/03/08/devops-culture-hacks/">Blogpost</a>]
 
+<!-- Start of Brightcove Player --> 
+ 
+<div style="display:none"> 
+ 
+</div> 
+ 
+<div>
+<!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C 
+found at https://accounts.brightcove.com/en/terms-and-conditions/. 
+--> 
+ 
+<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script> 
+ 
+<object id="myExperience929572957001" class="BrightcoveExperience"> 
+  <param name="bgcolor" value="#FFFFFF" /> 
+  <param name="width" value="480" /> 
+  <param name="height" value="270" /> 
+  <param name="playerID" value="831686916001" /> 
+  <param name="playerKey" value="AQ~~,AAAAwXeOKzE~,gDtKhDWZs1sPjB37DFykmXTwNJL_QzPW" /> 
+  <param name="isVid" value="true" /> 
+  <param name="isUI" value="true" /> 
+  <param name="dynamicStreaming" value="true" /> 
+  
+  <param name="@videoPlayer" value="929572957001" /> 
+</object> 
+ 
+<!-- 
+This script tag will cause the Brightcove Players defined above it to be created as soon
+as the line is read by the browser. If you wish to have the player instantiated only after
+the rest of the HTML is processed and the page load is complete, remove the line.
+--> 
+<script type="text/javascript">brightcove.createExperiences();</script> 
+ 
+<!-- End of Brightcove Player -->
+
+</div>
