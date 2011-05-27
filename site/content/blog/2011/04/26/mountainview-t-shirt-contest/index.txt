@@ -16,7 +16,12 @@ In order to make the voting period safe, we'll be collecting submissions up to M
 
 Note, based on feedback from previous events we're going to go with black/dark-colored t-shirts.  Please ensure your designs accommodate.
 
-## Submitting Your Design
+## Submit an Idea
+Even if you're not a great artist, you can still think of a great tagline !
+
+<b><a href="http://devopsdays.uservoice.com/forums/113611-t-shirt-design-ideas-for-devopsdays-mountain-vie">Submit your idea here</a></b>
+
+## Submitting A design
 Please use [this template](tshirt-template.png) when you submit your design to us - along with full-scale artwork.
 
 ## Questions/Comments
