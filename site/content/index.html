@@ -61,7 +61,7 @@ function initialize() {
   	var boston2011=new google.maps.LatLng(42.36080,-71.08250);
 	var goteborg2011=new google.maps.LatLng(57.69699 ,	11.98650);
 	var mountainview2011=new google.maps.LatLng(37.36725 ,	-122.02314);
-	var sydney2011=new google.maps.LatLng(-33.868901,151.207091);
+	var melbourne2011=new google.maps.LatLng(-37.810371,144.969509);
 	var bangalore2011=new google.maps.LatLng(12.971599,77.594563);
 	
 
@@ -91,12 +91,12 @@ function initialize() {
   		labelStyle: {opacity: 1}
 	});
 	
-	var sydneymarker = new MarkerWithLabel({
-  		position: sydney2011,
+	var melbournemarker = new MarkerWithLabel({
+  		position: melbourne2011,
   		draggable: false,
   		raiseOnDrag: false,
   		map: map,
-  		labelContent: "Sydney <br>22 & 23 June 2011",
+  		labelContent: "Melbourne <br>22 & 23 June 2011",
   		labelAnchor: new google.maps.Point(30, 65),
   		labelClass: "labels", // the CSS class for the label
   		labelStyle: {opacity: 1}
@@ -113,7 +113,7 @@ function initialize() {
   		labelStyle: {opacity: 1}
 	});
 	  
-		google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="http://devopsdownunder.org/"});
+		google.maps.event.addListener(melbournemarker, "click", function (e) { location.href="http://devopsdownunder.org/"});
 		google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="/events/2011-bangalore"});
 	  	google.maps.event.addListener(goteborgmarker, "click", function (e) { location.href="/events/2011-goteborg"});
 	  	google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2011-mountainview"});

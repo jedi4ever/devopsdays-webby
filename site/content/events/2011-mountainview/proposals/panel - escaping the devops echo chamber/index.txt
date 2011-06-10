@@ -1,0 +1,25 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Damon Edwards
+title: Panel - Escaping the DevOps Echo Chamber
+---
+*Panel discussion*
+
+How the DevOps movement can gain momentum within the traditional IT ecosystem and more conservative enterprise shops. 
+
+_Moderator_: Damon Edwards (DTO Solutions)
+
+_Panel Members:_
+
+- Gene Kim 
+- Ernest Mueller (National Instruments)
+- Lee Thompson (HP)
+- Tom Grant (Forrester Research)
+- John Christian (TSYS)
+- Jez Humble (Thoughtworks)

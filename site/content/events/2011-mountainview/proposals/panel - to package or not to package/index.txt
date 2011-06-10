@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Kris Buytaert
+title: Panel - To Package or not to Package - Cutting Edge Software Distribution
+---
+*Panel discussion*
+
+To Package, or not to package that's the question.
+To package, but what to package that's another question ?
+Thy shalt not package config files ! 
+Didn't we already decide the yak would be painted green last decade ? 
+But what about all the new stuff like fpm ..   And what about Ruby ? "
+
+_Moderator_: Kris Buytaert (Inuits)
+
+_Panel Members:_
+
+- Jordan Sissel (Loggly)
+- Joshua Timberman (Opscode)
+- Phil Hollenback (Yahoo Mail)
+- Noah Campbell (DTO Solutions)

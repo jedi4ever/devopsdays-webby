@@ -1,0 +1,26 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: John E. Vincent
+title: Panel - DevOps.. Where is the QA
+---
+*Panel discussion*
+
+We're an inch away from automating everything.
+We test everything and yet, increasingly, the role
+of traditional QA has changed.
+Is it time to redefine or even discard the role of QA?
+
+_Moderator_: John E. Vincent
+
+_Panel Members:_
+
+- Kit Plummer (Maestrodev)
+- Pascal-Louis Perez (wealthfront)
+- John Allspaw (Etsy)
+- Greg Albrecht (Splunk)

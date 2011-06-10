@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: John Willis
+title: Panel - Orchestration at Scale - Command and Control Strategies
+---
+*Panel discussion*
+
+You started out with 10 machines and now you have 10000.
+Beyond contemporary configuration management and 'ssh in a for loop',
+How do you describe, interact with and coordinate actions at scale?
+How does truth differ from reality?
+
+_Moderator_: John Willis (DTO Solutions)
+
+_Panel Members:_
+
+- John Vincent (Noah) 
+- Alex Honor (DTO Solutions - RunDeck)
+- Blake Mizereny (Doozer) 
+- Yan Pujante (LinkedIn)
+- James Turnbull (PuppetLabs - mcollective)

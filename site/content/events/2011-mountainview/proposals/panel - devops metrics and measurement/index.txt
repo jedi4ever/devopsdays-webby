@@ -1,0 +1,25 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: John Allspaw
+title:  Panel - DevOps Metrics and Measurement
+---
+*Panel discussion*
+
+Leads to the metrics that we believe are critical to creating the full-on operational feedback loop. This is more than monitoring...and needs to get explored. This also will help pull the discussion to the development end.
+
+_Moderator_: John Allspaw (Etsy)
+
+_Panel Members:_
+
+- Alexis Lê-Quôc (Datadog) 
+- Patrick Debois (Jedi)
+- Vladimir Vuksan (Broadcom)
+- Brian Doll (New Relic)
+- Laurie Denness (Etsy)
+- Andrew Shafer (Cloudscaling)

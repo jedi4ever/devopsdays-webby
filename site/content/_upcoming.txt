@@ -1,7 +1,7 @@
 <div class="submenu" style="width:550px">
 <h3>
 <a href="/events/2011-mountainview/">Mountain View</a>&nbsp;-
-<a href="http://devopsdownunder.org/">Sydney</a>&nbsp;-
+<a href="http://devopsdownunder.org/">Melbourne</a>&nbsp;-
 <a href="/events/2011-bangalore/">Bangalore</a>&nbsp;-
 <a href="/events/2011-goteborg/">Goteborg</a>
 </h3>
