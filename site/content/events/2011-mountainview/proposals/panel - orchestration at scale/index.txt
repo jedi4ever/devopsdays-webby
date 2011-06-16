@@ -22,6 +22,6 @@ _Panel Members:_
 
 - John Vincent (Noah) 
 - Alex Honor (DTO Solutions - RunDeck)
-- Blake Mizereny (Doozer) 
+- Michael Hale (Heroku) 
 - Yan Pujante (LinkedIn)
 - James Turnbull (PuppetLabs - mcollective)

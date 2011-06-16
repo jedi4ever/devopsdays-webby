@@ -21,6 +21,6 @@ _Moderator_: John E. Vincent
 _Panel Members:_
 
 - Kit Plummer (Maestrodev)
-- Pascal-Louis Perez (wealthfront)
+- Pascal-Louis Perez (Wealthfront)
 - John Allspaw (Etsy)
 - Greg Albrecht (Splunk)
