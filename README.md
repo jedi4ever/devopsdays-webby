@@ -42,3 +42,6 @@ All interactions are done with the webby command, for this you need to be inside
 webby autobuild          # Continuously build the website
 webby build              # Build the website
 webby rebuild              # Build the website
+
+For more information on how to use webby
+[http://webby.rubyforge.org/](http://webby.rubyforge.org/)
