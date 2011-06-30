@@ -1,5 +1,4 @@
 This the source of the devopsdays.org website
-
 It uses webby as a framework:
 
 # Installation
