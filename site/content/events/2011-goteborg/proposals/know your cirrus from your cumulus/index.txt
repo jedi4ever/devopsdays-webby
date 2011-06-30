@@ -33,7 +33,7 @@ You'll understand how relationships between factors such as geography, residency
 
 - some awareness of general cloud concepts (IaaS, PaaS etc.) and providers will help users understand the motivations and background
 
-**Proposer:** Andrew Philips - Jclouds
+**Proposer:** Andrew Philips - [Jclouds](http://jclouds.org)
 
 An early believer in the ability of Java to deliver "enterprise-grade" software, Andrew quickly focused on the development of high-throughput, resilient and scalable Java EE applications. Specializing in concurrency and high performance development, Andrew gained substantial experience of the intricacies, complexity and challenges of enterprise application environments while working for a succession of multinationals.
 
