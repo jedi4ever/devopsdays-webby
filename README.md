@@ -12,21 +12,27 @@ It uses webby as a framework:
 - and creates a new gemset devopsdays-webby
 
 Get the source
+
 `$ git clone git@github.com:jedi4ever/devopsdays-webby.git`
 
 Enter the directory
+
 `$ cd devopsdays-webby`
 
 Install bundler
+
 `$ gem install bundler`
 
 Do a bundler install; this will install the necessary gems (see Gemfile)
+
 `$ bundle install`
 
 ## If you don't have RVM installed
 
 `$ . devopsdays-webby.ENV`
+
 `$ gem install bundler`
+
 `$ bundle install`
 
 # Using it
