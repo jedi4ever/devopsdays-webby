@@ -1,0 +1,35 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Kevin Parker
+title: Beyond Rip and Replace
+---
+**Abstract:** "
+It doesn't matter how many tools you have, nor how modern they are you still struggle to get software out of the door. And you vendor says "Upgrade" or "Buy the latest version". Rip-and-replace is always the answer: but it is never the solution.
+
+After decades of research and practical experience one thing is vividly clear: tools don't matter, what you do with them does and how those tools support your application delivery process is most critical of all.
+
+It is time to turn the spotlight of automation on IT processes. We deliver financial statements accurate to the cent for the accounting team and report on the status of individual invoice payments accurate to the minute. Why is it so hard to get accurate status on IT projects and why do we insist on doing things manually when we could automate them?
+
+Whether you are Agile throughout from Demand to Deploy or maybe you still use Waterfall: perhaps you're experimenting with Lean or embracing 6 Sigma; even if a hybrid "water-scrum-fall" is your approach: the one thing you can do to make the most difference is to automate.
+
+In this highly interactive session you will learn the three key ingredients of automating IT process. You will understand why "rip-and-replace" is only good for the software vendor. Why the trend towards one-size-fits-all development solutions is fundamentally flawed for your organization. And you will discover why failure to automate condemns your development to a life of unnecessary rework.
+
+Come to the session and increase your development capacity by 30%
+
+**Target Audience**:
+
+
+**Level:**
+
+
+**Prerequisites**
+
+**Proposer:** Kevin Parker - [Serena Software](http://www.serena.com)
+
+In the past year Kevin has spoken at 20 conferences and seminars on a range of leading IT topics. He is a sought after speaker and is recognized around the world for his provocative and entertaining style. Kevin is a 30 year IT veteran and today he is VP and Chief Evangelist at Serena where he works with industry analysts, press, customers, partners and employees to exchange ideas about technology direction and business issues. He was educated in the UK and now lives and works in California.
