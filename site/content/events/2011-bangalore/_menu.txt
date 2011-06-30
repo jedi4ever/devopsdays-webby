@@ -1,6 +1,10 @@
 <div class="submenu">
 <h3>
 <a href="/events/2011-bangalore/">welcome</a>&nbsp;
-<a href="/events/2011-bangelore/contact">contact</a>&nbsp;
+<a href="/events/2011-bangalore/program">program</a>&nbsp;
+<a href="/events/2011-bangalore/proposals">propose</a>&nbsp;
+<a href="/events/2011-bangalore/location">location</a>&nbsp;
+<a href="/events/2011-bangalore/registration">register</a>&nbsp;
+<a href="/events/2011-bangalore/contact">contact</a>&nbsp;
 </h3>
 </div>

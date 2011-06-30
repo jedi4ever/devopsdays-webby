@@ -1,0 +1,42 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Andrew Philips
+title: Know your cirrus from your cumulus - how clouds differ beyond cost and speed and how that affects you
+---
+**Abstract:** "
+As adoption of cloud platforms grows, both in dedicated and "mixed-use" configurations, the original Cloud 1.0 vision of "run anything, anywhere" has been extended and refined to cover a number of considerations that are turning out to be essential across various cloud usage models. If you're already working with cloud applications, or are considering to do so, and have open questions regarding SLAs, performance, legal aspects and more, you're in good company.
+
+During 2011, jclouds held a dozen discussions with cutting-edge cloud users, platform developers and infrastructure providers, identifying and structuring
+metamodels beyond pure hardware that applications care about.
+
+These covered, amongst others, service levels, auditability, geography, jurisdiction, and stewardship. In this talk, we'll be giving an overview of this research and introduce and explain the models that make commodity hardware or network decisions more than meets the eye.
+
+You'll understand how relationships between factors such as geography, residency, and stewardship can impact your ability to successfully utilize cloud computing offerings, and will walk away with an idea of important questions to ask yourself before entering a cloud computing environment, as well as a sense of where and how to find some answers.
+"
+
+**Target Audience**:
+
+- Anyone interested in developing on clouds and/or planning applications to be developed against, hosted on or migrated to the cloud
+
+**Level:**
+
+- Technical knowledge: beginner
+- Awareness of cloud concepts: intermediate
+
+**Prerequisites**
+
+- some awareness of general cloud concepts (IaaS, PaaS etc.) and providers will help users understand the motivations and background
+
+**Proposer:** Andrew Philips - Jclouds
+
+An early believer in the ability of Java to deliver "enterprise-grade" software, Andrew quickly focused on the development of high-throughput, resilient and scalable Java EE applications. Specializing in concurrency and high performance development, Andrew gained substantial experience of the intricacies, complexity and challenges of enterprise application environments while working for a succession of multinationals.
+
+Continuously focused on effectively integrating promising new developments in the JVM space into corporate software development, Andrew joined XebiaLabs in March 2009, where he is responsible for product management of their deployment automation product Deployit.
+
+Amongst others, he worked on Multiverse, the open-source Java STM implementation behind Akka, and contributes to jclouds, the leading Java cloud library. He's also enjoying the wide variety of JVM offerings, especially Clojure and Scala.

@@ -24,3 +24,4 @@ _Panel Members:_
 - Pascal-Louis Perez (Wealthfront)
 - John Allspaw (Etsy)
 - Greg Albrecht (Splunk)
+- Kwsik Guruswamy (Mu Dynamics/ Blitz.io)

@@ -23,3 +23,4 @@ _Panel Members:_
 - Tom Grant (Forrester Research)
 - John Christian (TSYS)
 - Jez Humble (Thoughtworks)
+- John Alioto (Microsoft)

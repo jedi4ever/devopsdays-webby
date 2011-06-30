@@ -1,6 +1,12 @@
 <div class="submenu">
 <h3>
 <a href="/events/2011-goteborg/">welcome</a>&nbsp;
+<a href="/events/2011-goteborg/program">program</a>&nbsp;
+<a href="/events/2011-goteborg/proposals">propose</a>&nbsp;
+<a href="/events/2011-goteborg/location">location</a>&nbsp; 
+<a href="/events/2011-goteborg/registration">register</a>&nbsp;
+<a href="/events/2011-goteborg/sponsor">sponsor</a>
 <a href="/events/2011-goteborg/contact">contact</a>&nbsp;
+
 </h3>
 </div>
