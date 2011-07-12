@@ -1,0 +1,61 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Jammejay Singh - Pavan KS
+title: Test Load Balancer - rocket booster for your build
+---
+**Abstract:** 
+
+Running tests for each build is a crucial part of continuous integration and continuous delivery. A project can't be release ready all the time if it doesn't pass all the tests. Test Load Balancer(TLB) is a tool that allows you to run hours or days worth of tests in just a few minutes.
+
+It is a free and open-source tool that can automatically partition tests into multiple subsets each one of which can be executed parallely across machines in a grid. The execution can happen on different physical or virtual machines or on the same machine as different processes. More the partitions, lesser are the number of tests executed on each one, and
+since all of the partitions start at the same time(and finish almost at the same time) overall test-execution time is divided by the number of partitions used. Test-running is by far the longest step in most(if not all) builds, and cutting down test-running time speeds up builds and hence the feedback loop. TLB can be used for any kind of test-suite - unit, integration or functional/acceptance tests.
+
+In addition to balancing, TLB does other interesting things like re-order tests within a subset(set of tests that run on a partition) before they are executed. For instance, it re-arranges tests to execute failing tests(that failed in previous build) first, ensuring early feedback.
+
+Most build servers(like Hudson, Go, TeamCity, Bamboo etc.) and even standalone tools like capistrano/cluster-ssh provide parallel execution capability(capability to execute command(s) on different machines at the same time). However, parallelization of tests requires a tool that can decide what tests need to be run in each such parallel invocation across
+machines(or even networks). This is where TLB comes in. 
+
+TLB 0.3.2(latest release) supports several build and testing frameworks across Java and Ruby. TLB is language/platform agnostic and can be used for any build/testing tool provided the thin integration layer is in place.
+
+Project web-site: 
+
+- [http://test-load-balancer.github.com/](http://test-load-balancer.github.com/)
+
+
+**Background Problem:**
+
+At a high level, software development can be seen as an ongoing process of conceptualizing ideas, writing code to implement ideas and delivering the implementation in a usable form with least possible bug count.
+However, as software projects evolve, new features are added and several modifications are made at all levels/layers and proving correctness and completeness of features by testing every feature manually continues becoming harder and harder.
+
+Automated tests provide the safety-net that allows developers to add new features to an application while being sure of not having broken any existing features. A developer writes tests at multiple levels such as "unit tests" which are written at the lowest level to drive development or ascertain design, "integration tests" that ensure several unit-tested components work well when put together and "acceptance-tests" that test entire user action/work-flow against a live deployment or installation.
+
+The number of tests a project has is usually directly proportional to its features, complexity and maturity the numbers for which always head upwards. Obviously, as tests increase, time it takes to execute the test-suite goes up too. At some point, teams decide not to run these tests for every commit(or run only a part of tests) because time it takes to execute the whole suite is unbearably high. 
+
+When tests are not run on a regular basis or if it takes too long to run tests, the feedback time on ensuring quality of a change goes up and this is about the time in life of most projects when things start rolling downhill. Higher the feedback time on the build, higher the time a developer takes to merge a certain fix and ensure it works and hence higher the time fellow developers have to wait to make their changes over a good version of code-base.
+
+In short, code-base stability goes down and tests start losing value when it takes too long to run them. 
+
+
+**Outline of the talk**
+
+* Introduce audience to the problem (slow builds, long running testsuites), and effect of these problems on Continuous Integration(CI) and Continuous Delivery(CD) processes.
+* Discuss alternate approaches to reducing build time and minimizing the effect of a failed build.
+* Introduce TLB, idea and core concepts.
+* Discuss how TLB helps solve day-to-day CI and CD problems.
+* Demo of TLB partitioning of a dummy test suite written using one of the supported testing and build tools(for instance, JUnit+Ant or Cucumber+Rake etc).
+* A case-study on how TLB helped cut build time from approximately 2 hours and 7 minutes(127 minutes) to just 9 minutes(which can of-course be further reduced) just by throwing more hardware at it.
+* Discuss how TLB can be leveraged across languages and environments
+* Quick peek into what more is coming(failure prediction, faster tests first, changed tests only etc).
+
+
+**Proposer:** 
+
+- Janmejay Singh - ThoughtWorks - [http://codehunk.wordpress.com](http://codehunk.wordpress.com)
+- Pavan KS - ThoughtWorks - [http://pavanks.blogspot.com](http://pavanks.blogspot.com)
+
