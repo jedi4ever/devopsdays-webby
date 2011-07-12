@@ -1,0 +1,31 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Andrew Philips
+title: NoOps is the goal of DevOps - Really ?
+---
+**Abstract:** "
+Every so often, an article or blog post appears with a "bold" assertion such as:
+
+"NoOps will not replace DevOps; rather, it is an evolution of the release management aspects of DevOps. NoOps is the goal of DevOps."
+ 
+[http://blogs.forrester.com/mike_gualtieri/11-06-29-devops_is_about_collaboration_noops_is_about_automation](http://blogs.forrester.com/mike_gualtieri/11-06-29-devops_is_about_collaboration_noops_is_about_automation)
+
+In this ignite session, I'd like to prompt the audience to consider what "NoOps" could mean, whether it really is the aim of Devops, and, if not, what the aim of Devops actually is.
+What will "Ops" activities be as cloud computing goes from hype to implementation, and what does PaaS mean for infrastructure and middleware management?
+
+The aim of this session is to provoke questions rather than provide answers, and will hopefully give rise to interesting Open Space discussions as a follow-up.
+
+
+**Proposer:** Andrew Philips - [Jclouds](http://jclouds.org)
+
+An early believer in the ability of Java to deliver "enterprise-grade" software, Andrew quickly focused on the development of high-throughput, resilient and scalable Java EE applications. Specializing in concurrency and high performance development, Andrew gained substantial experience of the intricacies, complexity and challenges of enterprise application environments while working for a succession of multinationals.
+
+Continuously focused on effectively integrating promising new developments in the JVM space into corporate software development, Andrew joined XebiaLabs in March 2009, where he is responsible for product management of their deployment automation product Deployit.
+
+Amongst others, he worked on Multiverse, the open-source Java STM implementation behind Akka, and contributes to jclouds, the leading Java cloud library. He's also enjoying the wide variety of JVM offerings, especially Clojure and Scala.
