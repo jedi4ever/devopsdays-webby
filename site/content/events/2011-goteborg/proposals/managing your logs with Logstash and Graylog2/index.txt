@@ -1,0 +1,22 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Lennart Koopmann
+title: Manage your logs with Logstash and Graylog2
+---
+**Abstract:** 
+
+The good thing: Most companies started collecting and centralizing their logs. The bad part: Most of them did not unleash the power of log management and analysis yet. In this talk I will show you how to effectively manage your logs with Logstash [http://logstash.net/](http://logstash.net/)) and Graylog2 [http://graylog2.org/](http://graylog2.org/). I will also give some general logging advices and best practices to get the most out of logs.
+
+Logstash and Graylog2 are playing very well together and get more and more acceptance in the rising Devops scene these days. Logstash for collecting, processing and forwarding of logs to Graylog2  - Which is then used for analyzing, reporting and monitoring. 
+
+**Author:**
+Lennart Koopmannn is the author of Graylog2 and works at XING where they have a really mature Rails logging environment.
+
+You can find him at [http://www.lennartkoopmann.net/](http://www.lennartkoopmann.net/) and on Twitter: [http://www.twitter.com/#/_lennart](http://www.twitter.com/#/_lennart)
+

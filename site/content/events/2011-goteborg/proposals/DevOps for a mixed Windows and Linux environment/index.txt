@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Jon Topper
+title: DevOps for a mixed Windows and Linux environment
+---
+**Abstract:** 
+
+A look at the differences in the DevOps toolchain for Windows and Linux environments from an organization which runs both.
+
+**Author:**
+
+Jon Topper
