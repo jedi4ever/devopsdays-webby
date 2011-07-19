@@ -1,0 +1,23 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Sreekanth Vadagir
+title: AWS NOSQL and rise of Devops
+---
+**Abstract:** 
+
+With more and more startups and corporate embracing AWS and scalable nosql technology, scaling and administration of production server has come front and center of application development lifecycle. It write your app and some other people take care of the deployment.
+
+We will look at how Cloud has fundamentally changed the deployment and development folks. How it will affect them as it evolves and more an more enterprises unlock their data.
+
+
+**Proposer:** 
+
+- Sreekanth V - ActiveSphere - [http://www.activesphere.com](http://www.activesphere.com)
+
+
