@@ -1,0 +1,28 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Prateek Goyal
+title: DevOps in Startup
+---
+**Abstract:** 
+
+As a single person dev/ops team running Muziboo.com and scaling it to
+a few million page views on single server, I have learnt some lessons
+in monitoring, logging and automation that can help you sleep
+peacefully at night. The talk will share some of these learnings and
+will be an overview of typical ops tasks in a web startup (like
+backup, monitoring, automation etc). I will talk about unix packages
+like monit/munin etc and some external services like RPM/Server
+Density etc that can help you get your work done efficiently.
+
+
+**Proposer:** 
+
+- Prateek Goyal - SupportBee - [http://supportbee.com](http://www.supportbee.com)
+
+
