@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Sriram Narayanan
+title: High speed filesystems
+---
+**Abstract:** 
+
+There are a number of interesting features in present day filesystems that developers and system administrators can make use of. This talk covers the advancements and features of the ZFS filesystem
+
+**Proposer:** 
+- Sriram Narayanan - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+

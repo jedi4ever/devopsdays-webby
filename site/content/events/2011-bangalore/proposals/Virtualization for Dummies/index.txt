@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Nikhil Mungel and Ranjib Dey
+title: Virtualization for Dummies
+---
+**Abstract:** 
+
+Is hypervisor a Star Wars thing? Is paravirtualization available on my iPhone AppStore? Why is everyone talking about Virtualization? Join us for this talk on Virtualization and walk away enlightened on the very basics of Virtualization. Learn all about what powers large enterprise clouds to how a VM runs on your laptop!
+
+**Proposer:** 
+- Ranjib Dey - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+- Nikhil Mungel - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+

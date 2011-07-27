@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Sriram Narayanan
+title: Beyond Localhost
+---
+**Abstract:** 
+
+You can create an entire production environment on your computer - including the network, the firewall rules, services, and then go on to analyze all aspects of your application. This demo showcases cutting edge technologies based on the Illumos kernel
+**Proposer:** 
+- Sriram Narayanan - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+

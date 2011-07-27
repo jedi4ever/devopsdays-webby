@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Sriram Narayanan
+title: Modern Day Datacentre networks
+---
+**Abstract:** 
+
+Learn about advancements in modern day network technologies which are powering Virtualization, switching and telecom.
+
+**Proposer:** 
+- Sriram Narayanan - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+

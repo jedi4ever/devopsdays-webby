@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Sriram Narayanan
+title: Dynamic Tracing using DTrace
+---
+**Abstract:** 
+
+Learn to trace a variety of aspects of your application, including call flow, application latencies, and other aspects of performance of your application.
+**Proposer:** 
+- Sriram Narayanan - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+
