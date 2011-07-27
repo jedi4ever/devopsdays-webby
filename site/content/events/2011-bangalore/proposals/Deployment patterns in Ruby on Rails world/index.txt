@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 author: Ajey Gore, Nikhil Mungel
-title: Deployment Patterns in Ruby on Rails world
+title: Deployment Patterns in the Ruby on Rails world
 ---
 **Abstract:** 
 
