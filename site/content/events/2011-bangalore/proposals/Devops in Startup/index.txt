@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-author: Prateek Goyal
+author: Prateek Dayal
 title: DevOps in Startup
 ---
 **Abstract:** 
@@ -23,6 +23,6 @@ Density etc that can help you get your work done efficiently.
 
 **Proposer:** 
 
-- Prateek Goyal - SupportBee - [http://supportbee.com](http://www.supportbee.com)
+- Prateek Dayal - SupportBee - [http://supportbee.com](http://www.supportbee.com)
 
 
