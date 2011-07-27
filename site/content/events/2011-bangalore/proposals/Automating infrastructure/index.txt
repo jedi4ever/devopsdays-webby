@@ -1,0 +1,21 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Ajey Gore, Ranjib Dey
+title: Automating Infrastructure
+---
+**Abstract:** 
+
+This will be hands on workshop for 2 hours, where we will take participants on how to implement scalable configuration management, automating configurations, deployments and monitoring. This will also touch points such as ldap integration, SSO and many more system level topics. We will use kickstart, pxe, puppet, nagios and ja-sig cas to demo this. We expect participants to bring in Linux Laptop so that it will be easy to show case everything.
+
+
+**Proposer:** 
+
+- Ajey Gore - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+- Ranjib Dey - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+

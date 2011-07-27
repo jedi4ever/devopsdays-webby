@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Nick Hines
+title: Continuous Delivery
+---
+**Abstract:** 
+
+Deployable software is the key to success - this brings software delivery value to business' end users, this makes releases smarter, faster and better. Nick Hines, CTO Innovation for ThoughtWorks, will be taking you through a journey to tell you how to make this happen.
+
+**Proposer:** 
+
+
+- Nick Hines - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)

@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Vivek Singh
+title: Designing continuous integration for scale
+---
+**Abstract:** 
+
+The elements which stresses a continuous integration system are number of users (developers/testers), size of codebase, buildability of code and frequency of release. In short CI at scale would have to deal with all of these. In such scenarios one doesn't have the luxury of having couple of machines running the entire build for you, every commit. In this talk I would discuss what technologies, patterns and practices can be employed, based on my experience from two really large projects in ThoughtWorks.
+
+
+**Proposer:** 
+- Vivek Singh - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)

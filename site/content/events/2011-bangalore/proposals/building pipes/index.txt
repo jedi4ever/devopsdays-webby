@@ -1,0 +1,21 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Ranjib Dey
+title: Building pipes
+---
+**Abstract:** 
+
+This talk will highlight on infrastructure and deployment design principles that enables loosely coupled, fault tolerant, interoperable dev and ops components in an enterprise solution. How source code management tools, continuous integration tools, build tools, provisioning tools, system monitoring and business activity monitoring tools can talk to each other to provide a feedback driven robust solution.
+
+
+**Proposer:** 
+
+
+- Ranjib Dey - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+

@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Aneesh P U and Sharath Kumar B
+title: Design implications on devops practices and Continuous delivery
+---
+**Abstract:** 
+
+In this session we are focusing on discussing the design implications of an application or software on implementing right set of devops practices and then to continuous delivery. Primary focus is to talk about devops /CD is not being an after thought to software development
+
+
+**Proposer:** 
+- Sharath Kumar - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+- Aneesh P U - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)

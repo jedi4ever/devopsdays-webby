@@ -1,0 +1,21 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Ajey Gore, Nikhil Mungel
+title: Deployment Patterns in Ruby on Rails world
+---
+**Abstract:** 
+
+When would you not use Capistrano? How to play nicely in the JRuby world? Should you be using just plain shell scripts? Explore different deployment paradigms in the RoR world. The good and bad parts of choosing each strategy. How to play around enterprisey constraints and implement the best strategy, or shades of it.
+
+
+**Proposer:** 
+
+
+- Ajey Gore - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+- Nikhil Mungel - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)

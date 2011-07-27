@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Madhurranjan Mohan
+title: Chef on cloud
+---
+**Abstract:** 
+
+A 2 hour workshop on Search driven infrastructure using Chef. This will run you through chef and open nebula and will talk about how Chef can be used to spin up and spin down environments on the cloud. It will take you through creating your own instances on the cloud and adding chef roles and recipes to those instances.
+
+**Proposer:** 
+
+
+- Madhurranjan Mohan - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)

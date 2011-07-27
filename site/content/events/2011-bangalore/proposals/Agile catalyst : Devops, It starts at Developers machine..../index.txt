@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Sharath Kumar
+title: Agile catalyst : Devops, It starts at Developers machine....
+---
+**Abstract:** 
+
+This talk is very basic in nature where it talks about practices of delivery which helps us in achieving higher quality software in quicker time with minimal overhead.This will cover topics starting from development practices, CI, deployments, test strategies interms of infrastructure and deployments, simple configuration management. I will be discussing around the basics for continuous deployment and continuous delivery.
+
+
+**Proposer:** 
+- Sharath Kumar - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)

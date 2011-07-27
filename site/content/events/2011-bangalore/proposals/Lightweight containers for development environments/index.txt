@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Selvakumar N and Shyam Sundar C S
+title: Lightweight containers for development environments
+---
+**Abstract:** 
+
+This talk will give a brief introduction on container based virtualization technologies like OpenVZ and LXC. It will cover the pros and cons of this virtualization technology. Finally, we present a case study on each of the technologies on how it helps to enable business.
+
+**Proposer:** 
+- Selvakumar N - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
+- Shyam Sundar C S - ThoughtWorks - [http://www.thoughtworks.com](http://www.thoughtworks.com)
