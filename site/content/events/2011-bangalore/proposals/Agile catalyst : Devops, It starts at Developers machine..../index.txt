@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 author: Sharath Kumar
-title: Agile catalyst : Devops, It starts at Developers machine....
+title: Agile catalyst - Devops, It starts at Developers machine....
 ---
 **Abstract:** 
 
