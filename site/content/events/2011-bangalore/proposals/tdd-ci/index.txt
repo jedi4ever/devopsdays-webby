@@ -1,0 +1,73 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: J Srinivas, Chetana
+title: “It is difficult to do TDD  & CI” - Exploring the “Why” in a large company
+---
+**Abstract:** 
+
+Target : Established large firms deploying about 50 or more software projects/year with focus on service providers
+
+ 
+
+We will look at the agile practices in development and maintenance projects and on Continuous Integration(CI) and Test Driven Development specifically. While the management practices get adopted fast and team are executing iterations, it take time for the TDD and CI to get established. Even in the teams that have set up the frameworks the usage is not effective. We will explore why this is the case. Is there a pattern ?
+
+ 
+
+A brief on the characteristics of a typical project
+
+1.      Contract – Either “Fixed price” or “Time and Material”
+
+2.      Infrastructure
+
+a.      Limited access for distributed teams
+
+b.      Costly Legacy systems
+
+c.       Hetergenous technologies
+
+d.      Restrictions for usage of unapproved tools\accelerators
+
+3.      User Collaboration limited to early mornings or late evenings – Disparate timezones
+
+a.      Limited scope for decision making
+
+b.      Mandatory Customer sign-offs
+
+c.       User experience limited to screenshots & email messages
+
+4.      Enterprise pressure to show continuous improvement
+
+5.      Team sizes vary from 5-8 persons to 150 persons
+
+ 
+
+We have seen projects demonstrate high quality application every month and release to deployment every 3 months, however this is for teams of 9-10 members (both co-located and distrbuted). The clients are now demanding agility for larger & more complex applications involving teams of over 150 members in a year’s duration. Companies transition the maintenance and production support of applications to offshore teams and are looking for agile methods.
+
+ 
+
+With agile taking root, business expect agile delivery in all aspects of application lifecycle. IT services companies are quickly adopting agile practices to meet the demand.
+
+ 
+
+With mounting pressure to become agile, teams are interpreting the required practices and tailoring them to their context based on the need and the extent of change they can tolerate. While the adoption to agile project management practices have been quick, teams are wary to proceed with the engineering practices with the same pace. We survey the project and interview team members to understand their context and apprehensions. The objective is to understand the causes of the problems in effective adoption. We will focus on four project types
+
+1.      Large new development (large teams & short timelines) using agile
+
+2.      Large new development in a mixed environment – some teams working in agile and others in conventional methods
+
+3.      Maintenance for large applications – initial developed in conventional methods (lack automated test suite/build scripts, etc)
+
+4.      Maintenance for large applications – developed using agile
+
+We will look at the breakages in practices during transition from development to maintenance.
+
+**Proposer:** 
+- J Srinivas, Chetana - Infosys - [http://www.infosys.com](http://www.infosys.com)
+
+

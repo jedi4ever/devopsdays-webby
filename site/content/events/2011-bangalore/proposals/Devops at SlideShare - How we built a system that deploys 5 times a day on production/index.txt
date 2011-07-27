@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Kapil Mohan
+title: Devops at SlideShare - How we built a system that deploys 5 times a day on production
+---
+**Abstract:** 
+
+Automation, we believe is the key to building a Devops culture. At SlideShare, we've embraced Devops by automating almost everything we do. As an outcome, we've become more of an agile organization. In this talk, we'd like to mention what we've automated and how, our future plans on automation and how Devops helped us. Specifically, we'll talk about our experiences in automating systems configuration using Puppet, continuous integration using CCRB, continuous deployments (upto 5 deploys a day), auto-scaling Amazon EC2 infrastructure using Puppet, AMIs, SQS and S3, fostering meaningful developer-operations collaboration, monitoring using Newrelic, Nagios and Ganglia, role of management and team attitude towards Devops culture etc.
+
+**Proposer:** 
+- Kapil Mohan - SlideShare - [http://www.slideshare.com](http://www.slideshare.com)
+
+
