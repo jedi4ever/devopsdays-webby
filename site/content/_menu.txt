@@ -4,7 +4,7 @@
 		<ul>
 			<li><a href="/events/2011-goteborg/">Goteborg</a></li>
 			<li><a href="/events/2011-bangalore/">Bangalore</a></li>
-			<li><a href="/events/2011-sydney/">Sydney</a></li>
+			<li><a href="/events/2011-melbourne/">Melbourne</a></li>
 			<li><a href="/events/2011-mountainview/">Mountain View</a></li>
 			<li><a href="/events/2011-boston/">Boston</a></li>
 		</ul>

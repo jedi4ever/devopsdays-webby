@@ -1,0 +1,35 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Mark Barger
+title: Web Operations without training wheels - Abolishing manual testing
+---
+**Abstract:** 
+
+We will discuss taking the next step in DevOps and breaking down the final wall of plausible deniability and accountability by removing QA’s and testers from the process. For developers to truly take ownership of the code, you must work closely with your operations team on metrics and monitoring, and that in itself, coupled with automated testing and continuous integration should provide all of the information you need on whether something is working or not.
+
+A standard deployment process looked like this:
+
+Write code->Commit->Continuous Integration Tests->Auto deploy to testing/load environment->Automated Tests->Manual Regression Tests->Deploy to production->Observe metrics
+
+In this case, developers can just say that the testers missed something if there is a problem. This isn’t good enough. They’re only caring about their piece of code, not the entire business.
+
+At Lonely Planet, we’ve implemented this process:
+
+Write code->Commit->Continuous Integration Tests->Auto deploy to testing/load environment->Automated Tests->Deploy to production->Observe metrics
+
+People don’t die if our website is down – and they probably don’t if your operation is down. Uptime only matters when you can relate it to business value – dollars per hour.
+
+I propose that it’s far better to be able to deploy quickly, and fix quickly, than to use manual testing. Your metrics are your testing.
+
+In the past, if we were ready to deploy and a manual regression test had taken place, but we decided we wanted to add just one more little feature, this completely invalidated the manual test, and therefore we couldn’t release. Why? It makes no sense.
+
+I believe this talk will spark some interesting discussion and debate, and is truly the next logical step in successful web operations.
+
+
+**Proposer:** Mark Barger | Development Operations Engineer (Lonely Planet)
