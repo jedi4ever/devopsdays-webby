@@ -1,0 +1,23 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Leena S N
+title: Push Button Deployment With Jenkins
+---
+**Abstract:** 
+
+The Continuous Delivery book describes how to setup an automated push-button based system -  that will enable continuous deployment. This talk will demonstrate how to do that - by actually setting up a Continuous Integration server and a build pipeline - using Jenkins and its Build pipeline plugin. Using this setup we can achieve multiple deployments to production in a single day.
+
+This talk will also have a brief demo of Deployinator, deploy tool used by Etsy,  which was made open source very recently.
+
+
+**Proposer:** 
+
+-  Leena S N - Multunus - [http://www.multunus.com](http://www.multunus.com)
+
+
