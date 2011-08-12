@@ -1,0 +1,29 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Garett Honeycutt
+title: Introduction to configuration management with Puppet
+---
+**Abstract:** 
+
+Gone are the days of administering by SSH’ing to machines and running
+commands. Consistency and scale dictate a programmatic approach to
+administration.
+
+This talk will be explaining how Puppet works and discussing best
+practices. While the focus will be using Puppet, the discussion also
+includes general configuration management and change management
+practices.
+
+
+**Proposer:** 
+
+
+- Garett Honeycutt - PuppetLabs -
+  [http://www.puppetlabs.com](http://www.puppetlabs.com)
+
