@@ -1,0 +1,26 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Michael Brunton-Spall - Lisa van-Gelder
+title: Scaling lessons learned in 15 years of guardian.co.uk
+---
+**Abstract:** 
+
+(how to spot when an app is struggling in production (and stop it))
+Simple techniques that make it easier to manage a large number of
+applications in production
+
+At the Guardian we have a large number of applications in production
+at any one time, which can cause problems if they start hogging
+resources or behaving badly.  This talk will share some of the lessons
+we learned and go over some horror stories when apps went badly wrong.
+
+**Proposer:** Michael Brunton-Spall - Lisa van-Gelder
+
+Lisa and Michael are developers at the guardian, both of whom have worked on the platform team which is primarily responsible for the architecture and scaling infrastructure of Guardian.co.uk.  Lisa and Michael also run ScaleCamp UK, a yearly unconference for scalability enthusiasts to get together and swap stories.
+

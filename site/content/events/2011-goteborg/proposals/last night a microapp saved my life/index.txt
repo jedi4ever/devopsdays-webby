@@ -1,0 +1,30 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Michael Brunton-Spall - Lisa van-Gelder
+title: Last night a microapp saved my life
+---
+**Abstract:** 
+
+Any given page on the guardian.co.uk can be composed of
+the output of several different applications being weaved together by
+the Content Management System (CMS) before being sent to the user as a
+single HTML document.  This platform architecture was put in place
+after the realisation that our CMS was doing more and more non-content
+data modelling resulting in application bloat.  In this talk, we will
+give examples of the type of work we were trying to get our CMS to do
+when we realised it shouldn’t; examples of applications we have built
+using the microapp framework; how microapps enable rapid deployment,
+in particular our use of cloud hosting for microapps and how caching
+protects us from misbehaving microapps that we may not have even
+built.
+
+**Proposer:** Michael Brunton-Spall - Lisa van-Gelder
+
+Lisa and Michael are developers at the guardian, both of whom have worked on the platform team which is primarily responsible for the architecture and scaling infrastructure of Guardian.co.uk.  Lisa and Michael also run ScaleCamp UK, a yearly unconference for scalability enthusiasts to get together and swap stories.
+
