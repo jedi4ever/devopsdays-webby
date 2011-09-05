@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 author: Michael Brunton-Spall - Lisa van-Gelder
-title: Scaling lessons learned in 15 years of guardian.co.uk
+title: Apps behaving badly
 ---
 **Abstract:** 
 
