@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Jevgeni Kabanov
+title: How do you update your Java EE app in production?
+---
+**Abstract:** 
+
+In a survey conducted in 2011 it turned out that only a quarter of respondents considered their update process ideal and only 12,2% used container-provided redeployment as the primary means of updating the application in production. The rest have describe a variety of means, with various degrees of hacks, manual intervention and downtime. 
+
+With every year more and more alternative tools and processes become available, including the DevOps movement, provisioning tools like Puppet, Chef and JClouds and management tools like DeployIt, StreamStep and MetaStaks. There are also some new approaches on the horizon, like the in-app updates provided by LiveRebel. 
+
+In this session we’d like to compare and discuss the various approaches that allow updating application with no human intervention, no side effects and, preferably, no downtime.
+
+More info can be found at [http://www.zeroturnaround.com/blog/updating-java-ee-in-production-a-report-in-three-acts-including-a-foreword-and-an-afterword/](http://www.zeroturnaround.com/blog/updating-java-ee-in-production-a-report-in-three-acts-including-a-foreword-and-an-afterword/)
+
+**Proposer:** Jevgeni Kabanov - [http://www.ekabanov.net/](http://www.ekabanov.net/)
+
+Software engineer, computer scientist, entrepreneur, übergeek, backpacker and couchsurfer. Live with my wife Ragne and two cats, Kafka and Chicken, in Tartu, Estonia.
+
+
+
