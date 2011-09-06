@@ -1,0 +1,31 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Tom Sulston
+title: DevOps Counselling - 10 ways to help your Dev and Ops people resolve their differences and learn to love each other again.
+---
+**Abstract:** "
+
+ So you've drunk the DevOps kool-aid & formed a delivery team
+that includes sysadmins, developers, QAs and everyone else. Everything
+should be awesome. But somehow, it isn't. The same old issues keep
+cropping up: unreliability, inertia, blame-storming, bugs, downtime. I
+look into why building a cross-functional team involves more than just
+re-drawing an org chart: new practices, tools, and cultural norms need
+to be built-up.
+
+Drawing on experiences from a variety of organizations that have
+attempted to build delivery teams, I propose my top ten tips for
+helping development and operations people overcome their differences
+and start truly collaborating on the practices necessary to create and
+run great software.
+
+
+**Proposer:** Tom Sulston - [Thoughtworks UK](http://thoughtworks.co.uk)
+
+Tom Sulston works for ThoughtWorks in London. He is a consultant in the build and release space and loves the whole DevOps thing. He has previously spoken at Agile and XP conferences on continuous integration tools & build pipeline practices. Tom lives in Geneva and spends too much time in airports.

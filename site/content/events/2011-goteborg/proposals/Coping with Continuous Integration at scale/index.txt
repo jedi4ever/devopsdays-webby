@@ -1,0 +1,48 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Tom Duckering - Tom Sulston
+title: Coping with Continuous Integration at scale.
+---
+**Abstract:** 
+
+Tom and Tom are interested in Continuous Integration (CI)
+when it gets big. In this session, we draw upon our experiences of
+helping large clients implement CI for complex systems and share
+observations of the good, bad and ugly things we've seen. We'll
+present a series of real-world anti-patterns and propose some remedies
+and principles to avoid them.
+
+CI is a core practice in building high-quality software. Since its
+inception, patterns of best practice have emerged, books have been
+written and a plethora of tools have been launched and improved. CI
+has not only been growing in maturity, but also in scope: taking
+responsibility beyond the build and test cycle. This growth into a key
+Continuous Delivery practice sees it addressing some of the 'last
+mile' problems along the path to production. Simultaneously, the
+software being integrated has become increasingly complex and
+interdependent. We have moved from a state where CI was used for
+simple tasks on homogenous software programs to a world where CI
+performs difficult tasks on complex, fragmented, heterogenous systems.
+
+We will also look at how CI problems change from being predominantly
+technical to organisational as systems become bigger and more complex.
+We will demonstrate how these problems are frequently intertwined,
+unclear, and hard to resolve. Topics will include things like: how to
+divide responsibility for build pipelines; CI skills as a specialism;
+CI frameworks; ways to tackle build-time dependency management;
+considerations in managing a heterogeneous build farm.
+
+We're sure we don't have all the answers but are keen to share the
+lessons that we learnt the hard way.
+
+
+**Proposer:** 
+
+* Tom Sulston 
+* Tom Duckering

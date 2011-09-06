@@ -1,0 +1,21 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Michael Brunton-Spall - Lisa van-Gelder
+title: Scaling lessons learned in 15 years of guardian.co.uk
+---
+**Abstract:** 
+
+We've recently been talking about the different architectures that we've experienced for our core CMS at the guardian, and talking about the advantages and disadvantages to each one.
+This talk will look at each of the architectures, and talk about the scalability of each architecture.  Of course, each improvement to scalability for the architecture comes with a cost, and we'll outline what the disadvantages are of them, enabling you to make a more informed choice of architecture.
+We cover the scaling implications of the many disparate CGI scripts approach, our vendor CMS (Vignette and AolServer), the J2EE stack that we currently use, and some thoughts about the scaling implications of our future architecture using MongoDB as our primary datastore.
+
+**Proposer:** Michael Brunton-Spall - Lisa van-Gelder
+
+Lisa and Michael are developers at the guardian, both of whom have worked on the platform team which is primarily responsible for the architecture and scaling infrastructure of Guardian.co.uk.  Lisa and Michael also run ScaleCamp UK, a yearly unconference for scalability enthusiasts to get together and swap stories.
+
