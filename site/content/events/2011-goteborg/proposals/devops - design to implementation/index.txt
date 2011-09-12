@@ -28,4 +28,4 @@ you go from the “concept” or “spirit” of DevOps into how it is actually 
 
 **Proposer:** Oliver Hookins 
 
-@- Principal Engineer, Services & Developer Experience Services & Software NOKIA
+- Principal Engineer, Services & Developer Experience Services & Software NOKIA
