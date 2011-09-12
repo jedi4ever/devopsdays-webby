@@ -1,0 +1,31 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Oliver Hookins
+title: DevOps -  Design to Implementation
+---
+**Abstract:**
+
+Since late last year we have been trying to get an official project off the ground which essentially delivers a DevOps team and product. Now that we have
+an official team we have started work and have been enjoying a lot of success in what we do. I will present material on the core areas I think explain how
+you go from the “concept” or “spirit” of DevOps into how it is actually implemented in reality beyond buzzwords and concepts:
+
+* Prerequisites to an implementation of DevOps (policitical/management acceptance, having champions of your cause in management).
+* Building an ops team around a development mindset.
+* Getting away from scripting habits and into building richer applications in real programming languages that are maintainable and extendable.
+* Interacting with infrastructure programmatically, and the challenges this represents for code testability.
+* Introducing Continuous Integration into operations and infrastructure work.
+* Building test suites for infrastructure (network, storage, computing).
+* Interacting with hardware teams using test suites to reduce turnaround times.
+* Building systems around well-defined interfaces and APIs (providing flexibility and understandability not only for others interacting with your
+  systems, but also allowing you to modularize and swap in/out components as necessary).
+* Between now and October I expect to expand on these topics some more so there may be even more useful material.
+
+**Proposer:** Oliver Hookins 
+
+@- Principal Engineer, Services & Developer Experience Services & Software NOKIA
