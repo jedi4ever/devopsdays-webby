@@ -1,0 +1,28 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: John Vincent
+title: Sometimes it *IS* about the tools - Solving cultural issues with software
+---
+**Abstract:** 
+
+While it is generally true that you can't solve a soft skill issue with technology, there are cases where tooling can help promote greater cultural harmony among team members.
+
+This talk will cover the which types and "classes" of tools can help ease cross-team mismatches. It will attempt to address some of the issues discussed in my recent blog post:
+
+[http://blog.lusis.org/blog/2011/08/22/the-configuration-management-divide/](http://blog.lusis.org/blog/2011/08/22/the-configuration-management-divide/)
+
+It will include a small sampling of tools that fit this mold and provide opinions on what tooling to look out for in the future. The goal is to leave people thinking about greater inclusiveness through technology.
+
+**Proposer:** John Vincent - [@lusis](http://about.me/lusis)
+
+- Avid devops [blogger](http://lusislog.blogspot.com/)
+- developer of [Noah](https://github.com/lusis/Noah)
+- Director of Operations at Vertical Acuity.
+- Active contributor to the [Monitoring Sucks Team](https://github.com/monitoringsucks)
+

@@ -1,0 +1,30 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Ken Barber
+title: High Level Solution Modeling with Configuration Management
+---
+**Abstract:** 
+
+The state of most configuration management today is about modeling individual nodes. The challenge is that business doesn't care about nodes, it only cares for solutions. This parity mismatch is something that most CM software doesn't deal with gracefully or properly and generally is done behind the scenes by administrators.
+
+Solutions that are provided by CM tools often provide 'classes' or 'groups' of configuration, but these are node centric more often then not and don't take into account cross-node boundaries. While a lot of people have their own way of solving this, my presentation discusses some of my own working solutions and future proposals to solve this perspective problem better going forward.
+
+Moving beyond configuring nodes, we need to model solutions within our CM tools that use high level inputs to automate configuration of solutions within an enterprise. Instead of specifying each node individually to make up a solution, you should be able to specify a higher level specification and let your configuration management tools do the work. For example:
+
+* I need enough web servers and a redundant database with load-balancers for my Xyz Application.
+* I need a redundant ERP system using product Abc with capacity for 300 people.
+* I need a non-redundant outbound mail delivery system to support 30 messages per second.
+
+These "business level" requirements should be translatable to direct nodes required, plus any other dependent and auxiliary nodes (for example load-balancers).
+
+In this presentation I'll be showing some examples of patterns (using Puppet and OpenNebula) that I have be used to model a solution and transparently build multiple nodes from this model without the user having to define the nodes individually. I'll also show some future proposed patterns and usage of cross-node communication and other missing bits that can contribute to achieving this goal in the hope of getting people motivated to think and work on a higher level not only in their heads, but in their CM tools.
+
+**Proposer:** Ken Barber - [Puppetlabs](http://puppetlabs.com)
+
+- blog Ken Barber [http://bob.sh/](http://bob.sh)
