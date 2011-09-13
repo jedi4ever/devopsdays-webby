@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Konstantin Skaburskas
+title: Deployments Orchestration on Clouds
+---
+**Abstract:** 
+
+One of the main contributing factors in maximising confidence in your production releases is an ability to get a timely feedback from automated tests run on auto deployed testing and load environments.
+
+We share techniques and lessons learned in building and orchestrating on-the-fly test and production environments on public and private clouds with SlipStream <http://slipstream.sixsq.com> . This facilitates automated, on-demand, creation of multi-machine runtime environments acting as a software engineering PaaS solution on clouds.
+
+Such an approach allows all stakeholders in the project (e.g.  developers, testers, QA, system administrators, managers, end-users) to deploy on-demand their own instance of the system being produced, continuously.
+
+We also show how we eat our own dog food while developing, integrating and releasing the StratusLab IaaS cloud solution <http://www.stratuslab.eu> .
+
+This will be a hands-on presentation alternating between slides and short live demos. We will demonstrate multi-tier deployments of various complexity, such that the audience gains concrete knowledge on how we do this in our daily work.
+
+Through this session, we will show how we can integrate such approach in a CI strategy e.g. tools like Hudson/Jenkins, as well as how we can leverage existing installation recipes such as in Chef.
+
+**Proposer:** Konstantin Skaburskas | Developer at SixSq
