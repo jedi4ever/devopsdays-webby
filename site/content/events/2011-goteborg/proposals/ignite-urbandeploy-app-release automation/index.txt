@@ -1,0 +1,16 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Maciej Zawadzki
+title: UrbanDeploy - Application Release Automation
+---
+**Abstract:** 
+
+We propose that Application Release Automation tools are part of what will become the DevOps tool chain.  In this short presentation we examine the required features of ARA tools as well as look at one implementation (UrbanDeploy).
+
+**Proposer:** Maciej Zawadzki, J.D.Co-Founder and CEO Urbancode, Inc.

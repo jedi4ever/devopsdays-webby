@@ -1,0 +1,16 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Maciej Zawadzki
+title: DevOps - The Coming Enterprise IT Disruption
+---
+**Abstract:** 
+
+DevOps is the blend of multiple forces such as Cloud and Agile that create the perfect storm for disruption.  This presentation will make the case for the coming Enterprise IT disruption that will be called DevOps.  We will examine the the current state as well as the forces that are going to lead to change. We will also spend time looking at the possible future state of Enterprise IT post disruption.  The coming Enterprise IT disruption will be compared with prior disruptive events such as Continuous Integration disrupting Build Management.s
+
+**Proposer:** Maciej Zawadzki, J.D.Co-Founder and CEO Urbancode, Inc.

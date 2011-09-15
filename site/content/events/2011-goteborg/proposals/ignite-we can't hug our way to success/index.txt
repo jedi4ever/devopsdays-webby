@@ -1,0 +1,16 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Maciej Zawadzki
+title: We Can't Hug Our Way to Success - The Need for a DevOps Rollout Strategy
+---
+**Abstract:** 
+
+This short talk presents the thesis that every movement such as DevOps must produce processes and tools that can lead to a large scale adoption.  Failure to do so relegates the movement to a fad.  This talk is a rallying cry for the community to get to the defined process and tools stage in the development of the movement faster.
+
+**Proposer:** Maciej Zawadzki, J.D.Co-Founder and CEO Urbancode, Inc.

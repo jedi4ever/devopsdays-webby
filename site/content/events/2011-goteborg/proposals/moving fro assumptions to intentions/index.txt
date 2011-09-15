@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Spike Morelli
+title: As seen by - moving from assumptions to intentions for happiness and profit
+---
+**Abstract:**
+If devops is a cultural and professional movement aiming at communication and silos take-down, where is the discussion about culture and communication? Tools can definitely help, a convergence on things like infrastructure as code, testing and continuous integration are helping to build a common vocabulary on which dialog can be easier, but they are no substitute for communication. 'As seen by' questions how departments see each other and how that influences the tensions between them, and offers a way out by focusing on intentions.
+
+Etsy has blogged about optimizing for developer happiness <http://codeascraft.etsy.com/2011/06/06/optimizing-for-developer-happiness/> speaking to the value this brings     to their company; 'As seen by' discusses the same topic with a focus on communication and how to optimize it for engineering happiness while looking at common communication problems and their solutions and how teams can benefit from it.
+
+**Proposer:**Spike Morelli
+  

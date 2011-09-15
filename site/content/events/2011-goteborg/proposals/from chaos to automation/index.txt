@@ -1,0 +1,30 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Alessandro Franceschi
+title: From Chaos to Automation
+---
+**Abstract:** 
+
+A fairy tale of sweat, hurry and pain 
+
+Listen to a good old story: the tale of an Internet company, that has grown frantically for too many years.
+Hordes of hosts crafted in different generations, stratified processes sculpted in scripts and arcane procedures.
+Knowledge transferred by word of mouth, glimpses of memories and documentation that becomes obsolete in the same moment you write it.
+Hundreds of different server roles, deploy procedures, setups and, always, tickets tickets tickets everywhere...
+All this managed by a small bunch of tired sysadmins overwhelmed by the contingency, fighting with bug-friendly developers exasperated by the lack of a real testing environment.
+
+Imagine to have the occasion, and luck, to be asked to work on the optimization of the infrastructure and its processes,
+without caring too much of tickets, meetings and day by day activities.
+
+From where to begin? What are the priorities, what's the approach, which steps you take, what tools you use?
+Here's a story of an ongoing process on infrastructure automation and procedures optimizations, where we will talk about configuration management, applications deployments, monitoring, testing, documentation and... people.
+
+Be warned: there's not (yet) an happy end, but the process is fun.
+
+**Proposer:** Alessandro Franceschi

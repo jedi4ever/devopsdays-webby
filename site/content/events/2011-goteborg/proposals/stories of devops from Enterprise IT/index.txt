@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Maciej Zawadzki
+title: Stories of DevOps from Enterprise IT
+---
+**Abstract:** 
+
+This talk will present two case studies of large Enterprise IT shops that have implemented DevOps.  The first case study will focus on a large retailer that has implemented a private cloud for dev and test environments as well as a unified deployment process across all environments from dev to PROD.  The second case study will focus at a team supporting a currency trading application at a large financial institution.  This team has also implemented a shared deployment process across all environments from dev to PROD.  For each case study we will cover what they did, why they did it, how they implemented it, the results, and challenges along the way.  After the case studies, we will provide lessons learned about the implementation of DevOps in Enterprise IT environments.
+
+
+**Proposer:** Maciej Zawadzki, J.D.Co-Founder and CEO Urbancode, Inc.
