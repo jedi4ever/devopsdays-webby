@@ -26,8 +26,7 @@ This talk is based on my experience as:
 * Engineer on Vagrant which powers many large companies and has helped many companies move towards a more DevOps-friendly attitide. I've seen first-hand how tools can assist this transition.
 * System administrator and software engineer at Kiip, a small company with around 20 employees. I'm the only engineer with any Ops experience, and I've had to very slowly transition our company towards being more Ops friendly.
 
-**Proposer:** Mitchell Hashimoto
+**Proposer:** [Mitchell Hashimoto](http://mitchellhashimoto.com/)
 
 - passionate about open source software, DevOps, and programming languages (with a focus on functional programming).
-- [his blog](http://mitchellhashimoto.com/)
-- [co-author of Vagrant)(http://vagrantup.com)
+- [co-author of Vagrant](http://vagrantup.com)
