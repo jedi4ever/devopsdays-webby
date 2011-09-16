@@ -6,8 +6,8 @@ filter:
 dirty: true
 proposal: true
 talk: true
-author: Hiring and embedding new team members at Hyves
-title: From Chaos to Automation
+author: Ramon Van Alteren
+title: Hiring and embedding new team members at Hyves
 ---
 **Abstract:**
 
