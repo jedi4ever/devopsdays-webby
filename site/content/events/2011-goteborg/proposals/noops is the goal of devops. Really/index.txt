@@ -1,11 +1,11 @@
 ---
 extension: html
-filter:    
+filter:
 - erb
 - markdown
 dirty: true
 proposal: true
-talk: true
+ignite: true
 author: Andrew Philips
 title: NoOps is the goal of DevOps - Really ?
 ---
@@ -13,7 +13,7 @@ title: NoOps is the goal of DevOps - Really ?
 Every so often, an article or blog post appears with a "bold" assertion such as:
 
 "NoOps will not replace DevOps; rather, it is an evolution of the release management aspects of DevOps. NoOps is the goal of DevOps."
- 
+
 [http://blogs.forrester.com/mike_gualtieri/11-06-29-devops_is_about_collaboration_noops_is_about_automation](http://blogs.forrester.com/mike_gualtieri/11-06-29-devops_is_about_collaboration_noops_is_about_automation)
 
 In this ignite session, I'd like to prompt the audience to consider what "NoOps" could mean, whether it really is the aim of Devops, and, if not, what the aim of Devops actually is.
