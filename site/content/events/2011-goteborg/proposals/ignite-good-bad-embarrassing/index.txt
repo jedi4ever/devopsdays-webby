@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Dominica DeGrandis
+title: The Good, the Bad & the Embarrassing – How Ops Review Drove Objective Thinking
+---
+**Abstract:** 
+
+A real life example of collecting and presenting metrics to a broader organization to demonstrate value and gain trust from both upstream and downstream customers.
+
+Note – this subject could easily take 30 min – my challenge is to trim it down to 5!
+
+**Proposer:** Dominica DeGrandis - David Anderson Associates
