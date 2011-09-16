@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Julian Simpson
+title: Everything I learned about Continuous Integration, I learned from System Admin
+---
+**Abstract:**
+
+Before I donned my secret identity as The Build Doctor, I was a average Solaris administrator (okay, I spent too much time playing with log analysis and too little doing storage, but them's the breaks).  After discovering the joys of Agile, I started to roll out tools like CruiseControl.  Every time I would look at a CruiseControl installation (hey, it was 2005) I'd notice that some concerns were never met, concerns that I would think about when deploying services as a systems administrator.
+
+These were development systems, so making sure we had a backup of the configuration wasn't so important, right?  Wrong.  When successful development depends on the availability of your CI system, you need to take some precautions.  It was then that I realised: development needs systems administrators.
+
+In this talk I'll share my experiences of the last 7 years helping companies run Continuous Integration and deliver to production with low risk.  I've noticed in previous presentations that there's often a mix of experience in the audience; to address this I'll be adopting an informal presentation style so that members of the audience can ask questions.
+
+Topics will include:
+
+- Context of CI
+- Deploying your CI server 
+- Performance Monitoring
+- Scaling up
+- How to choose (and does it matter?)
+- Going with the grain of tools (and when you shouldn't)
+- Information radiators
+- What does it mean to actually do Continuous Deployment?
+
+There will be minimal question time at the end, but plenty of opportunities during the presentation.
+
+
+**Proposer:** Julian Simpson aka know as the [builddoctor](http://www.build-doctor.com/)
+
