@@ -1,0 +1,55 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Mattias Jansson, Noa Resare
+title: A case study in operations and development integration at Spotify
+---
+**Abstract:**
+
+
+We have lots of material to draw from talking about how we work with integration between operations and software development.
+
+This talk will be around a narrative about how we have grown
+as a company and how our challenges has changed as the number of users
+has grown and the technical complexity of the service has increased.
+
+We have learned lots of stuff about how we communicate efficiently and
+handle short term issues that arise in the production environment as
+well as how we do medium to long term planning in cooperation between
+the operations team and development teams.
+
+Moving forward with new development at a fast pace while at the same
+time maintaining a high quality of service is a balancing act that
+requires communication and thinking hard about how the organization is
+set up.
+
+We think that it would be possible to squeeze in one or two real world
+case studies about more or less catastrophic failures that we've had
+to deal with and how those experiences has shaped our processes.
+
+High level outline:
+
+- description of the spotify service, our organization and a very
+brief technical description of the backend systems
+- the early days: devs did everything
+- the conflict of interest between reliability and new features
+- how the ops team got overloaded with short term panicky stuff and
+how we're using kanban weekly retrospective and planning meetings to
+try to work around that
+- system owner responsibilities at operations, subsystem planning meetings
+- weekly scalability meetings to plan resource allocation and
+propagate information about incidents
+- how to keep devs happy: the #operations irc channel, quick response
+times via email
+- keeping track of incidents and that gets aggregated to service
+availability numbers
+- case study: cascading failures, analyzing subsystem dependencies one
+of the most important things we do. Strategies to be able to do
+partial deployments, and rolling back changes.
+
+**Proposer:** Mattias Jansson, Noa Resare
