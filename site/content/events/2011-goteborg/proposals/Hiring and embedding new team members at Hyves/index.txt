@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Hiring and embedding new team members at Hyves
+title: From Chaos to Automation
+---
+**Abstract:**
+
+We stumbled into DevOps by accident five years ago, when nobody (including us) was aware that it was actually a cultural movement.  We've been practicing with trial and error on how to go about this DevOps thing ever since...
+
+How do you hire new team-members and embed them as fast as possible inside the organisation and get them up to speed ?
+Is there something like a devops profile for ops/devs candidates ? How do your developers find the right people within ops and vice versa ?
+
+The talk will discuss how we organized our hiring process for operations / system engineering and how we embed new engineers as fast as possible in the organisation.
+
+**Proposer:** Ramon van Alteren
+
+Ramon van Alteren is a teamlead in system engineering within Hyves.nl and has been for the past five years.
