@@ -15,4 +15,11 @@ If devops is a cultural and professional movement aiming at communication and si
 Etsy has blogged about optimizing for developer happiness <http://codeascraft.etsy.com/2011/06/06/optimizing-for-developer-happiness/> speaking to the value this brings     to their company; 'As seen by' discusses the same topic with a focus on communication and how to optimize it for engineering happiness while looking at common communication problems and their solutions and how teams can benefit from it.
 
 **Proposer:**Spike Morelli
+
+Spike walked the unix way and read the unix koans, meditating on infrastructures, scalability and monitoring for many years. Intrigued by development he dabbled as a python dev until he decided to go solo and dedicate himself 100% to product development with his startup. Tracing back his steps he ended up into management where he got to finally appreciate the 'people problem'. Fascinated by communication and impact of happy teams he began his quest to better understand what drives people and how to build effective teams. 
+
+You can find him pondering on his blog or twitter.
+
+<http://www.spikelab.org/>
+<http://twitter.com/spikelab>
   
