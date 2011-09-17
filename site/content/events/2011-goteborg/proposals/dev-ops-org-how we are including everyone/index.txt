@@ -14,22 +14,23 @@ title: Dev+Ops+Org  - How we are including (almost) everyone
 The presentation will give an insight into how the whole of Nokia Entertainment has embraced DevOps:
 
 The Journey: Start-up mentality to Corporate and back again
-_A short history on how Nokia Entertainment came to be and the shift we have made from start-up to Corporate to best of both._               
+
+<i>A short history on how Nokia Entertainment came to be and the shift we have made from start-up to Corporate to best of both.</i>
 
 Elephant hunting: Realizing there is a problem to solve
-_ We’ll give some insight into what Nokia Entertainment did to recognize the issues and how we are overcoming them_
+<i>We’ll give some insight into what Nokia Entertainment did to recognize the issues and how we are overcoming them</i>
                
 Integration: Why Dev+Ops+Tools may not be enough
-_ As a business grows, DevOps and effective tooling can only take it so far.  We recognized we needed to go further_
+<i>As a business grows, DevOps and effective tooling can only take it so far.  We recognized we needed to go further</i>
 
 Collaboration: Building a trust relationship with those outside of the traditional DevOps group
-_Effective adoption of DevOps is bigger than developers and operations. We’ll provide some examples on how we used collaboration to become effective_
+<i>Effective adoption of DevOps is bigger than developers and operations. We’ll provide some examples on how we used collaboration to become effective</i>
 
 Culture: Changing the default pattern to allow DevOps to thrive
-_We’ll provide some background on how we gained wide spread acceptance for DevOps_
+<i>We’ll provide some background on how we gained wide spread acceptance for DevOps</i>
 
 The future: It’s a long and winding road with growing pains - but it’s worth it!
-_We still have a way to go, and we’ll talk about the challenges, but we’re seeing huge benefits and are determined to forge ahead._
+<i>We still have a way to go, and we’ll talk about the challenges, but we’re seeing huge benefits and are determined to forge ahead.</i>
 
 **Proposer:** 
 John Clapham and Paul Swartout - Nokia Entertainment
