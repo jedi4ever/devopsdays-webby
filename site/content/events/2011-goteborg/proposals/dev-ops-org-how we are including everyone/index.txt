@@ -13,17 +13,17 @@ title: Dev+Ops+Org  - How we are including (almost) everyone
 
 The presentation will give an insight into how the whole of Nokia Entertainment has embraced DevOps:
 
-The Journey: Start-up mentality to Corporate and back again
+#### The Journey: Start-up mentality to Corporate and back again
 
-<i>A short history on how Nokia Entertainment came to be and the shift we have made from start-up to Corporate to best of both.</i>
+> A short history on how Nokia Entertainment came to be and the shift we have made from start-up to Corporate to best of both.
 
-Elephant hunting: Realizing there is a problem to solve
+#### Elephant hunting: Realizing there is a problem to solve
 
-<i>We’ll give some insight into what Nokia Entertainment did to recognize the issues and how we are overcoming them</i>
+> We’ll give some insight into what Nokia Entertainment did to recognize the issues and how we are overcoming them
                
-Integration: Why Dev+Ops+Tools may not be enough
+#### Integration: Why Dev+Ops+Tools may not be enough
 
-<i>As a business grows, DevOps and effective tooling can only take it so far.  We recognized we needed to go further</i>
+> As a business grows, DevOps and effective tooling can only take it so far.  We recognized we needed to go further
 
 Collaboration: Building a trust relationship with those outside of the traditional DevOps group
 
