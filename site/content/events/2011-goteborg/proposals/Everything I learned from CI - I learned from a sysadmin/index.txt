@@ -31,5 +31,20 @@ Topics will include:
 There will be minimal question time at the end, but plenty of opportunities during the presentation.
 
 
-**Proposer:** Julian Simpson aka know as the [builddoctor](http://www.build-doctor.com/)
+**Proposer:** 
+Julian Simpson aka  the [builddoctor](http://www.build-doctor.com/)
 
+[Julian on LinkedIn](http://linkedin.com/simpsonjulian)
+[@builddoctor](http://twitter.com/builddoctor)
+
+
+Julian Simpson is The Build Doctor. He started his career formatting 5.25 inch hard disks in IBM AT PC’s. That was quite some time ago. Since then he has been a:
+
+    * Marketing student
+    * Proprietor of a business connecting people’s computers to the Internet
+    * Very grumpy helpdesk operator
+    * Unix Systems Administrator
+    * Build and release consultant at ThoughtWorks and other companies
+    * Systems administrator, Puppet coder and deleter of fraudulent accounts at a startup
+
+Presently he is Principal Consultant at The Build Doctor Limited, the consultancy named after this very blog! Julian’s desire is to help everyone get their code into production as soon as they can. Software is better when it works for us, not when we lose it in the cracks between our development and operations teams.
