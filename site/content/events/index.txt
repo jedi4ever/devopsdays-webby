@@ -12,6 +12,7 @@ The following events took place in the past:
 	<li><a href="http://devopsdownunder.org/">Melbourne 2011</a></li>
 	<li><a href="/events/2011-mountainview/">Mountain View 2011</a></li>
 	<li><a href="/events/2011-boston/">Boston 2011</a></li>
+	<li><a href="/events/2011-goteborg/">Göteborg 2011</a></li>
 	<li><a href="/events/2010-brazil/">Sao Paulo 2010</a></li>
 	<li><a href="/events/2010-europe/">Hamburg 2010</a></li>
 	<li><a href="/events/2010-us/">Mountain View 2010</a></li>
