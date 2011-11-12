@@ -1,0 +1,60 @@
+<div class="submenu">
+<h3>
+<a href="/events/2011-manila/">welcome</a>&nbsp;
+<a href="/events/2011-manila/program">program</a>&nbsp;
+<a href="/events/2011-manila/location">location</a>&nbsp;
+<a href="#"
+   onclick="showRegistration();">register</a>&nbsp;
+<a href="/events/2011-manila/sponsor">sponsor</a>&nbsp;
+<a href="/events/2011-manila/contact">contact</a>&nbsp;
+</h3>
+</div>
+
+<div id="box" style="display: none !important; position: absolute; width: 100%;
+  background-color: rgba(0,0,0,0.7); display: block; top: 0px; left:
+  0px; z-index: 100000; opacity: 0;">
+  <div id="modal" style="background-color: white; width: 1024px; margin: 2em auto; overflow-y: scroll;">
+  </div>
+</div>
+
+<script id="registrationForm" type="text/template">
+<a href="#" style="position: absolute; margin-top: -12px;
+   margin-left: 1011px;" onclick="hideRegistration();">
+   <img src="/images/close.png"/>
+</a>
+
+<iframe width="1024" height="1426" frameborder="0"
+ marginheight="0" marginwidth="0" scrolling="auto"
+ src="http://devconsummit.eventbrite.com/"></iframe>
+</script>
+
+<script type="text/javascript">
+  function initialize() {};
+  window.showRegistration = function() {
+    var $box   = document.getElementById('box')  ,
+        $modal = document.getElementById('modal'),
+        $template = document.getElementById('registrationForm');
+
+    $box.style.removeProperty('display');
+    $modal.innerHTML = $template.innerHTML;
+    fadeModal();
+  }
+
+  window.hideRegistration = function() {
+    var $box = document.getElementById('box'),
+        $modal = document.getElementById('modal');
+    $box.style.setProperty('display', 'none');
+    $box.style.setProperty('opacity', '0');
+    $modal.innerHTML = '';
+  }
+
+  window.fadeModal = function() {
+    var $box = document.getElementById('box');
+    var opacity = parseFloat($box.style.getPropertyValue('opacity')) + 0.1;
+    $box.style.setProperty('opacity', '' + opacity);
+
+    if(opacity < 1.0) {
+      setTimeout(fadeModal, 25);
+    }
+  };
+</script>
