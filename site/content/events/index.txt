@@ -1,11 +1,11 @@
 ---
 extension: html
-filter:    
+filter:
 - erb
 - markdown
 title: Devopsdays Events
 ---
-The following events took place in the past: 
+The following events took place in the past:
 
 <ul>
 	<li><a href="/events/2011-bangalore/">Bangalore 2011</a></li>

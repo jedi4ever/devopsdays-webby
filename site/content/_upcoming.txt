@@ -3,6 +3,7 @@
 <a href="/events/2011-mountainview/">Mountain View</a>&nbsp;-
 <a href="http://devopsdownunder.org/">Melbourne</a>&nbsp;-
 <a href="/events/2011-bangalore/">Bangalore</a>&nbsp;-
-<a href="/events/2011-goteborg/">Goteborg</a>
+<a href="/events/2011-goteborg/">Goteborg</a>&nbsp;-
+<a href="/events/2011-manila/">Manila</a>
 </h3>
 </div>
