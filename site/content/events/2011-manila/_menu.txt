@@ -1,0 +1,91 @@
+<div class="submenu">
+<h3>
+<a href="/events/2011-manila/">welcome</a>&nbsp;
+<a href="/events/2011-manila/program">program</a>&nbsp;
+<a href="/events/2011-manila/location">location</a>&nbsp;
+<a href="#"
+   onclick="showRegistration();">register</a>&nbsp;
+<a href="/events/2011-manila/sponsor">sponsor</a>&nbsp;
+<a href="/events/2011-manila/contact">contact</a>&nbsp;
+</h3>
+</div>
+
+<div id="box" style="display: none !important; position: fixed; width: 100%;
+  background-color: rgb(179, 179, 179);
+  background-color: rgba(0,0,0,0.7); display: block; top: 0px; left:
+  0px; z-index: 100000; opacity: 0; height: 100%; overflow-y: scroll;">
+  <div id="modal" style="background-color: white; width: 1024px; margin: 2em auto;">
+  </div>
+</div>
+
+<script id="registrationForm" type="text/x-template">
+<a href="#" style="position: absolute; margin-top: -12px;
+   margin-left: 1011px;" onclick="hideRegistration();">
+   <img src="/images/close.png"/>
+</a>
+
+<iframe width="1024" height="1426" frameborder="0"
+ marginheight="0" marginwidth="0" scrolling="no"
+ src="http://devconsummit.eventbrite.com/"></iframe>
+</script>
+
+<script type="text/javascript">
+  function initialize() {};
+  window.showRegistration = function() {
+    var $box   = document.getElementById('box')  ,
+        style  = $box.style                      ,
+        $modal = document.getElementById('modal'),
+        $template = document.getElementById('registrationForm');
+
+    if(style.removeProperty) {
+      style.removeProperty('display');
+    } else if(style.setAttribute) {
+      style.setAttribute('display', 'block');
+    } else {
+      style.display = 'block';
+    }
+
+    $modal.innerHTML = $template.innerHTML;
+    fadeModal();
+  }
+
+  window.hideRegistration = function() {
+    var $box   = document.getElementById('box'),
+        style  = $box.style                    ,
+        $modal = document.getElementById('modal');
+
+    if(style.setProperty) {
+      style.setProperty('display', 'none', null);
+      style.setProperty('opacity', '0', null);
+    } else if(style.setAttribute){
+      style.setAttribute('display', 'none');
+      style.setAttribute('opacity', '0');
+    } else {
+      style.display = 'none';
+      style.opacity = '0';
+    }
+
+    $modal.innerHTML = '';
+  }
+
+  window.fadeModal = function() {
+    var $box    = document.getElementById('box'),
+        style   = $box.style                    ,
+        opacity = 1                              ;
+
+    if(style.setProperty) {
+      opacity = parseFloat(style.getPropertyValue('opacity')) + 0.1;
+      style.setProperty('opacity', '' + opacity, null);
+    } else if(style.setAttribute) {
+      opacity = parseFloat(style.getAttribute('opacity')) + 0.1;
+      style.setAttribute('opacity', '' + opacity, null);
+    } else {
+      opacity = parseFloat(style.opacity) + 0.1;
+      style.opacity = opacity;
+    }
+
+    if(opacity < 1.0) {
+      setTimeout(fadeModal, 25);
+    }
+  };
+</script>
