@@ -11,6 +11,7 @@
 </div>
 
 <div id="box" style="display: none !important; position: fixed; width: 100%;
+  background-color: rgb(179, 179, 179);
   background-color: rgba(0,0,0,0.7); display: block; top: 0px; left:
   0px; z-index: 100000; opacity: 0; height: 100%; overflow-y: scroll;">
   <div id="modal" style="background-color: white; width: 1024px; margin: 2em auto;">
