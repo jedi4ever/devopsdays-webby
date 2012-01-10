@@ -1,23 +1,25 @@
-<div style="height:120px;" id="quicklinks">
+<div style="height:140px;" id="quicklinks">
 <table><tr><td>
-	<div style="margin-top:15px">
-		<ul>
-			<li><a href="/events/2011-goteborg/">Goteborg</a></li>
-			<li><a href="/events/2011-bangalore/">Bangalore</a></li>
-			<li><a href="/events/2011-melbourne/">Melbourne</a></li>
-			<li><a href="/events/2011-mountainview/">Mountain View</a></li>
-			<li><a href="/events/2011-boston/">Boston</a></li>
-		</ul>
-	</div>
-	</td><td>
-	<div style="margin-top:15px">
-		<ul>
-			<li><a href="/events/2010-brazil/">Sao Paulo</a></li>
-			<li><a href="/events/2010-europe/">Hamburg</a></li>
-			<li><a href="/events/2010-us/">Mountain View</a></li>
-			<li><a href="/events/2010-sydney/">Sydney</a></li>
-			<li><a href="/events/2009-ghent/">Ghent</a></li>
-		</ul>
-	</div>
-	</td></tr></table>
+  <div style="margin-top:15px">
+    <ul>
+      <li><a href="/events/2011-manila/">Manila</a></li>
+      <li><a href="/events/2011-goteborg/">Goteborg</a></li>
+      <li><a href="/events/2011-bangalore/">Bangalore</a></li>
+      <li><a href="/events/2011-melbourne/">Melbourne</a></li>
+      <li><a href="/events/2011-mountainview/">Mountain View</a></li>
+      <li><a href="/events/2011-boston/">Boston</a></li>
+    </ul>
+  </div>
+  </td><td>
+  <div style="margin-top:15px">
+    <ul>
+      <li><a href="/events/2010-brazil/">Sao Paulo</a></li>
+      <li><a href="/events/2010-europe/">Hamburg</a></li>
+      <li><a href="/events/2010-us/">Mountain View</a></li>
+      <li><a href="/events/2010-sydney/">Sydney</a></li>
+      <li><a href="/events/2009-ghent/">Ghent</a></li>
+      <li>&nbsp;</li>
+    </ul>
+  </div>
+  </td></tr></table>
 </div>
