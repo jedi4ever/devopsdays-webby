@@ -1,0 +1,12 @@
+<div class="submenu">
+<h3>
+<a href="/events/2012-austin/">welcome</a>&nbsp;
+<a href="/events/2012-austin/program">program</a>&nbsp;
+<a href="/events/2012-austin/proposals">propose</a>&nbsp;
+<a href="/events/2012-austin/location">location</a>&nbsp; 
+<a href="/events/2012-austin/registration">register</a>&nbsp;
+<a href="/events/2012-austin/sponsor">sponsor</a>
+<a href="/events/2012-austin/contact">contact</a>&nbsp;
+
+</h3>
+</div>

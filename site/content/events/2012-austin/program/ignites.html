@@ -1,0 +1,24 @@
+---
+title:  Austin 2012 Ignite Talks   
+created_at: 2009-09-14 17:11:09.082858 +02:00
+filter:
+- erb
+- markdown
+dirty: true
+---
+<%= render(:partial => '/events/2012-austin/_menu') %>
+
+<% parent="/events/2012-austin/proposals" %>
+
+<h2>Ignite Talks</h2>
+<ol>
+<%
+  ignites = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "title", :reverse => true, :igniteselected => true)
+  ignites.delete(@page)
+  ignites.each do |ignite|
+-%>
+<li><%= link_to_page(ignite) %> - <%= ignite.author %>
+<% end -%>
+</ol>
+

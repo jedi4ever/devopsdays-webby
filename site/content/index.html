@@ -74,27 +74,6 @@ var iw1 = new google.maps.InfoWindow({
 content: "Boston location is happening at the Nerd Center. <a href='/location-boston'>More</a>"
 });
 
-var mountainviewmarker = new MarkerWithLabel({
-position: mountainviewlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Mountain View <br>June 2012",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-var manillamarker = new MarkerWithLabel({
-position: manillalocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Manilla <br>December 2, 2011",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
 
 var austinmarker = new MarkerWithLabel({
 position: austinlocation,
@@ -107,60 +86,6 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
-var bangaloremarker = new MarkerWithLabel({
-position: bangalorelocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Bangalore <br>2012",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-var londonmarker = new MarkerWithLabel({
-position: londonlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "London <br>2012",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-var saopaulomarker = new MarkerWithLabel({
-position: saopaulolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Sao Paolo<br> September 2012",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-var tokyomarker = new MarkerWithLabel({
-position: tokyolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Tokyo<br>2012",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-var torontomarker = new MarkerWithLabel({
-position: torontolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Toronto<br>2012",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
 
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2012-austin"});
 
