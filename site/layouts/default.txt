@@ -56,31 +56,39 @@ google.load('jquery', '1.3.2');
 <%= render(:partial => '/_buttons') %>
 </div>
 </div>
-<div class="span-15  ">
-<div class="span-15  last ">
+
+<% if @page.sidebar == false %>
+<div class="span-24  ">
 <%= @content %>
 </div>
-<% if !@page.blog_post.nil? || !@page.proposal.nil? %>
-<div class="span-15 first last">
-<%= render(:partial => '/disqus_comments') %>
+
+<% else %>
+<div class="span-15  ">
+  <div class="span-15  last ">
+  <%= @content %>
+  </div>
+  <% if !@page.blog_post.nil? || !@page.proposal.nil? %>
+    <div class="span-15 first last">
+  <%= render(:partial => '/disqus_comments') %>
+    </div>
+  <% end %>
+</div>
+
+<div class="span-8 last">
+  <div class="span-8 last">
+    <%= render(:partial => '/twitterfeed') %>
+  </div>
+
+  <div style=" padding-top:58px;" class="span-8 last">
+    <h1>Past Events</h1>
+  </div>
+
+  <div class="span-8 last">
+    <%= render(:partial => '/menu') %>
+  </div>
+
 </div>
 <% end %>
-</div>
-
-<div class="span-8 last">
-<div class="span-8 last">
-<%= render(:partial => '/twitterfeed') %>
-</div>
-
-<div style=" padding-top:58px;" class="span-8 last">
-<h1>Past Events</h1>
-</div>
-
-<div class="span-8 last">
-<%= render(:partial => '/menu') %>
-</div>
-
-</div>
 
 </div>
 
