@@ -32,12 +32,12 @@ dirty: true
   function initialize() {
 
 
-    <!-- http://stackoverflow.com/questions/3472040/rgb-value-to-hsl-converter -->	
+    <!-- http://stackoverflow.com/questions/3472040/rgb-value-to-hsl-converter -->
       <!-- 197° - 78% 38% -->
       var darkStyle = [{
 featureType: 'water',
                elementType: 'all',
-               stylers: [{visibility: 'simplified'} , 
+               stylers: [{visibility: 'simplified'} ,
                <!--			{saturation: 56}, {lightness: -76 }, { hue: '#1581AB' }, { gamma: 1} -->
                  ]
       }];
@@ -47,7 +47,7 @@ featureType: 'water',
       var map = new google.maps.Map(document.getElementById("map_canvas"), {
 zoom: 1,
 mapTypeControlOptions: {
-mapTypeIds: ['darkwater']		
+mapTypeIds: ['darkwater']
 },
 center: homeLatLng,
 mapTypeId: 'darkwater',
@@ -57,7 +57,7 @@ disableDefaultUI: true,
 map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
 
 <!-- http://itouchmap.com/latlong.html -->
-var losangeleslocation=new google.maps.LatLng(33.945816 ,	-118.380282);	
+var losangeleslocation=new google.maps.LatLng(33.945816 ,	-118.380282);
 var bostonlocation=new google.maps.LatLng(42.36080,-71.08250);
 var goteborglocation=new google.maps.LatLng(57.69699 ,	11.98650);
 var mountainviewlocation=new google.maps.LatLng(37.36725 ,	-122.02314);
@@ -69,6 +69,10 @@ var londonlocation=new google.maps.LatLng( 51.500152,-0.126236);
 var tokyolocation=new google.maps.LatLng( 35.689488,139.691706);
 var saopaulolocation=new google.maps.LatLng( -23.548943,-46.638818);
 var torontolocation=new google.maps.LatLng(43.653226,-79.383184);
+var italylocation=new google.maps.LatLng(41.89052,12.494249);
+var sydneylocation=new google.maps.LatLng(-33.873651,151.20689);
+var gurgaonlocation=new google.maps.LatLng(28.459497,77.026638);
+var sanfranciscolocation=new google.maps.LatLng(37.77493,-122.419415);
 
 var iw1 = new google.maps.InfoWindow({
 content: "Boston location is happening at the Nerd Center. <a href='/location-boston'>More</a>"
@@ -81,13 +85,61 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Austin <br>April 2012",
+labelAnchor: new google.maps.Point(20, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2012-austin"});
+
+var gurgaonmarker = new MarkerWithLabel({
+position: gurgaonlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Gurgaon India<br>21th July 2012",
 labelAnchor: new google.maps.Point(30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
+google.maps.event.addListener(gurgaonmarker, "click", function (e) { location.href="/events/2012-india"});
+
+var sanfranciscomarker = new MarkerWithLabel({
+position: sanfranciscolocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "San Francisco area<br>28 & 29 June 2012",
+labelAnchor: new google.maps.Point(+80, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(sanfranciscomarker, "click", function (e) { location.href="/events/2012-sanfrancisco"});
+
+var italymarker = new MarkerWithLabel({
+position: italylocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Italy<br> October 2012",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(italymarker, "click", function (e) { location.href="/events/2012-italy"});
 
 
-google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2012-austin"});
+var sydneymarker = new MarkerWithLabel({
+position: sydneylocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Sydney area<br> May 2012",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="/events/2012-downunder"});
+
 
 }
 </script>
