@@ -1,0 +1,21 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Michael Coté
+title: How a BigCo actually got some innovation done - The Longer Story of Crowbar
+---
+**Abstract:** 
+
+Sometimes it seems like It's near impossible to get anything innovative, interesting  done in a large company - it's as if BigCos are goaled to prevent just that. While you can't type a URL without hearing how a Ramen-fueled startup got ground breaking product out the door, you rarely hear about how the other side of the exit lives in Large Company Land. This talk will use the story of Crowbar at Dell to grope out how to get good things done in big technology companies, esp. when it comes to something as BigCo esoteric as DevOps!
+
+I'm amazed when I find a skunk-worked project that's blossomed into a valuable, strategic asset for a company. In the case of Dell and Crowbar, it's even more astonishing: Dell has traditionally been a stone-cold hardware company focused on shipping more boxes each quarter, Crowbar is an open source piece of software whose business model depends on the nuanced dynamics of open platforms strategy. You'd never think these two things would go together. And yet, Crowbar exists and has had amazing success (both externally and internally) in an extremely short time. With the access I have to the "real story," being at Dell now after six years at RedMonk covering tech from the outside, I'll go over lessons learned on getting DevOps and a DevOps product through the Brazil-like pneumatic tubes of a $62.1B company.
+
+
+**Speaker:** Michael Coté - Dell
+Cote is known for his sick love of IT Management, cloud, and software development. You may have seen him in such ventures as RedMonk, The IT Management & Cloud Podcast, DrunkAndRetired.com, and now as a corporate strategist at Dell.

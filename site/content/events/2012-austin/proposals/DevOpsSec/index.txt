@@ -1,0 +1,36 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Nick Galbreath
+title: DevOpsSec - Applying DevOps Principles to Application Security - Etsy
+---
+**Abstract:** 
+
+DevOps with it's emphasis on rapid change and it's non-boundry between developers and technical operations would seem present a recipe for insecurity.  While it does present some challenges, on the whole DevOps principals provide guidance on creating a more secure environment. 
+This talk will cover some of tools and techniques we use at Etsy to help manage risk.
+
+#### Introduction Context
+
+- On DevOps
+- On Security
+- And how it's DevOps principles Match
+- QA vs Security
+
+#### Tools and Techniques
+
+- Measurement: MTTD / MTTR --But what are you detecting / Resolving
+- Staffing and Hiring - Challenges
+- Organizational Structure - Work In Progress at Etsy
+- Logging and Graphing - Real WebApp Security Metrics
+- Leveraging Continuous Integration - repurposing QA tools for security and operations
+- Managing Continuous Delivery -  Isn't 60 pushes a day a security nightmare?
+- Post-Mortems - Spreading knowledge
+- Third Party Applications and Services - A surprising conclusion
+
+**Speaker:** Nick Galbreath - Director of Engineering Etsy

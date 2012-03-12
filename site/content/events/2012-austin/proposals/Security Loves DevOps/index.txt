@@ -1,0 +1,33 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: James Turnbull
+title: Security Loves Devops
+---
+**Abstract:** 
+
+A lot of Dev and Ops people look at their security teams with disdain.
+"Those guys are just blockers... All they do is throw obstacles in my
+way and say no. They'll never be DevOps or even Agile." In return many
+security people see the emergence of DevOps as creating a wilder, less
+managed environment in which they would face more risk and greater
+security challenges.
+
+So who is right? Can DevOps and security co-exist? Can they learn from
+one another?  We will take a deeper look into:
+
+* What DevOps means for a Security professional
+* How DevOps can be sold to Security
+* How Security practice can enhance DevOps
+* How DevOps can influence Risk decisions and help manage risk appetite
+
+Let’s see if DevOps and Security can have a long and prosperous
+relationship.
+
+**Speaker:** James Turnbull - Puppetlabs
