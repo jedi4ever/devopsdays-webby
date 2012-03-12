@@ -72,7 +72,7 @@ var torontolocation=new google.maps.LatLng(43.653226,-79.383184);
 var italylocation=new google.maps.LatLng(41.89052,12.494249);
 var sydneylocation=new google.maps.LatLng(-33.873651,151.20689);
 var gurgaonlocation=new google.maps.LatLng(28.459497,77.026638);
-var sanfranciscolocation=new google.maps.LatLng(37.77493,-122.419415);
+var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
 
 var iw1 = new google.maps.InfoWindow({
 content: "Boston location is happening at the Nerd Center. <a href='/location-boston'>More</a>"
@@ -103,17 +103,17 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(gurgaonmarker, "click", function (e) { location.href="/events/2012-india"});
 
-var sanfranciscomarker = new MarkerWithLabel({
-position: sanfranciscolocation,
+var mountainviewmarker = new MarkerWithLabel({
+position: mountainviewlocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "San Francisco area<br>28 & 29 June 2012",
+labelContent: "Mountain View<br>28 & 29 June 2012",
 labelAnchor: new google.maps.Point(+80, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
-google.maps.event.addListener(sanfranciscomarker, "click", function (e) { location.href="/events/2012-sanfrancisco"});
+google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2012-mountainview"});
 
 var italymarker = new MarkerWithLabel({
 position: italylocation,

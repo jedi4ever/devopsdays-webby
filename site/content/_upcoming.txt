@@ -2,7 +2,7 @@
 <h3>
 <a href="/events/2012-austin/">Austin Texas</a>&nbsp; -
 <a href="/events/2012-downunder/">Sydney</a>&nbsp; -
-<a href="/events/2012-sanfrancisco/">San Francisco</a>&nbsp; - 
+<a href="/events/2012-mountainview/">Mountain View</a>&nbsp; - 
 <a href="/events/2012-india/">India</a>&nbsp; -
 <a href="/events/2012-italy/">Italy</a>&nbsp;
 </h3>
