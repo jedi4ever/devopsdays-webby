@@ -8,6 +8,7 @@
       <li><a href="/events/2011-melbourne/">Melbourne</a></li>
       <li><a href="/events/2011-mountainview/">Mountain View</a></li>
       <li><a href="/events/2011-boston/">Boston</a></li>
+      <li><a href="/events/2012-austin/">Austin</a></li>
     </ul>
   </div>
   </td><td>
