@@ -19,7 +19,6 @@
       <li><a href="/events/2010-us/">Mountain View</a></li>
       <li><a href="/events/2010-sydney/">Sydney</a></li>
       <li><a href="/events/2009-ghent/">Ghent</a></li>
-      <li>&nbsp;</li>
     </ul>
   </div>
   </td></tr></table>
