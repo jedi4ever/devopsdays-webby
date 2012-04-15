@@ -8,6 +8,7 @@ title: Devopsdays Events
 The following events took place in the past:
 
 <ul>
+<li><a href="/events/2012-austin/">Austin 2012</a></li>
 <li><a href="/events/2011-goteborg/">Goteborg 2011</a></li>
 <li><a href="/events/2011-bangalore/">Bangalore 2011</a></li>
 <li><a href="http://devopsdownunder.org/">Melbourne 2011</a></li>
