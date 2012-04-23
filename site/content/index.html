@@ -79,18 +79,6 @@ content: "Boston location is happening at the Nerd Center. <a href='/location-bo
 });
 
 
-var austinmarker = new MarkerWithLabel({
-position: austinlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Austin <br>April 2012",
-labelAnchor: new google.maps.Point(20, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2012-austin"});
-
 var gurgaonmarker = new MarkerWithLabel({
 position: gurgaonlocation,
 draggable: false,
