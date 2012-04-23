@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 selected: true
-author: 
+author: John Esser
 title: How Ancestry Does DevOps and Enabled Continuous Delivery
 ---
 **Abstract:** 
