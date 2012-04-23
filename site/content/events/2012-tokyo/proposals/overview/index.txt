@@ -1,12 +1,12 @@
 ---
-title:  Austin Texas 2012 Proposals    
+title:  Tokyo 2012 Proposals    
 created_at: 2009-09-14 17:11:09.082858 +02:00
 filter:     
 - erb
 - markdown
 dirty:      true
 ---
-<%= render(:partial => '/events/2012-austin/_menu') %>
+<%= render(:partial => '/events/2012-tokyo/_menu') %>
 
 There are three ways to propose a session:
 <ol>
@@ -15,14 +15,14 @@ There are three ways to propose a session:
 	<li><strong><em>Openspace session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during the openspace opening. Check the <a href="/pages/open-space-format">openspace format</a> for more information
 </ol>
 
-Interested? [Read on more detailed information on proposing a session](/events/2012-austin/proposals/)
+Interested? [Read on more detailed information on proposing a session](/events/2012-tokyo/proposals/)
 
 This page list the proposals we have received. Help the presenters with your feedback! 
 
 <h3>**Note: these are only the proposals** .</h3>
 
 
-<% parent="/events/2012-austin/proposals" %>
+<% parent="/events/2012-tokyo/proposals" %>
 
 <h2>Conference Talks</h2>
 <ol>

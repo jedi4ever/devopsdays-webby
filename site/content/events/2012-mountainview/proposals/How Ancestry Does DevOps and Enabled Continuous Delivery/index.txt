@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: 
+title: How Ancestry Does DevOps and Enabled Continuous Delivery
+---
+**Abstract:** 
+
+Over that past two years, Ancestry.com has gone from a “traditional” development organization with ops working separately (even against) from development, complete with manual provisioning, configuration, and deployments to an organization where ops and devs work together. Driven by the adoption of agile practices, this collaboration has brought about drastic changes:  absolutely no infrastructure automation to the establishment of a full, working, private cloud complete with automated provisioning, configuration, and deployments through a continuous delivery process.  The results are startling:  bringing a new service online has decreased from 4 to 6 weeks to a few days at most.  Teams are deploying code daily, rather than once or twice a month. Most importantly, devs and ops folks work together to ship code rather than being at odds with each other.
+
+ This presentation will not only show what happened, but most importantly how we did it and do it now.  (I went to a presentation recently that only talked about what happened, and while nice info, what incredibly not useful.)  This presentation should give presenters some actual, practical information they can use in their own company, enterprise, and devops adoption.  Ultimately, this is a presentation on not just how to do agile or devops practices, but on how to BE agile, from the business all the way through development to ops.
+
+In the presentation I will cover such topics as:
+
+- Cultural changes: what drove it, how culture shifts were done, teams shifting to owning their services “cradle to grave” rather than “throw over the wall” to ops at deployment time.
+- Ops changes:  the move to dev ops, what drove it and how we did it
+- Architectural changes:  no change of this magnitude could have been done without significant architectural shifts.
+- Continuous Delivery:  how we do it.  A great expression of DevOps in action
+- Agile, but especially Lean:  how they were used in the transformation
+
+**Speaker:** John Esser, Director of Engineering Productivity and Agile Development at Ancestry.com

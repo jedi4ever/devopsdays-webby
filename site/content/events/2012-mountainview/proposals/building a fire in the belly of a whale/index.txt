@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: David Parmenter
+title: Building a fire in the belly of a whale - blowing up the culture at large companies
+---
+**Abstract:** 
+
+When I joined Adobe two years ago, my organization was using (gasp) waterfall. Our sites were beautifully designed by top XD people and meticulously documented and implemented by seasoned pros. But we had all the usual problems in spades: very tedious process for making changes, extremely difficult to respond rapidly to outside stimuli or really any stimuli at all.
+
+Over the past two years, I spearheaded a band of rebels who got everybody to junk all that in favor of Scrum. We are now evolving toward Kanban, and trying to be as #devops as we possible can be. This is true both for our existing production services and a new (greenfield) project that I am running as well.
+
+I'd like to talk about how to get people (especially skeptics) in all roles and levels to buy into the need to change, and then how to get that change to take place. Hint: it can't come from the top down! To be clear, this is a work in progress for us, but getting QE, Product Management, Marketing, Senior Management all on board has already paid huge dividends, by objective measures and in terms of fun/morale/awesomeness.
+
+I would especially talk about how to shift the traditional responsibilities of dev / qe and product management as you move into the #devops world.
+
+Getting the culture right for your org is THE most important thing you have to do. Yes, you can change it even when the company's been in business for 30 years. And yes, it needs to then continuously change after that.
+
+I think this talk would work best as a panel, but it may make sense in other configurations.
+
+**Speaker:** David Parmenter - development manager at Adobe
