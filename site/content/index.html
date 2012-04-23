@@ -140,6 +140,18 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="/events/2012-downunder"});
 
+var tokyomarker = new MarkerWithLabel({
+position: tokyolocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Tokyo 25 May",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(tokyomarker, "click", function (e) { location.href="/events/2012-tokyo"});
+
 
 }
 </script>
