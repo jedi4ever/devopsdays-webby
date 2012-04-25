@@ -1,0 +1,28 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Brandon Burton
+title: Improving Developer and Operations Productivity through Self Service @ Mozilla
+---
+**Abstract:** 
+
+Providing Infrastructure to a variety of application and web developers, which ultimately serves the needs of 450+ million plus end users is tricky at best. Needs in terms of environments, monitoring, support, and SLAs varies from product to product and group to group, and Mozilla IT does its best to service them all.
+
+As part of this, Project Petri was formed in late 2011 to help integrate ideas and practices from "cloud computing."
+
+Per [https://wiki.mozilla.org/Petri](https://wiki.mozilla.org/Petri), "Project Petri is a 1-year experiment in providing a Platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS) offering to make it easy for people with new ideas for web apps to try them quickly, with minimal impact on IT/Ops, and with an on-ramp to making webapps that are better/safer/faster/more maintainable if the ideas they're testing prove to be useful."
+
+Late 2011 and Q1 2012 were spent exploring various options and Q2 2012 will see us build out initial services for our developers to utilize. We'll be building an IaaS service based on Eucalyptus 3.0 and a PaaS service with Cloud Foundry.
+
+My talk with provide a brief history of Mozilla's challenges, how Petri arrived at the decision to use the technologies we have, and provide a status update for our progress with our "alpha" in Q2 2012.
+
+The goal of this talk will be to share some of the challenges Mozilla IT has faced in building more self service type services
+and their adoption amongst our developer teams and provide some real world feedback on how Eucalyptus and Cloud Foundry work. 
+
+**Speaker:** Brandon Burton - Mozilla Web Ops
