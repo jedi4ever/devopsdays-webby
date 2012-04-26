@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Cliff Moon
+title: The Audubon Society for Partial Failures
+---
+**Abstract:** 
+
+Failure in a modern distributed system is a complicated affair.  Many distributed systems are deployed into production with multiple bugs and can limp along on one leg for months due to the self-healing properties of their highly available architecture.  Be that as it may, apply enough load and eventually things will cease to work when you need them the most.  This talk presents a taxonomy of distributed systems failures and bugs in the wild, as seen through the lens of the network.  By classifying the failures we find, we can come closer to being able to proactively detect them before they develop into full blown outages. 
+
+**Speaker:** Cliff Moon - Boundary

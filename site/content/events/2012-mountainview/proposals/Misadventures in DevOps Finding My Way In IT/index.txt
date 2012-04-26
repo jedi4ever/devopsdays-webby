@@ -1,0 +1,28 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Christopher Webber
+title: Misadventures in DevOps Finding My Way In IT
+---
+**Abstract:** 
+
+There is more to it than just getting Dev and Ops working together, it is about getting Ops internally working well and getting other IT orgs playing well together too. 
+
+Inter-team Issues
+---------------------
+
+DevOps as we know it makes some really big assumptions about the current state of your operations and/or development teams. The problem is that these assumptions or prequsites frequently go unmentioned or unaddressed. We occassionaly brush the issue asside by drawing a line between Ops and IT but, that is really an easy way to hide the real issues. I would like to take some time to talk about how important it is for these teams to already be working together well internally and already have things under control (to a point) before moving on to the dealing with talking with different teams.
+
+Dev, Ops, etc.
+--------------------------------
+
+The other thing that is interesting to look at is the fact that in large orgs, like the EDU space, it may go beyond Dev and Ops as teams and be entire IT orgs. DevOps is fundamentally about culture and doing what is best for the business. We need to move beyond our little islands and branch out. I will demonstrate some of the things the the admins in the Computer Science Dept and myself have done to better cooperate and do what is best for the campus.
+
+**Speaker:** Christopher Webber - Systems Administrator 
+Bioinformatics - University of California, Riverside
