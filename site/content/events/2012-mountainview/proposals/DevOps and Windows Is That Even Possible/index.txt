@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Dan Gilmer
+title: "DevOps and Windows: Is That Even Possible?"
+---
+**Abstract:** 
+
+The notion of DevOps is well accepted in the Linux and open-source world.  In the Windows space and for Windows admins DevOps seems like a foreign concept.  Windows admins in large deployment shops typically have a different view point than Linux admins.  Accordingly, Linux admins are unaware of the state of Windows at scale.  This presentation will focus how DevOps can be approached in a large-scale Windows-based deployment, how to overcome the Windows admin ""mindset"" with regard to operations and dev ops.  This proposal offers a strong curiosity factor while at the same time opens the philosophy further into the Windows community.
+
+**Speaker:** Dan Gilmer, Senior Ops Engineer at Ancestry
