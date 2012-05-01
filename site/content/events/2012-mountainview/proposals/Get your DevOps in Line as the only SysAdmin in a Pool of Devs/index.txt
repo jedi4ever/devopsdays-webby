@@ -1,0 +1,23 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Michael A. Fiedler
+title: Get your DevOps in Line as the only SysAdmin in a Pool of Devs
+---
+**Abstract:** 
+
+I joined 10gen as the lone Sysadmin on a team of Devs, and many know the difficulty of ensuring order and control over DevOps in a fast-paced and constantly growing technology company. I'll walk through my experience and give insight into how individuals trying to enact adoption of DevOps practices can do so, and go through the why's, what's and how's that come with trying to build order into an organization's engineering infrastructure. Some items we'll touch on:
+
+How to introduce automation, prove your methods, and get your dev team to commit.
+
+The tools and methodologies we can employ to organize our systems more efficient such as spreading tasks over time, delegation, prioritization and the good old hunker down and get it done.
+
+And of course, the magic framework for how to avoid pesky pager alerts at Midnight.
+
+**Speaker:** Michael A. Fiedler - sysadmin at 10gen

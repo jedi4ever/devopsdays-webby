@@ -1,0 +1,25 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+author: Ben Rockwood
+title:  Panel - Work Scheduling in Agile Operations
+---
+*Panel discussion*
+
+Operations teams balance a variety of different types of "work".  Gene says there are 4 types: business projects, internal operations projects, break-fix, and changes.  Ops teams all to often are stuck in break-fix ("firefighting") hell.  This is formally supported by IT Maturity Models provided in CobiT, CMMI, and others where Levels 0 and 1 fit a team so busy chasing their own tails they don't know how to get out of it or are just realizing they need to.  Finding balance, removing roadblocks, streamlining work in progress, and moving from "efficiency" to "effectiveness" (ala Deming/Drucker) are a big part of what DevOps and agile operations is all about.
+
+DevOps Days is a fantastic opportunity to assemble a panel of people to shed light on how teams have broken out of the fire-fighting rut and hone in (hopefully) on real-word pragmatic steps others can examine and pattern against to do the same.  The key to the success of the panel is to have people who don't just talk about it, but people who have actually done it.  In the past there has been a lot of DevOps awareness of the underlying problem, but not enough real-world "here's how we did it" on this topic.
+
+One critical componant here for discussion is how to visualize this whole process.  Managers of large and virtual teams can't opt for a whiteboard in the corner, and Kanban is hard to apply to all 4 classes of work unless you segment your team... breakfix work moves faster than may be valid for Kanban, Changes are a solid canidate, internal and business projects may not work unless chopped into granular subtasks (scrum backlog style)... and mixing all these in Kanban can be difficult, again particularly for distributed teams.
+
+_Moderator_: Damon Edwards
+
+_Panel Members:_
+
+- Gene Kim
+- Ben Rockwood
