@@ -1,0 +1,23 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: John Tangney
+title: DevOps at the Final Frontier (In space, no one can hear you scream.)
+---
+**Abstract:** 
+
+Aerospace companies are often big and slow and stodgy. Silicon Valley startups are small, fast, lean. Skybox Imaging is a Silicon Valley startup that's building a constellation of earth-imaging satellites. 
+
+Our story is about distributed, heterogeneous systems and Big Data Hadoop clusters. It's a story in which Waterfall meets Continuous Delivery. It's about QA, Mission Operations and developing software, but it's also about building hardware – some of which flies in space.
+
+DevOps is about tearing down walls. In this talk we will describe some of those walls and how we have dealt with them – or not! We will look at the road ahead and the technical, cultural and logistical challenges we'll face as we build a sustainable, scalable organization.
+
+Because this is about space, this talk will also include plenty of TLAs.
+
+**Speaker:** John Tangney - Sr. Software Engineer, Ground Systems
