@@ -1,0 +1,11 @@
+---
+filter:    erb
+---
+<% @sponsors = [
+  { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com"},
+  { :image => "sumologic.png", :name => "Sumologic", :link => "http://www.sumologic.com/"},
+  { :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
+]%>
+<% @sponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
