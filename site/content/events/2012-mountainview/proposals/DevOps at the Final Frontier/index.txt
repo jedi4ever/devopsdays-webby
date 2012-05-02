@@ -7,6 +7,7 @@ dirty: true
 proposal: true
 talk: true
 selected: true
+layout: event
 author: John Tangney
 title: DevOps at the Final Frontier (In space, no one can hear you scream.)
 ---

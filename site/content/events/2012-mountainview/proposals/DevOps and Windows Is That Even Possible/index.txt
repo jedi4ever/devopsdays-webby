@@ -8,6 +8,7 @@ proposal: true
 talk: true
 selected: true
 author: Dan Gilmer
+layout: event
 title: "DevOps and Windows: Is That Even Possible?"
 ---
 **Abstract:** 

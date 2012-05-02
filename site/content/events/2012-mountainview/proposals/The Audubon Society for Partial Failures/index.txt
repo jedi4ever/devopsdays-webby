@@ -4,6 +4,7 @@ filter:
 - erb
 - markdown
 dirty: true
+layout: event
 proposal: true
 talk: true
 selected: true

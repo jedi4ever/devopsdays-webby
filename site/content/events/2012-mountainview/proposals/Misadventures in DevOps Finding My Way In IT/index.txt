@@ -8,6 +8,7 @@ proposal: true
 talk: true
 selected: true
 author: Christopher Webber
+layout: event
 title: Misadventures in DevOps Finding My Way In IT
 ---
 **Abstract:** 
