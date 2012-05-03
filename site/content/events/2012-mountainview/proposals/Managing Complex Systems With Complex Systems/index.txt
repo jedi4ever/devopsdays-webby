@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: John Willis
+title: "Managing Complex Systems With Complex Systems"
+---
+**Abstract:** 
+
+A few years ago I gave a presentation called “The Cambrian Cloud Explosion” as a keynote at the NoSQL East conference.  My presentation was built on ideas from Hal Varian and the his thoughts on combinatorial innovation as well as works provided by Simon Herbert on complexity and componentization.  I have been involved with large scale infrastructure for over 30 years and have seen many tools try and deal with the complexity of large scale systems.  In the early days products like IBM’s Tivoli tried to solve this problem with rule based correlation and IT datawarehouses.  The web scale infrastructures of today are starting to approach IT infrastructure complexity with things like Complex Event Processing CEP and big data analytic tools.  In preparation for this presentation I plan on interviewing some of the thought leaders in this space as well as point out the use of some existing tools being use (e.g., Esper, Flumebase, Hadoop, Cassandra). I want to also open up the discussion of what complex management tools of the future might look like. 
+
+**Speaker:** John Willis

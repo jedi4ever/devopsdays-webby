@@ -1,0 +1,26 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Noah Sussman
+title: "Production Monitoring With Selenium"
+---
+**Abstract:** 
+
+Selenium is more than a test automation tool.  It is also a general purpose automated Web user agent with rendering capabilities that far exceed those of conventional network probes such as Curl or Netcat. By leveraging Selenium for production monitoring, the Etsy team are able to define interesting and valuable alerting thresholds based upon the stateful behavior of pages rendered in a Web browser.
+
+Aside from live video capture, leveraging the rendering capabilities of a Web browser allow us to define complex alerting thresholds such as:
+
+* end-to-end behavior of features like login and checkout
+* interactions that require XHR
+* DOM elements that are dynamically rendered
+* CSS display characteristics
+
+I look forward to talking about both the wins and the unexpected pitfalls of using Selenium to monitor a production Web site."
+
+**Speaker:** Noah Sussman, Test Architect at Etsy
