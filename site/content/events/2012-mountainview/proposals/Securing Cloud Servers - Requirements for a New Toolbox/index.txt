@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Tatiana Slater
+title: "Securing Cloud Servers: Requirements for a New Toolbox"
+---
+**Abstract:** 
+
+Infrastructure-as-a-Server (IaaS) is a new operational model that completely breaks traditional security approaches.  Unfortunately, the no-barrier-to-entry disruption of the public cloud means that people inside your organization are likely spinning up servers outside of your datacenter, without telling you.  Without the necessary security protections that you would expect in your traditional data center, how do you know you are protected? Whether you’re running servers in private, public, or especially hybrid clouds, you must recognize the architectural differences that make it almost impossible traditional security technologies to operate in the cloud, and for traditional organizational structures to keep your applications and data safe.
+
+**Speaker:** Tatiana Slater

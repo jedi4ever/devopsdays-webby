@@ -1,0 +1,21 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Baruch Sadogursky
+title: "Cloud is YUMmy (and APTty)!"
+---
+**Abstract:** 
+
+"Your software walks a long and windy road from source files to runtime. Part of it is a well paved hi-speed motorway built upon years of experience and excellence, while other parts of it still look like a muddy road during the wet season. 
+For example, think about the phases between your continuous integration server and your runtime machines? How are your packages provisioned to YUM and APT servers? If you notice room for improvement, this session is for you.
+In this session we’ll show you some robust and agile ways to automate your cloud deployments by using RedHat and Debian packaging standards.
+By adding a Binary Repository Manager to your ALM stack you’ll complete the automation lifecycle of software manufacturing.
+We’ll show you how to serve your software in the most efficient, transparent and reliable way without dealing with server maintenance, scripts authoring or in-house development. "
+
+**Speaker:** Baruch Sadogursky

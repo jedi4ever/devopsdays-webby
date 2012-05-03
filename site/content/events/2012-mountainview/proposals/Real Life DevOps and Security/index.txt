@@ -1,0 +1,30 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: David Mortman
+title: "Real Life DevOps and Security"
+---
+**Abstract:** 
+
+"Despite the name DevOps isn't just about Development and Operations, but is instead about how to do IT in an efficient, effective, and flexible manner. Security is infamous for meeting none of those three goals. To loose quote @kartar at the Austin DevOpsDays '12 ""OMG here come the security guys, they're gonna fuck up our product"". Security in general and security operations in specific, can learn a lot from the DevOps movement about how to increase agility without increasing the risk to the organization. This includes but is far from limited to leveraging concepts such as automation and continuous integration/deployment. This talk will discuss how security teams can benefit by embracing the DevOps movement both in terms of how they interact with other groups but also how things get done within the security team. The talk is not just theory but will include real life examples and lessons learned from a variety of organizations the author has worked with. Attendees will leave with information that they can use their current jobs. As is tradition, (hopefully homemade) baked goods will provided for good questions from audience members.
+
+Outline:
+
+* Introduction
+* DevOps and How Security Fits In
+* Automation, DevOps and Security 
+    * How Automating Dev Can Improve Security
+    * How Automating Ops Can Improve Security
+    * How Automating Security Can Improve Security
+* Continuous Integration/Deployment and Security
+* DevOps, Security and Operational Discipline: A Paen To Gene Kim
+* DevOps and Security Moving Forward
+* Conclusion/QA"
+
+**Speaker:** David Mortman, Enstratus
