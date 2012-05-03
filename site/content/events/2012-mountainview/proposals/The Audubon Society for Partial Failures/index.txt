@@ -7,6 +7,7 @@ dirty: true
 layout: event
 proposal: true
 talk: true
+layout: event
 selected: true
 author: Cliff Moon
 title: The Audubon Society for Partial Failures

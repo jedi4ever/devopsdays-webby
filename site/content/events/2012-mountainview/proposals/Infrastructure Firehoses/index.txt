@@ -6,6 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
+layout: event
 selected: true
 author: John Vincent
 title: "Infrastructure Firehoses"

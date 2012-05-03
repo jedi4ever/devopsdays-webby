@@ -5,6 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
+layout: event
 talk: true
 selected: true
 author: Tatiana Slater
