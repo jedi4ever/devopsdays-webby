@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: John Vincent
+title: "Infrastructure Firehoses"
+---
+**Abstract:** 
+
+Tapping into your flow real time
+
+More and more information is flowing across your infrastructure. This talk is a discussion around tools like RabbitMQ, Logstash, Riemann, 0mq, Redis and Graphite and ways to tap into that information.
+
+**Speaker:** John Vincent

@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Ann Marie Fred
+title: "How IBM is using DevOps to build DevOps tools"
+---
+**Abstract:** 
+
+At IBM, we are gradually transforming our software development organizations to follow more DevOps principles.  We're also building tools to help other organizations use DevOps practices.  This talk explains how we use DevOps principles and practices to build DevOps tools.  We'll even see how SmartCloud Continuous Delivery is developed using -- you guessed it -- SmartCloud Continuous Delivery.
+
+Topics covered will include:
+
+- Why does IBM believe in DevOps principles?
+- Why do we want to use DevOps practices for our own software development?
+- How did we create a DevOps-focused team?
+- How does development, test, and deployment work for SmartCloud
+- Continuous Delivery?
+- How do DevOps practices make life easier or harder for us on a daily basis?
+- How will we encourage more teams within IBM to adopt DevOps principles and practices?
+
+**Speaker:** Ann Marie Fred, IBM

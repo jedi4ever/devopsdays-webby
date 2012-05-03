@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Adrian Cockcroft
+title: "PaaS Patterns for DevOps at Netflix"
+---
+**Abstract:** 
+
+Netflix has developed a globally scaled Java PaaS that automates many operations tasks by constraining developers to work within common patterns. These patterns pre-bake mechanisms for continuous integration, deployment, security, availability, durability, capacity planning, monitoring and alerting etc. The PaaS is built and operated by an integrated team of DevOps engineers with experience in both development and operations, with outside dependencies for IaaS on AWS, and SaaS hosted apps including PagerDuty, AppDynamics. During 2012 the Netflix PaaS is gradually being released as a set of open source components at github.com/netflix. This talk will focus on the patterns we have defined and automated.
+
+**Speaker:** Adrian Cockcroft, Netflix
