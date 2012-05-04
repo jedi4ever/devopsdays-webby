@@ -1,0 +1,22 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Jayne Groll
+title: "ITIL and DevOps: Key Ingredients for Next Generation IT?"
+---
+**Abstract:** 
+
+While many organizations have recognized and invested in ITIL and IT Service Management, initial emphasis has been placed primarily on production level processes such as Incident, Change and Problem Management.    The growing influence and interest in DevOps may now serve as the crosswalk between agile development/SDLC and agile IT service management, injecting the best of both into the value chain to the customer.
+
+This presentation explores the relationship, differentiators, co-dependencies and cultural commonalities of ITIL and DevOps.   The presentation will also explore the need to get organizations to recognize and integrate DevOps into their Service Management programs.
+
+**Speaker:** Jayne Groll, ITIL Expert and President of ITSM Academy
+
+**Potential co-presenter:**  Gene Kim, co-author of the DevOps Cookbook, the Visible Ops Handbook and author of When IT Fails...
