@@ -5,6 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
+layout: event
 ignite: true
 author: Stefan Zier
 title: EverybodyOps

@@ -5,6 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
+layout: event
 ignite: true
 author: Patricio Arvizu
 title: "Don't pay for a dumb broker."

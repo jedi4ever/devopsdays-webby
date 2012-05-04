@@ -8,6 +8,7 @@ proposal: true
 ignite: true
 author: Jos Boumans
 title: Monitor All the Things
+layout: event
 ---
 **Abstract:** 
 
