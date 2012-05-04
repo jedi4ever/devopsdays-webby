@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+author: Kyle Kingsbury
+layout: event
+title: "Riemann: a low-latency event monitoring system."
+---
+**Abstract:** 
+
+Riemann is a monitoring system. Lightweight clients send arbitrary events to a Clojure server, which processes the event stream with a highly configurable DSL. Streams can compute statistics, throttle and roll up events, dispatch email, graph through Graphite, forward events between servers, and integrate with any Java or Clojure library. Clients can query for the current state of the the system to present graphs and dashboards. Riemann provides low-latency, transient shared state for distributed systems.
+
+**Speaker:** Kyle Kingsbury
