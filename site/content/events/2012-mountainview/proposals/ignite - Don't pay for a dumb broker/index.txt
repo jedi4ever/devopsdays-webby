@@ -1,0 +1,25 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Patricio Arvizu
+title: "Don't pay for a dumb broker."
+---
+**Abstract:** 
+
+A lot of Continuous Integration tools today (both free and licensed) offer functionality out of the box or through plugins to do a variety of things. They all have pros and cons and are a great tool for startups and to quickly get on the Continous Delivery train.
+
+But consider the case of a company with multiple products. More than likely the build plans for both will be identical. So why would you need to have two separate projects? To further complicate matters, as your build/release needs change, you will have to maintain and update each plan separately. It becomes exponentially worse as the number of products increases.
+
+A better solution? Encapsulate the DSL for your build/release process in a single project, including all your build scripts. With this, two things can be achieved:
+
+1. The build system can be versioned and optionally released as an artifact. Either way, it becomes the first dependency for any product.
+2. More importantly, your CI servers only need to be ""task brokers"" that invoke these scripts with no knowledge about the build process. Do you really want to pay for a "dumb" task broker?
+
+As a result of this, the build system artifact becomes the central repository of the build/release  knowledge and saves you from update headaches in the future.
+
+**Proposer:** Patricio Arvizu, Build Automation Engineer for TheLadders.com

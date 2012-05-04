@@ -1,0 +1,20 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Jos Boumans
+title: Monitor All the Things
+---
+**Abstract:** 
+
+At Krux, we run at a pretty high traffic load from multiple sources (we provide infrastructure for big publishers), so we live and die by our monitoring and graphing.
+
+We use some clever tricks to measure everything we can get our hands on and are pushing about 300k metrics per seconds.
+
+I'd like to take 5 minutes and point folks at some of the tricks they could use to make their lives easier.
+
+**Proposer:** Jos Boumans
