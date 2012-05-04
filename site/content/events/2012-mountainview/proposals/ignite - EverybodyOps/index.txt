@@ -1,0 +1,16 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+author: Stefan Zier
+title: EverybodyOps
+---
+**Abstract:** 
+
+Why and how all our developers carry the pager and deploy the system. We've practiced this here at Sumo Logic for the past year or so, with  pretty good success, and I'd like to share some of the choices we made  and what effect they've had. Somewhat similar to the NoOps practiced at Netflix, but at a much smaller scale.
+
+**Proposer:** Stefan Zier
