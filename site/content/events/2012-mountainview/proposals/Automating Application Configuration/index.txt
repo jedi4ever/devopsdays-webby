@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Dan Nemec
+title: "Automating Application Configuration"
+---
+**Abstract:** 
+
+In a company with a mature, complex, and multiple datacenter hosted  Java SaaS application, managing the configuration of the complete infrastructure stack was tedious, complex, and error prone.  We have successfully deployed Chef to create a data-driven, repeatable, and simpler method of managing almost all our application and server configuration data and files.  By modeling our environment and creating “just enough” hierarchy we reduced the number of sources of configuration from hundreds of files to under five.  We now have developers and application engineers working together on maintaining and expanding our automated infrastructure.  We will describe how we progressed from static configuration files in Subversion to data-driven configuration in Chef giving examples and lessons learned throughout the process that you can use to automate your application configuration.  In addition, we will discuss how automation and configuration management is now tested at multiple levels before reaching production.
+
+**Speaker:** Dan Nemec - Solution Architect, Silverpop
