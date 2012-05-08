@@ -2,10 +2,14 @@
 filter:    erb
 ---
 <% @gsponsors = [
+  { :image => "gmomedia.png", :name => "GMO media", :link => "http://www.gmo-media.jp/"},
   { :image => "enstratus.png", :name => "enStratus", :link => "http://www.enstratus.com/"},
   { :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},
   { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com"},
+  { :image => "gmocloud.png", :name => "GMO cloud", :link => "http://ir.gmocloud.com/english/index.html"},
   { :image => "dtosolutions.png", :name => "Dto Solutions", :link => "http://www.dtosolutions.com/"},
+  { :image => "cyberagent.png", :name => "Cyberagent", :link => "http://www.cyberagent.info/"},
+  { :image => "creationline.png", :name => "Creationline", :link => "http://www.creationline.com/"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
