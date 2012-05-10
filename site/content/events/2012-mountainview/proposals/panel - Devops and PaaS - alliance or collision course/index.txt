@@ -1,0 +1,26 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+layout: event
+author: Andrew Phillips
+title:  "Panel - Devops and PaaS: alliance or collision course?"
+---
+*Panel discussion*
+
+Public and, increasingly, private and hybrid Platform as a Service offerings are steadily gaining traction in the market. With current PaaS providers saying: "Why would you want to do all the boring work of managing and scaling your infrastructure? Let us solve that problem for you!", how could Devops teams leverage such platforms?
+
+Some questions the panel/discussion could consider:
+
+* Will PaaS simply not make it in an enterprise context?
+* Does it make more sense from a Devops perspective to build and manage a private PaaS on top of an IaaS platform or private cloud, using technologies such as CloudStack, OpenStack or VMware?
+* Will a second generation of PaaS platforms or stacks such as Brooklyn appear that give Devops more influence over configuration, scaling etc.? 
+
+_Moderator_: Andrew Phillips
+
+_Panel Members:_
+
