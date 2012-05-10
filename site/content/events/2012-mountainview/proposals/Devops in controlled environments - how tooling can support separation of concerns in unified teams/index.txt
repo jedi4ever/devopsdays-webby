@@ -1,0 +1,20 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Andrew Phillips
+title: "Devops in controlled environments: how tooling can support separation of concerns in unified teams"
+---
+**Abstract:** 
+
+As Devops advocates we want to empower the team to be able to manage the end-to-end lifecycle of our applications: from source code through to environment configuration in production. In many organisations, process frameworks such as ITIL or legal requirements such as SOX impose release management practices based on separation of concerns.
+
+We'll examine practices and tooling from case studies which allow release management to implement separation of concerns and meet audit requirements and still provide flexibility and insight for the Devops team.
+
+**Speaker:** Andrew Phillips
