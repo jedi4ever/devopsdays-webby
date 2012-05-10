@@ -1,0 +1,22 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Noah Sussman
+title: "Continuous Improvement"
+---
+**Abstract:** 
+
+The past few years have seen a phenomenon of software organizations abandoning traditional release cycles in favor of daily or even hourly deployments.  The emergence of a new, rapid software development workflow has raised questions regarding the role of test and QA in a product's life cycle.  When there is no QA phase, can there still be QA?
+
+Indeed, as the speed of product development changes, risk must be assessed differently.  A monthly release cycle provides time to assure a product is reasonably free of defects.  In a rapid release cycle, such assurance is impossible.  Quality instead comes to mean assuring that the product is capable of recovering from defects.
+
+I will discuss how software risk mitigation practice changes as the speed of development increases.  And I will explore the idea that recovering from failure is a far more pragmatic goal than preventing failure in the first place."
+
+**Speaker:** Noah Sussman, Test Architect at Etsy

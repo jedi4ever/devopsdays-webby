@@ -1,0 +1,59 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Bev Carleton
+title: "Deploying Software to the Cloud"
+---
+**Abstract:** 
+
+Evolution of Salesforce.com:
+
+Web App ->  Service -> Platform -> Cloud
+
+Web App to Web Service
+
+* Ad-Hoc nature of our initial deployments.
+* Go with what you know. Or whatever is lying around.
+* Releasing code using a Version Control System
+* Linear vs Distributed Version Control Systems
+* Problems scaling VCS-based deployments with a centralized, linear VCS
+* Inherent overhead of a VCS
+  * Perforce
+  * Git
+
+Becoming a Platform:
+
+* Weird math: 3 Releases a year == 500 Releases a year
+* Feeling the strain of success.
+
+In the Cloud:
+
+* Approaching Zero Downtime deployments.
+* Trust is No. 1
+* Innovation at Scale
+* Moving beyond the VCS:
+  * Packages, bundles artifacts...
+  * Simple, stupid versioning.
+  * Dependencies.
+  * Moving away from VCS/Perforce...
+  * ...without breaking anything.
+  * Migration vs. Disruption  
+  * HTTP and REST
+
+Getting faster in the future: 
+
+* BitTorrent and beyond...
+
+What kind of team does it take:
+
+* First class problems require first class engineers.
+* *Real* DevOps is a must.
+
+**Speaker:** Bev Carleton, Salesforce - Technology Leadership and Culture Development

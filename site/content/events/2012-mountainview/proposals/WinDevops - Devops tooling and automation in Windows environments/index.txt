@@ -1,0 +1,19 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Vincent Partington
+title: "WinDevops: Devops tooling and automation in Windows environments"
+---
+**Abstract:** 
+
+Most Devops tooling so far has focused on Unix environments, which through SSH have powerful support for remote execution. On Windows the situation is a little bit more complicated, with interactive protocols like RDP long having been the ""standard"" method for remoting.
+In this presentation we will review some of the technologies available for remote execution on Windows, discuss how they play with well-known Devops tools such as Puppet and Vagrant, and examine Overthere, a new open-source JVM library for unified, agentless remote file manipulation and process execution on both Windows and Unix.
+
+**Speaker:** Vincent Partington
