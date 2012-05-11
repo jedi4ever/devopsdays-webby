@@ -19,6 +19,8 @@ filter:    erb
   { :image => "zeroturnaround.png", :name => "Zeroturnaround", :link => "http://www.zeroturnaround.com/"},
   { :image => "stormpath.png", :name => "Stormpath", :link => "http://www.stormpath.com/"},
   { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
+  { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com/"},
+  { :image => "dishcrawl.png", :name => "Dishcrawl", :link => "http://www.dishcrawl.com/"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
