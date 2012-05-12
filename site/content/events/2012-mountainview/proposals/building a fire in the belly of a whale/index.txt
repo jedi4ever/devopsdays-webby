@@ -8,7 +8,7 @@ layout: event
 proposal: true
 talk: true
 selected: true
-author: David Parmenter
+author: Ellen Walsh
 title: Building a fire in the belly of a whale - blowing up the culture at large companies
 ---
 **Abstract:** 
@@ -25,4 +25,4 @@ Getting the culture right for your org is THE most important thing you have to d
 
 I think this talk would work best as a panel, but it may make sense in other configurations.
 
-**Speaker:** David Parmenter - development manager at Adobe
+**Speaker:** Ellen Walsh
