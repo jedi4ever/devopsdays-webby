@@ -1,0 +1,22 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Joseph Ruscio
+title: "Stop flying blind! (i.e. Why monitoring is no longer an option.)"
+---
+**Abstract:** 
+
+In the 21st century successful teams are data-driven. This talk begins with an introduction to why monitoring in near-real time is now a "must-have" in DevOps to enable continuous deployment i.e. "Monitoring is to DevOps as Unit Tests are to Development". We’ll then present an abstract model of a complete monitoring system broken down into it's fundamental components (e.g. collection, aggregation, common storage, visualization, alerting) and discuss multiple solutions (OSS and services) for each component. Explains the primary motivations/benefits of building a common monitoring infrastructure such arbitrary correlation/analysis of metrics across your all levels of your stack and systematic alerting/escalation. Examines how dashboards service multiple purposes such as: 
+
+* aberration detection
+* radiate information in a common format to the entire team
+* encapsulate best practices for initial fire-fighting triage.
+
+**Speaker:** Joseph Ruscio, Co-Founder and CTO at Librato, Inc
