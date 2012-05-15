@@ -1,0 +1,27 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Evelyn Tam
+title: "Look Ma, No Hands!"
+---
+**Abstract:** 
+
+As developers, we love to write code and see our customers using the software we have painstakingly built. If only it were that simple! Large regulated enterprises, like banks, airlines and healthcare organizations, have their own requirements on planning, visibility and audit. Many application changes need to be coordinated with infrastructure changes. Business stakeholders need to know when changes are coming in order to line up user acceptance testing. Systems of record like Remedy or ServiceNow - and the CMDB - need timely updates with actual configuration changes. This presentation will focus on the available tools that can assist in delivery while satisfying enterprise needs. Done well, it can keep busywork to a minimum and developers doing what we love most - building software. 
+
+Take this as an example, a good football team is built on the symbiosis of both its offense and defense— defense keeps the other team from scoring, and the offense stays on the field long enough for the defense to catch its breath and also strategize for the next battle. Similarly, a strong IT team can be seen in the same way, Dev and Ops working together, side by side, in one fluid motion assisting each other instead of working as two disparate moving parts. This, of course, has a positive effect on the bottom line - better reliability and availability, happier clients, faster time to market, and more time to focus the team's energy on core business rather than wasteful administration and firefighting.
+ 
+Join this discussion and learn how DevOps can deliver measurable value to your organization with the following:
+
+*  Improving the visibility of release metrics for all release stakeholders 
+*  Improving the frequency and speed of releases reduces costs and improves profitability 
+*  Improving the quality of releases and the subsequent application availability 
+
+
+**Speaker:** Evelyn Tam, Serena Software

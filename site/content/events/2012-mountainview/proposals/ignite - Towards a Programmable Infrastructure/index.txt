@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+ignite: true
+author: Steve Smoot
+title: "Towards a Programmable Infrastructure"
+---
+**Abstract:** 
+
+Can we apply lessons from devops broadly to renew the general purpose world of enterprise IT?  Riverbed focuses on performance in the enterprise and is adding product capabilities to enable greater devops inspired integration.  These will enable customized monitoring initially, but have potential for active responsiveness to events and system state.  The first step is providing for programmatic agents instead of human ones.  Extending development along this line will create a programmable infrastructure.  With this you can adapt your systems to changing conditions, providing a more nimble and more capable system.  Will give examples of the changes and our vision to solicit feedback on the direction.
+
+**Proposer:** Steve Smoot
