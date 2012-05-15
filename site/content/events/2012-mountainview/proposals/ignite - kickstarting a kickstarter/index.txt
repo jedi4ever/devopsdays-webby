@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+ignite: true
+author: Tim Lossen
+title: Kickstarting a kickstarter
+---
+**Abstract:** 
+
+i recently launched n3rdshirt.com, a "kickstarter for  (nerdy) t-shirts". how do you build and operate an ecommerce site, as a side project with minimal budget, when you also have a regular job? this mini case study  will showcase how devops also scales *down* nicely all the way.
+
+**Proposer:** Tim Lossen
