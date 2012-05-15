@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Stephen Burton
+title: "What can DevOps learn from Formula 1?"
+---
+**Abstract:** 
+
+Both Formula 1 and DevOps teams are driven by innovation, technology, agile mindsets and money. However, when it comes to managing change, Formula 1 teams excel in being agile to deliver superior levels of performance and reliability. In comparison, DevOps teams strive to deliver innovative applications for the business, but more often that not struggle to make them fast or reliable once they are deployed in live environments. This session takes a look at how the people, processes, collaboration and tools behind a Formula 1 team can inform how we approach DevOps, and how DevOps teams can better manage the performance and reliability of their applications throughout the application lifecycle.
+
+**Speaker:** Stephen Burton, Tech Evangelist - AppDynamics
