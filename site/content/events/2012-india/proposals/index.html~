@@ -1,0 +1,33 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+title: Delhi 2012 - Submit a talk proposal
+dirty: true
+---
+<%= render(:partial => '/events/2012-india/_menu') %>
+
+### Call for Speakers opens on the 15th of March, 2012 and *closes* on 30th April, 2012 
+
+
+<table>
+<tbody>
+<tr>
+<td>
+<a href="https://docs.google.com/spreadsheet/viewform?formkey=dHd4ZDZGNTFSNXg4eUJ0RnBpeG9JelE6MQ"> <strong>Submit your proposals here.</strong>    </a>
+
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<strong>Rules:</strong>
+<ul>
+	<li>Be specific</li>
+	<li>Detail is good...explain more about why you think your talk proposal would be interesting</li>
+	<li>Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
+	<li>Multiple proposals welcome... just follow the other rules</li>
+</ul>
