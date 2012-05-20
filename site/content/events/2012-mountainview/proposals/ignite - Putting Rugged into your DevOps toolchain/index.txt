@@ -1,0 +1,17 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+ignite: true
+author: James Wickett
+title: "Putting Rugged into your DevOps toolchain"
+---
+**Abstract:** 
+
+Security is part of DevOps however security tools are inadequate for putting into your continuous deploy and integration toolchain.  Rugged (ruggedsoftware.org) is a new holistic approach on security where secure code is defined as code that is resilient, scalable, and long-running.  This talk will discuss various approaches to achieving ruggedness using tools like cucumber and gauntlt (https://github.com/thegauntlet/gauntlt) and some ideas on how to get started implementing Rugged into your DevOps toolchain.
+
+**Proposer:** James Wickett
