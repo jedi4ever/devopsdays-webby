@@ -1,0 +1,18 @@
+---
+extension: html
+filter:    
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Cliff Moon
+title: "House, Ops Engineer"
+---
+**Abstract:** 
+
+"What good is a doctor whose patients are all dead?  IT Operations is stuck in a folklore based approach to its craft.  Too many operational organizations are oriented towards a post-mortem approach to systems operations.  Experience gained from post-mortems is rarely verified with any scientific rigor, and is often only applied in the narrow confines of avoiding the exact same failure scenario.  This attitude of incuriosity, fire-fighting and cloistered knowledge does nothing to advance the state of the art.  For the vast majority of human history, the practice of medicine was stuck in this same state.  What were the cultural and technical factors that spurred the advancement from folklore into modern medicine?  Can some of these same principles be applied to advance the state of the art for IT Operations?  How do we go from being witchdoctors to House, MD?"
+
+**Speaker:** Cliff Moon
