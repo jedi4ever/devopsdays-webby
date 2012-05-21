@@ -10,6 +10,7 @@ filter:    erb
   { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com"},
   { :image => "onamae.png", :name => "お名前.com", :link => "http://www.onamae.com/"},  
   { :image => "dtosolutions.png", :name => "Dto Solutions", :link => "http://www.dtosolutions.com/"},
+  { :image => "dell.png", :name => "Dell KK.", :link => "http://www.dell.co.jp/"},
   { :image => "cyberagent.png", :name => "Cyberagent", :link => "http://www.cyberagent.info/"},  
 ]%>
 <% @gsponsors.each do |sponsor| %>
