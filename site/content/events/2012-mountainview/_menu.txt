@@ -2,7 +2,6 @@
 <h3>
 <a href="/events/2012-mountainview/">welcome</a>&nbsp;
 <a href="/events/2012-mountainview/program">program</a>&nbsp;
-<a href="/events/2012-mountainview/propose">propose</a>&nbsp;
 <a href="/events/2012-mountainview/location">location</a>&nbsp; 
 <a href="/events/2012-mountainview/registration">register</a>&nbsp;
 <a href="/events/2012-mountainview/sponsor">sponsor</a>
