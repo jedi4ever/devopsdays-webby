@@ -23,7 +23,8 @@ filter:    erb
   { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com/"},
   { :image => "dishcrawl.png", :name => "Dishcrawl", :link => "http://www.dishcrawl.com/"},
   { :image => "ctct.png", :name => "Contant Contact", :link => "http://www.contantcontact.com/"},
-  { :image => "ultimatesoftware.png", :name => "Ultimate Software", :link => "http://www.ultimatesoftware.com/"},
+  { :image => "ultimate.png", :name => "Ultimate Software", :link => "http://www.ultimatesoftware.com/"},
+  { :image => "djaa.png", :name => "David J. Anderson & Associates, Inc.", :link => "http://www.agilemanagement.net/"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
