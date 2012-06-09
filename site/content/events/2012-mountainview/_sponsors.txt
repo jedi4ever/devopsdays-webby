@@ -6,6 +6,7 @@ filter:    erb
   { :image => "sumologic.png", :name => "Sumologic", :link => "http://www.sumologic.com/"},
   { :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
   { :image => "electriccloud.png", :name => "Electric-Cloud", :link => "http://www.electric-cloud.com/"},
+  { :image => "cfengine.png", :name => "Cfengine", :link => "http://www.cfengine.com/"},
   { :image => "bmc.png", :name => "BMC Software", :link => "http://www.bmc.com/"},
   { :image => "dtosolutions.png", :name => "DTO Solutions", :link => "http://www.dtosolutions.com/"},
 ]%>
