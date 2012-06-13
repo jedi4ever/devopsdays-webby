@@ -8,6 +8,8 @@ filter:    erb
   { :image => "electriccloud.png", :name => "Electric-Cloud", :link => "http://www.electric-cloud.com/"},
   { :image => "cfengine.png", :name => "Cfengine", :link => "http://www.cfengine.com/"},
   { :image => "bmc.png", :name => "BMC Software", :link => "http://www.bmc.com/"},
+  { :image => "appfirst.png", :name => "AppFirst", :link => "http://www.appfirst.com/"},
+  { :image => "atlassian.png", :name => "Atlassian", :link => "http://www.atlassian.com/"},
   { :image => "dtosolutions.png", :name => "DTO Solutions", :link => "http://www.dtosolutions.com/"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
