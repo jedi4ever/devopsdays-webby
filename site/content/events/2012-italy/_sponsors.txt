@@ -2,8 +2,6 @@
 filter:    erb
 ---
 <% @gsponsors = [
-  { :image => "bmc.png", :name => "BMC Software", :link => "http://www.bmc.com/"},
-  { :image => "dtosolutions.png", :name => "DTO Solutions", :link => "http://www.dtosolutions.com/"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
@@ -12,9 +10,6 @@ filter:    erb
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-  { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
-  { :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},
-  { :image => "djaa.png", :name => "David J. Anderson & Associates, Inc.", :link => "http://www.agilemanagement.net/"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
