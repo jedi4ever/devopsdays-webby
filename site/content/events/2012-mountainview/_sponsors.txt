@@ -11,6 +11,7 @@ filter:    erb
   { :image => "appfirst.png", :name => "AppFirst", :link => "http://www.appfirst.com/"},
   { :image => "atlassian.png", :name => "Atlassian", :link => "http://www.atlassian.com/"},
   { :image => "dtosolutions.png", :name => "DTO Solutions", :link => "http://www.dtosolutions.com/"},
+  { :image => "dell.png", :name => "Dell", :link => "http://www.dell.com"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
