@@ -12,6 +12,8 @@ filter:    erb
   { :image => "atlassian.png", :name => "Atlassian", :link => "http://www.atlassian.com/"},
   { :image => "dtosolutions.png", :name => "DTO Solutions", :link => "http://www.dtosolutions.com/"},
   { :image => "dell.png", :name => "Dell", :link => "http://www.dell.com"},
+  { :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com"},
+  { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
@@ -30,6 +32,7 @@ filter:    erb
   { :image => "ctct.png", :name => "Contant Contact", :link => "http://www.contantcontact.com/"},
   { :image => "ultimate.png", :name => "Ultimate Software", :link => "http://www.ultimatesoftware.com/"},
   { :image => "djaa.png", :name => "David J. Anderson & Associates, Inc.", :link => "http://www.agilemanagement.net/"},
+  { :image => "couchbase.png", :name => "Couchbase", :link => "http://www.couchbase.com"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
