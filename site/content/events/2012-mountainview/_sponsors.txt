@@ -29,7 +29,7 @@ filter:    erb
   { :image => "newrelic.png", :name => "Newrelic", :link => "http://www.newrelic.com/"},
   { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com/"},
   { :image => "dishcrawl.png", :name => "Dishcrawl", :link => "http://www.dishcrawl.com/"},
-  { :image => "ctct.png", :name => "Contant Contact", :link => "http://www.contantcontact.com/"},
+  { :image => "ctct.png", :name => "Contant Contact", :link => "http://www.constantcontact.com/"},
   { :image => "ultimate.png", :name => "Ultimate Software", :link => "http://www.ultimatesoftware.com/"},
   { :image => "djaa.png", :name => "David J. Anderson & Associates, Inc.", :link => "http://www.agilemanagement.net/"},
   { :image => "couchbase.png", :name => "Couchbase", :link => "http://www.couchbase.com"},
