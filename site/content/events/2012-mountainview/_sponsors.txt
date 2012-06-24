@@ -14,6 +14,8 @@ filter:    erb
   { :image => "dell.png", :name => "Dell", :link => "http://www.dell.com"},
   { :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com"},
   { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com"},
+  { :image => "cisco.png", :name => "Cisco", :link => "http://www.cisco.com"},
+  { :image => "midvision.png", :name => "MidVision", :link => "http://www.midvision.com"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
@@ -33,7 +35,9 @@ filter:    erb
   { :image => "ultimate.png", :name => "Ultimate Software", :link => "http://www.ultimatesoftware.com/"},
   { :image => "djaa.png", :name => "David J. Anderson & Associates, Inc.", :link => "http://www.agilemanagement.net/"},
   { :image => "couchbase.png", :name => "Couchbase", :link => "http://www.couchbase.com"},
-  { :image => "pagerduty.png", :name => "Pager Duty", :link => "http://www.pagerduty.com"}
+  { :image => "pagerduty.png", :name => "Pager Duty", :link => "http://www.pagerduty.com"},
+  { :image => "optnet.png", :name => "Optnet", :link => "http://www.optnet.com"},
+  { :image => "splunk.png", :name => "Splunk", :link => "http://www.splunk.com"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
