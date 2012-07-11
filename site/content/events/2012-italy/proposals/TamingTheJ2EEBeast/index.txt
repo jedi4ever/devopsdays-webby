@@ -1,0 +1,46 @@
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bryan Berry
+title: "Taming the J2EE Beast with CM"
+---
+
+**Abstract:**
+
+
+Taming the J2EE Beast with CM: How we are using Chef to automate Java application stacks at the UN FAO
+
+
+Writing a custom DSL (LWRPs in Chef) to handle the millions of options in a J2EE application
+Packaging fail: how we use ark to download, unpack, and link java software packages rather than linux distro packages
+Using environments to handle attribute inheritance for values such as Xmx, Xms, MaxPermgen
+What is lacking: support for partials in templates, better deployment support
+
+
+
+
+From Sysadmin to Infrastructure Developer: Leveling Up
+
+
+Cover tools and techniques needed to move to the next level. This talk would focus on more on Ruby stuff, less on Chef.
+
+
+Testing outside-in w/ minitest or cucumber
+Using real objects in Ruby and not just a DSL like Chef
+Using a code lint tool
+integrating w/ Travis-CI
+Saner development process using a bundler-clone like berkshelf or librarian-chef
+Support that is lacking - full integration test support to run minitest or cucumber tests
+
+
+
+
+**Speaker:** Bryan Berry,  Senior Operations Engineer, UN Food and Agriculture Organization Rome, IT
+Host of the Food Fight Show, the Chef community podcast http://foodfightshow.org
+

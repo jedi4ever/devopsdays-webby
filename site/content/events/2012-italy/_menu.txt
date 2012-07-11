@@ -1,6 +1,8 @@
 <div class="submenu">
 <h3>
 <a href="/events/2012-italy/">welcome</a>&nbsp;
+<a href="/events/2012-italy/propose">propose</a>&nbsp;
+<a href="/events/2012-italy/proposals">proposals</a>&nbsp;
 <a href="/events/2012-italy/program">program</a>&nbsp;
 <a href="/events/2012-italy/location">location</a>&nbsp; 
 <a href="/events/2012-italy/registration">register</a>&nbsp;

@@ -91,17 +91,6 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(gurgaonmarker, "click", function (e) { location.href="/events/2012-india"});
 
-var mountainviewmarker = new MarkerWithLabel({
-position: mountainviewlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Mountain View<br>28 & 29 June 2012",
-labelAnchor: new google.maps.Point(+80, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2012-mountainview"});
 
 var italymarker = new MarkerWithLabel({
 position: italylocation,
@@ -121,24 +110,12 @@ position: sydneylocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Sydney area<br> May 2012",
+labelContent: "Sydney area<br> August 9 and 10 2012",
 labelAnchor: new google.maps.Point(+30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="/events/2012-downunder"});
-
-var tokyomarker = new MarkerWithLabel({
-position: tokyolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Tokyo 26 May",
-labelAnchor: new google.maps.Point(+30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(tokyomarker, "click", function (e) { location.href="/events/2012-tokyo"});
 
 
 }
