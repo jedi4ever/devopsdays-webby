@@ -5,6 +5,14 @@ It uses webby as a framework:
 ## Get the source
 `$ git clone git@github.com:jedi4ever/devopsdays-webby.git`
 
+## Install native dependencies
+
+### On RedHat/CentOS/Fedora:
+`$ yum install oniguruma`
+
+### On Debian/Ubuntu:
+`$ apt-get install libonig-dev`
+
 ## If you use RVM
 
 - there is an .rvmrc that select ruby-1.8.7
