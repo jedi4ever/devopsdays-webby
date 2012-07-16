@@ -1,0 +1,31 @@
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jason Dixon
+title: "The State of Open Source Monitoring: The good, the bad, the fucking terrible, and a glimpse into our future.  "
+---
+
+**Abstract:**
+
+A look back at the last 10 years of open source monitoring and trending
+tools. An analysis of recent shifts in tide away from monolithic
+monitoring suites towards composable parts. And in conclusion a rant on
+the state of visualization in our existing toolset and, in the speaker's
+opinion, what needs to change before we get to our "happy place".
+
+
+
+
+**Speaker:**
+
+Jason Dixon
+http://obfuscurity.com/
+https://twitter.com/obfuscurity
+
+
