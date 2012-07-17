@@ -1,3 +1,4 @@
+---
 extension: html
 filter:
 - erb
@@ -11,11 +12,11 @@ author: Joe Carrafa
 title: "Packaging vs. Configuration - Achieving Balance"
 ---
 
-st teams use either packaging or configuration heavily.  Ideally there should be a balance.  We'll explore the downsides of bias, cultural challenges, then the advantages of balance, and work through an example.
+**Abstract:**
 
+Most teams use either packaging or configuration heavily.  Ideally there should be a balance.  We'll explore the downsides of bias, cultural challenges, then the advantages of balance, and work through an example.
 
 Since packaging systems and configuration systems are fundamentally different workflows with different tools, most teams tend to favor one heavily.
-
 
 We'll discuss some of the cultural challenges to balancing packaging and configuration, and walk through the ways that we use them to build and maintain complex ecosystems of applications.  We'll touch on the extremes of environments which use one or the other heavily. We'll cover scenarios involving software from the distribution, third party libraries from a variety of sources, and internally developed software.  We'll quickly run through an example attempting to balance packaging and configuration in a CentOS system using yum and chef, discussing some of the decisions along the way, and strategies to promote adoption.
 
@@ -31,15 +32,7 @@ What's the problem?  We'll take a look at what we're trying to solve, and what o
 
 
 At the end of this talk, many should be able to identify ways to improve their own environments using some of the tools and processes covered.
-**Abstract:**
-
-
-
-
-
-
 
 **Speaker:**
-
 Joe Carrafa
-
+Etsy

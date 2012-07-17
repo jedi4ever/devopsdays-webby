@@ -1,3 +1,4 @@
+---
 extension: html
 filter:
 - erb
@@ -13,10 +14,8 @@ title: "How To Use Puppet Like An Adult"
 
 **Abstract:**
 
-
-
-« Puppet is an immensely powerful tool for system administration, but 
-with great power comes great responsibility, and it’s not always obvious 
+Puppet is an immensely powerful tool for system administration, but
+with great power comes great responsibility, and it's not always obvious 
 how to structure your configurations.  There are many different ways to 
 accomplish similar goals, and this malleability has given rise to a 
 plethora of different design and architecture principles - some of which 
@@ -41,7 +40,7 @@ with other data sources, including Hiera, puppet-db, extlookup, dilly,
 and more.
 * The tiered manifest approach: Leveraging different granularity levels 
 for fine-grained control.
-* Module-writing best practices: Why it’s important for modules to be as 
+* Module-writing best practices: Why it's important for modules to be as 
 generic as possible, and how to deal with differing environments and 
 edge cases.
 * Explicit sanity preservation: Verifying the validity of the incoming 
@@ -52,12 +51,7 @@ in email digests, and running manually triggered Puppet runs.
 * Recommended (and enforced) style guides: Machine-readable manifests 
 are good, but human-readable manifests are better.
 * A comparison of visualisation tools: Everybody loves charts and 
-graphs.  Dashboards, reports aggregators, and automated metrics - oh my! »
-
-
-
+graphs.  Dashboards, reports aggregators, and automated metrics - oh my!
 
 **Speaker:** 
-
-Ben Kero and Daniel Maher (Mozilla)·           
-
+Ben Kero and Daniel Maher (Mozilla)
