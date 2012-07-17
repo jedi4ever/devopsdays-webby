@@ -19,17 +19,17 @@ Taming the J2EE Beast with CM: How we are using Chef to automate Java applicatio
 I want to talk about the challenges of automating java applications using configuration management. I will start with specific pain points such as the lack of up-to-date system packages, templating insanely large XML files, and customizing multiple run-time variables like Xmx, XX:MaxPermGen according to the application environment (prod,qa, dev, etc). I will proceed to explain some of my solutions, such how I have extended Chef with custom light weight resource providers and used chef environments to provide environment-specific overrides.
 
 Chef Lightweight Resource Providers (LWRP):
-ark :   http://bryanwb.github.com/chef-ark/
-tomcat :  https://github.com/bryanwb/tomcat 
+ark :   [http://bryanwb.github.com/chef-ark/](http://bryanwb.github.com/chef-ark/)
+tomcat :  [https://github.com/bryanwb/tomcat](https://github.com/bryanwb/tomcat) 
 
 I hope to have significantly extended the tomcat LWRP and add a JBoss LWRP by the time of the conference
 
-Finally, I will cover what is still lacking such as support for partials in ERB templates and how some J2EE servers like Glassfish and JBoss have special ways of screwing up configuration management systems (https://github.com/jbossas/jboss-as/pull/2288)
+Finally, I will cover what is still lacking such as support for partials in ERB templates and how some J2EE servers like Glassfish and JBoss have special ways of screwing up configuration management systems ([https://github.com/jbossas/jboss-as/pull/2288](https://github.com/jbossas/jboss-as/pull/2288))
 
 prior art:
-http://devopsanywhere.blogspot.it/2012/03/managing-archives-with-ark-resource.html
-http://faodata.blogspot.it/2012/04/chef-testimonial-data.html
+[http://devopsanywhere.blogspot.it/2012/03/managing-archives-with-ark-resource.html](http://devopsanywhere.blogspot.it/2012/03/managing-archives-with-ark-resource.html)
+[http://faodata.blogspot.it/2012/04/chef-testimonial-data.html](http://faodata.blogspot.it/2012/04/chef-testimonial-data.html)
 
 **Speaker:**
 Bryan Berry,  Senior Operations Engineer, UN Food and Agriculture Organization Rome, IT
-Host of the Food Fight Show, the Chef community podcast http://foodfightshow.org
+Host of the Food Fight Show, the Chef community podcast [http://foodfightshow.org](http://foodfightshow.org)

@@ -22,5 +22,5 @@ opinion, what needs to change before we get to our "happy place".
 
 **Speaker:**
 Jason Dixon
-http://obfuscurity.com/
-https://twitter.com/obfuscurity
+[http://obfuscurity.com/](http://obfuscurity.com/)
+[https://twitter.com/obfuscurity](https://twitter.com/obfuscurity)

@@ -30,7 +30,7 @@ Then how to manage project dependencies using a bundler-clone like berkshelf or 
 Finally, I want to cover what support is lacking for infrastructure developers - scripting integration tests to run in isolated virtual machines (outside of virtual box).
 
 some prior art:
-http://devopsanywhere.blogspot.it/2012/07/stash-those-logs-set-up-logstash.html
+[http://devopsanywhere.blogspot.it/2012/07/stash-those-logs-set-up-logstash.html](http://devopsanywhere.blogspot.it/2012/07/stash-those-logs-set-up-logstash.html)
 
 **Speaker:**
 Bryan Berry,  Senior Operations Engineer, UN Food and Agriculture Organization Rome, IT
