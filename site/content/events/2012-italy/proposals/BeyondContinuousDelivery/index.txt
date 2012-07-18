@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chris Hilton
+title: "Beyond Continuous Delivery"
+---
+
+**Abstract:**
+
+A wide array of emerging technologies and processes has led to
+continuous delivery as the current summit of software development
+processes, but what lies ahead?  Grounded in my own background and
+current work with continuous delivery, I will explore a number of
+ongoing concepts and new ideas that are evolving out of old and new
+techs and how they could change how agile development and release
+works in the next couple of decades.
+
+These are some of the concepts I will be exploring:
+- Dependency management and modular development
+- Infrastructure as code- adding infrastructure to your pipeline
+- Semi-fluid dependencies- getting the best of static and fluid dependencies
+- Cloneable pipelines- make copies of your pipeline
+- Pre-flight pipelines- catch red pipelines with cloned pipelines
+- Evergreen trunks- keep your pipeline always green with a clone army
+- Quantum pipelines- a rapid feedback technique for evergreen trunks
+- Downstream pipelines- test against your consumers
+- Swarm builds- centralizing incremental development
+- Extreme integration- rapid feedback about interactions with trunk
+- Cloud IDE- moving pipeline development to the cloud
+- Social development- development for everyone
+
+
+
+**Speaker:**
+Christ Hilton
