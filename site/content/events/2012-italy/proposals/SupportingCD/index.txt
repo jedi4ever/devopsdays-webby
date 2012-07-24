@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sarah Haselbauer
+title: "Building an infrastructure to support continuous delivery"
+---
+
+**Abstract:**
+
+
+
+Build tools such as Maven, Ant and Gradle are now commonplace. This is 
+an important step towards optimization of software development and 
+delivery processes, so this talk will of course include a description of 
+the code's journey from the developer's machine to the running system, 
+and all the steps taken and tools encountered along the way. However, 
+this is only half the story: besides the transformations the code 
+undergoes throughout the software engineering process, the 
+infrastructure must also go through something similar. While the code 
+journey has become quite transparent, there is still a lot of silence on 
+the subject of infrastructure. When it comes to target environment 
+setup, there is often no versioning, no revision to a fallback state, no 
+tests and no documentation on how the target environment can reach the 
+state in which the main piece of delivery, namely the software, can be 
+successfully deployed and used.
+
+Along with software engineering processes, this talk describes the 
+advantages, risks and possibilities of an automated infrastructure 
+setup. It offers options on how versioning and testing of an automated 
+infrastructure setup may be realized and integrated in the software 
+engineering process. And of course, topics such as build tools, bug 
+tracking, authentication, artifact repositories, continuous integration 
+and continuous deployment are addressed.
+
+**Speaker:**
+Sara Haselbauer

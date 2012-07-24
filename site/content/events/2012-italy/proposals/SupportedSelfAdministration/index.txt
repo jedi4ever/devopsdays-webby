@@ -1,0 +1,57 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sarah Haselbauer
+title: "Supported Self-Administration"
+---
+
+**Abstract:**
+
+
+Software developers are a special breed: one that loves to try out fancy 
+new technologies. Project teams often decide spontaneously whether or 
+not to use a particular tool. Furthermore, the decision is usually based 
+on a short and simple test installation rather than carefully comparing 
+options according to pre-defined evaluation criteria.
+
+A lot of project teams lack time to plan and realise a development 
+infrastructure concept in advance, before beginning with the main 
+development work. The project preparation phase is typically dominated 
+by the provisioning of a version control system and configuration of 
+IDEs. In an enterprise context, this quickly and inevitably results in a 
+defragmented, barely-maintainable infrastructure.
+
+Besides established source code management approaches (CVS, SVN, Git, 
+Mercurial, etc.), a set of open source tools for bug tracking, 
+continuous integration, documentation and quality assurance has become 
+an exceedingly useful alternative to closed source products. Depending 
+on the circumstances, different combinations of tools like Artifactory, 
+Sonatype Nexus, Jenkins, Atlassian Bamboo, Atlassian JIRA, trac, 
+Sonatype Sonar, Redmine and so on may be optimal. Supported 
+Self-Administration describes how a team or a company can find the right 
+combination and which organisational aspects are the crucial ones when 
+it comes to introduction of or migration to new systems.
+
+The term Supported Self-Administration also refers to the guiding 
+principle behind all activities. Supported free space describes a 
+development infrastructure where the administration is performed by the 
+project teams themselves, while the infrastructure remains scalable and 
+maintainable. Supported Self-Administration is a fundamentals-based 
+recommendation of best practices, instead of forcing project teams to 
+solve infrastructure problems in one particular way.
+
+This talk describes how consolidation of the development infrastructure 
+has been achieved in a software development and consulting company. The 
+talk focuses on how the implementation of open-source infrastructure 
+concepts creates freedom and flexibility in software development.
+
+
+**Speaker:**
+Sara Haselbauer
