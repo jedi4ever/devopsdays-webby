@@ -36,7 +36,7 @@ filter:    erb
   { :image => "djaa.png", :name => "David J. Anderson & Associates, Inc.", :link => "http://www.agilemanagement.net/"},
   { :image => "couchbase.png", :name => "Couchbase", :link => "http://www.couchbase.com"},
   { :image => "pagerduty.png", :name => "Pager Duty", :link => "http://www.pagerduty.com"},
-  { :image => "optnet.png", :name => "Optnet", :link => "http://www.optnet.com"},
+  { :image => "opnet.png", :name => "Opnet", :link => "http://www.opnet.com"},
   { :image => "splunk.png", :name => "Splunk", :link => "http://www.splunk.com"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
