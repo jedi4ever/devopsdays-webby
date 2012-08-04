@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Zac Sprackett
+title: "Walking The Razor Blade - Balancing a DevOps relationship with achieving Certifications.  "
+---
+
+**Abstract:**
+
+
+I will discuss the challenges that are faced when reaching for industry recognized certifications while trying to maintain an open and collaborative atmosphere.  Much of the required work around certifications involves limiting access to production and actively following a policy to document changes that are pushed live.  A side effect of this effort is that hoops need to be jumped through in order to continue to foster a tight relationship with the development team.  This talk will focus on specific situations that my teams have encountered while trying to achieve organizational goals and how we have worked through them with the hope that we can help provide a guide through this process for others.
+
+
+**Speaker:**
+Zac Sprackett, Director of Operations
+SugarCRM, Inc.
