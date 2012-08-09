@@ -45,14 +45,14 @@ featureType: 'water',
 
     var homeLatLng=new google.maps.LatLng(37.4419, -122.1419)
       var map = new google.maps.Map(document.getElementById("map_canvas"), {
-zoom: 1,
-mapTypeControlOptions: {
-mapTypeIds: ['darkwater']
-},
-center: homeLatLng,
-mapTypeId: 'darkwater',
-disableDefaultUI: true,
-});
+         zoom: 1,
+         mapTypeControlOptions: {
+            mapTypeIds: ['darkwater']
+         },
+         center: homeLatLng,
+         mapTypeId: 'darkwater',
+         disableDefaultUI: true,
+      });
 
 map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
 
@@ -77,19 +77,6 @@ var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
 var iw1 = new google.maps.InfoWindow({
 content: "Boston location is happening at the Nerd Center. <a href='/location-boston'>More</a>"
 });
-
-
-var gurgaonmarker = new MarkerWithLabel({
-position: gurgaonlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Gurgaon India<br>21th July 2012",
-labelAnchor: new google.maps.Point(30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(gurgaonmarker, "click", function (e) { location.href="/events/2012-india"});
 
 
 var italymarker = new MarkerWithLabel({
