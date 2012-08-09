@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bryan Berry
+title: "Monitoring data.fao.org"
+---
+
+**Abstract:**
+
+
+
+
+Abstract:
+
+
+The UN Food and Agriculture Organization (FAO) is a sprawling organization that monitors all aspects of food, agriculture, forests, and fisheries worldwide. Its main product its diverse and deep datasets. Unfortunately, those datasets have too often been inaccessible outside of the originating department, let alone to the rest of the international community. Data.fao.org is an ambitious effort to provide the rest of the world with an API for FAO's datasets. Supporting this effort is an array of complicated web services and presentation layers.
+
+
+However, all this work will work will be nought if this infrastructure doesn't remain "up" and accessible. I will present how we are using collectd, JMX, statsd, logstash, and Graphite to monitor the data.fao.org infrastructure. This has been done entirely with open-source tools, which while powerful, but are woefully lacking in documentation. This presentation will go into detail how we use these to monitor our infrastructure.
+
+
+Some Snippets
+
+
+* How to make meaningful comparisons using the wildcards and the averageSeries, movingAverage, and timeShift functions in graphite
+* What the values from statsd actually mean
+* How to filter out distorting values 
+
+* Why the 90th percentile matters
+* Using JMX everywhere w/out application slow down
+* How to fight bureaucracy and CYA w/ graphs
+
+
+
+**Speaker:**
+Bryan Berry,  Senior Operations Engineer, UN Food and Agriculture Organization Rome, IT
+Host of the Food Fight Show, the Chef community podcast [http://foodfightshow.org](http://foodfightshow.org)

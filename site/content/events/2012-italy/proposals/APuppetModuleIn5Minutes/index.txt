@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Alessandro Franceschi
+title: "A Puppet module in 5 minutes"
+---
+
+**Abstract:**
+
+A Puppet module in 5 minutes
+
+
+Summary:
+A quick demonstration on how to make a Puppet module in 5 minutes following Example42 templates.
+One command, the right changes at the right places, and all the additions you need for your application to have a fully featured Puppet module:
+- MultiOS support;
+- Decommissioning features;
+- Monitoring and Abstraction;
+- Data separation;
+- Complete user's customization options
+- Some more extra features...
+
+
+Five minutes five...
+
+
+
+
+**Speaker:**
+Alessandro Franceschi
