@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Paul Stack
+title: "The Good , the bad and the automated"
+---
+
+**Abstract:**
+
+
+
+A bad deployment process can not only cost our applications downtime and revenue but can also cause an engineering department a lot of stress and irritation. The deployment of an application should be easier than we currently make it. Technically speaking, you should be able to release your application whilst sipping a cocktail on a mediterranean beach. This, of course, isn’t the case for a lot of projects. In traditional waterfall methodology, deployment wasn’t thought about until just before it happened, this caused issues on deployment night. As software developers, we should practice the art of delivering software not just developing it.
+
+ 
+
+ In this session, Paul will look at the pitfalls that engineers can face when trying to delivery the software they have worked hard to develop. Paul will demonstrate that continuous delivery is a great way to face these pitfalls and that it should form a solid part in the application development lifecycle. Paul will show that devops isn’t just a fancy job title and will discuss effective deployment techniques that everyone in a development team can become responsible for.
+
+  
+
+  On leaving this session, developers should take away the belief that delivery should not be stressful and that it should be as easy as clicking a magic button at any time, anywhere.
+
+   
+
+   Outline:
+
+   - Discuss the common pitfalls developers face
+
+   - Introduce the concept of continuous delivery as a mechanism to cure these pitfalls
+
+   - Look at effective deployment techniques that the entire team can take ownership of
+
+   - Give reasoned arguments as to why continuous delivery is a great way to deliver software, regardless of the block in place to it.
+
+
+**Speaker:**
+Paul Stack
