@@ -16,7 +16,7 @@ title: "A Continous Packaging Pipeline"
 
 
 
-u know you can't rely on your OS distribution's packaging for critical dependencies of your project. The release cycles never align; you're either stuck with a hopelessly outdated version of the Web server, or forced to do incompatible upgrade of the database at the worst possible moment – or both. You need to have it under your control.
+You know you can't rely on your OS distribution's packaging for critical dependencies of your project. The release cycles never align; you're either stuck with a hopelessly outdated version of the Web server, or forced to do incompatible upgrade of the database at the worst possible moment – or both. You need to have it under your control.
 Of many ways to do it, from building full-system images to compiling stuff directly on the server, building system packages is known to be The Proper Way. It lets you leverage much of the knowledge and mechanics built into your OS. You integrate with the distribution, but you're not at the whim of its maintainers and release cycles.
 At the same time, building and distributing packages is something of a black art. The Debian Policy Manual PDF has 103 pages without even starting to describe the tools. I just want to package and install Logstash for myself, not have it integrated into Debian!
 In my talk, I describe a pipeline for scripting the build process of custom system packages integrated with a continuous integration system – from Git repository through the CI build server to the Apt repository available to client systems. I am showing how to sanely keep up with upstream projects and manage patches. I talk about sharing and reusing packaging scripts. I also briefly touch the topic of full stack packages. 
