@@ -1,0 +1,56 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Colin Humphreys 
+title: "How I Learned to Stop Worrying and Love the PaaS"
+---
+
+**Abstract:**
+
+
+ 
+ PaaS has been striking fear in to the heart of many a developer, with
+ its "noops" connotations and flashy, irritating marketing. I would
+ like to present open-source PaaS as an enabler of devops and not the
+ enemy. Businesses are using PaaS to reduce the feedback cycle time on
+ their ideas - so we don't waste our effort building platforms and
+ services that aren't useful.
+
+
+ Developers and operations can use PaaS to deliver value quickly, and
+ then develop their PaaS as required. PaaS enables many aspirational
+ patterns such as deploying early to a production-like environment,
+ Infrastructure as Code and using a single deployment mechanism. I will
+ be exploring the PaaS implementations I've been delivering for various
+ organisations and the positive and negative ways that a PaaS can
+ impact team collaboration and delivery.
+
+
+ PaaS is not a silver bullet. Teams still need to collaborate to
+ deliver services to ensure expectations are met; PaaS does not equal
+ infinite scalability, availability and functionality. Compliance and
+ security issues do not magically disappear. Consuming closed-source
+ PaaS may hinder future capabilities and delivery. However, PaaS also
+ isn't a magical foreign land; we can build, maintain and develop
+ PaaSes using the tools we all know and love. I will look at the use of
+ Chef, Vagrant, Git, Graylog2 and others. You'll be surprised how
+ familiar a PaaS actually is.
+
+
+ It's our responsibility as people tasked to deliver services to use
+ the right tool for the job, and I think PaaS will be playing an
+ important role in the lives of developers, operations and businesses
+ in the future. We should look at how we can get the most out of it.
+
+
+
+
+**Speaker:**
+Colin Humphreys
