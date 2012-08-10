@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mark Burgess
+title: "DevOps - One small step for business-IT alignment, one giant leap for infrastructure culture"
+---
+
+**Abstract:**
+
+
+
+System administration or operations has been slow to change over the past 20 years, due to the lack of
+a global culture. In this talk Mark Burgess asks why it took the DevOps movement to rediscover some well-known
+truths about infrastructure management that were known to isolated pockets, and what the future of
+operations has to be -- both in relation to developers and to end users as we grow into the 21st century.
+
+
+
+
+**Speaker:**
+Mark Burgess
