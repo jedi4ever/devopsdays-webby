@@ -8,7 +8,7 @@ proposal: true
 ignite: true
 selected: false
 layout: event
-author:T Stefan Schimanski
+author: Stefan Schimanski
 title: "A continuous testing pipeline for automatic installations"
 ---
 
