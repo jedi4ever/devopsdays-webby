@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author:T Stefan Schimanski
+title: "A continuous testing pipeline for automatic installations"
+---
+
+**Abstract:**
+
+
+
+Building automatic installations using Kickstart or Autoyast is tedious work. Keeping them stable with >10 parallelly supported distributions and architectures even more. We combine Veewee-like KVM scripting, continuous integration using Jenkins, code review in Gerrit, system tests and unit tests using roundup and lettuce, and a farm of virtualization computing power. Reducing the feedback loop from hours to less than 10 minutes changes everything. By using the right tools with some non-trivial infrastructure glue, we manage to apply Test Driven Development techniques to system engineering.
+
+Why this talk is relevant for DevOps: 
+
+System engineering is a discipline somewhere between development and operations, though often done by the operations department. Application developers are used to their unit tests and maybe even apply TDD. While obviously possible in theory, applying these techniques in practice to system engineering is not so easy. There are no tools available which you can just apply out of the box. Moreover, scripting an OS is similarly difficult as scripting an UI. With some infrastructure investment though, you can successfully do agile, test driven system engineering. This reduces the methodology gap between Dev and Ops by yet another step.
+
+
+
+**Speaker:**
+    Dr. Stefan Schimanski 

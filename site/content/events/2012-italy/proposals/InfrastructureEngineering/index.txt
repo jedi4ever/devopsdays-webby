@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chris Kelly
+title: "Infrastructure Engineering, the Ruby Way"
+---
+
+**Abstract:**
+
+
+
+It is becoming common to find Ruby in the operations tool belt. Whether you use Ruby to build custom internal tools, or you're just getting started with it in Puppet or Chef, you likely find it both familiar and peculiar. The Ruby community is known for its opinions
+
+
+In this talk, we'll explore the "Ruby Way" and how it can guide us to writing good software specifically for operations. The talk will cover some of Ruby's powerful features, such as its open classes, inheritance, mixins and some metaprogramming. But we'll also focus on the culture of Ruby, Rubygems and favorite tools for Rubyists.
+
+
+Over the coming years, our infrastructures are going to look more like software. So we want to be prepared to write good software before Skynet comes online.
+
+
+
+**Speaker:**
+Chris Kelly
