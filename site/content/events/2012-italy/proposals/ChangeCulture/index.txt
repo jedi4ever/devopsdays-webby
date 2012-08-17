@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Damon Edwards
+title: "iYou can't change culture, but you can influence behavior and behavior becomes culture."
+---
+
+**Abstract:**
+
+"DevOps Culture" is usually referred to in public conversations as a binary thing. It's either something your organization has or doesn't have. There are plenty of examples of where a young company was born with a strong DevOps Culture. But what about everyone else? What about all of those companies with legacy people, process, and technology? How can they turn their long suffering legacy culture into a DevOps Culture? 
+
+
+This presentation provides a look at the "levers for change". These are the levers that I've seen companies successfully use to introduce and improve upon DevOps culture through influencing desired behavior and discouraging unwanted behavior. From policies, to metrics, to skills building, to innovative uses of tooling, these are tangible practices ("levers") that can get an organization self-organizing in the right direction without lofty management decrees or, in most cases, significant investment. Each of these levers can be used individually or in unison. It's up to you to decide which ones to pull depending on which way you want to move your organization.
+
+
+This presentation will survey these practices and their effects from from multiple points of view:
+-Levers to change Developer behavior
+-Levers to change Operations behavior
+-Levers to change Management behavior
+
+
+
+
+
+
+**Speaker:**
+Damon Edwards, Co Founder, DTO Solutions
