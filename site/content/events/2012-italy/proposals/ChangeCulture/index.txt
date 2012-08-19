@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Damon Edwards
-title: "iYou can't change culture, but you can influence behavior and behavior becomes culture."
+title: "You can't change culture, but you can influence behavior and behavior becomes culture."
 ---
 
 **Abstract:**
