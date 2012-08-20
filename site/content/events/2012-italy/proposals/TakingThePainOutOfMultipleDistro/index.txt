@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Bryan Berry
+title: "Take the pain out of supporting multiple distros with test-kitchen"
+---
+
+**Abstract:**
+
+
+
+The problem: you have written or maintain a popular Chef cookbook or Puppet Manifest that supports Debian 5, Ubuntu 10.04, Centos 5, and OpenBSD. On a weekly or daily basis you get awesome pull requests. How can you incorporate those pull requests without spending a lot of time doing manual testing or accidentally breaking existing functionality on one or more platforms? 
+
+
+Enter test-kitchen test-kitchen (https://github.com/opscode/test-kitchen), a new framework for quickly running integration tests in an isolated environment. Test-kitchen allows you to (relatively) quickly run various integration tests on Chef cookbooks across multiple operating systems. While test-kitchen is currently Chef-specific, the ideas and likely the code could be abstracted to support multiple configuration management systems.
+
+
+This talk cover:
+* Test-kitchen's support for pre-convergence tests with foodcritic (lint) and rspec and post-convergence tests with cucumber and minitest
+* managing testing dependencies w/ librarian (and possibly berkshelf)
+* brief introduction to the DSL for describing tests
+* supporting baseboxes made w/ veewee and bento https://github.com/opscode/bento
+* the future, Travis-CI integration? pull request integration?
+
+
+
+
+
+**Speaker:**
+Bryan Berry
