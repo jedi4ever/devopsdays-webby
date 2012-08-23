@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Ulf Mansson
+title: "Everyone Loves Monitoring"
+---
+
+**Abstract:**
+
+
+About how we changed from an old monitoring monster to a monitoring 
+pipeline based on Sensu, Graphite, GDash, RabbitMQ, Pagerduty and 
+friends. We have got much better involvement from developers and a more 
+engaged management. Developers are now sending data to the monitor 
+pipeline directly from the applications, everything is easy graphable, 
+we have furnished the office with monitoring screens and management 
+loves the graphs and status updates. And we are spending much less time 
+on monitoring but have much better control.
+
+A short talk about how it happened and the result of the change
+
+
+
+**Speaker:**
+Ulf Mansson
