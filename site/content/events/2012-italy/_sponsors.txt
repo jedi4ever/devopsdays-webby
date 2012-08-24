@@ -13,6 +13,7 @@ filter:    erb
 <% @ssponsors = [
 { :image => "yammer.png", :name => "Yammer", :link => "http://www.yammer.com/"},
 { :image => "basho.png", :name => "Basho", :link => "http://www.basho.com/"},
+{ :image => "serverdensitiy.png", :name => "Serverdensity", :link => "http://blog.serverdensity.com/"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
