@@ -4,6 +4,7 @@ filter:    erb
 <% @gsponsors = [
 { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/software/rational/devops/"},
 { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
+{ :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com/"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
@@ -15,6 +16,7 @@ filter:    erb
 { :image => "yammer.png", :name => "Yammer", :link => "http://www.yammer.com/"},
 { :image => "basho.png", :name => "Basho", :link => "http://www.basho.com/"},
 { :image => "schubergphilis.png", :name => "Schuberg Philis", :link => "http://www.schubergphilis.com/"},
+{ :image => "immobilienscout.png", :name => "Immobilien Scout 24", :link => "http://www.immobilienscout24.de/"},
 { :image => "serverdensity.png", :name => "Serverdensity", :link => "http://blog.serverdensity.com/"},
 { :image => "grandsla.png", :name => "GrandSla", :link => "http://www.grandsla.com/"},
 ]%>
