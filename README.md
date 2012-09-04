@@ -13,6 +13,9 @@ It uses webby as a framework:
 ### On Debian/Ubuntu:
 `$ apt-get install libonig-dev`
 
+### On Macosx
+`$ brew install oniguruma`
+
 ## If you use RVM
 
 - there is an .rvmrc that select ruby-1.8.7
