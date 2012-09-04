@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Sarah Haselbauer
+title: "How to chain jenkins, git and puppet in a continuous deployment pipeline
+"
+---
+
+**Abstract:**
+
+
+What do you do when you want to automate your jenkins upgrades and your
+git server upgrades, and yet still ensure that your puppet scripts are
+versioned and the latest HEAD revisions deployed to your puppetmaster?
+Where would you begin implementing such a round-trip strategy? Or is it
+impossible to keep your infrastructure tools continuously self-updated?
+This talk describes how to chain jenkins, git and puppet in a continuous
+deployment pipeline. Three tools, five minutes.
+
+**Speaker:**
+Sara Haselbauer
