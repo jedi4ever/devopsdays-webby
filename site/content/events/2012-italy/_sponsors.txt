@@ -5,6 +5,7 @@ filter:    erb
 { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/software/rational/devops/"},
 { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
 { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com/"},
+{ :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/"},
 { :image => "github.png", :name => "Github", :link => "http://www.github.com/"},
 ]%>
 <% @gsponsors.each do |sponsor| %>
