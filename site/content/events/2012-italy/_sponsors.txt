@@ -22,6 +22,7 @@ filter:    erb
 { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"},
 { :image => "enstratus.png", :name => "Enstratus", :link => "http://www.enstratus.com/"},
 { :image => "serverdensity.png", :name => "Serverdensity", :link => "http://blog.serverdensity.com/"},
+{ :image => "apress.png", :name => "Apress", :link => "http://www.apress.com/"},
 { :image => "grandsla.png", :name => "GrandSla", :link => "http://www.grandsla.com/"},
 ]%>
 <% @ssponsors.each do |sponsor| %>
