@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Andreas Heim
+title: "Visualize your git"
+---
+
+**Abstract:**
+
+
+
+In this talk I will show how to get three important metrics from your source code history, and how to visualize them.
+The slides will be showing in total three one-liners that will produce churn, impact and total lines of code data from
+a git repository and then how to visualise these numbers. 
+Participants will be inspired to start hacking in the terminal and to get important metrics and numbers that already
+exist in their git repository. My presentation-style is calm but energetic and I have held several presentations and
+tutorials in english, including Norwegian Developer Conference, Roots Conference and the upcoming Javazone 
+conference.
+
+
+**Speaker:**
+Andreas Heim 

@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Stein Inge Morisbak
+title: "A maturity model for Continous Delivery"
+---
+
+**Abstract:**
+
+
+Continuous delivery teams are delivering ideas continuously and long before 
+others have finished their first iteration. It is business who decides when things
+go into production, not IT. How do they do it? I will present a maturity model 
+containing practices and tools to accomplish this, and share experiences with 
+several of them. Each one adds immediate value, but you shouldn't do them 
+all at once. The model can be used to find out where you and your organisation
+stand now when it comes to delivering continuously, and which steps you can 
+take to improve your abilities
+
+
+
+**Speaker:**
+Stein Inge Morisbak
