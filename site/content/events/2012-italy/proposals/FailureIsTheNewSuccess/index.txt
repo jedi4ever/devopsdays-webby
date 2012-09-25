@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Peter Halacsy
+title: "Failure is the new Success"
+---
+
+**Abstract:**
+
+You can not prevent failure, you got to embrace it. Failing quickly is essential for your organization to learn and adopt, avoiding failure is living in fear and being defined by our fears. The idea of devops is that the individual is able, willing and accountable to fix a failure.
+
+In order to drive a cultural change as a leader you have to reward fixing and owning failure instead of preventing it [the order is important! carrot first, stick to reinforce]:
+
+1. You have to reward being accountable for a failure. You are not working if you are not failing at something. 
+2. You have to enable people to fix failure. Do not give people oven mints to handle radio active waste, get the right support structure, tool and most importantly training and time.
+3. You have to set the expectation that "I am the expert". The individual has to be able to understand, able to engage in each part of the system from typing in an editor to evaluating production system stats.
+
+It is a change, like the natural ebb and flow of life. For a devops team you rewarding generalist over specialist. At the same time you will compartmentalize system with needs of specialist to a very defined, simple and well tested interaction to minimize the risk of unexpected behavior.
+In my presentation I will provide specific examples of driving a culture change in an organization at the time of rapid growth for exactly the purpose of enabling such growth.
+
+**Speaker:**
+Peter Halacsy was the co-founder or prezi.com and today as a CTO he manages a diverse engineering group in 2 continents. He grew a small university project from Budapest to a prospering business in the Silicon Valley. To drive such rapid expansion, the organization had aster the ability to learn and adopt as new challenges were presented at different stages of the growth, as well as at entering into new markets.
