@@ -1,0 +1,12 @@
+<div class="submenu">
+<h3>
+<a href="/events/2012-newyork/">welcome</a>&nbsp;
+<a href="/events/2012-newyork/propose">propose</a>&nbsp;
+<a href="/events/2012-newyork/program">program</a>&nbsp;
+<a href="/events/2012-newyork/location">location</a>&nbsp; 
+<a href="/events/2012-newyork/registration">register</a>&nbsp;
+<a href="/events/2012-newyork/sponsor">sponsor</a>&nbsp;
+<a href="/events/2012-newyork/contact">contact</a>&nbsp;
+
+</h3>
+</div>

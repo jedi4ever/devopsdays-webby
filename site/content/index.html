@@ -73,6 +73,8 @@ var italylocation=new google.maps.LatLng(41.89052,12.494249);
 var sydneylocation=new google.maps.LatLng(-33.873651,151.20689);
 var gurgaonlocation=new google.maps.LatLng(28.459497,77.026638);
 var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
+var newyorklocation = new google.maps.LatLng(40.714353,-74.005973);
+
 
 var iw1 = new google.maps.InfoWindow({
 content: "Boston location is happening at the Nerd Center. <a href='/location-boston'>More</a>"
@@ -92,17 +94,17 @@ labelStyle: {opacity: 1}
 google.maps.event.addListener(italymarker, "click", function (e) { location.href="/events/2012-italy"});
 
 
-var sydneymarker = new MarkerWithLabel({
-position: sydneylocation,
+var newyorkymarker = new MarkerWithLabel({
+position: newyorklocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Sydney area<br> August 9 and 10 2012",
+labelContent: "New York<br>1,2 November 2012",
 labelAnchor: new google.maps.Point(+30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
-google.maps.event.addListener(sydneymarker, "click", function (e) { location.href="/events/2012-downunder"});
+google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2012-newyork"});
 
 
 }
