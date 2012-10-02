@@ -9,21 +9,12 @@ ignite: true
 selected: false
 layout: event
 author: Stein Inge Morisbak
-title: "A maturity model for Continous Delivery"
+title: "#!/bin/bash without loosing your sleep "
 ---
 
 **Abstract:**
 
-
-Continuous delivery teams are delivering ideas continuously and long before 
-others have finished their first iteration. It is business who decides when things
-go into production, not IT. How do they do it? I will present a maturity model 
-containing practices and tools to accomplish this, and share experiences with 
-several of them. Each one adds immediate value, but you shouldn't do them 
-all at once. The model can be used to find out where you and your organisation
-stand now when it comes to delivering continuously, and which steps you can 
-take to improve your abilities
-
+Operators are used to scripting, but learning bash can be confusing for developers. It starts out by putting a few commands in sequence and running it. Immediately you experience the power of the shell, and you want to do more. That's when you may experience that your scripts become a nightmare, and I am sure operators have experienced that to. When developers get more experienced in scripting they miss the set of tools and techniques they are used to from the developers world, and they start finding ways to incorporate them in bash scripting. And when they do, their scripts become a lot more manageable and less error-prone. Things like functions, unit tests, organising of code files, version control and logging frameworks enhances the quality, maintainability, readability, reusability, cleanliness, changeability, testability, security and ease of use. In this talk I will explain problems you may encounter when scripting bash and how to cope with them. I will show how techniques and tools from the programming world may be interesting to people coming from the operators world, and what developers need to learn from the operators world to become effective bash programmers.
 
 
 **Speaker:**
