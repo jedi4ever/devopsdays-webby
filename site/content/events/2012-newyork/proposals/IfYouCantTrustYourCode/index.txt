@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nathen Harvey
+title: "If You Can't Trust Your Code, Get in to the Kitchen!"
+---
+
+**Abstract:**
+
+Opscode recently announced Test Kitchen which provisions an isolated test environment using Vagrant to run project tests on different platforms.  Test Kitchen utilizes a number of different technologies including Vagrant, Foodcritic, Chef (of course), and mini-test-chef-handler.  In this talk, you'll learn more about Test Kitchen and see how to start using it with your own infrastructure code.
+
+<http://www.opscode.com/blog/2012/08/17/announcing-test-kitchen/>
+
+**Speaker:**
+Nathen Harvey
