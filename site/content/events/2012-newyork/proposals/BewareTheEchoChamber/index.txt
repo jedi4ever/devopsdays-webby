@@ -1,0 +1,59 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jan Schaumann
+title: "Beware the echo chamber chamber chamber -- Of conferences and filter bubbles"
+---
+
+**Abstract:**
+Conferences tend to follow and reinforce a certain degree of homophily:
+we attend the conferences that cover the areas we work in and hear
+speakers talk about topics that we believe are relevant to our current
+interests.  Most of the time we seek out validation of our own ideas,
+and so it is not surprising that most conferences have a very homogenous
+program.  Within each community, we cater to the masses.
+
+This reinforces each attendant's feeling that they get their money's
+worth out of a conference: if you know before attending that you will
+agree with everything (or at least the majority) that's said, then you
+later on are likely to rate the conference a smashing success.  Which in
+turn leads to the conference organizers receiving lots of great
+feedback, patting their program committee on the back and planning an
+identical (but bigger!) conference the next year.
+
+But this is not how we expand our horizons, how we learn new things.
+New ways of doing the old thing is not nearly as exciting or valuable as
+learning something actually new.  It is rare to see a conference invite
+speakers presenting the exact opposing thought than the one that might
+underly the conference's theme.
+
+The idea of DevOps is actually a pretty good example.  If I understand
+its history, it was, effectively, born out of a serendipitous meeting at
+a conference that did not focus on 'Ops' at all.  The idea of agile
+system administration was not something that would have likely been
+accepted as a pitch for a software development conference.  But we are
+now running the risk of building our own echo chamber: if you look at
+the program for DevOpsDays Italy, it sure looks like every talk will be
+very exciting and interesting for all attendants, and I'm sure they will
+all like them very much and agree with the main points.
+
+Don't we deserve a little more intellectual honesty?  Don't we deserve
+*new* ideas, not just slightly improved old ideas?  And don't we all
+tend to learn the most, the most interesting things when we're forced to
+look at something from an opposing view point?  I would argue that every
+conference should strive to invite more than just one or two of its
+"opponents", the people who are on the opposite side of the spectrum.
+
+What makes you uncomfortable?  NoOps?  Traditional separation between
+dev and ops?  Outsourcing of ops?  Let's invite the experts on those
+topics to the next DevOpsDays!
+
+**Speaker:**
+Jan Schaumann

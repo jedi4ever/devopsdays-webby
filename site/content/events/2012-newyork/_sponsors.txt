@@ -3,6 +3,7 @@ filter:    erb
 ---
 <% @gsponsors = [
 { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"},
+{ :image => "datadog.png", :name => "DatadogHQ", :link => "http://www.datadogHQ.com/"},
 ]%>
 
 <% @gsponsors.each do |sponsor| %>

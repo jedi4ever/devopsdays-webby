@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jan Schaumann
+title: "Mommy, Dev and Ops won't let me play with them! -- Sec, the nerdy outsider of the nerds club, just wants to belong"
+---
+
+**Abstract:**
+
+Alright, so Dev and Ops are now getting along just dandy.  Walls have
+been torn down, hierarchies flattened and the two best buddies are
+playing together all day long.  All the things are automated, all the
+things are logged, all the things are deployed and humans lean back and
+direct the symphony from afar.  But as we have build infrastructures
+that get software updates applied via continuous integration processes,
+which themselves automatically build new snapshots of software from the
+repository, test them and then push the code into production; as we
+trigger actions via bots, via commit messages, via emails; as we analyze
+data that is relayed from host to host, from automated software to
+automated software and have Skynet react to data patterns; as all this
+happens, how do we know we have not been compromised, hacked, pwned?
+
+A lot of the software built to automate deployments, to open, update,
+and close tickets is nowadays driven by other software; QA, development
+and production environments, if separate, have "special" access rules
+for this deployment software, and privileged accounts are de rigueur for
+all of this magic to work.
+
+In this talk, I'd like to discuss the security implications of some of
+the design and architecture decisions our community made in our efforts
+to bring developers and operations closer together and I'd like to
+propose ways in which the wall to the Security team(s) of your
+organization can be broken down as well.  I'll also include the N most
+common yet dangerous mistakes when building automation frameworks that
+allow me to pwn your dev, prod and extra-supah-sekret networks
+
+
+**Speaker:**
+Jan Schaumann

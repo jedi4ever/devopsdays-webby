@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nathen Harvey
+title: "Quit Your Job!  It's the best way to level-up your skills"
+---
+
+**Abstract:**
+
+Many agree that you need to be a technology generalist.  One of the best ways to improve your skills as a generalist is to be exposed to different infrastructure.  Need motivation to learn about another infrastructure?  Easy!  Just quit your job.  This should give you all the motivation you need to find a new job which, almost certainly, will use different infrastructure and have different challenges.  But maybe there's a better, or at least less dramatic, way to level-up your skills.  This talk encourage you to participate in your community and exchange ideas with other companies as a way to level-up your skills.
+
+**Speaker:**
+Nathen Harvey

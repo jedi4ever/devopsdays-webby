@@ -9,7 +9,7 @@ layout: event
 ---
 This page list the proposals we have received. Help the presenters with your feedback! 
 
-<% parent="/events/2012-nyc/proposals" %>
+<% parent="/events/2012-newyork/proposals" %>
 
 <h2>Conference Talks</h2>
 <ol>

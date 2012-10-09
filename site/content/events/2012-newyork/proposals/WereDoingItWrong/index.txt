@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jan Schaumann
+title: "We're Doing it Wrong! - What DevOps needs to learn from traditional, segregated Dev and Ops teams in order to scale up"
+---
+
+**Abstract:**
+
+It is commonly accepted gospel amongst the DevOpsDays target audience
+that software developers and operational staff need to not only work
+closer together, but share each other's duties and burdens.  But it
+seems that very large sites are slow to adopt this model.  Is this a
+behemoth's inherent inability to adapt quickly?  Or does DevOps perhaps
+not scale well?
+
+The truth lies in the middle (shocking, I know).  There are still a few
+things that current DevOps practices or culture changes cannot address.
+A lot of current DevOps techniques and practices are based on a number
+of common open source tools, but in very large environments, these tend
+not to scale well; as a result, companies on that end of the spectrum
+have been building their own software for a long time.  Perhaps they
+have been more "DevOps" than either we or they care to admit?
+
+In this talk, I'd like to take a look at what prevents very large scale
+deployments to fall into the, I suppose, "traditional DevOps" model (and
+discuss whether such a thing exists).  Lessons we may need to (re)learn
+include: automation is a means, not an end, it requires safeguards and
+accountability, audit trails and, in many cases, a human decision;
+logging all the things is only helpful if all the things can be
+processed, otherwise we drown in a sea of data; removing barriers
+between roles flattens the trust hierarchy, raising each user's impact
+(and ability to cause harm, intentionally or not).
+
+**Speaker:**
+Jan Schaumann

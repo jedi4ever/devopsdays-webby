@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Jan Schaumann
+title: "Safely Drinking from the Data Waterhose"
+---
+
+**Abstract:**
+
+ I'd also like to offer giving an ignite talk I gave in September at DataGotham here in New York
+ about how Etsy extracts security related events and alerts from our logs:
+ <http://www.slideshare.net/jschauma/safely-drinking-from-the-data-waterhose>
+
+**Speaker:**
+Jan Schaumann
