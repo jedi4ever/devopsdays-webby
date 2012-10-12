@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sean OMeara
+title: "Knights of the Provisioning Round Table - Bare Metal Provisioning"
+---
+
+**Abstract:**
+
+There has been a huge amount of interest and development around
+virtualization, IaaS platforms, and "cloud computing" in general.
+However, many of us still need to manage bare metal because we have
+latency sensitive applications, or simply need to squeeze every last
+cycle out of our hardware. Let's take a quick look at this neglected
+class of tooling to see what the current state of the art is.
+
+** Suggested panelists: **
+Judd Maltin, Dell, Crowbar
+Eric Shamow, Puppet, Razor
+Sam Kottler, Foreman
+Joyent / SmartOS?
+Ubuntu/ Maas?
+Anyone know a Cobbler?
+??, ??, Something Else?
+
+**Speaker:**
+Sean OMeara
