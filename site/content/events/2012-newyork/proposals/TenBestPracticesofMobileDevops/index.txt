@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sanjeev Sharma
+title: "Ten Best Practices of Mobile DevOps"
+---
+
+**Abstract:**
+Mobile Apps are not stand alone applications running on a mobile device anymore. Apps today are complex systems with back-ends that include application servers, data sources and API calls to 3rd party systems. Mobile App development and deployment is further complicated with todays need for supporting multiple mobile devices, with multiple OSes, multiple versions of the OSes, multiple form factors and varied network and device specs. Keeping these complex systems up and running, constantly updated with the latest features and providing the best value to the users is a task that requires constant coordination between development and operations teams.
+
+The goal of DevOps is to align Dev and Ops by introducing a set of principles and practices such as continuous integration, continuous delivery, etc. Mobile apps take the need for these practices up a level due to their inherent distributed nature. Multi-platform mobile apps need even more care in applying DevOps principles as there are multiple platforms to be targeted, each with its own requirements, quirks, and nuanced needs. While DevOps is maturing as a practice, it is still in its infancy within the Mobile App development community.
+
+This talk will introduce attendees to DevOps challenges specific to Mobile apps and present Ten Best Practices that every Mobile App development effort should adopt, to address them.
+
+
+**Speaker:**
+Sanjeev Sharma
