@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mike Fiedler
+title: "Getting Config Management Adoption in an existing Organization"
+---
+
+**Abstract:**
+
+Configuration management can be a contentious issue in any
+organization. This talk will focus on some of the ways you might
+present adoption.
+
+Talking about the management concerns, how to present the benefits and
+payoffs, as well as the time and effort involved, to help make your
+case.
+
+**Speaker:**
+Mike Fiedler
