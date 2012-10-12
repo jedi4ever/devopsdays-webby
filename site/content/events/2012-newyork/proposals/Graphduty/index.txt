@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Peter Norton
+title: "Graphduty: monitoring via graphite"
+---
+
+**Abstract:**
+At knewton, we've managed to get pervasive system statistics into
+graphite across all of our deployments.  In-house software, system
+stats, and servers (cassandra, rabbitmq, etc.) all report into
+graphite.
+
+We've leveraged this by writing a simple tool, called graphduty, which
+will read configured sets of stats from graphite, and edge-trigger on
+events and notify pagerduty so that they can be addressed without
+having to create monster dashboards.
+
+**Speaker:**
+Peter Norton
