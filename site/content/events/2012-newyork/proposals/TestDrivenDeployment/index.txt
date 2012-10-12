@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Matt Schaffer
+title: "Test Driven Deployment"
+---
+
+**Abstract:**
+
+Infrastructure as Code is awesome! Now how do we test it? While automated provisioning and deployment is rapidly becoming the norm, many people don’t include tests in that cycle. This is a new frontier of operations that’s rapidly developing. There are some strong tools available and plenty of space for new ideas.
+
+In this talk we’ll go over tools like Foodcritic, ChefSpec, and Minitest Chef Handler. I’ll show you how to apply them to your recipes to help catch errors before you even get to staging. We’ll also go over how to incorporate this into your workflow including continuous integration and testing across multiple operating systems.
+
+**Speaker:**
+
+Matt Schaffer
