@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Matt Schaffer
+author: Mat Schaffer
 title: "Test Driven Deployment"
 ---
 
@@ -20,4 +20,4 @@ In this talk we’ll go over tools like Foodcritic, ChefSpec, and Minitest Chef 
 
 **Speaker:**
 
-Matt Schaffer
+Mat Schaffer
