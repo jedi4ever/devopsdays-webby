@@ -4,7 +4,7 @@ filter:    erb
 <% @gsponsors = [
 { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"},
 { :image => "datadog.png", :name => "DatadogHQ", :link => "http://www.datadogHQ.com/"},
-{ :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"}
+{ :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},
 { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"}
 ]%>
 
