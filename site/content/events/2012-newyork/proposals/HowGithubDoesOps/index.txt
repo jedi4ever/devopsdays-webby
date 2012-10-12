@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mark Imbriaco
+title: "How Github does Ops"
+---
+
+**Abstract:**
+
+GitHub is growing very rapidly and with a widely distributed team -- when
+this was written there were 124 GitHubbers spread across 54 cities. To say
+that we invest a lot of time and energy in supporting remote work would be
+a massive understatement.
+
+We use a mixture of GitHub pull requests and issues, Campfire chat, shared
+graphs, and an enormous pile of Hubot scripts to make things go and keep
+everyone in sync. Join me for a whirlwind tour through a day in the life of
+GitHub ops.
+
+**Speaker:**
+Mark Imbriaco
