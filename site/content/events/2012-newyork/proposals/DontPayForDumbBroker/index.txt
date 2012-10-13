@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+ignite: true
+layout: event
+author: Patricio Arvizu
+title: "Don't pay for a dumb broker"
+---
+
+**Abstract:**
+
+ A lot of CI Servers today offer a lot of functionality out of the box or through plugins, but as projects and companies grow, the code base outgrows the initial setup and scalability becomes a concern. Ideally, all projects would have a very thing build plan that interacts with a build system that exposes a set of "verbs" or actions that it can perform through a DSL. This way, the CI server is just a broker, pressing the right buttons and the real heavy work is on the build system and we don't really have to pay for a thin CI server. We can take it one step further if we package and release the build system as an artifact and bootstrap it as the first dependency of each project.
+
+**Speaker:**
+Patricio Arvizu

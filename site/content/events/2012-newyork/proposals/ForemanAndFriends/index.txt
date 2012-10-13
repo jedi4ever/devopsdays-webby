@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sam Kottler
+title: "Foreman and friends"
+---
+
+**Abstract:**
+
+The Foreman is a powerful open source reporting, provisioning, and lifecycle management tool built atop Puppet. In this talk I will demo different pieces of functionality, including host search, statistics, EC2/OpenStack/libvirt/oVirt provisioning, DHCP and tftp management, as well as organizational features for logically grouping hosts. In addition to delving into a live demo, I'll cover the community, ecosystem, and Puppet basics for those without configuration management experience.
+
+<http://theforeman.org>
+
+**Speaker:**
+Sam Kottler
