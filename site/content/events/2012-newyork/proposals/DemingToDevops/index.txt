@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John Willis
+title: "Deming to Devops"
+---
+
+**Abstract:**
+
+Deming to Devops is a journey though the history of 20th century counterintuitive thought leaders and their influence on modern day Devops.  We will discuss the direct influence on Devops from physicists turned management scientists like Shewhart, Deming and Goldratt.  We will look closely at patterns and anti patterns of the aforementioned scientists that map directly to todays Devops patterns and anti patterns.  Someone once said that that Lean can be described as a community of scientists continuously experimenting.  In this presentation we will see that this basically the same mantra of a well practiced Devops environment.
+
+**Speaker:**
+John Willis
