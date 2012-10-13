@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Adam Nelson
+title: "Meat & Potatoes Architecture for Internet Application Security and Redundancy"
+---
+
+**Abstract:**
+
+While many devops and systems architects have a strong understanding of the code and services underlying their application, and how to monitor them, many do not have a basic understanding of classic rules around an n-tier architecture and how to model their services in order to find security and redundancy holes.  This presentation will
+address:
+
+* The multiple availability zone fallacy - When one puts services in 2 availability zones to make it more redundant but some services aren't replicated, then the redundancy is actually halved because the failure of any one zone will take down the system
+* Private Networks and VLANs - While ipv6 may change the use of private subnets for different services in the future, we're still in an ipv4 world where private subnets should be used to isolate services from the Internet where possible.
+* Using simple tools like LucidChart (or Visio or OmniGraffle) - Network diagrams are critical to scaling and communicating an architecture to a team - and crucial to finding soft spots
+* Isolating development and staging from production - Please don't allow developers to hit the live database from their dev code.
+* Don't forget the office - The frequently neglected office network is real too - and not infrequently falls on the unwitting devops' shoulders.  I have some little guidelines that might make life easier here.
+
+I hope to present these concepts which often are real but don't get exposure in the contemporary devops world where most people are spending more time on figuring out how to test their new MongoDB recipe than they are on proper service isolation and standard best practices that were all figured out before 'devops' was a word.
+
+Note: I hope to write this so that less experienced people get a ton out of it and more experienced people say 'exactly' every few minutes but still get a good review of what they probably already know.
+
+**Speaker:**
+Adam Nelson
