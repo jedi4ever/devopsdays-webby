@@ -2,10 +2,13 @@
 filter:    erb
 ---
 <% @gsponsors = [
+{ :image => "nyupoly.png", :name => "NYU Poly", :link => "http://www.poly.edu/"},
 { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"},
 { :image => "datadog.png", :name => "DatadogHQ", :link => "http://www.datadogHQ.com/"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},
-{ :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"}
+{ :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
+{ :image => "intentmedia.png", :name => "Intent Media", :link => "http://www.itentmedia.com/"}
+{ :image => "librato.png", :name => "Librato", :link => "http://metrics.librato.com/"}
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
