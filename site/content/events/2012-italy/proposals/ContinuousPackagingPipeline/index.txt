@@ -25,4 +25,6 @@ The described toolchain is built on fpm (https://github.com/jordansissel/fpm/), 
 **Speaker:**
 Maciej Pasternacki
 
+**Slides:**
+http://www.slideshare.net/mpasternacki/a-continuous-packaging-pipeline
 

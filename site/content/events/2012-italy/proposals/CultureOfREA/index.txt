@@ -27,3 +27,7 @@ This is the synopsis - A very high level short talk  about REA group detailing o
 
 **Speaker:**
 Trent Hornibrook
+
+**Slides:**
+http://slideshare.net/mysqldbahelp/devopsdays-rome
+

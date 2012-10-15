@@ -30,3 +30,7 @@ A short talk about how it happened and the result of the change
 
 **Speaker:**
 Ulf Mansson
+
+**Slides:**
+http://www.slideshare.net/ulfmansson/ignite-talk-monitoringlove-devopsdays-2012-rome
+

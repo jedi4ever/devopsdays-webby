@@ -19,3 +19,7 @@ Operators are used to scripting, but learning bash can be confusing for develope
 
 **Speaker:**
 Stein Inge Morisbak
+
+**Slides:**
+http://www.slideshare.net/steinim/bash-without-loosingyoursleepdevopsdays
+
