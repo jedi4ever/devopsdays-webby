@@ -27,5 +27,5 @@ In this talk I will explain problems you may encounter when scripting bash and h
 Stein Inge Morisbak
 
 **Slides:**
-[http://www.slideshare.net/steinim/bash-without-loosingyoursleepdevopsdays]: http://www.slideshare.net/steinim/bash-without-loosingyoursleepdevopsdays
+<a href="http://www.slideshare.net/steinim/bash-without-loosingyoursleepdevopsdays">http://www.slideshare.net/steinim/bash-without-loosingyoursleepdevopsdays</a>
 

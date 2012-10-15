@@ -22,11 +22,11 @@ At the same time, building and distributing packages is something of a black art
 
 In my talk, I describe a pipeline for scripting the build process of custom system packages integrated with a continuous integration system – from Git repository through the CI build server to the Apt repository available to client systems. I am showing how to sanely keep up with upstream projects and manage patches. I talk about sharing and reusing packaging scripts. I also briefly touch the topic of full stack packages. 
 
-The described toolchain is built on fpm ([https://github.com/jordansissel/fpm/]: https://github.com/jordansissel/fpm/), Rake, Evoker ([https://github.com/mpasternacki/evoker/]: https://github.com/mpasternacki/evoker/), Vagrant, and a couple yet unreleased utils which will be released as open source in time for the Devopsdays. While I am using the pipeline for Debian and Ubuntu, the toolchain is extensible and easily adapted to other environments.
+The described toolchain is built on fpm (<a href="https://github.com/jordansissel/fpm/">https://github.com/jordansissel/fpm/</a>), Rake, Evoker (<a href="https://github.com/mpasternacki/evoker/">https://github.com/mpasternacki/evoker/</a>), Vagrant, and a couple yet unreleased utils which will be released as open source in time for the Devopsdays. While I am using the pipeline for Debian and Ubuntu, the toolchain is extensible and easily adapted to other environments.
 
 **Speaker:**
 Maciej Pasternacki
 
 **Slides:**
-[http://www.slideshare.net/mpasternacki/a-continuous-packaging-pipeline]: http://www.slideshare.net/mpasternacki/a-continuous-packaging-pipeline
+<a href="http://www.slideshare.net/mpasternacki/a-continuous-packaging-pipeline">http://www.slideshare.net/mpasternacki/a-continuous-packaging-pipeline</a>
 
