@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+selected: false
+ignite: true
+layout: event
+author: Bethany Benzur
+title: "From Nachos to Sushi: A monitoring Love Story"
+---
+
+**Abstract:**
+
+Paperless Post recently ditched Nagios and Munin in favor of
+Sensu, the open source monitoring and metrics router. Sensu is a cinch
+to deploy using Chef and a pleasure to interact with using the Sensu
+API.  We’ll preview Sushi, our home-grown Sensu dashboard for viewing
+environment health, and show how we use Sensu to collect and graph
+system metrics in Graphiti, our open-source Graphite front end.
+
+**Speaker:**
+Bethany Benzur
