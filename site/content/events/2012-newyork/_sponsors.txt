@@ -7,7 +7,7 @@ filter:    erb
 { :image => "datadog.png", :name => "DatadogHQ", :link => "http://www.datadogHQ.com/"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},
 { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
-{ :image => "intentmedia.png", :name => "Intent Media", :link => "http://www.itentmedia.com/"},
+{ :image => "intentmedia.png", :name => "Intent Media", :link => "http://www.intentmedia.com/"},
 { :image => "librato.png", :name => "Librato", :link => "http://metrics.librato.com/"}
 ]%>
 
