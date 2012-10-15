@@ -17,7 +17,9 @@ title: "Everyone Loves Monitoring"
 
 About how we changed from an old monitoring monster to a monitoring 
 pipeline based on Sensu, Graphite, GDash, RabbitMQ, Pagerduty and 
-friends. We have got much better involvement from developers and a more 
+friends.
+
+We have got much better involvement from developers and a more 
 engaged management. Developers are now sending data to the monitor 
 pipeline directly from the applications, everything is easy graphable, 
 we have furnished the office with monitoring screens and management 
@@ -32,5 +34,5 @@ A short talk about how it happened and the result of the change
 Ulf Mansson
 
 **Slides:**
-http://www.slideshare.net/ulfmansson/ignite-talk-monitoringlove-devopsdays-2012-rome
+[http://www.slideshare.net/ulfmansson/ignite-talk-monitoringlove-devopsdays-2012-rome]: http://www.slideshare.net/ulfmansson/ignite-talk-monitoringlove-devopsdays-2012-rome
 

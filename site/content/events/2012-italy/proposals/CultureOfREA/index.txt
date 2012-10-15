@@ -16,7 +16,7 @@ title: "Culture at REA"
 
 
 
-This is the synopsis - A very high level short talk  about REA group detailing our journey over the past three years
+This is the synopsis - A very high level short talk  about REA group detailing our journey over the past three years:
 - Moving from waterfall (release rarely) development to agile
 - Purchasing an off the self front facing website and integrating that with 'legacy systems'
 - Addressing the US-THEM by imbedding 'operations' in development teams
@@ -29,5 +29,5 @@ This is the synopsis - A very high level short talk  about REA group detailing o
 Trent Hornibrook
 
 **Slides:**
-http://slideshare.net/mysqldbahelp/devopsdays-rome
+[http://slideshare.net/mysqldbahelp/devopsdays-rome]: http://slideshare.net/mysqldbahelp/devopsdays-rome
 
