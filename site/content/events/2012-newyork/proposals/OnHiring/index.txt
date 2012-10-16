@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Dave Zwieback
+title: "On Hiring (in a DevOps World)"
+---
+
+**Abstract:**
+
+Your organization has embraced the DevOps philosophy, and it’s growing. Now you need to hire technologists that can succeed in a DevOps environment, but you soon discover that finding them presents an unusual set of challenges:- Since DevOps is not a job description (the occasional “Head of DevOps” from 2007 notwithstanding), what criteria can we use to find qualified people?  Is it a SysAdmin who codes? Is it a developer who knows what an inode is? Is it a SRE or a WebOps Engineer? Is it a unicorn?- How do we compare experience of people who have chosen to not overspecialize vs that of specialists? (It's not an apples-to-apples comparison).- How do we spot silo mentality—the antithesis of DevOps thinking—during interviews?- Does the recruiting process need to change in a DevOps world? Hint: these rare candidates cannot be easily found on LinkedIn, and do not respond well to recruiters.- What can an organization do to initially interest DevOps-ready technologists, and keep them happy in the long term?I’ll share the humorous and sometimes painful tales from our experience hiring DevOps folks at Knewton.
+
+**Speaker:**
+Dave Zwieback
