@@ -8,6 +8,7 @@ filter:    erb
 { :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},
 { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
 { :image => "intentmedia.png", :name => "Intent Media", :link => "http://www.intentmedia.com/"},
+{ :image => "uc4.png", :name => "UC4", :link => "http://www.uc4.com/"},
 { :image => "librato.png", :name => "Librato", :link => "http://metrics.librato.com/"}
 ]%>
 
