@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jason Wash - Geoffrey Arnold
+title: "Continuous Deployment Workflow in Action"
+---
+
+**Abstract:**
+
+Are you curious how your company’s DevOps process and tools compare to other companies? Looking for ideas on what tools to use and what to build?
+
+Intent Media’s DevOps team will lift up the hood and show us the continuous deployment tools they use, and provide some insight into how they maximize them. They will tell us about the proprietary tool they’ve built for deploying and pushing out hot fixes and show us how they use RightScale to manage their cloud resources and how they leverage its API for automation. They will run us through an overview of their cloud architecture, and share how their process automation prevents downtime. They will also share their insight into the custom tools used for deployment risk analysis.
+
+**Speaker:**
+Jason Wash or Geoffrey Arnold

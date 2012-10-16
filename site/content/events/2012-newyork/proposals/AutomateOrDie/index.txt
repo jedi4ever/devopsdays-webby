@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Aaron Quint
+title: "Automate or Die"
+---
+
+**Abstract:**
+
+As programmers and system administrators we have the seemingly unlimited power of computers at our finger tips - with time, motivation, and enough caffeine we can build almost anything. So why do we waste so much time doing so many things in our jobs by hand?  It’s not just about being lazy, its about putting our tools to work for us for consistency, speed, and ease. In a lot of ways Ruby was almost designed for this task and there are a ton of tools out there to make automation painless.
+
+At Paperless Post, we’ve moved our very slow and painful workflow into a toolset that can accomplish most things with a single click or command. We understand that continuous deployment, while sounding like a miracle cure, isn’t just a switch you flip, especially for companies with long running/large projects and codebases. I would argue that taking the small steps toward that larger goal are not only worth it for every size company, but are often more valuable then the final pinnacle of one click deploy. I’ll walk through the tools we built and use, how we approached the problem, and how you can start taking steps to automate your day to day.
+
+**Speaker:**
+Aaron Quint, CTO Paperless Post

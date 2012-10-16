@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Sarah Haskins
+title: "Quit Your Job!  It's the best way to level-up your skills"
+---
+
+**Abstract:**
+
+At Knewton we use CloudFormation to manage an Adaptive learning platform comprising over twenty distinct services. Each service utilizes a variety of AWS resources; CloudFormation enables Knewton to group those resources required by a service into a discrete artifact known to CloudFormation as a stack. CloudFormation provides an interface that is easy to understand and easy to get up and running, but before our CloudFormation-based deployment system was production-ready, we had to overcome a few obstacles.
+
+Our first obstacle was performing reliable updates with zero downtime. CloudFormation updates can be problematic: often the changes to the resource are not applied on updates to the existing version. For example, for an EC2 instance, updates are only applied if a new instance is created. But in production you need to be certain changes are successful immediately, not the next time the box is recreated. Knewton found an innovative approach to leverage how CloudFormation does updates to achieve production-safe upgrades with zero downtime.
+
+With CloudFormation managing the AWS resources we needed some way to track configuration changes over time--not just for an individual stack, but also for groups of stacks which together make up the platform.  Our answer to this was to create snapshots--stored in SimpleDB and S3--of the stacks based on information provided to us by CloudFormation.
+
+Lastly, after several months working with CloudFormation we realized that our stack templates had become cluttered with instance configuration logic. Although CloudFormation is great at managing the creation of AWS resources, it is not great at configuring those resources--the logic was hard to test, easy to break, and generally very ugly. To better manage this we moved all of our instance configuration into ChefSolo recipes, significantly cleaning up the clutter in our stack templates.
+
+**Speaker:**
+Sarah Haskins
