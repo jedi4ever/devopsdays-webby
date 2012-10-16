@@ -10,7 +10,7 @@ ignite: true
 selected: false
 layout: event
 author: Sarah Haskins
-title: "Quit Your Job!  It's the best way to level-up your skills"
+title: "Working with CloudFormation and ChefSolo to Manage the Knewton Platform"
 ---
 
 **Abstract:**
