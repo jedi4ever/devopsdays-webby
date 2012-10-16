@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Matthias Meyer
+title: "Failure is always an option"
+---
+
+**Abstract:**
+
+At Travis CI, we've learned a ton from failures, and we're still learning. The project has grown from a side project to a full time product that's running tens of thousands of builds per day.
+
+All of our failures though, are home-grown. For lack of knowing better, we made design decisions that we're now paying back for, big time.
+
+And yet, it's hard to see how we could have avoided this. The culture and knowledge of web operations and scalability is one that's kept mostly in the minds of smart people instead of discussed openly, without blame, without shame.
+
+This talk is an attempt to get these things out in the open, to foster a community where problems are discussed constructively, where patterns and experiences, good and bad, are shared openly.
+
+**Speaker:**
+Matthias Meyer aka @roidrage
