@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Ellis
+title: "Infrastructure deployment contracts and zero downtime deployment with Orcé
+---
+
+**Abstract:**
+
+New Applications at the TIM Group must implement the deployment infrastructure contract and pass the test. Those that do get zero-downtime continuous deployment for "free". TIM Group presents "Orc": a tool for providing zero-downtime deployments of contract compliant web applications. Orc works by executing a safe sequence of steps to deploy web applications without taking the service down. It reads the desired state of the world from a CMDB and continually issues instructions to the environment. It uses MCollective for discovery and command execution of the hosts.
+
+**Speaker:**
+David Ellis

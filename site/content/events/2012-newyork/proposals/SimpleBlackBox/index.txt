@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dieter Plaetinck
+title: "Simple Black Box"
+---
+
+**Abstract:**
+
+I want to introduce a side project which I i believe fills a gap in the black box behavior testing niche: <https://github.com/vimeo/simple-black-box>
+* probably mostly useful for people who implement/deploy daemons (sysadmins and back-end programmers)
+* differs from most testing tools by treating the thing you're testing as a black box, and interfacing with it by inputs and probes, not by interacting with your API, i.e. programming language agnostic.
+
+* SBB executes the program in a sandbox with a specific configuration and captures logs, stderr and stdout streams, http/udp traffic, etc
+* you can programmatically interact with the app while it's running (commands, http, ...) and use probes to validate behavior by asserting on process tables, http traffic, logfile entries, file checksums, sockets etc, or just use this as a debugger with the logstash backend.
+
+**Speaker:**
+Dieter Plaetinck
