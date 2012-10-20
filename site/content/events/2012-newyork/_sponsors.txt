@@ -21,7 +21,7 @@ filter:    erb
 { :image => "knewton.png", :name => "Knewton", :link => "http://www.knewton.com/"},
 { :image => "appfirst.png", :name => "Appfirst", :link => "http://www.appfirst.com/"},
 { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
-{ :image => "papertrail.png", :name => "Papertrail", :link => "http://www.papertrail.com/"},
+{ :image => "papertrail.png", :name => "Papertrail", :link => "http://www.papertrailapp.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
