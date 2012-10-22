@@ -22,6 +22,7 @@ filter:    erb
 { :image => "knewton.png", :name => "Knewton", :link => "http://www.knewton.com/"},
 { :image => "appfirst.png", :name => "Appfirst", :link => "http://www.appfirst.com/"},
 { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
+{ :image => "basho.png", :name => "Basho", :link => "http://www.basho.com/"},
 { :image => "papertrail.png", :name => "Papertrail", :link => "http://www.papertrailapp.com/"},
 ]%>
 
