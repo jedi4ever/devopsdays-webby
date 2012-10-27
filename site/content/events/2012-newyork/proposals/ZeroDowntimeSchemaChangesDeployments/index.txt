@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Bob Feldbauer
+title: "Zero Downtime Deployments on MySQL"
+---
+
+**Abstract:**
+Introduction to using MySQL Master-Master in an active/passive configuration behind mysqlproxy to enable zero downtime database schema changes (and thus, zero downtime, continuous deployments).
+
+**Speaker:**
+Bob Fedbauer
