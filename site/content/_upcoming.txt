@@ -1,6 +1,5 @@
 <div class="submenu" style="width:550px">
 <h3>
-<a href="/events/2012-italy/">Italy</a>&nbsp;
-<a href="/events/2012-newyork/">New York</a>&nbsp;
+<a href="/events/2013-newyork/">New York</a>&nbsp;
 </h3>
 </div>

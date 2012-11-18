@@ -81,17 +81,6 @@ content: "Boston location is happening at the Nerd Center. <a href='/location-bo
 });
 
 
-var italymarker = new MarkerWithLabel({
-position: italylocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Rome, Italy<br> 5,6 October 2012",
-labelAnchor: new google.maps.Point(+30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(italymarker, "click", function (e) { location.href="/events/2012-italy"});
 
 
 var newyorkymarker = new MarkerWithLabel({
@@ -99,7 +88,7 @@ position: newyorklocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "New York<br>1,2 November 2012",
+labelContent: "New York<br>17,18 Januari 2013",
 labelAnchor: new google.maps.Point(+30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
