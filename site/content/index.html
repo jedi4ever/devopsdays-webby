@@ -80,9 +80,6 @@ var iw1 = new google.maps.InfoWindow({
 content: "Boston location is happening at the Nerd Center. <a href='/location-boston'>More</a>"
 });
 
-
-
-
 var newyorkymarker = new MarkerWithLabel({
 position: newyorklocation,
 draggable: false,
@@ -93,7 +90,7 @@ labelAnchor: new google.maps.Point(+30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
-google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2012-newyork"});
+google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2013-newyork"});
 
 
 }
