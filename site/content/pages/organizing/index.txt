@@ -206,6 +206,7 @@ We expect the following in return:
 - __T-Shirts__: time to work on a cool design
 - __Hotel-discounts__: if people are travelling they appreciate being together in the hotel, a nice way to get a discount
 - __Evening event__: it's always nice for people to have an openbar or social event at the event.
+- __Video Streaming__: look for a camera man that do the recording, we have a livestream account you can use for broadcasting
 
 ## That's it (for now)
 This document isn't finished. We are working on a checklist that you can use during the preparation and the event itself. But the above is enough to get you bootstrapped and have most questioned answered (we hope :)
