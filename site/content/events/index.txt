@@ -8,7 +8,9 @@ title: Devopsdays Events
 The following events took place in the past:
 
 <ul>
+<li><a href="/events/2012-italy/">Rome 2012</a></li>
 <li><a href="/events/2012-mountainview/">Mountain View 2012</a></li>
+<li><a href="/events/2012-india/">India 2012</a></li>
 <li><a href="/events/2012-tokyo/">Tokyo 2012</a></li>
 <li><a href="/events/2012-austin/">Austin 2012</a></li>
 <li><a href="/events/2011-goteborg/">Goteborg 2011</a></li>

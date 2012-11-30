@@ -75,12 +75,14 @@ var gurgaonlocation=new google.maps.LatLng(28.459497,77.026638);
 var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
 var newyorklocation = new google.maps.LatLng(40.714353,-74.005973);
 
+var parislocation = new google.maps.LatLng(48.856614,2.352222);
+var berlinlocation = new google.maps.LatLng(52.519171,13.406091);
+var barcelonalocation = new google.maps.LatLng(41.387917,2.169919);
+var brazillocation = new google.maps.LatLng(-14.235004,-51.92528);
+var downunderlocation = new google.maps.LatLng(-25.274398,133.775136);
+var indialocation = new google.maps.LatLng(20.593684,78.96288);
 
-var iw1 = new google.maps.InfoWindow({
-content: "Boston location is happening at the Nerd Center. <a href='/location-boston'>More</a>"
-});
-
-var newyorkymarker = new MarkerWithLabel({
+var newyorkmarker = new MarkerWithLabel({
 position: newyorklocation,
 draggable: false,
 raiseOnDrag: false,
@@ -91,7 +93,115 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+var londonmarker = new MarkerWithLabel({
+position: londonlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "London<br>February 2013",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var parismarker = new MarkerWithLabel({
+position: parislocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Paris<br>April 2013",
+labelAnchor: new google.maps.Point(+50, 10),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var berlinmarker = new MarkerWithLabel({
+position: berlinlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Berlin<br>May 2013",
+labelAnchor: new google.maps.Point(-10, 45),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var mountainviewmarker = new MarkerWithLabel({
+position: mountainviewlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Mountainview<br>June 2013",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var downundermarker = new MarkerWithLabel({
+position: downunderlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Downunder<br>May or August 2013",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var indiamarker = new MarkerWithLabel({
+position: indialocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "India<br>August 2013",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var barcelonamarker = new MarkerWithLabel({
+position: barcelonalocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Barcelona<br>October 2013",
+labelAnchor: new google.maps.Point(0, 0),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var brazilmarker = new MarkerWithLabel({
+position: brazillocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Brazil<br>November 2013",
+labelAnchor: new google.maps.Point(+30, -15),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var austinmarker = new MarkerWithLabel({
+position: austinlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Austin<br>1&2 April 2013",
+labelAnchor: new google.maps.Point(30, 0),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
 google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2012-newyork"});
+google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
+google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2013-austin"});
+google.maps.event.addListener(parismarker, "click", function (e) { location.href="/events/2013-paris"});
+google.maps.event.addListener(berlinmarker, "click", function (e) { location.href="/events/2013-berlin"});
+google.maps.event.addListener(indiamarker, "click", function (e) { location.href="/events/2013-india"});
+google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2013-mountainview"});
+google.maps.event.addListener(downundermarker, "click", function (e) { location.href="/events/2013-downunder"});
+google.maps.event.addListener(barcelonamarker, "click", function (e) { location.href="/events/2013-barcelona"});
+google.maps.event.addListener(brazilmarker, "click", function (e) { location.href="/events/2013-brazil"});
 
 }
 </script>
