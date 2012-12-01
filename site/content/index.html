@@ -81,6 +81,7 @@ var barcelonalocation = new google.maps.LatLng(41.387917,2.169919);
 var brazillocation = new google.maps.LatLng(-14.235004,-51.92528);
 var downunderlocation = new google.maps.LatLng(-25.274398,133.775136);
 var indialocation = new google.maps.LatLng(20.593684,78.96288);
+var atlantalocation = new google.maps.LatLng( 33.748995,-84.387982);
 
 var newyorkmarker = new MarkerWithLabel({
 position: newyorklocation,
@@ -110,7 +111,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Paris<br>April 2013",
-labelAnchor: new google.maps.Point(+50, 10),
+labelAnchor: new google.maps.Point(+55, +20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -192,6 +193,28 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+var tokyomarker = new MarkerWithLabel({
+position: tokyolocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Tokyo 2013",
+labelAnchor: new google.maps.Point(30, 0),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var atlantamarker = new MarkerWithLabel({
+position: atlantalocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Atlanta 2013",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
 google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2012-newyork"});
 google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2013-austin"});
@@ -202,6 +225,8 @@ google.maps.event.addListener(mountainviewmarker, "click", function (e) { locati
 google.maps.event.addListener(downundermarker, "click", function (e) { location.href="/events/2013-downunder"});
 google.maps.event.addListener(barcelonamarker, "click", function (e) { location.href="/events/2013-barcelona"});
 google.maps.event.addListener(brazilmarker, "click", function (e) { location.href="/events/2013-brazil"});
+google.maps.event.addListener(tokyomarker, "click", function (e) { location.href="/events/2013-tokyo"});
+google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2013-atlanta"});
 
 }
 </script>
