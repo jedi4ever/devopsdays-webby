@@ -27,6 +27,7 @@ filter:    erb
 { :image => "papertrail.png", :name => "Papertrail", :link => "http://www.papertrailapp.com/"},
 ]%>
 
+<br>
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
 
 <% @ssponsors.each do |sponsor| %>
