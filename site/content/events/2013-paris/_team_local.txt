@@ -3,5 +3,5 @@
 - Pierre-Antoine Grégoire
 - Arnaud Héritier
 - Hugo Gomez
-- Jonathan Clark
+- Jonathan Clarke
 - Dimitri Baeli
