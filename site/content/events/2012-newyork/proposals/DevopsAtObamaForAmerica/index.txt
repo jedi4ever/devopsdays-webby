@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Leo Zhadanovsky
+title: "DevOps At Obama for America & The Democratic National Committee"
+---
+
+**Abstract:**
+
+ Presidential Campaign is a billion dollar, over 6000 person organization that exists for roughly two years, and then disappears.
+
+ How do you setup a systems infrastructure for such an organization?  How do you avoid organizational silos? Why even do DevOps? 
+ What was the culture like and how did it meld with the traditional culture of political campaigns and committees? 
+ What are some lessons learned from the 2012 campaign -- what things worked and what didn't?
+
+ Come learn about the answers to all of these questions, as well as our technology stack
+ (AWS/Puppet/Ubuntu/CentOS/Github/Juniper/Nagios/OpsView & much more),
+ why we chose it, how we set it up, and how we made it work.
+
+**Speaker:**
+Leo Zhadanovsky
