@@ -12,6 +12,7 @@ filter:    erb
 { :image => "timgroup.png", :name => "Tim Group", :link => "http://www.timgroup.com/"},
 { :image => "whalesharkmedia.png", :name => "WhaleShark Media", :link => "http://www.whalesharkmedia.com/"},
 { :image => "catchpoint.png", :name => "Cathpoint", :link => "http://www.catchpoint.com/"},
+{ :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
 { :image => "librato.png", :name => "Librato", :link => "http://metrics.librato.com/"}
 ]%>
 
