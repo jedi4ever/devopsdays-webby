@@ -25,5 +25,6 @@ title: "DevOps At Obama for America & The Democratic National Committee"
  why we chose it, how we set it up, and how we made it work.
 
 **Speaker:**
-Leo Zhadanovsky - Director of Systems Engineering @ The Democratic National Committee
-John Schneider - DevOps Engineer @ Obama for America - Mozilla Foundation
+
+- Leo Zhadanovsky - Director of Systems Engineering @ The Democratic National Committee
+- John Schneider - DevOps Engineer @ Obama for America - Mozilla Foundation
