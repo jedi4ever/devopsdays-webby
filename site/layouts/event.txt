@@ -83,7 +83,7 @@ google.load('jquery', '1.3.2');
   <div class="span-15  last ">
   <%= render(:partial => File.join(@eventhome,'_menu')) %>
 <% if @page.proposal %>
-<a href='..'>Back to overview</a>
+Back to <a href='..'>proposals overview</a> - <a href='../program'>program</a>
 <hr>
 <h3><%= @page.title %></h3>
 <% end %>
