@@ -67,7 +67,11 @@ google.load('jquery', '1.3.2');
 <div class="span-8 last">
 </div>
 <% if @page.sidebar != false %>
+  <% if @page.platinum == true %>
+<h1>Platinum sponsors</h1>
+  <% else %>
 <h1>Gold sponsors</h1>
+  <% end %>
 <% end %>
 </div>
 
