@@ -13,7 +13,7 @@ filter:    erb
 { :image => "whalesharkmedia.png", :name => "WhaleShark Media", :link => "http://www.whalesharkmedia.com/"},
 { :image => "catchpoint.png", :name => "Cathpoint", :link => "http://www.catchpoint.com/"},
 { :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
-{ :image => "librato.png", :name => "Librato", :link => "http://metrics.librato.com/"}
+{ :image => "librato.png", :name => "Librato", :link => "http://metrics.librato.com/"},
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
@@ -26,6 +26,7 @@ filter:    erb
 { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
 { :image => "basho.png", :name => "Basho", :link => "http://www.basho.com/"},
 { :image => "papertrail.png", :name => "Papertrail", :link => "http://www.papertrailapp.com/"},
+{ :image => "livestream.png", :name => "Livestream", :link => "http://livestream.com/"},
 { :image => "stackify.png", :name => "Stackify", :link => "http://www.stackify.com/?utm_campaign=devopsdays"},
 ]%>
 
