@@ -11,7 +11,7 @@ filter:    erb
 { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
 { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"},
 { :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
-{ :image => "uc4.png", :name => "UC4", :link => "http://www.uc4.com/"},
+{ :image => "uc4.png", :name => "UC4", :link => "http://www.uc4.com/ara"},
 ]%>
 
 <% @psponsors.each do |sponsor| %>

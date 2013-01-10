@@ -9,7 +9,7 @@ filter:    erb
 { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
 { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"},
 { :image => "zeroturnaround.png", :name => "Zeroturnaround", :link => "http://www.zeroturnaround.com/"},
-{ :image => "uc4.png", :name => "UC4", :link => "http://www.uc4.com/"},
+{ :image => "uc4.png", :name => "UC4", :link => "http://www.uc4.com/ara"},
 { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com/"},
 ]%>
 
