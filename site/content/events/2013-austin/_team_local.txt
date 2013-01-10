@@ -4,3 +4,4 @@
 - Karthik Gaekwad
 - Lee Thompson
 - Matt Ray
+- Dan Zentgraf
