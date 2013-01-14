@@ -16,6 +16,7 @@ filter:    erb
 <% @psponsors.each do |sponsor| %> <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a><% end %>
 
 <% @gsponsors = [
+{ :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
