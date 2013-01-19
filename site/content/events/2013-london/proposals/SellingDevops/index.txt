@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Subhendu Mohapatra
+title: "DevOps - Journey towards Selling the concept of DevOps"
+---
+
+**Abstract:**
+
+DevOps has been the buzz word for a while. But large businesses and
+clients with whom, I have worked with, do not understand or realize the
+importance of DevOps.
+ 
+We have numerous delivery teams and everyone works in their own silos.
+This does not mean that we are not delivering changes but in a way it
+highlights that we are not sharing information and we are re-inventing
+the wheel many times.
+ 
+We start every engagement from scratch and the re-invent the wheel, or
+else adopt ourselves with the process and tools used within the client
+engagement.
+ 
+Having worked doing DevOps activities over the last number of years, I
+realize that we don’t have a core DevOps competency within my
+organization. I have also realized that many of our competitors (in the
+IT Consultancy domain) also do not have a DevOps service.  This does not
+mean that we all are not delivering changes, but maybe we all have not
+realized the importance of it.
+ 
+Over the last one year, I have worked with my organization to help
+create DevOps as a core competency. In my presentation, I will talk
+about the key challenges in selling DevOps to a business. I will walk
+through the process which we have used to start enabling DevOps service
+and creating long term and short term goals.
+ 
+In addition to the above, I have been working over the last year
+engaging with numerous clients and generating the community of DevOps in
+Ireland. We have a DevOps Ireland LinkedIn group, which has been
+scouting for volunteers to share stories and experiences.  I will
+highlight some of the key challenges I have come across such as,
+creating awareness of DevOps in Ireland.
+
+**Speaker:**
+
+Subhendu Mohapatra

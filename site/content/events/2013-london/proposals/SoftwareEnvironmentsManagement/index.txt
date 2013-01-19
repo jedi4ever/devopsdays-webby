@@ -1,0 +1,65 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Subhendu Mohapatra
+title: "Software Environments Management - Providing stable platforms
+for delivering changes"
+---
+
+**Abstract:**
+
+Agile software development practices, combined with an exponential
+increase in the complexity of applications to be delivered have raised
+the bar for stable software environments.
+ 
+Software environments provide the platform for ensuring applications are
+successfully tested and released.
+ 
+In appropriate management of environments increases the risk of
+providing test environments that are not a true reflection of the
+production environment and risk compromising on the quality of testing.
+ 
+Working in a  IT and Management consultancy, I have worked with numerous
+clients and have often seen issues, which highlights the fact that test
+environments are not always a true reflection of live.  But this has not
+stopped us from releasing the code to live and when things go wrong (As
+it so often happens), we realize that we didn’t do things right.
+ 
+Whilst working in their own silos, dev teams work in churning code, QA
+team test in a test environment, there is a clear gap wherein how do you
+ensure that what is being delivered for live deployment, is tested in a
+right platform?
+ 
+Leading a DevOps team, I have regularly come across environments issues
+being highlighted by various teams. In addition to environment issues,
+there is a huge proliferation of tests environments. Whether you use
+test environments in your local data centre or use virtual machines
+spawned across cloud service providers, there is cost associated with
+these. How do you manage the costs and overhead?
+ 
+My talk highlights the importance of Environments Management. I will
+introduce the concepts of environments and how it relates to various
+teams (dev / qa / operations). I will walk through a suggested approach
+(process, tools, dashboards)that can help organizations realize some key
+benefits (such as -  delivering changes that have been tested on the
+right platform, visibility of environments and their usage, etc.) and
+will foster confidence across teams.
+ 
+Key take-aways:
+
+* Introduce the concept of environments and how it relates to – dev / qa / operations and business.
+* Highlight the importance of stable environments.
+* Walk through an approach (“Environments Management Process”) for identification, planning and managing environments.
+* Provide suggested mechanisms for sharing information and
+building confidence across teams.
+
+**Speaker:**
+
+Subhendu Mohapatra

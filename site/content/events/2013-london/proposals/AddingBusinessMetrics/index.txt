@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Deri Jones
+title: "Adding Business Metrics"
+---
+
+**Abstract:**
+
+Stephen Nelson-Smith's in his '6 Pillars of Monitoring' asked:
+This might seem incredibly obvious - of course we monitor our systems
+because downtime costs money. But if we really think like this, why are
+so many of our systems so woefully monitored? And why are we not
+monitoring business metrics alongside technical metrics? 
+
+What is it that we can do to make our metrics interesting to the
+business?
+
+Approaches that we have seen used:
+
+Lost Sales - not the actual number - but ones based on 'Typical Week' metrics:
+
+* get the business and Devops teams to agree DevOps priorities, based on the reduction on visible measured Lost sales
+
+Unbuyable products - products findable online but then can't be added to Basket
+
+* Is a problem that will never go away for Travel sector
+* Measuring and plotting it on wall-boards - to gain Business teams' interest
+
+Plot Graphs that show Business Root Causes
+
+* eg:  '3' icon to mean 'problem in 3rd party system not ours' (e.g. a CDN partner or supplier of product images etc)
+
+'Unite the Tribes' - refer to Chris Howell's speech at Retail technology on a common metrics language
+
+Case Study from a UK Blue Chip: there's a  couple of guys possibly
+persuadable to come talk too
+
+**Speaker:**
+
+Deri Jones
