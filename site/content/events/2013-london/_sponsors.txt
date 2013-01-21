@@ -18,6 +18,7 @@ filter:    erb
 <% end %>
 
 <% @gsponsors = [
+{ :image => "basho.png", :name => "Basho", :link => "http://www.basho.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
