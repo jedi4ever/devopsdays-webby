@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Roy Osherove
+title: "Beautiful Builds and Build Patterns"
+---
+
+**Abstract:**
+
+In this talk Roy Osherove (Author of BeautifulBuilds.com book) will talk about common problems during an automated build process, and common patterns on solving those problems. This is still very much a work in progress, as such patterns have never been specifically articulated as such, yet I feel that this can be quite an important work that can be used and will stand the test of time. Some patterns and tricks: Shipping Skeleton, Rolling Waves of Confidence, Inversion Of Build Control,Visual Script, and more. more info at beautifulbuilds.com 
+
+**Speaker:**
+
+Roy Osherove is the author of "The Art of Unit Testing" and is currently writing his new book "Beautiful Builds".

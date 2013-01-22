@@ -1,0 +1,75 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Subhendu Mohapatra 
+title: "Agile Release Management - Fostering agility in delivering
+releases"
+---
+
+**Abstract:**
+
+How do you manage the traditional divide when Software Development is
+‘done’ and there is a need for IT Operations to put the changes into
+production? The transition is not easy from Development to Live.
+ 
+Agile software development practices focus on delivering changes that
+adds value to the customer. Key mantra for agile development teams
+include - Delivering changes that enhance the customer satisfaction,
+develop features that align well with the business, and provide faster
+releases to live.
+ 
+IT Operations are focussed on protecting the production environments and
+they are the ones whose KPIs and SLAs are affected when things fail in
+live. The IT Operations are often reluctant to introduce changes that
+could potentially introduce instability and risk live.
+ 
+What is it that the business really wants?
+Ideally organizations would like to get features that enhance their
+customer satisfaction levels and business alignment, while at the same
+time they would like to reduce risks associated with putting changes to
+production.
+ 
+Whilst the focus for software development teams is to get faster
+releases, and provide business and customers features that add value, it
+is of critical importance that we do it right.
+ 
+And most important of all, organizations definitely don't want to be in
+the news for application failures.
+ 
+Recent software glitches as seen across organizations such as RBS,
+Lloyds TSB, United Airlines, Knight Capital Group, etc., were definitely
+not the only victims of software issues. But in a way it highlights
+certain issues that organizations need to acknowledge and resolve.
+ 
+Working in a IT and Management consultancy, I have worked with numerous
+public sector (government) clients helping them define and standardize
+the release management process, that ensures there is traceability in
+what is being delivered and at the same time ensures that development
+and operations team share and understand the tools and process.
+ 
+My talk highlights the importance of Release Management in light of how
+it facilitates bridging the well-known divide. I will walk through the
+identification and implementation of the key building blocks that helps
+foster agility, improves communication and provides a platform to
+deliver stable and traceable changes to live.
+ 
+Key take-aways:
+
+* Importance of Release Management as a core competency within
+DevOps.
+* Share information on patterns that cause bottle necks and
+highlight the divide across teams - Dev/Qa/Operations.
+* Highlight key building blocks across release management, and
+where it fits in the space of DevOps
+
+**Speaker:**
+
+
+Subhendu Mohapatra
