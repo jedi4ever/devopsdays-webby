@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tom Duckering and Jim Gumbley
+title: "Who you gonna call? - getting devs on support"
+---
+
+**Abstract:**
+
+In many traditional software shops developers don't go on the 24/7 rota.
+However, the ideas behind DevOps are challenging this assumption. We'll
+explain some of the thinking behind the move to having devs on call.
+We'll talk about some of the patterns that worked for us and added
+value. We'll also highlight some of the roadblocks and pitfalls
+encountered in attempts to make this change. Hopefully you'll leave
+inspired to try this yourself, equipped to transform support, from being
+necessary evil, into a competitive advantage.
+
+**Speakers:**
+
+Tom Duckering and Jim Gumbley
