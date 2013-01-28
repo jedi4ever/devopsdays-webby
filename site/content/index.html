@@ -74,6 +74,7 @@ var sydneylocation=new google.maps.LatLng(-33.873651,151.20689);
 var gurgaonlocation=new google.maps.LatLng(28.459497,77.026638);
 var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
 var newyorklocation = new google.maps.LatLng(40.714353,-74.005973);
+var amsterdamlocation = new google.maps.LatLng(52.370216,4.895168);
 
 var parislocation = new google.maps.LatLng(48.856614,2.352222);
 var berlinlocation = new google.maps.LatLng(52.519171,13.406091);
@@ -122,7 +123,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Berlin<br>May 2013",
-labelAnchor: new google.maps.Point(-10, 45),
+labelAnchor: new google.maps.Point(-30, 45),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -215,6 +216,17 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+var amsterdammarker = new MarkerWithLabel({
+position: amsterdamlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Amsterdam<br>July 2013",
+labelAnchor: new google.maps.Point(-20, 10),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
 google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2012-newyork"});
 google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2013-austin"});
@@ -227,6 +239,7 @@ google.maps.event.addListener(barcelonamarker, "click", function (e) { location.
 google.maps.event.addListener(brazilmarker, "click", function (e) { location.href="/events/2013-brazil"});
 google.maps.event.addListener(tokyomarker, "click", function (e) { location.href="/events/2013-tokyo"});
 google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2013-atlanta"});
+google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2013-amsterdam"});
 
 }
 </script>
