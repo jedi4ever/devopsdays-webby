@@ -4,6 +4,7 @@
 <a href="/events/2013-london/">London</a>&nbsp; - 
 <a href="/events/2013-paris/">Paris</a>&nbsp; - 
 <a href="/events/2013-austin/">Austin</a>&nbsp; - 
-<a href="/events/2013-berlin/">Berlin</a>&nbsp;
+<a href="/events/2013-berlin/">Berlin</a>&nbsp; - 
+<a href="/events/2013-downunder/">Downunder</a>&nbsp;
 </h3>
 </div>
