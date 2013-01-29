@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Juan Breinlinger
+title: "How do you get releases down to 12 minutes at 12-years-old lastminute.com?"
+---
+
+**Abstract:**
+
+Starting devops from scratch in a startup may be a breeze compared to transforming one of the world's classic dotcom companies saddled with a 12-year-old architecture. Imagine being faced with operations versus development teams, SVN/Perforce/CVS deploys, code copy-and-paste processes, manual configurations and, to make it even more fun, teams across different regions.
+ 
+But at the same time everyone wants confident software deployments, improved availability, low cost solutions and a good working environment.
+ 
+What can we do to make that happen? There is no single easy answer.
+ 
+At lastminute.com we had to change the way we worked at multiple layers. We started with our mobile website and have been extending it organically across interconnected applications and processes. For greenfield development, the process is relatively easy to plan. However, for the majority of systems in such a mature enterprise you are faced with a far greater challenge: transforming applications and processes that are already weighed down with obstacles to automation.
+ 
+We learned that the key ingredient for this transformation is collaboration. There is also a particular rhythm to expanding continuous delivery system by system in an "island hopping" strategy. We feed off the learnings, momentum, and success of each system to build confidence and convince stakeholders to invest in transforming related systems.
+ 
+As part of the talk I will illustrate the technical details and toolsets behind our process. I will walk through an application build, starting when a developer submits a single line of code through to the application ending reliably deployed in production.
+
+**Speaker:**
+
+Juan Breinlinger
