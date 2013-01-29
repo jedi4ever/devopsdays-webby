@@ -9,14 +9,15 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
+<center><img border=0 src="downunder.gif" alt="Devops Downunder"></center><br>
 
-So far we have:
+**<%= render(:partial => "/#{@eventhome}/_title") %>** will be held on **<%= render(:partial => "/#{@eventhome}/_target_date") -%>** in **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
 
-- Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-- Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+We are currently looking for [sponsors](sponsor/) and [proposals](propose/) for talks and will be opening registrations soon.
 
-Do you have know a nice location near the target location? Or is your company interested in hosting the event?  [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
+If you want to be the first to know when registrations open [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
 
-Once date and location have been decided we will open the [call for proposals](propose) and registration.
-If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+Last off, we would like to thank Lindsay Holmwood (@auxesis) for all his extremely hard work of setting up the community in Australia/New Zealand and for running the previous 2 devops downunder events, and for his mentorship of this small group that has taken on the task of continuing devops downunder.
+
+<center><a href="https://twitter.com/devopsdownunder" class="twitter-follow-button" data-show-count="false">Follow @devopsdownunder</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></center>
