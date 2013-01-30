@@ -20,6 +20,7 @@ filter:    erb
 { :image => "softserve.png", :name => "SoftServe", :link => "http://www.softserveinc.com/"},
 { :image => "confio.png", :name => "Confio", :link => "http://www.confio.com/"},
 { :image => "opnet.png", :name => "OPNET", :link => "http://www.opnet.com/"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
