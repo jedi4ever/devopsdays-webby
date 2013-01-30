@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Niek Bartholomeus
+title: "DevOps For Dinosaurs - My experience in introducing a DevOps culture in a traditional enterprise"
+---
+
+**Abstract:**
+
+I have worked the last 5 years as the responsible of the development community of a financial institution. My role was to take care of all cross-functional stuff like the administration of the version control tools, build and deployment automation, defining the configuration management process, etc.
+
+In this presentation I want to give the audience an insight into why the delivery of software got increasingly hampered by a lack of proper configuration and release management and the steps we have taken to solve (or better: control) this problem:
+
+Until about two years ago configuration and release management had always remained mostly a manual and labor-intensive activity that was known to be one of the most challenging steps in the whole process of building and delivering their software. Due to the steady growth of the development community and the increasing complexity of technologies the problems surrounding these two activities grew exponentially over time causing a major bottleneck in the delivery of software. At one point it became clear to me that we had to solve this problem by doing what we are good at: automation. Not for the business this time but for ourselves: the IT department.
+
+The project focused on two levels:
+
+1. a process level: getting a mutual agreement between all teams on the global software delivery process to be used within the company
+2. a tooling level: the implementation of a software repository and a configuration&release management tool to support the release management team rather than to replace them
+
+But with the new process and tooling also the culture had to be adapted. This part involves changing the people's habits and is usually the most difficult and time-consuming part of the work. But these temporary frictions were dwarfed by the tremendous gains we received by the automation: less manual work, simplified processes, better visibility, trustworthy metrics, etc.
+
+In addition to explaining these above-mentioned first steps in introducing DevOps in a traditional enterprise I also want to make the comparison with how software delivery and DevOps is done in modern web 2.0 companies: automating (almost) everything and delivering continuously. Main question is whether the enterprises should use the same patterns as these newcomers or follow their own way.
+
+For more information please see my blog post: http://niek.bartholomeus.be/2013/01/28/introducing-a-devops-culture-in-a-traditional-enterprise/
+
+**Speaker:**
+
+Niek Bartholomeus
