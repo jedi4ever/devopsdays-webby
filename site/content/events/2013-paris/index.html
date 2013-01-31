@@ -6,17 +6,21 @@ filter:
 - markdown
 title: welcome
 dirty: true
+platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+  <img border=0 width="400px" height="316px" src="paris-love-devops.png">
+  <small><a href='http://p.twimg.com/Awt7L8KCIAA3ri6.png'>http://p.twimg.com/Awt7L8KCIAA3ri6.png</a></small>
+</td><td>
+  Date : <b>18 &amp; 19 of April 2013</b><br>Location: <a href="location">Mas - Paris</a>
+  <br><br>
+  <a href="propose">Call for proposals</a> and <a href="registration">Registration</a> is now open!
+</td>
+</tr>
+</table>
+</center>
+<hr>
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
-
-So far we have:
-
-- Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-- Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
-
-Do you have know a nice location near the target location? Or is your company interested in hosting the event?  [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
-
-Once date and location have been decided we will open the [call for proposals](propose) and registration.
-If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+If you want to be the first to get news [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
