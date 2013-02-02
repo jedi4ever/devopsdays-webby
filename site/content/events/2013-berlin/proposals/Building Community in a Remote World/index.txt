@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: 
+title: "Building Community in a Remote World"
+---
+
+**Abstract:**
+
+More and more companies are being built around a complete distributed and remote work culture. This means that Developer and Operations people are increasingly working from home and so are often more isolated from their peers on a daily and weekly basis.
+
+While conferences and meetups can help to provide some substitute for this decrease in socialization opportunities, the realities of busy lives, family, and travel costs often prevent most of us from getting to as many of these as we would like.
+
+In response to my own experience working from home for Mozilla in 2012 and a desire to have a more consistent option for socialization I started [hangops.com](http://hangops.com). [Hangops.com](http://hangops.com) has evolved into what is best described a "weekly conference hallway track meets a devops meetup."
+
+The response and growth of the [hangops.com](http://hangops.com) community, since I started it in July 2012, has been amazing and beyond anything I anticipated. Along the way I have learned many valuable lessons in building a remote community that I think can be applied to any open source or technology community.
+
+My talk with provide a little background on how the [hangops.com](http://hangops.com) community got started, it's evolution over the last year, and I'll provide a number of tips, tools, and food for thought on how others can learn from my experiences to help start or grow their own communities in our increasingly distributed world.
+
+**Speaker:**
+
+Brandon Burton
+
