@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: 
+author: Brandon Burton
 title: "Building Community in a Remote World"
 ---
 
