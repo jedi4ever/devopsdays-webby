@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ole Michaelis
+title: "Automated deployments with robots"
+---
+
+**Abstract:**
+
+Continuous deployment is the high art of devops. So there are several ways to achieve this: many use a one-click deployment tool like ‘Deployinator’, or something self-written. This talk should give some insights about how we at my old employer Digital Pioneers N.V. deploy our apps controlled by an awesome chat robot named hubot (by github). It will also show you how to simply do it the way we did it!
+
+**Speaker:**
+
+Ole Michaelis
