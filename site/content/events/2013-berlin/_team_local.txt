@@ -2,3 +2,5 @@
 - Bernd Erk
 - André von Deetzen
 - Christian Requena
+- Ralph Angenendt
+- Jens Braeuer
