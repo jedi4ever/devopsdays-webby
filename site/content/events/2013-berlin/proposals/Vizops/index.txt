@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jason Dixon
+title: "Visops - Data Visualization for devops"
+---
+
+**Abstract:**
+
+Data visualization is in a new Renaissance. With the emergence of flexible and interchangeable monitoring components, an emphasis on data collection and storage, and amazing new UI toolsets, we've seen plenty of innovation around managing our operational debt and workflow. This talk will look at how metrics collection, visibility and interaction has evolved over the last few years, what our modern tools look like and how to better utilize them, and what we might see in the not-too-distant future as our needs and software toolchain evolve.
+
+We'll start by reviewing the current state of data visualization frameworks and how they support operations. Which off-the-shelf dashboards are effective at diagnosing system health and offer valuable insight during outages? What are their weaknesses? What primitives are they based on and how can we apply them elsewhere?
+
+Next, we'll identify the functionality gaps that hinder our ability to perform operations effectively. Are the problems with our tools, the toolset, or the way we apply them to our workflow? When does it make sense to cobble together various components vs writing your own tools from scratch?
+
+I'll present a series of concrete examples for applying these tools to our workflow. Learn how to quickly deploy your own metrics data store, begin collecting metrics, and rapidly prototype new graphs and dashboards. Experiment with your data from the command line and your browser with various open-source libraries and frameworks. Craft a sample dashboard and plan for growth.
+
+Finally, I propose my thoughts on the future of data visualization as it affects our daily lives in operations and engineering; where I think we're collectively spinning our wheels, where our time would be better spent (in terms of community participation), what technologies are changing this space, and which projects and people to keep an eye on
+going forward.
+
+**Speaker:**
+Jason Dixon
