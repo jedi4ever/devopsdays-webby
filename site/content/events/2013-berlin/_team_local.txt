@@ -4,3 +4,4 @@
 - Christian Requena
 - Ralph Angenendt
 - Jens Braeuer
+- Marcel Wolf
