@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mitch Denny
+title: "Designing and Deploying Multi-Tenant Applications"
+---
+
+**Abstract:**
+
+Developing a high quality software application and deploying it is hard. It is important for DevOps team members to be involved early in the development process to be successful. When you add multi-tenancy to the mix of requirements deployment can get just that much harder.
+
+In this session I will present approaches to designing a multi-tenant web application. The session will look into technical challenges such as:
+
+1.       Building reliable MSI packages with WiX.
+2.       Deploying database updates via Entity Framework migrations.
+3.       Adding manageability and automating updates via PowerShell.
+4.       Tenant selection via hostname to database mapping (dealing with IIS).
+5.       Supporting single sign-on via ADFS 2.0 and Windows Azure ACS.
+6.       Considerations when choosing PaaS, IaaS or traditional hosting models.
+
+In this session I’ll cover not only the abstract concepts, but also look at their practical implementation with some of the latest Microsoft technologies. This isn’t going to be a vendor commercial – my job depends on being able to use these technologies to get the job done so expect me to point out the warts as we go through.
+
+**Speaker:**
+Mitch Denny
