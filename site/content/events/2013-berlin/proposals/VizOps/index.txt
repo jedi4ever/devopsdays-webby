@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Jason Dixon
-title: "Visops - Data Visualization for devops"
+title: "VizOps - Data Visualization for devops"
 ---
 
 **Abstract:**
