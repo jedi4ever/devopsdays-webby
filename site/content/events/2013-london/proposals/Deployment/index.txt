@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Phil Wills
+title: "Deployment: More than just the click of a button" 
+---
+
+**Abstract:**
+
+Product teams being responsible for deployment is one of the most visible manifestations of the blurring of the development/operations boundary.  Making those who are changing software responsible for whether or not it's released to production can have a profound effect on the way they consider what constitutes done.
+
+Moving the many existing Guardian applications, based on a wide mixture of technologies and running on a range of in-house and cloud infrastructure has been a long process, technically and socially.
+
+This talk will cover 
+
+* the cultural and technical changes we made to enable the transition, such as improving monitoring and making it visible to product teams
+* the changing responsibilities between the various roles in the team
+* the evolution of our approach to how deploys happen 
+* why we made our own single-click deployment wheel; Riff Raff (https://github.com/guardian/deploy) and how it's been used and abused
+
+
+**Speaker:**
+
+Phil Wills
