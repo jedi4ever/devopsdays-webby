@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Michael Hüttermann
+title: "Enterprise DevOps Applied: Transforming a supertanker into a speedboat"
+---
+
+**Abstract:**
+
+How to transform a supertanker into a speedboat. This ignite session
+illustrates key patterns, lessons learned and also pitfalls of introducing
+DevOps in traditional IT enterprise context.
+
+**Speaker:**
+Michael Hüttermann
