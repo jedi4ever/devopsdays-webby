@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Wes Mason
+title: "Island Life: How we built and deployed the Honshū way"
+---
+
+**Abstract:**
+
+Honshū, or Honshuu, is the largest island of Japan.
+It is also the codename for the complete rewrite of Server Density that has been over a year in the making.
+At the heart of Honshuu is the idea that every service is an island. Any island can talk to another, using strict traditions and customs, and almost any island can communicate freely with the wider world via intermediaries and guardians of custom.
+Every island is the main land, looking after it's own concerns, only caring that other islands *can* communicate with it, but not what they're doing over there.
+
+This process has represented not just a technological rewrite, but a *cultural shift*,  knowing when to spin out a new "island" and making sure it can be communicated with in the same fashion as it's neighbours.
+
+In summary:
+
+* Everything over HTTP: statuses, events via webhooks
+* A fully defined common HTTP API allowing free communication.
+* A middleware service designed for communication only with the right services and account permissions between the JavaScript fronted and backend services.
+* Technical concerns such as blocking HTTP calls, integration testing with a bajillion buildable components, and various build systems across PHP, Python and Node.js services carefully crafted to have common build entrypoints and encapsulated concerns.
+
+**Speaker:**
+
+Wes Mason
