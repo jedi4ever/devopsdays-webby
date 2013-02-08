@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Romain Pelisse
+title: "DevOps with JEE"
+---
+
+**Abstract:**
+"Bring the power of DevOps to your JEE deployment using RHQ"
+
+The DevOps initiative, which brings operation closer to development team, has been gaining more and more adopters, throughout the IT Industry. The benefits of having Ops cooperating closely with developers have been clearly demonstrated in many cloud based companies, such as Amazon EC2.
+
+However, despite those successes, many companies, especially the ones running complex JEE applications, have difficulty implementing such approach. One challenge here is the generally that the actual team are separated or even localised in different physical facilities. An other one is that admins running the JEE apps generally have a hard time figuring out why the laters are failing, while the developers can't access the application and gather the informations he needs to support them.
+
+The purpose to this talk is to expose a innovative way to facilitate developers / ops collaboration, on JEE or Java based application, using the Open Source product RHQ, a monitoring and operation control tool.
+
+**Speaker:**
+Romain Pelisse
