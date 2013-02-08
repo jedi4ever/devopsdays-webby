@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sam Eaton
+title: DevOps in the Hell of a Thousand Different Platforms
+---
+
+**Abstract:**
+
+Most of the patterns and tools commonly suggested for adopting DevOps in your company are based on the assumption that you basically have a single platform/website. What do you do when you have the polar opposite?
+
+At Future, we develop and run over a hundred different sites, ranging from small magazine support sites in WordPress, all the way through to high traffic, bespoke sites like TechRadar.com. They’re all written in different languages and platforms and have very different groups of developers with very different approaches and ideas, who’re based in several cities and countries.
+
+This talk will detail how we introduced DevOps practices at Future: with the starting point of a chasm between Development and Operations, and entirely manual processes, we were able to introduce processes, team structures and tools that were flexible enough to fit the needs of our many different platforms and teams; increasing efficiency and reliability whilst keeping up with the commercial demands of the sites, which required more than 250 deploys a month before any automation.
+
+The key to the successful transition was a ‘bottom-up’ approach, making incremental improvements to individual sites and changing how teams worked together and communicated, demonstrating the value to management at each stage and ensuring that commercial work was never delayed. This lead to a toolbox of useful systems and services that developers and operations engineers were able to use together to build appropriate workflows and processes for each different platform, but more importantly, a set of successful models for how to sell the values of this approach to each site.
+
+After seeing how successfully this approach has worked for our websites, we have begun to introduce it into our traditional enterprise IT development. The mistakes, pitfalls and successes we have encountered along the way will be covered in detail, with a particular emphasis on in finding ways to get management and non-technical staff buy-in across the entire company.
+
+**Speaker:**
+
+Sam Eaton
