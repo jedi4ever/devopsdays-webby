@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John Stevenson 
+title: When to own & when to delegate
+---
+
+**Abstract:**
+
+When do you take ownership of the products and services you run and when do you delegate them, for example to cloud services.
+
+There are many cloud services out there that provide specific devops and ops services, so what measures do you use to judge the value of using them over building your own internal process?  When your apps or services are transitory or of unknown value, how do you quantify how much effort to put into them from a busy DevOps team?
+
+Some examples include: 
+
+* When do you use a service like github over establishing your own git repository management system.
+* When would you use Google App Engine or Heroku over you internal server commissioning and deployment process?
+* Does location of services matter so long as the required performance is there?
+
+**Speaker:**
+
+John Stevenson 

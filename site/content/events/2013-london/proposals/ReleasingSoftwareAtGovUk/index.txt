@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Kushal Pisavadia
+title: How we release software for GOV.UK 
+---
+
+**Abstract:**
+
+GOV.UK is the new digital home of the British Government.
+ 
+In the first week of GOV.UK being released, code was deployed to production 74 times. And for the last five months alone the release process for operations has gone through large changes.
+
+In this talk I'm going to provide some background on GOV.UK and GDS, describe the different release processes we've gone through, explain how we've enabled an open and accountable release process, and detail some of the wins/pitfalls along the way.
+
+Specifically, these include: 
+
+* How we optimised for moving fast
+* How we restructured, aiming for stability of the platform; and
+* How we've come to our current release process
+
+There will, of course, be a description of our technical infrastructure and tools. However, the biggest discussion point will be how we're trying to deliver high quality public services, quickly, with the multidisciplinary teams we have.
+ 
+
+**Speaker:**
+
+Kushal Pisavadia
