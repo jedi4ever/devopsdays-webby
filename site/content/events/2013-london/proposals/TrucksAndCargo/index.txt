@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sam Lambert
+title: When your distributed devices are trucks and the cargo is data.
+---
+
+**Abstract:**
+
+The Smith Link telemetry platform gathers billions of metrics from its trucks globally every day. I will tell you the story of how it’s done and the challenges we faced along the way.
+
+My talk will be the story of a system that struggled under the weight of it’s own ambition but grew to become a mature, scalable system that could process billions of transactions per day.
+
+The system is the Smith Electric Vehicles Telemetry platform that collects 2,500 data points per second from each of it’s electric trucks in real time. These data points include battery charge, truck health status, GPS location, battery status and many many others.
+
+The success of the project has allowed truck R&D teams to monitor their engineering efforts in real time to greatly improve development of the electric vehicle market. Through detailed analysis of truck usage data we have been able to shape the future of sustainable transport and reeducate drivers and evolve human interaction with this new technology.
+
+This high level accessible talk will show attendees how the team used open source technologies such as MySQL, AMQP, C, Python, Memcahed, Linux and PHP to build a scalable, high throughput, large data analytics platform.
+
+During the talk I will answer the following questions;
+
+* What are the downsides of a ‘gather everything’ mentality?
+* What is the importance of defining your key metrics?
+* Why decouple your system and isolate moving parts?
+
+and cover the following topics;
+
+* Scaling MySQL to quickly report on very high volumes of data
+* Thinking in message queues and building a data fire hose
+* Developing a flexible platform for limitless outward scalability
+* Creating a C based imbedded AMQP device that works on a CAN network
+ 
+People will attend this talk to learn about a different type of project and how to apply rational thought and practices to large scale problems.
+There is no need to have an advanced knowledge of any of the above technologies and the talk will suit anyone from any discipline.
+
+**Speaker:**
+
+Sam Lambert
