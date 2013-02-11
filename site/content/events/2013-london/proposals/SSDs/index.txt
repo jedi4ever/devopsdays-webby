@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Simon Vans-Colina
+title: Benchmarking SSDs
+---
+
+**Abstract:**
+
+I'd also like to do a 5 minute talk on benchmarking SSD and why they make such good economic sense. 
+
+* Long tails cost money
+* Not all apps have hot keys
+* DRAM+DISK vs SSD
+* CPU/SPINDLE ratios
+* GRAPHS!
+
+**Speaker:**
+
+Simon Vans-Colina
