@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Jesse Newland
+title: "ChatOps in Practice: Integrating PagerDuty with Hubot"
+---
+
+**Abstract:**
+
+Detailing how GitHub uses Hubot to interact with PagerDuty, including inspiring a culture of shift trading by making it ridiculously easy to take other team member's shifts.
+
+**Speaker:**
+Jesse Newland
