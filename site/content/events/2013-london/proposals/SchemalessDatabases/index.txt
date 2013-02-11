@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Simon Vans-Colina
+title: "How schemaless databases fit into the continuous delivery world"
+---
+
+**Abstract:**
+
+Covering the following ideas.
+
+* Continuous delivery is good.
+* Schema migrations are hard.
+* Schemaless databases don't have this problem.
+* Fact and Object storage should be a cross cutting concern like source control or configuration management
+* How to make schemaless databases play nicely with the declarative tool world. (chef, puppet vs fabric)
+
+My experience is drawn from 2 years in the devops infrastructure team at Maersk, and more recently 6 months at Basho helping customer integrate Riak into their platforms.
+
+
+**Speaker:**
+
+Simon Vans-Colina

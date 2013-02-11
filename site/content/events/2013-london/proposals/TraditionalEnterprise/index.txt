@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Thomas Falkenberg 
+title: "DEVOPS and the traditional enterprise IT  - Opposites and the best of two worlds"
+---
+
+**Abstract:**
+
+PAYBACK GmbH operates Germany's biggest bonus programme PAYBACK, which has continued to attract increasing numbers of members and partner companies since it was started in the year 2000. The tremendous success story is continuing not only in Germany, but also in Poland, India and Mexico. Currently we are planning the rollout the PAYBACK Program in different other countries, e.g. Italy, France, Brazil and USA. PAYBACK sends out 85 million direct mailings, 350 million e-mail newsletters, 5 billion coupons distributed (1,4 printed, 3,6 digital) a year in Germany alone and its brand is represented in 36.000 partner stores. As a result, the programme is the largest multichannel-communications platform in Germany.
+
+PAYBACK was acquired by American Express two years ago, therefore we are have ongoing internal challenges like the merger with AMEX. Furthermore, there are recent developments like rapid internationalisation, new partners, new channels like social media and mobile apps. We experience a growing complexity and size of our IT landscape with the demand for  shorter release cycles and for new features while maintaining a high quality, performance and stability at the same time. Inspired by the DevOps movement and our first DevOpsDays 2011 in Goteborg we introduced a number of new ideas and tools which helped us to improve the delivery process and narrow the gap between Dev, Ops and QA. But during this transformation we realized that some of the ideas and tools that are spread by the DevOps community were either too simplified for us or we were not able to use them because of habits or constraints we have build up in the last 12 years.
+
+In this talk we would like to share the experiences we've gathered during the last 2 years regarding our DevOps efforts. We are right in the middle of a transformation which we think is vital to our company. It turned out to be much harder and more time consuming than we thought at the beginning. We will talk about the issues with different data center providers with different processes and non trivial deployments for 14 applications across three-tiers in an Oracle-centric landscape and multiple servers plus configuration and database changes, challenges with ten globally distributed development teams, and of course, a cultural gap especially between Dev and Ops: different mentalities, responsibilities and levels of know how.
+
+What we have learnt? A lot! And we would like to share it with you.
+
+
+**Speaker:**
+
+Thomas Falkenberg 
