@@ -22,6 +22,20 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @bsponsors = [
+]%>
+
+&nbsp;
+<h1>Bronze sponsors</h1>
+
+<% if @bsponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @bsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @msponsors = [
 ]%>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
