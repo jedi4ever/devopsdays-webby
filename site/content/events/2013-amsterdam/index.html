@@ -6,17 +6,23 @@ filter:
 - markdown
 title: welcome
 dirty: true
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+  <img border=0 src="logos/dod-amsterdam.png">
+</td><td>
+  Date : 14 &amp; 15 of June 2013<br>Location: <a href="location">Pakhuis de Zwijger - Amsterdam</a>
+  <br><br>
+  <a href="propose">Call for proposals</a> is now open!
+  <br>
+ Registration will open shortly.
+</td>
+</tr>
+</table>
+</center>
+<hr>
+Are you interested in helping out, do you have ideas or suggestions? [Talk to tge organizers!](mailto:organizers-amsterdam-2013@devopsdays.org)
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
-
-So far we have:
-
-- Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-- Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
-
-Do you have know a nice location near the target location? Or is your company interested in hosting the event?  [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
-
-Once date and location have been decided we will open the [call for proposals](propose) and registration.
-If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+If you want to be the first to get news [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
