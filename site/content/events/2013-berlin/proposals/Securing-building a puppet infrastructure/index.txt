@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Stephen Johnson
+title: "Securing / building a puppet infrastructure"
+---
+
+**Abstract:**
+This talk will cover the main aspects, that you need to consider when building a large scale secure puppet platform. Everything from how to go from ci to production to how to securely store data relating to your infrastructure within your puppet manifest and how that data could become compromised. To how to separate that data from your manifest in a secure and trackable manor and understanding how to write more secure puppet manifests.
+
+**Speaker:**
+Stephen has been a member of the Puppet community for over 4 years. Implementing puppet within a number of large organisation, such as Nokia, Graze and many financial organisations. He is currently working at Puppetlabs as a member of the professional Services helping solve infrastructure problems with Puppet.
