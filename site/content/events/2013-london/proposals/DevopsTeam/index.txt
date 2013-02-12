@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Cosimo Streppone
+title: Configuration Management and Devops Team at Opera Software
+---
+
+**Abstract:**
+
+I'm Cosimo, I've been working for Opera Software in Norway for 5 years now. I led the team that made configuration management a reality at Opera across projects, teams and now departments.
+
+I've long wanted to assemble a presentation to share the story of how that happened, both culturally and technically. Depending on what you guys are looking for, I think the presentation could be pushed towards either aspect.
+
+Reasons why I think this is interesting:
+
+* The cultural aspect was *by far* the most important and I'm going to try to convey that. We (re)started up ConfMgmt after Opera sysadmins had given up using CfEngine a couple of years before. Reliability, ease and speed of adoption and finally traction were critical factors right from the start.
+* Config Management is just a small part of what it takes. We have built a set of tools and conventions to make people's life easier at all levels.
+* Yes we have formed a DevOps team, but... it wasn't an Ops team fixing Dev problems. We built tools to empower devs *and* ops and make our life easier. And our team was actually made of mostly developers, so it's a "hybrid approach" :)
+* Opera has ~700 employees. Our WebDev/Ops/Sysadmin teams count ~100 people in different parts of the world. We have our own datacenters and have been expanding in the last years.
+
+Lots of challenges for a Webops team.
+
+**Speaker:**
+
+Cosimo Streppone
