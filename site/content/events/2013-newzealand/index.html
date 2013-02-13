@@ -6,13 +6,21 @@ filter:
 - markdown
 title: welcome
 dirty: true
+platinum: false
 ---
-
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+  <img border=0 width="400px" height="276px" src="sheep-devops.jpg">
+  <small><a href='http://www.flickr.com/photos/ryantaylorphotography/6782155243/'>http://www.flickr.com/photos/ryantaylorphotography/6782155243/</a></small>
+</td><td>
+  Date : <b>8 March 2013</b><br>Location: <a href="location">Auckland</a>
+  <br><br>
+  <a href="propose">Call for proposals</a> and <a href="registration">Registration</a> is now open!
+</td>
+</tr>
+</table>
+</center>
+<hr>
 
-<h3>devopsday New Zealand 2013 will take place on 8 March</h3>
-
-<a href="http://devopsdays-nz-2013.eventbrite.com/">Registration is now open!</a>
-
-- Date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-- Location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+If you want to be the first to get news [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)

@@ -2,6 +2,7 @@
 <table><tr><td>
   <div style="margin-top:15px">
     <ul>
+      <li><a href="/events/2012-newyork/">New York</a></li>
       <li><a href="/events/2012-italy/">Rome</a></li>
       <li><a href="/events/2012-india/">Gurgaon</a></li>
       <li><a href="/events/2012-austin/">Austin</a></li>
@@ -9,7 +10,6 @@
       <li><a href="/events/2011-goteborg/">Goteborg</a></li>
       <li><a href="/events/2011-bangalore/">Bangalore</a></li>
       <li><a href="/events/2011-melbourne/">Melbourne</a></li>
-      <li><a href="/events/2011-mountainview/">Mountain View</a></li>
     </ul>
   </div>
   </td><td>

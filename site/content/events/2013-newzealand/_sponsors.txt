@@ -27,3 +27,12 @@ filter:    erb
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
+
+<% @supporters = [
+  { :image => "xero.png", :name => "Xero", :link => "http://www.xero.com/"},
+]%>
+<% unless @supporters.empty?  %><h1>Supporters</h1><% end %>
+
+<% @supporters.each do |supporter| %>
+<a href='<%= supporter[:link] %>'><img border=0 alt='<%= supporter[:name] %>' title='<%= supporter[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{supporter[:image]}")%>'></a>
+<% end %>
