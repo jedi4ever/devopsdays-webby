@@ -75,6 +75,7 @@ var gurgaonlocation=new google.maps.LatLng(28.459497,77.026638);
 var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
 var newyorklocation = new google.maps.LatLng(40.714353,-74.005973);
 var amsterdamlocation = new google.maps.LatLng(52.370216,4.895168);
+var newzealandlocation = new google.maps.LatLng(-40.900557,174.885971);
 
 var parislocation = new google.maps.LatLng(48.856614,2.352222);
 var berlinlocation = new google.maps.LatLng(52.519171,13.406091);
@@ -145,6 +146,17 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Downunder<br>July 2013",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+var newzealandmarker = new MarkerWithLabel({
+position: newzealandlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "New Zealand<br>March 8 2013",
 labelAnchor: new google.maps.Point(+30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
