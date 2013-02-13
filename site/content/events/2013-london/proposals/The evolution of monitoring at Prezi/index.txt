@@ -14,7 +14,7 @@ title: "The evolution of monitoring at Prezi"
 
 **Abstract:**
 
-hrough the story of our monitoring system I’d like talk about culture.
+Through the story of our monitoring system I’d like talk about culture.
 Last year we doubled our active user count. As more users mean more
 responsibility, we had to concentrate on improving availability while
 simultaneously scaling our backend. One important component of this
