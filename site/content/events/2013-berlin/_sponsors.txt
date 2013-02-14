@@ -3,6 +3,7 @@ filter:    erb
 ---
 <% @gsponsors = [
   { :image => "gutefrage.png", :name => "Gutefrage", :link => "http://www.gutefrage.net/"},
+  { :image => "immobilienscout.png", :name => "Immobilien Scout", :link => "http://developer.immobilienscout24.de/2012/10/jobs-kein-kalter-kaffee/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
