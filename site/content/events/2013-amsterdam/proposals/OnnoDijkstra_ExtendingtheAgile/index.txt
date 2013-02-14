@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Onno Dijkstra
+title: "Extending the Agile Development Discipline to Deployment: The Need for a Holistic Approach"
+---
+
+**Abstract:**
+
+The research identifies the different paths that can be chosen to implement DevOps for companies that use Scrum as their current development method and experience the same issues as the case company. DevOps proposes solutions to the business drivers in the interest of this organization. The research shows what the rationale is of using DevOps by providing an in-depth explanation what drivers trigger the company to implement this extension. Furthermore, different integration scenarios are discussed using method increments and the optimal scenario is provided to help other practitioners that face the same problems in the development process.
+
+The aims of this research are:
+Support practitioners in the implementation of DevOps using Method Engineering
+Disseminate knowledge regarding DevOps patterns
+Increase the maturity of Application Lifecycle Management processes in IT organizations
+This research is a graduation project for a master program at Utrecht University and is supported by Ordina.
+
+**Speaker:**
+
+Onno Dijkstra
