@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dominica DeGrandis
+title: "One way to begin the cultural shift needed for Devops"
+---
+
+**Abstract:**
+When we attempt to explain to the boss why the organization should try to do something different (like Devops), we bring our own bias from past experience into play that can jeopardize the desired outcome. 
+
+This talk looks at using the Cynefin framework to bring about culture change.
+Narrative story telling is an approach from Cognitive Edge that is used to generate and collect anecdotes that are more useful in conveying the truth than deliberately crafted discussions.   I’ve used this approach with large organizations in place of traditional IT Ops assessments. 
+
+Narrative story telling shines a light on the issues preventing cross-functional collaboration.  It gets the boss involved for management buy-in to address organizational boundaries. Its biggest win (for me) has been the ability to draw out the crux of organizational problems rapidly.
+
+**Speaker:**
+
+Dominica DeGrandis

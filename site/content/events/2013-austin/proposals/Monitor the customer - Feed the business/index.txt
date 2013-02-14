@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Ben Whaley
+title: "Monitor the customer - Feed the business."
+---
+
+**Abstract:**
+Server failures don't get Ops out of bed at 2am. Customer impacting service outages do. So, in an era of autoscale, built-for-failure service platforms, why are monitoring deployments geared toward watching servers rather than services? Forget the server. Monitor the customer. 
+
+Once the Ops team is getting regular sleep, there's bandwidth available to address another deficiency: business value. Ops has traditionally been a cost-center, a necessary expenditure to keep the wheels on the bus. It doesn't have to be this way! Ops can deliver higher business value by measuring the metrics that matter to the business, and we can contribute that value in near real-time. DevOps should feed the business with metrics that enable insightful, responsive decision-making. 
+
+This ignite talk will capture the current rhetoric around #monitoringsucks and restate the problem as a vision. It is aimed at DevOps teams that understand the monitoring needs have changed but are lacking direction.
+
+**Speaker:**
+
+Ben Whaley

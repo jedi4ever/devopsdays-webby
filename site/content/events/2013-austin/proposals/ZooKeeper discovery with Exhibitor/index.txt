@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Matthew Hooker
+title: "ZooKeeper discovery with Exhibitor"
+---
+
+**Abstract:**
+Learn about Netflix's Exhibitor and how you can use it to configure other services that depend on ZooKeeper (Kafka and Storm, for example).
+
+**Speaker:**
+
+Matthew Hooker

@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Don Bergal
+title: "Five DevOps Keys to Success for Collaboration between Developers and Production DBAs"
+---
+
+**Abstract:**
+Fundamental tension exists between development and operations/production DBAs.  Here are five principles that can be applied to ease the tension and improve results for deployed applications:  
+1.	Give developers direct monitoring visibility to production, staging and test servers.  
+2.  Enhance collaboration by making developers self-sufficient in their performance observations.
+3.	Make performance a stated functional requirement.   
+4.	Establish shared metrics and a basis for equal access to metric reports.
+5.	 Focus on the end-user experience.     
+
+The presentation will discuss these 5 principles in more detail and provide examples.   While some screen captures and examples will use a Confio product, the content and messaging will be independent of any software or specific product.   
+
+Who would be interested?   Developers who don't get along with their DBAs, or who don't understand what DBAs do.    Managers who are responsible for both development and DBA groups and who need to reduce fingerpointing.   Development managers who care about introducing application performance as a driving requirement for their development projects.  
+
+**Speaker:**
+
+Don Bergal
