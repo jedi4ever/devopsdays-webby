@@ -84,6 +84,7 @@ var brazillocation = new google.maps.LatLng(-14.235004,-51.92528);
 var downunderlocation = new google.maps.LatLng(-25.274398,133.775136);
 var indialocation = new google.maps.LatLng(20.593684,78.96288);
 var atlantalocation = new google.maps.LatLng( 33.748995,-84.387982);
+var aucklandlocation = new google.maps.LatLng(-36.853463,174.782823);
 
 var newyorkmarker = new MarkerWithLabel({
 position: newyorklocation,
@@ -146,17 +147,6 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Downunder<br>July 2013",
-labelAnchor: new google.maps.Point(+30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-var newzealandmarker = new MarkerWithLabel({
-position: newzealandlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "New Zealand<br>March 8 2013",
 labelAnchor: new google.maps.Point(+30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
@@ -228,6 +218,17 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+var aucklandmarker = new MarkerWithLabel({
+position: aucklandlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "New Zealand<br>8 March 2013",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
 var amsterdammarker = new MarkerWithLabel({
 position: amsterdamlocation,
 draggable: false,
@@ -251,6 +252,7 @@ google.maps.event.addListener(barcelonamarker, "click", function (e) { location.
 google.maps.event.addListener(brazilmarker, "click", function (e) { location.href="/events/2013-brazil"});
 google.maps.event.addListener(tokyomarker, "click", function (e) { location.href="/events/2013-tokyo"});
 google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2013-atlanta"});
+google.maps.event.addListener(aucklandmarker, "click", function (e) { location.href="/events/2013-newzealand"});
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2013-amsterdam"});
 
 }
