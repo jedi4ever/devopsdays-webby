@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Eric Ritchie
+title: "What's really to blame? - A day in the life of your PHP app"
+---
+
+**Abstract:**
+
+You know how to play the Blame Game when Production is broken? Probably
+you have good reasons for that. Nevertheless, it's better to work out
+what really went wrong - fast. See in this session how a new PHP
+application can be deployed flawlessly, scaling up and down and can be
+managed automatically. Discover how Dev & Ops can work together, in
+concert, if the worst nightmare happens and the application breaks.
+
+
+**Speaker:**
+
+Eric Ritchie

@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Sarah Haselbauer
+title: Threshold Voting Workshops
+---
+
+**Abstract:**
+
+While maintaining our development infrastructure, we regularly have to
+deal with a plethora of feature and plugin wishes. Because balancing all
+these different wishes, requirements and purposes is so time-consuming,
+we considered how to increase our efficiency in this area. We discovered
+that threshold voting workshops help to quickly and consistently examine
+which features, plugins or any other sort of thing a certain group
+(developers, testers, end users) really need. This ignite talk is an
+introduction to this method.
+
+**Speaker:**
+
+Sarah Haselbauer
