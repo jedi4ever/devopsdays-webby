@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Neeme Praks
+title: Java applications in DevOps world
+---
+
+**Abstract:**
+
+If you have the background of “dynamic” languages, you might think, “what is all that fuss about developing and updating those applications running on JVM?”
+In this talk, I will give a quick overview of:
+
+* why are Java application updates harder than updates with some other technologies (e.g. PHP)
+* how does that affect developer productivity (it does!)
+* some solutions for overcoming these issues in development and production (e.g. rolling restart)
+* different approaches to externalizing environment-specific configuration from your Java application
+
+So, if you ever struggled maintaining Java-based applications and were not sure how to solve those issues - this talk is for you. And, even if you have not yet come across such applications, you might in the future - the Java-ecosystem is growing!
+
+**Speaker:**
+
+Neeme Praks
