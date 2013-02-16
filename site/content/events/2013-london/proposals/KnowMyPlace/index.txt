@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Julian Fish
+title: "Release management and IT support? I know my place"
+---
+
+**Abstract:**
+
+There is a famous Two Ronnies sketch on class: http://www.youtube.com/watch?v=mURhNIjc-Kw  
+
+This presentation follows on from that. There are two groups of three classes that are developing around DevOps:
+
+Dev - Release - Ops is a split of the classic DevOps phrase and assigns release its own group. thinking in this way is important, as it stops the emphasis being on straight collaboration across the divide and puts more emphasis back on the processes and results that teams are trying to achieve. It also stops some of the politics that can arise when you split things into two camps. By having DevRelOps, the release management team can be looked at and its own requirements considered separately from those of Dev and Ops.
+
+Dev - Ops - Support is a new distinction. As agile gets taken up by more teams and the value moves from being dev-led to DevOps, there is an impact starting to be felt at the support and service desk level. this comes in two forms:
+
+1. Support has to be aware of more releases coming through, what they are supposed to deliver, and where the potential for problems might arise.
+2. Support (often based on ITIL frameworks) has its own problems with what might be termed waterfall if it was taking place in the development side - strict processes that don't respect the needs of the end-user, problems with process, gaps where errors can creep in. Taking the DevOps model and trying to apply this into the support / service desk side can therefore be a good opportunity .
+
+This can also help at the beginning of the development phase as well - better understanding of new requirements coming into IT can ensure that new projects are understood on both the dev and IT support side. If a problem comes up that needs both IT support and Dev / Ops to collaborate as well, this understanding should be in from the start.
+
+The difference between movements in tech and IT can be vast, even when they have the same ends. The aim of ITIL is better service delivery through more targeted use of resources, while the aim of agile and devops is ultimately ... better service delivery, enabled through more appropriate use of resources and more targeted development of software. What stands between them is the perception of what is flexible and what is not.
+
+**Speaker:**
+
+Julian Fish

@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sebastien Cevey
+title: "The Deliverator: a dashboard to tell you why code is not live yet"
+---
+
+**Abstract:**
+
+Software development goes through a series of stages, from code being
+written & reviews, to building and deployment, testing both automated
+and by QAs, until the final release.
+
+Typically, each step is managed by a separate service. At the
+Guardian, we manage stories in Pivotal Tracker. We commit code in Git
+and push it to Github, where we use pull requests to review and sign
+off code. TeamCity runs tests and builds deployable artifacts. Our
+RiffRaff system deploys those artifacts to the different pre-prod
+environments, where they can be QA'd before they are released to the
+production environment.
+
+While it is a good habit for services to do one thing and do it really
+well, it also means that the state of a piece of code (generally, a
+branch in Git) is scattered, and it becomes unusually hard to answer
+some simple questions such as:
+
+* Does a feature build successfully? Has it been code reviewed? Has it
+been QA'd?
+* What branch is deployed on each of the environments? Is it the latest build?
+* What changes are about to be released?
+* What changes have been released last?
+
+Or more generally, why is code not live yet?
+
+The Deliverator is a dashboard we use to provide immediate and
+up-to-date information on all the code under development. Rather than
+enforcing a fixed workflow, it displays the build and review states as
+simple indicators, fetched from the different services involved. It
+also shows what feature is deployed to each environment, and allows
+updating or deploying a new feature anywhere in a single click.
+
+
+**Speaker:**
+
+Sebastien Cevey

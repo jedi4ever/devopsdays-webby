@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gene Kim
+title: Lessons Learned From Manufacturing For Maximizing Flow From Dev To Ops
+---
+
+**Abstract:**
+
+The theories presented by Dr. Eliyahu Goldratt in “The Goal: The Goal: A Process of Ongoing Improvement” revolutionized manufacturing management.  Goldratt is now credited for being one of the three founders of the modern manufacturing movement -- the others being Dr. Edward Deming and the combination of the Toyota Production System and Lean.  
+
+Similarly, Reinersten’s pioneering work in “Principles Of Product Development Flow” described how reducing batch sizes in the Development value stream helped define the concepts that enabled the continuous integration and deployment bodies of knowledge, which is considered to be a prerequisite for the patterns associated with DevOps.
+
+However, Reinersten’s model is not sufficient to fully describe IT Operations, where the value streams are far more numerous and complex (e.g., incidents, service requests, multiple deployment streams, etc).  In order to build reliable schedules and manage flow, these other value streams must be integrated and managed.  
+
+In this talk, I will propose how using manufacturing plant floor metaphors of bill of resources, work centers, and production schedules can help maximize the flow across multiple DevOps flows of work, often constrained by deployment, testing, and ideally, the business.
+
+I will describe how these underpinning metaphors and principles affected the "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win," as well as the upcoming “DevOps Cookbook.”
+
+
+**Speaker:**
+
+Gene Kim is a multiple award winning CTO, researcher and author.  He was founder and CTO of Tripwire for 13 years. He has written three books, including “The Visible Ops Handbook” and “The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win."  Gene is a huge fan of IT operations, and how it can enable developers to maximize throughput of features from “code complete” to “in production,” without causing chaos and disruption to the IT environment.  He has worked with some of the top Internet companies on improving deployment flow and increasing the rigor around IT operational processes. In 2007, ComputerWorld added Gene to the “40 Innovative IT People Under The Age Of 40” list, and was given the Outstanding Alumnus Award by the Department of Computer Sciences at Purdue University for achievement and leadership in the profession.

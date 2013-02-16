@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Anko Tijman 
+title: DevOps from a business perspective
+---
+
+**Abstract:**
+
+Many times DevOps is viewed from a technical, system operations point of view. But if DevOps as a movement wants to live up to its promises (“Helping finish what Agile development has started”) than just that point of view will not do. We need to think bigger! Our points of view:
+
+* If we really want to change the way organisations as a whole (!) work, business *and* IT-development *and* IT-Operations need to be aligned;
+* There needs to be strong collaboration between business and IT, through unified end-to-end processes without barriers;
+* The main trigger for any activity performed by IT should be business value. Any process should take this as a starting and end point;
+* Since implementing DevOps is all about change management, a complete view on the organization should be taken into account.
+
+Based on several DevOps projects at client sites, we have developed a holistic view on DevOps. In this we’ve mashed up Lean, Agile and DevOps principles and practices. Applying these principles and practices will result in an organization that is fully supported by valued IT-solutions. Key principles are:
+
+* Strong alignment between business and IT through Lean and Agile principles, such as Value Stream Mapping and Impact Mapping;
+* One process based on Scrum for any IT-activity, whether it’s development or maintenance, project or support related;
+* Business value is the starting point for any activity;
+* Strong technological backbone, based on continuous integration, continuous automated testing and continuous deployments.
+
+Our implementations focus on 7 different aspects of organizations: People, Strategy & Policy, Management, Finance, Quality, Process and Organisation (based upon McKinsey’s 7S framework). Our customers have responded enthusiastic on this new view on DevOps that includes business departments, IT-development and IT-operations and that takes away any organizational or technical impediment on creating valuable IT.  
+
+
+**Speaker:**
+
+Anko Tijman is Thoughtleader and Management Consultant on Agile software development at Ordina (www.ordina.nl). His first Agile project dates from 2001. He has written two books on Agile testing (both in Dutch). He was speaker at Eurostar, Agile2005 and the AgileTestingDays. He is licensed trainer for Management 3.0. As of 2012, he is focusing on the organizational aspects of working more client- and result focused.
