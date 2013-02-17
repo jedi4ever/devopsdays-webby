@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Neil Avery and Andrew Coates
+title: "Sportingbet: Smart Logging for Better Monitoring" 
+---
+
+**Abstract:**
+
+Logging has traditionally been a third-class citizen in most organisations. In many cases, if software teams think about monitoring and logging at all, it is often well after they’ve written tests and code, and sometimes even after their software has been deployed to production.
+
+But at companies like Sportingbet, DevOps is now opening peoples’ eyes to the possibilities of better monitoring and better dashboards. There are of course many new tools available to help with this, but they are decidedly limited by the richness of the data that is fed to them. It’s now relatively easy to correlate structured and unstructured data to get real-time visibility of system activity. Now it’s time to make sure the right data is actually there. Enter: smart logging.
+
+Done smartly, logging can provide complete end-to-end traceability of transactions through a system. It can improve uptimes by making it easier to troubleshoot when things go wrong. It can reveal performance bottlenecks and help make continuous improvements over time. And it can speed up development by reducing the effort required to test and debug issues.
+
+But: “What to log?”, “How to log?”, “When to log?”  These are the questions. In this talk, we’ll share our experience of building monitorable high-performance grid systems, where smart logging is a requirement, because otherwise it’s just too painful when things go wrong. We’ll also explore patterns and practices for baking smart logging into the software development process, the team, and the organisation. And we’ll share how this has been applied at Sportingbet, along with some of their pain points. We’ll also show how all of this can lead to more meaningful dashboards to monitor and optimise your systems.
+
+
+**Speaker:**
+
+Neil Avery (Logscape) Andrew Coates (Sportingbet)
