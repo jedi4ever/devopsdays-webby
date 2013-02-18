@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Javier Turegano
+title: "The devops journey that transformed REA"
+---
+
+**Abstract:**
+
+REA group, which runs between others realestate.com.au, realcommercial.com.au, casa.it and athome.lu websites, has been involved in an interesting transformation process following the Devops principles in the last years that has changed completely the way we do operations.
+
+From completed isolated worlds, delivery and operations, to a much more efficient approach which continues to evolve every day in this talk we will cover some of the key elements for this transformation including cultural and technical aspects that helped us during the journey and which ones make it hard.
+
+**Speaker:**
+Javier Turegano
