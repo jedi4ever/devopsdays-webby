@@ -8,7 +8,7 @@ It uses webby as a framework:
 ## Install native dependencies
 
 ### On RedHat/CentOS/Fedora:
-`$ yum install oniguruma`
+`$ yum install oniguruma oniguruma-devel`
 
 ### On Debian/Ubuntu:
 `$ apt-get install libonig-dev`
