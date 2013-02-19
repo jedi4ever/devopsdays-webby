@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tugdual Grall
+title: Why NoSQL Databases are the best for Devops?
+---
+
+**Abstract:**
+
+Bringing Developers and Operations together helps companies to be more efficient to bring out new apps and services. Devops are using today many tools and technics to achieve continuous integration, deployment and monitoring. In this presentation will see why NoSQL databases are the best for Devops, and this for many reasons:
+
+*   Schemaless/Flexible schemas allow developers to get back the control of what’s going in the application! (Old fashion DBA most of the time do not have enough knowledge of the application to drive the data model!)
+*   Easy Scalability and always on are key! The new database engines are built to scale easily. You can change the topology of your cluster (adding node for example), manage failures and upgrade on a running system with no impact on the running application.
+
+This presentation will use real life use cases to show that NoSQL engine ease the deployment and monitoring of new applications, and also talk about the key things to look when you chose a solution and deploy it.
+
+
+**Speaker:**
+
+Tugdual Grall, Technical Evangelist, Couchbase
+
+Tugdual "Tug" Grall is a Technical Evangelist at Couchbase, an open source advocate and a passionate developer. He currently works with the European developer communities to ease the NoSQL adoption.  Tugdual is contributing to the Java and Node/JavaScript Couchbase SDKs.
+
+Before joining Couchbase Tugdual was CTO of eXo the company behind the revolutionary online development tools Cloud-IDE and the open source social platform eXo Platform. Earlier Tugdual has worked as Product Manager and Developer on the Oracle Middleware focusing on Java EE platform.
+
+Tug has spoken at number of conferences including  DevoxxFR, FOSDEM, Open Source Day Poland, Google I/O, JavaOne and many meetups and user groups. He is co-founder of the Nantes JUG (Java User Group) that holds since 2008 monthly meeting about Java ecosystem. He also writes a blog available at <http://tugdualgrall.blogspot.com> and available @tgrall Finally when he finds the time to do it, he develops the site <http://www.resultri.com> a Google App Engine based application.
+
