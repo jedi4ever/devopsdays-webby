@@ -24,6 +24,7 @@ filter:    erb
 <% end %>
 
 <% @bsponsors = [
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
 ]%>
 
 &nbsp;
