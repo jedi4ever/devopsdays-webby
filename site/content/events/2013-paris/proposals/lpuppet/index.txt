@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Simon Marechal
+title: Optimizing your Puppet workflow with fast software and strong tests
+---
+
+**Abstract:**
+
+The "infrastructure as code" mantra is followed by countless sysadmins around the world. The choice of words implies that practices from the development world should be adopted by sysadmins, yet one would be overjoyed to be able to implement the basics. Functionalities taken as granted for developers, such as easily debugging a configuration or writing complex tests, have currently no real equivalent in the devops world.
+
+This talk will start by an overview of common practices developed around the Puppet tool, such as following development conventions, unit-testing modules, using vagrant setups to test changes, and using a good IDE. It will be followed by a rant about how these practices and tools are either a far cry from what is sorely needed, or in some cases entirely unusable. It will then describe a common anti-pattern that derives from these limitations.
+
+The presentation will then switch to a long demonstration, highlighting functionalities of the [language-puppet library](http://lpuppet.banquise.net/) and associated tools. The following subjects will be demonstrated:
+
+*   quickly testing for syntax and semantic correctness at the catalog level: testing that syntax is OK, that all resources are properly defined, that all relationships between resources are valid, that there are no problems with the templates and that all sourced files are present
+*   quickly getting the difference between two catalog, either between distinct servers or between two versions of the same configuration, including a demonstration of the usefulness of such a feature in template development
+*   writing very strong tests, such as testing for interactions between nodes, arising from the use of exported resources or calls to the PuppetDB
+
+If time permits, a few words on the important of performance in such tools will be given. The talk will then conclude with a preview of future features of the library, and a good dose of Haskell proselytism.
+
+**Speaker:**
+
+*Simon Marechal*
+
+Simon Marechal has been working as an information security consultant for the private sector, and then as a security inspector for the ANSSI.
+
+During that time, he nurtured a taste for effective and secure practices that is now put at use in his current sysadmin position. 
+
+He is now pursuing ways to achieve greater levels of effectiveness in his day to day practice, and is very fond of programming language flame wars.
