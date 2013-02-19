@@ -24,7 +24,7 @@ This presentation will use real life use cases to show that NoSQL engine ease th
 
 **Speaker:**
 
-Tugdual Grall, Technical Evangelist, Couchbase
+*Tugdual Grall, Technical Evangelist, Couchbase*
 
 Tugdual "Tug" Grall is a Technical Evangelist at Couchbase, an open source advocate and a passionate developer. He currently works with the European developer communities to ease the NoSQL adoption.  Tugdual is contributing to the Java and Node/JavaScript Couchbase SDKs.
 
