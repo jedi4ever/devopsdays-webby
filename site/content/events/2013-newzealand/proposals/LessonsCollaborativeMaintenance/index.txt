@@ -1,0 +1,50 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lindsay Holmwood
+title: AA261 - DevOps lessons on collaborative maintenance
+---
+
+**Abstract:**
+
+On January 31, 2000, Alaska Airlines Flight 261 plunged into the
+Pacific ocean in an extreme "nose down" position, killing all 88 crew
+and passengers on board. The NTSB concluded AA261's horizontal
+stabiliser trim system's jackscrew was inadequately maintained,
+causing the pilots to lose all control of the plane.
+
+There are striking parallels with the problems we face daily in IT
+operations & software development, and the 30 years of give and take
+between the aircraft manufacturer's engineers, airline maintenance
+staff, and federal regulators that preceded AA261's simple mechanical
+failure.
+
+In this talk, Lindsay will look at the complex interplay between the
+parties in the AA261 crash through a DevOps lens, investigating the
+collaborative approach to maintenance and operation of the MD-83
+aircraft, and relating the complexities back to the complex IT systems
+we build and maintain.
+
+**Speaker:**
+
+Lindsay Holmwood is a sysadmin/developer/toolsmith/engineering
+manager, living in the Australian Blue Mountains.
+
+He runs a distributed infrastructure development team at Bulletproof
+Networks that builds hassle free tools. He was responsible for
+ensuring 100% uptime for the 2010, 2011, and 2012 Movember campaigns,
+and works on scaling both internal and customer facing systems.
+
+When not mentoring on building awesome monitoring infrastructure,
+Lindsay organises the monthly Sydney DevOps Meetups, and organised the
+DevOps Down Under conference in 2010 + 2011.
+
+He also won third place at the 1996 Sydney Royal Easter Show LEGO
+building competition.
