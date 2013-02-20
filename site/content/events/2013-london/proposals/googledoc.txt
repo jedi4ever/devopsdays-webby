@@ -7,6 +7,7 @@ dirty: true
 layout: nil
 extension: txt
 ---
+"votes","type","url","author","title","description","voter1"
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR)
 parent="/#{@eventhome}/proposals" -%>
 <%
@@ -14,24 +15,24 @@ parent="/#{@eventhome}/proposals" -%>
       :sort_by => "title", :reverse => true, :talk => true)
   talks.delete(@page)
   talks.each do |talk|
--%>"talk","http://devopsdays.org<%= talk.url %>","<%= talk.author %>","<%= talk.title %>","<%
+-%>"","talk","http://devopsdays.org<%= talk.url %>","<%= talk.author %>","<%= talk.title %>","<%
 
 require 'nokogiri'
 doc = ::Nokogiri::HTML(talk.render.gsub('"','\''))
 clean = doc.xpath("//text()").to_s
 
--%><%= clean %>"
+-%><%= clean %>",""
 <% end -%>
 <%
   talks = @pages.find(:all, :in_directory => parent, :recursive => true,
       :sort_by => "title", :reverse => true, :ignite => true)
   talks.delete(@page)
   talks.each do |talk|
--%>"ignite","http://devopsdays.org<%= talk.url %>","<%= talk.author %>","<%= talk.title %>","<%
+-%>"","ignite","http://devopsdays.org<%= talk.url %>","<%= talk.author %>","<%= talk.title %>","<%
 
 require 'nokogiri'
 doc = ::Nokogiri::HTML(talk.render.gsub('"','\''))
 clean = doc.xpath("//text()").to_s
 
--%><%= clean %>"
+-%><%= clean %>",""
 <% end -%>

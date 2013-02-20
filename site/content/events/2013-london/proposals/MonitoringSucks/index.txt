@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Adam Horwich
+title: "Monitoring Still Kinda Sucks"
+---
+
+**Abstract:**
+
+The biggest problems with monitoring services come from how selfish they are with data, and how they feel responsible for achieving all the things. A really useful monitoring service is one which allows us to visualise state and metrics. Modern tools are catching onto this though, and, with the right collaboration of components, your monitoring services can start building their own dashboards and form the hub of a much more accessible set of metrics.
+
+I'll be talking about how and why we've transitioned away from old technologies like Naiogs, building a new service comprising of Sensu, Nimrod, Graphite and Tasseo. I'll be covering the dream, the reality, and the path to building a metrics led monitoring service. This talk will be useful for those feeling stuck with poor (or 'enterprise') monitoring solutions, or using disparate, disconnected services to achieve metrics and monitoring. With our new monitoring service, we've been able to graph, monitor, and alert on new deploys in realtime to evaluate the success and impact of new code.
+
+**Speaker:**
+
+Adam Horwich

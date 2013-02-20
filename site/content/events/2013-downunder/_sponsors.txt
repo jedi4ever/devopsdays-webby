@@ -2,6 +2,7 @@
 filter:    erb
 ---
 <% @gsponsors = [
+{ :image => "anchor.png", :name => "Anchor", :link => "http://www.anchor.com.au/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -13,7 +14,7 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
-{ :image => "anchor.png", :name => "Anchor", :link => "http://www.anchor.com.au/"},
+{ :image => "atlassian.png", :name => "Atlassian", :link => "http://www.atlassian.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -23,6 +24,7 @@ filter:    erb
 <% end %>
 
 <% @bsponsors = [
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
 ]%>
 
 &nbsp;

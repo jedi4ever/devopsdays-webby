@@ -3,6 +3,8 @@ filter:    erb
 ---
 <% @gsponsors = [
   { :image => "gutefrage.png", :name => "Gutefrage", :link => "http://www.gutefrage.net/"},
+  { :image => "immobilienscout.png", :name => "Immobilien Scout", :link => "http://developer.immobilienscout24.de/2012/10/jobs-kein-kalter-kaffee/"},
+  { :image => "unbelievablemachine.png", :name => "The unbelievable Machine Company", :link => "http://www.unbelievable-machine.com"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -15,6 +17,7 @@ filter:    erb
 
 <% @ssponsors = [
   { :image => "innoq.png", :name => "InnoQ", :link => "http://www.innoq.com/"},
+  { :image => "friendscout24.png", :name => "FriendScout 24", :link => "http://www.friendscout24.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>

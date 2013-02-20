@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Neeme Praks
+title: User experience vs. AllOps experience
+---
+
+**Abstract:**
+
+How often have you come across software projects where analysts spend 100% of their time on end-user requirements? In my experience, this is the typical case in most software projects.
+
+How often have you come across software projects where analysts spend their time on end-user requirements AND also on QA-team requirements, operations-team requirements, marketing-team requirements and other stakeholder requirements? In my experience, not that often.
+
+In this talk I present most common patterns and anti-patterns from personal experience are useful for the DevOps crowd:
+
+* Ops UX: application configuration file formats (XML, key=value, INI, etc)
+* Ops UX: CLI vs. GUI
+* Ops UX: monitoring application health
+* Ops UX: ease of install, ease of upgrade
+* QA UX: typical options that should be configurable so the system is testable in days instead of years
+
+**Speaker:**
+
+Neeme Praks

@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "John Clapham and Paul Swartout"
+title: "Checking DevOps’ vital signs - how healthy is your culture?"
+---
+
+**Abstract:**
+
+This talk gives an insight into how we monitored some of the key cultural aspects of DevOps; the vital signs.  We experimented within Nokia’s Entertainment Organisation, but the signs apply regardless of size, or level of adoption. Just like dashboards for production systems and check-ups for people, monitoring of culture enables continued improvement and early warnings of ill-health.
+
+### Introduction
+
+In 2011 John and Paul ended their talk ‘DevOpsOrg – How we’re including almost everyone’ with a concern that a new DevOps culture is a fragile thing. A year later they set out to check the health of the culture, an experiment to find out whether DevOps has brought the expected improvements, and whether desirable ways of working are growing stronger, or weaker.
+
+### Reasonings
+
+We’ll explain why we started to consider monitoring culture, why it was worth investing the time, and the potential insight it could bring.
+
+### Identifyings. 
+
+We’ll run through the key improvements DevOps was expected to bring; the vital signs that indicate health.  
+ 
+### Data-things
+
+To measure health you need data. For each of our vital signs we will share our approach, the tools we used and the critical data points.
+ 
+### Findings
+
+What were the results? We will share what we found as we examined our DevOps culture.
+
+### Learnings
+
+We'll share the things we discovered about our health and the lessons we learned.
+
+### Concludings
+
+What did we learn from the whole experiment?  How could we improve?  Would we recommend it to a friend?
+
+**Speaker:**
+
+John Clapham and Paul Swartout

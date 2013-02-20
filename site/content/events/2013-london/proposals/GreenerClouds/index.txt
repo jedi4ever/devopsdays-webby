@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Chris Adams
+title: 3 steps to move to greener, more resilient clouds
+---
+
+**Abstract:**
+
+In this talk, I'll introduce the idea of 'clean cloud' computing, why it's interesting from a devops point of view as well as an sustainability point of view, and what steps you can take to move towards a futuristic zero carbon cloud computing infrastructure.
+
+Why would it be interesting?
+
+I gave a variant of this talk at LDNdevops, in London in January, which lead to some fascinating discussions afterwards at the event - as many of the steps you can take in ops are simple, and effective, and fit well into the devops worldview. 
+
+Given many of the organisations we work for have existing climate change goals where knowledge of this would help them meet those goals with little to no cost too.
+
+Plus, well… it's arguably the right thing to do as responsible adults with future generations to think about, to work out how to deliver the promises of cloud computing without it costing us a habitable  climate along the way.
+
+
+**Speaker:**
+
+Chris Adams
