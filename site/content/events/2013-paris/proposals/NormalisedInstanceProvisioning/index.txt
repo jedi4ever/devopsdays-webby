@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Karanbir Singh
+title: Normalised instance provisioning for dev, on-premise and public clouds
+---
+
+**Abstract:**
+
+Cloud and Virtualised Infrastructure rely on machine instances as the user facing platform. However, this very machine instance is one of the hardest and trickiest resource to provision out of traditional operating systems. Being able to do so consistently across multiple vendor requirements, site requirements and environment requirements usually involves either relying on a third party built instance, a vendor purpose built  - and often slow releasing - instance or having to setup large infrastructure inhouse.
+
+Looking to solve this problem we came up with project raindrops. This aims to resolve some of the issues and bridge the traditional deploymnet roles ( eg. kickstarts ) with cloud and virtualised infrastructure requirements ( eg. static images ); At the head of the problem space we are trying to solve is the idea that a single defition of the required machine instance should be consumeable in multiple environments like on-laptop KVM / Vmware / Vagrant as well as incloud environments like OpenStack, CloudStack, OpenNebula, Eucalyptus as well as public on-demand environments like AWS, Dell Cloud, HPCloud etc.
+ 
+In this talk, I will expand on the problem space and propose some solutions, as well as demonstrate a unified ( git, web and rest ) interface to instance provisioning across multiple vendors and environments. By the end of this talk attendees should have a good understanding of how they can integrate instance building into existing CI and CD platforms, without needing the infrastructure needed to stay vendor agnostic.
+
+**Speaker:**
+
+*Karanbir Singh*
+
+Karanbir Singh <http://www.karan.org/>
