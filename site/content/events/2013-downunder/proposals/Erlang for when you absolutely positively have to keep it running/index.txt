@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Michael Neale
+title: "Erlang for when you absolutely positively have to keep it running"
+---
+
+**Abstract:**
+
+Erlang is really not that terrifying. It is often pimped for its
+concurrency features but it was really build for availability.
+Multiple lightweight processes, supervision trees, per process heaps
+and hot reloading mean you can build highly available fault tolerant
+systems. Surprisingly erlang is quite lightweight memory wise - a very
+small footprint making it a great tool for supervisory agents and
+automation (escript makes it easy to script with it as well).
+
+**Speaker:**
+Michael Neale
