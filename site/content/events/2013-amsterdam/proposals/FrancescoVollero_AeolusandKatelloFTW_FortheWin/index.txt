@@ -1,0 +1,59 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Francesco Vollero
+title: "Aeolus and Katello FTW (For the Win)"
+---
+
+**Abstract:**
+
+Recent years have seen an influx of Cloud Computing services offered by 
+a plethora of vendors with many different APIs and interfaces. The 
+diversity of these products offer many solutions at various levels of 
+the stack, but increases the risk of proprietary cloud adoption due to 
+vendor lock-in and downtime. 
+With Aeolus we aim to provide a Free and Open Source cloud computing
+framework through which instances can be launched against any cloud provider
+using the same API and toolset.  The infrastructure permits the 
+description of software services and hardware components in such a way 
+that any set of software packages can be deployed to any cloud provider 
+matching specified criteria.
+For Katello i will show how to manage running instances, apply errata,
+do updates, compare status with deployed images, manage content effectively.
+All of this to simplify the life of sysadmins and devops.                                                                                               
+Bio:
+
+In addition to being the official main front person for Aeolus in the EU, 
+Francesco is Ruby Software Engineer on Aeolus and the Deltacloud project (also Apache licensed), 
+with a background as a sysadmin.
+He has developed many webapps beginning with mod_perl and php, and crossed 
+the river of object oriented programming with Python at first, after Ruby, 
+Rails and Sinatra, where I found my real happiness.
+He's a LILIK Member (Florence University association for the spread of open source)
+and as member he is involved to the creation of events with Open source and Linux/BSD topics.
+Functional languages lover (Clojure as first).
+Actively contributes in multiple gems and openshift "redis-openshift". 
+
+**Speaker:**
+
+Francesco Vollero
+
+* Fosdem 2011 (Lightning talk about Sinatra)
+* Red Hat OpenHouse 2011 - Brno
+* Bratislava Ruby Meetup 05/2011 
+* RubyDay 2011 - Milan
+* Speaker FUDCon 2011 - Milan
+* Speaker RuPy 2011 - Poznan (PL)
+* Cloud Room Speaker FOSDEM 2012 - Bruxelles
+* Fedora Developer Conference - Brno
+* FlossWeekly podcast episode 205
+* Loadays 2012
+* RuPy 2012 (As part of the organization and session chair)
+* FUDCon 2012 - Paris
