@@ -27,7 +27,12 @@ that any set of software packages can be deployed to any cloud provider
 matching specified criteria.
 For Katello i will show how to manage running instances, apply errata,
 do updates, compare status with deployed images, manage content effectively.
-All of this to simplify the life of sysadmins and devops.                                                                                               
+All of this to simplify the life of sysadmins and devops.    
+
+**Speaker:**
+
+Francesco Vollero
+                                                                                           
 Bio:
 
 In addition to being the official main front person for Aeolus in the EU, 
@@ -40,10 +45,6 @@ He's a LILIK Member (Florence University association for the spread of open sour
 and as member he is involved to the creation of events with Open source and Linux/BSD topics.
 Functional languages lover (Clojure as first).
 Actively contributes in multiple gems and openshift "redis-openshift". 
-
-**Speaker:**
-
-Francesco Vollero
 
 * Fosdem 2011 (Lightning talk about Sinatra)
 * Red Hat OpenHouse 2011 - Brno
