@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Michael Neale
+title: "Lies that cloud APIs tell"
+---
+
+**Abstract:**
+
+Amazon, rackspace and other top tier cloud hosting providers have
+quite comprehensive apis, however these apis have a far lower QoS than
+their hosting services, are eventually consistent (inconsistent?) in
+many places, and can be generally very very hard to work with if you
+get too carried away building on them. I got too carried away using
+them, and thought other people would like to hear about this (having
+said that, they are an excellent tool, but there are trick and traps
+to avoid so your application works well)
+
+**Speaker:**
+Michael Neale
