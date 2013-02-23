@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alex Papadimoulis
+title: "Implementing DevOps… and Making it Actually Stick"
+---
+
+**Abstract:**
+
+If you’ve ever been involved in promoting cultural changes within an
+organization, you may have experienced something even more
+disheartening than flat-out rejection: a full rollback of cultural
+change and a decade-long resentment of anyone remotely associated with
+the implementation. This has happened at countless organizations with
+agile, with SOA, with virtualization – and it’s starting to happen
+with DevOps.
+
+How can such as simple idea that’s been so successful at so many
+companies become such a resounding failure at others? It’s not the
+organization, and it’s certainly not DevOps. The problem lies in the
+implementation, and ultimately, with its promoters and champions.
+
+In this talk, I’ll discuss both technical and organizational
+strategies for a successful long-term DevOps implementation, go over a
+few big failures at big companies, and cover the common and
+not-so-common pitfalls when promoting this type of cultural change.
+
+**Speaker:**
+
+Alex Papadimoulis
