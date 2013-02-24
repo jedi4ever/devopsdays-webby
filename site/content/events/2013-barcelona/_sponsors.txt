@@ -5,7 +5,6 @@ filter:    erb
 <% @psponsors = [
 { :image => "datadog.png", :name => "Datadog HQ", :link => "http://www.datadoghq.com/"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
-{ :image => "zeroturnaround.png", :name => "Zeroturnaround", :link => "http://www.zeroturnaround.com/"},
 { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com/"},
 { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
 { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
