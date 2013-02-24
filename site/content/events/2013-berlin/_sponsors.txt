@@ -2,6 +2,7 @@
 filter:    erb
 ---
 <% @gsponsors = [
+  { :image => "zeroturnaround.png", :name => "Zeroturnaround", :link => "http://www.zeroturnaround.com"},
   { :image => "gutefrage.png", :name => "Gutefrage", :link => "http://www.gutefrage.net/"},
   { :image => "immobilienscout.png", :name => "Immobilien Scout", :link => "http://developer.immobilienscout24.de/2012/10/jobs-kein-kalter-kaffee/"},
   { :image => "unbelievablemachine.png", :name => "The unbelievable Machine Company", :link => "http://www.unbelievable-machine.com"},
