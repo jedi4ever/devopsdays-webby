@@ -35,7 +35,8 @@ filter:    erb
 
 <% @ssponsors = [
 { :image => "payback.png", :name => "Payback", :link => "http://www.payback.net/"},
-{ :image => "atlanta-systems.png", :name => "Atalanta Systems", :link => "http://atalanta-systems.com/"},
+{ :image => "atalanta-systems.png", :name => "Atalanta Systems", :link => "http://atalanta-systems.com/"},
+{ :image => "enstratus.png", :name => "Enstratus", :link => "http://enstratus.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
