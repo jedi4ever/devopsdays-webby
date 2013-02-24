@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John Willis
+title: What is a Devops?
+---
+
+**Abstract:**
+
+This is the second most asked question today in IT. Obviously behind “What is a Cloud?”. Most people who have been following the Devops movement for the past three years would agree it really doesn’t or maybe shouldn’t even have a definition. For example “What is Agile?” doesn’t really have a simple answer. A general consensus of like minded Devops followers might agree with Adam Jacob’s, (founder of Opscode), definition of “It’s a cultural and professional movement”. That’s it. However, in this session we are going to try and expand on the ideas behind the Devops movement. We will attempt to discuss the “Why” of Devops. Why does it exist, what is it’s history, what are some of it’s patterns and also look at some practitioning examples. We will start by looking at some of the roots of the movement breaking down it’s history. We will take a deeper look at the following influences:
+
+* Lean Manufacturing
+* Lean Startup
+* Agile and Agile Infrastructure
+* Continuous Delivery
+* Web Scale
+
+We will look at some of the direct and indirect influences of twentieth century management scientist like Deming, Goldratt and Ohno. We will also will look at taxonomy that has been used to try and identify certain patterns of Devops called CAMS.
+
+* Culture
+* Automation
+* Measurement
+*Sharing
+
+And finally we will end up with a look at some successful Devops style companies who have been capturing the mindshare of this movement. Companies like:
+
+* Etsy
+* Github
+* Netflix
+
+The audience for this presentation is for anyone who wants to ask or has already asked the question “What is Devops?”.
+
+** Prerequisite Knowledge:**
+
+None - this session is suitable for all levels of experience.
+
+** Learning Outcomes:**
+
+* Setup a good first presentation for the Devops track
+* Understand the influences behind the Devops movement
+* Understand a loose taxonomy for Devops (CAMS)
+* Understand how successful some organizations are operating in a Devops style
+
+**Speaker:**
+
+John Willis
