@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Peter May
+title: "MYOB: From no ops to devops in 12 easy months"
+---
+
+**Abstract:**
+
+The content of this presentation is an exposition of how a devops team came to be created at MYOB Accountants Division a year ago in June 2012, what the team has achieved, what the team hopes to achieve in the future, and the lessons to be learnt.
+ 
+This presentation will be interesting because it touches upon:
+
+-	How to convince management that a devops team is required.   [Took a while to convince my immediate boss]
+- How to get a devops team started up.    [What I did to kick off the team]
+- How to convince management that a devops team gives on-going value.    [My boss’s boss was not convinced]
+- Is devops only for online software only or can it be applied to desktop software as well?    [The essence of devops applies equally I believe]
+- How to leverage devops to add value to the business.    [How the team came to the attention of the business beyond PD]
+- How does devops differ in for a software vendor vs enterprise software?   [Should become apparent during course of talk]
+- How important is tool selection?    [We spent almost time on this – was that wise?]
+
+**Speaker:**
+Peter May
