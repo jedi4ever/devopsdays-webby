@@ -2,6 +2,4 @@
 - Samuel Maftoul
 - Pierre-Antoine Grégoire
 - Arnaud Héritier
-- Hugo Gomez
 - Jonathan Clarke
-- Dimitri Baeli
