@@ -21,6 +21,7 @@ filter:    erb
   { :image => "friendscout24.png", :name => "FriendScout 24", :link => "http://www.friendscout24.com/"},
   { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
   { :image => "cassini.png", :name => "Cassini", :link => "http://www.cassini.de/"},
+  { :image => "leanovate.png", :name => "Leanovate", :link => "http://www.leanovate.de/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
