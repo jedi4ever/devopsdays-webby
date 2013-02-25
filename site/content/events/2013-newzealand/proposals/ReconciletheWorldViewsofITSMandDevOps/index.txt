@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Rob England
+title: Reconcile the world-views of ITSM and DevOps
+---
+
+**Abstract:**
+
+I've been strongly critical of the application of DevOps in the past, as a dangerous undermining of production stability and controls.  Having been enlightened recently, I'm on an international quest to find the common ground between DevOps and traditional ITSM in order to find a model acceptable to both world-views.  There is more [here](http://www.itskeptic.org/content/unified-theory) .  My blog is widely read in the ITSM community with half a million visits annually.  There is also a [Google+ discussion group]( https://plus.google.com/u/0/communities/100333597017661142255).
+Both camps tend to compare their own perfect theory to their opponents' imperfect practices, and compare their own poster-child success stories to their opponents' horror stories. The same company names come up over and over ....
+
+Lately more nuanced, reasoned positions are emerging, with rabid anti-ITIL voices like Galtieri and Chambers replaced in my feeds by the more moderate ones of Kim, Humble, Orzen, Willis...
+
+I will devote 2013 to helping reconcile the world-views of ITSM and DevOps. There is a unified understanding in there somewhere.
+
+I'm proposing to call the reconciliation initiative Kamu, which is  Maori for "join together in singing the chorus to a song (waiata)".
+
+**Speaker:**
+
+Rob England
