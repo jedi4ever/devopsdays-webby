@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: George Reese
+title: Devops in Cloud Management.
+---
+
+**Abstract:**
+
+We will be discussing the importance of Devops in Cloud Management, including items such as
+
+* Governance
+* Security
+* Financial control
+* Automation
+
+**Speaker:**
+
+George Reese
