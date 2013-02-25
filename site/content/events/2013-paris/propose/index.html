@@ -4,11 +4,62 @@ filter:
 - erb
 - markdown
 layout: event
-title: proposals
+title: Proposer
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
+
+<center><b>L'appel à propostions est ouvert jusqu'au 1er Avril</b></center>
+<hr>
+Il y a trois moyens de proposer une session :
+<ol>
+  <li><strong><em>Une proposition pour une session / un débat</em></strong> pendant la période consacrée aux conférences : Ce sont des créneaux de 30 minutes qui seront présentés devant l'ensemble de l'auditoire.</li>
+  <li><strong><em>Une session flash</em></strong> qui sera présenté pendant les <a href="/pages/ignite-talks-format"> conférences flash</a>: Ce sont des créneaux de 5 minutes avec des diapositives changeant toutes les 15 secondes (20 diapositives au total) joués aussi devant l'ensemble de l'auditoire.</li>
+  <li><strong><em>Une session Openspace</em></strong> : Même sans avoir préparé à l'avance une présentation nous accueillons les discussions et échanges soumis en direct lors de l'ouverture des openspaces. Regardez le <a href="/pages/open-space-format">format openspace</a> pour plus de détails.
+</ol>
+
+### Même si vous ne proposez pas de sujet, prennez l'opportunité s'il vous plait de [commenter les propositions faites par d'autres](../proposals/)
+
+Nos critères principaux de sélection pour retenir une session sont :
+
+- _contenu original_: le contenu est inédit, il n'a pas été présenté précedement lors d'une autre conférence, ou il présente un sujet sous un angle différent
+- _nouveaux orateurs_: les personnes qui sont nouvelles dans ce domaine et ont des choses perspicaces à dire, nous voulons doner la parole à tout le monde
+- _pas de baratin commercial_: autant nous respectons énormément les éditeurs et sponsors, nous pensons juste que cela n'est pas approprié. Il y a un openspace consacré aux démonstrations où vous pouvez montrer vos produits.
+- _sessions francophones_: à contenu équivalent nous préviligierons les sessions faites en français
+
+<strong>Quelques suggestions pour vous donner des idées :</strong>
+<ul>
+	<li>Quel est le role de la QA et des testeurs une approche devops, comment intègre-t'on les controles qualité dans un processus de livraison en continu ?</li>
+	<li>Quel impact peut avoir l'approche devops sur les sujets traditionnels comme la sécurité, l'audit, le control des changements ....</li>
+	<li>Comment devops co-existe avec ITIL, Cobit</li>
+  <li>Comment gérer la livraison ?
+	<li>Comment assurer la gestion de configuraion et la livraison sur des environnements hétérogènes Unix ET Windows</li>
+  <li>Construire des panneaux de suivi parceque #monitoringsucks
+	<li>L'impacte de devops sur les règles RH, et le processus d'embauche</li>
+	<li>Prouvez que devops peut aller bien au delà du cadre de la startup web de 5-8 personnes, nous adorons les cas basés sur les SI traditionnel des grandes entreprises</li>
+	<li>Malgré toute l'automatisation, la gestion des données est toujours une activité difficile à gérer, comment cela affecte-t'il les administrateurs de bases de données, la gestion des sauvegardes, ...</li>
+	<li>Comment impliquer les divisions métier dans l'approche devops ?</li>
+	<li>Comment impliquer VOTRE repsonsable, comment en faites-vous un cas métier ?</li>
+	<li>Au dela de la gestion de configuration, comment gérer l'orchestration ou le faire à large échelle ?</li>
+	<li>Et bien sur n'importe quel autre sujet dans le domain Devops</li>
+</ul>
+
+<strong>Comment faire une propositon :</strong> Envoyez un e-mail à [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>] avec les informations suivantes
+<ol>
+	<li>Titre de la proposition (peut être changé plus tard)</li>
+	<li>Type (présentation, panel de discussion, table ronde, débat, session flash, etc.)</li>
+	<li>Description ou résumé</li>
+</ol>
+<strong>Règles :</strong>
+<ul>
+	<li>Soyez spécifiques... nous ne sommes pas voyants (une description d'environ 20 lignes doit suffir)</li>
+	<li>Détailler est bien... mais pas aussi important que d'expliquer pourquoi votre proposition vaut le coup d'être retenue</li>
+	<li>Les nominations sont bienvenues... Si vous connaissez des personnes qui possèdent du contenu / une expérience utile pour l'approche DevOps montrez les nous !</li>
+	<li>Plusieurs propositions par personnes sont bienvenues... tant que vous suivez les autres règles</li>
+</ul>
+
+<hr />
 
 <center><b>Call for proposals is open until 1 April</b></center>
 <hr>
@@ -40,8 +91,8 @@ Our main criteria to make it to the top selection are:
 	<li>With all the automation, data is still a hard thing to handle, how does it affect, DBA's, backup strategies, ...</li>
 	<li>How to involve the business in devops</li>
 	<li>How to get YOUR boss involved, how do you make the business case</li>
-	<li>And of course any other topic in the realm of Devops</li>
 	<li>Beyond Configuration Management, about challenges like orchestration, or doing things at large scale</li>
+	<li>And of course any other topic in the realm of Devops</li>
 </ul>
 
 <strong>How to make a proposal:</strong> Send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>] with the following information

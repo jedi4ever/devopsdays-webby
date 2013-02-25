@@ -3,11 +3,13 @@ extension: html
 filter:
 - erb
 - markdown
-title: program
+title: Programme
 dirty: true
 layout: event
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<hr>
+<div class="span-16 last ">Si vous découvrez le concept d'Open Space vous pouvez <a href="/pages/open-space-format">lire plus détails</a>.</div>
 <hr>
 <div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
 </center>
