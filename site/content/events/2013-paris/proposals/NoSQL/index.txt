@@ -9,6 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Tugdual Grall
+language: FR
 title: Why NoSQL Databases are the best for Devops?
 ---
 
