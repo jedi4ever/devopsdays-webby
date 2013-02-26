@@ -377,16 +377,16 @@ div#quicklinks {
 }
 
 div#quicklinks a {
-	color: white;	
+	color: white;
 	font-weight: bold;
 }
 
 div#quicklinks li {
-	list-style-type:none	
+	list-style-type:none
 }
 
 div#headermenu {
-	font-color: #1581AB;	
+	font-color: #1581AB;
 }
 
 div#headermenu * a {
@@ -401,9 +401,7 @@ div#headermenu * a {
 	padding: 10px;
 }
 
-.submenu h3 a { 
-	color: #333333;	
+.submenu h3 a {
+	color: #333333;
 	text-decoration: none;
 }
-
-
