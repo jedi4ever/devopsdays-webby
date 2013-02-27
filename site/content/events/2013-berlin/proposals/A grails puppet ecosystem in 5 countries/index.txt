@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Christoph Beckmann
+title: "A grails puppet eco-system in 5 countries"
+---
+
+**Abstract:**
+
+On the Lesson learned presentations about how we work and manage to
+run a high traffic system in 5 countries with more then 35 people in
+Product&Development.  To this challange we work with Scrum&Kanban in 5
+Devs teams, manage our infrastructur in puppet and share the same code
+base with all 5 offices.  The presentation will give some insights on
+how we organize the everyday life and will also give an overview on the
+learnings from using a innovative technologie stack in a professional
+environment including: grails, postgres, mongoDB, puppet, activeMQ,
+bamboo, ehCache, terracotta, graylog & git.
+
+kaufDA is a leading German site for local search and local promotion
+search. The company enables users to look for the best local sales
+online, search brochures of local retailers and find stores near
+them. In germany we operate with several hundreds of requests per
+second, handle millions of unique visitors each month and deliver more
+then TBs each day for local deals and promotions.
+
+**Speaker:**
+
+Christoph Beckmann

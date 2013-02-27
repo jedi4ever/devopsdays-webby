@@ -22,7 +22,8 @@ filter:    erb
 { :image => "opnet.png", :name => "OPNET", :link => "http://www.opnet.com/"},
 { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 { :image => "stackdriver.png", :name => "Stackdriver", :link => "http://www.stackdriver.com/"},
-{ :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"}
+{ :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"},
+{ :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"}
 ]%>
 
 <h1>Gold sponsors</h1>
