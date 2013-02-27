@@ -19,6 +19,7 @@ filter:    erb
 { :image => "ebay.png", :name => "eBay", :link => "http://www.marktplaats.nl/"},
 { :image => "zilverline.png", :name => "Zilverline", :link => "http://www.zilverline.com/"},
 { :image => "wercker.png", :name => "Wercker", :link => "http://www.wercker.com/"},
+{ :image => "info-nl.png", :name => "Info.nl", :link => "http://www.info.nl/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
