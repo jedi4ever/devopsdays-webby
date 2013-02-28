@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Alex Corley
+title: "Chef Recipes, Gitflow, Developer/Staging/Production Environments and Chef Server"
+---
+
+**Abstract:**
+Outlines the basic structure needed to provide every developer with their own Chef Environment, linked to a git branch and auto-deployed to Chef Server for use in testing or deploy.
+
+**Speaker:**
+
+Alex Corley

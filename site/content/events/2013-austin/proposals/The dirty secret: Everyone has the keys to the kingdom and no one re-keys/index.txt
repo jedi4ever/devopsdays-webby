@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Alex Corley
+title: "The dirty secret: Everyone has the keys to the kingdom and no one re-keys."
+---
+
+**Abstract:**
+Do your developers have the root private keys for your entire architecture?
+What happens when you need to re-key all of your instances?
+
+This talk will outline not only a framework, but provide code snippets for automating the OpenSSH keying and re-keying of your Amazon EC2 instances using Chef and Chef Server.
+
+**Speaker:**
+
+Alex Corley

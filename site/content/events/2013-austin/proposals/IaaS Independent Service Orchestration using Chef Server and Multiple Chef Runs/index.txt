@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alex Corley
+title: "IaaS Independent Service Orchestration using Chef Server and Multiple Chef Runs"
+---
+
+**Abstract:**
+Utilizing a Master+Push architecture we will disperse ssh public keys to all members of the stack and then setup OpenVPN tunnels over which MySQL Replication will be established. This format not only allows for Amazon Multi-Region but also Hybrid-Cloud or Cloud-Bursting configurations.
+Overview:
+
+Multiple chef runs are coordinated via a 'Cluster' namespace in each Node's attributes and a series of boolean flags. Each 'Stack' or 'Cluster' is meant to represent either a single customer's segregated network or a shared service's member machines. Multiple Chef runs are coordinated via a simple Python daemon that handles transient Chef Server HTTP errors and other Exception handling. This talk is only for 'Pilot Light' and 'Active/Passive' failovers and will not cover 'Master/Master' or other 'High Availability' setups.
+
+Single or Multi-Tenant Environments
+
+   Chef Server and stored attributes
+   All Data is segregated by customer stack
+   Data is stored in a Cluster {} namespace
+
+SSH Keys
+
+   Minor changes to the existing community 'User' cookbook allow for storage and ingestion of public keys throughout members of the stack.
+
+OpenVPN
+
+   Self signed certificates
+   Templating the vars file in combination with bash interfacing with pkitool
+   Uses previously distributed SSH Keys to push OpenVPN Client Configs
+
+MySQL Replication
+
+   Most people do not realize you need two sessions open for the popular method of establishing replication - Chef cannot do this without custom code
+   Establish replication by doing 'mysqldump -u root --master-data=1 --all-databases' and then using SSH to transfer to replication instance
+   Single my.cnf for ease of management, templated for master or slave
+
+**Speaker:**
+
+Alex Corley

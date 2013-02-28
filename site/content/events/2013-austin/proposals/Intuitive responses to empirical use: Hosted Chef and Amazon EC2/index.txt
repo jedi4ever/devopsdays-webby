@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Alex Corley
+title: "Intuitive responses to empirical use: Hosted Chef and Amazon EC2"
+---
+
+**Abstract:**
+Outlines all of the quirks needed to properly utilize these two services out of the box. Useful for anyone deploying using these common systems. These include common failure cases, retry loops for certain conditions, debug tricks and service level idiosyncrasies.
+
+**Speaker:**
+
+Alex Corley
