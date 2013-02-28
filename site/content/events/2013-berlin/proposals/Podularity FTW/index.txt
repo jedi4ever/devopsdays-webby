@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tim Lossen
+title: "Podularity FTW!"
+---
+
+**Abstract:**
+
+In "The Connected Company" (O'Reilly, 2012), Dave Gray describes how
+pods -- "small, autonomous units" -- are the basic building blocks of
+a flexible, scalable and resilient organisation. At Wooga, we have
+used pods (though we call them "game teams") as the main
+organizational unit from the beginning, and this has led quite
+naturally to a strong devops culture.
+
+In this talk, I will tell how this decision came about, how it has
+played out, which practical benefits the approach provides -- but
+also, what problems we have run into. As a bonus, I will report on a
+recent attempt to use podularity as the technical system architecture,
+where scalability and resilience are major concerns as well.
+
+**Speaker:**
+
+Tim Lossen
