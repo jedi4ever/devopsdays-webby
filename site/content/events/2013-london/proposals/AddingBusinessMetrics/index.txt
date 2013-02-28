@@ -38,11 +38,6 @@ Plot Graphs that show Business Root Causes
 
 * eg:  '3' icon to mean 'problem in 3rd party system not ours' (e.g. a CDN partner or supplier of product images etc)
 
-'Unite the Tribes' - refer to Chris Howell's speech at Retail technology on a common metrics language
-
-Case Study from a UK Blue Chip: there's a  couple of guys possibly
-persuadable to come talk too
-
 **Speaker:**
 
 Deri Jones
