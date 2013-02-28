@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Matthew Jones
+title: Bootstrapping a meetup
+---
+
+**Abstract:**
+
+From the experiences of start the Infrastructure Coders meetup, I will go into details around how to start a meetup from scratch:
+
+- Validating the idea: How to ensure that the meetup group is feasible for the area and target community/audience.
+- Promoting the meetup: How to get the word out there.
+- Keeping costs down: Starting a meetup the costs are borne by the organisers. Tips on how to reduce these, while not creating a financial barrier to your target community.
+- Building  the community: How to keep your community growing, getting great discussions and keeping it "fresh".
+- Observations on other failed meetups: What doesn't seem to work.
+
+No prerequisite knowledge required for this talk.
+
+Attendees should walk away from the talk with an increased confidence and that creating a community in the area is not as difficult as assumed.
+
+**Speaker:**
+
+Matthew Jones.
