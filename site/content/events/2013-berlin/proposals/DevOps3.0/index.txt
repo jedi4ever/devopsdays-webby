@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Marcel Wolf, Felix Sperling
+title: "DevOps 3.0 - Where we are now and what we found out on the way"
+---
+
+**Abstract:**
+
+Immobilienscout is a midsized organisation with ~150 Devs and ~40 Ops.
+The focus of the talk is not from a managers point of view but instead a
+snapshot from a Dev- and an Ops-guy, who switched roles for a few months.
+
+It seems that the DevOps culture is quite sucessful and well established
+at Immobilienscout. We would like to talk about what we learned and the
+insights we had. We want to share how we are doing DevOps and what cool
+stuff is happening in order to be an inspiration for you and to guide
+what to aim for at your company.
+
+Looking back we want to reflect on the already existing culture and
+preconditions that were necessary for DevOps to happen.
+
+When doing DevOps or Agile one of the most important parts is empowering
+the team. Which in return will bring many not so obvious consequences
+and greatly change the way the team works and the relationship between
+management and team. We also want to share some of our learnings on that
+topic.
+
+This talk will be about
+<ul>
+<li> the current state of the DevOps culture at Immobilienscout
+<li> the important preconditions that made it possible for DevOps to happen
+<li> the not so obvious issues that will pop up if you do DevOps and beyond
+</ul>
+
+**Speaker:**
+Marcel Wolf, Felix Sperling
