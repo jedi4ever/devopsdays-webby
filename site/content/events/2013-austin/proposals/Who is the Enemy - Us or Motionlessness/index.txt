@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dominica DeGrandis
+title: "Who is the Enemy - Us or Motionlessness?"
+---
+
+**Abstract:**
+Problems between teams begin when they are unaware of mutually critical information and unable to consider the perspectives and needs of other groups.
+ 
+Bringing visibility to invisible work and considering the flow of work over efficiency of of work may help teams gain the perspective necessary to influence culture change.
+ 
+We pretty much ignore invisible work. And that causes all kinds of problems – from unknown dependencies to excessive context switching to dark matter – it all costs money.
+ 
+But it’s also a problem when we focus on the most visible form of waste – inefficient activity. Horrors if a worker appear idle! Is making activities more efficient really less important than eliminating inactivity? Is the problem inactive workers or motionless work?
+ 
+This talk aims to answer those questions and address the following topics:
+· The invisible cost of idle work and what can be done about it.
+· Why 100% capacity utilization doesn’t work.
+· Why Queues matter.
+· Effects of WIP constraints.
+
+**Speaker:**
+
+Dominica DeGrandis
