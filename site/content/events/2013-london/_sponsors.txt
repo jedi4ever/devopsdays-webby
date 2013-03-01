@@ -19,6 +19,7 @@ filter:    erb
 { :image => "basho.png", :name => "Basho", :link => "http://www.basho.com/"},
 { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
 { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
+{ :image => "google.png", :name => "Google", :link => "http://www.google.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
@@ -35,6 +36,7 @@ filter:    erb
 { :image => "payback.png", :name => "Payback", :link => "http://www.payback.net/"},
 { :image => "atalanta-systems.png", :name => "Atalanta Systems", :link => "http://atalanta-systems.com/"},
 { :image => "enstratus.png", :name => "Enstratus", :link => "http://enstratus.com/"},
+{ :image => "serverdensity.png", :name => "Server Density", :link => "http://serverdensity.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
