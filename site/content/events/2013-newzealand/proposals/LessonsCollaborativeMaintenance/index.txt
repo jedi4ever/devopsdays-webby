@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Lindsay Holmwood
 title: AA261 - DevOps lessons on collaborative maintenance
@@ -34,7 +34,7 @@ we build and maintain.
 
 **Speaker:**
 
-Lindsay Holmwood is a sysadmin/developer/toolsmith/engineering
+Lindsay Holmwood (<a href="https://twitter.com/auxesis"> @auxesis </a>) is a sysadmin/developer/://twitter.com/auxesistoolsmith/engineering
 manager, living in the Australian Blue Mountains.
 
 He runs a distributed infrastructure development team at Bulletproof

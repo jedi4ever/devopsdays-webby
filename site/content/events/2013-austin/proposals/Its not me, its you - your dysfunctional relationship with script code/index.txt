@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lee Thompson
+title: "Its not me, its you - your dysfunctional relationship with script code"
+---
+
+**Abstract:**
+Nearly every online company has moderate to significant amounts of shell scripts.  The code is critical in that bugs will effect the business in a significant way.  Despite this criticality, developing modular, tested and documented scripting is either rare or nonexistent. This presentation will offer a possible solution to this industry wide problem with a simple open source tool called Rerun which adds a modular formalism to Bash scripting.  A simple module will be created, implemented, and tested rapidly.  Your colleagues will be able to quickly find and enhance your automation code in a syntax that every DevOps practitioner knows.  No more excuses for bad bash.
+
+**Speaker:**
+
+Lee Thompson
