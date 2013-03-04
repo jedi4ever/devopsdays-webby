@@ -9,7 +9,6 @@ talk: true
 selected: false
 layout: event
 author: Karanbir Singh
-language: EN
 title: Normalised instance provisioning for dev, on-premise and public clouds
 ---
 

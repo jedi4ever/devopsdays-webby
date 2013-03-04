@@ -22,7 +22,7 @@ This page list the proposals we have received. Help the presenters with your fee
   articles.delete(@page)
   articles.each do |page|
 -%>
-<li><%= link_to_page(page) %> - <%= page.author %> <img border=0 alt='<%= page.language %>' title='<%= page.language %>' width=20px height=10px src='/images/flag_<%= page.language %>.png'> 
+<li><%= link_to_page(page) %> - <%= page.author %> 
 <% end -%>
 </ol>
 
