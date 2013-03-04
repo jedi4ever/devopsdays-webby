@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pavlo Baron
+title: "No country for old men"
+---
+
+**Abstract:**
+
+Abstract: In this talk, I will tell some true war stories and anecdotes from bringing DevOps into companies that have never heard of it or probably would never touch it. I will explain the tricks that can be used to try to bring them there. I will also explain the motivation behind their resistance and how to come around it.
+
+Objectives: entertain the audience, deliver concrete ideas on how to push DevOps in the own companies
+
+**Speaker:**
+
+Pavlo Baron
+
+During the past 23 years, Pavlo Baron has gained knowledge of and put in to practice a wide variety of technologies and approaches. He works for codecentric, a german consulting company, as their lead architect. His passion is hacking and playing with distributed systems and large data sets. Pavlo is frequent conference speaker and has written four German books: "Erlang/OTP", "Pragmatic IT Architecture", "Fragile Agile" and "Big Data for IT decision makers".
