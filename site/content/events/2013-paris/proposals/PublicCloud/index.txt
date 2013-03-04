@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Cyrille Le Clerc
+title: (Devs && Ops).toPublicCloud()
+---
+
+**Abstract:**
+
+IaaS, PaaS ou Saas ; le Public Cloud change radicalement les rôles et les façons de travailler des Ops mais aussi des Devs.
+Si le “as a service” fait disparaitre de nombreuses tâches, surtout du côté des Ops, de nouveaux rôles apparaissent et l’accompagnement des équipes projets à cette nouvelle liberté est essentiel.
+
+Nous illustrerons par des cas concrets la redistribution des rôles et responsabilités entre Dev, QA et Ops dans ce monde où encore beaucoup est à inventer.
+
+**Speaker:**
+
+*Cyrille Le Clerc, CloudBees*
+
+Cyrille is Elite Architect at CloudBees with more than 12 years of experience in Java technologies. He came to CloudBees from Xebia where he was CTO and Architect. 
+
+He was an early adopter of the “You Build It, You run It” model that he put in place for a number of high volume web sites. He naturally embraced the DevOps culture as well as Cloud Computing which he implements for his customers. Cyrille is very active in the Java community as a the creator of the Open Source project embedded-jmxtrans and as a speaker at conferences.
