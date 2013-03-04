@@ -9,7 +9,6 @@ talk: true
 selected: false
 layout: event
 author: Henri Tremblay / Mikael Robert
-language: FR
 title: "Performances perpétuelles : Mesures et améliorations continues des performances"
 ---
 
