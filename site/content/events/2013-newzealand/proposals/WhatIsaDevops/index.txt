@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: John Willis
 title: What is a Devops?
@@ -27,7 +27,7 @@ We will look at some of the direct and indirect influences of twentieth century 
 * Culture
 * Automation
 * Measurement
-*Sharing
+* Sharing
 
 And finally we will end up with a look at some successful Devops style companies who have been capturing the mindshare of this movement. Companies like:
 
@@ -50,4 +50,4 @@ None - this session is suitable for all levels of experience.
 
 **Speaker:**
 
-John Willis
+John Willis (<a href="https://twitter.com/botchagalupe">@botchagalupe</a>)

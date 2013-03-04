@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: George Reese
 title: Devops in Cloud Management.
@@ -23,4 +23,4 @@ We will be discussing the importance of Devops in Cloud Management, including it
 
 **Speaker:**
 
-George Reese
+George Reese <a href="https://twitter.com/GeorgeReese"> @GeorgeReese </a>
