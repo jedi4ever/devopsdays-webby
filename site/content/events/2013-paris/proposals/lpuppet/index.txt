@@ -9,7 +9,6 @@ talk: true
 selected: false
 layout: event
 author: Simon Marechal
-language: FR
 title: Optimizing your Puppet workflow with fast software and strong tests
 ---
 
