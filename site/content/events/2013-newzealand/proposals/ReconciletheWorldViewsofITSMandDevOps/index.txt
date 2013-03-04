@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Rob England
 title: Reconcile the world-views of ITSM and DevOps
@@ -25,4 +25,4 @@ I'm proposing to call the reconciliation initiative Kamu, which is  Maori for "
 
 **Speaker:**
 
-Rob England
+Rob England (<a href="https://twitter.com/theitskeptic">@theitskeptic</a>)
