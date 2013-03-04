@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: TBD
+title: Release management at the speed of agile
+---
+
+**Abstract:**
+
+Release management happens once software has gone through the process of development and testing. However, as teams move over to agile, they begin put through more software releases as they change from long development phases to shorter sprints that track against the business requirements more closely. More releases means more change in production. The DevOps movement is familiar with this, and working to change the situation.
+ 
+There are three areas where discussion and integration can take place, and that is what this talk will go through, based on experience of enterprise software organisations and deployments of release management and automation.
+ 
+*Theme #1 - Automation* 
+
+Automating release management should solve a lot of the problems that exist for DevOps teams. And it will do. But it is not the only step that has to be thought about. Release automation is the technical step that has to be achieved, but there are two other areas that also have to be considered.
+ 
+Once releases are automated, putting a calendar for release scheduling in place is a really good idea. Agile teams don't work in isolation, but they do have to think about dependencies and when releases are switched into production after testing. This is a simple step that makes the automation process deliver the goods. In enterprise environments, I have found that this calendaring can be difficult as teams are more spread out and dispersed, so having on version of the truth really helps.
+ 
+Secondly, putting releases into a framework and history is a necessary step as well. Larger organisations will want this for their own audit and control purposes, while it is still worth having for smaller organisations as it helps with tracking problems. After all, those who don't know their history are doomed to repeat it.
+ 
+*Theme #2 - Process*
+
+Getting release automation in place does not happen by magic. It does take time and collaboration across teams. What can be valuable for everyone involved in this is the establishment of baseline processes that should be followed during each release. Steps within these processes can then be automated as well, rather than relying on human action that can bring in errors. This can also help when judging the appropriate process for releases - not all will require the same level of rigour as others, if they don't touch on core systems or don't have dependencies that could lead to issues.
+ 
+There are also steps that organisations can take around role splits - ensuring that people can't put their own software into production without the appropriate testing or release approval for example. The balance point is that these steps should bot get in the way of release management and automation, but that they help it get completed quicker by proving that work is good.
+ 
+*Theme #3 - Continuous*
+
+The move to continuous deployment and continuous delivery fits really well with release automation. However, how each of these steps is then linked together can be more interesting. With some of the eneterprises I have been working with, we have established the concept of the 'trust line' - that is, how far along the process can something be automated between development and production.
+ 
+For smaller or non-critical releases, steps around testing may be fully automated and if they are passed, releases can be put in automatically. for critical projects, the UAT and testing phase may remain manual. Each release should be judged according to its potential impact, and how much value it can offer by getting into production faster.
+ 
+Then a quick note about rework. One of the big pain points in the enterprise is the amount of rework that is taking place around projects. Getting the right approach in place around release management can free up time spent on manually managing deployments, and that time can instead be spent on making sure that code is better in the first place. Automation of releases should sit alongside more traceability of code - this means being able to point to good work and bad. Taking some of the timescale pressure that implementation and release can lead to and instead focusing on getting stuff right first time is therefore a strong secondary benefit.
+
+**Speaker:**
+
+*TBD*
