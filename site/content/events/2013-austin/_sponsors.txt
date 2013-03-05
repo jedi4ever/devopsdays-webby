@@ -25,6 +25,7 @@ filter:    erb
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"},
 { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
 { :image => "whalesharkmedia.png", :name => "New Iron", :link => "http://www.whalesharkmedia.com"}
+{ :image => "bazaarvoice.png", :name => "New Iron", :link => "http://www.bazaarvoice.com"}
 ]%>
 
 <h1>Gold sponsors</h1>
