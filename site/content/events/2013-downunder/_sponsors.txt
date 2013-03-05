@@ -2,7 +2,7 @@
 filter:    erb
 ---
 <% @gsponsors = [
-{ :image => "anchor.png", :name => "Anchor", :link => "http://www.anchor.com.au/"},{ :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://puppetlabs.com/"},
+{ :image => "anchor.png", :name => "Anchor", :link => "http://www.anchor.com.au/"},{ :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://puppetlabs.com/"},{ :image => "rea.png", :name => "realestate.com.au", :link => "http://www.realestate.com.au/"},
 
 ]%>
 
