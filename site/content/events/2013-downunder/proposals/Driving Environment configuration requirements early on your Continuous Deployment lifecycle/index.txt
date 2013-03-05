@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Rene Medellin
+title: "Driving Environment configuration requirements early on your Continuous Deployment lifecycle"
+---
+
+**Abstract:**
+
+When supporting a Continuous Deployment approach to software releases, think John Allspaw, your environment configuration is essential. It doesn't matter how fast you can build and test, if you're deploying into a broken environment. You can take a TDD or BDD approach to building up your environment infrastructure based on application requirements. Your environment acceptance tests become the contract by which you can develop your environment configuration using Puppet, Chef, etc... But more importantly, building up the functional testing for your "Infrastructure as Code" allows you to discuss with all Project stakeholders all of the infrastructure requirements for a particular feature or product stream. Thus breaking down traditional barriers where a release is thrown over the fence to Operations. You can begin to discuss infrastructure requirements early in the cycle and have a natural launching pad for collaboration and communication.
+
+**Speaker:**
+Rene Medellin
