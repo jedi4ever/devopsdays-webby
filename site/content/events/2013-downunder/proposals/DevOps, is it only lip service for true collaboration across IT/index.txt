@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Rene Medellin
+title: "DevOps, is it only lip service for true collaboration across IT?"
+---
+
+**Abstract:**
+
+DevOps has taken IT by storm and is very likely on track to become ubiquitous. But are we truly embracing a collaborative mindset and a notion of IT "working as one"? Or are we simply paying lip service to the idea of breaking down silos? I want to challenge the audience to examine their understanding of the DevOps approach and challenge every individual to build connections and networks with someone new in their IT organisation, today.
+
+**Speaker:**
+Rene Medellin
