@@ -5,6 +5,7 @@ filter:    erb
   { :image => "enstratus.png", :name => "enStratus", :link => "http://www.enstratus.com/"},
   { :image => "heavywater.png", :name => "Heavy Water Software", :link => "http://www.hw-ops.com/"},
   { :image => "neo4j.png", :name => "Neo4j", :link => "http://www.neo4j.org/"},
+  { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "https://puppetlabs.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
