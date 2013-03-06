@@ -5,6 +5,8 @@ filter:    erb
 { :image => "schubergphilis.png", :name => "Schuberg Philis", :link => "http://www.schubergphilis.com/"},
 { :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
 { :image => "vxcompany.png", :name => "VX Company", :link => "http://www.vxcompany.nl/"},
+{ :image => "amazon.png", :name => "Amazon", :link => "http://www.amazon.com/"},
+{ :image => "bitbrains.png", :name => "Bitbrains", :link => "http://www.bitbrains.nl/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
