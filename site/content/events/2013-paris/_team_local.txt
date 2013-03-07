@@ -3,3 +3,4 @@
 - Pierre-Antoine Grégoire
 - Arnaud Héritier
 - Jonathan Clarke
+- Brice Figureau
