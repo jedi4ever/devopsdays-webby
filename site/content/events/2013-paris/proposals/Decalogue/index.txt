@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Séven Lemesle
+title: "Application Java Ops-friendly : le décalogue"
+---
+
+**Résumé :**
+
+*“Au commencement du SI était la division. Les Devs et les Ops parlaient des langues différentes, les querelles étaient le quotidien. Ils grandirent en sagesse et l’Unité leur fut révélée. Ils fraternisèrent alors, pour bâtir quelque chose de plus grand.” (Genèse 1:1)*
+
+Voici, délivrés pour vous, les 10 commandements des applications *“Ops Friendly”*. Vous apprendrez comment rendre une application monitorable, tolérante aux pannes, polie avec le système. Vous seront révélés les mystères de la gestion des logs et de la configuration à chaud.
+
+Venez découvrir le guide des bâtisseurs de cathédrales DevOps.
+
+**Orateurs :**
+
+*Séven Lemesle, Architecte senior, Xebia*
+
+Séven Lemesle, architecte senior chez Xebia, fort de 10 ans d'expérience, Maître coordinateur d'architectures web à fort traffic, Grand intégrateur Nginx-Apache-Varnish, Vainqueur du performance contest Octo 2011, Committer Apache Deft, Evangéliste HTML5. Nourri par les univers Linux et Java, pratiquant DevOps par conviction.
