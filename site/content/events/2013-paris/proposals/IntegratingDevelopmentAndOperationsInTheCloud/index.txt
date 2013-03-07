@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Stéphane Goudeau
+title: Integrating Development & Operations in the Cloud
+---
+
+**Abstract:**
+
+Cloud Computing Technology influence on Information Technology industry makes even more compelling the need for software developers and IT operations to collaborate in the design, development and management of massively scalable applications and services. Azure platform is no exception to this rule. Of course, Azure allows to create and deploy new applications and their underlying infrastructure in minutes. But to take full advantage of the possibilities offered by this new paradigm, we have to rethink these new services models definition, deployment automation, configuration and updates management, health and performance monitoring, alert notifications, and especially the development process integration with IT operation services. All these practices and technologies are part of a Cloud DevOps approach that I propose to present during a session that show their usage in the context of a Cloud service deployed on Windows Azure platform.
+
+
+**Speaker:**
+
+*Stéphane Goudeau, Cloud Architect, Microsoft France*
+
+My name is Stéphane Goudeau. I am currently working as a Cloud Architect in Microsoft France. I've been working in IT for more than 20 years. I began my career as an engineer in BULL Integration Services. I joined Microsoft as a Consultant in 1996 and since then my position in Microsoft France organization has evolved through different technical roles. I've got a deep technical expertise on Microsoft platform technologies (but not only) and architect skills on several subjects: Application Lifecycle Management, Cloud services architecture design, IT-as-a-Service private Cloud infrastructure deployment. I have also been the Technical Director of Microsoft Technical Center and have gained operation services knowledge through this experience.

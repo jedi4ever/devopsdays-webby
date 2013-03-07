@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: TBD
+author: Sylvain Cailliau
 title: Release management at the speed of agile
 ---
 
@@ -42,4 +42,4 @@ Then a quick note about rework. One of the big pain points in the enterprise is 
 
 **Speaker:**
 
-*TBD*
+*Sylvain Cailliau, Serena Software*
