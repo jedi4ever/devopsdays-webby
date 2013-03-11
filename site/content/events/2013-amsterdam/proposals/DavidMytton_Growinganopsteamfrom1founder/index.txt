@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Mytton
+title: "Growing an ops team from 1 founder"
+---
+
+**Abstract:**
+
+Bootstrapped startups don't have the luxury of a full team of ops engineers available to respond to issues 24/7, so how can you survive on your own? This talk will tell the story of how to run your infrastructure as a single founder through to growing that into a team of on call engineers. It will include some interesting war stories as well as tips and suggestions for how to run ops at a startup.
+
+**Speaker:**
+
+David Mytton is the founder of server monitoring tool, Server Density, where he has been using MongoDB in production for almost 4 years. He has been programming in PHP and Python for over 10 years, regularly speaks about MongoDB (including starting the London MongoDB User Group), co-founded the Open Rights Group and can often be found cycling in London or drinking tea in Japan.
+--
+David Mytton
+http://www.serverdensity.com
