@@ -265,15 +265,43 @@ google.maps.event.addListener(amsterdammarker, "click", function (e) { location.
 <div style="width: 550px; height: 290px">
 <center>
   <h2>This community is supported by</h2>
-  <a href="http://www.uc4.com/ara"><img border=0 alt='UC4' title='UC4' width='80px' height='80px' src='logos/platinum/uc4.png'></a>
-  <a href="http://puppetlabs.com"><img border=0 alt='Puppetlabs' title='Puppetlabs' width='80px' height='80px' src='logos/platinum/puppetlabs.png'></a>
-  <a href="http://bmc.com/"><img border=0 alt='BMC' title='BMC' width='80px' height='80px' src='logos/platinum/bmc.png'></a>
-  <a href="http://hp.com"><img border=0 alt='HP' title='HP' width='80px' height='80px' src='logos/platinum/hp.png'></a>
-  <a href="http://www.collabnet.com"><img border=0 alt='Collabnet' title='Collabnet' width='80px' height='80px' src='logos/platinum/collabnet.png'></a>
-<br>
-<a href="http://opscode.com"><img border=0 alt='Opscode' title='Opscode' width='80px' height='80px' src='logos/platinum/opscode.png'></a>
-<a href="http://urbancode.com"><img border=0 alt='Urbancode' title='Urbancode' width='80px' height='80px' src='logos/platinum/urbancode.png'></a>
-<a href="http://www.datadoghq.com"><img border=0 alt='Datadog' title='Datadog' width='80px' height='80px' src='logos/platinum/datadog.png'></a>
-<a href="http://zeroturnaround.com"><img border=0 alt='Zeroturnaround' title='Zeroturnaround' width='80px' height='80px' src='logos/platinum/zeroturnaround.png'></a>
+  <script>
+
+    Array.prototype.randomize = function()
+    {
+      var i = this.length, j, temp;
+      while ( --i )
+      {
+        j = Math.floor( Math.random() * (i - 1) );
+        temp = this[i];
+        this[i] = this[j];
+        this[j] = temp;
+      }
+    }
+    var sponsors = [
+      { title: 'UC4', link: 'http://www.uc4.com/ara' , logo: 'uc4.png' },
+      { title: 'Puppetlabs', link: 'http://www.puppetlabs.com' , logo: 'puppetlabs.png' },
+      { title: 'BMC', link: 'http://bmc.com' , logo: 'bmc.png' },
+      { title: 'Collabnet', link: 'http://www.collabnet.com' , logo: 'collabnet.png' },
+      { title: 'HP', link: 'http://www.hp.com' , logo: 'hp.png' },
+      { title: 'Opscode', link: 'http://www.opscode.com' , logo: 'opscode.png' },
+      { title: 'Urbancode', link: 'http://www.urbancode.com' , logo: 'urbancode.png' },
+      { title: 'Datadog', link: 'http://www.datadoghq.com' , logo: 'datadog.png' },
+      { title: 'Zeroturnaround', link: 'http://www.zeroturnaround.com' , logo: 'zeroturnaround.png' },
+    ];
+
+    sponsors.randomize();
+    for (var i = 0; i < sponsors.length; i++) {
+      document.write(
+        '<a href="'+
+        sponsors[i]['link'] +'"><img border=0 alt="'+
+        sponsors[i]['title']+'" title="'+
+        sponsors[i]['title']+'" width="80px" height="80px" src="logos/platinum/'+
+        sponsors[i]['logo'] +'"></a>');
+      if (i == 4) {
+        document.write('<br>');
+      }
+    }
+  </script>
 </center>
 </div>
