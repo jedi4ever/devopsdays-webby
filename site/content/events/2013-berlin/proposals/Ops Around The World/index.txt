@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Mytton
+title: "Ops Around the World"
+---
+
+**Abstract:**
+
+In the old days, data centre selection was based on proximity to a data centre and when things went wrong part of the recovery time calculations included how long it would take to drive there. Now you can deploy servers in almost every continent in a few minutes.
+
+This talk will examine the challenges of geographically diverse deployments. From technical concerns like latency, deployment lead times and systems management to social issues like on-call rotations, follow the Sun provisioning and trusting your data centre techs.
+
+**Speaker:**
+
+David Mytton is the founder of server monitoring tool, Server Density, where he has been using MongoDB in production for almost 4 years. He has been programming in PHP and Python for over 10 years, regularly speaks about MongoDB (including starting the London MongoDB User Group), co-founded the Open Rights Group and can often be found cycling in London or drinking tea in Japan.
