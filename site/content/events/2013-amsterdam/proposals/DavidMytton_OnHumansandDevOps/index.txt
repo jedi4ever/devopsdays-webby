@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Mytton
+title: "Growing an ops team from 1 founder"
+---
+
+**Abstract:**
+
+Given the sysadmin stereotype, it's sometimes easy to forget that not everyone is up at 3am and ready to respond to alerts on a Friday night. In all but the most critical high availability environments, most teams will not have someone actively monitoring graphs 24/7. This means you have to deal with on-call schedules, technical handoffs, documentation, procedure manuals and trying to ensure mistakes aren't made, even in the middle of the night.
+
+This talk will look at how to approach the social aspects of running an ops team in terms of the human impact as well as using automation and tools.
+
+**Speaker:**
+
+David Mytton is the founder of server monitoring tool, Server Density, where he has been using MongoDB in production for almost 4 years. He has been programming in PHP and Python for over 10 years, regularly speaks about MongoDB (including starting the London MongoDB User Group), co-founded the Open Rights Group and can often be found cycling in London or drinking tea in Japan.
+--
+David Mytton
+http://www.serverdensity.com
