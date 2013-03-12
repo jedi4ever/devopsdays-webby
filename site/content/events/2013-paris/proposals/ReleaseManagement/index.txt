@@ -43,3 +43,5 @@ Then a quick note about rework. One of the big pain points in the enterprise is 
 **Speaker:**
 
 *Sylvain Cailliau, Serena Software*
+
+Sylvain Cailliau is the SERENA Technical Director for the Western Europe territory. With 26 years of experience in the Software Development industry both from the End User and the Software Editor side, he is a Specialist of Configuration Management and Development Process, he masters all the Development Life Cycle Disciplines from Requirement Management to Demand Management to Configuration Management and Build to Release Management. His main responsibility is the management of complex ALM projects from initial meeting with customers to SERENA solution deployment to follow-up process improvements (THALES, BNPP, ORANGE, VALEO are some of the customers with international scope he has been responsible for). He is ITIL certified and SCRUM Master.
