@@ -14,7 +14,7 @@ filter:    erb
 { :image => "uc4.png", :name => "UC4", :link => "http://www.uc4.com/ara"},
 ]%>
 
-<% @psponsors.each do |sponsor| %>
+<% @psponsors.shuffle.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
@@ -24,7 +24,7 @@ filter:    erb
 <h1>Gold sponsors</h1>
 
 <% if @gsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to Gold sponsor!</a></i>
 <% end %>
 
 <% @gsponsors.each do |sponsor| %>
@@ -32,6 +32,7 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
+  { :image => "serena.png", :name => "Serena Software", :link => "http://www.serena.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
