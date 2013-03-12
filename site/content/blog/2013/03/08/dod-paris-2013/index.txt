@@ -1,0 +1,23 @@
+---
+title: DevOpsDays Paris 2013
+created_at: 2013-03-08 14:02:27.000000 +01:00
+tags:
+- 2013
+- paris
+blog_post: true
+filter:
+- erb
+- markdown
+---
+
+The first DevOpsDays Paris is scheduled for 18-19 April 2013, and while this
+blog post is a little late to the game, it's not yet too late for you to
+participate either as an attendee or a speaker.
+
+For those interested in attending, we're offering a 25% discount on tickets
+through the end of this week (17 March 2013) - just use the "WELOVEDEVOPS" code
+and you're <a href="http://devopsdays.org/events/2013-paris/registration/">all set</a>.
+
+If you're more interested in speaking, the <a href="http://devopsdays.org/events/2013-paris/propose/">Call for Proposals</a> is still open
+until 20 March 2013, so don't hesitate - submit your proposal today!  Of
+course, all of the proposals are available for <a href="http://devopsdays.org/events/2013-paris/proposals/">your persual</a> at any time.
