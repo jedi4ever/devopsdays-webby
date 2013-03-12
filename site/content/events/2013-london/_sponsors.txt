@@ -20,6 +20,7 @@ filter:    erb
 { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
 { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
 { :image => "google.png", :name => "Google", :link => "http://www.google.com/"},
+{ :image => "appdynamics.png", :name => "App Dynamics", :link => "http://www.appdynamics.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
