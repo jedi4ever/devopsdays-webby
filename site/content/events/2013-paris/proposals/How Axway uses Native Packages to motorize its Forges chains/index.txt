@@ -33,4 +33,8 @@ After 6 months in production, this implementation story demonstrate that some go
 
 *Henri Gomez, Axway*
 
+Henri Gomez worked in the software industry for over 20 years. He worked for many sofware vendors in the fields of financials and market datafeeds, web portals and management of data flow..
 
+It has been successively Developer, Project Manager, Software Architect, Production Manager and currently CI Architect at Axway.
+
+He participated in several open source projects, including Apache Tomcat, JPackage, jmtrans and is still a member of the Apache Software Foundation, former Tomcat committer.
