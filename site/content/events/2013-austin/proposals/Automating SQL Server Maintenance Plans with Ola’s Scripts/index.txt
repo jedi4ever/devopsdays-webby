@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: John Sterrett
+title: "Automating SQL Server Maintenance Plans with Ola’s Scripts"
+---
+
+**Abstract:**
+SQL Server is a great database engine. Sadly, it doesn’t provide great maintenance plans or maintenance plans that are DevOps friendly.  During this ignite talk you will see the shortcomings of the default maintenance plans and learn how to fix those shortcomings with Ola Hallengren’s open source maintenance solution.
+
+**Speaker:**
+
+John Sterrett

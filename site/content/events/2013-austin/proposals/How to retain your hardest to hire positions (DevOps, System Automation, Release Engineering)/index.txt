@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pete Cheslock
+title: "How to retain your hardest to hire positions (DevOps, System Automation, Release Engineering)"
+---
+
+**Abstract:**
+We all talk about how to recruit and hire DevOps minded people, but something we don't often talk about is how to manage and retain them once you have hired them.  There are lots of studies and statistics that discuss how expensive it is when you lose an employee.  Often times the business side believes the only way to keep employees is via monetary compensation, and this is a terrible way to motivate.  I have found that motivating thru autonomy and purpose can yield a much higher benefit to all parties. Most important to Startups as they often are more cash constrained and need to compete with more profitable and established companies.
+
+The Theory of Constraints states that an hour lost at a bottleneck essentially shuts down your organization. What happens when your constrained group (most likely your evolving operations team) loses a highly valued engineer?  In this presentation, I want to discuss some of the techniques that were helpful for me when trying to keep my team motivated, when the world was coming down on our heads.  Techniques found within process and culture changes such as Agile and DevOps, collaboration and cross functional teams, help everyone to feel as though they are part of something greater than themselves. 
+
+My talk will expand and focus on the specifics of what has worked for me, and hopefully provide enough options that most any company could cherry-pick and start using within their organization.   With the ultimate focus of keeping people happy and productive members of your team.
+
+**Speaker:**
+
+Pete Cheslock
