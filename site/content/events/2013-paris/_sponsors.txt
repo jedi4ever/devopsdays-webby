@@ -11,6 +11,19 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @msponsors = [
+{ :image => "rudebaguette.png", :name => "Rude Baguette", :link => "http://www.rudebaguette.com/"},
+]%>
+
+<h1>Media Sponsors</h1>
+<% if @msponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @msponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <h1>Gold sponsors</h1>
 <% @gsponsors = [
   { :image => "oxalide.png", :name => "Oxalide", :link => "http://www.oxalide.com/"},
