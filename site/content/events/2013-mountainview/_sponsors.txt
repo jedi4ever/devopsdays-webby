@@ -10,21 +10,22 @@ filter:    erb
 { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
 { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
 { :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"},
-{ :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
+{ :image => "hp.png", :name => "HP", :link => "http://www8.hp.com/us/en/software-solutions/software.html?compURI=1234839&jumpid=reg_r1002_usen_c-001_title_r0001"},
 { :image => "uc4.png", :name => "UC4", :link => "http://www.uc4.com/ara"},
 ]%>
 
-<% @psponsors.each do |sponsor| %>
+<% @psponsors.shuffle.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
 <% @gsponsors = [
+  { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
 
 <% if @gsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to Gold sponsor!</a></i>
 <% end %>
 
 <% @gsponsors.each do |sponsor| %>
@@ -32,6 +33,7 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
+  { :image => "serena.png", :name => "Serena Software", :link => "http://www.serena.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>

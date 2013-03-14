@@ -3,7 +3,7 @@ filter:    erb
 ---
 <% @psponsors = [
 { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
-{ :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
+{ :image => "hp.png", :name => "HP", :link => "http://www8.hp.com/us/en/software-solutions/software.html?compURI=1234839&jumpid=reg_r1002_usen_c-001_title_r0001"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
 { :image => "datadog.png", :name => "Datadog HQ", :link => "http://www.datadoghq.com/"},
 { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://www.puppetlabs.com/"},
@@ -13,7 +13,7 @@ filter:    erb
 { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com/"},
 ]%>
 
-<% @psponsors.each do |sponsor| %> <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a><% end %>
+<% @psponsors.shuffle.each do |sponsor| %> <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a><% end %>
 
 <% @gsponsors = [
 { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
@@ -24,8 +24,9 @@ filter:    erb
 { :image => "stackdriver.png", :name => "Stackdriver", :link => "http://www.stackdriver.com/"},
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"},
 { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
-{ :image => "whalesharkmedia.png", :name => "New Iron", :link => "http://www.whalesharkmedia.com"},
-{ :image => "bazaarvoice.png", :name => "New Iron", :link => "http://www.bazaarvoice.com"}
+{ :image => "whalesharkmedia.png", :name => "WhaleShark Media", :link => "http://www.whalesharkmedia.com"},
+{ :image => "bazaarvoice.png", :name => "Bazaarvoice", :link => "http://www.bazaarvoice.com"},
+{ :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com"}
 ]%>
 
 <h1>Gold sponsors</h1>

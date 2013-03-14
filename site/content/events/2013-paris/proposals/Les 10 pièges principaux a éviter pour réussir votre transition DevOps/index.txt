@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alain Delafosse
+title: "Les 10 pièges principaux à éviter pour réussir votre transition DevOps"
+---
+
+**Résumé :**
+
+Transformer son organisation pour adopter des principes DevOps est un projet qui implique à la fois des aspects techniques, organisationnels et culturels.
+Venez découvrir les 10 pièges à éviter lors de cette transition à travers l'expérience cumulée d'acteurs d'une société du net (Kelkoo) et d'une SSII spécialiste de l'agilité et de l'outillage (Objet Direct).
+
+Parmi les pièges qui seront évoqués (liste non exhaustive):
+*   Penser que ce n'est que de l'outillage.
+*   Partir sur un outillage inadapté.
+*   Se tromper dans le modèle de transition.
+*   Se concentrer uniquement sur les processus de déploiement.
+*   Négliger l'aspect culturel.
+*   ...
+
+**Orateurs :**
+
+*Alain Delafosse, Consultant Objet Direct et Directeur Technique KelKoo*
+
+et *Olivier Lefaucheux, Directeur Agence Objet Direct* ou *Eric Mattern ,Manager Open Source Objet Direct*

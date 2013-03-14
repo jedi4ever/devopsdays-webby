@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ole Michaelis / Soenke Ruempler
+title: "Make it SOLID - Software Architecture for System Administrators"
+---
+
+**Abstract:**
+
+Starting with Chef or Puppet as a System Administrator will lead you
+to a problem where you are not sure what’s the best solution of a
+problem in terms of software architecture.
+
+We will give you a brief overview of general well known and battle
+tested software patterns which also applies to infrastructure
+management code. We’ll also show Antipatterns and best practices.
+
+**Speakers:**
+
+Ole Michaelis - <a href="https://twitter.com/codestars">https://twitter.com/codestars</a><br/>
+Soenke Ruempler - <a href="https://twitter.com/s0enke">https://twitter.com/s0enke</a>
+

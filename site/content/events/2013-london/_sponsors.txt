@@ -11,7 +11,7 @@ filter:    erb
 { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com/"},
 ]%>
 
-<% @psponsors.each do |sponsor| %>
+<% @psponsors.shuffle.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
@@ -20,6 +20,7 @@ filter:    erb
 { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
 { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
 { :image => "google.png", :name => "Google", :link => "http://www.google.com/"},
+{ :image => "appdynamics.png", :name => "App Dynamics", :link => "http://www.appdynamics.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
@@ -35,7 +36,7 @@ filter:    erb
 <% @ssponsors = [
 { :image => "payback.png", :name => "Payback", :link => "http://www.payback.net/"},
 { :image => "atalanta-systems.png", :name => "Atalanta Systems", :link => "http://atalanta-systems.com/"},
-{ :image => "enstratus.png", :name => "Enstratus", :link => "http://enstratus.com/"},
+{ :image => "enstratius.png", :name => "Enstratius", :link => "http://enstratius.com/"},
 { :image => "serverdensity.png", :name => "Server Density", :link => "http://serverdensity.com/"},
 ]%>
 

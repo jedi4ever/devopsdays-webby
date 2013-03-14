@@ -15,7 +15,11 @@ blog post is a little late to the game, it's not yet too late for you to
 participate either as an attendee or a speaker.
 
 For those interested in attending, we're offering a 25% discount on tickets
+<<<<<<< HEAD
 through the end of this week (10 March 2013) - just use the "WELOVEDEVOPS" code
+=======
+through the end of this week (17 March 2013) - just use the "WELOVEDEVOPS" code
+>>>>>>> upstream/master
 and you're <a href="http://devopsdays.org/events/2013-paris/registration/">all set</a>.
 
 If you're more interested in speaking, the <a href="http://devopsdays.org/events/2013-paris/propose/">Call for Proposals</a> is still open

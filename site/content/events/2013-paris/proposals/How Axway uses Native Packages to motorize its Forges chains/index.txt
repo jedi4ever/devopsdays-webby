@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Henri Gomez
+title: How Axway uses Native Packages to motorize its Forges chains?
+---
+
+**Abstract:**
+
+Major Linux distributions use native packages, RPM or DEB, for many years now.
+
+With a strong support of pre-requisites, application life-cyle (install, update, removal), Native Packaging help sysadmins to carefully control applications and system lifecycle.
+
+Native packages are perfectly suited for any applications, on premise or cloud based.
+And they could be used with Puppet/Chef tooling, managing the hard part, aka componenting/packaging part, freeing our Puppet/Chef Master from complex recipes.
+
+In 2012, Axway ECD Team started to create a rich catalog of Forge solutions like Jenkins, Artifactory, Nexus, Archiva, Jira, Confluence but also Subversion or Git to provide "CI as service" to Dev and QA teams.
+
+This talk will present what have been done, RPMs, Packages factory using Jenkins and ESXi, Dev/QA/Prod silos, staging/promotion and internal yum repositories for world-wide deliveries.
+
+We'll dig into some packages to see how Dev and Ops should communicate to ensure solution will met runtime environment constraints.
+
+After 6 months in production, this implementation story demonstrate that some good old solutions could meet recent paradigms like DevOps and both fit really nicely
+
+**Speaker:**
+
+*Henri Gomez, Axway*
+
+Henri Gomez worked in the software industry for over 20 years. He worked for many sofware vendors in the fields of financials and market datafeeds, web portals and management of data flow..
+
+It has been successively Developer, Project Manager, Software Architect, Production Manager and currently CI Architect at Axway.
+
+He participated in several open source projects, including Apache Tomcat, JPackage, jmtrans and is still a member of the Apache Software Foundation, former Tomcat committer.

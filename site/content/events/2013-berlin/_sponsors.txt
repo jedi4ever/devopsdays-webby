@@ -1,8 +1,17 @@
 ---
 filter:    erb
 ---
-<% @gsponsors = [
+<% @psponsors = [
   { :image => "zeroturnaround.png", :name => "Zeroturnaround", :link => "http://www.zeroturnaround.com"},
+  { :image => "hp.png", :name => "HP", :link => "http://www8.hp.com/de/de/software-solutions/software.html?compURI=1234839&jumpid=reg_r1002_dede_c-001_title_r0001"},
+]%>
+
+<% @psponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<h1>Gold Sponsors</h1>
+<% @gsponsors = [
   { :image => "gutefrage.png", :name => "Gutefrage", :link => "http://www.gutefrage.net/"},
   { :image => "immobilienscout.png", :name => "Immobilien Scout", :link => "http://developer.immobilienscout24.de/2012/10/jobs-kein-kalter-kaffee/"},
   { :image => "unbelievablemachine.png", :name => "The unbelievable Machine Company", :link => "http://www.unbelievable-machine.com"},
