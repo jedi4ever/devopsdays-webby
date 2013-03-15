@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Séven Lemesle
+title: "Monter une plateforme de déploiement automatique DevOps en une heure"
+---
+
+**Résumé :**
+
+Les 'Dev' fournissent l'application et ses différents composants et les 'Ops' sont en charge de l'infrastructure et de la gestion des environnements; le point de friction reste néanmoins le déploiement et la configuration de l'application dans les différents environnements (Dev, Test, Recette & Production).
+
+Dans cette session, sous forme de sprints d'une dizaine de minutes, je mettrai en place une solution DevOps, innovante et extensible, pour régler, une fois pour toute, cet épineux problème.
+
+**Orateurs :**
+
+*Benoit Moussaud, directeur technique, XebiaLabs*
+
+Benoit Moussaud, directeur technique de XebiaLabs pour la région Europe du Sud,  a plus de 15 ans d'expérience sur Java Enterprise, du développement à l'architecture globale des applications d'entreprise complexes.
+
+A l'origine de Xebia IT Architects en France, mes principaux domaines d'intérêts sont l'automatisation de la construction (ancien contributeur Ant), l'intégration continue et les stratégies de déploiement associées afin de combler le fossé entre les équipes Dev et Ops. J' ai également travaillé sur différents plugins pour Deployit: Puppet, Maven, Bamboo, Jenkins.
+
+Twitter: [@bmoussaud](https://twitter.com/bmoussaud)
