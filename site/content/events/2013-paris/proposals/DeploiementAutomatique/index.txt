@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Séven Lemesle
+author: Benoit Moussaud
 title: "Monter une plateforme de déploiement automatique DevOps en une heure"
 ---
 
