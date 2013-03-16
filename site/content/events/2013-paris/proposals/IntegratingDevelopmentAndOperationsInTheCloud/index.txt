@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Stéphane Goudeau
 title: Integrating Development & Operations in the Cloud
+platinum: true
 ---
 
 **Abstract:**

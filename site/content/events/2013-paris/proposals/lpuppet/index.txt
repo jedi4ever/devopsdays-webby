@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Simon Marechal
 title: Optimizing your Puppet workflow with fast software and strong tests
+platinum: true
 ---
 
 **Abstract:**

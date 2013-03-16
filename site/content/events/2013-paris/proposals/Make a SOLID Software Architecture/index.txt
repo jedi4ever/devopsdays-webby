@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Ole Michaelis / Soenke Ruempler
 title: "Make it SOLID - Software Architecture for System Administrators"
+platinum: true
 ---
 
 **Abstract:**

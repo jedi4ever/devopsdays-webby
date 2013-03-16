@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Cyrille Le Clerc
 title: (Devs && Ops).toPublicCloud()
+platinum: true
 ---
 
 **Abstract:**
