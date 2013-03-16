@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Steven De Coeyer / Joren De Groof
 title: "Our DevOps story: Chef + Rails for customer cloud control"
+platinum: true
 ---
 
 **Abstract:**

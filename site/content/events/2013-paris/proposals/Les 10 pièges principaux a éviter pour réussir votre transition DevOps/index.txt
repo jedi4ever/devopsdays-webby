@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Alain Delafosse
 title: "Les 10 pièges principaux à éviter pour réussir votre transition DevOps"
+platinum: true
 ---
 
 **Résumé :**

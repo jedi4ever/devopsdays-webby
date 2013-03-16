@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Benoit Moussaud
 title: "Monter une plateforme de déploiement automatique DevOps en une heure"
+platinum: true
 ---
 
 **Résumé :**
