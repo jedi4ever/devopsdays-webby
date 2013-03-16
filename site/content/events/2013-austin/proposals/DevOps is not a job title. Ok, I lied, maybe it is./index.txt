@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Pete Cheslock
+title: "DevOps is not a job title. Ok, I lied, maybe it is."
+---
+
+**Abstract:**
+I've had a love/hate relationship with using DevOps as a job title.  In 2010, we called the team I ran the DevOps team, I was their Director, so naturally I was the Director of DevOps.  Later I changed it to Dir. of Web Ops to be more in-line with what we were doing, and since there was still much confusion around what DevOps actually means.
+
+With my recent change, joining the Dyn Ops team, I had an opportunity to choose my title.  After some discussion we realized that "DevOps" as a title was the most logical choice.  
+
+I want to chat about the thought process, the current state of the world when it comes to Job Titles (and DevOps in general), and hopefully spark some discussion on why I believe that there is a correct way to use the title, and an incorrect way.
+**Speaker:**
+
+Pete Cheslock
