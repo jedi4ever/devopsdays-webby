@@ -18,6 +18,7 @@ I've had a love/hate relationship with using DevOps as a job title.  In 2010, we
 With my recent change, joining the Dyn Ops team, I had an opportunity to choose my title.  After some discussion we realized that "DevOps" as a title was the most logical choice.  
 
 I want to chat about the thought process, the current state of the world when it comes to Job Titles (and DevOps in general), and hopefully spark some discussion on why I believe that there is a correct way to use the title, and an incorrect way.
+
 **Speaker:**
 
 Pete Cheslock
