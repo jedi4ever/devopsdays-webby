@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Rainer Heinold
+title: Scaling DevOps in the Enterprise – Best Practices and Building Blocks
+---
+
+**Abstract:**
+
+Although DevOps is one of the hot topics for C-level executives, a lot of initiatives fail or don’t produce value for an organization. However, the roll-out of Agile methodologies increases the pressure on development and operations to improve the ability to take new applications and features into production.
+
+The session describes a tool-independent blueprint of a successful DevOps reference implementation in a large multi-national organization, highlighting the key factors that are necessary and how organizations can transform their infrastructure re-using the different capabilities they already have.
+
+**Speaker:**
+
+*Rainer Heinold, Senior Technical Director EMEA, CollabNet, Inc.*
+
