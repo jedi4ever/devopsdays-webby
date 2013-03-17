@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Willy Wijnands
+title: eduscrum, scrum in the classroom
+---
+
+**Abstract:**
+
+eduScrum is an edit for Secondary Education/High School.
+
+eduScrum uses the powerful ceremonies, roles and tools of Scrum. In this way the group owned scrum board gives the students an overview and the structure to make the group’s work transparent. Every lesson starts with the stand-up, which sees to it that there is a focus and a bond, this also put them in the right work mode. The retrospectives help students to continuously improve their tactics. 
+In eduScrum learning is the key element: smarter learning, learning to cooperate better, more responsibility, more freedom, learning to get to know themselves better. Because of that eduScrum owns an extra ceremony: creating teams on the basis of additional qualities. Own and extra instruments have also been developed. These instruments challenge and appeal to young people. With that eduScrum puts a powerful pedagogic layer under Scrum. 
+
+**Speaker:**
+
+Willy Wijnands, behalf of the eduScrum team.
+
+Willy Wijnands is a science and physics teacher, Jan van Rossum is a science teacher, both on the Ashram College in Alphen aan de Rijn. Ellen Reehorst is an education designer and trainer. Together they form the eduScrum team and are developing an educational version of scrum: eduScrum. 
+http://www.eduscrum.nl/
