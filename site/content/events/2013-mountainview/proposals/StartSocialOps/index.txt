@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Mytton
+title: "Start Social Ops"
+---
+
+**Abstract:**
+
+Description: DevOps is very focused on tools and automation and methodologies often assume a certain infrastructure size. However, nothing starts that way and humans are involved in every step. Provisioning your first instance as a bootstrapped founder is very different from having a team on call 24/7 responsible for complex components running the world.
+
+This talk will start at the beginning examining how to run your infrastructure as a single founder, and how that team scales over time. It will consider social aspects such as on-call schedules, technical handoffs and correct procedures as well as exploring the tools that make this possible.
+It will include some interesting war stories as well as tips and suggestions for how to run ops at a startup.
+
+
+**Speaker:**
+
+David Mytton is the founder of server monitoring tool, Server Density, where he has been using MongoDB in production for almost 4 years. He has been programming in PHP and Python for over 10 years, regularly speaks about MongoDB (including starting the London MongoDB User Group), co-founded the Open Rights Group and can often be found cycling in London or drinking tea in Japan.
