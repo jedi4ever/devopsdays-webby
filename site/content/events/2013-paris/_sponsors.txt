@@ -16,6 +16,7 @@ filter:    erb
   { :image => "oxalide.png", :name => "Oxalide", :link => "http://www.oxalide.com/"},
   { :image => "normation.png", :name => "Normation", :link => "http://www.normation.com/"},
   { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
+  { :image => "enovance.png", :name => "Enovance", :link => "http://www.enovance.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
