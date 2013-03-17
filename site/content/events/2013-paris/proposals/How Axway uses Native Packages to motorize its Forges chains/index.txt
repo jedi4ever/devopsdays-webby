@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Henri Gomez
 title: How Axway uses Native Packages to motorize its Forges chains?
+platinum: true
 ---
 
 **Abstract:**

@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Tugdual Grall
 title: Why NoSQL Databases are the best for Devops?
+platinum: true
 ---
 
 **Abstract:**
