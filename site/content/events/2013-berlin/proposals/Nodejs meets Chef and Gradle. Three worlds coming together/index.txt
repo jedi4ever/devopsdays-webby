@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Evgeny Goldin
+title: "Node.js meets Chef and Gradle. Three worlds coming together"
+---
+
+**Abstract:**
+
+Traditionally, Node.js, Chef and Gradle communities used to hang out
+separately, each one using their own tool. But as we know, it's only a
+combination of useful tools that brings the maximal benefits to the
+DevOps. This presentation joins the forces of these technologies and
+demonstrates a fully automated deployment of Node.js application on
+Amazon EC2 with Chef and Gradle. We'll see the steps involved, how
+each technology contributes to the process and finally consider if it
+could really work otherwise.
+
+**Speaker:**
+
+Evgeny Goldin

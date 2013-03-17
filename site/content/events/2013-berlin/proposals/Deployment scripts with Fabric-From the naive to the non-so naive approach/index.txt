@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jose A. Martin
+title: "Deployment scripts with Fabric. From the naive to the non-so naive approach"
+---
+
+**Abstract:**
+
+This talk is about good practices on the deployment process,
+basically. I will expose how the deployments evolve all over the time
+from a small startup scenario to a medium company and from a small
+single script to a infrastructure as code paradigm.
+
+I will use concrete examples for a django, wsgi, nginx, mysql typical setup.
+
+In my opinion, the talk is interesting for everyone that is building a
+product and obviously has to release it at some point. It is really
+technical and based on a python technology stack but the patterns can
+be applied on other environments.
+
+**Speaker:**
+
+Jose A. Martin, is a devops and backend engineer working for a startup
+here in Berlin. The talk is based on his personal experience in the
+last 2 years.
