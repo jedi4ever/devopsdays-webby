@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Cyrille Le Clerc
+title: Java monitoring in action with Graphite and jmxtrans
+platinum: true
+---
+
+**Abstract:**
+
+Java monitoring has long been difficult due to the pain of connecting to JMX from graphing and alerting monitoring systems. The “Monitoring sucks” motto really applied to Java.
+
+Come and discover how monitoring Java applications became easy with a new generation of Open Source tools like Graphite and jmxtrans. 
+Discover how the self-service approach of Graphite allows Dev and Ops teams to integrate monitoring in the Continuous Delivery Pipeline to offer dashboards technical and business indicators to Run, Build and also Business actors.
+
+The era of darkness is over, let there be light!
+
+**Speaker:**
+
+*Cyrille Le Clerc, CloudBees*
+
+Cyrille is Elite Architect at CloudBees with more than 12 years of experience in Java technologies. He came to CloudBees from Xebia where he was CTO and Architect. 
+
+He was an early adopter of the “You Build It, You run It” model that he put in place for a number of high volume web sites. He naturally embraced the DevOps culture as well as Cloud Computing which he implements for his customers. Cyrille is very active in the Java community as a the creator of the Open Source project embedded-jmxtrans and as a speaker at conferences.
