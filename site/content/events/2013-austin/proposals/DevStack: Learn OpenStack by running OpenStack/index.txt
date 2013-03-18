@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Everett Toews
+title: "DevStack: Learn OpenStack by running OpenStack"
+---
+
+**Abstract:**
+OpenStack is a cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, all managed by an interface that gives administrators control while empowering their users to provision their own resources. It's designed to be massively scalable and can run on tens of thousands of machines. But no-one can easily understand a set of services that are running across tens of thousands of machines.
+
+DevStack is a collection of bash scripts that will deploy a full working version of OpenStack on a single machine. It's typically used by developers but it's also an excellent way for operators to learn what makes OpenStack tick. You can follow along with this presentation and run DevStack in VirtualBox or in a cloud enviroment like the Rackspace Cloud, HP Cloud, or AWS EC2. You will learn what services make up OpenStack, how they interact with each other, how they interact with a client request, and how to trace the path of such a request. This will give you a concrete foundation for understanding OpenStack and being able to grow that knowledge by tinkering with its operations.
+
+**Bio:**
+Everett Toews is a Developer Advocate at Rackspace making OpenStack and the Rackspace Cloud easy to use for developers. Sometimes developer, sometimes advocate, and sometimes operator. He's a committer on jclouds and co-author of the OpenStack Operations Guide. In the past he has built web applications, taught workshops, given presentations around the world, and deployed OpenStack in production.
+
+
+**Speaker:**
+
+Everett Toews
