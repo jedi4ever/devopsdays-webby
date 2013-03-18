@@ -9,7 +9,7 @@ ignite: true
 selected: false
 layout: event
 author: Neil Matatall
-title: ""
+title: "Dig up stupid"
 ---
 
 **Abstract:**
