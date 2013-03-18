@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Kief Morris
+title: "We can't do Devops Here"
+---
+
+**Abstract:**
+
+A growing number of people in the corporate world are becoming aware
+of DevOps, and hoping that its ideas can help them become better at
+delivering and supporting software. I've had the opportunity to meet,
+visit, and work with a number of companies looking into this, and I've
+noticed a some patterns in the things that people think make DevOps
+too hard to make work for them.
+
+"DevOps sounds great in theory, but it isn't realistic for us, it just
+wouldn't work here".
+
+The company where the development team needs to talk to 12 different
+teams and wait 6 weeks in order to get a new virtual machine. For
+development.
+
+The team which has two people whose full time job is merging code branches.
+
+The development team which developed an automatically deployable
+application on Linux on AWS and delivered it to an IT team which
+deployed by hand to Solaris.
+
+I can't claim to have solved all of these problems, but I have found a
+number of patterns and approaches which have been useful in moving
+people in the right direction, and I would like to share and discuss
+them.
+
+**Speaker:**
+
+Kief Morris
+
+Kief is a software delivery consultant with ThoughtWorks in London, specializing in tools, practices, and processes for the continuous delivery of software.
+http://www.kief.com
