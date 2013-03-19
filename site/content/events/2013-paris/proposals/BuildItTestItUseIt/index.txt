@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: TBD
+title: "DevOps : Build it, Test it, Use it"
+platinum: true
+---
+
+**Résumé :**
+
+La pression de la concurrence conduit les entreprises à devoir mettre les applications en production de plus en plus rapidement avec un niveau de qualité de plus en plus élevé.
+Ceci a conduit aux méthodes de développement agiles qui a changé le processus de développement d’une approche monolithique à une livraison plus fréquente de petites releases.
+
+Cependant, la plupart des processus d’exploitation restent conçues pour gérer un faible nombre de déploiement de releases. Cette différence dans le rythme de livraison des versions est à l’origine de nombreux problèmes pour les DSI ralentissant le processus de release des applications.
+
+DevOps est un mouvement visant a réduire les écarts entre les équipes de développements, de tests et de production en utilisant un ensemble de pratique et méthode autour de la collaboration, l’automatisation, la gouvernance et la qualité. Venez découvrir l’approche HP Software pour coordonner la collaboration DevOps et permettre de développer, tester, déployer et opérer plus efficacement et rapidement par une visibilité partagée entre tous les acteurs de la chaîne de production des services.
+
+La trajectoire d’implémentation de cette supply chain de l’IT est jalonné d’un ensemble de quicks wins et fonction de la maturité de nos clients
+
+*    Traçabilité de bout en bout de la release: liens entre les exigences, le code, les tests, le build, les anomalies
+*    Automation de la mise à disposition d’environnement jusqu’au déploiement de l’application pour soutenir les activités de tests.
+*    Automatisation des campagnes de test de non régression.
+*    Amélioration des processus de développement et de test par une meilleure prise en compte des informations sur le comportement de l’exécution du service en production.
+
+**Orateurs :**
+
+*TBD*
+
