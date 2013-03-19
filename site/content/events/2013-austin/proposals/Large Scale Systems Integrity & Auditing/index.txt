@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Richard Maynard 
+title: "Large Scale Systems Integrity & Auditing"
+---
+
+**Abstract:**
+These days everywhere I turn there's a lot of talk about managing configuration files, and deployed application versions. I hear the shouts from the roof tops about the power of today's configuration management tools such as Puppet and Chef. For all of the important and great work these tools do, there is something missing, basic system level file integrity checking and auditing. Configuration Management will ensure that /etc/sudoers has the right rules, and it may even ensure that your installed package version is the latest and greatest. You may have great reporting around your CM tools and can determine when the sudo package changed, but can you ensure that the version of sudo on your box today, is the one you expect to be there? Can you be sure that it hasn't been supplanted by an attacker targeting your system?
+
+There are some commercial options, and there's the open source Tripwire which has been around for over 20 years was at one time the defacto standard for this type of work. Implementing auditd is a great option when you require an audit trail from the kernel level. However neither of these two solutions was a good fit for Rackspace, my employer. Tripwire simply wasn't meant to be implemented in a distributed fashion, and auditd is heavier handed than we could tolerate operationally. Our primary goals were to ensure protection from compromise and validate that some files are the exact versions we expect for proper functionality.
+
+I am a systems engineer working on the Rackspace Cloud Computing product, and created Integrity, our system to fill the needs outlined above. I would like to share why the tool was created, how it was created, and what special considerations / solutions (such as no direct network connectivity to machines the tool needs to manage, an environment of tens of thousands of boxes, and potentially tens of thousands of changes) went into designing it.  I want to share how we leveraged Flask, Twisted Python, and Mongo, and a couple of scripts to develop and manage a system that allows us to protect our entire infrastructure.
+
+**Speaker:**
+
+Richard Maynard
