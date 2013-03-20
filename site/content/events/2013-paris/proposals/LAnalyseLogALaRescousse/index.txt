@@ -27,6 +27,3 @@ l'analyse des logs ainsi que les avantages liés à ce genre de solution.
 **Speaker:**
 
 *Jérôme Renard, Belogik*
-
-Jérôme est committer sur le projet Apache Zeta Components. Il a travaillé pour un
-certain nombre de grosses infrastructures Françaises et étrangeres.
