@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Patricio Arvizu
+title: "Exposing a build system API"
+---
+
+**Abstract:**
+When starting a new job as a release engineer or stepping into a new organization, there are a lot of things to discover; how are deployments being made, what is the versioning strategy, what is the branching policy, etc. In most cases you were brought in as the first release engineer or as the specialist to give a solution to an overwhelming problem. You have to start somewhere, but where? The lack of understanding of what a SNAPSHOT is? The absence of Jenkins, Bamboo, TeamCity or any other CI server?
+I would like to present a series of good and bad habits that some development organizations tend to have, as well as some of the frustrations that one faces as a release engineer. Not only documenting them, but also present potential solutions and ways I've approached these problems in my experience.
+
+**Speaker:**
+
+Patricio Arvizu
+
+Patricio Arvizu is a Release Engineer for Condé Nast in New York City
