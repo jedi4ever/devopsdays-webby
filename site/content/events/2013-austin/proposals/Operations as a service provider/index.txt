@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Berkay Mollamustafaoglu
+title: "Operations as a service provider"
+---
+
+**Abstract:**
+In the enterprise, where there are existing organizational silos each with their own tools and processes, introducing a new tool/process/paradigm that employs rip & replace approach stands little chance of success. A more nuanced approach that focuses on the services and their interfaces has much better chance to reduce friction and improve organizational adoption. 
+Taking a service provider posture, ops teams can offer "services" that enable development teams to integrate routine operational tasks into the software development life-cycle and improve collaboration among different organization entities. For these services, ops teams can implement and manage the underlying infrastructure, and provide visual (UI) and programmatic (API) interfaces to all interested parties.
+Operations teams have been moving from "doing things for developers" (deploying, monitoring  apps, etc) towards implementing and operating solutions that enable developers to do things for themselves. Most common example of this trend is, operations teams implementing continuous deployment solutions by leveraging configuration management tools like Puppet & Chef, enabling developers to deploy applications into production themselves. This talk will look at some other services that can (and should) be provided by ops teams such as: 
+
+* Log management as a service; enabling developers to emit logs, collecting logs from servers, applications, network devices, etc., and make them available to developers via UIs and APIs
+* Metrics as a service; enabling developers to easily collect and access metrics for their applications, as well as accessing other relevant monitoring data that may be collected by operations.
+* Alert management as a service; enabling developers to define runbooks, create alerts and receive notifications
+The talk will describe how to implement these solutions conceptually to minimize organizational resistance, as well as outlining some of the tool sets that are useful in implementing these services.
+
+**Speaker:**
+
+Berkay Mollamustafaoglu
