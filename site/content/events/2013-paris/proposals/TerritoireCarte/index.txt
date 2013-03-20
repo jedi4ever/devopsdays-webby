@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Pierre-Yves Ritschard
-title: Le territoire et la carte: une histoire de visibilite
+title: "Le territoire et la carte: une histoire de visibilite"
 platinum: true
 ---
 
