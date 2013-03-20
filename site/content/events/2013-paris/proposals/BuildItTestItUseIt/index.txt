@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: TBD
+author: Eric Chaussier
 title: "DevOps : Build it, Test it, Use it"
 platinum: true
 ---
@@ -31,5 +31,5 @@ La trajectoire d’implémentation de cette supply chain de l’IT est jalonné 
 
 **Orateurs :**
 
-*TBD*
+*Eric Chaussier, Presales Manager HP*
 
