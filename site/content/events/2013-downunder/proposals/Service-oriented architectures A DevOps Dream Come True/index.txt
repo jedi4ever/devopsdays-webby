@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Matt Palmer
+title: "Service-oriented architectures: A DevOps Dream Come True"
+---
+
+**Abstract:**
+
+Automation is fun.  But dealing with the myriad of services that are in the
+typical company that has been around for a while (can you say "legacy
+systems" without panicking?) tends to put a crimp in your style.  To add
+insult to injury, automating everything can *reduce* your ability to clean
+out the cruft because so many more things need to be changed in order to
+retire a legacy system.
+
+Enter: the service-oriented architecture.  Coming off the back of a
+year-long effort to put APIs in front of *everything*, Anchor CTO Matt
+Palmer will describe why Anchor decided to do all this work, what worked
+well, what didn't work, the benefits we've seen since the introduction of
+our new architecture, and how you can make a service-oriented utopia in your
+own company.
+
+**Speaker:**
+Matt Palmer
