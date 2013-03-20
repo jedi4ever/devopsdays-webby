@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Fabrice Bernhard
+title: Refonte agile d'une application obsolète
+platinum: true
+---
+
+**Abstract:**
+
+Entre les débuts du web, la sortie de Rails 1.0 en 2005, et maintenant Rails 3, Symfony2 Play2, Zend Framework2, Django 1.5 etc. beaucoup d'applications webs critiques ont été développées sur des architectures improvisées et des technologies aujourd'hui obsolètes. Ces applications sont difficiles à faire évoluer et représentent un vrai danger pour la vélocité des entreprises qui en dépendent.
+
+La solution de tout jeter pour recommencer est peut-être tentante pour l'équipe de développeurs mais c'est une solution extrêmement risquée en termes de continuité de services. Pour diminuer le risque, il faut avoir une approche agile à la fois dans le développement des évolutions et dans la mise à jour de l'application en production et bien coordonner les deux aspects : il faut une approche devops.
+
+Basée sur l'expérience de plusieurs projets, nous aborderons les 7 étapes chronologiques de la refonte agile d'un existant associées à des solutions culturelles et techniques que nous avons identifiées :
+
+* prévention des régressions
+* mise à jour de l'infrastructure
+* gestion du routing et des entrées/sorties
+* partage du layout
+* intégration de la session
+* amorcer la transition la du code vers une architecture orientée service
+* migration progressive du modèle et des données
+
+Nous verrons au passage que l'essentiel des problématiques rencontrées pendant une refonte agile sont celles auxquelles s'intéresse le mouvement devops.
+
+*Pourquoi ?*
+
+Le sujet de la migration progressive de Symfony1 vers Symfony2 est un sujet sur lequel nous travaillons beaucoup chez Theodo et Allomatch. En effet dans les deux sociétés nous travaillons énormément avec Symfony et la version 2 n'est pas juste une amélioration mais un nouveau framework, donc pas de migration automatique possible.
+
+Au fur et à mesure que nous avons pris du recul sur le sujet nous nous sommes rendus compte que l'ensemble des solutions que nous mettons en place sont haut-niveau et donc généralisables à n'importe quel langage ou framework. Nous nous rendons aussi compte que beaucoup des solutions que nous apportons sont culturelles et que nous introduisons sous couvert de "solution innovante de migration progressive" tout un ensemble de bonnes pratiques devops sur les projets : monitoring business, intégration continue, pipeline de déploiement automatisé, releases petites et régulières, etc. D'un point de vue haut-niveau, ce que nous apportons c'est un regain de vélocité sur des projets embourbés, ce qui à mon avis est exactement l'objectif de la philosophie devops.
+
+J'ai déjà abordé notre expérience sur la migration progressive de Symfony1 à Symfony2 en conférences, je n'ai jamais eu l'occasion d'aborder le sujet d'un point de vue non Symfony et plus devops.
+
+**Speaker:**
+
+*Fabrice Bernhard, Fondateur et Directeur Technique Theodo*
+
