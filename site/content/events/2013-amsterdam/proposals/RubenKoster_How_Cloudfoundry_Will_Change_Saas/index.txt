@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ruben Koster
+title: "How Cloudfoundry will change Saas (and why you should be using BOSH)"
+---
+
+**Abstract:**
+
+Presentation about how we as developers all face the same problem;
+The problem of running applications and their services and scaling them.
+But that we all solve this problem using a different technology stack.
+This talk will be a call to action to unite our forces to solve this problem together.
+By using "Open standards with broad industry support".
+The proposed stack will be CloudFoundry deployed by BOSH on OpenStack.
+This talk is intended as a discussion starter and to help people understand the problem space.
+
+**Speaker:**
+
+Ruben Koster
+
+github.com/rkoster
+Experience: Have been working with CloudFoundry and BOSH for the past year.
+I'm not related to Vmware or EMC (the companies behind CloudFoundry and BOSH)
+Also contributed to bosh and bosh-bootstrap.
+Got user level knowledge of OpenStack.
