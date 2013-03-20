@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Florian Gilcher
+title: How ops improved my dev
+platinum: true
+---
+
+**Abstract:**
+
+Devops is there for a reason - not because its fun, but because it provides measurable benefits. But what are the benefits of a devops, from a developer perspective? I'd like to explain my experiences about expecting a more operations-focused development flow in my work environments and the benefits that the whole team reaps from it. This talk covers how to convice unwilling developers of the benefits of this approach.
+
+**Speaker:**
+
+*Florian Gilcher*
+
+Florian Gilcher can call himself "old-school Ruby programmer": when he learned Ruby, Rails was yet to be born. Today, he wandered on and is one of the core members of the [Padrino](http://padrinorb.com) frameworks, to which he frequently commits. He strongly believes that base unit of modern software development is the process.
+
+email: florian.gilcher@asquera.de
+twitter: @argorak
+github: skade
+
+Previous talks:
+- "Padrino" talk/workshop at eurucamp 2011
+- "Encoding in Ruby 1.9" at Euruko 2010
+- "Fear of adding processes" at wroclove.rb 2012 (http://www.youtube.com/watch?v=BYmHOF58bDY)
+- "A la carte please" at wroclove.rb 2013
+- Lightning talks at RubyKaigi (theres a video, but I cannot navigate the japanese site where its on...), Euruko 2009 (http://blip.tv/euruko/euruko2009-first-seasson-of-lightning-talks-2610508 , minute ~25) and 2008

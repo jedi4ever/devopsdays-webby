@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Julien Rabier
+author: Julien Rabier, Cédric Lecomte
 title: "Openstack : packaging et gestion de configuration"
 platinum: true
 ---
@@ -33,6 +33,8 @@ Nous proposons de présenter lors d'une session de 30min le travail réalisé pa
         * Écosystème des modules puppet : RabbitMQ, MySQL, Memcached, Sysctl, Inifile, …
         * Contribution d'un module pour Ceilometer
 
-**Speaker:**
+**Speakers:**
 
 *Julien Rabier, Project Manager, eNovance*
+
+*Cédric Lecomte, eNovance*
