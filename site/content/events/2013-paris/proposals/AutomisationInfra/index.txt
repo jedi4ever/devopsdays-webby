@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pierre-Yves Ritschard
+title: Automatisation d'infrastructure, passe, present et futur
+platinum: true
+---
+
+**Abstract:**
+
+Cette presentation retrace l'histoire de l'automatisation d'infrastructure, de la situation initiale il y a une douzaine d'annee, a l'arrivee des premiers systemes formels de gestion de configuration.
+
+A travers cette vue d'ensemble, l'evolution du contrat entre dev et ops est retracee en mettant en avant les compromis effectues de part et d'autre.
+
+Un premier bilan de la situation actuelle est dresse et mets en lumiere certaines limites des outils que nous utilisons ainsi que certaines barrieres mentales qui ne sont pas encore totalement tombees.
+
+Un pas suivant dans l'evolution de l'automatisation d'architecture est propose et mis en relation avec l'evolution des infrastructure logicielle qui sont desormais developpees.
+
+La presentation termine un tour d'horizon rapide des outils qui tentent d'adresser ces nouveaux besoin et l'impact qu'ils ont sur le metier devops.
+
+**Speaker:**
+
+*Pierre-Yves Ritschard, developeur OpenBSD*
+
+Pierre-Yves, apres plusieurs postes de gestion d'operation dans des grandes structures je bascule il y a 3 ans vers des postes d'architecture de systeme distribues.
+
+Tres implique dans le monde open-source et dans plusieurs projets a forte connotation devops, notamment riemann, pallet et collectd.
