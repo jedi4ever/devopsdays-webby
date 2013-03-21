@@ -34,3 +34,13 @@ The entire talk will be presented as a historical account of how we've changed a
 **Speaker:**
 
 *Kushal Pisavadia*
+
+Kushal is a Software Developer at Her Majesty's Government Digital Service, part of the UK Government, where he is helping build GOV.UK.
+
+He is mainly interested in functional programming, browsers development, and simpler configuration management. Previously he has worked as a developer and/or systems administrator for agencies, startups and things in-between.
+
+When not working, Kushal can be found uploading code to [GitHub][1] or climbing walls outdoors. He also helps organise the London Clojure User Group and the London Clojure Dojos.
+
+Twitter: @KushalP
+
+[1] https://github.com/KushalP
