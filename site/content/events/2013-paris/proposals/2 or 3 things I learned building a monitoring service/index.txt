@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alexis Le-Quoc
+title: "2 or 3 things I learned building a monitoring service"
+platinum: true
+---
+
+**Abstract:**
+
+In 2010 3 of us started to build a product for the devops crowd, predicated on a few napkin drawings and 2 basic ideas: (a) software engineers who write software for scale, live and die by metrics and (b) these metrics come from a zillion different tools that create silos. We chose a memorable name and a cute logo and off to the races.
+
+Fast-forward 3 years, the 3 have become 15, the product has evolved into a monitoring service and the company is gaining new customers every week without any marketing.
+
+In these short 3 years we have had to:
+
+* find our customers (you, here) and find our focus,
+* scale from a single postgres instance to 5 different datastores all working in concert,
+* swap out parts of the backend as they become bottleneck
+* build X-ops into the core of the company (where X in [dev, tech, customer]),
+* discover a whole set of new metrics to obsess about,
+* learn something new every day, really.
+
+I would like to share with you some of the lessons I have learned (sometimes the hard way) in building this monitoring service because I wish someone had done the same when I started.
+
+**Speaker:**
+
+*Alexis Le-Quoc*
+
+Co-founder and CTO of Datadog, a monitoring service (that does not suck ;).
