@@ -20,6 +20,7 @@ filter:    erb
 { :image => "zilverline.png", :name => "Zilverline", :link => "http://www.zilverline.com/"},
 { :image => "wercker.png", :name => "Wercker", :link => "http://www.wercker.com/"},
 { :image => "amazon.png", :name => "Amazon", :link => "http://www.amazon.com/"},
+{ :image => "byte.png", :name => "Byte", :link => "http://www.byte.nl/"},
 { :image => "info-nl.png", :name => "Info.nl", :link => "http://www.info.nl/"},
 { :image => "engineyard.png", :name => "Engine Yard", :link => "https://www.engineyard.com/"},
 { :image => "codecentric.png", :name => "codecentric", :link => "http://www.codecentric.nl/"},
