@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: TBD
+title: "L'industrialisation, le devops et la dette technique."
+platinum: true
+---
+
+**Résumé :**
+
+L'administration système va subir la même évolution que le développement, et l'industrialisation de l'infrastructure est à l'administration système ce que les frameworks/EDI sont au développement.
+Cette analogie a ses limites, mais met en évidence une chose: l'expertise est rare.
+ 
+*   La dette technique explose car les ressources finies sont considérées comme infinies.
+*   Les frameworks et la loi de Moore : la face cachée du pragmatisme.
+*   Les hautes performances nécessitent une expertise Dev et Ops.
+*   Les limites de l'automatisation : faut-il encore un pilote dans l'avion ?
+*   Ops -> WebOps -> DevOps : Un regard d'Ops sur les évolutions du métier dans l'univers du web.
+
+**Orateurs :**
+
+*TBD, Oxalide*
+
