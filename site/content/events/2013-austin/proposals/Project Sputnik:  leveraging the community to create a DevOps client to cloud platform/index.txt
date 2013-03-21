@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Barton George
+title: "Project Sputnik:  leveraging the community to create a DevOps client to cloud platform"
+---
+
+**Abstract:**
+Project Sputnik was born of the idea to create an Ubuntu-based client-to-cloud platform for developers that leveraged devops tools and principles.  From its inception, the project was designed to involve developer feedback directly into the product development process and to conduct the effort publicly utilizing social media, including blogs, twitter, forums, and Dell's IdeaStorm. This session will discuss how, thanks to the power of the community, this concept went from project to product in a little over 6 months.
+Background:
+
+By linking together an Ubuntu-based laptop and an OpenStack cloud back-end, developers are able to model an entire environment on their client and then launch it to the cloud. Add to that a community-based library of language profiles to down load and auto-install and you have fluid devOps environment to build test and deploy.
+
+**Speaker:**
+
+Barton George
