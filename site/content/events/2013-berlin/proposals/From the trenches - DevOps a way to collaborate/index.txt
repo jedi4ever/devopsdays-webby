@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Matti Klasson
+title: "From the trenches - DevOps a way to collaborate"
+---
+
+**Abstract:**
+
+My talk will be about how we at Avanza Bank, an E-trader in Sweden
+working with continuous delivery and ship new software to production
+every second Friday and try do it even more frequently. How we formed
+a delivery team with developer, architect, tester and operation. How
+that team are responsible for the processes and tools used by the dev
+and ops guys. How each team member at operation collaborate with one
+or two Dev teams regarding all ops needs for those team, such as new
+infrastructure, monitoring, log mgmt and so on. The essence of my talk
+will be that DevOps is all about collaboration, communication and
+culture not a new technology or job description.
+
+**Speaker:**
+
+Matti Klasson works at Avanza Bank, a Swedish E-trader company. Tens
+of thousands share transactions and investment fund commission notes
+are handled each day.
