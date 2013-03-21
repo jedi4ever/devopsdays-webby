@@ -22,7 +22,7 @@ What if:
 * we provide easy options to deploy a community center, internet cafe, library, school, or medical clinic!?!
 * we find more use cases and connect them to people willing to solve these issues?
 
-* Come see a talk/demo of the :ii usb and lets see if we can change the world by walking softly and sharing a usb stick.
+Come see a talk/demo of the :ii usb and lets see if we can change the world by walking softly and sharing a usb stick.
 
 **Speaker:**
 
