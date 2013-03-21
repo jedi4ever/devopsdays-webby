@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Cindy VanEpps
+title: "The DevOps Dunking Booth: Continuous Consumption"
+---
+
+**Abstract:**
+We talk about development and operations and the balance of speed and governance, but what about the customer/user sitting in the dunking booth being bombarded with new functionality? “You’ll eat it and you’ll like it!” my Grandma Stowell used to say. Its not that she was a food tyrant but rather that she had spent all day in the kitchen preparing a meal. 
+
+Now I can go to a restaurant, place an order and be served within 20 minutes or so.  The testing and feedback on the product I receive happens immediately. If I determine that it is so delicious I must have more, I can receive more product in the same dining event.   
+
+In IT, our business users don’t always have an appetite for fast food.  In this ignite talk, I will provide visual imagery and catch phrases to help the audience remember to focus on consumers of their DevOps fast pitch game.
+
+**Speaker:**
+
+Cindy VanEpps
