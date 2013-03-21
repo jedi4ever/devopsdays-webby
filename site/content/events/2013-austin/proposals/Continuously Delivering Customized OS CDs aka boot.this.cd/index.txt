@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chris McClimans
+title: "Continuously Delivering Customized OS CDs aka boot.this.cd"
+---
+
+**Abstract:**
+Learn about Netflix's Exhibitor and how you can use it to configure other services that depend on ZooKeeper (Kafka and Storm, for example).
+
+**Speaker:**
+
+Chris McClimans (@hippiehacker)
+
+**Bio:**
+(Solutions Engineer at Opscode / Chief Executive Hippie at Instant Infrastructure)
+
+An Austin Native, Chris left Texas in a VW van and travelled across the US, living in a kiwi caravan on the beach in New Zealand,  and ending up getting married on Sailboat. He spends half his time working in the Security and DevOps field and the rest volunteering at various NGOs. This lifestyle earned Chris his online nickname "hippie hacker."
+
+He spent time in Cambodia teaching youth to create and run "instant infrastructure" USB sticks in their local language. As a result of his work, Chris left behind a group on self-sufficient youth able to perpetuate their newly acquired knowledge. Less than a year later, those 6 youth from Battambang have grown to over 30 and regularly meet in Phnom Penh and Siem Reap. Chris believes that generosity is contagious, particularly if you give people a vehicle for it. Since infrastructure as code can be shared on a usb stick, and usb sticks are bootable, why not create bootable infrastructure as code? Generosity on a stick that can enable global change!
+

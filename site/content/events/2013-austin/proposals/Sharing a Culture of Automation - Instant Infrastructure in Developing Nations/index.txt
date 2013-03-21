@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chris McClimans
+title: "Sharing a Culture of Automation - Instant Infrastructure in Developing Nations"
+---
+
+**Abstract:**
+Many of us write code to automate deployment of software for a living. That code solves real problems, but we often use 'the cloud' and depend on decent network connectivity. I want to put this code in the hands of a wider audience, particularly those with the somewhat different use cases of developing nations.
+
+What if:
+
+* we take all this ethereal cloudy stuff and put it into the hands of real people, with real problems in developing nations where network connectivity might be a problem?
+* we create bootable USB sticks that know how to create more USB sticks... and make them work without internet?
+* we provide easy options to deploy a community center, internet cafe, library, school, or medical clinic!?!
+* we find more use cases and connect them to people willing to solve these issues?
+
+* Come see a talk/demo of the :ii usb and lets see if we can change the world by walking softly and sharing a usb stick.
+
+**Speaker:**
+
+Chris McClimans (@hippiehacker)
+
+**Bio:**
+(Solutions Engineer at Opscode / Chief Executive Hippie at Instant Infrastructure)
+
+An Austin Native, Chris left Texas in a VW van and travelled across the US, living in a kiwi caravan on the beach in New Zealand,  and ending up getting married on Sailboat. He spends half his time working in the Security and DevOps field and the rest volunteering at various NGOs. This lifestyle earned Chris his online nickname "hippie hacker."
+
+He spent time in Cambodia teaching youth to create and run "instant infrastructure" USB sticks in their local language. As a result of his work, Chris left behind a group on self-sufficient youth able to perpetuate their newly acquired knowledge. Less than a year later, those 6 youth from Battambang have grown to over 30 and regularly meet in Phnom Penh and Siem Reap. Chris believes that generosity is contagious, particularly if you give people a vehicle for it. Since infrastructure as code can be shared on a usb stick, and usb sticks are bootable, why not create bootable infrastructure as code? Generosity on a stick that can enable global change!
