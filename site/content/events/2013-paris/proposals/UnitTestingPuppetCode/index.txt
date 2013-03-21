@@ -8,7 +8,7 @@ proposal: true
 ignite: true
 igniteselected: false
 author: Philip Potter
-title: Why NoSQL Databases are the best for Devops?
+title: Unit Testing puppet code
 platinum: true
 ---
 
