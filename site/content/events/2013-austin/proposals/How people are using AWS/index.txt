@@ -18,11 +18,12 @@ We have an interesting vantage point of AWS at Stackdriver.  On behalf of our cu
 If you have an AWS footprint, we think that seeing aggregated, real-world performance metrics for EC2, ELB, RDS and more will provide you with useful points of comparison.  How does your setup compare to others?  What characteristics does an underperforming EC2 instance exhibit?  Are there patterns in the lifecycle of an ELB?  Does infrastructure vary across regions?  
 
 Some examples:
-  * EC2 and S3 are the most popular AWS services.  Do you know what comes next in terms popularity?  
-  * Windows is a lot more popular than we expected.  Over 20% of our customers have 25% of their EC2 instances running Windows.
-  * The response times from the AWS API make for some very interesting time series graphs.  If you're using the AWS API, we have lots to share with you.
-  * What are the most popular instance sizes and how does the average CPU utilization break down across those?
-  * Lots more fun and interesting stats about S3, EBS, ELB and more!
+
+ *  EC2 and S3 are the most popular AWS services.  Do you know what comes next in terms popularity?  
+ *  Windows is a lot more popular than we expected.  Over 20% of our customers have 25% of their EC2 instances running Windows.
+ *  The response times from the AWS API make for some very interesting time series graphs.  If you're using the AWS API, we have lots to share with you.
+ *  What are the most popular instance sizes and how does the average CPU utilization break down across those?
+ *  Lots more fun and interesting stats about S3, EBS, ELB and more!
 
 **Speaker:**
 
