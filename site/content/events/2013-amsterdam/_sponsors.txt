@@ -25,6 +25,7 @@ filter:    erb
 { :image => "engineyard.png", :name => "Engine Yard", :link => "https://www.engineyard.com/"},
 { :image => "codecentric.png", :name => "codecentric", :link => "http://www.codecentric.nl/"},
 { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/"},
+{ :image => "bitbrains.png", :name => "Bitbrains", :link => "http://www.bitbrains.nl/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
