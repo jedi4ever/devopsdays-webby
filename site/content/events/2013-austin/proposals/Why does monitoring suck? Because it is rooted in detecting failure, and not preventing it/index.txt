@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Peco Karayanev
+title: "Why does monitoring suck? Because it is rooted in detecting failure, and not preventing it"
+---
+
+**Abstract:**
+There is a buzz around #monitoringsucks in the DevOps community. But it ain't the tools, rather it is what you do with them! Monitoring is founded on the concept of detecting failure, and the practice is institutionalized across organizations of any size. I will explore common evils that stem from this core focus on failure and discuss the anti-patterns that ensue across operations. On the other hand, I will discuss other industries that have dealt with this problem successfully and with a consistent record of dramatically reducing failure rates. I will propose a new approach, "tracking" that goes beyond monitoring, discuss its merits and what it will take to implement. The main idea is "tracking close calls" and systematically improving apps and systems rather than monitoring for failures. "Close calls" are the canaries in the coal mine, and they lead up to bigger failures but nobody pays attention to these. If we take a long tail analogy "failures" are the head while "close calls" are the tail of application issues.
+
+
+**Speaker:**
+
+Peco Karayanev
