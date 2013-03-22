@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Greg Swift
+title: "Stop templating, start configuring"
+---
+
+**Abstract:**
+When you read through a configuration management manifest and all you see are a bunch of files being deployed. Can you actually tell how the system is configured?  How many copies of those templates do you have to manage if you support multiple OS's?
+
+Wouldn't it be nice if you configuration files had an API?  Wouldn't it be even better if that was exposed in your configuration management?
+
+Enter Augeas and Augeasproviders for Puppet.
+
+Augeas providers an API thats accessible with native bindings in multiple languages, including c, python, ruby, and even ___.  
+
+Augeasproviders is a handful of new types and Providers written directly in Ruby to extend Puppet.  Now instead of managing a template for sshd_config you can actually configure sshd_config parameters.
+
+sshd_config { 'PermitRootLogin': value => 'no' }
+
+There are already a handful of types and providers, but more are welcome!
+
+**Speaker:**
+
+Greg Swift
