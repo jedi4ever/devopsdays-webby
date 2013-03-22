@@ -8,16 +8,14 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Patricio Arvizu
-title: "Release Engineer, day 1"
+author: Rhett Glauser
+title: "Beyond open source configuration management - Rapidly building any cloud at scale "
 ---
 
 **Abstract:**
-A lot of CI Servers today offer a lot of functionality out of the box or through plugins, but as projects and companies grow, the code base outgrows the initial setup and scalability becomes a concern. Ideally, all projects would have a very thin build plan that interacts with a build system that exposes a set of "verbs" or actions that it can perform through a DSL. This way, the CI server is just a broker, pressing the right buttons, the real heavy work is on the build system and we don't really have to pay for a CI server. We can take it one step further if we package and release the build system as an artifact and bootstrap it as the first dependency of each project.
+Open source tools for configuration management have been available for years. But a new breed of tools is expanding the realm of what is possible. These new tools are built for the speed and scale of any cloud and now provide remote execution, orchestration and deployment of heterogeneous clouds and computing platforms, real-time infrastructure data, workflow automation, and efficient, fast communications in addition to configuration management. Thomas Hatch, creator of the Salt open source project, will detail the availability and usage of various open source management tools like ZeroMQ, Cobbler, Nova, Rundeck, Salt and Jenkins, all built for the requirements of cloud at scale and help automate data center management. Configuration management is just the start of what is possible with open source software for infrastructure management. Attend this presentation to learn what the bleeding edge of open source holds for server automation. 
 
 
 **Speaker:**
 
-Patricio Arvizu
-
-Patricio Arvizu is a Release Engineer for Condé Nast in New York City
+Thomas Hatch, SaltStack founder and CTO
