@@ -20,12 +20,12 @@ My outline/flow would be the following
 
 *  Outsourced the TV show….so what is the reality?
 *  The dream that can turn into a nightmare 
-  *  Improper vetting of developers
-  *  Looking at cost as the driver instead of quality
-  *  Undefined specs
-  *  The communication gap
-  *  Project management black hole
-  *  Project based, agile or really agile 
+    *  Improper vetting of developers
+    *  Looking at cost as the driver instead of quality
+    *  Undefined specs
+    *  The communication gap
+    *  Project management black hole
+    *  Project based, agile or really agile 
 *  Cultural differences between US based developers and the rest of the world
 *  When to subcontract outside the country
 *  A rising tide raises all ships
