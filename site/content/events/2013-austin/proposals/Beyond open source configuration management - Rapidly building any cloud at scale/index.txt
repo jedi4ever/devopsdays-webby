@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Rhett Glauser
+author: Thomas Hatch
 title: "Beyond open source configuration management - Rapidly building any cloud at scale "
 ---
 
