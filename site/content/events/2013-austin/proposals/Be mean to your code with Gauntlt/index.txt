@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: James Wickett
+title: "Be mean to your code with Gauntlt"
+---
+
+**Abstract:**
+Security testing is often done at the cadence of auditors and not at the pace of the dev team.  Gauntlt is an open source framework that helps you “be mean to your code” through development and into release--facilitating ruggedized software and better communication between dev, ops and security teams. This talk will help you get a feel for how to engage the security team and get started with implementing Gauntlt.  To see the full 50 minute version of this presentation please check out the Gauntlt team's presentation at AppSec USA > http://vimeo.com/54250714
+
+**Speaker:**
+
+James Wickett @wickett

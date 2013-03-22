@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Michael Pellon
+title: "TCP Tuning for Tomorrow"
+---
+
+**Abstract:**
+Today when it comes to improving web application performance the focus of most developers is on front end optimizations such as asynchronous resource loading, JavaScript bundling, local storage caching and cache header optimization that live at Layer 7 of the network stack. However, while these types of optimizations are very important, with the growing demand to access web applications on mobile devices as well as conventional PCs the unique characteristics of the networks mobile devices operate on require that attention be paid to the performance all they way down to Layer 4. As operations professionals we need to do a better job of helping our developer counterparts understand the challenges of optimizing network performance at Layer 4 for mobile networks and how the default TCP configuration in many contemporary operating systems is ill-suited for this new emerging breed of networks.
+
+
+**Speaker:**
+
+Michael Pellon

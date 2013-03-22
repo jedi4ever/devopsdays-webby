@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Paul Voccio
+title: "Deploying 10,000 nodes simultaneously "
+---
+
+**Abstract:**
+Show the challenges of deploying many thousands of nodes in an extremely short amount of time. After having tried a number of solutions we have reduced our deploy time from hours to minutes using a combination of  virtualenv,  puppet and bittorrent.  Will cover previous solutions and direction of tooling as it evolves.
+
+
+**Speaker:**
+
+Paul Voccio

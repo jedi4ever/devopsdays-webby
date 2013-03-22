@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: CopperEgg
+title: "The Challenges of Maintaining High Performance of a Production Cloud Infrastructure "
+---
+
+**Panel Discussion**
+
+**Abstract:**
+Explore the challenges of the day to day monitoring of a production cloud infrastructure and the processes and tools that have been put in place to better manage cloud performance.  
+
+Hear from a panel of local devops and administrators (Dachis Group, FeedMagnet, Mass Relevance, Sparefoot)  who need to keep their respective SaaS applications at the highest availability level for their customers and their companies.
+
+This panel will discuss different aspects of cloud computing, management, and monitoring including: Dynamic auto-scale environments, Amazon EC2, Rackspace Cloud, OpsCode Chef, centralized server monitoring solutions, automation, orchestration, configuration management, and alert based monitoring. 
+
+Gain insight on the challenges and reasons for monitoring servers, services application infrastructure, and applications.
+
+Cloud performance is an interesting topic because it affects application products not only at the base performance level, but at all levels including development, customer experience, and ultimately revenue. Applications need to be up and running smoothly, consistently and reliably in order to generate revenue and company wide growth. 
+
+
+**Panel Moderators:**
+
+CopperEgg
