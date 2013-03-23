@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Jesse Gonzalez
-title: "Making sense of all the logs."
+title: "Making sense of all the logs"
 ---
 
 **Abstract:**
