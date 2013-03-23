@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Jesse Gonzalez
+title: "NIH syndrome - Pitfall or Paradise"
+---
+
+**Abstract:**
+I suffer from NIH [1] syndrome as do some of you, if not all of you.
+
+Why do we rebuild solutions that already exist?
+
+Do you need to start from scratch?
+
+Does don't cover 100% of your needs? What about a patch?
+
+Is it written in the 'wrong' language?
+
+Do you not understand what it does? How can you make that better? 
+
+[1] -  http://en.wikipedia.org/wiki/Not_invented_here
+
+**Speaker:**
+
+Jesse Gonzalez
+
+**Bio:**
+I'm a Senior Systems Engineer with over 5 years of focus on monitoring. I've experienced working with solutions that were overly complex or inefficient at their designed purpose, some better than others, but most trying to do too much.

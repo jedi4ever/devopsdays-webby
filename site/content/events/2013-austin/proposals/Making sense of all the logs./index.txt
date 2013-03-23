@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jesse Gonzalez
+title: "Making sense of all the logs."
+---
+
+**Abstract:**
+Using rsyslog + cee, sagan and snorby can help find problems with your infrastructure.
+
+Thousand of log entries per second across an infrastructure are difficult to handle, make sense of, visualize are all problems in this domain. Working with open source tools, I'll demonstrate how you  can reduce the complexity of log analysis and focus on log entries only when the are problems to be concerned with.
+
+
+
+**Speaker:**
+
+Jesse Gonzalez
+
+**Bio:**
+I'm a Senior Systems Engineer with over 5 years of focus on monitoring. I've experienced working with solutions that were overly complex or inefficient at their designed purpose, some better than others, but most trying to do too much.
