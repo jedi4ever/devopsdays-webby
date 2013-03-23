@@ -11,8 +11,6 @@ filter:    erb
 -
 <a href="/<%= @eventhome %>/location">Venir</a>
 -
-<a href="/<%= @eventhome %>/propose">Proposer</a>
--
 <a href="/<%= @eventhome %>/sponsor">Sponsoriser</a>
 -
 <a href="/<%= @eventhome %>/contact">Nous Contacter</a>
