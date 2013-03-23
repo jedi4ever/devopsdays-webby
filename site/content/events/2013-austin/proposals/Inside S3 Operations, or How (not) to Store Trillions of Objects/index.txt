@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Isaac Salpeter
+title: "Inside S3 Operations, or How (not) to Store Trillions of Objects"
+---
+
+**Abstract:**
+I'd just like to share a day in the life of ops on what's certainly one of the largest private data storage pools in the world. In five minutes I'll give the inside scoop on our service architecture and explain how we structure our operational workload to keep it from scaling with fleet size and service complexity. I'll also give the top 5 tips to building an S3 workload that scales indefinitely out of the gate (and the pitfalls and consequences each will avoid.)
+
+**Speaker:**
+
+Isaac Salpeter
