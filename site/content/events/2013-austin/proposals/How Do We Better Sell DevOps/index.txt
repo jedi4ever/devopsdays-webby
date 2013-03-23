@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gene Kim
+title: "How Do We Better Sell DevOps?"
+---
+
+**Abstract:**
+In this talk, I will share my top lessons learned over my years studying high performing IT organizations on how to sell the value of DevOps, and help other stakeholders and executives have their own a-ha moments.  I will talk about specific stories about the circumstances that led to these a-ha moments, how they created DevOps champions in surprising places in organizations you'll recognize, and how they enabled implementing DevOps patterns that had awesome results.
+
+This will be based on the presentation that I first did at DevOpsDays London: http://www.slideshare.net/realgenekim/how-can-we-better-sell-devops.  (The tweet stream is captured at the bottom of the page here: http://scribes.tweetscriber.com/realgenekim/114)
+
+
+**Speaker:**
+
+Gene Kim
+
+**Bio:**
+Gene is a multiple award winning CTO, researcher and author.  He was founder and CTO of Tripwire for 13 years. He has written three books, including “The Visible Ops Handbook” and “The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win."  Gene is a huge fan of IT operations, and how it can enable developers to maximize throughput of features from “code complete” to “in production,” without causing chaos and disruption to the IT environment.  He has worked with some of the top Internet companies on improving deployment flow and increasing the rigor around IT operational processes. In 2007, ComputerWorld added Gene to the “40 Innovative IT People Under The Age Of 40” list, and was given the Outstanding Alumnus Award by the Department of Computer Sciences at Purdue University for achievement and leadership in the profession.
