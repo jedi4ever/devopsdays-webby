@@ -2,17 +2,17 @@
 filter:    erb
 ---
 <div class="submenu">
-<h4>
-<a href="/<%= @eventhome %>/">Accueil</a>
+<h3>
+<a href="/<%= @eventhome %>/">Accueil/Welcome</a>
 -
-<a href="/<%= @eventhome %>/program">Programme</a>
+<a href="/<%= @eventhome %>/program">Program(me)</a>
 -
-<a href="/<%= @eventhome %>/registration">S'inscrire</a>
+<a href="/<%= @eventhome %>/registration">S'inscrire/Register</a>
 -
-<a href="/<%= @eventhome %>/location">Venir</a>
+<a href="/<%= @eventhome %>/location">Venir/Location</a>
 -
 <a href="/<%= @eventhome %>/sponsor">Sponsoriser</a>
 -
-<a href="/<%= @eventhome %>/contact">Nous Contacter</a>
-</h4>
+<a href="/<%= @eventhome %>/contact">Contact</a>
+</h3>
 </div>
