@@ -9,11 +9,34 @@ talk: true
 selected: false
 layout: event
 author: Fabrice Bernhard
-title: "Transformer des devs en devops"
+title: "Transforming devs into devops"
 platinum: true
 ---
 
-**Abstract:**
+_This talk will be given in English_
+
+
+** English Abstract:**
+
+In the world of web development, the competence of a developer as perceived by his peers is usually more linked to his skills in system administration than his pure coding expertise. The polyvalence of the devops is indeed a quality that enables him to unblock critical situations, where a pure coder, even excellent, would be struggling.
+
+Let us transform all the devs into devops then! It is unfortunately not that easy, since the greatest part of the polyvalence is based on experience, hard to transfer rapidly.
+
+How can we accelerate the acquisition of experience? How can we transfer the "scars" of the veteran sys-admin to the freshly-arrived juniors ? How can we help autodidact sysadmins adopt the devops philosophy? How can we avoid that the introduction of tools typically associated with devops culture (vagrant, chef, puppet, fabric, etc.) makes system administration become even more complex to the juniors? 
+
+These are the questions we have asked ourselves in our team, with some solutions and a few reflexion paths:
+the devops folder
+
+* the homemade IAAS
+* the anti-magical provisioning
+* the sudo for all
+* the quality board
+* the pair-devopsing
+* the pseudo-on-call
+
+The goal is to tackle all these subjects without prejudices and open reflexion topics that can be further discussed during the open-space sessions.
+
+**Résumé en Français:**
 
 Dans le monde du développement web, on constate que la valeur perçue d'un développeur par ses pairs est souvent plus liée à ses compétences en administration système qu'en ses compétences en développement à proprement parler. La polyvalence du devops est en effet la qualité qui permet de débloquer les situations les plus difficiles, quand les autres développeurs, même excellents, pataugent.
 
