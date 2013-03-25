@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 ignite: true
-igniteselected: false
+igniteselected: true
 author: Philip Potter
 title: Unit Testing puppet code
 platinum: true
