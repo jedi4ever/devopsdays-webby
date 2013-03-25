@@ -13,6 +13,8 @@ title: "Les 10 pièges principaux à éviter pour réussir votre transition DevO
 platinum: true
 ---
 
+_This talk will be given in English_
+
 **Résumé :**
 
 Transformer son organisation pour adopter des principes DevOps est un projet qui implique à la fois des aspects techniques, organisationnels et culturels.
