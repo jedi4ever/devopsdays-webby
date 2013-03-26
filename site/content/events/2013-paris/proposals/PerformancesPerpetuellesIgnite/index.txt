@@ -15,7 +15,21 @@ platinum: true
 _This talk will be given in English_
 
 
-** French Abstract:**
+**Abstract:**
+
+What happened:
+
+You have launched a new project to build a web site. The architecture was just great. One year of development is planned. Production date right before Christmas. Iterative process. Small iterations. A clear roadmap maximizing the time to market. Life is good.
+
+
+One month before production, confident, you enter performance testing. A disaster. During development, response time were OK. Nothing to worry about. And you were sure the production servers were so powerful that they could solve any unexpected slowness. What a mistake! A state of emergency is declared. Work spread over the week-end and during your shortened holidays. You manage to fix the issue. It's not great, but it's alright. Post mortem: Three months late, 40% over budget and decent performances. Your end of year bonus, a bit less decent.
+
+
+Now, come to see how it could have been:
+
+Controlled performances all along the project. Going live without issues. And, most importantly, Christmas holidays in Tahiti with a Daiquiri.
+
+**Résumé:**
 
 Comment ça s'est passé:
 

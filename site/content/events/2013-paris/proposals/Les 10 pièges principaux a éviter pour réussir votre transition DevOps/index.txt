@@ -9,11 +9,25 @@ talk: true
 selected: false
 layout: event
 author: Alain Delafosse
-title: "Les 10 pièges principaux à éviter pour réussir votre transition DevOps"
+title: "The 10 major traps to avoid in order to succeed your DevOps transition"
 platinum: true
 ---
 
 _This talk will be given in English_
+
+
+**Abstract: **
+
+Transform its organization to adopt DevOps principles is a project that involves both technical, organizational and cultural.
+Let discover the 10 traps to avoid when you are engaging in a transition through dual experience from Kelkoo, main web comparison engine, and Objet Direct, agile architect.
+
+Among the traps that will be discussed :
+
+* Think that it's only about tools.
+* Star with misfit tools.
+* Build a DevOps team to succeed.
+* Only focus on deployment processes.
+* Forget the cultural aspect.
 
 **Résumé :**
 
