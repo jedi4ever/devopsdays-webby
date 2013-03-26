@@ -47,6 +47,7 @@ filter:    erb
 { :image => "rudebaguette.png", :name => "Rude Baguette", :link => "http://www.rudebaguette.com/"},
 { :image => "toolinux.png", :name => "TooLinux", :link => "http://www.toolinux.com/"},
 { :image => "webriver.png", :name => "WebRIVER", :link => "http://webriver.eu/"},
+{ :image => "developpez.png", :name => "Developpez.com", :link => "http://www.developpez.com/"},
 ]%>
 
 <h1>Media Sponsors</h1>
