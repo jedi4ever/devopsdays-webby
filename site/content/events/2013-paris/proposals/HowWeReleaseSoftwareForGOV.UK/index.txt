@@ -13,6 +13,8 @@ title: "How we release software for GOV.UK"
 platinum: true
 ---
 
+_This talk will be given in English_
+
 **Abstract:**
 
 GOV.UK is the new digital home of the British Government.

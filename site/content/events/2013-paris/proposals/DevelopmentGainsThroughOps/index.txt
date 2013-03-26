@@ -13,6 +13,8 @@ title: How ops improved my dev
 platinum: true
 ---
 
+_This talk will be given in English_
+
 **Abstract:**
 
 Devops is there for a reason - not because its fun, but because it provides measurable benefits. But what are the benefits of a devops, from a developer perspective? I'd like to explain my experiences about expecting a more operations-focused development flow in my work environments and the benefits that the whole team reaps from it. This talk covers how to convice unwilling developers of the benefits of this approach.

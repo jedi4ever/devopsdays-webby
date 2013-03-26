@@ -13,7 +13,7 @@ title:  Produit ou Projet ?
 platinum: true
 ---
 
-*This talk can be run in English if need be*
+_This talk will be given in English_
 
 **Abstract:**
 
