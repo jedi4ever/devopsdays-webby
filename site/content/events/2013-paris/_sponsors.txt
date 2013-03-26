@@ -46,7 +46,7 @@ filter:    erb
 <% @msponsors = [
 { :image => "rudebaguette.png", :name => "Rude Baguette", :link => "http://www.rudebaguette.com/"},
 { :image => "toolinux.png", :name => "TooLinux", :link => "http://www.toolinux.com/"},
-{ :image => "webriver.jpg", :name => "WebRIVER", :link => "http://webriver.eu/"},
+{ :image => "webriver.png", :name => "WebRIVER", :link => "http://webriver.eu/"},
 ]%>
 
 <h1>Media Sponsors</h1>
