@@ -17,6 +17,23 @@ _This talk will be given in English_
 
 **Abstract:**
 
+*Disclaimer: If you successfully perform your projects, this session is not for you.*
+
+
+In an I.T. Department projects fail (well not all of them).
+
+
+On the internet, products are successful (except those who fail).
+
+
+We will try to understand the major differences between a project and a product. And see how IT projects can learn from the process of making a product.
+
+
+We look at the of Lean methodologies, Product Management and Lean Startup.
+
+
+**Résumé:**
+
 *Disclaimer : Si vous réussissez vos projets, cette session n'est pas pour vous.*
 
 
@@ -32,10 +49,13 @@ Nous regardons du côté des méthodologies Lean, Product Management et Lean Sta
 
 *Rémy-Christophe Schermesser, Octo Technology*
 
-Rémy-Christophe travaille actuellement chez Octo Technology comme consultant senior.
+Rémy-Christophe is currently working at Octo Technology as a senior consultant.
 
-Il a commencé sa carrière par du développement web en s'intéressant plus particulièrement aux problématiques de qualité et de tests.
 
-Il a par la suite développé une expertise sur la gestion des projets agiles et les méthodologies Lean et Kanban qu'il a pu mettre en place pour différents clients.
+He began his career in web development with a focus on quality and testing.
 
-Sa curiosité pour les problématiques de création de produits depuis l’étude de marché jusqu’à leur commercialisation l'a alors amené à se passioner pour les méthodologies de Lean Startup, de Product development et de Customer development.
+
+He subsequently developed an expertise in agile methodologies, Lean and Kanban which he had set up for different clients.
+
+
+His curiosity for the problems of product development from market study to commercialization was what brought him to study Lean Startup, Product development and Customer Development.
