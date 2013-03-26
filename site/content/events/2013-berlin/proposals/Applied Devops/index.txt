@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Matthew Jones
+title: "Applied Devops"
+---
+
+**Abstract:**
+
+From small businesses, to public-listed companies and not-for-profits,
+I am being asked the same questions: What can we do to apply devops
+and what does that look like for our organisations?
+
+Drawing on experience from various organisations, I will talk about
+patterns that help (or hinder) businesses in applying devops practices
+from a "on the ground" point of view.
+
+Using various techniques from within teams, I'll go through examples
+that will help break down the barriers, improve communication and
+reach that "nirvana".
+
+Finally, talk about the challenges that organisations face once they
+have reached that "nirvana" and what is next for the organisations and
+the community.
+
+**Speaker:**
+
+Matthew Jones. <a href="http://www.slideshare.com/geekle">(On slideshare)</a>.
+
+Proposal could be held as panel discussion, presentation, ignite or openspace.
