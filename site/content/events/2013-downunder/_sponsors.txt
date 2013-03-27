@@ -25,7 +25,7 @@ filter:    erb
 <% end %>
 
 <% @bsponsors = [
-{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},{ :image => "octopus.png", :name => "Octopus Deploy", :link => "http://octopusdeploy.com/"},
 ]%>
 
 &nbsp;
