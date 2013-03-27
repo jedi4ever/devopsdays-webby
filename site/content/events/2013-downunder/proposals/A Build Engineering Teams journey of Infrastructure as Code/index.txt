@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Peter Leschev
+title: "A Build Engineering Team's journey of Infrastructure as Code"
+---
+
+**Abstract:**
+
+What does it mean to be practising Infrastructure as Code? Can we tick
+that checkbox when we use puppet and have the code checked into SCM?
+This talk will cover the kaizen journey of a Build Engineering team
+that started with that, and have slowly taken traditional development
+practises (such as DVCS, pairing, code reviews, BDD, continuous
+integration, continuous delivery) and combined them with traditional
+DevOps tools (such as puppet, mcollective, veewee, vagrant,
+librarian-puppet, puppet-lint) and practises (automation, provisioning
+from scratch, cattle instead of pets mentality) in managing a largish
+build platform (20 physical machines, 260 VMs, and 300 EC2 instances,
+Linux & Windows) that is critical to Atlassian's ability to deliver
+software to their customers. With the use of traditional development
+practises, come with development team related challenges, such as slow
+local development feedback loop, slow CI, flakey tests, ineffective
+code reviews, large infrequent releases causing large failures. You'll
+discover the tools & practises that worked for the team in managing
+this build platform, what challenges that were faced and how they were
+resolved.
+
+**Speaker:**
+Peter Leschev
