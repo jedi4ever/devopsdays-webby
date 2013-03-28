@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sriram Narayan
+title: "Administer the devops pill across the enterprise"
+---
+
+**Abstract:**
+
+Devops addresses the last mile of continuous delivery. It advocates
+the tearing down of silos between development and operations. It kind
+of assumes that silos don't exist elsewhere. This is often not true in
+enterprise IT where the number of silos correlates well with the
+number of vice presidents. This anti-pattern of org design takes two
+forms. One is when you have a VP sw-dev, VP Data, VP configuration
+management, VP Testing, VP UX, VP Deployment. The other is when you
+have a product manager along with a VP Sales, VP Marketing, VP Support
+and VP Training. On the other hand, an org design based on true
+cross-functional teams has teams accountable for business outcomes and
+puts one person in clear charge of each team. This part of getting
+things right can be classifed as CD for execs and basically involves
+applying the devops pattern to general org design. There is also a
+part two.
+
+Tooling can also hinder cross functional behaviour. Especially when
+access to tools are granted on a strict need-to-use basis. So for
+example, only sales guys get salesforce access. Or when marketing
+disallows self-service publishing from the product teams. Or when the
+devs use one tool for continuous integration and the deployment teams
+uses a completely different disconnected tool for release
+automation. Sometimes commercial considerations (licensing costs)
+encourage this behaviour but it doesn't serve the cause of tearing
+down silos. So we need a new kind of culture that restricts access to
+tools only where unavoidable but is open otherwise.
+
+
+**Speaker:**
+
+Sriram Narayan is Principal Consultant with ThoughtWorks India. He is
+currently the owner of features related to deployment on our
+continuous delivery product called "Go".
