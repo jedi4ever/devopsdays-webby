@@ -34,4 +34,4 @@ managing releases and solutions to common problems such as:
 
 **Speaker:**
 
-Wes Manson
+Wes Mason
