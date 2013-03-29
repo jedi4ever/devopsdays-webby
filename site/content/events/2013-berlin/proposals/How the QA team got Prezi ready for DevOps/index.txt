@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Peter Neumark
+title: "How the QA team got Prezi ready for DevOps"
+---
+
+**Abstract:**
+
+Prezi would not be where it is today if it wasn't for DevOps and
+continuous delivery. And for that, we can thank the QA department,
+since without tests we can depend on, the operations guys would be
+nervous having 20+ deploys to production per day by people who don't
+understand every part of Prezi's infrastructure. The classical DevOps
+balance between developers (who are measured by their speed) and
+operations (whose goal is maximizing availability) needs a third
+entity, QA, to make sure the user-perceived quality of the product is
+acceptable.
+
+In the beginning, the Prezi codebase was poorly tested, as the primary
+goal was getting something working out the door as soon as
+possible. As the volume of untested code began to grow, product
+quality deteriorated. In response, the first QA hire, and eventually
+the establishment of a dedicated QA team came to pass. This team made
+a major contribution to how Prezi works in three ways:
+
+<ul>
+<li>QA established quality as a value within the organization, now taken seriously by every employee.
+<li>QA made it easy for developers to write tests by creating the necessary tools and documentation.
+<li>QA made us realize that if a bad commit got deployed, we should blame our lack of tests, not the author of the faulty code.
+</ul>
+
+Similar to QA, the DevOps culture at Prezi has also matured
+considerably. Today, there is no longer a QA or a dedicated DevOps
+team, as each of the product development teams have assumed
+responsibility for the quality and operations aspects of their output.
+
+The topic of my talk is the journey from the beginnings of Prezi to
+where we are today from the vantage points of QA and DevOps. Emphasis
+will be placed on the organizational, people-centric problems and
+solutions, but I will also share the technical aspects of how we work.
+
+**Speaker:**
+
+Peter Neumark
