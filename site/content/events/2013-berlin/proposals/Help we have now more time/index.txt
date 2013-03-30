@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alexander Schwartz
+title: "Help, we have no more time for testing!"
+---
+
+**Abstract:**
+
+[Ignite (or presentation)]
+
+When introducing Continuous Delivery most teams are facing problems
+like "How to fit in our 4-days QA phase in a daily release rhythm?"
+Alex will cover a different aspects: WHEN to test? WHAT to test? WHAT
+NOT to test? WHICH technique to be used?
+
+**Speaker:**
+
+
+Alex' bread and butter comes from helping software companies to
+deliver to production faster.
+
+Since 2011 he leads a DevOps/Delivery team at Nokia L&C in Berlin,
+and fosters Continuous Delivery, Agile, Kanban/Lean and Agile
+Testing.
