@@ -12,8 +12,8 @@ title: "Performances perpétuelles : Mesures et améliorations continues des per
 platinum: true
 ---
 
-_This talk will be given in English_
-
+_This talk will be given in French_
+_Cette présentation sera en Français_
 
 **Abstract:**
 
