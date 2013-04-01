@@ -8,6 +8,7 @@ filter:    erb
 { :image => "bitbrains.png", :name => "Bitbrains", :link => "http://www.bitbrains.nl/"},
 { :image => "amazonws.png", :name => "Amazon Web Services", :link => "http://www.amazon.com/"},
 { :image => "tomtom.png", :name => "Tom Tom", :link => "http://www.tomtom.nl/"},
+{ :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
