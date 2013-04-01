@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Daniel Schauenberg
+title: "DevTools team at Etsy"
+---
+
+**Abstract:**
+
+The Etsy DevTools team was created to foster collaboration between
+engineering and operations and also between different teams within
+engineering. We provide the tools to make it easy for everyone to
+deploy, reaching from deployment tools to developer VMs and CI
+infrastructure automation. Our main concern is to make processes fast
+and simple to enable developers to do their work with maximum
+happiness.
+
+The talk will be about what are the main concerns of the DevTools team
+and its place between Engineering and Operations. I will give examples
+of how processes were improved and how we introduced tools which make
+it simple and safe to give developers access to production servers and
+data without causing ops headaches.
+
+**Speaker:**
+
+Daniel Schauenberg is a software engineer at Etsy's DevTools team. He
+spends his days automating infrastructure with Chef, making sure
+everybody can deploy and removing friction in processes where
+possible.
