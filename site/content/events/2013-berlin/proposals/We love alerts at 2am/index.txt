@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gabor Veszi
+title: "We love alerts at 2am"
+---
+
+**Abstract:**
+
+When I joined Prezi I was promised that I don’t have to be on-call
+ever. We promised this to everyone who joined our team. Last year we
+decided that we’d like to be on-call and we are really happy about
+this.
+
+Through the story of the evolution of our monitoring system I’d like
+talk about culture.
+
+Last year we doubled our active user count. As more users mean more
+responsibility, we had to concentrate on improving availability while
+simultaneously scaling our backend. One important component of this
+process is improvements in our monitoring system. I’d like to show how
+a good monitoring system enables happy and effective component owners.
+
+
+Originally we had the traditional, entirely separate Dev and Ops
+silos: we contracted with a company that was responsible for
+operations, and they used their own monitoring system. We added our
+own application metrics to this system, and when they received an
+alert they tried to solve the issue. As you can imagine, this
+arrangement had some problems. We have since got rid of these silos,
+bringing our ops in house, and are now much happier.
+
+
+In this talk I'd like to present what we did to improve our monitoring
+situation in small steps: we created our own monitoring system that
+makes it trivial for developers to add checks of our complex system.
+We introduced the concept of component ownership, and even though our
+developers must be woken up for some alerts at night, everyone is more
+satisfied than before.
+
+The talk will go into detail about the system itself as well as the
+social aspects of the arrangement.
+
+**Speaker:**
+
+Gabor Veszi
