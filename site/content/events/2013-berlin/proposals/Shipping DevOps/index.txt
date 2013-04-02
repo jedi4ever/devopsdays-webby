@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Daniel Spilker
+title: "Shipping DevOps"
+---
+
+**Abstract:**
+
+Driven by the need to move quickly CoreMedia's customers are demanding
+deployment automation and continuous delivery. Consequently, as a
+vendor of an enterprise content management system, CoreMedia is
+incorporating support for deployment tools and processes directly into
+its product.
+
+The presentation covers the challenges that CoreMedia has been facing
+and the solutions the engineers have applied when advancing the
+product to integrate with automation tools and processes. The
+challenges included that the development teams had only limited
+operations experience and could only acquire knowledge from CoreMedia
+professional services and customers in slow feedback cycles. The
+product is deployed on various platforms, each requiring their
+toolchains, thus generating complex requirements.
+
+To overcome the obstacles, a dedicated development team has been
+ramped-up to concentrate on deployment automation and continuous
+delivery. They created automated setups for CoreMedia QA and CI
+systems to gain operations experience and establish a fast in-house
+feedback cycle.
+
+**Speaker:**
+
+Daniel Spilker
