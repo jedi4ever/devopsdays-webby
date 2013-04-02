@@ -38,6 +38,7 @@ filter:    erb
   { :image => "serena.png", :name => "Serena Software", :link => "http://www.serena.com/"},
   { :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
   { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://www.ansibleworks.com/"},
+  { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
