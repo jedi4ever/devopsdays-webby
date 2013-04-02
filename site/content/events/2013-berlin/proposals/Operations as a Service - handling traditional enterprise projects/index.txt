@@ -1,0 +1,60 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Christian Theune, Christian Kauhaus
+title: "Operations as a Service - handling traditional enterprise projects"
+---
+
+**Abstract:**
+
+The "cloud" has opened the traditional "big enterprise" environments
+for outsourcing parts of their IT that has been kept in-house for a
+long time. Large companies and public institutions are looking for
+ways to save money, receive higher quality services, and become more
+flexible.
+
+At gocept we provide an "operations as a service" hosting environment
+that picks up infrastructure development and application operations
+tasks for traditional enterprise-style projects: intranet, extranet
+and integration applications, corporate web sites, and such.
+
+Over the last years we have served large enterprise and public
+institutions by applying and researching DevOps-style processes, FLOSS
+technology, and computer science to achieve those goals.
+
+Our personal goals include keeping a small, agile team, as well as
+integrating with external project developers and the customer.
+
+We will look at both the day-to-day and the less frequent challenges we meet:
+
+<ul>
+<li>communication
+<li>keeping customer applications up-to-date on a moving platform
+<li>educating
+<li>bridging the gap of operational responsibilities in a multi-party project
+<li>negotiating trade-offs
+<li>communication
+<li>in-house production depth
+<li>managing deployments
+<li>interfacing with corporate legal and financial requirements
+<li>helping customers consume the operational flexibility they ask for
+<li>communication
+<li>infrastructure and platform development
+<li>FLOSS community interactions
+<li>growing with no silver bullet
+<li>trusting our instincts
+</ul>
+
+Our talk will substantiate our experiences based on reliable anecdotal
+evidence from real, ongoing customer projects.
+
+**Speaker:**
+
+Christian Theune, Christian Kauhaus
