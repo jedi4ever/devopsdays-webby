@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nati Shalom
+title: "Continuous Delivery with Jenkins and Cloudify (FastConnect)"
+---
+
+**Abstract:**
+
+Continuous delivery is not an option anymore for organizations and
+companies that implement online services and products. The ability to
+rollout new code changes quickly and as frequently as needed is an
+important business enabler. In this session we’ll review the current
+options for CD in the cloud, and learn how to implement an automated
+CD process using Cloudify and Jenkins.
+
+**Speaker:**
+
+Nati is the Founder and CTO of GigaSpaces, he was recently recognized
+as a Top Cloud Computing Blogger for CIO’s by The CIO Magazine and he
+is also the founder of the IGTCLoud.  Nati is also a frequent
+presenter at industry conferences. He has spoken at IBM Information on
+Demand, Big Data Spain, DevOpsCon, NoSQL Now, UP Cloud, Computing
+Conference, OpenStack Israel, and Cloud Mafia San Francisco, among
+others.
+
