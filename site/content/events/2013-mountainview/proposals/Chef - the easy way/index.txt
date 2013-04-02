@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mat Schaffer
+title: "Chef - The easy way"
+---
+
+**Abstract:**
+
+Chef Solo offers users a fantastic way to get started with Chef or use Chef in situations that don’t facilitate a central server. But getting set up and running Chef solo can involve a number of manual steps. Enter knife-solo, the knife plugin that aims to make working the Chef Solo as easy and powerful as Chef Client!
+
+This talk will go over basic usage of knife-solo, what is offers beyond a bare chef-solo setup, and what some of the plans for improvement are. The project has been getting solid contributions lately and will soon be releasing integrations for a number of popular chef tools and plugins.
+
+**Notes:**
+
+Mat is the maintainer of knife-solo, a knife plugin that makes working with chef-solo easier. This plugin started small but has recently grown to more than 30 contributors strong. In upcoming releases we’ll be incorporating Berkshelf and Librarian support as well as offering integration paths for knife-ec2.
+
+**Speaker:**
+
+Mat Schaffer is a full stack web developer with a passion for clean process and clean code. He spent the last decade working on high-traffic web applications and optimizing developer productivity at Comcast. Now he's bringing that experience to bear on companies across the country as co-founder of Mashion. He's also a regular contributor to open source and he organizes the Philadelphia Ruby Group, Philly.rb. When he's not coding he can be found playing music, rock climbing or roughhousing with his sons.
