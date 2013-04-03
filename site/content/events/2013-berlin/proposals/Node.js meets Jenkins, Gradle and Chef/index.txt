@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Evgeny Goldin
+title: "Node.js meets Jenkins, Gradle and Chef!"
+---
+
+**Abstract:**
+
+Have you ever had to automate a Node.js application deployment? One
+way of doing so would be to use Node.js hosting providers, but what if
+you decide to host your applications in-house? As it turns out,
+automating a Node.js operation is not as easy as it sounds (you can
+trust me on that) and here at Trademob, we tried several approaches
+before settling on a combination of tools. This presentation is
+targeted at Node.js developers and Dev Ops engineers. I'm going to
+show what we tried, what worked and what did not work. I'll then
+present a setup based on Jenkins, Gradle and Chef that we now
+successfully use for testing, deployment and monitoring of Node.js
+applications. You'll learn from our mistakes and see how we made it
+all work in the end. Most importantly, you'll be able to do the same
+as us - since all tools and plugins required are free and
+open-sourced.
+
+Come to this session and make your Node.js automation a breeze!
+
+**Speaker:**
+
+Evgeny Goldin
