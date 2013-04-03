@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Berkay Mollamustafaoglu
+title: "Anatomy of an Effective Alert for DevOps"
+---
+
+**Abstract:**
+
+One of the outcomes of embracing the DevOps philosophy, has been
+developers participating on-call rotations and receiving alert
+notifications. Having the developers who have developed the code and
+have through understanding of the inner-workings of the applications
+have been invaluable in resolving potential problems before any impact
+on users, however sending alerts that are high in quantity but low in
+quality to the developers can have a very detrimental impact on the
+developer productivity and cause alert fatigue.
+
+Ensuring developers that are participating in operational processes do
+not get bogged down with alerts demand high quality alerts . This talk
+will make the case for the need to design alerts and layout some of
+the practices that can be employed by ops organizations to improve
+quality of alerts created by the monitoring systems.
+
+**Speaker:**
+
+Berkay Mollamustafaoglu (@berkay)

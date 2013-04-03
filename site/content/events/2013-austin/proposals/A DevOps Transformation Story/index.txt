@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Victor Trac
+title: "A DevOps Transformation Story"
+---
+
+**Abstract:**
+ In late 2011, Bazaarvoice Engineering set out to transform itself completely. We went from a monolithic Java app to a set of SOA services, from waterfall to agile, and from a 10-13 week release cycle to near continuous deployment. What made this possible was the combination of Dev and Ops into DevOps. This talk will go into the details of this transformation and show how a company of Bazaarvoice's size was able to make it happen. We'll talk about which ideas were successful and how we built the Platform Infrastructure team into one of the most successful and respected SOA teams at Bazaarvoice.
+
+**Speaker:**
+
+Victor Trac

@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Victor Trac
+title: "9 AWS Infrastructure Hacks You Should Do"
+---
+
+**Abstract:**
+Over the last 5 years, Bazaarvoice has built one of the world's most sophisticated AWS Infrastructures. We've learned a lot about making AWS work at scale and avoiding pitfalls that bring down numerous other companies. In this talk, we'll go through some AWS lessons learned like how to effectively use multiple Availability Zones in VPC, how to deal with cross-region traffic, VPC networking gotchas, Autoscale tricks, and Cloudformation must-dos. You'll come away with a bunch of ideas to better scale your organization's infrastructure the way the pros do.
+
+**Speaker:**
+
+Victor Trac

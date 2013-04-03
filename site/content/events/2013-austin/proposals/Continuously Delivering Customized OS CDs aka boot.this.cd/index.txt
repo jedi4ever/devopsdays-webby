@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chris McClimans
+title: "Continuously Delivering Customized OS CDs aka boot.this.cd"
+---
+
+**Abstract:**
+I found an interesting option when assisting a friend with their MacBook Pro recently... the firmware offered to connect to Apple to restore OSX to the newly replaced, but empty hard drive. Basically embedded in the firmware, is all the software necessary to connect to wireless, download OSX, and format/install the hard drive ‘The Apple Way’. It’s very similar to what happens when someone uses the instant infrastructure USB sticks, except that the experience isn’t limited to Apple hardware, and currently focuses on Ubuntu.
+
+USBs don’t work in the cloud, nor do we have fancy apple firmware. However the venerable ISO 9660 image (cdrom/iso image) can be used as a cross platform ‘bootable file system as a file’ that can be copied to a physical CD-ROM, DVD, USB, or uploaded as a cloud block devices and boot (yea bootable EBS) almost anything in the cloud or in the real world.
+
+Since we control  the bootloader itself we can use any operating system the hardware or virtualization system can support. Windows, Ubuntu/Debian, Solaris, RHEL/Centos all support creating customized ISO images that automate deployment including installing the software for and connecting to your favorite automation code-kitchen.
+
+In the real world, an NGO could send out CDs/DVD to their branch offices that when booted would configure hardware with an OS and connect it back to a centralized Chef Server for ongoing management.
+
+Come see a talk/demo of http://boot.this.cd on real hardware and possibly in the cloud (depending on the weather)
+
+
+**Speaker:**
+
+Chris McClimans (@hippiehacker)
+
+**Bio:**
+(Solutions Engineer at Opscode / Chief Executive Hippie at Instant Infrastructure)
+
+An Austin Native, Chris left Texas in a VW van and travelled across the US, living in a kiwi caravan on the beach in New Zealand,  and ending up getting married on Sailboat. He spends half his time working in the Security and DevOps field and the rest volunteering at various NGOs. This lifestyle earned Chris his online nickname "hippie hacker."
+
+He spent time in Cambodia teaching youth to create and run "instant infrastructure" USB sticks in their local language. As a result of his work, Chris left behind a group on self-sufficient youth able to perpetuate their newly acquired knowledge. Less than a year later, those 6 youth from Battambang have grown to over 30 and regularly meet in Phnom Penh and Siem Reap. Chris believes that generosity is contagious, particularly if you give people a vehicle for it. Since infrastructure as code can be shared on a usb stick, and usb sticks are bootable, why not create bootable infrastructure as code? Generosity on a stick that can enable global change!
+

@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chris Haddad
+title: "Extending PaaS To Embrace Enterprise DevOps"
+---
+
+**Abstract:**
+Enterprise DevOps practices increase team agility and decrease cycle times by automating handoffs between development and operations activities.  Early applications Platform as a Service (aPaaS) environments provide a useful run-time Cloud, yet often create a chasm between development best practices and operational deployment.  Enterprise DevOps PaaS delivers a holistic Cloud that bridges development time activities (e.g. continuous build, integration, and test), operations focus (e.g. continuous deployment, automated release management), and PaaS runtime policy management.  In this session, Chris Haddad will describe:
+
+* Why PaaS complements DevOps and scales DevOps across enterprise teams
+* Where to extend PaaS with Enterprise DevOps practices
+* How continuous automation, policy standardization, and PaaS fosters long-tail applications
+* Business case metrics measuring business agility
+
+**Speaker:**
+
+Chris Haddad
+
+Chris Haddad is Vice President Technology Evangelism for WSO2, an Enterprise DevOps PaaS vendor.  Chris is a former developer, architect, consultant, and research leader whose goal is to encourage DevOps, Platform as a Service, and Cloud Architecture best practices that maximize your business value and agility.

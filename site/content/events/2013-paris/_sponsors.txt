@@ -3,7 +3,6 @@ filter:    erb
 ---
 <% @psponsors = [
 { :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
-{ :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com/"},
 { :image => "zeroturnaround.png", :name => "Zeroturnaround", :link => "http://www.zeroturnaround.com/"},
 ]%>
 
@@ -46,6 +45,8 @@ filter:    erb
 <% @msponsors = [
 { :image => "rudebaguette.png", :name => "Rude Baguette", :link => "http://www.rudebaguette.com/"},
 { :image => "toolinux.png", :name => "TooLinux", :link => "http://www.toolinux.com/"},
+{ :image => "webriver.png", :name => "WebRIVER", :link => "http://webriver.eu/"},
+{ :image => "developpez.png", :name => "Developpez.com", :link => "http://www.developpez.com/"},
 ]%>
 
 <h1>Media Sponsors</h1>

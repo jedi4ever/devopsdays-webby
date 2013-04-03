@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jonathan Thorpe
+title: "When You Can't Hire the A-Team - How to Bring DevOps to the Masses"
+---
+
+**Abstract:**
+People at the cutting edge of DevOps are putting automation to great use  and delivering faster value to customers. The solutions are impressive, and the results can be spectacular, but there is a problem -- companies require the equivalent of the A-Team working for them in order to hook all the bits and pieces together to create an end-to-end automated solution.
+ 
+Join this session, presented by Jonathan Thorpe, DevOps Evangelist at Serena Software, to find out how open source and commercial software can be used together to provide DevOps automation for the masses in a maintainable, scalable way that does not require the equivalent of the A-Team to create and run.
+
+
+**Speaker:**
+
+Jonathan Thorpe

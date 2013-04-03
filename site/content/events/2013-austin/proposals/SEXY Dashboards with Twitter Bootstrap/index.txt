@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Karthik Gaekwad
+title: "SEXY Dashboards with Twitter Bootstrap"
+---
+
+**Abstract:**
+
+I'd like to ignite the audience with a talk about how the folks in the devops community can benefit by using an opensource HTML framework called Twitter Bootstrap to create sweet UI's to show off their dashboards and webapps, cleanly, quickly, and without a lot of effort or core knowledge about HTML/CSS and JS.
+
+I gave a full length presentation at the Austin Cloud User Group on the same topic, and it was well received by the audience. A link to that presentation can be found here: http://www.slideshare.net/karthequian/sexy-html-with-twitter-bootstrap
+
+**Speaker:**
+
+Karthik Gaekwad

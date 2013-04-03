@@ -1,0 +1,64 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Fabrice Bernhard
+title: "Transforming devs into devops"
+platinum: true
+---
+
+_This talk will be given in English_
+
+
+** English Abstract:**
+
+In the world of web development, the competence of a developer as perceived by his peers is usually more linked to his skills in system administration than his pure coding expertise. The polyvalence of the devops is indeed a quality that enables him to unblock critical situations, where a pure coder, even excellent, would be struggling.
+
+Let us transform all the devs into devops then! It is unfortunately not that easy, since the greatest part of the polyvalence is based on experience, hard to transfer rapidly.
+
+How can we accelerate the acquisition of experience? How can we transfer the "scars" of the veteran sys-admin to the freshly-arrived juniors ? How can we help autodidact sysadmins adopt the devops philosophy? How can we avoid that the introduction of tools typically associated with devops culture (vagrant, chef, puppet, fabric, etc.) makes system administration become even more complex to the juniors? 
+
+These are the questions we have asked ourselves in our team, with some solutions and a few reflexion paths:
+the devops folder
+
+* the homemade IAAS
+* the anti-magical provisioning
+* the sudo for all
+* the quality board
+* the pair-devopsing
+* the pseudo-on-call
+
+The goal is to tackle all these subjects without prejudices and open reflexion topics that can be further discussed during the open-space sessions.
+
+**Résumé en Français:**
+
+Dans le monde du développement web, on constate que la valeur perçue d'un développeur par ses pairs est souvent plus liée à ses compétences en administration système qu'en ses compétences en développement à proprement parler. La polyvalence du devops est en effet la qualité qui permet de débloquer les situations les plus difficiles, quand les autres développeurs, même excellents, pataugent.
+
+Une grande partie de cette polyvalence est basée sur l'expérience, difficile à transmettre rapidement. Comment accélérer l'acquisition d'expérience ? Comment faire adopter la philosophie devops aux autodidactes de l'administration système ? Comment éviter de remplacer la magie de la mise en production par les "admins" en magie de la mise en production par "le script" et impliquer les développeurs sur ces aspects ?
+
+Voici les questions que nous avons été amenés à nous poser dans notre équipe, avec quelques solutions et encore plusieurs pistes de réflexion :
+
+* le dossier "devops" dans chaque projet
+* mise en place d'un IAAS low-cost avec LXC et Fabric
+* provisioning simple : fabtools VS chef-solo
+* vagrant
+* pair-deploying
+
+Le but est d'aborder ce sujets sans préjugés et ouvrir des pistes de réflexion à approfondir en open-space
+
+*Pourquoi ?*
+
+J'aimerais que tous les devs dans l'équipe soient des devops aguerris. Mais je me rends compte que c'est plus facile à dire qu'à faire. 
+
+D'ailleurs quand on regarde les offres de formation, on se rend compte qu'il en existe pléthores en développement, et quasiment aucune en gestion d'infrastructure web. La transmission de l'expérience, des "cicatrices" pour reprendre l'expression d'un devops lors d'un meetup, est difficile à rendre méthodique. Et l'introduction des outils typiquement associés à la culture devops (vagrant, chef, puppet, fabric, etc.) ne garantit pas une montée en compétences au contraire, elle peut faire paraître l'administration système encore plus complexe pour le développeur junior. Bref sujet passionnant mais sans solution magique pour l'instant.
+
+**Speaker:**
+
+*Fabrice Bernhard, Fondateur et Directeur Technique Theodo*
+

@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Ernest Mueller
+title: "Speeding Up Releases"
+---
+
+**Abstract:**
+The cool DevOps thing to do is to do continuous deployment.  However, many shops are in a situation where they already have long release cycles, large amounts of legacy code and inelastic hardware. Has DevOps abandoned you?  No - hear how Bazaarvoice moved from a 10-week "big bang" release cycle to biweekly and then weekly releases without "rewriting the world."  cf. http://theagileadmin.com/2012/10/14/speeding-up-releases/
+
+
+**Speaker:**
+
+Ernest Mueller

@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alexander Schwartz
+title: "How to form a DevOps team?"
+---
+
+**Abstract:**
+
+Did you ever worked within an operations team that was overwhelmed
+by firefighting? And late deployments and no time for
+improvements?  Well, there is good news for you. You are not the
+only one. And it can be changed to the better.
+
+Based on my experience at Nokia I show what might help; how an
+emerging DevOps approach succeeded to overcome a situation like
+this.
+
+We will take a look on the 2-year journey of my DevOps team, and
+how it improved the delivery frequency and platform availability
+significantly. For us "Baby Step" improvements played a very
+crucial role.
+
+We will see how the team changed over time, and take a look at its
+forming-storming-norming-performing cycle.  Furthermore the
+interactions, tensions with the other teams are worth a glimpse,
+as well as the (positive) impact of the DevOps team on the
+organization around.
+
+This talk will also cover how the interpretation of roles,
+responsibilities and job profiles changed notably over time
+
+**Speaker:**
+
+
+Alex' bread and butter comes from helping software companies to
+deliver to production faster.
+
+Since 2011 he leads a DevOps/Delivery team at Nokia L&C in Berlin,
+and fosters Continuous Delivery, Agile, Kanban/Lean and Agile
+Testing.

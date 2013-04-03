@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pierre-Yves Ritschard
+title: "Le territoire et la carte: une histoire de visibilite"
+platinum: true
+---
+
+_This talk will be given in English_
+
+**Abstract:**
+
+Cette presentation adresse le domaine de la visibilite, ce que ce domaine represente pour les developeurs et administrateurs
+systeme.  
+
+La premiere partie tente de definir ce qu'est la visibilite, l'idee que nous nous en faisons aujourd'hui en decrivant la facon dont elle existe dans la majorite des infrastructures, ainsi que la dissonance entre notre modele mental et la realite dans certains cas.  
+
+La seconde partie propose un jeu de bonnes pratiques, puis donne une vue d'ensemble des outils qui permettent d'ameliorer la visibilite au sein d'une infrastructure.  
+
+Pour finir une proposition d'architecture type est proposee pour permettre d'uniformiser les concepts de visibilite a travers les multiples couches d'une infrastructure.
+
+**Speaker:**
+
+*Pierre-Yves Ritschard, developeur OpenBSD*
+
+Pierre-Yves, apres plusieurs postes de gestion d'operation dans des grandes structures je bascule il y a 3 ans vers des postes d'architecture de systeme distribues.
+
+Tres implique dans le monde open-source et dans plusieurs projets a forte connotation devops, notamment riemann, pallet et collectd.

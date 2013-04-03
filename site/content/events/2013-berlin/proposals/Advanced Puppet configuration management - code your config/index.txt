@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Martin Alfke
+title: 'Advanced Puppet configuration management - "code your config"'
+---
+
+**Abstract:**
+
+The presentation is mostly covering Puppet but also reflects peoples
+attitude who work with puppet in companies (Developers, Sysadmins,
+QA).
+
+This talk will cover some advanced puppet technologies and describes
+possible solutions on how to get the expected results.
+<ul>
+<li>Environment - "admin's and dev's cooperate"
+<li>Modules - "plug things together simple"
+<li>Templates - "code your config"
+<li>Augeas - "clean your lenses"
+<li>Multi Master - "no one can server two masters!"
+<li>Masterless - "you shall have no master"
+<li>ENC + Hiera - "data, data, data"
+<li>PuppetDB - "getting it all"
+<li>Dashboard - "management needs graphs"
+</ul>
+
+**Speaker:**
+
+Martin is PuppetLabs partner in Germany an conducts official Puppet trainings.
+He started working with Puppet in 2007 and implemented many Puppet installations at IT and automotive companies.

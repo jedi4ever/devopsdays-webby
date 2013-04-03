@@ -1,2 +1,4 @@
 - Daniel Cukier
 - Conrado De Biasi
+- Rodrigo Pinto
+- Marcelo Neves

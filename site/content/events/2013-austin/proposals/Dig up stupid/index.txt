@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Neil Matatall
+title: "Dig up stupid"
+---
+
+**Abstract:**
+A statement from captain obvious: Traditional security models fail in a continuous delivery environment. Tools are your friends. Custom tools are your best friends. The Twitter product security team creates, augments, and proliferates tooling related to security in order to raise software security awareness and assurance in a way that empowers everyone in the company. We work closely with every team and have created a central hub for security concerns, @SADB, that has helped empower developers and managers to take ownership of the security of the code. This common effort has helped unite security, dev, and ops in a way that gets everyone excited and eager to continue to improve. We'll talk about some of the tools and techniques that have helped make Twitter application security a driving force.
+
+**Speaker:**
+
+Neil Matatall

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tim Gerla
+title: "Continuous Deployment with ansible"
+---
+
+**Abstract:**
+
+ Continuous Deployment is the natural extension of Continuous Integration: immediately deploying tested and validated code to a production environment. To achieve this goal, you'll have to use best-of-breed tools and practices. In this talk, we'll show about how to use Ansible to achieve continuous deployment of software infrastructure with zero downtime (on a multi-tier application stack), integrating with tools like Jenkins, monitoring systems, and load balancers to accomplish seamless rolling updates.
+
+ Ansible is an open source configuration management, software deployment, and IT orchestration framework. It is used to eliminate manual IT processes of all kinds. Ansible uses SSH by default to manage remote machines, requiring no agent installation, bootstrapping, or root level network daemons. Ansible uses a data driven automation language called playbooks, which are intended to be easy to audit and write for users of all technical levels.
+
+**Speaker:**
+
+Tim Gerla - VP Services and Support, AnsibleWorks, Inc.

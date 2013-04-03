@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jesse Gonzalez
+title: "from #monitoringsucks to #monitoringsucksless"
+---
+
+**Abstract:**
+We all know #monitoringsucks, but we tend to live with it.
+
+There are numerous tools out there there monitor environments, but none do it all. And they shouldn't!
+
+I'll discuss a solution that we utilize using best of breed open source products that can alleviate what we all experience, #monitroingsucks. Following the UNIX paradigm of doing one thing and doing it well, I'll discuss a solution that utilizes tools that we all take for granted or don't use to their full capacity.
+
+**Speaker:**
+
+Jesse Gonzalez
+
+**Bio:**
+I'm a Senior Systems Engineer with over 5 years of focus on monitoring. I've experienced working with solutions that were overly complex or inefficient at their designed purpose, some better than others, but most trying to do too much.

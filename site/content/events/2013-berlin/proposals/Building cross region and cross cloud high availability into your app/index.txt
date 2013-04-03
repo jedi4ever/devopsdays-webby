@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nati Shalom
+title: "Building cross region and cross cloud high availability into your app"
+---
+
+**Abstract:**
+
+A real life case: Achieving high levels of availability and disaster
+recovery in a cloud environment requires the implementation of
+patterns and practices that introduce redundancy through multi-zone,
+multi-region, and multi-cloud deployments. As we move towards
+implementing higher availability, we cannot escape the direct increase
+in the accidental complexity of the deployment architecture resulting
+from lack of cloud portability and deployment lifecycle automation. We
+present a solution approach implemented by a real-world user for
+achieving high availability and disaster recovery using the Cloudify
+open source framework. This approach applies to not just AWS, but also
+other public clouds and private cloud environments such as Eucalyptus
+. The resulting reference architecture provides portable PostgreSQL
+replication and disaster recovery as well as application tier
+scalability across zones, regions, and public/private clouds through a
+unified deployment workflow.
+
+**Speaker:**
+
+Nati is the Founder and CTO of GigaSpaces, he was recently recognized
+as a Top Cloud Computing Blogger for CIO’s by The CIO Magazine and he
+is also the founder of the IGTCLoud.  Nati is also a frequent
+presenter at industry conferences. He has spoken at IBM Information on
+Demand, Big Data Spain, DevOpsCon, NoSQL Now, UP Cloud, Computing
+Conference, OpenStack Israel, and Cloud Mafia San Francisco, among
+others.
+

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nathaniel Eliot, Brandon Bell
+title: "Weapons for Operational Kung-Fu: Wielding (and Welding) Ironfan"
+---
+
+**Abstract:**
+Infochimps works in the deep end of DevOps: all of our ops code, and
+all of our devs deploy. Nathaniel Eliot and Brandon Bell will walk you
+through how the Ironfan cloud orchestration suite makes that possible.
+You'll learn the basics of using Ironfan, and see powerful techniques
+to attack your operational problems with. We'll close with some of the
+advanced techniques we're still perfecting, and some of the basics of
+customizing Ironfan to your needs.
+
+**Speaker:**
+
+Nathaniel Eliot, Brandon Bell

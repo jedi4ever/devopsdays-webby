@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Niall McSheffrey
+title: "Working with Dedicated Teams Offshore"
+---
+
+**Abstract:**
+Working with Dedicated Teams Offshore
+At some point every company chooses to outsource work either through a state side contractor or offshore. I think it is extremely helpful to not just articulate but advise the best approaches to choosing, working with and having success with an offshore partner. It can be done and there are many hybrid approaches that ensure delight for both sides. 
+
+My outline/flow would be the following
+
+*  Outsourced the TV show….so what is the reality?
+*  The dream that can turn into a nightmare 
+    *  Improper vetting of developers
+    *  Looking at cost as the driver instead of quality
+    *  Undefined specs
+    *  The communication gap
+    *  Project management black hole
+    *  Project based, agile or really agile 
+*  Cultural differences between US based developers and the rest of the world
+*  When to subcontract outside the country
+*  A rising tide raises all ships
+*  How to do it right
+*  Dedicated teams and mixed teams
+*  Your next offshore project  - done the right way…
+
+**Speaker:**
+
+Niall McSheffrey
+
+**Bio:**
+Niall McSheffrey – based in Phoenix AZ and frequent traveler to Austin. I am President and Owner of a 35 person software development company based in Philippines, Elementz Interactive. I incorporated over there 3 years ago and have grown it from 1 employee to 35 during this time. I found that there are many challenges in not just running an offshore software development company but also in overcoming past experiences that many of my clients had from previous projects offshore.

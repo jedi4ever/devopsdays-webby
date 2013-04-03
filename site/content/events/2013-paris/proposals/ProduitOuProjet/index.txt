@@ -1,0 +1,61 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Rémy-Christophe Schermesser
+title:  Produit ou Projet ?
+platinum: true
+---
+
+_This talk will be given in English_
+
+**Abstract:**
+
+*Disclaimer: If you successfully perform your projects, this session is not for you.*
+
+
+In an I.T. Department projects fail (well not all of them).
+
+
+On the internet, products are successful (except those who fail).
+
+
+We will try to understand the major differences between a project and a product. And see how IT projects can learn from the process of making a product.
+
+
+We look at the of Lean methodologies, Product Management and Lean Startup.
+
+
+**Résumé:**
+
+*Disclaimer : Si vous réussissez vos projets, cette session n'est pas pour vous.*
+
+
+Dans une DSI, les projets échouent (enfin pas tous).
+
+Sur internet, les produits réussissent (sauf ceux qui meurent).
+
+Tentons de comprendre les différences majeures entre projet et produit. Et voyons comment les projets informatique peuvent apprendre de la démarche produit.
+
+Nous regardons du côté des méthodologies Lean, Product Management et Lean Startup.        
+
+**Speaker:**
+
+*Rémy-Christophe Schermesser, Octo Technology*
+
+Rémy-Christophe is currently working at Octo Technology as a senior consultant.
+
+
+He began his career in web development with a focus on quality and testing.
+
+
+He subsequently developed an expertise in agile methodologies, Lean and Kanban which he had set up for different clients.
+
+
+His curiosity for the problems of product development from market study to commercialization was what brought him to study Lean Startup, Product development and Customer Development.

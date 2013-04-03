@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nick Galbreath
+title: "Care and Feeding of Large Scale Graphite Installations"
+---
+
+**Abstract:**
+By making DevOps _visible_, you not only gain insights into your business, but also reduces need to log-in production machines, and provide valuable promotion for what you do.   And you can diagnose and solve arguments using _data_.  
+
+At IPONWEB, we do this using graphite (https://github.com/graphite-project).  We have 30 large scale graphite installations with a mix of machine-level and business data, each doing 100k data points per minute.  These installations run both in the cloud and fixed-size infrastructure.
+
+This talk cover some of tips and tricks we have learned:
+
+Quickly:
+
+  * Graphite Hello World
+  * Graphite: What's up with the documentation?
+  * Graphite Vs. RRD
+  * Graphite Vs. Your Existing Monitoring System
+  * Graphite Your Graphite (key metrics in graphite on how well it is running).
+  * Graphite Versions and Linux Kernel best practices
+  * Disk configuration best practices
+  * Getting Data In:  Carbon Aggregator vs. StatsD (and friends)
+  * Getting Data out (raw data, client side rendering vs. server-side rendering)
+  * Graphite Monitoring: when is overloaded and dropping data
+  * Stupid Graphite Tricks: "Events"
+  * Stupid Graphite Tricks: Process Monitoring
+  * Stupid Graphite Tricks: Making security visible
+
+And no doubt a lot more!
+
+**Speaker:**
+
+Nick Galbreath

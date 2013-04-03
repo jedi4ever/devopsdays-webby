@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Kief Morris
+title: "Infrastructure as Code Patterns & Anti-patterns"
+---
+
+**Abstract:**
+
+The hand-waving blurb: Cloud technology and automated configuration has freed us from the Iron Age of IT infrastructure, and led us into the Cloud Era. Our infrastructure is no longer tightly shackled to physical hardware, but has become fluid data and code, which allows us to apply tools and practices from software development to IT operations.
+
+Many or most of the people at DevOpsDays have been doing this stuff for a while. Although we hear about many common approaches and techniques, I believe it would be useful to describe and share these ideas in a way that makes it easier to talk about them, compare experiences, and introduce good ideas to people who are looking to get into this stuff.
+
+I'll describe some basic anti-patterns and evolutions to better patterns, starting with the old ways of building servers by hand with checklists, to cloning new servers from existing ones (remember Ghost?), to more modern uses of automated configuration management tools such as Cfengine, Puppet, and Chef. I'll also talk about more advanced patterns used by the likes of Netflix, such as Phoenix servers and immutable servers.
+
+**Speaker:**
+
+Kief Morris
+
+I'm a Continuous Delivery Consultant at ThoughtWorks, which involves DevOps evangelism, automated infrastructure implementation, and various semi-related things. I started using automated configuration over 10 years ago on pre-virtualization systems (PXE-boot and TFTP) using shell scripts and Perl, moving to Cfengine, and later getting into Puppet and Chef as each one came out. I have yet to build an infrastructure which I felt really does this stuff right, but I plan to keep trying. I've occasionally posted about this kind of thing on my blog at http://kief.com.

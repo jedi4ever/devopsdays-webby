@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+igniteselected: true
+author: Diego Zamboni
+title: Multi-level Data-driven Configuration Management
+platinum: false
+---
+
+**Abstract:**
+
+In today's world, multiple people need to understand and manage IT infrastructure. However, each player has different information needs, and needs to view the system according to different criteria and different levels of abstraction. For example, a sysadmin needs to know which versions of Apache are installed on different machines, but a web developer looking at the same system cares only that the web server is operational and with the appropriate configuration for deploying his applications. At the same time, a security and reliability engineer needs to manage where in the world the machines are located and how their distribution reduces the possibility of total system failures. And the CTO may only care about saying "give me a datacenter" and having it work as expected.
+        
+        
+These needs have upped the ante for configuration management tools. Modern IT people (developers, operations, architects, networking, security etc.) need tools that allow multi-level understanding and management of the systems. In this talk I will sketch some of the requirements for such a system, and explore how our existing tools need to be improved in order to effectively achieve these goals.
+
+**Speaker:**
+
+*Diego Zamboni, CFEngine AS*
+
+Diego Zamboni is a computer scientist, consultant, programmer and sysadmin who works as Senior Security Advisor at CFEngine AS. He has more than 20 years of experience in system administration and security, and has worked in both the applied and theoretical sides of the computer science field. He holds a Ph.D. from Purdue University, has worked as a sysadmin at a supercomputer center, as a researcher at the IBM Zurich Research Lab, and as a consultant at HP Enterprise Services. He is also the author of "Learning CFEngine 3", published by O'Reilly. These days, he splits his time between coming up with new security-related projects at CFEngine, nurturing the CFEngine community, coding useful CFEngine policies, and spending time with his family. He lives in Queretaro, Mexico.

@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jérôme Renard
+title:  L'analyse des logs à la rescousse
+platinum: true
+---
+
+**Abstract:**
+
+La centralisation des logs devient un pilier majeur de la gestion d'une infrastructure. Au delà des aspects légaux, il devient vital de réduire le temps de résolution de bugs, ce qui peut être fait en partie grâce à un accès commun aux logs. Via des outils de recherche et d'analyse, il est désormais possible d'obtenir rapidement et simplement des informations qui avant était difficilement accessible. Nous aborderons les principaux écueils techniques inhérent à la centralisation et à l'analyse des logs ainsi que les avantages liés à ce genre de solution. 
+
+**Speaker:**
+
+*Jérôme Renard, Belogik*

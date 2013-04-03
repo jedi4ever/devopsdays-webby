@@ -1,29 +1,23 @@
 <div style="height:170px;" id="quicklinks">
 <table><tr><td>
-  <div style="margin-top:15px">
-    <ul>
-      <li><a href="/events/2012-newyork/">New York</a></li>
-      <li><a href="/events/2012-italy/">Rome</a></li>
-      <li><a href="/events/2012-india/">Gurgaon</a></li>
-      <li><a href="/events/2012-austin/">Austin</a></li>
-      <li><a href="/events/2011-manila/">Manila</a></li>
-      <li><a href="/events/2011-goteborg/">Goteborg</a></li>
-      <li><a href="/events/2011-bangalore/">Bangalore</a></li>
-      <li><a href="/events/2011-melbourne/">Melbourne</a></li>
-    </ul>
-  </div>
+      <a href="/events/2013-london/">London 2013</a><br>
+      <a href="/events/2013-newzealand/">New Zealand 2012</a><br>
+      <a href="/events/2012-newyork/">New York 2012</a><br>
+      <a href="/events/2012-italy/">Rome 2012</a><br>
+      <a href="/events/2012-mountainview/">Mountain View 2012</a><br>
+      <a href="/events/2012-india/">Gurgaon 2012</a><br>
+      <a href="/events/2012-austin/">Austin 2012</a><br>
+      <a href="/events/2011-manila/">Manila 2012</a><br>
+      <a href="/events/2011-goteborg/">Goteborg 2012</a>
   </td><td>
-  <div style="margin-top:15px">
-    <ul>
-      <li><a href="/events/2011-mountainview/">Mountain View</a></li>
-      <li><a href="/events/2011-boston/">Boston</a></li>
-      <li><a href="/events/2010-brazil/">Sao Paulo</a></li>
-      <li><a href="/events/2010-europe/">Hamburg</a></li>
-      <li><a href="/events/2010-us/">Mountain View</a></li>
-      <li><a href="/events/2010-sydney/">Sydney</a></li>
-      <li><a href="/events/2009-ghent/">Ghent</a></li>
-      <li></li>
-    </ul>
-  </div>
+      <a href="/events/2011-bangalore/">Bangalore 2012</a><br>
+      <a href="/events/2011-melbourne/">Melbourne 2011</a><br>
+      <a href="/events/2011-mountainview/">Mountain View 2011</a><br>
+      <a href="/events/2011-boston/">Boston 2011</a><br>
+      <a href="/events/2010-brazil/">Sao Paulo 2010</a><br>
+      <a href="/events/2010-europe/">Hamburg 2010</a><br>
+      <a href="/events/2010-us/">Mountain View 2010</a><br>
+      <a href="/events/2010-sydney/">Sydney 2010</a><br>
+      <a href="/events/2009-ghent/">Ghent 2009</a>
   </td></tr></table>
 </div>

@@ -1,0 +1,62 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+igniteselected: true
+author: Henri Tremblay / Mikael Robert
+title: "Performances perpétuelles : Mesures et améliorations continues des performances"
+platinum: true
+---
+
+_This talk will be given in French_
+_Cette présentation sera en Français_
+
+**Abstract:**
+
+What happened:
+
+You have launched a new project to build a web site. The architecture was just great. One year of development is planned. Production date right before Christmas. Iterative process. Small iterations. A clear roadmap maximizing the time to market. Life is good.
+
+
+One month before production, confident, you enter performance testing. A disaster. During development, response time were OK. Nothing to worry about. And you were sure the production servers were so powerful that they could solve any unexpected slowness. What a mistake! A state of emergency is declared. Work spread over the week-end and during your shortened holidays. You manage to fix the issue. It's not great, but it's alright. Post mortem: Three months late, 40% over budget and decent performances. Your end of year bonus, a bit less decent.
+
+
+Now, come to see how it could have been:
+
+Controlled performances all along the project. Going live without issues. And, most importantly, Christmas holidays in Tahiti with a Daiquiri.
+
+**Résumé:**
+
+Comment ça s'est passé:
+
+Vous avez lancé un projet de site internet. L'architecture est magnifique. Vous vous lancez dans un an de développement. Mise en production avant Noël! Approche itérative. De courtes itérations. Une roadmap claire vous promettant un time-to-market optimal.
+
+Un mois avant la production, confiant, vous faites des tests de charge. Catastrophe. En développement, c'était raisonnablement rapide et ça ne vous a pas inquiété. Vous vous êtes dit que la puissance des machines de production va régler tout ça. Erreur! Dans l'urgence, le week-end, pendant des vacances de Noël écourtées, vous corrigez le tir. Bilan: trois mois de retard, 40% de dépassement de budget, performances acceptables. Votre prime de fin d'année, un peu moins.
+
+Et maintenant, venez voir comment ça aurait pu se passer:
+
+Performances maîtrisées tout au long du projet. Mise en production sans soucis. Vacances de Noël à Tahiti et Daiquiri.
+
+Sceptiques? Alors venez.
+
+**Speaker:**
+
+*Henri Tremblay, OCTO Technology*
+
+Henri Tremblay a étudié les sciences de l'informatique avec un penchant avoué pour l'algorithmie et les mathématiques. Il s'est ensuite épanoui depuis bientôt 14 ans en concevant des logiciels, souvent financiers, en Java. Plus que tout, il aime résoudre des problèmes complexes et l'informatique s'avère en être particulièrement bien nanti. 
+
+Ses centres d'intérêt sont l'optimisation et la productivité. Ceux-ci étant parfois plus liés qu'on ne pourrait le penser. Il est maintenant architecte senior et responsable de la recherche et développement traitant de la performance et du calcul parallèle chez OCTO Technology.
+
+Très impliqué dans le monde de l'Open Source, il remplit le rôle de project leader au sein des projets open source EasyMock et Objenesis.
+
+*Mikael Robert, OCTO Technology*
+
+Mikael Robert est Architecte technique chez OCTO Technology qu'il a intégré il y a 3 ans. Il apporte une double expertise: Java et les infrastructures. Ses compétences le prédispose donc directement à travailler sur les problématiques de performance et sur les chantiers devops. 
+
+Il est l'un des deux gérants de l'infrastructure d'OCTO et le responsable d'un chantier de R&D orienté Devops: Software Factory 2.0. 
+
+Il a réalisé de nombreuses missions d'optimisations des performances, dans divers secteurs dont la banque et l'assurance.

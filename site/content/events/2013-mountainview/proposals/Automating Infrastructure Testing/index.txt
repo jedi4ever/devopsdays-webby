@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Barry Jaspan
+title: "Automating Infrastructure Testing"
+---
+
+**Abstract:**
+
+DevOps is about integration of software engineering and system administration, combining and improving the best practices of both. One of the best practices of software engineering is automated testing. Software application testing is a mature field, but far less is known about testing infrastructure.
+
+Infrastructure releases involve reconfiguring daemons and servers, possibly restarting them. Updates must be carefully choreographed to maintain high availability. Upgrading 4000+ servers "at once" is impossible, so running multiple versions simultaneously is required. Rolling back is difficult, so automated testing is critical. With the rise of configuration management systems like Puppet and Chef, server configuration is now software. Like all software, server configuration needs constant automated testing in order to work, but testing infrastructure-as-software is a substantially different problem from testing normal application software.
+
+In this talk, I'll describe some of the techniques Acquia Cloud uses to automate its infrastructure testing, enabling releases multiple times per day to thousands of servers on EC2.
+
+**Speaker:**
+
+Barry Jaspan - Senior Architect Acquia

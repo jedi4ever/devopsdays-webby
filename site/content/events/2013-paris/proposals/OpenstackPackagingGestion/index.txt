@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Julien Rabier, Cédric Lecomte
+title: "Openstack : packaging et gestion de configuration"
+platinum: true
+---
+
+**Abstract:**
+
+Nous proposons de présenter lors d'une session de 30min le travail réalisé par les équipes DevOps d'eNovance sur OpenStack au travers de deux aspects :
+
+1. le packaging upstream dans Debian
+    * Pourquoi packager ?
+    * Pourquoi nous avons choisi de packager upstream dans le projet Debian ?
+1. la gestion de configuration via Puppet
+    * L'importance de l'automatisation dans le déploiement et la maintenance d'une solution de cloud
+        * Le versioning à grande échelle (maitrise et cohérence des configurations sur N machines)
+        * Le déploiement on demand (possiblité de rajouter des machines et de les intégrer facilement)
+        * Facilite les process d'intégration continue
+    * Pourquoi utiliser les modules pour Openstack de Puppetlabs et contribuer à leur écriture ?
+        * Les gens de chez Puppetlabs (dont Dan Bode le mainteneur officiel de ces modules) savent ce qu'ils font (architecture du module, providers, …)
+        * Les contributeurs représentent les principales distributions Linux (Ubuntu, Debian, RedHat, Fedora, …)
+        * Grande liberté dans le choix de l'architecture Openstack déployée grâce aux contributions des différents acteurs (topologie réseau, choix de l'hyperviseur, …)
+        * Respect des good practices : pull requests, tests unitaires, intégration continue
+        * Écosystème des modules puppet : RabbitMQ, MySQL, Memcached, Sysctl, Inifile, …
+        * Contribution d'un module pour Ceilometer
+
+**Speakers:**
+
+*Julien Rabier, Project Manager, eNovance*
+
+*Cédric Lecomte, eNovance*

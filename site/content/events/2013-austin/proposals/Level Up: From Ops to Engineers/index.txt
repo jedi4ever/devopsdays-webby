@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Nick Silkey
+title: "Level Up: From Ops to Engineers"
+---
+
+**Abstract:**
+Gone are the days when sysadmins flung point-in-time commands at standalone, always up UNIX hulks.  Now we are systems engineers whom are expected to treat their infrastructures as code, build fault-tolerant services, providing modular systems orchestration and ultimately deliver a turnkey software platforms to our developers.
+Whether you are just beginning this journey or are looking to level up, come quickly hear about foundations and applications of how to best treat your infrastructure as programmable, testable, deployable.
+
+
+**Speaker:**
+
+Nick Silkey

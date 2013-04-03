@@ -20,6 +20,8 @@ filter:    erb
 
 <% @gsponsors = [
   { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
+  { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
+  { :image => "sumologic.png", :name => "Sumologic", :link => "http://www.sumologic.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
@@ -34,6 +36,9 @@ filter:    erb
 
 <% @ssponsors = [
   { :image => "serena.png", :name => "Serena Software", :link => "http://www.serena.com/"},
+  { :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
+  { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://www.ansibleworks.com/"},
+  { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>

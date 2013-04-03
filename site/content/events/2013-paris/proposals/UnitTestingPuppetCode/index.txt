@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+igniteselected: true
+author: Philip Potter
+title: Unit Testing puppet code
+platinum: true
+---
+
+**Abstract:**
+
+Testing tools for our configuration management tooling lags behind testing for our application code. Application testers can talk about the testing pyramid, where a large number of fast, specific, unit-level tests are at the base, supporting a much smaller number of higher-level end-to-end tests which may integrate with external components. But typically for configuration management tools, and particularly Puppet, the tooling does not allow us to write fast, unit-level tests; every test is an end-to-end test, even if it only makes unit-level assertions.
+
+In this ignite talk, I will present fizzgig, a new library for writing unit tests in Puppet. This brings a number of benefits to testing configuration management that application tests already have: removing fixtures in preference of keeping all test data within the test; faster performance; tests which fail for a specific reason thus aiding debugging. I will give examples of puppet modules where good unit tests would have helped improve quality.
+
+
+**Speaker:**
+
+*Philip Potter, consultant, ThoughtWorks*
+
+Philip is a consultant software developer for ThoughtWorks. Currently he is working on the GOV.UK project infrastructure team. He is also an organizer for the London Clojure Community.
+

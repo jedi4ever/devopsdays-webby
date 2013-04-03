@@ -39,6 +39,16 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @happyhoursponsors = [
+{ :image => "dell.png", :name => "Dell", :link => "http://www.dell.com/devops"},
+]%>
+
+<h1>Happy hour sponsor</h1>
+
+<% @happyhoursponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @lanyardsponsors = [
 { :image => "cloudstack.png", :name => "CloudStack", :link => "http://www.cloudstack.org/"},
 ]%>

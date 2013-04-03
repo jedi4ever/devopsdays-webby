@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alexis Le-Quoc
+title: "CustomerOps: a culture of visibility and metrics applied to customer support"
+platinum: true
+---
+
+_This talk will be given in English_
+
+**Abstract:**
+
+When was the last time you had a great time calling Customer Support? Can't remember? You're not alone.
+
+Customer support in technology means anything from googling around for answers on blogs, to a curt injunction to RTFM on irc, to being shoved around on an IVR and praying that the person who picks up the phone knows what they're doing. It's alienating and counter-productive.
+
+When you run a service online, you have a number of advantages:
+
+* You (can and should) know what your users and customers are doing in real-time.
+* You can very easily reach out to them individually or as a group, synchronously or asynchronously, wherever they are in the world.
+* You can offer them a fast turnaround and a great degree of visibility into what you are doing to help them.
+* You can accurately measure whether you are making a difference.
+
+So you can make your customers love you more easily than if you were selling physical goods in a store.
+
+In this presentation I would like to present what we came up with in terms of goals, tools, metrics for customer support. Why is this relevant to you? Everybody has customers, whether internal or external. And as it happens that the customers we are serving at Datadog, are you, the devops community.
+
+**Speaker:**
+
+*Alexis Le-Quoc*
+
+Co-founder and CTO of Datadog, a monitoring service (that does not suck ;).
