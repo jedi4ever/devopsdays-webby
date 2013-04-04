@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Gábor Török
+title: Who broke the tests?
+---
+
+**Abstract:**
+
+As Kanban helps to highlight the bottlenecks in your project and
+understand your workflow, make problems visible the same way in your
+engineering processes, too.
+
+The essence of continuous delivery is that your code base should
+always be in a deployable state. And you want to add the less overhead
+and complexity to your system.
+
+What should happen if you want to deploy but tests are broken?  How
+will you find out who or what broke them? Who will fix them? Was there
+a problem with the tests? Is the VCS server down again? Or is it
+really the feature broken?
+
+I will talk about how frank communication on who broke the tests
+helped us to solve these problems in a no-blame engineering culture.
+Also I will present the technologies and methods we used to achieve
+it.
+
+**Speaker:**
+
+Gábor Török
+
+After several years of back-end and front-end development, Gábor joined Prezi's QA team. At Prezi, he's always finding new ways to automatize product testing. He prefers Emacs over Vim.
+
+He can't say no if you invite him for a drink, and if you don't see him for a short time, he's probably doing yoga in a quiet room or dancing at a psychedelic party.
