@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gábor Török
+title: "Bake quality actions into your processes and kill your QA"
+---
+
+**Abstract:**
+
+Follow me on the journey how we learnt that bugs are product, QA is
+rather quality actions, and DevOps is about ownership.
+
+In the recent years we went through all the typical problems. We had
+low quality tests that were sometimes also slow, flaky and broken for
+a long time. Developers depended too much on operations team. They did
+not care about monitoring. QA was a single person in the team, the
+blocker role in release. We had too much open bugs we did not fix but
+still spent huge amount of time maintaining them. Teams didn't feel
+responsible for their feature, there was no clear rule which team is
+responsible for upcoming bugs.
+
+In my talk I will focus on the learnings of our journey and how we
+solved these problems.
+
+How it ended up in an agile company working in continuous delivery
+that we don't have DevOps team nor QA team any more and still we have
+solid test frameworks, we do trust in our tests, developers take full
+ownership of the features they develop and are on call for critical
+services, UX team is dealing with product bugs, and teams have clear
+responsibility boundaries.   
+
+**Speaker:**
+
+Gábor Török
+
+After several years of back-end and front-end development, Gábor joined Prezi's QA team. At Prezi, he's always finding new ways to automatize product testing. He prefers Emacs over Vim.
+
+He can't say no if you invite him for a drink, and if you don't see him for a short time, he's probably doing yoga in a quiet room or dancing at a psychedelic party.
