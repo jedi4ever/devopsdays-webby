@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Amazon Web Services Engineer (berlin or US)
+author: Amazon Web Services Engineer
 title: "Continuous Deployment and Integration in the Cloud"
 ---
 
@@ -20,5 +20,5 @@ In this session we'll talk about some key concepts and design patterns for conti
 
 **Speaker:**
 
-Contact: Kamina Aisola
+Contact: Kamini Aisola
 Speaker name of engineer not known yet
