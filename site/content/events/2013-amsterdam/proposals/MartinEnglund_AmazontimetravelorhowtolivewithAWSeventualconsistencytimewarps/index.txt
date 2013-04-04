@@ -13,7 +13,7 @@ title: "Amazon time travel, or how to live with AWS eventual consistency time wa
 ---
 
 **Abstract:**
-During the development of the BOSH AWS cloud provider interface[1] we have been exposed to the ugly side of the AWS eventual consistency - which also got me into a headed argument with the Clouderati about (bad) API design. This presentation will show you the pitfalls of heavy use of AWS, why the current AWS eventual consistency model is flawed, how to work around it, and how BOSH now can scale out a deployment on AWS from 0 to 400 VMs in 10 minutes.
+During the development of the BOSH AWS cloud provider interface[1] we have been exposed to the ugly side of the AWS eventual consistency - which also got me into a heated twitter argument with the Clouderati about (bad) API design. This presentation will show you the pitfalls of heavy use of AWS, why the current AWS eventual consistency model is flawed, how to work around it, and how BOSH now can scale out a deployment on AWS from 0 to 400 VMs in 10 minutes.
 
 [1] <https://github.com/cloudfoundry/bosh>
 
