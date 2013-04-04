@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Amazon Web Services Engineer (berlin or US)
+title: "Continuous Deployment and Integration in the Cloud"
+---
+
+**Abstract:**
+
+The cloud gives organizations the ability to develop and run applications with speed and flexibility like never before. Working with an infrastructure that can be 100% API driven enables businesses to use lean methodologies and realize these benefits. However, developers also need to think about the operational tasks needed to keep applications running smoothly. The speed of cloud computing makes getting your code onto the servers and in the proper configuration essential, especially if changes are required in multiple places. Without automation, at scale these routine operational tasks can become time consuming and error-prone.
+
+In this session we'll talk about some key concepts and design patterns for continuous deployment and integration in the cloud using technologies like Chef to enable better control of applications and infrastructures. We will discuss how the use of API-based services for the entire software tool chain – including source code, build, test, deployment and monitoring -- can both enable the automation of complex pipelines and ensure consistent results. We will cover resource provisioning, configuration management, application deployment including red/black and staggered deployments, software updates, as well as important metrics to review. We will share lessons learned from real-world examples of applying these principles to a running service.
+
+**Speaker:**
+
+Contact: Kamina Aisola
+Speaker name of engineer not known yet
