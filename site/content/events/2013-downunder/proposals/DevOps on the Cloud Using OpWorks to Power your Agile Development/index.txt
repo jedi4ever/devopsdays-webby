@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Joe Ziegler
+title: "DevOps on the Cloud:  Using OpWorks to Power your Agile Development"
+---
+
+**Abstract:**
+
+This will be an end to end presentation with a live demo on how to do DevOps on AWS using OpsWorks.  We will address Development, Testing Environments, Infrastructure as Code, Continuos Integration & Deployment using the AWS stack such as EC2, S3, open source tools and OpsWorks.
+
+Some info on OpsWorks:
+
+AWS OpsWorks is a DevOps solution for managing applications of any scale or complexity on the AWS cloud. AWS OpsWorks features an integrated experience for managing the complete application lifecycle, including resource provisioning, configuration management, application deployment, software updates, monitoring, and access control. 
+
+AWS OpsWorks lets you model and visualize your application with layers that define how to configure a set of resources that are managed together. You can also define the software configuration for each layer, including installation scripts and initialization tasks. When an instance is added to a layer, all the configuration steps are applied for you. AWS OpsWorks promotes conventions but is flexible enough to let you customize any aspect of your environment. Since AWS OpsWorks uses Chef recipes, you can leverage hundreds of community-built configurations such as PostgreSQL, Nginx, and Solr.
+
+AWS OpsWorks uses automation to simplify operations. You specify how to deploy, scale, and maintain your applications and AWS OpsWorks performs the tasks for you. AWS OpsWorks can scale your applications using automatic load-based or time-based scaling, and maintain the health of your applications by detecting failed instances and replacing them. With AWS OpsWorks, you can deploy your applications to 1,000s of Amazon EC2 instances with the same effort as a single instance. 
+
+There is no additional charge for AWS OpsWorks – you pay only for the AWS resources needed to store and run your applications. 
+
+AWS OpsWorks is built on technology developed by Peritor, the creators of Scalarium, which was acquired by AWS in 2012.
+
+**Speaker:**
+Joe Ziegler
