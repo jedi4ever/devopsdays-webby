@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Benjamin Arent
+title: OopsOps
+---
+
+**Abstract:**
+
+OopsOps will explore the good, the bad and ugly of when Ops goes wrong. It'll cover some case studies, outline some core best practices and how to best communicate with customers when things go as planned. 
+
+**Speaker:**
+
+Benjamin Arent 
+
+
