@@ -35,6 +35,7 @@ filter:    erb
   { :image => "sfeir.png", :name => "Sfeir", :link => "http://www.sfeir.com/"},
   { :image => "dow.png", :name => "Days of Wonder", :link => "http://www.daysofwonder.com/"},
   { :image => "stanford.png", :name => "Stanford Ignite Paris", :link => "http://www.gsb.stanford.edu/ignite/paris"},
+  { :image => "mozilla.png", :name => "Mozilla", :link => "https://www.mozilla.org/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
