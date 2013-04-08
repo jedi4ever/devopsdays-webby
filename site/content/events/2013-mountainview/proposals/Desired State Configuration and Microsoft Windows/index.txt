@@ -14,16 +14,68 @@ title: "Desired State Configuration and Microsoft Windows"
 
 **Abstract:**
 
-In this talk I will present an overview of how Windows management fits into the Desired State landscape illustrating how industry standards and open protocols can be used to extend the Desired State ecosystem to include Windows devices. The long-term vision for this architecture centers around creating a universal automation layer that can (eventually) extend to all devices in the infrastructure.
+Historically, Windows has been difficult to automate and configure.
+The few tools that existed were weak and serious automation required
+manipulating a plethora of APIs.  Over the last 6 years Microsoft has
+transformed the Windows platform with substantial investments in:
+
+      * PowerShell
+      * Standards-based management
+
+These investments have dramatically improved the ability of admins
+(and developers) to automate enterprise and cloud datacenters.  With
+the release of Windows Server 2012, nearly everything can be automated
+locally or remotely using PowerShell or standards-based management
+tools (even from Linux machines).
+
+ 
+The needs of business-critical IT spawned the DevOps movement and the
+need for uniform automation, rapid provisioning and repeatable
+high-quality IT operations.  This spawned a new generation of Desired
+State Configuration management tools.  These tools have had limited
+success on Windows largely due to a mismatch of management
+abstractions (Linux is a document-oriented OS whereas Windows is an
+API-oriented OS).
+
+ 
+In this talk I will present an overview of Windows management
+progress.  I will discuss early failures in bringing Unix management
+tools to Windows – why they didn’t work and what we needed to do to
+make progress.  I’ll discuss our standards based management efforts
+including OMI - our open source implementation of standards based
+management.  I’ll spend the bulk of the talk describing how
+standards-based management and open protocols fit into the Desired
+State Configuration landscape.  I’ll describe how we can bridge the
+gap to produce a world of universal automation that can (eventually)
+extend to all the components in the datacenter - raw hardware,
+storage, networking, OSes (Windows AND Linux), application frameworks,
+applications, etc.
+
 
 **Speaker:**
 
-Jeffrey Snover is a Distinguished Engineer and Lead Architect for the Windows Server & System Center Datacenter products, and is the inventor of Windows PowerShell, an object-based distributed automation engine, scripting language, and command line shell.
+Jeffrey Snover is a Distinguished Engineer and Lead Architect for the
+Windows Server & System Center Datacenter products, and is the
+inventor of Windows PowerShell, an object-based distributed automation
+engine, scripting language, and command line shell.
  
-Responsible for setting the long term technical vision for these products and running the technology planning for the releases; ensuring the individual features combine to form a coherent customer solution that is robust, competitive and is in line with our long term architecture for industry wide initiatives particularly in areas of datacenter management. 
+Responsible for setting the long term technical vision for these
+products and running the technology planning for the releases;
+ensuring the individual features combine to form a coherent customer
+solution that is robust, competitive and is in line with our long term
+architecture for industry wide initiatives particularly in areas of
+datacenter management.
  
-A thirteen year veteran to the company with over 30 years of industry experience as the Divisional Architect for the Management and Services Division, providing technical direction across Microsoft’s management technologies and product solutions.
+A thirteen year veteran to the company with over 30 years of industry
+experience as the Divisional Architect for the Management and Services
+Division, providing technical direction across Microsoft’s management
+technologies and product solutions.
  
-He was an architect in the office of the CTO at Tivoli and a development manager of NetView, and had also worked as a Consulting Engineer and development manager at DEC, where he led various network and systems management projects.
+He was an architect in the office of the CTO at Tivoli and a
+development manager of NetView, and had also worked as a Consulting
+Engineer and development manager at DEC, where he led various network
+and systems management projects.
  
-He has held 8 patents prior to joining Microsoft, and has registered 30 patents since. He is a frequent speaker at industry and research conferences on a variety of management and language topics.
+He has held 8 patents prior to joining Microsoft, and has registered
+30 patents since. He is a frequent speaker at industry and research
+conferences on a variety of management and language topics.
