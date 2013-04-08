@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Raj Dudi
+title: "Why should I know about ITIL ??"
+---
+
+**Abstract:**
+
+You are a die hard coder and loves playing with functions and
+experimenting with new technology. You have a great application,
+software or service but fails to deliver it to your clients, partners
+or to best utilize service of your vendor. Then the problem lies in
+process and not product.
+
+This is same as someone speaking Urdu in USA and trying to sell bread
+in Apple electronic store.  ITIL provides the foundation for quality
+IT Service Management through documented, proven processes that cover
+the entire Service Lifecycle. It is easy for organizations to learn,
+tailor and implement to suit their environment.
+
+**Speaker:**
+
+Raj Dudi, works as Software Engineer with ERST Gmbh Hamburg. He has 6
+years of expereince and spent most of his experience working with the
+ITIL process.
+
+Before moving to Germany in Oct 2011, he has worked in
+India and in US. He has an ITILv3 certification.

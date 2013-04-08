@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Leon Rosenberg
+title: "DevOps@Runtime"
+---
+
+**Abstract:**
+
+The term devops not only describes a new development philosophy or
+company culture, in the production system it all comes down to people,
+devs and ops, who develop and maintain the platform.
+
+The talk is about the people and how those people with their different
+mindsets, interests and skills can be brought to work together and be
+one team. The talk is based on my real life experience with high
+traffic platforms in germany in last 10 years (friendscout, parship,
+c-date etc) This is not a MoSKito talk, but MoSKito will make an
+occurence ;-)
+
+**Speaker:**
+
+Leon Rosenberg
