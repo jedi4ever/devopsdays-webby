@@ -24,7 +24,7 @@ filter:    erb
 { :image => "stackdriver.png", :name => "Stackdriver", :link => "http://www.stackdriver.com/"},
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"},
 { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
-{ :image => "whalesharkmedia.png", :name => "WhaleShark Media", :link => "http://www.whalesharkmedia.com"},
+{ :image => "retailmenot.png", :name => "RetailMeNot", :link => "http://www.retailmenot.com"},
 { :image => "bazaarvoice.png", :name => "Bazaarvoice", :link => "http://www.bazaarvoice.com"},
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com"}
 ]%>
