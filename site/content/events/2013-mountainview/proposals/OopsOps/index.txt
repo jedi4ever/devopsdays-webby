@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Benjamin Arent
+title: OopsOps
+---
+
+**Abstract:**
+
+OopsOps will explore the good, the bad and ugly of when Ops goes
+wrong. It'll cover some case studies, outline some core best practices
+and how to best communicate with customers when things go as planned.
+
+
+**Speaker:**
+
+Benjamin Arent 
+
+Ben Arent spends all days building tools to help developers ship
+better software faster at Exceptional.  For the past 2 years he's
+focused on making tools that let developers push and rapidity iterate
+and improve their products.
+
+
+

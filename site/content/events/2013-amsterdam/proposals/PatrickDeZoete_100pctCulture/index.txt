@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Patrick de Zoete
+title: 100% Culture
+---
+
+**Abstract:**
+
+An ignite talk about the culture to promise and deliver 100% uptime in a mission critical environment. This 100% availability commitment requires a nonconventional way of working which is reflected in technology and processes, but most of all culture.  After working across the whole stack for over 10 years Patrick realized that all technical problems become trivial when compared with talented, moody, wonderful but utterly analog human beings.
+
+**Speaker:**
+
+Patrick de Zoete, a big bald geek that loves anything zombie and 6502 related, works for Schuberg Philis, a company that specializes in designing, building and running application landscapes for which it guarantees 100% availability to its customers, which include energy companies, banks and other financial institutions, and online retailers. To all of them their applications are critical to their business.
+
+* Twitter: https://twitter.com/BigBaldGeek
+* Blog: http://www.hackalong.org/
