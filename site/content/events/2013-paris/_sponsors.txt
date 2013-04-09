@@ -4,6 +4,7 @@ filter:    erb
 <% @psponsors = [
 { :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
 { :image => "zeroturnaround.png", :name => "Zeroturnaround", :link => "http://www.zeroturnaround.com/"},
+{ :image => "datadog.png", :name => "Datadog" , :link => "http://www.datadoghq.com/"},
 ]%>
 
 <% @psponsors.each do |sponsor| %>
