@@ -20,5 +20,5 @@ An ignite talk about the culture to promise and deliver 100% uptime in a mission
 
 Patrick de Zoete, a big bald geek that loves anything zombie and 6502 related, works for Schuberg Philis, a company that specializes in designing, building and running application landscapes for which it guarantees 100% availability to its customers, which include energy companies, banks and other financial institutions, and online retailers. To all of them their applications are critical to their business.
 
-Twitter: https://twitter.com/BigBaldGeek
-Blog: http://www.hackalong.org/
+* Twitter: https://twitter.com/BigBaldGeek
+* Blog: http://www.hackalong.org/
