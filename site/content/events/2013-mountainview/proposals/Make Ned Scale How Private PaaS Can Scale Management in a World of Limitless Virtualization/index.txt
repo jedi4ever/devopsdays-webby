@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John Wetherill
+title: Make Ned Scale! How Private PaaS Can Scale Management in a World of Limitless Virtualization
+---
+
+**Abstract:**
+
+Virtualization promises the world: So convenient! So effortless! So
+affordable! Think of all those limitless resources, all abstracted
+away. Then think of all the applications and data that will reside on
+(and eventually extend) those abstracted resources. While VMs offer
+the convenience of easily-provisioned scalability, they don’t exactly
+make life easier for Ned in IT, who has to manage all those
+easy-to-deploy applications. But that’s where private PaaS can help.
+In this presentation and demo, an ActiveState technical leader will
+discuss the practical challenges of deploying cloud applications, and
+how private PaaS can constructively let Ned “scale” to manage his
+growing cloud of apps and data.
+
+**Speaker:**
+
+John Wetherill, developer evangelist and a Java expert at AcitveState
