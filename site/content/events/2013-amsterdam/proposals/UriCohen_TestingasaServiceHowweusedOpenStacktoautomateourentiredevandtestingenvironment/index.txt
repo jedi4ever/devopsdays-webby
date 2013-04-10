@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: false
+selected: false
+layout: event
+author: Uri Cohen
+title: Testing as a Service - How we used OpenStack to automate our entire dev and testing environment.
+---
+
+**Abstract:**
+
+Building and testing distributed software platforms can be a tedious and daunting task. Achieving good coverage can be very hard since a lot of factors affect the overall testability and coverage of a system.  Some problems only become apparent on a distributed setup, such as timing and network issues, etc. In this session we’ll explain how we used OpenStack and Cloudify to implement and automate real integration testing (as in, no mocks) for our entire product suite, and how we significantly improved our overall coverage and reliability.
+
+**Speaker:**
+
+Uri Cohen
+
+Uri heads the Product and Developer community efforts at GigaSpaces, and is a frequent speaker at various industry events and meetups. Most recently, Uri co-organized the first DevOps conference in Israel. Uri has spoken at QCon New York, Cassandra Summit, CloudStack Collaboration Conference, QCon London, QCon San Francisco, CloudBeat and Devoxx, among others.
