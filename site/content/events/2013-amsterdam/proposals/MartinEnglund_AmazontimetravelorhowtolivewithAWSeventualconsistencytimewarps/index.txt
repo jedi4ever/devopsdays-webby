@@ -23,7 +23,15 @@ Martin Englund is a Principal Engineer at Pivotal, where he works on BOSH - the 
 
 Martin has over twenty years of experience in security and automation, and has contributed to other automation tools, like Puppet. Prior to this role, he worked at Sun Microsystems as a Principal Security Engineer running Sun's external web presence, in Java Security Engineering and the Sun IT Security Office, where he was responsible for creating the standards and tools used by Sun IT to secure its servers. He has also authored numerous technical papers on security, including co-authoring the Solaris Security Essentials book.
 
+<<<<<<< HEAD
+twitter: @pmenglund
+
+blog: http://blog.codenursery.com/
+
+linkedin: http://www.linkedin.com/in/pmenglund
+=======
 Twitter: @pmenglund
 Blog: http://blog.codenursery.com/
 Linkedin: http://www.linkedin.com/in/pmenglund
+>>>>>>> a28361acdf4135ef4dd5d14c1f1b827524a09fea
 
