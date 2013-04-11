@@ -9,7 +9,7 @@ ignite: false
 selected: false
 layout: event
 author: Uri Cohen
-title: Testing as a Service - How we used OpenStack to automate our entire dev and testing environment.
+title: "Testing as a Service - How we usiied OpenStack to automate our entire dev and testing environment."
 ---
 
 **Abstract:**
