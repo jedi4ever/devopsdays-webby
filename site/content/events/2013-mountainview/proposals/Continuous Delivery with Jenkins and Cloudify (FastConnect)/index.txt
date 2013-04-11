@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Uri Cohen
+title: Continuous Delivery with Jenkins and Cloudify (FastConnect)
+---
+
+**Abstract:**
+
+Continuous delivery is not an option anymore for organizations and
+companies that implement online services and products. The ability to
+rollout new code changes quickly and as frequently as needed is an
+important business enabler. In this session we’ll review the current
+options for CD in the cloud, and learn how to implement an automated
+CD process using Cloudify and Jenkins.
+
+
+**Speaker:**
+
+Uri Cohen heads the Product and Developer community efforts at GigaSpaces,
+and is a frequent speaker at various industry events and meetups. Most
+recently, Uri co-organized the first DevOps conference in Israel. Uri
+has spoken at QCon New York, Cassandra Summit, CloudStack
+Collaboration Conference, QCon London, QCon San Francisco, CloudBeat
+and Devoxx, among others.

@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nati Shalom
+title: Building your own OpsWorks with Chef and Cloudify
+---
+
+**Abstract:**
+
+AWS OpsWorks is a DevOps solution for managing applications of any
+scale or complexity on the AWS cloud. With OpsWorks you can manage
+your complete application lifecycle, including resource provisioning,
+configuration management, application deployment, software updates,
+monitoring, etc. However, OpsWorks is only applicable to AWS. What if
+you could create and manage a similar service on top of any cloud? In
+this session we will introduce Cloudify, a new open source PaaS
+framework. Cloudify takes a different approach by using recipes (as
+opposed to heavyweight coding and platform extension) as a means to
+introduce new application stacks to the PaaS layer. You can think of
+it as extending the recipe model of Chef to support application level
+concerns such as orchestration, dependency management, multi-tier and
+multi-host deployments, monitoring and auto-scaling. This session will
+introduce how Cloudify leverages Chef as a key enabler for an open
+PaaS framework.
+
+**Speaker:**
+
+Nati Shalom is the Founder and CTO of GigaSpaces, he was recently
+recognized as a Top Cloud Computing Blogger for CIO’s by The CIO
+Magazine and he is also the founder of the IGTCLoud.  Nati is also a
+frequent presenter at industry conferences. He has spoken at IBM
+Information on Demand, Big Data Spain, DevOpsCon, NoSQL Now, UP Cloud,
+Computing Conference, OpenStack Israel, and Cloud Mafia San Francisco,
+among others.
+
