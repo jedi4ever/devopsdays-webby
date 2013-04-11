@@ -9,7 +9,7 @@ ignite: false
 selected: false
 layout: event
 author: Nati Shalom
-title: Building cross region and cross cloud high availability into your app
+title: "Building cross region and cross cloud high availability into your app"
 ---
 
 **Abstract:**
