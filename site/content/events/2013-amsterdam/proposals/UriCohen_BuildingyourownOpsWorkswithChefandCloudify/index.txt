@@ -5,6 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
+talk: true
 ignite: false
 selected: false
 layout: event
