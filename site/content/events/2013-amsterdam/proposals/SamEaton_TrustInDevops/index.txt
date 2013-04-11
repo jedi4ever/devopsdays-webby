@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sam Eaton
+title: "Trust in DevOps"
+---
+
+**Abstract:**
+
+Trust is essential in a successful DevOps environment. But it’s generally something established directly between individuals over time, and thus is hard to scale to larger teams and organisations.
+
+We commonly think about DevOps practices such as automation, testing, metrics and continuous integration/delivery in terms of their technical benefits. However, the practices, tools and culture of DevOps are often, at their core, about how to scale trust past individuals by extending visibility to other teams, as well as the wider business.
+
+This talk will provide some recipes for building trust in DevOps, by examining how trust (and lack of it) affects DevOps teams, and how concentrating on this can help you sell DevOps in your organisation.
+
+**Speaker:**
+
+Sam Eaton (@thesamoth) has been involved in web operations and DevOps teams for the last 17 years, in companies ranging from small startup ISPs through major media companies. He currently works at Yelp. Rumour has it that he invented #failcake (https://github.com/failcake/recipes)
+
