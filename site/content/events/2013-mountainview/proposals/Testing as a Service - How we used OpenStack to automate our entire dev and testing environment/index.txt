@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nati Shalom
+title: Testing as a Service - How we used OpenStack to automate our entire dev and testing environment
+---
+
+**Abstract:**
+
+Building and testing distributed software platforms can be a tedious
+and daunting task. Achieving good coverage can be very hard since a
+lot of factors affect the overall testability and coverage of a
+system.  Some problems only become apparent on a distributed setup,
+such as timing and network issues, etc. In this session we’ll explain
+how we used OpenStack and Cloudify to implement and automate real
+integration testing (as in, no mocks) for our entire product suite,
+and how we significantly improved our overall coverage and
+reliability.
+
+**Speaker:**
+
+Nati Shalom is the Founder and CTO of GigaSpaces, he was recently
+recognized as a Top Cloud Computing Blogger for CIO’s by The CIO
+Magazine and he is also the founder of the IGTCLoud.  Nati is also a
+frequent presenter at industry conferences. He has spoken at IBM
+Information on Demand, Big Data Spain, DevOpsCon, NoSQL Now, UP Cloud,
+Computing Conference, OpenStack Israel, and Cloud Mafia San Francisco,
+among others.
+
