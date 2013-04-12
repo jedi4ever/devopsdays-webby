@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Frank Breedijk
+title: "Help, my Security Officer doesn’t trust me"
+---
+
+**Abstract:**
+
+In many companies, devops and security officers don’t make for a happy couple. The first impulse for a security officer is to think ‘devops is along memory lane back to the eighties, when engineers changed directly in PROD and no OTAP streets ….’.Too bad that they are not happy couple because they are far less incompatible than it seems at a first glance. In this presentation by Frank, a hardcore security officer himself, he will explain how his colleagues seduced him to become a devops-supporter. Moreover, how he became to appreciate the possibility of ten releases a day. Perhaps, he will even explain why and how Security might benefit from devops.
+
+**Speaker:**
+
+Frank Breedijk
+
+Inventor of seccubus, speaker at multiple conferences.
