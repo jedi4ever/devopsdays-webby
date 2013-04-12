@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Anand Rudrabhatla
+title: Unchaining Development Agility
+---
+
+**Abstract:**
+
+There is growing tension between delivering software quickly, and
+being able to get the infrastructure to support the dev/test process
+at a new agile pace. Companies are looking for ways to get to the
+'continuous' state - continuous integration, continuous delivery, and
+continuous deployment. A new approach and methodology is needed to
+provide infrastructure on-demand with close to zero wait time.  The
+cloud is the logical place to look for a solution, however, existing
+IaaS solutions solve only part of the problem and are not built for
+developers and testers. Vertical-based cloud solutions are now
+becoming available to address specific business problems. In the
+dev/test world, new technology enables rapid testing and continuous
+delivery.  This new technology is available for “new” development
+organizations adopting unconventional processes, as well as
+development organizations dealing with older, traditional technology
+like MSSQL, Oracle, AD etc. The new paradigm will not only reduce the
+tension between IT and development, but will also enable collaboration
+between co-located or distributed teams. We will present and discuss
+the new methodology and technology used to solve the aforementioned
+problems and share best practices. From this presentation, attendees
+will learn about:
+
+        * The "new paradigm" for facilitating agile application development 
+        * Best practices for development and QA teams to effectively do ‘continuous development'
+        * Alternatives to waiting for IT to set up your infrastructure that won’t get you in hot water
+        * Methods for ensuring testing accuracy across your entire dev/test organization
+
+**Speaker:**
+
+Anand Rudrabhatla is a Product Manager at CloudShare. Anand has over
+15 years’ experience in product management delivering enterprise
+software products at several leading bay area technology companies. He
+has deep expertise in the areas of software development lifecycle,
+application performance, management and data center operations with
+particular focus on scalability, reliability, supportability, and
+performance. He has degrees in both Computer Science and Business
+Administration. In his spare time, he enjoys reading and hiking.
