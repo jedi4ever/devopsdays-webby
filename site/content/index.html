@@ -91,7 +91,7 @@ position: newyorklocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "New York<br>17,18 Januari 2013",
+labelContent: "New York<br>17,18 October 2013",
 labelAnchor: new google.maps.Point(+30, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
@@ -201,7 +201,7 @@ position: tokyolocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Tokyo 2013",
+labelContent: "Tokyo 2013<br>11,12 October",
 labelAnchor: new google.maps.Point(30, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
@@ -240,7 +240,7 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
-google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2012-newyork"});
+google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2013-newyork"});
 google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2013-austin"});
 google.maps.event.addListener(parismarker, "click", function (e) { location.href="/events/2013-paris"});
