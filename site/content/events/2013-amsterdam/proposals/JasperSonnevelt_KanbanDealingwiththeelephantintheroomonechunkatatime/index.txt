@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jasper Sonnevelt
+title: "Kanban. Dealing with the elephant in the room, one chunk at a time."
+---
+
+**Abstract:**
+
+Large and mostly early Scrum implementations in a very revolutionary big bang fashion have taught us that not every organization is fit for a fast change in way of working. We talk about culture, tooling, we hear Agile but which methodology are we going to use? Scrum, Lean, Agile, KanBan? KanBan seams the natural fit for DevOps.
+ 
+Small incremental changes that help you to get closer to your objective are a very effective way to lower resistance when transitioning to DevOps. With business and Ops usually furthest away from each other and business asking to "just fix the problem" there can be a big gap. Bridging this gap is a long process where past solutions usually don't work. Context is king.
+ 
+In this talk I wil share how Kanban can be used as a catalyst for change in culture and behaviour in the whole organization involved in the transition to DevOps and how it can help focus on fixing the problems that need fixing most to achieve your goal.
+
+**Speaker:**
+
+Jasper Sonnevelt
