@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Patrick van Dissel
+title: "the 21st century CI tool together"
+---
+
+**Abstract:**
+
+   I'm currently in progress of building a Minimal Viable CI product (MVP), which is completely open-source (https://github.com/pvdissel/cy.io/). It's name is still temporary. The idea is to have the MVP demoable during the open-space. But even if it's not demoable, my focus of this open-space is gathering input on experiences and ideas from the attendees from different kind of backgrounds. Topics I want to discuss are for example:
+ - pain-points people face with current CI tools
+ - CI tool must-haves
+ - How should a CI tool work within the network/cloud? eg. preferences on distributed architectures, used protocols, firewall issues, security related requirements
+ 
+**Speaker:**
+
+Patrick van Dissel, Software Engineer working at Tricode in The Netherlands. I've been setting-up, maintaining and improving the continuous integration/delivery pipeline from the technical side for the last 2 years now. During this time I've been looking at all kinds of aspects to get better code and get it to production faster.
+
+It boils down to:
+I came to the conclusion that I'm not happy with the existing so called "Continuous Integration" tools like Hudson/Jenkins, Go, TeamCity, AntHill, TravisCI, etc. They get the job done, but they don't follow the principles of this age, like:
+- Configuration-as-Code
+- Infrastructure-as-Code
+- Keep It Simple Stupid
+- Don't Repeat Yourself
+- Single Responsibility Principle
+I've investigated if I could help improve the existing tools to up-to-date. But at a code level it just looked not doable.
+
+So, in my free time, I started my own CI tool project. You can read the specifics at:
+   https://github.com/pvdissel/cy.io/wiki/Why-a-new-CI-tool
+   (and the other wiki pages and stories in the issue tracker)
