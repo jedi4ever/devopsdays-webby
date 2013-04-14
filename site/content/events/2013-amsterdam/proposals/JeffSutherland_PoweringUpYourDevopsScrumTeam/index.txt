@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jeff Sutherland
+title: "Powering Up Your Devops Scrum Team"
+---
+
+**Abstract:**
+
+Recently an overloaded 25 person Devops team supporting a large bank in the Netherlands found they could achieve a better level of support with less than 14 people using Scrum. Achieving this level of performance consistently requires more than just implementing Scrum by the book. Over the past four years, the Scrum Patterns community has created a small pattern language that can enable every Scrum team to achieve extraordinary results. This talk will discuss patterns of implementation that should be adopted by every Devops Scrum.
+
+**Speaker:**
+
+Jeff created the first Scrum team in 1993 and worked with Ken Schwaber to formalize Scrum at OOPSLA'95. Together, they extended and enhanced Scrum at many software companies, helped write the Agile Manifesto in 2001, and authored the Scrum Guide. 
