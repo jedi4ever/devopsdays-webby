@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sasha Gilenson
+title: "High IQ DevOps: Why Automation Is Not Enough"
+---
+
+**Abstract:**
+
+There are multiple views on DevOps - a philosophy of more collaborative and productive relationship between development teams and operations teams, a set of integrated release and deployment processes and recently a suite of automation tools due to the strong push from tool vendors. Whatever view you adopt one area is clearly ignored by today’s DevOps proponents and adopters. Continuous handling of a highly dynamic changes stream across numerous complex environments and various teams requires a detailed knowledge of what happened, happens and will happen in these environments.
+
+These session will speak about the specific gaps of DevOps caused by the lack of visibility into related IT processes and IT environments. We will rethink chronic IT challenges inherited by DevOps and present a new approach addressing them that started to gain momentum recently – IT Operations Analytics. Learn how to raise intelligence of your DevOps teams and initiatives.
+
+**Speaker:**
+
+Sasha Gilenson
