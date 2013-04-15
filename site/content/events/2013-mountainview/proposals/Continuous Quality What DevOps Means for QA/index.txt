@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jeff Sussna 
+title: Continuous Quality: What DevOps Means for QA
+---
+
+**Abstract:**
+
+DevOps and Continuous Delivery drive dramatic shifts in the roles,
+perspectives, and skill sets of QA Engineers. They must become
+software engineers in their own right. At the same time, they need the
+ability to understand and validate operational concerns such as
+security, scalability, resilience, etc. In a software-as-service
+world, QA's ultimate job is to help DevOps organizations understand
+the customer's job-to-be-done and ensure they satisfy customers' needs
+for deliverability and serviceability.
+
+
+This talk will provide a detailed introduction to the new role of QA
+within DevOps. It will describe testing tools and techniques
+applicable to Continuous Delivery. It will also explore ways that QA
+can help connect Dev and Ops more directly to the business and to the
+customer.
+
+
+**Speaker:**
+
+Jeff Sussna is Founder and Principal of Ingineering.IT, a DevOps and
+Continuous Delivery coaching and implementation consultancy. Jeff has
+more than 20 years of IT experience, and has led high-performance
+teams across the Dev/QA/Ops spectrum. He was recognized as a Top 50
+Must-Read IT Blogger for 2012 by BizTech Magazine. His interests focus
+on the intersection of development, operations, design, and business.
