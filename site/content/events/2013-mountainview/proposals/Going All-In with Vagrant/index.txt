@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Jeff Sussna 
+title: Going All-In with Vagrant
+---
+
+**Abstract:**
+
+Lightning Talk / Ignite
+
+With the introduction of provider plugins, Vagrant can now go far
+beyond just managing desktop VirtualBox environments. This talk will
+describe how a large enterprise made Vagrant the center of the entire
+continuous delivery lifecycle, even to the point of running Vagrant
+from inside itself.
+
+
+
+**Speaker:**
+
+Jeff Sussna is Founder and Principal of Ingineering.IT, a DevOps and
+Continuous Delivery coaching and implementation consultancy. Jeff has
+more than 20 years of IT experience, and has led high-performance
+teams across the Dev/QA/Ops spectrum. He was recognized as a Top 50
+Must-Read IT Blogger for 2012 by BizTech Magazine. His interests focus
+on the intersection of development, operations, design, and business.
