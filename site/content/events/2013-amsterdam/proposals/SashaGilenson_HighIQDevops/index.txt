@@ -20,4 +20,4 @@ These session will speak about the specific gaps of DevOps caused by the lack of
 
 **Speaker:**
 
-Sasha Gilenson
+Sasha Gilenson is Founder and CEO of Evolven. Prior to founding Evolven in 2007, he spent 13 years with Mercury Interactive (acquired by HP), managing the QA organization and participating in establishing Mercury Interactive's Software as a Service (SaaS). Sasha played a key role in the development of Mercury Interactive's worldwide Business Technology Optimization (BTO) strategy and drove field operations of the Wireless Business Unit, all while taking on the duties as the Mercury Interactive's top "guru" in quality processes and IT practices domain.

@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Micha Hernandez van Leuffen
+title: "Moving beyond red and green; collaboration as the next big challenge in Agile"
+---
+
+**Abstract:**
+
+After years of talking about agile as a methodology we are now seeing the fruits of our labor throughout our places of work. We have automated our systems and by tying them together we are now able to develop and deliver software at a frequent and sustainable pace. Tester have mastered the skills to automate their work. Continuous integration servers are doing their best to decide whether the software is 'red' or 'green' and operations is no longer a place where we dump our support tickets.
+
+Still software is not continuously flowing to production. The problems even tend to get bigger when software is dependent on other software. In this presentation I want to share our vision that one of the big reasons for this lack of flow lies within collaboration, and that the next big challenge in agile, deals with culture and how we cooperate in these automated environments that we have now created.
+
+**Speaker:**
+
+Micha Hernandez van Leuffen
+Cofounder & CEO - wercker
+http://beta.wercker.com
