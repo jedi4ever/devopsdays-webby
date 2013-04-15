@@ -9,14 +9,11 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
 
-So far we have:
-
-- Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-- Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+<span>Data do evento: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**</span>
+<span>e Local: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**</span>
 
 <img src="rio-de-janeiro.jpg">
 <small>http://www.flickr.com/photos/alcindo-filho/5410633087/sizes/m/in/photostream/</small>
 
-If you want to be the first to know when we open the [call for proposals](propose) and registration [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+<h3>Estão abertas as <a href="/events/2013-brazil/propose/">chamadas para palestras</a>. </h3>
