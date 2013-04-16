@@ -15,7 +15,7 @@ title: "The woes of doing large scale deployments on AWS"
 
 **Abstract:**
 
-During the development of the BOSH AWS cloud provider interface[1] we have been exposed to the ugly side of the AWS eventual consistency - which also got me into a heated twitter argument with the Clouderati about (bad) API design. This presentation will show how we have worked around the tar-pits in AWS and how BOSH now can reliably deploy 400 VMs on AWS in 10 minutes.
+During the development of the BOSH AWS cloud provider [interface](https://github.com/cloudfoundry/bosh) we have been exposed to the ugly side of the AWS eventual consistency - which also got me into a heated twitter argument with the Clouderati about (bad) API design. This presentation will show how we have worked around the tar-pits in AWS and how BOSH now can reliably deploy 400 VMs on AWS in 10 minutes.
 
 **Speaker:**
 
