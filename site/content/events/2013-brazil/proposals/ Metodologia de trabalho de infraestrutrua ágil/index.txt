@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Guto Carvalho e Fernando Ike
+title: "Metodologia de trabalho de infraestrutrua ágil"
+
+---
+
+**Abstract:**
+
+Apresentar como aplicar metodologias ágeis na operação de infraestrutura, essa oficina pretende mostrar como
+adaptar SCRUM e KANBAN para organizar as atividades de equipes pequenas que precisam administrar grandes parques virtualizados
+ou mesmo um grande parque em nuvem. Falaremos sobre como fazer reuniões, como distribuir atividades, trabalhos em pares,
+documentação ágil e inovação para agregar valor a equipe e ao negócio. É a receita para sair do caos e entrar no mundo
+DevOps, começando pelo lado Ops.
+
+**Speaker:**
+
+Guto Carvalho
+
+Twitter: [@GutoCarvalho](http://twitter.com/gutocarvalho)<br/>
+Blog: [http://gutocarvalho.net](http://gutocarvalho.net)<br/>
+Linkedin: [http://br.linkedin.com/in/gutocarv](http://br.linkedin.com/in/gutocarv) <br/>
+
+Fernando Ike
+
+Twitter: [@FernandoIke](http://twitter.com/fernandoike)<br/>
+Blog: [http://www.fernandoike.com/](http://www.fernandoike.com/)<br/>
+Linkedin: [http://www.linkedin.com/in/fernandoike/pt](http://www.linkedin.com/in/fernandoike/pt) <br/>
