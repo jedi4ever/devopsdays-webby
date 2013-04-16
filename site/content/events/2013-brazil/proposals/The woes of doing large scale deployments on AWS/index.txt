@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Martin Englund
+title: "The woes of doing large scale deployments on AWS"
+
+---
+
+**Abstract:**
+
+During the development of the BOSH AWS cloud provider [interface](https://github.com/cloudfoundry/bosh) we have been exposed to the ugly side of the AWS eventual consistency - which also got me into a heated twitter argument with the Clouderati about (bad) API design. This presentation will show how we have worked around the tar-pits in AWS and how BOSH now can reliably deploy 400 VMs on AWS in 10 minutes.
+
+**Speaker:**
+
+Martin Englund is a Principal Engineer at Pivotal, where he works on BOSH - the orchestration tool chain that deploys, runs and manages the open source Cloud Foundry PaaS as the commercial service cloudfoundry.com. He is a firm believer that if you aren't automating it, you are doing it wrong.
+
+Martin has over twenty years of experience in security and automation, and has contributed to other automation tools, like Puppet. Prior to this role, he worked at Sun Microsystems as a Principal Security Engineer running Sun's external web presence, in Java Security Engineering and the Sun IT Security Office, where he was responsible for creating the standards and tools used by Sun IT to secure its servers. He has also authored numerous technical papers on security, including co-authoring the Solaris Security Essentials book.
+
+Twitter: http://twitter.com/pmenglund<br/>
+Blog: http://blog.codenursery.com/<br/>
+Linkedin: http://www.linkedin.com/in/pmenglund<br/>
