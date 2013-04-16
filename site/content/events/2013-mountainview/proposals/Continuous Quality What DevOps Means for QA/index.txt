@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Jeff Sussna 
-title: Continuous Quality: What DevOps Means for QA
+title: "Continuous Quality: What DevOps Means for QA"
 ---
 
 **Abstract:**
