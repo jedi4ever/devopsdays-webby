@@ -27,6 +27,7 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
+  { :image => "netways.png", :name => "Netways", :link => "http://www.netways.de/"},
   { :image => "innoq.png", :name => "InnoQ", :link => "http://www.innoq.com/"},
   { :image => "friendscout24.png", :name => "FriendScout 24", :link => "http://www.friendscout24.com/"},
   { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
