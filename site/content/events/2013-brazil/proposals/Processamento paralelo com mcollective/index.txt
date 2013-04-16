@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+selected: false
+layout: event
+author: Guto Carvalho
+title: "Processamento paralelo com mcollective"
+---
+
+**Abstract:**
+
+Esta pequena apresentação vai mostrar como utilizar o mcollective para executar algumas tarefas e como gerenciar o puppet de forma paralela com ele.
+
+**Speaker:**
+
+Guto Carvalho
+
+Twitter: [@GutoCarvalho](http://twitter.com/gutocarvalho)<br/>
+Blog: [http://gutocarvalho.net](http://gutocarvalho.net)<br/>
+Linkedin: [http://br.linkedin.com/in/gutocarv](http://br.linkedin.com/in/gutocarv) <br/>
