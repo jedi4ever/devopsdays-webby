@@ -13,7 +13,7 @@ filter:    erb
 <h1>Gold Sponsors</h1>
 <% @gsponsors = [
   { :image => "gutefrage.png", :name => "Gutefrage", :link => "http://www.gutefrage.net/"},
-  { :image => "immobilienscout.png", :name => "Immobilien Scout", :link => "http://developer.immobilienscout24.de/2012/10/jobs-kein-kalter-kaffee/"},
+  { :image => "immobilienscout.png", :name => "Immobilien Scout", :link => "http://developer.immobilienscout24.de/jobs/"},
   { :image => "unbelievablemachine.png", :name => "The unbelievable Machine Company", :link => "http://www.unbelievable-machine.com"},
   { :image => "here.png", :name => "Nokia Here", :link => "http://nokia.de"},
   { :image => "engineyard.png", :name => "Engine Yard", :link => "https://www.engineyard.com/"},
