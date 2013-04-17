@@ -29,6 +29,7 @@ observations as different roles, from developer, to manager, to founder,
 to tutor, to consultant about the impact of learning on people and organizations.
 
 Learning Outcomes:
+
 - What does it mean to be a learning organization?
 - What does it take?
 - What are the barriers?
@@ -38,7 +39,10 @@ Learning Outcomes:
 
 **Speaker:**
 Andrew Clay Shafer has a background as a developer working for start ups and co-founded Puppet Labs.
+
 He participated in the Salt Lake City Agile Roundtable from 2005 to 2011 before moving to Pittsburgh.
 He started the Agile Roots Conference and co-organized several devopsdays.
+
 Currently in the process of starting a new company, he is constantly thinking about the topic of culture and learning as it relates to building unstoppable teams.
+
 Andrew blogs at http://stochasticresonance.wordpress.com/
