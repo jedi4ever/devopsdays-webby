@@ -5,7 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
+ignite: true
 selected: false
 layout: event
 author: Leon Rosenberg

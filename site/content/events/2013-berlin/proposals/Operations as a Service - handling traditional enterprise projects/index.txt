@@ -5,10 +5,10 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
+ignite: true
 selected: false
 layout: event
-author: Christian Theune, Christian Kauhaus
+author: Christian Theune
 title: "Operations as a Service - handling traditional enterprise projects"
 ---
 
