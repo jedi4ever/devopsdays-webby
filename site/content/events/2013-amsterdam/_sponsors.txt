@@ -27,7 +27,7 @@ filter:    erb
 { :image => "info-nl.png", :name => "Info.nl", :link => "http://www.info.nl/"},
 { :image => "engineyard.png", :name => "Engine Yard", :link => "https://www.engineyard.com/"},
 { :image => "codecentric.png", :name => "codecentric", :link => "http://www.codecentric.nl/"},
-{ :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/"},
+{ :image => "apachecloudstack.png", :name => "Apache Cloudstack", :link => "http://cloudstack.apache.com/"},
 { :image => "bolcom.png", :name => "Bol.com", :link => "http://www.bol.com/"},
 { :image => "evolven.png", :name => "evolven", :link => "http://www.evolven.com/"},
 ]%>
