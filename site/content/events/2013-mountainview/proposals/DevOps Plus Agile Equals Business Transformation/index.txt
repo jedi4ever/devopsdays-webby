@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Adam Jacob
+title: "DevOps+Agile=Business Transformation"
+---
+
+**Abstract:**
+
+The new world order of business is increasingly centered on the speed in
+which an organization can leverage digital commerce to rapidly deliver goods
+and services to consumers.  This movement was ignited by the success of
+companies such as Amazon and Google – who are disrupting traditional
+businesses by serving consumers better and faster with innovative
+technology.
+
+To move at this kind of speed, businesses must transform.  This means IT
+needs to be a front office strategic imperative to business and not the back
+office support system for internal operations. The reality today is that
+separation between Dev and Ops in large organizations still reigns supreme.
+We all know this has to change.
+
+In the Ops world many of us seeDevOps as the future.  Our developer brethren
+think about Agile development practices and moving from multi-month (or
+year!) development cycles to short sprints.  We are all really talking about
+the same thing.  Breaking down organizational boundary’s and  integrating
+teams to move faster.  Then integrating tool chains so that we have common
+tooling and don’t need to hand off artifacts (see CODE!) and continuously
+delivering innovation for the business.  There is a process for making this
+transition and that we here at Opscode have seen in practice.  George
+Moberly will talk about the 5 key drivers of success in making that
+transition.
+
+Warning - business transformation is not for the light of heart!
+
+**Speaker:**
+
+Adam Jacob is a co-founder of Opscode and the creator of Chef. Prior
+to Opscode, he founded HJK Solutions, an automated infrastructure
+consultancy. During two years at HJK, he built new infrastructures for
+15 different startups. Including his time at HJK, Adam has 13 years of
+experience as a systems administrator, systems architect, and tools
+developer. He has been responsible for large production
+infrastructures, internal corporate automation, and Sarbanes-Oxley
+compliance efforts.
