@@ -208,5 +208,14 @@ We expect the following in return:
 - __Evening event__: it's always nice for people to have an openbar or social event at the event.
 - __Video Streaming__: look for a camera man that do the recording, we have a livestream account you can use for broadcasting
 
+### Video Streaming details
+
+- For past events we used livestream. The sofware can be installed on windows & mac  - https://new.livestream.com/live-video-tools#mobile-broadcasting
+No linux :(
+- We have mainly used it on mac, there it will read any video device supported and record it both on your local computer + stream.
+- Find out if you can hookup your camera equipment immediatly to a computer and have the software detect it.
+- You can create a free account at livestream to experiment. Do create it as new.livestream.com and NOT at livestream.com.
+As it seems to require different software and has different options.
+
 ## That's it (for now)
 This document isn't finished. We are working on a checklist that you can use during the preparation and the event itself. But the above is enough to get you bootstrapped and have most questioned answered (we hope :)
