@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Andrew Clay Shafer
+title: "There is no talent shortage"
+---
+
+**Abstract:**
+
+Many organizations believe they are in a struggle to recruit and retain technical talent.
+While most recognize the time new hires require to become productive, very few organizations have a training component built into their onboarding, and even less emphasize learning as part of the ongoing process.
+The evidence suggests learning cultures have significant advantages, not only in productivity and quality, but also in attracting and retaining the best people, yet many seem reluctant to invest.  Or maybe they just don't know how?
+This talk will present a combination of research on learning and culture together with personal anecdotes from my career as a developer, manager, founder, tutor and consultant about the impact of learning on people and organizations.
+The goal is to outline a framework for self assessment of organizational learning and actionable recommendations to address deficiencies.
+
+**Speaker:**
+
+As a co-founder at Puppet Labs with a background in Agile development, Andrew Clay Shafer devops'd before devops had a name.
