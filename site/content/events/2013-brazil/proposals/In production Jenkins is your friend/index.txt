@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+selected: false
+layout: event
+author: Marcus Vinicius Ferreira
+title: "In production Jenkins is your friend"
+---
+
+**Abstract:**
+
+Jenkins is not a tool exclusive for developers. In production Jenkins is the
+best front-end for cron I could have asked for !!!
+
+**Speaker:**
+
+Marcus Vinicius Ferreira
