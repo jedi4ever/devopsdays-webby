@@ -34,8 +34,8 @@ the same thing.  Breaking down organizational boundary’s and  integrating
 teams to move faster.  Then integrating tool chains so that we have common
 tooling and don’t need to hand off artifacts (see CODE!) and continuously
 delivering innovation for the business.  There is a process for making this
-transition and that we here at Opscode have seen in practice.  George
-Moberly will talk about the 5 key drivers of success in making that
+transition and that we here at Opscode have seen in practice.  Adam
+will talk about the 5 key drivers of success in making that
 transition.
 
 Warning - business transformation is not for the light of heart!
