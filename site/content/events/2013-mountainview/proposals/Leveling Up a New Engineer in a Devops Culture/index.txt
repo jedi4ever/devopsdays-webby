@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gary Foster
+title: "Leveling Up a New Engineer in a Devops Culture; Healthy Sustainability"
+---
+
+**Abstract:**
+
+We have a small team that would like to propose a panel 
+discussion for the Devops Days event in Mountain View. The format 
+would be a quick introduction of the topic with a few talking points 
+followed by a back and forth panel discussion with the audience. 
+While we are of course proposing this panel, we would welcome and 
+encourage another team in similar circumstances to join us in the 
+panel discussion to broaden the viewpoints. 
+
+This would be a panel discussion to discuss onboarding a new engineer 
+into an existing devops team. Discussion includes how to integrate 
+a new engineer into a team practicing continuous delivery, establishing a
+mentoring relationship and the importance of devops as a foundational
+engineering culture.
+
+Initial opening discussion would include a few items to seed the 
+discussion. These would reflect topics for thought from the 
+perspective of the hiring manager, the mentor and the protege and 
+would not only include discussions around the devops mindset and 
+discipline but would also extend out to how we grow and maintain a 
+sustainable talent pool. 
+
+We have recently hired a new junior engineer from Hackbright Academy 
+(http://www.hackbrightacademy.com) and the panel would consist of her 
+(Mercedes Coyle), her mentor (Gary Foster) and the hiring manager 
+(Erik Sowa) involved. Special emphasis would be given to our internal 
+devops-centric culture, how we approach problems in an experimental 
+fashion and how we encourage or engineers to grow within that mindset. 
+
+We would also relish the opportunity to do this panel with another 
+team. If there is another company with a similar team that would like 
+to take part we would love to share the panel with them and would 
+encourage them to participate.
+
+**Speaker:**
+
+Gary Foster, Mercedes Coyle, Erik Sowa
