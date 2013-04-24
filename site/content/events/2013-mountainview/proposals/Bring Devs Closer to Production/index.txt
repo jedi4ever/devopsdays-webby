@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pete Hodgson
+title: "Bring Devs Closer to Production"
+---
+
+**Abstract:**
+
+"If we're deploying to CentOS, why are devs running the app on OS X?"
+
+We strive to create shared environments which mirror Production as
+closely as possible. At the same time it's not uncommon for a
+developer's workstation environment to be very far from Production. In
+this talk we'll learn how teams can pull production-like environments
+all the way back to a developer's workstation while still remaining
+productive, using tools like Vagrant and Chef.
+
+We'll also share some of the benefits we see for teams that do this.
+The whole team gain a better understanding of how their system
+operates 'for real'. Everyone is empowered to make infra and config
+changes when everyone's local development environment is as useful for
+testing infrastructure changes as code changes. New team members and
+members of other teams can setup their own personal copy of the system
+in minutes.
+
+**Speaker:**
+
+Pete is a lead consultant at ThoughtWorks based in SF, where he has
+spent a fair amount of time helping build CD pipelines which stretch
+from ideas to production. His recent interests include
+using tools to help devs embrace infrastructure as a key part of
+their app.
