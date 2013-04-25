@@ -17,6 +17,7 @@ filter:    erb
   { :image => "unbelievablemachine.png", :name => "The unbelievable Machine Company", :link => "http://www.unbelievable-machine.com"},
   { :image => "here.png", :name => "Nokia Here", :link => "http://nokia.de"},
   { :image => "engineyard.png", :name => "Engine Yard", :link => "https://www.engineyard.com/"},
+  { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
