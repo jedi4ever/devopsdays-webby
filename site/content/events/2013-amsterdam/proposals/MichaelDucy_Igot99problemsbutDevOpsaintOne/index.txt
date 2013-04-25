@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Michael Ducy
+title: I got 99 problems and Devops ain't one of them
+---
+
+**Abstract:**
+
+This idea is inspired by this tweet: https://twitter.com/AndiMann/status/326449569586114560
+
+**Speaker**
+
+Michael Ducy
