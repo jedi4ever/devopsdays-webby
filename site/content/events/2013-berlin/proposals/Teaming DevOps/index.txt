@@ -8,7 +8,7 @@ proposal: true
 ignite: true
 selected: false
 layout: event
-author: Christoph Beckmann
+author: Nina Haering
 title: "Teaming DevOps"
 ---
 
