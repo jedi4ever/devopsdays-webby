@@ -17,6 +17,7 @@ filter:    erb
   { :image => "unbelievablemachine.png", :name => "The unbelievable Machine Company", :link => "http://www.unbelievable-machine.com"},
   { :image => "here.png", :name => "Nokia Here", :link => "http://nokia.de"},
   { :image => "engineyard.png", :name => "Engine Yard", :link => "https://www.engineyard.com/"},
+  { :image => "netways.png", :name => "Netways", :link => "http://www.netways.de/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -28,7 +29,6 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
-  { :image => "netways.png", :name => "Netways", :link => "http://www.netways.de/"},
   { :image => "innoq.png", :name => "InnoQ", :link => "http://www.innoq.com/"},
   { :image => "friendscout24.png", :name => "FriendScout 24", :link => "http://www.friendscout24.com/"},
   { :image => "serena.png", :name => "Serena", :link => "http://www.serena.com/"},
