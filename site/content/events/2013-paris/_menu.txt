@@ -16,6 +16,8 @@ filter:    erb
 <a href="/<%= @eventhome %>/sponsor">Sponsoriser</a>
 -
 <a href="/<%= @eventhome %>/contact">Contact</a>
+-
+<a href="/<%= @eventhome %>/reactions">Réactions</a>
 <br/>
 <a href="/<%= @eventhome %>/">Welcome</a>
 -
@@ -30,5 +32,7 @@ filter:    erb
 <a href="/<%= @eventhome %>/sponsor">Sponsoring</a>
 -
 <a href="/<%= @eventhome %>/contact">Contact</a>
+-
+<a href="/<%= @eventhome %>/reactions">Reactions</a>
 </h3>
 </div>
