@@ -75,4 +75,15 @@ filter:    erb
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
+
+<% @thanksto = [
+{ :image => "afs.jpg", :name => "Austin Film Society", :link => "http://www.austinfilm.org"},
+]%>
+
+<% unless @thanksto.empty?  %><h1>Thanks to</h1><% end %>
+
+<% @thanksto.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <br />

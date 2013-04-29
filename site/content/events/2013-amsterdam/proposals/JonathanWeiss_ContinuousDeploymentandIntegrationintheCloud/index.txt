@@ -21,9 +21,4 @@ In this session we'll talk about some key concepts and design patterns for conti
 
 **Speaker:**
 
-<<<<<<< HEAD:site/content/events/2013-amsterdam/proposals/KaminaAisola_ContinuousDeploymentandIntegrationintheCloud/index.txt
-Contact: Kamini Aisola
-Speaker name of engineer not known yet
-=======
 Jonathan Weiss, AWS
->>>>>>> a28361acdf4135ef4dd5d14c1f1b827524a09fea:site/content/events/2013-amsterdam/proposals/JonathanWeiss_ContinuousDeploymentandIntegrationintheCloud/index.txt

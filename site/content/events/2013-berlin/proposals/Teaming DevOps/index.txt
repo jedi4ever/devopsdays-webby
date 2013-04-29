@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Nina Haering
+title: "Teaming DevOps"
+---
+
+**Abstract:**
+
+There is an old thesis saying that the same amount of time is needed for
+the last 10% of an IT project as for the first 90%. One of the reasons
+for this is that most of a project’s integration aspects are commonly
+postponed to the end. Even in today’s agile projects there is seldom an
+infrastructure specialist as a fixed team member.
+
+Only if you combine the infrastructure, quality assurance and
+development skills in a team you will be able to address those
+integration aspects from the very beginning.  And if you do this you
+will get the real DevOps: The Team!
+
+**Speaker:**
+
+Nina Haering

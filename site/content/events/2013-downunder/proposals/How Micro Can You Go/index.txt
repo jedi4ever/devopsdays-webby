@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sam Newman 
+title: "How Micro Can You Go?"
+---
+
+**Abstract:**
+
+Lots of people are talking about Micro Services. But how micro is micro? And while we're at it, what is a micro service anyway?
+
+This session will briefly introduce the concept of microservices, and why they are important. But then we'll focus on the tough questions. If you're starting with a big, monolithic system, how should you split it up? And how does the maturity of your operational environment impact on your system design? This talk attempts to bring the worlds of operations and architecture together, showing that only by evolving them together can long-lived systems really be successful.
+
+**Speaker:**
+Sam Newman
