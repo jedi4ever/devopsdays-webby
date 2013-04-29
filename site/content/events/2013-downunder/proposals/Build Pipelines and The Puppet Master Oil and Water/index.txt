@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sam Newman 
+title: "Build Pipelines & The Puppet Master: Oil & Water"
+---
+
+**Abstract:**
+
+Build Pipelines & Continuous Integration is a well understand development technique to provide constant feedback about the readiness of our code to go into production. It relies on source control as the source of truth, and the deployment of known artifacts. But how do Build Pipelines work with ChefServer or PuppetMaster?
+
+This talk explores the tension between CI & Build Pipelines and the environment models implemented in PuppetMaster and ChefServer. It outlines a model, based on real-world experience, that allows operations teams and developers to both use the power of Build Pipelines to quickly release tested, production ready code.
+
+**Speaker:**
+Sam Newman
