@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Brett Gailey
+title: "Continuous Integration with Packages - A Not So Scary Deployment Model"
+---
+
+**Abstract:**
+
+Packages aren't just for SysAdmin's anymore! The days of deploying
+code via rsync and tarballs are over. Lets have a talk about how you
+can use open source tools to build reliable, continuous code
+deployment models. We'll walk through creating packages with FPM,
+building repositories with PRM and using Jenkins to make your workflow
+as simple as a click of a button. By leveraging open source tools such
+as Jenkins, FPM and PRM you can create an excellent recipe for your
+deployment process. We will learn how packages and package
+repositories can be utilized for continuous deployment, using examples
+and lessons that we have learned at DreamHost.  We'll also review why
+packages are an excellent tool in deployment and some of their
+drawbacks.
+
+**Speaker:**
+
+Brett Gailey - Senior Systems Engineer, DreamHost. His role at
+DreamHost asks him to automate anything and everything that has to do
+with Operations.
