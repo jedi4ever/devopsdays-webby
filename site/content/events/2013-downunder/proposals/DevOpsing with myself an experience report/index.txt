@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Julian Simpson
+title: "DevOpsing with myself: an experience report"
+---
+
+**Abstract:**
+
+What happens when you take an experienced systems administrator, build manager, and card-carrying DevOps guy, and drop them on their own into a project where there's no unit testing, infrastructure automation, or architecture?
+
+This happened to Julian Simpson recently, and he's still fixing stuff.  How did it work out?  What did he learn?  Will he be getting PagerDuty alerts during his talk?
+
+A retrospective will be had, on stage.
+
+**Speaker:**
+Julian Simpson
