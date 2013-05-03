@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Christian Beedgen
+title: "Arm your DevOps Team with Big Data"
+---
+
+**Abstract:**
+
+The IT industry is changing fast, and DevOps teams need tools that can
+keep up with the pace –making their job easier, not more difficult.
+Machine data analytics combines the agility and flexibility needed by
+DevOps teams with the deep insight of Big Data-style analytics, but
+it’s all about the right tools and approach. This session explores
+strategies that align data analytics with the goals and workflow of
+your DevOps team.
+ 
+Some key take-aways will include:
+ 
+Let the data speak for itself: Make only basic assumptions about the
+data being consumed (time stamped, text-based, etc.). The important
+patterns should be determined by the data itself, and not by
+pre-judging what patterns are relevant, and which are not. Your
+application rapidly changes, the patterns that are significant – both
+good and worrisome– will also change accordingly.
+ 
+Continuous reinterpretation: Never try to force the machine data into
+tired old buckets that are forever out of date. The data should be
+stored raw so that it can continually be reinterpreted and re-parsed
+to reveal new meaning. Fast moving DevOps teams can’t wait for the
+stodgy software vendor to change their code or send their consultant
+onsite. They need it now.
+ 
+Any metric you want, any time you want it: With a DevOps approach to
+machine data analytics, the people that know the app the best, the
+developers, produce the metrics needed to keep the app humming. Adding
+a new metric can be as simple as writing a single line of code.
+ 
+Set the data free: Free-flow of data is the new norm, and mash-ups
+provide the most useful metrics. Specifically, pulling business data
+from outside of the machine data context allows you to put it in the
+proper perspective.
+ 
+**Speaker:**
+
+Christian Beedgen, Co-Founder and CTO at Sumo Logic 
