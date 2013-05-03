@@ -19,6 +19,7 @@ filter:    erb
   { :image => "engineyard.png", :name => "Engine Yard", :link => "https://www.engineyard.com/"},
   { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"},
   { :image => "netways.png", :name => "Netways", :link => "http://www.netways.de/"},
+  { :image => "axelspringer.png", :name => "Axel Springer", :link => "http://www.axelspringer.de/karriere"},
 ]%>
 
 <% if @gsponsors.empty?  %>
