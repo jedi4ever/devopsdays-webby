@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nick Peterson
+title: "Getting Started with CloudScript"
+---
+
+**Abstract:**
+
+CloudScript is a build language for the NephoScale cloud computing
+platform.  It is an external DSL with a dependency based programming
+model that supports idempotent operations on all resource types.  It
+allows embedded code to be run as scripts and recipes on instantiated
+servers, and the execution engine processes recipe callbacks from
+distributed agents allowing for complex automation workflows, such as
+Application Stacks, Distributed Systems/Clusters, Environmental
+Scaling, Business Process Automation, and Data Pipeline Automation.
+
+**Speaker:**
+
+Nick Peterson Director of Engineering at Nephoscale
