@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ranjib Dey
+title: "Strategies for introducing agile software development practices in operations"
+---
+
+**Abstract:**
+
+As we slowly move towards the `Infrastructure as Code` paradigm, standard software development issues like maintainability and interdependency slowly creep into an operations/infrastructure code base. Though this is not a solved problem, mainstream software development practitioners have made significant progress. This talk will focus on practices and reasoning behind those practices that can be used to increase the agility in operation teams so that they can respond to change faster - without compromising the stability. The presentation will be subdivided in three sections detailing the strategies for enabling software development practices in operations. 
+
+1. Introducing change that perturbs the system least and how to build on top it. Enabling iterative development.
+
+2. Source control, unit testing and CI. Evolving a better design through agile best practices, upfront assumptions.
+
+3. Addressing technical debts - key to moving out of tactical issues and focusing on strategy.
+
+**Speaker:**
+
+Ranjib Day Operations Engineer at PagerDuty
