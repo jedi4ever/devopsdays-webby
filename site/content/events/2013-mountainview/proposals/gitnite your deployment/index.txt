@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: 
+title: "Gitnite Your Deployment"
+---
+
+**Abstract:**
+
+Lightning Talk / Ignite
+
+Using git to manage, maintain, and continue your deployment pipeline.
+
+**Speaker:**
+
+Juan Delgado of Intuit
