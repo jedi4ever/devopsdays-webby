@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John Tangney
+title: "DevOps in Outer Space?!"
+---
+
+**Abstract:**
+
+Skybox Imaging (Skybox) provides easy access to reliable and frequent
+high-resolution satellite imagery and HD video of the earth by
+combining the power of web technologies and a constellation of
+microsatellites.
+
+Skybox's infrastructure allows us to automate configuration,
+deployment and management of Remote Ground Stations, the Mission
+Operations Centers, and Hadoop Image Processing platform. We deploy
+across multiple security zones and continents. Our applications are
+developed using diverse programming languages and architectures.
+
+We manage configuration using Puppet and Hiera. We deploy, activate
+and rollback with multiple parallel installs. Development and
+Operations teams use agile techniques like TDD and Continuous
+Deployment. Our Puppet configurations are test-driven and deployed
+automatically when we check in changes.
+
+In this talk, you'll learn about how we overcame the challenges
+imposed by our unique set of requirements. You'll see our innovative
+blend of CD, TDD and configuration management. All this can only
+happen through collaboration between Development and TechOps.
+ 
+**Speaker:**
+
+John Tangney Sr. Software Engineer, Ground Systems at Skybox Imaging, Inc.
+
