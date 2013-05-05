@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Joan Touzet
+title: "Coming to Terms with Chef: A Support Group for the Weary and Downtrodden Admin"
+---
+
+**Abstract:**
+ 
+Hello, my name is Joan T. I am a Chef user.
+
+I'm here to provide a safe, supportive environment for Chef users and
+developers so we can discuss our habit and help support each other. No
+judging.
+
+I will discuss my time in DevOps at Cloudant, a database-as-a-service
+company with hundreds of servers and as many Chef cookbooks. It’s
+where I first encountered Chef in April 2012.
+
+Since then it’s been rough going, but I’ve learned a lot and would
+like to share the story of my spiritual growth at MountainView 2013.
+
+I have a master’s degree in science from Carnegie Mellon for writing
+hardware and software simulation systems. I’ve been administering UNIX
+systems since I rescued a Sun 3/160 and four Fujitsu Double Eagles
+from a dumpster in 1991. I’m now running Cloudant’s Chef kitchen as a
+senior software and field engineer, and helping people get the most
+out of Apache CouchDB-compatible service.
+
+At first, as an experienced admin, I denied I needed Chef. Then I
+started cooking. When I started out, I’d touch it rarely. But before I
+knew it, I was on 18-hour Chef benders. This got me very angry at
+Chef. So I bargained with the tool for my sanity and ended up very
+depressed. As soon as I learned to accept Chef as part of my life,
+I've become a satisfied user and found peace in the daily rhythm.
+
+Perhaps hearing my story and learning how I negotiated the five stages
+of Chef grief – denial, anger, bargaining, depression and acceptance
+of cookbooks – will help you find peace, too.
+
+Coffee and donuts will be provided.
+
+**Speaker:**
+
+Joan Touzet
+
