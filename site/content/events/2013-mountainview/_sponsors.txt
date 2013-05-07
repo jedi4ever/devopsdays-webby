@@ -48,6 +48,7 @@ filter:    erb
 <% end %>
 
 <% @msponsors = [
+  { :image => "oreilly.png", :name => "Oreilly", :link => "http://www.oreilly.com/"},
 ]%>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>
