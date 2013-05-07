@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: 
+title: "Beyond DevOps: User-Centered IT"
+---
+
+**Abstract:**
+
+DevOps tries to help organizations rapidly produce high-quality software services by dissolving unnecessary boundaries between development and operations. I believe DevOps is a necessary but not ultimately sufficient step towards meeting the tremendous challenges facing IT. This talk will tie together trends in Cloud Computing, DevOps, Service Design, and the Consumerization of IT to define an approach to software services that radically aligns delivery teams, from marketing and design, through development and QA, all the way to operations and support, with each other and with the customer. In addition to surveying the trends that make it necessary, this talk also describe the activities and behaviors that characterize User-Centered IT organizations.
+
+**Speaker:**
+
+Jeff Sussna
