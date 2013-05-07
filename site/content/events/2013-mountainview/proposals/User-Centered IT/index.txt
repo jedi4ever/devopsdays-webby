@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: 
+author: Jeff Sussna
 title: "Beyond DevOps: User-Centered IT"
 ---
 

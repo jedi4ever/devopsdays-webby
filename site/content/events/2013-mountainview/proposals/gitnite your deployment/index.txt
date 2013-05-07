@@ -9,7 +9,7 @@ talk: false
 ignite: true
 selected: false
 layout: event
-author: 
+author: Juan Delgado
 title: "Gitnite Your Deployment"
 ---
 
