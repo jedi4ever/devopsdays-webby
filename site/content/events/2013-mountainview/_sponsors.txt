@@ -22,6 +22,7 @@ filter:    erb
   { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
   { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
   { :image => "sumologic.png", :name => "Sumologic", :link => "http://www.sumologic.com/"},
+  { :image => "stackdriver.png", :name => "Stackdriver", :link => "http://www.stackdriver.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
