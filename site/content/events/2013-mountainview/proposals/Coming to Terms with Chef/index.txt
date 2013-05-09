@@ -49,5 +49,7 @@ Coffee and donuts will be provided.
 
 **Speaker:**
 
-Joan Touzet
+Joan Touzet is a senior software and field engineer for Cloudant,
+where she runs the company's Chef kitchen. She earned a master of
+science degree from Carnegie Mellon. She is a motorcyclist and pilot.
 
