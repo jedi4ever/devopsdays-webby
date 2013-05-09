@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Adrian Cockcroft
+title: "Beer, Pineapples and Bottlenecks
+---
+
+**Abstract:**
+
+Bottleneck analysis using provisioning of drinks to conference
+attendees as the examples to illustrate how to figure out what is
+going on when your systems don't scale.
+
+**Speaker:**
+
+Adrian Cockcroft
