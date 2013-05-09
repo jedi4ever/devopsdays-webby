@@ -1,0 +1,57 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nate Johnson
+title: "Strategies for \“Pushing\” DevOps"
+---
+
+**Abstract:**
+ 
+Abstract: In our business we deal with a number of different types of
+customers, and more often than not we are faced with situations that
+require us to “push” DevOps in order to achieve success. First, in
+some circumstances, potential customers may arise with a complete lack
+of exposure to DevOps. To tackle this issue, it is essential to become
+a DevOps teacher and to educate in the beginning stages of the sales
+process in order to create a flourishing relationship. Next, when
+forming new partnerships or acquiring new clients, numerous parties
+become involved in a project and you must provide a good feedback
+system in place between many organizations. Another challenge is a
+developer or systems person who is 100% terminal. It is essential to
+help them shed the old ways and embrace automation. The last challenge
+is someone who only expresses interest in cold, hard facts, and are
+narrowly focused on solely what interests themselves. This is overcome
+by finding out something the user is really interested in, delivering
+those metrics, and correlating other metrics with the original,
+showing them how much more information may be gleaned from the
+available data.
+
+
+**Speaker:**
+
+Nate Johnson, CEO and founder of Reliam, graduated from the University
+of California Riverside in 1996 with a BA in computer science. He
+began his career at eNutrition as Manager of Systems and Networks and
+from there went to Guidance Solutions as a Senior Technology
+Consultant. Nate left his position at Guidance Solutions to be the
+Manager of Information Technology at iSuppli Corporation. After two
+years, Nate decided it was time to open his own company and in 2001
+RIS Technology (now called Reliam) was formed. Most hosting companies
+didn’t manage the relationship between server management and the
+development of web application and Nate saw that as an important need
+in the industry. Reliam developed Internet Application Management
+which bridges the gap between services currently available from most
+managed web hosting providers and the complete management of each
+customer’s application.
+ 
+Nate has written many articles and contributed to many books, most
+recently, Security Sage’s Guide to Hardening the Network
+Infrastructure. He also writes for industry blogs sharing his valuable
+experience, advice, and industry knowledge.
