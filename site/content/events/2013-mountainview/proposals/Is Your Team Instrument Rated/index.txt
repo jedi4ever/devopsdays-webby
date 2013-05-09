@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: J. Paul Reed
+title: "Is Your Team Instrument Rated (or: Deploying 89,000 times a day)"
+---
+
+**Abstract:**
+ 
+As DevOps matures from craft, through trade, to a science, we are starting
+to work on distilling out how we can make DevOps' implementation and the
+organizational transformation repeatable and predictable, across all kinds of
+environments. As part of that search, it is time to start looking at
+humanity's other "operational" endeavors and see what is applicable to DevOps.
+
+This talk examines one of the largest operational systems built to
+date: the national airspace system. We will look at specific aspects of how
+controllers (operations teams) work with pilots (developers) to safely move
+millions of passengers (customers) every year, with an incident rate that
+would make any development shop jealous.
+
+In aviation, harsher, more crowded, and inclement conditions all require
+additional training: an instrument rating. Similarly, developers and
+operations teams buying in to "DevOps culture" is a great start, but it's
+often hard to nail down what that actually means.  We'll examine the specific
+behavioral and operational elements of this other complex system that has
+been tamed and look at what's applicable to implementing a DevOps culture
+within our own industry.
+
+Finally, we'll examine some of aviation's hard-learned lessons, and look at
+ways we can leverage this knowledge, and avoid those classes of pitfalls.
+
+**Speaker:**
+
+J. Paul Reed Release Engineering Approaches
+
