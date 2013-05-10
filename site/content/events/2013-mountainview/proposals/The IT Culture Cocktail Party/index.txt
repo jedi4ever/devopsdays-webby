@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jayne Groll
+title: "The IT Culture Cocktail Party – DevOps, ITSM, Agile and Technology"
+---
+
+**Abstract:**
+ 
+IT is actually a multi-cultural society comprised of different
+factions, each advocating for their favorite framework, methodology,
+technology or philosophy.   Culture clashes can range from denial,
+silo isolation and the most unfortunate “them vs us” mentalities.
+But not surprisingly, each faction has the same end-game: high quality
+services that meet business needs at the right time and the right
+cost.  So if everyone is celebrating at the same party, why then is
+there still such a cultural divide?
+ 
+This presentation examines each culture and discusses ways to
+recognize and leverage cultural similarities, embrace the differences
+and cultivate the best of each in order to build a positive,
+productive and proud culture that is uniquely your own.
+
+While this will start as a presentation, I think it would be awesome
+to get some audience participation, first by polling for the types of
+frameworks/cultures in place in their organization and then perhaps
+inviting some people to the stage “party panel” to see if we can get
+them to share some thoughts and even acknowledge some alignment.
+
+**Speaker:**
+
+Jayne Groll ITSM Academy ITIL Expert, Certified Scrum Master
