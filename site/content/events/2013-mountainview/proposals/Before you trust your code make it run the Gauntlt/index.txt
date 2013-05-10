@@ -1,0 +1,94 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: James Wickett
+title: "Before you trust your code, make it run the Gauntlt!"
+---
+
+**Abstract:**
+
+Short Description:
+
+Security testing is often done at the cadence of auditors and not at
+the pace of the dev team.  Gauntlt is an open source framework that
+helps you “be mean to your code” through development and into
+release--facilitating ruggedized software and better communication
+between dev, ops and security teams. This talk will help you implement
+Gauntlt into your projects with plenty of real world examples.
+
+Abstract:
+
+"Be Mean to Your Code” is the core concept behind the ruggedization
+framework called Gauntlt (http://gauntlt.org) which brings the
+benefits of Behaviour Driven Development to the realms of automated
+security testing, application hardening and ruggedization. Security
+testing is often done at a cadence set by the audit team and is often
+obscured from the development and operations teams. This isn't good
+and this creates an adversarial relationship between security, dev and
+ops.
+
+Gauntlt helps security, ops, and development teams work together.
+Gauntlt is meant to be used by security experts with interest in
+automation as well as developers with interest in security. It can be
+used to deliver the results of a security audit or penetration test
+via failing Gauntlt attacks (tests) which can in turn be added to
+automated test suites. Developers know  they have resolved a
+particular vulnerability when Gauntlt no longer reports a failure.
+Gauntlt can also be used in regression tests to detect when a
+previously resolved vulnerability has been re-introduced.
+
+Traditional approaches to web security can be less effective in cloud
+environments, due to the highly dynamic nature of cloud
+infrastructure.  Fortunately, infrastructure-driven, continuous
+testing can overcome many of these challenges.  Netflix uses Gauntlt
+to continuously validate that the security configuration of its cloud
+deployment and applications remains as expected, even with a rapid
+rate of change and high degree of self-service.
+
+One of the core contributors of the Gauntlt project, James Wickett,
+will talk about the history of the project, the current features,
+examples of how to use Gauntlt and the future roadmap of Gauntlt. As
+part of this talk we will do a demo where we will walk the audience
+through getting started using pre-built Gauntlt attacks and then move
+to writing their own Gauntlt attacks. Come find out how to "Be Mean to
+Your Code" and ruggedize your next project.
+
+Gauntlt is an open source ruggedization framework using cucumber and
+written in ruby. It has been developed in collaboration with the
+security engineering teams at Netflix and Twitter. Gauntlt is MIT
+Licensed and hosted on github at http://github.com/gauntlt/gauntlt.
+
+**Speaker:**
+
+James Wickett is an innovative thought leader and technologist in the DevOps
+and InfoSec communities and has a passion for helping big companies
+work like startups to deliver products in the cloud.
+
+He got his start in technology when he ran a Web startup company as a
+student at University of Oklahoma and since then has worked in
+environments ranging from large, web-scale enterprises to small,
+rapid-growth startups. As a Senior DevOps Engineer, James is currently
+working in a startup-like team building cloud-based products for the
+Embedded Software Division of Mentor Graphics (http://mentor.com).
+James is a dynamic speaker on topics in DevOps, cloud computing, cloud
+security, security testing and Rugged DevOps.
+
+
+He is a core contributor to the Gauntlt project (http://gauntlt.org)
+and is a supporter of the Rugged Software movement. James is the
+creator and founder of the Lonestar Application Security Conference
+which is the largest annual security conference in Austin, TX. He
+volunteers as one of the chapter leaders for the OWASP Austin chapter
+(http://austin.owasp.org) and he holds the following security
+certifications: CISSP, GWAPT, GCFW, GSEC and CCSK and he serves on the
+GIAC Advisory Board.
+
+
+In his spare time he is trying to learn how to bake bread.
