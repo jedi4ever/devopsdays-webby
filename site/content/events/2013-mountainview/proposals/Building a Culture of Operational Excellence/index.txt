@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Arup Chakrabarti
+title: "Building a Culture of Operational Excellence"
+---
+
+**Abstract:**
+
+Description: For many companies, Software Operations is something that
+is kept completely separate from Software Development. Now, with
+infrastructure automation frameworks blurring the lines between what
+is Software Operations and Development, how do teams decide on who
+owns what? How do teams not end up pointing the finger at each other
+when something breaks? In this talk, we'll focus on some of the
+tactics and strategies used in getting teams to work better together
+and helping engineers think of Operational Excellence with every line
+of code written.
+
+**Speaker:**
+
+Arup Chakrabarti, the Operations Engineering Team Lead at PagerDuty
