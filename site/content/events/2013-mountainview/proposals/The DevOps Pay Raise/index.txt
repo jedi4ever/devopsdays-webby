@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author:
+author: Dustin Whittle
 title: "The DevOps Pay Raise: Quantifying Your Value to Move Up the Ladder"
 ---
 
