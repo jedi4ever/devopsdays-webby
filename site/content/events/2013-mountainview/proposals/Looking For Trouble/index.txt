@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Geoff White
+title: "Looking for Trouble: How to rapidly diagnose and solve crazy problems when time matters"
+---
+
+**Abstract:**
+ 
+This talk will be about how to troubleshoot and resolve problems in
+your infrastructure when you're under the gun.  It has occurred to me
+that a lot of junior people lack any framework from which to
+troubleshoot problems that happen in their infrastructure, whether in
+a crisis or just things that are happening on a regular basis.  Most
+people are content with doing one of the 3 Rs (Restart, Reload,
+Reboot) but this generally makes the 4th R (the most important one)
+Root Cause, impossible to perform.  I will talk about the attitude
+that you have to have, provide you with a methodology and some actual
+tools to start you on your journey  from Padawan to Jedi as far as
+troubleshooting issues are concerned.
+
+**Speaker:**
+
+My first job out of college was writing CPU and device diagnostics in
+PDP-11 Assembler.  This probably coloured my outlook on Software
+Engineering and Systems in general... trust but verify. Over the
+years, I've been a developer in Assembler, C, C++ and now Python. Also
+did a stint as a Sr. Business Critical Support Engineer for Enterprise
+Products at VMware and Nicira.  I currently have the title of Sr.
+DevOps Engineer at StubHub/EBay where I push  virtual StubHub
+environments to Dev teams for a living.
