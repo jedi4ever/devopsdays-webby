@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: Geraldine Bouleze
+author: Pascale Vicat-Blanc
 title: "How Application Defined Networking (ADN)  Remediates Cloud Performance Challenges"
 ---
 
@@ -26,4 +26,4 @@ In this talk, we will:
 - Detail the benefits of ADN for DevOps teams: highly simplified operations, predictable cloud performance and improved collaboration
 
 **Speaker:**
-Geraldine BOULEZ - Lyatiss
+Pascale Vicat-Blanc - Lyatiss
