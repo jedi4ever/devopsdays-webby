@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lindsay Holmwood
+title: "The devops field guide to cognitive biases"
+---
+
+**Abstract:**
+
+As devops practitioners we focus on improving the culture of
+collaboration so that others play nicely with us & we play nicely with
+others - but what if the biggest thing holding us back from change is
+our own brains?
+
+Cognitive biases can deeply affect our behaviours towards others by
+herding us towards mental shortcuts that are optimised for timeliness
+over accuracy, at the expense of rationalising irrational behaviour.
+
+You are probably pushing these biases onto other people every day but
+don't even know it. Does that idea make you feel unconfortable? You
+are probably experiencing the Semmelweis reflex kicking your
+confirmation bias right now.
+
+Knowing is half the battle. This talk will delve into some of the
+well-known and less well-known biases that may be affecting your
+ability to work with your peers, and your team's ability to work
+constructively with other teams.
+
+Attendees will leave the talk with an overview of biases they run into
+every day, how to hack their brains to use these biases to their
+advantage, and some tips on how to mitigate the effects of the
+limitations baked into their wetware.
+
+We have met the enemy and he is us.
+
+**Speaker:**
+Lindsay Holmwood
