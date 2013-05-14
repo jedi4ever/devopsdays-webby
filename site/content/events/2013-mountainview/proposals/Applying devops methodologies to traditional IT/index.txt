@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Serge Bery
+title: "Applying devops methodologies to traditional IT"
+---
+
+**Abstract:**
+
+Applying devops methodologies to traditional IT: challenges, tools, success factors, road ahead.
+
+Using DevOps methods to get a small infrastructure into a successful continuous release model has been done, applying the same methods within traditional IT is riddled with pitfalls, cultural and technological challenges.
+
+These challenges becomes monumental with big data and large infrastructure sizes; let’s consider our experience bringing the light of devops to an archiving cloud with 60 PETABYTES of stored data, 25000 servers, mixed OS environment and 99.999% uptime requirement.
+
+**Speaker:**
+
+Serge Bery
+Director Of Operations, Autonomy
+HP Software
