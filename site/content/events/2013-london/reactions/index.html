@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Reactions
+dirty: true
+layout: event
+platinum: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
+<% @eventid = File.basename(@page.directory) %>
+
+Now that Devopsdays London is over, here is the list of reactions, speaker slides, and videos of the event.
+
+<hr />
+
+<h2 id="video">Videos</h2>
+
+Video links here
+
+<h2 id="slides">Slides</h2>
+
+Here are some of our speaker slides:
+
+Slide links go here
+
+<h2 id="reactions">Reactions</h2>
+
+Some attendees blog post about the DevopsDays Paris event:
+
+attendee blog posts go here
