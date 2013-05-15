@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John Esser
+title: "DevOps Isn’t Enough"
+---
+
+**Abstract:**
+
+The values and ideas espoused by the DevOps movement are great, but by
+itself isn’t enough. That should be obvious because it is just Dev &
+Ops, right?  Frankly, DevOps is just a piece of a bigger puzzle that
+needs to be put together to form a whole picture. The same goes for
+Agile development—not enough.  We now have the Lean Startup and
+LeanUX.  We have technologies and practices like the Cloud and
+Continuous Delivery.  By themselves none of these are enough!  They
+address only a part of the required transformation. To really be
+successful, companies and organizations need to adopt a holistic
+approach to create an organization that can sense, adapt, learn, and
+respond like a living, sentient entity.
+
+ 
+The key to a holistic approach is creating a focus on customer
+purpose.  All activities and organizational units must contribute to
+the creation of customer value and success. Without the proper
+orientation towards the customer each part of the organization will
+perform sub-optimally and could even unwittingly hurt overall efforts.
+
+ 
+This talk will discuss how to align to our customer’s purpose (the
+REAL customer) and how to pull all of these related “agile ideas” into
+a complete, working, value creating organization.
+
+ 
+**Speaker:**
+
+John Esser Ancestry.com
