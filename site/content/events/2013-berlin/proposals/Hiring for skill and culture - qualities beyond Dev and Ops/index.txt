@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: true
+layout: event
+author: Florian Thiel
+title: "Hiring for skill and culture - qualities beyond Dev and Ops"
+---
+
+**Abstract:**
+
+As you probably know, looking for a Dev with Ops experience
+or an Ops person with a GitHub repo is not enough. There are
+two main criteria when hiring someone for a DevOps organisation:
+social/technical skills and the consequences for the organisations
+culture.
+
+I will outline things to look for in hires and share some stories
+from a large organisation moving towards DevOps.
+
+**Speaker:**
+
+Florian Thiel
