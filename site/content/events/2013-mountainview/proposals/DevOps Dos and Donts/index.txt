@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Dave Mangot
+title: "DevOps Do's and Don'ts"
+---
+
+**Abstract:**
+
+Salesforce has been undergoing a (sometimes painful) DevOps transformation
+for almost a year now.   Along the way we have had a number of successes,
+and a number of failures.   I'm proposing an ignite talk in the style of
+Todd Parr's "Do's and Don'ts" and "Underwear Do's and Don¹t's"
+(http://www.amazon.com/dp/0316908061/ref=rdr_ext_tmb) books for 3 year
+olds.    With the 20 slides, we can cover up to 20 best/worst suggestions
+for practicing DevOps.
+
+Example:  
+
+DO:  Adopt the CAMS model for explaining to your executives and others why
+we're doing what we're doing and what are the components of a successful
+transformation
+
+DON'T: Worry about the tooling when you could be worrying about the
+culture.   Cultural change is what it takes to be successful in your
+transformation and at a big company like salesforce.com, cultural change
+is HARD.  (plus, you might make John Willis take his C from the model and
+go home)
+
+
+DO: Get the Ops team involved early in the process.   DevOps needs to be
+driven by and participated in by both organizations.   If one side is
+preaching to the other, you won't have DevOps and you will probably be in
+worse shape than when you started.
+
+DON'T:  Get Ops involved earlier by allowing them to create a "Front Door
+Process" where you need to fill out a form when you start on any
+development project and submit that to Ops to get their approval (yes,
+this actually happened)!
+
+**Speaker:**
+
+Dave Mangot Architect, Infrastructure Engineering Salesforce.Com
