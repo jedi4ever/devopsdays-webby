@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Andrew Hay
+title: "DevOps for Security: Automation is your only hope to protect Cloud IaaS"
+---
+
+**Abstract:**
+
+Enterprises today are adopting the cloud in all shapes and sizes:
+public, private, hybrid, even (cloud)washed. For some security teams
+this is a nightmare, but that won’t stop the business from moving
+ahead because on-demand computing simply helps improve business
+agility too much.
+
+There is hope though. Whether you are building applications in public
+CSPs (Amazon EC2/VPC, Rackspace Cloud, etc), private
+infrastructure-as-a-service (OpenStack, CloudStack, VMware even) the
+security controls you care about are the same, but they way they need
+to be deployed and run is very very different.
+
+DevOps teams have fallen in love with automation tools like Chef,
+Puppet, and others, but how can security teams leverage automation to
+improve their life? How do we let the business realize the promise of
+fully automated self-service provisioning of resources by end users,
+while keeping our necessary controls in place and ensuring continuous
+compliance?
+
+In this session, Rand Wacker (VP of Product for CloudPassage) will
+share experience learned from some of the largest and most advanced
+organizations in the world as they have pioneered the cloud security
+automation trail.
+
+
+Please join us to learn and discuss:
+·   	Why the DevOps, Marketing, and BU teams love cloud, and where adoption is going
+·   	How security must re-think their approach to enable the business to get the most out of IaaS, in both public and private environments
+·   	Who is responsible for cloud security, both in your org as well as with your providers
+·   	What it takes to maintain security visibility and compliance in a self-service world
+·   	When you can expect your org to be using cloud resources that aren’t adequately secured (spoiler alert: its probably already happening)
+
+**Speaker:**
+
+Andrew Hay Director of Applied Security Research CloudPassage Inc.
