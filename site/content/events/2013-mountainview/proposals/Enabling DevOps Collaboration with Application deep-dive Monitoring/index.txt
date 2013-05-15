@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Debu Panda
+title: "Enabling DevOps Collaboration with Application deep-dive Monitoring"
+---
+
+**Abstract:**
+
+You have probably mastered the art of doing Agile releases by
+automating release processes and employing application release
+automation tools. However not having proper application performance
+monitoring tools in production makes you blind to how your newly
+deployed source code is impacting end-users. And the part of the
+application that is spoiling the Release celebration beer is
+invisible! Come and learn how you can use application performance
+monitoring tools to enable DevOps collaboration. This will provide you
+with 20/20 visibility to the impact of new releases on application
+performance. You will gain visibility into which users are getting
+impacted, which lines of the code are causing grief. I will take
+examples of two organizations (a Payroll processing company and a
+Healthcare company) and will show how they have improved DevOps
+collaboration with application performance monitoring tool.
+
+**Speaker:**
+
+Debu Panda is technologist based in the San Francisco bay area. He has
+authored multiple books (EJB 3 In Action, Middleware Management) and
+40+ on Java, middleware and cloud computing technologies. He is
+recognized as an Oracle ACE. He is speaker at leading technology
+conferences such as JavaOne, Oracle OpenWorld, Serveside Symposium,
+JUGs, etc
