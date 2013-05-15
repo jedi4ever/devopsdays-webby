@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Raziel Tabib
+title: "Enhance your agile and CD practices with key analytics to  meet enterprise needs"
+---
+
+**Abstract:**
+ 
+ In this session we will describe key analytics and metrics that can
+ be captured and  extracted from various systems. These metrics can
+ enhance the agile practices and aid the decision taker with
+ actionable information to make informed decisions. Lastly these
+ metrics enable collaboration across the various business units and
+ departments by providing full transparency of the development
+ pipeline and risks.
+
+ **Speaker:**
+
+Raziel Tabib Sr. Product Line Manager  - HP Software Dev tools
