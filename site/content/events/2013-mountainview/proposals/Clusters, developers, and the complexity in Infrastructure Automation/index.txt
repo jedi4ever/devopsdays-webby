@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Antoni Batchelli
+title: "Clusters, developers, and the complexity in Infrastructure Automation "
+---
+
+**Abstract:**
+
+There are many sources of complexity in any infrastructure automation project. Some are inherent to the infrastructure itself: Cloud vs. hosted vs. VMs, operating systems, software configuration, etc., but others are inherent to the problem users are trying to solve. As DevOps and infrastructure automation adoption keeps increasing outside of the datacenter, the scenarios get more complex and abstract. I would like to explore the sources of this complexity and talk about a programmatic approach.
+
+In general, when talking about infrastructure automation, we tend to consider a single production scenario, OR maybe a few of them if you consider QA, staging, etc., or even different zones, but these scenarios are relatively static in number and in form. As automation goes upstream, from the Ops world into the Dev world, the number and dynamic nature of the scenarios increases dramatically. Developers see infrastructure as a fluid concept, just like the software they are accustomed to writing. For example, a developer needs to test a new code on an environment built to match the production one, but with some very specific variations, or sometimes to test the same code with many of those variations automatically. Often, the configuration and state of the services the developer requires might need a specific network layout, or the database loaded with a particular dataset. Furthermore, there usually are many developers on the same product team, and they might work concurrently on different code branches at any time, each branch possibly requiring different variation of the infrastructure. In these scenarios we see a combinatorial explosion of systems to build, and a big bottleneck for a DevOps team.
+
+Similar complexity growth can be seen with cluster-centric infrastructures, as is the case in Big Data projects. Building a big data setup is a relatively complex but mostly solved task, but operating these clusters continues to be mostly an art form. The decision making required for operating these clusters varies from cluster to cluster, from user to user, and the decisions to be made involve OS, software, cluster, and application-wide knowledge. This is again a combinatorial explosion of factors and decisions.
+
+One way to tackle such complexity is by taking a programmatic approach to automation. From this perspective, you first abstract over some of the inherent sources of complexity --infra, OS, software, etc--, then over the composite parts of your infrastructure, nodes, clusters, groups, and finally write the code to operate all OF these abstractions in a coordinated manner. With this approach, the actual programming is no different than regular software development, and hence you can leverage the tried and true Software Engineering practices for all other complex software development.
+
+**Speaker:**
+
+Antoni Batchelli
+Founder palletops.com
