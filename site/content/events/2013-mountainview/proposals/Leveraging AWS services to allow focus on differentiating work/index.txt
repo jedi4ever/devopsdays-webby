@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Sudhindra Rao
+title: "Don’t build it yourself: Leveraging AWS services to allow focus on differentiating work"
+---
+
+**Abstract:**
+
+ AWS provides a number of services that don’t yet provide a standard API e.g SQS, CloudSearch. As developers you may be confronted with a decision to build your app on top of standard (cloud agnostic) APIs and protocols or falling down to use AWS specific protocols. We’ve tried both and ultimately came to the conclusion that for our team using AWS specific APIs to speed up development may not be all that bad. We’ll share our experience and lay out a case for avoiding abstraction in favor of using AWS services where available.
+
+We will use real life examples that highlight the key decisions we made when migrating our installed application to the cloud and call out both the benefits and tradeoffs when tying ourselves to AWS services.
+
+Features covered:
+
+- Scaling - Autoscaling groups
+- Messaging - Moving from ActiveMQ to SQS
+- Email - Using SMS
+- Caching - Preferring ElastiCache over our own memcached server
+- Scaling Search on the cloud
+
+**Speaker:**
+Sudhindra Rao is a Developer with ThoughtWorks Studios. He has worked on building software and solutions on various technologies. His current passion is development for the cloud.
+He blogs at http://sudhindrarao.com and tweets at @sudhindraRao.

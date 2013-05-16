@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Scott Turnquest
+title: "Analysis techniques for identifying waste in your build pipeline"
+---
+**Abstract:**
+
+We thought we were doing all the right things with our build and deployment process. Everything that could be automated was automated. But we still found that our build and deployment process took much longer than expected. In short, even with lots of automation, there was still lots of waste. This talk focuses on analysis techniques used to identify waste in our deployment processes and the changes we made (both in process and technically) to reduce waste and speed up our feedback cycles.
+
+Techniques covered -
+
+* Value stream mapping
+* Fishbone root cause analysis
+* 5 Whys root cause analysis
+
+**Speaker:**
+Scott Turnquest is a Delivery Manager with ThoughWorks Studios. He has spent the past 12 years building software products and believes that simplicity is one of the most important attributes in process, products and code.
