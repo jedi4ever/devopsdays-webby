@@ -8,7 +8,7 @@ proposal: true
 ignite: true
 selected: false
 layout: event
-author: Nina Haering
+author: Mario Martelli
 title: "Teaming DevOps"
 ---
 
@@ -27,4 +27,4 @@ will get the real DevOps: The Team!
 
 **Speaker:**
 
-Nina Haering
+Mario Martelli
