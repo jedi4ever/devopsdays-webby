@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Sheroy Marker
+title: "Continuously deploying Mingle on the cloud - a showcase"
+---
+**Abstract:**
+
+When we started migrating our installed app to a SaaS model, we realized we'd have to follow CD practices that were better suited for the cloud.
+
+In this session we will:
+
+- Discuss some of the practices and principles we followed along the way.
+- Showcase our deployment process and the AWS APIs and services used to automate our infrastructure.
+- Discuss some of the operational practices we came to appreciate.
+- Approaches to speeding up deployment and achieving zero downtime deployments.
+
+While we deploy our application on AWS I will focus on principles and patterns that can be useful regardless of your IAAS provider.
+
+**Speaker:**
+Sheroy Marker is a principal consultant at ThoughtWorks and has spent the last 14 years applying agile software development principles at large scale software projects. He has also spent time training and coaching these principles at ThoughtWorks.
