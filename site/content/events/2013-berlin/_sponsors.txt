@@ -57,7 +57,7 @@ filter:    erb
 <% end %>
 
 <% @esponsors = [
-  { :image => "syseleven.png", :name => "SysEleven", :link => "http://www.syseleven.com/"}
+  { :image => "syseleven.png", :name => "SysEleven", :link => "http://www.syseleven.com/"},
   { :image => "github.png", :name => "github", :link => "http://www.github.com/"}
 ]%>
 
