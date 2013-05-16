@@ -21,4 +21,4 @@ This talk will focus on how [test-kitchen](https://github.com/opscode/test-kitch
 Learn about unit as well as smoke testing infrastructure as code in a TDD cycle. Besides the technology we will look into the benefits of this faster feedback cycle and the current/future state of infrastructure as code testing.
 
 **Speaker:**
-Nicol Fletcher
+Nicol Fletcher - initial author of TestKitchen and many other opensource projects
