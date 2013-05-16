@@ -10,7 +10,7 @@ ignite: false
 selected: false
 layout: event
 author: John Martinez
-title: "Distributed DevOps: what can possibly go wrong with having teams all over the planet?"
+title: "Distributed DevOps what can possibly go wrong with having teams all over the planet"
 ---
 **Abstract:**
 
