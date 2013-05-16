@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Philip Jacob
+title: "Systems theory for successful enjoyment of AWS"
+---
+
+**Abstract:**
+
+In the past year, Stackdriver has gone from, well, not existing to supporting over 130 beta customers.  We receive thousands of measurements per second from our customers and perform time series aggregations in real time.  The infrastructure for our hot data pipeline resides on AWS and is designed for scale, availability, consistency and performance using principles that originate in a book written in 1978.  
+
+*Wait, what?  1978?*
+
+In this talk, we will discuss how the design choices we made for our stateless cell architecture were influenced by a book called Systemantics, first published 35 years ago.   We’ll also demonstrate our cell architecture, which is a concept that you could reuse in your company.  
+
+For example, one of the quotes adorning the walls of our office is “What could possibly go wrong?”  This kind of defensive thinking permeates our consideration of software architecture, system architecture and cloud architecture.  Not only do we presume that things can go wrong, we usually presume that something is always going wrong, or at least partially wrong.  
+
+Our hot data pipeline is one of our key assets and was developed by pressure testing our design considerations with Systemantics quotes like:
+
+- Systems in general work poorly or not at all.
+- Complicated systems produce unexpected outcomes
+- The real world is what it is reported to the system
+- A complex system that works is invariably found to have evolved from a simple system that works.
+- The Fail-Safe Theorem: When a Fail-Safe system fails, it fails by failing to fail safe.
+
+**Speaker:**
+
+Philip Jacob - Stackdriver.com

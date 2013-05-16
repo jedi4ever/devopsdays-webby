@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Philip Jacob
+title: "How to hire engineers that get devops"
+---
+**Abstract:**
+
+Hiring is one of the key skills that any successful startup must master.  At Stackdriver, we have a well-oiled interview process that helps us efficiently and thoroughly evaluate potential candidates.  We frequently hear from candidates during the interview that our style is unique and that they haven’t experienced anything like it before.  What do we do differently?  
+
+Our interview process is based on the goal of finding the boundaries of a candidate’s skills and knowledge rather than ask questions that don’t help us make an assessment of how a candidate will perform in real life.  We also will discuss how we evaluate the devops-iness of candidates.
+
+During this talk, we will provide a detailed walkthrough of what it takes to join our team, what we focus on, what kind of questions we ask, and how we reach consensus about a candidate.  Since we sometimes work with recruiters, we also tailor our direction and guidance for them so they can be effective sourcers and filters for us.  
+
+If you have ever made a hiring mistake or wish to improve the effectiveness of your team’s interview process, join us for a session that will give you some practical techniques for doing so.  
+
+**Speaker:**
+
+Philip Jacob - Stackdriver.com

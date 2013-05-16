@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Philip Jacob
+title: "Running Cassandra on AWS"
+---
+
+**Abstract:**
+
+Stackdriver relies heavily on Cassandra running in AWS to store, analyze, and query across 100+ million data points per day. As we move to the public beta of our hosted monitoring service in the current months, we expect that volume to grow to over 1 billion data points per day.
+
+In this presentation, we highlight our reasons for choosing Cassandra versus other platforms and describe the novel architecture that allows us to tolerate inevitable failures that one would expect running at scale on AWS. We also describe our experiences with running Cassandra in a cloud environment and shared some of the tips, tricks, and lessons that we have learned along the way.
+
+**Speaker:**
+
+Philip Jacob - Stackdriver.com
