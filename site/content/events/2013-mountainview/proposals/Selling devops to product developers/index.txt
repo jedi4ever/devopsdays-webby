@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Karthik Gaekwad
+title: "Selling devops to product developers"
+---
+**Abstract:**
+
+Lightning Talk / Ignite
+
+DevOps has been readily accepted by operations teams in many organizations and is starting to gain traction with development teams. However, in many organizations, there is the proverbial wall between product development and Ops which makes it hard for the teams to communicate even though everyone is working towards the same goals.
+
+I will outline strategies for teams to make developers more engaged with devops, and practical tips to convert siloed organizations and teams to a devops mindset.
+
+**Speaker:**
+Karthik Gaekwad (@iteration1): is a senior web software engineer at Mentor Graphics Embedded Corp in Austin, Texas. I spend my time designing and develop cloud products in an agile way. Prior to Mentor, I spent 5 years at National Instruments (most recently on the cloud team), where we used the concept of devops to innovate on new products. I have presented multiple times at DevOpsDays Austin (2011 and 2012) and Austin Cloud User Group (ACUG). I'm also an organizer for ACUG.
+

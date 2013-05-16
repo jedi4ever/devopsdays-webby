@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: David Hatten
+title: "The Positive Powers of Negative Thinking"
+---
+**Abstract:**
+
+This idea was inspired by Jeff Hackert's talk about Conway's Law at DevOpsDays Austin 2013. Communication sucks; it's the biggest problem between any two people on the planet. Bad communication leads to bad discussion. Bad discussion leads to low productivity, low morale, and bad products. In order to communicate effectively, it is necessary to shut down some of the more primal parts of our brain; as Hackert talked at length about, the amygdala is the part of our brain that kicks into action and gets defensive when someone disagrees with one of our ideas. The amygdala is primal and irrational, while we need the calm, rational powers of the neocortex.
+
+The gist of the talk I'm proposing is to highlight some of the very negative aspects of programming (see "Be Nice To Programmers" <http://edu.mkrecny.com/thoughts/be-nice-to-programmers> as well as some very negative aspects of our existence; such as our place and significance in the grand scale of the universe. Then, take these negative realities such as "I am insignificant in the scope of the universe", "I know nothing", and use them to facilitate better discussion and communication by cutting out the amygdala. Keeping the amygdala out of the office can open up your mind to learning new ideas instead of clinging to the defense of your own ideas. The talk then focuses on the difference between being wrong and failing, and highlights that being wrong is how you learn and learning should be the goal of every interaction you have at work. Not being right.
+
+**Speaker:**
+David Hatten - a developer for UrbanCode
