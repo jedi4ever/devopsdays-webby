@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dustin Whittle
+title: "The DevOps Pay Raise: Quantifying Your Value to Move Up the Ladder"
+
+---
+
+**Abstract:**
+
+The performance of your application affects your business more than you might think. Top engineering organizations think of performance not as a nice-to-have, but as a crucial feature of their product. Those organizations understand that performance has a direct impact on user experience and, ultimately, their bottom line. Unfortunately, most engineering teams do not regularly test the performance and scalability of their infrastructure. Join this session to find out about the latest performance testing tools and why your team should add performance testing to your agile development process. We will dive in to how to evaluate performance and scalability with MultiMechanize, Bees with Machine Guns, and Google PageSpeed. In addition, we’ll look at how to track the impact of every release with AppDynamics. You will leave this session with an understanding of how to automate performance testing and evaluate the impact it has on performance and your business.
+
+Agenda:
+
+- Why performance matters?
+ - What was the performance impact the last release?
+ - What about the impact of that configuration change or package upgrade?
+ - Case studies on business impact of performance at Google/AOL/Shopzilla
+- Tools of the trade
+ - MultiMechanize
+ - Bees with Machine Guns
+ - Google PageSpeed
+ - AppDynamics
+- Best practices
+ - Server Side
+ - Client Side
+- Integrating into your process
+ - develop -> test -> deploy -> rinse & repeat
+
+**Speaker:**
+
+Twitter: [@dustinwhittle](https://twitter.com/dustinwhittle)
+Linkedin: [http://www.linkedin.com/in/dustinwhittle](http://www.linkedin.com/in/dustinwhittle)
