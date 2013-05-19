@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Pascale Vicat-Blanc
+title: "How Application Defined Networking (ADN)  Remediates Cloud Performance Challenges"
+---
+
+**Abstract:**
+
+As developers build increasingly sophisticated and constantly changing distributed applications in the cloud, getting the right performance and a stable response time from a complex infrastructure based on a “black box network” is becoming a huge challenge and even a nightmare in some circumstances. DevOps teams keep instrumenting, checking and re-provisioning collections of resources to adapt their cloud to the changing workload, infrastructure load or outages. To overcome these challenges, DevOps professionals need more  visibility and programmability as well as end to end automation. Software Defined Networking (SDN) is the first step in addressing these issues and making the network more agile and transparent. But SDN solutions are bottom up ‘fixes’, playing at a very low level of the infrastructure and will not directly solve the latency and availability problems that DevOps experience in the cloud.
+
+ Application Defined Networking is a top-down approach that addresses the predictability and performance issues encountered in current cloud applications and meets the need for infrastructure differentiation and software control in this scenario.  ADN centers on the application’s goals and real-time needs. ADN accelerates the adaptive feedback loop and streamlines the movement of data throughout the entire virtual infrastructure of each application. ADN automatically discovers application flows, such as the actual data exchanged to deliver the business value. Online flow mapping and analyzing is the key to ADN flow intelligence and performance automation. ADN gives the application the ability to adapt its networking environment using APIs, so that application delivery and performance across public and private cloud networks are optimized, without compromising on application portability or security.
+
+In this talk, we will:
+
+- Explain why and how ADN discovers and maps the applications flows
+- Discuss how ADN help DevOps team to detect, locate and quickly remediate bottlenecks and performance issues
+- Detail the benefits of ADN for DevOps teams: highly simplified operations, predictable cloud performance and improved collaboration
+
+**Speaker:**
+Pascale Vicat-Blanc - Lyatiss

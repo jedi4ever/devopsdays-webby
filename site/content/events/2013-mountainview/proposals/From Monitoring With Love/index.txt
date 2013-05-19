@@ -1,0 +1,50 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+talk: false
+selected: false
+layout: event
+author: Peco Karayanev
+title: "From Monitoring, With Love"
+---
+
+**Abstract:**
+
+Application monitoring and troubleshooting is a developer and
+operations concern that causes friction.  The current model in which
+DevOps runs release automation until it hits a performance wall, and
+Operations swoops in to save the day is not working.  Since testers
+cannot reproduce the complex application operational environment,
+traditional testing tends to be reactive.  We need to change the
+mindset to “if it is not broken, it may be breaking” and shift to
+tracking close calls instead of relying excessively on actionable
+alerts (which often create false positives).  According to the Process
+Improvement Institute, a risk analysis firm, across many industries
+there are between 50 and 100 near misses recoded per serious accident,
+and about 10,000 smaller errors that occur during that time.  The
+speaker will discuss practical approaches for implementing tracking of
+close calls, the different groups of data sets available, a new
+analytical approach and changes in DevOps to allow this.
+
+**Speaker:**
+
+Peco Karayanev, an APM domain expert, currently serves as Senior Field
+Applications Engineer for Riverbed Technology .   Previously, he
+served in the same role at OPNET, (the leader in Application and
+Network Performance Management) , prior to its 2012 acquisition by
+Riverbed.  Before that, Peco spent seven years at National
+Instruments, where he worked most recently in the R&D division,
+developing a control and provisioning framework (PIE), for several new
+cloud-based SaaS products, and as a Web Systems Engineer supporting
+ni.com.  Peco has presented at a variety of technology conferences
+including Vignette Village, OPNETWORK, Oracle Open World and LASCON on
+a panoply of systems and application performance topics.
+
+
+Speaker contact info:  panayot.karayanev@riverbed.com
+

@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Miah Johnson
+title: "Chef Resources and Providers"
+---
+**Abstract:**
+
+I spoke a few weeks ago at Chefconf on this subject, and I've made further progress I'd love to share. Specifically, I want to share a presentation with some useful OOP techniques that can be applied to Chef Cookbook development. I would like to discuss how some changes to cookbook design can help with code reuse, flexibility, and testing. I've been working on a cookbook to manage logstash that features these decisions. My intention is that this talk will be a 'take 2' on my chefconf talk with more details and working code.
+
+I plan on using it to demonstrate:
+
+- Instances
+- Duck Types
+- Sending messages to resources instead of cloning them [CHEF-3694](https://gist.github.com/danielsdeleo/30a8719901eca6545488)
+- Automatically generating resources and working with a common provider.
+
+<https://github.com/miah/chef_logstash>
+<http://www.slideshare.net/rosekolodny/resources-and-providers-chef-conf-2013>
+
+**Speaker:**
+Miah Johnson

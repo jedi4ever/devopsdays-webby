@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Geert Jansen
+title: "Economics vs. Technology: Testing on replicas of production"
+---
+**Abstract:**
+
+Proper testing of software, necessary to achieve quality, is not easy.
+
+Even if you have the perfect methodology, you are facing thorny infrastructure issues. Ideally you would like to do all of your tests, from continuous integration to system and regression suites, on exact replicas of your production environment. Conflicts between technical and economical factors however are preventing many teams from achieving this, with dramatic effects on software quality. Economics suggest that bursty development and test workloads are best run in the on-demand infrastructure of the public cloud. However technical issues prevent you from creating high-fidelity replicas of all but the most simple or most recently architected environments. You are required to make a tradeoff between cost and relevance of your tests that you do not want to make.
+
+ Ravello Systems is one of a breed of new companies that is tackling this problem. Using a combination of a new, high-performance nested hypervisor called HVX, software-defined networking, and storage virtualization, Ravello can quickly make high-fidelity copies of existing, on-premise virtualized environments that can be run on-demand in the infinite capacity of Amazon, Rackspace and the HP cloud.
+
+**Speaker:**
+
+Geert Jansen, director of product marketing at Ravello Systems

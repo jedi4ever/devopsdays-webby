@@ -1,0 +1,79 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Damon Edwards
+title: "Leading the Horses to Drink: A Practical Guide to Gaining Support and Initiating a DevOps Transformation"
+---
+
+**Abstract:**
+
+Do these tales of woe sound familiar?: 
+
+"I can't get my managers to support my DevOps efforts"
+
+"Company politics prevent me from getting help from other teams"
+
+"People say they are too busy getting real work done to worry about a
+fad called DevOps"
+
+"Our CIO wants 30 deployments per day and told me I have until next
+quarter to to buy and implement the DevOps tool to make it happen"
+
+These are all actual examples from companies lacking organizational
+alignment. A lack of organizational alignment is the #1 killer of
+DevOps dreams and good intentions. Left unchecked, a lack of
+organizational alignment will undermine any improvement efforts you
+attempt and continuously generate more disfunction throughout your
+organization.
+
+
+So what can you do? Organizational alignment sounds like a a
+complicated and daunting culture issue, doesn't it? Where do you start
+and how can you make progress?
+
+
+In this presentation, I'll be walking you through a proven set of
+design patterns for building organizational alignment. You'll walk
+away from this presentation with the outline of a plan that you can
+adapt and apply to your own organization. No special people skills or
+management kung-fu required.
+
+
+Your path to organizational alignment will contain three "acts":
+
+Act 1: Making the case -- getting buy-in from your colleagues, support
+from your managers, and the budget to bring a plan to life
+
+
+Act 2: Learning to see -- getting the entire organization (up and down
+the management chain as well as across the value stream) to see the
+actual problems in the same way and talk about those problems using
+the same language.
+
+
+Act 3: Solution design and execution - getting the entire organization
+to embark on continuous improvement (and to stay on course!)
+
+
+**Speaker:**
+
+Damon Edwards is a co-founder of DTO Solutions and has spent over 13
+years working on both the technology and business ends of web
+operations. DTO Solutions specializes in DevOps and automated
+infrastructure consulting for large-scale and mission critical IT
+operations. DTO clients include leading e-commerce, financial
+services, and gaming companies such as Adobe, JPMorgan Chase, Zynga,
+Cisco WebEx, Williams-Sonoma, and CCP Games. Damon is a frequent
+conference speaker and contributor to the dev2ops.org blog where he
+focuses on DevOps and operational process topics. Damon is also active
+in the international DevOps community, including co-organizing DevOps
+Days conferences and co-hosting the DevOps Cafe podcast.
+
+

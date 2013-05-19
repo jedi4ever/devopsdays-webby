@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Toufic Boubez
+title: "Beyond Pretty Charts…. Analytics for the rest of us"
+---
+
+**Abstract:**
+
+Current monitoring tools are clearly reaching the limit of their capabilities. That's because these tools are based on fundamental assumptions that are no longer true such as assuming that the underlying system being monitored is relatively static or that the behavioral limits of these systems can be defined by static rules and thresholds. Interest in applying analytics and machine learning to detect anomalies in dynamic web environments is gaining steam.  However, understanding which algorithms should be used to identify and predict anomalies accurately within all that data we generate is not so easy.
+
+This talk builds on an Open Space discussion that was started at DevOps Days Austin.  We will begin with a brief definition of the types of anomalies commonly found in dynamic data center environments and then discuss some of the key elements to consider when thinking about anomaly detection such as:
+
+- Understanding your data and the two main approaches for analyzing operations data: parametric and non-parametric methods
+- The importance of context
+- Simple data transformations that can give you powerful results
+
+By the end of this talk, attendees will understand the pros and cons of the key statistical analysis techniques and walk away with examples as well as practical rules of thumb and usage patterns.
+
+**Speaker:**
+
+Dr. Toufic Boubez, CTO and Co-Founder, Metafor Software
+
+Toufic Boubez is a SOA and Web services pioneer. He was the founder and CTO of Layer 7 Technologies, a leader in API management recently acquired by CA. Prior to Layer 7, he was the Chief Architect for Web Services at IBM's Software Group, and the Chief Architect for the IBM Web Services tools. At IBM, he founded the first SOA team and drove IBM's early XML and Web Services strategies.
+
+Toufic holds a Ph.D. in Biomedical Engineering – Neural Networks from Rutgers University.

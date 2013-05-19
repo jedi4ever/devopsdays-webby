@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: John Martinez
+title: "Distributed DevOps what can possibly go wrong with having teams all over the planet"
+---
+**Abstract:**
+
+Changing the culture of your Dev and Ops teams to adopt a DevOps mindset is hard enough. Imagine a world where Dev and Ops are spread across five cities in four countries, see each other very rarely, but are expected to work together. Adobe has come a long way with trying to implement this practice for our cloud-based services.
+
+Adobe Cloud Services is an internal Adobe team that helps product teams operate their services in the Amazon cloud. Part of our mission is to integrate our operations teams with product teams and foster the DevOps culture. Along the road of our culture change, we discovered that starting DevOps practices is not as easy as maintaining DevOps practices.
+
+The main challenges with distributing teams geographically are many, and I will describe the ones that were most challenging. Also, learn about some of the plusses of being distributed in this manner. Finally, I'll talk about the areas where we still need a lot of work, and how keeping an open mind to refactoring culture and code should get us over the next few bumps in the road.
+
+**Speaker:**
+
+John Martinez, Cloud Operations Engineer, Adobe

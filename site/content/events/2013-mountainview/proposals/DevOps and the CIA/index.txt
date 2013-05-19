@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Karthik Gaekwad
+title: "DevOps and the CIA"
+---
+**Abstract:**
+
+The idea of DevOps to operate effectively in an organization is not limited to the world of software. The concepts of culture and sharing information and data also occurs in other realms as depicted by the restructuring in the Central Intelligence Agency (CIA) to do a better job to capture Osama Bin Laden.
+
+In this lighting talk, I will elaborate on how the CIA, in the 1990's was a siloed organization that had analysts (who studied threats/motives) and operations (field agents) that worked towards keeping America safe from terrorist threats. However, after 9/11 the agency restructured the counter terrorism unit for analysts and operations agents to work together on the hunt for Bin Laden, and sometimes, where analysts became operations agents to operate more effectively, and solve the task at hand.
+
+To conclude, the pillars of devops (culture and sharing information) isn't limited to just us technologists, but transends to other fields.
+
+I'm basing my talk on interviews (example: <http://www.pbs.org/newshour/bb/terrorism/jan-june13/manhunt2_05-01.html>) and the documentary Manhunt (<http://www.imdb.com/title/tt2475544/>).
+
+**Speaker:**
+Karthik Gaekwad (@iteration1): is a senior web software engineer at Mentor Graphics Embedded Corp in Austin, Texas. I spend my time designing and develop cloud products in an agile way. Prior to Mentor, I spent 5 years at National Instruments (most recently on the cloud team), where we used the concept of devops to innovate on new products. I have presented multiple times at DevOpsDays Austin (2011 and 2012) and Austin Cloud User Group (ACUG). I'm also an organizer for ACUG

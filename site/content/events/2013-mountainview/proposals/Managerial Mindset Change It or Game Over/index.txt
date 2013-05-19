@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John Esser
+title: "Managerial  Mindset: Change It or Game Over!"
+---
+
+**Abstract:**
+
+In the DevOps community we talk a lot about “culture”—describing it,
+changing it, and living in it.  In many cases, our ability to embrace
+and implement DevOps is largely a function of whether or not our
+“culture” will support it.  We say our culture “sucks” or is “awesome”
+because of what we can or cannot do.  What we don’t realize is that
+culture is just a manifestation of behavior that is the by-product of
+the organization’s mindset. Ultimately, mindset is implemented and
+enforced by managers and managerial systems so what do you do? Without
+managers’ thought processes changing transformational efforts will
+fail as the prevailing mindset will drive behaviors of staff back to
+their “safe place.”  DevOps, Agile, Lean, Continuous Delivery and
+other good stuff are eventually doomed unless the mindset changes.
+
+ 
+This talk will discuss how to implement transformation by changing
+mindset, specifically in management. How do you do it? What mindset
+elements do you need to change? How hard is it?  What about large
+organizations?  What about startups or companies that have been around
+for years?  I will discuss key ideas and recommend specific actions
+based on my experience as a change agent working at the company that
+moved from a “traditional” operations and development mindset to one
+of business agility.
+
+**Speaker:**
+
+John Esser Ancestry.com

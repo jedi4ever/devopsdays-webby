@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Chrissie Cui
+title: "Continuous integration enabled by freebies"
+---
+**Abstract:**
+
+Like everyone else, we, DevOps, love freebies. That is why a lot of successful contiguous integration solutions are powered by open source projects these days, such as CI platform Jenkins, different types of testing frameworks, code coverage and static analysis tools, e.g. Sonar. We can benefit tremendously from contributing to the open source community for contiguous integration.  In this talk we will go over several existing open source projects that can be used in your contiguous integration solutions. 
+
+**Speaker:**
+Chrissie Cui - Mobile Dev Ops -  VMware Inc.

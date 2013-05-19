@@ -24,6 +24,7 @@ filter:    erb
   { :image => "sumologic.png", :name => "Sumologic", :link => "http://www.sumologic.com/"},
   { :image => "stackdriver.png", :name => "Stackdriver", :link => "http://www.stackdriver.com/"},
   { :image => "stormpath.png", :name => "Stormpath", :link => "http://www.stormpath.com/"},
+  { :image => "cloudmunch.png", :name => "CloudMunch", :link => "http://www.cloudmunch.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
