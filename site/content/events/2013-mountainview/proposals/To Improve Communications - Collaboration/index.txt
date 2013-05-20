@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: David Ratcliffe
+title: "5 Compelling Actions You Can Start To Implement Tomorrow To Improve Communications & Collaboration"
+---
+
+**Abstract:**
+Pink Elephant developed the very first ITIL certification course over 20 years ago, and David himself delivered the very first class in North America over 16 years ago. So what? Well since then, despite all the proclaimed benefits of process-centric IT Service Management and the myriad of other “best practice frameworks” – we still see up to 80% of IT projects failing. Why?
+
+David will describe to you that poor communications between people and teams are at the heart of all our problems here. But more to the point, he’ll describe to you 5 changes you can start to make tomorrow that will improve your personal effectiveness, that of your team, and also that of all those others you need to interact with.
+
+Nothing you hear will depend upon management approval, a budget or any special tools or resources. David will tell you that you already have what you need to start doing things more effectively – you just have to hear the “5 compelling actions” and then you can get started.
+
+**Speaker:**
+David Ratcliffe is co-founder and President of Pink Elephant, the world’s #1 ITIL® education and consulting organization. David has been involved with the ITIL framework since it was first envisioned in the mid-1980s, and is considered one of the world’s leading authorities. He has particularly been a key driving force behind the “ITSM Revolution” in North America and Asia.  In 1997, David was responsible for developing and delivering the first ITIL Foundations course in North America, and later the same year, the first international ITSM conference, which is today the world’s largest annual gathering of ITSM focused professionals.  An IT veteran since 1977, David is a prolific blogger, industry commentator and speaker, offering insightful and practical solutions to real life issues in IT management.
+
+Blog: <http://blogs.pinkelephant.com/president>
+Twitter: <http://twitter.com/pinkerdavid>
+
