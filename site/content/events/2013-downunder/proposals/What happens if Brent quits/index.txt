@@ -14,7 +14,9 @@ title: "What happens if Brent quits?"
 
 **Abstract:**
 
-Brent is the key operations engineer within the book The Phoenix Project - by DevOPS Godfarthers Gene Kim, Kevin Behr and George Spafford. Everyone at the conference either has a little Brent within them or knows a Brent in their organisation. From an organisation perspective, how can you identify your Brent and what are some practical strategies on minimising your Brent risk. And if you are Brent, how can you loose your Brent title and unshackle the organisation improve your props.
+Brent is the key operations engineer within the book The Phoenix Project - by the DevOPS godfathers. He is the guy that knows how everything works and is involved in every critical project within the organisation. 
+
+Everyone at the DevOPS Days conference either has a little Brent within them or knows a Brent in their organisation. From an organisation perspective, how can you identify your Brent and what are some practical strategies on minimising your Brent risk. And if you are Brent, how can you loose your Brent title and unshackle the organisation improve your props.
 
 **Speaker:**
 Trent Hornibrook
