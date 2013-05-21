@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Richard Kettelerij
+title: migrating to a fully-automated deployment pipeline in the real-world
+---
+
+**Abstract:**
+
+none provided
+
+**Speaker:**
+
+Richard Kettelerij and his colleague 
