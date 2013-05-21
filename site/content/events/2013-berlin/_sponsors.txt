@@ -41,6 +41,7 @@ filter:    erb
   { :image => "stanford.png", :name => "Stanford Ignite Paris", :link => "http://www.gsb.stanford.edu/ignite/paris"},
   { :image => "tarent.png", :name => "Tarent", :link => "http://www.tarent.com"},
   { :image => "opsworks.png", :name => "OpsWorks", :link => "http://aws.amazon.com/opsworks/"},
+  { :image => "epost.png", :name => "E-POST", :link => "http://www.epost.de/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
