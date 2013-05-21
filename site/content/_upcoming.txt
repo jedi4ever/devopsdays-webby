@@ -1,5 +1,6 @@
 <div class="submenu" style="width:550px">
   <h3>
+    <a href="/events/2013-berlin/">Berlin</a> -
     <a href="/events/2013-mountainview/">MountainView</a> -
     <a href="/events/2013-amsterdam/">Amsterdam</a> -
     <a href="/events/2013-downunder/">Downunder</a> -
