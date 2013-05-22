@@ -10,7 +10,7 @@ ignite: true
 selected: false
 layout: event
 author: Adrian Cockcroft
-title: "Beer, Pineapples and Bottlenecks
+title: "Beer, Pineapples and Bottlenecks"
 ---
 
 **Abstract:**
