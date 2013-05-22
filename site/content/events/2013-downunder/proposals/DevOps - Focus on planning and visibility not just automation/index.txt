@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sean Hamawi
+title: "DevOps - Focus on planning & visibility not just automation"
+---
+
+**Abstract:**
+
+The DevOps approach has had a very heavy focus on getting Release automation and Collaboration right but equally important is the need to have proper upfront Planning with checks and balances. Planning drives visibility & coordination which assists in breaking down the wall of confusion across dev and ops teams. Within the dev team the multuple delivery functions such as BA, Developers and Testers need proper planning in order ensure they delivery ontime and quality products to IT Ops. While IT Ops need to gain confidence that Dev know what is happening in the sausage factory, they need varios forms of lite information to kept them across what is coming down the pipe.
+
+**Speaker:**
+Sean Hamawi

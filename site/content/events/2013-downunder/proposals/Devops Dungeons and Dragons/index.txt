@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Lutz 
+title: "Devops, Dungeons & Dragons"
+---
+
+**Abstract:**
+
+An effective operations team is ready to react quickly and decisively
+when systems fail.  We all know they will fail.
+
+How do you maintain those ops muscles in prime condition when an
+infrastructure is basically stable?  We know muscles atrophy when not
+used regularly.  Failures and disasters can be simulated to give
+operations teams this much needed practice.  Netflix have their simian
+army to inject some chaos into their infrastructure.  Amazon, Etsy and
+others have firedrills and game days of different kinds.
+
+We have a framework for running incident firedrills at whole new level
+using ideas borrowed from D&D.
+
+Instead of a band of elves and humans fighting orcs and trolls we have
+a campaign of sysadmins, DBAs, network and security engineers fighting
+cascading system failures, database corruption and increased latency
+in 3rd party APIs.  Complex campaign scenarios are planned out by one
+of the team acting as "Dungeon Master".
+
+By running these regularly we can roleplay leadership and
+communication within the team, distribute knowledge, train up new
+staff to go on-call, and even expose developers to the dangerous and
+exciting world of operations.
+
+**Speaker:**
+David Lutz
