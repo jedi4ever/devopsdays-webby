@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Nate Johnson
-title: "Strategies for \“Pushing\” DevOps"
+title: "Strategies for Pushing DevOps"
 ---
 
 **Abstract:**
