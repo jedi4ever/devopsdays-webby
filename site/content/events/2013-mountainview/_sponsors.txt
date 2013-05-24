@@ -47,6 +47,7 @@ filter:    erb
   { :image => "stormpath.png", :name => "Stormpath", :link => "http://www.stormpath.com/"},
   { :image => "activestate.png", :name => "Activestate", :link => "http://www.activestate.com/"},
   { :image => "cloudmunch.png", :name => "CloudMunch", :link => "http://www.cloudmunch.com/"},
+  { :image => "riverbed.png", :name => "Riverbed", :link => "http://www.riverbed.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
@@ -65,6 +66,7 @@ filter:    erb
   { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://www.ansibleworks.com/"},
   { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
   { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"}
+  { :image => "electriccloud.png", :name => "Electric-Cloud", :link => "http://www.electric-cloud.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
