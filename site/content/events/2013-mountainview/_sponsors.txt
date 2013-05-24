@@ -21,7 +21,7 @@ filter:    erb
 <h1>Special sponsors</h1>
 <% @hsponsors = [
   { :image => "pagerduty.png", :name => "Pagerduty", :link => "http://www.pagerduty.com/", :deal => 'Happy Hour'},
-  { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/", :deal => 'Venue'}
+  { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/", :deal => 'Host'}
 ]%>
 
 <center>
