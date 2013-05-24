@@ -65,7 +65,7 @@ filter:    erb
   { :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
   { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://www.ansibleworks.com/"},
   { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
-  { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"}
+  { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
   { :image => "electriccloud.png", :name => "Electric-Cloud", :link => "http://www.electric-cloud.com/"}
 ]%>
 
