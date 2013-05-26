@@ -5,7 +5,6 @@ filter:    erb
 { :image => "schubergphilis.png", :name => "Schuberg Philis", :link => "http://www.schubergphilis.com/"},
 { :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
 { :image => "vxcompany.png", :name => "VX Company", :link => "http://www.vxcompany.nl/"},
-{ :image => "bitbrains.png", :name => "Bitbrains", :link => "http://www.bitbrains.nl/"},
 { :image => "amazonws.png", :name => "Amazon Web Services", :link => "http://www.amazon.com/"},
 { :image => "tomtom.png", :name => "Tom Tom", :link => "http://www.tomtom.nl/"},
 { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com/"},
@@ -38,6 +37,18 @@ filter:    erb
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
+
+<% @bsponsors = [
+{ :image => "bitbrains.png", :name => "Bitbrains", :link => "http://www.bitbrains.nl/"},
+{ :image => "uglyduckling.png", :name => "Ugly Duckling", :link => "http://uglyduckling.nl/"},
+]%>
+
+<% unless @bsponsors.empty?  %><h1>BBQ Sponsors</h1><% end %>
+
+<% @bsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 
 <% @msponsors = [
 ]%>

@@ -18,6 +18,27 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<h1>Special sponsors</h1>
+<% @hsponsors = [
+  { :image => "pagerduty.png", :name => "Pagerduty", :link => "http://www.pagerduty.com/", :deal => 'Happy Hour'},
+  { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/", :deal => 'Host'}
+]%>
+
+<center>
+<table width=300px>
+<tr>
+<% @hsponsors.each do |sponsor| %>
+<td>
+<center>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<br><%= sponsor[:deal] %>
+</center>
+</td>
+<% end %>
+</tr>
+</table>
+</center>
+
 <% @gsponsors = [
   { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
   { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
@@ -26,6 +47,7 @@ filter:    erb
   { :image => "stormpath.png", :name => "Stormpath", :link => "http://www.stormpath.com/"},
   { :image => "activestate.png", :name => "Activestate", :link => "http://www.activestate.com/"},
   { :image => "cloudmunch.png", :name => "CloudMunch", :link => "http://www.cloudmunch.com/"},
+  { :image => "riverbed.png", :name => "Riverbed", :link => "http://www.riverbed.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
@@ -43,7 +65,8 @@ filter:    erb
   { :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
   { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://www.ansibleworks.com/"},
   { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
-  { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"}
+  { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
+  { :image => "electriccloud.png", :name => "Electric-Cloud", :link => "http://www.electric-cloud.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
