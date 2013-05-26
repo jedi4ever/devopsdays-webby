@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Jonathan Thorpe
+title: "8 mistakes that prevent DevOps success"
+---
+
+**Abstract:**
+
+I've seen several problem in companies over the years that I believe are significant.  Besides cultural challenges, there are technical challenges that are not specific to any tool chain that need to be addressed in order for a DevOps initiative to scale beyond the scope of a small team.  I will also cover that while a technology first approach to DevOps with a coalition of the willing may make a successful proof of concept project, cultural issues need to be addressed too.
+
+**Speaker:**
+Jonathan Thorpe
