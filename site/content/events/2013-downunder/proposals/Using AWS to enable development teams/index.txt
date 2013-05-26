@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Luke Chadwick
+title: "Using AWS to enable development teams"
+---
+
+**Abstract:**
+
+At REA we have been on a long journey to enable our development teams. From one development and one test environment shared between all the teams, an environment that was hand rolled and frequently broken, to hundreds of automatically provisioned EC2 instances.
+
+From Continuous Delivery to spinning up arbitrary environments for development and testing purposes, being able to automatically provision an entire (production like) stack has changed the way we work. Using AWS has enabled teams to be more agile and efficient.
+
+Lessons have been learned, both at an technical level, but also team and organizational dynamics. I would like to share the challenges that we have faced, and the tools we have developed to aid in our management of our development cloud.
+
+**Speaker:**
+Luke Chadwick
