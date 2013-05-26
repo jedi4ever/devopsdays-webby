@@ -1,9 +1,10 @@
 - Ingmar Krusch
 - Bernd Erk
 - André von Deetzen
-- Christian Requena
 - Ralph Angenendt
 - Jens Braeuer
 - Marcel Wolf
 - Norman Messtorff
 - Ravi Yadav
+- Christian Requena
+- Matthias Lip
