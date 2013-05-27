@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Jonathan Thorpe
+title: "DevOps when you can't hire the A-Team"
+---
+
+**Abstract:**
+
+Presented this as an open mike ignite at DevOpsDays Austin.  Had good feedback from Gene Kim and Byron Miller, refined a bit would like to submit it for DevOpsDays Downunder.
+
+The DevOps movement, DevOpsDays especially is attended by the 1%, the people traditional companies wish they could hire.  In this session I go over a typical 1% approach to DevOps and why it risks condeming DevOps to be a niche way of working due to elitist, roll your own approaches that won't scale.
+
+**Speaker:**
+Jonathan Thorpe
