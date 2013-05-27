@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Jonathan Thorpe
+title: "Secrets of a DevOps Ninja"
+---
+
+**Abstract:**
+
+I'll cover 4 "techniques"
+
+Understand the process.  Make sure that the process is well understood and suitable for your DevOps initiative.  Understanding the people, key interactions, and how existing processes may need to change as part of a DevOps initiative is key.
+Automate the process.  Once a solid process has been outlined it is time to start looking at how things can be automated.  A big bang approach won't work, choose areas with the biggest pain points to get immediate benefit.
+Robust, reproducible deployments.  Deployments should happen in the same way in every environment.  Using the same process across all environments is something to strive for. Fragile scripts with hard coded environment logic is not ideal.
+Put the pieces together.  As more work is flowing through the system it is important be know the status of the work. While it is easier to have multiple islands of information from each individual tool that is used to automate the system, it is more useful to have a consolidated view that can put information in the correct context.  
+The session is vendor and tool agnostic and is designed to stimulate thinking across the entire process.
+
+**Speaker:**
+Jonathan Thorpe
