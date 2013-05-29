@@ -21,23 +21,13 @@ filter:    erb
 <h1>Special sponsors</h1>
 <% @hsponsors = [
   { :image => "pagerduty.png", :name => "Pagerduty", :link => "http://www.pagerduty.com/", :deal => 'Happy Hour'},
-  { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/", :deal => 'Host'}
+  { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/", :deal => 'Host'},
+  { :image => "itsmacademy.png", :name => "Itsmacademy", :link => "http://www.itsmacademy.com/", :deal => 'Lanyard'}
 ]%>
 
-<center>
-<table width=300px>
-<tr>
 <% @hsponsors.each do |sponsor| %>
-<td>
-<center>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<br><%= sponsor[:deal] %>
-</center>
-</td>
+<a href='<%= sponsor[:link] %>'><img  border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
-</tr>
-</table>
-</center>
 
 <% @gsponsors = [
   { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com/"},
@@ -47,6 +37,7 @@ filter:    erb
   { :image => "stormpath.png", :name => "Stormpath", :link => "http://www.stormpath.com/"},
   { :image => "activestate.png", :name => "Activestate", :link => "http://www.activestate.com/"},
   { :image => "cloudmunch.png", :name => "CloudMunch", :link => "http://www.cloudmunch.com/"},
+  { :image => "ca.png", :name => "Ca Technologies", :link => "http://ca.com/lisa"},
   { :image => "riverbed.png", :name => "Riverbed", :link => "http://www.riverbed.com/"},
 ]%>
 
