@@ -10,7 +10,6 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
-{ :image => "knewton.png", :name => "Knewton", :link => "http://www.knewton.com/"},
 ]%>
 
 <br><br>
