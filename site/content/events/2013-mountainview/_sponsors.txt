@@ -39,6 +39,7 @@ filter:    erb
   { :image => "cloudmunch.png", :name => "CloudMunch", :link => "http://www.cloudmunch.com/"},
   { :image => "ca.png", :name => "Ca Technologies", :link => "http://ca.com/lisa"},
   { :image => "riverbed.png", :name => "Riverbed", :link => "http://www.riverbed.com/"},
+  { :image => "logicmonitor.png", :name => "Logicmonitor", :link => "http://www.logicmonitor.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
