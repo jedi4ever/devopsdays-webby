@@ -40,6 +40,7 @@ filter:    erb
   { :image => "ca.png", :name => "Ca Technologies", :link => "http://ca.com/lisa"},
   { :image => "riverbed.png", :name => "Riverbed", :link => "http://www.riverbed.com/"},
   { :image => "logicmonitor.png", :name => "Logicmonitor", :link => "http://www.logicmonitor.com/"},
+  { :image => "saltstack.png", :name => "Saltstack", :link => "http://www.saltstack.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
