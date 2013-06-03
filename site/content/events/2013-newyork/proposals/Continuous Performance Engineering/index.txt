@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: true
+selected: false
+layout: event
+author: Speaker 2
+title: "Continuous Performance Engineering"
+---
+
+**Abstract:**
+
+Don't you just hate it when a performance tester starts jumping and screaming at every opportunity to block a release, for various reasons like: "it wasn't tested properly" or "we don't know how the site will perform at 2x or 3x load" or "what about a soak test for 72 hours"!?? Or how about asking a valid question during design like: "what exactly is 300% load, compared to today's throughput?" or "do we know the average response time for that 3rd-party call?" Perhaps there's another way of prioritizing which kinds of the performance work should be done along the promotional release path, and de-prioritize other kinds of learning about performance as part of a feedback path.  I would like to share some real examples of what happens when we get this wrong.  What happens when we block the promotional momentum for the wrong reasons, when we have gaps in the feedback flow about performance and when we miss the opportunity to trend these cycles over the long-term.  In short, I'd like to share and alternative idea about the "when, what and where" for performance work.
+
+**Speaker:**
+
+Speaker 2

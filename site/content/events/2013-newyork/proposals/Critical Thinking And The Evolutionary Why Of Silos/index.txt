@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: true
+selected: false
+layout: event
+author: Speaker 1
+title: "Devops – Critical Thinking & The Evolutionary 'Why?' Of Silos"
+---
+
+**Abstract:**
+I’d really love to speak on behalf of this as I come from an enterprise type environment where I to deal with a staggering amount of knowledge bases and silos. I’d love to teach people to think critically, look at how they can achieve quick wins and build a culture of success. I want to take devops outside of the view of just flattening teams to creating continuous improvement of culture and how they can “export” that internally.
+ 
+bullet points:
+ 
+* critical thinking
+* defining organization, silos and knowledge domains
+continuous improvement - how/what are doing to improve? are we measuring it? are we actually looking at things with the ability to measure it?
+* exporting cultural changes - are we trying to copy what works or are we deriving what works?
+* “the science of devops” - who/what/when/where/why - remember, to prove something in the scientific world we start with the basis that what we’re proving must be falsifiable. make sure you’re working on testable process and measurable successes, don’t fall into ideological traps!
+
+**Speaker:**
+
+Speaker 1
