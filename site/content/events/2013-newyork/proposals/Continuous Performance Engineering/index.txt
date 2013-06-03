@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-ignite: true
+ignite: false
 selected: false
 layout: event
 author: Speaker 2
