@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alon Aizenberg 
+title: "Test automation patterns for continuous delivery"
+---
+
+**Abstract:**
+ 
+The heart of every continuous delivery process is test automation. It is the test automation that gains us the confidence in releasing software frequently. In this talk, we will share test automation patterns, which we implemented in our team CD pipelines. Examples are happy paths, test grids, data subsets, parallel test execution, testing async tasks, load / capacity testing and more. 
+
+**Speaker:**
+
+Alon Aizenberg , SAP
+
+Alon currently works at SAP as an architect and team leader. His main focus at SAP is the Search domain. SAP is implementing CD more for more then 2 years now, and Alon will be happy to share their experiences. In addition Alon also gave a talk on devopscon Israel, the previous incarnation of devopsdays Israel. You can see the session [here](http://youtu.be/EzBAmRLGBTs). 
+His Blog can be found [here](http://alonaizenberg.blogspot.com/). 

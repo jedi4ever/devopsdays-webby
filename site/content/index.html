@@ -85,6 +85,8 @@ var downunderlocation = new google.maps.LatLng(-25.274398,133.775136);
 var indialocation = new google.maps.LatLng(20.593684,78.96288);
 var atlantalocation = new google.maps.LatLng( 33.748995,-84.387982);
 var aucklandlocation = new google.maps.LatLng(-36.853463,174.782823);
+var tlvlocation = new google.maps.LatLng(32.066283,34.777908);
+
 
 var newyorkmarker = new MarkerWithLabel({
 position: newyorklocation,
@@ -240,6 +242,18 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+var tlvmarker = new MarkerWithLabel({
+position: tlvlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Tel Aviv<br>30 September 2013",
+labelAnchor: new google.maps.Point(-20, 10),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+
 google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2013-newyork"});
 google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2013-austin"});
@@ -254,7 +268,7 @@ google.maps.event.addListener(tokyomarker, "click", function (e) { location.href
 google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2013-atlanta"});
 google.maps.event.addListener(aucklandmarker, "click", function (e) { location.href="/events/2013-newzealand"});
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2013-amsterdam"});
-
+google.maps.event.addListener(tlvmarker, "click", function (e) { location.href="/events/2013-telaviv"});
 }
 </script>
 

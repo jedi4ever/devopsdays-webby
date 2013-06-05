@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Evgeny Zislis  
+title: "Amazing Operations with ToC and TPS"
+---
+
+**Abstract:**
+ 
+As applications become more and more complex, it is more and more difficult have one holistic view of it all. Common practice for many companies is jumping from solving one local maxima problem to another with disregard of the big whole. For some time now our neighbor the software development practice has been borrowing some of the solutions from an unexpected direction - industrial manufacturing. Leading ideas for these solutions have been defined by Deming, Toyota, Motorolla and Eliyahu Goldratt with his Theory of Constraints. It is time for operations to get into the game! Come and learn some of these life changing practices and solve ALL the operation problems once and for all!
+ 
+**Speaker:**
+
+Evgeny Zislis , devops.co.il
