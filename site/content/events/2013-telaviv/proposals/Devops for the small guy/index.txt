@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Boris Dinkevich 
+title: "Devops for the small guy"
+---
+
+**Abstract:**
+ 
+Sometimes DevOps might be an overkill and PaaS (Platform as a Service) the solution.
+In this talk we will see what happens in the world of small companies and startups and how one can survive without dedicated DevOps, using existing Managed-Hosting solutions (PaaS)
+We will discuss some real world use cases of companies using Heroku, the various add-ons used, monitoring, scaling, deployment, pros, cons and pricing, and speak about when PaaS is no longer a good fit.
+
+**Speaker:**
+
+Boris Dinkevich, Partner at [500tech](http://www.500tech.com)
+
+Boris was a DevOps ("IT Architect" back then) in the Israeli Air Force, and now the owner of Rails development shop. 

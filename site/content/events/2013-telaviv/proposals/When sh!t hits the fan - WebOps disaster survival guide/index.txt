@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Avishai Ish-Shalom
+title: "When sh!t hits the fan - WebOps disaster survival guide"
+---
+
+**Abstract:**
+ 
+"3:17 AM - an SMS just woke you up; You stare at Nagios half asleep and panic, production is down!!!. You've got 20 minutes to do.... something.
+
+This talk will cover strategies for handling crisises with minimum pain and maximum results and will touch related subjects such as disaster planning, fault-tolerance, SLA, post mortems, production debugging, etc."
+
+**Speaker:**
+
+Avishai Ish-Shalom, [FewBytes](http://www.fewbytes.com)
+
+Avishai is a veteran ops and a survivor of many prod skirmishes. Currently masquerading as the CTO of Fewbytes - a consulting company for Ops and architecture.
+
