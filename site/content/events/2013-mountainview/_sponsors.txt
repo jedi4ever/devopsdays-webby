@@ -42,6 +42,7 @@ filter:    erb
   { :image => "logicmonitor.png", :name => "Logicmonitor", :link => "http://www.logicmonitor.com/"},
   { :image => "saltstack.png", :name => "Saltstack", :link => "http://www.saltstack.com/"},
   { :image => "vmware.png", :name => "Vmware", :link => "http://www.vmware.com/"},
+  { :image => "cumulusnetworks.png", :name => "Cumulus Networks", :link => "http://cumulusnetworks.com/"},
 ]%>
 
 <h1>Gold sponsors</h1>
