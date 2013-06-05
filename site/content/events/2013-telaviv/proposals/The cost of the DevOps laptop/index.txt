@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Boris Dinkevich 
+title: "The cost of the DevOps laptop"
+---
+
+**Abstract:**
+ 
+A short presentation of the enormous risk the information on a devop's devices (laptop/mobile) can have for the organization. From the various ssh keys, saved passwords, bash history and up to gmail being open on the mobile phone. This talk will focus on the potential harm bad security can cause, and provide some tips on how to keep your environment safe and minimize catastrophic risk.
+
+**Speaker:**
+
+Boris Dinkevich, Partner at [500tech](http://www.500tech.com)
+
+Boris was a DevOps ("IT Architect" back then) in the Israeli Air Force, and now the owner of Rails development shop. 
