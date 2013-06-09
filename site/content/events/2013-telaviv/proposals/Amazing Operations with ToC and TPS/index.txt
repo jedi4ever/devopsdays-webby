@@ -18,4 +18,6 @@ As applications become more and more complex, it is more and more difficult have
  
 **Speaker:**
 
-Evgeny Zislis , devops.co.il
+Evgeny Zislis , [devops.co.il](http://www.devops.co.il)
+
+Evgeny is a consultant at Devops Israel. For the last 10 years he has been involved in helping and teaching developers in companies big and small get a better handle on the operations side of their programming.
