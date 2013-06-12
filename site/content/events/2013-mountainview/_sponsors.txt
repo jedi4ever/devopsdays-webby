@@ -63,7 +63,8 @@ filter:    erb
   { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
   { :image => "electriccloud.png", :name => "Electric-Cloud", :link => "http://www.electric-cloud.com/"},
   { :image => "enstratius.png", :name => "Enstratius", :link => "http://www.enstratius.com/"},
-  { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://www.xebialabs.com/"}
+  { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://www.xebialabs.com/"},
+  { :image => "10gen.png", :name => "10gen", :link => "http://www.10gen.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
