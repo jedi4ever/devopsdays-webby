@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 2
+title: "Hubot - the command line for your remote team"
+---
+
+**Abstract:**
+
+More teams are working remote, and group chat rooms, such as Campfire or HipChat, become the place where everyone 'sits' during the day.  This makes it the perfect place to receive information, check up on your systems, and take action.  Hubot, developed initially by GitHub, can handle all of this by automating the vast majority of your team's process.  All it takes is a bit of CoffeeScript.
+
+I think this would be interesting since it takes a somewhat novel approach to DevOps automation - instead of users installing command-line tools or remote scripts, the logic resides in Hubot, and he can act as a funnel for operations requests and alerts, all inside the chat - where developers already are.
+
+**Speaker:**
+
+Speaker 3
