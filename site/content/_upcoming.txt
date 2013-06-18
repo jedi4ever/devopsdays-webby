@@ -5,5 +5,7 @@
     <a href="/events/2013-amsterdam/">Amsterdam</a> -
     <a href="/events/2013-downunder/">Downunder</a> -
     <a href="/events/2013-brazil/">Rio de Janeiro</a>
+    <a href="/events/2013-telaviv/">Tel Aviv</a>
+    
   </h3>
 </div>
