@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Yoram Michaeli  
+title: "A toy story: the TabTale episode - CI in the Mobile world"
+---
+
+**Abstract:**
+ 
+A use case presenting how CI and automation helped TabTale - a company that creates mobile games and education apps for kids - overcome the challenges and obstacles in the mobile world and deliver a large set of applications to multiple platforms and app stores.
+ 
+**Speaker:**
+
+Yoram Michaeli , [Tikal Knowledge](http://www.tikalk.com)
+
+Yoram is an ALM & DevOps expert at Tikal Knowledge. He has a DevOps background of more than 10 years and a programming background of over 20 years. Yoram previously worked at Pontis, Comverse and Microsoft.
