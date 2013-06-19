@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lior Harel 
+title: "Environmental friendly Puppet show"
+---
+
+**Abstract:**
+ 
+In this talk Lior will present Kenshoo's efforts to provide a single production like environment in the spirit of infrastructure as quality code.
+Working on a single environment, both developers and QA engineers, becomes especially challenging in a complex production setup.  For example, in Kenshoo, they had more than 400 production (self managed) machines, around 100 QA machines in different data centers, and ~100 developers running their own flavor of the datacenter on their personal desktop. 
+Their solution - a single branch of their configuration management source code, managed by Puppet, and capable of creating production, QA and development environments. The needed environment is created in a decentralized mode where any machine can be easily provisioned according to its role. More specifically, they used Puppet along with Hiera, to manage the environment differences, and Vagrant, to emulate production machines on any developer’s desktop.
+
+**Speaker:**
+
+[Lior Harel](http://il.linkedin.com/in/lharel), [Kenshoo](http://www.kenshoo.com)
+
+Lior is a system architect at Kenshoo, an aspiring programmer, a devops supporter and a yoga student. 
