@@ -7,11 +7,11 @@ filter:
 title: welcome
 dirty: true
 ---
+
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center><img border=0 width=211 height=158 src="logos/dod-tlv.png"></center></br>
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
-
-So far we have:
+Note that the planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is still in progress.
 
 - Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
 - Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
