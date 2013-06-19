@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lindsay Holmwood 
+title: "Escalating complexity: DevOps learnings from Air France 447"
+---
+
+**Abstract:**
+ 
+On June 1, 2009 Air France 447 crashed into the Atlantic ocean killing all 228 passengers and crew. The 15 minutes leading up to the impact were a terrifying demonstration of the how thick the fog of war is in complex systems.
+Mainstream reports of the incident put the blame on the pilots - a common motif in incident reports that conveniently ignore a simple fact: people were just actors within a complex system, doing their best based on the information at hand.
+While the systems you build and operate likely don't control the fate of people's lives, they share many of the same complexity characteristics. Dev and Ops can learn an abundance from how the feedback loops between these aviation systems are designed and how these systems are operated.
+In this talk Lindsay will cover what happened on the flight, why the mainstream explanation doesn't add up, how design assumptions can impact people's ability to respond to rapidly developing situations, and how to improve your operational effectiveness when dealing with rapidly developing failure scenarios.
+**Speaker:**
+
+[Lindsay Holmwood](http://holmwood.id.au/~lindsay/)
+
+Lindsay Holmwood is a engineering manager living in the Australian Blue Mountains. He is the creator of [Visage](http://auxesis.github.com/visage) & [cucumber-nagios](http://auxesis.github.com/cucumber-nagios), and organises the Sydney DevOps Meetup. He runs a distributed infracoders team at Bulletproof Networks, that builds hassle free tools, and was responsible for ensuring 100% uptime for the 2010 + 2011 + 2012 Movember campaigns. In his spare time, Lindsay organises the monthly Sydney DevOps Meetups. He also won third place at the 1996 Sydney Royal Easter Show LEGO building competition.
