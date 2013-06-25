@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 4
+title: "Mom, where does new hardware come from?"
+---
+
+**Abstract:**
+
+Everyday, more and more hardware physical hardware must be deployed to meet a seemingly never ending demand. Being able to automate the process of discovering and registering the new servers is a must, but it can a tricky and complex tasks. Using Chef and some basic time tested Linux tools, we can automate the crap out of the process and go from racked to available for duty with no manual intervention.
+
+**Speaker:**
+
+Speaker 4
