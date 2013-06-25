@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Eduardo A. Radanovitsck e Rafael Magrin
+title: "Moving towards Continuous Deployment in a .Net shop"
+
+---
+
+**Abstract:**
+
+When we look for more technical information about implementing Continuous Delivery, Continuous Deployment and Infra-as-code, we usually see examples for Java or Ruby projects running on *nix platform, and very little about how to do it in the Microsoft world. In this presentation we will talk about how we are practicing Continuous Delivery and moving towards Continuous Deployment and Infrastructure automation in a .Net shop. We are presenting what the path the project took was and how we pushed for those ideas. No silver bullet, no ideal story, only real stuff: how we succeeded, how we failed, how the client realized (sometimes too late) that we were suggesting the right thing, how we realized that we should have paid more attention to some aspects before and how we are paying for that now. We will talk about how we are doing 1) Build automation; 2) Deploy automation; 3) Automated verification; and are starting to experiment on 4) Monitoring; 5) Workstation automation; and 6) Server automation. Be prepared to bring your experience also, we will save part of time to discuss what other projects are doing and how can we help improve the awareness around these topics in the Microsoft world.
+
+**Speaker:**
+
+Eduardo Aquiles Radanovitsck e Rafael Magrin
