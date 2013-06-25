@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Eduardo Aquiles Radanovitsck and Rafael Magrin
+author: Eduardo A. Radanovitsck e Rafael Magrin
 title: "Moving towards Continuous Deployment in a .Net shop"
 
 ---
@@ -19,4 +19,4 @@ When we look for more technical information about implementing Continuous Delive
 
 **Speaker:**
 
-Eduardo Aquiles Radanovitsck and Rafael Magrin
+Eduardo Aquiles Radanovitsck e Rafael Magrin
