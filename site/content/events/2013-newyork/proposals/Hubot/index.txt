@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: Speaker 2
+author: Speaker 3
 title: "Hubot - the command line for your remote team"
 ---
 
