@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Avishai Ish-Shalom
+title: "The future of operating systems"
+---
+
+**Abstract:**
+ 
+Linux distros and Windows NT both date back to 1993 and the principles of the operating systems we use today are rooted in that era. The way we use O/S and software has changed dramatically since, and the role of O/S has shifted considerably, giving birth to many tools trying to bridge the gap. This talk will cover the evolution of O/S in recent years and emerging trends which may prevail in the near future. 
+
+**Speaker:**
+
+Avishai Ish-Shalom, [FewBytes](http://www.fewbytes.com)
+
+Avishai is a veteran ops and a survivor of many prod skirmishes. Currently masquerading as the CTO of Fewbytes - a consulting company for Ops and architecture.
+
