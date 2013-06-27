@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Aviran Mordo 
+title: "Real world strategies in continuous delivery"
+---
+
+**Abstract:**
+ 
+Continuous delivery entails many concerns that you need to take care of; from changing the company culture to development methodologies. You have to follow Test Driven Development, perform A/B tests on every new feature you deploy to production; The product managers' is feature centric with feature toggles to turn features on and off; You have to perform gradual deployments, and more. 
+
+In this talk Aviran will discuss some of the strategies we use at Wix to address these concerns, letting Wix to deploy hundreds of times every month.
+
+You will get a behind the scene look of how Wix manages A/B tests, how they changed their development methodology and the impact it had on their company culture. You will also learn what are feature toggles and how they use them to solve real life problems, and of course how they manage to do hundreds of deployments and evolve their system with no downtime. 
+
+**Speaker:**
+
+Aviran Mordo, [Wix](http://www.wix.com)
+
+Aviran Mordo leads Wix's back-end group. He has over 20 years of experience in the software industry and has filled many engineering roles and leading positions, from designing and building the US national Electronic Records Archives (http://www.archives.gov/era/) to building the infrastructure that powers indeed.com, the leading job search engine in the world. Aviran is a tech-savvy and a technology blogger since 2000, with vast knowledge of internet technologies, software development and continuous delivery.
+
+Twitter: @aviranm
+LinkedIn: http://www.linkedin.com/in/aviran
+Blog: http://www.aviransplace.com"
