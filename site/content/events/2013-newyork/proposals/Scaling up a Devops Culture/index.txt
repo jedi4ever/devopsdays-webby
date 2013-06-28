@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 5
+title: "Scaling up a Devops Culture"
+---
+
+**Abstract:**
+
+Description: This will present case studies of a few different ways of doing devops at startups in various stages of growth. I will look at differences in team and organizational structures, methods of inter- and intra-team communication, and culture. I'd like to start with some tales of failure from the trenches and move into practical solutions that organizations of various sizes can implement, from bite-size chunks to bigger cultural overhauls, ending with a look at the wins we've had in a successful culture even while experiencing rapid growth.
+
+Bullet points:
+ - Starting points for if your startup is still too small to even consider a full (dev)ops team, and how to avoid going crazy when you're the one wearing all the hats
+ - Remedial actions you can take to change culture if you find yourself in an organization that's taken some less than ideal turns as it's grown up
+- How we've been doing things right, and how we have been (and plan to continue) scaling that up  without losing the successful cuture we've been growing
+
+**Speaker:**
+
+Speaker 5
