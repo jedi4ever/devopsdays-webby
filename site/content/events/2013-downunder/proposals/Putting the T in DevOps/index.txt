@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Elliot Pahl
+title: "Putting the T in DevOps"
+---
+
+**Abstract:**
+
+I've got opinions, and I'm here to share them.  Here are some thoughts from the trenches on what DevOps means to me, based on the experience of operating under fire.  Amongst other things, I'll be touching on the many dimensions of trust, and how it relates to your tools, people, processes, and especially your toolchain.
+
+**Speaker:**
+Elliot Pahl
