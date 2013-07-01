@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Javier Turegano
+title: "From chimps to champs"
+---
+
+**Abstract:**
+
+Leaving the Ops dungeon and living in the wild with other parts of the business can be a bit scary, is it worth it? Embedding operations engineers in delivery teams creates a really powerful combination that makes those teams crossunctional and helps to close the loop between ops and devs
+I would like to share a few stories about this journey and some implications in the process of the evolution in the relationship in different teams where we have tried this approach.
+
+**Speaker:**
+Javier Turegano
