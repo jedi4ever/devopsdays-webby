@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Arjan Eriks 
+title: "Rainmakers, that is what we need! Don't we?"
+---
+
+**Abstract:**
+ 
+The focus on culture and sharing within Devops is very strong. More than ever we focus on teamwork. And teamdynamics.
+But what do those highly skilled and talented guys bring to the table? Can and will they make a difference? This talk will focus
+on the different aspects of high achievers. Who is delivering and who should you get rid of rather sooner than later. Famous start ups and leading Devops companies have written a lot about this topic. But so do old school top notch universities.
+
+Combining those items and by adding our own flavour we believe we have come up with a recipe that will help any team that wants to practice devops beyond the borders of their own team.
+
+Btw, What has Super Mario to do with this abstract?
+
+**Speaker:**
+
+Arjan Eriks, [Schuberg Philis](www.schubergphilis.com)
+
+Arjan works currently at Schuberg Philis, building clouds and growing devops. He spoke at Build a Cloud Day Amsterdam, Cloud Expo Santa Clara and Devops Amsterdam Summit. Before joining Schuberg Philis in 2005, Arjan worked at KLM Royal Dutch Airlines and was responsible for the Web Operations department. On top of his day job, Arjan also joined the group that organised Devopsdays Amsterdam. 
+Outside irregular office hours, he's trying to become a long distance swimmer and above all to be super dad!
+
+Blog: www.drozer.com
+Twitter: @drozert
