@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Colin Panisset
+title: "Teach someone to fish ..."
+---
+
+**Abstract:**
+
+It used to be the case that I sought to engineer myself out of a job ... but in this day and age, that's becoming harder to do.
+
+I reckon we should be helping others to engineer ourselves out of jobs (and trying to engineer each other out of a job as well). I have some thoughts and suggestions on how to achieve this in a nicely DevOps way.
+
+Perhaps we can help each other learn how to fish ...
+
+**Speaker:**
+Colin Panisset
