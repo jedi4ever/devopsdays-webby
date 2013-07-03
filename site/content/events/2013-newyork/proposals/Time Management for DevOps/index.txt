@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 7
+title: "Time Management for DevOps"
+---
+
+**Abstract:**
+
+The one thing we all wish we had more of is time!  The O'Reilly "Time
+Management for Sysadmins" is full of great examples in a pre-DevOps
+world.  This presentation will re-envision the book as a tool for
+DevOps implementing Gene Kim's "Three Ways of DevOps".
+
+Note to the planning committee:
+
+The book claims the three keys of good time management are:
+
+Key 1:  Write it down, don't try to memorize it.
+(Or "DevOps Second Way: Amplify feedback loops")
+
+Key 2:  Go from being interrupt/reaction-driven to planned and systematic:
+(this is really the goal of The Three Ways, is it not?)
+
+Key 3; Automate, automate, automate.
+(DevOps takes this to new extremes, especially for Infrastructure As Code)
+
+In the talk I can either focus on explaining The Three Ways in terms
+of how the improve time management, or I can explain time management
+with devops examples instead of the usual enterprise examples that the
+book uses.
+
+**Speaker:**
+
+Speaker 7

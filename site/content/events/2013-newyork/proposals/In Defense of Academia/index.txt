@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 6
+title: "BS/MS/PhD or 'equivalent' experience -- In Defense of Academia"
+---
+
+**Abstract:**
+
+``Operations'' is currently still defined within a ``blue-collar'' frame, even though we are moving forward towards a more formal craft.  We now begin to see the first signs of Ops becoming an academic discipline, but a lot of work is left.
+
+We have ongoing efforts, such as OpsSchool, for example,  to bring better Ops training to more people; likewise, more and more people are arguing to bring programming literacy to every student.  At the same time, we often and easily dismiss academia as the proverbial Ivory Tower with no experience in the so-called ``real world''; we pride ourselves in our war stories, proving experience and trial by fire are more valuable than college transcripts, while we also sneer at certifications.
+
+In this talk, I will argue in defense of academia, even as we do not yet have (many) specialized programs preparing us for a career in Operations.  We are facing conflicting requirements when we both seek full-stack generalists with 10-15 years of experience in technologies that have been around for less than 5 while simultaneously looking for degrees from higher education institutions.  But experience and a degree are simply not equivalent -- they are complementary.
+
+I will argue in favor or both liberal arts education and look at when a specialized degree helps us find more qualified staff.  I will discuss the previously mentioned dichotomy between practical and theoretical knowledge and the misapprehension that a Computer Science degree qualifies a student for a position in Internet Infrastructure, yet promote the idea of developing academic curricula in the field.
+
+**Speaker:**
+
+Speaker 6
