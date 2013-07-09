@@ -35,3 +35,16 @@ This page list the proposals we have received. Help the presenters with your fee
 <li><%= link_to_page(ignite) %> - <%= ignite.author %>
 <% end -%>
 </ol>
+
+
+<h2>Workshops</h2>
+<ol>
+<%
+  workshops = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "title", :reverse => true, :workshop => true)
+  workshops.delete(@page)
+  workshops.each do |workshop|
+-%>
+<li><%= link_to_page(workshop) %> - <%= workshop.author %>
+<% end -%>
+</ol>
