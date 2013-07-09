@@ -1,10 +1,9 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2013-mountainview/">MountainView</a> -
     <a href="/events/2013-amsterdam/">Amsterdam</a> -
     <a href="/events/2013-downunder/">Downunder</a> -
-    <a href="/events/2013-brazil/">Rio de Janeiro</a> - 
-    <a href="/events/2013-telaviv/">Tel Aviv</a>
-    
+    <a href="/events/2013-brazil/">Rio de Janeiro</a> -
+    <a href="/events/2013-telaviv/">Tel Aviv</a> -
+    <a href="/events/2013-atlanta/">Atlanta</a>
   </h3>
 </div>
