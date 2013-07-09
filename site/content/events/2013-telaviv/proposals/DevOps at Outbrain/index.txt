@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Itai Hochman 
+title: "DevOps at Outbrain"
+---
+
+**Abstract:**
+ 
+Outbrain provides content recommendations, giving each user the best content to read on the web. 
+Selecting the best content while going over large scale data contains huge scalability and operational challenges. 
+In this session Itai will provide a sneak peek at the values, culture and steps that Outbrain has taken to handle these challenges in a collaborative way. Expect many buzzwords to be discussed: Empowerment, Accountability, take-ins, continuous delivery, MTTR, Quality time, Ops on shift and Engineer on call, Alerts types.
+
+**Speaker:**
+
+Itai Hochman, [Outbrain](http://www.outbrain.com)
+
+Itai Hochman is the VP of engineering at Outbrain since Feb 2008. Prior to Joining Outbrain, Itai was Director of R&D at Schema Ltd, a leading provider of multi-vendor RAN optimization & analysis solutions, and premium services for wireless operators. Prior to joining Schema in 2003, Itai held various management roles at Bandwiz and VSoft. Itai holds a B.Sc. in Mechanical Engineering and an MBA degree, both from the Technion - Israel Institute of Technology. He resides in Israel with his wife Ruthi and their four kids.

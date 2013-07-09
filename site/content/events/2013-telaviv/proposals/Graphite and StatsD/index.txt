@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Evgeny Zislis  
+title: "Graphite and StatsD"
+---
+
+**Abstract:**
+ 
+Graphite is a well-known and widely used time-series database, especially famous for its use with Etsy's StatsD daemon that allows to send a wide range of metrics from any application to a central location, and then graph them, slice and dice, and do various other magical things.  In this workshop Evgeny will show how to use Vagrant and Puppet to install a Graphite server. Once Graphite and StatsD are operational participants will explore the various ways of sending metrics to Graphite. With the multiple metrics they will then be able to analyze data and see how it can be viewed in real time, embedded into dashboards, and more.
+ 
+**Prerequisites:**
+
+- A working Internet connection
+- A laptop with [VirtualBox](https://www.virtualbox.org/) and [Vagrant](http://www.vagrantup.com/) installed. 
+- Download [this Vagrant box](http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-amd64-vagrant-disk1.box) before the workshop.  
+
+**Speaker:**
+
+Evgeny Zislis , [devops.co.il](http://www.devops.co.il)
+
+Evgeny is a consultant at Devops Israel. For the last 10 years he has been involved in helping and teaching developers in companies big and small get a better handle on the operations side of their programming.
