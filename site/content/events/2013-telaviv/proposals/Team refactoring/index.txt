@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tal Salmona
+title: "Team refactoring: How re-architecting a system affects people, teams and processes"
+---
+
+**Abstract:**
+ 
+Not so long ago Kenshoo had a very simple system. A server and a database. When they needed to scale the system to support more customers they simply created a new pair of servers. This was very easy to operate and manage in production. The release process was very simple in this “shared-nothing” architecture since there were hardly any dependencies. Test and deployment automation was easy as well. Over time, silos between Dev/QA/IT/Ops formed. Each with their own independent tools and methodologies.
+
+But what happens when this architecture failed to meet the scale demands? The system needed to be broken into pieces, each with it’s own domain of responsibilities. Suddenly there were tens of different services in production, each with its own dependencies, release cycle, technologies.
+
+How do teams adjust? What dev / test / release / ops processes need to change? What about tools?
+Tal will  cover these and more in this talk.
+
+**Speaker:**
+
+Tal Salmona, [Kenshoo](www.kenshoo.com)
+
+Tal serves as a chief architect at Kenshoo and leads the plaforms group. Prior to that Tal led the Spring Insight project at VMware, worked at HP and founded a startup that dealt with social media analytics. He grows vegetables in his garden and enjoy riding his mountain bikes
