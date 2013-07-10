@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Leonid Mirsky
+title: "5 key tips to make your deployment work on multiple clouds"
+---
+
+**Abstract:**
+ 
+In this talk Leonid will share his experience of taking an AWS only deployment process and extending it to support both private and public clouds (Openstack and Rackspace). If you think that all clouds were born the same, think again! The road to a truly multi cloud provisioning isn't so simple. Leonid will provide some technical tips about what you should expect when you are getting outside of the AWS garden, as well as some practical technical examples of how you can overcome some common pitfalls. 
+
+**Speaker:**
+
+Leonid Mirsky
+
+Leonid has more than 10 years experience in different IT operations roles. Currently, as an Independent consultant, he is helping small to medium sized companies to implement DevOps and to realize the potential power of cloud computing.
