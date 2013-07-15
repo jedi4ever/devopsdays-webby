@@ -5,6 +5,7 @@ filter:    erb
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com"},
 { :image => "here.png", :name => "Here", :link => "http://here.com/news"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
+{ :image => "ca.png", :name => "CA Technologies", :link => "http://ca.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
