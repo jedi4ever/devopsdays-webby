@@ -80,7 +80,7 @@ var newzealandlocation = new google.maps.LatLng(-40.900557,174.885971);
 var parislocation = new google.maps.LatLng(48.856614,2.352222);
 var berlinlocation = new google.maps.LatLng(52.519171,13.406091);
 var barcelonalocation = new google.maps.LatLng(41.387917,2.169919);
-var brazillocation = new google.maps.LatLng(-22.908333, -43.196389);
+
 var downunderlocation = new google.maps.LatLng(-25.274398,133.775136);
 var indialocation = new google.maps.LatLng(20.593684,78.96288);
 var atlantalocation = new google.maps.LatLng( 33.748995,-84.387982);
@@ -161,17 +161,6 @@ raiseOnDrag: false,
 map: map,
 labelContent: "India<br>August 2013",
 labelAnchor: new google.maps.Point(+30, 65),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-var brazilmarker = new MarkerWithLabel({
-position: brazillocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Rio de Janeiro<br>17 August 2013",
-labelAnchor: new google.maps.Point(30, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -263,7 +252,6 @@ google.maps.event.addListener(indiamarker, "click", function (e) { location.href
 google.maps.event.addListener(mountainviewmarker, "click", function (e) { location.href="/events/2013-mountainview"});
 google.maps.event.addListener(downundermarker, "click", function (e) { location.href="/events/2013-downunder"});
 google.maps.event.addListener(barcelonamarker, "click", function (e) { location.href="/events/2013-barcelona"});
-google.maps.event.addListener(brazilmarker, "click", function (e) { location.href="/events/2013-brazil"});
 google.maps.event.addListener(tokyomarker, "click", function (e) { location.href="/events/2013-tokyo"});
 google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2013-atlanta"});
 google.maps.event.addListener(aucklandmarker, "click", function (e) { location.href="/events/2013-newzealand"});
