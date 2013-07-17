@@ -9,12 +9,10 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
-
-So far we have:
-
 - Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
 - Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+
+<img src="mt-fuji.jpg">
 
 Do you have know a nice location near the target location? Or is your company interested in hosting the event?  [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
 
