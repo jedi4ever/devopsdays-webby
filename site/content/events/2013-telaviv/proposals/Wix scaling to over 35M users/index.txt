@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Yoav Abrahami
+title: "Wix case study - scaling to over 35M users"
+---
+
+**Abstract:**
+ 
+Over the last 6 years, Wix infrastructure has gone a number of transformations, starting as a monolithic application with MySQL, evolving to a service based architecture with with diverse infrastructure. Over this 6 years journey, we have learned a thing or two. At this presentation we will give some of out insights from our experience of building a web infrastructure to support over 35M users
+
+**Speaker:**
+
+Yoav Abrahami , [Wix](http://www.wix.com)
+
+Yoav Abrahami is the Chief Architect at Wix.com, working with developers and operations to build the company's future products as well as accelerating and improving development processes. Prior to joining Wix, Yoav was an Architect at Amdocs Cramer OSS division. Yoav holds a MS in Physics and a BS in Computer Science from the Tel Aviv University. 
