@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Alan Sharp-Paul
+title: "DevOps vs The Enterprise"
+---
+
+**Abstract:**
+
+For better or worse, DevOps has gone mainstream. All doubt was removed when IBM and HP threw up their respective DevOps microsites. Where are we on the hype cycle? It's hard to say for sure but there's a feeling we're heading for the "Peak of Inflated Expectations". What does this mean for the Enterprise? Should they avoid DevOps? Definitely not. Should they be cautious though? Absolutely.
+The truth is that DevOps and the Enterprise are at best strange bedfellows. The movement has its roots in the tech community's elite. Open source projects and methodologies driven by the alumni of companies like Netflix, Google and Amazon. This is a great thing for the evolution of DevOps. It can be alienating for Enterprise IT though. Learning about Netflix and their simian armies, or Facebook and their mind melting scale is fascinating. Can you take it back to the office on Monday morning though?
+
+This presentation will focus on the following areas:
+
+The evolution of DevOps and it's relationship to the Enterprise
+What DevOps means in a world ruled by ITIL/CoBIT
+Applying a pragmatic filter to DevOps to make it Enterprise friendly
+Key lessons for Enterprises looking to implement DevOps
+
+**Speaker:**
+
+Alan Sharp-Paul
