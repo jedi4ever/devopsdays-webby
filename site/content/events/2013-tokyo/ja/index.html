@@ -1,0 +1,20 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+- 開催日時： **<%= render(:partial => "/#{@eventhome}/_target_date_ja") -%>**
+- 会　　場： **<%= render(:partial => "/#{@eventhome}/_target_location_ja") -%>**
+
+<img src="mt-fuji.jpg">
+
+
+このイベントへのご協賛をお待ちしております。</br>
+[organizers-tokyo-2013@devopsdays.org](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>)
+
