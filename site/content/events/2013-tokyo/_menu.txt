@@ -9,6 +9,13 @@ filter:    erb
 <a href="/<%= @eventhome %>/location">location</a>&nbsp;
 <a href="/<%= @eventhome %>/sponsor">sponsor</a>&nbsp;
 <a href="/<%= @eventhome %>/contact">contact</a>&nbsp;
+</br>
+<a href="/<%= @eventhome %>/ja/">ようこそ</a>&nbsp;
+<a href="/<%= @eventhome %>/ja/propose">企画主旨</a>&nbsp;
+<a href="/<%= @eventhome %>/ja/program">スケジュール</a>&nbsp;
+<a href="/<%= @eventhome %>/ja/location">会場について</a>&nbsp;
+<a href="/<%= @eventhome %>/ja/sponsor">協賛のお願い</a>&nbsp;
+<a href="/<%= @eventhome %>/ja/contact">お問い合わせ</a>&nbsp;
 
 </h3>
 </div>
