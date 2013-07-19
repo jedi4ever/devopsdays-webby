@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Brian Thomason
+title: "Jenkins builds powered by Eucalyptus"
+---
+
+**Abstract:**
+
+ A talk on using Eucalyptus to power your software builds using Jenkins.  For nearly two years now here at Eucalyptus, this is the exact setup we have used to build our own software.  For those building for multiple target OSes, this can save not only money but effort as you don't need a dedicated build machine running a specific OS but rather just a cloud instance instead.
+
+**Speaker:**
+
+Brian Thomason
+Eucalyptus Systems, Inc.
