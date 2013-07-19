@@ -9,12 +9,15 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-- Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-- Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+- Date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
+- Location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+
+If your company is interested in sponsoring this event, [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
 
 <img src="mt-fuji.jpg">
 
-Do you have know a nice location near the target location? Or is your company interested in hosting the event?  [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
+- 開催日時: **<%= render(:partial => "/#{@eventhome}/_target_date_ja") -%>**
+- 会　　場: **<%= render(:partial => "/#{@eventhome}/_target_location_ja") -%>**
 
-Once date and location have been decided we will open the [call for proposals](propose) and registration.
-If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+このイベントへのご協賛をお待ちしております。</br>
+[organizers-tokyo-2013@devopsdays.org](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>)
