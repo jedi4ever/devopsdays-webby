@@ -11,5 +11,4 @@ layout: event
 <% parent="/#{@eventhome}/proposals" %>
 This page list the proposals we have received. Help the presenters with your feedback! 
 
-
 <h2>Conference Talks</h2>
