@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Or Cohen  
+title: "Check_MK Workshop"
+---
+
+**Abstract:**
+ 
+Check_MK is a Nagios mod greatly enhancing Nagios in many areas including UI, configuration and load. The workshop will introduce Check_MK and will cover deployment, configuration, usage, plugins and more.
+ 
+**Prerequisites:**
+
+- A working Internet connection
+- A laptop with [VirtualBox](https://www.virtualbox.org/) and [Vagrant](http://www.vagrantup.com/) installed. 
+- Basic understanding of monitoring
+- Basic linux know-how
+
+
+**Speaker:**
+
+Or Cohen , [FewByets](http://www.fewbytes.com)
+
+Or is a web developer at heart with an itch for operations and system administration, working for Fewbytes - a consulting firm for system and automation.
