@@ -3,6 +3,7 @@ filter:    erb
 ---
 <% @sponsors = [
 	{ :image => "gigaspaces.png", :name => "Cloudify (by GigaSpaces)", :link => "http://www.cloudifysource.org/"},
+    { :image => "kenshoo.png", :name => "Kenshoo", :link => "http://www.kenshoo.com/"},
 ]%>
 
 <% if @sponsors.empty?  %>
@@ -16,4 +17,11 @@ filter:    erb
 <% end %>
 
 <% @csponsors = [
+	{ :image => "igt.png", :name => "IGT", :link => "http://www.cloud.org.il/?CategoryID=374&ArticleID=155"},
 ]%>
+
+<% unless @csponsors.empty?  %><h1>Community Sponsors</h1><% end %>
+
+<% @csponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
