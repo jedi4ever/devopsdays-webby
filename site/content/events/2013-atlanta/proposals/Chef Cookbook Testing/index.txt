@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Seth Vargo
+title: "Chef Cookbook Testing"
+---
+
+**Abstract:**
+
+Originally given at a small Chef meetup, this is a talk more about testing in general 
+
+- what is an integration test? 
+- acceptance test?
+- sniff test? 
+- How do these all translate into our devops world? 
+ 
+Slides: https://speakerdeck.com/sethvargo/chef-cookbook-testing
+
+**Speaker:**
+
+Seth Vargo

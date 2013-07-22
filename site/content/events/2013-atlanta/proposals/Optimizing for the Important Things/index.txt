@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Seth Vargo
+title: "Optimizing for the Important Things"
+---
+
+**Abstract:**
+
+Originally given at Ignite Pittsburgh, this non-technical talk (although catered toward technical people) which challenges listeners to really think about what's important in their lives. 
+
+Sides:  https://speakerdeck.com/sethvargo/optimizing-the-important-things
+
+**Speaker:**
+
+Seth Vargo
