@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Seth Vargo
+title: "OCD & DevOps"
+---
+
+**Abstract:**
+
+Originally given at DevOps Days NYC and Velocity, OCD & DevOps, has always been a crowd favorite, even for those that have seen it twice. 
+
+Slide: https://speakerdeck.com/sethvargo/devops-and-ocd
+
+**Speaker:**
+
+Seth Vargo
