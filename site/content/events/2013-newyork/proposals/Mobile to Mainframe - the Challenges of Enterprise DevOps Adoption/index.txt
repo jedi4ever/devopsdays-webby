@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 9
+title: "Mobile to Mainframe – the Challenges of Enterprise DevOps Adoption"
+---
+
+**Abstract:**
+
+Delivering software is complex. Systems being developed are made up of multiple components, which in turn interact with other systems, services, application servers, data sources and invocations of 3rd party systems. In an Enterprise this complexity is further enhanced by the cross-platform nature of the infrastructure typical enterprises have. While the customers may be interacting with Systems of Engagement using Mobile and Web Apps, the core capabilities of the enterprise that the customers access are in Systems of Record that are running on large datacenters and more than likely Mainframe systems. Keeping these complex systems up and running and constantly updated with the latest capabilities is a task that requires constant coordination between the lines of business, various cross-platform development, QA and operations teams. 
+
+DevOps addresses these development and deployment challenges. The goal of DevOps is to align Dev and Ops by introducing a set of principles and practices such as continuous integration and continuous delivery. Cross-platform enterprise Systems take the need for these practices up a level due to their inherent complexity and distributed nature. Such systems need even more care in applying DevOps principles as there are multiple platforms to be targeted, in a coordinated manner, each with its own requirements, quirks, and nuanced needs. 
+
+This talk takes a look at the DevOps Adoption challenges specific to Cross-platform Enterprise Systems and present Best Practices to address them.
+
+**Speaker:**
+
+Speaker 9
