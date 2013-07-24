@@ -1,8 +1,9 @@
 - Hirokazu Morikawa
 - Seigo Uchida
 - Moto Ishizawa
+- Takashi Watanabe
 - Takanao Yoshii
 - Hidenori Suzuki
-- Naotaka Jay Hotta
 - Toshiya Matsuda
-- Takashi Watanabe
+- Naotaka Jay Hotta
+
