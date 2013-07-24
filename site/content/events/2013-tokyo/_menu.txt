@@ -4,7 +4,6 @@ filter:    erb
 <div class="submenu">
 <h3>
 <a href="/<%= @eventhome %>/">welcome</a>&nbsp;
-<a href="/<%= @eventhome %>/propose">propose</a>&nbsp;
 <a href="/<%= @eventhome %>/program">program</a>&nbsp;
 <a href="/<%= @eventhome %>/location">location</a>&nbsp;
 <a href="/<%= @eventhome %>/sponsor">sponsor</a>&nbsp;
@@ -15,6 +14,6 @@ filter:    erb
 <a href="/<%= @eventhome %>/ja/program">スケジュール</a>&nbsp;
 <a href="/<%= @eventhome %>/ja/location">会場について</a>&nbsp;
 <a href="/<%= @eventhome %>/ja/sponsor">協賛のお願い</a>&nbsp;
-<a href="/<%= @eventhome %>/ja/contact">お問合せ</a>&nbsp;
+<a href="/<%= @eventhome %>/ja/contact">問い合せ</a>&nbsp;
 </h3>
 </div>

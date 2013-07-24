@@ -4,7 +4,7 @@ created_at: 2012-08-14 17:11:09.082858 +02:00
 filter:     
 - erb
 - markdown
-dirty:      true
+dirty: true
 layout: event
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
