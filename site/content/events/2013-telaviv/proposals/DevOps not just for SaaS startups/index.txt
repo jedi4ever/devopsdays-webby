@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Yuval Yeret
+title: "DevOps - not just for SaaS startups"
+---
+
+**Abstract:**
+ 
+Based on what we see in startups/small companies that move towards DevOps culture/operation we see great potential for improving the life and results of developers, testers, operations and business people alike. 
+But for those people in big legacy enterprise organizations, especially IT units serving internal organizations, this sounds like a crazy dream. Their organization is light years behind even simple agility not to speak about devops.
+In this session we will examine why these large organizations are struggling with agile and will struggle with devops, analyze the situation using models such as the Moore's ""chasm"" and look at some successes we (AgileSparks consultants) had in evolving legacy IT organizations towards higher and higher agility, culminating in DevOps and CD as a vision. We will share concrete tips/tricks from industry success stories as well as our own ""Way"" of making this happen. 
+You will be exposed to concepts like Kanban, Dynamic Feature Teams, The relation between DevOps and LeanStartup/MVP/Complexity Thinking, and get some concrete ideas to try back home to start your journey towards DevOps or to convince your legacy IT friend that DevOps is not just for pure SaaS companies. "
+
+**Speaker:**
+
+Yuval Yeret , [AgileSparks](http://www.agilesparks.com)
+
+Yuval spent about a third of his 20 years IT career in Ops, a third in Dev, and the last third as a Lean/Agile consultant, which makes a great segway into the DevOps world...
+He leads the Kanban/Flow practice for AgileSparks, an international lean agile consulting company based out of Israel, leading several strategic long-term lean/agile initiatives in large enterprises. Yuval believes in pragmatic, best-of-breed approaches & avoiding Dogma. He recently received the Brickell Key Award for Lean Kanban community excellence & driving Kanban adoption in Israel. He blogs at [yuvalyeret.com](http://yuvalyeret.com) & self-published the “Holy Land Kanban” article collection. When not doing THAT you can find him with his wife & 2 small kids in Herzlyia, playing national league volleyball or listening to audiobooks like there is no tomorrow. 
