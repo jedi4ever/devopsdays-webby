@@ -20,7 +20,7 @@ Today, they are in the early phases of implementing devops practices within the 
 
 **Speaker:**
 
-Dvir Greenberg and David Virtser, [eToro](http://www.etoro.com)
+Dvir Greenberg and David Virtser, [eToro](http://www.etoro.com) 
 
 Dvir serves as the VP of product operations at eToro and David as the devops leader at eToro, and together they're pushing the devops revolution within eToro and trying to optimize it, make it faster and more scalable.
 
