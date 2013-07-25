@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Mark R. White
+title: "Don’t Fear the DevOps!"
+---
+
+**Abstract:**
+
+Why are there a number of organizations that refuse to evaluate, or even consider, the implementation of DevOps? In the modern era of IT, there are two movements that are changing the way we handle everyday operations.  The first is the Open Source movement, which deserves an entire discussion of it’s own; the second is the propagation of DevOps throughout the entire industry.  Unfortunately, many veteran IT professionals push back against the concept of DevOps due to the fact that they fear it.  Throughout the years, especially in the late 90’s and early 2000’s, Operations Engineers were valued by the softwares and/or platforms in which they were proficient. If you knew HP Openview, Tivoli, or Nagios well, you were basically guaranteed a job.  However, many IT centric organizations grew tired of being told how to do business by vendors and wanted to significantly increase productivity, so they began to leverage open source products, as well as write their own solutions.  These actions then enabled organizations to implement Continuous Delivery and code cycles that no one would have dreamed of 10 years ago. This created the need for a new way of doing operations: Enter DevOps! A large, but unfortunate, side effect is that now have an entire generation of Operations Engineers that are lagging behind the industry, and fear that the DevOps movement is going to push them out of the industry.  Learn why they believe this, why this doesn’t have to happen, how to prevent it, and the steps to take to fill the ever-growing void of DevOps personnel in the industry.
+
+**Speaker:**
+
+Mark R. White
