@@ -1,5 +1,2 @@
 output/*
 .DS_Store
-output.tgz
-moveit.sh
-.gitignore
