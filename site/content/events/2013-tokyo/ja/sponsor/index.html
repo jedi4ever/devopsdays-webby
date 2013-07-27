@@ -10,12 +10,60 @@ title: 協賛のお願い
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+この度は、当イベントに開催にご興味をお持ちいただき誠にありがとうございます。今回のイベントの開催主旨にご賛同いただき、スポンサーにご興味の有る方は [emailでご連絡](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>)を実行委員にしていただけますと幸いです。
 
-<h4>Note: Sponsorship packages are not yet finalized</h4>
+<h4>Note: スポンサーバッケジの内容を更改しました。 (updated at July 27 2013)</h4>
 
 <hr>
 
-DevOpsDays is a self-organizing conference for DevOps practitioners that depends on your sponsorships to happen. However, because of the nature of the event, we do not have vendor booths or book product pitches.
+<div style="width:500px">
+<table border=1>
+  <tr><th><i>Packages</i></th>
+      <th><center><b><u>Bronze<br />JPY 80,000</u></center></b></th>
+      <th><center><b><u>Silver<br />JPY 150,000</u></center></b></th>
+      <th><center><b><u>Gold<br />JPY 300,000</u></b></center></th>
+  </tr>
 
-Gold sponsors do get a table they can hang out at and put materials on for interested people to come visit during breaks, and of course all attendees are welcome to propose any subject they want during the openspaces, but this is not 'that kind of conference' and heavy marketing will probably work against you when trying to make a good impression on the attendees. The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
+<tr><td>2 included tickets</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+</tr>
+<tr><td>Logo on DevOpsDays Web site</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+</tr>
+<tr><td>Logo on all email communication</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+</tr>
+<tr><td>1 minute pitch to full audience (including streaming audience)</td>
+	<td>&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+    <td bgcolor="green">&nbsp;</td>
+</tr>
+<tr><td>2 additional tickets (4 in total)</td>
+	<td>&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+</tr>
+<tr><td>Shared table for swag</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td>&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+</tr>
+<tr><td>Booth/table space</td>
+	<td>&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+	<td bgcolor="green">&nbsp;</td>
+</tr>
+
+</table>
+</div>
+DevOpsDayは、DevOpsの主旨に賛同した有志によってボランティア的に企画されたカンファレンスです。海外のスピーカーや会場を確保するための必要経費を捻出するためにには、スポンサーの皆さまのご協力が不可欠です。
+
+しかしながらカンファレンスの性質上、一般的な展示会にあるようなブースや販売ブースは設置しません。Goldスポンサーさまに付きましては、参加者にスポンサー待機定位置として分るテーブルを準備させていただきます。このテーブルには、配布資料やステッカーなどを置いていただくことも可能です。
+
+全ての参加者の皆さんには、openspaceでいかなるテーマの提案も可能です。しかしながら、一般的な展示会のように、自社製品の強引な営業活動は向いていないと思われます。むしろ参加者とコミュニケーションができるエンジニアをご準備いただき、会場で交流する中でその後の切っ掛を作っていただくのが良いと思います。	
