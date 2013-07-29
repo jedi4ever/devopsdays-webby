@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Brian Johnson
+title: "ITIL Invented DevOps; The Unknown History You Can Leverage Now"
+---
+
+**Abstract:**
+
+Everyone knows that ITIL was to be the cure for every ailment, but did you know that the founder of ITIL, Dr. John Stewart, invented DevOps? Well, the terminology was different. It was not a method (Agile or otherwise). But the concepts within Version One, ‘Software Lifecycle Support,’ predates Version Three lifecycle guidance, and conveniently, established many of the ideas we now see in DevOps.
+
+Although the development methods in the book might seem dated in one sense, the book is about designing services more efficiently and collaboratively so that the right people get the right service at the right time.
+
+Attendees will learn to draw from the original publication in context to the latest approaches for working with Agile developers. Learn to gain buy-in that DevOps is a cultural change worth pursuing.
+
+
+**Speaker:**
+
+Brian Johnson

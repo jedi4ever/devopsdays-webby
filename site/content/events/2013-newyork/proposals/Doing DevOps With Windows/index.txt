@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 10
+title: "Doing DevOps With Windows"
+---
+
+**Abstract:**
+
+In the DevOps universe we mostly focus on automation of operations in Linux - or at least other Unixes. The reality is that with effort Windows can be automated! A series of built in command line tools and Open Source software exists to help manage the Microsoft Windows ecosystem, and by leveraging those, we can deliver as DevOps Engineers. This talk focusses on using those tools to support DevOps efforts on the Windows platform, for a traditional C# / Microsoft application stack.
+
+Like Linux, extending DevOps to Windows means more than just orchestration - we need to look at measuring and monitoring within the Windows ecosystem. At the end, I'll briefly highlight how existing tools (Nagios, Graphite) can be used with Windows, to provide the same detail we expect from our unix platforms.
+
+**Speaker:**
+
+Speaker 10

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 11
+title: "Designing Services for Customer Outcomes"
+---
+
+**Abstract:**
+
+Version 3 of ITIL focused attention on the meta process of Service Design, but the services under consideration were IT services (no surprise, the clue is in the letters ‘I’ and ‘T’….) rather than Business services---which were and are the domain of Applications Developers. The point being that IT people know about infrastructure, and Applications Developers know about, for example: Banking, Insurance, Government, Manufacturing, etc.
+
+The Government of the Netherlands is one of the first to instantiate Business Service Design, ITIL good practices, and Agile under one umbrella framework. It now builds better services, focused on customer outcomes, more efficiently and economically. Why, for example, implement an incident management process when you can build an incident management service for your customers?
+
+Attendees will learn the latest approaches being embraced by the government and how they are (re)training their key people to understand a new philosophy for designing services.
+
+**Speaker:**
+
+Speaker 11
