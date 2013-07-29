@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Tom Canova
+title: "M&A Success Through Continuous Delivery"
+---
+
+**Abstract:**
+
+ Mergers and acquisitions or internal reorgs can be tough, but the DevOps best practice of Continuous Delivery can be a foundation which speeds integration and enables success.  This session will include tips and perspectives from my experience using automation and continuous delivery to successfully integrate teams at 4 sites across 3 time zones to successfully deliver new product versions and updates.
+
+**Speaker:**
+
+Tom Canova
+Software Development Senior Engineer                            
+Dell, Inc.
