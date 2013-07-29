@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Itai Hochman
+title: "5 whys in 5 minutes"
+---
+
+**Abstract:**
+
+A learning organization must leverage success/failure events as a trigger for a take-in session. Drilling down to the root cause of the event is a key to introduce corrective actions that can improve the way the organization is doing business. In this short session I will provide the incentive and technique that makes it an effective tool. 
+
+**Speaker:**
+
+Itai Hochman, [Outbrain](http://www.outbrain.com)
+
+Itai Hochman is the VP of engineering of Outbrain since Feb 2008. Prior to Joining Outbrain, Itai was Director of R&D at Schema Ltd, a leading provider of multi-vendor RAN optimization & analysis solutions, and premium services for wireless operators. Prior joining Schema in 2003, Itai held various management roles at Bandwiz and VSoft. Itai holds a B.Sc. in Mechanical Engineering and an MBA degree both from the Technion-Israel Institute of Technology. He resides in Israel with his wife Ruthi and four kids. 

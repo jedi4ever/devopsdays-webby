@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chen Nisnkorn
+title: "Nirvana: faster, cheaper and better continuous integration and delivery using the cloud"
+---
+
+**Abstract:**
+
+Nirvana is when you have a fast, high quality and inexpensive mechanism to continuously develop, test and deliver your product.
+BUT, in reality, you are sluggish as you’re managing multiple different environments and suffer from severe resource shortage, you lack the desired quality as your CI environments are inherently different from your production one, while facing high costs in on-premise data-centers and even higher costs when going to the cloud.
+
+In this session, we will discuss some of the strategies and real-life solutions we use at Ravello to address these common issues.
+We will explain how we are using the public cloud, Chef, Jenkins and our own product in order to create full blown exact replicas of our production environment.
+
+Moreover, we will demonstrate how this this ease of application replication with no resource limitation is being used by multiple different functions at Ravello (manual QA, automatic testing, dev, ops, product management), while reducing the required cost for that.
+
+Last but not least, we will go over our different automatic workflows (for continuous integration and deployment of multiple product components) which also demonstrate our usage of feature toggles, their role in the day-to-day test-dev cycle and the interaction between our automatic tests and toggles.
+
+**Speaker:**
+
+Chen Nisnkorn , [Ravello Systems](http://www.ravellosystems.com/)
+
+Chen is heading the devops and automation group at Ravello systems. His team is working on all the continuous flows in the company, CI - continuous integration, CM -  continuous monitoring, CD - continuous delivery.
