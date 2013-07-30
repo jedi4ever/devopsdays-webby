@@ -86,6 +86,7 @@ var indialocation = new google.maps.LatLng(20.593684,78.96288);
 var atlantalocation = new google.maps.LatLng( 33.748995,-84.387982);
 var aucklandlocation = new google.maps.LatLng(-36.853463,174.782823);
 var tlvlocation = new google.maps.LatLng(32.066283,34.777908);
+var vancouverlocation = new google.maps.LatLng(49.27698,-123.12478);
 
 
 var newyorkmarker = new MarkerWithLabel({
@@ -242,6 +243,17 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+var vancouvermarker = new MarkerWithLabel({
+position: vancouverlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Vancouver<br>Oct 25-26, 2013",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
 
 google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2013-newyork"});
 google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
@@ -257,6 +269,7 @@ google.maps.event.addListener(atlantamarker, "click", function (e) { location.hr
 google.maps.event.addListener(aucklandmarker, "click", function (e) { location.href="/events/2013-newzealand"});
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2013-amsterdam"});
 google.maps.event.addListener(tlvmarker, "click", function (e) { location.href="/events/2013-telaviv"});
+google.maps.event.addListener(vancouvermarker, "click", function (e) { location.href="/events/2013-vancouver"});
 }
 </script>
 
