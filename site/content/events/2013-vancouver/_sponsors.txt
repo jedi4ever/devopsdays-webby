@@ -2,10 +2,6 @@
 filter:    erb
 ---
 <% @gsponsors = [
-{ :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com"},
-{ :image => "here.png", :name => "Here", :link => "http://here.com/news"},
-{ :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
-{ :image => "ca.png", :name => "CA Technologies", :link => "http://ca.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -33,7 +29,6 @@ filter:    erb
 <% end %>
 
 <% @esponsors = [
-  { :image => "github.png", :name => "github", :link => "http://www.github.com/"}
 ]%>
 <% unless @esponsors.empty?  %><h1>Evening sponsors</h1><% end %>
 <% @esponsors.each do |sponsor| %>
