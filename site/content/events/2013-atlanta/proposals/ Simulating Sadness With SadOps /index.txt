@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Kevin Lawver
+title: "Simulating Sadness With SadOps"
+---
+
+**Abstract:**
+
+
+ Taking operations folks who've never dealt with the "unique" challenges of hosting and managing hundreds of Ruby on Rails applications and getting them up to speed is fun. We can't prepare them for every scenario, but we've come up with a "sandbox" Rails app that can simulate the most common outages we see, giving the new DevOpsling a chance to attempt fixing it without impacting any customers. We'll share the SadOps application and show how we use vagrant and other tools to make it misbehave, and how it fits into our new employee training program.
+
+
+**Speaker:**
+
+Kevin Lawver 
+President, Rails Machine 
+
