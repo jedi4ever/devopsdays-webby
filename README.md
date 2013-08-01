@@ -26,9 +26,9 @@ It uses webby as a framework:
 - Install Xcode 4.4+
 - Install developer tools (Xcode preferences > Additional downloads)
 - Install gcc-42 with [hombrew/dupes](https://github.com/Homebrew/homebrew-dupes/)
-
 - Install [XQuartz](http://xquartz.macosforge.org/)
 
+### Install Ruby
 
      $ brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb
      $ brew install rbenv
