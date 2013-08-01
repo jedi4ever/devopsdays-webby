@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Ryan Greeley & Steve Offenberg
+title: "Your Agile Performance Testing Checklist: MultiMechanize, Bees with Machine Guns, PageSpeed and AppDynamics"
+---
+
+**Abstract:**
+
+We think SAN storage is correctly viewed as a storage solution 'of last resort', but if you need it, you need it. NAS, iSCSI, and Fiber Channel shared storage solutions from the usual suspects are enormously expensive. How can you acquire (or build) a shared storage solution without breaking the budget? Join us as we share our journey from budget deadlock to designing and deploying an awesome low-cost shared storage solution using NexentaStor 3.x, built on OpenSolaris and the ZFS file system.
+
+**Speaker:**
+
+Ryan Greeley - Hosting Engineer
+Steve Offenberg - Director, Hosting Operations
+ 
+Ryan and Steve are members of a line of business Hosting ops team, supporting product teams that bring mobile/SaaS products to market.
+Previously, both have a long and extensive history working in Enterprise IT.
+ 
