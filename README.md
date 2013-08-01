@@ -30,11 +30,10 @@ It uses webby as a framework:
 - Install [XQuartz](http://xquartz.macosforge.org/)
 
 
-    `$ brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb`
-    `$ brew install rbenv`
-    `$ brew install ruby-build`
-    `$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
-    `$ CONFIGURE_OPTS=--without-tk rbenv install 1.8.7-p370`
+     $ brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb
+     $ brew install rbenv
+     $ brew install ruby-build
+     $ CONFIGURE_OPTS=--without-tk rbenv install 1.8.7-p370
 
 ### Get the source
 
