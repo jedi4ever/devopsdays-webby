@@ -26,6 +26,7 @@ It uses webby as a framework:
 - Install Xcode 4.4+
 - Install developer tools (Xcode preferences > Additional downloads)
 - Install gcc-42 with [hombrew/dupes](https://github.com/Homebrew/homebrew-dupes/)
+
 - Install [XQuartz](http://xquartz.macosforge.org/)
 
 
@@ -63,18 +64,18 @@ All interactions are done with the webby command, for this you need to be inside
 
 ### Continuously build the website
 
-`$ cd site`
-`$webby autobuild`
+     $ cd site
+     $ webby autobuild
 
 ### Build the website
 
-`$ cd site`
-`$webby build`
+     $ cd site
+     $ webby build
 
 ### rebuild the website
 
-`$ cd site`
-`$webby rebuild`
+     $ cd site
+     $ webby rebuild
 
 For more information on how to use webby
 [http://webby.rubyforge.org/](http://webby.rubyforge.org/)
