@@ -1,0 +1,17 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+- Date : <b>October 25-26 2013</b>
+- Location: <a href="location">Vancity Theatre</a>
+
+<a href="propose">Call for papers</a> is now open.
+<hr>
+If you want to be the first to get news [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)

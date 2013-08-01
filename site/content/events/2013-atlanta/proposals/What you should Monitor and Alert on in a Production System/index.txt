@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Arup Chakrabarti
+title: "What you should Monitor and Alert on in a Production System"
+---
+
+**Abstract:**
+
+With more and more data being churned out by all of our monitoring tools, it is tempting to look at every graph on every system. In this talk, we will go through why that is a bad idea and some of the strategies you can use to filter out useful metrics that are actionable.
+
+
+**Speaker:**
+
+Arup has been working in the space of software operations since 2007. He started out at as an Operations Engineer at Amazon, helping to reduce customer defects with multiple teams for the Amazon Marketplace. Since then, he has managed and built operations teams at Amazon and Netflix to help improve availability and reliability. He currently works at PagerDuty, where he is the Operations Engineering Team Lead.
+
