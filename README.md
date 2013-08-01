@@ -21,6 +21,20 @@ It uses webby as a framework:
 - there is an .rvmrc that select ruby-1.8.7
 - and creates a new gemset devopsdays-webby
 
+## If you use rbenv + OSX 10.8+
+
+- Install Xcode 4.4+
+- Install developer tools (Xcode preferences > Additional downloads)
+- Install gcc-42 with [hombrew/dupes](https://github.com/Homebrew/homebrew-dupes/)
+- Install [XQuartz](http://xquartz.macosforge.org/)
+
+
+    $ brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb
+    $ brew install rbenv
+    $ brew install ruby-build
+    $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+    $ CONFIGURE_OPTS=--without-tk rbenv install 1.8.7-p370
+
 ### Get the source
 
 `$ git clone git@github.com:jedi4ever/devopsdays-webby.git`
@@ -39,18 +53,28 @@ It uses webby as a framework:
 
 ## If you don't have RVM installed
 
-    $ . devopsdays-webby.ENV
+    $ source devopsdays-webby.ENV
     $ gem install bundler
     $ bundle install
 
 # Using it
 All interactions are done with the webby command, for this you need to be inside the 'site' directory
+
+
+### Continuously build the website
+
 `$ cd site`
+`$webby autobuild`
 
+### Build the website
 
-    webby autobuild          # Continuously build the website
-    webby build              # Build the website
-    webby rebuild            # Build the website
+`$ cd site`
+`$webby build`
+
+### rebuild the website
+
+`$ cd site`
+`$webby rebuild`
 
 For more information on how to use webby
 [http://webby.rubyforge.org/](http://webby.rubyforge.org/)
