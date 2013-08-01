@@ -1,12 +1,5 @@
 ---
-extension: html
-filter:
-- erb
-- markdown
-dirty: true
-sidebar: false
-layout : event
-title: registration
+filter:    erb
 ---
 <div style="width:100%; text-align:left;" >
   <iframe  src="http://devopsdays-atlanta-2013.eventbrite.com?ref=eweb" frameborder="0" height="2000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
@@ -18,4 +11,3 @@ title: registration
       <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=eweb">Eventbrite</a>
       </div>
     </div>
-
