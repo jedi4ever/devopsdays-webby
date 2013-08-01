@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Roman Kolodchak
+title: "Project SVAROG"
+---
+
+**Abstract:**
+ 
+The most important piece of continuous delivery chain is the component that delivers code from the code repository to environment passing stages like checkout, compilation, packaging, testing, publishing and deployment. SVAROG is the project the is going to cover that.
+SVAROG was born in SoftServe’s DevOps Lab as a BASH-based tool to clean the mess with deployment but (as it usually happens J) became as widely used tool within the company.
+
+**Speaker:**
+
+Roman Kolodchak , [SoftServe](http://www.softserve.com)
+
+Roman has over ten years of experience implementing development operations practices for major IT deployments. He is deeply familiar with integration of ITIL practices, open source, Agile, and SaaS operations automation. At SoftServe Roman leads teams which provide configuration and deployment management for thousands of production and stage instances, for several SaaS/Cloud providers, across multiple IaaS platforms. He is also the product owner for an operations automation framework developed from open source tools. Roman is deeply familiar with all aspects of operationalizing SLAs for SaaS providers. He is intimately familiar with the best operational practices which can deliver on performance transparency for SaaS providers.

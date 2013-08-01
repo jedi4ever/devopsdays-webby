@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Arik Fraimovich
+title: "Easy querying terabytes of data with AWS Redshift"
+---
+
+**Abstract:**
+ 
+If you don't need to query >1B rows, then Redshift is not something you need. But if you do, you will find Redshift as indispensable tool in your tool chain, because no other tool will give you the same performance with the same TOC.
+
+Yet, while giving you great power, Redshift is a new territory in which it is easy to get lost or burnt. In this talk, I will share the experience gained from helping everything.me build a modern analytics system on top of Redshift.
+
+We will start from general overview of Redshift, and then deep dive into best practices, tools and the everything.me use case of managing a table with >3 billion of events that updates at a rate of tens of millions daily.
+
+**Speaker:**
+
+Arik Fraimovich
+
+Arik has been hacking with computers since being 9 years old, when he got his first XT computer. Today he's helping startups with handling their data, performance and anything interesting. He's passionate about open source and user happiness.

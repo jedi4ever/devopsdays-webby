@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Stephen Nelson-Smith
+title: "How not to do Devops: Confessions of a Thought Leader"
+---
+
+**Abstract:**
+ 
+At every conference I go to, and as a member of the core Devopsdays team, I see a lot of proposals too, it seems that 99% of talks are of the sort: ""I did this awesome thing - you should too!"" or ""This is awesome - you should try it!"".  However the reality for experienced people is more often ""I tried this, and messed up badly - here's what I learned, and how you can avoid the pain I suffered"".
+
+I've been a Devops practitioner, activist, enthusiast and consultant since day one.  I keynoted at the second ever Devopsdays.  And I've run a consulting firm specialising in Devops ideas for 7 years.  That means I've made a *ton* of mistakes.  Many of them painful and costly.
+
+In this talk I will bare my soul - tell you all about the terrible mistakes I've made, and explore lessons learned, so we can all learn from the things I've done wrong.
+
+**Speaker:**
+
+Stephen Nelson-Smith
+
+CTO at Strategic Blue; Devops/Cloud Visionary; Author of 'Test-driven Infrastructure with Chef' and forthcoming 'Chef: The Definitive Guide', Opscode Chef trainer.

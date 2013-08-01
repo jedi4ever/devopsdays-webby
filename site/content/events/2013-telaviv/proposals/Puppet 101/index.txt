@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Alon Becker  
+title: "Puppet 101"
+---
+
+**Abstract:**
+ 
+Topics covered will be Manifests, Modules, Facts, Hiera, Puppet Master, Vagrant and much more …
+
+The workshop will first be a high level overview of what Puppet is and is not, what it can do and what it can't. We will delve into code using Vagrant and write a puppet module and manifest with hiera for this example. Each concept will be looked at and details on how to use puppet in an enterprise environment will be explained, along with the typical lifecycle. If time permits we will look at Puppet.conf file and Node definitions.
+
+**Prerequisites:**
+
+- A laptop with [VirtualBox](https://www.virtualbox.org/) and [Vagrant](http://www.vagrantup.com/) installed. 
+- Basic linux know-how
+
+**Speaker:**
+
+Alon Becker, [eToro](http://www.etoro.com)
+
+Alon is the Continuous Delivery Manager and DevOps Evangelist at eToro. He has over 15 years of experience in Operations, Databases, Development and Release Engineering at small and large companies. His current challenge is bringing DevOps to the .NET world.

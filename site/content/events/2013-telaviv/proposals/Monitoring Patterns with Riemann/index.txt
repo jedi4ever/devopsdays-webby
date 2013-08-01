@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Itai Frenkel and Eli Polonski
+title: "Monitoring Patterns with Riemann"
+---
+
+**Abstract:**
+
+[Riemann](http://riemann.io) aggregates events from your servers and applications with a powerful stream processing language, which enables concise monitoring rule declarations.
+This 5 minute ignite talk gives a taste of common monitoring pattern implementations: heartbeat, statistics, event enrichment, state based filters, multi-tenant monitoring, and reviews what you can do with Riemann after processing these patterns. 
+
+**Speaker:**
+
+Itai Frenkel and Eli Polonski, [GigaSpaces](http://www.gigaspaces.com)
+
+Eli Polonsky and Itai Frenkel work at GigaSpaces, developing the the Cloudify open source devops and cloud automation suite. Part of their work includes open source devops tool evaluation such as Riemann.

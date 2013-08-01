@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Helen Bravo
+title: "DevOps and Security: It’s Happening. Right Now"
+---
+
+**Abstract:**
+
+How do you integrate security within a Continuous Deployment (CD) environment - where every 5 minutes a feature, an enhancement, or a bug fix needs to be released? Traditional application security tools which require lengthy periods of configuration, tuning and application learning have become irrelevant in these fast-pace environments. Yet, falling back only on the secure coding practices of the developer cannot be tolerated.
+Secure coding requires a new approach where security tools become part of the development environment – and eliminate any unnecessary code analysis overhead. By collaborating with development teams, understanding their needs and requirements, you can pave the way to a secure deployment in minutes. Steps include:
+* Re-evaluate existing security tools and consider their integration within a CD environment
+* Deliver a secured development framework and enforce its usage
+* Pinpoint precise security code flaws and provide optimal fix recommendations"
+
+**Speaker:**
+
+Helen Bravo , [Checkmarx](http://www.wix.com)
+
+Helen is the Product Manager at Checkmarx. She has more than fifteen years of experience in software development, IT security and source-code analysis. Prior to working at Checkmarx, Helen has worked aT Comverse, one of the largest Hi-tech firms in Israel, as a software engineer and product manager for security-related aspects.

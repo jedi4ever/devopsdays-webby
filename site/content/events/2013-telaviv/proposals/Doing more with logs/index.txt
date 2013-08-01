@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Arik Fraimovich
+title: "Doing more with logs: logs as streams of data"
+---
+
+**Abstract:**
+
+Usually people refer to their logs when they want to debug a problem or understand what happened last night. But logs can be a very versatile and portable stream of data, that can be used for far more than just debugging.
+
+In this talk we will explore how to switch from treating logs as collection of files to a stream of data and practices to extract useful information from your logs. We will review real world examples of doing analytics using logs, performance monitoring and more.
+
+**Speaker:**
+
+Arik Fraimovich
+
+Arik has been hacking with computers since being 9 years old, when he got his first XT computer. Today he's helping startups with handling their data, performance and anything interesting. He's passionate about open source and user happiness.

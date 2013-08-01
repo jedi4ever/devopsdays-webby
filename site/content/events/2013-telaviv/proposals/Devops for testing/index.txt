@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Kobi Kisos & Uri Cohen
+title: "Devops for testing: From 500 on-premise integrations tests to 10000 on 5 different clouds"
+---
+
+**Abstract:**
+
+#### How we built a testing-as-service infrastructure for tens of developers using Git, Node, QuickBuild, JClouds, Cloudify, Logstash, TestNG... 
+
+Integration testing is one of the most tedious, time consuming and error prone procedures in software development. More so when developing and testing distributed middleware products. 
+In this session we’ll share our experience and lessons learned over the years and how we’ve reached a completely automated testing environment used by our developers to test even their most complicated code in fully distributed production like environment, running more than 10K tests a day. 
+Using this framework, our developers can test their code at scale (in some cases up to hundreds of nodes) at the click of a button, across AWS, RackSpace, HP OpenStack and our-prem environment."
+
+**Speakers:**
+
+Kobi Kisos & Uri Cohen, [GigaSpaces](http://www.gigaspaces.com)
+
+For the past few years, Kobi has been leading the quality and automation team at GigaSpaces, specializing in infrastructure and testing automation, and more recently how to leverage the power of the cloud for it.
+
+Uri leads the product team at GigaSpaces, and is interested in everything cloud, scalability and devops, He’s a spare time coder and proud father of 3. During the weekend, Uri masquerades as an all-mountain and occasionally downhill bicycle rider, trying his best to keep his body in one piece. 
