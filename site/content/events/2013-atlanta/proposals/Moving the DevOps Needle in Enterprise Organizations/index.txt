@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: falce
+selected: false
+layout: event
+author: Jim Hirschauer
+title: "Moving the DevOps Needle in Enterprise Organizations"
+---
+
+**Abstract:**
+
+DevOps has proven itself across many smaller organizations but large enterprises are usually slow to change. It can be a daunting task even identifying where to make changes since there are so many processes and organizational silos to get in the way. As a veteran employee of small, medium, and large enterprises I have figured out ways to drive organizational change based upon getting results. In this presentation I will describe my methods for creating change within and across organizations and provide specific examples of how to begin a meaningful shift towards making DevOps a standard practice within your organization. I'll detail some of the roadblocks to making DevOps a reality and explain how to overcome these obstacles.
+
+**Speaker:**
+
+Jim Hirschauer is a Tech Evangelist at AppDynamics. Before joining AppDynamics Jim spent years on the user side of APM solving problems, fighting fires, and trying to convince all of his APM vendors that they could (and should) do better. Even though Jim’s viewpoint comes from work in a high pressure Financial Services environment, his experience and insights apply to any IT organization that strives for greatness.
+
+LinkedIn Profile: http://www.linkedin.com/profile/view?id=20303189
