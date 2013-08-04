@@ -2,12 +2,13 @@
 filter:    erb
 ---
 <% @sponsors = [
-	{ :image => "gigaspaces.png", :name => "Cloudify (by GigaSpaces)", :link => "http://www.cloudifysource.org/"},
-    { :image => "kenshoo.png", :name => "Kenshoo", :link => "http://www.kenshoo.com/"},
-    { :image => "jfrog.png", :name => "JFrog", :link => "http://www.jfrog.com/"},    
     { :image => "10gen.png", :name => "10gen", :link => "http://www.10gen.com/"},    
+	{ :image => "gigaspaces.png", :name => "Cloudify (by GigaSpaces)", :link => "http://www.cloudifysource.org/"},
     { :image => "etoro.png", :name => "eToro", :link => "http://www.eToro.com/"},    
+    { :image => "jfrog.png", :name => "JFrog", :link => "http://www.jfrog.com/"},    
+    { :image => "kenshoo.png", :name => "Kenshoo", :link => "http://www.kenshoo.com/"},
     { :image => "ravello.png", :name => "Ravello Systems", :link => "http://www.ravellosystems.com/"},            
+    { :image => "wix.png", :name => "Wix", :link => "http://www.wix.com/"},            
 ]%>
 
 <% if @sponsors.empty?  %>
