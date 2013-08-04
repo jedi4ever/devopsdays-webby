@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dor Laor 
+title: "#StealthMode #KvmInventor #reveals #KEY #DevOps #Platform"
+---
+
+**Abstract:**
+ 
+The former lead developers of KVM are about to reveal their current
+project. We promise to surprise you and come up with even more *disruptive*
+technology that match #devops like a glove. Please vote accordingly :)
+
+**Speaker:**
+
+Dor Laor, Cloudius Systems
+
+Dor Laor is the CEO of Cloudius Systems, an open source startup in stealth mode.
+Prior to Cloudius systems Dor was part of the founding team of the KVM hypervisor
+under Qumranet, which was later acquired by RedHat. At RedHat Dor managed the development of KVM 
+and XEN for several years. Dor holds an MSc from the Technion and also has a PhD in snowboarding.
