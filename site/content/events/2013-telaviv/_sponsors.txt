@@ -22,7 +22,7 @@ filter:    erb
 <% end %>
 
 <% @csponsors = [
-	{ :image => "igt.png", :name => "IGT", :link => "http://www.cloud.org.il/?CategoryID=374&ArticleID=155"},
+	{ :image => "igt.png", :name => "IGT", :link => "http://www.meetup.com/IGTCloud/"},
 ]%>
 
 <% unless @csponsors.empty?  %><h1>Community Sponsors</h1><% end %>
