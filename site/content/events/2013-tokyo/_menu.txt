@@ -13,7 +13,7 @@ filter:    erb
 </br>
 <a href="/<%= @eventhome %>/ja/propose">企画主旨</a>&nbsp;
 <a href="/<%= @eventhome %>/ja/program">プログラム</a>&nbsp;
-<a href="/<%= @eventhome %>/ja/location">会場について</a>&nbsp;
+<a href="/<%= @eventhome %>/ja/location">会場情報</a>&nbsp;
 <a href="/<%= @eventhome %>/ja/registration">参加登録</a>&nbsp;
 <a href="/<%= @eventhome %>/ja/sponsor">協賛のお願い</a>&nbsp;
 <a href="/<%= @eventhome %>/ja/contact">問い合せ</a>&nbsp;
