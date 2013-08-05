@@ -6,6 +6,7 @@ filter:    erb
 { :image => "here.png", :name => "Here", :link => "http://here.com/news"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://ca.com/"},
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
