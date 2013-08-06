@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 12
+title: "MongoDB Deployment Preparedness"
+---
+
+**Abstract:**
+
+The last bugs are finished, testing is complete, and business is ready. What do you do next? In this talk we will cover the topics to ensure that you are prepared for a successful launch of your MongoDB based product, including: 
+
+* Key counters and metrics: Page Faulting? IO Bound? What's my working set? How do I know?
+* Load Testing and Capacity Planning: How much resource is my MongoDB going to use? When do I need to add replicas and shards? 
+* Monitoring: What should I be watching and how do I know if things are running correctly? 
+* Backups: What's my strategy for backing up and restoring in case of a failure?
+
+We will map the theory to the practice by illustrating with real world examples.
+
+**Speaker:**
+
+Speaker 12
