@@ -5,6 +5,7 @@ filter:    erb
   { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
   { :image => "amplify.png", :name => "Amplify", :link => "http://www.amplify.com/"},
   { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"}
+  { :image => "nbs.png", :name => "Next Big Sound", :link => "http://www.nextbigsound.com/"}
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
@@ -14,6 +15,7 @@ filter:    erb
 <% @ssponsors = [
   { :image => "dell.png", :name => "Dell", :link => "http://www.dell.com/"},
   { :image => "scriptrock.png", :name => "ScriptRock", :link => "http://www.scriptrock.com/"}
+  { :image => "knewton.png", :name => "Knewton", :link => "http://www.knewton.com/"}
 ]%>
 
 <br><br>
