@@ -3,6 +3,7 @@ filter:    erb
 ---
 <% @gsponsors = [
 { :image => "stackato_by_activestate.png", :name => "Stackato by ActiveState", :link => "http://www.activestate.com/stackato"},
+{ :image => "demonware.png", :name => "Demonware", :link => "http://www.demonware.net"},
 ]%>
 
 <% if @gsponsors.empty?  %>
