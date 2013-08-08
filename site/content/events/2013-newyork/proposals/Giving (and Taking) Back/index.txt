@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 13
+title: "Hubot - the command line for your remote team"
+---
+
+**Abstract:**
+
+The importance and impact of Open Source Software cannot be accurately captured, as it has pretty much proliferated most companies and organizations worldwide.
+
+This talk will focus on how to contribute to someone else's project, as well as some ideas on how to set up your own project and accept other people's contributions with as little friction as possible.
+
+Covering the social aspects of interaction with unknown people, as well as knowing when to pass the torch, this talk will focus on some of the good and bad things about the OSS culture, and how we may improve them.
+
+**Speaker:**
+
+Speaker 13
