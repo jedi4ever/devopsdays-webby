@@ -19,10 +19,7 @@ filter:    erb
 ]%>
 
 <h1>Gold sponsors</h1>
-
-<% if @gsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
-<% end %>
+{ :image => "moritz.png", :name => "Moritz", :link => "http://www.moritz.com/"},
 
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
