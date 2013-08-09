@@ -2,7 +2,7 @@
 filter:    erb
 ---
 <% @gsponsors = [
-{ :image => "dell.png", :name => "DELL", :link => "http://www.dell.co.jp/"},
+{ :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
