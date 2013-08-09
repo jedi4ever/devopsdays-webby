@@ -19,7 +19,7 @@ filter:    erb
 ]%>
 
 <h1>Gold sponsors</h1>
-<% @psponsors = [
+<% @gsponsors = [
 { :image => "moritz.png", :name => "Moritz", :link => "http://www.moritz.com/"},
 ] %>
 
