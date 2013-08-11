@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Gill Hoffer
+title: "Cloud-boosted Continuous Integration"
+---
+
+**Abstract:**
+
+In this session we will describe how we at Ravello Systems use the cloud to supercharge our development process.
+As part of this, we will showcase continuous integration on multiple exact replicas of multi-VM production applications in the cloud of your choice, with no resource contention! We will show how this ability radically transforms the day-to-day life of our development, QA, Operations and PM teams, which all utilize the cloud to the extreme.
+The variety of tools that we will touch on in this session are Jenkins, maven, chef and more.
+
+**Speaker:**
+
+Gill Hoffer, VP of R&D, Ravello Systems
