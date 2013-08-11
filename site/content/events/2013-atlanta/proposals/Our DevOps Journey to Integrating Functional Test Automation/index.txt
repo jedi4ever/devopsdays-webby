@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Sunil Nicholas
+title: "Our DevOps Journey to Integrating Functional Test Automation"
+---
+
+**Abstract:**
+
+Functional test automation is to our engineers and QA Analysts what tools like Chef and Jenkins are to DevOps engineers.  It allows us to certify and support more and more complex versions of our software in a scalable fashion.  As our software has gotten more complex, both functional test automation and DevOps activities have needed to evolve in parallel fashions.  It wasn't until Silverpop tried implementing test automation that we found an incredible truth: In order to maximize the value derived from our test automation suite, we have to be tightly integrated with our DevOps brethren.  Our testing codebase is of no use if it's not supported by our CM team for activities like dependency resolution and code/configuration management (SVN and Chef).  As the System Under Test changes, our automated test code needs updating to continue to work and to evolve with the system.  I want to share with you the journey our Test Automation implementation took utilizing tools such as Ant, Jenkins, Artifactory, and Chef to automate the building, deploying, and running our suite of tests.  I will also highlight the personal and team interactions required for smooth implementation and (relatively) painless operation and upkeep.
+
+**Speaker:**
+
+Sunil Nicholas
+Manager - Software Test Development | Silverpop
