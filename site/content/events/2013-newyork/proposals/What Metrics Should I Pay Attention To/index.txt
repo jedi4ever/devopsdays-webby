@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 14
+title: "What Metrics Should I Pay Attention To?"
+---
+
+**Abstract:**
+
+Monitoring all the things is good, but can lead to information overload. In a few years I think we'll have great tools for doing things like AI and big-data mining on metrics, and ideas like Etsy's Oculus and Skyline will be more broadly used, but realistically it takes a while for improvements to hit mainstream tools and get adopted. Assuming that most of us are currently using something not much different from Nagios + Graphite, what can we do Right Now, with very little effort, to improve the signal-to-noise ratio?
+
+I'd argue that changing which metrics we pay the most attention to is a great place to start. That's because some metrics are more important than others. We have systems for a reason: to do work for us. Metrics that relate directly to that work are the most meaningful. A close second is metrics that indicate the availability of resources, such as free disk space -- in my research full disks have been the single biggest cause of system downtime.
+
+Other metrics may seem to be just as revealing, but when you look at how they're actually generated in systems, you'll usually find that they're effects of the work, and therefore they're secondary signals, which don't strengthen the primary signals much if at all. So by focusing in on a handful of metrics, I believe we can significantly reduce the monitoring surface area and improve time to insight. Of course, I think we should keep all the other metrics too -- we just shouldn't drive ourselves nutty trying to keep an active eye on them all the time.
+
+In this talk I'll explain what the workload- and resource-related metrics are and how I suggest keeping an eye on them.
+
+**Speaker:**
+
+Speaker 14
