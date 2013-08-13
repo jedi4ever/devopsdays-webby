@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Andrew Phillips
+title: "Shout if you are Devops": A Devops Quiz
+---
+
+**Abstract:**
+
+As Devops matures within the forerunners of the field and more and more companies look to get in on the game, the question of what "doing Devops" concretely implies comes up frequently. Which three questions would *you* ask to determine how "well" your organization is doing Devops? We'll present our favorite answers from previous discussions and are looking forward to hear more!
+
+
+**Speaker:**
+
+Andrew Phillips
