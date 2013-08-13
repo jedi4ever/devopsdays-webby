@@ -10,7 +10,7 @@ ignite: false
 selected: false
 layout: event
 author: Speaker 13
-title: "Hubot - the command line for your remote team"
+title: "Giving (and Taking) Back"
 ---
 
 **Abstract:**
