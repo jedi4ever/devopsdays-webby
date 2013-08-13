@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 16
+title: "Highly Available, Immutable Architecture on AWS"
+---
+
+**Abstract:**
+
+Amazon Web Services is a fantastic platform to build highly scalable, highly available architecture. Without care, however, engineers will make small manual changes, install patches, and make emergency fixes that'll slowly over time make the entire stack finicky, unpredictable, and ultimately unreliable. We'll talk about how to prevent this using principles of immutable architecture, and thus disposable and repeatable components, using tools provided by AWS. As an added bonus, these same ideas make it extremely easy to deploy identical stacks in multiple AWS regions, making your architecture highly available.
+
+**Speaker:**
+
+Speaker 16
