@@ -20,6 +20,9 @@ filter:    erb
   { :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com/"}
 ]%>
 
+<br><br>
+<% unless @gsponsors.empty?  %><h1>Gold sponsors</h1><% end %>
+
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
