@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Michael Ivey
+title: "Scratching your itches"
+---
+
+**Abstract:**
+
+Scratching your itches: taking the time to make useful things to fix annoying things in your world. I'll talk about how Ridley (a library for talking to Chef) came to be because we were frustrated with some things about using the standard Chef client library. I'll cover how we open-sourced it - and how that's benefited us. I'll also talk about some specific things about how I personally use Ridley.
+
+**Speaker:**
+
+Michael Ivey
+Software Engineer
+Deployment & Automation Tools
+
