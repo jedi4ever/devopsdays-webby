@@ -6,7 +6,7 @@ filter:
 - markdown
 dirty:      true
 layout: event
-platinum: true
+platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
