@@ -1,6 +1,16 @@
 ---
 filter:    erb
 ---
+<% @psponsors = [
+{ :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
+{ :image => "datadog.png", :name => "Datadog HQ", :link => "http://www.datadoghq.com/"},
+{ :image => "urbancode.png", :name => "Urbancode", :link => "http://www.urbancode.com/"}
+]%>
+
+<% @psponsors.shuffle.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @gsponsors = [
   { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
   { :image => "amplify.png", :name => "Amplify", :link => "http://www.amplify.com/"},
