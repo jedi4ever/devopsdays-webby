@@ -20,7 +20,7 @@ filter:    erb
   { :image => "spotify.png", :name => "Spotify", :link => "http://www.spotify.com/"},
   { :image => "activestate.png", :name => "Active State", :link => "http://ww.activestate.com/"},
   { :image => "2u.png", :name => "2u", :link => "http://ww.2u.com/"},
-  { :image => "salstack.png", :name => "SaltStack", :link => "http://ww.saltstack.com/"}
+  { :image => "saltstack.png", :name => "SaltStack", :link => "http://ww.saltstack.com/"}
 ]%>
 
 <br><br>
