@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 17
+title: "I don't always test my code , but when I do it is in production"
+---
+
+**Abstract:**
+
+It is pretty common when doing a code release that someone either introduces a bug to their teams code or another teams code, etc.  I have had the experience of seeing one teams release cause another teams code to crash.  From that experience I believe it is very important to understand how to build your infrastructure to support multiple team deploy multiple times a day and being able to scale this to other teams/code bases. 
+
+
+Swimlane architecture, how to scale and use the right database/tool for the job?  I have moved from Sql to mongo and used mysql,sql and mongo together.  Along with Solr, memcache and several RestFul Api's in the same infrastructure.  I can talk about what didn't work and what does work.  What infrastructure has worked and how to setup your environment to scale quickly and set yourself up for easy scalability in the future. How to fail back a release in seconds rather than minutes to remove a bug that was just deployed.
+
+**Speaker:**
+
+Speaker 17
