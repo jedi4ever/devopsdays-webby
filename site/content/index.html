@@ -76,6 +76,7 @@ var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
 var newyorklocation = new google.maps.LatLng(40.714353,-74.005973);
 var amsterdamlocation = new google.maps.LatLng(52.370216,4.895168);
 var newzealandlocation = new google.maps.LatLng(-40.900557,174.885971);
+var portlandlocation = new google.maps.LatLng(45.524354,-122.681936);
 
 var parislocation = new google.maps.LatLng(48.856614,2.352222);
 var berlinlocation = new google.maps.LatLng(52.519171,13.406091);
@@ -254,7 +255,18 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+var portlandlocation = new MarkerWithLabel({
+position: portlandlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Portland<br>Nov 4-5, 2013",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
 
+google.maps.event.addListener(portlandmarker, "click", function (e) { location.href="/events/2013-portland"});
 google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2013-newyork"});
 google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2013-austin"});
