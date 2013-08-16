@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 18
+title: "The IT Culture Cocktail Party"
+---
+
+**Abstract:**
+
+Organizational culture plays a major role in introducing DevOps into any environment.  Given the uptake of multiple frameworks, standards and practices, IT has actually evolved into a multi-cultural society, each with its evangelists and detractors.   This presentation provides the ingredients for a potent “IT Culture Cocktail” using DevOps as the mixer.  Come join the party and become an “IT Culture Mixologist”
+
+**Speaker:**
+
+Speaker 18
