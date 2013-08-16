@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 20
+title: "Morgue: Helping Better Understand Events by Building a Post Mortem Tool"
+---
+
+**Abstract:**
+
+There’s been much discussion at [my company] about how valuable post mortems are in understanding the circumstances that led to an outage or event.  How to conduct and memorialize a post mortem, however, remained unsystematic.  
+
+My talk will be about why myself and another engineer built an internal post mortem tool called Morgue and the effect that the tool has had on our organization.  Morgue formalized and systematized the way [my company] as a whole runs post mortems by focusing both the leader and the attendees of the post mortem on the most important aspects of resolving and understanding the event in a consistent way.  In addition, the tool has facilitated relations between Ops and Engineers by increasing the awareness of Ops’ involvement in an outage and also by making all of the post mortems easily available to anyone in the organization.  Lastly, all of our developers have access to the Morgue repository and have continued to develop features for the tool as improvements for conducting a post mortem have been suggested.
+
+**Speaker:**
+
+Speaker 20
