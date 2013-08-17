@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 15
+title: "The Future of Devops: what will it mean in 2018?"
+---
+
+**Panel Discussion**
+**Abstract:**
+
+From the first experimental days, Devops has evolved into a relatively mature approach for many tech organizations and has attracted a lot of attention from "Big IT". What will the influx of big vendors and, especially, adoption by large enterprises mean for Devops? What practices and tools will be using in 5 years time? Will Devops split into multiple "schools"? How do we avoid "Devops" becoming another blanket phrase without any real meaning?
+
+**Panel Moderators:**
+
+Speaker 15
+
+**Panel Participants:**
+
+TBD

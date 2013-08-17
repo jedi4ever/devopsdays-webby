@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 19
+title: "Achieving common ground via Logging"
+---
+
+**Abstract:**
+
+Logs are often treated as second class citizens. All applications have logs - but what makes them really important is context and correlation. The talk will go through practices and examples of how logs can be used to achieve common ground between Ops, Dev and other (not so apparent) silos in an organization.
+
+- Logs from an Ops perspective
+- Logs from a Dev perspective
+- Products, Performance Engineering - what would they like to see?
+- InfoSec - what they don't want to see?
+- (Open Source) Tools which can be used to achieve these goals
+
+**Speaker:**
+
+Speaker 19

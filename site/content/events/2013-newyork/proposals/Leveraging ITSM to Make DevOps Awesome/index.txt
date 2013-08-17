@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 18
+title: "Leveraging ITSM to Make DevOps Awesome"
+---
+
+**Abstract:**
+
+Many organizations have begun to rollout IT Service Management or ITIL process improvement programs.  Unfortunately, many within IT view these programs as commoditized or bureaucratic.   The reality is that there are hidden treasures of guidance inside of frameworks such as ITIL that actually can expedite the creation and adoption of a DevOps culture within IT and the business.  This presentation will demonstrate some of the lesser known “treasures” within frameworks such as ITIL and Cobit that may actually enable fast deployment and a healthy DevOps environment.
+
+**Speaker:**
+
+Speaker 18

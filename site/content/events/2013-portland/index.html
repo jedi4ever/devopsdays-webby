@@ -1,0 +1,33 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center>
+  <table><tr><td>
+        <center>
+        <img border=0 width="210px" height="250px" src="http://upload.wikimedia.org/wikipedia/commons/3/3c/Portland_and_mt_hood.jpg"><br>
+          <small><a href="http://upload.wikimedia.org/wikipedia/commons/3/3c/Portland_and_mt_hood.jpg"> original image</a></small></center>
+</td><td>
+  Date : November 4 - 5, 2013<br>Location: <a href="location">The Armory (Portland Center Stage)</a></a>
+  <br><br>
+  Hotel information will be coming shortly</a>.
+  <br><br>
+  <strong>Call for proposals is <a href="propose">now open!</a></strong>
+  <br><br>
+  <strong>Registration will be opening soon.</strong>
+</td>
+</tr>
+</table>
+</center>
+<hr>
+
+If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+

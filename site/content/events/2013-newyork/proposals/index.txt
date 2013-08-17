@@ -6,6 +6,7 @@ filter:
 - markdown
 dirty:      true
 layout: event
+platinum: true
 ---
 This page list the proposals we have received. Help the presenters with your feedback! 
 
