@@ -9,6 +9,7 @@ filter:    erb
     { :image => "kenshoo.png", :name => "Kenshoo", :link => "http://www.kenshoo.com/"},
     { :image => "ravello.png", :name => "Ravello Systems", :link => "http://www.ravellosystems.com/"},            
     { :image => "wix.png", :name => "Wix", :link => "http://www.wix.com/"},            
+    { :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},            
 ]%>
 
 <% if @sponsors.empty?  %>
