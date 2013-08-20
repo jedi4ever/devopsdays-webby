@@ -18,9 +18,9 @@ filter:    erb
   { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
   { :image => "nextbigsound.png", :name => "Next Big Sound", :link => "http://www.nextbigsound.com/"},
   { :image => "spotify.png", :name => "Spotify", :link => "http://www.spotify.com/"},
-  { :image => "activestate.png", :name => "Active State", :link => "http://ww.activestate.com/"},
-  { :image => "2u.png", :name => "2u", :link => "http://ww.2u.com/"},
-  { :image => "saltstack.png", :name => "SaltStack", :link => "http://ww.saltstack.com/"}
+  { :image => "activestate_stackato.png", :name => "Active State", :link => "http://www.activestate.com/"},
+  { :image => "2u.png", :name => "2u", :link => "http://www.2u.com/"},
+  { :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"}
 ]%>
 
 <br><br>
