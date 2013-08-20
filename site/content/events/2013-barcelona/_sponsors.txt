@@ -4,13 +4,16 @@ filter:    erb
 <h1>Gold sponsors</h1>
 <% @gsponsors = [
 { :image => "moritz.png", :name => "Moritz", :link => "http://www.moritz.com/"},
+{ :image => "strsistemas.png", :name => "STR Sistemas", :link => "http://www.strsistemas.com/"},
 ] %>
 
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<h2>Silver sponsors</h2>
 <% @ssponsors = [
+{ :image => "telefonica.png", :name => "Telefonica", :link => "http://www.tid.es/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
