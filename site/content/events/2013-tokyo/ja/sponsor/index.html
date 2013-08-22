@@ -3,8 +3,9 @@ extension: html
 filter:
 - erb
 - markdown
+bento: true
 dirty: true
-layout: event
+layout: event_tokyo
 title: 協賛のお願い
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
