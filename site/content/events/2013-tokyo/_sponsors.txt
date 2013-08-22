@@ -35,6 +35,22 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @bsponsors = [
+{ :image => "sportsnavi.png", :name => "sprotsnavi", :link => "http://sportsnavi.yahoo.co.jp/"},
+]%>
+
+
+<% @lsponsors = [
+{ :image => "microsoft.png", :name => "sprotsnavi", :link => "http://www.microsoft.com/ja-jp/default.aspx"},
+]%>
+
+</br></br>
+<% unless @lsponsors.empty?  %><h1>3.11 Restoration</br>Bento sponsors</h1><% end %>
+
+<% @lsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @msponsors = [
 { :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
 ]%>
