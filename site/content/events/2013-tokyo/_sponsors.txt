@@ -3,7 +3,7 @@ filter:    erb
 ---
 
 <% @lsponsors = [
-{ :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com/ja-jp/default.aspx"},
+{ :image => "microsoft.png", :name => "Microsoft Japan Co., Ltd.", :link => "http://www.microsoft.com/ja-jp/default.aspx"},
 ]%>
 
 <% @lsponsors.each do |sponsor| %>
@@ -39,6 +39,7 @@ filter:    erb
 
 <% @bsponsors = [
 { :image => "sportsnavi.png", :name => "sprotsnavi", :link => "http://sportsnavi.yahoo.co.jp/"},
+{ :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/jp/default.aspx"},
 ]%>
 
 </br></br>
