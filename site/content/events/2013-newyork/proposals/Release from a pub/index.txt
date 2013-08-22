@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 22
+title: "Continuous delivery for desktop applications - release from a pub"
+---
+
+**Abstract:**
+
+The main product of our company is a flash based web application. For paying users there is an offline desktop version. To be able to embed a flash application in a desktop application Adobe Air is required. The release process for an Adobe Air application is quite simple until a stand alone installation of Adobe Air is available on the user's machine. To make our user's life easier (and our own life much more complicated :) ) we decided to use the captive runtime feature of Adobe Air where all the required libraries are built into the application and users dont have to install Adobe Air at all. With this move the official, built-in update feature is not available anymore so we had to implement our own updater.
+
+The team working on this desktop application had a lot of issues with releasing new versions so we decided to focus all of our efforts making it totally automated.
+
+I would like to talk about how such automation looks like (involving windows and linux Amazon EC2 machines, bash and python scripts, InstallShield and VBScript).
+And where the title comes from? Our goal was to make the release process so stable and easy that you can even start it from a pub being drunk :)
+
+**Speaker:**
+
+Speaker 22
