@@ -1,5 +1,8 @@
 <div style="height:200px;" id="quicklinks">
 <table><tr><td>
+      <a href="/events/2013-downunder">Downunder 2013</a><br>
+      <a href="/events/2013-mountainview/">Mountainview 2013</a><br>
+      <a href="/events/2013-amsterdam/">Amsterdam 2013</a><br>
       <a href="/events/2013-berlin/">Berlin 2013</a><br>
       <a href="/events/2013-austin/">Austin 2013</a><br>
       <a href="/events/2013-paris/">Paris 2013</a><br>
@@ -9,8 +12,8 @@
       <a href="/events/2012-italy/">Rome 2012</a><br>
       <a href="/events/2012-mountainview/">Mountain View 2012</a><br>
       <a href="/events/2012-india/">Gurgaon 2012</a><br>
-      <a href="/events/2012-austin/">Austin 2012</a><br>
   </td><td>
+      <a href="/events/2012-austin/">Austin 2012</a><br>
       <a href="/events/2011-manila/">Manila 2012</a><br>
       <a href="/events/2011-goteborg/">Goteborg 2012</a>
       <a href="/events/2011-bangalore/">Bangalore 2012</a><br>
