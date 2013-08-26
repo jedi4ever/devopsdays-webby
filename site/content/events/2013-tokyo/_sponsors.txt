@@ -12,7 +12,8 @@ filter:    erb
 
 
 <% @gsponsors = [
-{ :image => "yahoo.png", :name => "Yahoo! Japan", :link => "http://www.yahoo.co.jp/"},
+{ :image => "dell.png", :name => "Dell Japan", :link => "http://www.dell.co.jp/"},
+{ :image => "yahoo.png", :name => "Yahoo! Japan", :link => "http://www.yahoo.co.jp/"}
 ]%>
 
 </br></br>
