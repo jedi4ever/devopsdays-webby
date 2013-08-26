@@ -6,7 +6,7 @@
       <a href="/events/2013-berlin/">Berlin 2013</a><br>
       <a href="/events/2013-austin/">Austin 2013</a><br>
       <a href="/events/2013-paris/">Paris 2013</a><br>
-      <a href="/events/2013-london/">London 2013</a><br>
+      <a href="/events/2013-london-spring/">London 2013</a><br>
       <a href="/events/2013-newzealand/">New Zealand 2012</a><br>
       <a href="/events/2012-newyork/">New York 2012</a><br>
       <a href="/events/2012-italy/">Rome 2012</a><br>
