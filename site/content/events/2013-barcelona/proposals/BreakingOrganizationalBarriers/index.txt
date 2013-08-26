@@ -9,7 +9,7 @@ ignite: true
 selected: false
 layout: event
 author: Eliza Croen
-title: Breaking Organizational Barriers - A Sweaty Use Case
+title: "Breaking Organizational Barriers - A Sweaty Use Case"
 ---
 
 **Abstract:**
