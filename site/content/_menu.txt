@@ -11,8 +11,8 @@
       <a href="/events/2012-newyork/">New York 2012</a><br>
       <a href="/events/2012-italy/">Rome 2012</a><br>
       <a href="/events/2012-mountainview/">Mountain View 2012</a><br>
-      <a href="/events/2012-india/">Gurgaon 2012</a><br>
   </td><td>
+      <a href="/events/2012-india/">Gurgaon 2012</a><br>
       <a href="/events/2012-austin/">Austin 2012</a><br>
       <a href="/events/2011-manila/">Manila 2012</a><br>
       <a href="/events/2011-goteborg/">Goteborg 2012</a>

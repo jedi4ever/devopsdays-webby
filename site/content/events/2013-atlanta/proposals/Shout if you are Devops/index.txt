@@ -10,7 +10,7 @@ ignite: false
 selected: false
 layout: event
 author: Andrew Phillips
-title: "Shout if you are Devops": A Devops Quiz
+title: "Shout if you are Devops: A Devops Quiz"
 ---
 
 **Abstract:**

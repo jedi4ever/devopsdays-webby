@@ -43,7 +43,7 @@ featureType: 'water',
       }];
 
 
-    var homeLatLng=new google.maps.LatLng(37.4419, -122.1419)
+    var homeLatLng=new google.maps.LatLng(40.4419, -72.1419)
       var map = new google.maps.Map(document.getElementById("map_canvas"), {
          zoom: 1,
          mapTypeControlOptions: {
@@ -96,7 +96,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "New York<br>17,18 October 2013",
-labelAnchor: new google.maps.Point(+30, 65),
+labelAnchor: new google.maps.Point(+10, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -107,7 +107,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "London<br>11 & 12 November 2013",
-labelAnchor: new google.maps.Point(+30, 65),
+labelAnchor: new google.maps.Point(+10, 65),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -117,8 +117,8 @@ position: barcelonalocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Barcelona<br>October 2013",
-labelAnchor: new google.maps.Point(0, 0),
+labelContent: "Barcelona<br>Oct 10-11, 2013",
+labelAnchor: new google.maps.Point(30, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -163,18 +163,18 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Vancouver<br>Oct 25-26, 2013",
-labelAnchor: new google.maps.Point(-10, 20),
+labelAnchor: new google.maps.Point(80, +80),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
-var portlandlocation = new MarkerWithLabel({
+var portlandmarker = new MarkerWithLabel({
 position: portlandlocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Portland<br>Nov 4-5, 2013",
-labelAnchor: new google.maps.Point(-10, 20),
+labelAnchor: new google.maps.Point(80, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -185,7 +185,6 @@ google.maps.event.addListener(londonmarker, "click", function (e) { location.hre
 google.maps.event.addListener(barcelonamarker, "click", function (e) { location.href="/events/2013-barcelona"});
 google.maps.event.addListener(tokyomarker, "click", function (e) { location.href="/events/2013-tokyo"});
 google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2013-atlanta"});
-google.maps.event.addListener(aucklandmarker, "click", function (e) { location.href="/events/2013-newzealand"});
 google.maps.event.addListener(tlvmarker, "click", function (e) { location.href="/events/2013-telaviv"});
 google.maps.event.addListener(vancouvermarker, "click", function (e) { location.href="/events/2013-vancouver"});
 }

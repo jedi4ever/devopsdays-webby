@@ -10,7 +10,7 @@ ignite: false
 selected: false
 layout: event
 author: Andrew Phillips
-title: “”The Future of Devops: what will it mean in 2018”
+title: "The Future of Devops: what will it mean in 2018"
 ---
 
 **Abstract:**

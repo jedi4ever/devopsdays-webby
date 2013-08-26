@@ -79,7 +79,7 @@ google.load('jquery', '1.3.2');
     <%= render(:partial => '/twitterfeed') %>
   </div>
 
-  <div style=" padding-top:58px;" class="span-8 last">
+  <div style=" padding-top:18px;" class="span-8 last">
     <h1>Past Events</h1>
   </div>
 
