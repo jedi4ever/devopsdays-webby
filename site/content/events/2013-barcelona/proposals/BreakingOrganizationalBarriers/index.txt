@@ -8,7 +8,7 @@ proposal: true
 ignite: true
 selected: false
 layout: event
-author: Eliza Croen
+author: Uri Cohen
 title: "Breaking Organizational Barriers - A Sweaty Use Case"
 ---
 
@@ -22,4 +22,4 @@ It all started when I wanted to encourage people (including myself) to ride thei
 
 **Speaker:**
 
-Eliza Croen
+Uri Cohen
