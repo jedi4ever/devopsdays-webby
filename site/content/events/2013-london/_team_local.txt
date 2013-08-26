@@ -3,6 +3,5 @@
 - Gareth Rushgrove
 - Kief Morris
 - Michael Brunton-Spall
-- Bruce Durling
 - Paul Stack
 - Sam Cameron

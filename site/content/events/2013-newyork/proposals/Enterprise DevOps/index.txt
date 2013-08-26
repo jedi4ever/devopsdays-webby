@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 23
+title: "Enterprise DevOps - Going Big and f*$^#&g up, a Cautionary Tale"
+---
+
+**Abstract:**
+
+I'll talk through the steps we took to establishing cultural change via DevOps in a traditional brokerage firm and how we totally screwed it up.  I'll focus in particular on the process, systems, and technology culture of the organization.
+
+1.The history of the company and why it was obvious it would fail. Culture, Rewards, Technology.
+
+2. The technology composition, i.e What they focussed spending on, and how we funded the project and regulatory pressures they were under. 
+
+3. How our vision was idealistic, and our team became arrogant. (us vs them). ie: Why creating a DevOps team failed.
+
+4. The proliferation of tools that were used, the tools we introduced. The tools they actually ended up using. (I'll talk a little about Chef, and the sheer amount of code we wrote)
+
+5. The workflow of failure - Confronting ITIL, COBIT, AGILE, the PMO & Introducing new nomenclature that screwed it up.
+
+6. What worked and mostly what didn't work.
+
+7. When success is declared despite the obvious failure.
+
+**Speaker:**
+
+Speaker 23

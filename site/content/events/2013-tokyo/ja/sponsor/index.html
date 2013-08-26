@@ -3,8 +3,9 @@ extension: html
 filter:
 - erb
 - markdown
+bento: true
 dirty: true
-layout: event
+layout: event_tokyo
 title: 協賛のお願い
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
@@ -19,9 +20,9 @@ title: 協賛のお願い
 <div style="width:500px">
 <table border=1>
   <tr><th><i>Packages</i></th>
-      <th><center><b><u>Bronze<br />JPY 80,000</u></center></b></th>
-      <th><center><b><u>Silver<br />JPY 150,000</u></center></b></th>
-      <th><center><b><u>Gold<br />JPY 300,000</u></b></center></th>
+      <th><center><b><u>Bronze<br />JPY 80,000 +TAX</u></center></b></th>
+      <th><center><b><u>Silver<br />JPY 150,000 +TAX</u></center></b></th>
+      <th><center><b><u>Gold<br />JPY 300,000 +TAX</u></b></center></th>
   </tr>
 
 <tr><td>DevOpsdays webサイトへの会社logo掲載</td>
@@ -44,11 +45,11 @@ title: 協賛のお願い
 	<td bgcolor="green">&nbsp;</td>
 	<td bgcolor="green">&nbsp;</td>
 </tr>
-<tr><td>会社名のプレスでのアナウンス</td>
+<!--tr><td>会社名のプレスでのアナウンス</td>
 	<td>&nbsp;</td>
 	<td bgcolor="green">&nbsp;</td>
 	<td bgcolor="green">&nbsp;</td>
-</tr>
+</tr-->
 <tr><td>社名の適宜紹介</td>
 	<td bgcolor="green">&nbsp;</td>
 	<td bgcolor="green">&nbsp;</td>

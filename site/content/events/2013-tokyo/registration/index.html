@@ -5,9 +5,12 @@ filter:
 - markdown
 dirty: true
 sidebar: false
-layout : event
+layout: event_tokyo
+bento: true
 title: registration
 ---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
 <hr>
 <div style="width:100%; text-align:left;" >
 		<h2>connpass is a Japanese based evnt registration site.  If you need translation, please use the google translator. (Sorry, for your inconvenience )</br></br>

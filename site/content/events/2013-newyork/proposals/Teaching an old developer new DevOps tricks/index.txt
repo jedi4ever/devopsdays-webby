@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 24
+title: "Teaching an old developer new DevOps tricks"
+---
+
+**Abstract:**
+
+I confess -- I was a developer...in enterprise software.  We released
+software only occasionally.  We threw release candidates over the wall
+to QA.  Deployment and operations was the customers’ problem.  From
+such a background, joining a DevOps team is an eye-opening experience.
+ But I am proof that you can teach an old enterprise software
+developer new DevOps tricks.
+
+Across the industry, the number of DevOps teams is growing.  The
+number of experienced DevOps engineers is increasing, but at a much
+slower rate.  To fill DevOps roles, it will be increasingly necessary
+to transition experienced engineers to the new way of thinking.
+
+I will give advice for developers looking to make the smooth
+transition to the world of devops.  This advice will also help devops
+teams integrate people from traditional development backgrounds.
+
+**Speaker:**
+
+Speaker 24

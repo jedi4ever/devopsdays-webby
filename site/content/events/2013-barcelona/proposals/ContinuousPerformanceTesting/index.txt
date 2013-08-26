@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Almudena Vivanco Gonzalez
+title: "Continuous Performance Testing"
+---
+
+**Abstract:**
+
+From a QA performance point of view how to integrate performance testing in each of the steps of life product cycle, from developers to production. How to integrate Performance engineering tasks in Kanban and in daily tasks of DevOps team.
+
+I will speak of the Past, Present and Future of Performance Engineering within devops. It is interesting as it is one of the requirements from the market to be competitive. Performance is really important in marketing trends and it is a task that depends not only in developers and QA but as well it relies in the  system,  perfectly fitting DevOps tasks.
+ 
+The presentation has been given already in Oslo for Pearson with a telefónica Case of Study so it is not only a theoretical PoV but a practical daily task.
+ 
+**Speaker:**
+
+Almudena Vivanco Gonzalez

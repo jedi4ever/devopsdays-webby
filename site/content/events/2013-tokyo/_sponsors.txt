@@ -1,9 +1,23 @@
 ---
 filter:    erb
 ---
-<% @gsponsors = [
-{ :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
+
+<% @lsponsors = [
+{ :image => "microsoft.png", :name => "Microsoft Japan Co., Ltd.", :link => "http://www.microsoft.com/ja-jp/default.aspx"},
 ]%>
+
+<% @lsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+
+<% @gsponsors = [
+{ :image => "dell.png", :name => "Dell Japan", :link => "http://www.dell.co.jp/"},
+{ :image => "yahoo.png", :name => "Yahoo! Japan", :link => "http://www.yahoo.co.jp/"}
+]%>
+
+</br></br>
+<% unless @lsponsors.empty?  %><h1>Gold sponsors</h1><% end %>
 
 <% if @gsponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
@@ -17,6 +31,7 @@ filter:    erb
 { :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
 ]%>
 
+</br></br>
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
 
 <% @ssponsors.each do |sponsor| %>
@@ -24,18 +39,27 @@ filter:    erb
 <% end %>
 
 <% @bsponsors = [
-{ :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
+{ :image => "sportsnavi.png", :name => "sprotsnavi", :link => "http://sportsnavi.yahoo.co.jp/"},
+{ :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/jp/default.aspx"},
 ]%>
 
+</br></br>
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 
 <% @bsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @bsponsors = [
+{ :image => "sportsnavi.png", :name => "sprotsnavi", :link => "http://sportsnavi.yahoo.co.jp/"},
+]%>
+
+
 <% @msponsors = [
 { :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
 ]%>
+
+</br></br>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=75px height=75px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>

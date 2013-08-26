@@ -1,9 +1,9 @@
 ---
 filter:    erb
 ---
-<h1>Gold sponsors</h1>
 <% @gsponsors = [
 { :image => "moritz.png", :name => "Moritz", :link => "http://www.moritz.com/"},
+{ :image => "strsistemas.png", :name => "STR Sistemas", :link => "http://www.strsistemas.com/"},
 ] %>
 
 <% @gsponsors.each do |sponsor| %>
@@ -11,6 +11,7 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
+{ :image => "telefonica.png", :name => "Telefonica", :link => "http://www.tid.es/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
