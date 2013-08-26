@@ -9,7 +9,7 @@ ignite: true
 selected: false
 layout: event
 author: Almudena Vivanco Gonzalez
-title: Continuous Performance Testing
+title: "Continuous Performance Testing"
 ---
 
 **Abstract:**
