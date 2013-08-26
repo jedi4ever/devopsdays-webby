@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alex Ballarin
+title: An introduction to Disciplined Agile Delivery
+---
+
+**Abstract:**
+
+A framework aimed to cover the gap between single agile teams (scrum+something is enough) and traditional IT shops (Prince2/PMBOK/CMMI/ITIL...).
+
+One of the big values of DAD is that is "enterprise enabled" meaning that its proposed lifecycle, goals and roles can be understood and accepted by a medium-to-big IT department. If we consider the change management issues we could find in transitioning such IT departments to DevOps then DAD becomes of a great help.
+
+In short, the presentation would talk about:
+* Defining Disciplined Agile Delivery (DAD)
+* Hybrid framework
+* Lifecycles
+* Roles
+* Process goal driven
+* Enterprise awareness
+* Scaling and tailoring
+* Governance
+
+What about DAD and DevOps?
+
+* What is the role of QA/Tester in devops
+* How do we integrate QA in the continuous delivery process
+* The impact devops has on traditional security/auditing/change control
+* How does devops co-exist with ITIL, Cobit
+* How about release management ?
+* Help prove that devops can scale beyond the 5-8 person web startups, we love traditional IT enterprise cases
+With all the automation, data is still a hard thing to handle, how does it affect, DBA's, backup strategies, ...
+* How to involve the business in devops
+* How to get YOUR boss involved, how do you make the business case
+
+
+**Speaker:**
+
+Alex Ballarin
