@@ -19,7 +19,7 @@ How we built a testing-as-service infrastructure for tens of developers using Gi
 Integration testing is one of the most tedious, time consuming and error prone procedures in software development. More so when developing and testing distributed middleware products. 
 
 In this session we'll share our experience and lessons learned over the years and how we've reached a completely automated testing environment used by our developers to test even their most complicated code in fully distributed production like environment, running more than 10K tests a day. Using this framework, our developers can test their code at scale (in some cases up to hundreds of nodes) at the click of a button, across AWS, RackSpace, HP OpenStack and our-prem environment."
- 
+
 **Speaker:**
 
 Uri Cohen
