@@ -42,6 +42,7 @@ filter:    erb
 { :image => "sportsnavi.png", :name => "sprotsnavi", :link => "http://sportsnavi.yahoo.co.jp/"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/jp/default.aspx"},
 { :image => "tracpath.png", :name => "OpenGroove, Inc.", :link => "http://tracpath.com/"},
+{ :image => "dena.png", :name => "DeNA Co., Ltd.", :link => "http://dena.com"},
 ]%>
 
 </br></br>
@@ -51,7 +52,7 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-
+<!--
 <% @msponsors = [
 { :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
 ]%>
@@ -61,3 +62,4 @@ filter:    erb
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=75px height=75px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
+-->
