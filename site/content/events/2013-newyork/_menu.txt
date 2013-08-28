@@ -7,5 +7,6 @@
 <a href="/events/2013-newyork/registration">register</a>&nbsp;
 <a href="/events/2013-newyork/sponsor">sponsor</a>&nbsp;
 <a href="/events/2013-newyork/contact">contact</a>&nbsp;
+<a href="/events/2013-newyork/code-of-conduct">code of conduct</a>&nbsp;
 </h3>
 </div>
