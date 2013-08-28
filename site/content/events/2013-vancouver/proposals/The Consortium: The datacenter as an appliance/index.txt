@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Gordon Klok
+title: "The Consortium: The datacenter as an appliance"
+---
+
+**Abstract:**
+
+Demonware is a wholly owned subsidiary of Activision/Blizzard and is responsible for developing and running online gaming services for several popular franchises including Call-of-Duty. The delivery of service for millions of daily players requires a substantial infrastructure and Demonware employs numerous popular open source automation packages alongside tools developed internally to manage these systems. While these tools have improved the productivity of our engineers issues were identified including a lack of a single point of interaction, the fragility of work flows and a patch work collection of languages and APIs which limited the ability of our tools to scale with a growing engineering team. To remedy the deficiencies of our existing tools and inspired by systems such as Facebook's FBAR and tumblr's Collins service we undertook the development of a "Operations API" called the Consortium. In this talk we delve deeper into the reasons for building such an API, the design of our system, benefits, and the lessons learned from its daily use in production.
+
+**Speaker:**
+
+Gordon Klok
+Software Engineer
+Service Reliability Engineering Team
+Demonware
+
