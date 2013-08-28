@@ -1,10 +1,9 @@
 ---
-extension: html
-filter:
+title:  code_of_conduct
+filter:     
 - erb
 - markdown
-title: code of conduct
-dirty: true
+dirty:      true
 layout: event
 platinum: true
 ---
@@ -16,6 +15,6 @@ Inclusiveness and respect for differences are core devops values, and we invite 
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact one of the following conference organizers (via phone or SMS):
 
-<!-- <%= render(:partial => File.join(@eventhome,'_contacts')) %> -->
+<%= render(:partial => File.join(@eventhome,'_contacts')) %>
 
 Conference organizers will be happy to address any issues and assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
