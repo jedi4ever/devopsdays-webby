@@ -3,7 +3,7 @@ filter:    erb
 ---
 <% @sponsors = [
     { :image => "opscode.png", :name => "Opscode", :link => "http://www.opscode.com/"},            
-    { :image => "10gen.png", :name => "10gen", :link => "http://www.10gen.com/"},    
+    { :image => "mongodb.png", :name => "MongoDB", :link => "http://www.mongodb.com/"},    
 	{ :image => "gigaspaces.png", :name => "Cloudify (by GigaSpaces)", :link => "http://www.cloudifysource.org/"},
     { :image => "etoro.png", :name => "eToro", :link => "http://www.eToro.com/"},    
     { :image => "jfrog.png", :name => "JFrog", :link => "http://www.jfrog.com/"},    
