@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Larry Salomon Jr
+title: "Service Virtualization: the New Wave in Application Development"
+---
+
+**Abstract:**
+
+Service Virtualization differs from traditional definitions of virtualization in that it abstracts downstream components or entire applications with which you integrate as part of a business service to allow you to remove the dependency on those components and/or applications and thus deserialize the SDLC.  
+
+This session will begin by examining the risks associated with traditional application development from both various perspectives.  The use of virtual services will then be discussed as a high impact means of mitigating these risks.  
+
+Empirical data has shown that incorporating virtual services into an application development organization's best practices can compress the SDLC by 30% or more due to an ability to more aggressively attack the goal of true parallel development.
+
+**Speaker:**
+
+Larry Salomon Jr
+Pre-sales Consultant - Application Delivery
+CA Technologies
+
