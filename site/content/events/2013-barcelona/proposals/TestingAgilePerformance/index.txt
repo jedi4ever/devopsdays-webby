@@ -19,18 +19,18 @@ Agenda:
 
 * Why performance matters?
   * What was the performance impact the last release?
-* What about the impact of that configuration change or package upgrade?
-* Case studies on business impact of performance at Google/AOL/Shopzilla
+  * What about the impact of that configuration change or package upgrade?
+  * Case studies on business impact of performance at Google/AOL/Shopzilla
 * Tools of the trade
-* MultiMechanize
-* Bees with Machine Guns
-* Google PageSpeed
-* AppDynamics
+  * MultiMechanize
+  * Bees with Machine Guns
+  * Google PageSpeed
+  * AppDynamics
 * Best practices
-* Server Side
-* Client Side
+  * Server Side
+  * Client Side
 * Integrating into your process
-* develop -> test -> deploy -> rinse & repeat
+  * develop -> test -> deploy -> rinse & repeat
 
 **Speaker:**
 Dustin Whittle
