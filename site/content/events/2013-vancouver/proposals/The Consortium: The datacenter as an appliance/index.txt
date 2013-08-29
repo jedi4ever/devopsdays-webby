@@ -20,7 +20,10 @@ Demonware is a wholly owned subsidiary of Activision/Blizzard and is responsible
 **Speaker:**
 
 Gordon Klok
+
 Software Engineer
+
 Service Reliability Engineering Team
+
 Demonware
 
