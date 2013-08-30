@@ -7,5 +7,5 @@ filter:    erb
 ]%>
 
 <% @local_contacts.each do |local_contact| %>
-<strong> <%= local_contact[:name] %> </strong> : <%= local_contact[:phone] %> <br/>
+<%= local_contact[:name] %> : <%= local_contact[:phone] %> 
 <% end %>
