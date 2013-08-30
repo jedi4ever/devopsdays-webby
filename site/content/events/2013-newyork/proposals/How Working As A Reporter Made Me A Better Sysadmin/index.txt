@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 25
+title: "How Working As A Reporter Made Me A Better Sysadmin"
+---
+
+**Abstract:**
+
+A few years ago, I left my full-time job as a web operations manager to follow my lifelong dream of being a reporter. I didn't last very long in the profession, but I definitely learned a lot. In this Ignite, I'll do a Buzzfeed-style "top things I learned from being a journalist that made me a better sysadmin". You'd be surprised, but there are actually many similarities between the two fields.
+
+I won't give away all the secrets, but you can expect this Ignite to talk about things like the importance of deadlines to actually shipping things even if they're not perfect ("perfect stories never get printed"), how reporters look at the world and how that can help you in your job, and how to talk to complete strangers and get useful information out of them. Finally, media, like IT, is an industry that is coping with rapid change and disruption. I'll touch on how we can learn from the media industry's scramble to "get digital" and apply that to our jobs where we're constantly being asked to keep up with the astronomical pace of change. 
+
+**Speaker:**
+
+Speaker 25

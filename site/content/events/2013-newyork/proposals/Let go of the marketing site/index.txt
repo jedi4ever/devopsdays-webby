@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 28
+title: "Let go of the marketing site (and don't call it that)"
+---
+
+**Abstract:**
+
+At tech companies, the corporate website is not necessarily tied directly to the company's technology product(s). In these situations, the design, product, and engineering teams are torn, as they don't want to spend all day building and maintaining "the marketing site", but the marketing team can't actually do it themselves, and if they could, they'd screw it up and cause a fire drill.
+
+Oh yes, we caused fire drills.
+
+The solution was not to take away our "privileges", but to create a site (and team) better equipped to prevent and recover from disasters.
+
+This ignite talk highlights how our marketing team achieved functional independence from the rest of the company, including design/engineering as well as our own hosting and deployment infrastructure.
+
+It covers the site's evolution from SVN-managed text files, to Dropbox, to WordPress on AWS, to a specialized, managed host. Along the way we open sourced a custom deployment framework for WordPress called "WP Stack", and I learned how to talk about version control, reverse proxies, nginx, memcached, and more.
+
+The result is half technology, half philosophy, as we hired the people and built the trust needed to help the rest of the company let go of the homepage and move on with their lives.
+
+**Speaker:**
+
+Speaker 28
