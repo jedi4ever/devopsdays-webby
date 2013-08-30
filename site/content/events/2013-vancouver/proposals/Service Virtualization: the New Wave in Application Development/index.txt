@@ -24,6 +24,14 @@ Empirical data has shown that incorporating virtual services into an application
 **Speaker:**
 
 Larry Salomon Jr
-Pre-sales Consultant - Application Delivery
+
+Technical Evangelist
+
 CA Technologies
+
+Larry Salomon Jr. brings 18 years of IT experience focused on application development and delivery. Coupled with his strong focus on the business relevance of technology, Mr. Salomon is a recognized thought leader in the application delivery space. You may find him on CA’s Service Virtualization blog (www.servicevirtualization.com) and in several LinkedIn discussion groups.
+
+Before his current role, he was a Business Technology Architect with the responsibility for developing cross-BU solution sets that met a variety of customer needs, and he held an identical role at BMC in their Global Financial Accounts group. During his tenure in application development he held positions such as the Chief Architect at Softwatch Inc. and CTO at Air Salon. He started his career at IBM’s prestigious T. J. Watson Research Center in Yorktown Heights, NY.
+
+Mr. Salomon holds a Bachelor of Computer Science degree from Clemson University and holds certifications in ITIL v3 and Six Sigma.
 
