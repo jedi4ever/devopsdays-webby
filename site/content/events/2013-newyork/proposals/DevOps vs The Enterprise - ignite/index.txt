@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 8
+title: "DevOps vs The Enterprise - Ignite"
+---
+
+**Abstract:**
+
+On the off chance I'm not selected for a major speaking slot :) I have developed an Ignite version. It's less formal. More fun.
+
+--------------------------------------------------------------------------
+
+A tongue in cheek look at the traditionally uncomfortable relationship between DevOps and the Enterprise. In my 5 minutes I shall comprehensively/controversially answer the following burning questions.
+
+How does the Enterprise view the DevOps movement?
+
+What does the DevOps movement think of the Enterprise?
+
+Can ITIL and DevOps coexist?
+
+What happens when an Enterprise lets monkeys loose in its datacenter?
+
+Why can't we all be friends?
+
+Who is this person and why did the organisers give him a microphone?
+
+So turn on, strap in, and prepare to be schooled.
+
+**Speaker:**
+
+Speaker 8

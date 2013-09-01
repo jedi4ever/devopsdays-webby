@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 35
+title: "Thriving in DevOps:  Three practices from Co-Active Coaching that Every Generalist Needs to Know"
+---
+
+**Abstract:**
+
+One of the key challenges for DevOps practitioners is how to communicate across silos and foster an interdisciplinary culture.  In this talk, I will introduce three simple practices from Co-Active coaching that can help DevOps adoption in teams and organizations, and take existing DevOps implementations to a new level of effectiveness. You will walk away with powerful and practical tools that you can implement with your teams tomorrow.
+
+**Speaker:**
+
+Speaker 35

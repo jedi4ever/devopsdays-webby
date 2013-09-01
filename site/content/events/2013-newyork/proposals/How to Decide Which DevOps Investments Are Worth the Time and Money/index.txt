@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 33
+title: "How to Decide Which DevOps Investments Are Worth the Time and Money (And Then Convince Your Boss)"
+---
+
+**Abstract:**
+
+At any given moment in your dev team's existence there are infinite options for DevOps (and other "non-feature") investment.  E.g., you could decide to apply the circuit breaker pattern throughout your code, rework your deploys, or even (not strictly DevOps, but decidedly "non-feature") rewrite your entire app in the Play Framework (or whatever).  All of these represent real time and effort, and not all will prove worth that time and effort, so how do you decide which of these, if any, to invest in?
+
+This talk is geared towards engineering leaders who would like to better:
+
+- understand the nature of the return they should expect on DevOps (and, incidentally, other "non-feature") investment, the better to judge which investments are worth making (hint: it's not about burning dev hours to save dev hours), and then...
+
+- get the big bosses on board with these DevOps investments
+
+I will develop these themes with an array of time-honored tools, including real-world lessons and anecdotes, "Logical Induction through Cryogenically Frozen Super-Dev Team" and "The Allegory of the Ninja-Infested Warehouse."
+
+**Speaker:**
+
+Speaker 33
