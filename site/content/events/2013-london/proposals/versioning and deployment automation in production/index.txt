@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Frédéric Descamps
+title: versioning and deployment automation in production
+---
+
+**Abstract:**
+
+Deployment automation is now almost everywhere thanks to the devops movement, tools like puppet and chef are now very popular. However even if it's very easy to deploy packages and configurations, how easy is it to maintain database schemas and how can this task be automated ? During this session, I will try to describe the problematic and bring one of the solution using existing tools like Oracle's MySQL Utilities and Percona Toolkit.
+
+**Speaker:**
+Frédéric Descamps, Consultant, Percona
