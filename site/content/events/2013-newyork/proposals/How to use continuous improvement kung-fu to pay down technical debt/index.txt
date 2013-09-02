@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 37
+title: "How to use continuous improvement kung-fu to pay down technical debt"
+---
+
+**Abstract:**
+
+In this talk we will show how our team is learning about and using continuous improvement Toyota-style to help us reduce nagging technical debt. We will share our successes and failures as well as give you a taste of what focused continuous improvement and the scientific method  can help a DevOps team het done.
+
+We’ll show how our team was consumed by never ending emergencies and interruptions. We also had  and drive-by shooting project management and plenty of release troubles galore. Learn how we are freeing up half of our team’s time (yes 50% !!) to tackle this critical work and still getting our important tasks and projects done. 
+
+We’ show you the basics of our continuous improvement process. It’s light and simple so we can walk you through our daily kata.
+We will explain the details of and around our technical debt projects.
+We will illustrate our initial obstacles and the some of the experiments we used to slay them!
+We will paint a vivid picture what it felt like to use science everyday instead of jumping to conclusions.
+We will share one key difference between a Cowboy and a Scientist and why we chose to become Scientists.
+We will discuss improving the performance of a constraint ala "The Phoenix Project" and "The Goal" in real life.
+
+**Speaker:**
+
+Speaker 37
