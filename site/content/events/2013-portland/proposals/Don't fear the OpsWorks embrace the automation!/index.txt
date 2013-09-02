@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 2
+title: "Don't fear the OpsWorks: embrace the automation!"
+---
+
+**Abstract:**
+
+Do you have to set up new EC2 instances using some saved notes? A
+small bash script? You have to save an AMI? Level up and start using
+OpsWorks ("chef for AWS"). I'll run through your best documentation
+resources, how to find cookbooks, and how to make complicated recipes.
+
+**Speaker:**
+
+Speaker 2

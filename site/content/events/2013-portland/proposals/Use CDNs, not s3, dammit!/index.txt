@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 2
+title: "Use CDNs, not s3, dammit!"
+---
+
+**Abstract:**
+
+You are hosting your website or some static content on s3, so you're
+good, right? NOPE. I'll show you why S3 is not a static web host, give
+examples of CDNs, and show how it helps in real life, even for a small
+website.
+
+I've never done an Ignite talk. But I've attended them at Bagdad (and
+online), and I've presented AWS/"cloud" knowledge informally many
+times.
+
+**Speaker:**
+
+Speaker 2
