@@ -13,7 +13,7 @@ filter:    erb
 
 <% @gsponsors = [
 { :image => "dell.png", :name => "Dell Japan", :link => "http://www.dell.co.jp/"},
-{ :image => "gengo.png", :name => "Gengo, Inc.", :link => "http://gengo.com/ja"},
+{ :image => "gengo.png", :name => "Gengo, Inc.", :link => "http://gengo.com/"},
 { :image => "yahoo.png", :name => "Yahoo! Japan", :link => "http://www.yahoo.co.jp/"}
 ]%>
 
@@ -29,7 +29,7 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
-{ :image => "yourlogo.png", :name => "YOUR LOGO", :link => "http://devopsdays.org/events/2013-tokyo/"},
+{ :image => "cookpad.png", :name => "COOKPAD Inc.", :link => "http://cookpad.com/"},
 ]%>
 
 </br></br>
