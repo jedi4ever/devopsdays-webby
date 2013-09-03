@@ -44,6 +44,8 @@ filter:    erb
 { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/jp/default.aspx"},
 { :image => "tracpath.png", :name => "OpenGroove, Inc.", :link => "http://tracpath.com/"},
 { :image => "dena.png", :name => "DeNA Co., Ltd.", :link => "http://dena.com"},
+{ :image => "voyage_group.png", :name => "VOYAGE GROUP, Inc.", :link => "http://voyagegroup.com/"},
+{ :image => "cyberagent.png", :name => "Cyber Agent,Inc.", :link => "http://www.cyberagent.co.jp/"},
 ]%>
 
 </br></br>
@@ -64,3 +66,4 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=75px height=75px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 -->
+</br></br>
