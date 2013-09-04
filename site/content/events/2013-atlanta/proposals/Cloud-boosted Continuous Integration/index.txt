@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: Gill Hoffer
+author: Gil Hoffer
 title: "Cloud-boosted Continuous Integration"
 ---
 
@@ -21,4 +21,4 @@ The variety of tools that we will touch on in this session are Jenkins, maven, c
 
 **Speaker:**
 
-Gill Hoffer, VP of R&D, Ravello Systems
+Gil Hoffer, VP of R&D, Ravello Systems

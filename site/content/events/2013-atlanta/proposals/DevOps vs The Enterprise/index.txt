@@ -5,9 +5,9 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-ignite: false
-selected: false
+talk: false
+ignite: true
+selected: true
 layout: event
 author: Alan Sharp-Paul
 title: "DevOps vs The Enterprise"

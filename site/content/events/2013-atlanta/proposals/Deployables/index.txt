@@ -19,4 +19,5 @@ Right now, there is a lot of activity around deploying code to production. Puppe
 
 **Speaker:**
 
-Phil Whelan, Developer Evangelist for Stackato at ActiveState.
+Phil Whelan
+Developer Evangelist for Stackato at ActiveState.
