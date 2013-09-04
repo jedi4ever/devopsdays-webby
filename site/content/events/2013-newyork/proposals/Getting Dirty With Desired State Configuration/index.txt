@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 30
+title: "Getting Dirty With Desired State Configuration"
+---
+
+**Abstract:**
+
+Stack Exchange is one of the largest (by traffic) public facing web sites on the Microsoft stack.  We've discovered the joys of automated configuration management in the form of Puppet for our Linux infrastructure, but haven't been able to make the justification of adding the Ruby runtime on our Windows boxes.
+
+Recently, Microsoft announced Desired State Configuration (DSC).  DSC is coming to the Windows platform with the Windows Management Framework 4.  This standards based configuration management agent provides and endpoint for anyone willing to talk to it.
+
+At Stack Exchange, we've adopted DSC to manage our Windows infrastructure to provide the configuration flexibility and assurance that Puppet provides our Linux based infrastructure.  Since this is a new feature, there were some bumps in the road in addition to some big wins.  Come explore how we've extended our configuration management to Windows using this new, in-box feature set.
+
+**Speaker:**
+
+Speaker 30

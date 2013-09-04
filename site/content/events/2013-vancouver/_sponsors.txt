@@ -3,7 +3,8 @@ filter:    erb
 ---
 <% @gsponsors = [
 { :image => "stackato_by_activestate.png", :name => "Stackato by ActiveState", :link => "http://www.activestate.com/stackato"},
-{ :image => "demonware.png", :name => "Demonware", :link => "http://www.demonware.net"},
+{ :image => "hootsuite.jpg", :name => "Hootsuite", :link => "http://www.hootsuite.com"},
+{ :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -15,6 +16,9 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
+{ :image => "polyglot.png", :name => "Polyglot Conference", :link => "http://www.polyglotconf.com"},
+{ :image => "unbounce.png", :name => "Unbounce", :link => "http://careers.unbounce.com"},
+{ :image => "colonynetworks.png", :name => "Colony Networks", :link => "http://www.colonynetworks.com"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -31,6 +35,7 @@ filter:    erb
 <% end %>
 
 <% @esponsors = [
+{ :image => "demonware.png", :name => "Demonware", :link => "http://www.demonware.net"},
 ]%>
 <% unless @esponsors.empty?  %><h1>Evening sponsors</h1><% end %>
 <% @esponsors.each do |sponsor| %>

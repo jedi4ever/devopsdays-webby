@@ -2,3 +2,5 @@
 site/output/*
 .bundle/*
 *~
+
+/.ruby-version

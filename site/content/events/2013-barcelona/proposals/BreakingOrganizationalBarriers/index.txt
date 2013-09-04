@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Uri Cohen
+title: "Breaking Organizational Barriers - A Sweaty Use Case"
+---
+
+**Abstract:**
+
+You Thought Implementing Devops Is Hard? Try Building a Shower in Your Workplace.
+
+This ignite is about hacking organizational culture, and how a seemingly impossible venture (building a fully functional shower in a place where there is no room or budget for it) can be made possible with a few simple (but determined) steps.
+
+It all started when I wanted to encourage people (including myself) to ride their bicycle to work, but needed a place to wash off our sweat after the intensive morning rides. By using this funny use case I’ll demonstrate a few tricks I used that are very relevant to driving change in any organization.
+
+**Speaker:**
+
+Uri Cohen

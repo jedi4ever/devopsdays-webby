@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Andrew Phillips
+title: "Losing Sight of Devops in an Automation Forest"
+---
+
+**Abstract:**
+
+Many "Devops" discussions, both at technical and at manager level, quickly turn to automation and tooling: on-demand environments, provisioning, monitoring, automated deployment etc. Job descriptions for "Devops engineers" are also heavily oriented towards technology.
+
+But Devops is about much more than technology! Are we losing track of the people and practices components that are critical, and often much harder to implement, than putting some new tech in place? Or have we learned that smart tech makes people and process changes unnecessary?
+
+We'll talk about whether we're really losing track of The Big Picture here, and, if so, discuss suggestions and approaches to tackle this issue.
+
+**Speaker:**
+
+Andrew Phillips, VP, Product Management Xebialabs

@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 34
+title: "Is Your Startup the Next ValuJet?"
+---
+
+**Abstract:**
+
+Most people recognize ValuJet as the airline that closed years ago after a number of high-profile incidents and accidents. This Ignite talk will look at the culture that set the stage for those incidents and--surprisingly--how those lessons may be forewarnings to smaller organizations building businesses on cloud-based technologies.
+
+**Speaker:**
+
+Speaker 34

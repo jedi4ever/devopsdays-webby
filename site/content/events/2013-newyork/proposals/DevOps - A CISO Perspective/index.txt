@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 36
+title: "DevOps - Lead, Follow, or Get Out of The Way: A CISO Perspective"
+---
+
+**Abstract:**
+
+There comes a time in every good security leader’s career where he can no longer say “NO” (although he always reserves the right to) and must step up to a challenge with a real solution.  The time is now, the time is here, time to embrace DevOps.
+
+Join me as I walk through the transition to DevOps from the perspective of a Chief Information Security Officer in a heavily regulated industry.
+
+We can start my story with the crying; screaming, and paranoia (and that was just me trying to figure out how to spell DevOps - forget about what it meant) and finish with some success stories and lessons learned, that you could bring back to your CISOs to help them make the leap.
+
+**Speaker:**
+
+Speaker 36

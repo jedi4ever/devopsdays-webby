@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jan Ivar Beddari
+title: "Devops in the shadows: Infrastructure in a software-defined world"
+---
+**Abstract:**
+As a community we know a lot about testing apps. The talk will argue
+that we do not yet know enough about testing infrastructure.
+
+Business requirements change, demand grows, ultimately every
+organization deals with a continuously evolving infrastructure. Each
+iteration we replace old with new, in most cases we get more open and
+easier accessible devices. Could these possibly be tested, quality
+assured and ultimately managed by the same practices we've preached for
+years? Adapation of a full-out infrastructure as code approach seems
+slow, what is holding us back?
+
+Full CI/CD stacks that automates our software but reducing cycle time
+and versioning the environments makes just as much sense when it comes
+to hardware, storage or network equipment. At the same time it IS
+different, you can't as easily move your newly forged hardware down the
+chain from dev to prod. We'll look at some problem spaces and possible
+solutions to help get our code to cover more of that equipment hiding in
+the shadows of our DCs.
+
+If you are an ops engineer, working with infrastructure testing feels
+familiar quickly. We'll look at testing in light of monitoring, would it
+make sense to combine these processes into one? Could we just say that
+testing == monitoring and what changes would that bring?
+
+**Speaker:**
+
+<a href="http://www.linkedin.com/in/beddari">Jan Ivar Beddari</a> is an
+automation pragmatist living in Volda, Norway. He's been at the
+forefront of automated infrastructure for a long time having worked on
+and with all the main OS platforms. Follow him on twitter:
+<https://twitter.com/beddari>

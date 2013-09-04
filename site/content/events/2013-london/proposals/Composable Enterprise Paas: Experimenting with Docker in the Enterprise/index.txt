@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Simon Vans-Colina
+title: "Composable Enterprise PaaS: Experimenting with Docker in the Enterprise."
+---
+
+**Abstract:**
+
+> Will docker and PaaS be as big in the enterprise as virtualization? We'll look at the following questions.
+
+What is docker (5 mins)
+
+- is Docker a package manager or a virtualization technology.
+- whats the registry, and how its like a yum repo (or not..)
+- how it works (lxc, the AUFS union file system, iptables to expose ports)
+
+What kind of problems can it solve (lots of apps, the 1 vm per app problem) & What kind of problems does it introduce (no multiple inheritance)
+or The implications for the enterprise:
+
+- Use for apps that require less-than-one-vm
+- Use for apps that aren't worth packaging.
+- Isolation of tools and components for teams (docker for devs type stuff)
+- its relationship to the rest of the PaaS (hows it like heroku, what is coreos and etcd)
+
+Does docker deserve all the hype? Finally the last 3rd of the talk will be about the philosophy of minimising change to maximize velocity.
+
+- Docker means the variation happens at build time (like compiled code) and not at run time.
+- Why this will save you from Cant-Deploy:Github-Down type errors.
+- Multiple Inheritance (how do i get monitoring, logging, and my app into the container, or do i even need to.)
+
+**Speaker:**
+
+[Simon Vans-Colina](http://www.linkedin.com/in/simonvc) is a freelance DevOps hacker who's worked for the largest bank, the biggest shipping company, the second oldest airline and is currently at the worlds largest publisher.

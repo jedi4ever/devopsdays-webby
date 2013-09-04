@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 31
+title: "Achieving immediately consistent code deployments at WikiMedia"
+---
+
+**Abstract:**
+
+WikiMedia overview
+- Best known for Wikipedia but also runs infrastructure for more than a dozen other Web properties
+- Massive, complex Web-scale environment
+- About 10,000,000,000 page views per year
+- 20,000 new articles per day
+
+WikiMedia continuous code deployment
+- In most configuration management systems quality code deployment is impossible because it is eventually consistent (not real-time), but the system Ryan put in production at WikiMedia uses Salt and is immediately consistent (near real-time). The bulk of the talk will be focused on this aspect of the implementation...how to achieve immediately consistent configuration management and code deployment.
+- Continuous code deployment also using Salt, Git, Redis, a deployment system using peer calls and a web server.
+
+Other uses for Salt:
+- First used SaltStack for remote execution, command and control of servers.
+- Configuration management and code deployment;
+- Doing other cool things with OpenStack and LDAP management.
+
+**Speaker:**
+
+Speaker 31

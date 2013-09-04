@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 29
+title: "DevOps and the Future of Data"
+---
+
+**Abstract:**
+
+How will DevOps need to change when a database can support one billion transactions per second?  Or when 10x as many people will be capable of launching Hadoop queries when the tooling gets easier to use?  What will happen to your network when the bulk of the data involved in daily decisions doesn’t sit in the same data center as the rest of your apps?
+
+We’re witnessing Data Renaissance. For 30 years, the only solution available when presented with an information processing problem was the relational database.  Open source and new classes of problems have led to Big Data and NoSQL, but is that it?  Are we done?  Or is there more lurking around the corner?
+
+This session explores how we got to where we are today as an industry when it comes to data processing, from Edgar F. Codd inventing the relational model to the need for more modern choices in the Internet era.  Based on the most recent developments from a variety of companies, several possible future leaps in technology are explored before engaging the audience to speculate on how what comes next will affect DevOps.
+
+**Speaker:**
+
+Speaker 29

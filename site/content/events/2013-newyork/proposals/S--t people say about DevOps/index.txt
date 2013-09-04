@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 34
+title: "S#!t people say about DevOps"
+---
+
+**Abstract:**
+
+DevOps is quickly on its way to becoming enterprise ready and buzzword compliant! In this Ignite talk, we'll will look at some of the best #wat's to emerge thus far in the IT industry on the subject, now that DevOps has caught on.
+
+
+**Speaker:**
+
+Speaker 34

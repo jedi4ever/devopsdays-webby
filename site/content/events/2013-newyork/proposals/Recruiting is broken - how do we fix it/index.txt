@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 21
+title: "Recruiting is broken - how do we fix it?"
+---
+
+**Abstract:**
+
+I have been dealing with recruiters for the last 15 years and it shocks me that their business model has still not changed in any meaningful way.  They still come off as "box pushers" and only try to make sure you get placed in a company, stay for 90 days (so they get paid) and then later try to convince you to change to a new company.  
+
+Why is recruiting so broken?  It's similar to how many teams within a company can't work well together.  Because there are no shared incentives between the recruiter, the hiring manager and the HR department for the company.  So what can we do to make sure all groups have a shared mission when it comes to finding the talented staff you require?
+
+My ignite talk will continue to dive into the details of what I see as successful recruiting and how having a network is one of the most important things you can do in your career (as it becomes your talent pool later in life).
+
+I'm also going to pull a few examples from Dave Zwieback's paper on "Devops Hiring" - as that paper (including my personal experiences) are the inspiration for this talk.
+
+**Speaker:**
+
+Speaker 21

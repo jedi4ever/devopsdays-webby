@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Speaker 1
+title: "Shifting Left for Secure, Component-based Development"
+---
+
+**Abstract:**
+
+Cyberattacks are becoming more pervasive - think about the recent FBI advisory for the Struts exploit.
+
+Applications are the new threat vector of choice - Ponemon states that 90% of exploits are app related.
+
+Applications are now constructed of open source components - Research shows an app now consists of 90% components. .
+
+What's this got to do with DevOps? 
+
+*  Some would say that DevOps is a reaction to Agile, which makes sense because DevOps is only going to be effective if it accommodates how apps are built today. That means supporting agile, component-based development.
+*  While organizations invest in network and perimeter security, application security is not a major focus. This focus needs to change based on the fact that cyberattacks are primarily focused on the application. DevOps is a great way to assimilate application security into the development process.
+*  The Struts example pulls it all together - it shows how applications are built from open source frameworks and components. The volume, dependency complexity, variety and release cadence of these components must be managed so organizations can realize the benefits of components while managing security, licensing and quality risk.
+
+We'll use real life examples to cover the following topics in this session:
+
+*  What open source component-based development means to DevOps - how do components work in conjunction with agile development? How should DevOps create a release management process that can support components? How can DevOps ensure that applications can be built and delivery quickly while mitigating security, licensing and quality risk. 
+*  Why DevOps is a natural fit for integrating security - the DevOps philosophy to drive communication and collaboration can be extended to include the security organization. Integrating the security team and security processes can be done as part of the overall DevOps approach.
+*  How the DevOps "shift left" approach can help improve and secure component-based development - if organizations can shift effort to the left, they can deliver applications more quickly and more cost effectively. We'll discuss how managing components effectively can prevent problems and allow flaws to be discovered and remediated early in the development lifecycle.
+
+
+**Speaker:**
+
+Speaker 1
