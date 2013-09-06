@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tom Levey
+title: "Call of Duty: DevOps"
+---
+
+**Abstract:**
+
+It's no longer enough to wage war in pre-production. That's where developers have fought their conflicts time and time again--but now they need to cross battle lines and head into Production. It's a new kind of battle, one torn apart with operational complexity, agile missions and server warfare. With access to virtual platforms, monitoring weaponry, and automation tools, developers must now fight to ensure the performance and availability of mission-critical business applications. In this session we'll look at: 
+
+• The production battleground of modern mission-critical apps
+• An overview of special weapons and agile tactics (SWAT) for DevOps
+• Real-life application fatalities and incidents
+• Lessons learned from Customers winning the Dev Ops war
+
+Will you heed the call?
+
+**Speaker:**
+
+
+
