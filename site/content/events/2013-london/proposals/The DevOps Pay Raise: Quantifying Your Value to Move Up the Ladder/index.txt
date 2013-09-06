@@ -17,3 +17,10 @@ title: "The DevOps Pay Raise: Quantifying Your Value to Move Up the Ladder"
 DevOps, when done right, usually goes unnoticed. It’s only when something breaks that all eyes turn to IT. If your boss only sees you when the app is down, however, that’s not really doing your career any favours. In this session we’ll talk about how to prove your value to the organisation by looking at the positive side – that is, how much money you’ve saved your company. We’ll take a look at how you can use tools like Chef, Puppet, Sensu and Logstash to quantify your value to your company. After this session, you’ll be able to walk into a meeting with your boss ready to talk about your value to the company (and to ask for a raise).
 
 **Speaker:**
+
+Tom Levey is a Technology Evangelist at AppDynamics. Tom is responsible for promoting best practices of application performance management (APM) for distributed applications running in cloud, virtual and physical environments. 
+
+Tom has spent 6 years helping organisations to build robust APM technology strategies and has the scars to show for it. He received his BSC in Computer Science and after working as a Java application developer he decided someone really needed to help the world optimise the performance of their applications!
+
+He is an adrenaline junky who loves speed and hopes one day all applications will be able to keep up.
+

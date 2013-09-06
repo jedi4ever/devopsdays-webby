@@ -25,5 +25,9 @@ Will you heed the call?
 
 **Speaker:**
 
+Tom Levey is a Technology Evangelist at AppDynamics. Tom is responsible for promoting best practices of application performance management (APM) for distributed applications running in cloud, virtual and physical environments. 
 
+Tom has spent 6 years helping organisations to build robust APM technology strategies and has the scars to show for it. He received his BSC in Computer Science and after working as a Java application developer he decided someone really needed to help the world optimise the performance of their applications!
+
+He is an adrenaline junky who loves speed and hopes one day all applications will be able to keep up.
 
