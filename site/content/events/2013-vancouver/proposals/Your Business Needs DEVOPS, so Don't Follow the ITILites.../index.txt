@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Brian Johnson
+title: "Your Business Needs DEVOPS, so Don't Follow the ITILites..."
+---
+
+**Abstract:**
+
+One of the (many) faults of IT is that it consistently fails to engage the business in its plans. One of the (many) reasons for this is that IT has a history of promising change that it fails to deliver. And if it does deliver change, it’s for the worse. But the books and concepts of ITIL are not responsible for your failure to align IT with the business. The business does not care ”how” you deliver results; it cares about ROI. You need to communicate both the investment and the return.  This presentation uses examples from high-profile failures to show you how to avoid common pitfalls when engaging the business on acronyms such as ITIL, COBIT, DEVOPS, etc. Attendees will learn to position the business benefits of DEVOPS while gaining buy-in on the required commitments from the business to make it work.
+
+**Speaker:**
+
+Brian Johnson
+
+CA Technologies
+
