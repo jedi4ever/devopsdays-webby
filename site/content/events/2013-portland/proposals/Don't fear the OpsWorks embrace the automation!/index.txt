@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: Speaker 2
+author: Ted Timmons
 title: "Don't fear the OpsWorks: embrace the automation!"
 ---
 
@@ -22,4 +22,4 @@ resources, how to find cookbooks, and how to make complicated recipes.
 
 **Speaker:**
 
-Speaker 2
+Ted Timmons

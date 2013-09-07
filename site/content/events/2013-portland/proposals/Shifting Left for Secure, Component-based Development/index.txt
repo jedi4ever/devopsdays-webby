@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: Speaker 1
+author: Mark Troester
 title: "Shifting Left for Secure, Component-based Development"
 ---
 
@@ -36,4 +36,4 @@ We'll use real life examples to cover the following topics in this session:
 
 **Speaker:**
 
-Speaker 1
+Mark Troester
