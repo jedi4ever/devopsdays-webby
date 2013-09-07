@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Eric Shamow
+title: "Just What Is This Continuous Delivery Thing, Anyway?"
+---
+
+**Abstract:**
+
+Introduces the basic concepts of continuous delivery asking "what is continuous delivery," "why does my company or development team want it," and "what does it do for me?"  The talk focuses on the notions behind the Theory of Constraints as well as Gene Kim’s Three Ways and how CD relates to these and to DevOps as a whole.
+ 
+**Speaker:**
+
+Eric Shamow
