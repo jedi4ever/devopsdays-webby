@@ -9,7 +9,7 @@ talk: false
 ignite: true
 selected: false
 layout: event
-author: Speaker 2
+author: Ted Timmons
 title: "Use CDNs, not s3, dammit!"
 ---
 
@@ -26,4 +26,4 @@ times.
 
 **Speaker:**
 
-Speaker 2
+Ted Timmons
