@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Rob Miller
+title: "Heka: The Data Processing Multi-tool"
+---
+
+**Abstract:**
+
+Heka is a general purpose tool for data collection, transformation, processing, and transportation. This talk will introduce you to what Heka is, how it works, and how it compares to a number of other tools in the data processing space.
+
+**Speaker:**
+
+Rob Miller
+
+Mozilla
+
