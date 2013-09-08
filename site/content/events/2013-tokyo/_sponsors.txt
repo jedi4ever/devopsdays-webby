@@ -41,13 +41,13 @@ filter:    erb
 <% end %>
 
 <% @bsponsors = [
-{ :image => "sportsnavi.png", :name => "sprotsnavi", :link => "http://sportsnavi.yahoo.co.jp/"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/jp/default.aspx"},
 { :image => "tracpath.png", :name => "OpenGroove, Inc.", :link => "http://tracpath.com/"},
 { :image => "dena.png", :name => "DeNA Co., Ltd.", :link => "http://dena.com"},
 { :image => "voyage_group.png", :name => "VOYAGE GROUP, Inc.", :link => "http://voyagegroup.com/"},
 { :image => "cyberagent.png", :name => "Cyber Agent,Inc.", :link => "http://www.cyberagent.co.jp/"},
 { :image => "vmware.png", :name => "VMware K.K", :link => "http://www.vmware.com/jp"},
+{ :image => "sportsnavi.png", :name => "sprotsnavi", :link => "http://sportsnavi.yahoo.co.jp/"},
 ]%>
 
 </br></br>
