@@ -30,6 +30,7 @@ filter:    erb
 
 <% @ssponsors = [
 { :image => "cookpad.png", :name => "COOKPAD Inc.", :link => "http://cookpad.com/"},
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
 ]%>
 
 </br></br>
@@ -46,6 +47,7 @@ filter:    erb
 { :image => "dena.png", :name => "DeNA Co., Ltd.", :link => "http://dena.com"},
 { :image => "voyage_group.png", :name => "VOYAGE GROUP, Inc.", :link => "http://voyagegroup.com/"},
 { :image => "cyberagent.png", :name => "Cyber Agent,Inc.", :link => "http://www.cyberagent.co.jp/"},
+{ :image => "vmware.png", :name => "VMware K.K", :link => "http://www.vmware.com/jp"},
 ]%>
 
 </br></br>
