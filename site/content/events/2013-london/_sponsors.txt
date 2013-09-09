@@ -12,7 +12,8 @@ filter:    erb
 
 <% @gsponsors = [
 { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://xebialabs.com/"},
-{ :image => "atalanta-systems.png", :name => "Atalanta Systems", :link => "http://atalanta-systems.com/"}
+{ :image => "atalanta-systems.png", :name => "Atalanta Systems", :link => "http://atalanta-systems.com/"},
+{ :image => "appdynamics.png", :name => "AppDynamics", :link => "http://appdynamics.com/"}
 ]%>
 
 <h1>Gold sponsors</h1>
