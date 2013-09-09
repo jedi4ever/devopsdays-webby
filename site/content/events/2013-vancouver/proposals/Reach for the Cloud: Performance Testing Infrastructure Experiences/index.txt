@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Roland Stens
+title: "Reach for the Cloud: Performance Testing Infrastructure Experiences"
+---
+
+**Abstract:**
+
+The format of the presentation is an experience report on building a performance test infrastructure in the cloud.
+I will speak about the requirements, the challenges and the steps undertaken to make this work.
+
+In Optimus' testing practice we worked with a client who wanted to have their web site tested quick and with up to 40,000 users.
+There was little time, little budget and no performance testing infrastructure yet to support this.
+
+With previous experience with JMeter as a performance testing and with our knowledge of the possibilities in the cloud environment we decided to roll out our own infrastructure.
+The presentation will take you through the steps and will tell about our experiences.
+
+**Speaker:**
+
+Roland Stens
+
+OptimusQA
+

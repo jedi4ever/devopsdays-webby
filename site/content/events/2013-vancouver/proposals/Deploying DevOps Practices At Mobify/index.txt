@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Kyle Young
+title: "Deploying DevOps Practices At Mobify"
+---
+
+**Abstract:**
+
+Our experiences with the extension of DevOps practices out of our product team and out to the rest of the company (E.G. teaching marketing to use GitHub etc.), discuss the pros and cons, and cover some of the lessons we've learned from our efforts.
+
+**Speaker:**
+
+Kyle Young
+
+System Engineer
+
+Mobify
+
