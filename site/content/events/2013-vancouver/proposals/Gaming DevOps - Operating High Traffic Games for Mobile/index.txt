@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Eduardo Saito
+title: "Gaming DevOps - Operating High Traffic Games for Mobile"
+---
+
+**Abstract:**
+
+GREE creates free-to-play mobile games for iOS and Android devices played by millions of people around the world.
+
+This session will cover how the GREE Infrastructure and Server Operations teams combined DevOps and ITIL practices into daily operations, including how monitor game health, deal with incident response, enable mass system configuration, and handle release management.  The session will provide insight into the benefits and challenges of working with AWS and how game analytics are used to improve player engagement and drive monetization.
+
+In addition, technical details will be shared around implementing EC2 auto-scaling policies combining on-demand and scheduled events, supporting major spikes in game traffic.
+
+**Speaker:**
+
+Eduardo Saito
+
+Director of Engineering - Server Operations
+
+Nick Dor
+
+Senior Director of Engineering - Infrastructure
+
+GREE International
+

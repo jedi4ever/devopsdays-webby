@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Jacob Ukelson
+title: "Structured Manifests for Data Driven Application Release Automation"
+---
+
+**Abstract:**
+
+Everyone knows that application release processes must be tailored to the specifics of a release environment (e.g. dev environments vs. prod environments) and the details of the release version (e.g specific artifacts to be released). However, by using an abstract application model it is possible to build release process patterns that are reusable across multiple environments and release versions. The trick is to define data driven release processes that use structured manifests to provide the data needed to morph the release to the specifics of a given release version and environment. This presentation will show some general design patterns for these data driven release processes, and the structured manifests used to drive them.
+
+**Speaker:**
+
+Jacob Ukelson
+
+CA Technologies
+
