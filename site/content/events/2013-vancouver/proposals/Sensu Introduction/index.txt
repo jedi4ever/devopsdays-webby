@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Sean Porter
+title: Sensu Introduction
+---
+
+**Abstract:**
+
+This talk is an introduction to Sensu, an open source monitoring framework
+designed for the "cloud". I tell the story of how Sensu came to be, it's design
+goals, and the philosophy behind it. I explain how Sensu works, how it's configured,
+and provide practical usage examples. I share my experiences operating Sensu at
+scale and demonstrate what it's like to work with Sensu and Opscode's Chef.
+
+**Speaker:**
+
+Sean Porter is a toolsmith, with a love for composable systems. A practitioner of passion driven development with an appetite for a good post-mortem. Author of Sensu, a monitoring framework, and the caretaker of its community. A tea connoisseur and admirer of fine wine. Works at Heavy Water Operations, helping people automate and monitor their infrastructure.
+

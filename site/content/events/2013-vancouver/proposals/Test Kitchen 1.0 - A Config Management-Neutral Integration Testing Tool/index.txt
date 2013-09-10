@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Fletcher Nichol
+title: "Test Kitchen 1.0 - A Config Management-Neutral Integration Testing Tool"
+---
+
+**Abstract:**
+
+We've come a long way with infrastructure as code and are getting closer to better test frameworks and facilities. Test Kitchen was originally developed with Chef in mind, but it is now becoming a standard across different configuration management tools.
+
+This talk will focus on how Test Kitchen can help you shorten the feedback cycle during the development of infrastructure code and discover how it plays nice with other existing tools like ChefSpec, RSpec Puppet, and Vagrant.
+
+Learn about unit and smoke testing infrastructure as code in a Test Driven Development (TDD) cycle. Besides the technology we will look into the benefits of this faster feedback cycle and the current/future state of infrastructure as code testing.
+
+**Speaker:**
+
+Fletcher Nichol is a software developer from Edmonton, Canada who has worked in jobs ranging from systems administrator to web application developer. He spends far too much time writing open source software and far too little time playing the drums. He is active in many automation and testing projects such Vagrant and Chef and is the lead developer of Test Kitchen 1.0. Fletcher works for Heavy Water Operations, helping companies of all sizes automate and scale their business.
+
