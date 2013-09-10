@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Mark Eijsermans
+title: From Vagrant to production
+---
+
+**Abstract:**
+
+This talk will discuss some of the real world workflows used at HootSuite. The good, the bad, and the ugly of how our build, artifact, and deployment strategies work and how this fits with our development culture. We'll share our experiences and lessons learned from developing on vagrant to pushing code to production.
+
+**Speaker:**
+
+Mark Eijsermans
+
+Software Engineer
+
+HootSuite
+

@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: true
+selected: false
+layout: event
+author: Geoff Webb
+title: "Zero to Hero - practical steps on the path to Continuous Delivery"
+---
+
+**Abstract:**
+
+It is not always easy to adopt DevOps and Continuous Delivery into existing teams and organisations. Most of us don't have the luxury of greenfield projects or starting things from scratch with decent tools and technology. There are many ways you can suck less tomorrow and gradually evolve towards a decent steady state.
+
+Using examples from working with Kashoo.com I would like to show how to adopt a Kaizen approach on the path to CD nirvana.
+
+Discussion and examples around:
+- Configuration Management
+- Continuous Build/Integration
+- Automated Testing
+- Automated Deployment
+- Environment Setup
+- Monitoring
+
+**Speaker:**
+
+Geoff Webb
+
+http://ca.linkedin.com/in/geoffreywebb
+
