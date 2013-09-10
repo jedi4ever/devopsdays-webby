@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Robin Osborne
+title: "Writing automatable software and maybe encouraging a devops culture by stealth"
+---
+
+**Abstract:**
+
+Writing automatable software and maybe encouraging a devops culture by stealth
+
+As much as devops isn't about just environment automation, that's where a large amount of the focus has been for the past year or so since the unfortunately extremely catchy term became popular with recruiters.
+
+This tends to mean that to the outside observer the emphasis in "devops" is firmly on "ops"; this puts off a lot of developers, testers, DBAs, architects, from getting involved.
+
+The session is about what I believe to be a half decent approach to software design and development which may help introduce aspects of a devops culture almost by coincidence, hopefully giving developers and architects some cause for realising they need to get fully stuck in, and how they might approach doing so.
+
+It's also a work in progress currently being tested in a large online retailer with an organically grown internal system on which most other systems depend; the anti-CI, if you will..
+
+**Speaker:**
+
+I'm Robin Osborne, a developer and pragmatic architect through and through (but with a history of being Ops-y QA-y DBA-y enough to get the job done) - who is getting a bit addicted to pitching for conferences recently - and I want to get more developers interested thinking about what they can bring to the devops table.
+
+I've been a developer for the best part of 15 years professionally; nearer 25 including those unpaid years tinkering with a ZX Spectrum/Amiga 600, and using Unix (Sun Solaris) and PC at university, before ending up on a PC for work. And various linuxes. And Mac.
+
+I always did a bit of everything; design, dev, db, deploy, app support, desktop support, BA, PM, Dev Manager (everything except UI - I'm crap with photoshop..); whatever was needed to help get whatever I was working on delivered.
+
+I can't really understand why there are so many developers happy to build something that passes some QA tests and then head to pub, happy that their work is done; if it's not delivered and it's not working, it's not done.
