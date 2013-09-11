@@ -1,0 +1,58 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Mytton
+title: "Firefighting - strategies for on call and incident management"
+---
+
+**Abstract:**
+
+If you’re involved with ops then it’s pretty likely
+you’ll experience an outage and be paged to deal with an incident. How
+quickly a situation is resolved really depends on the processes in
+place to deal with stressful situations. This talk will look at how to
+properly deal with incidents, including tips and tricks for designing
+an on-call system:
+
+- Designing a process to deal with incidents, tracking their progress
+to resolution. Systems which work whether it’s work hours or the
+middle of the night make a difference to how quickly a situation is
+resolved.
+
+- Strategies for creating on-call rotations, when on call should
+switch over, how to do a proper hand off, dealing with fatigue and
+tools to help with this.
+
+- Ideas for writing an operations handbook for how to deal with common
+alerts for quick reference during incidents.
+
+- How on-call and incident management fits into the development,
+release and testing process to ensure the relevant people are
+contactable in an emergency
+
+- How the process changes from the early days of a startup through to
+larger companies with dedicated teams.
+
+The talk will look at some general concepts but will focus on real
+world examples, with hints and tips to ensure everyone can take away
+useful ideas and things to implement themselves.
+
+**Speaker:**
+
+David Mytton is the founder of Server Density, a SaaS tool which helps
+you provision and monitor your infrastructure. Based in the UK, David
+has been programming in Python and PHP for over 10 years and founded
+the London MongoDB user group having deployed one of the earliest and
+longest running production MongoDB clusters, now processing over 25TB
+of data each month. This includes scaling Server Density from a single
+VPS to over 150 servers, deployed across multiple data centres on both
+dedicated and cloud infrastructure.
+
+
