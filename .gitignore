@@ -2,5 +2,6 @@
 site/output/*
 .bundle/*
 *~
+.idea
 
 /.ruby-version
