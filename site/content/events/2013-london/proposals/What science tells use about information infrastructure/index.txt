@@ -17,6 +17,7 @@ title: What science tells us about information infrastructure
 This talk will be based upond my new book: http://markburgess.org/certainty.html
 
 It would be a high level talk about :
+
 - what is weak about the way we currently run infrastructure
 - how to think in systems
 - how to deal with scale and complexity using real scientific methods (instead of guesswork)
