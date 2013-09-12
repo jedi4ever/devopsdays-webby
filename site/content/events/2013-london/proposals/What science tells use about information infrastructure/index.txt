@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mark Burgess
+title: What science tells us about information infrastructure
+---
+
+**Abstract:**
+
+This talk will be based upond my new book: http://markburgess.org/certainty.html
+
+It would be a high level talk about :
+- what is weak about the way we currently run infrastructure
+- how to think in systems
+- how to deal with scale and complexity using real scientific methods (instead of guesswork)
+
+And finally, why "APIs will be our undoing" and why devops is crucial to the success of infrastructure in the future.
+
+**Speaker:**
+Mark Burgess - Creator of Cfengine - Father of all Configuration Management tools
+
+<http://markburgess.org/bio.html>
