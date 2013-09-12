@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
-author: Speaker 13
+author: Mike Fiedler
 title: "Giving (and Taking) Back"
 ---
 
@@ -23,4 +23,4 @@ Covering the social aspects of interaction with unknown people, as well as knowi
 
 **Speaker:**
 
-Speaker 13
+Mike Fiedler
