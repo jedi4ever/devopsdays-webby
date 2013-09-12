@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-ignite: false
+talk: false
+ignite: true
 selected: false
 layout: event
 author: Speaker 6
