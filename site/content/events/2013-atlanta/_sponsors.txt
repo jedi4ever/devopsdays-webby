@@ -4,13 +4,14 @@ filter:    erb
 <% @gsponsors = [
 { :image => "collabnet.png", :name => "Collabnet", :link => "http://www.collabnet.com"},
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com"},
-{ :image => "here.png", :name => "Here", :link => "http://here.com/news"},
+{ :image => "here.png", :name => "Here", :link => "http://developer.here.com/"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://ca.com/"},
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
 { :image => "saltstack.png", :name => "Salt Stack", :link => "http://saltstack.com/"},
 { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://elasticsearch.com/"},
 { :image => "salesforce.png", :name => "SalesForce", :link => "http://www.salesforce.com/"},
+{ :image => "turner.png", :name => "Turner Broadcasting System", :link => "http://www.salesforce.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
