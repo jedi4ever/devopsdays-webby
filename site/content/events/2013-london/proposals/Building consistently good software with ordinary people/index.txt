@@ -1,0 +1,61 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pieter Hintjens
+title: Building consistently good software with ordinary people
+---
+
+**Abstract:**
+
+The ZeroMQ open source project uses a surprising DevOps-like process.
+We accept any patch so long as it doesn't break existing apps, builds
+cleanly, solves a clear problem, and doesn't look nasty. Instead of
+driving development through rockstar vision, we drive it by gradually,
+and safely accumulating small answers to real problems.
+
+The process is controversial because we don't need rockstars, which
+annoys them a lot. There's no roadmap. There's no heavy upfront
+design. No vision documents, no core maintainers. Instead, we see a
+GitHub master that evolves smoothly in useful directions, with a
+handful of patches every day. We don't log feature requests. If
+someone wants to solve a problem, they either invest money, effort, or
+they wait.
+
+The key is GitHub's Fork + Pull model, combined with some clear rules
+about the process. In 2011 we adapted our ZeroMQ rules for building
+proprietary apps. The results were... impressive. Before, the client
+suffered from slow design - implementation cycles that produced
+frankly horrid software. After, the client's teams could produce
+several releases a day.
+
+The effects on management and HR are stimulating. Instead of assigning
+engineers to problems, managers allow key users to log issues, and
+developers to solve issues as they please. Issues that don't get
+solved are scored as low value or badly explained. Developers who
+solve few issues are scored as low value. All focus is on removing
+friction in the test-log-solve-deliver cycle. Done right, every single
+patch, solving one issue, is a deliverable.
+
+The impact on design is that it evolves according to the real needs of
+users, rather than upfront vision. The resulting software is, in
+theory, more accurate and useful than software built to up-front
+designs.
+
+Overall, this is a simple, effective, and low-stress way of producing
+systematically good software with ordinary developers and users.
+
+**Speaker:**
+
+Pieter Hintjens - Author of O'Reilly ZeroMQ book
+Twitter: [@hintjens](https://twitter.com/hintjens)
+
+He is the CEO and chief software designer for iMatix, a firm that has produced many free software applications, such as the ØMQ high performance message library, the OpenAMQ AMQP messaging service, Libero, GSL code generator, and the Xitami web server.
+
+[Wikipedia entry on Pieter Hintjens](http://en.wikipedia.org/wiki/Pieter_Hintjens)
