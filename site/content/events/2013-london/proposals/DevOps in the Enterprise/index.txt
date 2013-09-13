@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gary McAllister
+title: "DevOps in the Enterprise"
+
+**Abstract:**
+
+DevOps is an evolving industry trend.  As with all new trends DevOps requires clarity and understanding in the traditional ITIL enterprise.  In this session I will articulate traditional “ITIL” processes and explain the organisational change required to transition to a DevOps enterprise.  With all Agile methods this change cannot happen overnight and requires incremental culture, process, people and supplier management.  ITIL organisations tend to be an “us v them” culture, DevOps aims to address this but is it really possible?.. In this session I will present some ideas to moving an organisation forward with adaptive  Agile operational processes.  I will present some ideas around organisational change to ensure that Dev and Ops work closer together.  Key to DevOps is culture, I will provide further definition on what “culture” is and how to change the softer aspects of an organisation.  DevOps is not just about change to Dev and Ops, DevOps involves other organisational units such as Architecture, BA, Testing and PMO…  These areas need to be agile too and I will touch on this and ensure that a full change understanding is provided to the audience.  Can DevOps work in a large traditional enterprise? It can, and there are significant benefits in ensuring that it does!
+
+**Speaker:**
+
