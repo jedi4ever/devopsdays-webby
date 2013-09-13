@@ -17,3 +17,4 @@ DevOps is an evolving industry trend.  As with all new trends DevOps requires cl
 
 **Speaker:**
 
+Gary McAllister, Head of Product Management, Guy’s and St Thomas’ NHS Foundation Trust.  Senior manager and architect working in a large public sector organisation with a strong view on agile and systems methods.  Over 15 years of experience in traditional and non-traditional software delivery environments with a diverse experience in Banking, Media, Online and Public Sector organisations.
