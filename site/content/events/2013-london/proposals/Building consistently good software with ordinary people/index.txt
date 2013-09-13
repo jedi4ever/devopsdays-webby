@@ -51,6 +51,9 @@ designs.
 Overall, this is a simple, effective, and low-stress way of producing
 systematically good software with ordinary developers and users.
 
+
+Also see: [Collective Code Construction Contract - (C4)](http://rfc.zeromq.org/spec:16)
+
 **Speaker:**
 
 Pieter Hintjens - Author of O'Reilly ZeroMQ book
