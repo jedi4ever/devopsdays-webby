@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Gavin McDonald
+title: "Melting Snowflakes and Branding Cattle. DevOps lessons from building HootSuite's infrastructure"
+---
+
+**Abstract:**
+
+Traditional ops processes treat servers like pets or snowflakes,  early #devops tools are snowflake factories.  I present an alternative model of server management, "Culling the Herd", and discuss the reasons why this model requires a complete #devops lifecycle to fully realize the benefits, and how I came to this realization while scaling HootSuite's infrastructure from .25m users through to 7.5m (and counting).
+
+**Speaker:**
+
+Gavin McDonald
+
+Sr. Ops
+
+HootSuite
+
