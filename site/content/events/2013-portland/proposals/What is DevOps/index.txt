@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Alex Gaynor
+title: What is DevOps?
+---
+
+**Abstract:**
+
+DevOps is a thing people talk about a lot today, but given any two people,
+you'll probably get at least three explanations for what it means. This talk
+endeavors to break down what DevOps *actually* means, and give a score card for
+how we're doing.
+
+DevOps is something you do, not something you are. Titles such as "DevOps"
+engineer fundamentally misunderstand what this phenomenon is about.
+
+What is DevOps? DevOps is applying engineering methodologies to operations.
+Turning what used to be sys-admin problems, into engineering problems.
+
+What are engineering methodologies anyways? Testability, introspectability,
+and automation. How are we doing?
+
+We're doing nicely on automation. Thus far this has really been at the heart of
+the tools we look at.
+
+But we're doing lousy at introspection and testing. Very few DevOps tools take
+advantage of these paradigms of software development. I'll propose some ways in
+which we can improve this.
+
+Some material will be borrowed from a previous talk I gave, whose topic was
+unrelated, but which overlaps on some of the "what are engineering
+methodologies" material
+(https://speakerdeck.com/alex/programming-and-programmers).
+
+**Speaker:**
+
+Alex Gaynor
