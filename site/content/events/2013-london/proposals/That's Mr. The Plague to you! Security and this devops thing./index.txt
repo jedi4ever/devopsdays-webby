@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Ben Hughes
+title: "That's Mr. The Plague to you! Security and this devops thing."
+---
+
+**Abstract:**
+
+The landscape of security is very different to when we were
+younger. What possible directions is it heading in, and have we been
+looking at it wrong all this time?
+
+Devops culture has brought a number of improvements to the way engineering
+and operations interact with each other and it's time security comes along
+for the party too! This talk will discuss what we, at Etsy, have done to
+make people stop thinking of security as a four-letter word
+
+Rationale:
+
+It's a two part talk, at a dazzling pace, security talk and a devops talk.
+
+I think this would be grand, as security is occasionally an after thought.
+A lot of smaller shops don't have a dedicated security person or team, and
+this talk features things you do even without that. Plus devops really
+needs to stop being an organisational silo.... (=
+
+**Speaker:**
+
+Ben Hughes

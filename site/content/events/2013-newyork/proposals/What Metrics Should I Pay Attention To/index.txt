@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
-author: Speaker 14
+author: Baron Schwartz
 title: "What Metrics Should I Pay Attention To?"
 ---
 
@@ -25,4 +25,4 @@ In this talk I'll explain what the workload- and resource-related metrics are an
 
 **Speaker:**
 
-Speaker 14
+Baron Schwartz

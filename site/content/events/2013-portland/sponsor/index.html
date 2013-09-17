@@ -6,19 +6,111 @@ filter:
 dirty: true
 layout: event
 title: sponsor
-platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event. Sponsorship details will arrive shortly, in the meantime if you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
 
+<small>Note: Paypal payments include 3% service charge.<br/>For information on payment via invoice or credit card, please email <a href="mailto:organizers-portland-2013@devopsdays.org">organizers-portland-2013@devopsdays.org</a></small>
 
 <hr>
 
+<div style="width:590px">
+<table border=1 cellspacing=1>
+  <tr><th><i>Packages</i></th><th><center><b><u>Silver<br />1500 USD</u></center></b></th><th><center><b><u>Gold<br />3000 USD</u></center></b></th><th></th></tr>
+  <tr><td></td>
+  <td>
+        <! // Silver paypal button here ->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="molly@hw-ops.com">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="DevOpsDays Portland Silver Sponsorship">
+        <input type="hidden" name="item_number" value="dod-pdx-silver">
+        <input type="hidden" name="amount" value="1543.50">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+  </td><td>
+        <! // Gold paypal button here ->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="molly@hw-ops.com">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="DevOpsDays Portland Gold Sponsorship">
+        <input type="hidden" name="item_number" value="dod-pdx-gold">
+        <input type="hidden" name="amount" value="3087.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+  </td></tr>
+
+<tr><td>2 included tickets</td><td bgcolor="green">&nbsp;</td><td bgcolor="green">&nbsp;</td></tr>
+<tr><td>Logo on DevOpsDays Web site</td><td bgcolor="green">&nbsp;</td><td bgcolor="green">&nbsp;</td></tr>
+<tr><td>Logo on all email communication</td><td bgcolor="green">&nbsp;</td><td bgcolor="green">&nbsp;</td></tr>
+<tr><td>1 minute pitch to full audience (including streaming audience)</td><td>&nbsp;</td><td bgcolor="green">&nbsp;</td></tr></tr>
+<tr><td>2 additional tickets (4 in total)</td><td>&nbsp;</td><td bgcolor="green">&nbsp;</td></tr>
+<tr><td>Shared table for swag</td><td bgcolor="green">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>Sponsor table + 2 chairs</td><td>&nbsp;</td><td bgcolor="green">&nbsp;</td></tr>
+</table>
+
 <br>
-DevOpsDays is a self-organizing conference for DevOps practitioners that depends on your sponsorships to happen. However, because of the nature of the event, we do not have vendor booths or book product pitches.
-Attendees, including sponsors, will have the opportunity to host a 5 minute product demo as part of an open space session during the program.
+<hr>
 <br>
-Gold sponsors do get a table they can hang out at and put materials on for interested people to come visit during breaks, and of course all attendees are welcome to propose any subject they want during the openspaces, but this is not 'that kind of conference' and heavy marketing will probably work against you when trying to make a good impression on the attendees. The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
-<br>
+<table border=1 cellspacing=1>
+  <tr><th><i>Exclusive Packages<br />* One only</i></th><th><center><b><u>Lanyard*<br />2000 USD</u></center></b></th><th><center><b><u>Tote*<br />4000 USD</u></center></b></th><th></th></tr>
+  <tr><td></td>
+    <td>
+          <! // Lanyard paypal button here ->
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="molly@hw-ops.com">
+          <input type="hidden" name="lc" value="US">
+          <input type="hidden" name="item_name" value="DevOpsDays Portland Lanyard Sponsorship">
+          <input type="hidden" name="item_number" value="dod-pdx-lanyard">
+          <input type="hidden" name="amount" value="2058.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="button_subtype" value="services">
+          <input type="hidden" name="no_note" value="0">
+          <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_LG.gif:NonHostedGuest">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+
+    </td>
+<td>
+        <! // Tote paypal button here ->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="molly@hw-ops.com">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="DevOpsDays Portland Tote Sponsorship">
+        <input type="hidden" name="item_number" value="dod-pdx-tote">
+        <input type="hidden" name="amount" value="4116.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+  </td></tr>
+<tr><td>Included Package</td><td</td><td bgcolor="green">Includes Silver</td><td bgcolor="green">Includes Gold</td></tr>
+<tr><td>Logo co-branded on lanyard with DevOpsDay logo</td><td bgcolor="green">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>Logo co-branded on tote bag with DevOpsDay logo</td><td>&nbsp;</td><td bgcolor="green">&nbsp;</td></tr>
+</table>
+</div>
+
+DevOpsDays is a self-organizing conference for DevOps practitioners. It depends on your sponsorships to happen. However, because of the nature of the event, we do not have vendor booths or book product pitches. This is not "that kind of conference" and heavy marketing will probably work against you when trying to make a good impression on the attendees. The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
+
+Gold sponsors get a table for hanging out at and sharing materials for interested people to come visit during breaks. Of course, all attendees are welcome to propose any subject they want during the Openspaces.
+

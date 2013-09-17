@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
-author: Speaker 20
+author: Bethany Macri
 title: "Morgue: Helping Better Understand Events by Building a Post Mortem Tool"
 ---
 
@@ -21,4 +21,4 @@ My talk will be about why myself and another engineer built an internal post mor
 
 **Speaker:**
 
-Speaker 20
+Bethany Macri is a Software Engineer on Etsy’s Core Platform Team.  She received a B.A. in Literature from the University of Virginia and attended Hacker School in Summer 2012.  She loves understanding and improving large systems.
