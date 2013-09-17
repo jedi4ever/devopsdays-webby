@@ -8,6 +8,6 @@
     <a href="/events/2013-vancouver/">Vancouver</a> -
     <a href="/events/2013-barcelona/">Barcelona</a> -
     <a href="/events/2013-london/">London</a> - 
-    <a href="/events/2013-India/">Bangalore - India</a>
+    <a href="/events/2013-india/">Bangalore</a>
     </h3>
 </div>
