@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Jeremy Grosser
+title: "Doing It Wrong: How to Break A Big Important System"
+---
+
+**Abstract:**
+
+SYNOPSIS
+Automation enables us to make more changes at a faster pace than ever
+before. This talk is a series of cautionary tales and lessons about
+what happens when those changes go awry in production and how to avoid
+making the same mistakes.
+
+FORMAT
+30 minute presentation, could be condensed into an Ignite talk with
+less detail
+
+DESCRIPTION
+This talk will cover a range of real-world scenarios, the decisions
+that led to them and their impact to a production service. Mostly,
+these are war stories.
+
+Launching a redesign of a high profile website and vastly
+underestimating app performance. A very brief overview of the site's
+architecture and how it unraveled in the days following the launch.
+
+Upgrading Hadoop, even by a point release should not be taken lightly.
+A story of how a junior admin destroyed six months of HDFS data by
+forgetting to flip a single bit.
+
+When running distributed database clusters on EC2, you're bound to
+encounter some unusual behavior. In this case, we had servers randomly
+reboot for two months straight and managed to reproduce the problem
+using a brute-force method which led to confirmation of a kernel bug.
+
+Sometimes managed hosting providers aren't as capable as you'd like.
+Sometimes you ask them to reimage a server, and your entire internal
+VLAN goes down. How we survived this outage... Three times.
+
+**Speaker:**
+
+Jeremy Grosser
