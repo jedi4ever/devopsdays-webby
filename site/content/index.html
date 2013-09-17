@@ -90,6 +90,17 @@ var tlvlocation = new google.maps.LatLng(32.066283,34.777908);
 var vancouverlocation = new google.maps.LatLng(49.27698,-123.12478);
 
 
+var indiamarker = new MarkerWithLabel({
+position: bangalorelocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "India<br>Nov 16-17, 2013",
+labelAnchor: new google.maps.Point(13, 78),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
 var newyorkmarker = new MarkerWithLabel({
 position: newyorklocation,
 draggable: false,
@@ -179,6 +190,7 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
+google.maps.event.addListener(indiamarker, "click", function (e) { location.href="/events/2013-india"});
 google.maps.event.addListener(portlandmarker, "click", function (e) { location.href="/events/2013-portland"});
 google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2013-newyork"});
 google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2013-london"});
