@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Jonathan Thorpe
+title: How The Phoenix Project might have turned out if Erik was replaced by Google searches
+---
+
+**Abstract:**
+
+Not all of us have a mentor like Erik to guide us through organizational change. In this lightning talk I'll show how key decisions might have turned out if Erik was replaced by tribal knowledge from DevOpsDays events and Google searches.
+
+**Speaker:**
+
+Jonathan Thorpe
+
+Serena
+

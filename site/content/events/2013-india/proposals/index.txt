@@ -1,7 +1,7 @@
 ---
 title:  proposals
 created_at: 2012-08-14 17:11:09.082858 +02:00
-filter:     
+filter:
 - erb
 - markdown
 dirty:      true
@@ -9,7 +9,7 @@ layout: event
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
-This page list the proposals we have received. Help the presenters with your feedback! 
+This page list the proposals we have received. Help the presenters with your feedback!
 
 
 <h2>Conference Talks</h2>
@@ -20,7 +20,7 @@ This page list the proposals we have received. Help the presenters with your fee
   articles.delete(@page)
   articles.each do |page|
 -%>
-<li><%= link_to_page(page) %> - <%= page.author %> 
+<li><%= link_to_page(page) %> - <%= page.author %>
 <% end -%>
 </ol>
 

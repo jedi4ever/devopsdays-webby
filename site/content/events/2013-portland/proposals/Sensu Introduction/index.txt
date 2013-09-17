@@ -31,6 +31,3 @@ post-mortem. Author of Sensu, a monitoring framework, and the
 caretaker of its community. A tea connoisseur and admirer of fine
 wine. Works at Heavy Water Operations, helping people automate and
 monitor their infrastructure.
-
-Note: This proposal has been submitted for DevOpsDays Vancouver,
-however, I think it reasonable to give this talk in Portland as well.

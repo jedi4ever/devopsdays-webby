@@ -12,6 +12,7 @@ filter:    erb
     { :image => "wix.png", :name => "Wix", :link => "http://www.wix.com/"},            
     { :image => "everything.me.png", :name => "everything.me", :link => "http://www.everything.me/"},            
     { :image => "softserve.png", :name => "SoftServe", :link => "http://www.softserveinc.com/"},            
+    { :image => "hp.png", :name => "HP Software R&D", :link => "http://www.hp.com/"},            
 ]%>
 
 <% if @sponsors.empty?  %>

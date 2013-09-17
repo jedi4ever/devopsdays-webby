@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
-author: Speaker 37
+author: Kevin Behr
 title: "How to use continuous improvement kung-fu to pay down technical debt"
 ---
 
@@ -28,4 +28,4 @@ We will discuss improving the performance of a constraint ala "The Phoenix Proje
 
 **Speaker:**
 
-Speaker 37
+Kevin Behr
