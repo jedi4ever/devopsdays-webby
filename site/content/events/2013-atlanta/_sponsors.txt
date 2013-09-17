@@ -12,6 +12,7 @@ filter:    erb
 { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://elasticsearch.com/"},
 { :image => "salesforce.png", :name => "SalesForce", :link => "http://www.salesforce.com/"},
 { :image => "turner.png", :name => "Turner Broadcasting System", :link => "http://www.turner.com/"},
+{ :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://xebialabs.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
