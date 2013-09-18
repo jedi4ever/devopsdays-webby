@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Dustin Whittle
+title: "The DevOps Pay Raise: Quantifying Your Value to Move Up the Ladder"
+---
+
+**Abstract:**
+
+My team @ <it.megacorp>has been working to sneak in /evangelize agile,
+continuous integration, and other goodness for years, and the one
+truth we can be sure of, is that 99.999% of the time, managers and
+executives will glaze over when a developer starts to talk about
+agile, continuous integration, and other goodness.
+
+DevOps is changing this: All of a sudden, we have a found a way to
+tell suits about why they should care about agile, about debt, and
+about CI. More than that, we're finding other teams that have been
+trying to do bottoms-up culture change, and we're seeing the needle
+move.
+
+This talk includes references to a lot of the talks you've already
+seen/ heard of (flicker '09! amazon '11! gene kim '12), since managers
+like to know what other companies are doing. And it talks about how,
+after years of failing to get suits the slightest bit interested in
+agile & CI, we're getting some real traction.
+
+This presentation is entirely about managing up, by someone who used
+to be a web developer and now spends too much time in meetings and
+writing powerpoint presentations.
+
+**Speaker:**
+
+Elijah Lovejoy
