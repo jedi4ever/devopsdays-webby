@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tom Santero
+title: "The importance of Metrics in Devops"
+---
+**Abstract:**
+
+Tom Santero from Basho.com will try to explain why metrics are important not just for Operations but for Development, and why we should learn the costs of getting them out of our production environment. Which one matters the most and how can we benefit from it.
+
+**Speaker:**
+Tom Santero
