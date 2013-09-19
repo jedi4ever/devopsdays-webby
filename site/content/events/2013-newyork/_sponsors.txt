@@ -38,7 +38,9 @@ filter:    erb
   { :image => "knewton.png", :name => "Knewton", :link => "http://www.knewton.com/"},
   { :image => "tumblr.png", :name => "Tumblr", :link => "http://www.tumblr.com/"},
   { :image => "pssclabs.png", :name => "PSSC Labs", :link => "http://www.pssclabs.com/"},
-  { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"}
+  { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
+  { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://xebialabs.com/"},
+  { :image => "cfengine.png", :name => "CFEngine", :link => "http://cfengine.com/"}
 ]%>
 
 <br><br>
