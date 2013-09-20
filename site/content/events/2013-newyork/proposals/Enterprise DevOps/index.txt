@@ -23,14 +23,14 @@ I’ll discuss the conditions that made it possible, talk through the cultural c
 
 Detail:
 
-     1. The Business: Why DevOps was the answer.
-     2. The Project: Funding a DevOps initiative using "risk”.
-     3. Team Culture: How we assembled an amazing team from different silo’s in IT and unknowingly created a nightmare.
-     4. Company Culture: Communication challenges between silo'd teams.
-     5. The Processes: Working with and around existing processes.
-     6. The Technology: Working with technical debt in “legacy" mission critical environments.
-     7. Progress: Early warning signs we missed and how we dealt with timeframes.
-     8. Lessons: The good, the bad and the ugly.
+1. The Business: Why DevOps was the answer.
+2. The Project: Funding a DevOps initiative using "risk”.
+3. Team Culture: How we assembled an amazing team from different silo’s in IT and unknowingly created a nightmare.
+4. Company Culture: Communication challenges between silo'd teams.
+5. The Processes: Working with and around existing processes.
+6. The Technology: Working with technical debt in “legacy" mission critical environments.
+7. Progress: Early warning signs we missed and how we dealt with timeframes.
+8. Lessons: The good, the bad and the ugly.
 
 **Speaker:**
 
