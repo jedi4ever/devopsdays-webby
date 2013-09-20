@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Speaker 11
 title: "ITIL Invented DevOps; The Unknown History You Can Leverage Now"

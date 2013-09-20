@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-ignite: false
+talk: false
+ignite: true
 selected: false
 layout: event
 author: Speaker 36
@@ -15,11 +15,53 @@ title: "DevOps - Lead, Follow, or Get Out of The Way: A CISO Perspective"
 
 **Abstract:**
 
-There comes a time in every good security leader’s career where he can no longer say “NO” (although he always reserves the right to) and must step up to a challenge with a real solution.  The time is now, the time is here, time to embrace DevOps.
+There comes a time in every good security leader’s career where he can no longer
 
-Join me as I walk through the transition to DevOps from the perspective of a Chief Information Security Officer in a heavily regulated industry.
+say “NO” (although he always reserves the right to) and must step up to a challenge 
 
-We can start my story with the crying; screaming, and paranoia (and that was just me trying to figure out how to spell DevOps - forget about what it meant) and finish with some success stories and lessons learned, that you could bring back to your CISOs to help them make the leap.
+with a solution.  The time is now, the time is here, time to embrace DevOps.
+
+Join me as I walk through the transition to DevOps from the perspective of a 
+
+Chief Information Security Officer in a heavily regulated industry.  I will share the 
+
+success and failures from 3 significant DevOps experiences, however I will focus 
+
+on my most recent experience over the last 15 months with adopting DevOps in a 
+
+heavily regulated Financial Services Firm.  If you can make it a reality in this type of 
+
+environment/industry you can make it happen anywhere.
+
+We can start my story with the crying; screaming, and paranoia (and that was just 
+
+me trying to figure out how to spell DevOps) and finish with some success stories 
+
+and lessons learned that you could bring back to your CISOs to help them make the 
+
+leap.
+
+In addition to the traditional lessons learned, I will focus on the following areas:
+
+* Change your thinking change your future
+
+* Build it and they will come
+
+* If you do this right, Security can be your biggest friend – if not this will fail
+
+* Putting the NO in TechNOlogy – why communication is key
+
+* Getting Security, Audit and Risk Managers onboard
+
+* What needs to change  - Security
+
+* What needs to change - DevOps
+
+You will walk away from this with the knowledge; skills and shortcuts to get even 
+
+the largest security naysayer to change their mind and support rather than derail 
+
+your DevOps program.
 
 **Speaker:**
 
