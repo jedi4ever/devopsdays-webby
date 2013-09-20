@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ricardo Amaro
+title: "Application deployments using Linux containers Vagrant & Docker"
+---
+**Abstract:**
+
+## Description or abstract
+
+The problem(s) of fully bloated Virtual Machines:
+
+* Consume another layer of system memory.
+* IO is slower than the actual real system and makes the aplication sluggish to respond.
+* Are very complex to configure.
+* The application needs faster automated deployments solutions.
+* Costumers need full shell access, with services admin.
+
+## The proposed solution:
+
+LXC is a lightweight virtualization method that provides operating system-level virtualization optional to an heavy full virtual machine. It relies on the Linux kernel cgroups functionality that became available in version 2.6.24, It provides a virtual environment that has its own process and network space. This option makes the perfect option for deploying several contained Drupal dev environments independent of the distribution.
+Docker is a solution from dotCloud, which simplifies and improves the process of creating and managing Linux containers.
+Vagrant 1.1+ lxc plugin allows it to control and provision Linux Containers as an alternative to the built in (and heavy) Vagrant VirtualBox provider for Linux hosts.
+
+
+**Speaker:**
+Ricardo Amaro
