@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Seth Vargo
+title: Infrastructure Testing in Practice (Panel Proposal)
+---
+
+**Abstract:**
+
+Panelists:
+
+*  Seth Vargo
+*  Tim Smith
+*  TBD (preferably someone from Puppet)
+*  TBD (preferably someone from Salt)
+*  TBD (preferably someone from Ansible)
+
+If you are interested in participating in the panel, please contact proposals-portland-2013@devopsdays.org
+
+**Topics**
+
+*What is a “test”?*
+
+We often talk about “testing”, but what is testing? What is the purpose of a test? Does testing criteria differ between organizations? How does CI play into this?
+
+*Unit vs. Functional vs. Acceptance vs. Integration Tests*
+
+What are the various levels of testing in the Devops world? You can test the Chef cookbook or Puppet Manifest, but when should you control the universe and when should the universe be a variant? What is already tested by these product manufacturers? Are you testing too much? 
+
+*Monitors as Tests*
+
+When entering high-functionality tests, when does a test actually become a monitor? Should we duplicate tests as monitors and monitors as tests? Is PagerDuty really an extension of CI?
+
+*Units and Orchestration in Context*
+
+Running Test Kitchen on code that deploys an Apache Web Server is an acceptance test; but that code is a unit of infrastructure. What is a unit test at scale? How does an organization apply integration or acceptance tests to the entire infrastructure in a cost-effective manner? Can we leverage cloud providers to aide in this process? How often should this kind of testing be run / How does CI play into this?
+
+
+**Panelists:**
+
+Seth Vargo, Tim Smith
