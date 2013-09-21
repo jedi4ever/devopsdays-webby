@@ -5,7 +5,8 @@ filter:    erb
 ]%>
 
 <% if @gsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<div style="text-align:center;"><i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!<br/><br/></i> Make your presence at the esteemed DevOps event of I.T. community in India.</a>
+</div>
 <% end %>
 
 <% @gsponsors.each do |sponsor| %>
