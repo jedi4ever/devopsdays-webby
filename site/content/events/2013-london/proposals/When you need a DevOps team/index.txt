@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Mark Rendell
+title: When you need a Devops Team
+---
+
+**Abstract:**
+
+I've worked on projects in most industries both from India and the UK.  I have worked at many enterprises with the most blatant silos and obvious Dev and Ops problems.
+
+I am fully bought-in to the definition of DevOps as rightfully created by the founders and evangelists.  However, I also recognise some benefits of having people dedicated to the success of Development and Operation team harmony (albeit often only for a temporary period).  I appreciate that creating another silo has obvious downsides, but I’ve read so much in strong opposition of creating a function responsible for DevOps concerns that I feel the appropriate usage of dedicated teams deserves some credit.  People shouldn’t be afraid / ashamed to try it and end up put off DevOps altogether.
+
+In my talk I would strongly present both sides of the arguments backed up by real examples.  Then I will highlight the key points required to make the right judgement.
+If you trust me with just 3 of your minutes I’ll spark up a useful discussion that I hope will help other people working with dinosaurs.
+
+**Speaker:**
+Mark Rendell - Accenture
+
+My background is 10 years of Development, Configuration and Release Management, Environment Management, Build and Deployment Automation, meta-modelling and code generation, and Service Management on large complex (ugly?) programmes.  
