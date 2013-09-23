@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 35
+author: Yulia Sheynkman
 title: "Thriving in DevOps:  Three practices from Co-Active Coaching that Every Generalist Needs to Know"
 ---
 
@@ -19,4 +19,4 @@ One of the key challenges for DevOps practitioners is how to communicate across 
 
 **Speaker:**
 
-Speaker 35
+Yulia Sheynkman

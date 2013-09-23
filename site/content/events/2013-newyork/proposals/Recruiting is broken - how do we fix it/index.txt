@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 21
+author: Pete Cheslock
 title: "Recruiting is broken - how do we fix it?"
 ---
 
@@ -25,4 +25,4 @@ I'm also going to pull a few examples from Dave Zwieback's paper on "Devops Hiri
 
 **Speaker:**
 
-Speaker 21
+Pete Cheslock

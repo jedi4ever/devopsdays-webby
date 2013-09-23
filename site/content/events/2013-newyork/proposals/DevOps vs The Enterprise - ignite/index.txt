@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 8
+author: Alan Sharp-Paul
 title: "DevOps vs The Enterprise - Ignite"
 ---
 
@@ -37,4 +37,4 @@ So turn on, strap in, and prepare to be schooled.
 
 **Speaker:**
 
-Speaker 8
+Alan Sharp-Paul
