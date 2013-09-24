@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Justin Vaughan-Brown
+title: "Release Automation – all the fundamentals you need to know"
+---
+**Abstract:**
+
+The process of automating the deployment of an application from development, to testing,  and then  to production,  stretches across vastly different IT environments.  Automating the release deployment process is a prerequisite for any organization moving towards continuous delivery and automated release promotion along the SDLC, and a potential cornerstone of any DevOps initiative.
+
+But what does Release Automation actually mean for release, deployment, change and application delivery teams, operations, production and the business as a whole? 
+Both development and IT operations teams urgently need a solution to effectively streamline application release deployments -  to deliver quality applications faster and meet growing business needs.
+* How exactly does it work? 
+* What does it do and equally importantly, what doesn’t it do? 
+* What impact can it make on release cycles, where and how? 
+* Which organizations have adopted this? 
+* What benefits are they seeing? 
+* Can they really shorten cycles from months or weeks to days or minutes? 
+* What is an application delivery maturity model – and where are you currently on this?
+
+This session gives you all the essentials and explains how Release Automation can complement your existing automation technologies.
+
+**Speaker:**
+Justin Vaughan-Brown
