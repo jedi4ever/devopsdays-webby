@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Paul O'Connor
+title: Shipping Is Your Company's Heartbeat
+---
+
+**Abstract:**
+
+Software only becomes valuable when you ship it to customers. Before then it’s just a costly accumulation of hard work and assumptions.
+
+Shipping unlocks a feedback loop that confirms or challenges those assumptions. It makes new things possible for your customers, and gives you the opportunity to focus on the next thing.
+
+Shipping brings life to your team, to your product, and to your customers. Shipping is your company’s heartbeat.
+
+**Speaker:**
+
+Paul is an Operations Engineer with Intercom. He's the organiser for DevOps Ireland and a keen supporter of the DevOps movement, in it's various guises.
