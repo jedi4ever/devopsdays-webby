@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Toufic Boubez
+title: "Comparative study of analytics algorithms for anomaly detection in the data center"
+---
+
+**Abstract:**
+
+IT Ops collect a ton of data and produce reams of graphs to monitor systems and applications. Getting the right signal out of all that noise however is getting tougher and tougher. The traditional techniques to deal with such metrics, whether threshold-based or very simple statistical methods that were developed to deal with stable, static manufacturing processes, are failing in today’s dynamic environment. Interest in applying more advanced analytics and machine learning to detect anomalies is gaining steam but understanding which algorithms should be used to identify and predict anomalies without producing more false positives is not so easy.
+ 
+This talk will begin with a brief definition of the types of anomalies commonly found in dynamic data center environments and then discuss some of the key elements to consider when thinking about anomaly detection such as:
+
+ -  Understanding your data’s characteristics
+ -  The two main approaches for analyzing operations data: parametric and non-parametric methods
+ -  Overview of some current simple statistical methods and their weaknesses
+ -  Simple data transformations that can give you powerful results
+
+By the end of this talk, attendees will understand the pros and cons of the key statistical analysis techniques and walk away with examples as well as practical rules of thumb and usage patterns.
+
+**Speaker:**
+
+Toufic Boubez
+
+CTO
+
+Metafor Software
+
