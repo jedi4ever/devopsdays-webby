@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 30
+author: Steve Murawski
 title: "Getting Dirty With Desired State Configuration"
 ---
 
@@ -23,4 +23,4 @@ At Stack Exchange, we've adopted DSC to manage our Windows infrastructure to pro
 
 **Speaker:**
 
-Speaker 30
+Steve Murawski

@@ -28,6 +28,7 @@ filter:    erb
 <% end %>
 
 <% @lanyardsponsors = [
+{ :image => "scriptrock.png", :name => "ScriptRock", :link => "https://www.scriptrock.com/"}
 ]%>
 
 <% unless @lanyardsponsors.empty?  %><h1>Lanyard sponsor</h1><% end %>

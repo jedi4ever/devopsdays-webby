@@ -10,6 +10,7 @@ selected: false
 layout: event
 author: Gary McAllister
 title: "DevOps in the Enterprise"
+---
 
 **Abstract:**
 

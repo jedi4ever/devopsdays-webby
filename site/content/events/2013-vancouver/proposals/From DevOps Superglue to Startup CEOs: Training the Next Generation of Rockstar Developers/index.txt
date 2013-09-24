@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Chris Hogue
+title: "From DevOps Superglue to Startup CEOs: Training the Next Generation of Rockstar Developers"
+---
+
+**Abstract:**
+
+What do the founder of Netfunctional Inc., the CEO of Nascent Digital, the VP of Software Engineering at G Adventures Inc., and a Harvard/MIT faculty member have in common? They all got their start as undergraduate trainees writing code in Chris Hogue’s bioinformatics lab more than a decade ago.  Before becoming the Senior Director of Technical Product Marketing at cloud infrastructure company Joyent, Chris spent 14 years training undergraduates at the Toronto Bioinformatics Lab. During that time, he witnessed the power of “DevOps superglue” on the hiring and training process. By investing in young trainees and emphasizing cooperative DevOps thinking early on in training, they not only accelerated the lab’s success, but also propelled the young hires to a successful future career. 
+
+In this presentation, Chris will discuss how organizations can incorporate a step-by-step process for DevOps training that sets trainees and new hires on a course for success. By emphasizing the overarching “superglue” of a DevOps culture, mentors can streamline the two forces of “Ops” and “Dev” to work together seamlessly within a single employee. Chris will show how this process — one he perfected for more than 10 years — not only yields employees who are extremely valuable to the organization, but also ones who have the ammunition to achieve a rockstar future in programming. 
+
+**Speaker:**
+
+Chris Hogue
+
+Senior Director, Technical Product Marketing
+
+Joyent
+

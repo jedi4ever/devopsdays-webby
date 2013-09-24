@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 5
+author: Katherine Daniels
 title: "Scaling up a Devops Culture"
 ---
 
@@ -24,4 +24,4 @@ Bullet points:
 
 **Speaker:**
 
-Speaker 5
+Katherine Daniels

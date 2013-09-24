@@ -36,7 +36,12 @@ filter:    erb
   { :image => "dell.png", :name => "Dell", :link => "http://www.dell.com/"},
   { :image => "scriptrock.png", :name => "ScriptRock", :link => "http://www.scriptrock.com/"},
   { :image => "knewton.png", :name => "Knewton", :link => "http://www.knewton.com/"},
-  { :image => "tumblr.png", :name => "Tumblr", :link => "http://www.tumblr.com/"}
+  { :image => "tumblr.png", :name => "Tumblr", :link => "http://www.tumblr.com/"},
+  { :image => "pssclabs.png", :name => "PSSC Labs", :link => "http://www.pssclabs.com/"},
+  { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
+  { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://xebialabs.com/"},
+  { :image => "cfengine.png", :name => "CFEngine", :link => "http://cfengine.com/"},
+  { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://ansibleworks.com/"}
 ]%>
 
 <br><br>

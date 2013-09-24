@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Mike Preston
+title: Burnout - the elephant in the room
+---
+
+**Abstract:**
+
+Not that long ago, I was almost ready to jack in my job at a startup. I
+wasn't particularly unhappy with the work, I was adequately paid and my
+colleagues were pleasant enough, but I'd just had enough with the job.
+All the months of long hours working for a startup were taking their
+toll. I just felt completely uninterested in the work I was doing. I was
+burnt out.
+
+This is very common in the industry and we often just sweep it under the
+carpet. It is something people don't like talking about or even
+acknowledging - they often see it as a sign of weakness.
+
+I believe that as we move to more agile methodologies, where we are
+expected to produce more work in a shorter time, this will only become a
+bigger issue.
+
+In this talk, I will help you recognise some of the signs of burnout and
+some solutions if you or your colleagues are on the path to burnout.
+
+
+**Speaker:**
+
+Mike Preston
+Synety <http://www.synety.com>

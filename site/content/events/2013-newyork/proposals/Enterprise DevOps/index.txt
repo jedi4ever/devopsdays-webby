@@ -7,30 +7,31 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: yes
 layout: event
-author: Speaker 23
+author: Mike Baukes
 title: "Enterprise DevOps - Going Big and f*$^#&g up, a Cautionary Tale"
 ---
 
 **Abstract:**
 
-I'll talk through the steps we took to establishing cultural change via DevOps in a traditional brokerage firm and how we totally screwed it up.  I'll focus in particular on the process, systems, and technology culture of the organization.
+Trading firms are not about high fives, flashy suits and Maseratis. Behind the scenes the technology that powers these firms walks a delicate line, balancing regulatory risk and the need for rapid technology response when market conditions change. DevOps is a natural fit for these organizations, getting it right however is an entirely different story.
 
-1.The history of the company and why it was obvious it would fail. Culture, Rewards, Technology.
+This talk will describe an initiative I led to implement a DevOps capability for a large online broker, focusing on the challenges we faced and the (painful) lessons we learnt. 
 
-2. The technology composition, i.e What they focussed spending on, and how we funded the project and regulatory pressures they were under. 
+I’ll discuss the conditions that made it possible, talk through the cultural challenges, outline the technology issues, and focus on what worked and what didn’t. 
 
-3. How our vision was idealistic, and our team became arrogant. (us vs them). ie: Why creating a DevOps team failed.
+Detail:
 
-4. The proliferation of tools that were used, the tools we introduced. The tools they actually ended up using. (I'll talk a little about Chef, and the sheer amount of code we wrote)
-
-5. The workflow of failure - Confronting ITIL, COBIT, AGILE, the PMO & Introducing new nomenclature that screwed it up.
-
-6. What worked and mostly what didn't work.
-
-7. When success is declared despite the obvious failure.
+1. The Business: Why DevOps was the answer.
+2. The Project: Funding a DevOps initiative using "risk”.
+3. Team Culture: How we assembled an amazing team from different silo’s in IT and unknowingly created a nightmare.
+4. Company Culture: Communication challenges between silo'd teams.
+5. The Processes: Working with and around existing processes.
+6. The Technology: Working with technical debt in “legacy" mission critical environments.
+7. Progress: Early warning signs we missed and how we dealt with timeframes.
+8. Lessons: The good, the bad and the ugly.
 
 **Speaker:**
 
-Speaker 23
+Mike Baukes is the Co-Founder & CEO of ScriptRock Inc. Prior to startup life he held a range of senior technology roles in Strategy, Architecture, Engineering and Ops for a wide variety of international banking and finance organizations including Lloyds Banking Group, Commonwealth Bank of Australia & E*Trade. Despite this admission he maintains that he is far more at home on the command line than in a board room.
