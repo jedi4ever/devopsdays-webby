@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Rohit Jainendra
+title: What Will it Take to Get Ready for Continuous Delivery?
+---
+
+**Abstract:**
+
+Optimizing software development to a state where it is ready to be deployed on demand isn’t easy.  While many businesses aspire to that goal, as evidenced with the rise of DevOps, one key area often overlooked is Continuous Delivery (CD). 
+ 
+The software development landscape is littered with obstacles preventing organizations from realizing CD:
+ - A large collection of disparate software development tools
+ - Distributed teams working across duplicated environments
+ - Unique development processes from team to team
+
+To reach the level of maturity where development teams can deploy a new release as it is needed requires a structured orchestration of processes.  Every enterprise is unique, each with its own distinct set of challenges, which makes the adoption curve different for all.  Join this session to learn what it means to be ready for CD.  Attendees will get a first-hand look at an assessment that will help them determine how ready an organization is for CD by comparing the cycle time and release time of software as it relates to the state of readiness.  Attendees will also explore tactics they can consider to advance their development processes at each stage.
+
+**Speaker:**
+
+Rohit Jainendra
+
+Electric Cloud
+

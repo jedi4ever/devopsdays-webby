@@ -5,6 +5,7 @@ filter:    erb
 { :image => "stackato_by_activestate.png", :name => "Stackato by ActiveState", :link => "http://www.activestate.com/stackato"},
 { :image => "hootsuite.jpg", :name => "Hootsuite", :link => "http://www.hootsuite.com"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com"},
+{ :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://www.ansibleworks.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>

@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Chris Hogue
+title: "From the Classroom to the Cloud: A Journey with Node.js"
+---
+
+**Abstract:**
+
+For decades, Chris Hogue worked as a scientist in bioinformatics, building open source software and teaching students how to program. He watched as biology students were forced to become polyglots in order to master building on the server side as well as controlling the client side. It was then that Chris discovered Node.js — a simpler programming language with lightning fast run-time — that completely altered the way he was able teach programing. 
+
+As a “pathological researcher,” Chris dug deeper into Node.js’ origins and began building his own cloud with the help of cloud infrastructure company Joyent, eventually becoming their Senior Director of Technical Product Marketing. 
+
+In this lightning talk, Chris will share his compelling first hand experience with Node.js from both his time as an educator and a member of Joyent’s team. Chris will provide his unique perspective on what we can expect from Node.js’ next chapter. 
+
+**Speaker:**
+
+Chris Hogue
+
+Senior Director, Technical Product Marketing
+
+Joyent
+
