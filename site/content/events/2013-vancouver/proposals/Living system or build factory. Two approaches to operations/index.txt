@@ -27,5 +27,3 @@ Chris Maxwell
 
 Infrastructure Operations
 
-HootSuite
-
