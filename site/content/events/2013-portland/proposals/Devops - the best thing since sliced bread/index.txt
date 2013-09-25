@@ -9,8 +9,8 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: Dustin Whittle
-title: "The DevOps Pay Raise: Quantifying Your Value to Move Up the Ladder"
+author: Elijah Lovejoy
+title: "DevOps: The Best Thing Since Sliced Bread"
 ---
 
 **Abstract:**
