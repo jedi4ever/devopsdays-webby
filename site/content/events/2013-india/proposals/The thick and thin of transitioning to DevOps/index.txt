@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sanju Burkule, Opex Software
+title: "The thick and thin of transitioning to DevOps"
+---
+
+**Abstract:**
+
+Common challenges faced by teams when trying to adopt a DevOps mindset. How to have large enterprises, who have been working in a certain way, realize the benefits of DevOps, and make the change successfully? Unclear understanding, uncertainty, politics, no buy-in and other factors impact big changes. No org can magically get DevOps just by using different tools. Will go through roles of how teams need to collaborate for a smoother DevOps rollout.
+
+
+To make big changes, its critical to learn from others experiences. DevOps is no longer new. Will share best practices from other companies. We'll discuss methods for assessing readiness, revisit processes, revisit technologies and team hierarchy.
+
+
+Lets also cover how to get to a good starting point. The information is invaluable for making strategic decisions while working towards a culture more in tune with DevOps, and set IT to embrace the future. 
+
+**Speaker:**
+Sanju Burkule, Opex Software
