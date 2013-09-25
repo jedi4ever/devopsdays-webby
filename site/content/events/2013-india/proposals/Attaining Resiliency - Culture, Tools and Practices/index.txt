@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ranjib Dey, PagerDuty
+title: "Attaining Resiliency : Culture, Tools and Practices"
+---
+
+**Abstract:**
+
+At PagerDuty, we offer 911 like emergency alert dispatch services for our clients. The very nature of our business demands us to be highly resilient to outages. This talk will highlight our learnings from deployment and maintenance of our services on top of multiple public clouds. How our testing strategies, automation and cross team collaboration plays a pivotal role to ensure resiliency on individual software components.
+
+
+Following sub-topics will be covered:
+
+> * Resiliency in application designs
+
+> * Testing resiliency - metrics, stress testing, proactive failure injection
+
+> * Failures and their mitigation strategies
+>     * Outage handiling
+>     * Cross team incident puntings
+>     * Running in degraded mode
+
+> * Building safety nets around failure prone components
+
+**Speaker:**
+Ranjib Dey, PagerDuty

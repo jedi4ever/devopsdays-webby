@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Medhamsh Vuthpala, Axelerant
+title: "Axelerant Dev Cloud a.k.a. Projspace"
+---
+
+**Abstract:**
+
+I would like to demo an internal DevOps practice at our company, Axelerant(http://axelerant.com). Eventually we would like to make the tools we developed as open source software once the evolve into mature and can be used for generic use cases of any other people who are into web development.
+
+We are a web development shop mainly focusing on Drupal development. For handling day to day requests of the employees like having isolated dev, test and production environments, deploying a desired revision of code from git to the dev/test/prod envs, migrate database across these three environments, have logs of these envs, etc., we have created our own tool-kit using which the developers can concentrate more on their coding rather than worrying about Infra, build and release engineering tasks. This tool is a plugin to the issue tracker "redmine". We call this plugin "Projspace". And this comes handy in the famous issue tracker. We also have plans of making this a standalone application also.
+
+This is not a product demo for now but eventually it becomes a Free Software/Opensource Software. For now this talk is more like a DevOps practice encouraging people to have their own tool chains in their small/big work groups.
+
+A bit older description of Projspace:
+
+[http://axelerant.com/blog/axelerant-dev-cloud-aka-projspace-part-2](http://axelerant.com/blog/axelerant-dev-cloud-aka-projspace-part-2)
+
+Now it has bit more features.
+
+**Speaker:**
+Medhamsh Vuthpala, Axelerant
