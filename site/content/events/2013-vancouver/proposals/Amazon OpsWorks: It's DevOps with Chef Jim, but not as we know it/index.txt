@@ -27,5 +27,5 @@ Yuichiro Mori - Sr Server Engineer, DeNA
 
 Jerome Pimmel - Sr Dir Engineering, DeNA
 
-AWS (TBC)
+Chris Barclay, AWS
 
