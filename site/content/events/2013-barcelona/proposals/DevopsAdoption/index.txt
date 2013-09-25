@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Justin Vaughan-Brown
+title: "DevOps Adoption – a pan European perspective"
+---
+**Abstract:**
+
+Referencing recent unique global market research that surveyed 1200 respondents, this session discusses the levels of DevOps awareness and the varying rates of DevOps adoption across 12 European countries, and how this compares with the US and China for example. This is followed by a deep dive into the varying business drivers, tools vs training vs hiring priorities, how DevOps is being measured (internal vs external KPI's), and the measurement of benefits experienced by organisations that have already started with a DevOps approach. How do these findings compare with your experiences locally? Comments from delegates are welcomed as we hope this will be an interactive and lively debate.
+
+**Speaker:**
+Justin Vaughan-Brown

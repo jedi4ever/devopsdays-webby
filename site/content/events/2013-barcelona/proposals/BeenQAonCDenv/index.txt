@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Isa Vilacides
+title: "How to be a QA in a continuous delivery environment and not die trying"
+---
+**Abstract:**
+
+From requirements definition to deploying to production, QA is involved in the whole process, but what is exactly their role? How can we prevent them becoming a bottleneck in the process? Is QA only about monkey testing?
+I’ll show the different roles of QA people and what they do in the different stages of development and release process.
+
+**Speaker:**
+Isa Vilacides
