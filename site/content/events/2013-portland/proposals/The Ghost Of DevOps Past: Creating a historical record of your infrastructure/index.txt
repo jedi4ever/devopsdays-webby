@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Brad Heller
+title: The Ghost Of DevOps Past: Creating a historical record of your infrastructure
+---
+
+**Abstract:**
+Are you keeping a log of your infrastructure as it changes? Developers
+log the state of their application, but there is no equivalent for
+DevOps.
+
+As your cloud infrastructure becomes increasingly ephemeral, knowing
+what the state of your infrastructure was three Tuesday's ago when you
+had that one outage is nearly impossible. Add to that the fact that
+ops teams have more people and the problem is compounded.
+
+In this talk we'll discuss why it's important for you to keep track of
+the state of your infrastructure and show examples of infrastructure
+logs and how you can use them for capacity planning and postmortems.
+
+**Speaker:**
+
+Brad Heller
