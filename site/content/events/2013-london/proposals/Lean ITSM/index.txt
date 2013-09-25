@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Daniel Breston
+title: Lean ITSM
+---
+
+**Abstract:**
+IT is the Business and the Business is IT
+Name one thing that you can do, no matter the role, that adds value to your business:
+
+- More customers
+- Make employees more effective, productive, efficient
+- Enable communication or collaboration
+- Make you more competitive or compliant
+
+And does not in any shape before the activity, during the activity or after the activity?
+
+IT Dev is constrained by not enough resources (people, processes, technology) and OPS is simply over-worked and not allowed to be a part of the solution.  
+
+Traditionally this void was filled by ITIL ITSM but you can Lean ITSM by blending processes and then matching the roles (People + tools) to introduce that process.  Examples Problem management as a subset of Incident, redefining Change Management by blending change-release-configuration.
+
+Doing this with SMART and Visual KPIs can quickly show the business leaders, staff, vendors even customers that this is a business or organisation that has a clue as to how to keep up with market, regulatory, customer requirements and trends.
+
+**Speaker:**
+Daniel Breston - [Qriosity Limited](http://www.qriosity-managingit.com)

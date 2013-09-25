@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 24
+author: Patrick Eaton
 title: "Teaching an old developer new DevOps tricks"
 ---
 
@@ -33,4 +33,4 @@ teams integrate people from traditional development backgrounds.
 
 **Speaker:**
 
-Speaker 24
+Patrick Eaton

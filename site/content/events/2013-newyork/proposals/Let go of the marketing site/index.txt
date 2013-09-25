@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 28
+author: Robbie Mitchell
 title: "Let go of the marketing site (and don't call it that)"
 ---
 
@@ -29,4 +29,4 @@ The result is half technology, half philosophy, as we hired the people and built
 
 **Speaker:**
 
-Speaker 28
+Robbie Mitchell

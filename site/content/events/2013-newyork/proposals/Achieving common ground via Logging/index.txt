@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 19
+author: Manas Gupta
 title: "Achieving common ground via Logging"
 ---
 
@@ -25,4 +25,4 @@ Logs are often treated as second class citizens. All applications have logs - bu
 
 **Speaker:**
 
-Speaker 19
+Manas Gupta

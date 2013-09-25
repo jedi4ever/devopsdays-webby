@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Chris Maxwell
+title: "Living system or build factory. Two approaches to operations"
+---
+
+**Abstract:**
+
+Two opposing but complementary methods of deploying systems:
+
+1. Gold server / image :: Tools such as ansible, puppet, makefiles, scripting, etc as build factories to create images for deployment.  Homogeneous systems.
+
+2. Living system :: Tools such as puppet / chef as controllers of living systems, ensuring basic compliance, but creating heterogeneous systems when birthed later as dependencies change.
+
+**Speaker:**
+
+Chris Maxwell
+
+Infrastructure Operations
+

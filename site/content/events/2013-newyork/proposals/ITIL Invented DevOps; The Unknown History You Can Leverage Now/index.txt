@@ -9,7 +9,7 @@ talk: false
 ignite: true
 selected: true
 layout: event
-author: Speaker 11
+author: Brian Johnson
 title: "ITIL Invented DevOps; The Unknown History You Can Leverage Now"
 ---
 
@@ -23,4 +23,4 @@ Attendees will learn to draw from the original publication in context to the lat
 
 **Speaker:**
 
-Speaker 11
+Brian Johnson

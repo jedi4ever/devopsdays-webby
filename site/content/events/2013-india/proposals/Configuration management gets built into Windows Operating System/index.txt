@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ravikanth Chaganti, Dell
+title: "Configuration management gets built into Windows Operating System"
+---
+
+**Abstract:**
+
+Configuration management in a data center has always been a challenge. An unexpected configuration drift can have disastrous consequences during a disaster recovery. There are several tools and frameworks to achieve this today. However, the Desired State Configuration (DSC) in Windows PowerShell 4.0 brings configuration management right into the OS.
+
+
+DSC is a new management platform that enables the deployment and management of configuration data for software services and the environment on which these services run. DSC provides a set of Windows PowerShell language extensions, new cmdlets, and resources that you can use to declaratively specify how you want the state of your software environment to be configured. It also provides a means for maintaining and managing existing configurations.
+
+
+This presentation looks at how DSC can be used to streamline configuration management and DevOps related tasks and this declarative language extension makes it seamless from non-dev administrators to manage configuration.
+
+**Speaker:**
+Ravikanth Chaganti, Dell

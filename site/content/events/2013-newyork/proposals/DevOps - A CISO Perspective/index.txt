@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
-author: Speaker 36
+author: Tim Virtue
 title: "DevOps - Lead, Follow, or Get Out of The Way: A CISO Perspective"
 ---
 
@@ -65,4 +65,4 @@ your DevOps program.
 
 **Speaker:**
 
-Speaker 36
+Tim Virtue

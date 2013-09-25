@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Reinhardt Quelle
+title: "Building Applications for Operability"
+---
+
+**Abstract:**
+
+We can all agree that breaking down the walls between developers and operations is a fine thing, and doing so is a necessary step along the path to DevOps nirvana.  The challenge I've encountered over and over again, though, is that we  are coming from very different places – the operations guys often struggle with the basics of software development – testing and version control, for example – and the developers don't really understand what it means to run software in distributed data centers, at scale, when things like to break at the most inconvenient times.
+
+This presentation is an overview of what makes running software in the datacenter different from when a developer runs it on their development boxes, and the things that they can do to help their  operations team deploy their applications and keep things humming along.  I introduce the potential complexity of an application deployment through an example real-world SaaS service, then work  through a checklist of service management interfaces that need to exist for "monitoring" (and why "monitoring" is in quotes).
+
+**Speaker:**
+
+Reinhardt Quelle
+
+Cloud Services Architect
+
+Cisco
+
