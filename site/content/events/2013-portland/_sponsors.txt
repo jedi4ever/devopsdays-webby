@@ -8,6 +8,7 @@ filter:    erb
 
 <% @gsponsors = [
 { :image => "hw.png", :name => "Heavy Water", :link => "http://hw-ops.com/"},
+{ :image => "simple.png", :name => "Simple", :link => "http://simple.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
