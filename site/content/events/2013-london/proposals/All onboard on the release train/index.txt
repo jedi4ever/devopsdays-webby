@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Matti Klasson
+title: All onboard on the release train!
+---
+
+**Abstract:**
+
+Your business will always ship new features and improvements to the end-users as fast as possible. But if you have a complex environment, subsystems with dependencies and multiple teams taking care of different parts of the system. How will you coordinate that to ship often, on time with high quality?This talk is a “from the trenches” experience from the company I worked for at the time and how we went from bad to better and improving our release process.
+We shorten our release cycle with 20%, increase the accuracy with 90% on delivery on time with higher quality meanwhile the decision-making on go/no go went from management to people that actually working with the software and system. The core in this talk will about collaboration between Dev, QA and Ops.
+
+**Speaker:**
+Matti Klasson working as an agile management coach at Knowit, http://www.knowitgroup.com.
+Matti has 15 years of experience from Ops and have passion for DevOps and believe that a culture change is must to succeed with continuous delivery.
