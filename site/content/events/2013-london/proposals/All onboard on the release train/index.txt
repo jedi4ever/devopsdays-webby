@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: false
-ignite: true
+talk: true
+ignite: false
 selected: false
 layout: event
 author: Matti Klasson
@@ -19,5 +19,6 @@ Your business will always ship new features and improvements to the end-users as
 We shorten our release cycle with 20%, increase the accuracy with 90% on delivery on time with higher quality meanwhile the decision-making on go/no go went from management to people that actually working with the software and system. The core in this talk will about collaboration between Dev, QA and Ops.
 
 **Speaker:**
+
 Matti Klasson working as an agile management coach at Knowit, http://www.knowitgroup.com.
 Matti has 15 years of experience from Ops and have passion for DevOps and believe that a culture change is must to succeed with continuous delivery.
