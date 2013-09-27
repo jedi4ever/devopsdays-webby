@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Steve Smith
+title: Better ops through dev - $700 million in orders with 3 engineers
+---
+
+**Abstract:**
+
+The internal-systems team at Atlassian builds, well, our internal systems. This includes the order processing service for both our products and our partners; since 2008 these systems have processed over $700M in orders, but for most of that time the team consisted of only 2 (later 3) engineers, who performed all development and operations. This has driven us to (try to) build low-touch, ops-less systems. Partly this is talk about trying to extract reliability from unreliable systems in an unreliable world, but mostly it’s a list of the amusing screw-ups we made in the hope that others may avoid them. Along the way we’ll discuss
+
+* How to abuse credit-card features intended for the hospitality industry to avoid fucking the customer.
+* Using asynchronous processing to deal with external services that have a different definition of 'uptime' to you.
+* Distributed transactions for fun and profit. Mostly the profit part. Not so much the fun.
+* Automated testing of stuff that really doesn't want to be automated.
+
+**Speaker:**
+
+For the last 7 years Steve has worked for Atlassian as both as a sysadmin and a developer. Prior to that he worked on tanks and radars in the Outer Hebrides, telecoms systems in Hong Kong, and in startups in Australia.  He now works out of Atlassian's Amsterdam offices, focusing on high-availability, continuous-deployment and monitoring issues. 
