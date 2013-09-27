@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Doug Barth
+title: Moving to a Multi-Master Setup for MySQL
+---
+
+**Abstract:**
+
+Data — the pain in the side of every DevOps team. You can automate most of the setup process for a MySQL server, but then you're left with the hard parts: getting a copy of the data onto the server, making the server of a slave of an existing server, and then failing over. Can't there be a better way?
+
+In this talk, we will discuss how PagerDuty switched our production MySQL system (running in EC2) from a DRBD based solution to Percona XtraDB Cluster based on Codership's synchronous replication library, Galera. With that change, we now have a MySQL setup where setting up a new MySQL server is completely automated, including grabbing a copy of the production dataset. We can withstand losing one of our servers with no downtime. Most importantly, each MySQL server is effectively equivalent, making our lives that much easier.
+
+This talk will cover why we chose XtraDB Cluster, and what benchmarks we ran to test its suitability for handling our production traffic (including a couple important configuration changes). We will explore Galera's synchronous replication scheme, and the application tradeoffs you need to understand before switching to this system. We will discuss the roll out process, how we monitor the production cluster, and how we test its ability to handle failure in production.
+
+**Speaker:**
+
+
+
