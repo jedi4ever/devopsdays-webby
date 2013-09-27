@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Dustin Whittle
 title: "Your Agile Performance Testing Checklist: MultiMechanize, Bees with Machine Guns, PageSpeed and AppDynamics"
