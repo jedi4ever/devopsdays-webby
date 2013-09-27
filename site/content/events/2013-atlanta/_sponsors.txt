@@ -29,7 +29,7 @@ filter:    erb
 { :image => "scriptrock.png", :name => "ScriptRock", :link => "https://www.scriptrock.com/"},
 { :image => "dellsoftware.png", :name => "Dell Software", :link => "http://www.enstratius.com/"},
 { :image => "mongodb.png", :name => "MongoDB", :link => "http://www.mongodb.com/"},
-{ :image => "sonatype.png", :name => "MongoDB", :link => "http://www.sonatype.com/"},
+{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
