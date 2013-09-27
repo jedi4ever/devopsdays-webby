@@ -22,5 +22,5 @@ This talk will cover why we chose XtraDB Cluster, and what benchmarks we ran to 
 
 **Speaker:**
 
-
+Doug Barth is a software generalist who has currently found himself doing operations work at PagerDuty. Prior to joining PagerDuty, he worked for Signal in Chicago and Orbitz, an online travel company. He loves beer, foosball, and Tool. You can follow him on Twitter @dougbarth
 
