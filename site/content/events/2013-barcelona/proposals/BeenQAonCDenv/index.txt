@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Isa Vilacides
 title: "How to be a QA in a continuous delivery environment and not die trying"
