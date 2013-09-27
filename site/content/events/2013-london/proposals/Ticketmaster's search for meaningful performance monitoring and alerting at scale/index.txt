@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Connon MacRae
+title: Ticketmaster's search for meaningful performance monitoring and alerting at scale
+---
+
+**Abstract:**
+
+A potted history of products we've used, why we changed them and the challenges we currently face which have lead to our investment of effort into Splunk, LogStash, Kibana, OpenTSDB and . . . . some open questions . . . . 
+
+It's the story of how the Technical Operations group came to appreciate the need to share information and to encourage collaboration between groups and across organisations.
+
+**Speaker:**
+
+
