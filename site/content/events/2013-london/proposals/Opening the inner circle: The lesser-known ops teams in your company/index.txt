@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Steve Smith
+title: Opening the inner circle: The lesser-known ops teams in your company
+---
+
+**Abstract:**
+
+As you talk to people at this conference you'll find that the majority of attendees are technology focused. But the reality is that many other people in your company are probably doing 'ops', although you (and probably they) may not know it. If devops is truly about breaking down silos then we owe it to ourselves, our teams and our users to look further afield. This Ignite talk will introduce some of the lesser-known ops teams at Atlassian, why they're important and suggest how we can involve them in the ideals and technologies of devops.
+
+**Speaker:**
+
+For the last 7 years Steve has worked for Atlassian as both as a sysadmin and a developer. Prior to that he worked on tanks and radars in the Outer Hebrides, telecoms systems in Hong Kong, and in startups in Australia.  He now works out of Atlassian's Amsterdam offices, focusing on high-availability, continuous-deployment and monitoring issues.
