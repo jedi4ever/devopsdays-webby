@@ -10,7 +10,7 @@ ignite: true
 selected: false
 layout: event
 author: Steve Smith
-title: Opening the inner circle: The lesser-known ops teams in your company
+title: Opening the inner circle The lesser-known ops teams in your company
 ---
 
 **Abstract:**
