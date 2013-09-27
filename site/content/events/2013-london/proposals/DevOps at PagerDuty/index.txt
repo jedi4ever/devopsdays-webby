@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Doub Barth
+title: DevOps at PagerDuty
+---
+
+**Abstract:**
+
+You've jumped on the DevOps bandwagon. You're using a tool like Chef or Puppet to manage your infrastructure. Everything's great, right?
+
+Using a configuration management tool is just the beginning of your journey. Now you need to figure out how you develop and test your code in isolation without interrupting your teams members from being productive. How do you ensure that you don't introduce regressions, either with existing systems or when starting new servers? How do you speed your build - test loop? What about rolling your change out to your staging and production systems?
+
+In this talk, we will discuss how PagerDuty solved these problems. I will give you a tour of our Chef repository, stored in git. I will show you how we use Vagrant to spin up test VMs both locally and on AWS. I will talk about how we write unit tests for our cookbooks, pull in and extend open source cookbooks, and how we submit those changes for peer review. After running automated tests in Jenkins, it's off to staging for testing and rollout, and then onto production FTW. Finally, we'll finish up by discussing what still hurts and how we plan to fix it. At the end of this talk, I hope to have given you a clear picture of how PagerDuty does DevOps and maybe given you some new ways to improve your own environment.
+
+**Speaker:**
+
+
+
