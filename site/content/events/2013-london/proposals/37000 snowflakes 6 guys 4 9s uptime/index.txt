@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Otto Jongerius
+title: 37000 snowflakes - 6 guys - 99.99% uptime
+---
+
+**Abstract:**
+
+n this talk I will provide you with a look behind the scenes of Atlassians Ondemand platform. You will learn how we do ops, and how a small team of Engineers collaborates across 3 continents.
+Each Atlassian OnDemand instance is a customer instance, and each instance is a snowflake for the customer – so it must be a snowflake for us. Each instance is critical, whether the customer is a small startup that could become the next Facebook, or a huge bank relying on us for its entire CI setup.
+With each customer instance being a unique system, we are fully aware of the cost of downtime to our customers whose businesses often depend on our service. While we mitigate unplanned failure as much as we can with data replication, backups and highly available compute, scheduled downtime has to be avoided as well.
+This is a challenge, and I'll explain how we run 37k+ virtual machines spread over 30 racks running in 370 container hosts with 112 storage nodes. That's 1.4 Terabytes of RAM per rack, a total of 7,200 cores, 648 Terabytes of storage and 6 engineers.
+And just to make it interesting, these 6 engineers are spread over 3 continents. I'll touch on how we maintain a healthy culture of collaboration across time zones and thrive as a small team inside a large company. 
+I will also explain how we integrate these components with a lot of Python tooling, a constellation of Debian, OpenVZ, Nagios, Pagerduty, Zendesk, Kibana, Logstash, Elastic Search, robots and internal web services. Next to these hardware and software specs I will share war stories about big wins, big issues, and big laughs had while taking on this endeavour.
+
+**Speaker:**
+
+Otto Jongerius lives below sea level. In his spare time he loves to fight gravity.
+He works for Atlassian as Hosted Operations engineer with a focus on tooling, and has fulfilled several roles in the internet industry for the past 13 years.
