@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Florentin Raud
+title: Lessons learned monitorama.eu - 19 quotes from 19 talks
+---
+
+**Abstract:**
+
+As the title would suggest, it is about my recent experience of monitorama.
+The format is to share a single quote from each speaker, and give a point raised during that speech (relevant or not to the quote).
+
+The goal is to share with those who did not had the chance to go there.
+The other goal is to challenge the memory of the attendees.
+Hopefully that will get the conversation going on the subject discussed in Berlin. 
+
+The ignite will likely be boring as there is 20 slides and 19 speaker at monitorama.
+But the outcome should hopefully be people (re)watching the videos and re-reading the slides and learning something (more) from it.
+
+**Speaker:**
