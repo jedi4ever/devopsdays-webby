@@ -10,7 +10,7 @@ ignite: false
 selected: false
 layout: event
 author: Brad Heller
-title: The Ghost Of DevOps Past: Creating a historical record of your infrastructure
+title: 'The Ghost Of DevOps Past: Creating a historical record of your infrastructure'
 ---
 
 **Abstract:**
