@@ -26,3 +26,5 @@ The ignite will likely be boring as there is 20 slides and 19 speaker at monitor
 But the outcome should hopefully be people (re)watching the videos and re-reading the slides and learning something (more) from it.
 
 **Speaker:**
+
+Flo works as an IT Ops during the day.He promotes of the devops culture because collaboration works.Flo is a Linux and FOSS enthusiast because freedom matters
