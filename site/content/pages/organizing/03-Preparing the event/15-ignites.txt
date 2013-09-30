@@ -5,4 +5,25 @@ filter:
 - markdown
 title: Running Ignites
 ---
-placeholder
+Running Ignites can be challenge: people tend to submit them last minute, or they didn't understand the format to well.
+Here are few tips on making this proces more smoothly:
+
+- Ask the Ignite presenters to send the slides upfront
+  - An option is to use a Dropbox shared directory
+- Be prepared to run around with USB stick to get the 'on the spot' deciders.
+
+- PDF is the easiest format to collect all presentations
+- You can run either :
+    - `impress -a 15` <http://impressive.sourceforge.net/>
+    - adobe acrobat reader in autoadavance mode <http://malektips.com/adobe_reader_7_0019.html>
+- Don't let them run on their own laptops
+- Use a dedicated laptop (avoid any popups etc...)
+
+- Mention again on the day itself:
+  - "Just so you know, your slides will auto advance every 15 seconds, you can't advance them yourself"
+
+- Have Ignite presenters queue next to the stage and either:
+  - start the slidedeck for them.
+  - or even build all slides in Slidedeck and build in a bio slide as a interludium and have that autoadvance as well
+
+</pages/ignite-talks-format/>
