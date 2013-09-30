@@ -8,6 +8,8 @@ filter:    erb
 
 <% @gsponsors = [
 { :image => "hw.png", :name => "Heavy Water", :link => "http://hw-ops.com/"},
+{ :image => "simple.png", :name => "Simple", :link => "http://simple.com/"},
+{ :image => "iovation.png", :name => "iovation", :link => "http://iovation.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -38,6 +40,7 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
+{ :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>

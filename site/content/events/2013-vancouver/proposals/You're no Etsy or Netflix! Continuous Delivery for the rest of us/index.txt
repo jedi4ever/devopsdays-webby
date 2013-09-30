@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Rohit Jainendra
+title: "You're no Etsy or Netflix! Continuous Delivery for the rest of us"
+---
+
+**Abstract:**
+
+You've attended the conferences, listened to talks on how John Allspaw from Etsy and Adrian Cockcroft from Netflix have streamlined their software delivery processes and are deploying multiple changes into production daily.  Yet, you are not quite sure where to get started within your organization.  Maybe you don't have the talent and it's difficult to hire because everyone is looking for DevOps engineers - or you don't have organizational buy in.  Perhaps deploying into production daily does not make sense for your business.
+
+Join this session to learn how Continuous Delivery is impacting various industries .  Attendees will get a first-hand look at an assessment that will help you determine how ready your organization is for CD by looking at cycle time and release time of software as it relates to the state of readiness, and what they can do to advance their development processes at each stage.  
+
+**Speaker:**
+
+Rohit Jainendra
+
+Electric Cloud
+

@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Christoph Burgmer
+title: UI testing, the missing piece in Continuous Integration 
+---
+
+**Abstract:**
+
+When it comes to nodding through release candidates, software including a user interface quite often requires manual checks. This does not only slow down and complicate the release process - the repetitive nature of these tests is prone to induce human errors.
+
+This year has seen the release of a few tools that try to solve this problem by introducing automation for UI testing. I'd like to highlight some of these tools, and show how they can offer automatic validation of UI components.
+
+**Speaker:**
+
+Christoph likes building things around software and loves languages. He is a developer at ThoughtWorks and while spending much of his time around the frontend parts of systems likes to deploy stuff himself.

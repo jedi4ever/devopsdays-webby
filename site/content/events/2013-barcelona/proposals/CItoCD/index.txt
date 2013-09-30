@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Justin Vaughan-Brown
+title: "From Continuous Integration to Continuous Delivery - best practice customer insights"
+---
+**Abstract:**
+
+CA Technologies has enabled over 300 organisations to achieve business transformation by eliminating dev/test constraints and manual release processes.  Combined, these mature solutions have more than 10 years of market validation and 600+ implementations. From these, we have chosen three European customers whose adoption of release automation has delivered significant quality improvements, cost savings and overall efficiency benefits. We also explain the "people" and "process" factors that were vital to the success of each initiative. What learnings can be drawn from these three customer stories? How can these be mapped to your own organisation?
+
+**Speaker:**
+Justin Vaughan-Brown

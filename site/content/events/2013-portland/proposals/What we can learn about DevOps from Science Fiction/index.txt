@@ -1,0 +1,56 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: true
+selected: false
+layout: event
+author: Dawn Foster
+title: What we can learn about DevOps from Science Fiction
+---
+
+**Abstract:**
+One of the important ideas behind DevOps is that people from
+development and operations should work together, just like the Doctor
+(a Time Lord) and his human companions work together to solve the
+problems of the universe. We're moving away from a model where control
+was centralized in the hands of a few, like the way the spice was
+tightly controlled in Dune, and we're sharing more of the
+responsibilities, like how the Stargate SG-1 team collaborates with
+the Tok'ra, the Asgard and others. We also work to automate processes
+and manage configurations, not unlike how Asimov created his 3 laws to
+make sure that robots, like our servers, were well-behaved and
+performing according to some standard rules. This is a fun session,
+but it focuses on real lessons from DevOps as told through science
+fiction.
+
+Note: this would be similar to the talk that I recently gave at
+LinuxCon, but with a focus on DevOps lessons, instead of community,
+and it would be much shorter to fit the Ignite format:
+http://www.slideshare.net/geekygirldawn/sci-fiandcommunity
+
+Options: I could also do this as a community talk if you prefer to
+have me
+talk about community, instead of DevOps, since community is also very
+relevant for DevOps projects.
+
+**Speaker:**
+
+Dawn Foster is the Community Manager at Puppet Labs. Dawn has more
+than 18 years of experience in technology with expertise in community
+building, open source software, and much more. She is passionate about
+bringing people together through a combination of online communities
+and real-world events. She has experience building new communities,
+and managing existing communities with a particular emphasis on
+developer and open source communities. Most recently, Dawn was leading
+the Community Office within Intel’s Open Source Technology Center. In
+addition to working at Intel, Dawn was an online community consultant,
+and she has worked at Jive Software, Compiere, and a Midwestern
+manufacturing company in positions ranging from Unix system
+administrator to market researcher to community manager to open source
+strategist. Dawn holds an MBA from Ashland University and a bachelor’s
+degree in computer science from Kent State University.

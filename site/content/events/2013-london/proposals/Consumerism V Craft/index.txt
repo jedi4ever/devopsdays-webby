@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Simon McCartney
+title: Consumerism V Craft
+---
+
+**Abstract:**
+
+Has consumer culture blunted the desire to understand how things work? 
+Has it lessened our appreciation of the effort that goes into making everyday objects? 
+How has this impacted us and future generations of engineers? 
+Why does craft matter & how does it apply to digital engineers?
+How can we combat the depreciation of craft?
+
+**Speaker:**
+
+Simon McCartney, currently engineer in HP Cloud Services, working on Designate, an open source DNSaaS solution for OpenStack.
+former developer, now operations focussed.  links to tinker, needs to know how things work & why we do things.
+
+
