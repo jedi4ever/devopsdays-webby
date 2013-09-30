@@ -1,0 +1,50 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Marni Cohen
+title: Gamification of Infrastructure
+---
+
+**Abstract:**
+
+Gamification is rad and all, but how can it actually make my day job
+as a SysAdmin better without making it worse first?  This talk will
+explore ways to implement types of gamification in everyday use,
+ranging from software to employee infrastructure.  
+
+
+
+I'll cover the following:
+
+- The two main types of gamification, and the strengths/weaknesses of
+  them when applied to working in a tech company
+
+    - Competitive (rewards/recognition)
+    - Experiential (self expression, closure)
+
+
+- Gamification within infrastructure on three levels:
+
+    - Within the tools we **use**
+        - Gamification plugins for tools we already use (jira, zendesk,microsoft word) 
+        - personal use v. office wide
+        - Ways to gamify tools without plugins (hip chat, etc)
+    - Within the tools we **make**
+        - what to consider when making a tool (example: employee directory)
+        - How to do this without derailing from your project
+    - Within the **people** we interact with
+        - Alternative Reality Gaming in the workplace 
+        - The incentives of gaming vs. the incentives of working
+
+
+**Speaker:**
+
+Marni Cohen
