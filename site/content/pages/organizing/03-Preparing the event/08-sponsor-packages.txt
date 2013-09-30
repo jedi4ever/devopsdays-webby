@@ -3,14 +3,28 @@ extension: html
 filter:
 - erb
 - markdown
-title: Handling Sponsors
+title: Sponsorship packages
 ---
 In the past we've worked with the following sponsor packages:
 
-- Platinum sponsors: those are sponsors that will sponsor a whole year of devopsdays. They will get listed before any other sponsors and get discounts on individual events sponsorships. (package under development)
 - Host (cost of venue): if a company sponsors the venue/food they will be acknowledged as a Host sponsor. Their logo will be directly visible on the main event page. They also have the opporunity to do a pre/post event meetup that will get promoted. And of course they get the same benefits as Gold and Silver sponsors
 - Gold (2500-3000 Euro): 5 free tickets + a 'promo' spot during talk intermissions + the ability to have a simple table/sponsor presence at the venue.
 - Silver (1000 Euro): 2 free tickets + gets you a few cool shoutouts, this is more of a support type of sponsorship. Just because they're awesome!
 - Media Sponsor: get logo on the site, usually for sponsors spreading the word
 
 We want to avoid the traditional high price model for sponsors. We believe that the more companies that sponsor, the better: it amplifies the ideas and shows that many companies subscribe to the idea. By doing this sponsors can't claim things, they are all equal.
+
+We believe the pricing is 'peanuts' compared to the value sponsors get compared to what other conferences are charging.
+Also try to avoid deviations from the standard package. Exceptions take extra CPU cycles. Best to be avoided.
+
+Other extensions might be:
+
+- Companies sponsoring travel expenses of speakers
+- A Lanyard sponsorship
+- A drinkup sponsor
+- A speakers dinner sponsor
+
+As a reminder:
+
+- we do NOT offer speaker slots in return for sponsorship, and we want to maintain a standard policy on the pricing.
+- we do NOT sell ever contact details of attendees, if you get such a request point them to the informational registration to get a feel on what kind of crowd is coming
