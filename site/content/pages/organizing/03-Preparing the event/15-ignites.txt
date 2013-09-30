@@ -19,11 +19,11 @@ Here are few tips on making this proces more smoothly:
 - Don't let them run on their own laptops
 - Use a dedicated laptop (avoid any popups etc...)
 
-- Mention again on the day itself:
-  - "Just so you know, your slides will auto advance every 15 seconds, you can't advance them yourself"
+- Mention again on the day itself.
+- "Just so you know, your slides will auto advance every 15 seconds, you can't advance them yourself"
 
 - Have Ignite presenters queue next to the stage and either:
   - start the slidedeck for them.
   - or even build all slides in Slidedeck and build in a bio slide as a interludium and have that autoadvance as well
 
-</pages/ignite-talks-format/>
+[Ignite format page](/pages/ignite-talks-format/)
