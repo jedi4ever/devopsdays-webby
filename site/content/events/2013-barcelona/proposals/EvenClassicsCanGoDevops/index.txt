@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sylvain Loubradou
+title: "Even a classical retail company can go DevOps… With success"
+---
+**Abstract:**
+
+The aim is to explain the long and difficult way done in a classical and quite normal IT department in a classical company towards the DevOps philosophy. We would like to present in a few slides:
+* why we MUST go to DevOps (from a technical and organizational point of view)
+* What we practiced as technics and different improvements
+* Which learning way we used, based on agile practices,
+* The effort done by the people to destroy existing communication and collaboration barriers
+* What we would like to reach as level in the next months / years
+
+**Speaker:**
+Sylvain Loubradou
