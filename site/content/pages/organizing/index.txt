@@ -7,7 +7,8 @@ dirty: true
 sidebar: false
 title: Devopsdays - Organizing Guide
 ---
-<h2>This is work in progress - [Feel free to add a section](https://github.com/jedi4ever/devopsdays-webby/tree/master/site/content/pages/organizing)</h2>
+**This is work in progress - [Feel free to add a section](https://github.com/jedi4ever/devopsdays-webby/tree/master/site/content/pages/organizing)**
+<hr>
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}" %>
 
