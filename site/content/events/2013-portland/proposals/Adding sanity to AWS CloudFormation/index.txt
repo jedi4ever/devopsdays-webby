@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: falst
+ignite: true
+selected: false
+layout: event
+author: Chris Roberts
+title: Adding sanity to AWS CloudFormation
+---
+
+**Abstract:**
+
+SparkleFormation is a helper library that allows building and maintaining of AWS CloudFormation templates in Ruby. It provides novel features like: reusable components, simple merging strategies, and automatic support for future CloudFormation resources. It also can be used with Opscode's knife CLI tool to build CloudFormations from the command line. 
+
+This talk will walk through the key features and demonstrate how the library works in action.
+
+**Speaker:**
+
+Chris Roberts
