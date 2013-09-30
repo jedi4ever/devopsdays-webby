@@ -50,7 +50,7 @@ title: Devopsdays - Organizing Guide
     counter = counter +1
     doc = page.render
 -%>
-<h4><a name="<%= counter %>"></a><%= page.title %></h4>
+<h3><a name="<%= counter %>"></a><%= page.title %></h3>
 <%= doc %>
 <hr>
 <% end -%>
