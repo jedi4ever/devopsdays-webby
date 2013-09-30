@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Bernd Erk
+title: Icinga2 - Redesigning Monitoring
+---
+
+**Abstract:**
+
+On the one hand, people love Icinga/Nagios based monitoring systems for their simplicity and large community. On the other, they hate them for their inadequacies in scaling, inelegance in configuration and meeting the need¹s of today¹s IT architecture.
+
+Last year, the Icinga team decided to deal with these long-standing deficiencies and build a more open and flexible core. The goal was a core that is not only easy to use, but also easy to tailor to different environments, supporting APIs and other components typical to modern infrastructures.
+
+This talk presents the results of this endeavor ­Icinga 2: A new monitoring system in the works that supports distributed modules, outdoes on performance and integrates well with tools such as Logstash, Graphite and Puppet, common to modern architecture.
+
+**Speaker:**
+
+Bernd works at NETWAYS, a company dedicated to open source solutions in Germany and active in the monitoring community since the nineties. After dropping out of the Nagios Community Advisory Board, Bernd was involved in forking Icinga with a group of community members. With a passion for modern IT architecture and all things open source, Bernd is involved in several projects like Icinga and OpenNebula.
