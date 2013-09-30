@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Maciej Pasternacki
+title: Building a Devops Command Center
+---
+
+**Abstract:**
+
+In the previous century, terminal access and a text editor may have been enough to get the system administrator’s job done. Now we have configuration management frameworks, cluster orchestration and command dispatch tools, deployment automation, local virtualization tools, cloud and Platform as a Service client tools as basic building blocks. Modern sysadmin needs a development environment no less sophisticated than his programmer peer, with version control, branching, automated testing, automated documentation, and so on. On the server side there are multiple diagnostic and control panels, including plain old status monitoring, but also complex metrics aggregation, high volume log message processing, continuous integration and testing panels, dashboards, and so on. The wealth and variety of tools needed to manage modern infrastructure can be overwhelming.
+
+Devops culture is about building bridges and inclusiveness. The situation where in-depth knowledge of multiple systems is necessary to even get started working with infrastructure is simply not acceptable. The client environment for sysadmin work and infrastructure development should be quick to set up, easy to get started, and safe to work with.
+
+I am going to describe a “command center” setup successfully deployed with my clients, and developed to minimize time needed for onboarding new team members, give proper documentation and visibility of what tools and commands are available, and provide a consistent experience of one framework rather than a feeling of working with a dozen separate tools that live each in a different world. The effort to publish this setup as a reusable framework is underway; currently, key elements are open sourced in varying state of usefulness:
+
+ - Infrastructure Development Kit, a one-click "omnibus" package containing everything to get started with Chef-based configuration management: https://github.com/3ofcoins/idk/
+ - The Foundation Repository, a filled-in template Chef repository to work with IDK: https://github.com/3ofcoins/foundation/
+ - Odin Authenticator, a simple single sign-on system for Apache/mod_perl, and a companion Odin Authorizer webapp to sign users in via Google Apps account: http://ginzamarkets.github.io/odin_authenticator/
+
+**Speaker:**
+
+Maciej Pasternacki
+
