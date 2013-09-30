@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Chris Roberts
+title: Vagabond - Infrastructure testing and development tool
+---
+
+**Abstract:**
+
+Infrastructure automation development can be time consuming,
+especially when implementing solutions requiring integration and
+testing between multiple nodes. Vagabond aims to accelerate this
+process by decreasing the amount of time and interaction required to
+build complex stacks in development.
+
+Currently targeted at Opscode Chef[1], Vagabond is able to create an
+entire isolated infrastructure stack which not only provides a
+sandboxed development environment but also an integrated testing
+environment. Building off the existing test-kitchen[2] testing suite,
+Vagabond adds cluster style testing support for integration testing.
+It also introduces serverspec[3] to provide more black box acceptance
+style testing.
+
+This talk will start with a brief history on the evolution of
+Vagabond, covering the original problem set, the features that grew
+from the initial solution, and the new features currently being
+implemented. It will then move to a more in-depth look at setting up
+and integrating Vagabond into an example development environment to
+build multi-node stacks. Finally, some simple tests will be reviewed
+and added to the example environment, concluding the presentation with
+a ground up stack build and test run demonstration.
+
+**Speaker:**
+
+Chris Roberts

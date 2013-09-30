@@ -1,0 +1,14 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Assembling a team
+---
+In the devops spirit of collaboration, find people in your region that want to help you run the next awesome event. Finding friends is easier then you think:
+
+- post your interest on the devopsdays or local mailinglists
+- send out a tweet that you'd be interested in running one in your region (use #devopsdays hash tag, we'll pick it up)
+- send a mail to us [info AT devopsdays DOT org](mailto:info@devopsdays.org) and we'll try to connect you to other people in your region
+
+You see, that was easy. This has been the start of many of the events, and the magic works nice everytime, believe us.

@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Selecting a venue
+---
+You got friends, and you have a date (no, not that kind of date) , what's next? You guessed it, the perfect venue!  If you can take this hurdle, you're 80% there! gogo!
+
+Let's first see what we need from a venue from a space point:
+
+- A (big) room where everybody can sit comfortable and listen to the talks. This of course depends on the number of attendees you expect. We can have done events with a minimum of 70 people - 400 people
+- A number of break-out rooms for the afternoon sessions:
+  - being able to put the chairs in a circle for better discussion
+  - you can be creative by splitting the big room in smaller rooms but in practice it works out less
+  - we usually go for a few smaller (10-20) and few bigger (20-40) rooms
+  - you can still use the big room for sessions too
+- Room to hangout: not everybody attends sessions, and just want to hang around. If there is some room for the food, or a creative room that's a plus.
+- Sponsor space: Gold sponsors usually get a table to have presence. Make sure they have a nice spot at the event (typically close to the food or hangout space)
+
+Besides having enough space, there are other things to consider:
+
+- is the venue easily reachable by public transport
+- is there (affordable) hotel accomodation nearby (doing it in a hotel makes it easy for foreign guests)
+- does the venue allow for catering by other parties, or what are the options for food
+- has the conference enough wifi/internet capacity: some people might have to do some work, or are on call.
+- can the video be streamed with enough capacity (if livestreaming is an option)
+
+A final big space differentiator is the pricing: as the prices of a devopsdays range from free to pretty low, we can't afford to pay the big bucks there.
+We got around this in the past by:
+
+- lookout for (free) innovation centres, education venues (universities...)
+- find local companies that can act as a host with their facilities
+- find a host sponsor that is willing to pay a venue for you
+
+Don't overcommit on the number of people coming and don't do a pre-payment for the venue yet. Do this when the event gets more body and you've processed a few more steps. The same goes for food: it's always easier to add a few extra plates as opposed to having too many food ordered.
+
+Pfewww, if you can pull this off, you're ready for eternal fame! AND we will burry you with compliments saying how awesome you are!
+It's a good idea by now to appoint a 'venue' liason officer that will take care of any logistics onsite.
