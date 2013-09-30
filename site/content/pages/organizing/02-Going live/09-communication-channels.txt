@@ -20,4 +20,5 @@ __Website:__
 
 __Twitter:__
 
-Unfortuneatly we can't share the twitter credentials easily. But we'll happily retweet stuff.
+- Unfortuneatly we can't share the twitter credentials easily. But we'll happily retweet stuff.
+- Use hashtag __#devopsdays__ for promoting the event. This allows for maximum exposure
