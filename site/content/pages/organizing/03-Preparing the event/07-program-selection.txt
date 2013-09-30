@@ -15,3 +15,15 @@ After a few experiments we have settled on a __two day__ program with the follow
 3. openspaces in the afternoon: a self organizing part where everybody gets to propose a session [More detail on OpenSpace Format](http://devopsdays.org/pages/open-space-format)
 
 During the openspace sessions we usually reserve a slot for 'openspace demo': a session where people can show off their tools, product (both commercial and non-commercial)
+
+You can usually draw on different sources to get speakers:
+- the call for proposals
+- but you might want to contact speakers directly
+
+A few words of advice:
+- No sponsor should be able to buy their way into the program. The schedule should be group decided
+- Usually you will receive more tools talks vs cultural talks. We believe it's important to keep the balance right
+- Tool talks should be at the conceptual level not at the individual day-to-day level
+- We prefer new speakers to come on board
+- We prefer new content that was not presented yet (or was already recorded)
+- Avoid inviting external rock-stars only, we need to make sure that local content/ideas get picked up and spread to the community
