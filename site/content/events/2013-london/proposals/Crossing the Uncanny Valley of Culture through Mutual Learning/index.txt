@@ -22,11 +22,17 @@ Luckily we evolved not only to make silly mistakes but also to cooperate! Once w
 
 
 [1] http://www.opscode.com/blog/2010/07/16/what-devops-means-to-me/
+
 [2] http://xkcd.com/592/
+
 [3] Influence: Science & Practice, Robert Cialdini
+
 [4] You Are Not So Smart, David McRaney
+
 [5] http://stratechery.com/2013/the-uncanny-valley-of-a-functional-organization/ (especially http://stratechery.com/wp-content/uploads/2013/07/collaboration.jpg)
+
 [6] http://infed.org/mobi/chris-argyris-theories-of-action-double-loop-learning-and-organizational-learning/#_Model_I_and
+
 [7] Toyota Kata, Mike Rother
 
 **Speaker:**
