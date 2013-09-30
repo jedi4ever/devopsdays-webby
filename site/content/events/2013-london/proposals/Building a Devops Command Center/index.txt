@@ -28,3 +28,4 @@ I am going to describe a “command center” setup successfully deployed with m
 
 Maciej Pasternacki
 
+I'm a Web infrastructure developer, currently running a small webops consulting company http://3ofcoins.net/. Having started in 2008 as freelance Web developer, I was pulled towards operations and system administration as the only person on the project who wasn't afraid to edit MySQL config file, then learned that DevOps is a word, and stayed here. Too lazy to edit all the config files and copy all the backups by himself, I focus on agile infrastructure and continuous integration and delivery systems that will do this work automatically. I try to fill in the missing pieces of open source toolchain, effects of which can be seen at https://github.com/3ofcoins/.
