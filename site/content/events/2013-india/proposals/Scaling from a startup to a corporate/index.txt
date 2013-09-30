@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Aditya Patawari, BrowserStack
+title: "Scaling from a Startup to a Corporate"
+---
+
+**Abstract:**
+
+How to scale a small startup having around 10 server to an organization with a few hundred to thousands of server. The challenges faced by devops in this scaling and probable solutions to these challenges.
+
+Below is a outline of things I would like to talk about: 
+
+* Why hire devops rather that separate developers and operations team?
+* Invest in automation
+* Encourage internet search
+* Build monitoring early
+* Never do over-logging
+* Pick the right vendors, bargain, try out new things
+* Encourage open source early
+* Have a spine, you'll have long battles with almost everything
+
+
+**Speaker:**
+Aditya Patawari, BrowserStack
