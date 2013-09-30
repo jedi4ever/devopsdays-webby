@@ -48,10 +48,9 @@ title: Devopsdays - Organizing Guide
   counter = 0
   articles.each do |page|
     counter = counter +1
-    doc = ::Nokogiri::HTML(page.render.gsub('"','\''))
-    clean = doc.xpath("//text()").to_s
+    doc = page.render
 -%>
 <h4><a name="<%= counter %>"></a><%= page.title %></h4>
-<%= clean %>
+<%= doc %>
 <hr>
 <% end -%>
