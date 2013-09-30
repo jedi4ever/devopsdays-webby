@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Finding/Handling Sponsors
+---
+Sponsors pay the bill. You rely on them. So what can you do to find them and keep them satified:
+
+- post the event on the devopsdays google group. We informed previous sponsors to subscribe themselves to get information on new events. 
+- post on the twitters , facebook, find local meetups/companies that can help you
+- if you're looking for a contact of a specific company that sponsored before, ping the devopsdays core-organizers to see if they can help.
+- write a blog on the website to expose the event.
+
+Sponsors will usually ask you the following, best to have that information ready (in a PDF mailable form).
+
+- Number of Attendees
+- Background of Attendees (C-level, Developer, Manager) - we usually refer to the registration page for that
+- What they get with what level of sponsorship (refer to the sponsor page)
+- If they can buy a speaker spot (NO , but they can submit a talk, ignite or openspace topic)
+- If they have electricity & network at the venue
+- If they can get a monitor (let them bring their own)
+- Where to ship their stuff and pick it up (don't take responsibility and let them handle that directly with venue)
+- What size of table they have? Find out with the venue and say it has to fit behind the one table
+- If you provide a scanning mechanism (no we don't go that route)
+
+From experience, we found that it helps to have single contact with the sponsor that tracks prospect, payment, discount codes attendees.
+
+When they sponsor they need to supply:
+- a logo for on the website and printed program
+- a URL to link it to
+- a responsible email address
+- the invoice details (including VAT in Europe)
+
+In return you'll :
+
+- put the logo online
+- link it on the website
+- send the official invoice
+- once payment has been receive provide a discount code
+
+On the registration page make them select the special sponsor ticket with their discount.
+Many of the sponsor contact are traveling from event to event, you'll have to sheppard them a bit so they sign up their crew in time.
