@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event
+author: Oscar San Jose
+title: "Devops road at Tuenti."
+---
+**Abstract:**
+
+At some point a startup needs to grow, without losing agileness. It needs well-know processes. It needs developers to know about the infrastructure. It needs tools that expose knowledge, not that hide it. It needs scalable wokflows, based on self service tools, so system admins and release managers are not a bottleneck for developers. It needs tools that enforce processes, not tons of documentation.
+
+So we implemented and put to work some systems to allow developers to do that:
+
+* Tuenti-in-a-box: Private, replicable, virtualized development and testing environment, with all the features production platform has. No more shared development environments.
+* Configcop: Test your application config changes in your development environment, promote it to staging and then to production. Easy, safe, and logged.
+* Flow: Development, integration and release management of code made easy. Promote your own code to main integration branch, build and deploy it, release it, all pressing a button from your preferred ticketing system. Of course transparent information, traceability, stats.
+
+All these tools are developing devops culture inside the company, making easy for developers to deploy and test their code, providing information about all stages and ensuring higher code quality by automating testing and other tedious, risky tasks, such as code versioning, tagging, build and distribution to app markets, etc.
+We would like to share how this ideas and tools helped in Tuenti's development processed, and allowed us to go from 2 releases per week, with multiple hotfixing in a single project, to a multiple project, multiple releases per day, reducing workload and time that code spends ready but unreleased from some days to some minutes.
+
+**Speaker:**
+Oscar San Jose
