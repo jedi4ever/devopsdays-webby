@@ -30,4 +30,6 @@ The downside is that this will require to write 'official' invoices:
 
 Bottom line: if you want to charge a fee (which gives you better financial protection) find a friendly local company to do the invoicing and agree on a fee to compensate their 'overhead'.
 
-To encourage people to register early it's advised to make an early-bird (with a discount about 10%) and regular type of ticket.
+To encourage people to register early it's advised to :
+- make an __early-bird__ (with a discount about 10%) -
+- and a __regular__ type of ticket.
