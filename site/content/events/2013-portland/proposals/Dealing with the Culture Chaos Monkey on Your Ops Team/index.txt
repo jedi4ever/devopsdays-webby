@@ -1,0 +1,56 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Michael Chletsos 
+title: Dealing with the Culture Chaos Monkey on Your Ops Team
+---
+
+**Abstract:**
+
+It is hard to hire Operations people, almost impossible to get good
+ones, and possibly harder than finding a good developer. Often you
+have an Operations team that is siloed from the rest of the teams and
+hide their work. The culture is hard to change. While implementing
+some DevOps notions at the company I work for, I came across this
+exact situation:
+
+* The Developers were starting to collaborate more across teams.
+* The Operations were putting out fires constantly - causing more work
+for themselves
+* Devs and Operations were not collaborating
+* There was open hostility between the groups
+* Operations was hiding their work from each other as well
+* Incomplete solutions were being implemented (killing processes for
+months instead of solving the root causes)
+
+So we had to roll up our sleeves and get everyone working together.
+Since the Operations team was stressed and overworked, we reduced
+their workload to the important tasks of finishing the server
+automation project. We asked developers to do the work they were
+asking Operations to preform themselves, while Operations gave them
+the tools, access and knowledge they needed to proceed. We also asked
+some developers to join the Operations team in helping to automate the
+server configs.
+
+In the end, we saw more collaboration, less stress and projects
+started to flow again. People were collaborating across the teams and
+since there was now more eyes on the problems, they were getting
+solved at a faster pace and with more complete solutions.
+
+Why/Who Cares: This talk will be interesting to those who find
+themselves embroiled in a Culture war at their jobs and will give
+ideas and hints on how to solve the problems in front of them. As
+well, it will show that even the worst environment can be improved
+through collaboration.
+
+**Speaker:**
+
+Michael Chletsos 
