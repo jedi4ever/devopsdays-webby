@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Avishai Ish-Shalom
+title: Dev, Ops and the future of operating systems 
+---
+
+**Abstract:**
+
+Linux distros and Windows NT both date back to 1993 and the principles of the operating systems we use today are rooted in that era. The way we use O/S and software has changed dramatically since, and the role of O/S has shifted considerably. In contrast, O/S themselves still work with the same concepts and ideas, which gave birth to many tools trying to bridge the gap.
+This talk will cover the evolution of O/S in recent years and emerging trends which may prevail in the near future.
+
+**Speaker:**
+
+Avishai Ish-Shalom
+
+sysadmin/ops and opensource coder working for Fewbytes, an Israeli consulting company for operations and automation.
+
