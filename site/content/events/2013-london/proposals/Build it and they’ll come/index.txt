@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bob Strudwick / James Dawson
+title: Build it and they’ll come!
+---
+
+**Abstract:**
+
+In the two years since it began, the Application Lifecycle Management programme at ASOS.com has helped transform software release frequency from one every three weeks to a 2013 average of twice a week. Perhaps unusually in the world of build and deployment automation, the initiative has been spearheaded with a dedicated Platform Engineering team. Along the way, almost every aspect of software development has changed. And we’ve introduced change against a backdrop of major increases in numbers of software engineering teams – from 10 to 20 – and a major replatforming process to support ASOS global business ambitions
+ 
+In this case study style presentation we will explore the background to the programme, it’s initial development stage, lessons learnt and transition to business as usual
+
+1.        Background
+·         Application Lifecycle Management defined (briefly)
+·         ASOS context – scale, architectural legacy, cultural considerations
+·         Initial problem assessment and pain points
+
+2.        Getting off the ground
+·         Creating an automated build/deployment framework – the solution design process (buy vs. build) & the solution itself
+·         Migrating development/test environments to IAAS
+·         How we prioritized objectives and phased implementation  
+ 
+3.       Initial lessons learnt
+·         Difficulties of balancing need to drive change and bring everyone with us
+·         Supporting and collaborating software engineering teams once we went live
+·         Dealing with refusniks
+ 
+4.       Transition to Business As Usual
+·         Collaboration and support in steady state
+·         Shape of the Platform Engineering team now and then
+ 
+5.       Final thoughts
+·         Things we’d do the same, things we do differently
+
+**Speaker:**
+
+Bob Strudwick (bobs@asos.com) has been building and leading software delivery for more than 20 years. He has expertise in the software development lifecycle and more than 10 years of experience using lean, iterative methodologies. Currently running the ALM programme at ASOS.com, which is entering its third year. Bob’s Platform Engineering team were recently runners-up in the annual Team of the Year awards at ASOS.
+
+ James Dawson (james@readsource.co.uk), Tech Lead of the Platform Engineering team, is a technical consultant with experience of designing, primarily Microsoft-based, infrastructure platforms typically working closely with architects & developers to ensure that the software solution is designed with scalability, manageability and security from the outset. He is also heavily involved with creating tooling to promote and improve software development engineering practices and relieve common SDLC-related headaches such as release management, automation and configuration management.
