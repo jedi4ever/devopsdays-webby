@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Ticket and pricing
+---
+It's important to us that the price to entry to a devopsdays is kept very low. We don't people left out because of the price.
+
+__Approach 1: free event__
+Ideally we would go for free events. Experience has learnt us that 'free' events do come with a cost:
+
+- about 30-40% of the people 'grabbing' a free ticket don't show up in the end
+- this makes it harder to plan logistically: how many people will actually show up?
+- if the event has success, people who can make it are left out when the event is full
+
+__Approach 2: minimal fee__
+Asking a minimal fee (covering about foodcost for two days - range of 100USD , 100 Euro) makes us get the best of both worlds:
+
+- The numbers get more accurate that way and more people feel happy about it. 
+- The financial risk for venue/catering cost is spread
+
+The downside is that this will require to write 'official' invoices:
+
+- It requires time to create the invoices (although we've pretty much automated it if you use <http://eventbrite.com>)
+- It might cost some account time because of the administration 
+- Speficially in the EU region:
+  - if a EU company organizes an event in another country, it will have to request a Tax-ID in that other country. The costs of doing that would take a significant portion of the event money.
+  - charges for the event needs to be in the currency of the country where the event will take place
+
+Bottom line: if you want to charge a fee (which gives you better financial protection) find a friendly local company to do the invoicing and agree on a fee to compensate their 'overhead'.
+
+To encourage people to register early it's advised to make an early-bird (with a discount about 10%) and regular type of ticket.

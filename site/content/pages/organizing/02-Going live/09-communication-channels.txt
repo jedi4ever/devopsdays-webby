@@ -1,0 +1,12 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Communication Channels
+---
+If we have all the above going, we're ready to announce your event to the world and we'll setup the event on the website and mailinglist:
+
+- we will create an official organizers, proposals, info email address from the devopsdays event (ex. organizers-yourlocation-year@devopsdays.org)
+- we will setup an event space on the website (we take fork requests via <https://github.com/jedi4ever/devopsdays-webby>)
+

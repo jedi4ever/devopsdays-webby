@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Setting up Registration
+---
+Once pricing has been decided you're ready to setup registration. We've had good experiences with <http://www.eventbrite.com> integrated with <http://paypal.com> payments. 
+The paypal account for payment needs to be linked directly to the company that does the invoicing.
+
+We as the devopsdays organization will create the event for you and give you administrative access. This allows us to track people from the website and do email communication in the future.
+
+Specifically on eventbrite we do:
+
+- ask for the company name and job title (useful to attract other people to the event)
+- ask for T-shirt sizes
+- ask if they require an invoice, if yes ask more details like VAT number if needed
+- ask if there are interested in an evening event meetup
+
+The email or direct-contact information should never be visible on the website or given out to vendors. We value privacy and anti-spam at lot!

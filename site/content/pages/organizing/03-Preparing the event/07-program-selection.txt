@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: The perfect program
+---
+After a few experiments we have settled on a __two day__ program with the following structure:
+
+1. talks in the morning: this follow the more traditional format of a speaker, panel in a plenary session.
+  - There is usually an introductory talk 15m at the beginning of the conference (like state of the union)
+  - We found that regular talks of about 30minutes have the right balance for content.
+  - Panels usually take 40-60 minutes.
+2. followed by a set of ignite talks: 5 minute talks with 20 slides that auto-advance [More detail on Ignite format](http://devopsdays.org/pages/ignite-talks-format)
+3. openspaces in the afternoon: a self organizing part where everybody gets to propose a session [More detail on OpenSpace Format](http://devopsdays.org/pages/open-space-format)
+
+During the openspace sessions we usually reserve a slot for 'openspace demo': a session where people can show off their tools, product (both commercial and non-commercial)

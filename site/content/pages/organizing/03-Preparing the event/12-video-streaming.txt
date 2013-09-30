@@ -1,0 +1,13 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Video - Streaming information
+---
+- For past events we used livestream. The sofware can be installed on windows & mac  - https://new.livestream.com/live-video-tools#mobile-broadcasting
+No linux :(
+- We have mainly used it on mac, there it will read any video device supported and record it both on your local computer + stream.
+- Find out if you can hookup your camera equipment immediatly to a computer and have the software detect it.
+- You can create a free account at livestream to experiment. Do create it as new.livestream.com and NOT at livestream.com.
+As it seems to require different software and has different options.
