@@ -7,6 +7,17 @@ title: Communication Channels
 ---
 If we have all the above going, we're ready to announce your event to the world and we'll setup the event on the website and mailinglist:
 
+__Mailing-lists:__
+
 - we will create an official organizers, proposals, info email address from the devopsdays event (ex. organizers-yourlocation-year@devopsdays.org)
+- all core-devopsdays organizers will receive all mails from this mailinglist
+
+- Announcements can be made to the official [devopsdays googlegroup](https://groups.google.com/forum/#!forum/devopsdays)
+
+__Website:__
+
 - we will setup an event space on the website (we take fork requests via <https://github.com/jedi4ever/devopsdays-webby>)
 
+__Twitter:__
+
+Unfortuneatly we can't share the twitter credentials easily. But we'll happily retweet stuff.
