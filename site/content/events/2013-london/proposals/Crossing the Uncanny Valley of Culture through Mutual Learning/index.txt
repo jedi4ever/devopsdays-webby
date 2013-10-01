@@ -38,3 +38,5 @@ Luckily we evolved not only to make silly mistakes but also to cooperate! Once w
 **Speaker:**
 
 Jeffrey Fredrick
+
+Jeffrey Fredrick is an internationally recognized expert on Continuous Integration. He is a 21-year veteran of the software industry with a mission to change the way software is created. From his varied career Jeffrey brings the perspective of having performed and managed virtual every role in the software development lifecycle. Jeffrey is currently indulging his passion for improving how software organizations operate as CTO & Head of Product at TIM Group, and as the Co-Organizer of the Continuous Integration and Testing Conference (CITCON).
