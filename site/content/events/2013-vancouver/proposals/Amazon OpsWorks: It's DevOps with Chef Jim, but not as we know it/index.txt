@@ -15,17 +15,19 @@ title: "Amazon OpsWorks: It's DevOps with Chef Jim, but not as we know it"
 
 **Abstract:**
 
-Amazon OpsWorks was released in Feb 2013 quietly nestled alongside EC2, CloudFront, Cloudwatch and the many other Amazon Cloud service offerings. At it's core OpsWorks is based on Chef, although Amazons take on Chef bears some noteworthy differences from the Chef you might be used to. 
- 
- In this talk we'll discuss DeNA's use of OpsWorks and it's unique approach to DevOps using Chef, how it works in practice and we'll also highlight the key differences between Amazon OpsWorks Chef and OpsCode's original design for Chef.
+Amazon's OpsWorks was released in Feb 2013 quietly nestled alongside EC2, CloudFront, Cloudwatch and the many other Amazon Cloud service offerings. At it's core OpsWorks is based on Chef, although AWS's take on this bears some noteworthy differences from the OpsCode flavour you might have used.
 
- Lastly we'll summarize what key constraints/limitations you ought to be aware of when considering using OpsWorks which still has a ways to mature further - we're in conversation with the PM for Amazon Opsworks who we'd like to get up from Seattle to highlight some key improvements that they are willing to discuss from their roadmap (TBC).
+In this talk we'll:
+
+ - Highlight the key differences between OpsCode's and AWS OpsWork's Chef
+ - Show how it works in practice and how we at DeNA leveraged OpsWorks
+ - Share pros/cons of some common continuous deployment patterns observed in use by AWS OpsWorks customers
 
 **Speaker:**
 
-Yuichiro Mori - Sr Server Engineer, DeNA
+Yuichiro Mori - Sr Server Engineer, DeNA Vancouver
 
-Jerome Pimmel - Sr Dir Engineering, DeNA
+Jerome Pimmel - Sr Dir Engineering, DeNA Vancouver
 
-Chris Barclay, AWS
+Chris Barclay - Sr Product Manager, AWS OpsWorks
 
