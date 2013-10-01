@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Mikhail Panchenko (mihasya)
+title: What happened to the Dev in DevOps?
+---
+
+**Abstract:**
+
+Great changes have been under way in our industry and or profession. With great
+joy we have watched the advent of the DevOps movement and the formation and
+growth of a community. Yet from my perch on the Dev side of the equation, I
+can't help but feel inadequate. We've changed, sure, but we have not changed in
+a way that is truly commensurate. We've gotten away from the original spirit of
+"Dev+Ops cooperation." Operators have been laboring to grease code's path to
+production, reducing the overhead and friction experienced by developers.
+Meanwhile, many developers get to pass the buck, as organizations falsely
+assume that Devops is a whole new "job" or "team" or just a new name for what
+they used to call "Ops."  What can developers do to return the favor and reduce
+the friction in the lives of operators? What tools and (dare I say it?)
+processes can teams introduce to better shield operators from alert fatigue,
+cognitive overload, sleep deprivation, and boredom? We'll take a look at how
+environment consistency, ease of instrumentation, a little bit of discipline,
+and a few other dev-side nuances can lead to ever more harmony between
+developers and operators.
+
+**Speaker:**
+
+Mikhail Panchenko (mihasya)
