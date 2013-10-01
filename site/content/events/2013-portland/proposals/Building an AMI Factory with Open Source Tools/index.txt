@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Jeremy Carroll
+title: Building an AMI Factory with Open Source Tools
+---
+
+**Abstract:**
+
+Walk through the patterns and anti-patterns creating an build pipeline for fully baked images usable by EC2. Discuss the current system we have implemented Open Source tools.
+
+- Jenkins for workflow management
+- Packer.io for managing image building
+- Cloud-init for run-time modifications to cloud images
+- Puppet for deterministic state enforcement on fresh images
+- BATS for testing images before being released to production
+
+Will walk through challenges we have overcome setting this system up, such as developing a process and tooling around image management. Fact based provisioning via Puppet creating challenges in determinism. Obstacles overcome using ephemeral only images. Tagging and filtering images, and the naming conventions which allows quick search of current builds.
+
+
+**Speaker:**
+
+Jeremy Carroll
