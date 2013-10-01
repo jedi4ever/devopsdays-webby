@@ -1,0 +1,50 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Michael Stahnke
+title: DevOps outside of WebOps. Cultural change from the ground up.
+---
+
+**Abstract:**
+DevOps has been a hot topic for several years, but  it’s nearly always
+talked about with respect to web operations and startups. Since DevOps
+starts culturally, you can take a bottom-up approach and create a
+DevOps mindset inside your organization, even if you’re not deploying
+code twenty times a day.
+
+Culturally, you can win a DevOps ground war. In this talk we’ll
+discuss changes to team, process and culture that can move your
+organization forward. We’ll consider a reactive team mired in
+fire-fighting and incapable of making headway, then watch as change
+that betters the team’s output and perception throughout the
+organization is slowly introduced. We’ll cover root-cause analysis
+efforts, bringing pain forward, experimentation, and selling
+automation and DevOps tooling to management.  This talk will not focus
+on tools, but rather procedural and cultural improvements that can
+make your operations team better.
+
+**Notes:**
+
+This case study is something I lived through at a business unit in one
+of the largest companies in the world, (not an IT company).  I think
+this talk is different than other talks in that DevOps days has always
+hammered culture as the core item needed to succeed, but I felt like
+it rarely offered tips and guides to fix or influence culture. Most
+talks were about already awesome culture, which is great if you can
+find it. Sometimes people can't job hop and relocate to find a better
+culture so they have to influence and change their own business
+culture.
+
+
+**Speaker:**
+
+Michael Stahnke
+
