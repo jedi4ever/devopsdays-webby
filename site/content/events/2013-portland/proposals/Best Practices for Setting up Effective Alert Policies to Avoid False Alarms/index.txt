@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Chris Fregly
+title: Best Practices for Setting up Effective Alert Policies to Avoid False Alarms
+---
+
+**Abstract:**
+
+Provide best practices and examples for creating effective alert policies.  Topics include some of the following:
+  -Taming rollbar and other error-collection mechanisms
+  -Group resources effectively
+  -Avoid static thresholds in favor of dynamic, adaptive thresholds
+  -Document alert response for others
+  -Think twice about the importance of the alert at setup and documentation time 
+  -Understand and prepare for anomalies caused of external events (examples from Netflix:  Oscars, Ski Week, Super Bowl, etc)
+  -Maintain communication with your customers to understand bursts, etc.
+
+**Speaker:**
+
+Chris Fregly, DevOps Evangelist @ Stackdriver.  Formerly @ Netflix.
