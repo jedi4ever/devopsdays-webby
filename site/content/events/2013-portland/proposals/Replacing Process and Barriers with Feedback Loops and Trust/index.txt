@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Tim Smith
+title: Replacing Process and Barriers with Feedback Loops and Trust
+---
+
+**Abstract:**
+
+Traditional organizations operate in silo'd environments isolating
+development from operations. Within that structure operations teams
+create processes and intentional gates to limit the access and damage
+to infrastructure by development teams. Processes and gates are
+created as Ops often feel they have ownership, and a responsibility to
+prevent damage to infrastructure.
+
+While intended to prevent damage the gates and processes create
+division amongst teams, which leads to further customer-impacting
+errors. These structures are created with the best of intentions, but
+are not the most effective technique.
+
+Effective Devops organizations give developers full access to
+infrastructure, and at the same time expect developers to own the
+outcome of their coding and changes. Technologies such as advanced
+monitoring / metrics systems, continuous integration testing, and
+automated failure alerting give feedback post-change. These
+technologies allow for a rapid deployment pace, which lessens the risk
+of individual changes, and allows for easier troubleshooting in the
+event of a failure. In addition, bringing development into the
+production environment encourages dialog and trust between teams,
+which leads to a better, easier to support product.
+
+**Speaker:**
+
+Tim Smith
