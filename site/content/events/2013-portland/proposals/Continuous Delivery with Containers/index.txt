@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Tim Dysinger
+title: Continuous Delivery with Containers
+---
+
+**Abstract:**
+
+Containers provide us with a friendly technology that allows us to package our applications as an operating system image.  We can use containers in three distinct ways within our software delivery cycle.
+
+1) Containers enable developers to easily assemble & deploy their applications on a clean-room OS image.  No need to learn Chef or Puppet for Java developers.  No need to learn Salt for those Rails guys.   We just package a container and we are ready to start testing and deploying.
+
+2) Within our CI system we can use containers to close over (or package) the application & configuration files deployed inside a fresh OS image.  We can then ship those versioned images straight to a repository & on to the software delivery pipeline.  This is again done with the same developer-created container packaging checked into the base of the project.  Very simple.
+
+3) We can use containers to deploy & test the application in our CI system.  This is very useful in that we can start with a clean OS image, deploy, test and then quickly dispose of the mess after the integration/unit tests are run.  Think of it as a diaper for test-run that may get messy.  Nice and clean.  Keeps our CI host fresh and scientific.
+
+In the talk I'll demonstrate these 3 uses of containers and show a CI build system where packaging and testing is executed.  I'll then show how easy it is to deploy the build artifact (container image) into a staging/production setting.
+
+**Speaker:**
+
+Tim Dysinger
