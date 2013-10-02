@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Sean O'Connor
+title: Deploying all day without breaking the Internet
+---
+
+**Abstract:**
+
+When operating at a certain scale, things can get hard. In addition to
+dealing with a large volume of requests/data, downtime becomes less
+and less acceptable.
+
+Often as web companies get big, they face a pair of opposing
+challenges 1. Not breaking the Internet - if a major service stops
+working, people notice. Users can't do what they want to do and the
+trust people place in the service provider can be lost. 2. Moving fast
+- Product companies need to continually adapt to change and build new
+tools to provide more value to their users.
+
+This presents the eternal challenge of accomplishing both stability
+and speed. In this talk we'll cover the processes, approaches, and
+tools that one company uses to do over 20-30 deploys each day to over
+400 servers without causing any major disruptions to service.
+
+Some of the topics to be covered include:
+
+  - Benefits of Service Oriented Architecture
+  - Designing with ops in mind from day one
+  - The power of NSQ (realtime distributed messaging)
+  - Asynchronous > Synchronous (except when it isn't)
+  - Designing for predictability
+  - Route around failure (via hostpool)
+  - Automate + Monitor ALL THE THINGS
+  - Peer review for code + process
+
+**Speaker:**
+
+Sean O'Connor
