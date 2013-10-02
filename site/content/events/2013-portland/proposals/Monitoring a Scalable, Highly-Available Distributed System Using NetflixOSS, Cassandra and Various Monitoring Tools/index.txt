@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Chris Fregly
+title: Monitoring a Scalable, Highly-Available Distributed System
+Using NetflixOSS, Cassandra and Various Monitoring Tools
+---
+
+**Abstract:**
+
+In this talk, I present a cloud-native reference architecture called
+FluxCapacitor (www.fluxcapacitor.com) that demonstrates most of the
+key NetflixOSS components as well as Cassandra running on AWS.
+
+FluxCapacitor emphasizes monitoring, metrics collection, and alerting.
+I'll compare self-hosted solutions such as Graphite/Nagios to hosted
+solutions such as Stackdriver.
+
+**Speaker:**
+
+Chris Fregly
