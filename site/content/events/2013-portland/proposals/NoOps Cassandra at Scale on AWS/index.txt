@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Chris Fregly
+title: NoOps Cassandra at Scale on AWS
+---
+
+**Abstract:**
+
+At Stackdriver, we rely heavily on Cassandra running in AWS to store,
+analyze, and query ~1.5 billion data points per day.
+
+In this presentation, we highlight our reasons for choosing Cassandra
+over other platforms as well as describe the novel architecture that
+allows us to tolerate failures inherent to cloud environments.
+
+We share tips, tricks, and best practices for running Cassandra on AWS
+with Little-to-NoOps.
+
+**Speaker:**
+
+Chris Fregly

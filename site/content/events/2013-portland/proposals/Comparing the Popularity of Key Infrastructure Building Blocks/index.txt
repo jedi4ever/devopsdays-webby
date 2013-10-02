@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Chris Fregly
+title: Comparing the Popularity of Key Infrastructure Building Blocks
+---
+
+**Abstract:**
+
+At Stackdriver, we've collected infrastructure-usage data from
+hundreds of customers running on AWS.  
+
+We'll share this aggregated data comparing the absolute and relative
+popularity of following infrastructure building blocks:
+
+  - Cassandra vs. MongoDB vs. DynamoDB vs. RDS vs. MySQL vs. Postgres
+  - Nginx vs. Apache
+  - Memcache vs. Redis vs. Elasticache
+  - CollectD vs. StatsD
+  - Windows vs. Linux
+  - RabbitMQ vs. SQS
+  - Solr vs. ElasticSearch vs. CloudSearch
+
+We'll also break down the popularity data by AWS region which leads
+to some interesting results.
+
+How does your infrastructure compare?
+
+**Speaker:**
+
+Chris Fregly
