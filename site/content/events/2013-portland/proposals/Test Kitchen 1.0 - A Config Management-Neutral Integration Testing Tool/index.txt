@@ -10,7 +10,7 @@ ignite: false
 selected: false
 layout: event
 author: Fletcher Nichol
-title: Infrastructure as Code, From a Developer's Point of View
+title: Test Kitchen 1.0 - A Config Management-Neutral Integration Testing Tool
 ---
 
 **Abstract:**
