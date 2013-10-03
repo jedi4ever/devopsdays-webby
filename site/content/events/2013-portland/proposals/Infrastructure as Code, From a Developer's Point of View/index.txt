@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Fletcher Nichol
+title: Infrastructure as Code, From a Developer's Point of View
+---
+
+**Abstract:**
+
+Infrastructure as Code. Catchy phrase and sounds good on paper, right? But what does that really mean? What would it take to model a complex system as a work of software?
+
+In this talk we frame the problem through the lens of a software engineering process. We will look at what goes into version control, collective code ownership, feature branching and environments, testing strategies, refactoring, and deployment among some of the topics. Put on your "Dev" hat and see what happens when we expand on the Code metaphor.
+
+**Speaker:**
+
+Fletcher Nichol is a software developer from Edmonton, Canada who has worked in jobs ranging from systems administrator to web application developer. He spends far too much time writing open source software and far too little time playing the drums. He is active in many automation and testing projects such Vagrant and Chef and is the lead developer of Test Kitchen 1.0. Fletcher works for Heavy Water Operations, helping companies of all sizes automate and scale their business.
