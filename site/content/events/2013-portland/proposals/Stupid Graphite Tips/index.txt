@@ -10,7 +10,7 @@ ignite: true
 selected: false
 layout: event
 author: Jason Dixon
-title: Graphite Tipe
+title: Stupid Graphite Tips
 ---
 
 **Abstract:**
