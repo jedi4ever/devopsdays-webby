@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Jason Dixon
+title: Graphite Tipe
+---
+
+**Abstract:**
+
+This will be an ignite talk demonstrating a number of "Graphite Tips" similar to those found on my blog (http://obfuscurity.com/Tags/Graphite). Each will be performed step-by-step on a live demo system, with explanations along the way.
+
+
+**Speaker:**
+
+Jason Dixon
