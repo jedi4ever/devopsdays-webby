@@ -11,6 +11,7 @@ filter:    erb
 { :image => "simple.png", :name => "Simple", :link => "http://simple.com/"},
 { :image => "iovation.png", :name => "iovation", :link => "http://iovation.com/"},
 { :image => "puppet.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
+{ :image => "rentrak.png", :name => "Rentrak", :link => "http://rentrak.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
