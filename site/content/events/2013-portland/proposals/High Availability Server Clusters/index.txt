@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: D. Cooper Stevenson
+title: High Availability Server Clusters
+---
+
+**Abstract:**
+
+This presentation describes the process by which services remain online even after a catastrophic failure. DRBD, Heartbeat and Pacemaker (all OSS) automatically fail the replicated mass storage arrays and server daemons to the cluster's standby server. I will present a best practice guide for the technologist building her own cluster. I will further provide practical (i.e. database) examples.
+
+Production servers must stay online. Hardware and networking failures are among the primary causes of downtime.
+
+Wouldn’t it be nice to have a system that reliably failed over to another server when Moore’s Law strikes? Wouldn’t it be nice if the standby server takes over without interruption of service to the users?
+
+Since the Linux kernel 2.6.33, a system for replicating the server’s storage comes built-in. The Distributed, Replicated Block Device, or DRBD, replicates a system’s mass-storage “block for block.” DRBD, along with the OSS Heartbeat and Pacemaker, lets your server stack automatically failover to a standby should the primary server fail.
+
+So, if you'd rather sleep at night rather than worrying about your local or cloud services staying online, this presentation is where it's at!
+
+**Speaker:**
+
+D. Cooper Stevenson

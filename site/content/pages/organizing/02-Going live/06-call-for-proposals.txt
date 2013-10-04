@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Call for proposals
+---
+With the above program structure in mind, you're ready to organize the call for proposals. What really helps is to set an official conference theme on the subject you're looking.
+
+Within the context of this theme (but other proposals can work too) we look for:
+
+- no speaker-spots can be bought by sponsors: not ever - period.
+- encourage new content: if the content has already been presented/published online we will consider it but it's less attractive. We want to stimulate the creation of new content as much as we can, as part of the goal is to record and spread the ideas from these sessions
+- favor new speakers: everyone get's his shot, not?
+- encourage bold subjects: we don't want to hear the same things over and over , do we? This avoids us becoming an echo-chamber of ideas
+- shy away from specific technology/product talks: always try to elevate it to the conceptual part
+- balance between technical and cultural content: for specific tools talk there are the openspaces not the main conference talks
+
+We usually have 3 conference slots/day + ignite talks. Openspace sessions are scheduled during the conference, not ahead of time (exception being the demo-openspace)
+
+For people to respond to the call for proposals we create a specific address (proposals-yourlocation-year@devopsdays.org). Also proposals will be published on the website, this both for inspiration and commenting by others.
+The selection doesn't have to be finished when you announce things, it's ok to leave to space until the end. Still, we found that a finished schedule helps for attendees to convince their boss or themselves to attend or not.
+
+If people qualify as a speaker:
+
+- they get a free ticket to the event
+- we don't do speaker-fees, sorry
+- travel-fees can be discussed but are rather exceptionally
+- we ask speakers to stay for both days, not just for the talk
+- ignite speakers do it for the glory and 5-minutes of fame :)
+
+Don't be surprised if proposals don't flow in fast. People usually wait a bit before sending it in and need some extra calls. It's good to have a backup plan and contact individual speakers as well.
+
+It works best if you dedicate a person/pair to respond to proposals/speakers and handling communication. This for both ignite and conference talks.
+The selection is done by the complete organizers (including the core-organizers) and is a shared effort.

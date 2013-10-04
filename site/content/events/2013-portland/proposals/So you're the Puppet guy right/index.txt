@@ -1,0 +1,60 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Spencer Krum
+title: "So you're the Puppet guy right?"
+---
+
+**Abstract:**
+
+This is a talk about my experience at my employer UTi Worldwide Inc.
+When I began a few months ago we had a Puppet infrastructure set up by
+a contractor that didn't do anything and wasn't being touched. I was
+brought in to change that and bring the light of automation to the
+cave of the uber-corporate world. I thought my biggest challenge would
+be technical, upgrading old Puppet infrastructure and automating app
+deployment with Puppet. What I found was that my biggest challenge was
+cultural. I needed to break down mental barriers and old habits, I
+needed to reframe DevOps for an older generation of administrators, I
+needed to teach not only the tools but the workflow and the mental
+patterns of DevOps. I needed to lower the price of admission to the
+automation expo. And most of the things I tried didn't work.
+
+This is going to be my story of how we went from no Puppet, to me
+sitting in the corner being the Puppet guy, to the whole team working
+with Puppet, version control and data driven infrastructure over the
+course of a few months. I'm going to talk about what I tried to do to
+engage my team that didn't work, what did work, and what I would do
+differently if I could do it all over again.
+
+The title of this talk comes from what people would come up to my cube
+and say to me. The team wanted to use Puppet, but for a while that
+meant having the 'Puppet guy' do it, not the whole team working
+collaboratively on a corpus of Puppet code.
+
+I'm giving this talk primarily to reach the people who want to DevOps
+but they're meeting resistance in their organization.
+
+I've never given this talk before, but I've talked at PuppetConf,
+Cascadia IT Conf, Open Source Bridge, and a few user groups in
+Portland, including PdxDevOps and Puppet Users Group. I am a
+comfortable public speaker and I usually get high marks for energy and
+humor. I am a co-author of the soon-to-be-published second edition of
+Pro Puppet (originally by James Turnbull and Jeff McCune.)
+
+I'm mostly talking about our adoption of the Puppet tool, but this
+will not be a talk about Puppet, it will be a talk about affecting
+change and adoption of a new workflow. The entire talk could easily be
+s/Puppet/Chef/g or s/Puppet/salt/g.
+
+**Speaker:**
+
+Spencer Krum

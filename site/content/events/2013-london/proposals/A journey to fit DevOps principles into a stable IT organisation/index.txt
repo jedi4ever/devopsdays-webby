@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gareth Wharton
+title: A journey to fit DevOps principles into a stable IT organisation
+---
+
+**Abstract:**
+
+At Hiscox, We've been challenged by our business teams to “increase the pace of change”.  Early in 2013 we setup a project to work out the best way to do this.  We've used lean principles to look at all stages of the software lifecycle to see where we can get better, and while DevOps is a significant piece of the puzzle there are a number of other areas we need to improve.  We are part way through this journey and have just agreed what we are going to change, having already agreed the problem areas we need to fix.  The presentation hope to illustrate the journey we are on, what has gone well, what didn't go so well, and here's some things we'd do different.
+
+**Speaker:**
+
+Gareth Wharton – Head of Architecture and Innovation at Hiscox
+
+Gareth joined Hiscox in 2006, as an infrastructure project manager, leading a wide range of projects, including 2 data centre moves.  Later transitioning to Infrastructure architect and most recently as head of Architecture  responsible for the Solution Architecture team, as well as overall group IT architecture, including all significant architectural decisions (Enterprise, Application, and Infrastructure). Working closely with each of our 6 business units to ensure a cohesive architecture to meet their business goals. Prior to joining Hiscox Gareth was in similar roles at Aon for the prior 9 years.
+
+

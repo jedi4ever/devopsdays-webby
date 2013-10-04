@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Distributing the work
+---
+With the organizers it's best to discuss the following tasks/responsabilities. Of course this is not set in stone, but it helps for people to focus on different tasks
+
+- Person/Pair handling talk proposals
+- Person/Pair handling ignite proposals
+- Person/Pair handling website updates
+- Person/Pair handling 'local' sponsors
+- Person/Pair handling registration, invoicing, questions
+- Person/Pair handling venue,catering,local things, hotel
+- Person/Pair handling t-shirts
+- Person/Pair handling evening event logistics

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+layout: event
+author: Michael Collins
+title: Lessons learned trying to implement DevOps in a rapidly growing environment
+---
+
+**Abstract:**
+
+Demonware as a company has grown and scaled rapidly across many axis; teams, staff, services, infrastructure. We made relatively early attempts to embrace DevOps - attended velocity first in 2009, established a DevOps team in early 2011 (disbanding it a year later), have 100+ internal puppet modules with Continuous Deployment to production yet we still struggle to articulate DevOps within the company and bridge the Dev vs Ops divide, especially when everyone is busy and has some game to ship. This talk covers a history of “DevOps” at Demonware covering what worked and more importantly what didn’t, and with the benefit of hindsight suggests some possible real world approaches for rolling out DevOps in your organisation.
+
+**Speaker:**
+
+Michael Collins, Principal Systems Engineer at DemonWare
+

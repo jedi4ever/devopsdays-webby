@@ -24,4 +24,4 @@ In this talk I will bare my soul - tell you all about the terrible mistakes I've
 
 Stephen Nelson-Smith
 
-CTO at Strategic Blue; Devops/Cloud Visionary; Author of 'Test-driven Infrastructure with Chef' and forthcoming 'Chef: The Definitive Guide', Opscode Chef trainer.
+Principal Consultant at Atalanta Systems; Devops/Cloud Visionary; Author of 'Test-driven Infrastructure with Chef' and forthcoming 'Chef: The Definitive Guide', Opscode Chef trainer.

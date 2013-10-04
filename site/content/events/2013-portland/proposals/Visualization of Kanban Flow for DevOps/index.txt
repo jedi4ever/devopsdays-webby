@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: true
+selected: false
+layout: event
+author: Greg Borchers
+title: Visualization of Kanban Flow for DevOps
+---
+
+**Abstract:**
+
+Ignite talk to quickly describe a common visualization problem DevOps
+and a possible solution.
+
+Visualization of the flow present in a kanban board is difficult,
+without actually reading the details. The ignite talk will present an
+idea that allows an "across the room grok" of what is going on. The
+goal is that with the visualization at arms length, the viewer will be
+able to understand the key information This ignite talk will describe
+a visualization for a Kanban board that improves the ability to see
+the level of active tasks that are working/waiting and undone/done.
+
+This is important to DevOps members because kanban is becoming a
+common way of managing flow.
+
+The standard boards are useful up close, but a better visualization is needed.
+
+**Speaker:**
+
+Greg Borchers

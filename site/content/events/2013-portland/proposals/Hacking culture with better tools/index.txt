@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Luke Kanies
+title: Hacking culture with better tools
+---
+
+**Abstract:**
+
+Everyone knows technology can't solve political problems, but
+sometimes software can make political problems small enough to make
+them tractable. This talk will cover specific ways that software can
+shrink political and cultural barriers, such as getting teams to work
+together, spreading best practice across an organization, converting
+from a push to a pull orgnaization, and focusing on the goal rather
+than the mechanism. It will include cases from both within a
+high-growth company and from the perspective of a software purveyor,
+and we will cover both good examples and horrible warnings.
+
+For example, many people try to switch from a culture of manually
+maintaining systems to a fully automated world by rebuilding
+everything, but as most developers could tell you, full rewrites
+rarely work. Instead, we've seen many organizations successfully
+change both the infrastructure and the team mentality by starting
+small, building credibility over time, and always making the better
+ways easier to do than the old ways.
+
+Poor communication is also often a major source of cultural friction.
+We have seen many cases where increases in communication, and
+reduction in the cost of communication, quickly ramp up the gears of
+change.
+
+Conversely, strategic initiatives tend to cause everyone to lose sight
+of their core jobs, or gain no traction because people do not want to
+let the ball drop. With enough leadership and support, they can work,
+but they're far more likely to fail, and fail big, than a more
+guerrilla-style effort.
+
+**Speaker:**
+
+Luke Kanies

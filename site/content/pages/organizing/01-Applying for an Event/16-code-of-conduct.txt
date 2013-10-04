@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Code of Conduct
+---
+The text below serves as a basis to use as a code of conduct for events:
+
+Inclusiveness and respect for differences are core devops values, and we invite you to help us make each devopsdays conference a place that is welcoming and respectful to all participants. Attendees that are acting in a manner not consistent with these values may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
+
+Contact Information
+
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact one of the following conference organizers (via phone or SMS):
+
+** Insert contact of local organizers here**
+
+Conference organizers will be happy to address any issues and assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.

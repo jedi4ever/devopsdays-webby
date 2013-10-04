@@ -3,219 +3,56 @@ extension: html
 filter:
 - erb
 - markdown
-title: Organizing a devopsdays v0.1
+dirty: true
+sidebar: false
+title: Devopsdays - Organizing Guide
 ---
-## Introduction
-Congratulations! The fact that you have reached this page means you at least have interest in spreading the 'devops' love to world.
-Back in 2009 when we organized the first event, we were probably as excited as you are now. But we were also bit 'scared' and full of questions:
-how does this work? how do we get sponsors? what is the first thing we have to do?
+**This is work in progress - [Feel free to add a section](https://github.com/jedi4ever/devopsdays-webby/tree/master/site/content/pages/organizing)**
+<hr>
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% parent="/#{@eventhome}" %>
 
-We are now about 20 events later and as many gray hairs have appeared on our heads :). Even though every event is a bit unique in it's own way, we've come to a more of less standard approach for organizing these events.
-With this document we want to support you and make you feel at ease of organizing one yourself. Don't worry we'll be there along the way!
+<table>
+<tr>
+<%
+  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "directory", :reverse => false)
+  articles.delete(@page)
+  articles.reject! {|page| page.filename.start_with?('.') }
+  counter = 0
+  articles.sort! { |a,b| a.dir + a.filename <=> b.dir + b.filename }
+%>
+<%
+  oldstep = ''
+  articles.each do |page|
+    counter = counter +1
+    newstep = page.dir.split('/')[2].split('-')[1]
+-%>
+<% if oldstep != newstep %>
+  <% if oldstep != '' %>
+</ul></td>
+  <% end %>
+  <td style=" vertical-align: top";><h3><%= newstep %></h3>
+<ul>
+<% oldstep = newstep
+    end %>
 
-## Finding co-organizers
-In the devops spirit of collaboration, find people in your region that want to help you run the next awesome event. Finding friends is easier then you think:
+<li><a href="#<%= counter %>"> <%= page.title %> </a>
+<% end -%>
+</ul>
+</td>
+</tr>
+</table>
 
-- post your interest on the devopsdays or local mailinglists
-- send out a tweet that you'd be interested in running one in your region (use #devopsdays hash tag, we'll pick it up)
-- send a mail to us [info AT devopsdays DOT org](mailto:info@devopsdays.org) and we'll try to connect you to other people in your region
-
-You see, that was easy. This has been the start of many of the events, and the magic works nice everytime, believe us.
-
-## Finding a date/period
-Now that you have some friends for along the way, next step it finding a date. We usually take the following into consideration to find a good date:
-
-- avoid too much of regional 'devopsdays' overlap: even though devops interest has been strong, we want to spread the events within a region. Think of it as loadbalancing your region. No need to do two events in the same month. We'll provide guidance on keeping track of the global events in a calendar to you can check.
-- avoid overlap in dates with other important local events: with other events happening at the same time the show-up rate might be limited
-- 'piggyback' after/before other events: it's great to get started, people might have travelled already and can be potentially be interested in a pre- or post- conference
-
-Nice work! You got a good idea of a date, one step closer to success!
-
-## The perfect venue
-You got friends, and you have a date (no, not that kind of date) , what's next? You guessed it, the perfect venue!  If you can take this hurdle, you're 80% there! gogo!
-
-Let's first see what we need from a venue from a space point:
-
-- A (big) room where everybody can sit comfortable and listen to the talks. This of course depends on the number of attendees you expect. We can have done events with a minimum of 70 people - 400 people
-- A number of break-out rooms for the afternoon sessions:
-  - being able to put the chairs in a circle for better discussion
-  - you can be creative by splitting the big room in smaller rooms but in practice it works out less
-  - we usually go for a few smaller (10-20) and few bigger (20-40) rooms
-  - you can still use the big room for sessions too
-- Room to hangout: not everybody attends sessions, and just want to hang around. If there is some room for the food, or a creative room that's a plus.
-- Sponsor space: Gold sponsors usually get a table to have presence. Make sure they have a nice spot at the event (typically close to the food or hangout space)
-
-Besides having enough space, there are other things to consider:
-
-- is the venue easily reachable by public transport
-- is there (affordable) hotel accomodation nearby (doing it in a hotel makes it easy for foreign guests)
-- does the venue allow for catering by other parties, or what are the options for food
-- has the conference enough wifi/internet capacity: some people might have to do some work, or are on call.
-- can the video be streamed with enough capacity (if livestreaming is an option)
-
-A final big space differentiator is the pricing: as the prices of a devopsdays range from free to pretty low, we can't afford to pay the big bucks there.
-We got around this in the past by:
-
-- lookout for (free) innovation centres, education venues (universities...)
-- find local companies that can act as a host with their facilities
-- find a host sponsor that is willing to pay a venue for you
-
-Don't overcommit on the number of people coming and don't do a pre-payment for the venue yet. Do this when the event gets more body and you've processed a few more steps. The same goes for food: it's always easier to add a few extra plates as opposed to having too many food ordered.
-
-Pfewww, if you can pull this off, you're ready for eternal fame! AND we will burry you with compliments saying how awesome you are!
-It's a good idea by now to appoint a 'venue' liason officer that will take care of any logistics onsite.
-
-## Ticket and pricing
-It's important to us that the price to entry to a devopsdays is kept very low. We don't people left out because of the price.
-
-__Approach 1: free event__
-Ideally we would go for free events. Experience has learnt us that 'free' events do come with a cost:
-
-- about 30-40% of the people 'grabbing' a free ticket don't show up in the end
-- this makes it harder to plan logistically: how many people will actually show up?
-- if the event has success, people who can make it are left out when the event is full
-
-__Approach 2: minimal fee__
-Asking a minimal fee (covering about foodcost for two days - range of 100USD , 100 Euro) makes us get the best of both worlds:
-
-- The numbers get more accurate that way and more people feel happy about it. 
-- The financial risk for venue/catering cost is spread
-
-The downside is that this will require to write 'official' invoices:
-
-- It requires time to create the invoices (although we've pretty much automated it if you use <http://eventbrite.com>)
-- It might cost some account time because of the administration 
-- Speficially in the EU region:
-  - if a EU company organizes an event in another country, it will have to request a Tax-ID in that other country. The costs of doing that would take a significant portion of the event money.
-  - charges for the event needs to be in the currency of the country where the event will take place
-
-Bottom line: if you want to charge a fee (which gives you better financial protection) find a friendly local company to do the invoicing and agree on a fee to compensate their 'overhead'.
-
-To encourage people to register early it's advised to make an early-bird (with a discount about 10%) and regular type of ticket.
-
-## Registration
-Once pricing has been decided you're ready to setup registration. We've had good experiences with <http://www.eventbrite.com> integrated with <http://paypal.com> payments. 
-The paypal account for payment needs to be linked directly to the company that does the invoicing.
-
-We as the devopsdays organization will create the event for you and give you administrative access. This allows us to track people from the website and do email communication in the future.
-
-Specifically on eventbrite we do:
-
-- ask for the company name and job title (useful to attract other people to the event)
-- ask for T-shirt sizes
-- ask if they require an invoice, if yes ask more details like VAT number if needed
-- ask if there are interested in an evening event meetup
-
-The email or direct-contact information should never be visible on the website or given out to vendors. We value privacy and anti-spam at lot!
-
-## Program structure
-After a few experiments we have settled on a __two day__ program with the following structure:
-
-1. talks in the morning: this follow the more traditional format of a speaker, panel in a plenary session.
-  - There is usually an introductory talk 15m at the beginning of the conference (like state of the union)
-  - We found that regular talks of about 30minutes have the right balance for content.
-  - Panels usually take 40-60 minutes.
-2. followed by a set of ignite talks: 5 minute talks with 20 slides that auto-advance [More detail on Ignite format](http://devopsdays.org/pages/ignite-talks-format)
-3. openspaces in the afternoon: a self organizing part where everybody gets to propose a session [More detail on OpenSpace Format](http://devopsdays.org/pages/open-space-format)
-
-During the openspace sessions we usually reserve a slot for 'openspace demo': a session where people can show off their tools, product (both commercial and non-commercial)
-
-## Call for proposals
-With the above program structure in mind, you're ready to organize the call for proposals. What really helps is to set an official conference theme on the subject you're looking.
-
-Within the context of this theme (but other proposals can work too) we look for:
-
-- no speaker-spots can be bought by sponsors: not ever - period.
-- encourage new content: if the content has already been presented/published online we will consider it but it's less attractive. We want to stimulate the creation of new content as much as we can, as part of the goal is to record and spread the ideas from these sessions
-- favor new speakers: everyone get's his shot, not?
-- encourage bold subjects: we don't want to hear the same things over and over , do we? This avoids us becoming an echo-chamber of ideas
-- shy away from specific technology/product talks: always try to elevate it to the conceptual part
-- balance between technical and cultural content: for specific tools talk there are the openspaces not the main conference talks
-
-We usually have 3 conference slots/day + ignite talks. Openspace sessions are scheduled during the conference, not ahead of time (exception being the demo-openspace)
-
-For people to respond to the call for proposals we create a specific address (proposals-yourlocation-year@devopsdays.org). Also proposals will be published on the website, this both for inspiration and commenting by others.
-The selection doesn't have to be finished when you announce things, it's ok to leave to space until the end. Still, we found that a finished schedule helps for attendees to convince their boss or themselves to attend or not.
-
-If people qualify as a speaker:
-
-- they get a free ticket to the event
-- we don't do speaker-fees, sorry
-- travel-fees can be discussed but are rather exceptionally
-- we ask speakers to stay for both days, not just for the talk
-- ignite speakers do it for the glory and 5-minutes of fame :)
-
-Don't be surprised if proposals don't flow in fast. People usually wait a bit before sending it in and need some extra calls. It's good to have a backup plan and contact individual speakers as well.
-
-It works best if you dedicate a person/pair to respond to proposals/speakers and handling communication. This for both ignite and conference talks.
-The selection is done by the complete organizers (including the core-organizers) and is a shared effort.
-
-## Sponsoring
-In the past we've worked with the following sponsor packages:
-
-- Platinum sponsors: those are sponsors that will sponsor a whole year of devopsdays. They will get listed before any other sponsors and get discounts on individual events sponsorships. (package under development)
-- Host (cost of venue): if a company sponsors the venue/food they will be acknowledged as a Host sponsor. Their logo will be directly visible on the main event page. They also have the opporunity to do a pre/post event meetup that will get promoted. And of course they get the same benefits as Gold and Silver sponsors
-- Gold (2500-3000 Euro): 5 free tickets + a 'promo' spot during talk intermissions + the ability to have a simple table/sponsor presence at the venue.
-- Silver (1000 Euro): 2 free tickets + gets you a few cool shoutouts, this is more of a support type of sponsorship. Just because they're awesome!
-- Media Sponsor: get logo on the site, usually for sponsors spreading the word
-
-We want to avoid the traditional high price model for sponsors. We believe that the more companies that sponsor, the better: it amplifies the ideas and shows that many companies subscribe to the idea. By doing this sponsors can't claim things, they are all equal.
-
-## Setup official channels
-If we have all the above going, we're ready to announce your event to the world and we'll setup the event on the website and mailinglist:
-
-- we will create an official organizers, proposals, info email address from the devopsdays event (ex. organizers-yourlocation-year@devopsdays.org)
-- we will setup an event space on the website (we take fork requests via <https://github.com/jedi4ever/devopsdays-webby>)
-
-## Announcement & Promotion
-
-We are now ready to promote the event! Isn't this exciting?!
-
-- write a blogpost about it on the devopdays website
-- send out a mail on the devops, agile-sysadmin , devops-toolchain, devopsdays google mailinglists
-- promote it on devopsdays LinkedIn and Facebook group
-- create lanyrd page
-- mail attendees and sponsors from previous events
-
-Congratulations, you are now an official devopsdays organizer!
-
-## Distributing the work
-With the organizers it's best to discuss the following tasks/responsabilities. Of course this is not set in stone, but it helps for people to focus on different tasks
-
-- Person/Pair handling talk proposals
-- Person/Pair handling ignite proposals
-- Person/Pair handling website updates
-- Person/Pair handling 'local' sponsors
-- Person/Pair handling registration, invoicing, questions
-- Person/Pair handling venue,catering,local things, hotel
-- Person/Pair handling t-shirts
-- Person/Pair handling evening event logistics
-
-## How to pay us back
-We expect the following in return:
-
-- recorded video and slides content needs to flow back to the devopsdays website. This helps in building a central place for reference
-- core-organizers get free access to the event
-- we are involved in the selection process of the talks
-- platinum sponsors get access to the event
-- sponsoring runs through the central devopsdays organisation
-- we appreciate money left from 'local' sponsorship. But all the sponsor money is there for your event. We're not planning to get rich on these.
-
-## Other things to keep you busy:
-
-- __T-Shirts__: time to work on a cool design
-- __Hotel-discounts__: if people are travelling they appreciate being together in the hotel, a nice way to get a discount
-- __Evening event__: it's always nice for people to have an openbar or social event at the event.
-- __Video Streaming__: look for a camera man that do the recording, we have a livestream account you can use for broadcasting
-
-### Video Streaming details
-
-- For past events we used livestream. The sofware can be installed on windows & mac  - https://new.livestream.com/live-video-tools#mobile-broadcasting
-No linux :(
-- We have mainly used it on mac, there it will read any video device supported and record it both on your local computer + stream.
-- Find out if you can hookup your camera equipment immediatly to a computer and have the software detect it.
-- You can create a free account at livestream to experiment. Do create it as new.livestream.com and NOT at livestream.com.
-As it seems to require different software and has different options.
-
-## That's it (for now)
-This document isn't finished. We are working on a checklist that you can use during the preparation and the event itself. But the above is enough to get you bootstrapped and have most questioned answered (we hope :)
+<hr>
+<%
+  require 'nokogiri'
+  counter = 0
+  articles.each do |page|
+    counter = counter +1
+    doc = page.render
+-%>
+<h3><a name="<%= counter %>"></a><%= page.title %></h3>
+<%= doc %>
+<hr>
+<% end -%>
