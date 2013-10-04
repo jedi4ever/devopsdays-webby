@@ -1,0 +1,56 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Piyush Kumar
+title: "Importance of Centralized Event-or-Msg collection and NoSQL-or-BigData platform for Analysis"
+---
+
+**Abstract:**
+
+Session will cover following things:
+> * Different type of data sources : Collection, trending and Analysis.
+> * Capturing Events: Why structured data emitted from apps for machines is a better approach.
+> * Centralized Collection of events in distributed environments
+> * Easy access to collected data in consumable form for reporting and Analysis
+
+In the start of the session will try to touch upon the MakeMyTrip Infrastructure setup and the data handling / challenges with Multi-DC/colocation setup.
+Learning’s from the past setup and the need to have new generation of tools!
+
+* Different type of data sources : Collection, trending and Analysis.
+> * Understanding the landscape of data sources both Internal & External(structured, semi-structured, unstructured).
+> * Tools and techniques used for collecting , trending and analytics.
+
+* Capturing Events: Why structured data emitted from apps for machines is a better approach.
+> * Need for standardization: JSON as a standard for capturing events / messages from client and server side applications.
+
+* Centralized Collection of events in distributed environments
+> * Centralized Event Management plays key role in both operational excellence and complete Visibility across different layers.
+> * Key things for implementing solution for the above:
+> * Collection (Event Collector) & Filtering
+> * Indexing & Searching
+> * Easy access to collected data in consumable form for reporting and Analysis 
+> * Reporting & Visualizations
+
+* Best practices for designing such systems where events are collected, managed and made available with complete reliability like :
+> * Use timestamps for every event
+> * Use unique identifiers (IDs) like Transaction ID / User ID / Session ID or may be append unique user Identification (UUID) number to track unique users.
+> * NTP synced same date time / timezone on every producer and collector machine(#ntpdate ntp.example.com).
+> * The 80/20 Rule: %80 or of our goals can be achieved with %20 of the work, so don’t log too much
+
+* BigData Platform for Event Stream Analysis
+> * Hadoop Ecosystem as enabler
+> * Logstash and Couchbase / Elasticsearch integration plugin
+> * Twitter Storm for near realtime analysis
+> * ELSA : an awesome tool
+> * Apache Mahout- for scalable machine learning algorithms
+
+
+**Speaker:**
+Piyush Kumar
