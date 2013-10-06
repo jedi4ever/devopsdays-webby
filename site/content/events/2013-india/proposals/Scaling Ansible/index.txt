@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ausmarton Fernandes, PTC
+title: "Scaling Ansible"
+---
+
+**Abstract:**
+
+Ansible is a relatively new alternative to more popular tools like Puppet or Chef. For smaller infrastructures, it's definitely the best option for it's simplicity and least amount of overhead, but when we need to scale up, it's push-mode architecture is a bit of a let down. However, that's not all; ansible does allow you to scale up with the help of ansible-pull which basically converts ansible's push-mode to a pull-mode. Ansible-pull works just like Chef/Puppet with an agent continuously polling for updates.
+
+
+The session will cover a couple of topics around scaling ansible up to larger infractructures like:
+
+*  Ansible in pull-mode (ansible-pull)
+
+*  Rolling updates
+
+*  Batched orchestration
+
+**Speaker:**
+Ausmarton Fernandes, PTC
+http://lanyrd.com/profile/ausmarton/
