@@ -6,7 +6,7 @@ filter:
 title: Running Ignites
 ---
 Running Ignites can be challenge: people tend to submit them last minute, or they didn't understand the format to well.
-Here are few tips on making this proces more smoothly:
+Here are few tips on making this process more smoothly:
 
 - Ask the Ignite presenters to send the slides upfront
   - An option is to use a Dropbox shared directory
@@ -14,7 +14,7 @@ Here are few tips on making this proces more smoothly:
 
 - PDF is the easiest format to collect all presentations
 - You can run either :
-    - `impress -a 15` <http://impressive.sourceforge.net/>
+    - `impressive -a 15` <http://impressive.sourceforge.net/>
     - adobe acrobat reader in autoadavance mode <http://malektips.com/adobe_reader_7_0019.html>
 - Don't let them run on their own laptops
 - Use a dedicated laptop (avoid any popups etc...)
