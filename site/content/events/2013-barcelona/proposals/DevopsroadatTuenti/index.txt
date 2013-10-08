@@ -25,4 +25,4 @@ All these tools are developing devops culture inside the company, making easy fo
 We would like to share how this ideas and tools helped in Tuenti's development processed, and allowed us to go from 2 releases per week, with multiple hotfixing in a single project, to a multiple project, multiple releases per day, reducing workload and time that code spends ready but unreleased from some days to some minutes.
 
 **Speaker:**
-Oscar San Jose
+Oscar San Jose and Victor Garcia.
