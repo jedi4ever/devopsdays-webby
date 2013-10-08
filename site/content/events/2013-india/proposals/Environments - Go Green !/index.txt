@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sharath, Sudharshan and Madhurranjan
+title: "Environments - Go Green !"
+---
+
+**Abstract:**
+
+Imagine a complex system with several components such as Cassandra, Zookeeper, several web services, custom softwares on an AWS VPC setup spanning multiple regions. To be able to create environments that are elastic in nature (example - you could have a single Cassandra node or an N node ring  OR have N nodes of a similar role), deploy software on them, wire them all up, test them so that they work together in a cohesive manner , all of this in < 20mins for the end users*  and eventually nuke the same within a couple of minutes . We do this regularly for anywhere between 8 to 50 odd machines and this has added tremendous business value for all our stakeholders.
+
+End users consist of QAs, Project Managers, Customer facing consultants so that they can bring up environments on the fly and deploy the chosen software and test / demo them.
+
+
+Technologies that we've used include loads of Vagrant(including plugins) , Facter based Puppet and Mcollective .
+
+**Speaker:**
+Sharath, Sudharshan and Madhurranjan

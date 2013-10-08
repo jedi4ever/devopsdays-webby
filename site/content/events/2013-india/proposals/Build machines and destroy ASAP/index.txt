@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sudharshan, Madhurranjan
+title: "Build machines and destroy ASAP"
+---
+
+**Abstract:**
+
+Vagrant started it , then came docker , and then packer.io and most recently lmctfy.
+
+For someone who starts, it becomes very difficult to choose what they should use. This talk will run you through the what, why, when and how of each one along with cool demos to help you make the right choice in case you already haven't !
+
+**Speaker:**
+Sudharshan, Madhurranjan
