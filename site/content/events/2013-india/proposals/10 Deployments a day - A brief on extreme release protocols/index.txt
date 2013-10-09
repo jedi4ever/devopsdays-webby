@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Vivek Parihar
+title: "10 Deployments a day - A brief on extreme release protocols"
+---
+
+**Abstract:**
+
+A reflection on how we migrated from an era of production deployments once a week to more than 10 deployments a day. The story of transforming a mere sys-admin to super sophisticated DevOps team, armed with multiple tools, scripts and plugins for achieving automations, accuracy and invincible agility. As we continue on our endeavor for further improvisation, I believe its worth sharing the experience with community.
+Tentative topics outline:
+
+* Arming teams for their transformation to DevOps from mere sys-admins.
+
+* Killing manual deployments (manual deployment->capistrano->webistrano)
+
+* Automation
+> * for daily backups
+> * monitoring applications and servers
+> * deploying dependencies
+
+* Saving up time on setting up new instances(using golden image).
+
+* Using LDAP to maintain servers with public key(avoiding individual logins to every server makes it less messy)
+
+* Using Puppet for instantiating multiple servers at once.
+
+* Commissioning our own Cloud Infrastructure.
+
+
+**Speaker:**
+Vivek Parihar
