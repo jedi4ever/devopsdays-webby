@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: true
+selected: false
+layout: event
+author: "Pratima Singh, ThoughtWorks"
+title: "Ready Chef Deploy"
+---
+
+**Abstract:**
+
+Configuration Management and Infrastructure automation has become a must in most development environments. Configuration management tools give us the power of system discovery and inventory.
+
+However, this power is hardly ever used to deploy to environments. We still use traditional tools like Capistrano, gradle, pom etc. Wouldn't it be better not to include an additional tool just for deployment purposes when it can be handled by the existing set of tools being used for configuration management?
+
+This talk aims at people who understand the basics of Chef. I'll introduce the idea of using "knife" as a deploy tool in addition to its defined role of managing nodes, cookbooks, roles, environments etc and querying the Chef Server. This would include a brief look at the deploy plugin code and description.
+
+**Speaker:**
+Pratima Singh, ThoughtWorks

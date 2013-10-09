@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Pratima Singh, ThoughtWorks"
+title: "The Mayonnaise Jar and a Cup of Coffee"
+---
+
+**Abstract:**
+
+Adding a twist to the age old Mayo jar and two golf balls lesson. Consider the Mayonnaise  Jar as a Won project where the Golf balls are the Devs, the pebbles are your BAs and the Sand are the QAs and the cup of coffee that really fills in the Jar is DevOps.
+
+
+This talk will focus on getting all these different roles together and the effect of Continuous Delivery and DevOps on Project Delivery and the popular notion of one click delivery. It'll take the audience through the entire delivery cycle for a project running multiple apps and apis packaged into a product.
+
+
+Learnings : This session should help the attendees in understanding how every role on a project affects delivery and their contributions towards the same. The main feature would be to emphasize on the idea of accepting DevOps as a practice, and not as a role/ person, where Devs and QAs understand the nitty gritty of DevOps and how that can be integrated with their regular stand up tasks.
+
+**Speaker:**
+Pratima Singh, ThoughtWorks
