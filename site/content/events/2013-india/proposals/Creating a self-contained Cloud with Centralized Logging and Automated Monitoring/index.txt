@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pratima Singh, ThoughtWorks
+title: "Creating a self-contained Cloud with Centralized Logging and Automated Monitoring"
+---
+
+**Abstract:**
+
+This talk is a knowledge share from a project implementation using AWS, Loggly and New Relic.
+
+Client : Manufacturer of gaming peripherals and accessories, including headsets, keyboards, mice, gaming surfaces and software.
+
+Requirement : Create a private cloud for users to upload their device configurations and download them at will once they are logged in. This involved creation of consolidated commands to trigger VPC creation, Node creation and bootstrap and Deploy. (Infrastructure Diagram Attached). The commands had to be such that they could span across regions so that multiple VPCs could be set up based on user traffic.
+
+<p><a href="https://googledrive.com/host/0B86nn-kptoWCeS1yUU9fd1BhdDA/New%20Infrastructure%20Set%20Up.png"><img src="https://googledrive.com/host/0B86nn-kptoWCeS1yUU9fd1BhdDA/New%20Infrastructure%20Set%20Up.png" title="Concept related diagram." alt="Concept Related Diagram" style="width:500px;height:300px;" /></a></p>
+
+
+**Speaker:**
+Pratima Singh, ThoughtWorks
