@@ -4,8 +4,8 @@ filter:
 - erb
 - markdown
 dirty: true
+proposal: true
 ignite: true
-talk: true
 selected: false
 layout: event
 author: "Pratima Singh, ThoughtWorks"
