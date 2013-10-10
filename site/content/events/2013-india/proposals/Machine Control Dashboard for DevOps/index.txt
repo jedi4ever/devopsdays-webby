@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Nishant Modak, Revealing Hour Creations
+title: "Machine Control Dashboard for DevOps"
+---
+
+**Abstract:**
+
+Been toying for some time with the idea of putting together a dashboard in physical form as during the early industrial days. #monitoringsucks
+
+With the help of some switches / gears and a Arduino connected to a backend or a raspberry-pi acting as one, one can very well do all devops activities.
+
+Imagine a dashboard (as image below) being used for monitoring RAM / CPU / build status et all.
+
+Push a bottom and there your latest build deployed.
+
+This is more of a thought experiment and a small prototype that I built.
+
+Also some other ideas on devops like lighting up a red bulb at office (aka operation theater) when the site goes down etc.
+
+
+<p><a href="https://googledrive.com/host/0B86nn-kptoWCeS1yUU9fd1BhdDA/machine-control-dashboard.jpg"><img src="https://googledrive.com/host/0B86nn-kptoWCeS1yUU9fd1BhdDA/machine-control-dashboard.jpg" title="Concept related diagram." alt="Concept Related Diagram" style="width:500px;height:300px;" /></a></p>
+
+
+**Speaker:**
+Nishant Modak, Revealing Hour Creations
