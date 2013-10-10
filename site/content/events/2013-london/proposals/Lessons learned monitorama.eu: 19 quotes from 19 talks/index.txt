@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Florentin Raud
 title: Lessons learned monitorama.eu - 19 quotes from 19 talks
