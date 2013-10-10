@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-selected: false
+ignite: true
+selected: true
 layout: event
 author: Otto Jongerius
 title: 37000 snowflakes - 6 guys - 99.99% uptime
