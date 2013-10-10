@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Simon McCartney
 title: Consumerism V Craft

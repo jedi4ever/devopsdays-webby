@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Steve Smith
 title: Opening the inner circle The lesser-known ops teams in your company
