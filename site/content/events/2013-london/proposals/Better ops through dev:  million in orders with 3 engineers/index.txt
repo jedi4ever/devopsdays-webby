@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-selected: false
+ignite: true
+selected: true
 layout: event
 author: Steve Smith
 title: Better ops through dev - $700 million in orders with 3 engineers
