@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-selected: false
+ignite: true
+selected: true
 layout: event
 author: Uri Cohen
 title: "Devops for testing: From 500 on-premise integrations tests to 10000 on 5 different clouds"
