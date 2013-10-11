@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Vivek Parihar
+author: Vivek Parihar, Webonise Lab
 title: "10 Deployments a day - A brief on extreme release protocols"
 ---
 
@@ -36,4 +36,4 @@ Tentative topics outline:
 
 
 **Speaker:**
-Vivek Parihar
+Vivek Parihar, Webonise Lab
