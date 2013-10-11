@@ -21,6 +21,7 @@ filter:    erb
 { :image => "unbounce.png", :name => "Unbounce", :link => "http://careers.unbounce.com"},
 { :image => "colonynetworks.png", :name => "Colony Networks", :link => "http://www.colonynetworks.com"},
 { :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
+{ :image => "pulse-energy.png", :name => "Pulse Energy", :link => "http://www.pulseenergy.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
