@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Isabel Muñoz Vilacides
+title: "The Enemies of Continuous Delivery"
+---
+
+**Abstract:**
+
+What do you really need to reach Continuous Delivery? You can achieve this based on best efforts, but this does not scale, since time is not infinite. How can you evolve your company to reach it? Avoid the enemies Continuous Delivery:
+
+* Manual testing
+
+* Unstable tests
+
+* Execution time of tests
+
+* Lack of automation (processes and tools)
+
+* Lack of visibility of other's work
+
+* Bad communication
+
+**Speaker:**
+Isabel Muñoz Vilacides
