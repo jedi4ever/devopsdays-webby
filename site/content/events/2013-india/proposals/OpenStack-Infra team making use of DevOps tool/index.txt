@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Atul Jha
+title: "OpenStack-Infra team making use of DevOps tool"
+---
+
+**Abstract:**
+
+OpenStack the open source project for building private/public cloud is one of the biggest project written in python. The talk will present the overall picture how DevOps best practice is  utilized to manager such big project with a release cycle of 6 months.
+
+**Speaker:**
+Atul Jha
