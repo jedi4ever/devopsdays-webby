@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Abhishek Kumar, ThoughtWorks
+title: "Raguel - Cleaner Shell Scripting"
+---
+
+**Abstract:**
+
+*_ Raguel : Cleaner Shell Scripting _*
+
+> Why mostly people avoid Shell Scripting?
+>
+> * It's ugly, a mess to maintain and easy to miss out on all constructs.
+>
+> * In almost every implementations, never tested.
+
+> Why still people sometimes depend on Shell Scripts?
+>
+> * For initial system bootstrap in case awesome PXE style is not to support.
+>
+> * For general small system tasks where a full configuration management suite seems overkill.
+
+For example, if I keep spawning new Virtual Machines often and my requirement is to get a specific package upgraded on it and grab output of some commands to confirm correct behavior.
+
+Would I be interested in getting a powerful multi-featured config. management suite to first install, get setup and then perform all this.
+Or if just a "trustworthy clean maintainable" shell script can perform this minor task quickly, would I select that path.
+
+[Raguel : OpenSource @GitHub](https://github.com/abhishekkr/raguel)
+
+If the answer is latter, here will be a quick demo of how. And also how to have tests for that too.
+
+
+**Speaker:**
+Abhishek Kumar, ThoughtWorks
