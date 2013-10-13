@@ -22,7 +22,8 @@ filter:    erb
   { :image => "2u.png", :name => "2u", :link => "http://www.2u.com/"},
   { :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"},
   { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
-  { :image => "salesforce.png", :name => "SalesForce", :link => "http://www.salesforce.com/"}
+  { :image => "salesforce.png", :name => "SalesForce", :link => "http://www.salesforce.com/"},
+  { :image => "mongodb.png", :name => "Mongodb", :link => "http://mongodb.com/"}
 ]%>
 
 <br><br>
@@ -41,8 +42,7 @@ filter:    erb
   { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
   { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://xebialabs.com/"},
   { :image => "cfengine.png", :name => "CFEngine", :link => "http://cfengine.com/"},
-  { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://ansibleworks.com/"},
-  { :image => "mongodb.png", :name => "Mongodb", :link => "http://mongodb.com/"}
+  { :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://ansibleworks.com/"}
 ]%>
 
 <br><br>
