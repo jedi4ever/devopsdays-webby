@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Dawn Foster
 title: What we can learn about DevOps from Science Fiction

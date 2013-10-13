@@ -12,6 +12,7 @@ filter:    erb
 { :image => "iovation.png", :name => "iovation", :link => "http://iovation.com/"},
 { :image => "puppet.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
 { :image => "rentrak.png", :name => "Rentrak", :link => "http://rentrak.com/"},
+{ :image => "collabnet.png", :name => "CollabNet", :link => "http://collab.net/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -43,6 +44,8 @@ filter:    erb
 
 <% @ssponsors = [
 { :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
+{ :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://ansibleworks.com/"},
+{ :image => "boundary.png", :name => "Boundary", :link => "http://boundary.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>

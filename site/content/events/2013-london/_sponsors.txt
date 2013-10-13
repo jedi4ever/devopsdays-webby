@@ -16,7 +16,8 @@ filter:    erb
 { :image => "atalanta-systems.png", :name => "Atalanta Systems", :link => "http://atalanta-systems.com/"},
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://appdynamics.com/"},
 { :image => "normation-cfengine.png", :name => "CFengine - Normation", :link => "http://normation.com/"},
-{ :image => "ca.png", :name => "CA Technologies", :link => "http://ca.com/"}
+{ :image => "ca.png", :name => "CA Technologies", :link => "http://ca.com/"},
+{ :image => "cumulusnetworks.png", :name => "Cumulus Networks", :link => "http://cumulusnetworks.com/"}
 ]%>
 
 <h1>Gold sponsors</h1>

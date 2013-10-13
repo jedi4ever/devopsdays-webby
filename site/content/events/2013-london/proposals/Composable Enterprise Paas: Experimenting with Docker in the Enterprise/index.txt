@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-selected: false
+ignite: true
+selected: true
 layout: event
 author: Simon Vans-Colina
 title: "Composable Enterprise PaaS: Experimenting with Docker in the Enterprise."
