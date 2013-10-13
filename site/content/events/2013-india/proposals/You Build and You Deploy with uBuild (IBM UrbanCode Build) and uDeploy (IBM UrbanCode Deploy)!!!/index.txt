@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ramkumar Kuppuchamy, Ascendant Technology
+title: "You Build and You Deploy with uBuild (IBM UrbanCode Build) and uDeploy (IBM UrbanCode Deploy)!!!"
+---
+
+**Abstract:**
+
+Quality, Good Delivery Methodology and No downtime is what all the customer is looking for!!! Lets meet them using UbranCode Tools!!!
+
+UrbanCode has been recently acquired by IBM, and they are best known for Application Release Automation (ARA). uBuild, uDeploy, uRelease, uProvision (No Longer in these names) are the products offered by IBM UrbanCode. These products are mainly targeting complex and scalable Build and Release Management.
+
+In this presentation I will cover the following:
+
+* Introduction to IBM UrbanCode product line
+
+* Diving Deeper into IBM UrbanCode Build and IBM UrbanCode Deploy Tools
+
+* Product Features and Architecture Overview
+
+* Walk through of Web User Interface Console
+
+* Power of Templates, Workflow, Security, Plugins ,etc..
+
+* Watch and learn - Demo
+
+> Demo : Get the source from Git, use Maven to Build and Deploy to the targets - lets do all with IBM UrbanCode Build and IBM UrbanCode Deploy - Enjoy building artifacts and Deploying!!!
+
+Say NO to weekend and late night build and deployments.
+
+**Speaker:**
+Ramkumar Kuppuchamy, Ascendant Technology
