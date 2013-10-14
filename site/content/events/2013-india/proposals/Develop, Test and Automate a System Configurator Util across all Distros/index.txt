@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Abhishek Kumar, ThoughtWorks
+title: "Develop, Test and Automate a System Configurator Util across all Distros"
+---
+
+**Abstract:**
+
+*_  Develop, Test & Automate a "System Configurator Util" across all Distros _*
+
+>
+> Pre-Context:
+>
+
+OpenStack is the 2nd most popular OSS project with a component Nova handling it's Compute (in easy words: Virtual Machine Management) capability.
+
+Compute need a Hypervisor to delegate Virtual Machine tasks to, Xen Hypervisor is the most popular in ranges of Hypervisor available.
+
+An agent/client on Virtual Machines is required to be handed over the new System Configuration (like name, network config., etc.) to be updated whenever required.
+
+
+>
+> Talk-Context:
+>
+
+Have lead development at OpenStack-Guest-Agent Unix (and hearing things at Windows end) for past few months.
+
+Our main challenges have been developing the same Agent adapting to varied Configuration Styles with different forms of Distros (RedHat Family, Debian Family, Gentoo, ArchLinux, SuSE, FreeBSD) with different popular releases.
+
+Handling the Packaging, Release Updates and Functional Testing scheme across all these Distros.
+
+I will be sharing experience of all the adventures we had and knowledge we gained.
+
+
+***
+
+**Speaker:**
+Abhishek Kumar, ThoughtWorks

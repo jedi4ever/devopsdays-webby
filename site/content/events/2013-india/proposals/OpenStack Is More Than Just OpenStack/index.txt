@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Abhishek Kumar, ThoughtWorks
+title: "OpenStack Is More Than Just OpenStack"
+---
+
+**Abstract:**
+
+*_ OpenStack Is More Than Just OpenStack _*
+
+
+OpenStack as mostly is projected an OSS running Big IaaS for all. It's True.
+
+But it's just the bigger Truth, surrounded with many smaller ones.
+
+OpenStack is made of several other components than just Compute side, which end-up in background supporting Compute facility.
+
+Here I'll quickly discuss how other components are useful in their own way and have far greater potential than just supporting the mighty Compute.
+
+
+**Speaker:**
+Abhishek Kumar, ThoughtWorks
