@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 layout: event
-author: Yuichiro Mori and Jerome Pimmel
+author: Yuichiro Mori, Chris Barclay and Joel Gerard
 title: "Amazon OpsWorks: It's DevOps with Chef Jim, but not as we know it"
 ---
 
@@ -27,7 +27,7 @@ In this talk we'll:
 
 Yuichiro Mori - Sr Server Engineer, DeNA Vancouver
 
-Jerome Pimmel - Sr Dir Engineering, DeNA Vancouver
+Joel Gerard - DeNA Vancouver
 
 Chris Barclay - Sr Product Manager, AWS OpsWorks
 
