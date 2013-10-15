@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Vaidhy Gopalan, Apigee
+title: "Building for five 9s"
+---
+
+**Abstract:**
+
+> The talk will be focussing on building systems are highly reliable and scalable, while being developer friendly.
+
+As devops, we place a lot of emphasis on continuous integration and continuous deployments. However, fast and quick updates can potentially lead to systems that can be unavailable and/or unreliable. For enterprise grade systems, five 9s’ is the golden standard. The two keys features to achieving it are self-healing and auto-scaling. In this presentation, I will be focusing on building scalable systems with high reliability.
+
+We will start exploring various types of systems, from static, stateless web servers all the way up to application engines at cloud scale. For each of the system types, we will explore the different types of metrics to measure and manage availability, identify scaling options for each of those systems and define auto-healing strategies.
+
+Most of the talk would be focussing on self-healing and auto-scaling for application engines at cloud scale.
+
+**Speaker:**
+Vaidhy Gopalan, Apigee
