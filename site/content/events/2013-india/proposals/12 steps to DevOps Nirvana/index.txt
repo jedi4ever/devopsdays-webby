@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Bhavin Javia, MavenHive Technologies
+title: "12 steps to DevOps Nirvana"
+---
+
+**Abstract:**
+
+This is a quick introduction to the various factors that should be considered while building SaaS apps to -
+
+* minimize time and cost for new developers joining the project
+
+* maximum portability between execution environments
+
+* be suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration
+
+* minimize divergence between development and production, enabling continuous deployment for maximum agility
+
+* scale up without significant changes to tooling, architecture, or development practices
+
+These techniques can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc). Any developer building applications which run as a service or Ops engineers who deploy or manage such applications should attend this talk. An app which addresses these considerations is also called ‘The Twelve Factor App’
+
+**Speaker:**
+Bhavin Javia, MavenHive Technologies
