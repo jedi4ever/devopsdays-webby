@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bhavin Javia, MavenHive Technologies
+title: "Dev[Env]Ops"
+---
+
+**Abstract:**
+
+There’s a good amount of hype and adoption of DevOps among teams and organizations. For most of them DevOps == Automated, Frequent Deployments + Monitoring of their deployed environments. This talk aims to explores DevOps from the development environment perspective. I will talk about the possibilities that exist to automate setup and maintenance of Development environments and how it can benefit teams of anywhere between 2 to 10s or even 100s of developers.
+
+What if you could cook up Dev environment recipes like a Chef or make your machine dance to your commands like a Puppet ? (pun intended). Just by leveraging the tools you already know and use (e.g. your build tool), you can get started and have an automated, consistent, repeatable Dev environment setup without having to learn all the Ops tools (which are great skills to have nonetheless).
+
+I will present an example of Dev[Env]Ops from a real project and introduce a few useful tools which could help your team improve productivity on your Dev environments.
+
+**Speaker:**
+Bhavin Javia, MavenHive Technologies
