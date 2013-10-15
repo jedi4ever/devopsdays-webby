@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Anirudh Bhatnagar, Xebia
+title: "DevOps Demystified"
+---
+
+**Abstract:**
+
+The new buzz world in the world of Agile is "Dev Ops". So what exactly is devOps and Why do we need it?
+
+When development got married to deployment (sys-admin/operations) ; what is born is a new advanced species which is known to us today as "Dev Ops".
+
+So we get developers who are concerned about operations, deployments, builds. And we have the operational guys writing code to deploy and get infrastructure up and running!! Isn't it amazing?
+
+But, Seriously? Thats it? Whats more? How do they do it? And more importantly; Why?
+
+
+Lets take a dive into it. Here we will discuss :
+
+* Why ?
+* Mindset
+* Continuous Delivery
+* Infrastructure as Code
+* Small demo of Chef
+
+The talk would be around [my blog](http://xebee.xebia.in/index.php/2013/08/08/devops-demystified/).
+
+**Speaker:**
+Anirudh Bhatnagar, Xebia
