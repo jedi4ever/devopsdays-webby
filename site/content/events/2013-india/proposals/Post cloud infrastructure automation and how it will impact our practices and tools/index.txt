@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nilesh Bairagi
+title: "Post cloud infrastructure automation and how it will impact our practices, tools."
+---
+
+**Abstract:**
+
+Faster, reliable and self serving provisioning is becoming a norm in cloud based deployments.
+
+But heterogeneous APIs and inter dependencies of network services makes the whole process easy to automate, yet failure prone. Hence testing of these automation suites became even more important.
+
+This talk is highlight some of the mainstream development practices applied to Operations and the tools and techniques that makes them feasible in operations domain.
+
+I’ll also walk through some of the emerging technologies, which holds a promise to radically simplify these processes and how we can iteratively adopt them.
+
+**Speaker:**
+Nilesh Bairagi

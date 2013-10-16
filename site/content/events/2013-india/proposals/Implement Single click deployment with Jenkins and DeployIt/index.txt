@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Anirudh Bhatnagar, Xebia
+title: "Implement Single click deployment with Jenkins and DeployIt"
+---
+
+**Abstract:**
+
+Lets suppose we have our code in github in a public repository and we want that every fix which goes to "deploy" branch should get propagated to a dev environment automatically.We would use deployIt plugin for Jenkins and implement single click deployment to a dev Environment which is created using chef.
+
+> I will show the demo in 5 mins.
+
+**Speaker:**
+Anirudh Bhatnagar, Xebia
