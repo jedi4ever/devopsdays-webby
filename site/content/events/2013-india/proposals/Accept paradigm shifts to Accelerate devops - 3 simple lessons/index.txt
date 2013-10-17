@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Habeeb Rahman, Apigee
+title: "Accept paradigm shifts to Accelerate devops - 3 simple lessons"
+---
+
+**Abstract:**
+
+In the beginning, it just works
+As we scale, it may break.
+
+This holds true for both software development and devops.
+Let's admit it, devops is not easy especially when companies grow.
+We need to experiment and reinvent ourselves while we adopt devops for the organization we are part of.
+
+Things could have been easier if one way of doing devops fits all.
+While we all agree that devops is not an end but a journey, the journey may warrant paradigm shifts to be an effective one.
+
+In this ignite talk,  I would like to propose a few paradigm shifts which may accelerate the devops journey.
+
+**Speaker:**
+Habeeb Rahman, Apigee
