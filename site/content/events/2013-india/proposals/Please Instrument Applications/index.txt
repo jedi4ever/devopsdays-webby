@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Aveek Misra, Yahoo
+title: "PIA (Please Instrument Applications)"
+---
+
+**Abstract:**
+
+PIA in slang means "pain in the ass" and that is what most of developers think of when they are asked to instrument their applications.
+
+We turn this acronym on its head and explain why it is so critical to instrument your applications, without which you miss out on valuable data.
+
+I discuss real life examples to show how application instrumentation helped not only detect problems well in advance but also how metrics generated from applications can be used to do things like trend analysis and capacity planning.
+
+I also dwell on several aspects of application monitoring and how it is important to capture the correct metrics.
+
+I will also discuss how the application metrics are useful not only for the developers but also for the Ops, the product management and also the top management in the company!
+
+**Speaker:**
+Aveek Misra, Yahoo
