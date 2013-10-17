@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Aveek Misra, Yahoo
+title: "To Hell with Monitoring"
+---
+
+**Abstract:**
+
+Sometimes monitoring becomes a headache with all those graphs available at your disposal but still no clue of what the actual problem might be.
+
+Is then monitoring useless or at least a painful exercise of wading through hundreds of graphs before you finally find the root cause or a pattern to your problems? This talk will dwell on why that is not the case.
+
+While it is still difficult to get your monitoring absolutely right in a fashion that the actual problem or issue bubbles up clearly every time, there are still some tricks that can be used to make your monitoring effective and precise.
+
+We will look at some real life examples to understand how monitoring can be done right and also why in spite of having everything monitored under the sun, it is easy to miss the problems.
+
+**Speaker:**
+Aveek Misra, Yahoo

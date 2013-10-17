@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Aveek Misra, Yahoo
+title: "Why Monitoring is a Perfect Example of DevOps"
+---
+
+**Abstract:**
+
+I work as a developer for a monitoring platform in Yahoo. Over the course of 5 years, I have been exposed to the best of both worlds in Devs and Ops. Indeed without the synergies of Dev and Ops, it is impossible to get a monitoring platform or product right.
+
+In this particular talk, I will talk about how developing a monitoring platform challenges your limits as a developer and also how working in isolation as a developer without a strong understanding of Ops can mean that your monitoring product can turn out to be pretty useless.
+
+I will discuss some of the very interesting developer challenges that a monitoring platform has to address (collection at scale, aggregation at scale, correlation of alerts and events etc.).
+
+I will also discuss on why you also need to be passionate about Ops to create a great and robust monitoring product.
+
+**Speaker:**
+Aveek Misra, Yahoo
