@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Arnav Kumar, ThoughtWorks
+title: "DevOps - One Year"
+---
+
+**Abstract:**
+
+This past year was not only my first year in the IT industry, but also my first year working in the Devops sphere of software delivery. I intend to to share my learnings and experiences over the course of 12 months working as Devops (and IT) newbie.
+
+**Speaker:**
+Arnav Kumar, ThoughtWorks
