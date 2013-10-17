@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sumanth Vepa, Milestone42
+title: "7 Capabilities of Highly Effective DevOps"
+---
+
+**Abstract:**
+
+This talk takes the perspective the business customers of the development operations process: product managers, marketers, and decision makers who rely on effective development operations process to rev the ship frequency, scope and quality of their products.
+
+
+For these stakeholders, automated development operations is about more than clean, well tested and reviewed code shipped quickly. It's about making on-boarding of new engineers easy, by flattening the learning curve to get them productive in a new environment.
+
+
+It's about being able to shift cloud providers on a dime based on pricing and traffic. It's about helping management understand if it's product and business strategies are effective by translating learning from user behavior on a site/application back to issues, bugs and eventually fixes to the code and changes to product design.
+
+
+The talk is directed and developers, systems administrators who use and/or set up DevOps systems, to help them asses the ROI on dev automation and make the case to management that effective DevOps can be a critical competitive differentiator for a firm.
+
+**Speaker:**
+Sumanth Vepa, Milestone42

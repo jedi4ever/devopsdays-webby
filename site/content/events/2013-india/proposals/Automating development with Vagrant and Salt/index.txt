@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Sumanth Vepa, Milestone42
+title: "Automating development with Vagrant and Salt"
+---
+
+**Abstract:**
+
+This talk is aimed at folks who are familiar with Python and deployment automation tool such as Chef or Puppet. It aims to introduce them to automation using Salt and Vagarant.
+
+I demonstrate the use of Vagrant and Salt by showing how a small application can be deployed with this using Salt+Vagrant and Chef+Vagrant and comparing the differences.
+
+**Speaker:**
+Sumanth Vepa, Milestone42
