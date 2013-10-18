@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Vivek Dubey and Vipul A M, Fab.com
+title: "From Dev-Box to Production - The Un-Orthodox Ways - A Short Story"
+---
+
+**Abstract:**
+
+Prologue
+What's this all about
+
+Chapter -1 (What it means to a Developer)
+As a Developer, I love doing away with all things from the path of writing code, to
+putting it ahead for QA. In this chapter I discuss about things and preferences as a
+developer to setup a machine from scratch, get code working, working on a feature set,
+pushing it to staging, with stress on the "pushing it to staging" part, and how services like
+instapusher or snap-ci matter to fill-in the missing link.
+
+Chapter -2 (That Devops Guy)
+This Chapter is about that unorthodox Devops guy. It speaks about how he doesn't see chef as just a configuration management
+tool, but takes it a level ahead and uses it for complete deployment process.
+It speaks about how right after RPM creation chef is used to setup runtime behaviour of a node and deploying
+as per the role assigned to that node. And everyone's favourite - deploying hot fixes directly to production.
+
+Epilogue
+Go Forth do stupid stuff
+
+**Speaker:**
+Vivek Dubey and Vipul A M, Fab.com

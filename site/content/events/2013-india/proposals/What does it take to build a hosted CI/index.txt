@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Akshay Karle, ThoughtWorks
+title: "What does it take to build a hosted CI?"
+---
+
+**Abstract:**
+
+With hosted CI very quickly becoming the new hotness, what do you think goes into building a simple hosted CI solution? We as DevOps spend quite some time in configuring a CI server its agents and maintaining them. This talk aims at simplifying this setup and maintenance process by giving some insights of setting up a hosted CI and maintaining the build servers of multiple customers. Tentative sub-topics are:
+
+* the basics of hosted CI
+     - Significance and advantages over traditional self-hosted CI servers.
+
+* a suitable architecture
+     - A simple build server with a container based virtualisation and a web interface for customers.
+
+* different considerations/challenges
+     - Security
+     - Deployments
+     - Scaling and scaling problems.
+
+**Speaker:**
+Akshay Karle, ThoughtWorks

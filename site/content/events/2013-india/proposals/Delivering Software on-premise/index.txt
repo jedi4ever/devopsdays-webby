@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Vaidhy Gopalan, Apigee
+title: "Delivering Software on-premise"
+---
+
+**Abstract:**
+
+This talk is about building software that can get deployed on customers' datacenter and the challenges therein.
+
+As we develop software, we make a lot of assumptions on how the system will be deployed and used. At Apigee, we design and develop software that can run on our own cloud and can be deployed at customers’ data centers.
+
+In this presentation, I will be walking through the challenges of delivering software that needs to work in very diverse environments.
+
+We will be talking about some of the challenges we faced in installation, debugging, monitoring and continuous delivery of a complex system to customer data centers while it is being actively developed and managed on our own cloud.
+
+**Speaker:**
+Vaidhy Gopalan, Apigee
