@@ -10,7 +10,10 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<center><b>Call for proposals is now open. It will close by <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b></center>
+<center><b>Call for proposals is now Closed. Last date for CFP was <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br/>
+  <br/>
+  <a style="font:italic bold 18px Georgia, serif;" href="../proposals/">You can read and comment on proposals submitted by others, here.</a>
+</center>
 <hr>
 There are three ways to propose a session:
 <ol>
