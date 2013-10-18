@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Akshay Karle, ThoughtWorks
+title: "DIY build radiators on Raspberry Pi"
+---
+
+**Abstract:**
+
+Covered steps will be:
+
+* How to setup the pi.
+
+* Create simple sinatra app parses the cc_tray xml and gives back a list of projects.
+
+* Use this project list to display on the monitor.
+
+**Speaker:**
+Akshay Karle, ThoughtWorks
