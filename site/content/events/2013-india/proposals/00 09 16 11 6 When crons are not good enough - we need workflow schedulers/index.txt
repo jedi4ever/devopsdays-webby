@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Konark Modi, MakeMyTrip
+title: "00 09 16 11 6 When crons are not good enough - we need workflow schedulers"
+---
+
+**Abstract:**
+
+Schedulers are heartbeat of any kind of automation system. There are variety of use-cases for scheduled jobs , be it running of test-cases, extraction of data, trending, CI etc.
+
+But as the project gets complex, we require a framework which provides us more than scheduling capability, often we need the following functionality :
+
+* Scheduled and immediate running of jobs.
+
+* Command and control center for running jobs with capabilities like Pause, Kill, Delete.
+
+* Retry mechanism and on-failure reporting.
+
+* Chaining of jobs which are dependent on each other.
+
+* Graph representation of execution of jobs.
+
+* Ability to support distributed execution of jobs for scalability.
+
+* Monitoring and Logging capabilities.
+
+We at [MakeMyTrip.com](http://www.makemytrip.com), use celery within lot of projects which require the functionality as mentioned above. This talk is going to be about understanding need of advanced workflow schedulers and introspection of Celery along with various other open-source solutions available.
+
+Few other systems that I plan to discuss:
+
+1. Gearman
+
+2. Chronos
+
+3. Luigi
+
+4. Oozie
+
+
+**Speaker:**
+Konark Modi, MakeMyTrip
