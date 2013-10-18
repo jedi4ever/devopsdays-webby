@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+layout: event
+author: Daniel Breston
+title: DevOPS culture in a room
+---
+
+**Abstract:**
+
+Using a concept of lean called oobeya (Big room) to get collaboration across teams, sponsors and users on how to solve problems in production or manage projects no matter the size.  Created by Toyota but used successfully by Harley Davidson, Canon, Tesco, banks and more to make things on time, in budget and with the cooperation of all involved.  Great way to get Dev, OPS and the rest together in a visually managed room!
+
+**Speaker:**
+
+Daniel Breston - Qriosity Limited
