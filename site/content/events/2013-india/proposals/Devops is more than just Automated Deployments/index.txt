@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: HariKrishnan, MavenHive
+title: "Devops is more than just Automated Deployments"
+---
+
+**Abstract:**
+
+DevOps is not all about automating deployment and maintaining your infrastructure as code. The primary purpose is to make sure Developers take the learning in Operations and bake it into the Application Architecture. In this talk I will be summarizing learnings past experiences of how Production Support experience influenced Architecture Evolution.
+
+Below are some areas that I will cover.
+
+* Logging
+
+* Network topology
+
+* Cost Estimation
+
+* Data Sizing
+
+* Choosing Vendors and remaining platform agnostic
+
+* Geographical and Logistical issues
+
+**Speaker:**
+HariKrishnan, MavenHive

@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: HariKrishnan, MavenHive
+title: "Devops in the NonSAAS world"
+---
+
+**Abstract:**
+
+This talk is about the tooling and automation around Non SAAS applications. Example: on-premise installed software, Mobile apps, etc.
+
+**Speaker:**
+HariKrishnan, MavenHive
