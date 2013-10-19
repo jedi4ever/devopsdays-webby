@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pavan KS and Anandha Krishnan, MavenHive
+title: "4 months to 1 day sans buzzwords"
+---
+
+**Abstract:**
+
+Devops is filled with a lots of tools and techniques. So much so that they are becoming the end by themselves, rather the goal - release software to users as quickly as possible.
+
+The central theme of this talk is to reinforce the idea that to do daily releases, you can find a path from where you are that naturally evolves by applying the Theory of Constraints.
+
+Everything else is, well, an implementation detail!
+
+Highlights of our talk (Explained using examples from real projects and our experiences with tools, frameworks and processes):
+
+The story of a project where we went from no automation to multiple kinds of automation WHILE FOCUSING on going fast AND NOT ON things like Chef, Vagrant and all other cool kids on the block! While doing this, we touch upon points like:
+
+- Production is NOT sacred
+
+- Your build server does not have to be a boolean (pass/fail)
+
+- Most customers don’t need daily product releases. Rather, its your team that needs them so that you can get faster feedback.
+
+- Your stakeholders are key in figuring out how frequently do you want to release (they are paying for it after all). Discover it.
+
+- Let the need for feedback loops, emerge and fine tune it in the discovery process.
+
+**Speaker:**
+Pavan KS and Anandha Krishnan, MavenHive

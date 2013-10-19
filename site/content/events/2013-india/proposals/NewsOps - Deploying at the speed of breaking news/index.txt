@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jasbir Singh Khehra, NDTV
+title: "NewsOps - Deploying at the speed of breaking news"
+---
+
+**Abstract:**
+
+We at NDTV Convergence manage the various news sites of NDTV.
+
+How systems like  Configuration Management, Continious Integration and Cloud help handle the demands of breaking news traffic. How critical it gets to not have  downtime in those crunch situations when our credibility is on the line and as a News Media organization it is our responsibility to deliver the news accurately and on time. "Better late than never" does not apply here.
+
+
+Below are the topics I like to talk about:
+
+* Puppet and mcollective help in day to day server management and how they help keep your sanity. Including some case stories
+
+* Monitoring and Alerting: Sensu Graphite Logstash
+
+* The different characteristics of traffic depending upon a news event
+
+* Importance of teams working together whish is the bases of Devops
+
+**Speaker:**
+Jasbir Singh Khehra, NDTV
