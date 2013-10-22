@@ -30,6 +30,15 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<h1>Special sponsors</h1>
+<% @lsponsors = [
+{ :image => "kainos.png", :name => "Kainos", :link => "http://kainos.com/"}
+]%>
+
+<% @lsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @ssponsors = [
 { :image => "timgroup.png", :name => "Tim Group", :link => "http://timgroup.com/"},
 { :image => "scalefactory.png", :name => "The Scale Factory", :link => "http://www.scalefactory.com/"},
