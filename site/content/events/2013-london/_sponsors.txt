@@ -42,7 +42,8 @@ filter:    erb
 <% @ssponsors = [
 { :image => "timgroup.png", :name => "Tim Group", :link => "http://timgroup.com/"},
 { :image => "scalefactory.png", :name => "The Scale Factory", :link => "http://www.scalefactory.com/"},
-{ :image => "speerhead.png", :name => "Speerhead", :link => "http://www.speerhead.com/"}
+{ :image => "speerhead.png", :name => "Speerhead", :link => "http://www.speerhead.com/"},
+{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
