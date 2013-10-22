@@ -15,12 +15,12 @@ Ideally we would go for free events. Experience has learnt us that 'free' events
 - if the event has success, people who can make it are left out when the event is full
 
 __Approach 2: minimal fee__
-Asking a minimal fee (covering about foodcost for two days - range of 100USD , 100 Euro) makes us get the best of both worlds:
+Asking a minimal fee (covering about food cost for two days - range of 100USD , 100 Euro) makes us get the best of both worlds:
 
 - The numbers get more accurate that way and more people feel happy about it. 
 - The financial risk for venue/catering cost is spread
 
-The downside is that this will require to write 'official' invoices:
+The downside is that this will require 'official' invoices:
 
 - It requires time to create the invoices (although we've pretty much automated it if you use <http://eventbrite.com>)
 - It might cost some account time because of the administration 
