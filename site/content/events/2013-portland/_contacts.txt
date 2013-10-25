@@ -4,6 +4,7 @@ filter:    erb
 <% @local_contacts = [
 { :name => "Will Maier", :phone => "(608) 438 6162"},
 { :name => "James Casey", :phone => "(503) 752 5901"},
+{ :name => "Dawn Foster", :phone => "(503) 702 7223"},
 ]%>
 
 <% @local_contacts.each do |local_contact| %>
