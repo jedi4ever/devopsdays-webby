@@ -50,7 +50,8 @@ filter:    erb
 <% end %>
 
 <% @asponsors = [
-{ :image => "nilenso.png", :name => "Nilenso", :link => "http://www.nilenso.com/"}
+{ :image => "nilenso.png", :name => "Nilenso", :link => "http://www.nilenso.com/"},
+{ :image => "olindata.png", :name => "OlinData", :link => "http://olindata.com/"}
 ]%>
 
 <% unless @asponsors.empty?  %><h1>Associate sponsors</h1><% end %>
