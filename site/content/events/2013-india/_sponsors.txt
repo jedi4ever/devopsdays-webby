@@ -16,7 +16,8 @@ filter:    erb
 
 <% @ssponsors = [
 { :image => "opscode.png", :name => "OpsCode", :link => "http://www.opscode.com/"},
-{ :image => "yahoo.png", :name => "OpsCode", :link => "http://www.yahoo.com/"}
+{ :image => "yahoo.png", :name => "OpsCode", :link => "http://www.yahoo.com/"},
+{ :image => "xebialabs.png", :name => "Xebia Labs", :link => "http://www.xebialabs.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -29,8 +30,7 @@ filter:    erb
 { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
 { :image => "axelerant.png", :name => "Axelerant", :link => "http://www.axelerant.com/"},
 { :image => "codeignition.png", :name => "CodeIgnition", :link => "http://codeignition.co/"},
-{ :image => "relevancelab.jpg", :name => "Relevance Lab", :link => "http://www.relevancelab.com"},
-{ :image => "xebialabs.png", :name => "Xebia Labs", :link => "http://www.xebialabs.com/"}
+{ :image => "relevancelab.jpg", :name => "Relevance Lab", :link => "http://www.relevancelab.com"}
 ]%>
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 <% @bsponsors.each do |sponsor| %>
