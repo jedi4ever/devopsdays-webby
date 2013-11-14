@@ -60,6 +60,7 @@ filter:    erb
 <% end %>
 
 <% @asponsors = [
+{ :image => "velocity.png", :name => "Velocity", :link => "http://velocityconf.com/"},
 { :image => "nilenso.png", :name => "Nilenso", :link => "http://www.nilenso.com/"},
 { :image => "olindata.png", :name => "OlinData", :link => "http://olindata.com/"}
 ]%>
