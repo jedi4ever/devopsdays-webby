@@ -1,15 +1,16 @@
 ---
 extension: html
-filter:    
+filter:
 - erb
 - markdown
 title: Devopsdays Presentations
 ---
-In the future this page will give an overview of all the presentations held at each event. 
+In the future this page will give an overview of all the presentations held at each event.
 
-For now please check each event individually: 
+For now please check each event individually:
 
 <ul>
+	<li><a href="/events/2013-india/presentation">Bangalore 2013</a></li>
 	<li><a href="/events/2011-boston/program">Boston 2011</a></li>
 	<li><a href="/events/2010-brazil/program">Sao Paulo 2010</a></li>
 	<li><a href="/events/2010-europe/program">Hamburg 2010</a></li>
