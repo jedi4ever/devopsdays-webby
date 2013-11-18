@@ -1,5 +1,6 @@
 <div style="height:200px;" id="quicklinks">
 <table><tr><td>
+      <a href="/events/2013-india/">Bangalore 2013</a><br/>
       <a href="/events/2013-downunder">Downunder 2013</a><br>
       <a href="/events/2013-mountainview/">Mountainview 2013</a><br>
       <a href="/events/2013-amsterdam/">Amsterdam 2013</a><br>
