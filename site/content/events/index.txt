@@ -8,6 +8,14 @@ title: Devopsdays Events
 The following events took place in the past:
 
 <ul>
+<li><a href="/events/2013-tokyo/">Tokyo 2013</a></li>
+<li><a href="/events/2013-telaviv/">Tel Aviv 2013</a></li>
+<li><a href="/events/2013-atlanta/">Atlanta 2013</a></li>
+<li><a href="/events/2013-newyork/">New York 2013</a></li>
+<li><a href="/events/2013-portland/">Portland 2013</a></li>
+<li><a href="/events/2013-vancouver/">Vancouver 2013</a></li>
+<li><a href="/events/2013-barcelona/">Barcelona 2013</a></li>
+<li><a href="/events/2013-london/">London Autumn 2013</a></li>
 <li><a href="/events/2013-india/">India 2013</a></li>
 <li><a href="/events/2013-downunder/">Downunder 2013</a></li>
 <li><a href="/events/2013-amsterdam/">Amsterdam 2013</a></li>
