@@ -17,4 +17,4 @@ Specifically on eventbrite we do:
 - ask if they require an invoice, if yes ask more details like VAT number if needed
 - ask if there are interested in an evening event meetup
 
-The email or direct-contact information should never be visible on the website or given out to vendors. We value privacy and anti-spam at lot!
+The email or direct-contact information should never be visible on the website or given out to vendors. We value privacy and anti-spam a lot!
