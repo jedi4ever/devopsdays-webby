@@ -57,38 +57,21 @@ featureType: 'water',
 map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
 
 <!-- http://itouchmap.com/latlong.html -->
-var losangeleslocation=new google.maps.LatLng(33.945816 ,	-118.380282);
-var bostonlocation=new google.maps.LatLng(42.36080,-71.08250);
-var goteborglocation=new google.maps.LatLng(57.69699 ,	11.98650);
-var mountainviewlocation=new google.maps.LatLng(37.36725 ,	-122.02314);
-var melbournelocation=new google.maps.LatLng(-37.810371,144.969509);
-var bangalorelocation=new google.maps.LatLng(12.971599,77.594563);
-var manillalocation=new google.maps.LatLng(14.599512,120.98422);
-var austinlocation=new google.maps.LatLng( 30.267153,-97.743061);
-var londonlocation=new google.maps.LatLng( 51.500152,-0.126236);
-var tokyolocation=new google.maps.LatLng( 35.689488,139.691706);
-var saopaulolocation=new google.maps.LatLng( -23.548943,-46.638818);
-var torontolocation=new google.maps.LatLng(43.653226,-79.383184);
-var italylocation=new google.maps.LatLng(41.89052,12.494249);
-var sydneylocation=new google.maps.LatLng(-33.873651,151.20689);
-var gurgaonlocation=new google.maps.LatLng(28.459497,77.026638);
-var mountainviewlocation=new google.maps.LatLng(37.77493,-122.419415);
-var newyorklocation = new google.maps.LatLng(40.714353,-74.005973);
-var amsterdamlocation = new google.maps.LatLng(52.370216,4.895168);
-var newzealandlocation = new google.maps.LatLng(-40.900557,174.885971);
-var portlandlocation = new google.maps.LatLng(45.524354,-122.681936);
 
-var parislocation = new google.maps.LatLng(48.856614,2.352222);
-var berlinlocation = new google.maps.LatLng(52.519171,13.406091);
-var barcelonalocation = new google.maps.LatLng(41.387917,2.169919);
+var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
 
-var downunderlocation = new google.maps.LatLng(-25.274398,133.775136);
-var indialocation = new google.maps.LatLng(20.593684,78.96288);
-var atlantalocation = new google.maps.LatLng( 33.748995,-84.387982);
-var aucklandlocation = new google.maps.LatLng(-36.853463,174.782823);
-var tlvlocation = new google.maps.LatLng(32.066283,34.777908);
-var vancouverlocation = new google.maps.LatLng(49.27698,-123.12478);
+var ljubljanamarker = new MarkerWithLabel({
+    position: ljubljanalocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Ljubljana<br>Apr 5-6, 2014",
+    labelAnchor: new google.maps.Point(25, +40),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
 
+google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2014-ljubljana"});
 
 }
 </script>
