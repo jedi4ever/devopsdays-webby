@@ -1,0 +1,18 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+## <%= render(:partial => "/#{@eventhome}/_target_date") -%> 
+
+The first DevopsDays in Slovenia! [Submit your presentation today](propose)!
+
+## When and where
+
+Check out [the location page](location) for more details on location and accomodation.
