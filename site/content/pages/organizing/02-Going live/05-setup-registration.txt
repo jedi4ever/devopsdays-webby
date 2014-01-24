@@ -24,5 +24,8 @@ Specifically on eventbrite we do:
 - allow people to see who is coming (name, company , title)
 - add the google analytics tag of devopsdays for counting hits
 
+- setup a sponsor/helper/ ticket which has a high price ($9999)
+- create discount codes for sponsors/helpers/organizes and have them select the special ticket to can keep track of regular attendees and sponsors/helpers/speakers free tickets.
+- the main reason is that when the event is full, you still might to register the sponsor/helper/speaker people.
 
 The email or direct-contact information should never be visible on the website or given out to vendors. We value privacy and anti-spam a lot!
