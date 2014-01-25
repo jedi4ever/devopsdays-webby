@@ -73,6 +73,97 @@ var ljubljanamarker = new MarkerWithLabel({
 
 google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2014-ljubljana"});
 
+amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
+
+var amsterdammarker = new MarkerWithLabel({
+position: amsterdamlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Amsterdam 2014",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="#"});
+
+
+
+var siliconvalleylocation=new google.maps.LatLng(37.77493,-122.419415);
+var siliconvalleymarker = new MarkerWithLabel({
+position: siliconvalleylocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Silicon Valley<br>27 & 28 June 2014",
+labelAnchor: new google.maps.Point(+30, 65),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(siliconvalleymarker, "click", function (e) { location.href="#"});
+
+
+var austinlocation=new google.maps.LatLng( 30.267153,-97.743061);
+var austinmarker = new MarkerWithLabel({
+position: austinlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Austin<br>May 5 & 6 2014",
+labelAnchor: new google.maps.Point(30, 0),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(austinmarker, "click", function (e) { location.href="#"});
+
+brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
+
+var brisbanemarker = new MarkerWithLabel({
+position: brisbanelocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Brisbane 2014",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="#"});
+
+torontolocation = new google.maps.LatLng(43.7000, -79.4000);
+
+var torontomarker = new MarkerWithLabel({
+position: torontolocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Toronto 2014",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(torontomarker, "click", function (e) { location.href="#"});
+
+belgiumlocation = new google.maps.LatLng(50.5333, 4.7667);
+
+var belgiummarker = new MarkerWithLabel({
+position: belgiumlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Belgium 2014",
+labelAnchor: new google.maps.Point(-10, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(belgiummarker, "click", function (e) { location.href="#"});
+
+
+
+
 }
 </script>
 
