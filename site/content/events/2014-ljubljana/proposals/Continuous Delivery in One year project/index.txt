@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Diego Garber"
+title: "Continuous Delivery in One year project"
+---
+**Abstract:**
+
+At OLX we started a project a year ago to make Continuous Delivery a reality in our daily deployment operations. This is a story of our journey, lessons learned, technology applied (Jenkins / github / bash), and a web app for orchestrating the whole thing that we decided to open-source. How we change people's minds and applied Devops principles without people even knowing about the term, how we went up from 10 deployments a week, to over 50, more than 10-per-day.
+
+All the tools we created around deployment process, like IRC bots and JIRA tickets auto-creation and transition.
+
+**Speaker:**
+Diego Garber
