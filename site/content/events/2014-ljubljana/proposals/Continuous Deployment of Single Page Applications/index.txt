@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Toma&#382; Zaman"
+title: "Continuous deployment of single page applications"
+---
+**Abstract:**
+
+In this talk, I'll show how we (@ codeable.io) continuously deploy our web application, which is built from two separate parts; Rails API, which responds only with JSON objects, requested by thick-client-single-page-javascript-application. We've done quite a few mistakes while laying the foundation for the whole development-to-production workflow and in turn learned a lot of best practices as well (or so we'd like to think). We've pushed the process to the point where each "git push" results in the app being tested and ready on staging servers -- followed by QA and deployment to production. The most interesting part is that our Javascript is well tested too, something we're not only proud of but gives us trust and confidence in our code, both on the client and on the server.
+
+**Speaker:**
+Tomaž Zaman
