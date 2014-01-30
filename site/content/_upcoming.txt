@@ -1,5 +1,0 @@
-<div class="submenu" style="width:550px">
-  <h3>
-    Amsterdam - Austin - Belgium - Brisbane - <a href="/events/2014-ljubljana/">Ljubljana</a><br />Silicon Valley - Toronto
-  </h3>
-</div>
