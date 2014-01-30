@@ -2,12 +2,15 @@
 extension: html
 filter:    erb
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<% @eventtitle = render(:partial => File.join(@eventhome, "_title")) %>
-<% @pagetitle = "#{@eventtitle} - #{@page.title}" %>
-<% if @page.proposal %>
-  <% @pagetitle = "#{@eventtitle} -  Proposal" %>
-<% end %>
+<% 
+@eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR)
+@rootpage = @pages.find(:filename => "index", :directory => @eventhome)
+@eventtitle = render(:partial => File.join(@eventhome, "_title"))
+@pagetitle = "#{@eventtitle} - #{@page.title}"
+if @page.proposal
+  @pagetitle = "#{@eventtitle} -  Proposal"
+end 
+%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,12 +48,13 @@ filter:    erb
 
                 <% if @page.sidebar != false %>
                 <div class="col-sm-4">
-                      <% if @page.platinum == true %>
-                    <h1>Platinum sponsors</h1>
-                      <% else %>
-                    <h1>Gold sponsors</h1>
-                      <% end %>
-                    <%= render(:partial => File.join(@eventhome,'_sponsors')) %>
+                    <% if @rootpage.platinum == true %>
+                        <h1>Platinum sponsors</h1>
+                    <% elsif @rootpage.gold.nil? || @rootpage.gold == true %>
+                        <h1>Gold sponsors</h1>
+                    <% end %>
+
+                    <%= render(:partial => File.join(@eventhome, "_sponsors")) %>
                 </div>
                 <% end %>
             </div>
