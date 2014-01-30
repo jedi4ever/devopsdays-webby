@@ -5,7 +5,7 @@ filter:
 - erb
 - markdown
 dirty: true
-layout: event_tokyo
+layout: event
 bento: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>

@@ -1,21 +1,29 @@
 ---
 filter:    erb
 ---
-<div class="submenu">
-<h3>
-<a href="/<%= @eventhome %>/">Welcome</a>&nbsp;
-<a href="/<%= @eventhome %>/program">Program</a>&nbsp;
-<a href="/<%= @eventhome %>/location">Location</a>&nbsp;
-<a href="/<%= @eventhome %>/registration">Registration</a>&nbsp;
-<a href="/<%= @eventhome %>/sponsor">Sponsor</a>&nbsp;
-<a href="/<%= @eventhome %>/contact">Contact</a>&nbsp;
-</br>
-</br>
-<a href="/<%= @eventhome %>/ja/propose">企画主旨</a>&nbsp;
-<a href="/<%= @eventhome %>/ja/program">プログラム</a>&nbsp;
-<a href="/<%= @eventhome %>/ja/location">会場情報</a>&nbsp;
-<a href="/<%= @eventhome %>/ja/registration">参加登録</a>&nbsp;
-<a href="/<%= @eventhome %>/ja/sponsor">協賛のお願い</a>&nbsp;
-<a href="/<%= @eventhome %>/ja/contact">問い合せ</a>&nbsp;
-</h3>
-</div>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/<%= @eventhome %>/">Welcome</a></li>
+<li><a href="/<%= @eventhome %>/program">Program</a></li>
+<li><a href="/<%= @eventhome %>/location">Location</a></li>
+<li><a href="/<%= @eventhome %>/registration">Registration</a></li>
+<li><a href="/<%= @eventhome %>/sponsor">Sponsor</a></li>
+<li><a href="/<%= @eventhome %>/contact">Contact</a></li>
+
+</ul></div></div></div>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/<%= @eventhome %>/ja/propose">企画主旨</a></li>
+<li><a href="/<%= @eventhome %>/ja/program">プログラム</a></li>
+<li><a href="/<%= @eventhome %>/ja/location">会場情報</a></li>
+<li><a href="/<%= @eventhome %>/ja/registration">参加登録</a></li>
+<li><a href="/<%= @eventhome %>/ja/sponsor">協賛のお願い</a></li>
+<li><a href="/<%= @eventhome %>/ja/contact">問い合せ</a></li>
+
+</ul></div></div></div>
