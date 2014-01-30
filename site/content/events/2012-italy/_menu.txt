@@ -1,12 +1,15 @@
-<div class="submenu">
-<h3>
-<a href="/events/2012-italy/">welcome</a>&nbsp;
-<a href="/events/2012-italy/propose">propose</a>&nbsp;
-<a href="/events/2012-italy/program">program</a>&nbsp;
-<a href="/events/2012-italy/location">location</a>&nbsp; 
-<a href="/events/2012-italy/registration">register</a>&nbsp;
-<a href="/events/2012-italy/sponsor">sponsor</a>&nbsp;
-<a href="/events/2012-italy/contact">contact</a>&nbsp;
 
-</h3>
-</div>
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/events/2012-italy/">welcome</a></li>
+<li><a href="/events/2012-italy/propose">propose</a></li>
+<li><a href="/events/2012-italy/program">program</a></li>
+<li><a href="/events/2012-italy/location">location</a></li> 
+<li><a href="/events/2012-italy/registration">register</a></li>
+<li><a href="/events/2012-italy/sponsor">sponsor</a></li>
+<li><a href="/events/2012-italy/contact">contact</a></li>
+
+
+</ul></div></div></div>
