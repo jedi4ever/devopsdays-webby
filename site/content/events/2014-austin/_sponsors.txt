@@ -7,8 +7,6 @@ filter:    erb
 
 <% @gsponsors = []%>
 
-<h1>Gold sponsors</h1>
-
 <% if @gsponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
