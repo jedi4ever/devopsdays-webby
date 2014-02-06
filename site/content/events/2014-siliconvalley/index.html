@@ -1,0 +1,36 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+  <img border=0 width="213px" height="160px" src="show-me-the-devops.png">
+</td><td>
+  <center><b>5th Anniversary DevOpsDays Silicon Valley!</b></center>
+  Date : <b>27 &amp; 28 of June 2014</b>
+  <br>
+  Location: <a href="location">Silicon Valley TBD</a>
+  <br><br>
+  Stay tuned for when Registration will be
+  announced <a href="propose">Call for Presentations</a> is now open though
+  so please submit sooner than later!.
+  <br><br>
+  Call for suggested Theme, Event Logo/Image and T-Shirts
+  <br>
+  Send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>]
+  with any proposed Theme, Event Logo/Image and T-Shirts. Particularly
+  interested in ones that exemplify the 5th Year Anniversary of the
+  Silicon Valley DevOpsDays.
+</td>
+</tr>
+</table>
+</center>
+<hr>
+
+If you want to be the first to get news [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)

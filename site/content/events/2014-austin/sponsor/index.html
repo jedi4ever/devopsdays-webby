@@ -1,0 +1,73 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+layout: event
+title: sponsor
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+
+
+<hr>
+<style>
+  .buy-button { }
+</style>
+
+<div style="width:590px">
+  <div style="float: left; height: 50px; margin-right: 10px; margin-bottom: 10px;">Buy Silver<br/>
+    <! // Silver paypal button here ->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="LK9RN2Y76U2ZS">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+
+  <div style="float: left; height: 50px; margin-right: 10px; margin-bottom: 10px;">Buy Gold<br/>
+    <! // Gold paypal button here ->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="LK9RN2Y76U2ZS">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+
+  <div style="float: left; height: 50px; margin-right: 10px; margin-bottom: 10px;">Buy Happy Hour<br/>
+    <! // Happy Hour paypal button here ->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="LK9RN2Y76U2ZS">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+
+  <div style="float: left; height: 50px; margin-right: 10px; margin-bottom: 10px;">Buy Speaker's Dinner<br/>
+    <! // Speaker's Dinner paypal button here ->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="HP6VEKU6YK5PL">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+
+  <div><img src="2014sponsormatrix.png" style="max-width: 590px;"/></div>
+
+</div>
+<br>
+<hr>
+<br>
+DevOpsDays is a self-organizing conference for DevOps practitioners that depends on your sponsorships to happen. However, because of the nature of the event, we do not have vendor booths or book product pitches.
+Attendees, including sponsors, will have the opportunity to host a 5 minute product demo as part of an open space session during the program.
+<br>
+Gold sponsors do get a table they can hang out at and put materials on for interested people to come visit during breaks, and of course all attendees are welcome to propose any subject they want during the openspaces, but this is not 'that kind of conference' and heavy marketing will probably work against you when trying to make a good impression on the attendees. The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
+<br>
