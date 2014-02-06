@@ -1,5 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    Amsterdam - Austin - Belgium - Brisbane - <a href="/events/2014-ljubljana/">Ljubljana</a><br /><a href="/events/2014-siliconvalley">Silicon Valley</a> - Toronto
+    Amsterdam - Austin - Belgium - Brisbane - <a href="/events/2014-ljubljana/">Ljubljana</a><br /><a href="/events/2014-pittsburgh">Pittsburgh</a> - <a href="/events/2014-siliconvalley">Silicon Valley</a> - Toronto
   </h3>
 </div>
