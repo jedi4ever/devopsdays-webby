@@ -1,0 +1,134 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: program
+layout: event
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<p>If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</p>
+
+<%
+@program = [
+  [
+    {
+      :title => "Registration and Breakfast",
+      :interval => "09:00 - 10:00",
+      :link => "http://example.com"
+    },
+    {
+      :title => "Introduction",
+      :interval => "10:00 - 10:15"
+    },
+    {
+      :title => "Conference talk 1",
+      :interval => "10:15 - 10:45"
+    },
+    {
+      :title => "Conference talk 2",
+      :interval => "10:45 - 11:15"
+    },
+    {
+      :title => "Break",
+      :interval => "11:15 - 11:30"
+    },
+    {
+      :title => "Conference talk 3",
+      :interval => "11:30 - 12:30"
+    },
+    {
+      :title => "Ignites part 1",
+      :interval => "12:30 - 13:00"
+    },
+    {
+      :title => "Lunch",
+      :interval => "13:00 - 14:30"
+    },
+    {
+      :title => "Opening open space",
+      :interval => "14:30 - 16:00"
+    },
+    {
+      :title => "Open space slot 1",
+      :interval => "16:00 - 16:30"
+    },
+    {
+      :title => "Break",
+      :interval => "16:30 - 17:00"
+    },
+    {
+      :title => "Open space slot 2",
+      :interval => "17:00 - 17:45"
+    },
+    {
+      :title => "Open space slot 3",
+      :interval => "17:45 - 18:30"
+    },
+    {
+      :title => "End of day 1",
+      :interval => "18:30 - 18:45"
+    },
+    {
+      :title => "Evening event",
+      :interval => "20:00 ..."
+    }
+  ],
+  [
+    {
+      :title => "Registration and breakfast",
+      :interval => "9:30 - 10:30"
+    },
+    {
+      :title => "Kickoff day 2",
+      :interval => "10:30 - 10:45"
+    },
+    {
+      :title => "Conference talk 4",
+      :interval => "10:45 - 11:15"
+    },
+    {
+      :title => "Conference talk 5",
+      :interval => "11:15 - 11:45"
+    },
+    {
+      :title => "Break",
+      :interval => "11:45 - 12:00"
+    },
+    {
+      :title => "Conference talk 6",
+      :interval => "12:00 - 12:30"
+    },
+    {
+      :title => "Ignites part 2",
+      :interval => "12:30 - 13:00"
+    },
+    {
+      :title => "Lunch",
+      :interval => "13:00 - 14:00"
+    },
+    {
+      :title => "Re-opening open space",
+      :interval => "14:00 - 14:30"
+    },
+    {
+      :title => "Open space slot 4",
+      :interval => "14:30 - 15:15"
+    },
+    {
+      :title => "Open space slot 5",
+      :interval => "15:15 - 16:00"
+    },
+    {
+      :title => "Open space slot 6",
+      :interval => "16:00 - 16:45"
+    },
+    {
+      :title => "Closing",
+      :interval => "16:45 - 17:00"
+    }
+  ]
+]
+%>
+
+<%= render(:partial => "/program", :locals => {:program => @program}) -%>

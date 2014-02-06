@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Jon Smith"
+title: "Example proposal"
+---
+**Abstract:**
+
+An interesting talk about examples, with plenty of examples, obviously.
+
+**Speaker:**
+Jon Smith
