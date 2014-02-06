@@ -1,0 +1,33 @@
+---
+filter:
+  - erb
+---
+
+<div class="row">
+<% @program.each_with_index do |day, index| %>
+    <div class="col-xs-6 day">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Day <%= index + 1 -%></h2>
+            </div>
+        </div>
+
+        <% day.each do |topic| %>
+        <div class="row topic">
+            <div class="col-xs-4">
+                <p><%= topic[:interval] -%></p>
+            </div>
+            <div class="col-xs-8">
+                <% if topic[:link].nil? %>
+                    <p><%= topic[:title] -%></p>
+                <% else %>
+                    <p>
+                        <a href="<%= topic[:link] -%>" title="<%= topic[:title] -%>"><%= topic[:title] -%></a>
+                    </p>
+                <% end %>
+            </div>
+        </div>
+        <% end %>
+    </div>
+<% end %>
+</div>
