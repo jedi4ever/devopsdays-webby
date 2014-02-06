@@ -8,9 +8,16 @@ dirty: true
 layout: event
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<hr>
-<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
-</center>
-<hr />
 <h2>We're working on it!</h2>
+<p>
+We're busy getting the program in shape, in the mean time, why don't you <a href="/<%= @eventhome -%>/propose">submit a proposal?</a>
+</p>
 
+<p>If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</p>
+
+<%
+# see program example in 2014-template
+@program = []
+%>
+
+<%= render(:partial => "/program", :locals => {:program => @program}) -%>
