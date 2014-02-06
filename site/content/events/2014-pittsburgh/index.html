@@ -1,0 +1,25 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+  <center><b>devopsdays Pittsburgh n'at!</b></center>
+  Date : <b>29 &amp; 30 of May 2014</b>
+  <br>
+  Location: <a href="location">University of Pittsburgh</a>
+  <br><br>
+  Stay tuned for registration to be announced, <a href="propose">Call For
+  Presentations</a> is now open though so you can tell us your story.
+</td>
+</tr>
+</table>
+</center>
+<hr>
+

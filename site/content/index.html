@@ -66,7 +66,7 @@ var ljubljanamarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Ljubljana<br>Apr 4-5, 2014",
-    labelAnchor: new google.maps.Point(25, +40),
+    labelAnchor: new google.maps.Point(30, 0),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -81,7 +81,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Amsterdam 2014",
-labelAnchor: new google.maps.Point(-10, 20),
+labelAnchor: new google.maps.Point(0, 45),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -96,12 +96,24 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Silicon Valley<br>27 & 28 June 2014",
-labelAnchor: new google.maps.Point(+30, 65),
+labelAnchor: new google.maps.Point(+85, 30),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(siliconvalleymarker, "click", function (e) { location.href="/events/2014-siliconvalley"});
 
+var pittlocation=new google.maps.LatLng(40.442771, -79.956442);
+var pittmarker = new MarkerWithLabel({
+position: pittlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Pittsburgh<br>May 29 & 30 2014",
+labelAnchor: new google.maps.Point(-10, 10),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(pittmarker, "click", function (e) { location.href="/events/2014-pittsburgh"});
 
 var austinlocation=new google.maps.LatLng( 30.267153,-97.743061);
 var austinmarker = new MarkerWithLabel({
@@ -154,7 +166,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Belgium 2014",
-labelAnchor: new google.maps.Point(-10, 20),
+labelAnchor: new google.maps.Point(60, 35),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
