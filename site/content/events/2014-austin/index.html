@@ -10,22 +10,26 @@ platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-<center>
-  <table><tr><td>
-        <center>
-        <img border=0 width="210px" height="250px" src="tell-us-how-you-like-it.png"><br>
-          <small><a href="http://texassteakhouse.com/blog/wp-content/uploads/2012/05/Steak-TempBlog.jpg</small"> original image</a></small></center>
-</td><td>
-  Date : May 5-6, 2014<br>Location: <a href="location">The Marchesa - Austin</a>
-  <br><br>
-  The closest Hotel to the event is the <a href="http://www.ihg.com/holidayinn/hotels/us/en/austin/ausmf/hoteldetail">Austin Midtown Holiday</a>.
-  <br><br>
-  <strong>Call for proposals and registration are not yet open.</strong>
-</td>
-</tr>
-</table>
-</center>
-<hr>
+<div class="row">
+    <div class="col-sm-4">
+        <img border=0 width="210px" height="250px" src="tell-us-how-you-like-it.png">
+        <small><a href="http://texassteakhouse.com/blog/wp-content/uploads/2012/05/Steak-TempBlog.jpg</small"> original image</a></small>
+    </div>
+    <div class="col-sm-8">
+        <ul class="list-unstyled">
+            <li>Date: May 5-6, 2014</li>
+            <li>Location: <a href="location">The Marchesa - Austin</a></li>
+        </ul>
 
-If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+        <p>The closest Hotel to the event is the <a href="http://www.ihg.com/holidayinn/hotels/us/en/austin/ausmf/hoteldetail">Austin Midtown Holiday</a>.</p>
+        
+        <p>
+            <strong>Call for proposals and registration are not yet open.</strong>
+        </p>
 
+        <p>
+            If you want to be the first to know 
+            <a href="http://groups.google.com/group/devopsdays">subscribe to the devopsdays mailinglist</a>
+        </p>
+    </div>
+</div>

@@ -1,15 +1,18 @@
 ---
 filter:    erb
 ---
-<div class="submenu">
-<h3>
-<a href="/<%= @eventhome %>/">welcome</a>&nbsp;
-<a href="/<%= @eventhome %>/propose">propose</a>&nbsp;
-<a href="/<%= @eventhome %>/program">program</a>&nbsp;
-<a href="/<%= @eventhome %>/location">location</a>&nbsp;
-<a href="/<%= @eventhome %>/registration">register</a>&nbsp;
-<a href="/<%= @eventhome %>/sponsor">sponsor</a>&nbsp;
-<a href="/<%= @eventhome %>/contact">contact</a>&nbsp;
-
-</h3>
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/<%= @eventhome %>/">welcome</a></li>
+                <li><a href="/<%= @eventhome %>/propose">propose</a></li>
+                <li><a href="/<%= @eventhome %>/program">program</a></li>
+                <li><a href="/<%= @eventhome %>/location">location</a></li>
+                <li><a href="/<%= @eventhome %>/registration">register</a></li>
+                <li><a href="/<%= @eventhome %>/sponsor">sponsor</a></li>
+                <li><a href="/<%= @eventhome %>/contact">contact</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
