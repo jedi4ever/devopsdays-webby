@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Alon Becker"
+title: "Anatomy of a Deployment Pipeline in a Hybrid (Windows/Linux) Environment"
+---
+**Abstract:**
+
+Our team at EToro was challenged with creating a Continuous Delivery system that was generic enough to be used by our over 70 different services. An additional complexity is that most of our environment is Windows .NET, but we have Linux systems for Load Balancing, Message Queueing, Big Data and other operations tasks. In addition dealing with the persistence issues of a Database deployment presents us with additional challenges. An additional complexity is that our environment is highly regulated and access to production systems is restricted. In addition our architecture, processes and culture needed to change.
+
+Our proposal was to create a Deployment Pipeline using Jenkins, Orchestration via MCollective and custom ruby scripts and Puppet for Configuration Management and Deployment. Having successfully implemented this process, I want to explain how we did it, what were the issues we faced and why we chose the tools we did. 
+
+Having worked years on the Application Lifecycle Management (ALM) side of things I have a deep knowledge of Jenkins. Many of the people I've talked to on the ALM side did not understand why Jenkins is not enough to deploy from Development to Production. Now living on the Web Operations side of the business I understand that it comes down to Orchestration. A Deployment Pipeline does not do Orchestration. It handles the flow from Dev to Production, but not the complex task of creating zero downtime deployment. Enter MCollective, HAProxy, Puppet, NUnit and friends. By using multiple Load Balancing pools - moving servers between online and maintenance pools we can deploy and test on a portion of servers without bringing down all servers and without exposing these servers to our customers. Once passing our testing phase we can bring the tested servers online and continue with deploying on the rest of the servers. 
+
+We used several custom MCollective plugins that interact with HAProxy, and our health check system and created orchestration around MCollective and Puppet using Ruby. And finally tying this all in to the Deployment Pipeline with Jenkins we have a generic, scalable framework for Continuous Delivery.
+
+Monitoring and Logging are also a critical piece for visibility into our process. We use Splunk, Graphite and Nagios for this.
+
+In addition we use pull deployments not push deployments to enable a Continuous Delivery system in our secure environment. MCollective is one of the only tools that can deploy using a Publish/Subscribe (PubSub) paradigm with the help of RabbitMQ.
+
+Finally, none of this could have happened without teamwork. There is a very good reason why DevOps is a cultural revolution. Participation and communication between everyone in the company is what made this possible, from Developers, Operations, QA, Product Management, "The Business", everyone needed to be bought in to this process. We have not rolled out this process to all our services, but we are off and running.
+
+**Speaker:**
+Alon Becker

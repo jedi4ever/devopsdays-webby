@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Andrey Adamovich"
+title: "Groovy DevOps in the Cloud"
+---
+**Abstract:**
+
+Last year me and my business partner, Luciano Fiandesio, made a talk regarding "Groovy DevOps in the Cloud" on Java day in Riga. The talk is focused on open-source Groovy/Java libraries that we have developed in order to solve our daily DevOps problems including SSH connectivity, cloud instance management, OS image management and integration testing of Puppet modules with the help of Groovy and Junit.
+
+Slidedeck can be seen here: http://www.slideshare.net/aestasit/groovy-dev-ops-in-the-cloud
+
+**Speaker:**
+Andrey Adamovich
