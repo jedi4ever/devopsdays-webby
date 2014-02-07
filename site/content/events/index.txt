@@ -20,6 +20,7 @@ The following events took place in the past:
 <li><a href="/events/2013-downunder/">Downunder 2013</a></li>
 <li><a href="/events/2013-amsterdam/">Amsterdam 2013</a></li>
 <li><a href="/events/2013-mountainview/">Mountainview 2013</a></li>
+<li><a href="/events/2013-austin/">Austin 2013</a></li>
 <li><a href="/events/2013-paris/">Paris 2013</a></li>
 <li><a href="/events/2013-berlin/">Berlin 2013</a></li>
 <li><a href="/events/2013-london/">London 2013</a></li>
