@@ -9,10 +9,14 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-## <%= render(:partial => "/#{@eventhome}/_target_date") -%> 
+![Ljubljana](/<%= @eventhome -%>/images/lj.jpg)
 
-The first DevopsDays in Slovenia! [Submit your presentation today](propose)!
+##<%= render(:partial => "/#{@eventhome}/_target_date") -%>
 
-## When and where
+This year brings a nice surprise to the Slovene community, with a DevopsDays happening in right here in Ljubljana!
+
+**Early bird ends 28th of February, [register now!](registration)** 
+
+Got your ticket? Good! Help spread the word and we'll see you in April.
 
 Check out [the location page](location) for more details on location and accomodation.
