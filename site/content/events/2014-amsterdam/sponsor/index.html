@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+layout: event
+title: sponsor
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+
+<h4>Note: Sponsorship packages are not yet finalized</h4>
+
+<hr>
+
+DevOpsDays is a self-organizing conference for DevOps practitioners that depends on your sponsorships to happen. However, because of the nature of the event, we do not have vendor booths or book product pitches.
