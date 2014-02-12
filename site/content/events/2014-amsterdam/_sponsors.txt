@@ -13,7 +13,6 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
-{ :image => "evolven.png", :name => "evolven", :link => "http://www.evolven.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
