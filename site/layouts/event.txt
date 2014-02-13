@@ -23,7 +23,7 @@ end
         <%= render(:partial => '/header') %>
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-md-8">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="page-header">
@@ -47,7 +47,7 @@ end
                 </div>
 
                 <% if @page.sidebar != false %>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="align-sidebar">
                         <% if @rootpage.platinum == true %>
                             <h1>Platinum sponsors</h1>
