@@ -9,17 +9,20 @@ dirty: true
 platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<center>
-  <table><tr><td>
-  <img border=0 width=211 height=158 src="logos/dod-amsterdam.png">
-</td><td>
-  Date : 19, 20 &amp; 21st of June 2013<br>Location: <a href="location">Pakhuis de Zwijger - Amsterdam</a>
-  <br><br>
-  Registration will open soon.
-</td>
-</tr>
-</table>
-</center>
+
+<div class="row">
+    <div class="col-sm-4">
+        <img border=0 width=211 height=158 src="logos/dod-amsterdam.png">
+    </div>
+    <div class="col-sm-8">
+        <ul class="list-unstyled">
+            <li>Date: 19, 20 &amp; 21st of June 2013</li>
+            <li>Location: <a href="location">Pakhuis de Zwijger - Amsterdam</a></li>
+        </ul>
+        <p>Registration will open soon.</p>
+    </div>
+</div>
+
 <hr>
 
 <b>Watch &amp; Share the <a href="https://new.livestream.com/devopsdaysorg/events/2170605">Livestream</a></b>
