@@ -7,289 +7,102 @@ title: program
 dirty: true
 layout: event
 bento: true
+
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<hr>
-<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
-</center>
-<br /><br /><hr /><br />
+<%
+@program = [[{:interval=>"08:30-09:00", :title=>"\n\t\tRegistration\n\t", :link=>nil},
+  {:interval=>"09:00-09:35",
+   :title=>
+    "\n\t\tBreakfast & Icebarake\n\t\t(è»½é£\u009F & ã\u0082¢ã\u0082¤ã\u0082¹ã\u0083\u0096ã\u0083¬ã\u0083¼ã\u0082¯)\n\t",
+   :link=>nil},
+  {:interval=>"09:35-09:45",
+   :title=>"\n\t\tIntroduction(æ\u008C¨æ\u008B¶)\n\t",
+   :link=>nil},
+  {:interval=>"09:45-10:45",
+   :title=>
+    "\n\t\tConference Talk 1\n\t\tNick Galbreath\n\t\tMaking Operations Visible\n\t",
+   :link=>nil},
+  {:interval=>"10:45-10:55",
+   :title=>"\n\t\tBreak(ä¼\u0091æ\u0086©)\n\t",
+   :link=>nil},
+  {:interval=>"10:45-11:10",
+   :title=>
+    "\n\t\t15 min Sponsor Talk\n\t\tDell Japan\n\t\t(å\u008D\u0094è³\u009Bè\u0080æ§\u0098ã\u0082»ã\u0083\u0083ã\u0082·ã\u0083§ã\u0083³)\n\t",
+   :link=>nil},
+  {:interval=>"11:10-12:10",
+   :title=>
+    "\n\t\tConference Talk 2\n\t\tSean Porter\n\t\tintroduction to Sensu\n\t",
+   :link=>nil},
+  {:interval=>"12:10-13:10",
+   :title=>
+    "\n\t\tLunch (æ\u0098¼é£\u009F)\n\t\tLunch Sponsor Talk\n\t\tMicrosoft Japan Co., Ltd.\n\t",
+   :link=>nil},
+  {:interval=>"13:10-13:25",
+   :title=>
+    "\n\t\t5 min Sponsor Pitch x 3 æ\u009C¬\n\t\t(5å\u0088\u0086é\u0096\u0093demox3) \n\t",
+   :link=>nil},
+  {:interval=>"13:25-14:25",
+   :title=>
+    "\n\t\tConference Talk 3\n\t\tMax Martin\n\t\tTaking Devops to the Next Level \n\t",
+   :link=>nil},
+  {:interval=>"14:25-14:35",
+   :title=>"\n\t\tBreak(ä¼\u0091æ\u0086©)\n\t",
+   :link=>nil},
+  {:interval=>"14:35-14:40",
+   :title=>"\n\t\t5 min Sponsor Pitch(5å\u0088\u0086é\u0096\u0093demo) \n\t",
+   :link=>nil},
+  {:interval=>"14:40-14:55",
+   :title=>
+    "\n\t\t15 min Sponsor Talk\n\t\tGengo, Inc.\n\t\t(å\u008D\u0094è³\u009Bè\u0080æ§\u0098ã\u0082»ã\u0083\u0083ã\u0082·ã\u0083§ã\u0083³)\n\t",
+   :link=>nil},
+  {:interval=>"14:55-15:55",
+   :title=>
+    "\n\t\tConference Talk 4\n\t\tJohn Britton\n\t\tOps for Everyone\n\t",
+   :link=>nil},
+  {:interval=>"15:55-16:10",
+   :title=>"\n\t\tBreak(ä¼\u0091æ\u0086©)\n\t",
+   :link=>nil},
+  {:interval=>"16:10-16:40",
+   :title=>
+    "\n\t\tConference Talk 5\n\t\tRyutaro Yoshiba \n\t\tDevOpsæ\u0099\u0082ä»£ã\u0081®ã\u0082¤ã\u0083³ã\u0083\u0095ã\u0083©æ§\u008Bç¯\u0089ã\u0081¨é\u0096\u008Bç\u0099ºã\u0083\u0097ã\u0083­ã\u0082»ã\u0082¹\n\t",
+   :link=>nil},
+  {:interval=>"16:40-17:10",
+   :title=>
+    "\n\t\tConference Talk 6\n\t\tIssei Naruta\n\t\tè¿·ã\u0081£ã\u0081\u009Fã\u0082\u0089å\u0081¥å¨ã\u0081ªæ\u0096¹\n\t",
+   :link=>nil},
+  {:interval=>"17:10-17:20",
+   :title=>"\n\t\tBreak(ä¼\u0091æ\u0086©)\n\t",
+   :link=>nil},
+  {:interval=>"17:20-17:50",
+   :title=>
+    "\n\t\tConference Talk 7\n\t\tAlexis LÃª-QuÃ´c\n\t\tEffective Monitoring with statsD\n\t",
+   :link=>nil},
+  {:interval=>"17:50-18:00",
+   :title=>"\n\t\t\tClosing(é\u0096\u0089ä¼\u009A)\n\t",
+   :link=>nil}],
+ [{:interval=>"08:30-09:00", :title=>"\n\t\tNA\n\t", :link=>nil},
+  {:interval=>"09:00-09:35", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"09:35-09:45", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"09:45-10:45", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"10:45-10:55", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"10:45-11:10", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"11:10-12:10", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"12:10-13:10",
+   :title=>
+    "\n\t\tLunch (æ\u0098¼é£\u009F)\n\t\tLunch Sponsor Talk\n\t\tMicrosoft Japan Co., Ltd.\n\t",
+   :link=>nil},
+  {:interval=>"13:10-13:25", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"13:25-14:25", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"14:25-14:35", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"14:35-14:40", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"14:40-14:55", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"14:55-15:55", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"15:55-16:10", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"16:10-16:40", :title=>"\n\t\tOpenspace A", :link=>nil},
+  {:interval=>"16:40-17:10", :title=>"\n\t\tOpenspace B", :link=>nil},
+  {:interval=>"17:10-17:20", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"17:20-17:50", :title=>"\n\t\tNA", :link=>nil},
+  {:interval=>"18:50-18:00", :title=>"\n\t\tNA\n\t", :link=>nil}]]
 
-<div class="span-7 append-bottom border">
-	<div class="span-7 last">
-	<h4>Day 1 ( Session )</h4>
-	</div>
-
-	<div class="span-2">08:30-09:00</div>
-	<div class="span-4 append-bottom last">
-		Registration
-	</div>
-
-	<div class="span-2">09:00-09:35</div>
-	<div class="span-4 append-bottom last">
-		Breakfast & Icebarake</br>
-		(軽食 & アイスブレーク)
-	</div>
-
-	<div class="span-2">09:35-09:45</div>
-	<div class="span-4 append-bottom last">
-		Introduction</br>(挨拶)
-	</div>
-
-	<div class="span-2">09:45-10:45</div>
-	<div class="span-4 box last">
-		Conference Talk 1</br>
-		Nick Galbreath</br>
-		<b>Making Operations Visible</b>
-	</div>
-
-	<div class="span-2">10:45-10:55</div >
-	<div class="span-4 append-bottom last">
-		Break(休憩)
-	</div>
-
-	<div class="span-2">10:45-11:10</div >
-	<div class="span-4 box last">
-		15 min Sponsor Talk</br>
-		Dell Japan</br>
-		(協賛者様セッション)
-	</div>
-
-	<div class="span-2">11:10-12:10</div>
-	<div class="span-4 box last">
-		Conference Talk 2</br>
-		Sean Porter</br>
-		<b>introduction to Sensu</b>
-	</div>
-
-	<div class="span-2">12:10-13:10</div>
-	<div class="span-4 box  last">
-		Lunch (昼食)<br>
-		Lunch Sponsor Talk</br>
-		Microsoft Japan Co., Ltd.
-	</div>
-
-	<div class="span-2">13:10-13:25</div >
-	<div class="span-4 box last">
-		5 min Sponsor Pitch x 3 本</br>
-		(5分間demox3) 
-	</div>
-
-	<div class="span-2">13:25-14:25</div>
-	<div class="span-4 box last">
-		Conference Talk 3</br>
-		Max Martin</br>
-		<b>Taking Devops to the Next Level</b> 
-	</div>
-
-	<div class="span-2">14:25-14:35</div>
-	<div class="span-4 append-bottom last">
-		Break(休憩)
-	</div>
-
-	<div class="span-2">14:35-14:40</div >
-	<div class="span-4 box last">
-		5 min Sponsor Pitch</br>(5分間demo) 
-	</div>
-
-	<div class="span-2">14:40-14:55</div >
-	<div class="span-4 box last">
-		15 min Sponsor Talk</br>
-		Gengo, Inc.</br>
-		(協賛者様セッション)
-	</div>
-
-	<div class="span-2">14:55-15:55</div>
-	<div class="span-4 box last">
-		Conference Talk 4</br>
-		John Britton</br>
-		<b>Ops for Everyone</b>
-	</div>
-
-	<div class="span-2">15:55-16:10</div>
-	<div class="span-4 append-bottom last">
-		Break(休憩)
-	</div>
-
-	<div class="span-2">16:10-16:40</div>
-	<div class="span-4 box last">
-		Conference Talk 5</br>
-		Ryutaro Yoshiba </br>
-		<b>DevOps時代のインフラ構築と開発プロセス</b>
-	</div>
-
-	<div class="span-2">16:40-17:10</div>
-	<div class="span-4 box last">
-		Conference Talk 6</br>
-		Issei Naruta</br>
-		<b>迷ったら健全な方</b>
-	</div>
-
-	<div class="span-2">17:10-17:20</div>
-	<div class="span-4 append-bottom last">
-		Break(休憩)
-	</div>
-
-	<div class="span-2">17:20-17:50</div>
-	<div class="span-4 box last">
-		Conference Talk 7</br>
-		Alexis Lê-Quôc</br>
-		<b>Effective Monitoring with statsD</b>
-	</div>
-
-	<div class="span-2">17:50-18:00</div>
-		<div class="span-4 append-bottom last">
-			Closing(閉会)
-	</div>
-</div>
-
-
-<div class="span-7 append-bottom border">
-	<div class="span-7 last">
-	<h4>Day 1 ( Openspace )</h4>
-	</div>
-
-	<div class="span-2">08:30-09:00</div>
-	<div class="span-4 append-bottom last">
-		NA
-	</div>
-
-	<div class="span-2">09:00-09:35</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-	</div>
-
-	<div class="span-2">09:35-09:45</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-	</div>
-
-	<div class="span-2">09:45-10:45</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">10:45-10:55</div >
-	<div class="span-4 append-bottom last">
-		NA<br>
-	</div>
-
-	<div class="span-2">10:45-11:10</div >
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-		<br>		
-	</div>
-
-	<div class="span-2">11:10-12:10</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">12:10-13:10</div>
-	<div class="span-4 box  last">
-		Lunch (昼食)<br>
-		Lunch Sponsor Talk</br>
-		Microsoft Japan Co., Ltd.
-	</div>
-
-	<div class="span-2">13:10-13:25</div >
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">13:25-14:25</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">14:25-14:35</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-	</div>
-
-	<div class="span-2">14:35-14:40</div >
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">14:40-14:55</div >
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">14:55-15:55</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">15:55-16:10</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-	</div>
-
-	<div class="span-2">16:10-16:40</div>
-	<div class="span-4 box last">
-		Openspace A<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">16:40-17:10</div>
-	<div class="span-4 box last">
-		Openspace B<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">17:10-17:20</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-	</div>
-
-	<div class="span-2">17:20-17:50</div>
-	<div class="span-4 append-bottom last">
-		NA<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-	<div class="span-2">18:50-18:00</div>
-		<div class="span-4 append-bottom last">
-		NA
-	</div>
-</div>
+%>
+<%= render(:partial => "/program", :locals => {:program => @program}) -%>

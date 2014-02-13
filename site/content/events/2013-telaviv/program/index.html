@@ -6,113 +6,84 @@ filter:
 title: program
 dirty: true
 layout: event
+
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<hr>
-<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
-</center>
-<hr />
+<%
+@program = [[{:interval=>"08:30-9:30", :title=>"Registration and Gathering", :link=>nil},
+  {:interval=>"9:30-9:40", :title=>"Introduction", :link=>nil},
+  {:interval=>"9:40-10:00",
+   :title=>"\n  The DevOps State of the Union by John Willis \n",
+   :link=>nil},
+  {:interval=>"10:00-10:30",
+   :title=>
+    "\n  The DevOps Field Guide to Cognitive Biases by Lindsay Holmwood\n",
+   :link=>
+    "../proposals/The%20devops%20field%20guide%20to%20cognitive%20biases/"},
+  {:interval=>"10:30-10:35",
+   :title=>"A Word from Our Sponsors - GigaSpaces",
+   :link=>nil},
+  {:interval=>"10:35-11:05",
+   :title=>"\n  What Exactly Is Anti-Fragile DevOps? by Asher Sterkin\n",
+   :link=>"../proposals/What is exactly Anti fragile in DevOps"},
+  {:interval=>"11:05-11:10",
+   :title=>"A Word from Our Sponsors - Wix",
+   :link=>nil},
+  {:interval=>"11:10-11:40", :title=>"Break", :link=>nil},
+  {:interval=>"11:40-12:10",
+   :title=>
+    "\n  When Sh!t Hits the Fan - WebOps Disaster Survival Guide by Avishai Ish-Shalom\n",
+   :link=>
+    "../proposals/When sh!t hits the fan - WebOps disaster survival guide"},
+  {:interval=>"12:10-12:15",
+   :title=>"A Word from Our Sponsors - Opscode",
+   :link=>nil},
+  {:interval=>"12:15-12:45",
+   :title=>"\n  Kanban - a Sane Way towards DevOps by Yuval Yeret\n",
+   :link=>"../proposals/Kanban a sane way towards DevOps"},
+  {:interval=>"12:45-13:45", :title=>"Lunch", :link=>nil},
+  {:interval=>"13:45-14:15", :title=>"Ignites Part 1", :link=>nil},
+  {:interval=>"14:15-15:30", :title=>"Opening Open Space", :link=>nil},
+  {:interval=>"15:30-16:00", :title=>"Open Space Slot 1", :link=>nil},
+  {:interval=>"16:00-16:30", :title=>"Break", :link=>nil},
+  {:interval=>"16:30-17:15", :title=>"Open Space Slot 2", :link=>nil},
+  {:interval=>"17:15-18:00", :title=>"Open Space Slot 3", :link=>nil},
+  {:interval=>"19:00-...", :title=>"Evening Event", :link=>nil}],
+ [{:interval=>"08:30-9:30", :title=>"Registration and Gathering", :link=>nil},
+  {:interval=>"9:30-9:40", :title=>"Kickoff Day 2", :link=>nil},
+  {:interval=>"9:40-10:10",
+   :title=>
+    "\n  How Not to Do DevOps: Confessions of a Thought Leader by Stephen Nelson-Smith\n",
+   :link=>"../proposals/How not to do Devops"},
+  {:interval=>"10:10-10:15",
+   :title=>"A Word from Our Sponsors - Kenshoo",
+   :link=>nil},
+  {:interval=>"10:15-10:45",
+   :title=>
+    "\n  Team Refactoring: How Re-Architecting a System Affects People, Teams and Processes by Tal Salmona\n",
+   :link=>"../proposals/Team refactoring"},
+  {:interval=>"10:45-10:50",
+   :title=>"A Word from Our Sponsors - Ravello Systems",
+   :link=>nil},
+  {:interval=>"10:50-11:20",
+   :title=>"\n  Rainmakers, That Is What We Need! Don't We? by Arjen Eriks\n",
+   :link=>"../proposals/Rainmakers - that is what we need dont we"},
+  {:interval=>"11:20-11:25",
+   :title=>"A Word from Our Sponsors - SoftServe",
+   :link=>nil},
+  {:interval=>"11:25-11:45", :title=>"Break", :link=>nil},
+  {:interval=>"11:45-12:15",
+   :title=>
+    "\n  Re-Culturing a 200 Employees Start-Up by Dvir Grinberg and David Virtser\n",
+   :link=>"../proposals/Devops at eToro"},
+  {:interval=>"12:15-12:20",
+   :title=>"A Word from Our Sponsors - JFrog",
+   :link=>nil},
+  {:interval=>"12:20-12:50",
+   :title=>
+    "\n  Real World Strategies in Continuous Delivery by Aviran Mordo\n",
+   :link=>"../proposals/Real world strategies in continuous delivery"},
+  {:interval=>"12:50-13:50", :title=>"Lunch", :link=>nil},
+  {:interval=>"13:50-14:15", :title=>"Ignites Part 2", :link=>nil}]]
 
-<div class="span-7 append-bottom border">
-<div class="span-7 last">
-<h4>Day 1 </h4>
-</div>
-<div class="span-2">08:30-9:30</div>
-<div class="span-4 last">Registration and Gathering</div>
-<div class="span-2">9:30-9:40</div>
-<div class="span-4 append-bottom last">Introduction</div>
-<div class="span-2">9:40-10:00</div>
-<div class="span-4 box last">
-  The DevOps State of the Union by John Willis 
-</div>
-<div class="span-2">10:00-10:30</div>
-
-<div class="span-4 box last">
-  <a href="../proposals/The%20devops%20field%20guide%20to%20cognitive%20biases/">The DevOps Field Guide to Cognitive Biases by Lindsay Holmwood</a>
-</div>
-
-<div class="span-2">10:30-10:35</div> <div class="span-4 append-bottom last">A Word from Our Sponsors - GigaSpaces</div>
-
-<div class="span-2">10:35-11:05</div>
-<div class="span-4 box last">
-  <a href="../proposals/What is exactly Anti fragile in DevOps">What Exactly Is Anti-Fragile DevOps? by Asher Sterkin</a>
-</div>
-<div class="span-2">11:05-11:10</div> <div class="span-4 append-bottom last">A Word from Our Sponsors - Wix</div>
-<div class="span-2">11:10-11:40</div>
-<div class="span-4 append-bottom last">Break</div>
-<div class="span-2">11:40-12:10</div >
-  <div class="span-4 box last">
-  <a href="../proposals/When sh!t hits the fan - WebOps disaster survival guide">When Sh!t Hits the Fan - WebOps Disaster Survival Guide by Avishai Ish-Shalom</a>
-</div>
-<div class="span-2">12:10-12:15</div> <div class="span-4 append-bottom last">A Word from Our Sponsors - Opscode</div>
-<div class="span-2">12:15-12:45</div >
-  <div class="span-4 box last">
-  <a href="../proposals/Kanban a sane way towards DevOps">Kanban - a Sane Way towards DevOps by Yuval Yeret</a>
-</div>
-<div class="span-2">12:45-13:45</div>
-<div class="span-4 append-bottom last">Lunch</div>
-
-<div class="span-2">13:45-14:15</div> <div class="span-4 append-bottom box last"><strong>Ignites Part 1</strong></div>
-
-<div class="span-2">14:15-15:30</div>
-<div class="span-4 append-bottom box last"><strong>Opening Open Space</strong></div>
-<div class="span-2">15:30-16:00</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 1</strong></div>
-<div class="span-2">16:00-16:30</div>
-<div class="span-4 append-bottom last">Break</div>
-<div class="span-2">16:30-17:15</div> 
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 2</strong></div>
-<div class="span-2">17:15-18:00</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 3</strong></div>
-<div class="span-2">19:00-...</div>
-<div class="span-4 append-bottom box last"><strong>Evening Event</a></strong></div>
-</div>
-<div class="span-7 append-bottom last">
-<div class="span-7 last">
-<h4>Day2</h4>
-</div>
-<div class="span-2">08:30-9:30</div>
-<div class="span-4 last">Registration and Gathering</div>
-<div class="span-2">9:30-9:40</div>
-<div class="span-4 append-bottom last">Kickoff Day 2</div>
-<div class="span-2">9:40-10:10</div>
-<div class="span-4 box last">
-  <a href="../proposals/How not to do Devops">How Not to Do DevOps: Confessions of a Thought Leader by Stephen Nelson-Smith</A>
-</div>
-<div class="span-2">10:10-10:15</div> <div class="span-4 append-bottom last">A Word from Our Sponsors - Kenshoo</div>
-<div class="span-2">10:15-10:45</div>
-<div class="span-4 box last">
-  <A HREF="../proposals/Team refactoring">Team Refactoring: How Re-Architecting a System Affects People, Teams and Processes by Tal Salmona</A>
-</div>
-<div class="span-2">10:45-10:50</div> <div class="span-4 append-bottom last">A Word from Our Sponsors - Ravello Systems</div>
-<div class="span-2">10:50-11:20</div>
-<div class="span-4 box last">
-  <A HREF="../proposals/Rainmakers - that is what we need dont we">Rainmakers, That Is What We Need! Don't We? by Arjen Eriks</A>
-</div>
-<div class="span-2">11:20-11:25</div> <div class="span-4 append-bottom last">A Word from Our Sponsors - SoftServe</div>
-<div class="span-2">11:25-11:45</div>
-<div class="span-4 append-bottom last">Break</div>
-<div class="span-2">11:45-12:15</div>
-<div class="span-4 box last">
-  <A HREF="../proposals/Devops at eToro">Re-Culturing a 200 Employees Start-Up by Dvir Grinberg and David Virtser</A>
-</div>
-<div class="span-2">12:15-12:20</div> <div class="span-4 append-bottom last">A Word from Our Sponsors - JFrog</div>
-<div class="span-2">12:20-12:50</div>
-<div class="span-4 box last">
-  <a href="../proposals/Real world strategies in continuous delivery">Real World Strategies in Continuous Delivery by Aviran Mordo</a>
-</div>
-<div class="span-2">12:50-13:50</div>
-<div class="span-4 append-bottom last">Lunch</div>
-<div class="span-2">13:50-14:15</div> <div class="span-4 append-bottom box last"><strong>Ignites Part 2</strong><br></div>
-</div>
-<div class="span-2">14:15-14:45</div>
-<div class="span-4 append-bottom box last"><strong>Re-Opening Open Space</strong></div>
-<div class="span-2">14:45-15:30</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 4</strong></div>
-<div class="span-2">15:30-16:15</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 5</strong></div>
-<div class="span-2">16:15-17:00</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 6</strong></div>
-<div class="span-2">17:00-17:15</div>
-<div class="span-4 append-bottom last">Closing</div>
-</div>
+%>
+<%= render(:partial => "/program", :locals => {:program => @program}) -%>

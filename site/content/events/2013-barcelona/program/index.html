@@ -6,117 +6,55 @@ filter:
 title: program
 dirty: true
 layout: event
+
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<hr>
-<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
-</center>
-<hr />
+<%
+@program = [[{:interval=>"09:30-10:15", :title=>"Registration and Breakfast", :link=>nil},
+  {:interval=>"10:20-10:25", :title=>"Introduction", :link=>nil},
+  {:interval=>"10:30-11:00",
+   :title=>"\n  An introduction to Disciplined Agile Delivery\n",
+   :link=>"/events/2013-barcelona/proposals/DisciplinedAgileDelivery/"},
+  {:interval=>"11:05-11:35",
+   :title=>"\n  The Enemies of Continuous Delivery\n",
+   :link=>"/events/2013-barcelona/proposals/CDEnemies"},
+  {:interval=>"11:35-12:05", :title=>"\n  Break\n", :link=>nil},
+  {:interval=>"12:10-12:40",
+   :title=>"\n  DevOps Adoptionâ\u0080\u0093 a pan European perspective.",
+   :link=>"/events/2013-barcelona/proposals/DevopsAdoption/"},
+  {:interval=>"12:45-13:15", :title=>"\n    Ignites Talk 1\n  ", :link=>nil},
+  {:interval=>"13:15-14:45", :title=>"\n  Lunch\n", :link=>nil},
+  {:interval=>"14:50-15:20", :title=>"\n  Open space 1\n", :link=>nil},
+  {:interval=>"15:25-16:05", :title=>"\n  Open space 2\n", :link=>nil},
+  {:interval=>"16:10-16:50", :title=>"\n  Open space 3\n", :link=>nil},
+  {:interval=>"16:30-20:00",
+   :title=>"\n  time for you to get some food, check in the hotel ...\n",
+   :link=>nil},
+  {:interval=>"20:00-...",
+   :title=>"\n  Evening event  @ Sifo el Raval.\n",
+   :link=>nil}],
+ [{:interval=>"09:30-10:15",
+   :title=>"\n  Registration and Breakfast\n",
+   :link=>nil},
+  {:interval=>"10:20-10:25", :title=>"\n  Kickoff day 2\n", :link=>nil},
+  {:interval=>"10:30-11:00",
+   :title=>"\n  Continuous Performance Testing\n",
+   :link=>"/events/2013-barcelona/proposals/ContinuousPerformanceTesting/"},
+  {:interval=>"11:05-11:35",
+   :title=>"\n  The DevOps Pay Raise.",
+   :link=>"/events/2013-barcelona/proposals/DevOpsPayRaise/"},
+  {:interval=>"11:35-12:05", :title=>"\n  Break\n", :link=>nil},
+  {:interval=>"12:10-12:40",
+   :title=>
+    "\n  Even a classical retail company can go DevOpsâ\u0080¦ With success\n",
+   :link=>"/events/2013-barcelona/proposals/EvenClassicsCanGoDevops/"},
+  {:interval=>"12:45-13:15", :title=>"\n  Ignites Talk 2\n", :link=>nil},
+  {:interval=>"13:15-14:45", :title=>"\n  Lunch\n", :link=>nil},
+  {:interval=>"14:50-15:10", :title=>"\n  Open space 4\n", :link=>nil},
+  {:interval=>"15:15-15:45", :title=>"\n  Open space 5\n", :link=>nil},
+  {:interval=>"15:50-16:20",
+   :title=>"\n  Devops road at Tuenti.\n",
+   :link=>"/events/2013-barcelona/proposals/DevopsroadatTuenti/"},
+  {:interval=>"16:20-16:35", :title=>"\n    Closing\n", :link=>nil}]]
 
-<div class="span-7 append-bottom border">
-<div class="span-7 last">
-<h4>Day 1 </h4>
-</div>
-<div class="span-2">09:30-10:15</div>
-<div class="span-4 last">Registration and Breakfast</div>
-<div class="span-2">10:20-10:25</div>
-<div class="span-4 append-bottom last">Introduction</div>
-<div class="span-2">10:30-11:00</div>
-<div class="span-4 box last">
-  <a href="/events/2013-barcelona/proposals/DisciplinedAgileDelivery/"><strong>An introduction to Disciplined Agile Delivery</strong></a>
-</div>
-<div class="span-2">11:05-11:35</div>
-<div class="span-4 box last">
-  <a href="/events/2013-barcelona/proposals/CDEnemies"><strong>The Enemies of Continuous Delivery</strong></a>
-</div>
-<div class="span-2">11:35-12:05</div>
-<div class="span-4 append-bottom last">
-  Break
-</div>
-<div class="span-2">12:10-12:40</div>
-<div class="span-4 box last">
-  <a href="/events/2013-barcelona/proposals/DevopsAdoption/"><strong>DevOps Adoption– a pan European perspective.</strong></a><br><br>
-</div>
-<div class="span-2">12:45-13:15</div>
-  <div class="span-4 box last">
-    <strong>Ignites Talk 1</strong>
-  </div>
-<div class="span-2">13:15-14:45</div>
-<div class="span-4 append-bottom last">
-  Lunch
-</div>
-<div class="span-2">14:50-15:20</div>
-<div class="span-4 append-bottom box last">
-  <strong>Open space 1</strong>
-</div>
-<div class="span-2">15:25-16:05</div>
-<div class="span-4 box last">
-  <strong>Open space 2</strong>
-</div>
-<div class="span-2">16:10-16:50</div>
-<div class="span-4 box last">
-  <strong>Open space 3</strong>
-</div>
-<div class="span-2">16:30-20:00</div>
-<div class="span-4 append-bottom last">
-  <strong>time for you to get some food, check in the hotel ...</strong>
-</div>
-<div class="span-2">20:00-...</div>
-<div class="span-4 append-bottom last">
-  <strong>Evening event  @ Sifo el Raval.</a></strong>
-</div>
-</div>
-<div class="span-7 append-bottom last">
-<div class="span-7 last">
-
-<h4>Day 2 </h4>
-</div>
-<div class="span-2">09:30-10:15</div>
-<div class="span-4 last">
-  Registration and Breakfast
-</div>
-<div class="span-2">10:20-10:25</div>
-<div class="span-4 append-bottom last">
-  Kickoff day 2
-</div>
-<div class="span-2">10:30-11:00</div>
-<div class="span-4 box last">
-  <a href="/events/2013-barcelona/proposals/ContinuousPerformanceTesting/"><strong>Continuous Performance Testing</strong></a>
-</div>
-<div class="span-2">11:05-11:35</div>
-<div class="span-4 box last">
-  <a href="/events/2013-barcelona/proposals/DevOpsPayRaise/"><strong>The DevOps Pay Raise.</strong></a><br></br>
-</div>
-<div class="span-2">11:35-12:05</div>
-<div class="span-4 append-bottom last">
-  Break
-</div>
-<div class="span-2">12:10-12:40</div>
-<div class="span-4 box last">
-  <a href="/events/2013-barcelona/proposals/EvenClassicsCanGoDevops/"><strong>Even a classical retail company can go DevOps… With success</strong></a>
-</div>
-<div class="span-2">12:45-13:15</div>
-<div class="span-4 box last">
-  <strong>Ignites Talk 2</strong>
-</div>
-<div class="span-2">13:15-14:45</div>
-<div class="span-4 append-bottom last">
-  Lunch
-</div>
-<div class="span-2">14:50-15:10</div>
-<div class="span-4 append-bottom box last">
-  <strong>Open space 4</strong>
-</div>
-<div class="span-2">15:15-15:45</div>
-<div class="span-4 box last">
-  <strong>Open space 5</strong>
-</div>
-<div class="span-2">15:50-16:20</div>
-<div class="span-4 append-botom box last">
-  <a href="/events/2013-barcelona/proposals/DevopsroadatTuenti/"><strong>Devops road at Tuenti.</strong></a>
-</div>
-<div class="span-2">16:20-16:35</div>
-<div class="span-4 append-bottom last">
-    <strong>Closing</strong>
-</div>
-</div>
+%>
+<%= render(:partial => "/program", :locals => {:program => @program}) -%>

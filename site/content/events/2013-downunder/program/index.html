@@ -6,103 +6,56 @@ filter:
 title: program
 dirty: true
 layout: event
+
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<hr>
-<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
-</center>
-<hr />
+<%
+@program = [[{:interval=>"08:30-09:30", :title=>"Registration", :link=>nil},
+  {:interval=>"9:30-9:45", :title=>"Introduction", :link=>nil},
+  {:interval=>"9:45-10:15",
+   :title=>"\n  \n  There is no talent shortage\n   by Andrew Clay Shafer\n",
+   :link=>"../proposals/There_is_no_talent_shortage"},
+  {:interval=>"10:15-10:45",
+   :title=>"\n  \n  Devops, Dungeons & Dragons\n  by David Lutz\n",
+   :link=>"../proposals/Devops Dungeons and Dragons"},
+  {:interval=>"10:45-11:15", :title=>"break", :link=>nil},
+  {:interval=>"11:15-11:45",
+   :title=>
+    "\n  \n  Service-Oriented Architectures: A DevOps Dream Come True\n  by Matt Palmer\n  ",
+   :link=>
+    "../proposals/Service-oriented architectures A DevOps Dream Come True"},
+  {:interval=>"11:45-12:15", :title=>"Ignites Part 1", :link=>nil},
+  {:interval=>"12:15-13:30", :title=>"Lunch", :link=>nil},
+  {:interval=>"13:30-14:45", :title=>"Opening Open Space", :link=>nil},
+  {:interval=>"14:45-15:30", :title=>"Open Space Slot1", :link=>nil},
+  {:interval=>"15:30-16:00", :title=>"Break", :link=>nil},
+  {:interval=>"16:00-16:45", :title=>"Open Space Slot2", :link=>nil},
+  {:interval=>"16:45-17:30", :title=>"Open Space Slot 3", :link=>nil},
+  {:interval=>"17:30-19:00", :title=>"Conference Break", :link=>nil},
+  {:interval=>"19:00-...", :title=>"Evening event", :link=>nil}],
+ [{:interval=>"09:00-9:30", :title=>"Registration", :link=>nil},
+  {:interval=>"9:30-9:45", :title=>"Kickoff Day 2", :link=>nil},
+  {:interval=>"9:45-10:15",
+   :title=>
+    "\n  \n  The DevOps Field Guide to Cognitive Biases\n  by Lindsay Holmwood\n",
+   :link=>"../proposals/The devops field guide to cognitive biases"},
+  {:interval=>"10:15-10:45",
+   :title=>
+    "\n  \n  The DevOps Pay Raise: Quantifying Your Value to Move Up the Ladder\n  by Dustin Whittle (Pres. Steve Burton)\n",
+   :link=>
+    "../proposals/The DevOps Pay Raise Quantifying Your Value to Move Up the Ladder"},
+  {:interval=>"10:45-11:15", :title=>"break", :link=>nil},
+  {:interval=>"11:15-11:45",
+   :title=>
+    "\n  \n  Puppet On Windows & Linux In The Cloud - A Story Of Triumph Over Adversity\n  by Sam Newman, Sebastian Cole\n",
+   :link=>
+    "../proposals/Puppet On Windows and Linux In The Cloud - A Story Of Triumph Over Adversity"},
+  {:interval=>"11:45-12:15", :title=>"Ignites Part 2", :link=>nil},
+  {:interval=>"12:15-13:30", :title=>"Lunch", :link=>nil},
+  {:interval=>"13:30-14:00", :title=>"Re-Opening Open Space", :link=>nil},
+  {:interval=>"14:00-14:45", :title=>"Open Space Slot4", :link=>nil},
+  {:interval=>"14:45-15:30", :title=>"Open Space Slot5", :link=>nil},
+  {:interval=>"15:30-16:15", :title=>"Open Space Slot6", :link=>nil},
+  {:interval=>"16:15-16:30", :title=>"Closing", :link=>nil}]]
 
-<div class="span-7 append-bottom border">
-<div class="span-7 last">
-<h4>Day 1 </h4>
-</div>
-<div class="span-2">08:30-09:30</div>
-<div class="span-4 last">Registration</div>
-<div class="span-2">9:30-9:45</div>
-<div class="span-4 append-bottom last">Introduction</div>
-<div class="span-2">9:45-10:15</div>
-<div class="span-4 box last">
-  <a href="../proposals/There_is_no_talent_shortage">
-  There is no talent shortage
-   by Andrew Clay Shafer</a>
-</div>
-<div class="span-2">10:15-10:45</div>
-<div class="span-4 box last">
-  <a href="../proposals/Devops Dungeons and Dragons">
-  Devops, Dungeons & Dragons
-  by David Lutz</a>
-</div>
-<div class="span-2">10:45-11:15</div>
-<div class="span-4 append-bottom last">break</div>
-<div class="span-2">11:15-11:45</div >
-  <div class="span-4 box last">
-  <a href="../proposals/Service-oriented architectures A DevOps Dream Come True">
-  Service-Oriented Architectures: A DevOps Dream Come True
-  by Matt Palmer</a>
-  </div>
-
-<div class="span-2">11:45-12:15</div> <div class="span-4 append-bottom box last"><strong>Ignites Part 1</strong></div>
-
-
-<div class="span-2">12:15-13:30</div>
-<div class="span-4 append-bottom last">Lunch</div>
-<div class="span-2">13:30-14:45</div>
-<div class="span-4 append-bottom box last"><strong>Opening Open Space</strong></div>
-<div class="span-2">14:45-15:30</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot1</strong></div>
-<div class="span-2">15:30-16:00</div>
-<div class="span-4 append-bottom last">Break</div>
-<div class="span-2">16:00-16:45</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot2</strong></div>
-<div class="span-2">16:45-17:30</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 3</strong></div>
-<div class="span-2">17:30-19:00</div>
-<div class="span-4 append-bottom box last"><strong>Conference Break</strong></div>
-<div class="span-2">19:00-...</div>
-<div class="span-4 append-bottom box last"><strong>Evening event</a></strong></div>
-</div>
-<div class="span-7 append-bottom last">
-<div class="span-7 last">
-<h4>Day2</h4>
-</div>
-<div class="span-2">09:00-9:30</div>
-<div class="span-4 last">Registration</div>
-<div class="span-2">9:30-9:45</div>
-<div class="span-4 append-bottom last">Kickoff Day 2</div>
-<div class="span-2">9:45-10:15</div>
-<div class="span-4 box last">
-  <a href="../proposals/The devops field guide to cognitive biases">
-  The DevOps Field Guide to Cognitive Biases
-  by Lindsay Holmwood</a>
-</div>
-<div class="span-2">10:15-10:45</div>
-<div class="span-4 box last">
-  <a href="../proposals/The DevOps Pay Raise Quantifying Your Value to Move Up the Ladder">
-  The DevOps Pay Raise: Quantifying Your Value to Move Up the Ladder
-  by Dustin Whittle (Pres. Steve Burton)</a>
-</div>
-<div class="span-2">10:45-11:15</div>
-<div class="span-4 append-bottom last">break</div>
-<div class="span-2">11:15-11:45</div>
-<div class="span-4 box last">
-  <a href="../proposals/Puppet On Windows and Linux In The Cloud - A Story Of Triumph Over Adversity">
-  Puppet On Windows & Linux In The Cloud - A Story Of Triumph Over Adversity
-  by Sam Newman, Sebastian Cole</a>
-</div>
-<div class="span-2">11:45-12:15</div> <div class="span-4 append-bottom box last"><strong>Ignites Part 2</strong><br>
-</div>
-
-<div class="span-2">12:15-13:30</div>
-<div class="span-4 append-bottom last">Lunch</div>
-<div class="span-2">13:30-14:00</div>
-<div class="span-4 append-bottom box last"><strong>Re-Opening Open Space</strong></div>
-<div class="span-2">14:00-14:45</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot4</strong></div>
-<div class="span-2">14:45-15:30</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot5</strong></div>
-<div class="span-2">15:30-16:15</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot6</strong></div>
-<div class="span-2">16:15-16:30</div>
-<div class="span-4 append-bottom last">Closing</div>
-</div>
+%>
+<%= render(:partial => "/program", :locals => {:program => @program}) -%>
