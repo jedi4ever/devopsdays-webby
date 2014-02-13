@@ -5,7 +5,7 @@ filter:
 - markdown
 dirty: true
 sidebar: false
-title: Devopsdays - Organizing Guide
+title: DevopsDays - Organizing Guide
 ---
 **This is work in progress - [Feel free to add a section](https://github.com/jedi4ever/devopsdays-webby/tree/master/site/content/pages/organizing)**
 <hr>

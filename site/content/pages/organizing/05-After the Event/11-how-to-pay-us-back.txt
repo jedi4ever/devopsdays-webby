@@ -7,9 +7,9 @@ title: How to pay us back
 ---
 We expect the following in return:
 
-- recorded video and slides content needs to flow back to the devopsdays website. This helps in building a central place for reference
+- recorded video and slides content needs to flow back to the DevopsDays website. This helps in building a central place for reference
 - core-organizers get free access to the event
 - we are involved in the selection process of the talks
 - platinum sponsors get access to the event
-- sponsoring runs through the central devopsdays organisation
+- sponsoring runs through the central DevopsDays organisation
 - we appreciate money left from 'local' sponsorship. But all the sponsor money is there for your event. We're not planning to get rich on these.

@@ -5,7 +5,7 @@ filter:
 - markdown
 title: Ticket and pricing
 ---
-It's important to us that the price to entry to a devopsdays is kept very low. We don't people left out because of the price.
+It's important to us that the price to entry to a DevopsDays is kept very low. We don't people left out because of the price.
 
 __Approach 1: free event__
 Ideally we would go for free events. Experience has learnt us that 'free' events do come with a cost:

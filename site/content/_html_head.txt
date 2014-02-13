@@ -15,7 +15,7 @@ filter: erb
 <% end %>
 <% end %>
 
-<link rel="alternate" type="application/rss+xml" title="devopsdays RSS Feed" href="http://www.devopsdays.org/feed/" >
+<link rel="alternate" type="application/rss+xml" title="DevopsDays RSS Feed" href="http://www.devopsdays.org/feed/" >
 
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/dod.css" rel="stylesheet">

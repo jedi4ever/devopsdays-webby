@@ -3,7 +3,7 @@ extension: html
 filter:    
 - erb
 - markdown
-title: Devopsdays - ignite talks format
+title: DevopsDays - ignite talks format
 ---
 
 If you have a strong devops related message that you really want to share with the DevOps world, we encourage you to send us a proposal for an Ignite presentation. 

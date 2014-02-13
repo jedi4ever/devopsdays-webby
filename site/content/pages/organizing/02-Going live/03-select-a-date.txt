@@ -7,7 +7,7 @@ title: Selecting a date
 ---
 Now that you have some friends for along the way, next step it finding a date. We usually take the following into consideration to find a good date:
 
-- avoid too much of regional 'devopsdays' overlap: even though devops interest has been strong, we want to spread the events within a region. Think of it as loadbalancing your region. No need to do two events in the same month. We'll provide guidance on keeping track of the global events in a calendar to you can check.
+- avoid too much of regional 'DevopsDays' overlap: even though devops interest has been strong, we want to spread the events within a region. Think of it as loadbalancing your region. No need to do two events in the same month. We'll provide guidance on keeping track of the global events in a calendar to you can check.
 - avoid overlap in dates with other important local events: with other events happening at the same time the show-up rate might be limited
 - 'piggyback' after/before other events: it's great to get started, people might have travelled already and can be potentially be interested in a pre or post event conference
 
