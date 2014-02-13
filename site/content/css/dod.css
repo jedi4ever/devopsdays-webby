@@ -24,6 +24,6 @@ div.topic:nth-of-type(even) {
   background-color: #f5f5f5;
 }
 
-#twitter {
+.align-sidebar {
   margin: 40px 0 0;
 }

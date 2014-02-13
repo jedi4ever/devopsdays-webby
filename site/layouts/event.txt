@@ -48,13 +48,15 @@ end
 
                 <% if @page.sidebar != false %>
                 <div class="col-sm-4">
-                    <% if @rootpage.platinum == true %>
-                        <h1>Platinum sponsors</h1>
-                    <% elsif @rootpage.gold.nil? || @rootpage.gold == true %>
-                        <h1>Gold sponsors</h1>
-                    <% end %>
+                    <div class="align-sidebar">
+                        <% if @rootpage.platinum == true %>
+                            <h1>Platinum sponsors</h1>
+                        <% elsif @rootpage.gold.nil? || @rootpage.gold == true %>
+                            <h1>Gold sponsors</h1>
+                        <% end %>
 
-                    <%= render(:partial => File.join(@eventhome, "_sponsors")) %>
+                        <%= render(:partial => File.join(@eventhome, "_sponsors")) %>
+                    </div>
                 </div>
                 <% end %>
             </div>
