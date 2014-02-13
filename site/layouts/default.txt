@@ -13,7 +13,7 @@ filter:    erb
         <%= render(:partial => '/header') %>
         <div class="container">
             <div class="row">
-                <div class="col-sm-<%= @page.sidebar != false ? '8' : '12' -%>">
+                <div class="col-md-<%= @page.sidebar != false ? '8' : '12' -%>">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="page-header">
@@ -29,7 +29,7 @@ filter:    erb
                     </div>
                 </div>
                 <% if @page.sidebar != false %>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <%= render(:partial => '/twitterfeed') %>
                     <%= render(:partial => '/past_events') %>
                 </div>
