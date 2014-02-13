@@ -1,0 +1,29 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+  <img border=0 width=211 height=158 src="logos/dod-amsterdam.png">
+</td><td>
+  Date : 19, 20 &amp; 21st of June 2013<br>Location: <a href="location">Pakhuis de Zwijger - Amsterdam</a>
+  <br><br>
+  Registration will open soon.
+</td>
+</tr>
+</table>
+</center>
+<hr>
+
+<b>Watch &amp; Share the <a href="https://new.livestream.com/devopsdaysorg/events/2170605">Livestream</a></b>
+
+Are you interested in helping out, do you have ideas or suggestions? [Talk to the organizers!](mailto:organizers-amsterdam-2013@devopsdays.org)
+
+If you want to be the first to get news [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
