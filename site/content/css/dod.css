@@ -23,3 +23,7 @@ body {
 div.topic:nth-of-type(even) {
   background-color: #f5f5f5;
 }
+
+#twitter {
+  margin: 40px 0 0;
+}

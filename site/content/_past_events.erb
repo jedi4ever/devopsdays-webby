@@ -42,9 +42,21 @@ events = [
 ]
 %>
 
-<h3>Past Events</h3>
-<ul>
-    <% events.each do |event| %>
-        <li><a href="<%= event["link"] %>" title="<%= event["title"] -%>"><%= event["title"] -%></a></li>
-    <% end %>
-</ul>
+<div class="row">
+    <div class="col-sm-12">
+        <h3>Past Events</h3>
+    </div>
+    <div class="col-sm-6">
+        <ul class="list-unstyled">
+            <% events.each_with_index do |event, i| %>
+            <li><a href="<%= event["link"] %>" title="<%= event["title"] -%>"><%= event["title"] -%></a></li>
+                <% if i == (events.length / 2).floor %>
+        </ul>
+    </div>
+    <div class="col-sm-6">
+        <ul class="list-unstyled">
+                <% end %>
+            <% end %>
+        </ul>
+    </div>
+</div>
