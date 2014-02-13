@@ -7,108 +7,56 @@ title: program
 dirty: true
 layout: event
 platinum: true
+
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<hr>
-<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
-</center>
-<hr />
+<%
+@program = [[{:interval=>"09:00-10:00", :title=>"Registration and Coffee", :link=>nil},
+  {:interval=>"10:00-10:15", :title=>"Introduction", :link=>nil},
+  {:interval=>"10:15-11:15",
+   :title=>
+    "\n  DevOps 3.0 - Where we are now and what we found out on the way by Marcel Wolf and Felix SperlingSlides)\n",
+   :link=>"../proposals/DevOps3.0/"},
+  {:interval=>"11:15-11:45",
+   :title=>"\n  DevTools team at Etsy by Daniel Schauenberg(Slides)\n",
+   :link=>"../proposals/DevTools team at Etsy/"},
+  {:interval=>"11:45-12:00", :title=>"break", :link=>nil},
+  {:interval=>"12:00-12:30",
+   :title=>
+    "\n    Administer the devops pill across the enterprise by Sriram Narayan(Slides)\n  ",
+   :link=>"../proposals/Administer the devops pill across the enterprise/"},
+  {:interval=>"12:30-13:00", :title=>"Ignites Part 1", :link=>nil},
+  {:interval=>"13:00-14:30", :title=>"Lunch", :link=>nil},
+  {:interval=>"14:30-15:00", :title=>"Opening Open Space", :link=>nil},
+  {:interval=>"15:00-15:45", :title=>"Open Space Slot 1", :link=>nil},
+  {:interval=>"15:45-16:30", :title=>"Open Space Slot 2", :link=>nil},
+  {:interval=>"16:30-17:00", :title=>"Break", :link=>nil},
+  {:interval=>"17:00-17:45", :title=>"Open Space Slot 3", :link=>nil},
+  {:interval=>"17:45-18:30", :title=>"Open Space Slot 4", :link=>nil},
+  {:interval=>"18:30-20:00",
+   :title=>"time for you to get some food, check in the hotel ...",
+   :link=>nil},
+  {:interval=>"20:00-...", :title=>"Evening event", :link=>nil}],
+ [{:interval=>"09:30-10:30", :title=>"Registration and Coffee", :link=>nil},
+  {:interval=>"10:30-10:45", :title=>"Kickoff Day 2", :link=>nil},
+  {:interval=>"10:45-11:15",
+   :title=>
+    "\n  How the QA team got Prezi ready for DevOps by Peter Neumark(Slides)",
+   :link=>"../proposals/How the QA team got Prezi ready for DevOps/"},
+  {:interval=>"11:15-11:45",
+   :title=>"\n  Podularity FTW! by Tim Lossen(Slides)\n",
+   :link=>"../proposals/Podularity FTW/"},
+  {:interval=>"11:45-12:00", :title=>"break", :link=>nil},
+  {:interval=>"12:00-12:30",
+   :title=>
+    "\n  Island Life: How we built and deployed the HonshÅ« way by Wes Mason(Slides)\n",
+   :link=>"../proposals/How we built and deployed the Honshu way/"},
+  {:interval=>"12:30-13:00", :title=>"Ignites Part 2", :link=>nil},
+  {:interval=>"13:00-14:00", :title=>"Lunch", :link=>nil},
+  {:interval=>"14:00-14:30", :title=>"Re-Opening Open Space", :link=>nil},
+  {:interval=>"14:30-15:15", :title=>"Open Space Slot 4", :link=>nil},
+  {:interval=>"15:15-16:00", :title=>"Open Space Slot 5", :link=>nil},
+  {:interval=>"16:00-16:45", :title=>"Open Space Slot 6", :link=>nil},
+  {:interval=>"16:45-17:00", :title=>"Closing", :link=>nil}]]
 
-<div class="span-7 append-bottom border">
-<div class="span-7 last">
-<h4>Day 1 </h4>
-</div>
-<div class="span-2">09:00-10:00</div>
-<div class="span-4 last">Registration and Coffee</div>
-<div class="span-2">10:00-10:15</div>
-<div class="span-4 append-bottom last">Introduction</div>
-<div class="span-2">10:15-11:15</div>
-<div class="span-4 box last">
-  <a href="../proposals/DevOps3.0/">DevOps 3.0 - Where we are now and what we found out on the way</a> by Marcel Wolf and Felix Sperling<br><a href="http://fsperling.github.io/DevOpsDays_Berlin_2013-DevOps_3.0/">Slides</a>)
-</div>
-<div class="span-2">11:15-11:45</div>
-<div class="span-4 box last">
-  <a href="../proposals/DevTools team at Etsy/">DevTools team at Etsy</a> by Daniel Schauenberg<br>(<a href="https://speakerdeck.com/mrtazz/devtools-at-etsy">Slides</a>)
-</div>
-<div class="span-2">11:45-12:00</div>
-<div class="span-4 append-bottom last">break</div>
-<div class="span-2">12:00-12:30</div >
-  <div class="span-4 box last">
-    <a href="../proposals/Administer the devops pill across the enterprise/">Administer the devops pill across the enterprise</a> by Sriram Narayan<br>(<a href="https://dl.dropboxusercontent.com/u/6691653/slides/Administer%20the%20devops%20pill%20across%20the%20enterprise%20by%20Srriam%20Narayan.pdf">Slides</a>)
-  </div>
-<div class="span-2">12:30-13:00</div> <div class="span-4 append-bottom box last"><strong>Ignites Part 1</strong></div>
-
-<div class="span-2">13:00-14:30</div>
-<div class="span-4 append-bottom last">Lunch</div>
-
-<div class="span-2">14:30-15:00</div>
-<div class="span-4 append-bottom box last"><strong>Opening Open Space</strong></div>
-<div class="span-2">15:00-15:45</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 1</strong></div>
-<div class="span-2">15:45-16:30</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 2</strong></div>
-<div class="span-2">16:30-17:00</div>
-<div class="span-4 append-bottom last">Break</div>
-<div class="span-2">17:00-17:45</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 3</strong></div>
-<div class="span-2">17:45-18:30</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 4</strong></div>
-<div class="span-2">18:30-20:00</div>
-<div class="span-4 append-bottom box last"><strong>time for you to get some food, check in the hotel ...</strong></div>
-<div class="span-2">20:00-...</div>
-<div class="span-4 append-bottom box last"><strong>Evening event</a></strong></div>
-</div>
-<div class="span-7 append-bottom last">
-<div class="span-7 last">
-<h4>Day2</h4>
-</div>
-<div class="span-2">09:30-10:30</div>
-<div class="span-4 last">Registration and Coffee</div>
-<div class="span-2">10:30-10:45</div>
-<div class="span-4 append-bottom last">Kickoff Day 2</div>
-<div class="span-2">10:45-11:15</div>
-<div class="span-4 box last">
-  <a href="../proposals/How the QA team got Prezi ready for DevOps/">How the QA team got Prezi ready for DevOps</a> by Peter Neumark<br>(<a href="http://prezi.com/qmrekeeqqvyf/how-the-qa-team-got-prezi-ready-for-devops/">Slides</a>)<br/><br/>
-</div>
-<div class="span-2">11:15-11:45</div>
-<div class="span-4 box last">
-  <a href="../proposals/Podularity FTW/">Podularity FTW!</a> by Tim Lossen<br>(<a href="http://de.slideshare.net/tim.lossen.de/podularity-ftw">Slides</a>)
-</div>
-<div class="span-2">11:45-12:00</div>
-<div class="span-4 append-bottom last">break</div>
-<div class="span-2">12:00-12:30</div>
-<div class="span-4 box last">
-  <a href="../proposals/How we built and deployed the Honshu way/">Island Life: How we built and deployed the Honshū way</a> by Wes Mason<br>(<a href="http://1stvamp.github.io/dod-berlin-2013-talk/#/">Slides</a>)
-</div>
-<div class="span-2">12:30-13:00</div> <div class="span-4 append-bottom box last"><strong>Ignites Part 2</strong><br>
-</div>
-
-<div class="span-2">13:00-14:00</div>
-<div class="span-4 append-bottom last">Lunch</div>
-<div class="span-2">14:00-14:30</div>
-<div class="span-4 append-bottom box last"><strong>Re-Opening Open Space</strong></div>
-<div class="span-2">14:30-15:15</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 4</strong></div>
-<div class="span-2">15:15-16:00</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 5</strong></div>
-<div class="span-2">16:00-16:45</div>
-<div class="span-4 append-bottom box last"><strong>Open Space Slot 6</strong></div>
-<div class="span-2">16:45-17:00</div>
-<div class="span-4 append-bottom last">Closing</div>
-</div>
-
-<div class="span-16 last ">
-<div class="span-2">Ignite talks</div>
-<div class="span-11 append-bottom last">
-    <a href="../proposals/We love alerts at 2am/">We love alerts at 2am</a> - Gabor Veszi<br>
-    <a href="../proposals/Operations as a Service - handling traditional enterprise projects/">Operations as a Service</a> - Christian Theune<br>
-    <a href="../proposals/Enterprise DevOps Applied/">Enterprise DevOps Applied</a> - Michael Hüttermann<br>
-    <a href="../proposals/DevOps at Runtime/">DevOps@Runtime</a> - Leon Rosenberg<br>
-    <a href="../proposals/Chatops in Practice">ChatOps in Practice: Integrating PagerDuty with Hubot</a> - Jesse Newland<br>
-    <a href="../proposals/Applied Devops/">Applied Devops</a> - Matthew Jones<br>
-    <a href="../proposals/Help we have now more time/">Help, we have no more time for testing!</a> - Alexander Schwartz<br>
-    <a href="../proposals/Hiring for skill and culture - qualities beyond Dev and Ops/">Hiring for skill and culture - qualities beyond Dev and Ops</a> - Florian Thiel<br>
-</div>
-</div>
-
-
+%>
+<%= render(:partial => "/program", :locals => {:program => @program}) -%>

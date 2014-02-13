@@ -7,7 +7,7 @@ title: Code of Conduct
 ---
 The text below serves as a basis to use as a code of conduct for events:
 
-Inclusiveness and respect for differences are core devops values, and we invite you to help us make each devopsdays conference a place that is welcoming and respectful to all participants. Attendees that are acting in a manner not consistent with these values may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
+Inclusiveness and respect for differences are core devops values, and we invite you to help us make each DevopsDays conference a place that is welcoming and respectful to all participants. Attendees that are acting in a manner not consistent with these values may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
 
 Contact Information
 

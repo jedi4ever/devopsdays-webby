@@ -1,6 +1,45 @@
+---
+filter: erb
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/" title="DevopsDays home"><img src="/images/devopsdays-banner.png" alt="DevopsDays home"></a>
+        </div>
+    </div>
+</div>
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="col-lg-8">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">DevopsDays</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/events">Events</a></li>
+                    <li><a href="/presentations">Presentations</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                </ul>
+            </div>
+        </div>
 
- <div class="span-16 first">
-	<img src="/images/devopsdays-banner.png" title="devopsdays banner" width="801" height="115" alt="devopdays banner" ><br>
- </div>
- <div class="span-8 last">
- </div>
+        <div class="col-lg-4">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/feed">Feed</a></li>
+                    <li><a href="https://twitter.com/devopsdays">Twitter</a></li>
+                    <li><a href="http://groups.google.com/group/devopsdays">Google Group</a></li>
+                    <li><a href="http://www.linkedin.com/groups?home=&gid=2445279">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

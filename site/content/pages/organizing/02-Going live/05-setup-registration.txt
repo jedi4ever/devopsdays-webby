@@ -8,7 +8,7 @@ title: Setting up Registration
 Once pricing has been decided you're ready to setup registration. We've had good experiences with <http://www.eventbrite.com> integrated with <http://paypal.com> payments. 
 The paypal account for payment needs to be linked directly to the company that does the invoicing.
 
-We as the devopsdays organization can create the event for you and give you administrative access. This allows us to track people from the website and do email communication in the future.
+We as the DevopsDays organization can create the event for you and give you administrative access. This allows us to track people from the website and do email communication in the future.
 But you can also set it up yourself and allow us access:
 - so we can see the people registered
 - the registration details
@@ -22,7 +22,7 @@ Specifically on eventbrite we do:
 - ask if there are interested in an evening event meetup
 - We usually disable the facebook integration
 - allow people to see who is coming (name, company , title)
-- add the google analytics tag of devopsdays for counting hits
+- add the google analytics tag of DevopsDays for counting hits
 
 - setup a sponsor/helper/ ticket which has a high price ($9999)
 - create discount codes for sponsors/helpers/organizes and have them select the special ticket to can keep track of regular attendees and sponsors/helpers/speakers free tickets.

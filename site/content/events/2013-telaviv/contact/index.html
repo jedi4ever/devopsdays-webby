@@ -5,7 +5,8 @@ filter:
 - markdown
 title: contact
 dirty: true
-layout: event_tlv
+layout: event
+gold: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
 <% @eventid = File.basename(@page.directory) %>

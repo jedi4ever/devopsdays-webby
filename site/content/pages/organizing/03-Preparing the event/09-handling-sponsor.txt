@@ -7,9 +7,9 @@ title: Finding/Handling Sponsors
 ---
 Sponsors pay the bill. You rely on them. So what can you do to find them and keep them satified:
 
-- post the event on the devopsdays google group. We informed previous sponsors to subscribe themselves to get information on new events. 
+- post the event on the DevopsDays google group. We informed previous sponsors to subscribe themselves to get information on new events. 
 - post on the twitters , facebook, find local meetups/companies that can help you
-- if you're looking for a contact of a specific company that sponsored before, ping the devopsdays core-organizers to see if they can help.
+- if you're looking for a contact of a specific company that sponsored before, ping the DevopsDays core-organizers to see if they can help.
 - write a blog on the website to expose the event.
 
 Sponsors will usually ask you the following, best to have that information ready (in a PDF mailable form).

@@ -1,0 +1,62 @@
+---
+filter:
+  - erb
+---
+
+<%
+events = [
+    {"title" => "Tokyo 2013", "link" => "/events/2013-tokyo/"},
+    {"title" => "Tel Aviv 2013", "link" => "/events/2013-telaviv/"},
+    {"title" => "Atlanta 2013", "link" => "/events/2013-atlanta/"},
+    {"title" => "New York 2013", "link" => "/events/2013-newyork/"},
+    {"title" => "Portland 2013", "link" => "/events/2013-portland/"},
+    {"title" => "Vancouver 2013", "link" => "/events/2013-vancouver/"},
+    {"title" => "Barcelona 2013", "link" => "/events/2013-barcelona/"},
+    {"title" => "London Autumn 2013", "link" => "/events/2013-london/"},
+    {"title" => "Bangalore 2013", "link" => "/events/2013-india/"},
+    {"title" => "Downunder 2013", "link" => "/events/2013-downunder/"},
+    {"title" => "Mountainview 2013", "link" => "/events/2013-mountainview/"},
+    {"title" => "Amsterdam 2013", "link" => "/events/2013-amsterdam/"},
+    {"title" => "Berlin 2013", "link" => "/events/2013-berlin/"},
+    {"title" => "Austin 2013", "link" => "/events/2013-austin/"},
+    {"title" => "Paris 2013", "link" => "/events/2013-paris/"},
+    {"title" => "London 2013", "link" => "/events/2013-london-spring/"},
+    {"title" => "New Zealand 2013", "link" => "/events/2013-newzealand"},
+    {"title" => "New York 2012", "link" => "/events/2012-newyork"},
+    {"title" => "Rome 2012", "link" => "/events/2012-italy"},
+    {"title" => "Mountain View 2012", "link" => "/events/2012-mountainview"},
+    {"title" => "Gurgaon 2012", "link" => "/events/2012-india"},
+    {"title" => "Austin 2012", "link" => "/events/2012-austin"},
+    {"title" => "Manila 2012", "link" => "/events/2012-manila"},
+    {"title" => "Goteborg 2012", "link" => "/events/2012-goteborg"},
+    {"title" => "Bangalore 2012", "link" => "/events/2012-bangalore"},
+    {"title" => "Melbourne 2011", "link" => "/events/2011-melbourne"},
+    {"title" => "Mountain View 2011 ", "link" => "/events/2011-mountainview"},
+    {"title" => "Boston 2011 ", "link" => "/events/2011-boston"},
+    {"title" => "Sao Paulo 2010 ", "link" => "/events/2010-brazil"},
+    {"title" => "Hamburg 2010 ", "link" => "/events/2010-europe"},
+    {"title" => "Mountain View 2010 ", "link" => "/events/2010-us"},
+    {"title" => "Sydney 2010 ", "link" => "/events/2010-sydney"},
+    {"title" => "Ghent 2009 ", "link" => "/events/2009-ghent"},
+
+]
+%>
+
+<div class="row">
+    <div class="col-sm-12">
+        <h3>Past Events</h3>
+    </div>
+    <div class="col-sm-6">
+        <ul class="list-unstyled">
+            <% events.each_with_index do |event, i| %>
+            <li><a href="<%= event["link"] %>" title="<%= event["title"] -%>"><%= event["title"] -%></a></li>
+                <% if i == (events.length / 2).floor %>
+        </ul>
+    </div>
+    <div class="col-sm-6">
+        <ul class="list-unstyled">
+                <% end %>
+            <% end %>
+        </ul>
+    </div>
+</div>

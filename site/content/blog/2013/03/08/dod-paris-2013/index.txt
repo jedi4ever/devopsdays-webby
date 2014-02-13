@@ -1,5 +1,5 @@
 ---
-title: DevOpsDays Paris 2013
+title: DevopsDays Paris 2013
 created_at: 2013-03-08 14:02:27.000000 +01:00
 tags:
 - 2013
@@ -10,7 +10,7 @@ filter:
 - markdown
 ---
 
-The first DevOpsDays Paris is scheduled for 18-19 April 2013, and while this
+The first DevopsDays Paris is scheduled for 18-19 April 2013, and while this
 blog post is a little late to the game, it's not yet too late for you to
 participate either as an attendee or a speaker.
 

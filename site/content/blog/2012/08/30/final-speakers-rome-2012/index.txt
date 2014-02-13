@@ -1,5 +1,5 @@
 --- 
-title:      DevOpsDays 2012 - Rome  Final Speakerslist
+title:      DevopsDays 2012 - Rome  Final Speakerslist
 created_at: 2012-08-30 20:16:57.336789 +01:00
 tags: 
 - 2012
@@ -9,7 +9,7 @@ filter:
 - markdown
 ---
 
-In case you hadn't noticed yet .. Devopsdays Rome is on again .. 
+In case you hadn't noticed yet .. DevopsDays Rome is on again .. 
 
 And here's the list of speakers 
 

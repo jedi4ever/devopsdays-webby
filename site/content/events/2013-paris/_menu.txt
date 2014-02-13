@@ -1,38 +1,33 @@
 ---
 filter:    erb
 ---
-<div class="submenu">
-<h3>
-<a href="/<%= @eventhome %>/">Accueil</a>
--
-<a href="/<%= @eventhome %>/program">Programme</a>
--
-<a href="/<%= @eventhome %>/propose">Proposer</a>
--
-<a href="/<%= @eventhome %>/registration">S'inscrire</a>
--
-<a href="/<%= @eventhome %>/location">Venir</a>
--
-<a href="/<%= @eventhome %>/sponsor">Sponsoriser</a>
--
-<a href="/<%= @eventhome %>/contact">Contact</a>
--
-<a href="/<%= @eventhome %>/reactions">Réactions</a>
-<br/>
-<a href="/<%= @eventhome %>/">Welcome</a>
--
-<a href="/<%= @eventhome %>/program">Program</a>
--
-<a href="/<%= @eventhome %>/propose">Propose</a>
--
-<a href="/<%= @eventhome %>/registration">Register</a>
--
-<a href="/<%= @eventhome %>/location">Location</a>
--
-<a href="/<%= @eventhome %>/sponsor">Sponsoring</a>
--
-<a href="/<%= @eventhome %>/contact">Contact</a>
--
-<a href="/<%= @eventhome %>/reactions">Reactions</a>
-</h3>
-</div>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/<%= @eventhome %>/">Accueil</a></li>
+<li><a href="/<%= @eventhome %>/program">Programme</a></li>
+<li><a href="/<%= @eventhome %>/propose">Proposer</a></li>
+<li><a href="/<%= @eventhome %>/registration">S'inscrire</a></li>
+<li><a href="/<%= @eventhome %>/location">Venir</a></li>
+<li><a href="/<%= @eventhome %>/sponsor">Sponsoriser</a></li>
+<li><a href="/<%= @eventhome %>/contact">Contact</a></li>
+<li><a href="/<%= @eventhome %>/reactions">Réactions</a></li>
+
+</ul></div></div></div>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/<%= @eventhome %>/">Welcome</a></li>
+<li><a href="/<%= @eventhome %>/program">Program</a></li>
+<li><a href="/<%= @eventhome %>/propose">Propose</a></li>
+<li><a href="/<%= @eventhome %>/registration">Register</a></li>
+<li><a href="/<%= @eventhome %>/location">Location</a></li>
+<li><a href="/<%= @eventhome %>/sponsor">Sponsoring</a></li>
+<li><a href="/<%= @eventhome %>/contact">Contact</a></li>
+<li><a href="/<%= @eventhome %>/reactions">Reactions</a></li>
+
+</ul></div></div></div>

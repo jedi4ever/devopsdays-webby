@@ -3,7 +3,7 @@ extension: html
 filter:
 - erb
 - markdown
-title: Devopsdays Presentations
+title: DevopsDays Presentations
 ---
 In the future this page will give an overview of all the presentations held at each event.
 

@@ -1,12 +1,13 @@
 ---
 extension: html
-layout: event_tokyo
+layout: event
 filter:
 - erb
 - markdown
 title: welcome
 dirty: true
 bento: true
+gold: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 

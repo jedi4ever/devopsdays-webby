@@ -9,7 +9,7 @@ Congratulations! The fact that you have reached this page means you at least hav
 Back in 2009 when we organized the first event, we were probably as excited as you are now. But we were also bit 'scared' and full of questions:
 how does this work? how do we get sponsors? what is the first thing we have to do?
 
-We are now about 20 events later and as many gray hairs have appeared on our heads :). Even though every event is a bit unique in it's own way, we've come to a more of less standard approach for organizing these events.
-With this document we want to support you and make you feel at ease of organizing one yourself. Don't worry we'll be there along the way!
+We are now about 30 events later and as many new gray hairs on our heads :). Even though every event is a bit unique in it's own way, we've come to a more or less standard approach for organizing these events.
+With this document we want to support you and make you feel at ease with organizing one yourself. Don't worry, we'll be there along the way!
 
 We recommend you attend at least one of the events first and get in touch with one of the [core organizers](mailto:info@devopsdays.org)

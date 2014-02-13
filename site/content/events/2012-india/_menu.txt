@@ -1,10 +1,13 @@
-<div class="submenu">
-<h3>
-<a href="/events/2012-india/">welcome</a>&nbsp;
-<a href="/events/2012-india/program">program</a>&nbsp;
-<a href="/events/2012-india/sponsorship">sponsorship</a>&nbsp;
-<a href="/events/2012-india/location">location</a>&nbsp;
-<a href="/events/2012-india/registration">register</a>&nbsp;
-<a href="/events/2012-india/contact">contact</a>&nbsp;
-</h3>
-</div>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/events/2012-india/">welcome</a></li>
+<li><a href="/events/2012-india/program">program</a></li>
+<li><a href="/events/2012-india/sponsorship">sponsorship</a></li>
+<li><a href="/events/2012-india/location">location</a></li>
+<li><a href="/events/2012-india/registration">register</a></li>
+<li><a href="/events/2012-india/contact">contact</a></li>
+
+</ul></div></div></div>

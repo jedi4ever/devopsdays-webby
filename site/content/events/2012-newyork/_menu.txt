@@ -1,12 +1,15 @@
-<div class="submenu">
-<h3>
-<a href="/events/2012-newyork/">welcome</a>&nbsp;
-<a href="/events/2012-newyork/propose">propose</a>&nbsp;
-<a href="/events/2012-newyork/program">program</a>&nbsp;
-<a href="/events/2012-newyork/location">location</a>&nbsp; 
-<a href="/events/2012-newyork/registration">register</a>&nbsp;
-<a href="/events/2012-newyork/sponsor">sponsor</a>&nbsp;
-<a href="/events/2012-newyork/contact">contact</a>&nbsp;
 
-</h3>
-</div>
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/events/2012-newyork/">welcome</a></li>
+<li><a href="/events/2012-newyork/propose">propose</a></li>
+<li><a href="/events/2012-newyork/program">program</a></li>
+<li><a href="/events/2012-newyork/location">location</a></li> 
+<li><a href="/events/2012-newyork/registration">register</a></li>
+<li><a href="/events/2012-newyork/sponsor">sponsor</a></li>
+<li><a href="/events/2012-newyork/contact">contact</a></li>
+
+
+</ul></div></div></div>

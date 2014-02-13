@@ -1,10 +1,13 @@
-<div class="submenu">
-<h3>
-<a href="/events/2010-europe/">welcome</a>&nbsp;
-<a href="/events/2010-europe/program">program</a>&nbsp; 
-<a href="/events/2010-europe/lightning-talks">lightning talks</a>&nbsp; 
-<a href="/events/2010-europe/speakers">speakers</a>&nbsp; 
-<a href="/events/2010-europe/contact">contact</a>&nbsp; 
-<a href="/events/2010-europe/reactions">reactions</a>&nbsp; 
-</h3>
-</div>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/events/2010-europe/">welcome</a></li>
+<li><a href="/events/2010-europe/program">program</a></li> 
+<li><a href="/events/2010-europe/lightning-talks">lightning talks</a></li> 
+<li><a href="/events/2010-europe/speakers">speakers</a></li> 
+<li><a href="/events/2010-europe/contact">contact</a></li> 
+<li><a href="/events/2010-europe/reactions">reactions</a></li> 
+
+</ul></div></div></div>

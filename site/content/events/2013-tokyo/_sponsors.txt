@@ -6,6 +6,7 @@ filter:    erb
 { :image => "microsoft.png", :name => "Microsoft Japan Co., Ltd.", :link => "http://www.microsoft.com/ja-jp/default.aspx"},
 ]%>
 
+<h1>3.11 Restoration</br>Bento sponsors</h1>
 <% @lsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>

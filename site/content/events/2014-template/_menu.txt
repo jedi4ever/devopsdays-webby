@@ -1,0 +1,19 @@
+---
+filter:    erb
+---
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/<%= @eventhome %>/">welcome</a></li>
+                <li><a href="/<%= @eventhome %>/propose">propose</a></li>
+                <li><a href="/<%= @eventhome %>/registration">register</a></li>
+                <li><a href="/<%= @eventhome %>/program">program</a></li>
+                <li><a href="/<%= @eventhome %>/location">location</a></li>
+                <li><a href="/<%= @eventhome %>/sponsor">sponsor</a></li>
+                <li><a href="/<%= @eventhome %>/contact">contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

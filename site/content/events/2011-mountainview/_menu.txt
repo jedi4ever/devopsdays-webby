@@ -1,11 +1,14 @@
-<div class="submenu">
-<h3>
-<a href="/events/2011-mountainview/">welcome</a>&nbsp;
-<a href="/events/2011-mountainview/program">program</a>&nbsp; 
-<a href="/events/2011-mountainview/proposals">proposals</a>&nbsp
-<a href="/events/2011-mountainview/location">location</a>&nbsp; 
-<a href="/events/2011-mountainview/contact">contact</a>&nbsp;
-<a href="/events/2011-mountainview/registration">register</a>&nbsp;
-<a href="/events/2011-mountainview/sponsor">sponsor</a>
-</h3>
-</div>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container" >
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+<li><a href="/events/2011-mountainview/">welcome</a></li>
+<li><a href="/events/2011-mountainview/program">program</a></li> 
+<li><a href="/events/2011-mountainview/proposals">proposals</a></li>
+<li><a href="/events/2011-mountainview/location">location</a></li> 
+<li><a href="/events/2011-mountainview/contact">contact</a></li>
+<li><a href="/events/2011-mountainview/registration">register</a></li>
+<li><a href="/events/2011-mountainview/sponsor">sponsor</a></li>
+
+</ul></div></div></div>

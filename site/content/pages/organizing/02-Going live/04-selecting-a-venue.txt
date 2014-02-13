@@ -26,7 +26,7 @@ Besides having enough space, there are other things to consider:
 - has the conference enough wifi/internet capacity: some people might have to do some work, or are on call.
 - can the video be streamed with enough capacity (if livestreaming is an option)
 
-A final big space differentiator is the pricing: as the prices of a devopsdays range from free to pretty low, we can't afford to pay the big bucks there.
+A final big space differentiator is the pricing: as the prices of a DevopsDays range from free to pretty low, we can't afford to pay the big bucks there.
 We got around this in the past by:
 
 - lookout for (free) innovation centres, education venues (universities...)

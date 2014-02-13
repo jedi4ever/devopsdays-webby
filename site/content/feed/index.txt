@@ -1,5 +1,5 @@
 ---
-title:     Devopsdays
+title:     DevopsDays 
 subtitle:  www.devopsdays.org
 description: development, infrastructure and other stuff
 site:      www.devopsdays.org

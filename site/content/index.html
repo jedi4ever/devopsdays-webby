@@ -1,12 +1,11 @@
 ---
 extension: html
 filter:    erb
-title: Upcoming devopsdays events
+title: Upcoming DevopsDays events
 dirty: true
 ---
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew&sensor=false"
-  type="text/javascript">
-</script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew&sensor=false" type="text/javascript"></script>
+<script src="/js/markerclusterer_compiled.js" type="text/javascript"></script>
 
 <script type="text/javascript" src="/js/googlemaps_label.js"></script>
 <!---  view-source:http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1/examples/basic.html -->
@@ -24,206 +23,141 @@ dirty: true
   }
 </style>
 
-<!-- http://efreedom.com/Question/1-3823693/Map-Darker-Water -->
-<!-- http://code.google.com/apis/maps/documentation/javascript/maptypes.html#StyledMaps -->
-
-
 <script type="text/javascript">
-  function initialize() {
-
-
-    <!-- http://stackoverflow.com/questions/3472040/rgb-value-to-hsl-converter -->
-      <!-- 197° - 78% 38% -->
-      var darkStyle = [{
-featureType: 'water',
-               elementType: 'all',
-               stylers: [{visibility: 'simplified'} ,
-               <!--			{saturation: 56}, {lightness: -76 }, { hue: '#1581AB' }, { gamma: 1} -->
-                 ]
-      }];
-
-
-    var homeLatLng=new google.maps.LatLng(40.4419, -72.1419)
-      var map = new google.maps.Map(document.getElementById("map_canvas"), {
-         zoom: 1,
-         mapTypeControlOptions: {
-            mapTypeIds: ['darkwater']
-         },
-         center: homeLatLng,
-         mapTypeId: 'darkwater',
-         disableDefaultUI: true,
-      });
-
-map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
-
-<!-- http://itouchmap.com/latlong.html -->
-
-var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
-
-var ljubljanamarker = new MarkerWithLabel({
-    position: ljubljanalocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Ljubljana<br>Apr 4-5, 2014",
-    labelAnchor: new google.maps.Point(30, 0),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2014-ljubljana"});
-
-amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
-
-var amsterdammarker = new MarkerWithLabel({
-position: amsterdamlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Amsterdam 2014",
-labelAnchor: new google.maps.Point(0, 45),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="#"});
-
-
-
-var siliconvalleylocation=new google.maps.LatLng(37.77493,-122.419415);
-var siliconvalleymarker = new MarkerWithLabel({
-position: siliconvalleylocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Silicon Valley<br>27 & 28 June 2014",
-labelAnchor: new google.maps.Point(+85, 30),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(siliconvalleymarker, "click", function (e) { location.href="/events/2014-siliconvalley"});
-
-var pittlocation=new google.maps.LatLng(40.442771, -79.956442);
-var pittmarker = new MarkerWithLabel({
-position: pittlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Pittsburgh<br>May 29 & 30 2014",
-labelAnchor: new google.maps.Point(-10, 10),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(pittmarker, "click", function (e) { location.href="/events/2014-pittsburgh"});
-
-var austinlocation=new google.maps.LatLng( 30.267153,-97.743061);
-var austinmarker = new MarkerWithLabel({
-position: austinlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Austin<br>May 5 & 6 2014",
-labelAnchor: new google.maps.Point(30, 0),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(austinmarker, "click", function (e) { location.href="#"});
-
-brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
-
-var brisbanemarker = new MarkerWithLabel({
-position: brisbanelocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Brisbane 2014",
-labelAnchor: new google.maps.Point(-10, 20),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="#"});
-
-torontolocation = new google.maps.LatLng(43.7000, -79.4000);
-
-var torontomarker = new MarkerWithLabel({
-position: torontolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Toronto 2014",
-labelAnchor: new google.maps.Point(-10, 20),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(torontomarker, "click", function (e) { location.href="#"});
-
-belgiumlocation = new google.maps.LatLng(50.5333, 4.7667);
-
-var belgiummarker = new MarkerWithLabel({
-position: belgiumlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Belgium 2014",
-labelAnchor: new google.maps.Point(60, 35),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(belgiummarker, "click", function (e) { location.href="#"});
-
-
-
-
-}
-</script>
-
-<%= render(:partial => '/_upcoming') %>
-
-<div id="map_canvas" style="width: 550px; height: 265px"></div>
-<br>
-<center><a href="/pages/organizing">Want to run your own event?</a></center>
-<div style="width: 550px; height: 290px">
-<center>
-  <h2>This community is supported by</h2>
-  <script>
-
-    Array.prototype.randomize = function()
-    {
-      var i = this.length, j, temp;
-      while ( --i )
-      {
-        j = Math.floor( Math.random() * (i - 1) );
-        temp = this[i];
-        this[i] = this[j];
-        this[j] = temp;
-      }
-    }
-    var sponsors = [
-      { title: 'Automic', link: 'http://www.automic.com' , logo: 'automic.png' },
-      { title: 'Puppetlabs', link: 'http://www.puppetlabs.com' , logo: 'puppetlabs.png' },
-      { title: 'BMC', link: 'http://bmc.com' , logo: 'bmc.png' },
-      { title: 'Collabnet', link: 'http://www.collabnet.com' , logo: 'collabnet.png' },
-      { title: 'HP', link: 'http://www8.hp.com/us/en/software-solutions/software.html?compURI=1234839&jumpid=reg_r1002_usen_c-001_title_r0001' , logo: 'hp.png' },
-      { title: 'Opscode', link: 'http://www.opscode.com' , logo: 'opscode.png' },
-      { title: 'Urbancode', link: 'http://www.urbancode.com' , logo: 'urbancode.png' },
-      { title: 'Datadog', link: 'http://www.datadoghq.com' , logo: 'datadog.png' },
-      { title: 'Zeroturnaround', link: 'http://www.zeroturnaround.com' , logo: 'zeroturnaround.png' },
+    var markerData = [
+        {
+            location: {lat: 46.056237, lng: 14.502444},
+            label: {
+                content: "Ljubljana<br>Apr 4-5, 2014",
+                lat: 30, 
+                lng: 0
+            },
+            href: "/events/2014-ljubljana"
+        },
+        {
+            location: {lat: 52.3731, lng: 4.8922},
+            label: {
+                content: "Amsterdam 2014",
+                lat: 0,
+                lng: 45
+            },
+            href: "/events/2014-amsterdam"
+        },
+        {
+            location: {lat: 37.77493, lng: -122.419415},
+            label: {
+                content: "Silicon Valley<br>27 & 28 June 2014",
+                lat: 85,
+                lng: 30
+            },
+            href: "/events/2014-siliconvalley"
+        },
+        {
+            location: {lat: 30.267153, lng: -97.743061},
+            label: {
+                content: "Austin<br>May 5 & 6 2014",
+                lat: 30,
+                lng: 0
+            },
+            href: "/events/2014-austin"
+        },
+        {
+            location: {lat: -27.4679, lng: 153.0278},
+            label: {
+                content: "Brisbane 2014",
+                lat: -10,
+                lng: 20
+            },
+            href: "#"
+        },
+        {
+            location: {lat: 43.7000, lng: -79.4000},
+            label: {
+                content: "Toronto 2014",
+                lat: -10,
+                lng: 20
+            },
+            href: "#"
+        },
+        {
+            location: {lat: 50.5333, lng: 4.7667},
+            href: "#",
+            label: {
+                content: "Belgium 2014",
+                lat: 60,
+                lng: 35 
+            },
+        },
+        {
+            location: {lat: 40.442771, lng: -79.956442},
+            label: {
+                content: "Pittsburgh<br>May 29 & 30 2014",
+                lat: -10,
+                lng: 10 
+            },
+            href: "/events/2014-pittsburgh"
+        },
     ];
 
-    sponsors.randomize();
-    for (var i = 0; i < sponsors.length; i++) {
-      document.write(
-        '<a href="'+
-        sponsors[i]['link'] +'"><img border=0 alt="'+
-        sponsors[i]['title']+'" title="'+
-        sponsors[i]['title']+'" width="80px" height="80px" src="logos/platinum/'+
-        sponsors[i]['logo'] +'"></a>');
-      if (i == 4) {
-        document.write('<br>');
-      }
+    var markers = [];
+
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 1,
+            center: new google.maps.LatLng(40.4419, -72.1419),
+            disableDefaultUI: true,
+        });
+
+        for (i = 0; i < markerData.length; ++i) {
+            var marker = new MarkerWithLabel({
+                position: new google.maps.LatLng(markerData[i].location.lat, markerData[i].location.lng),
+                draggable: false,
+                raiseOnDrag: false,
+                map: map,
+                labelContent: markerData[i].label.content,
+                labelAnchor: new google.maps.Point(markerData[i].label.lat, markerData[i].label.lng),
+                labelClass: "labels",
+                labelStyle: {opacity: 1}
+            });
+
+            google.maps.event.addListener(marker, "click", function (e) { location.href=markerData[i].href});
+
+            markers.push(marker);
+        }
     }
-  </script>
-</center>
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<p>DevopsDays is a technical conference, aimed at developers, sysadmins and anyone else involved in technology, wether expert or beginner.</p>
+
+<hr>
+
+<div class="row">
+    <div class="col-sm-3">
+        <ul>
+            <li><a href="/events/2014-amsterdam">Amsterdam</a></li>
+            <li><a href="/events/2014-austin">Austin</a></li>
+            <li>Belgium</li>
+            <li>Brisbane</li> 
+            <li><a href="/events/2014-ljubljana/">Ljubljana</a></li>
+            <li><a href="/events/2014-pittsburgh/">Pittsburgh</a></li>
+            <li><a href="/events/2014-siliconvalley">Silicon Valley</a></li>
+            <li>Toronto</li>
+        </ul>
+    </div>
+
+    <div id="map_canvas" class="col-sm-9 hidden-xs" style="height: 300px;"></div>
 </div>
+
+<hr>
+
+<h2>Want to run your own event?</h2>
+
+<p>
+    Each DevopsDays conference is organised by local, like-minded people. You too can organise a DevopsDays event, <a href="/pages/organizing">just check out the details</a>.
+</p>
+<p>
+    Even if not organising your own event, you can still help future events, just contact their organisers, a helping hand goes a long way!
+</p>
+
