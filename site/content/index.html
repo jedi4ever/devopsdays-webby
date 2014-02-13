@@ -27,42 +27,74 @@ dirty: true
     var markerData = [
         {
             location: {lat: 46.056237, lng: 14.502444},
-            label: "Ljubljana<br>Apr 4-5, 2014",
+            label: {
+                content: "Ljubljana<br>Apr 4-5, 2014",
+                lat: 30, 
+                lng: 0
+            },
             href: "/events/2014-ljubljana"
         },
         {
             location: {lat: 52.3731, lng: 4.8922},
-            label: "Amsterdam 2014",
+            label: {
+                content: "Amsterdam 2014",
+                lat: 0,
+                lng: 45
+            },
             href: "#"
         },
         {
             location: {lat: 37.77493, lng: -122.419415},
-            label: "Silicon Valley<br>27 & 28 June 2014",
+            label: {
+                content: "Silicon Valley<br>27 & 28 June 2014",
+                lat: 85,
+                lng: 30
+            },
             href: "/events/2014-siliconvalley"
         },
         {
             location: {lat: 30.267153, lng: -97.743061},
-            label: "Austin<br>May 5 & 6 2014",
+            label: {
+                content: "Austin<br>May 5 & 6 2014",
+                lat: 30,
+                lng: 0
+            },
             href: "#"
         },
         {
             location: {lat: -27.4679, lng: 153.0278},
-            label: "Brisbane 2014",
+            label: {
+                content: "Brisbane 2014",
+                lat: -10,
+                lng: 20
+            },
             href: "#"
         },
         {
             location: {lat: 43.7000, lng: -79.4000},
-            label: "Toronto 2014",
+            label: {
+                content: "Toronto 2014",
+                lat: -10,
+                lng: 20
+            },
             href: "#"
         },
         {
             location: {lat: 50.5333, lng: 4.7667},
-            label: "Belgium 2014",
-            href: "#"
+            href: "#",
+            label: {
+                content: "Belgium 2014",
+                lat: 60,
+                lng: 35 
+            },
         },
         {
             location: {lat: 40.442771, lng: -79.956442},
-            label: "Pittsburgh<br>May 29 & 30 2014",
+            label: {
+                content: "Pittsburgh<br>May 29 & 30 2014",
+                lat: -10,
+                lng: 10 
+            },
             href: "/events/2014-pittsburgh"
         },
     ];
@@ -82,8 +114,8 @@ dirty: true
                 draggable: false,
                 raiseOnDrag: false,
                 map: map,
-                labelContent: markerData[i].label,
-                labelAnchor: new google.maps.Point(22, 0),
+                labelContent: markerData[i].label.content,
+                labelAnchor: new google.maps.Point(markerData[i].label.lat, markerData[i].label.lng),
                 labelClass: "labels",
                 labelStyle: {opacity: 1}
             });
@@ -92,8 +124,6 @@ dirty: true
 
             markers.push(marker);
         }
-
-        var markerCluster = new MarkerClusterer(map, markers);
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
