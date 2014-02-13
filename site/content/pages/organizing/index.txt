@@ -12,8 +12,7 @@ title: Devopsdays - Organizing Guide
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}" %>
 
-<table>
-<tr>
+
 <%
   articles = @pages.find(:all, :in_directory => parent, :recursive => true,
       :sort_by => "directory", :reverse => false)
@@ -22,6 +21,9 @@ title: Devopsdays - Organizing Guide
   counter = 0
   articles.sort! { |a,b| a.dir + a.filename <=> b.dir + b.filename }
 %>
+
+<div class="row">
+<div class="col-md-4">
 <%
   oldstep = ''
   articles.each do |page|
@@ -30,21 +32,23 @@ title: Devopsdays - Organizing Guide
 -%>
 <% if oldstep != newstep %>
   <% if oldstep != '' %>
-</ul></td>
+</ul>
+</div>
+<div class="col-md-4">
   <% end %>
-  <td style=" vertical-align: top";><h3><%= newstep %></h3>
-<ul>
+  <h3><%= newstep %></h3>
+<ul class="list-unstyled">
 <% oldstep = newstep
     end %>
 
 <li><a href="#<%= counter %>"> <%= page.title %> </a>
 <% end -%>
 </ul>
-</td>
-</tr>
-</table>
+</div>
+</div>
 
 <hr>
+
 <%
   require 'nokogiri'
   counter = 0
