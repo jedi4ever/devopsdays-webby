@@ -23,8 +23,10 @@ filter:    erb
 <% end %>
 
 <% @msponsors = [
+{ :image => "kiberpipa.png", :name => "Kiberpipa", :link => "https://www.kiberpipa.org/sl/"},
+{ :image => "netokracija.png", :name => "Netokracija", :link => "http://www.netokracija.si/"}
 ]%>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' height=100px width=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
