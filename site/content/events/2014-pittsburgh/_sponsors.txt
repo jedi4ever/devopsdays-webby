@@ -1,23 +1,33 @@
 ---
 filter:    erb
 ---
+<%
+def make_sponsor_links(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
 <% @gsponsors = [
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
 { :image => "modcloth.jpg", :name => "ModCloth", :link => "http://www.modcloth.com/"},
 ]%>
+<%= make_sponsor_links(@gsponsors) %>
 
-<% @gsponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
+<br/>
+<br/>
+<h1>Media sponsors</h1>
+<% @msponsors = [
+{ :image => "ptc.png", :name => "Pittsburgh Technology Council", :link => "http://www.pghtech.org/"},
+]%>
+<%= make_sponsor_links(@msponsors) %>
 
-
+<br/>
+<br/>
 <h1>Host sponsor</h1>
 <% @hsponsors = [
 { :image => "pittCS.jpg", :name => "University of Pittsburgh Computer Science", :link => "http://www.cs.pitt.edu/"},
 ]%>
-
-<% @hsponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img  border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
+<%= make_sponsor_links(@hsponsors) %>
