@@ -44,7 +44,9 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @ssponsors = [ ]%>
+<% @ssponsors = [
+{ :image => "retailmenot.png", :name => "RetailMeNot", :link => "http://www.retailmenot.com"},
+]%>
 
 <h1>Silver sponsors</h1>
 
