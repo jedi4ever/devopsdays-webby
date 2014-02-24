@@ -7,6 +7,7 @@ filter:    erb
 
 <% @gsponsors = [
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"},
+{ :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -29,7 +30,9 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @lanyardsponsors = [ ]%>
+<% @lanyardsponsors = [
+{ :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
+]%>
 
 <h1>Lanyard sponsor</h1>
 
