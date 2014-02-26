@@ -1,0 +1,12 @@
+---
+filter:    erb
+---
+<div class="submenu">
+<h3>
+<a href="/<%= @eventhome %>/">welcome</a>&nbsp;
+<a href="/<%= @eventhome %>/location">location</a>&nbsp;
+<a href="http://devopsdays-nairobi-2014.eventbrite.com">register</a>&nbsp;
+<a href="/<%= @eventhome %>/contact">contact</a>&nbsp;
+
+</h3>
+</div>
