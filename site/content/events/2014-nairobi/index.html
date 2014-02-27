@@ -1,0 +1,21 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+![Nairobi](/<%= @eventhome -%>/images/nairobi.jpeg)
+
+## 15th March, 2014
+
+The first DevopsDays in Africa is happening this March in Nairobi.
+
+Got your ticket? Good! Help spread the word and we'll see you on 15th March. Don't yet have a ticket? Fret not, [register now](http://devopsdays-nairobi-2014.eventbrite.com)!
+
+Check out [the location page](location) for more details on location and accomodation.

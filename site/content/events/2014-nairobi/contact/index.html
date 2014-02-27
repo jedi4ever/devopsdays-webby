@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: contact
+dirty: true
+layout: event
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
+<% @eventid = File.basename(@page.directory) %>
+
+If you want to contact us by email, you can do so at <a href='mailto:murbansk@thoughtworks.com'>murbansk@thoughtworks.com</a>, or <a href="mailto:adam@varud.com">adam@varud.com</a>.
+
+** Our special team**
+
+<%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+** The core devopsdays organizer group**
+
+<%= render(:partial => "/#{@eventhome}/_team_global") %>

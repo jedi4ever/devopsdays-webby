@@ -1,0 +1,15 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+layout: event
+title: sponsor
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+We greatly value sponsors for this open event.  If you are interested in
+sponsoring [drop us an email](mailto:murbansk@thoughtworks.com).
+
