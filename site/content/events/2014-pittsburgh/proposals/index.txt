@@ -5,7 +5,7 @@ filter:
 - erb
 - markdown
 dirty:      true
-layout: event
+layout: event_pitt
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
