@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Igor Kolar"
+title: "Linux Shell Utils For Text Manipulation"
+---
+**Abstract:**
+
+A quick look at the tried and true GNU/Linux shell programs like cat, cut, wc, tr, sed, awk, iconv, wget, and the lot, all useful for cleaning and parsing text, basic calculations, or reporting. Bash and regexp refresher course included. 
+
+**Speaker:**
+Igor Kolar
