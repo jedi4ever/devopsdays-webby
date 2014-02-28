@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Jure Koren"
+title: "Next Generation File Systems"
+---
+**Abstract:**
+
+With Moore's law still holding out for storage, such massive amounts of data
+are stored on ever cheaper hardware, that new file systems must perform many
+tasks in addition to mere bookkeeping. The storage technologies also forked
+into low latency solid state media and high capacity magnetic media, which has
+important implications on how file systems operate to make the best use of
+what is available.
+
+The talk will present what developers working with files should learn to
+expect from these new file systems, with focus on ZFS and Btrfs, explaining
+features that are considered crucial for modern file systems, such as
+checksumming data and doing read-repair, features that can make a big impact
+on performance and also the shift of volume management into file systems
+themselves in order to better optimize storage access times and bandwidth.
+Ultimately I will try to explain how most important features are implemented
+in practice and how this changes things for people used to working with older
+file systems, especially from performance and reliability standpoints, both in
+simple and complex computing environments.
+
+**Speaker:**
+Jure Koren

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Marko &#268;elan"
+title: "Monitoring ecosystem at Zemanta"
+---
+**Abstract:**
+
+In DevOps world one of the key tasks is to monitor everything. And by everything I mean Everything. If you can put a numeric value to something, you store it, so later it can be presented in some way.
+There are many different ways to present the data. It can be used to help make important decisions and there are pitfalls in a way we present it.
+
+I'll talk about the ways we monitor and alert here at Zemanta - how we got here and where are we going. I'd like to talk a bit about Graphite.
+
+Graphite is an open-source project that stores and plots time-series metrics. We are using it for monitoring for almost 2 years now and it had proven to be very easy to use and integrate. Moreover there are other projects that make Graphite even more useful. We'll take a look at Seyren and Statsd and how it all falls together.
+
+I'll wrap it up with how developers can utilize such systems so they can be more confident to deploy code to production.
+
+**Speaker:**
+Marko &#268;elan
