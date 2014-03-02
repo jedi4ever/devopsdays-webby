@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Karoly Kamaras"
+title: "Continuous delivery for desktop applications - Release from the pub"
+---
+**Abstract:**
+
+In the recent year we decreased the time needed to release Prezi’s
+desktop application from 3 days of manual work to a 3-hour automated
+process. Instead of spending time on the release procedure, engineers
+could focus on product development that actually brings value to the
+user.
+
+
+The concept of continuous delivery is well known and used for web
+applications. You make changes in the code, push it to a common
+repository, run your automated tests against the changes and if
+everything went well, you can deploy to production right away. With
+the right tools this can take minutes. But what happens to your
+desktop application that can be installed on different operating
+systems with different versions? In our case this means Windows and
+Mac platforms. Releasing an application like that can be time
+consuming and lots of manual work. I would like to talk about how we
+made the release process fully automated, relatively quick and
+reliable from creating installers to running automated tests to
+monitoring so you could release the next version of our application
+from even a pub. Just as we did to celebrate our achievement.
+
+**Speaker:**
+Karoly Kamaras
