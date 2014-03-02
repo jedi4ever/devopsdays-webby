@@ -130,6 +130,19 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(pittmarker, "click", function (e) { location.href="/events/2014-pittsburgh"});
 
+var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
+var minneapolismarker = new MarkerWithLabel({
+position: minneapolislocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Minneapolis<br>Summer 2014",
+labelAnchor: new google.maps.Point(70, 45),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2014-minneapolis"});
+
 var austinlocation=new google.maps.LatLng( 30.267153,-97.743061);
 var austinmarker = new MarkerWithLabel({
 position: austinlocation,
