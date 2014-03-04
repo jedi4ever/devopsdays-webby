@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Anthony Caiafa
+title: "How a shark prepares its meals"
+---
+
+**Abstract:**
+
+Everybody has a method. At DigitalOcean we are building a home grown cloud thats competing with the real sharks of the ocean. We have spent countless hours trying to find the best practice methods that work but have yet to find them. At DigitalOcean we have combined a few together and have found a great workflow that utilizes custom knife plugins and great tools like Berkshelf and fundamentals of spork to automate our infrastructure. DigitalOcean is stretched out across the globe and uses a custom chef-server architecture in-house to help us battle the beast of latency but still provide us with the ability to search across regions and keep things consistent.
+
+**Speaker:**
+Anthony Caiafa
+

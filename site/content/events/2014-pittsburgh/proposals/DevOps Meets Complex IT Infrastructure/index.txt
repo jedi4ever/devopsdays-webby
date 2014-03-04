@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Alex Henthorn-Iwane
+title: "DevOps Meets Complex IT Infrastructure"
+---
+
+**Abstract:**
+
+To scale DevOps to enterprise IT requires dealing with the complexities of enterprise infrastructure.  Not everything is virtualized or in the public cloud, so how can automation address this reality?  This talk will propose some ways to understand the challenges and what’s needed from automation to make truly hybrid IT infrastructure elastic, efficient, self-service and able to integrate into automated processes like continuous integration.
+
+**Speaker:**
+Alex Henthorn-Iwane
