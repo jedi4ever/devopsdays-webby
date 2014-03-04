@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Jamie Begin
+title: "Windows on AWS"
+---
+
+**Abstract:**
+
+Vittorio Brooks, a site reliability engineer for RightBrain Networks (an AWS Advanced Consulting Partner), will share some of his war stories implementing Windows on AWS.  Topics include: Reliably autoscaling IIS, performance considerations for MS SQL Server, orchestration without SSH, and security.
+
+**Speaker:**
+Jamie Begin
+

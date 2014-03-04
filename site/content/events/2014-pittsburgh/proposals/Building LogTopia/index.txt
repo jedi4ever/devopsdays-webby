@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Zac Sprackett
+title: "Building LogTopia - Graylog and Logstash and Kibana, Oh My!"
+---
+
+**Abstract:**
+
+Logs contain important business metrics, success factors and failure predictors.  Often they are consulted only in times of crisis.  This talk will examine the current state of Open Source log management technology.  It will explain the value of preemptive log analysis including how to get the most bang for your buck and how to get the appropriate information into the hands of parties who might need it.  I will leverage our experiences at SugarCRM and how it has been a key enabler for departments across the org.  People will also leave with access to a virtual machine containing all of the discussed technologies ready for them to continue testing in their own environments.
+
+**Speaker:**
+Zac Sprackett
+
