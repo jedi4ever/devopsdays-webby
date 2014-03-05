@@ -8,6 +8,10 @@ filter:    erb
 <% @gsponsors = [
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"},
 { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
+{ :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/devops"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
+{ :image => "momentumsi.png", :name => "MomentumSI", :link => "http://www.momentumsi.com/"},
+{ :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -46,6 +50,7 @@ filter:    erb
 
 <% @ssponsors = [
 { :image => "retailmenot.png", :name => "RetailMeNot", :link => "http://www.retailmenot.com"},
+{ :image => "cfengine.png", :name => "CFEngine", :link => "http://www.cfengine.com"},
 ]%>
 
 <h1>Silver sponsors</h1>
