@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Jose Roca"
+title: "Scaling a moving target: Making your CI scale and test your CI infrastructure"
+---
+**Abstract:**
+For the longest time developers at Prezi loved to hate on our CI infrastructure. At the beginning this wasn't true, everybody was excited about testing, we had a small CI infrastructure and it ran pretty much as expected. Then we started growing, more tests, more users, more types of tests, more dependencies and the hate grew. Shortly after that Jenkins became to be known the person behind who broke the tests and this made everybody hate it even more. We started getting better, we opened up dependency management to users, we added more slaves to handle more tests and the hate started to go down. But then, as soon as we had more wins, more expectations came, faster builds, more complex tests, dependency of different projects started to conflict and the hate campaign was back on. What was evident is that we had to be more dynamic, more flexible but at the same time be more reliable.
+
+In this talk I will present how we grew our Jenkins infrastructure to run several hundred jobs using an automatically scaled cluster. I will show what solutions we tried, how we failed, how we handle dependencies, how we now use Jenkins to build and test Jenkins itself and how it enable use to be able to scale at the speed that developers expect.
+
+**Speaker:**
+Jose Roca
