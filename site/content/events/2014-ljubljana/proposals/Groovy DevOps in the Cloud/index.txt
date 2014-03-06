@@ -18,4 +18,6 @@ Last year me and my business partner, Luciano Fiandesio, made a talk regarding "
 Slidedeck can be seen here: http://www.slideshare.net/aestasit/groovy-dev-ops-in-the-cloud
 
 **Speaker:**
-Andrey Adamovich
+Andrey Adamovich is a software craftsman with many years of experience in different lifecycle phases of software creation. He is passionate about defining good development practices, documenting and presenting architecture, reuse of code and design patterns, profiling and analysis of application performance as well as extreme automation of development and operations activities. Andrey is one of the authors of Groovy 2 Cookbook. Andrey has Master Degree in Computer Science from Latvian State University.  
+
+Currently Andrey is leading a company that is specializing on automation of development and infrastructure processes.
