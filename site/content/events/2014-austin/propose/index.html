@@ -10,6 +10,8 @@ platinum: false
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
+<iframe src="https://docs.google.com/forms/d/1ZGmR4qgHdcyJEfuPBF24IdueXAZPEob-s3FDR0JKFvs/viewform?embedded=true" width="590" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<% if false %>
 <center><b>Call for proposals is not yet open</b></center>
 <hr>
 There are three ways to propose a session:
@@ -61,3 +63,4 @@ Our main criteria to make it to the top selection are:
   <li>Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
   <li>Multiple proposals welcome... just follow the other rules</li>
 </ul>
+<% end %>
