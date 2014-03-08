@@ -36,3 +36,5 @@ from even a pub. Just as we did to celebrate our achievement.
 
 **Speaker:**
 Karoly Kamaras
+
+> I joined Prezi 2 years ago, since then I have been working on automated acceptance tests and build processes. I work in the Desktop team which is responsible for Prezi's desktop application. My main tasks are creating and maintaining automated acceptance tests for the application and creating a fast and reliable release process
