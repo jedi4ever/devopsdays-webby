@@ -13,6 +13,7 @@ filter:    erb
 { :image => "momentumsi.png", :name => "MomentumSI", :link => "http://www.momentumsi.com/"},
 { :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
+{ :image => "wpengine.png", :name => "WP Engine", :link => "http://www.wpengine.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
