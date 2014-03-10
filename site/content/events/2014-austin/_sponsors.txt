@@ -14,6 +14,7 @@ filter:    erb
 { :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
 { :image => "wpengine.png", :name => "WP Engine", :link => "http://www.wpengine.com/"},
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
