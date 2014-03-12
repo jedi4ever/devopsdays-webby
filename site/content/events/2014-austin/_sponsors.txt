@@ -16,6 +16,7 @@ filter:    erb
 { :image => "wpengine.png", :name => "WP Engine", :link => "http://www.wpengine.com/"},
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com/"},
+{ :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
