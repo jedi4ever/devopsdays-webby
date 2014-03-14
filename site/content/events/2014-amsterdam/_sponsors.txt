@@ -5,7 +5,8 @@ filter:    erb
 	{ :image => "schubergphilis.png", :name => "Schuberg Philis", :link => "http://www.schubergphilis.com/"},
 	{ :image => "ebay.png", :name => "eBay", :link => "http://www.marktplaats.nl/"},
         { :image => "catechnologies.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
-        { :image => "quanza.png", :name => "Quanza Engineering", :link => "http://www.quanza.net/"}
+        { :image => "quanza.png", :name => "Quanza Engineering", :link => "http://www.quanza.net/"},
+        { :image => "elasticsearch.png", :name => "ElasticSearch", :link => "http://www.elasticsearch.com/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
