@@ -10,7 +10,15 @@ title: sponsor
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+We greatly value sponsors for this open event.  If you are interested
+in sponsoring [drop us an email](mailto:<%= render(:partial =>
+"/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays
+<%= @eventid %>).
+
+Or better yet, download
+the <a href="sponsorship-devops-day-MTV-2014.pdf">Sponsor Registration
+  Form</a> fill it out, and email it to [<%= render(:partial =>
+"/#{@eventhome}/_email_organizers") %>](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>)
 
 <hr/>
 
