@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Andrei Serdeliuc
+title: "Unexpected Improvements"
+---
+
+**Abstract:**
+
+You want to be great, you want your team to be great and you all love what you do, apart from the times when you hate it. Keep your head straight and your smile to your ears, it gets better from here.
+
+I’ll share my thoughts on how to be a passionate member of a technology team, one problem at a time. Just some ideas on how to be a team when no one wants to be there, how to stick together when all you want to do is hide.
+
+There might be some thoughts about tooling, code, servers and getting things done, but that’s just extra.
+
+**Speaker:**
+
+A 25 year old who loves code, ops and the soft side of things. I build and scale applications, as well as teams.
+
+Andrei Serdeliuc
+http://extraordinaire.me/
