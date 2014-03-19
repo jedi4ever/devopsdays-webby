@@ -18,6 +18,7 @@ filter:    erb
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com/"},
 { :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
