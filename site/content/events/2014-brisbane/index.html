@@ -1,0 +1,19 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center><img border=0 src="downunder.gif" alt="Devops Days Brisbane"></center><br>
+
+**<%= render(:partial => "/#{@eventhome}/_title") %>** will be held on **<%= render(:partial => "/#{@eventhome}/_target_date") -%>** in **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+
+Registrations, proposals and sponsorship will open shortly.
+
+<center><a href="https://twitter.com/devopsdownunder" class="twitter-follow-button" data-show-count="false">Follow @devopsdownunder</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></center>
