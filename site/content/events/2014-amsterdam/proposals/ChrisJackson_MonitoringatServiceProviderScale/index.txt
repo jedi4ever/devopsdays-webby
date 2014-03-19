@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Chris Jacksons
+title: "Monitoring at Service Provider Scale"
+---
+
+**Abstract:**
+
+Monitoring to many organisations is like back-up, its the thing you implement when you're just about to launch production and realise that you're not really able to see if your application is responding properly.  This is largely proliferated by the huge following that #monitoringsucks has created, spawned by a raft of tools with narrow scopes and varying levels of implementation.  People are trying to build their own monitoring stacks like kit cars in a quest to get a platform which is relevant and valuable.  Monitoring is looking like a snowflake, its unique for everyone and its a burden to manage…  Imagine what this is like at a Service Provider!  We have an entire snowstorm of snowflakes to make sure all of our customers are served to a suitable level!
+
+Rackspace would like to reset the playing field by building open monitoring stacks on a few key principles:
+* Monitoring is not a snowflake
+* We will break the relationship between tuning effort and value returned
+*  Monitoring should be able to save you from future incidents rather just than show you the house is on fire
+
+This talk will discuss the problems that we are trying to solve for and some of our favourite solutions that are on the table right now.  We will also try to shed some light on a future view of the world where monitoring becomes the starting point for architectures because it yields the power to completely change your view of where and how you develop.
+
+
+**Speaker:**
+
+Rackspace Technologist, DevOps demystifier, Motorsport enthusiast, husband, dad and general ginger person
+
+Chris Jackson
+http://www.rackspace.co.uk/
