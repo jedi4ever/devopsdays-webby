@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Leslie Hawthorn
+title: "DevOps: For Happier, More Productive People"
+---
+
+**Abstract:**
+
+You've heard all about how the practice of DevOps helps your business be more efficient: faster insights into your systems and data, better processes and continuous improvement. What may be far more interesting about the practice of DevOps, however, is not the impact on your workflows, but on all the folks at your business doing the actual work.
+
+In this presentation, Leslie Hawthorn will cover some highlights of DevOps processes, all through the lens of taking a DevOps oriented approach to people management. Attendees will leave this talk with a better understanding of how to make themselves, and their employees and co-workers most successful.
+
+**Speaker:**
+
+An internationally known community manager, speaker and author, Leslie Hawthorn has spent the past decade creating, cultivating and enabling open source communities. She created the world’s first initiative to involve pre-university students in open source software development, launched Google’s #2 Developer Blog, received an O’Reilly Open Source Award in 2010 and gave a few great talks on many things open source. In August 2013, she joined Elasticsearch as Community Manager, where she leads community relations efforts.
+
+Leslie Hawthorn
+http://hawthornlandings.org/
