@@ -22,8 +22,7 @@ filter:    erb
 	{ :image => "layerthree.png", :name => "LayerThree", :link => "http://www.layerthree.nl/"},
         { :image => "sentia.png", :name => "Sentia", :link => "http://www.sentia.nl/"},
         { :image => "cri.png", :name => "CRI", :link => "http://www.cri-service.nl/"},
-        { :image => "interxion.png", :name => "interXion", :link => "http://www.interxion.com/"},
-        { :image => "sentia.png", :name => "Sentia", :link => "https://www.sentia.nl/"}
+        { :image => "interxion.png", :name => "interXion", :link => "http://www.interxion.com/"}
 
 ]%>
 
