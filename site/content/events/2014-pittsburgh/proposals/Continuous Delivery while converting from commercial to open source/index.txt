@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Ken Mugrage
+title: "Continuous Delivery - while converting from commercial to open source"
+---
+
+**Abstract:**
+
+ThoughtWorks has recently converted it’s Go continuous delivery platform to an open source project. Making the change from a commercial project on an internal SCM system to an open source project on GitHub where anyone can make a pull request came with some interesting challenges. Since it wouldn't be OK for a continuous delivery product to not build continuously the normally accepted pattern of daily builds for open source would not be enough.
+
+* How did we convert from an internal build grid with dozens of build agents to a system that the public can see? 
+* Is trunk based development possible on this kind of project? 
+* Who’s responsible for fixing automated tests (and does that responsibility change based on the type of test). 
+* The volunteer developers don’t have massive build grids, how do we run thousands of automated tests?
+* How much of the challenge is cultural and how much is technical?
+
+**Speaker:**
+Ken Mugrage
+
