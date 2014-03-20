@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Andre Henry 
+title: "Platform as a Service to Infrastructure as a Service Migration - Heroku to AWS"
+---
+
+**Abstract:**
+
+Platform as service providers like Heroku offer a convenient package to quickly develop and deploy an application. This package often comes with limitations that become more challenging as the application needs to scale. The next step is to take charge of your destiny and migrate to an infrastructure solution. The challenges, risks, and strategies of this will be covered as we look at a migration from Heroku to Amazon's infrastructure.
+
+**Speaker:**
+Andre Henry
+
