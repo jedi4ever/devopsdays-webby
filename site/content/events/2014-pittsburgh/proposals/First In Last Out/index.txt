@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Kevin Behr 
+title: "First In Last Out - devops roots in coal mining"
+---
+
+**Abstract:**
+
+Like a child prodigy, nearly every preceeding IT discipline has taken credit for some role in developing what we call devops. Kevin will share what he found studying work performed by sociologists in coal mines during the WWII era. Learn why devops is really nothing new and what socio-technical-system patterns you can cultivate to make your efforts and collaboration more effective.
+
+**Speaker:**
+Kevin Behr

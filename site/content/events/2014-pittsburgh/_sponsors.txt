@@ -18,9 +18,29 @@ end
 
 <br/>
 <br/>
+<h1><font color="Gainsboro">Aluminum</font> sponsors</h1>
+
+<% @gsponsors = [
+{ :image => "digitalocean.png", :name => "Digital Ocean", :link => "http://www.digitalocean.com/"},
+{ :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
+<h1><font color="MediumTurquoise">Glass</font> sponsors</h1>
+
+<% @gsponsors = [
+{ :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
 { :image => "ptc.png", :name => "Pittsburgh Technology Council", :link => "http://www.pghtech.org/"},
+{ :image => "revv.png", :name => "Revv Oakland", :link => "http://www.revvoakland.com/"},
 ]%>
 <%= make_sponsor_links(@msponsors) %>
 
