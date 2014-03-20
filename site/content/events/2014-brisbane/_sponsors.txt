@@ -1,0 +1,32 @@
+---
+filter:    erb
+---
+
+<% @gsponsors = [] %>
+
+<% if @gsponsors.empty?  %>
+<!--
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+-->
+<% end %>
+
+<h1>Silver sponsors</h1>
+
+<% @ssponsors = [] %>
+
+<% if @ssponsors.empty?  %>
+<!--
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+-->
+<% end %>
+
+<h1>Bronze sponsors</h1>
+
+<% @bsponsors = [] %>
+
+<% if @bsponsors.empty?  %>
+<!--
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+-->
+<% end %>
+
