@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Jennifer Davis
+title: "From Hero to Zero"
+---
+
+**Abstract:**
+
+Incremental change and release often is the new mantra. A team of one may handle the operability implementation for an application. Work arounds are done to get things out the door “on time” to meet the agile requirements. This person is in the center of changes ensuring that monitoring, configuration, and service expectations are coordinated. As the velocity of change increases, this single point of failure leads to slow downs. The operations engineer is viewed as the “hero” due to working late nights or weekends to keep the service running as needed. This false hero role is not sustainable and creates a rigid environment of change aversion.
+
+In this talk, Jennifer will describe paths to supporting complex project deployment and configuration from manual heroics to minimal intervention. She will describe tools but the concepts will be applicable regardless of environment. This is not a one size fit all solution but guidelines presented should help shape direction towards success.
+
+**Speaker:**
+Jennifer Davis
