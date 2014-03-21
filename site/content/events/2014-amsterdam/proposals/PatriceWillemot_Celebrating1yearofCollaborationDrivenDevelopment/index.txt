@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Patrice Willemot
+title: "Celebrating 1 year of Collaboration Driven Development (CDD) "
+---
+
+**Abstract:**
+
+If a developer takes the time to write and run unit test cases for his code, his goal is to deliver a better product. So you can ask yourself why we still need testers if all developers are doing unit testing. Because there is no way that a developer is able to come up with all of the test cases to verify when his code will fail. Developers are too attached to their code, and it is emotionally not possible to test the application for bugs.
+
+A solution for this problem is the concept of TDD (Test Driven Development) where you get something working now and perfect this later. So why should testers care about TDD? Mainly because of the main activity within TDD: the creation of a unit test case before writing any 'production' code.
+
+Like stated before the developer will need some help to come up with decent test cases and this will result in a closer and better collaboration between a tester and a developer. A new concept has been born namely Collaboration Driven Development (CDD). In CDD the tester will help the developer during the creation of their unit tests (with standard checklist or with a test condition brainstorm session) and the developers can help the tester understand the application more in detail.
+
+I as a tester, I cringe when I see the crappy code has been shipped before toward the test and the production environment. Nowadays this crappy code is disappearing from the application and when a bug is reported by the testers we all know that is a good bug and not a bug which will go into the bug ping pong lifecycle.
+
+So this presentation will cover the concept of CDD together with the benefits and the disadvantages of this approach in order to show that when a developer take the necessary time to test his code with unit test cases it doesn't mean that a better product is created.
+
+**Speaker:**
+
+I began my journey in computers in the Israeli Military as an organizational consultant. With a fresh degree in Psychology I was researching soldier motivation. Using the tools of the trade I started working with SAS statistical analysis tools. I found myself more interested in how to come up with the data than the data itself. I was hooked. When I finished my service, I decided to pursue a career in computers. I took a course at John Bryce Training Center in Database Development and searched for my first job. I landed my first computer job at Ernst & Young working in the implementation of ERP solutions. I worked on the development of the financial localization of Baan software and then worked at a telecommunications company using Oracle Applications. The role included managing the deployment of code and configuration from the Development environment to Production.
+
+I started my career as a manual test engineer working in a waterfall approach. Since that project I am convinced that working in an iterative modus (agile, lean or …) is a solution for failing projects. Since 2008 I am a solution architect for software testing in order to help customers in having better quality through an optimization of the different test activities.
+
+I am an agile minded tester and curious how different test approaches can be used within agile environments.
+
+Patrice Willemot
+http://www.ctg.com/
