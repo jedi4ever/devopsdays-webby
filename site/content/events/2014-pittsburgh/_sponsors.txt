@@ -10,6 +10,7 @@ end
 %>
 
 <% @gsponsors = [
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.gopivotal.com/"},
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
 { :image => "modcloth.jpg", :name => "ModCloth", :link => "http://www.modcloth.com/"},
