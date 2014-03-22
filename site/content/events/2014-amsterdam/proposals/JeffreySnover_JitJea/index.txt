@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jeffrey Snover
+title: "Just In Time, Just Enough Administration"
+---
+
+**Abstract:**
+
+JitJea - A PowerShell toolkit to secure a post-Snowden world:
+When asked what to do about corporate hacking, Ex NSA Director Michael Hayden replied, "Man up and defend yourselves".   Within a few years, Edward Snowden rocked the world by disclosing information he had gathered using his NSA administrative privileges.  JitJea stands for Just In Time, Just Enough Admin.  It is a PowerShell toolkit that you can use to "man up and defend yourselves" by allowing admins to perform functions without giving them admin privileges.
+
+
+
+**Speaker:**
+
+Jeffrey Snover is a Distinguished Engineer and Lead Architect for the
+Windows Server & System Center Datacenter products, and is the
+inventor of Windows PowerShell, an object-based distributed automation
+engine, scripting language, and command line shell.
+ 
+Responsible for setting the long term technical vision for these
+products and running the technology planning for the releases;
+ensuring the individual features combine to form a coherent customer
+solution that is robust, competitive and is in line with our long term
+architecture for industry wide initiatives particularly in areas of
+datacenter management.
+ 
+A thirteen year veteran to the company with over 30 years of industry
+experience as the Divisional Architect for the Management and Services
+Division, providing technical direction across Microsoft’s management
+technologies and product solutions.
+ 
+He was an architect in the office of the CTO at Tivoli and a
+development manager of NetView, and had also worked as a Consulting
+Engineer and development manager at DEC, where he led various network
+and systems management projects.
+ 
+He has held 8 patents prior to joining Microsoft, and has registered
+30 patents since. He is a frequent speaker at industry and research
+conferences on a variety of management and language topics.
