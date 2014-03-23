@@ -9,7 +9,7 @@ ignite: true
 selected: false
 layout: event
 author: Patrice Willemot
-title: "Celebrating 1 year of Collaboration Driven Development (CDD) "
+title: "Celebrating 1 year of Collaboration Driven Development (CDD)"
 ---
 
 **Abstract:**
@@ -25,8 +25,6 @@ I as a tester, I cringe when I see the crappy code has been shipped before towar
 So this presentation will cover the concept of CDD together with the benefits and the disadvantages of this approach in order to show that when a developer take the necessary time to test his code with unit test cases it doesn't mean that a better product is created.
 
 **Speaker:**
-
-I began my journey in computers in the Israeli Military as an organizational consultant. With a fresh degree in Psychology I was researching soldier motivation. Using the tools of the trade I started working with SAS statistical analysis tools. I found myself more interested in how to come up with the data than the data itself. I was hooked. When I finished my service, I decided to pursue a career in computers. I took a course at John Bryce Training Center in Database Development and searched for my first job. I landed my first computer job at Ernst & Young working in the implementation of ERP solutions. I worked on the development of the financial localization of Baan software and then worked at a telecommunications company using Oracle Applications. The role included managing the deployment of code and configuration from the Development environment to Production.
 
 I started my career as a manual test engineer working in a waterfall approach. Since that project I am convinced that working in an iterative modus (agile, lean or …) is a solution for failing projects. Since 2008 I am a solution architect for software testing in order to help customers in having better quality through an optimization of the different test activities.
 
