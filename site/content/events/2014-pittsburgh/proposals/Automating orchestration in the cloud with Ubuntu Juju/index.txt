@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Charles Butler 
+title: "Automating orchestration in the cloud with Ubuntu Juju"
+---
+
+**Abstract:**
+
+The big dogs already have everything automated; but what about everybody else?
+
+What if we could deploy and horizontally scale entire racks of servers as easily as you can manage packages on one computer? What if we could drag and drop entire infrastructure deployments with reusable bundles?
+
+You can do this today, without throwing away your existing automation infrastructure. Juju is the approachable, scalable, devops distilled tool baked right into your favorite Cloud OS - Ubuntu. 
+
+Most of you have automated your deployments. But how does it stand up to the Bus factor? How reusable is your automation solution? Do you find yourself wrestling more with the annoyances of scaling than deploying your actual services?
+
+Service orchestration is now the easiest, flexible, and most approachable solution to shipping your infrastructure woes to /dev/null. Starting with Ubuntu’s 14.04 LTS release, our suite of devops tools are baked right into the base Ubuntu Server installation. 
+
+In this session we'll quickly go over the basic concepts of Juju and spend the rest of the time walking through explicit examples of Juju in action.  We'll look at stacks of services managed by Juju and the charms behind those services.
+
+We'll talk about how to get you up and running quickly with multi-sharded MongoDB clusters, Hadoop, Cassandra, and more in just a few commands. All ready to be deployed and reused to meet your needs.
+
+Be ready with questions... What's the point?  Which problems was it created to solve?  What's it really look like?  What about my existing Puppet/Chef infrastructure? What is a Juju charm anyways?  Do I need to go to charm school to get started?
+
+**Speaker:**
+Charles Butler
+
