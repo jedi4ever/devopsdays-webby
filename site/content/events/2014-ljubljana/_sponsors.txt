@@ -22,6 +22,17 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @special_sponsors = [
+{ :image => "astina.png", :name => "Astina", :link => "http://astina.si"},
+{ :image => "comtrade.png", :name => "Comtrade", :link => "http://www.comtrade.com/si/"},
+{ :image => "dlabs.png", :name => "Dlabs", :link => "http://dlabs.si/"},
+{ :image => "zemanta.png", :name => "Zemanta", :link => "http://www.zemanta.com/"}
+]%>
+<% unless @special_sponsors.empty?  %><h1>Special sponsors</h1><% end %>
+<% @special_sponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' height=150px width=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @msponsors = [
 { :image => "kiberpipa.png", :name => "Kiberpipa", :link => "https://www.kiberpipa.org/sl/"},
 { :image => "netokracija.png", :name => "Netokracija", :link => "http://www.netokracija.si/"}
