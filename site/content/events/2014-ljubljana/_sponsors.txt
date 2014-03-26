@@ -26,6 +26,7 @@ filter:    erb
 { :image => "astina.png", :name => "Astina", :link => "http://astina.si"},
 { :image => "comtrade.png", :name => "Comtrade", :link => "http://www.comtrade.com/si/"},
 { :image => "dlabs.png", :name => "Dlabs", :link => "http://dlabs.si/"},
+{ :image => "klika.png", :name => "Klika", :link => "http://klika.si/"},
 { :image => "zemanta.png", :name => "Zemanta", :link => "http://www.zemanta.com/"}
 ]%>
 <% unless @special_sponsors.empty?  %><h1>Special sponsors</h1><% end %>
