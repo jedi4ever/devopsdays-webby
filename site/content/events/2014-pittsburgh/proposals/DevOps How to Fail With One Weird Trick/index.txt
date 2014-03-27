@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Pete Cheslock 
+title: "DevOps: How to Fail With One Weird Trick"
+---
+
+**Abstract:**
+
+In the last few years, I have been a through massive organizational shifts as two different companies attempted to embrace DevOps. Both companies were experiencing extreme growth, and both companies wanted faster iterations with more management visibility. Both companies believed that DevOps was the answer, and thus created new organizational units to tackle their problems. How these two companies chose to implement their first iteration of a "DevOps Culture" differed, but both ultimately ended in the same fashion, failure. As Conway's Law suggests, the creation of a new silo normally causes more problems with your company's communication structures. These cases were no different.
+
+We often spend a large amount of time focusing on The Right Way™ to do things. Many companies believe they can cargo-cult the solutions they read about in books and blogs and make it fit in their organization. This is often where many company's first attempt at DevOps fails. It is hard to blame people for continually falling into the same trap; they want to believe there is an easy solution to their organizational issues. Every day managers are being inundated with "DevOps Solutions" and "DevOps Toolkits," but while many people are trying to sell DevOps, it's not something you can buy.
+
+In my experience, new initiatives often fail due to organizational biases. How do you overcome those biases? Can you overcome something that is so deeply entrenched? Are these biases something you even need to change, or can you change the rules of the game instead to affect the outcome?
+
+We'll discuss:
+
+* The history and background of each company
+* The decisions that were made to influence change (including the intended outcome)
+* The actual outcomes that occurred
+* What we took away from each failure - and how the company changed
+
+**Speaker:**
+Pete Cheslock
+
