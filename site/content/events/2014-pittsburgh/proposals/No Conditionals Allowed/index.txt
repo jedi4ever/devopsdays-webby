@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Cornelia Davis
+title: "No Conditionals Allowed"
+---
+
+**Abstract:**
+
+Configuration drift is the bane of the devops existence. Scripting the deployment has become the de facto choice for solving this problem, where an attempt is made to codify each configuration choice, though required APIs are inevitably missing and scripts are becoming quite complex.  In this talk I’ll assert that there are two main things that can address these problems.  First, the set of knobs and dials available for configuration by the application needs to be minimized; the platform provider will control that which isn’t exposed. Second, the same “script” must be used for deployment into every environment throughout the application development lifecycle; and no, you don’t get to achieve that with a switch statement.
+
+**Speaker:**
+Cornelia Davis
+
+A self-proclaimed propeller head, Cornelia Davis is a Platform Engineer in the Cloud Foundry team at Pivotal, where she helps customers and partners develop and execute on their cloud platform strategies. Fundamentally responsible for making developers successful with the Cloud Foundry PaaS, you can generally find her knee deep in the (OSS) code base, writing apps and deploying them, teaching at a whiteboard, presenting at conferences and passionately driving new features into the product.
+
+When not doing those things you can find her on the yoga mat or in the kitchen.
+
+![Cornelia Davis](corneliapivotal.png)

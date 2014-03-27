@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Eric Windisch 
+title: "Deploying with Docker"
+---
+
+**Abstract:**
+
+Docker is gaining popularity in shipping and deploying applications. What is it? How does it help me deploy my applications? Eric will answer these questions and will demonstrate best practices for integrating Docker with (or without) configuration management tools.
+
+**Speaker:**
+Eric Windisch
+

@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Matthew Trisoline
+title: "Ansible 101"
+---
+
+**Abstract:**
+
+Ansible is a simple, agentless, and complete tool to handle configuration management, application deployment, and automation tasks operating over basic SSH. Ansible only requires that python is installed on the clients and python, python-jinja2, and python-paramiko libraries on the master (With an exception for some modules and advanced tasks). This is a high level overview of the ansible tool to do configuration management, application deployment, and bulk tasks that need be run across clusters of machines. Ansible has two modes of operation. One is a simple command line tool to run single one off task. The other is a command line tool to run "Playbooks" similar to Puppet "manifests" or Chef "recipes" to run a set of pre-defined tasks. This will provide  insight into another tool in the DevOps arsenal and a possible replacement to tools like Puppet or Chef for those that don't have the need for a client server setup, or the manpower, time, or team size to support those implementations.
+
+**Speaker:**
+Matthew Trisoline
+
