@@ -25,7 +25,7 @@ filter:    erb
         { :image => "interxion.png", :name => "interXion", :link => "http://www.interxion.com/"},
         { :image => "googlecloud.png", :name => "Google Compute", :link => "https://cloud.google.com/"},
         { :image => "sdl.png", :name => "SDL", :link => "http://www.sdl.com/nl/"},
-        { :image => "pinge.png", :name => "Pine Digital Security", :link => "https://www.pine.nl/"}
+        { :image => "pine.png", :name => "Pine Digital Security", :link => "https://www.pine.nl/"}
 
 ]%>
 
