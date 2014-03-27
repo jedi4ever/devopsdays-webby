@@ -5,7 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
-event: true
+talk: true
 selected: false
 layout: event
 author: Michael Ducy
