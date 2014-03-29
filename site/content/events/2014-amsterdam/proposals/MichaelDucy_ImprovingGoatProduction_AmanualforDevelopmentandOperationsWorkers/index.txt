@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Michael Ducy
+title: "Improving Goat Production: A manual for Development and Operations Workers"
+---
+
+**Abstract:**
+
+You may have heard or seen the motto, "Be the Goat" but what does "Being the Goat" actually entail and why is this important to DevOps? Building on the successful "Goat and Silo" talk, I will dig deeper into what makes successful Goats in your organization by examining actual Goat husbandry practices and techniques.
+
+**Speaker:**
+
+Michael Ducy (@mfdii) currently works as an Solutions Architect for Chef focused on designing and implementing automation solutions for customer's Cloud, IT Automation, and Continuous Delivery needs. Michael has worked in a variety of roles in his career including Systems Engineering , Performance Engineering, and IT Instructor. After DevOpsDays Amsterdam 2013 Michael is also known as the GoatFather.
+
+Michael Ducy
+http://www.getchef.com/
