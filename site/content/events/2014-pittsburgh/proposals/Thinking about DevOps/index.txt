@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Stephen Wilson 
+title: "Thinking about DevOps? - Drive it based on application performance"
+---
+
+**Abstract:**
+
+DevOps is a proven practice for high performing IT organizations. It is the new buzzword in IT but larger enterprises are having mixed if any success. Culture change can be a daunting task especially since most of the focus is around operations. Today its not just about the end user’s experience but also about how quickly the business can deliver new and innovative features to the market. This is hard when the two sides of this delivery model are opposed to each other. Operations wants stability and development wants velocity. With this type of constraint on time and resources the idea of doing right is shadowed by doing it fast. In this talk I would like to share how development and operations can come together using performance as the currency to drive innovation. Performance is the one constant that everyone can use to apply DevOps practices with high adoption results.
+
+**Speaker:**
+Stephen Wilson
+

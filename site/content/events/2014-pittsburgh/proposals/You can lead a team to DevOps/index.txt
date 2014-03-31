@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Brian Wager
+title: "You can lead a team to DevOps - But you can’t make them Automate"
+---
+
+**Abstract:**
+
+Since first learning of automating system configurations Brian Wagner has been empowering the teams that he works with to leverage the power of automation.  This talk is about how he has motivated both teams and their management down a DevOps path.  Using his experience as both a consultant and an internal employee, Brian covers all aspects of the process from getting Management on board, through getting the team thinking about complete solutions.  Whether it was the Dot Com that went bust or the big three car manufacturer trying to build out a site before the SuperBowl, DevOps concepts have always played a part in Brian's successes.  It almost always starts with getting everyone into a DevOps Mindset.  Come let Brian show you the buttons he has learned to push.
+
+**Speaker:**
+Brian Wager

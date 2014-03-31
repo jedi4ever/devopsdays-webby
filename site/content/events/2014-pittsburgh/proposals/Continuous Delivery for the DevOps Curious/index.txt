@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Adam Kalnas
+title: "Continuous Delivery for the DevOps Curious"
+---
+
+**Abstract:**
+
+Ever been in a situation where your team needs to deliver a critical fix to your customers ASAP?  Ever feel anxiety about trying to figure out the fastest, most reliable way to push even a single line code fix to your customers?  Ever have a release of software go so poorly that it brought your application to a grinding halt AND you’ve have been wondering how to avoid doing that again?  This talk is focused around discussing questions like these and continuous delivery practices that help enable ultra-productive teams to release into production numerous times a day.
+
+Continuous Delivery is focused on automating processes so your team can release software to customers frequently.  Many development teams have great agile principles and processes in place for creating software.  The challenge still remains in "the last mile" and getting the software in the hands of your customers.  This talk is for developers who want to start grokking what they can do to start getting closer to practicing continuous delivery, right now.
+
+**Speaker:** 
+Adam Kalnas

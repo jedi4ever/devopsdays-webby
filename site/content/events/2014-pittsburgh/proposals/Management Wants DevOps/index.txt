@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Brian Wager
+title: "Management Wants DevOps - Where do we begin?"
+---
+
+**Abstract:**
+
+Starting a DevOps practice at your company can be a daunting task in the beginning.  There is a lot to automate especially when you have very little or no time.  Where does DevOps begin?  Brian Wagner has overseen a multitude of successful implementations.  He has also had his share of learning experiences.  He has done it as a consultant and an internal employee over the last 19 years.  He has some simple tricks to help you determine what to focus on,  what order normally works best, and how to keep everyone moving in the same direction.  For instance, when should you bring in a tool like Chef, Puppet, or SaltStack to assist with your automation?  How do you choose a language to do your work in?  How important is it really to make documenting your processes before trying to script them?  Come check it out and get your next step off on the right foot.
+
+**Speaker:**
+Brian Wager
