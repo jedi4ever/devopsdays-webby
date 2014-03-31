@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Nikolas Katsimpras
+title: "Harnessing The Power of Conflict - A Conflict Resolution perspective of the social psychology underpinnings of Devops"
+
+---
+
+**Abstract:**
+
+The increasing popularity of Devops the past few years signifies an organic transition in the IT industry. A remarkably similar transition has been slowly ongoing in multiple industries and fields, from academia to finance and even policy. We have begun to realize the paramount importance of effective interdisciplinary collaboration as the only solution for the immense complexity of the next generation of challenges. This requires a highly systemic approach that transcends the traditional organizational barriers. Progressive, innovative, and brilliant products require desiloisation, which creates conflict. The word conflict may include cultural or lingual connotations of violence and destruction, however once we harness its energy and steer it in a productive manner then we can maximize our collective efficiency. Devops is all about harnessing the power of conflict. This talk will focus on the significance of effective conflict resolution for Devops based on basic concepts of social psychology and systems thinking. It will begin by addressing the role of each individual member and transition into intra and inter group dynamics by introducing the audience to notions of cooperation and competition, the value of intellectual opposition, trust, and positive interdependence.
+
+**Speaker:** 
+Nikolas Katsimpras
+
+Advanced Consortium on Cooperation, Conflict and Complexity,
+Earth Institute, Columbia University
