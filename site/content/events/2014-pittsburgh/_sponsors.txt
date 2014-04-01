@@ -25,6 +25,7 @@ end
 <% @gsponsors = [
 { :image => "digitalocean.png", :name => "Digital Ocean", :link => "http://www.digitalocean.com/"},
 { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -34,6 +35,7 @@ end
 
 <% @gsponsors = [
 { :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
+{ :image => "quickleft.png", :name => "Quick Left", :link => "http://www.quickleft.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
