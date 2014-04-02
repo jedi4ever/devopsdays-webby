@@ -31,7 +31,9 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @happyhoursponsors = [ ]%>
+<% @happyhoursponsors = [
+{ :image => "atlassian.png", :name => "Atlassian", :link => "http://www.atlassian.com"},
+]%>
 
 <h1>Happy hour sponsor</h1>
 
@@ -62,6 +64,7 @@ filter:    erb
 { :image => "cfengine.png", :name => "CFEngine", :link => "http://www.cfengine.com"},
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com"},
 { :image => "copperegg.png", :name => "CopperEgg", :link => "http://www.copperegg.com"},
+{ :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com"},
 ]%>
 
 <h1>Silver sponsors</h1>
