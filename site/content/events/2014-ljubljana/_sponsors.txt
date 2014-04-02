@@ -36,7 +36,8 @@ filter:    erb
 
 <% @msponsors = [
 { :image => "kiberpipa.png", :name => "Kiberpipa", :link => "https://www.kiberpipa.org/sl/"},
-{ :image => "netokracija.png", :name => "Netokracija", :link => "http://www.netokracija.si/"}
+{ :image => "netokracija.png", :name => "Netokracija", :link => "http://www.netokracija.si/"},
+{ :image => "internetweek.png", :name => "InternetWeek", :link => "http://www.internetweek.si/"}
 ]%>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>
