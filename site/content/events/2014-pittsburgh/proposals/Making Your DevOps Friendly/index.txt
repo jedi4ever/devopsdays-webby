@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: James Martin
+title: "Making Your Product or Service DevOps Friendly"
+---
+
+**Abstract:**
+
+As developers and systems administrators we are always looking for the quickest way to implement the best product to solve a particular problem.  Unfortunately, a lot of these applications and services have not been developed with the foresight of how they will be deployed, automated, monitored, and maintained.  This can be especially true in the "enterprise" software world.  Enterprise software is often dependent on a consultant and a multi-day engagement to correctly deploy, and the bigger products will likely require more consulting down the road.  Shouldn't these apps be automated as well?  This presentation outlines what developers, service providers, and operations teams can do to make their products readily consumable by DevOps tools and processes.
+
+**Speaker:**
+James Martin
+

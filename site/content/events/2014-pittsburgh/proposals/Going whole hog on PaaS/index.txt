@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Brandon Burton
+title: "Going whole hog on PaaS?"
+---
+
+**Abstract:**
+
+The last few years have seen the rise of Platform as a Service (PaaS) as part of the computing landscape, through the success and growth of numerous public and private offerings, both commercial and open source.
+
+The promise of a unified platform that abstracts away language/application runtimes, data services, and systems management into a single platform that has automation, logging, metrics, auto-scaling, and self-service all baked in, is extremely appealing and implementing some kind of PaaS strategy is often a topic when discuss how to "do DevOps", as the ideas that PaaS encompasses include many core DevOps principles and the idea of a turn-key solution is hard to resist. 
+
+Unfortunately, in many ways the landscape is still young and the solutions available take many different approaches, from hosted offerings like Heroku, DotCloud, or Nodejitsu, to large scale, one-size fits all in-house offerings like CloudFoundry, OpenShift, or Stackato, to newer and more targeted (often Docker based) offerings, such as Deis, Dokku, or Flynn. So it's difficult to know where to begin and what's truly turn-key, and how far these solutions will get you in a reasonable amount of time and effort.
+
+Drawing on my years of experience in the web hosting industry and my experience over the last two years in implementing a production in-house PaaS offering at Mozilla, I will attempt to
+
+* Provide a concise overview of the PaaS landscape
+* Lend some insight into what PaaS might be good for you, based on some attributes of your organization, culture, technology stack, and technical debt
+* Share some lessons learned in implementing a production PaaS at Mozilla, including cultural challenges, shifts in thinking required to adopting a PaaS ( the http://12factor.net/ mindset), and technical challenges, such as managed shared secrets, removing reliance on shared filesystems (NFS), etc
+* Provide guidance on why you may not want to adopt any PaaS solution, but instead determine how to apply your existing infrastructure automation (Configuration Management, IaaS, CI pipeline, etc) with some custom automation, APIs, self-service tools, to achieve the promise of PaaS and apply "PaaS patterns" to your existing tools and workflows.
+
+In the end, you'll leave this talk with more insight into what PaaS means, how you can apply the patterns it embodies to improve your automation, your workflows, and ultimately your culture, and you'll know if you should go whole hog on PaaS or not.
+
+**Speaker:**
+Brandon Burton
+

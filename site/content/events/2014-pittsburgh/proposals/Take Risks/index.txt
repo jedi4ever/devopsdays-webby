@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Patrick Eaton
+title: "Take Risks But Don't Be Stupid"
+---
+
+**Abstract:**
+
+The devops culture values taking risks and learning from failure.  Of course, there are reasonable risks... and then there is sheer stupidity.  One way to enable responsible risk-taking is to maintain a pre-production environment that supports experimentation and exploration.  As a system grows in scale and complexity, however, it is not feasible simply to deploy two of everything.  Building an effective pre-production environment becomes an artful exercise in systems building in its own right.
+
+In this talk, I will describe successes (and failures) in building a pre-production environment for a large, distributed, cloud-hosted service.  Our production system consists of hundreds of instances, dozens of services, and multiple load balancers and queues for communicating between services.  It uses objects stores, relational databases, NoSQL databases, and a search cluster.  The system pushes billions of messages per day through a data pipeline.  Our pre-production environment, on the other hand, uses just a couple dozen additional instances.  The system allows us to test data pipeline components at scale, compute on real data, and use and modify customer configuration.  The pre-production environment is a powerful and effective testbed for experimenting with new features and bug fixes.  The techniques I'll discuss can be applied to other systems to help other organizations manage risk while moving quickly.
+
+**Speaker:**
+Patrick Eaton
+

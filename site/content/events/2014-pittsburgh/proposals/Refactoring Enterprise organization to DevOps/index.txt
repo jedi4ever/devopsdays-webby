@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Igor Moonchnick
+title: "Refactoring Enterprise organization to DevOps - The journey and Crossing the chasm"
+---
+
+**Abstract:**
+
+Enterprise companies have long histories and established cultures. The larger the organization - the more people you have and more inertia. Any change, especially culture change, is faced with a lot of inertia, frustration and doubt. Change can't be instituted and can be implemented through gradual, controlled and thought through evolutionary approach. Constant Contact is going through this process right now and we'll be glad to share with you the challenges we've faced and how we've addressed them on the road of converting an Enterprise company to DevOps culture.
+
+Constant Contact is the enterprise size company that helps small businesses, associations, and nonprofits create, engage and grow customer relationships in today's socially connected world. With the booming business and with more than half a million customers worldwide the company faces a need to react very quickly to the market changes and the new customers' demands. This requires different organizational structure and new DevOps culture. 
+
+Organizational change is not trivial. The larger organization the harder it becomes. Changing culture in organizations is the hardest tasks of all. We believe that the change should happen organically and look more like an evolutional step rather than a stress to the system. Top to bottom change will be rejected and sabotaged. Bottom-up change will be ignored and will conflict with the management priorities. Initiating the change in the right or wrong place or time can mean the difference between a successful move forward or lost in trust and being thrown back in time and making things worse.
+
+Established processes are anchored into the tooling, environments, people and business expectations. Schedules are locked into long-ago made commitments. It's a hairball of causes and effects that should move organically into the new view of the world. How do we do this?
+
+We'll share with you our real world experience in instigating change of the enterprise company into the new world of DevOps. We'll cover different aspects of the change and approaches that worked and didn't work, including change in processes, behaviors, tooling and infrastructure.
+
+* Addressing complexity
+* Continuous improvement
+* Continuous integration
+* Standardization and repeatability
+* Automation
+* Predictability
+
+**Speaker:**
+Igor Moonchnick
+

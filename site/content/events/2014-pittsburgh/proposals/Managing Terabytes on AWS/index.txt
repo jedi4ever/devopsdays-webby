@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Baruch Sadogursky
+title: "Managing Terabytes on AWS"
+---
+
+**Abstract:**
+
+JFrog is handling huge amount of binaries files for all our customers. Since each customer has its own space and domain, using a global Object Store can be tricky.
+
+Also our application cannot work with an "eventually consistent" storage, and cannot deliver customer requirements with current S3 performance.
+
+Learn in this session how we managed fast upload, critical replication and backups, and global download availability of the terabytes of JFrog customer binaries files.
+
+**Speaker:**
+Baruch Sadogursky
+

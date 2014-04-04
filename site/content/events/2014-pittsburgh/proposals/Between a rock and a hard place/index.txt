@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Jen Krieger
+title: "Between a rock and a hard place - DevOps & the Business"
+
+---
+
+**Abstract:**
+
+Imagine for a moment that you already have a development and operations team that are poised to work effectively together. They are holding hands, walking side-by-side, riding into the sunset, etc. Now, insert your stereotypical Product Owner into the mix. You know, the one that says "Agile is what engineering does to get their work done." The reality is that you are working very (very) hard to get that nirvana DevOps situation together for operations and development. You are all set up to let your customers bask in the glory of how fast you can get your code out the door... and you turn back to your Product Owner and they effectively go "derp?"
+
+"DevOps" makes a huge assumption that everything is hunky-dory in Agile Town. Welllll, there might be a few more things you need to be thinking about. Like: 
+
+* How do you ensure features are broken down enough to take advantage of your pretty awesome CI/CD system?
+* How do you get to prioritize that mountain of technical debt you are sitting on when features are all you are ever given time for?
+* How do you get adequate business representation to support the strategic and tactical needs of your teams?
+* How do you find this mythical product owner who can do these things?
+
+I'll touch on these topics and also give you a little insight into how agile and DevOps is (and is not) working at Red Hat in IT.
+
+**Speaker:**
+Jen Krieger
+
