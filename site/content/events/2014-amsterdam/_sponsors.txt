@@ -7,7 +7,7 @@ filter:    erb
         { :image => "catechnologies.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
         { :image => "quanza.png", :name => "Quanza Engineering", :link => "http://www.quanza.net/"},
         { :image => "elasticsearch.png", :name => "ElasticSearch", :link => "http://www.elasticsearch.com/"},
-        { :image => "bol.png", :name => "bol.com". :link => "http://www.bol.com/"}
+        { :image => "bol.png", :name => "bol.com", :link => "http://www.bol.com/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
