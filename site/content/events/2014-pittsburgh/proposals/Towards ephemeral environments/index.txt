@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Ranjib Dey
+title: "Towards ephemeral environments"
+---
+
+**Abstract:**
+
+A walk through of infrastructure requirements of multi tier applications and how we can automate the setup and tear down of such infrastructure. What are the major pain points? Re-usability of such tooling across developer, continuous integration and production grade environments. How ephemeral environments can be used to understand distributed systems, their topologies, behavior against certain stress conditions(reproduction of bugs that depends of traffic patterns) and their operational requirements.
+
+**Speaker:**
+Ranjib Dey
+

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Dave Cliff
+title: "We haven’t had an outage in ages - Lies, Damned Lies, and Outage Handling Best Practices from Real Customers"
+---
+
+**Abstract:**
+
+Outages suck; how you handle them shouldn't. There are many aspects of an outage that go beyond just fixing the problem:
+
+* During the incident: who to alert, how to communicate, handling dependency and downstream failures, public disclosure
+* After the incident: post-mortems, public disclosure, formalizing process vs. investing in automation, preventative measures
+
+There are also ways to keep engineers sane, customers happy, and the $$$ flowing.  In this talk, come learn about best practices from across the industry, including how PagerDuty executes during an outage (but trust us, those never happen).
+
+**Speaker:**
+Dave Cliff
+

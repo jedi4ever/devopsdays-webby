@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: true
+selected: false
+layout: event_pitt
+author: Patrick Eaton
+title: "Development patterns to amplify the feedback loop"
+---
+
+**Abstract:**
+
+One of the core principles of the devops movement calls to shorten and amplify the feedback loop. Improving the response of the feedback loop enables the organization to understand and respond better to customers. Development processes have a huge influence on the response of the feedback loop, but many organizations aren’t sure how to implement the best practices essential for making these processes more efficient. 
+
+In this talk, I will share ideas about how to tweak the development process to amplify the feedback loop.  These techniques allow developers to break, fix and improve parts of the system without impacting other components and developers.  I’ll explain how to simplify the components so they’re easier to understand and improve, reduce the surface area of components to make for simpler monitoring and debugging, increase confidence in the code and make deployments (and rollbacks) more straightforward. Once adopted, these easy-to-implement techniques will optimize the feedback loop and allow any organization to understand and communicate better with customers.
+
+**Speaker:**
+Patrick Eaton
+

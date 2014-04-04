@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Baruch Sadogursky
+title: "Binaries for DevOps - Because Everyone Has Binaries to Manage"
+---
+
+**Abstract:**
+
+What development and operations have in common? Binary files! From Java, Nuget and NPM libraries to full packaged webapps, or complete VM images that end up in production or as installable applications; The need to manage binaries and their flow from build to runtime, crosses new boundaries between development and operations. 
+
+In this talk we will show you how, using the right tooling for binary management can create the needed synergy between developers and operations. We’ll see how to build a cooperative pipeline between dev and ops, for automating the distribution of binaries in your apps.
+
+We’ll run an end-to-end live demo starting from the get-go of provisioning a virtual machine, to building and deploying a real web application to prod!
+
+**Speaker:**
+Baruch Sadogursky
+

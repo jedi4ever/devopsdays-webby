@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Igor Moonchnick
+title: "Don’t kid yourself - Your pipelines are part of your applications"
+---
+
+**Abstract:**
+
+Development teams (hopefully) learned that source code management (SCM) is a must for your success. DevOps organizations coming to realization that Configuration Management (CM) will make you sane when you need to know what is deployed, where and how it configured. These are the opposite sides of the journey the artifacts has to take from the moment of their creation to the moment they become available to the customers. This journey is defined by the release pipelines and they are as important to the success of your organization as the SCM and CM.
+A single change in a pipeline can bring your process to a screeching halt. Troubleshooting and recovery processes can be painful.
+
+During this talk we’re going to explore best practices of building release pipelines, do's and don'ts.
+
+**Speaker:**
+Igor Moonchnick
+

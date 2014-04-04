@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Julian Dunn
+title: "DevOps For The Enterprise - Strategies for Making it Succeed"
+---
+
+**Abstract:**
+
+DevOps has finally started to gain traction in the enterprise. What does this mean? The pessimistic answer is that some middle managers have heard of DevOps through the dead-tree edition of InformationWeek and are now trying to buy it by throwing money at traditional software vendors. The optimistic answer, however, is that management in large companies are finally seeing the need to turn the battleship, or fail, and are committing their most talented and passionate staff to changing their IT.
+
+In my experience as a consulting engineer with Chef, I’ve seen both ends of the spectrum and many situations in between. What’s worked for enterprises trying to adopt a DevOps methodology? What hasn’t? In this talk, I’d like to share my lessons learned and propose a strategy for how to use DevOps methods and tools to virally infect an enterprise. Along the way, we may stop off at the “prior art” waystations of Six Sigma, ITIL, and maybe even ISO to see how these methodologies aren’t just fluffy buzzwords from academia, but how we can learn a few things from systems that people have invented previously.
+
+**Speaker:**
+Julian Dunn
+

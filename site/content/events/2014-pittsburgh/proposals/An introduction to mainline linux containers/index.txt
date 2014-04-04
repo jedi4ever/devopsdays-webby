@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Ranjib Dey
+title: "An introduction to mainline linux containers and how they are impacting us"
+---
+
+**Abstract:**
+
+Containers are software based virtualization. They have been popular in solaris and aix world because of their low resource overhead and higher operational efficiency. Though containers were possible with linux for quiet some time, recent changes in mainline linux kernel made containers possible on all popular distros. But since on mainline linux containers are user land entities, we now have more than 5 container implementation.
+ 
+In this talk i would like to discuss the popular container implementations, their differences, thus what type of tooling can be built and what use cases can be addressed using them. And finally how they can impact us, in terms of change in workflows and practices in software development and system administration when combined with recent progress in union filesystems. Combined with projects like CRIU and pr.haul how containers can be exploited to build cloud neutral abstractions, where services can be moved seamlessly.
+
+**Speaker:**
+Ranjib Dey
+

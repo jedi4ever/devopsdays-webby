@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: true
+selected: false
+layout: event_pitt
+author: Nathen Harvey
+title: "There Are No Best Practices"
+---
+
+**Abstract:**
+Treating your infrastructure as code means it's time to grow up and embrace the uncertain path to certain delight.  The code you write when you're first getting started will be shit.  The only best practice you should be concerned with is admitting you're going to refactor the hell out of your code, your processes, and your approach to managing your infrastructure as code.  I'll share some of my experiences and observations in helping people learn Chef over the past few years.
+
+Definitely have enough content here for an fun ignite.  Could expand to a talk if you're interested and convince me to do so (which should be easy, just ask me to or put it on the schedule as a full talk).
+
+**Speaker:**
+Nathen Harvey
+

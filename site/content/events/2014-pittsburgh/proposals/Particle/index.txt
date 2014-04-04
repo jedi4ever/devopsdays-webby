@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: true
+selected: false
+layout: event_pitt
+author: Peter Burkholder
+title: "Particle - A compelling alternative to Cloud Formation"
+---
+
+**Abstract:**
+
+We loved AWS CloudFormation, until we actually started to work with it. The idea that one could write a machine environment specification, then use that as a template for similar ones, was really compelling. But as our eyes started bleeding working with JSON and AWS's auto-generated naming, we determined there had to be a better way to specify AWS machine environments. Hence, cloud-particle, a Python (boto) tool for AWS environment creation, update, deletion and validation. All based on human-readable YAML specifications.
+
+Cloud-particle will be open-sourced by AudaxHealth before DevOpsDaysPgh, and should provide a useful tool for anyone needing a lightweight tool to manage various environments in AWS.
+
+**Speaker:**
+Peter Burkholder
+
