@@ -6,7 +6,8 @@ filter:    erb
 	{ :image => "ebay.png", :name => "eBay", :link => "http://www.marktplaats.nl/"},
         { :image => "catechnologies.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
         { :image => "quanza.png", :name => "Quanza Engineering", :link => "http://www.quanza.net/"},
-        { :image => "elasticsearch.png", :name => "ElasticSearch", :link => "http://www.elasticsearch.com/"}
+        { :image => "elasticsearch.png", :name => "ElasticSearch", :link => "http://www.elasticsearch.com/"},
+        { :image => "bol.png", :name => "bol.com". :link => "http://www.bol.com/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -19,7 +20,7 @@ filter:    erb
 
 <% @ssponsors = [
         { :image => "puppetlabs.png", :name => "PuppetLabs", :link => "http://www.puppetlabs.com/"},
-	{ :image => "layerthree.png", :name => "LayerThree", :link => "http://www.layerthree.nl/"},
+	    { :image => "layerthree.png", :name => "LayerThree", :link => "http://www.layerthree.nl/"},
         { :image => "sentia.png", :name => "Sentia", :link => "http://www.sentia.nl/"},
         { :image => "cri.png", :name => "CRI", :link => "http://www.cri-service.nl/"},
         { :image => "interxion.png", :name => "interXion", :link => "http://www.interxion.com/"},
