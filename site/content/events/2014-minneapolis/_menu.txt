@@ -9,6 +9,6 @@ filter:    erb
 <a href="/<%= @eventhome %>/location">location</a>&nbsp;
 <a href="/<%= @eventhome %>/sponsor">sponsor</a>&nbsp;
 <a href="/<%= @eventhome %>/contact">contact</a>&nbsp;
-
+<a href="/<%= @eventhome %>/code-of-conduct">code of conduct</a>&nbsp;
 </h3>
 </div>

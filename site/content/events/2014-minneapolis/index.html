@@ -8,15 +8,34 @@ title: welcome
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+        <center>
+        <img border=0 src="river.jpg">
+</td><td valign=top>
+<strong>DevOpsDays is coming to Minneapolis! </strong>
+<br><br>
+Dates: July 17-18, 2014
+<br><br>
+Location: <a href="./location">Downtown Minneapolis, University of St. Thomas</a>
+<br><br>
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
+Registration will open soon!
+<br><br>
 
-So far we have:
+<a href="./propose">Call For Proposals</a> is open until <strong>May 23rd, 2014</strong>.
+<br><br>
 
-- Target date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-- Target location: **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
+<br><br>
+</td>
+</tr>
+</table>
+</center>
 
-Do you know of a nice venue near the target location? Or is your company interested in hosting the event?  [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
+<hr>
 
-Once date and location have been decided we will open the [call for proposals](propose) and registration.
-If you want to be the first to know, [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays).
+
+
+
+
