@@ -27,3 +27,11 @@ filter:    erb
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
+
+<br/>
+<br/>
+<h1>Host sponsor</h1>
+<% @hsponsors = [
+{ :image => "ust.jpg", :name => "University of St. Thomas", :link => "http://www.stthomas.edu"},
+]%>
+<%= make_sponsor_links(@hsponsors) %>
