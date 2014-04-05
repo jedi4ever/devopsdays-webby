@@ -16,6 +16,7 @@ end
 { :image => "modcloth.jpg", :name => "ModCloth", :link => "http://www.modcloth.com/"},
 { :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
 { :image => "xebialabs.png", :name => "Xebia Labs", :link => "http://www.xebialabs.com/"},
+{ :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
