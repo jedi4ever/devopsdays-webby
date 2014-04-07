@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Adam Auerbach
+title: "Implementing DevOps Teams at Capital One"
+email: Adam.Auerbach@capitalone.com
+---
+
+**Abstract:**
+
+Discusses what worked and didn’t work for Capital One as they
+implemented and supported DevOps Teams.
+
+As large companies drive agile transformation, the need to have
+dedicated people working on DevOps capabilities increases. Being
+successful at implementing these best practices requires highly
+technical resources as well as investments in tools and environments.
+So in a large company where these resources are scarce and the DevOps
+tools are not wide-spread, how do you implement these teams quickly
+without breaking the bank?
+
+This presentation will talk through the approach that was used at
+Capital One which leveraged those limited DevOps experts and
+technology to form a swat team to help jumpstart new DevOps teams in a
+way that created a community of best practices and learnings. This
+approach led teams getting formed quicker, improved velocity and
+delivering value sooner, all while leadership got the visibility they
+needed to ensure the teams had the support to be successful.
+
+**Speaker:**
+
+Adam is currently a Director of IT at Capital One. He is leading the
+implementation and support of all the DevOps teams across the
+enterprise at Capital One.
+
+Adam is also responsible for the Enterprise Release Management, Test
+Data Management, Test Automation and Performance Testing Teams. He has
+over 14 years’ experience in IT, most of which has been in a
+leadership role with a concentration on Quality.
