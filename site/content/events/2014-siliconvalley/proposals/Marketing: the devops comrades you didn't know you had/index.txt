@@ -38,3 +38,10 @@ you can do than just invite the sales team to your stand-ups.
 **Speaker:**
 
 Sarah Goff-Dupont, Bamboo Marketing Manager
+
+Sarah has worked in software for 12 years as a test engineer, scrum
+master, and now as a marketer for developer tools. As a champion of
+all things agile and automated, she loves talking to developers about
+their triumphs and frustrations, then blending those insights with her
+own experience and sharing it. It’s all about making life easier for
+the nerds.

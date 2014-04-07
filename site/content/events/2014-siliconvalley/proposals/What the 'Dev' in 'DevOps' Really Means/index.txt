@@ -27,5 +27,14 @@ infrastructure integration development as the future of DevOps.
 
 **Speaker:**
 
-Lori MacVittie
-Sr Product Manager, Emerging Technologies f5 
+Lori MacVittie Sr Product Manager, Emerging Technologies f5
+
+Lori MacVittie is a subject matter expert on emerging technology
+responsible for education and evangelism across F5’s entire product
+suite. MacVittie has extensive development and technical architecture
+experience in both high-tech and enterprise organizations, in addition
+to network and systems administration expertise. Prior to joining F5,
+MacVittie was an award-winning technology editor at Network Computing
+Magazine. She holds a B.S. in Information and Computing Science from
+the University of Wisconsin at Green Bay, and an M.S. in Computer
+Science from Nova Southeastern University, and is an O’Reilly author.

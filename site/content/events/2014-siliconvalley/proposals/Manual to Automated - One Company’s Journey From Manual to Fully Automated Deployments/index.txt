@@ -71,4 +71,11 @@ fruits of their labor being used by our customers.
 
 **Speaker:**
 
-Owen Zanzal TBD
+Owen is a developer with experience in both frontend and backend
+development of web based applications. He is also passionate about
+automation. He enjoys building tools that simplify complex task and
+empower everyone in the organization. He is currently spearheading
+ChatOps and Continuous Deployment at a funded startup VividCortex
+located in Charlottesville VA. In his spare time he enjoys playing
+guitar and crafting home brewed beer
+
