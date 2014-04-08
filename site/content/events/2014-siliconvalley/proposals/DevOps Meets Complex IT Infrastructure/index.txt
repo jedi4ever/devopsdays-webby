@@ -26,3 +26,10 @@ processes like continuous integration.
 **Speaker:**
 
 Alex Henthorn-Iwane VP Marketin Quali Systems
+
+Alex is a 20 year technology industry veteran, having spent that time
+nurturing new technologies and products at startups, infrastructure
+and software companies such as Livingston Enterprise, Fibronics,
+Corona Networks, CoSine Communications, Packet Design and most
+recently QualiSystems.
+ 
