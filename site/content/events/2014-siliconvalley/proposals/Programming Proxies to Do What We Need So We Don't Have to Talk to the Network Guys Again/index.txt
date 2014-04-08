@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: 
+title: "Programming Proxies to Do What We Need So We Don't Have to Talk to the Network Guys Again"
+email: L.MacVittie@F5.com
+---
+
+**Abstract:**
+
+This session will briefly explore what proxies are (and why they’re
+necessary to emerging application architectures) before diving into
+the need for programmable proxies. We’ll explore DevOps patterns that
+leverage programmable proxies to support canary deployments, A/B
+testing, and real-time application traffic replication.
+ 
+**Speaker:**
+
+
+Lori MacVittie Sr Product Manager, Emerging Technologies f5
+
+Lori MacVittie is a subject matter expert on emerging technology
+responsible for education and evangelism across F5’s entire product
+suite. MacVittie has extensive development and technical architecture
+experience in both high-tech and enterprise organizations, in addition
+to network and systems administration expertise. Prior to joining F5,
+MacVittie was an award-winning technology editor at Network Computing
+Magazine. She holds a B.S. in Information and Computing Science from
+the University of Wisconsin at Green Bay, and an M.S. in Computer
+Science from Nova Southeastern University, and is an O’Reilly author.
+ 

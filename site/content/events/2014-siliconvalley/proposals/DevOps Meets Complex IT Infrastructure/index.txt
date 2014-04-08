@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alex Henthorn-Iwane
+title: "DevOps Meets Complex IT Infrastructure"
+email: alex.h@qualisystems.com
+---
+
+**Abstract:**
+
+To scale DevOps to enterprise IT requires dealing with the
+complexities enterprise infrastructure. Not everything is virtualized
+or in the public cloud, so how can automation address this reality?
+This talk will propose some ways to understand the challenges and
+what’s needed from automation to make truly hybrid IT infrastructure
+elastic, efficient, self-service and able to integrate into automated
+processes like continuous integration.
+
+**Speaker:**
+
+Alex Henthorn-Iwane VP Marketin Quali Systems
+
+Alex is a 20 year technology industry veteran, having spent that time
+nurturing new technologies and products at startups, infrastructure
+and software companies such as Livingston Enterprise, Fibronics,
+Corona Networks, CoSine Communications, Packet Design and most
+recently QualiSystems.
+ 

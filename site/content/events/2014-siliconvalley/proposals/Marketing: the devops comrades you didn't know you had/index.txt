@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sarah Goff-Dupont
+title: "Marketing: the devops comrades you didn't know you had"
+email: sgoffdupont@atlassian.com
+---
+
+**Abstract:**
+
+Theme - How to get the business involved in devops
+
+Development teams and sale/marketing teams aren't always BFFs. Too
+often, there is a master-slave relationship: either marketing dictates
+what the product team builds based solely on what is "sellable" with
+little consideration to timelines or what non-customer-facing work
+needs to be done, or the product team does a bunch of random work with
+little consideration for creating a strong marketing "story". But it
+doesn't have to be this way.
+
+In the DevOps spirit of cross-team collaboration, why not recruit
+sales and marketing as your newest allies in the fight against
+workplace silos?
+
+This talk will cover practical and battle-tested ways to work together
+towards a higher-quality and more marketable piece of software. From
+semi-obvious things like information radiators, to deeper
+collaborations in roadmapping and release planning, there's a lot more
+you can do than just invite the sales team to your stand-ups.
+
+**Speaker:**
+
+Sarah Goff-Dupont, Bamboo Marketing Manager
+
+Sarah has worked in software for 12 years as a test engineer, scrum
+master, and now as a marketer for developer tools. As a champion of
+all things agile and automated, she loves talking to developers about
+their triumphs and frustrations, then blending those insights with her
+own experience and sharing it. It’s all about making life easier for
+the nerds.

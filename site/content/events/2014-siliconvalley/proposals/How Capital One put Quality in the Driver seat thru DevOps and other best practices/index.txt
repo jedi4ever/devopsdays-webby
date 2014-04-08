@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Adam Auerbach
+title: "How Capital One put Quality in the Driver seat thru DevOps and other best practices"
+email: Adam.Auerbach@capitalone.com
+---
+
+**Abstract:**
+
+See how Capital One leveraged Quality Driven Delivery to improve time
+to market and maintain high quality.
+
+In a highly integrated environment with Agile teams having many
+dependencies, Capital One faced many challenges that led to prolonged
+hardening sprints and no real improvements in time to market. We
+struggled with many facets of Agile implementation and were not
+getting any of the real benefits Agile provides. In order to solve
+this, Capital One leveraged DevOps, TDD and ATDD practices and branded
+them “Quality Driven Deliver” or “QDD”. QDD provided the foundation
+needed to deliver on the goals of being able to deliver high quality
+working code to production early and often.    This session will
+review the experience Capital One went through in order to implement
+these best practices. We will also cover the core principles of
+Quality Driven Delivery. We will review specific questions and
+assessments that can be done to evaluate where you are in each of
+these principles. We will talk about the common roadblocks that occur
+and some recommendations on how best to remove them from the
+environment.
+
+**Speaker:**
+
+Adam is currently a Director of IT at Capital One. He is leading the
+implementation and support of all the DevOps teams across the
+enterprise at Capital One.
+
+Adam is also responsible for the Enterprise Release Management, Test
+Data Management, Test Automation and Performance Testing Teams. He has
+over 14 years’ experience in IT, most of which has been in a
+leadership role with a concentration on Quality.

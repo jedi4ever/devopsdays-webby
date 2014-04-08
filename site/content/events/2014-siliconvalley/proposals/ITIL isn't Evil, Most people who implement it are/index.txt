@@ -1,0 +1,55 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Colin McNamara
+title: "TIL isn't Evil, Most people who implement it are"
+email: colin@2cups.com
+---
+
+**Abstract:**
+
+ITIL isn’t evil, most people who implement ITIL don’t execute on the Continuos Improvement process. 
+
+DevOps and ITIL (and ITSM) actually work together very well. In this talk will with highlight the change 
+management and continuous improvement process area’s in ITIL and ITSM and discuss how implement 
+DevOps methodologies can *increase* the level of compliance and service of a classic IT organization.
+
+* Why DevOps and ITIL go well together
+	** DevOps in shadow IT, reaction to lack of IT services for developers
+	** ITIL Service Creation 
+	** ITIL Continuous Improvement
+	** DevOps Continuous Improvement 
+	** ITILv3 and DevOps Aligned Area’s
+
+* ITILv3 change and release management process and DevOps toolchains
+	** DevOps Maturity levels and Improvement area’s
+	** Level 0 Improvements, and mapping into ITIL Area’s
+	** Level 1 Improvements, and mapping into ITIL Area’s
+	** Level 2 Improvements, and mapping into ITIL Area’s
+
+* Suggested next steps
+	** Technology
+	** Process
+	** Organizational Transformation
+    
+**Speaker:**
+
+My name is Colin McNamara, I lead companies and communities through change. I am an active OpenStack contributor as well as leading Open Source initiatives at my own Company. 
+
+OpenStack Summit San Diego - Surviving your first checking  - https://www.youtube.com/watch?feature=player_embedded&v=dHf90_jhwMw
+
+OpenStack Training - Minnesota OpenStack Meetup - https://www.youtube.com/watch?feature=player_embedded&v=F3J3D2ixL3E
+
+OpenStack for VMware Admins - https://www.youtube.com/watch?feature=player_embedded&v=rI_hQSOWB14
+
+Engineers Unplugged - Continuous Delivery - https://www.youtube.com/watch?feature=player_embedded&v=uM6tftT1Ws4
+
+OpenStack Summit Hong Kong - Tools and Idea’s Panel - https://www.youtube.com/watch?feature=player_embedded&v=YolwQuPJR4k
+
