@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jan-Joost Bouwman and Mark Heistek
+title: "ITIL and DevOps at war in the Enterprise"
+---
+
+**Abstract:**
+Three years ago the Developers and the Operations people of the IT department of ING Retail Banking Netherlands were divided by a huge wall of confusion. Development was governed by CMMi, Prince2 project management, Operations was ruled by ITIL processes. Delivering new functionality via the traditional waterfall took a long time, going from requirements gathering, to impact analysis, application architecture design, functional design, technical design,development, testing to finally release to production. Instability caused by changes was counteracted by making up ever increasing list of acceptance criteria which had to be fulfilled in order to get an application deployed into production.
+
+Then a small number of development teams discovered the benefits working Agile/Scrum. Pretty soon all of Development wanted to work Agile. At first Operations was terrified by this development (try reading the Agile manifesto as a tradition ITIL worker and not being terrified). But once management caught on there was no going back: DevOps was here to stay within ING! And processes were declared dead and the good citizens of ING were happy once more.
+
+But are processes really dead?
+
+This presentation will tell you how we at ING made the transition from a traditional Process oriented IT organization to DevOps. Without losing sight of the beneficial bits of ITIL. How do we combine the two and how do they complement one another. And which battles still need to be fought for the war to be over.
+
+**Speaker:**
+
+Mark Heistek is working for ING. He used to be a process guy in IT world and now evangelizing continuous delivery and DevOps . At this moment he is working for a continuous delivery team with the focus on automatic deployment for IT Netherlands.
+
+Jan-Joost Bouwman is as the community manager of the DevOps collaboration community (together with Mark and Evelijn van Leeuwen) on ING’s internal social network one of the DevOps evangelists within ING. He currently works as process owner for the ITIL processes within DB/CIO. Before the transition he was an ITIL Change manager in one of the involved departments, having started there as an service management engineer. Previously he worked as a project manager, information analyst/designer/tester for Comsys.
