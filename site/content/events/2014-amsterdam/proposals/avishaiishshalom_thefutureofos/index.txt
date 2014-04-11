@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Avishai Ish-Shalom
+title: "The future of O/S"
+---
+
+**Abstract:**
+
+The design and architecture of contemporary O/S dates back 20 years ago. Debian and Windows were conceived in the early nineties and while they matured the world around has changed significantly. This talk will give an overview of how the way we use computers dramatically changed and how O/S creators adapt their systems in response. The talk will also review current and future trends that change the industry as we speak.
+
+The talk will compose of short terminal based demos and review slides. The idea is to cover various aspects of O/S such as packaging, privilege separation, management apis, etc. for each aspect I will show a representative example of innovative attempts to evolve o/s.
+The talk will include a short demo (assuming internet connection is available) of a vanilla cloud instance to show that current default configuration of linux is obsolete. The talk may (time allowing) also include another demo of minimal linux vm.
+
+
+**Speaker:**
+
+Avishai Ish-Shalom, a WebOps consultant working for Fewbytes, an Israel based consulting firm.
+
