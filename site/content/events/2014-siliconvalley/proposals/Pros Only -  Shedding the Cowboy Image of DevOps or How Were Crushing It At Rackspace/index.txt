@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gary Dusbabek
+title: "Pro's Only: Shedding the Cowboy Image of DevOps, or How We're Crushing It At Rackspace"
+email: gdusbabek@gmail.com
+---
+
+**Abstract:**
+
+The DevOps mentality has historically been about bending or even
+forgetting the rules while developers take on operations roles (or
+vice versa) in the name of Getting Things Done. This cavalier approach
+may work in some environments but in situations where technical debt
+is measured in terms of years, corners cannot be cut. Even with
+enforced processes there can still be agility; quality software can
+still be developed, iterated, and delivered quickly.
+
+Some teams at Rackspace are practicing "slipperly deployment." Code is
+pushed to production several times a day. Operations engineers and
+software engineers sit on the same teams, often next to each other,
+and all review each others code. For us, the process is what allows us
+to move quickly and freely.
+
+In this presentation, you will learn about:
+
+* the tools we have adopted or in some cases made,
+* the processes we follow,
+* and how we structure our teams
+
+Properly executing along these dimensions allows us to deliver quality
+software in reasonable time.
+
+
+**Speaker:**
+
+An Apache Cassandra committer and PMC member, Gary Dusbabek is a
+life-long programmer specializing in distributed systems.  His past
+experience includes working with large-scale text and image indexes in
+the newspaper industry and high-volume advertisement booking software.
+Recent work at Rackspace includes working on Cassandra full-time and
+being a founding member of the Cloud Monitoring team.  Gary currently
+works on the Cloud Metrics team that created the open source Blueflood
+metrics engine.
