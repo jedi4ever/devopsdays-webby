@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Carol Nichols
+title: "How is ChatOps Formed?"
+---
+
+**Abstract:**
+
+Chatops, as defined by Webster's New World Dictionary, is doing your DevOps through chat. In this talk, you will learn the 2 Ws of Chatops: Why and How.
+
+Why Chatops?
+
+* It centralizes information in useful ways
+* It democratizes DevOps, giving anyone the power and confidence to do your job for you
+* It's way more fun than the terminal
+
+How Chatops?
+
+* Use OSS Hubot and hubot-scripts (Thanks Github!)
+* Write your own plugins for company-specific commands and metrics
+* Start with the one thing that people bug you the most to do
+* Then listen to your users, they'll tell you ("Wouldn't it be cool if the bot did X?")
+* Refine the interactions to have a high signal-to-noise ratio
+
+**Speaker:**
+Carol Nichols
+
