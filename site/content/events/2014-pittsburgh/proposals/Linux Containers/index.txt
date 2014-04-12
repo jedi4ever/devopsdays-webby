@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Jake Moshenko 
+title: "Linux Containers: The Natural Successor to VMs and CM"
+---
+
+**Abstract:**
+
+The presentation would start with a segment by the founders of Quay.io, a private Docker registry, about how we started using Linux containers with our product DevTable for security and isolation, the evolution from LXC to Docker, and how we continue to use Docker as a lightweight replacement for virtual machines in our current Quay.io stack. Aptible, a PaaS company which assists companies with creating and documenting HIPAA compliant apps, will continue this portion of the presentation with a segment about how they use Docker as a flexible interface between their clients’ code/dependencies and the Aptible platform. They will discuss how this interface lets them avoid much of the boilerplate and many of the pitfalls of traditional CM or a model such as the Heroku buildpacks.
+
+**Speaker:**
+Jake Moshenko
+
