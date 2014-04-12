@@ -201,6 +201,20 @@ labelStyle: {opacity: 1}
 
 google.maps.event.addListener(belgiummarker, "click", function (e) { location.href="#"});
 
+warsawlocation = new google.maps.LatLng(52.2329379, 21.0611941);
+
+var warsawmarker = new MarkerWithLabel({
+position: warsawlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Warsaw 2014",
+labelAnchor: new google.maps.Point(25, 0),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="#"});
 
 
 
