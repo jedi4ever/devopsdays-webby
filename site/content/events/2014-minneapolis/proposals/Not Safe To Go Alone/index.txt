@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 1
+title: "It's not safe to go alone. Take this!"
+---
+
+**Abstract:**
+
+When large organizations start on the devops journey, they sometimes fool themselves into thinking a small, specialized team is what they need to infect the rest with success. Unfortunately, most organizations that take this approach ultimately run into a scaling problem -- bottlenecks, ugh! This talk will discuss some of the common approaches organizations take when trying to change and how to avoid setting yourself up for failure in the long run.  
+
+**Speaker:**
+Speaker 1
+
