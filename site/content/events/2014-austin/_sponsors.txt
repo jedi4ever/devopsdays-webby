@@ -68,6 +68,7 @@ filter:    erb
 { :image => "copperegg.png", :name => "CopperEgg", :link => "http://www.copperegg.com"},
 { :image => "boundary.png", :name => "Boundary", :link => "http://www.boundary.com"},
 { :image => "dell.png", :name => "Dell", :link => "http://www.enstratius.com"},
+{ :image => "datamart.png", :name => "Datamart", :link => "http://www.dtm.io"},
 ]%>
 
 <h1>Silver sponsors</h1>
