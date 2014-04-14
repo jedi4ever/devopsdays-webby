@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Yegor Bugayenko
+title: "Pre-Flight Builds for Quality Control"
+---
+
+**Abstract:**
+
+ Software development nowadays is done in teams. We develop in branches, isolating changes while they are in development. Then we merge them into the main stream, then we build the product, and deploy its new version to production. Sometimes our build step fails because of merge conflicts or broken tests. Everybody understands these failures as a positive side effect of quality control we have in place. Build failures prevent production failures, which essentially are much more important.
+
+In the project I'm going to talk about we've made one step further in quality control. We started to control quality and fail even earlier, during merging of our branches into the main stream. This mechanism is known as "pre-flight builds". We integrated together Jenkins, Docker, JIRA, Git and our custom software. All together they started to act as an intelligent agent that picks up JIRA tickets when they are ready, attempts to merge their branches into Git master, attempts to build the entire product inside Docker container, and pushes changes to Github repository.
+
+I believe that our experience will be interesting to share with other DevOps specialists.
+
+**Speaker:**
+
+Yegor Bugayenko is a software architect and DevOps enthusiast and currently works at EMESA, the owner of vakantieveiling.nl, the biggest auctioning website in The Netherlands.
+
+Yegor Bugayenko
+http://www.emesa.nl/
