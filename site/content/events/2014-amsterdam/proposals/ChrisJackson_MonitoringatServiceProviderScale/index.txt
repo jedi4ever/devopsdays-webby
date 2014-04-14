@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Chris Jacksons
+author: Chris Jackson
 title: "Monitoring at Service Provider Scale"
 ---
 
