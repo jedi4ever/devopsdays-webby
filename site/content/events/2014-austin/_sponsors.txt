@@ -22,6 +22,7 @@ filter:    erb
 { :image => "bazaarvoice.png", :name => "Bazaarvoice", :link => "http://www.bazaarvoice.com/"},
 { :image => "activestate.png", :name => "ActiveState", :link => "http://www.activestate.com/"},
 { :image => "stackdriver.png", :name => "Stackdriver", :link => "http://www.stackdriver.com/"},
+{ :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
