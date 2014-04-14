@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Avishai Ish-Shalom
+title: "Continuous Delusions - The hard truth about the deployment"
+---
+
+**Abstract:**
+
+Lately it seems that whatever conference you attend everyone is talking about Continuous Delivery: tools, success stories, services, books.... you name it. To some people, it seems that DevOps is about Continuous Delivery. But is this really the case? How come CD is such a prominent term? and what is it really about?
+
+This talk will give a radically different viewpoint of CD; By contrasting deployments with other production processes we can gain an insight on often overlooked aspects of deployments and Production Ops: culture, architecture, monitoring and control.
+
+**Speaker:**
+
+Avishai Ish-Shalom is an Ops/IT consultant working for Fewbytes - an Israel based consultancy firm.
+
+Avishai Ish-Shalom
+http://www.fewbytes.com/
