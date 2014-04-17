@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_pitt
+author: Todd Underwood 
+title: "Reliability Engineering: A Tale of Software and Fragility"
+---
+
+**Abstract:**
+
+Now it is time to take advantage of the inherent malleability of software. Reliability Engineering is the opportunity to end toil, to stop feeding the machine with human blood (and time and effort).
+
+**Speaker:**
+Todd Underwood
+
+Site Reliability Director
+Google Pittsburgh
