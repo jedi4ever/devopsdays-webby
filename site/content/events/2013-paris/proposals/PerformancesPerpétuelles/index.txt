@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Henri Tremblay / Mikael Robert
+title: "Performances perpétuelles : Mesures et améliorations continues des performances"
+platinum: true
+---
+
+**Résumé :**
+
+Comment ça s'est passé:
+
+*   Vous avez lancé un projet de site internet. L'architecture est magnifique. Vous vous lancez dans un an de développement. Mise en production avant Noël! Approche itérative. De courtes itérations. Une roadmap claire vous promettant un time-to-market optimal.
+*   Un mois avant la production, confiant, vous faites des tests de charge. Catastrophe. En développement, c'était raisonnablement rapide et ça ne vous a pas inquiété. Vous vous êtes dit que la puissance des machines de production va régler tout ça. Erreur! Dans l'urgence, le week-end, pendant des vacances de Noël écourtées, vous corrigez le tir. Bilan: trois mois de retard, 40% de dépassement de budget, performances acceptables. Votre prime de fin d'année, un peu moins.
+
+Comment ça aurait pu se passer:
+
+*   Vous avez lancé un projet de site internet. Dès le début, vous mettez en place des tests de performance automatisés pour corriger le tir sur votre architecture originelle. Elle vous semblait parfaite mais était finalement très perfectible comme l'ont démontré les tests - runs après runs, améliorations après améliorations.
+*   La mise en production se passe, évidemment, sans problèmes et dans les temps. Les utilisateurs, séduits par les temps de réponse, prolongent leur présence sur le site. Il ne vous reste plus qu'à prendre quelques vacances pour Noël. Il paraît que Tahiti c'est bien en cette saison.
+
+Sceptiques? Alors venez.
+
+**Orateurs :**
+
+*Henri Tremblay, OCTO Technology*
+
+Henri Tremblay a étudié les sciences de l'informatique avec un penchant avoué pour l'algorithmie et les mathématiques. Il s'est ensuite épanoui depuis bientôt 14 ans en concevant des logiciels, souvent financiers, en Java. Plus que tout, il aime résoudre des problèmes complexes et l'informatique s'avère en être particulièrement bien nanti. 
+
+Ses centres d'intérêt sont l'optimisation et la productivité. Ceux-ci étant parfois plus liés qu'on ne pourrait le penser. Il est maintenant architecte senior et responsable de la recherche et développement traitant de la performance et du calcul parallèle chez OCTO Technology.
+
+Très impliqué dans le monde de l'Open Source, il remplit le rôle de project leader au sein des projets open source EasyMock et Objenesis.
+
+*Mikael Robert, OCTO Technology*
+
+Mikael Robert est Architecte technique chez OCTO Technology qu'il a intégré il y a 3 ans. Il apporte une double expertise: Java et les infrastructures. Ses compétences le prédispose donc directement à travailler sur les problématiques de performance et sur les chantiers devops. 
+
+Il est l'un des deux gérants de l'infrastructure d'OCTO et le responsable d'un chantier de R&D orienté Devops: Software Factory 2.0. 
+
+Il a réalisé de nombreuses missions d'optimisations des performances, dans divers secteurs dont la banque et l'assurance.
