@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+layout: event
+title: propose
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+<center>
+  <img src="margritte.jpg"><hr>
+<h3>Don't take anything for granted</h3>
+</center>
+<hr>
+
+<table width='100%'><tr>
+  <td style="text-align: center">
+      <a href="mailto:organizers-belgium-2014@devopsdays.org?suggest a topic for Devopsdays Belgium">Suggest a topic/speaker</a>
+</td>
+  <td style="text-align: center">
+      <a href="mailto:organizers-belgium-2014@devopsdays.org?Submit a talk for Devopsdays Belgium">Suggest a topic/speaker</a>
+</td>
+  <td style="text-align: center">
+      <a href="mailto:organizers-belgium-2014@devopsdays.org?Submit an ignite for Devopsdays Belgium">Suggest a topic/speaker</a>
+ </td>
+  <td style="text-align: center">
+      <a href="/pages/openspace-format">Open Spaces</a>
+ </td></tr></table>
+ <hr>
+
+ Over the five years, we've come a long way: we get a lot of submissions that refinements and/or testimonials of the traditional devops topics: infrastructure as code, kanban, large enterprise, continuous delivery ... Obviously we value these topics very much. But, this would not be the anniversary edition, if we want to give this a new twist: we want you to expand yours and other people's minds by suggesting speakers/topics are not traditionally suggested. We especially welcome suggestions with relation to other scientific fields. 
+ 
+ 
+In short **blow our brains aways** by suggesting something radically new.
+
+Besides the suggest a speaker/topic we also have the traditional ways to propose a session:
+<ol>
+  <li><strong><em>A proposal for a talk/panel</em></strong> during the conference part : these are 30 minute slots that will have all people's full attention as everybody will be in that one room.</li>
+  <li><strong><em>An Ignite talk</em></strong> that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>: these are 5 minutes slots with slides changing every 15 seconds (20 slides total) also presented to all attendees in one room</li>
+  <li><strong><em>Openspace session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during the openspace opening. Check the <a href="/pages/open-space-format">openspace format</a> for more information
+</ol>
+
+<h3>Suggest a speaker, topic</h3>
+Common, don't be shy. We know you've always wanted a person to give his on view on a specific subject.
+Now's your change and we might make it happen.
+
+<div class="span-15 first last">
+<%= render(:partial => '/disqus_comments') %>
+</div>
