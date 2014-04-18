@@ -9,16 +9,13 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-The planning of the **<%= render(:partial => "/#{@eventhome}/_title") %>** event is currently in progress.
+The **<%= render(:partial => "/#{@eventhome}/_title") %>** event was successfully convened
+on **<%= render(:partial => "/#{@eventhome}/_event_date") -%>**
+at **<%= render(:partial => "/#{@eventhome}/_event_location") -%>**.
 
-So far we have:
+***
 
-- Target date: **<%= render(:partial => "/#{@eventhome}/_event_date") -%>**
-- location: **<%= render(:partial => "/#{@eventhome}/_event_location") -%>**
-- [Sponsorship Package](sponsor) announced! ** limited packages left **
-- [Call For Proposal](propose) is now ** Closed! ** as of **<%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>**
-- **[Read/comment Proposals](proposals)** sent to us till now [here](proposals).
-- **[Few Seats](registration)** are left for Registration of event. **[Hurry!](registration) [Register Here.](registration)**
+** The [videos and slides](presentation) have been uploaded; please view them and spread the word! **
 
 ***
 
