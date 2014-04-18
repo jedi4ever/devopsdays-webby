@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event_pitt
 author: Nikolas Katsimpras
 title: "Harnessing The Power of Conflict - A Conflict Resolution perspective of the social psychology underpinnings of Devops"
