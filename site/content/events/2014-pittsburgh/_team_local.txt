@@ -1,3 +1,4 @@
 - Seth Vargo
 - Roy Liu
 - Daniel Buch
+- Colin Dean
