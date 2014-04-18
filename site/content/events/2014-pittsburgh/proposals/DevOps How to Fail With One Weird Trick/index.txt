@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event_pitt
 author: Pete Cheslock 
 title: "DevOps: How to Fail With One Weird Trick"

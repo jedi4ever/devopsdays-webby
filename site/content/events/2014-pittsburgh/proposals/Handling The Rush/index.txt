@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event_pitt
 author: Brian Nuszkowski 
 title: "Handling The Rush"

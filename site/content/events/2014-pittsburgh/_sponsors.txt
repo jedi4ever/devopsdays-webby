@@ -17,6 +17,7 @@ end
 { :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
 { :image => "xebialabs.png", :name => "Xebia Labs", :link => "http://www.xebialabs.com/"},
 { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/"},
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -28,6 +29,7 @@ end
 { :image => "digitalocean.png", :name => "Digital Ocean", :link => "http://www.digitalocean.com/"},
 { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
+{ :image => "jfrog.png", :name => "JFrog", :link => "http://www.jfrog.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -38,6 +40,7 @@ end
 <% @gsponsors = [
 { :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
 { :image => "quickleft.png", :name => "Quick Left", :link => "http://www.quickleft.com/"},
+{ :image => "joyent.png", :name => "Joyent", :link => "http://www.joyent.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
