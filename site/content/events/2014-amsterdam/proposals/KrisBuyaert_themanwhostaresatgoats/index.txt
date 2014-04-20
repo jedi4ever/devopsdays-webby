@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Kris Buytaert	
+title: "The men who stare at goats"
+---
+
+**Abstract:**
+
+Be the goat,  take the lead,  but what if people just sit there and stare at you ? , Can they kill goats by just looking at them ?
+
+**Speaker:**
+
+lmgtfy.com/?q=Kris+Buytaert
