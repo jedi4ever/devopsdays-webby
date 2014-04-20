@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alessandro Vozza
+title: "Continuous Delivery in the Openstack Project"
+---
+
+**Abstract:**
+
+The Openstack project is arguably the largest open source project in size and number of contributors. 2MLOC contributed by 2000+ coders scattered around the world and timezones, dozens of sub projects and integrations with multiple vendors, 6-months release cycle, 200 commits/day, open and collaborative infrastructure-as-code: 1 (ONE) release manager. Openstack is not only revolutionising the open source cloud world, but also redefining the way massive collaboration efforts are undertaken. This talk will illustrate how the Openstack community can pull this off using commonly available  open source tools, a tight organisation and the collaborative effort of the community. Hopefully, attendees will learn the state-of-the-art in collaborative development (both practises and tools) and will be inspired but the impressive feat of collaboration to translate that very lesson into their daily practises. And perhaps, sparkle more interest in Openstack!
+
+The talk can stretch the full 30 minutes of a slot, but can be condensed in the ignite 5-minute format (focusing on the tooling and their interactions). A version of the talk/ignite can be adapted for the workshop format of day 1 and/or openspace format, with the goal of preparing and submitting a real patch to one of the Openstack project within few hours, using and understanding the community tools. 
+
+**Speaker:**
+
+Openstack evangelist for Red Hat, community organiser, full time geek. I love (goat)cheese.
+
