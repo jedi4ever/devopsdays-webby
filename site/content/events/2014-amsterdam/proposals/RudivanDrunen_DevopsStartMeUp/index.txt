@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Rudi van Drunen, Arian Jacobs
+title: "DevOps: Start me up"
+---
+
+**Abstract:**
+
+The challenge we were facing about 1.5 years ago was how to transform a consultancy company into a product company. Where the main focus of Oelan was on test and integration consultancy the plan is to grow into a company that combines product development and operations with consultancy (on the products) in a short period of time.
+The basic idea was to embrace and strengthen the skills that Oelan was using in consultancy and add skills to enable product development and service operations. This meant that the agile way of working (in business agility) the transparency and trust had to be preserved while adding an operational and product development mentality. All this combined we started implementing it all the DevOps way.
+In this presentation we discuss the experience of a year of fun, hard working, creating teams, moving from “It’s done when it runs on my laptop” to an integrated setup. We have used continuous integration tools from the start to create an environment where automatic deployment is standard, testing and monitoring is key and solving problems using teamwork is in our DNA.
+The current environment has been growing organically, in a “Grow with the flow” fashion. During this year we have moved from a simple one laptop system for a single product to a cloud based building and deployment environment for a number of web-based applications that are in various stages of maturity.
+In the process of setting up the teams, the tools and the technical infrastructure we learned a lot: social, operational and technical. This presentation gives insight in this process, the tools and infrastructure used and the steps we will take to move further into product development and operations.
+
+**Speaker:**
+
+Rudi van Drunen is technical product manager at Oelan. He is putting his experience in the (UNIX) systems and infrastructure world to work building a product development department.
+Arian Jacobs is consultant at Oelan. She is specialized building agile teams and getting new ways of working implemented in multidisciplinary teams.
