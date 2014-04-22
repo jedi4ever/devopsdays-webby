@@ -28,7 +28,8 @@ filter:    erb
         { :image => "sdl.png", :name => "SDL", :link => "http://www.sdl.com/nl/"},
         { :image => "pine.png", :name => "Pine Digital Security", :link => "https://www.pine.nl/"},
         { :image => "nexenta.png", :name => "Nexenta", :link => "http://www.nexenta.com/corp/"},
-	{ :image => "nhr.png", :name => "Network Hardware Resale", :link => "http://www.networkhardware.com/"}
+	{ :image => "nhr.png", :name => "Network Hardware Resale", :link => "http://www.networkhardware.com/"},
+	{ :image => "cloudstack.png", :name => "Apache CloudStack", :link => "http://cloudstack.apache.org/}
 
 ]%>
 

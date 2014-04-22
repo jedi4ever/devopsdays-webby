@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tim Mackey
+title: "Avoiding the 1000 Euro VM in your first cloud"
+---
+
+**Abstract:**
+
+Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+
+Key topics covered include:
+
+- Successful transition of operational and management paradigm
+- How the VM density of clouds change Ops
+- What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+- Preventing storage costs from outpacing the capacity of the cloud
+
+The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+
+**Speaker:**
+
+Tim Mackey is a corporate evangelist for XenServer and CloudPlatform within the Citrix Cloud Platforms Group and focused on server virtualization and cloud orchestration technical competencies. He joined Citrix through the Reflectent acquisition in 2006, and served as architect and developer for Citrix EdgeSight; an end user experience performance monitoring solution. In 2007, Mr. Mackey became technical product manager for the EdgeSight product line and then in 2009 product manager for the Citrix Essentials self-service virtualization components. Prior to Citrix, Mr. Mackey was an architect and developer at EventZero, and helped to design the first self check-out systems for retailers at Optimal Robotics.
