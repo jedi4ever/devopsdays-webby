@@ -29,8 +29,9 @@ filter:    erb
         { :image => "pine.png", :name => "Pine Digital Security", :link => "https://www.pine.nl/"},
         { :image => "nexenta.png", :name => "Nexenta", :link => "http://www.nexenta.com/corp/"},
 	{ :image => "nhr.png", :name => "Network Hardware Resale", :link => "http://www.networkhardware.com/"},
-	{ :image => "cloudstack.png", :name => "Apache CloudStack", :link => "http://cloudstack.apache.org/"}
-
+	{ :image => "cloudstack.png", :name => "Apache CloudStack", :link => "http://cloudstack.apache.org/"},
+        { :image => "inuits.png", :name => "Inuits.nl", :link => "http://www.inuits.nl/"},
+        { :image => "itq.png", :name => "itq", :link => "http://www.itq.nl/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
