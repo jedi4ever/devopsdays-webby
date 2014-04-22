@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Neil Garnichaud
+title: "What exactly is DevOps?"
+---
+
+**Abstract:**
+
+Many organizations are challenged with the rise of cloud-based web applications that allow for quick-fire releases in response to issues or requests from the user community. Responsiveness is the goal of every software development organization but it puts a strain on functional teams, typically resulting in more defects and disruption. DevOps develops a partnership between Development and Operations, supporting operational requirements like deploy scripts, diagnostics, load and performance testing. The operations team provides support and feedback before, during and after deployment. Attendees learn how this partnership enables better responsiveness to issues and requests and how DevOps delivers value and TCO.
+
+**Speaker:**
+
+Neil specializes in managing information services functions including product development strategies and roadmaps, software development, visual design, quality assurance, internal IT, network operations and client integrations. He is VP/General Manager at SmartBear in Coconut Creek, Florida. He has held various positions as Chief Technology Officer at companies that include Digital Mediums and PCLender.com. To see Neil presenting, visit: http://youtu.be/Fo5xhT7pWY8.
