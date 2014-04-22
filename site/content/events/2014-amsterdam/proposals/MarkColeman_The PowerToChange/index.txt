@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mark Coleman
+title: "The Power to Change"
+---
+
+**Abstract:**
+
+Within DEVOPS we often hear about Culture. CAMS, Culture, Culture, Culture, but what exactly is culture? Described as "the most difficult word to define in the English language", culture can be a slippery topic.
+
+Anyone looking to understand culture in order to change behaviour will quickly find themselves facing a challenge; am I talking about company culture? Departmental culture? Team culture? I will argue that all cultural changes begin with one individual influencing another.
+
+Whilst seemingly obvious, this is a powerful realization. By first understanding how to influence an individual's behaviour, we can start to build a graspable model of organizational change which can be used by anybody looking to change those around them; Perhaps you'd like your team mates to try out new technologies? You'd like members of a team you manage to share knowledge between themselves more often? You'd like your boss to be less conservative in his decision making? You'd like everyone in a department you manage to do things differently?
+
+Terms like 'power' and 'subordination' are unpopular these days due to their hierarchical undertones. I will show that all changes in culture rely on the successful usage of various types of power and that if the traditional hierarchies in your company have gone, other perhaps invisible power structures will already have taken root.
+
+Understanding this is the key to changing behavior, and through doing so, changing culture.
+
+**Speaker:**
+
+Mark Coleman

@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pini Reznik
+title: "The future of the VMs, the Centralised Orchestration and DevOps in the world of Microservices"
+---
+
+**Abstract:**
+
+Microservices seems to be one of the most important coming architectural shifts in the Software Development, but is the current way we manage infrastructure able to support this new way of building software?
+In this talk I will argue, based on the research done on the Complex Adaptive Systems and Emergent Behaviour, that VMs and centralised Orchestration reached their physical limits and will soon will be replaced with Containers able to deliver performance comparable to the smaller parts of the Microservices based systems. This talk will also lead to the inevitable conclusion that our future software systems will need to be decentralised to be able to address the next big challenge - the separation of the software between multiple physical locations and multiple clouds and cloud providers.
+The last piece of the puzzle is the Organisational Structure to support the changes above. In this talk I will compare the DevOps idea to the similar structural changes which happened in the past in other areas of Software Development, for example - Software Testing.
+
+**Speaker:**
+
+Pini Reznik is a Configuration Management consultant at Ugly Duckling in Amsterdam, Netherlands. He has more than 15 years of experience in Software Development, Configuration Management and IT Operations.
+Pini Reznik continuousdelivery.uglyduckling.nl

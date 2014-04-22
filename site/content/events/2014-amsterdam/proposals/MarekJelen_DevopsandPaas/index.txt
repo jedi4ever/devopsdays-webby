@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Marek Jelen
+title: "Devops and PaaS"
+---
+
+**Abstract:**
+
+Working as a PaaS advocate at Red Hat I often see (Dev)Ops people to be afraid of the concept. However the truth is completely opposite. It's about giving both of the crowds a solid tool to simplify their jobs. Before joining Red Hat I have implemented my own PaaS as a project for my master thesis, while I was working as a DevOps, before I had a long history as an engineer in several different programming languages. I have seen both sides of the world and had lived them personally. In my presentation I would love to show you that PaaS is not going to force (Dev)Ops out, but will provide them with a great tool the engineers will love.
+
+**Speaker:**
+
+Marek Jelen, PaaS advocate @ Red Hat, Ruby engineer, consultant and university lecturer

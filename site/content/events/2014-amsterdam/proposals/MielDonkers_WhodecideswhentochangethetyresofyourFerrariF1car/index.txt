@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Niels Talens and Miel Donkers
+title: "Who decides when to change the tyres of your Ferrari F1 car?"
+---
+
+**Abstract:**
+
+You could see DevOps as expanding the mindset, toolset and processes which started with Agile. Where Agile focuses on creating maximum business value as soon as possible, DevOps can help you to actually deliver this working software quickly. Finally a Minimal Viable Product makes real sense.
+
+But just as we found out time after time with agile adoption projects, the gap between business and IT is often a bottleneck and not an easy one to resolve. With DevOps this often becomes an even bigger bottleneck since it is more technical. A feature is something the business partners can understand but the time needed for upgrades is often harder to explain.
+
+DevOps is not just a matter of integrating Ops work into Scrum. It is important to clearly define and plan the input. In this talk we would like to focus on questions like; How are we going ...
+
+- to help the business with this changed reality?
+
+- to be able to cope with unplanned work (like incidents) while retaining a sustainable pace?
+
+- to show the benefits of DevOps to the business on short term?
+
+- to make sure that all important work is going to be planned on time?
+
+- to make sure features aren’t always are prioritized above quality and security?
+
+**Speaker:**
+
+Niels Talens is an agile consultant @codecentric. He has experience with setting up and coaching DevOps teams and departments within a variety of companies. He enjoys coaching teams but also has a lot of affinity with technique.
+
+Miel Donkers is a software craftsman @codecentric. He is experienced in web and Java application development but interested also in the broader picture of getting stuff into production. Miel likes to work from within the DevOps teams to make the delivery of features more efficient.
+
