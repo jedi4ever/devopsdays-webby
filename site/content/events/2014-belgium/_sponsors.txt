@@ -26,6 +26,7 @@ Don't hesitate to see our sponsor options. You won't regret it , and the communi
 <% end %>
 
 <% @ssponsors = [
+  { :image => "inuits.png", :name => "Inuits", :link => "http://www.inuits.be/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
