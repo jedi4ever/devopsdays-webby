@@ -50,6 +50,7 @@ end
 <% @msponsors = [
 { :image => "ptc.png", :name => "Pittsburgh Technology Council", :link => "http://www.pghtech.org/"},
 { :image => "revv.png", :name => "Revv Oakland", :link => "http://www.revvoakland.com/"},
+{ :image => "rustbuilt.png", :name => "RUSTBUILT", :link => "http://www.rustbuilt.com/"},
 ]%>
 <%= make_sponsor_links(@msponsors) %>
 
