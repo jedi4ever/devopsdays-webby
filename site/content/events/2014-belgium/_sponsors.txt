@@ -1,23 +1,12 @@
 ---
 filter:    erb
 ---
-<%
-def make_sponsor_links(sponsors)
-  sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
-  end.join("\n")
-end
-%>
 
 <% @gsponsors = [
+  { :image => "openminds.png", :name => "Openminds", :link => "http://www.openminds.be/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
-<center>
-<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'><h3>Sponsors - we need your support</h3></a>
-We can't make this event happen without sponsors. If you have contacts, have the budget , or are looking for an amazing ride?
-Don't hesitate to see our sponsor options. You won't regret it , and the community will be gratefull for ever.
-</center>
 
 <% end %>
 
@@ -49,3 +38,9 @@ Don't hesitate to see our sponsor options. You won't regret it , and the communi
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
+
+<center>
+<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'><h3>Sponsors - we need your support</h3></a>
+We can't make this event happen without sponsors. If you have contacts, have the budget , or are looking for an amazing ride?
+Don't hesitate to see our sponsor options. You won't regret it , and the community will be gratefull for ever.
+</center>
