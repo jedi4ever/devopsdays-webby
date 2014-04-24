@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 2
+title: "DevOps Tales: A Journey through Swamps of Sadness"
+---
+
+**Abstract:**
+
+This talk is a corollary around DevOps that includes analogical references to movies like 'The NeverEnding Story', ' Raiders of the Lost Ark', and 'Empire Strikes Back'. This presentation roots back to days long ago, when things were done that are similar to current DevOps philosophies, challenges that non-'DevOps' engineers/sysadms/technologists can expect (and those are all ok!), and ideas to ponder from Yoda.
+
+**Speaker:**
+Speaker 2
+
