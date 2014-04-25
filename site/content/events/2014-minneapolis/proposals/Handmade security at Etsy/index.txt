@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 4
+title: "Handmade security at Etsy"
+---
+
+**Abstract:**
+
+The landscape of security is very different to when we were younger. What possible directions is it heading in, and have we been looking at it wrong all this time?                       
+                                        
+Devops culture has brought a number of improvements to the way engineering and operations interact with each other and it's time security comes along for the party too! This talk will discuss what we, at Etsy, have done to make people stop thinking of security as a four-letter word.  
+
+          
+**Speaker:**
+Speaker 4
+

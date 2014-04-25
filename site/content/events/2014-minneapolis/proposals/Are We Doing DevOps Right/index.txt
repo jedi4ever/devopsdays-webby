@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 3
+title: "Are We Doing DevOps Right?"
+---
+
+**Abstract**
+
+How do we know if we're doing DevOps right? Is there a checklist of tools we should deploy, meetings we should schedule, org charts we should implement? DevOps first and foremost involves cultural transformation. But what does that really mean? How do we know if we have a healthy DevOps culture? How does cultural transformation relate to and guide tools and practices? Ultimately, DevOps is about empathy between Dev, QA, and Ops, between IT and the rest of the business, and between the business and its customers. This session will discuss empathy as the essence of DevOps. It will talk about what that means and how we can put it into practice as IT professionals. 
+
+                    
+**Speaker:**
+Speaker 3
+

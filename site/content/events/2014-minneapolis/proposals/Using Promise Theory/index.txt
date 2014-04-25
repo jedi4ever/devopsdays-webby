@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 3
+title: "Using Promise Theory to Improve Digital Service Quality"
+---
+
+**Description:**
+
+Promise Theory is a formal model for describing complex distributed systems. It can also be used to describe socio-technical systems such as DevOps or even entire digital service organizations. This session will demonstrate Promise Theory's ability to improve service quality by helping us increase empathy and better understand certainty and uncertainty in the systems we manage.  
+
+**Abstract:**
+
+Promise Theory is a powerful formal model conceived by Mark Burgess to describe the relationships that drive complex distributed systems. It forms the conceptual basis for CFEngine; it can also, though, be used to describe socio-technical systems such as DevOps or even entire digital service organizations. Promise Theory offers a language for thinking about service relationships within and between systems, people, and organizations. This language can help us improve service quality by increasing empathy between organizations and people, and by better understanding the relationships between continuity and discontinuity in the systems we manage.             
+
+This session will introduce Promise Theory as a methodology that can help us deliver continuous service quality in environments characterized by complexity, uncertainty, and change. The session will start with a brief introduction to the topic. The introduction will focus on explaining what Promise Theory is and how it works, without delving into the underlying mathematical formalisms. The session will then present specific DevOps and digital service scenarios. It will explain how these scenarios can benefit from Promise Theory, and provide concrete examples that illustrate the power of Promise Theory in action. 
+
+                    
+**Speaker:**
+Speaker 3
+
