@@ -9,9 +9,8 @@ def make_sponsor_links(sponsors)
 end
 %>
 
-#<% @gsponsors = [
-#{ :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"}
-#]%>
+<% @gsponsors = [
+]%>
 
 <% if @gsponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
@@ -41,6 +40,6 @@ end
 <br/>
 <h1>Host sponsor</h1>
 <% @hsponsors = [
-{ :image => "", :name => "Microsoft", :link => "http://www.microsoft.com"},
+{ :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com"},
 ]%>
 <%= make_sponsor_links(@hsponsors) %>
