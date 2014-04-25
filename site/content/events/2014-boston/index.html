@@ -1,0 +1,38 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+        <center>
+        <img border=0 src="boston.jpg">
+</td><td valign=top>
+<strong>DevOpsDays is coming to Boston </strong>
+<br><br>
+Dates: August 18-19, 2014
+<br><br>
+Location: <a href="./location">Cambridge, NERD Center</a>
+<br><br>
+
+<a href="./registration">Register now</a>! The attendee rate is lowest through TBD.
+<br><br>
+
+<a href="./propose">Call For Proposals</a> is open until <strong>TBD, 2014</strong>.
+<br><br>
+
+<a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.
+<br><br>
+
+<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
+<br><br>
+</td>
+</tr>
+</table>
+</center>
+<hr>

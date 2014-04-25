@@ -1,0 +1,2 @@
+#organizers-boston-2014@devopsdays.org
+jmeickle@appneta.com
