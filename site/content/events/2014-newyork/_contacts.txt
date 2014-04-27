@@ -1,0 +1,11 @@
+---
+filter:    erb
+---
+<% @local_contacts = [
+{ :name => "Dave Zwieback", :phone => "+1 (646) 789-5008"},
+{ :name => "Mike Rembetsy", :phone => "+1 (765) 387-9032"}
+]%>
+
+<% @local_contacts.each do |local_contact| %>
+<%= local_contact[:name] %> : <%= local_contact[:phone] %> 
+<% end %>
