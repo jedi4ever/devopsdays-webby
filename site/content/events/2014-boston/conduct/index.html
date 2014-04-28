@@ -6,14 +6,15 @@ filter:
 dirty:      true
 layout: event
 ---
-
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 Please read the anti-harassment policy and code of conduct following the important contact information:
 
-* Email address for organizers: organizers-boston-2014@devopsdays.org
+* Email address for organizers: <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>"><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+* Phone number for organizers: (860) 573-4976
 * Local law enforcement: City of Boston Police - call 911
 * Sexual assault hotlines: Rape and Sexual Abuse Center (800) 841-8371
 * Medical Emergency: Call 911
-* Local taxi companies:  ; 
+* Local taxi companies: Metro Cab of Boston (617) 782-5500
 
 ##ANTI-HARASSMENT POLICY
 

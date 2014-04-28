@@ -11,8 +11,8 @@ dirty: true
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals is open until the 23rd of May.</b><br>
-Selected proposals will be announced on the 6th of June.
+<b>Call for proposals is open from <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %> until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
+Selected proposals will be announced later that month.
 </center>
 
 <hr>
@@ -51,7 +51,7 @@ Our main criteria to make it to the top selection are:
 <strong>How to submit a proposal:</strong> Send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>] with the following information
 <ol>
 	<li>Proposal working title (can be changed later)</li>
-	<li>Type (presentation, panel discussion, moderated general discussion, debate, etc.,ignite)</li>
+	<li>Type (presentation, panel discussion, moderated general discussion, debate, ignite, etc.)</li>
 	<li>Description or abstract</li>
 </ol>
 <strong>Rules:</strong>
