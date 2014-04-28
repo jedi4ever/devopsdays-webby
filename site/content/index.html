@@ -216,6 +216,20 @@ labelStyle: {opacity: 1}
 
 google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="#"});
 
+bostonlocation = new google.maps.LatLng(42.361316,-71.081309);
+
+var bostonmarker = new MarkerWithLabel({
+position: bostonlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Boston<br>Aug 18 & 19",
+labelAnchor: new google.maps.Point(20, 50),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="events/2014-boston"});
 
 
 }

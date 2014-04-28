@@ -1,2 +1,1 @@
-#organizers-boston-2014@devopsdays.org
-jmeickle@appneta.com
+organizers-boston-2014@devopsdays.org
