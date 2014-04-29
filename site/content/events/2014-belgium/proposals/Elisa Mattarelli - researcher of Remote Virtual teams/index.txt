@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: false
+suggestion: true
+selected: true
+layout: event
+author: Brice Figureau
+title: "Elisa Mattarelli - researcher of Remote Virtual Teams"
+---
+Elisa Mattarelli <http://www.old-dismi.unimore.it/index.php?q=en/mattarelli>
+
+She's doing a lot of research on virtual/offshore teams (or remote teams as we call it in our field), and knowledge-sharing on virtual/remote teams. 
+
+Tow interesting papers she wrote or contributed:
+<https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1011561> and <http://www.palgrave-journals.com/ejis/journal/v22/n1/abs/ejis201134a.html>
+
+One of her colleague, Fabiola Bertolloti is also doing a lots of research on the same field:
+<http://personale.unimore.it/rubrica/pubblicazioni/fbertolotti>

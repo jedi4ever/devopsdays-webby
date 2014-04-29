@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: false
+suggestion: true
+selected: true
+layout: event
+author: Brice Figureau
+title: "Martin Parker: Organizational Culture and Identity: Unity and Division at Work"
+---
+Martin Parker: Organizational Culture and Identity: Unity and Division at Work
+<http://www.amazon.com/Organizational-Culture-Identity-Unity-Division/dp/0761952438>

@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: false
+suggestion: true
+selected: true
+layout: event
+author: Brice Figureau
+title: "Ken Baskin - Author of Corporate DNA"
+---
+Ken Baskin: <http://www.amazon.com/Corporate-DNA-Ken-Baskin-ebook/dp/B009E1N9Z4>
+
+He wrote a book about how organizations should follow an organic model instead of a mechanical process based model. While I didn't read the book, only some extracts, it looks like he knows a deal about how changing a company culture.
