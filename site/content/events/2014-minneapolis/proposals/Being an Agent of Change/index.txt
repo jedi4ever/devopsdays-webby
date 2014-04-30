@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 5
+title: "Being an Agent of Change - a One-Year Retrospective"
+---
+
+**Abstract:**
+
+Take one DevOps Enthusiast, add him to an established company to help drive culture shift, and see what happens in a year.                                  
+                                                                                
+Originally hired as "Sr. Ops. Engineer" to a break-out team, but the executives intend "a larger role" in shifting the culture and driving adoption of a DevOps mindset and building a Continuous Delivery Pipeline. Oh, and help migrate from Java-on-Windows to Linux.                            
+                                                                                
+This will be a story (as yet incomplete), and will include some points of what has worked, missteps, (probably) cursing, and a lot of love for a lot of new friends.
+
+**Speaker:**
+Speaker 5
+
