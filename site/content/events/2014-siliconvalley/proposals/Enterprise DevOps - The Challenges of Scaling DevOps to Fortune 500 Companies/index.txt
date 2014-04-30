@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author:  Darrell Schrag
+title: "Enterprise DevOps - The Challenges of Scaling DevOps to Fortune 500 Companies "
+email: drschrag@us.ibm.com
+---
+
+**Abstract:**
+
+Implementing DevOps principles is challenging enough on its own.  But
+large IT enterprises bring a unique set of challenges and roadblocks
+that make implementing DevOps principles even more difficult.  This
+presentation will discuss those challenges that are prominent in large
+IT enterprises and discuss some solutions.
+
+At IBM, we often encounter Fortune 500-sized customers that want to
+realize the perceived benefits of DevOps principles yet have many
+obstacles to overcome that they frankly do not anticipate. And many of
+these challenges are not technical in nature but fall into the
+organizational or regulatory categories. A few case studies will help
+illustrate these approaches.
+
+**Speaker:**
+
+Darrell Schrag is a software development lifecycle consultant with
+IBM.  Darrell has spent his 25 years of software development in
+numerous industries including DoD/Aerospace and Finance.  For the past
+18 years, Darrell has been with Rational Software and subsequently IBM
+Rational Software helping clients improve their software development
+practices.
+
+Darrell currently is part of the IBM Rational Emerging Technologies
+team focusing on all things DevOps. He spends his time helping IBM
+clients get measurable value from adopting DevOps tools and practices.
+
+Darrell is a Computer Engineering graduate of the University of
+Michigan. He lives in the greater Chicago area with his wife and two
+daughters.

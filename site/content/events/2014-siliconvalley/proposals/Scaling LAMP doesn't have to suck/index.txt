@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Steve Corona
+title: "Scaling LAMP doesn't have to suck"
+email: thestevecorona@gmail.com
+---
+
+**Abstract:**
+
+I spent 4 years learning how to scale as the CTO of Twitpic. This talk
+is focused on the dirty underbelly of scaling and the Devops that
+makes it all work.
+
+**Speaker:**
+
+CTO of Twitpic
