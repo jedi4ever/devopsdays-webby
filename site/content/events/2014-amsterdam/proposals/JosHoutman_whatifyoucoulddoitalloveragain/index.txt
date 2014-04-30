@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jos Houtman, Guido Bakker and Niels vd Wall
+title: "What would you do if you could do it all over without getting fired"
+---
+
+**Abstract:**
+At bol.com we have been working very hard last 2 years on redoing the way we run our web operations. The fifth of April this year we successfully switched all customers to our new datacenters. During this presentation we would like to share what happened under the hood. How we have been inspired by the community. How we dealt with bad choices and wrongly made assumptions. Furthermore how to get the best out of ‘freshly’ made decisions and limitations encountered. Luckily there’s also a bunch of success we can share and some principles we took onboard. Finally we would like to give you a preview of what’s next. This talk will explore both technical and team topics.
+
+**Speaker:**
+
+os Houtman - Engineer @bol.com
+
+Guido Bakker - Engineer @bol.com
+
+Niels van de Wall – Overhead @bol.com
