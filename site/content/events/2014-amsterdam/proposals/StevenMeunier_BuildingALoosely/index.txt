@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Steven Meunier
+title: "Building a Loosely Coupled Toolchain with Rundeck and Puppet"
+---
+
+**Abstract:**
+Inspired by the talk "Using Rundeck and Chef to build DevOps Toolchains"
+given by Anthony Shortland during ChefConf 2012
+(http://dev2ops.org/2012/05/using-rundeck-and-chef-to-build-devops-toolchains-at-chefcon/)
+we set out to include Rundeck as part of a loosely coupled toolchain
+when building the new datacenter at Bol.com. This talk will explore how
+we took the ideas from Shortland's talk and implemented them in the
+context of Jenkins, Gerrit, Puppet and MCollective.
+
+I will share how we met the challenges of changing configuration with
+automatic deployments, needing an easy to use interface for
+non-technical users while retaining control and power for the techies.
+
+Due to the scope it will necessarily be a high-level overview but with
+just enough detail to demonstrate how all the pieces fit and work together.
+
+
+**Speaker:**
+
+Steven Meunier is a System Engineer at Bol.com where he has
+spent the last two years building the deployment toolchain while seeing
+how far he can push Puppet and gained an appreciation for Ruby in the
+process.
