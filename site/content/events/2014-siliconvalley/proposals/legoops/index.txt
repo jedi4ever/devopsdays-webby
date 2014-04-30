@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Jason Walker
+title: "LEGOOps"
+email: Jason.Walker@target.com
+---
+
+**Abstract:**
+
+“LEGOOps” ignite talk is a corollary to DevOps, including culture,
+tools, community. The presentation goes through why implementing
+automation on core services, establishing patterns, and leveraging
+‘service management’ are all good ideas when looking to implement
+DevOps within an existing company – especially an environment that
+includes legacy infra solutions and is competing with newer methods to
+deliver IT assets.
+
+**Speaker:**
+
+Jason Walker Infra Automation and Perf Engineering
+Target
