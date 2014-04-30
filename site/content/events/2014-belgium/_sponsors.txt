@@ -28,7 +28,8 @@ filter:    erb
 <% end %>
 
 <% @bsponsors = [
-  { :image => "combell.png", :name => "Combell", :link => "http://www.combell.be/"}
+  { :image => "combell.png", :name => "Combell", :link => "http://www.combell.be/"},
+  { :image => "skyscrapers.png", :name => "Skyscrapers", :link => "http://skyscrape.rs/"}
 ]%>
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 <% @bsponsors.each do |sponsor| %>
