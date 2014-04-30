@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bruce Wong
+title: "DevOps@WebScale a Case Study on DevOps at Netflix"
+email: bwong@netflix.com
+---
+
+**Abstract:**
+
+Panel Discusion:
+
+A comprehensive panel of individuals from Netflix ranging from
+developers, reliability engineers, managers, Directors, VPs. All
+levels of roles and our perspectives, lessons, and learnings.
+
+**Speaker:**
+
+Leader of Reliability Engineering at Netflix.
