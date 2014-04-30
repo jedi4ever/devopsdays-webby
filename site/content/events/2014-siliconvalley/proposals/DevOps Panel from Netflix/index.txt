@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Bruce Wong
-title: "DevOps@WebScale a Case Study on DevOps at Netflix"
+title: "DevOps Panel from Netflix"
 email: bwong@netflix.com
 ---
 
@@ -23,4 +23,10 @@ levels of roles and our perspectives, lessons, and learnings.
 
 **Speaker:**
 
-Leader of Reliability Engineering at Netflix.
+Bruce Wong is the leader of Reliability Engineering at Netflix.  Our
+claim to fame is Chaos Monkey and the Simian Army.  Bruce has held
+multiple roles at Netflix including DevOps Engineer focused on
+automation and tooling to assist and advocate devOps practices, to
+managing a team focused on playback reliability, to leading
+Reliability as a whole at Netflix.  Bruce's favorite Netflix Original
+is House of Cards.
