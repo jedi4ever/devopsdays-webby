@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Stephen de Vries
-title: "BContinuous Security Testing"
+title: "Continuous Security Testing"
 ---
 
 **Abstract:**
