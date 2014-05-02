@@ -58,36 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-
-var nairobilocation = new google.maps.LatLng(-1.2833, 36.8167);
-var nairobimarker = new MarkerWithLabel({
-    position: nairobilocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Nairobi<br>Mar 15, 2014",
-    labelAnchor: new google.maps.Point(30, 0),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(nairobimarker, "click", function (e) { location.href="/events/2014-nairobi"});
-
-var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
-
-var ljubljanamarker = new MarkerWithLabel({
-    position: ljubljanalocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Ljubljana<br>Apr 4-5, 2014",
-    labelAnchor: new google.maps.Point(30, 0),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2014-ljubljana"});
-
 amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
 
 var amsterdammarker = new MarkerWithLabel({
@@ -101,8 +71,6 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="#"});
-
-
 
 var siliconvalleylocation=new google.maps.LatLng(37.77493,-122.419415);
 var siliconvalleymarker = new MarkerWithLabel({
