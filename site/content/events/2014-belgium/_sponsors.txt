@@ -6,6 +6,7 @@ filter:    erb
   { :image => "openminds.png", :name => "Openminds", :link => "http://www.openminds.be/"},
   { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/devops"},
   { :image => "schubergphilis.png", :name => "Schuberg Philis", :link => "http://www.schubergphilis.com/"},
+  { :image => "normation.png", :name => "Normation", :link => "http://www.normation.com/"},
 ]%>
 
 
