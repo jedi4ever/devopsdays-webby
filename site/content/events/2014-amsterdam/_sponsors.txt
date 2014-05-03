@@ -8,7 +8,8 @@ filter:    erb
         { :image => "quanza.png", :name => "Quanza Engineering", :link => "http://www.quanza.net/"},
         { :image => "elasticsearch.png", :name => "ElasticSearch", :link => "http://www.elasticsearch.com/"},
         { :image => "bol.png", :name => "bol.com", :link => "http://www.bol.com/"},
-        { :image => "arista.png", :name => "Arista", :link => "http://www.aristanetworks.com/"}
+        { :image => "arista.png", :name => "Arista", :link => "http://www.aristanetworks.com/"},
+        { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
