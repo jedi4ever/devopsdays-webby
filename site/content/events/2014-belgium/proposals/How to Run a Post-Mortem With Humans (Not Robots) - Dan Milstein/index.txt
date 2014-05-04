@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: false
+suggestion: true
+selected: true
+layout: event
+author: Tim Brown
+title: "How to Run a Post-Mortem With Humans (Not Robots)"
+---
+Dan Milstein's Velocity talk "How to Run a Post-Mortem With Humans (Not Robots)" was great!
+
+<http://velocityconf.com/velocity2013/public/schedule/detail/28251>
