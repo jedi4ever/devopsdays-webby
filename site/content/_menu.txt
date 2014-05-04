@@ -1,5 +1,7 @@
 <div style="height:330px;" id="quicklinks">
 <table><tr><td>
+      <a href="/events/2014-ljubljana/">Ljubljana 2014</a><br/>
+      <a href="/events/2014-nairobi/">Nairobi 2014</a><br/>
       <a href="/events/2013-tokyo/">Tokyo 2013</a><br/>
       <a href="/events/2013-telaviv/">Tel Aviv 2013</a><br/>
       <a href="/events/2013-atlanta/">Atlanta 2013</a><br/>
@@ -34,5 +36,6 @@
       <a href="/events/2010-us/">Mountain View 2010</a><br>
       <a href="/events/2010-sydney/">Sydney 2010</a><br>
       <a href="/events/2009-ghent/">Ghent 2009</a>
+      <br/>
   </td></tr></table>
 </div>
