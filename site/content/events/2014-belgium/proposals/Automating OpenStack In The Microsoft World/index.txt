@@ -5,7 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: false
+talk: true
 ignite: false
 suggestion: false
 selected: false
