@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Don Schenk
+title: "Automating OpenStack In The Microsoft World"
+---
+OpenStack cloud computing is here to stay, and adoption is growing. There are plenty of tools, articles and presentations about automating OpenStack from the perspective of a Linux user, but what about shops that use Microsoft Windows?
+
+The OpenStack.NET SDK, a PowerShell client, even Chef and Ansible are (or will soon be) available as tools to help Windows System Engineers and Developers in their quest for automation. Native commands and tools will be presented, examples will be shown and demonstrated, and Windows users will leave with a knowledge of how to automate OpenStack in this packed, 30-minute presentation.
