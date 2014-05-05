@@ -124,7 +124,7 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="#"});
 
-brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
+var brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
 
 var brisbanemarker = new MarkerWithLabel({
 position: brisbanelocation,
@@ -132,12 +132,13 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Brisbane 2014<br>25 & 26 July 2014",
-labelAnchor: new google.maps.Point(-10, 20),
+labelAnchor: new google.maps.Point(0, 10),
 labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
+labelStyle: {opacity: 0.9}
 });
 
-google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="#"});
+google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="/events/2014-brisbane"});
+
 
 torontolocation = new google.maps.LatLng(43.7000, -79.4000);
 
