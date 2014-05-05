@@ -17,7 +17,7 @@ At bol.com we have been working very hard last 2 years on redoing the way we run
 
 **Speaker:**
 
-os Houtman - Engineer @bol.com
+Jos Houtman - Engineer @bol.com
 
 Guido Bakker - Engineer @bol.com
 
