@@ -4,27 +4,53 @@ layout: event
 filter:
 - erb
 - markdown
-title: welcome
+title: Welcome
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-** Dates:**<%= render(:partial => "/#{@eventhome}/_target_date") -%>** in **<%= render(:partial => "/#{@eventhome}/_target_location") -%>
 
-<center><img border=0 src="logos/downunder.gif" alt="Devops Days Brisbane"></center><br>
-Keynote
+<center><img border=0 src="logos/downunder.gif" alt="Devops Days Brisbane"></center>
 
-We are pleased to announce none other than <a href="http://sidneydekker.com/about-sidney/">Dr. Sidney Dekker</a> as our keynote speaker at DevOpsDays Brisbane 2014!
+<center>
+<table>
+	<tr><td></td></tr>
+    <tr><td><b>Date</b></td><td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td></tr>
+    <tr><td><b>Location</b></td><td><a href="location/">Brisbane Convention &amp; Exhibition Centre</a></td></tr>
+    <tr><td><b>Participants</b></td><td><b><a href="registration/">Register Now!</a></b></td></tr>
+    <tr><td><b>Speakers</b></td><td>Call for <a href="propose/">Proposals</a> is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>.</td></tr>
+    <tr><td><b>Program</b></td><td>We're pleased to announce <a href="program/">Dr. Sidney Dekker</a> as our keynote speaker!</td></tr>
+    <tr><td><b>Sponsorship</b></td><td><a href="sponsor/">Sponsorship details</a></td></tr>
+    <tr><td><b>Contact</b></td><td><a href="contact/">Get in touch with the organisers</a></td></tr>
+    <tr><td><b>Code of Conduct</b></td><td>Please review our <a href="conduct/">Code of Conduct</a>.</td></tr>
+</table>
+</center>
 
-Sidney is well-known internationally in many different industries due to his groundbreaking work on human error and safety. He is in high demand as a speaker on topics such as complex systems, human-machine interaction, system failure, and "just culture".  DevOpsDays attendees may be familiar with the "blameless post-mortem" concept which is based heavily on Sidney's body of work.
+<!--
+**Date**: <%= render(:partial => "/#{@eventhome}/_target_date") -%>
 
-He is author of several best-selling books including "Behind Human Error" (2010), "Drift into Failure" (2011), "Patient Safety" (2011), and "Just Culture (2nd Edition)" (2012).
+**Location**: <a href="location/">Brisbane Convention &amp; Exhibition Centre</a>
 
-Sidney currently serves as Professor in the School of Humanities at Griffith University in Brisbane, Australia where he has founded the "Safety Science Innovation Lab".
+**Participants: <a href="registration/">Register Now!</a>**
 
-Registrations open - <a href="https://www.eventbrite.com.au/e/devopsdays-brisbane-2014-tickets-11267197491">Get them</a> quick !
+**Speakers**: Call for <a href="proposals/">proposals</a> is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>.
 
-Get in touch with the organisers - <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email Organisers</a>
-<center><a href="https://twitter.com/devopsdownunder" class="twitter-follow-button" data-show-count="false">Follow @devopsdownunder</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></center>
+We're pleased to announce <a href="program/">Dr. Sidney Dekker</a> as our keynote speaker at DevOpsDays Brisbane 2014!
+
+**Sponsorship**: <a href="sponsor/">Sponsorship details</a>
+
+**Contact**: <a href="contact/">Get in touch with the organisers</a>
+-->
+<hr>
+
 p.s.  Winter in Brisbane...
+
 <img border="0" src="brisbane_winter.jpg">
+
+<hr>
+
+<center>
+	<a href="https://twitter.com/devopsdownunder" class="twitter-follow-button" data-show-count="false">Follow @devopsdownunder</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <br>
+    <a href="http://groups.google.com/group/devopsdays">Subscribe to the devopsdays mailing list</a>
+</center>
