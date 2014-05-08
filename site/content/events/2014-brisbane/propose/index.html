@@ -4,14 +4,14 @@ filter:
 - erb
 - markdown
 layout: event
-title: proposals
+title: Proposals
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
+<b>Call for proposals is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br><a href="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform">Submit a Proposal</a> now.
 </center>
 
 <hr>
