@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: 
+title: ""
+email:
+---
+
+**Abstract:**
+
+**Speaker:**
