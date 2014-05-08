@@ -36,7 +36,8 @@ filter:    erb
         { :image => "itq.png", :name => "itq", :link => "http://www.itq.nl/"},
         { :image => "infradata.png", :name => "infradata", :link => "http://www.infradata.nl/"},
         { :image => "vxcompany.png", :name => "VX Company", :link => "http://www.vxcompany.com/"},
-        { :image => "info-nl.png", :name => "Info.nl", :link => "http://www.info.nl/"}
+        { :image => "info-nl.png", :name => "Info.nl", :link => "http://www.info.nl/"},
+        { :image => "amazonws.png", :name => "Amazon Web Services", :link "http://aws.amazon.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
