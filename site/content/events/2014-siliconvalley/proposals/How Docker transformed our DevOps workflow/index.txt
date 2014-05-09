@@ -10,7 +10,8 @@ selected: false
 layout: event
 author: Avi Cavale
 title: "How Docker transformed our DevOps workflow"
-email: manisha@shippable.com
+handler_email: manisha@shippable.com
+email:  avi@shippable.com
 ---
 
 **Abstract:**
