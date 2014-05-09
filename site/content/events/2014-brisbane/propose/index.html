@@ -3,6 +3,7 @@ extension: html
 filter:
 - erb
 - markdown
+sidebar: true
 layout: event
 title: Proposals
 dirty: true
@@ -11,26 +12,26 @@ dirty: true
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br><a href="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform">Submit a Proposal</a> now.
+<b>Call for proposals is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br><a href="#submission">Submit a Proposal</a> now.
 </center>
 
 <hr>
-There are three ways to propose a session:
+There are three types of sessions at DevOpsDays:
 <ol>
-  <li><strong><em>A proposal for a talk/panel</em></strong> during the conference part : these are 35 minute slots that will have all people's full attention as everybody will be in that one room.</li>
-  <li><strong><em>A Lightning or <a href="/pages/ignite-talks-format">Ignite</a> talk</em></strong> These are 5 minutes slots with minimal slides and no question time.  Also presented to all attendees in one room. </li>
-  <li><strong><em>Openspace session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during the openspace opening. Check the <a href="/pages/open-space-format">openspace format</a> for more information
+  <li><strong><em>Presentation / Panel</em></strong>: These are 30 minute slots (incl. question time) that will have all people's full attention as everybody will be in that one room.</li>
+  <li><strong><em>Lightning / <a href="/pages/ignite-talks-format">Ignite</a> Talk</em></strong>: These are 5 minutes slots with minimal slides and no question time.  Also presented to all attendees in one room. Presenters are expected to have slides prepared for these - they can either follow the <a href="/pages/ignite-talks-format">Ignite</a> format or a less restrictive format (Lightning Talk) if that helps get your point across better.</li>
+  <li><strong><em>OpenSpace Session</em></strong>: Even without a prepared presentation we encourage open discussion and interaction by having people propose a topic on the fly during the openspace opening. These topics will be announced during the conference and are run by attendees. Come prepared with ideas or problems you'd like to solve collaboratively during the conference! Check the <a href="/pages/open-space-format">openspace format</a> for more information.
 </ol>
 
 Our main criteria to make it to the top selection are:
 
-- _original content_: content not yet presented at other conferences, or a new angle to an existing problem
-- _new presenters_: people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
-- _no vendor pitches_: as much as we value vendors and sponsors, we just don't think this is the right forum. There is a demo openspace slot where you have 5 minutes to show products.
-
+- _original content_: We prefer to see content not yet presented at other conferences, or a new angle to an existing problem
+- _new presenters_: We'd like to see people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
+- _no vendor pitches_: As much as we value vendors and sponsors, we just don't think this is the right forum.
 
 <strong>How to submit a proposal:</strong>
-Please fill in the <a href="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform">proposal form. </a>
+
+Please fill in the <a href="#submission">proposal form below.</a>
 Don't hesitate to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>">email </a> the organisers if you have any questions about presenting.
 
 <strong>Tips:</strong>
@@ -39,3 +40,9 @@ Don't hesitate to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_
 	<li>Detail is good... but not as important as explaining why your proposal would be interesting</li>
 	<li>Multiple proposals welcome... just follow the other rules</li>
 </ul>
+
+<a name="submission"/>
+<div style="width:100%; text-align:left;">
+    <iframe src="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform" frameborder="0" height="1100" width="100%" vspace="0" hspace="0" marginheight="0" marginwidth="0" scrolling="auto" allowtransparency="true"></iframe>
+</div>
+<a href="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform">Alternate link to above form</a>
