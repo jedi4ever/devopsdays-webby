@@ -56,6 +56,23 @@ Suggestions so far:
 <% end -%>
 </ol>
 
+Talks so far:
+<ol>
+<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :talk => true)
+  suggestions.each do |suggestion|
+-%>
+<li><%= link_to_page(suggestion) %> - <%= suggestion.author %>
+<% end -%>
+</ol>
+
+Ignites so far:
+<ol>
+<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :ignite => true)
+  suggestions.each do |suggestion|
+-%>
+<li><%= link_to_page(suggestion) %> - <%= suggestion.author %>
+<% end -%>
+</ol>
 
 <div class="span-15 first last">
 <%= render(:partial => '/disqus_comments') %>

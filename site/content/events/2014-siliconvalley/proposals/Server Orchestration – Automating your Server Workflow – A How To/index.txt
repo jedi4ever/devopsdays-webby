@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Topher Marie
+title: "Server Orchestration – Automating your Server Workflow – A How To"
+email: ryan.stoll@jumpcloud.com
+---
+
+**Abstract:**
+
+We know you’ve automated spinning up new servers as well as
+configuring those servers with your applications. You are well versed
+with AWS, Chef, Puppet, and the like.
+
+But, what about those manual admin tasks that happen after your
+servers are up and configured. What about multi-step operational tasks
+to make sure that your databases are operating properly, that you’ve
+indexed everything properly, or manipulated data for analysis?
+
+What about making sure that based on your log files you are taking the
+right steps to optimize your servers? Server orchestration takes many
+forms for each organization and largely these tasks in the cloud have
+been done manually.
+
+Sure some people script a step or two, but when it comes to scripting
+a whole workflow, that ends up being far more challenging.
+
+In this talk, we’ll show you how to automate after Chef and Puppet.
+We’ll show you ways that you can orchestrate with open source tools
+and give you options on other approaches. We’ll walk through a few
+examples of how organizations are orchestration critical tasks and
+provide the code. Tasks such as running database backups,
+post-processing data, securing your infrastructure based on attacks,
+getting a list of all cron jobs on all servers simply and easily, and
+a few others.
+
+Further, we’ll show you how to product logs and data that you can use
+to track down what’s happened in your environment and for compliance.
+We’ll take a look at open source tools such as Jenkins, Luigi,
+RunDeck, and others to see how they can help you automate your server
+management tasks.
+
+**Speaker:**
+
+Topher Marie, CTO, JumpCloud

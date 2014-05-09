@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Adriaan Thomas and Ruben Jannink
+title: "Reality Driven DevOps"
+---
+
+**Abstract:**
+What is one of the most important differences between Medieval Europe and the Age of Enlightenment? It’s the importance we put in facts. To be more precisely it’s the combination of clearly stated principles, experimentation and the will to learn and adjust principles accordingly. The ideas driving the Enlightenment are still of great value to DevOps.
+
+Hypotheses are everywhere. In ideas from the business to increase growth, in assumptions by technical teams on how to fix certain problems, and how new functionality will work once in production.
+
+Using examples from live web sites, Adriaan and Ruben will share their experiences. They will show real examples where using metrics shortened lead times, prevented waste and helped teams improve their service to the customers.
+
+Participants will have a better view on uncertainty in building and running IT systems and how to use that to their advantage.
+
+**Speaker:**
+
+Adriaan is a life-long geek, who has been working for well over 15 years in IT. He started out as a developer, has grown very close to operations and has helped solve many major outages. He works as a consultant at Xebia.
+
+Ruben is an experienced Lean Agile Coach at ING Bank in the Netherlands. Before working as a coach he was manager of several teams in the field of Lean Six Sigma, Process Improvement and IT.
+
+Adriaan and Ruben have been working together at ING in its transformation into a company with a strong DevOps culture, more specifically implementing various monitoring tools and strategies, continuous improvement and operational management at DevOps teams.

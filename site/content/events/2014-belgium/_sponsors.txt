@@ -3,7 +3,11 @@ filter:    erb
 ---
 
 <% @gsponsors = [
-  { :image => "openminds.png", :name => "Openminds", :link => "http://www.openminds.be/"}
+  { :image => "openminds.png", :name => "Openminds", :link => "http://www.openminds.be/"},
+  { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/devops"},
+  { :image => "schubergphilis.png", :name => "Schuberg Philis", :link => "http://www.schubergphilis.com/"},
+  { :image => "normation.png", :name => "Normation", :link => "http://www.normation.com/"},
+  { :image => "chef.png", :name => "Getchef", :link => "http://getchef.com/"},
 ]%>
 
 
@@ -18,7 +22,8 @@ filter:    erb
 
 <% @ssponsors = [
   { :image => "inuits.png", :name => "Inuits", :link => "http://www.inuits.be/"},
-  { :image => "nucleus.png", :name => "Nucleus", :link => "http://www.nucleus.be/"}
+  { :image => "nucleus.png", :name => "Nucleus", :link => "http://www.nucleus.be/"},
+  { :image => "super-visions.png", :name => "Super Visions", :link => "http://www.super-visions.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -28,7 +33,9 @@ filter:    erb
 <% end %>
 
 <% @bsponsors = [
-  { :image => "combell.png", :name => "Combell", :link => "http://www.combell.be/"}
+  { :image => "combell.png", :name => "Combell", :link => "http://www.combell.be/"},
+  { :image => "skyscrapers.png", :name => "Skyscrapers", :link => "http://skyscrape.rs/"},
+  { :image => "datadog.png", :name => "Datadog", :link => "http://datadoghq.com"}
 ]%>
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 <% @bsponsors.each do |sponsor| %>

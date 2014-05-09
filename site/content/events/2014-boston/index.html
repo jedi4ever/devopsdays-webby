@@ -12,18 +12,17 @@ dirty: true
   <table><tr><td>
         <center>
         <img border=0 src="boston.jpg">
-</td><td valign=top>
-<strong>DevOpsDays is coming to Boston </strong>
-<br><br>
-Dates: August 18-19, 2014
-<br><br>
-Location: <a href="./location">Cambridge, NERD Center</a>
 <br><br>
 
-<a href="./registration">Register now</a>! The attendee rate is lowest through TBD.
+<a href="./location">Microsoft NERD Center</a><br/>
+1 Memorial Dr #1<br/>
+Cambridge, MA 02142
 <br><br>
 
-<a href="./propose">Call For Proposals</a> is open until <strong>TBD, 2014</strong>.
+<a href="./registration">Registration opening soon!</a>
+<br><br>
+
+<a href="./propose">Call For Proposals</a> is open until <strong><%= render(:partial => "/#{@eventhome}/_cfp_date_end") %></strong>.
 <br><br>
 
 <a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.
@@ -31,6 +30,20 @@ Location: <a href="./location">Cambridge, NERD Center</a>
 
 <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
 <br><br>
+
+</td><td valign=top>
+<p>On <strong>Monday, August 18th and Tuesday, August 19th</strong>, DevOpsDays is returning to Boston!</p>
+<p>We've reserved the first floor of the <a href="./location">Microsoft NERD Center</a>
+ and expect to fill it to capacity. <a href="./registration">Registration will open soon</a> with an estimated ticket cost of $100.</p>
+<p>The event's schedule will consist of a mixture of traditional sessions, ignite talks,
+and the unique "open space" format that DevOpsDays is known for. We're really looking forward
+to your submissions, particularly if you're a new speaker or are presenting a talk for the first time.
+<a href="./propose">Read more about the submission process here</a>, but make sure to get everything
+in before the close date of <strong><%= render(:partial => "/#{@eventhome}/_cfp_date_end") %></strong>.</p>
+<p><em>NOTE: Microsoft has been extremely generous in providing us access to their private space to 
+host this event. To repay their generosity, we ask that you pay attention to their guidelines.
+Most importantly, <strong>you must present identification to sign into the building!</strong> If you don't bring
+identification on the day of the event, you will not be permitted to attend.</em></p>
 </td>
 </tr>
 </table>

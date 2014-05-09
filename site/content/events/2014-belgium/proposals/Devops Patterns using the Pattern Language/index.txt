@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Daniel Cukier
+title: "Devops patterns using the Pattern Language"
+---
+Christopher Alexander coined the term "PatternLanguage" to emphasize his belief that people had an innate ability for design that paralleled their ability to speak. He defines a 'pattern' as a three part construct. First comes the 'context'; under what conditions does this pattern hold. Next are a 'system of forces'. In many ways it is natural to think of this as the 'problem' or 'goal'. The third part is the 'solution'; a configuration that balances the system of forces or solves the problems presented.
+
+Patterns are being used be the Software community for a long time, with many published books like the famous Gang of Four "Design Patterns" Book, as well as Architecture Patterns, The POSA Series (Pattern-Oriented Software Architecture), Martin Fowler's Patterns of Enterprise Application Architecture, and many others.
+
+In this workshop, we propose an exercise engaging the DevOps Community to to design new patterns related to the DevOps context and catalog them. In the workshop, the attendee will leaasics of patterns languages. How to design a pattern, and also communicating the catalog, spreading good solutions to a wider audience. Examples of patterns can be found in the link bellow. The ideal outcome of this workshop would be drafts for new articles like this one. Here is the published article link:
+
+<http://www.agileandart.com/2013/08/25/devops-patterns-to-scale-web-applications-using-cloud-services/>
+

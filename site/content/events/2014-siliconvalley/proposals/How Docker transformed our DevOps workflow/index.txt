@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Avi Cavale
+title: "How Docker transformed our DevOps workflow"
+handler_email: manisha@shippable.com
+email:  avi@shippable.com
+---
+
+**Abstract:**
+
+A number of inefficiencies exist in the software development workflow
+at most companies. A major contributor is inconsistencies in different
+environments as code moves from a developer's machine to build,
+staging, and production environments. You hear frequent complaints
+like - “ But it works on my machine”.
+
+We moved to a Docker based process a few months ago, where Docker
+containers are integrated into the development workflow right from the
+time code is written on a developer’s machine to the time it is
+deployed into production. As a result, we can avoid environment
+conflicts, save on ops effort and costs, and ship features faster with
+better quality.
+
+We will present our tips and tricks on how to containerize your DevOps
+workflow and ship features painlessly and often.
+
+**Speaker:**
+
+Avi is the co-founder and CEO of Shippable, a hosted continuous
+integration and deployment service built on Docker. Avi spent over a
+decade at Microsoft building highly scalable internet services and
+working on products like Xbox 360, Office365, Azure, and Kinect. His
+most recent role was as Director of Product Development at a Seattle
+startup. In his free time, Avi likes perfecting his bird photography
+and chilling with a glass of red wine.

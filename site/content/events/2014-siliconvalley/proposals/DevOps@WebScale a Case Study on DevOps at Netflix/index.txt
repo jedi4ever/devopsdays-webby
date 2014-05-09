@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bruce Wong
+title: "DevOps@WebScale a Case Study on DevOps at Netflix"
+email: bwong@netflix.com
+---
+
+**Abstract:**
+
+Reliability and Velocity are often mistaken for being at odds with one
+another, with the right culture and investments the two can co-exist
+and be a true competitive advantage.
+
+
+**Speaker:**
+
+Bruce Wong is the leader of Reliability Engineering at Netflix.  Our
+claim to fame is Chaos Monkey and the Simian Army.  Bruce has held
+multiple roles at Netflix including DevOps Engineer focused on
+automation and tooling to assist and advocate devOps practices, to
+managing a team focused on playback reliability, to leading
+Reliability as a whole at Netflix.  Bruce's favorite Netflix Original
+is House of Cards.

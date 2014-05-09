@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Stefan Zier
+title: "Scaling a Start-up DevOps team to 10x while scaling the system 50x"
+email: stefan@sumologic.com
+---
+
+**Abstract:**
+
+Sumo Logic has built a strong DevOps culture. All our back-end
+developers are on the on-call rotation, taking responsibility for
+running the system 24/7 and rolling out new code multiple times a
+week. This talk is about how we successfully grew that culture. The
+lessons learned, things that worked, things that didn’t. How our
+culture has evolved.
+
+**Speaker:**
+
+Stefan Zier Sumo Logic

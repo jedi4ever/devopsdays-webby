@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Steve Corona
+title: "Scaling LAMP doesn't have to suck"
+email: thestevecorona@gmail.com
+---
+
+**Abstract:**
+
+I went from sleeping in front of my laptop everynight, rolling over to
+restart Apache at 3AM, to automagically scaling servers from my phone.
+Learn the harsh realities of scaling a web app (hint: your code
+doesn't matter) in this fast paced talk as you walk through scaling
+best practices for each layer of the stack.
+
+**Speaker:**
+
+Steve Corona is the Head of API at Life360 (800m API calls/day) and
+was the CTO of Twitpic. He's written "Scaling PHP Applications"
+(http://scalingphpbook.com) and blogs about life hacking and dropping
+out of college at http://stevecorona.com. Steve lives in San
+Francisco, CA.

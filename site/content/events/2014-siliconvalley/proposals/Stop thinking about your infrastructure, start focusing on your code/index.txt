@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Florian Motlik
+title: "Stop thinking about your infrastructure, start focusing on your code"
+email: flo@codeship.io
+---
+
+**Abstract:**
+
+As developers we love to ship changes. Improving existing features and
+building new features that will make our current users happier or
+bring in new customers is our core to what we do. While shipping
+constantly we need to make sure we don't interrupt our service.
+Software quality, code reviews and proper testing are cornerstones of
+shipping constantly.
+
+Today shipping less is just not an option any more. We need everyone
+in our team to focus on how we can improve the product. Every task or
+workflow that isn’t clearly a step forward needs to be religiously
+automated and improved.
+
+By focusing only on the changes we introduce into our code and leaving
+everything from deployment to scaling, error detection and even
+automated correction to automation, we can focus all of our energy on
+taking that step forward.
+
+We need to rethink the way we’ve built infrastructure and the
+workflows we’ve used. Turning servers into one-off Masterpieces isn't
+the way to go any longer. Instead we need to think of our servers as
+post-its. Useful, simple to understand and manufacture and we replace
+them without thinking twice.
+
+Practices like testing, virtualised environments and Immutable
+infrastructure are the key to this new workflow and will be discussed
+in detail.
+
+
+**Speaker:**
+
+Flo is the CTO and co-founder at Codeship, a continuous deployment
+service. At Codeship he led the implementation of a fully immutable
+infrastructure that gets replaced several times a day. He focuses on
+working with customers and leading companies in the field to bring
+continuous deployment, immutable infrastructure and building systems
+in the virtualised world to every software team.

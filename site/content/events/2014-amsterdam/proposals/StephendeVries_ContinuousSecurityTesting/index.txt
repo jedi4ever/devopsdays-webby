@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Stephen de Vries
+title: "Continuous Security Testing"
+---
+
+**Abstract:**
+Traditional security activities that depend on manual penetration tests and application assessments simply cannot keep up with the speed of continuous delivery and devops.  Security testing shares many common aspects with acceptance and quality testing, and by enhancing the existing tools and techniques it is possible to provide continuous security testing at the speed of devops.  
+
+Behaviour Driven Development using a "Given/When/Then" format allows us to write self verifying security specifications in a natural language which are understandable by the whole team.  This talk will present the open source BDD-Security framework which is designed to provide DevOps teams with the tools to:
+a) Specify the security requirements in a human readable form
+b) Make those same requirements executable tests that can be run against a target application
+c) Record and test business logic security vulnerabilities
+c) Integrate these tests into continuous delivery environments so that security testing can be performed continuously and on-demand.
+
+The talk will include a live demonstration of configuring and running the BDD-Security framework to test a web application and will also show how to integrate it with the Jenkins CI server so that security tests are run after every new code commit.  Project details: http://www.continuumsecurity.net/bdd-intro.html
+
+
+**Speaker:**
+
+
+Stephen de Vries
+http://www.continuumsecurity.net
+Twitter: @stephendv

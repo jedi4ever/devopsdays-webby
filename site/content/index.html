@@ -58,36 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-
-var nairobilocation = new google.maps.LatLng(-1.2833, 36.8167);
-var nairobimarker = new MarkerWithLabel({
-    position: nairobilocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Nairobi<br>Mar 15, 2014",
-    labelAnchor: new google.maps.Point(30, 0),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(nairobimarker, "click", function (e) { location.href="/events/2014-nairobi"});
-
-var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
-
-var ljubljanamarker = new MarkerWithLabel({
-    position: ljubljanalocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Ljubljana<br>Apr 4-5, 2014",
-    labelAnchor: new google.maps.Point(30, 0),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2014-ljubljana"});
-
 amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
 
 var amsterdammarker = new MarkerWithLabel({
@@ -101,8 +71,6 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="#"});
-
-
 
 var siliconvalleylocation=new google.maps.LatLng(37.77493,-122.419415);
 var siliconvalleymarker = new MarkerWithLabel({
@@ -156,7 +124,7 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="#"});
 
-brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
+var brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
 
 var brisbanemarker = new MarkerWithLabel({
 position: brisbanelocation,
@@ -164,12 +132,13 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Brisbane 2014<br>25 & 26 July 2014",
-labelAnchor: new google.maps.Point(-10, 20),
+labelAnchor: new google.maps.Point(0, 10),
 labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
+labelStyle: {opacity: 0.9}
 });
 
-google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="#"});
+google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="/events/2014-brisbane"});
+
 
 torontolocation = new google.maps.LatLng(43.7000, -79.4000);
 
@@ -208,7 +177,7 @@ position: warsawlocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Warsaw 2014",
+labelContent: "Warsaw<br/>25 & 26 September 2014",
 labelAnchor: new google.maps.Point(25, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
@@ -216,6 +185,20 @@ labelStyle: {opacity: 1}
 
 google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="#"});
 
+bostonlocation = new google.maps.LatLng(42.361316,-71.081309);
+
+var bostonmarker = new MarkerWithLabel({
+position: bostonlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Boston<br>Aug 18 & 19",
+labelAnchor: new google.maps.Point(20, 50),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="events/2014-boston"});
 
 
 }

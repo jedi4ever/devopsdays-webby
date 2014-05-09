@@ -7,7 +7,9 @@ filter:    erb
         { :image => "catechnologies.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
         { :image => "quanza.png", :name => "Quanza Engineering", :link => "http://www.quanza.net/"},
         { :image => "elasticsearch.png", :name => "ElasticSearch", :link => "http://www.elasticsearch.com/"},
-        { :image => "bol.png", :name => "bol.com", :link => "http://www.bol.com/"}
+        { :image => "bol.png", :name => "bol.com", :link => "http://www.bol.com/"},
+        { :image => "arista.png", :name => "Arista", :link => "http://www.aristanetworks.com/"},
+        { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -32,7 +34,10 @@ filter:    erb
 	{ :image => "cloudstack.png", :name => "Apache CloudStack", :link => "http://cloudstack.apache.org/"},
         { :image => "inuits.png", :name => "Inuits.nl", :link => "http://www.inuits.nl/"},
         { :image => "itq.png", :name => "itq", :link => "http://www.itq.nl/"},
-        { :image => "infradata.png", :name => "infradata", :link => "http://www.infradata.nl/"}
+        { :image => "infradata.png", :name => "infradata", :link => "http://www.infradata.nl/"},
+        { :image => "vxcompany.png", :name => "VX Company", :link => "http://www.vxcompany.com/"},
+        { :image => "info-nl.png", :name => "Info.nl", :link => "http://www.info.nl/"},
+        { :image => "amazonws.png", :name => "Amazon Web Services", :link => "http://aws.amazon.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>

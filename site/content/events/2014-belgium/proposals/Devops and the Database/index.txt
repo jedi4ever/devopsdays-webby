@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Chip Childers
+title: "DevOps and the Database - Is this a Tale of the Forgotten Service?"
+---
+With the explosion in tools to support DevOps practices, particularly to manage work in progress (WIP) and configuration management for apps, systems and infrastructure, where does your database fit in?  Have today’s DBA’s made the transition from resisting change to managing change through clear automation? The DevOps movement has massive industry momentum right now, but the volume of discussion around the specific implications for database evolution, management and operations has not risen to the level of importance that it should.
+
+In this talk, we will explore these issues through a combination of industry case studies and discussion of existing tools / techniques.  We will also interactively attempt to answer the question: Is there a better way?

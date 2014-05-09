@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Owen Kim
+title: "Lessons in transitioning on-call developers to a SOA infrastructure"
+email: owen@pagerduty.com
+---
+
+**Abstract:**
+
+PagerDuty has always put all developers on-call. In the last few
+years, we have transitioned from a handful of developers, working on a
+monolithic Rails app, to dozens of engineers and a dozen internal
+services. While the technical architecture and delegation of
+development work had very natural divisions, we found that it was
+important to keep on-call responsibilities broad to cover more than
+the service-level divisions. This creates several challenges, one of
+which is keeping on-calls empowered and happy covering pages from
+services they are not actively developing.
+
+This talk will focus on the motivations behind keeping broad on-call
+responsibilities, the operational tactics that equip on-calls with the
+breadth of knowledge necessary to maintain the services they respond
+to, and the cultural strategies for keeping your engineers’ urge to
+kill each other from rising.
+
+**Speaker:**

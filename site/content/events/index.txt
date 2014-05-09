@@ -8,6 +8,8 @@ title: Devopsdays Events
 The following events took place in the past:
 
 <ul>
+<li><a href="/events/2014-ljubljana/">Ljubljana 2014</a></li>
+<li><a href="/events/2014-nairobi/">Nairobi 2014</a></li>
 <li><a href="/events/2013-tokyo/">Tokyo 2013</a></li>
 <li><a href="/events/2013-telaviv/">Tel Aviv 2013</a></li>
 <li><a href="/events/2013-atlanta/">Atlanta 2013</a></li>

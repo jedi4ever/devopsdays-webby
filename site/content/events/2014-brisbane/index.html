@@ -4,16 +4,53 @@ layout: event
 filter:
 - erb
 - markdown
-title: welcome
+title: Welcome
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-<center><img border=0 src="logos/downunder.gif" alt="Devops Days Brisbane"></center><br>
+<center><img border=0 src="logos/downunder.gif" alt="Devops Days Brisbane"></center>
 
-**<%= render(:partial => "/#{@eventhome}/_title") %>** will be held on **<%= render(:partial => "/#{@eventhome}/_target_date") -%>** in **<%= render(:partial => "/#{@eventhome}/_target_location") -%>**
+<center>
+<table>
+	<tr><td></td></tr>
+    <tr><td><b>Date</b></td><td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td></tr>
+    <tr><td><b>Location</b></td><td><a href="location/">Brisbane Convention &amp; Exhibition Centre</a></td></tr>
+    <tr><td><b>Participants</b></td><td><b><a href="registration/">Register Now!</a></b></td></tr>
+    <tr><td><b>Speakers</b></td><td>Call for <a href="propose/">Proposals</a> is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>.</td></tr>
+    <tr><td><b>Program</b></td><td>We're pleased to announce <a href="program/">Dr. Sidney Dekker</a> as our keynote speaker!</td></tr>
+    <tr><td><b>Sponsorship</b></td><td><a href="sponsor/">Sponsorship opportunities</a> are still available.</td></tr>
+    <tr><td><b>Contact</b></td><td><a href="contact/">Get in touch with the organisers</a></td></tr>
+    <tr><td><b>Code of Conduct</b></td><td>Please review our <a href="conduct/">Code of Conduct</a>.</td></tr>
+</table>
+</center>
 
-Registrations, proposals and sponsorship will open shortly.
+<!--
+**Date**: <%= render(:partial => "/#{@eventhome}/_target_date") -%>
 
-<center><a href="https://twitter.com/devopsdownunder" class="twitter-follow-button" data-show-count="false">Follow @devopsdownunder</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></center>
+**Location**: <a href="location/">Brisbane Convention &amp; Exhibition Centre</a>
+
+**Participants: <a href="registration/">Register Now!</a>**
+
+**Speakers**: Call for <a href="proposals/">proposals</a> is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>.
+
+We're pleased to announce <a href="program/">Dr. Sidney Dekker</a> as our keynote speaker at DevOpsDays Brisbane 2014!
+
+**Sponsorship**: <a href="sponsor/">Sponsorship details</a>
+
+**Contact**: <a href="contact/">Get in touch with the organisers</a>
+-->
+<hr>
+
+p.s.  Winter in Brisbane...
+
+<img border="0" src="brisbane_winter.jpg">
+
+<hr>
+
+<center>
+	<a href="https://twitter.com/devopsdownunder" class="twitter-follow-button" data-show-count="false">Follow @devopsdownunder</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <br>
+    <a href="http://groups.google.com/group/devopsdays">Subscribe to the devopsdays mailing list</a>
+</center>

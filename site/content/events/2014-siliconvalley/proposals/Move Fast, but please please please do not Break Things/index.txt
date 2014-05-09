@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Arup Chakrabarti
+title: "Move Fast, but please please please do not Break Things"
+email: arup@pagerduty.com
+---
+
+**Abstract:**
+
+At PagerDuty, we are building out a service that our customers rely on
+being up 100% of the time. We do not believe in outage windows or
+scheduled maintenance, so how do you manage change while still moving
+fast and innovating? For us, it has been a balancing act of figuring
+out what are the right tools to use, how much process to force on our
+engineers, and how to keep updating these processes. In this talk, we
+will go through some of our processes that we follow to make sure that
+we foster a culture of moving fast, but not breaking everything.
+
+**Speaker:**
+
+Arup Chakrabarti Operations Engineering, PagerDuty

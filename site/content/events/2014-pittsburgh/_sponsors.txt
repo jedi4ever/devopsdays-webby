@@ -30,6 +30,7 @@ end
 { :image => "dyn.png", :name => "Dyn", :link => "http://www.dyn.com/"},
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 { :image => "jfrog.png", :name => "JFrog", :link => "http://www.jfrog.com/"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -51,6 +52,9 @@ end
 { :image => "ptc.png", :name => "Pittsburgh Technology Council", :link => "http://www.pghtech.org/"},
 { :image => "revv.png", :name => "Revv Oakland", :link => "http://www.revvoakland.com/"},
 { :image => "rustbuilt.png", :name => "RUSTBUILT", :link => "http://www.rustbuilt.com/"},
+{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
+{ :image => "velocity.png", :name => "Velocity Conf", :link => "http://www.velocityconf.com/"},
+{ :image => "code_and_supply.png", :name => "Pittsburgh Code & Supply", :link => "http://www.meetup.com/Pittsburgh-Code-Supply/"},
 ]%>
 <%= make_sponsor_links(@msponsors) %>
 

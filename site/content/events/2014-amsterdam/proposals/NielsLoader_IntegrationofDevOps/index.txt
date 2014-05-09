@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Niels Loader
+title: "Integration of Dev and Ops: simple or difficult?"
+---
+
+**Abstract:**
+DevOps is a movement that is gaining traction within IT. Much focus is given to aspects such as tooling and the use of Agile methodologies. However, DevOps has a deep influence that has the potential to create a completely new paradigm within IT. The key is to understand the key aspects of the integration of the two disciplines and how to manage these to a successful conclusion. Secondly, we need to be aware of what the impact of this fundamental change in the way IT is organized and run on the environment. What does DevOps mean to the way IT is financed, the way we deal with projects and the overall business governance of IT. IT does not function in isolation and we need to be prepared for the far-reaching consequences that DevOps may bring. Where will DevOps end up taking us?
+
+
+**Speaker:**
+
+Niels Loader
