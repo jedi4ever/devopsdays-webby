@@ -3,6 +3,7 @@ extension: html
 filter:
 - erb
 - markdown
+sidebar: true
 layout: event
 title: Proposals
 dirty: true
@@ -11,7 +12,7 @@ dirty: true
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br><a href="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform">Submit a Proposal</a> now.
+<b>Call for proposals is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br><a href="#submission">Submit a Proposal</a> now.
 </center>
 
 <hr>
@@ -30,7 +31,7 @@ Our main criteria to make it to the top selection are:
 
 
 <strong>How to submit a proposal:</strong>
-Please fill in the <a href="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform">proposal form. </a>
+Please fill in the <a href="#submission">proposal form below.</a>
 Don't hesitate to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>">email </a> the organisers if you have any questions about presenting.
 
 <strong>Tips:</strong>
@@ -39,3 +40,9 @@ Don't hesitate to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_
 	<li>Detail is good... but not as important as explaining why your proposal would be interesting</li>
 	<li>Multiple proposals welcome... just follow the other rules</li>
 </ul>
+
+<a name="submission"/>
+<div style="width:100%; text-align:left;">
+    <iframe src="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+</div>
+<a href="https://docs.google.com/forms/d/1ySQYjflcdogiL_dwohQHAmxTF48fofiol4XT3V1UF-U/viewform">Alternate link to above form</a>
