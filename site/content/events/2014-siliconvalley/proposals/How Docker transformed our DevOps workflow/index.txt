@@ -33,4 +33,10 @@ workflow and ship features painlessly and often.
 
 **Speaker:**
 
-Avi Cavale Shippable
+Avi is the co-founder and CEO of Shippable, a hosted continuous
+integration and deployment service built on Docker. Avi spent over a
+decade at Microsoft building highly scalable internet services and
+working on products like Xbox 360, Office365, Azure, and Kinect. His
+most recent role was as Director of Product Development at a Seattle
+startup. In his free time, Avi likes perfecting his bird photography
+and chilling with a glass of red wine.
