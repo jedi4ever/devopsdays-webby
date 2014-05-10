@@ -1,0 +1,54 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Doug Barth
+title: "Encrypt all the packets!"
+email: doug@pagerduty.com
+---
+
+**Abstract:**
+
+Private networks are traditionally assumed secure and traffic crossing
+the public Internet is secured via VPN. For data center to data center
+traffic, that involves a site-to-site tunnel with a VPN concentrator
+on either side of the encrypted tunnel.
+
+This "hub and spoke" architecture presents a simple solution for
+protecting network traffic over the Internet, but making that solution
+highly available involves added complexity. Multiple tunnels need to
+exist, with traffic load balanced across them. Automation needs to
+exist to detect down (and half down) links and redirect traffic. Also
+these tunnels need to scale up as the amount of traffic passing
+between data centers increases. And this solution does nothing to
+protect network traffic on the private network. A private network that
+is increasingly managed by cloud providers and shared with other
+companies.
+
+When traffic is flowing over networks that we don't manage (both over
+the WAN and the LAN) it is time to rethink our network security
+practices. By using DevOps practices in our network systems, PagerDuty
+was able to get rid of the hub and spoke model and instead use an
+IPSec mesh architecture. Each server in our system establishes a
+secure association with its peer and transmits all traffic using IPSec
+transport. Each host manages encryption and decryption of its own
+traffic, so our ability to protect that traffic naturally scales up as
+we add new infrastructure.
+
+This talk will focus on how we implemented that model. We will dig
+into the details of our configuration including the policies we use,
+the encryption and authentication mechanisms in place. We will talk
+about how this model performs on our systems and what impact it has on
+the production workload. Finally, we will discuss how it handles
+failure, bugs we've found along the way, and how we see this model
+changing as our infrastructure continues to grow.
+
+**Speaker:**
+
+Doug Barth Operations Engineer at PagerDuty

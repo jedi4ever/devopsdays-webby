@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bryan Cantrill
+title: "Bringing the Unix Philosophy to Big Data"
+email:  bryan@joyent.com
+handler_email: ebusse@launchsquad.com
+---
+
+**Abstract:**
+
+Nearly 40 years ago, the Unix philosophy fundamentally changed the way
+we think of computing systems: instead of a sealed monolith, the
+system became a collection of small, easily understood programs that
+could be quickly connected in novel and ad hoc ways. Today, big data
+looks much like the operating systems landscape in the pre-Unix 1960s:
+complicated frameworks surrounded by a priesthood that must manage and
+protect a fragile system.
+
+Today, new technologies, like the convergence of compute and storage,
+are bringing the Unix philosophy to big data, allowing tools like
+grep, awk and sed to be used in map-reduce fashion on arbitrary
+amounts of data. I'll describe both the design challenges in building
+an object store that features in situ compute and what these new
+technologies mean for the future of big data.
+
+**Speaker:**
+
+Bryan Cantrill is the CTO at Joyent, where he oversees worldwide
+development of the SmartOS and SmartDataCenter platforms, and the
+Node.js platform. Prior to joining Joyent, Bryan served as a
+Distinguished Engineer at Sun Microsystems, where he spent over a
+decade working on system software, from the guts of the kernel to
+client-code on the browser. In particular, he co-designed and
+implemented DTrace, a facility for dynamic instrumentation of
+production systems that won the Wall Street Journal's top Technology
+Innovation Award in 2006 and the USENIX Software Tools User Group
+Award in 2008. Bryan also co-founded the Fishworks group at Sun, where
+he designed and implemented the DTrace-based analytics facility for
+the Sun Storage 7000 series of appliances.
+
+[For reference to his speaking style, here is a video of Bryan speaking at CloudBeat 2013]

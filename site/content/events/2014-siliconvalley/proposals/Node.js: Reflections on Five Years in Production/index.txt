@@ -1,0 +1,54 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bryan Cantrill
+title: "Node.js: Reflections on Five Years in Production"
+email:  bryan@joyent.com
+handler_email: ebusse@launchsquad.com
+---
+
+**Abstract:**
+
+This year marks Node.js' fifth year - half a decade of "riding the
+unicorn," as I've referred to it in the past. Joyent is not only the
+corporate steward of Node.js, but also one of its earliest adopters,
+giving me a totally unique perspective on its growth and role in
+modern applications over the past five years. We deployed
+Node.js-based services in production starting five years ago and have
+worked extensively with a number of other organizations running
+Node.js in production, such as Yahoo and ADP.
+
+In this presentation, I'll take the audience through the Node.js
+odyssey thus far, touching on the victories as well as the challenges
+and battle scars earned along the way. I'll also discuss how our
+experiences using Node.js at Joyent have deeply informed our
+stewardship of the project. Five years later, Node.js is still
+growing, and it remains the right tool for so many of our jobs. I'll
+outline best practices for developing and deploying Node.js-based
+systems, and take a look at what the future holds for Node.js in
+production.
+
+
+**Speaker:**
+
+Bryan Cantrill is the CTO at Joyent, where he oversees worldwide
+development of the SmartOS and SmartDataCenter platforms, and the
+Node.js platform. Prior to joining Joyent, Bryan served as a
+Distinguished Engineer at Sun Microsystems, where he spent over a
+decade working on system software, from the guts of the kernel to
+client-code on the browser. In particular, he co-designed and
+implemented DTrace, a facility for dynamic instrumentation of
+production systems that won the Wall Street Journal's top Technology
+Innovation Award in 2006 and the USENIX Software Tools User Group
+Award in 2008. Bryan also co-founded the Fishworks group at Sun, where
+he designed and implemented the DTrace-based analytics facility for
+the Sun Storage 7000 series of appliances.
+
+[For reference to his speaking style, here is a video of Bryan speaking at CloudBeat 2013]
