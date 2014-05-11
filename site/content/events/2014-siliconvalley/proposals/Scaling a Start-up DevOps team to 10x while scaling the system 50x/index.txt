@@ -24,4 +24,7 @@ culture has evolved.
 
 **Speaker:**
 
-Stefan Zier Sumo Logic
+Stefan Zier is the Chief Architect at Sumo Logic. He enjoys building
+and running large distributed systems. He is also one of the key
+influencers for Sumo Logic’s DevOps culture. Prior to Sumo Logic,
+Stefan was a key contributor to several products at ArcSight (now HP).
