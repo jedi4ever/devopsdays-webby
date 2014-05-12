@@ -18,6 +18,8 @@ end
 { :image => "xebialabs.png", :name => "Xebia Labs", :link => "http://www.xebialabs.com/"},
 { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/"},
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
+{ :image => "cfengine.png", :name => "CFEngine", :link => "http://www.cfengine.com/"},
+{ :image => "saul.png", :name => "Saul Ewing", :link => "http://www.saul.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
