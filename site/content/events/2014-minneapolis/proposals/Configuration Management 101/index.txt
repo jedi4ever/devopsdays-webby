@@ -1,0 +1,23 @@
+
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 8
+title: "Configuration Management 101"
+---
+
+**Description:**
+Far too often, the term 'devops' is confused with configuration management and the tooling surrounding it. At the other end of the spectrum are pure culture topics and trust falls. Somewhere in the middle lies the truth. 
+
+Tools are cultural artifacts. As such, common themes run through modern CM tooling. This talk explores the past, present, and future of configuration management strategies in a tool agnostic fashion. It covers the basics of repeatability, distributed systems thinking, and orchestration.
+
+**Speaker:**
+Speaker 8
+
