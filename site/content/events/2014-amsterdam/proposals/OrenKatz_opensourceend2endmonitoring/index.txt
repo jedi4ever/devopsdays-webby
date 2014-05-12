@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Oren Katz	
+title: "Open Source end 2 end monitoring solution"
+---
+
+**Abstract:**
+
+We've built an end-2-end monitoring system using Jenkins which runs system tests every 5 mins,
+This allows us to know if our service is working from a visitor perspective.
+
+We used only open-source solutions like:
+1) Jenkins
+2) Selenium
+3) Dashing - Dashboard for NOC
+4) Graphite - Runtime and availability trends
+
+You can read more about it here:
+https://connect.liveperson.com/community/developers/blog/2013/10/17/fully-open-source-end2end-solution
+
+We replace our BAC (HP system) with the one we build, it saves us money, but more importantly, it gave us a better view and tools to monitor our service.
+
+**Speaker:**
+
+Oren Katz, Production Monitoring Team Leader
