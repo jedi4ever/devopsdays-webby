@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+layout: event
+title: sponsor
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+We greatly value sponsors for this open event. If you are interested in sponsoring, [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+
+<hr>
+
+<p>DevOpsDays is a self-organizing conference for practitioners that depends on sponsorships. We do not have vendor booths or sell product presentations. Sponsors have the opportunity to have short elevator pitches during the program and will get recognition on the website and social media before, during and after the event.</p>
+
+<p> Sponsors are encouraged to represent themselves by actively participating and engaging with the attendees as peers. Any attendee also has the opportunity to demo products/projects as part of an open space session, but this is not 'that kind of conference' and heavy marketing will probably work against you when trying to make a good impression on the attendees.</p>
+
+<p>The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.</p>
+
+<h2>Sponsor Packages to be Announced Soon</h2>
