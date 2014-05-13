@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 8
+title: "From OMGWTFBBQ to Delightful with this one weird trick"
+---
+
+**Abstract:**
+
+Getting into configuration management can be very daunting especially for people who currently run artisinal hand crafted servers.  This talk will cover starting out with Chef from very basic use cases to building out a full CI pipeline with code reviews, automated testing, and deployments.
+
+At the end of this talk new chef users, and intermediate users will be armed with enough knowledge to go back to their jobs and start implmenting chef,  or upping their chef game to include unit tests, code review, and other more advanced uses.
+
+          
+**Speaker:**
+Speaker 8
+
