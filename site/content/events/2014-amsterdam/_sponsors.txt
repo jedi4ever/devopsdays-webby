@@ -10,7 +10,8 @@ filter:    erb
         { :image => "bol.png", :name => "bol.com", :link => "http://www.bol.com/"},
         { :image => "arista.png", :name => "Arista", :link => "http://www.aristanetworks.com/"},
         { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
-        { :image => "ibm.png", :name => "IBM DevOps", :link => "http://www.ibm.com/ibm/devops/us/en/"}
+        { :image => "ibm.png", :name => "IBM DevOps", :link => "http://www.ibm.com/ibm/devops/us/en/"},
+        { :image => "bitbrains.png", :name => "BitBrains", :link => "http://www.bitbrains.nl/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
