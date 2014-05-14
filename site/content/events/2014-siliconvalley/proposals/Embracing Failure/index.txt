@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Josh Evans
+title: "Embracing Failure: Fault Injection and Service Resilience at Netflix"
+email: jevans@netflix.com
+---
+
+**Abstract:**
+
+Complex distributed systems fail. They fail more and in different ways
+as they scale and evolve over time. To provide high service
+availability in the face of this reality we must embrace failure by
+designing and testing for it. More importantly we must induce
+controlled failures on systems to discover vulnerabilities and resolve
+them. To this end Netflix has created a suite of tools, collectively
+called the Simian Army, to improve resiliency of our cloud
+environment. This presentation will cover the motivations for inducing
+failure in production, the mechanics of how Netflix achieves it, and
+lessons learned along the way.
+
+​This content will be presented at NANOG61 on June 4th but I don't expect high overlap in audience. 
+
+**Speaker:**
+
+Josh Evans, Director of Operations Engineering Netflix

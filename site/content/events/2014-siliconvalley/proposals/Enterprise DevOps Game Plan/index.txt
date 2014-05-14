@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Navin Thdani
+title: "Enterprise DevOps Game Plan: Agile dev/test using AWS or Google Cloud for existing VMware environments"
+email: kelly@mindsharepr.com
+handler_email: kelly@mindsharepr.com
+---
+
+**Abstract:**
+
+Not every enterprise can adopt or even needs Netflix-style DevOps.
+Most enterprises have existing applications deployed on-premise on
+VMware and other infrastructures but still recognize the benefits of
+the public cloud. This session will provide a practical guide for
+enterprises looking to build a real DevOps culture without requiring a
+re-architecture of their application or their infrastructure.
+ 
+This talk will discuss the ten principles for designing the perfect
+software lab in a world where competitive advantage is synonymous with
+business agility. It will demonstrate how to use AWS and Google Cloud
+for agile dev/test of VMware workloads and enabling infrastructure for
+continuous integration using Jenkins.
+
+**Speaker:**
+
+Navin Thadani is the senior vice president of products at Ravello
+Systems. Navin has experience across technology industries ranging
+from networking hardware, infrastructure software, to SaaS, working in
+senior-level positions with Cisco, Qumranet (the developer of KVM,
+acquired by Red Hat) and Red Hat.

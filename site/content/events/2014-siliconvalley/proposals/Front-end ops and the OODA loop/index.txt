@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Erik Sowa
+title: "Front-end ops and the OODA loop: A decision cycle time strategy for winning in a hostile internet environment"
+email: erik.sowa@gmail.com
+---
+
+**Abstract:**
+
+Many organizations are using John Boyd’s OODA loop to describe
+business strategies driven by continuous innovation cycles and the
+supporting technical practices. In a hostile environment, whether it
+is an aerial dogfight or an advertising-supported internet business,
+survival itself depends on executing the observe-orient-decide-act
+loop faster than the threat. At Scripps Networks Interactive, we are
+doing online video syndication and we surely have to contend with a
+hostile environment. In this talk, I will discuss how we moved our
+decision cycle time from weeks to hours by instrumenting our embedded
+video player and using our data operating system to understand what is
+happening in the field ("front-end ops"). To get the cycle time to
+minutes or even seconds may require a culture similar to the culture
+of successful maneuver warfare teams.
+
+**Speaker:**
+
+Erik Sowa, VP Engineering, ulive
