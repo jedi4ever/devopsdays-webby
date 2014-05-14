@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Rishi Pande
+title: "Embedded DevOps Teams - Doing It Right"
+email: rpande@twitter.com
+---
+
+**Abstract:**
+
+There are essentially two types of DevOps teams, one, that function
+within a larger team and take the an abstract idea to being a full
+blown production environment; and others, that help
+"I_am_only_a_developer" do this on a daily basis, by cooling down,
+deploying and running the stuff thrown over the wall.
+
+This talk will be about the challenges that small embedded teams (the
+ones that are a part of a large developer group) face. We'll explore
+what are the different things that high performance embedded teams do
+well, and how to tell if they are indeed doing well. Finally, we'll
+touch up on some areas that SRE/DevOps Managers face: like that moment
+when someone says, "I want to be a developer instead," and you would
+hate to lose the person.
+
+To add some fun, this talk will be begin from a point of view of a
+developer, move on to the point of view to a DevOps/SRE manager and
+then come to the point of view to the most important focus of our
+discussion, the DevOps person herself.
+
+**Speaker:**
+
+Rishi Pande, Service Reliability Engineering Manager, Twitter Inc.
