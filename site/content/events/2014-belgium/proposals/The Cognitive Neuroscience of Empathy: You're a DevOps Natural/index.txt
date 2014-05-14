@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Dave Mangot
+title: "The Cognitive Neuroscience of Empathy: You're a DevOps Natural"
+---
+_Background:_
+
+There is a growing understanding in the DevOps community that human empathy is a fundamental component of what is required as collaborators and in understanding our customers (for examples see http://blog.ingineering.it/post/72964480807/empathy-the-essence-of-devops, http://www.opsbs.com/2014/03/empathy-in-oss-its-important/, http://chadfowler.com/blog/2014/01/19/empathy/).  Scientific discoveries have explored just how innate empathy is to the human condition.  With the discovery of mirror neurons (Rizzolatti, et. al), we’ve learned we don't merely observe the actions of others, we activate the same neural circuits to allow us to imagine their goals and motivations. We were born to partner with others instead of "throwing it over the wall".  Come and learn what role neurobiology has in our ability to empathize with teammates and why it is at the core of effective cross-functional teams.
+
+_Abstract:_
+
+As the story goes, many of us got into computing so we didn’t have to talk to people. If we could hide behind the computer screen and only interact with the keyboard, everything would be all right. Then came Agile, and the daily standup, and retrospectives. Then came DevOps and the need to collaborate with not only our own team, but with people in different parts of the enterprise.
+
+Lucky for us, it’s actually part of our biology to collaborate with other people. People have been collaborating on cross-functional teams since the time of the caveman. Since the discovery of mirror neurons in the early 1990s, we’ve learned a lot about our inherent ability to empathize.
+
+* Our neurobiology is designed to be empathic, for us to connect with others
+* When we see others act, we have an inner sharing of the *wish* to act
+* Mirror neurons have more to do with understanding the goals and motivations of others than simply sharing their feelings
+* Because we interpret the actions of others through our own neurobiology, our own experiences will have an impact on our perception of others
+
+These are some of the reasons teams can expect to be successful in moving towards a more cross functional model which is highly collaborative between roles. This model is rooted in our own inherent biological function. As different members of the team interact with each other on a regular basis, they not only are able to internalize the goals of the other members, but the actions they perform on that team will shape the way they perform future actions (i.e. Hebbian learning systems).  This conditioning is much like the functional neuroimaging studies that have shown that while listening to music, the brains of musicians activate brain regions involved in playing music, while those of non-musicians are dormant.
+
+Even our gender makes no difference in our ability to cultivate empathy.  We all have the innate ability to become fully active participants in the outcomes of our teams.
+
+This presentation should be of interest to anyone with an interest in science (especially neuroscience) who wishes to have an understanding of why cross-functional teams can be so effective and why the longer you practice DevOps, the more impressive the results.
+
+Dave Mangot
