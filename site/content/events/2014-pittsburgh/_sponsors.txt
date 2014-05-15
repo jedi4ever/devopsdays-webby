@@ -3,7 +3,7 @@ filter:    erb
 ---
 <%
 def make_sponsor_links(sponsors)
-  sponsors.map do |sponsor|
+  sponsors.shuffle.map do |sponsor|
     "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
@@ -20,6 +20,7 @@ end
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
 { :image => "cfengine.png", :name => "CFEngine", :link => "http://www.cfengine.com/"},
 { :image => "saul.png", :name => "Saul Ewing", :link => "http://www.saul.com/"},
+{ :image => "vmware.png", :name => "VMware", :link => "http://www.vmware.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
