@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Paul Brody
+title: "Incident Response in a Distributed World"
+email: pbrody@sococo.com
+handler_email: 
+---
+
+**Abstract:**
+
+Incident response is critical in DevOps, especially with SaaS
+applications. Like a well-run emergency room, coordinating the right
+people with the right information immediately can be the difference
+between a minor glitch and a major threat for the business.
+
+Incident Response gets much more complex in a distributed DevOps
+world. There are broader sets of skills you need to bring to bear to
+manage a production outage. Overlay different geographies with
+different timezones and legacy communication tools and the process can
+fail quickly.
+
+This talk describes how to run an efficiently incident response
+process for hosted services with distributed DevOps teams - using
+specific examples from leading companies Specifically we will talk
+about how to organize, what processes to follow and what communication
+tools are most effective.
+
+**Speaker:**
+
+Paul Brody

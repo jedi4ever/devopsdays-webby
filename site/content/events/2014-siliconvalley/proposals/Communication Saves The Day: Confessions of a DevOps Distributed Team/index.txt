@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Paul Brody
+title: "Communication Saves The Day: Confessions of a DevOps Distributed Team"
+email: pbrody@sococo.com
+handler_email: 
+---
+
+**Abstract:**
+
+Distributed work is common today and often times the talent you need
+for a particular role is not necessarily in the location you need it.
+Too many precious hours are spent waiting for a task to complete that
+stifles development and operations teams to work together. While
+companies like Amazon and Etsy make it seem easy, DevOps is still an
+aspiration to many teams. What’s adding to that complexity is now is
+working across distributed environments where teams are demanding more
+flexible work arrangements.
+
+This talk explores the real-life encounters of a distributed DevOps
+team. We’ll explore what strategies teams have previously employed
+that didn’t work and what is now considered “good” communication in
+today’s DevOps environment. We’ll also show how distributed DevOps
+teams are communicating to close the gap of flexible work arrangements
+while speeding the delivery of new software into Operations.
+
+**Speaker:**
+
+Paul Brody

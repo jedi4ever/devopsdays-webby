@@ -31,4 +31,10 @@ lessons learned along the way.
 
 **Speaker:**
 
-Josh Evans, Director of Operations Engineering Netflix
+Josh Evans is a 15-year Netflix veteran with a background in
+ecommerce, video streaming services, distributed systems, tools, and
+operations. Josh is currently Director of Operations Engineering at
+Netflix and is responsible for enabling continuous improvement of
+service quality and acceleration of engineering velocity. Josh’s team
+creates and evolves Netflix Open Source tools like Asgard and the
+Simian Army, which includes the Chaos Monkey.

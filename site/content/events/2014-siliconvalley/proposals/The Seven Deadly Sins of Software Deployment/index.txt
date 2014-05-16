@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Josh Berkus
+title: "The Seven Deadly Sins of Software Deployment"
+email: josh@agliodbs.com
+handler_email: 
+---
+
+**Abstract:**
+
+Seven ways people habitually screw up software deployment
+infrastructures, performed entirely in verse.
+
+Notes: I've done this Ignite several other places and it's on YouTube.
+However, it's still a lot of fun, and it's WAY to appropriate not to
+submit it for DevOpsDays.
+
+**Speaker:**
+
+Josh Berkus is on the PostgreSQL Core Team and is also the main author
+of the HandyRep failover tool. Handyrep is a good start, but we still
+have further to go.

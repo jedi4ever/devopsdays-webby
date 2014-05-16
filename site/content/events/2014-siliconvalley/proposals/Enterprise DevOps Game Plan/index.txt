@@ -11,7 +11,7 @@ selected: false
 layout: event
 author: Navin Thdani
 title: "Enterprise DevOps Game Plan: Agile dev/test using AWS or Google Cloud for existing VMware environments"
-email: kelly@mindsharepr.com
+email: navin.thadani@ravellosystems.com
 handler_email: kelly@mindsharepr.com
 ---
 
