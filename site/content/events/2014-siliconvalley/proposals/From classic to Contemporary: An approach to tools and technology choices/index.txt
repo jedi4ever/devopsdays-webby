@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: trueselected: false
+layout: event
+author: Seema Jethani
+title: "From classic to Contemporary: An approach to tools and technology choices"
+email: seema.jethani@gmail.com
+handler_email: 
+---
+
+**Abstract:**
+
+Once upon a time, Cinderella relied on fairy god mother to make her
+dreams come true. Modern day cinderella on the other hand uses her
+intelligence, tools and technologies to achieve success. Along the
+same lines, classic software development tools and processes fail to
+deliver in the modern world. This ignite talk presents an approach to
+tools and technology choices that can be taken to transform software
+and software development processes from classic to contemporary
+
+**Speaker:**
+
+Seema is Senior Product Manager at Enstratius, a Dell Software company
+and has more than 10 years of experience in enterprise software
+development. Prior to joining Enstratius, she was competitive
+strategist at IBM and was responsible for competitive product,
+pricing, messaging, and sales strategy. She holds an MBA from Duke
+University's Fuqua School of Business, an MS in computer science from
+North Carolina State University, and a BE in computer engineering from
+the University of Mumbai. She blogs at thefightingkittens.com on
+topics related to cloud and IoT and can be found on twitter as @seemaj

@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Mark Burgess
+title: "The Future of Configuration Management (update)"
+email: mark.burgess@cfengine.com
+handler_email: 
+---
+
+**Abstract:**
+
+I´ve been giving talks like this for years but there are significant
+new things to talk about now, including the role of containers,
+"immutable patterns", networking, etc.
+
+**Speaker:**
+
+CTO and Founder CFEngine
+Author of In Search Of Certainty: The Science of our Information
+Infrastructure

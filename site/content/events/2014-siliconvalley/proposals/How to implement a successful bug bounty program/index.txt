@@ -1,0 +1,54 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Scott Klein
+title: "How to implement a successful bug bounty program"
+email: scott@statuspage.io
+handler_email: 
+---
+
+**Abstract:**
+
+[Note: Could be a panel or presentation]
+
+Recent major security breaches at Target and JCPenny have once again
+reinforced the need for sensible bug bounty programs at companies with
+significant technology components to their business (read: almost all
+companies). Major organizations like Facebook, Google, and Heroku
+already implement successful bug bounty programs, but many companies
+are still reticent to get started due to fear of results. No matter
+the size of the company, starting early sets both the culture and
+process in place as the company scales.
+
+In this talk, I’ll walk through a first-hand account of how
+StatusPage.io implemented a successful bug bounty program from
+scratch. We can walk through the policies we adopted, the types of
+testers we encountered, the results of having rewards for valid bug
+submissions, and how it’s helped us lock down our infrastructure.
+We’ll discuss the different types of rewards (from t-shirt only, all
+the way through giving actual money for valid submissions), how to
+handle the various personalities you’ll encounter with testers, as
+well as what to expect and what you should plan for when you’re first
+getting started.
+
+The effects of not having a bug bounty program are much akin to
+prohibition - black markets for crime form and everyone in general has
+a bad time. The good news is that there’s an easy solution, one that
+works with market forces, and keeps everyone sleeping well at night.
+The goal of the talk is to assuage fears about opening up your systems
+to white hat hackers, and how to convince the powers that be that it’s
+heavily in a company’s favor to go the white hat route.
+
+**Speaker:**
+
+Scott Klein, founder of StatusPage.io
+https://www.statuspage.io
+Follow @statuspageio on twitter

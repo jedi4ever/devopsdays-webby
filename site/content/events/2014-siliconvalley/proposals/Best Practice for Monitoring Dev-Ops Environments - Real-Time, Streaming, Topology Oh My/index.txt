@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+panel: true
+ignite: false
+selected: false
+layout: event
+author: Ken Rutsky
+title: "Panel: Best Practice for Monitoring Dev-Ops Environments - Real-Time, Streaming, Topology Oh My!"
+email: krutsky@boundary.com
+handler_email: loretta@boundary.com
+---
+
+**Abstract:**
+
+DevOps and WebScale applications are fast to build change and scale.
+But they are also fast to fail, in fact kinda by design. This puts
+tremendous pressure on Operations teams to anticipate and get ahead of
+degradations and anomalies before they cause outages.  What are the
+best practice for instrumenting, monitoring and managing these  modern
+services?  What legacy tools and processes work and don't work?
+
+How necessary are real-time visibility into service topology and
+continuos performance monitoring to success? How are today's leaders
+coping with the risk of change and the demands of the business for
+extremely high levels of availability and scale? How can you turn
+monitoring into a value creating business service Learn from a expert
+panel of both practitioners and thought leaders.
+
+This topic is of high interest because the very practice of monitoring
+and managing applications is in flux and changing rapidly. Simply
+using open-source tools or legacy products won't work. There is high
+value in sharing experience and advise in this area.
+
+
+**Speaker:**
+
+Panel Organizer: Ken Rutsky Boundary.com

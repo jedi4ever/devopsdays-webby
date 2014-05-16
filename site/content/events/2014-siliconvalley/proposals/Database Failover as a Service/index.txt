@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Josh Berkus
+title: "Database Failover as a Service"
+email: josh@agliodbs.com
+handler_email: 
+---
+
+**Abstract:**
+
+Workshop / Panel
+
+Thanks to modern devops tools, most applications today can be deployed
+with some degree of "self-healing". But Relational databases (in this
+case, Postgres) still generally involve a descent into shell-scripting
+land and manual failovers. How can we make database failover automatic
+but trustworthy?
+
+**Speaker:**
+
+Josh Berkus is on the PostgreSQL Core Team and is also the main author
+of the HandyRep failover tool. Handyrep is a good start, but we still
+have further to go.
