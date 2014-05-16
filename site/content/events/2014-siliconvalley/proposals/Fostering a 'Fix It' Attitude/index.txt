@@ -35,4 +35,11 @@ organization to appreciate the importance of limiting technical debt.
 
 **Speaker:**
 
-Tim Heckman Operations Engineer PagerDuty, Inc.
+Tim Heckman is an Operations Engineer who started his roots as a
+full-stack engineer. He's currently employed at PagerDuty in San
+Francisco and his daily responsibilities include infrastructure
+automation, firefighting, and the occasional Yak shaving. Prior to
+working at PagerDuty he was a developer / sysadmin with Linode in NJ.
+When not working you can either find him contributing to his personal
+open source projects, enjoying some type of video game, or consuming a
+famous San Francisco Mission Burrito."

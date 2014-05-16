@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Bridget Kromhout
+title: "How I Learned to Stop Worrying and Love DevOps"
+email: bridget@kromhout.org
+handler_email: 
+---
+
+**Abstract:**
+
+I was a college-student BOFH, an ISP sysadmin, and an academic IT
+manager. If I wanted a curmudgeonly sysadmin, I could just look in a
+mirror. Most developers were unlikely to be granted root on any
+systems whatsoever, and servers were carefully hand-whittled works of
+art. You know, The Way Things Were.
+
+Moving to a role doing operations at a developer-centric startup was
+both a culture shock and a great learning experience. I'll discuss
+what worked for me (and what was challenging!) in terms of my
+transition to a DevOps practice.
+
+Spoiler alert: change is scary, but awesome developers on the team
+make it much easier for an old-school sysadmin to be assimilated into
+the DevOps of Borg. Wacky hijinx ensue, and there's a hilarious coda:
+as it turns out, having your startup acquired means that in IT's view,
+you're the cowboy now! All sorts of empathy potential!
+
+**Speaker:**

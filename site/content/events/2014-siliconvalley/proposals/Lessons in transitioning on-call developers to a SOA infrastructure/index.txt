@@ -32,3 +32,8 @@ to, and the cultural strategies for keeping your engineers’ urge to
 kill each other from rising.
 
 **Speaker:**
+
+Owen has been a developer at PagerDuty for two years working on its
+highly available platform for processing critical alerts. Today, he
+focuses on a reliable messaging service that ensure all calls,
+messages, and emails are timely received by customers.
