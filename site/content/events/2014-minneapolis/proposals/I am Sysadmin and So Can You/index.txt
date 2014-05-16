@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 9
+title: "I am Sysadmin and So Can You!"
+---
+
+**Abstract:**
+
+My intended audience are developers who are either unfamiliar with or don't know where to start on learning how to set up their own servers.                    
+                                                                                
+The current draft is in two parts:                                              
+* Briefly explain the benefits of a developer dabbling in ops (career potential, easier to communicate with ops with common ground, exposure to new ideas)      
+* Demo using Vagrant/Chef/Berkshelf and open-source Chef cookbooks to get started building a server locally and deploying it to Digital Ocean.           
+                                                                                
+Starting with an empty directory, set up Vagrant and Berkshelf to set up a VM, iterate on it until Nginx is serving something and I can poke around the server. Then, simply recreate that server on Digital Ocean reusing all the work of setting it up locally. Time allowing, this can expand to learning a bit about Nginx and setting up DNS.                                                
+                                                                                
+This won't be comprehensive training. My goal is to demonstrate how easy it is to get started managing your own inexpensive server. I want to encourage experimentation rather than focus on 'here's the right way to set up a server'. From there the world's your oyster.                   
+
+**Speaker:**
+Speaker 9
+
