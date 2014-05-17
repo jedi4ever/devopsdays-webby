@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Ho Ming Li
+title: "5 common barriers when introducing devops"
+email: homingli@activestate.com
+handler_email: 
+---
+
+**Abstract:**
+
+Is it really about the tools? Or is it really about humans? In this
+ignite talk, Ho Ming discusses some of the common barriers he has
+consolidated over the last several years talking to developers, IT
+ops, managers, and executives who looked to introduce devops into
+their organization.
+
+**Speaker:**
+
+Ho Ming Li, Cloud Solution Architect, ActiveState
+
+As a Solution Architect, Ho Ming always has the customer's interest in
+mind, always gathering customer requirements, working directly with
+customers to understand how ActiveState Stackato can solves customer
+problems and integrate seamlessly into their development workflow.

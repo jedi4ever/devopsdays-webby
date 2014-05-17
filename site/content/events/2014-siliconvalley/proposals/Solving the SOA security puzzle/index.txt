@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Evan Gilman
+title: "Solving the SOA security puzzle"
+email: evan@pagerduty.com
+handler_email: 
+---
+
+**Abstract:**
+
+Let's face it - the security models from yesterday are simply not well
+suited for a service oriented architecture. Unfortunately, the path
+forward is not always clear. This only gets worse when your
+infrastructure is cloud-based, possibly existing across many disparate
+providers. In this session, we will discuss the best ways to secure
+your SOA infrastructure, regardless of whether it is running on your
+hardware or not.
+
+**Speaker:**
+
+I'm Evan Gilman, an Operations Engineer at PagerDuty. I have a strong
+network and security background, and was previously working in
+academia.

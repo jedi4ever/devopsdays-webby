@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: James Urquhart
+title: "DevOps as Relationship Management: How to keep systems of services happy"
+email: james.urquhart@enstratius.com
+handler_email: 
+---
+
+**Abstract:**
+
+Presentation and/or Moderated General Discussion
+
+While much has been written and said about using DevOps approaches to building and operating individual applications and services, what happens when you have 50 or 100 or even 1000 services running across geographies and technologies, all interconnected in ever changing ways? How do you plan to keep such systems happy and alive.
+This session will address the following specific building blocks for building answers to that question:
+- What are complex systems, and what are their most common traits
+- Why managing relationships between services is almost more important than managing the services themselves from a systems perspective
+- General approaches to the problem, including monitoring/visualization, use of Circuit Breaker and other patterns, and the importance of “horizontal” communication among dev and ops teams working on different projects
+- How to view the Internet and 3rd party services with respect to system availability
+- What the future of “systems” operations may look like.
+- Possibly a general discussion about what others are thinking/seeing/doing in this regard
+This talk will combine a lot of the concepts I’ve written about on GigaOm with ideas and practices being worked on today.
+
+**Speaker:**
+
+James Urquhart
+Director of Product, Cloud Management Systems Dell | Software
+twitter: @jamesurquhart
+blog: http://gigaom.com/author/jurquhart
+

@@ -1,0 +1,60 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Ali Hussain
+title: "In-house AWS spot strategy to optimize price & performance: an In-Depth review"
+email: vishnu@flux7.com
+handler_email: vishnu@flux7.com
+---
+
+**Abstract:**
+
+AWS cloud offers tremendous opportunities to tailor the infrastructure
+to ones needs. It is possible to choose compute resources with varying
+performance characteristics (e.g., m1.large vs. c3.xlarge), different
+pricing models (reserved vs. on-demand), and different levels of
+reliability (reserved vs. spot). Providing high performance at low
+cost in AWS can be achieved by intelligently choosing what’s best for
+the application(s) at hand. In this talk, I will present tips and
+tricks for optimizing DevOps within AWS deployments.
+
+
+The talk will focus on Yactraq, a video processing company, and how
+they are cutting their costs by 65%+ on average using an approach that
+leverages the spot instance market. Yactraq can’t choose the timing of
+their spot instance use: their end-customer application facing
+real-time APIs mean they MUST deliver constant performance, continuous
+delivery at near 100% uptime and meet a performance SLA.
+
+The capacity demand of the system is volatile as it not only depends
+on the number of API calls from customers, but also the length and
+quality of the videos being processed. Yactraq sees sudden surges of
+demand that are as high as 70x typical demand. A priority for
+Yactraq’s IT department is managing how high performance computing can
+be balanced with costs and variations in demand.
+
+Their solution now automatically applies AWS Spot strategies, keeping
+costs down and performance up and dipping into reserved instances as
+needed. After successfully processing more than 60-million seconds of
+video,the solution has lowered the on-demand price for Yactraq by 80%,
+compared to a 64% overall savings previously.
+
+**Speaker:**
+
+Ali Hussain, CTO & Co-Founder at Flux7 Inc, has been designing
+scalable and distributed systems for the last decade. He acquired his
+passion for distributed systems while earning his MS at the University
+of Illinois at Urbana-Champaign. His current interests in Flux7 are in
+Enterprise Migration and AWS Spot instances.
+
+Twitter: @Ali_A_Hussain
+LinkedIn: www.linkedin.com/in/aliasgharhussain
+AWS Certified Solutions Architect and AWS Certified Developer

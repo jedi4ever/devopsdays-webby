@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Mercedes Coyle
+title: "Onboarding and Mentoring Apprentices with DevOps Culture"
+email: mcoyle@ulive.com
+handler_email: 
+---
+
+**Abstract:**
+
+Our work, industry, and culture can benefit from bringing fresh eyes
+into engineering. I’ve personally heard from many industry veterans
+that they want to mentor new engineers in their workplace, and
+desperately need new talent, but don’t know where to start initiating
+a program or convincing an organization that junior engineers will add
+value to a team. I’ve been very fortunate to have some fantastic
+mentorship in the beginning of my career, and have been paying it
+forward by mentoring and advising new engineers. My mentor Gary Foster
+and I gave a version of this talk last year at DevOpsDays Silicon
+Valley, and I thought it would be valuable to do a follow up
+conversation about results of our mentoring process one year in. In
+addition, I’ve also collected data from an onboarding and mentorship
+survey to gather information about what has and hasn’t worked for
+onboarding new engineers.
+
+In this talk, I’ll cover the following: 
+* What to look for when hiring an Apprentice 
+* Skills new engineers bring to the table
+* DevOps culture and methodologies provide an excellent framework for onboarding and mentoring
+* Top fears of new engineers, and how to help mitigate them
+* Setting expectations for Apprentices and Mentors
+* Mentor, Apprentice, and Company responsibilities
+* The Apprentice => Journeyman => Master progression
+* Making space in your team for Apprentices
+* How to interview a Junior Engineer
+* The importance of knowledge sharing and growing the community
+* Resources to get started mentoring, even if you can’t do so right away with your company
+
+**Speaker:**
+
+Mercedes Coyle is a Data Infrastructure Engineer with ulive.com,
+recent apprentice, and mentor to budding engineers.

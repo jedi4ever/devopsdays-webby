@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Aater Suleman
+title: "Quick and Easy Multi-tenancy using Docker"
+email: vishnu@flux7.com
+handler_email: vishnu@flux7.com
+---
+
+**Abstract:**
+
+Converting a B2B SaaS application into a multi-tenant platform is a
+complex challenge. It requires sprinkling the code with the notion of
+multi-tenancy. For example, the logo of each tenant is different and
+one has to program the logo path to be dynamic rather than static.
+This method typically costs development resources, pollutes the code,
+lowers performance, and leads to bugs and rigidity in the code.
+
+When faced with a similar challenge at Flux7 Labs, we took a DevOps
+approach, with perspective across both functional areas to achieve the
+best outcome for our clients. Our application was a complex Internet
+of Things app built to monitor solar panels in the field and display
+analytics in a web portal for a solar panel installer. Rather than
+transforming our code to be multi-tenant, to handle multiple
+installers, we built a multi-tenancy layer on top of the existing code
+using Docker containers. In only two weeks, Docker helped us go from a
+single-tenant app to a multi-tenant app with minimal resource cost.
+This talk will describe our motivation, solution, and the lessons we
+learned.
+
+**Speaker:**
+
+Aater Suleman, CEO & Co-Founder at Flux7 Inc, is an industry veteran
+in performance optimization on servers and distributed systems. He
+earned his PhD at the University of Texas at Austin, where he also
+currently teaches computer systems design and architecture. His
+current interests are in optimizing DevOps and reducing cloud costs.
+Mr Suleman regularly presents at Meetups, user groups and other
+events.
+
+Twitter: @FutureChips
+LinkedIn: www.linkedin.com/in/aatersuleman 
+AWS Certified Solutions Architect

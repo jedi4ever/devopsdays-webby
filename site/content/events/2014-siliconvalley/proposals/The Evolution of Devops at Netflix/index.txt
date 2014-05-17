@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Josh Evans & Jeremy Edberg
+title: "The Evolution of Devops at Netflix"
+email: jedberg@gmail.com
+handler_email: 
+---
+
+**Abstract:**
+
+Over the years Netflix has adopted various operational and
+organizational models. In our data centers we had monolithic systems
+and centralized operations. When we moved to the cloud we fully
+embraced distributed services and the devops model. Now, with
+experience, we’ve uncovered real-world challenges with this model and,
+as a result, have embraced more effective hybrid approaches.
+
+The devops model is a perfect fit for Netflix’s freedom and
+responsibility culture. We like to move fast and we value autonomy.
+However, we’ve discovered challenges along the way. Specifically, how
+do we reconcile local agility and ownership with the achievement of
+system-wide objectives, such as the overall quality and reliability of
+a large scale distributed environment?
+
+As an exercise, we’ll follow Netflix’s evolution from monolithic
+systems in traditional data centers, with centralized operations, to
+distributed functions and services in the cloud. We’ll delve into the
+challenges of centralization and decentralization at the extremes,
+then share more nuanced and effective models which balance the two.
+
+Ideally attendees will learn what pitfalls to avoid when embracing
+devops and their organizations.
+
+**Speaker:**
+
+Josh Evans, Director of Operations Engineering; Jeremy Edberg, Data Wrangler

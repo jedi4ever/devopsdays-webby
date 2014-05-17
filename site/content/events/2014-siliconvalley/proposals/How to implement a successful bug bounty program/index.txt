@@ -49,6 +49,8 @@ heavily in a company’s favor to go the white hat route.
 
 **Speaker:**
 
-Scott Klein, founder of StatusPage.io
-https://www.statuspage.io
-Follow @statuspageio on twitter
+Scott Klein is an entrepreneur and armchair philosopher living in Fort
+Collins, CO. He's currently the cofounder and CEO of StatusPage.io, a
+hosted status page SaaS tool for web and infrastructure companies.
+Scott enjoys building and flying drones, fumbling about in the
+kitchen, and being the least flexible person at yoga.

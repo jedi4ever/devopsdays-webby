@@ -1,0 +1,50 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Aater Suleman
+title: "A Critical Look at Six Deployment Methods of Ruby on Rails in AWS"
+email: vishnu@flux7.com
+handler_email: vishnu@flux7.com
+---
+
+**Abstract:**
+
+This talk is the gist of our research, experiments, and customer feedback on different techniques for deploying Ruby on Rails in AWS . The fundamental issue is: what gets baked in an AMI vs. what gets deployed when an AWS instance is actually launched. Large companies like Netflix bake everything including code in an AMI and have an elaborate mechanism for deploying new code in production. Smaller teams prefer to keep code separate from the environment and hence the code is not baked in the AMI. Amazon shows case studies with stock AMIs that bootstrap at launch. In this talk, we’ll share best practices in choosing a Ruby on Rails deployment keeping client needs and a DevOps approach in mind.
+
+Our premise is a deployment for a small startup with fewer than 20 developers, each needing to host a webapp that’s gaining traction and for which rapid growth is expected. Its requirements are as follows:
+Autoscaling support to handle expected surges in demand.
+Maximizing developer efficiency by automating tedious tasks and improving dev flow.
+Encouraging mature processes for building a stable foundation as the codebase grows.
+Maintaining flexibility and agility to handle hotfixes of a relatively immature codebase.
+Counting on a few sources to fail, since any of them can cause deployment failure—imagine github failing or a required plugin becoming unavailable.
+
+We assume the codebase is using Ruby on Rails and examine various deployment choices in detail, walk through a thorough analysis, list pros and cons, and then provide recommendations. Deployment choices include:
+
+1. The Plain Vanilla AMI Method
+2. The Bake-Everything AMI Method
+3. A Hybrid Method Using Chef to Handle Complete Deployment
+4. A Hybrid Method Using Capistrano to Handle Code Deployment
+5. The AMI-Bake and CRON-based Chef-client Method
+6. The Cloud-Init and Docker Method
+
+**Speaker:**
+
+Aater Suleman, CEO & Co-Founder at Flux7 Inc, is an industry veteran
+in performance optimization on servers and distributed systems. He
+earned his PhD at the University of Texas at Austin, where he also
+currently teaches computer systems design and architecture. His
+current interests are in optimizing DevOps and reducing cloud costs.
+Mr Suleman regularly presents at Meetups, user groups and other
+events.
+
+Twitter: @FutureChips
+LinkedIn: www.linkedin.com/in/aatersuleman 
+AWS Certified Solutions Architect
