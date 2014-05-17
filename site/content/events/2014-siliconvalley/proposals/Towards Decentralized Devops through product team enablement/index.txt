@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Cædman Oakley
+title: "Towards Decentralized Devops through product team enablement"
+email: cads@ooyala.com
+handler_email: 
+---
+
+**Abstract:**
+
+(Could also be an ignite talk)
+
+In developing Atlantis, we have provided our various engineering
+teams, with the ability to seamlessly configure and manage deployments
+of their applications. With containerization and flexible routing,
+understanding the impact and scale of an application is now shared
+with the application development teams.
+
+Teams can now easily spin up new versions of their apps in production
+along side existing versions. This means that we can move traffic over
+gradually which allows us to speedily adjust if things do not perform
+as expected.
+
+The traditional Operations role of managing systems over which we have
+no control is now reduced, allowing us to spend time on scaling,
+tooling and building out infrastructure to handle our next generation
+products.
+
+Product Engineers are now able to see how their applications work and
+are managed in real world scenarios. The time and effort is now
+devoted to creating new product and working in partnership with
+DevOps. This partnership is vital, removing the "us and them” culture
+of traditional Operations and Engineering organizations, and enabling
+a faster more accurate time to delivery.
+
+Atlantis is a fully container based deployment system. Applications
+are now safely deployed, routing for multiple versions is handled
+flexibly, and teams can easily see and manage their dependencies, even
+in multiple environments.
+	
+**Speaker:**
+
+Cædman 'cads’ Oakley
+Application Infrastructure

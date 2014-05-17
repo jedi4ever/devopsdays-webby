@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Michael Stahnke
+title: "Organizational Learning through Trolling"
+email: stahnma@puppetlabs.com
+handler_email: 
+---
+
+**Abstract:**
+
+Learning, from both an individual and organizational perspective, is
+one of the pillars of DevOps; there are unorthodox changes to team and
+culture that can move your organization forward. At first pass, this
+may seem like it requires classroom settings, formal structure (trust
+falls), and frameworks for learning. Those things may all work, but
+the heart of organizational learning and problem solving become part
+of your team’s culture by constantly striving for new ways to look at
+problems -- including trying to come up with the worst solutions
+possible to problems, playing devil’s advocate, and sometimes delaying
+decisions until absolutely required. In other words, you can build a
+learning culture by trolling your team, and expecting to be trolled.
+
+
+Techniques discussed in this presentation will apply to teams of all
+sizes, both from the startup and enterprise world. You can start with
+a bottom-up approach for improvement and learning; even if you’re not
+doing rockstar-ninja automation and deploying 23 ½ times a day. This
+talk will not focus on tools, but rather procedural and cultural
+improvements that can make your team better.
+
+**Speaker:**
+
+Michael Stahnke
+@stahnma

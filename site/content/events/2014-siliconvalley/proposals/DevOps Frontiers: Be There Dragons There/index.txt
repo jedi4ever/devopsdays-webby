@@ -1,0 +1,50 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+panel: true
+ignite: false
+selected: false
+layout: event
+author: Evan Powell
+title: "DevOps Frontiers: Be There Dragons There?"
+email: evan@stackstorm.com
+handler_email: ellen.morton@stackstorm.com
+---
+
+**Abstract:**
+
+Panel Participants:
+Evan Powell, CEO of StackStorm (moderator)
+James Fryman, DevOps Engineer, GitHub (renowned DevOps guru)
+Reinhardt Quelle, Operations Architect, Cisco Systems (big time figure in OpenStack and DevOps)
+Patrick Hoolboom, StackStorm “Stormer” (DevOps unicorn)
+
+
+Software is truly “eating the world,” and DevOps has changed the way
+software is built and operated. There is a massive shift in IT,
+brought on by the move to the cloud, towards a DevOps approach for
+building and operating software, leading to an improvement in
+productivity. By adopting this approach, organizations can experience
+the same advancements currently being experienced by DevOps engineers
+– a 10-100x increase in productivity. In this panel, industry DevOps
+leaders will discuss how organizations can make the shift and embrace
+the DevOps movement. They will discuss the technical and practical
+limitations of DevOps adoption and the steps that need to be taken by
+companies to make the transition.
+
+Topics that the panel will explore include:
+● What are the technical and practical limitations to DevOps adoption? Can you be “too”
+DevOps?
+● Is it possible to manage legacy infrastructure and apps in a DevOps friendly way?
+● The pink sombrero, flying squirrels and other tips for DevOps and overall happiness?
+● What is the state of the state? Do long convergence times imperil the notion that “the
+state is in the repo?”
+● Carrots vs sticks: encouragement vs dictates, experience in getting
+adopted
+
+**Speaker:**

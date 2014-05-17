@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Randy Shoup
+title: "The Game of Operations and the Operation of Games"
+email: rshoup@kixeye.com
+handler_email: 
+---
+
+**Abstract:**
+
+Operating online games is fun and challenging. Games are some of the
+spikiest workloads around, and real-time really means *real-time*.
+Randy will share many of the DevOps techniques he has put into
+practice at KIXEYE: autonomous teams, micro-services, configuration
+automation, a common service "chassis", and, of course, "you build it,
+you run it"!
+
+Because the DevOps worldview is as applicable to large organizations
+as it is to small startups, he will further share war stories from
+building, maintaining, enhancing, and operating eBay’s search
+infrastructure and Google’s App Engine PaaS, each of which has
+strongly informed the approach at KIXEYE.
+
+**Speaker:**
+
+Randy Shoup is the Chief Technology Officer at KIXEYE, making awesome
+games scalabler and reliabler. Previously, he was Director of
+Engineering at Google, leading several teams building Google App
+Engine, the world's largest Platform as a Service. Prior to Google, he
+spent 6 1/2 years as Chief Engineer at eBay, building several
+successive generations of eBay's real-time search engine.
+
+Randy speaks regularly at conferences on distributed computing and
+large-scale infrastructure, and is particularly interested in how
+organizations move rapidly at scale.

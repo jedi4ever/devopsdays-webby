@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Tanay Nagjee
+title: "Building QA into the Continuous Delivery Process – a Pipeline Approach"
+email: anna.imbierowicz@catapultpr-ir.com
+handler_email: anna.imbierowicz@catapultpr-ir.com
+---
+
+**Abstract:**
+
+One of the key promises of Continuous Delivery is high-quality software delivered faster. Sounds great, but what’s needed is a blend of process and technical approaches to make it a reality. During this session Tanay will outline a proven pipeline approach that brings QA further into both DevOps and Continuous Delivery.
+
+This presentation will outline how DevOps teams can ensure QA is fully integrated into the Continuous Delivery pipeline by:
+
+·         Compiling a web application using uncommitted changes
+
+·         Dynamically provisioning an integration environment via OpenStack
+
+·         Using Chef to configure the environment to run a Tomcat server
+
+·         Deploying the web application to the Tomcat server and running a set of integration tests
+
+·         Handing it over to QA so they can run their automated and manual test suites
+
+·         Waiting for the QA team to approve or reject the changes
+
+·         Tearing the dynamically provisioned integration environment down when the tests are complete
+
+·         Creating a code review request in ReviewBoard and waiting for approval
+
+·         Automatically resolving the Redmine defect and committing the changes to SVN if everything is successful
+
+Building an automated framework and integration strategy maximizes the utilization of OpenStack and leverage technologies like Chef, ReviewBoard and Redmine.  This approach allows IT operations to provide not only an elastic production environment against which developers test built artifacts, but also a process to ensure QA is a vital link in the DevOps and Continuous Delivery process.
+
+
+**Speaker:**
+
+Tanay Nagjee is a solutions engineer at Electric Cloud, a company he
+joined in 2006 after graduating from UC Berkeley with a B.S. in
+Electrical Engineering and Computer Science. A technical software
+engineer for more than five years, he developed several core features
+of Electric Cloud’s ElectricCommander automation platform. Currently
+he solves complex software delivery problems for global software
+organizations.

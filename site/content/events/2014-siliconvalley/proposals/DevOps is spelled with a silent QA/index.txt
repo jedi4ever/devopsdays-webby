@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Jonah Stiennon
+title: "DevOps is spelled with a silent QA"
+email: jonahss@saucelabs.com
+handler_email: 
+---
+
+**Abstract:**
+
+This proposed talk is to serve as a reminder that DevOps is about
+breaking down the walls between Dev, Ops, and QA. Despite not being in
+the name, it is essential to include QA in the conversation within a
+DevOps organization and work cycle. As the DevOps community has
+matured, more and more attention is given to programmatic machine and
+network configuration, and it is time to do the same for the many
+tasks of QA.
+
+This talk will highlight how QA is important and relevant to DevOps,
+outlining the new roles of QA such as the necessity of automated
+testing, but allay fears of QA professionals being rendered obsolete.
+I will also discuss tools and programming concepts (such as the Page
+Object Model) which can be applied to improve communication between QA
+and Devs/Ops.
+
+**Speaker:**
+
+Jonah Stiennon is a Software Developer at Sauce Labs on the Ecosystem
+and Integrations team. Sauce Labs provides a cloud hosted Selenium
+Testing API, which allows developers to run Functional tests against
+websites and mobile devices, in parallel across a large number of
+platforms. The Ecosystem is team made up of developers whose
+responsibility is to create/maintain open source projects which people
+use to run tests through Sauce Labs. Most recently he has been working
+on Appium, an open source project equivalent to Selenium that allows
+for simulating user interaction with iOS and Android devices.

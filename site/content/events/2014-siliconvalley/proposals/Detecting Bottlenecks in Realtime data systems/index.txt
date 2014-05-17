@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Mercedes Coyle
+title: "Detecting Bottlenecks in Realtime data systems"
+email: mercul3s@gmail.com
+handler_email: 
+---
+
+**Abstract:**
+
+At ulive.com, we run a realtime events system for ad-hoc log file
+analysis and metrics. Immediate access to system and business data is
+critical for our day to day operations. The first system we built
+worked great for about six months, until we discovered intermittent
+throughput issues and backlogging gremlins were plaguing this system.
+Even worse, we were dropping log messages when our messaging rate
+spiked. In this talk, I’ll tell a story about how we approached the
+bottleneck issue, pinpointed holes in our architecture, and what we're
+doing to fix it.
+
+**Speaker:**
+
+Mercedes Coyle is a Data Infrastructure Engineer with ulive.com.

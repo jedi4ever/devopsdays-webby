@@ -1,0 +1,74 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Cædman Oakley
+title: "Application deployment and management with Atlantis"
+email: cads@ooyala.com
+handler_email: 
+---
+
+**Abstract:**
+
+This talk will present Atlantis, a new Docker-based deployment system
+which makes it easy to safely deploy applications in the cloud,
+flexibly configure routing among multiple versions, and handle
+dependencies among applications in multiple environments.
+
+	
+Deploys in any organization can be painful. Different engineering
+teams use different, and sometimes subtly incompatible, scripts.
+Leftovers from previous deploys can break new ones, or magically make
+new ones work. Rolling back is poorly tested, painful, slow, and
+sometimes just doesn’t work. Rolling out a feature that a new customer
+needs may break older features another one relies on.
+
+Virtual machines and containers make it easy to solve some of these
+problems in the cloud, but are not the whole solution. Yes, you may
+get isolated systems and that can be deployed independently and
+quickly. But how do you know where to send traffic? How do apps talk
+to each other? How do you make sure apps that shouldn’t talk to each
+other don’t?
+
+Enter Atlantis, a new Docker-based deploy and application management
+system we've built at Ooyala. Running in a cloud or on raw hardware,
+it uses Docker containers to split machines into single-application
+partitions, then provides a custom router to intelligently determine
+where to send traffic. Atlantis already has templates to build
+containers for apps written in popular languages.
+
+The router can flexibly direct HTTP traffic based on the request and
+the applications deployed in Atlantis. Want to do a slow rollout? Just
+add a rule to send a fraction of traffic for the application to the
+new version. Want to route traffic to different versions of an app
+based on the customer making the request? Sure, add a rule, and it’s
+active nearly instantaneously.
+
+Getting a new version of an app to production is easy. Build, deploy
+and now it's now running in parallel with the old. Traffic can be
+gradually moved over, and containers running the old version torn down
+slowly until all traffic is on the new version. To roll back simply
+send traffic back to the old containers.
+
+That leaves only one small problem for most deployments. Maintain one
+Atlantis cluster for staging, another for integration and yet another
+for production? Well, you could use environments instead. Think of an
+environment is a set of ‘sandboxed’ applications talking to each
+other, with a little plumbing magic sprinkled on top. Environments are
+cheap, in fact any developer who likes to test-by-deploying can have
+his own!
+
+We will also briefly cover other related topics, including security
+and scaling.
+
+**Speaker:**
+
+Cædman 'cads’ Oakley
+Application Infrastructure

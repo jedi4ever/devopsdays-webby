@@ -35,3 +35,11 @@ as it turns out, having your startup acquired means that in IT's view,
 you're the cowboy now! All sorts of empathy potential!
 
 **Speaker:**
+
+Bridget Kromhout does operations at Fluid after years as a sysadmin at
+ISPs and in academia. Software engineering was optional when she
+studied Computer Science at the University of Minnesota, so she took
+more math instead; this ensured that she'd end up in software. She
+likes HBase, Graphite, FreeBSD, bicycle-powered camping, and
+butchering pumpkins for home canning. In what remains of her free
+time, she's the lead organizer for DevOpsDays Minneapolis.

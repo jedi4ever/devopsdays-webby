@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Mike Place
+title: "Scalable container management"
+email: mp@saltstack.com
+handler_email: 
+---
+
+**Abstract:**
+
+Linux containers are exploding in popularity especially among
+developers and in many ways are becoming the new virtual machine. But
+like we saw with virtual machines, without proper management and
+instrumentation we could end up with sprawl and inefficiencies. To
+take full advantage of the developmental and operational benefits of
+Docker and LXC, many systems automation tools now include support for
+the oversight and management of containers to allow containers to
+scale in large deployments.
+
+This talk will discuss the merits of both image and configuration
+management and how they can be better together. The talk will also
+demonstrate management of Docker and LXC containers across multiple
+physical servers including starting, stopping, freezing, cloning and
+creating new containers. Because containerization at scale is good for
+everybody.
+
+**Speaker:**
+

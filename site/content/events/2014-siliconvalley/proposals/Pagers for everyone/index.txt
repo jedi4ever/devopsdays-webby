@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+layout: event
+author: Evan Gilman
+title: "Pagers for everyone!"
+email: evan@pagerduty.com
+handler_email: 
+---
+
+**Abstract:**
+
+It is really hard for non-engineers to understand what it is like to
+be on-call. Often times, they feel as if we somehow 'work less',
+especially when they see us come in late, unaware that we were hard at
+work at 4am. Luckily, there is a solution to all this awkward
+tension... put everyone on-call! We will talk about what it takes to
+get the whole company on board, and how you can make that us-vs-them
+gap a little bit smaller.
+
+**Speaker:**
+
+I'm Evan Gilman, an Operations Engineer at PagerDuty. I have a strong
+network and security background, and was previously working in
+academia.
