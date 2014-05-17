@@ -27,3 +27,9 @@ process of getting there, the challenges we encountered along the way,
 and how we measure success.​
 
 **Speaker:**
+
+Wolfgang Gottesheim has several years of experience as a software
+engineer and research assistant in the Java enterprise space.
+Currently he contributes to the strategic development of the dynaTrace
+enterprise solution as a Technology Strategy in the Compuware APM
+division.

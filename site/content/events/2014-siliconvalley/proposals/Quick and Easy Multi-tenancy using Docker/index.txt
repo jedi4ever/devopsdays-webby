@@ -11,7 +11,7 @@ selected: false
 layout: event
 author: Aater Suleman
 title: "Quick and Easy Multi-tenancy using Docker"
-email: vishnu@flux7.com
+email:  aater@flux7.com
 handler_email: vishnu@flux7.com
 ---
 

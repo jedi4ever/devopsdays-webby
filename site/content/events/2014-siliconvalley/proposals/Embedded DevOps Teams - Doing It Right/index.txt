@@ -37,4 +37,13 @@ discussion, the DevOps person herself.
 
 **Speaker:**
 
-Rishi Pande, Service Reliability Engineering Manager, Twitter Inc.
+Rishi walks with a team of bright site reliability engineers that work
+with several product teams at Twitter, Inc. The team self-optimizes
+itself to deliver efficiently on interrupts as well as delivering on
+high impact quarterly projects. At the end of the day, Rishi and his
+team are looking to "move the needle".
+
+Earlier in life, Rishi spent 7 years at Yahoo, Inc. in a very similar
+role. He was an utter failure at a start-up attempt 10 years ago, and
+would have loved to fail some more at it, but unfortunately gave up to
+the temptations of succeeding elsewhere. More at fryol.net.
