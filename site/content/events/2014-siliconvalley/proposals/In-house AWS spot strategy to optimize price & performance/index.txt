@@ -9,9 +9,9 @@ talk: false
 ignite: true
 selected: false
 layout: event
-author: 
+author: Ali Hussain
 title: "In-house AWS spot strategy to optimize price & performance"
-email: vishnu@flux7.com
+email: ali@flux7.com
 handler_email: vishnu@flux7.com
 ---
 
