@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Speaker 9
-title: "I am Sysadmin and So Can You!"
+title: "A Gentle Introduction to Running Your Own Server"
 ---
 
 **Abstract:**
