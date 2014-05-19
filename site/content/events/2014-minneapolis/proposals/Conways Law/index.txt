@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 12
+title: "Conway's Law: The Skeleton Of Devops"
+---
+
+**Abstract:**
+
+Devops is about communication. In order to make better software, we seek out diverse viewpoints, use a common vocabulary, and encourage transparency.    
+
+But despite all this focus on communication, we don't have much of a framework to guide our decisions.                                               
+
+"Should we do continuous integration?"
+
+"Why not? People seem to like that." 
+
+"What about ChatOps?"
+
+"Sure, yeah; it works for GitHub."
+
+Well, there's a half-forgotten rule -- first stated 46 years ago -- that can guide us through these decisions. It's called Conway's Law:
+
+Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.
+
+I'll show how Conway's Law is derived, how it's been empirically tested, and how it informs so much of what we do in devops. I want my audience to walk away with a new tool for spreading devops, shaping cross-team communication, and moving forward with confidence. 
+
+**Speaker:**
+Speaker 12
+
