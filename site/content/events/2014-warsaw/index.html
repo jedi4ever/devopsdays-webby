@@ -1,0 +1,53 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: Welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center>
+  <img border="0" src="logos/warsaw.png" alt="DevOpsDays Warsaw">
+</center>
+<center>
+  <table>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>
+        <a href="location/">
+          To be announced!
+      </td>
+    </tr>
+    <tr>
+    <td><b>Participants</b></td><td><b><a href="registration/">Register now!</a></b></td></tr>
+    <tr>
+      <td><b>Speakers</b></td>
+      <td>Our call for <a href="propose/">Proposals</a> is due to be announced!</td>
+    </tr>
+    <tr>
+      <td><b>Program</b></td>
+      <td><a href="program/">Program</a> will come up shortly after closing date for our <a href="propose/">Proposals</a>.</td>
+    </tr>
+    <tr>
+      <td><b>Sponsorship</b></td>
+      <td><a href="sponsor/">Sponsorship opportunities</a> are still available. Help us make this event an outstanding one!</td>
+    </tr>
+    <tr>
+      <td><b>Contact</b></td>
+      <td><a href="contact/">Get in touch with the Organisers</a>.</td>
+    </tr>
+  </table>
+</center>
+<center>
+  <a href="http://groups.google.com/group/devopsdays">Subscribe to the DevOpsDays mailing list</a>
+</center>
