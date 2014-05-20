@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 13
+title: "Devops Is Dead (Long Live Devops)"
+---
+
+**Abstract:**
+
+The idea of devops has come a long way in the few years since its creation. While it started as a movement so small that only a few people had even heard of it, it has grown into something that can be found nearly everywhere in the tech industry, from any piece of software that involves configuration or automation to huge conferences and expos packed with more commercial vendor pitches than actual content. Some people have seen this and declared that devops has jumped the shark, that the term has been used for so many things that it no longer has any meaning.  
+
+So where do we go from here? More than just teaching sysadmins how to write code or giving developers root access, devops was originally a movement that aimed to reduce friction between development and operations teams. By applying these principles and the lessons that have been learned to other organizational pain points, we can give new meaning to the term and use that to improve both our companies and our community.
+
+**Speaker:**
+Speaker 13
+
