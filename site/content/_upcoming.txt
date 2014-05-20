@@ -1,5 +1,40 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2014-amsterdam">Amsterdam</a> - <a href="/events/2014-austin">Austin</a> - <a href="/events/2014-belgium">Belgium</a> - <a href="/events/2014-boston">Boston</a> - <a href="/events/2014-brisbane">Brisbane</a><br /><a href="/events/2014-minneapolis">Minneapolis</a> - <a href="/events/2014-pittsburgh">Pittsburgh</a> - <a href="/events/2014-siliconvalley">Silicon Valley</a> - Toronto<br />Warsaw
+    <a href="/events/2014-amsterdam">
+      Amsterdam
+    </a>
+    - 
+    <a href="/events/2014-austin">
+      Austin
+    </a>
+    - 
+    <a href="/events/2014-belgium">
+      Belgium
+    </a>
+    - 
+    <a href="/events/2014-boston">
+      Boston
+    </a>
+    - 
+    <a href="/events/2014-brisbane">
+      Brisbane
+    </a>
+    <br />
+    <a href="/events/2014-minneapolis">
+      Minneapolis
+    </a>
+    - 
+    <a href="/events/2014-pittsburgh">
+      Pittsburgh
+    </a>
+    - 
+    <a href="/events/2014-siliconvalley">
+      Silicon Valley
+    </a>
+    - Toronto
+    <br />
+    <a href="/events/2014-warsaw">
+      Warsaw
+    </a>
   </h3>
 </div>
