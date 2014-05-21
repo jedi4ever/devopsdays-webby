@@ -45,6 +45,7 @@ end
 { :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
 { :image => "quickleft.png", :name => "Quick Left", :link => "http://www.quickleft.com/"},
 { :image => "joyent.png", :name => "Joyent", :link => "http://www.joyent.com/"},
+{ :image => "maxcdn.png", :name => "MaxCDN", :link => "http://www.maxcdn.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
