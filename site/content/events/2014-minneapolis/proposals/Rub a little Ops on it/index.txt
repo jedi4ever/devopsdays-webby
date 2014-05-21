@@ -9,8 +9,11 @@ talk: true
 selected: false
 layout: event
 author: Speaker 14
-title: "Rub a little Ops on it: Leveling up your development skills with some lessons from operations"
+title: "Rub a little Ops on it!"
 ---
+
+**Description**
+Leveling up your development skills with some lessons learned from operations.  
 
 **Abstract:**
 
