@@ -1,0 +1,16 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Program
+dirty: true
+layout: event
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<center>
+  <b>Coming soon! Stay put!</b>
+</center>

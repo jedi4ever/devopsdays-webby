@@ -1,0 +1,16 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Sponsor
+dirty: true
+layout: event
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<center>
+  <b>We are working hard to provide <b>Sponsorship Prospectus<b/> as soon as possible!</b>
+</center>
