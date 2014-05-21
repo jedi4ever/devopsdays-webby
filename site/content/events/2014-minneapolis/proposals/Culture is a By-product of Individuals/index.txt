@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 15
+title: "Culture is a By-product of Individuals"
+---
+
+**Abstract:**
+
+Everyone is hiring. Interviewing is hard. Hiring is harder. With all of these dynamics being an employer or an employee can be difficult. Our field can be the most difficult, stressful and draining at times. Stressful? Ever patch a production database and it fails to come back...ever deploy the businesses most important feature ever (today) and it doesn't work because it's 2014 and the internet hasn't figured out how to have production data usable for development.
+
+One of the most difficult aspects to a job is having an evolving culture that employers and employees can love together. This talk will dive into theories on hiring, interviewing and supporting a culture that employees can enjoy and forget about the stressful nature.
+
+It all starts with you; every employee of a company has responsibility over the culture and every employeer has responsibility for supporting that culture. 
+
+**Speaker:**
+Speaker 15
+
