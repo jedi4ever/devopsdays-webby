@@ -1,0 +1,71 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: Welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center>
+  <img border="0" src="logos/rocky_mountains.jpg" height="250" width="450" alt="DevOpsDays Denver">
+</center>
+
+<center>
+<p>   
+<center>
+  <table>
+    <tr>
+      <td>
+DevOpsDays is making its debut in the Rocky Mountains on Tuesday, July 22nd and Wednesday, July 23rd.
+      </td>
+    </tr>
+    <tr>
+      <td>
+The event will be held in downtown Denver (location to be announced soon!) and promises two days of learning, networking and fun. With a mixture of traditional sessions, keynotes, Ignite talks and an open space format, there are many opportunities to get involved… especially if you’re a new speaker or are presenting a talk for the first time.
+      </td>
+    </tr>
+    <tr>
+      <td>
+Check back soon for more information on submitting a talk, registering and sponsoring.
+      </td>
+    </tr>
+  </table>
+</center>
+
+<center>
+  <table>
+    <tr>
+      <td><b>Date</b></td>
+      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>
+        <a href="location/">
+          To be announced!
+      </td>
+    </tr>
+    <tr>
+    <td><b>Participants</b></td><td><b><a href="registration/">Register now!</a></b></td></tr>
+    <tr>
+      <td><b>Speakers</b></td>
+      <td>Our call for <a href="propose/">Proposals</a> is due to be announced!</td>
+    </tr>
+    <tr>
+      <td><b>Program</b></td>
+      <td>Final <a href="program/">Program</a> will be available shortly after closing date for <a href="propose/">Proposals</a>.</td>
+    </tr>
+    <tr>
+      <td><b>Sponsorship</b></td>
+      <td><a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.</td>
+<br><br>
+    </tr>
+    <tr>
+      <td><b>Contact</b></td>
+      <td><a href="contact/">Get in touch with the Organizers</a>.</td>
+    </tr>
+  </table>
+</center>
