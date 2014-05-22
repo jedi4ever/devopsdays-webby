@@ -42,7 +42,7 @@ filter:    erb
         { :image => "amazonws.png", :name => "Amazon Web Services", :link => "http://aws.amazon.com/"},
         { :image => "prowareness.png", :name => "Prowareness", :link => "http://www.prowareness.nl/"},
         { :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/"},
-        { :image => "citrix.pmng", :name => "Citrix", :link => "http://www.citrix.com/"}
+        { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
