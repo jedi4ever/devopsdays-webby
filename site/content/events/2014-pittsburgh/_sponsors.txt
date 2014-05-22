@@ -22,6 +22,7 @@ end
 { :image => "saul.png", :name => "Saul Ewing", :link => "http://www.saul.com/"},
 { :image => "vmware.png", :name => "VMware", :link => "http://www.vmware.com/"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
+{ :image => "ptc.png", :name => "Pittsburgh Technology Council", :link => "http://www.pghtech.org/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -55,7 +56,6 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
-{ :image => "ptc.png", :name => "Pittsburgh Technology Council", :link => "http://www.pghtech.org/"},
 { :image => "revv.png", :name => "Revv Oakland", :link => "http://www.revvoakland.com/"},
 { :image => "rustbuilt.png", :name => "RUSTBUILT", :link => "http://www.rustbuilt.com/"},
 { :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
