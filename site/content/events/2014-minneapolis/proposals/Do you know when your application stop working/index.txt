@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 22
+title: "Do you know when your application stop working, run slow or just acting weird? (Alternative name when your app acts weird in the middle of the night does it wake you up?)"
+---
+
+**Abstract:**
+
+As more and more applications are moving to the cloud, applications and applications support becomes complex while the amount of information developers and operations have gone down due to security concerns. At the same time companies want to provide improved SLA and customer experience and expect their support and developers teams to be proactive, which is very hard without insight to their application health and behaviour. DevOps teams and management are struggling to better understand their app's health and if it is working, slow or not behaving as designed. In this session the speaker will share best-practice methods of application health and performance monitoring and how to use this data along with logs aggregation and error aggregation to expedite issues resolution and prevention of recurrent issues   
+
+**Speaker:**
+Speaker 22
+
