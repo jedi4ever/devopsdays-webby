@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 16
+title: "Stone Soup"
+---
+
+**Abstract:**
+
+Learn how to introduce DevOps to the enterprise from a couple of hungry soldiers and a village full of suspicious peasants.  
+
+**Speaker:**
+Speaker 16
+

@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 20
+title: "Delightful Autoscaling with Chef and AWS"
+---
+
+**Abstract:**
+
+No single tool does a good job provisioning a complete stack -- from VM container or bare metal, to fully-provisioned server, deployed applications, and multi-node topology.                                          
+                                                                                
+AWS and Chef are two tools that we often use, and together they can cover the complete stack:                                                             
+                                                                                
+   - AWS handles the infrastructure, up to a running instance.                  
+   - Chef provisions, configures, and deploys on top of the base instance.      
+   - We use both tools in concert to manage topologies of multiple nodes.       
+                                                                                
+                                                                                
+Two common patterns for integrating AWS and Chef are 1) baking Chef into AMIs, and 2) bootstrapping it through CloudFormation and user-data. But both approaches have drawbacks, especially when it comes to autoscaling.        
+Enter Linecook.                                                                 
+                                                                                
+Linecook is a Chef "provisioner" we've created, specifically with autoscaling in mind.  It consumes AWS autoscale notifications to rapidly bootstrap newly-created nodes with Chef, and delete terminated ones from Chef Server.                                                                    
+                                                                                
+In our presentation, we propose to:                                             
+                                                                                
+   - Talk about the basic problem (why no single tool covers the entire stack)                                                                       
+   - Explain the limitations of the common patterns for integrating Chef and AWS                                                                      
+   - Demonstrate and discuss the Linecook approach                              
+   - Discuss going beyond AWS: support for other clouds                         
+                                                                  
+
+**Speaker:**
+Speaker 20
+

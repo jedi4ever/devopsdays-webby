@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 17
+title: "Robots, Monkeys, Injection, and generally Making things bad... on purpose!"
+---
+
+**Abstract:**
+
+Testing known routes and curated functional flows may get things green on a status report somewhere but that's not how users interact with systems. This Ignite provides a quick view on ways to be mean to your code to capture and understand how it responds in "The Wild"
+
+**Speaker:**
+Speaker 17
+

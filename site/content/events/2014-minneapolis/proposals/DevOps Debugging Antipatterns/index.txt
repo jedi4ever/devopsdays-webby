@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 16
+title: "DevOps Debugging Antipatterns"
+---
+
+**Abstract:**
+
+System A gets changed, and System B breaks. We've all seen that. What to do about it? Some common antipatterns of cross-system bugs, with refactored solutions and approaches to solving them. 
+
+**Speaker:**
+Speaker 16
+

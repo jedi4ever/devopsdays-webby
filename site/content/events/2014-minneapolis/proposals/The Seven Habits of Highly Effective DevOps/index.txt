@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 16
+title: "The Seven Habits of Highly Effective DevOps"
+---
+
+**Abstract:**
+
+Applying Stephen Covey's "The Seven Habits of Highly Effective People" to DevOps teams. Learn Independence, Interdependence, and Continuous Improvement as they apply to organizations, as well as individuals.        
+
+**Speaker:**
+Speaker 16
+

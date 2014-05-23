@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 17
+title: "Maintaining lower environments automagically?"
+---
+
+**Abstract:**
+
+Maintaining lower development environments can become an unbearable headache. Changes to an application, service or API are seldom completely testable, leaving us to discover broken code when it's too late. This lack of visibility into application dependencies severely limits early code validation, which has a direct impact on delivery cycles. While traditional methods of Change Management, Test Data Management and Test Scheduling have failed, there's now an opportunity to finally deliver on the vision of always available, always configured and always verifiable.           
+
+In his talk, (name), Senior Director of Product Management at CA Technologies, to discuss how the "software defined enterprise" through proper virtual services and API management now provides the building blocks to realize automated change validation. 
+
+**Speaker:**
+Speaker 17
+
