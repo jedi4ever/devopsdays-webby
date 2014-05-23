@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 18
+title: "Take More Vacations"
+---
+
+**Abstract:**
+
+Vacation time is often in short supply. Even at companies like Netflix with unlimited vacation days, employees often don't take very much time off. I'll argue that this is counterproductive, and that allowing (and taking) proper vacations benefits not only employees but their employers too. 
+
+**Speaker:**
+Speaker 18
+

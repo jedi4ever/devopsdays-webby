@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 19
+title: "Eating our own dog food---DevOps at Compuware"
+---
+
+**Abstract:**
+
+If you glance over the schedules of DevOps tracks at conferences, you get the impression that the topic is mostly focused on running large-scale web sites-but is that the truth? While we as a software company provide a number of products, this session is not about what we offer-it's about how we managed to adopt a DevOps mentality across our development, testing and operations teams. We talk about the process of getting there, the challenges we encountered along the way, and how we measure success. 
+
+**Speaker:**
+Speaker 19
+
