@@ -23,6 +23,7 @@ filter:    erb
 
 <% @hsponsors = [
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com"},
+{ :image => "box.png", :name => "Box", :link => "https://www.box.com/about-us/"},
 ]%>
 
 <h1>Special sponsors</h1>
