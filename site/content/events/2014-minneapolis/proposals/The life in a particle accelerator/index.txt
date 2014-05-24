@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 22
+title: "The life in a particle accelerator or how to have agile development without being sucked to constant production support" 
+---
+
+**Abstract:**
+
+Agile development increases the velocity at which new features are created and released and bugs are fixed. But as more things change and change faster, more bugs get created in the process. This has resulted in a need for improved monitoring and have better insight to the application behaviour. IT, operations and developers need  to have better production environment troubleshooting tools that will allow them to reproduce and fix production application problems quickly. In this session the speaker will discuss how agile development can be combined with improved monitoring and to allow for quicker detection and resolution of app issues. He will also share best-practice and tips for proactive application monitoring and the efficient use of logs and errors in combination of application performance monitoring. 
+
+**Speaker:**
+Speaker 22
+

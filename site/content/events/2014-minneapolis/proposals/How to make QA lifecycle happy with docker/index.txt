@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 21
+title: "How to make QA lifecycle easy with docker?"
+---
+
+**Abstract:**
+
+QA team will be running various tests likewise smoke tests, regression tests etc.  Running docker based environments on their local machines helps them in reducing overhead, of running all tests at once. Smoke tests are done at early phase of development of artifact, which gives them scope to certify artifacts, at a rapid pace on their local machines                      
+                                                                                
+We started using this like a month ago, and loved it very much. We use Vagrant along with Docker to get things run on a fly. Docker containers are very light weighted like system processes, and we can easily dump them. Gonna explain, how the flow is going in our company       
+
+**Speaker:**
+Speaker 21
+

@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 23
+title: "Towards a Functional Infrastructure"
+---
+
+**Abstract:**
+
+This presentation will examine how functional programming concepts like referential transparency can be applied to problems like package management in the domain of operations and release engineering. NixOS and Guix are two GNU/Linux distributions applying functional programming concepts to package management and build systems to create systems that are better defined, more efficient, and more flexible. Package maintainers for Debian and developers for Tor have started research into reproducible, deterministic builds to enhance security. Regulated industries often use traceability matrices to map requirements onto the code and artifacts produced. We will look at how efforts like these, in addition to the seemingly mundane version number, relate to concepts at the heart of functional programming and how we might mine these ideas for inspiration to improve the way we operate. 
+
+**Speaker:**
+Speaker 23
+
