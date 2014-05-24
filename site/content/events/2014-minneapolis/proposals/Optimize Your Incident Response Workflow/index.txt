@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 24
+title: "Optimize Your Incident Response Workflow"
+---
+
+**Abstract:**
+
+When downtime costs thousands to millions a minute, a tight incident response workflow is critical. Who needs to be involved in high-severity events? How do you minimize your time to respond, diagnose, collaborate on, and fix problems? How do you organize your postmortems to help prevent future problems? In this workshop, we'll share some best practices from pagerduty customers, as well as invite attendees to share their own.            
+                                                                                
+Specifics:                                                                      
+                                                                                
+   Best practices for creating your escalation policies and looping in the right responders. What experience levels and skillsets do you need at each level of your escalation chain.                                              
+                                                                                
+   Using chat to maintain a central incident timeline and share rich data. Whether Hipchat, Slack, Hangouts, or another product, how do you keep the signal:noise high and use chat to drive faster resolutions?                  
+
+   Creating a protocol to loop in support, sales, and other stakeholders when incidents are open for a long time and/or severity grows.                                                                                           
+
+   Holding postmortems to review the incident, aggregate information, and create a plan to prevent similar incidents in the future.              
+
+**Speaker:**
+Speaker 24
+

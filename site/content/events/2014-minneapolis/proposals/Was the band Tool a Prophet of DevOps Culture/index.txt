@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Speaker 5
+title: "Was the band Tool a Prophet of DevOps Culture?"
+---
+
+**Abstract:**
+
+Given the premise of a component of legal theory in the United States, I will take you on a whirlwind tour that demonstrates how Tool may have been a Prophet of DevOps culture, both describing the problem that corporate culture creates, and like any good prophesy, the solution to avoiding doom. (No animal sacrifices required.)          
+
+**Speaker:**
+Speaker 5
+
