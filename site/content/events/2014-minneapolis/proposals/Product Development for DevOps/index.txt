@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 24
+title: "Product Development for DevOps"
+---
+
+**Abstract:**
+
+Product and customer development for the operations and engineering crowd is a different animal than in the consumer or enterprise space. While there is lots of overlap, such as the importance of product-market fit and focusing your product vision, the trends of automation, collaboration, and integrated workflows create some unique opportunities and pitfalls for software companies operating in the devops space.                               
+                                                                                
+Specifics:                                                                      
+                                                                                
+   When creating user personas, take their technical ability into account. Can your users code? Are they easily frustrated, or are they used to complex documentation?                                                       
+                                                                                
+   If you're selling to devops companies, assume you'll be part of an automated workflow. API coverage is key, and this includes good API documentation.                                                               
+   Track and share the extensions, libraries, workarounds, and other add-ons that your users create. Use those as part of the product discovery process.                  
+
+**Speaker:**
+Speaker 24
+
