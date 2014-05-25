@@ -35,3 +35,7 @@ everybody.
 
 **Speaker:**
 
+Mike Place is a member of the SaltStack core development team from
+Salt Lake City, Utah. He's been involved in Linux systems engineering
+since the mid-90s and enjoys Python programming and running and hiking
+in the mountains of Utah.

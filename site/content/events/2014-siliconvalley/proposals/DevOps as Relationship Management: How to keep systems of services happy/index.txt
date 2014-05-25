@@ -31,8 +31,19 @@ This talk will combine a lot of the concepts I’ve written about on GigaOm with
 
 **Speaker:**
 
-James Urquhart
-Director of Product, Cloud Management Systems Dell | Software
-twitter: @jamesurquhart
-blog: http://gigaom.com/author/jurquhart
+James Urquhart is Director of Product, Cloud Management Solutions at
+Dell, arriving at Dell through its acquisition of Enstratius. Named
+one of the ten most influential people in cloud computing by both the
+MIT Technology Review and the Huffington Post, and contributing author
+to GigaOm’s cloud coverage (http://gigaom.com/author/jurquhart), Mr.
+Urquhart brings a deep understanding of these disruptive technologies
+and the business opportunities they afford.
 
+Mr. Urquhart is a seasoned field technologist with 20 years of
+experience in distributed systems development and deployment, focusing
+on service-oriented architectures, cloud computing, and
+virtualization. Prior to joining Enstratius, Mr. Urquhart held
+leadership roles at Forte Software, Sun Microsystems, utility
+computing infrastructure vendor Cassatt Corporation and Cisco Systems.
+
+Mr. Urquhart graduated from Macalester College with a Bachelor of Arts in Mathematics and Physics.
