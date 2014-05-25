@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
 author: Mercedes Coyle
 title: "Onboarding and Mentoring Apprentices with DevOps Culture"

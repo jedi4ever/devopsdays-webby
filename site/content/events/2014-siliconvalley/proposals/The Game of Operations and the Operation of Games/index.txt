@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
 author: Randy Shoup
 title: "The Game of Operations and the Operation of Games"

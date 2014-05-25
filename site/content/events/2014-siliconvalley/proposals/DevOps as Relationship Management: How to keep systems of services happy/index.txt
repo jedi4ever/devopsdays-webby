@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
 author: James Urquhart
 title: "DevOps as Relationship Management: How to keep systems of services happy"

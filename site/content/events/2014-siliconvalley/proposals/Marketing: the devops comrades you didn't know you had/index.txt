@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Sarah Goff-Dupont
 title: "Marketing: the devops comrades you didn't know you had"

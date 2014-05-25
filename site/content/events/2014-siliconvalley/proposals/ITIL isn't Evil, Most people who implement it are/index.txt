@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Colin McNamara
 title: "TIL isn't Evil, Most people who implement it are"
