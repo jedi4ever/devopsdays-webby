@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
 author: Bridget Kromhout
 title: "How I Learned to Stop Worrying and Love DevOps"

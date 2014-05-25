@@ -39,5 +39,15 @@ improvements that can make your team better.
 
 **Speaker:**
 
-Michael Stahnke
-@stahnma
+Michael Stahnke has been interested in devops since before he knew it
+had a name. He is specifically interested in devops outside of the
+start-up and high-tech sectors. Michael currently leads the
+Engineering Services Organization at Puppet Labs, where he was
+previously the Community Manager and originally built out the Release
+Engineering team.
+
+He came to Puppet Labs from Caterpillar, Inc. where he was an
+Infrastructure Architect, system administration team lead, and open
+source evangelist. Michael also helped get the Extra Packages for
+Enterprise Linux (EPEL) repository off the ground in 2006, and is the
+author of Pro OpenSSH (Apress, 2005).

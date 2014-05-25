@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Adam Auerbach
 title: "How Capital One put Quality in the Driver seat thru DevOps and other best practices"

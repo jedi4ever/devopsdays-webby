@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 layout: event
 author: Mark Burgess
 title: "The Future of Configuration Management (update)"

@@ -11,7 +11,7 @@ selected: false
 layout: event
 author: Tanay Nagjee
 title: "Building QA into the Continuous Delivery Process – a Pipeline Approach"
-email: anna.imbierowicz@catapultpr-ir.com
+email: Tanay@Electric-Cloud.com
 handler_email: anna.imbierowicz@catapultpr-ir.com
 ---
 
