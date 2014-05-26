@@ -49,6 +49,7 @@ end
 { :image => "joyent.png", :name => "Joyent", :link => "http://www.joyent.com/"},
 { :image => "maxcdn.png", :name => "MaxCDN", :link => "http://www.maxcdn.com/"},
 { :image => "thrive.png", :name => "THRIVE", :link => "http://www.gothrive.io/"},
+{ :image => "branding-brand.png", :name => "Branding Brand", :link => "http://www.brandingbrand.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
