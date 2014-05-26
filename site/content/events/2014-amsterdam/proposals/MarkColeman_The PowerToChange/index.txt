@@ -26,4 +26,4 @@ Understanding this is the key to changing behavior, and through doing so, changi
 
 **Speaker:**
 
-Mark Coleman is a Continuous Delivery consultant at Ugly Duckling in Amsterdam, Netherlands. He has more than 10 years of experience in Software Development, Configuration Management and IT Operations and has helped some if Europe's largest companies to change the way they create and deliver software to their users. http://continuousdelivery.uglyduckling.nl/
+Mark Coleman is a Continuous Delivery consultant at Ugly Duckling in Amsterdam, Netherlands. He has more than 10 years of experience in Software Development, Configuration Management and IT Operations and has helped some of Europe's largest companies to change the way they create and deliver software to their users. http://continuousdelivery.uglyduckling.nl/
