@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+layout: event
+author: Dominica Degrandis
+title: "Why don’t we just say No?"
+email: dominica@ddegrandis.com
+---
+
+**Abstract:**
+
+Ask any Ops team, “What prevents you from getting your work done?”
+Likely array of responses: Live issues, interruptions, conflicting
+priorities, or shifting priorities. There is always too much work to
+do.
+ 
+This begs the question, why do people consistently take on more work
+than they have capacity to do? Why don’t we just say no?
+ 
+This talk will explore why Ops teams take on too much work, and why we
+don’t hear agile development teams complaining about this topic as
+much.
+ 
+We’ll look at how one Ops team did reduce their excessive workload and
+conclude with suggested experiments for improving the often absurd
+imbalance between Ops teams demand and capacity.
+
+**Speaker:**
+
+Dominica teaches organizations across the US and Europe on using
+Kanban to improve workflow and throughput. She is keen on providing
+visibility and transparency across teams to reveal mutually critical
+information. Dominica combines experience, practice and theory to help
+teams level up their capability.
+
+Dominica is the developer of the Kanban for Devops board game
+simulation and a Kanban Coaching Professional with Lean Kanban
+University. She holds a BS in Computer Science from the University of
+Hawaii.
+
+twitter: @dominicad
+ 
