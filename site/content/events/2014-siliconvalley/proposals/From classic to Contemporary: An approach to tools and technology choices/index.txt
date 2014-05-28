@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Seema Jethani
 title: "From classic to Contemporary: An approach to tools and technology choices"

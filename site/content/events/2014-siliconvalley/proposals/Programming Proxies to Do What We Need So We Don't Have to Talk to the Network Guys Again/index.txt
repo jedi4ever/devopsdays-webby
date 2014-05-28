@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: 
+author: Lori MacVittie
 title: "Programming Proxies to Do What We Need So We Don't Have to Talk to the Network Guys Again"
 email: L.MacVittie@F5.com
 ---

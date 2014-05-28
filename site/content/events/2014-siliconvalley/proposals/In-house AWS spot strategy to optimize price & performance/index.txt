@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Ali Hussain
 title: "In-house AWS spot strategy to optimize price & performance"

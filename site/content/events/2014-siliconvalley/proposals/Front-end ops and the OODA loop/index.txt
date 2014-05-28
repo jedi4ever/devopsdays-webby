@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Erik Sowa
 title: "Front-end ops and the OODA loop: A decision cycle time strategy for winning in a hostile internet environment"
