@@ -9,6 +9,9 @@ filter:    erb
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
 { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
+{ :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
+{ :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com/"},
+{ :image => "cfengine.png", :name => "CFEngine", :link => "http://www.cfengine.com"},
 ]%>
 
 <% if @gsponsors.empty?  %>
