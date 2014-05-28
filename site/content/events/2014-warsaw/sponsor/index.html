@@ -1,16 +1,19 @@
 ---
 extension: html
 filter:
-  - erb
-  - markdown
-title: Sponsor
+- erb
+- markdown
 dirty: true
 layout: event
-platinum: false
+title: sponsor
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<center>
-  <b>We are working hard to provide <b>Sponsorship Prospectus<b/> as soon as possible!</b>
-</center>
+We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor DevOpsDays <%= @eventid %>).
+
+<h4>Please click <a href="DoDWarsaw2014-SponsorDoc.pdf">here</a> to download the Sponsor offering for Warsaw 2014!</h4>
+
+<hr>
+
+DevOpsDays is a self-organizing conference for DevOps practitioners that depends on your sponsorships to happen. However, because of the nature of the event, we do not have vendor booths or book product pitches.
