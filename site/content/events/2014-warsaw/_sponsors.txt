@@ -26,7 +26,8 @@ filter: erb
 <% end %>
 
 <% @partners = [
-  ]%>
+{ :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
+]%>
 
 <h1>Partners</h1>
 
