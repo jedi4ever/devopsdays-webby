@@ -14,6 +14,8 @@ filter:    erb
 { :image => "cfengine.png", :name => "CFEngine", :link => "http://www.cfengine.com"},
 { :image => "ravellosystems.png", :name => "Ravello Systems", :link => "http://www.ravellosystems.com/"},
 { :image => "pertino.png", :name => "Pertino", :link => "http://pertino.com/"},
+{ :image => "netflix.png", :name => "Netflix", :link => "https://www.netflix.com"},
+{ :image => "ruxit.png", :name => "ruxit", :link => "https://www.ruxit.com/?utm_source=devopsdays_siliconvalley_website&utm_medium=conference&utm_campaign=devopsdays_siliconvalley_fy15"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -62,6 +64,7 @@ filter:    erb
 
 <% @msponsors = [
 { :image => "usenix.png", :name => "Usenix", :link => "http://www.usenix.org"},
+{ :image => "citizenspace.png", :name => "Citizen Space", :link => "http://citizenspace.us/"},
 ]%>
 
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
