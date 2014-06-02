@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: David Ellis
-title: "Infrastructure deployment contracts and zero downtime deployment with Orcé
+title: "Infrastructure deployment contracts and zero downtime deployment with Orcé"
 ---
 
 **Abstract:**
