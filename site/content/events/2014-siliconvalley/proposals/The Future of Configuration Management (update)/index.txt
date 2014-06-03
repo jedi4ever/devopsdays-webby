@@ -17,9 +17,10 @@ handler_email:
 
 **Abstract:**
 
-I´ve been giving talks like this for years but there are significant
-new things to talk about now, including the role of containers,
-"immutable patterns", networking, etc.
+A brief outline of what challenges the next few years are likely to be
+struggling with. What devices will be configuring, what methods shall
+we use? How shall we make the trade-offs? What technological changes
+will make a difference? These and other questions will be discussed.
 
 **Speaker:**
 

@@ -9,7 +9,9 @@ layout: event
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
-This page list the proposals we have received. Help the presenters with your feedback! 
+<strong>CALL FOR PROPOSALS IS CLOSED</strong>
+<br>
+This page list the proposals we received
 
 
 <h2>Conference Talks</h2>
