@@ -23,6 +23,16 @@ filter:    erb
 <% end %>
 
 
+<h1>Special sponsors</h1>
+<% @hsponsors = [
+  { :image => "chef.png", :name => "Getchef", :link => "http://www.getchef.com/", :deal => 'Happy Hour'},
+  { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.com/", :deal => 'Lanyard'},
+]%>
+
+<% @hsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img  border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @ssponsors = [
   { :image => "inuits.png", :name => "Inuits", :link => "http://www.inuits.be/"},
   { :image => "nucleus.png", :name => "Nucleus", :link => "http://www.nucleus.be/"},
