@@ -17,6 +17,7 @@ filter:    erb
 { :image => "netflix.png", :name => "Netflix", :link => "https://www.netflix.com"},
 { :image => "ruxit.png", :name => "ruxit", :link => "https://www.ruxit.com/?utm_source=devopsdays_siliconvalley_website&utm_medium=conference&utm_campaign=devopsdays_siliconvalley_fy15"},
 { :image => "compuware.png", :name => "Compuware", :link => "http://www.compuware.com/en_us/application-performance-management.html"},
+{ :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
