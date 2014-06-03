@@ -11,6 +11,7 @@ filter:    erb
   { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "http://puppetlabs.com/"},
   { :image => "serena.png", :name => "Serena", :link => "http://serena.com/"},
   { :image => "cfengine.png", :name => "Cfengine", :link => "http://cfengine.com/"},
+  { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.com/", :deal => 'Lanyard'},
 ]%>
 
 
