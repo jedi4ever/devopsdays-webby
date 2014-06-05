@@ -20,6 +20,7 @@ filter:    erb
 { :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
 { :image => "elasticbox.png", :name => "Elasticbox", :link => "http://elasticbox.com/"},
 { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
+{ :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
