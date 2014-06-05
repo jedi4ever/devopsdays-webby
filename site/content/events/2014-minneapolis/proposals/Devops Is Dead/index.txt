@@ -6,9 +6,9 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
-layout: event
-author: Speaker 13
+selected: true
+layout: event_msp
+author: Katherine Daniels
 title: "Devops Is Dead (Long Live Devops)"
 ---
 
@@ -19,5 +19,5 @@ The idea of devops has come a long way in the few years since its creation. Whil
 So where do we go from here? More than just teaching sysadmins how to write code or giving developers root access, devops was originally a movement that aimed to reduce friction between development and operations teams. By applying these principles and the lessons that have been learned to other organizational pain points, we can give new meaning to the term and use that to improve both our companies and our community.
 
 **Speaker:**
-Speaker 13
+Katherine Daniels
 

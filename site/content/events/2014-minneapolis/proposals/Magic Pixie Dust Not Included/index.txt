@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk: true
+selected: true
+layout: event_msp
+author: Sascha Bates
+title: "Magic Pixie Dust Not Included"
+---
+
+**Abstract:**
+
+Sascha Bates' opening keynote will dive into the questions of how to level up your DevOps practice. She'll discuss how to go from the zeal of a convert to the calm competence of an accomplished practitioner, touching on the introspection necessary to realize that DevOps is neither a tool to adjust everyone else to one's own standards nor a mechanism to correct the interactions of others.
+
+
+**Speaker:**
+Sascha Bates
+
