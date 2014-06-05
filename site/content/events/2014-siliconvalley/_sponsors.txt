@@ -20,6 +20,7 @@ filter:    erb
 { :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
 { :image => "elasticbox.png", :name => "Elasticbox", :link => "http://elasticbox.com/"},
 { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"},
 ]%>
 
@@ -52,7 +53,6 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
-{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "boundary.png", :name => "Boundary", :link => "http://boundary.com/"},
 { :image => "dell.png", :name => "Dell Software", :link => "http://www.enstratius.com/"},
 { :image => "victorops.png", :name => "VictorOps", :link => "http://victorops.com/"},
