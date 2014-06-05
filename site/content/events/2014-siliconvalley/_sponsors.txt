@@ -19,6 +19,7 @@ filter:    erb
 { :image => "compuware.png", :name => "Compuware", :link => "http://www.compuware.com/en_us/application-performance-management.html"},
 { :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
 { :image => "elasticbox.png", :name => "Elasticbox", :link => "http://elasticbox.com/"},
+{ :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
