@@ -8,7 +8,7 @@ proposal: true
 talk: false
 ignite: true
 selected: false
-layout: event
+layout: event_msp
 author: Speaker 2
 title: "LEGOOps"
 ---

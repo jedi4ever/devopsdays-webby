@@ -6,9 +6,9 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
-layout: event
-author: Speaker 18
+selected: true
+layout: event_msp
+author: Ian Malpass
 title: "Fallible humans: dealing with failure in the absence of scapegoats"
 ---
 
@@ -19,5 +19,5 @@ Functional siloing - "dev", "ops", etc. - make it easier to pass the buck and bl
 I'll discuss the philosophy and motivations of "blamelessness", along with ways to understand the vital role humans play in making complex socio-technical systems safe, even when things go awry, along with advice on how to promote and foster a blameless culture in your workplace, and techniques for analyzing  and learning from failures without resorting to finger-pointing and scapegoating. 
 
 **Speaker:**
-Speaker 18
+Ian Malpass
 

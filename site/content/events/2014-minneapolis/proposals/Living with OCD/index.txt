@@ -5,17 +5,17 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-selected: false
-layout: event
-author: Speaker 10
+ignite: true
+selected: true
+layout: event_msp
+author: Seth Vargo
 title: "Living with OCD"
 ---
 
 **Abstract:**
 
-Hi, I'm (name), and I have OCD. But is that a bad thing? I continuously struggle with misplaced pointers, poorly indented code, unorganized resources, design decisions, and tests. I considered medication until I realized all the awesome things my OCD does too! Do I actually have a problem? Learn how my OCD shaves 11 minutes from each grocery trip and helps me spot anomalies and anti-patterns! Join me on an adventure as I teach you how to weaponize your obsessive compulsive disorder, if "disorder" is even the right word...
+Hi, I'm Seth Vargo, and I have OCD. But is that a bad thing? I continuously struggle with misplaced pointers, poorly indented code, unorganized resources, design decisions, and tests. I considered medication until I realized all the awesome things my OCD does too! Do I actually have a problem? Learn how my OCD shaves 11 minutes from each grocery trip and helps me spot anomalies and anti-patterns! Join me on an adventure as I teach you how to weaponize your obsessive compulsive disorder, if "disorder" is even the right word...
 
 **Speaker:**
-Speaker 10
+Seth Vargo
 

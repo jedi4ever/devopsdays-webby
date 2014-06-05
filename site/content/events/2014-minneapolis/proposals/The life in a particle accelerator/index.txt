@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 selected: false
-layout: event
+layout: event_msp
 author: Speaker 22
 title: "The life in a particle accelerator or how to have agile development without being sucked to constant production support" 
 ---

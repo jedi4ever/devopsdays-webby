@@ -6,9 +6,9 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
-layout: event
-author: Speaker 3
+selected: true
+layout: event_msp
+author: Jeff Sussna
 title: "Using Promise Theory to Improve Digital Service Quality"
 ---
 
@@ -24,5 +24,5 @@ This session will introduce Promise Theory as a methodology that can help us del
 
                     
 **Speaker:**
-Speaker 3
+Jeff Sussna
 

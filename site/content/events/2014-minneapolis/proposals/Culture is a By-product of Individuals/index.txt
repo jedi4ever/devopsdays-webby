@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 selected: false
-layout: event
+layout: event_msp
 author: Speaker 15
 title: "Culture is a By-product of Individuals"
 ---

@@ -8,7 +8,7 @@ proposal: true
 talk: false
 ignite: true
 selected: false
-layout: event
+layout: event_msp
 author: Speaker 5
 title: "Was the band Tool a Prophet of DevOps Culture?"
 ---

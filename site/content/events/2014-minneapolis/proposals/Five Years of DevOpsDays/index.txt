@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk: true
+selected: true
+layout: event_msp
+author: Patrick Debois
+title: "Five Years of DevOpsDays"
+---
+
+**Abstract:**
+
+Patrick Debois' closing keynote will give perspective on where DevOps and DevOpsDays started and insights into the future.
+
+
+**Speaker:**
+Patrick Debois

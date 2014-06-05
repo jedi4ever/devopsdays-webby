@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk: true
+selected: true
+layout: event_msp
+author: Heather O'Sullivan & Ross Clanton
+title: "DevOps at Target: Bringing Change to Large Enterprise"
+---
+
+**Abstract:**
+
+Heather O'Sullivan and Ross Clanton led the first Development and Operations teams at Target to pull in DevOps tools and processes. They will discuss how they navigated through the change/adoption curve in a large enterprise IT organization.
+
+
+**Speaker:**
+Heather O'Sullivan & Ross Clanton
+
