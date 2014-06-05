@@ -54,6 +54,7 @@ filter:    erb
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "boundary.png", :name => "Boundary", :link => "http://boundary.com/"},
 { :image => "dell.png", :name => "Dell Software", :link => "http://www.enstratius.com/"},
+{ :image => "victorops.png", :name => "VictorOps", :link => "http://victorops.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
