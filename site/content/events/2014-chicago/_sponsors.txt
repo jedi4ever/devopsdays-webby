@@ -1,0 +1,37 @@
+---
+filter:    erb
+---
+
+<%
+def make_sponsor_links(sponsors)
+  sponsors.shuffle.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<% @psponsors = []
+#{ :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
+#{ :image => "", :name => "", :link => ""}
+#]%>
+<% if @psponsors.empty? %>Consider becoming a Platnium Sponsor!<% else %><%= make_sponsor_links(@psponsors) %><% end %>
+
+<br/>
+<br/>
+<h1>Gold sponsors</h1>
+
+<% @gsponsors = [] %>
+<% if @gsponsors.empty? %>Consider becoming a Gold Sponsor!<% else %><%= make_sponsor_links(@gsponsors) %><% end %>
+
+<br/>
+<br/>
+<h1>Silver sponsors</h1>
+
+<% @ssponsors = [] %>
+<% if @ssponsors.empty? %>Consider becoming a Silver Sponsor!<% else %><%= make_sponsor_links(@ssponsors) %><% end %>
+
+<br/>
+<br/>
+<h1>Media sponsors</h1>
+<% @msponsors = [] %>
+<% if @msponsors.empty? %>Consider becoming a Media Sponsor!<% else %><%= make_sponsor_links(@msponsors) %><% end %>

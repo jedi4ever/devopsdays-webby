@@ -200,6 +200,20 @@ labelStyle: {opacity: 1}
 
 google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="events/2014-boston"});
 
+chicagolocation = new google.maps.LatLng(41.90,-87.65);
+
+var chicagomarker = new MarkerWithLabel({
+position: chicagolocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Chicago<br>Oct 2014",
+labelAnchor: new google.maps.Point(30, 20),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="events/2014-chicago"});
 
 }
 </script>
