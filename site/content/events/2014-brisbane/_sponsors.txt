@@ -6,6 +6,7 @@ filter:    erb
 <% @psponsors.shuffle.each do |sponsor| %> <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a><% end %>
 
 <% @gsponsors = [
+{ :image => "wotifgroup.png", :name => "WotifGroup", :link => "http://www.wotifgroup.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
