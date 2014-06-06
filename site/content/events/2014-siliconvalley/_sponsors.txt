@@ -73,6 +73,7 @@ filter:    erb
 
 <% @msponsors = [
 { :image => "usenix.png", :name => "Usenix", :link => "http://www.usenix.org"},
+{ :image => "lopsa.png", :name => "Lopsa", :link => "http://lopsa.org"},
 { :image => "citizenspace.png", :name => "Citizen Space", :link => "http://citizenspace.us/"},
 ]%>
 
