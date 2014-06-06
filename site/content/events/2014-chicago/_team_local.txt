@@ -1,7 +1,9 @@
+- Glenn Brown
 - Jerry Cattell
 - Brian Devlin
 - Michael Lanyon
 - Mike Leinartas
+- Aaron Lindstrom
 - JP Morgenthal
 - Steve Murawski
 - Matt O'Keefe
@@ -11,3 +13,4 @@
 - Shannon Smith
 - Matt Stratton
 - Joel Tosi
+- Bill Weiss
