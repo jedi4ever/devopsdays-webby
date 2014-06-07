@@ -35,8 +35,8 @@ filter:    erb
 <% end %>
 
 <% @hsponsors = [
-{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com"},
 { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/devops"},
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com"},
 { :image => "box.png", :name => "Box", :link => "https://www.box.com/about-us/"},
 ]%>
 
@@ -73,6 +73,7 @@ filter:    erb
 
 <% @msponsors = [
 { :image => "usenix.png", :name => "Usenix", :link => "http://www.usenix.org"},
+{ :image => "lopsa.png", :name => "Lopsa", :link => "http://lopsa.org"},
 { :image => "citizenspace.png", :name => "Citizen Space", :link => "http://citizenspace.us/"},
 ]%>
 
