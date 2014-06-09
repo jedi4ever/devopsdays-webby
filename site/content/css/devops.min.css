@@ -387,6 +387,11 @@ div#quicklinks li {
 
 div#headermenu {
 	font-color: #1581AB;
+	width: 300px;
+}
+
+div#headermenu td {
+	text-align: center;
 }
 
 div#headermenu * a {
