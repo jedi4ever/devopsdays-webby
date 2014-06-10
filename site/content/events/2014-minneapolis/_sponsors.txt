@@ -26,6 +26,14 @@ end
 <%= make_sponsor_links(@gsponsors) %>
 
 <br/>
+<h1>Media sponsors</h1>
+<% @msponsors = [
+{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
+{ :image => "velocity.png", :name => "Velocity Conf", :link => "http://www.velocityconf.com/"},
+]%>
+<%= make_sponsor_links(@msponsors) %>
+
+<br/>
 <br/>
 <h1>Host sponsor</h1>
 <% @hsponsors = [
