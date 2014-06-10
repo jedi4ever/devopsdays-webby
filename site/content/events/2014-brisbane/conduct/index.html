@@ -10,6 +10,9 @@ layout: event
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
 <% @eventid = File.basename(@page.directory) %>
 
+<center><img border=0 src="../logos/dodbne2014.png" alt="DevOps Days Brisbane"></center>
+
+<hr>
 * **Email address for organizers**: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
 * **Local Police**: Call 000
 * **Medical Emergency**: Call 000
