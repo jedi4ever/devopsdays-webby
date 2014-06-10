@@ -11,6 +11,9 @@ platinum: false
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
 <% @eventid = File.basename(@page.directory) %>
 
+<center><img border=0 src="../logos/dodbne2014.png" alt="DevOps Days Brisbane"></center>
+
+<hr>
 Contact the organisers by email at: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
 
 ** Our special team**

@@ -11,6 +11,9 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
+<center><img border=0 src="../logos/dodbne2014.png" alt="DevOps Days Brisbane"></center>
+
+<hr>
 <center>
 <b>Call for proposals is open until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br><a href="#submission">Submit a Proposal</a> now.
 </center>
