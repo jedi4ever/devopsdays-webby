@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+layout: event_msp
+author: Jasmine Russell
+title: "Clash"
+---
+
+**Abstract:**
+
+As the world of digital analytics evolves, the relationship between IT, developers and analytics has merged--often resulting in clashing ideas, in-depth discussions of web structure and forced collaboration.                 
+                                                                                
+Within the brief ignite, I'll be applying the idea of how DevOp/IT web structure understandings and digital analytics 'Clash'--for the better. The ignite will highlight a few web measurement cases (examples) to provide support and relate-ability to the talk.   
+
+**Speaker:**
+Jasmine Russell
