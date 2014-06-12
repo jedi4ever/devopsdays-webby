@@ -22,7 +22,6 @@ filter:    erb
 { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"},
-{ :image => "yelp.png", :name => "Yelp", :link => "http://www.yelp.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -58,6 +57,7 @@ filter:    erb
 { :image => "dell.png", :name => "Dell Software", :link => "http://www.enstratius.com/"},
 { :image => "victorops.png", :name => "VictorOps", :link => "http://victorops.com/"},
 { :image => "bugcrowd.png", :name => "Bugcrowd", :link => "https://bugcrowd.com/"},
+{ :image => "yelp.png", :name => "Yelp", :link => "http://www.yelp.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
