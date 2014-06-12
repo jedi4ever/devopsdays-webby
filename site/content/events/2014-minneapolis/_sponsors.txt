@@ -13,6 +13,7 @@ end
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
 { :image => "sps.png", :name => "SPS Commerce", :link => "http://www.spscommerce.com/"},
 { :image => "target.png", :name => "Target", :link => "http://www.target.com/"},
+{ :image => "govdelivery.png", :name => "GovDelivery", :link => "http://govdelivery.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
