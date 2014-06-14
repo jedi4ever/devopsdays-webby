@@ -14,6 +14,7 @@ filter: erb
 <% end %>
 
 <% @ssponsors = [
+	{ :image => "schubergphilis.png", :name => "Schuberg Philis", :link => "http://www.schubergphilis.com/"}
   ]%>
 
 <h1>Silver sponsors</h1>
