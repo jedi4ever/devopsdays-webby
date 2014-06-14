@@ -72,7 +72,17 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @bsponsors = [
+{ :image => "relevancelab.png", :name => "Relevance Lab", :link => "http://www.relevancelab.com/"},
+]%>
+
+<% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
+<% @bsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <% @msponsors = [
+{ :image => "velocity.png", :name => "Velocity", :link => "http://velocityconf.com/"},
 { :image => "usenix.png", :name => "Usenix", :link => "http://www.usenix.org"},
 { :image => "lopsa.png", :name => "Lopsa", :link => "http://lopsa.org"},
 { :image => "citizenspace.png", :name => "Citizen Space", :link => "http://citizenspace.us/"},
