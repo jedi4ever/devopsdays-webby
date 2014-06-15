@@ -19,10 +19,20 @@ end
 
 <br/>
 <br/>
+<h1><font color="silver">Silver Lake</font> sponsors</h1>
+
+<% @gsponsors = [
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"}
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
 <h1><font color="Wheat">Stone Arch</font> sponsors</h1>
 
 <% @gsponsors = [
-{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"}
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
+{ :image => "iphouse.png", :name => "ipHouse", :link => "http://www.iphouse.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -38,7 +48,7 @@ end
 <br/>
 <h1>Host sponsor</h1>
 <% @hsponsors = [
-{ :image => "ust.jpg", :name => "University of St. Thomas", :link => "http://www.stthomas.edu"},
+{ :image => "ust.png", :name => "University of St. Thomas", :link => "http://www.stthomas.edu"},
 ]%>
 <%= make_sponsor_links(@hsponsors) %>
 
