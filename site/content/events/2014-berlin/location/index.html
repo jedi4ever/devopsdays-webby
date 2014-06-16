@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Location
+dirty: true
+layout: event
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+### Conference Location
+
+<b><a href="http://www.kalkscheune.de/" target="_blank">Kalkscheune</a></b><br>
+Johannisstr. 2<br>
+10117 Berlin<br>
