@@ -9,7 +9,7 @@ talk: true
 selected: true
 layout: event_msp
 author: Jeff Sussna
-title: "Using Promise Theory to Improve Digital Service Quality"
+title: "Promising Digital Service Quality"
 ---
 
 **Description:**
