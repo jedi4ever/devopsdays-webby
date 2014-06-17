@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Soviet military hardware primer for DevOps
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event
+author: Grzegorz Nosek
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+**Speaker:**
