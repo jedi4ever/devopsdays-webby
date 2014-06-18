@@ -3,14 +3,20 @@ extension: html
 filter:
   - erb
   - markdown
-title: Proposals
+title: DevOps Knowledge Base
+proposal: true
 dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
 layout: event
-platinum: false
+author: Piotr Szwed
 ---
+
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<center>
-  <b>Coming soon!</b>
-</center>
+**Abstract:**
+
+**Speaker:**

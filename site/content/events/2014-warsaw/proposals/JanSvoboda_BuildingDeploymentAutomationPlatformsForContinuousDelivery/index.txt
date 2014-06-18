@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Building Deployment Automation Platforms for Continuous Delivery
+proposal: true
+dirty: true
+talk: true
+ignite: false
+open_space: false
+selected: false
+layout: event
+author: Jan Svoboda
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+**Speaker:**

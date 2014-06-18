@@ -1,0 +1,59 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Proposals
+dirty: true
+layout: event
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+This page list the suggested topics and/or speakers, proposed talks and ignites we have received.<br/><br/>
+<strong><em>Note:</em></strong> Some talks will most likely provide an opportunity for further discussion
+in form of an <em>Open Spaces</em> style collaboration for people to talk about various ideas or whatever
+they want.<br/>
+
+Help the organisers and presenters with your feedback!<br/>
+Feel free to contact us by e-mail at: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+
+<h2>Conference Talks</h2>
+<ol>
+<%
+  talks = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
+                      :recursive => true, :sort_by => "title",
+                      :reverse => true, :talk => true)
+  talks.delete(@page)
+  talks.each do |talk|
+-%>
+<li><%= link_to_page(talk) %> - <%= talk.author %>
+<% end -%>
+</ol>
+
+<h2>Ignite Talks</h2>
+<ol>
+<%
+  ignites = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
+	                :recursive => true, :sort_by => "title",
+                        :reverse => true, :ignite => true)
+  ignites.delete(@page)
+  ignites.each do |ignite|
+-%>
+<li><%= link_to_page(ignite) %> - <%= ignite.author %>
+<% end -%>
+</ol>
+
+<h2>Open Sessions</h2>
+<ol>
+<%
+  open_sessions = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
+	                      :recursive => true, :sort_by => "title",
+		              :reverse => true, :open_session => true)
+  open_sessions.delete(@page)
+  open_sessions.each do |open_session|
+-%>
+<li><%= link_to_page(open_session) %> - <%= open_session.author %>
+<% end -%>
+To be added. <i><a href='<%= File.join('/',@eventhome,'/propose') -%>'>Be the first to propose!</a></i>
+</ol>

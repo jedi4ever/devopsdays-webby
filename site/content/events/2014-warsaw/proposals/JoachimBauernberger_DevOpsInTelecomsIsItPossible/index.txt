@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: DevOps in Telecoms - is it possible?
+proposal: true
+dirty: true
+talk: true
+ignite: false
+open_space: false
+selected: false
+layout: event
+author: Joachim Bauernberger
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+**Speaker:**
