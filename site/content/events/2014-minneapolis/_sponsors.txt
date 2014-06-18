@@ -14,6 +14,7 @@ end
 { :image => "sps.png", :name => "SPS Commerce", :link => "http://www.spscommerce.com/"},
 { :image => "target.png", :name => "Target", :link => "http://www.target.com/"},
 { :image => "govdelivery.png", :name => "GovDelivery", :link => "http://govdelivery.com/"},
+{ :image => "compuware.png", :name => "Compuware", :link => "http://compuware.com/apm/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
