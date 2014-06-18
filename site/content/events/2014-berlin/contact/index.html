@@ -8,7 +8,7 @@ dirty: true
 layout: event
 platinum: false
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@page.directory) %>
 
 Feel free to contact the organisers by e-mail at: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
