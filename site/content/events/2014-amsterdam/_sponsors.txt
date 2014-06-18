@@ -13,7 +13,8 @@ filter:    erb
         { :image => "ibm.png", :name => "IBM DevOps", :link => "http://www.ibm.com/ibm/devops/us/en/"},
         { :image => "bitbrains.png", :name => "BitBrains", :link => "http://www.bitbrains.nl/"},
         { :image => "betterbe.png", :name => "Better.Be", :link => "http://www.betterbe.com/infra-services"},
-        { :image => "leaseweb.png", :name => "LeaseWeb", :link => "http://www.leaseweb.com/nl"}
+        { :image => "leaseweb.png", :name => "LeaseWeb", :link => "http://www.leaseweb.com/nl"},
+        { :image => "surfsara.png", :name => "SURFsara", :link => "https://surfsara.nl"}
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -41,7 +42,6 @@ filter:    erb
         { :image => "infradata.png", :name => "infradata", :link => "http://www.infradata.nl/"},
         { :image => "vxcompany.png", :name => "VX Company", :link => "http://www.vxcompany.com/"},
         { :image => "info-nl.png", :name => "Info.nl", :link => "http://www.info.nl/"},
-        { :image => "amazonws.png", :name => "Amazon Web Services", :link => "http://aws.amazon.com/"},
         { :image => "prowareness.png", :name => "Prowareness", :link => "http://www.prowareness.nl/"},
         { :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/"},
         { :image => "citrix.png", :name => "Citrix", :link => "http://www.citrix.com/"}
