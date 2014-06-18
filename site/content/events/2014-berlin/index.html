@@ -12,24 +12,40 @@ dirty: true
 <center>
   <table>
     <tr>
-      <td></td>
-    </tr>
-    <tr>
-      <td><b>Date</b></td>
-      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
-    </tr>
-    <tr>
-      <td><b>Location</b></td>
       <td>
-        <a href="location/">
-          <a href="location/">Kalkscheune</a>
+        <img src="berlin_logo.jpg" alt="berlin logo">
+      </td>
+      <td valign="top">
+        DevOpsDays is back in Berlin!<br/>
+
+        <table>
+          <tr>
+            <td><b>Date</b></td>
+            <td><strong><%= render(:partial => "/#{@eventhome}/_target_date") -%></strong></td>
+          </tr>
+          <tr>
+            <td><b>Location</b></td>
+            <td>
+              <a href="location/">Kalkscheune, Berlin Mitte</a>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Contact</b></td>
+            <td><a href="contact/">Get in touch with the Organisers</a>.</td>
+          </tr>
+          <tr>
+            <td><b>Speakers</b></td>
+            <td>Call for <a href="./propose">Proposals</a> is open <%= render(:partial => "/#{@eventhome}/_cfp_target_start") -%> until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%></td>
+          </tr>
+          <tr>
+            <td><b>Sponsor</b></td>
+            <td><a href="./sponsor">It's a great way to promote your organization.</a></td>
+          </tr>
+        </table>
       </td>
     </tr>
-    <tr>
-      <td><b>Contact</b></td>
-      <td><a href="contact/">Get in touch with the Organisers</a>.</td>
-    </tr>
   </table>
+  <img src="tear_down_wall.jpg" alt="Mr. #devops, tear down this wall!" title="Photo by Hunter Desportes: www.flickr.com/photos/hdport">
 </center>
 <center>
   <a href="http://groups.google.com/group/devopsdays">Subscribe to the DevOpsDays mailing list</a>
