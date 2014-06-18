@@ -10,7 +10,7 @@ title: proposals
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-Call for Proposals is open <%= render(:partial => "/#{@eventhome}/_cfp_date_start.txt") -%> until <%= render(:partial => "/#{@eventhome}/_cfp_date_end.txt") -%>
+Call for Proposals is open <%= render(:partial => "/#{@eventhome}/_cfp_date_start") -%> until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>
 <br>
 There are three ways to propose a session:
 <ol>
