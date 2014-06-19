@@ -22,6 +22,7 @@ filter:    erb
 { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"},
+{ :image => "cumulus.png", :name => "Cumulus", :link => "http://cumulusnetworks.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
