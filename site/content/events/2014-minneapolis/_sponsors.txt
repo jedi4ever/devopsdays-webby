@@ -23,7 +23,8 @@ end
 <h1><font color="silver">Silver Lake</font> sponsors</h1>
 
 <% @gsponsors = [
-{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"}
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
+{ :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
