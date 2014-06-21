@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Matt Ho
+title: "Docker and Serf, DevOps Dynamic Duo"
+email: matt.ho@gmail.com
+handler_email: 
+---
+
+**Abstract:**
+
+Will describe how a financial entity can leverage devops to accelerate
+service delivery. We're in the process of migrating our technology to
+a technology stack based on Docker, Packer, and Serf. I cover some of
+our key ah-ha moments from the experience such as:
+
+* How serf enables teams to self provision services
+
+* How embedding devops members into every single team improved
+  communication and productivity
+
+* How packer used in combination with docker with ops to provide a
+  clear separation of responsibilities with simple tools
+
+* How we were able to significant reduce the number of distinct
+  technologies we needed to manage by adopting containers as the unit
+  of deployment
+
+Prior to docker, we were using a more traditional puppet system for
+our infrastructure.  It had served us well, but was definitely showing
+its age.  Introducing docker dramatically simplified our environment.
+Where before puppet managed many different types of servers, we
+converted almost everything to a docker container with a few runtime
+tags to identify where things are.  Where provisioning of services was
+done manually via puppet scripts on a per service basis, switching to
+Serf enables teams to auto provision their own service.
+
+**Speaker:**
+
+Matt Ho  CTO of LOYAL3
