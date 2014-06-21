@@ -46,16 +46,21 @@ div#quicklinks {
 }
 
 div#quicklinks a {
-	color: white;	
+	color: white;
 	font-weight: bold;
 }
 
 div#quicklinks li {
-	list-style-type:none	
+	list-style-type:none
 }
 
 div#headermenu {
-	font-color: #1581AB;	
+	font-color: #1581AB;
+	width: 300px;
+}
+
+div#headermenu td {
+	text-align: center;
 }
 
 div#headermenu * a {
