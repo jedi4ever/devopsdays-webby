@@ -59,7 +59,7 @@ google.load('jquery', '1.3.2');
 <div class="span-8 last">
 </div>
 
-<div class="span-24 last" id="header">
+<div class="span-24 last" id="title">
 <div class="span-15 first">
 <h1><%= @pagetitle %> </h1>
 </div>
@@ -112,7 +112,7 @@ Back to <a href='..'>proposals overview</a> - <a href='../../program'>program</a
 <% end %>
 
 </div>
-
+</div>
 
 <%= render(:partial => '/googleanalytics') %>
 <%= render(:partial => '/footer') %>

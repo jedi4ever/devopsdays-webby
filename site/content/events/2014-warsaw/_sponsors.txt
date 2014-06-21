@@ -3,7 +3,8 @@ filter: erb
 ---
 
 <% @gsponsors = [
-  ]%>
+  { :image => 'ibm.png', :name => 'IBM', :link => 'http://www.ibm.com/'},
+]%>
 
 <% if @gsponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>

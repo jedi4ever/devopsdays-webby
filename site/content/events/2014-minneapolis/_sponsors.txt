@@ -14,6 +14,8 @@ end
 { :image => "sps.png", :name => "SPS Commerce", :link => "http://www.spscommerce.com/"},
 { :image => "target.png", :name => "Target", :link => "http://www.target.com/"},
 { :image => "govdelivery.png", :name => "GovDelivery", :link => "http://govdelivery.com/"},
+{ :image => "compuware.png", :name => "Compuware", :link => "http://compuware.com/apm/"},
+{ :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -22,7 +24,8 @@ end
 <h1><font color="silver">Silver Lake</font> sponsors</h1>
 
 <% @gsponsors = [
-{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"}
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
+{ :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
