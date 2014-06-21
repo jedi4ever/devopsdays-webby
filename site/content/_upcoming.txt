@@ -12,6 +12,10 @@
       Belgium
     </a>
     -
+    <a href="/events/2014-berlin">
+      Berlin
+    </a>
+    -
     <a href="/events/2014-boston">
       Boston
     </a>
@@ -35,10 +39,6 @@
     <br />
     <a href="/events/2014-warsaw">
       Warsaw
-    </a>
-    - 
-    <a href="/events/2014-berlin">
-      Berlin
     </a>
   </h3>
 </div>
