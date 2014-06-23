@@ -9,11 +9,14 @@ title: sponsor
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
+### Why Sponsor Us?  
+The DevOps Days event mandate is to bring the highest­quality speakers, experts and the curious together. 
+By sponsoring DevOps Days, you will be exposing your company’s brand and services to Toronto’s top talent 
+in this rapidly growing space. (And feel great about it, too!)<br><br>
+We greatly value sponsors for this open event. If you are interested in sponsoring [drop us an e-mail](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Toronto - Sponsorship).
 
-We greatly value sponsors for this open event. If you are interested in sponsoring [drop us an e-mail](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Toronto - Sponsorship<%= @eventid %>).
-
-<h4>Please click <a href="DevOpsDaysTorontoSponsorshipProspectus.pdf">here</a> to download the Sponsor prospectus for DevOpsDays Toronto 2014!</h4>
+<h4>Please click <a href="DevOpsDaysTorontoSponsorshipProspectus.pdf">here</a> to download the full sponsor prospectus for DevOpsDays Toronto 2014!</h4>
 
 <hr>
 
-DevOpsDays is a self-organizing conference for DevOps practitioners that depends on your sponsorship and participation to happen.
+DevOpsDays is a self-organizing conference for DevOps enthusiasts and evangelists that depends on your sponsorship and participation to happen.
