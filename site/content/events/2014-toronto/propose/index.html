@@ -9,7 +9,6 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
-<% parent="/#{@eventhome}/proposals" %>
 <center>
   <img src="margritte.jpg"><hr>
 <h3>Don't take anything for granted</h3>
@@ -44,35 +43,9 @@ Besides the suggest a speaker/topic we also have the traditional ways to propose
 </ol>
 
 <h3>Suggest a speaker, topic</h3>
-Common, don't be shy. We know you've always wanted a person to give his on view on a specific subject.
-Now's your change and we might make it happen.
+Come on, don't be shy. We know you've always wanted a person to give his on view on a specific subject.
+Now's your chance and we might make it happen.
 
-Suggestions so far:
-<ol>
-<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :suggestion => true)
-  suggestions.each do |suggestion|
--%>
-<li><%= link_to_page(suggestion) %> - suggested by <%= suggestion.author %>
-<% end -%>
-</ol>
-
-Talks so far:
-<ol>
-<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :talk => true)
-  suggestions.each do |suggestion|
--%>
-<li><%= link_to_page(suggestion) %> - <%= suggestion.author %>
-<% end -%>
-</ol>
-
-Ignites so far:
-<ol>
-<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :ignite => true)
-  suggestions.each do |suggestion|
--%>
-<li><%= link_to_page(suggestion) %> - <%= suggestion.author %>
-<% end -%>
-</ol>
 
 <div class="span-15 first last">
 <%= render(:partial => '/disqus_comments') %>

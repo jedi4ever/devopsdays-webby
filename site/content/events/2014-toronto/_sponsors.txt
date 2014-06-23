@@ -3,7 +3,7 @@ filter:    erb
 ---
 
 <% @gsponsors = [
-  { :image => “myplanet.png", :name => “Myplanet”, :link => "http://myplanet.io/“},
+  { :image => 'myplanet.png', :name => 'Myplanet', :link => 'http://myplanet.io/' },
 ]%>
 
 
@@ -18,7 +18,7 @@ filter:    erb
 
 <h1>Special sponsors</h1>
 <% @hsponsors = [
-  { :image => “myplanet.png", :name => “Myplanet, :link => "http://myplanet.io/“, :deal => ‘Venue’},
+  { :image => 'myplanet.png', :name => 'Myplanet', :link => 'http://myplanet.io/', :deal => ‘Venue’ },
 ]%>
 
 <% @hsponsors.each do |sponsor| %>
