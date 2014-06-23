@@ -1,0 +1,55 @@
+---
+extension: html
+layout: event
+title: welcome
+filter:
+- erb
+- markdown
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+<img src="future-of-devops.jpg">
+<hr>
+<h3>Date: 27 &amp; 28 October - Location : Ghent, toronto</h3>
+</center>
+
+<hr>
+<table width='100%'><tr>
+  <td style="text-align: center">
+      <a href="./registration">Register</a>
+</td>
+  <td style="text-align: center">
+      <a href="./propose">Propose</a>
+</td>
+  <td style="text-align: center">
+      <a href="./sponsor">Sponsor</a>
+ </td></tr></table>
+<hr>
+<h3>The mission</h3>
+Dear Devops Enthousiast, 
+
+**5 Years, YES five years have passed** since the first [devopsdays in Ghent 2009](/events/2009-ghent/) happened.
+
+Back then we didn't know we were going to change the IT industry. 
+Devops has gone from an underground , to a wide mainstream industry adopted idea.
+
+Does this mean we are there yet? By no means: the industry is still focusing on the tools side of devops, 
+and not the actual gold: __The people, like you, who make #devops tick, who made this statement grow over the past years.__
+
+In this 5 year celebration edition, we want to take the time to retrospect on the past.  AND more importantly, we want to give you again a future to dream of. What still needs to be solved, what new challenges are we facing?
+
+We are [inviting people to think about the things they want to see solved in the future. Or the speakers they'd love to hear about where they think the future is heading.](./propose) To broaden the discussion and our own horizons, we like to invite people from outside IT, to give their valuable view on our little own ecosystem.
+Why not learn from other sciences like philosophy, psychology , religion, building engineering , group dynamics. We don't have to invent our own wheel, we can learn from others. **After all the people/culture part is the hard part, we should use all help we could get.**
+
+It's only fitting, we are holding this anniversary event in [Ghent toronto](./location) , back to the roots.
+**We're counting on YOU to help the future: ** you can participate in the numerous discussions, [give us ideas on speakers or topics](./propose), or [help sponsoring](./sponsor) to make this an awesome event.
+
+Patrick Debois
+Founder of Devopsdays
+
+P.S. Yes, there will be Belgian beers, chocolate and fries
+
+<div class="span-15 first last">
+<%= render(:partial => '/disqus_comments') %>
+</div>
