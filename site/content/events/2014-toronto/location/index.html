@@ -1,19 +1,15 @@
 ---
 extension: html
 filter:
-- erb
-- markdown
-title: location
-layout: event
+  - erb
+  - markdown
+title: Location
 dirty: true
+layout: event
 ---
-# The Eskimo Factory
-<img src="fabriek.jpg"><br>
-<center><a href="http://eskimofabriek.be">Eskimofabriek</a> - Wiedauwkaai 25 - 9000 GENT - toronto - +32-477/44 16 09 - <a href="mailto:info@eskimofabriek.be">info@eskimofabriek.be</a></center>
-<hr>
-<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d80269.0089354839!2d3.7588903071289073!3d51.04558097537913!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1397822055683" width="580" height="600" frameborder="0" style="border:0"></iframe>
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
 
-<br>
-
-# Travelling &amp; Hotels
-We'll be adding more information soon
+### Conference location:
+<b><a href="http://www.theburroughes.com/" target="_blank">The Burroughes</a>:</b> 639 Queen St West, Toronto, ON. M5V 2B7 - (416) 360-5757<br>
+<iframe width="580" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2887.0493299946243!2d-79.403452!3d43.647141999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2bfe4629a54cda5!2sBurroughes+Building!5e0!3m2!1sen!2s!4v1403281696210"></iframe><br /><small><a href="https://goo.gl/maps/luCZr" style="color:#0000FF;text-align:left">View Larger Map</a></small>

@@ -1,34 +1,52 @@
 ---
 extension: html
 layout: event
-title: welcome
 filter:
 - erb
 - markdown
+title: Welcome
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
 <center>
-<img src="future-of-devops.jpg">
-<hr>
-<h3>Date: September 12th &amp; 13th - Location : Toronto</h3>
+  <img border="0" src="toronto.jpg" alt="DevOpsDays Toronto"><br><br>
+  <b>Be part of the first DevOpsDays in Toronto!</b>
 </center>
-
-<hr>
-<table width='100%'><tr>
-  <td style="text-align: center">
-      <a href="./registration">Register</a>
-</td>
-  <td style="text-align: center">
-      <a href="./propose">Propose</a>
-</td>
-  <td style="text-align: center">
-      <a href="./sponsor">Sponsor</a>
- </td></tr></table>
-<hr>
-
-TBD
-
-<div class="span-15 first last">
-<%= render(:partial => '/disqus_comments') %>
-</div>
+<center>
+  <table>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td><a href="location/"><a href="http://devopsdays.org/events/2014-toronto/location/" target="_blank">The Burroughes building in Toronto</a></td>
+    </tr>
+    <tr>
+      <td><b>Participants</b></td>
+      <td><b><a href="registration/">Register now!</a></b></td></tr>
+    <tr>
+      <td><b>Speakers</b></td>
+      <td>Call for <a href="propose/">Proposals</a> is open until July 15!</td>
+    </tr>
+    <tr>
+      <td><b>Program</b></td>
+      <td><a href="program/">The Program</a> will come online shortly after closing date for our <a href="propose/">Proposals</a>.</td>
+    </tr>
+    <tr>
+      <td><b>Sponsorship</b></td>
+      <td><a href="sponsor/">Sponsorship opportunities</a> are still available. Help us make this event an outstanding one!</td>
+    </tr>
+    <tr>
+      <td><b>Contact</b></td>
+      <td><a href="contact/">Get in touch with the Organisers</a>.</td>
+    </tr>
+  </table>
+</center>
+<center>
+  <a href="http://groups.google.com/group/devopsdays">Subscribe to the DevOpsDays mailing list</a>
+</center>
