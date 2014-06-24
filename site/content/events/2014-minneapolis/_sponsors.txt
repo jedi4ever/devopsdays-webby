@@ -17,6 +17,7 @@ end
 { :image => "compuware.png", :name => "Compuware", :link => "http://compuware.com/apm/"},
 { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
 { :image => "activestate_stackato.png", :name => "ActiveState", :link => "http://www.activestate.com/"},
+{ :image => "dell.png", :name => "Dell Software", :link => "http://www.enstratius.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
