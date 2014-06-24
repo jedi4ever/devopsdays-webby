@@ -61,6 +61,7 @@ filter:    erb
 { :image => "victorops.png", :name => "VictorOps", :link => "http://victorops.com/"},
 { :image => "bugcrowd.png", :name => "Bugcrowd", :link => "https://bugcrowd.com/"},
 { :image => "yelp.png", :name => "Yelp", :link => "http://www.yelp.com/"},
+{ :image => "redhat.png", :name => "RedHat", :link => "http://www.redhat.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
