@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dustin Whittle
+title: "Why you can't buy DevOps in a box"
+---
+
+**Abstract**
+
+Companies will often believe they can buy their way out of technical debt without making any substantial changes. In this session we will discuss the importance of DevOps and give a framework for enabling cultural change inside your organization. We will discuss which approaches have worked for startups, and which make more sense for the enterprise. Each method requiring their own set of tools and processes. We will delve into how organizations large and small have experienced these changes, the challenges encountered along the way, and the light at the end of the tunnel.
+
+**Speaker**
+
+Dustin Whittle
+
+Bio: Dustin Whittle is a Developer Evangelist at AppDynamics where he focuses on helping organizations manage application performance. Before joining AppDynamics, Dustin was CTO at Kwarter, a consultant at SensioLabs, and developer evangelist at Yahoo!. He has experience building and leading engineering teams and working with developers and partners to scale to meet demand. When Dustin isn't working he enjoys flying, sailing, diving, golfing, and traveling around the world. Find out more at dustinwhittle.com or follow him @dustinwhittle.
