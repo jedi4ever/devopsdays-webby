@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Jorm
+title: "Managing security updates under the DevOps model"
+---
+
+**Abstract:**
+
+The DevOps model empowers developers to bundle all the dependencies with their application, and deploy this complete package to infrastructure they control. While this enables many capabilities, it also shifts the responsibility for managing security updates from the system administrator to the developer.
+
+This talk will examine this problem in detail, using Java projects built using maven as an example. It will also cover potential solutions, including the victi.ms project and properly-layered docker images.
+
+**Speaker:**
+
+I am the manager of product security for Red Hat's cloud and middleware products. I have been a Linux nerd, paranoid security guy, and developer for 15 years. My recreational obsessions include gaming frequent flyer schemes and open source intelligence on North Korea.

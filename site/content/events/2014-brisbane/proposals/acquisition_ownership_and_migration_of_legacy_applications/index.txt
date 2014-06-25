@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mujtaba Hussain
+title: "Acquisition, ownership and migration of legacy applications a.k.a. OH MY GOD IS THIS PHP ? a.k.a. WHY OH WHY OH WHY! a.k.a. I told you PHP would not die without holy water."
+---
+
+**Abstract:**
+
+Recently realestate.com.au acquired a business called 1Form, a website enabling the streamlined management of applications for rental properties online. Since its creation in 2006 and alliance with realestate.com.au in 2011, 1Form has enabled renters all over Australia to apply for housing in a secure and hassle free manner. 
+
+In this talk I will outline how my team went about migrating the application from its previous hosted infrastructure to realestate.com.au’s AWS infrastructure within 3 months and all the challenges that came with it; like:
+
+Assessment of the internals of the application
+Security analysis
+Infrastructure planning
+QA and Deployment pipelining
+Unforeseen obstacles e.g. DAMN YOU HEARTBLEED
+Domain knowledge transfer
+Monitoring and Alerting infrastructure planning
+AND MORE … 
+
+And things we did well, things we did not do well. All this in the hopes of providing a real world example of how all the good things about a shared mindset between people operational and software engineers with a common goal makes at times very challenging projects smooth, fun and worthwhile.
+
+**Speaker:**
+
+I am software engineer for realestate.com.au (Australia's number #1 online portal for finding properties) and have been involved in projects across all spectrums; from web development in Java and Rails and Perl to writing Obj-C code for realestate.com.au iOS apps to writing C for fun. 
+
+I am an enthusiastic cricketer, rock climbing and gardener and in my spare team learn organic chemistry from my wife.
