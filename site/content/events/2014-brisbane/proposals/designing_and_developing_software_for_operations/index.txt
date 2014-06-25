@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Will Thames
+title: "Designing and Developing software for Operations"
+---
+
+**Abstract:**
+
+Making software operable is hard. I would like to discuss a variety of patterns that make operating software easier, and anti-patterns that make it harder, covering the topics of monitorability, resiliency and recoverability along with configuration, deployment and orchestration.
+
+Whether the software comes from a third party or from your friendly developers across the desk, there's almost always something that can be improved!
+
+As this is a biggish topic, I plan to cover the main areas along with an example of patterns and anti-patterns for each, before referencing further reading on this subject (Release It, Web Operations, etc)
+
+**Speaker:**
+
+I have been doing software releases to production for over ten years, and have learned a lot of the lessons about operability from the sharp end. One memorable weekend involving 30+ hours handling an outage led to some twenty-odd recommendations for improving operability. 

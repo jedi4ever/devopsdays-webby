@@ -8,6 +8,7 @@ filter:    erb
 <% @gsponsors = [
 { :image => "wotifgroup.png", :name => "Wotif Group", :link => "http://www.wotifgroup.com/"},
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
+{ :image => "appdynamics.png", :name => "Appdynamics", :link => "http://www.appdynamics.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sam Newman
+title: "Transforming ThoughtWorks' Internal Systems"
+---
+
+**Abstract:**
+
+I recently took over as the architect for ThoughtWorks' internal systems. During the last year or so we have been undergoing multiple shifts in what - and how - we work. Out goes monolithic applications, in comes Microservices. Out goes teams oriented around a single IT system, in come product teams. Throw in four data centres, as many cloud providers, 40+ COTS products and 5 delivery teams spread globally and we have an interesting story to share!
+
+This talk will discuss the transition we have been making, and our use of technology like Spacewalk, Ansible, Packer and Docker. I will also talk about how to deal with SFDC, what we mean by a 'product' team, what that means for support and ownership of legacy systems.
+
+**Speaker:**
+
+I'm a technical consultant at ThoughtWorks, where amongst other things I look after our internal systems. I've spent the last ten years or so with a foot in both the development and operations worlds, and find interesting things occur when these two worlds survive. I am also currently writing a book, Building Microservices, for O'Reilly.

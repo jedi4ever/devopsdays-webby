@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Karl Chu and Fabian Iannarella
+title: "Getting Devs to Own Their Ops"
+---
+
+**Abstract:**
+
+Fabian Iannarella and Karl Chu will give an overview about the self-serve infrastructure system that the team at IOOF is building to enable, encourage, and enforce development teams to own the ops of their application. They will describe where IOOF was a year ago, the challenges the team was facing, how some of those challenges were addressed, and the current state of the solution. Fabian and Karl will also delve slightly into IOOF's implementation of role-based Puppet deployment that transfers complete ownership of the infrastructure code to the development team.
+
+**Speaker:**
+
+Fabian Iannarella is an I.T. infrastructure specialist at IOOF. His expertise lies in UNIX/LINUX, firewalls, and web technologies. He is currently leading a team focused on system automation and developing a devops culture, with the vision that development teams will be able to self-service their own infrastructure environments. Outside of I.T., Fabian has a background in electronics and audio engineering.
+
+Karl Chu is a software development and continuous delivery consultant at ThoughtWorks Australia. He has diverse experiences spanning across different technologies and industries; from .NET to ruby, healthcare to telecommunication. Prior to becoming a software professional, Karl was a professional mechanical engineer.
+"As a co-founder at Puppet Labs with a background in Agile development, Andrew Clay Shafer devops'd before devops had a name.
