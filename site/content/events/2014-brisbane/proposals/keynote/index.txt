@@ -18,8 +18,4 @@ TBC
 
 **Speaker:**
 
-Sidney is well-known internationally in many different industries due to his groundbreaking work on human error and safety. He is in high demand as a speaker on topics such as complex systems, human-machine interaction, system failure, and "just culture". DevOpsDays attendees may be familiar with the "blameless post-mortem" concept which is based heavily on Sidney's body of work.
-
-He is author of several best-selling books including "Behind Human Error" (2010), "Drift into Failure" (2011), "Patient Safety" (2011), and "Just Culture (2nd Edition)" (2012).
-
-Sidney currently serves as Professor in the School of Humanities at Griffith University in Brisbane, Australia where he has founded the "Safety Science Innovation Lab".
+Sidney Dekker (PhD Ohio State University, USA, 1996) is professor at Griffith University in Brisbane, Australia, where he runs the Safety Science Innovation Lab. He is also Professor (Hon.) of psychology at The University of Queensland, and Professor (Hon.) of human factors and patient safety at Royal Children's Hospital in Brisbane. Previously, he was Professor of human factors and system safety at Lund University in Sweden. After becoming professor, he learned to fly the Boeing 737, working part-time as an airline pilot out of Copenhagen. He has won worldwide acclaim for his groundbreaking work in human factors and safety, and is best-selling author of, most recently, Second Victim (2013), Just Culture (2012), Drift into Failure (2011), and Patient Safety (2011). His latest book is Safety Differently (2014). More at sidneydekker.com
