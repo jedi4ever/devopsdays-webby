@@ -78,6 +78,7 @@ filter:    erb
 
 <% @bsponsors = [
 { :image => "relevancelab.png", :name => "Relevance Lab", :link => "http://www.relevancelab.com/"},
+{ :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
