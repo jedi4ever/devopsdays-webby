@@ -92,7 +92,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Pittsburgh<br>May 29 & 30 2014",
-labelAnchor: new google.maps.Point(-10, 10),
+labelAnchor: new google.maps.Point(-10, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -147,13 +147,13 @@ position: torontolocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Toronto 2014",
+labelContent: "Toronto 2014<br>September 12 & 13",
 labelAnchor: new google.maps.Point(-10, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
-google.maps.event.addListener(torontomarker, "click", function (e) { location.href="#"});
+google.maps.event.addListener(torontomarker, "click", function (e) { location.href="/events/2014-toronto"});
 
 belgiumlocation = new google.maps.LatLng(50.5333, 4.7667);
 

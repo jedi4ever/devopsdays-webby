@@ -50,7 +50,7 @@ title: Devopsdays - Organizing Guide
   counter = 0
   articles.each do |page|
     counter = counter +1
-    doc = page.render
+    doc = render(page)
 -%>
 <h3><a name="<%= counter %>"></a><%= page.title %></h3>
 <%= doc %>
