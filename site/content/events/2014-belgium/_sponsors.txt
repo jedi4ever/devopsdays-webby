@@ -12,6 +12,7 @@ filter:    erb
   { :image => "serena.png", :name => "Serena", :link => "http://serena.com/"},
   { :image => "cfengine.png", :name => "Cfengine", :link => "http://cfengine.com/"},
   { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.com/", :deal => 'Lanyard'},
+  { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://www.xebialabs.com/"},
 ]%>
 
 
@@ -53,6 +54,7 @@ filter:    erb
   { :image => "mongodb.png", :name => "MongoDB", :link => "http://mongodb.com"},
   { :image => "highops.png", :name => "HighOps", :link => "http://highops.com"},
   { :image => "scalefactory.png", :name => "Scale Factory", :link => "http://scalefactory.com"},
+  { :image => "opsmatic.png", :name => "Opsmatic", :link => "http://opsmatic.com"},
 ]%>
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 <% @bsponsors.each do |sponsor| %>
