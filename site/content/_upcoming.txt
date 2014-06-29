@@ -35,7 +35,10 @@
     <a href="/events/2014-siliconvalley">
       Silicon Valley
     </a>
-    - Toronto
+    -
+    <a href="/events/2014-toronto">
+      Toronto
+    </a>
     <br />
     <a href="/events/2014-warsaw">
       Warsaw

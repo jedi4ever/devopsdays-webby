@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Volker Will
+title: "IT Operations - Delivering successful transformation in a DevOps World"
+---
+
+Enable an effective DevOps transformation within organization's application lifecycle management (Plan – Develop – Release - Operate) with a variety of integrated solutions supporting operations in IT, from Microsoft as well as Open Source, to establish a high-trust relationship between the business, development, and operations teams.
+
+Within the Enterprise, the IT operations plays an important role in enabling the promise of continuous integration and delivery, to ensure that changes to applications by software developers can be rapidly and efficiently deployed to end users. The job is not over once the applications, and infrastructure to support them, are automatically deployed.
+
+Monitoring should be integrated to continuously improve the applications for users based on real data gathered, along the way improving release cycles for development teams. Gain critical insight from actual implementation details required when business, developers and IT professionals have historically worked together.
+
+Volker Will - Microsoft – TED Enterprise Evangelism

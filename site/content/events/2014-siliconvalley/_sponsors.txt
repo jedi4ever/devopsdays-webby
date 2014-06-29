@@ -24,6 +24,7 @@ filter:    erb
 { :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"},
 { :image => "cumulus.png", :name => "Cumulus", :link => "http://cumulusnetworks.com/"},
 { :image => "lumoslabs.png", :name => "Lumos Labs", :link => "http://www.lumosity.com/"},
+{ :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -60,6 +61,7 @@ filter:    erb
 { :image => "victorops.png", :name => "VictorOps", :link => "http://victorops.com/"},
 { :image => "bugcrowd.png", :name => "Bugcrowd", :link => "https://bugcrowd.com/"},
 { :image => "yelp.png", :name => "Yelp", :link => "http://www.yelp.com/"},
+{ :image => "redhat.png", :name => "RedHat", :link => "http://www.redhat.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
@@ -76,6 +78,8 @@ filter:    erb
 
 <% @bsponsors = [
 { :image => "relevancelab.png", :name => "Relevance Lab", :link => "http://www.relevancelab.com/"},
+{ :image => "salesforce.png", :name => "Salesforce", :link => "http://www.salesforce.com/"},
+{ :image => "aerospike.png", :name => "Aerospike", :link => "http://www.aerospike.com/"},
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>

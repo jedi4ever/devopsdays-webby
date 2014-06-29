@@ -3,7 +3,6 @@ filter: erb
 ---
 
 <% @gsponsors = [
-	{ :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
   ]%>
 
 <% if @gsponsors.empty?  %>
@@ -26,7 +25,9 @@ filter: erb
 <a href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @partners = []%>
+<% @partners = [
+{ :image => 'myplanet.png', :name => 'Myplanet', :link => 'http://myplanet.io/' },
+]%>
 
 <h1>Partners</h1>
 
