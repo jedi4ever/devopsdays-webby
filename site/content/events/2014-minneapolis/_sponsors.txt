@@ -29,6 +29,7 @@ end
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
 { :image => "nagios.png", :name => "Nagios", :link => "http://www.nagios.com/"},
+{ :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -41,6 +42,8 @@ end
 { :image => "iphouse.png", :name => "ipHouse", :link => "http://www.iphouse.com/"},
 { :image => "github.png", :name => "GitHub", :link => "http://www.github.com/"},
 { :image => "perficient.png", :name => "Perficient", :link => "http://www.perficient.com/"},
+{ :image => "teksystems.png", :name => "TEKsystems", :link => "http://www.teksystems.com/"},
+{ :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
