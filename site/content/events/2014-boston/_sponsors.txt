@@ -10,6 +10,8 @@ end
 %>
 
 <% @gsponsors = [
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
+{ :image => "ruxit.png", :name => "ruxit", :link => "http://www.ruxit.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
