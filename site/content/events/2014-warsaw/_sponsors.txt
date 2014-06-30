@@ -3,6 +3,8 @@ filter: erb
 ---
 
 <% @gsponsors = [
+  { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
+  { :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -15,6 +17,7 @@ filter: erb
 
 <% @ssponsors = [
   { :image => 'megiteam.png', :name => 'MegiTeam', :link => 'http://www.megiteam.pl/hosting-dla-programistow/'},
+  { :image => 'saltstack.jpg', :name => 'SaltStack', :link => 'http://www.saltstack.com/'},
 ]%>
 
 <h1>Silver sponsors</h1>
@@ -27,7 +30,6 @@ filter: erb
 <% end %>
 
 <% @partners = [
-{ :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
 ]%>
 
 <h1>Partners</h1>
