@@ -6,11 +6,60 @@ filter:
 title: Program
 dirty: true
 layout: event_warsaw
-platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
+<div class="span-16 last ">If you are new to the <em>Open Space</em> concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
+<br /><br />
+Please see <strong><a href="http://lanyrd.com/2014/devopsdayswaw/">Lanyrd</a></strong> for the latest program updates!<br />
+<hr/>
 <center>
-  <b>Coming soon! Stay put!</b>
+<strong><em>Note:</em></strong></br>
+This programme is not yet set in stone and it might change.<br/>
+We still encourage <em>everyone</em> to send a talk <a href='<%= File.join('/',@eventhome,'/propose') -%>'>proposal</a>.<br/><br/>
+There is still time, so don't be shy and join the adventure with us, it's going to be fun!
 </center>
+<br/>
+<hr/>
+
+<div class="span-7 append-bottom border">
+	<div class="span-7 last">
+		<h4>Day 1 - Thursday 25th September</h4>
+	</div>
+	<div class="span-2">08:00 - 09:00</div><div class="span-4 append-bottom last">Registration and Partners Booths Open</div>
+	<div class="span-2">09:00 - 09:30</div><div class="span-4 append-bottom last">Opening and organizational issues</div>
+	<div class="span-2">09:30 - 10:00</div><div class="span-4 box last"><strong>Jan Svoboda</strong><br /><a href="../proposals/JanSvoboda_BuildingDeploymentAutomationPlatformsForContinuousDelivery/">Building Deployment Automation Platforms for Continuous Delivery</a></div>
+	<div class="span-2">10:00 - 10:30</div><div class="span-4 box last"><strong>Joachim Bauernberge</strong><br /><a href="../proposals/JoachimBauernberger_DevOpsInTelecomsIsItPossible/">DevOps in Telecoms - is it possible?</a></div>
+	<div class="span-2">10:30 - 11:00</div><div class="span-4 box last"><strong>Matt Harasymczuk</strong><br /><a href="../proposals//">Continuous Integration, Change and Release Management at No Cost</a></div>
+	<div class="span-2">11:00 - 11:30</div><div class="span-4 append-bottom last">Break</div>
+	<div class="span-2">11:30 - 12:00</div><div class="span-4 box last"><strong>Andrzej Grzesik</strong><br /><a href="../proposals//">Cheffing a department, one Dev at a time</a></div>
+	<div class="span-2">12:00 - 13:30</div><div class="span-4 box last"><strong>Discussion Panel</strong><br /><a href="../proposals//">Chef vs SaltStack vs Ansible vs Puppet</a></div>
+	<div class="span-2">13:30 - 14:30</div><div class="span-4 append-bottom last">Lunch</div>
+	<div class="span-2">14:30 - 15:00</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Opening (Day #1)</div>
+	<div class="span-2">15:00 - 16:00</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Open Space #1</div>
+	<div class="span-2">16:45 - 17:00</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Open Space #2</div>
+	<div class="span-2">17:00 - 17:30</div><div class="span-4 append-bottom last">Relocation to the beer garden</div>
+	<div class="span-2">17:30 - 24:00</div><div class="span-4 box last"><strong>Happy Hour</strong><br />Beer event with a Partner</div>
+</div>
+
+<div class="span-7 append-bottom border">
+	<div class="span-7 last">
+		<h4>Day 2 - Friday 26th September</h4>
+	</div>
+	<div class="span-2">08:00 - 09:00</div><div class="span-4 append-bottom last">Registration and coffee</div>
+	<div class="span-2">09:00 - 09:30</div><div class="span-4 box last"><strong>Miguel Miranda</strong><br /><a href="../proposals//">Static Code Analysis in CD Pipeline</a></div>
+	<div class="span-2">09:30 - 10:00</div><div class="span-4 box last"><strong>Rafał Kuć</strong><br /><a href="../proposals//">Logstash - Centralized Open Source Log Management</a></div>
+	<div class="span-2">10:00 - 10:30</div><div class="span-4 box last"><strong>Roman Pavlyuk</strong><br /><a href="../proposals//">DevOps at Home: making it working</a></div>
+	<div class="span-2">10:30 - 11:00</div><div class="span-4 append-bottom last">Break</div>
+	<div class="span-2">11:00 - 11:30</div><div class="span-4 box last"><strong>Alex Lomau</strong><br /><a href="../proposals//">Cloud Foundry: How it’s cooked</a></div>
+	<div class="span-2">11:30 - 12:00</div><div class="span-4 box last"><strong>Zoltan Toth</strong><br /><a href="../proposals//">How to build a petabyte-scale data infrastructure</a></div>
+	<div class="span-2">12:00 - 12:10</div><div class="span-4 box last"><strong>Grzegorz Nosek</strong><br /><a href="../proposals//">Soviet military hardware primer for DevOps</a></div>
+	<div class="span-2">12:10 - 12:20</div><div class="span-4 box last"><strong>Piotr Szwed</strong><br /><a href="../proposals//">DevOps Knowledge Base</a></div>
+	<div class="span-2">12:20 - 12:30</div><div class="span-4 box last"><strong>Ignite Talk</strong></div>
+	<div class="span-2">12:30 - 13:30</div><div class="span-4 append-bottom last">Lunch</div>
+	<div class="span-2">13:30 - 14:00</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Opening (Day #2)</div>
+	<div class="span-2">14:00 - 15:00</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Open Space #1</div>
+	<div class="span-2">15:00 - 16:00</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Open Space #2</div>
+	<div class="span-2">16:00 - 18:00</div><div class="span-4 append-bottom last">Closing</div>
+</div>
