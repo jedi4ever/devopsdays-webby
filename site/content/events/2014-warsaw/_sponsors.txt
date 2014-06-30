@@ -11,8 +11,8 @@ filter: erb
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
 <% end %>
 
-<% @gold_partners.shuffle.each do |partner| %>
-<a href='<%= partner[:link] %>'><img border="0" alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% @gold_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
 <% end %>
 
 <% @silver_partners = [
@@ -20,25 +20,12 @@ filter: erb
   { :image => 'saltstack.jpg', :name => 'SaltStack', :link => 'http://www.saltstack.com/'},
 ]%>
 
-<h1>Silver partners</h1>
+<% unless @silver_partners.empty?  %><h1>Silver partners</h1><% end %>
+
 <% if @silver_partners.empty? %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
 <% end %>
 
-<% @silver_partners.shuffle.each do |partner| %>
-<a href='<%= partner[:link] %>'><img border="0" alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% @silver_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
 <% end %>
-
-<% @regular_partners = [
-]%>
-
-<h1>Partners</h1>
-
-<% if @regular_partners.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
-<% end %>
-
-<% @regular_partners.shuffle.each do |partner| %>
-<a href='<%= partner[:link] %>'><img border="0" alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
-<% end %>
-<br />
