@@ -5,6 +5,7 @@ filter: erb
 <% @gold_partners = [
   { :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
   { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
+  { :image => 'vivus.jpg', :name => 'IT Vivus', :link => 'http://itvivus.pl/'},
 ]%>
 
 <% if @gold_partners.empty?  %>
