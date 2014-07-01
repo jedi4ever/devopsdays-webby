@@ -1,10 +1,6 @@
 ---
 filter:    erb
 ---
-<% @psponsors = [ ]%>
-
-<% @psponsors.shuffle.each do |sponsor| %> <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a><% end %>
-
 <% @gsponsors = [
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/cloud"},
 { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
@@ -26,10 +22,6 @@ filter:    erb
 { :image => "battlecrystudios.png", :name => "BattleCry Studios", :link => "http://www.battlecrystudios.com/"},
 { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.com/"},
 ]
-
-expire = Time.new(2015, 4, 30)
-expired = Time.now >= expire
-@gsponsors << { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/"} unless expired
 %>
 
 <% if @gsponsors.empty?  %>
