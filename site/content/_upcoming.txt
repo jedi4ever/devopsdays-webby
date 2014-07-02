@@ -1,13 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2014-amsterdam">
-      Amsterdam
-    </a>
-    -
-    <a href="/events/2014-austin">
-      Austin
-    </a>
-    -
     <a href="/events/2014-belgium">
       Belgium
     </a>
@@ -32,14 +24,10 @@
       Minneapolis
     </a>
     -
-    <a href="/events/2014-siliconvalley">
-      Silicon Valley
-    </a>
-    -
     <a href="/events/2014-toronto">
       Toronto
     </a>
-    <br />
+    -
     <a href="/events/2014-warsaw">
       Warsaw
     </a>

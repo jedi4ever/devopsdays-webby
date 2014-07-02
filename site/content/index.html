@@ -58,71 +58,18 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
-
-var amsterdammarker = new MarkerWithLabel({
-position: amsterdamlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Amsterdam 2014<br>19, 20, 21 June 2014",
-labelAnchor: new google.maps.Point(0, 45),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="#"});
-
-var siliconvalleylocation=new google.maps.LatLng(37.77493,-122.419415);
-var siliconvalleymarker = new MarkerWithLabel({
-position: siliconvalleylocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Silicon Valley<br>27 & 28 June 2014",
-labelAnchor: new google.maps.Point(+85, 30),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(siliconvalleymarker, "click", function (e) { location.href="/events/2014-siliconvalley"});
-
-var pittlocation=new google.maps.LatLng(40.442771, -79.956442);
-var pittmarker = new MarkerWithLabel({
-position: pittlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Pittsburgh<br>May 29 & 30 2014",
-labelAnchor: new google.maps.Point(-10, 0),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(pittmarker, "click", function (e) { location.href="/events/2014-pittsburgh"});
-
 var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
 var minneapolismarker = new MarkerWithLabel({
 position: minneapolislocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Minneapolis<br>July 17 & 18 2014",
-labelAnchor: new google.maps.Point(70, 45),
+labelContent: "Minneapolis 2014<br>July 17 & 18",
+labelAnchor: new google.maps.Point(50, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2014-minneapolis"});
-
-var austinlocation=new google.maps.LatLng( 30.267153,-97.743061);
-var austinmarker = new MarkerWithLabel({
-position: austinlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Austin<br>May 5 & 6 2014",
-labelAnchor: new google.maps.Point(30, 0),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(austinmarker, "click", function (e) { location.href="#"});
 
 var brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
 
@@ -131,7 +78,7 @@ position: brisbanelocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Brisbane 2014<br>25 & 26 July 2014",
+labelContent: "Brisbane 2014<br>25 & 26 July",
 labelAnchor: new google.maps.Point(0, 10),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 0.9}
@@ -147,8 +94,8 @@ position: torontolocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Toronto 2014<br>September 12 & 13",
-labelAnchor: new google.maps.Point(-10, 20),
+labelContent: "Toronto 2014<br>Sept 12 & 13",
+labelAnchor: new google.maps.Point(-5, 22),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -162,8 +109,8 @@ position: belgiumlocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Belgium 2014<br>27 & 28 October 2014",
-labelAnchor: new google.maps.Point(60, 35),
+labelContent: "Belgium 2014<br>27 & 28 Oct",
+labelAnchor: new google.maps.Point(40, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -177,8 +124,8 @@ position: warsawlocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Warsaw<br/>25 & 26 September 2014",
-labelAnchor: new google.maps.Point(25, -4),
+labelContent: "Warsaw 2014<br/>25 & 26 Sept",
+labelAnchor: new google.maps.Point(0, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -192,8 +139,8 @@ position: bostonlocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Boston<br>Aug 18 & 19",
-labelAnchor: new google.maps.Point(20, 50),
+labelContent: "Boston 2014<br>Aug 18 & 19",
+labelAnchor: new google.maps.Point(10, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -207,8 +154,8 @@ position: chicagolocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Chicago<br>Oct 2014",
-labelAnchor: new google.maps.Point(30, 20),
+labelContent: "Chicago 2014<br>Oct",
+labelAnchor: new google.maps.Point(50, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -222,8 +169,8 @@ position: berlinlocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Berlin 2014<br> 23 & 24 October 2014",
-labelAnchor: new google.maps.Point(0, 20),
+labelContent: "Berlin 2014<br> 23 & 24 Oct",
+labelAnchor: new google.maps.Point(40, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -241,46 +188,5 @@ google.maps.event.addListener(berlinmarker, "click", function (e) { location.hre
 <div style="width: 550px; height: 290px">
 <center>
 <a href="/events/2014-belgium/"><img src="5years.jpg"></a>
-  <!-- <h2>This community is supported by</h2> -->
-  <script>
-
-  /*
-    Array.prototype.randomize = function()
-    {
-      var i = this.length, j, temp;
-      while ( --i )
-      {
-        j = Math.floor( Math.random() * (i - 1) );
-        temp = this[i];
-        this[i] = this[j];
-        this[j] = temp;
-      }
-    }
-    var sponsors = [
-      { title: 'Automic', link: 'http://www.automic.com' , logo: 'automic.png' },
-      { title: 'Puppetlabs', link: 'http://www.puppetlabs.com' , logo: 'puppetlabs.png' },
-      { title: 'BMC', link: 'http://bmc.com' , logo: 'bmc.png' },
-      { title: 'Collabnet', link: 'http://www.collabnet.com' , logo: 'collabnet.png' },
-      { title: 'HP', link: 'http://www8.hp.com/us/en/software-solutions/software.html?compURI=1234839&jumpid=reg_r1002_usen_c-001_title_r0001' , logo: 'hp.png' },
-      { title: 'Opscode', link: 'http://www.opscode.com' , logo: 'opscode.png' },
-      { title: 'Urbancode', link: 'http://www.urbancode.com' , logo: 'urbancode.png' },
-      { title: 'Datadog', link: 'http://www.datadoghq.com' , logo: 'datadog.png' },
-      { title: 'Zeroturnaround', link: 'http://www.zeroturnaround.com' , logo: 'zeroturnaround.png' },
-    ];
-
-    sponsors.randomize();
-    for (var i = 0; i < sponsors.length; i++) {
-      document.write(
-        '<a href="'+
-        sponsors[i]['link'] +'"><img border=0 alt="'+
-        sponsors[i]['title']+'" title="'+
-        sponsors[i]['title']+'" width="80px" height="80px" src="logos/platinum/'+
-        sponsors[i]['logo'] +'"></a>');
-      if (i == 4) {
-        document.write('<br>');
-      }
-    }
-  */
-  </script>
 </center>
 </div>
