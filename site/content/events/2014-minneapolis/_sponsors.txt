@@ -30,6 +30,8 @@ end
 { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
 { :image => "nagios.png", :name => "Nagios", :link => "http://www.nagios.com/"},
 { :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
+{ :image => "mirantis.png", :name => "Mirantis", :link => "http://www.mirantis.com/"},
+{ :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
