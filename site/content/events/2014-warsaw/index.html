@@ -1,13 +1,14 @@
 ---
 extension: html
-layout: event_warsaw
 filter:
-- erb
-- markdown
+  - erb
+  - markdown
 title: Welcome
 dirty: true
+layout: event_warsaw
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
 
 <center>
   <img border="0" src="logos/warsaw.png" alt="DevOpsDays Warsaw">
@@ -36,11 +37,11 @@ dirty: true
     <td><b>Participants</b></td><td><b><a href="registration/">Register now!</a></b></td></tr>
     <tr>
       <td><b>Speakers</b></td>
-      <td>Call for <a href="propose/">Proposals</a> is open until early September!</td>
+      <td>Call for <a href="propose/">proposals</a> is open until early September!</td>
     </tr>
     <tr>
       <td><b>Program</b></td>
-      <td><a href="program/">Program</a> will come up shortly after closing date for our <a href="proposals/">Proposals</a>.</td>
+      <td>Check out current <a href="program/">program</a>, it's ready! But, we are still accepting more talk <a href="proposals/">proposals</a>.</td>
     </tr>
     <tr>
       <td><b>Partners</b></td>
