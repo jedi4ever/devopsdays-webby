@@ -10,7 +10,7 @@ talk: true
 ignite: false
 open_space: false
 selected: false
-layout: event
+layout: event_warsaw
 author: Miguel Miranda
 ---
 

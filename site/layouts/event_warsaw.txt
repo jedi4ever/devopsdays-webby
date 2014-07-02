@@ -1,0 +1,117 @@
+---
+extension: html
+filter:    erb
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventtitle = render(:partial => File.join(@eventhome, "_title")) %>
+<% @pagetitle = "#{@eventtitle} - #{@page.title}" %>
+<% if @page.proposal %>
+  <% @pagetitle = "#{@eventtitle} -  Proposal" %>
+<% end %>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<title><%= @pagetitle  %></title>
+<meta name="author" content="<%= @page.author %>" >
+
+<% if !@page.keywords.nil? %>
+<meta name="keyword" content="<%= @page.keywords.join(",") %>" >
+<% else %>
+<% if !@page.tags.nil? %>
+<meta name="keyword" content="<%= @page.tags.join(",") %>" >
+<% end %>
+<% end %>
+
+<link rel="alternate" type="application/rss+xml" title="devopsdays RSS Feed" href="http://www.devopsdays.org/feed/" >
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('jquery', '1.3.2');
+</script>
+
+<!---This is a combined jAmpersand, jqwindont , jPullquote -->
+<script type="text/javascript" src="/js/devops.js"></script>
+
+<!--- Blueprint CSS Framework Screen + Fancytype-Screen + jedi.css -->
+<link rel="stylesheet" href="/css/devops.min.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+<!--[if IE]>
+<link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+<![endif]-->
+</head>
+
+
+<body onload="initialize()">
+
+<div class="container ">
+<div class="span-24 last" id="header">
+<%= render(:partial => '/header') %>
+</div>
+
+<div class="span-24 last">
+<div class="span-15 first">
+<%= render(:partial => '/_headermenu') %>
+</div>
+<div class="span-8 last">
+</div>
+
+<div class="span-24 last" id="title">
+<div class="span-15 first">
+<h1><%= @pagetitle %> </h1>
+</div>
+
+<div class="span-8 last">
+</div>
+<% if @page.sidebar != false %>
+<h1>Gold partners</h1>
+<% end %>
+</div>
+
+<% if @page.sidebar == false %>
+<div class="span-24  ">
+<%= render(:partial => File.join(@eventhome,'_menu')) %>
+
+<%= @content %>
+</div>
+
+<% else %>
+<div class="span-15  ">
+  <div class="span-15  last ">
+  <%= render(:partial => File.join(@eventhome,'_menu')) %>
+<% if @page.proposal %>
+Back to <a href='..'>proposals overview</a> - <a href='../../program'>program</a>
+<hr>
+<h3><%= @page.title %></h3>
+<% end %>
+  <%= @content %>
+  </div>
+  <% if !@page.blog_post.nil? || !@page.proposal.nil? %>
+    <div class="span-15 first last">
+  <%= render(:partial => '/disqus_comments') %>
+    </div>
+  <% end %>
+</div>
+
+<div class="span-8 last">
+  <div class="span-8 last">
+<%= render(:partial => File.join(@eventhome,'_partners')) %>
+</div>
+  <div class="span-8 last">
+  </div>
+
+
+</div>
+<% end %>
+
+</div>
+</div>
+
+<%= render(:partial => '/googleanalytics') %>
+<%= render(:partial => '/footer') %>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+---
+filter: erb
+---
+
+<% @gold_partners = [
+  { :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
+  { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
+  { :image => 'vivus.jpg', :name => 'IT Vivus', :link => 'http://itvivus.pl/'},
+]%>
+
+<% if @gold_partners.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
+<% end %>
+
+<% @gold_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @silver_partners = [
+  { :image => 'megiteam.png', :name => 'MegiTeam', :link => 'http://www.megiteam.pl/hosting-dla-programistow/'},
+  { :image => 'saltstack.jpg', :name => 'SaltStack', :link => 'http://www.saltstack.com/'},
+]%>
+
+<% unless @silver_partners.empty?  %><h1>Silver partners</h1><% end %>
+
+<% if @silver_partners.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
+<% end %>
+
+<% @silver_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>

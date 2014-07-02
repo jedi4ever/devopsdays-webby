@@ -10,7 +10,7 @@ talk: false
 ignite: true
 open_space: false
 selected: false
-layout: event
+layout: event_warsaw
 author: Matt Harasymczuk
 ---
 
