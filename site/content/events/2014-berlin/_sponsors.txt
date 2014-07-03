@@ -4,6 +4,7 @@ filter: erb
 
 <% @gsponsors = [
 	{ :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
+	{ :image => "autoscout.png", :name => "AutoScout24", :link => "http://about.autoscout24.com/de-de/au-career.aspx"},
   ]%>
 
 <% if @gsponsors.empty?  %>
