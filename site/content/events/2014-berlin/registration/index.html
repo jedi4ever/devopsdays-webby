@@ -10,6 +10,7 @@ title: sponsor
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-Registration will open soon... stay tuned.
-[Drop us an e-mail](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Berlin - Register<%= @eventid %>), if you want to be notified when registration starts.
+<iframe sandbox="allow-forms" name="register-berlin" src="http://devopsdays-berlin.herokuapp.com/form" frameborder="0" width="600" height="1800">
+    Your browser does not support iframes.
+</iframe>
 
