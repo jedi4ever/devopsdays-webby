@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+layout: event_msp
+author: Nivia Henry
+title: "First you build the team, then they build the things."
+---
+
+**Abstract:**
+
+At the core of every output is a team who must work together, trust each other, and overcome obstacles to build a thing. Since we rarely get to hand pick our teams, this talk will provide five (not-so-easy) tips to build an environment in which they thrive. 
+
+**Speaker:**
+Nivia Henry
