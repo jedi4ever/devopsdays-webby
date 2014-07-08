@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+suggestion: false
+selected: false
+layout: event
+author: Seb Rose
+title: "Are you passionate?"
+---
+A humorous Ignite/Pecha Kucha that argues for rationality in the workplace, rather than emotions and passion.
+
+Seb Rose is an independent software developer, trainer and consultant based in the UK. He specializes in working with teams adopting and refining their agile practices, with a particular focus on automated testing and continuous delivery.  He first worked as a programmer in 1980 writing applications for estate agents and solicitors in compiled BASIC on an Apple II. He has worked with many mainstream technologies since then, for many well-known companies, such as Amazon, IBM, NCR, HBOS, Standard Life and Rabobank.  Now most of the code he writes is for open source projects, such as Cucumber and Cyber-Dojo. He is a regular conference speaker, contributor to O'Reilly's "97 Things Every Programmer Should Know" and co-author of the Pragmatic Programmer's "The Cucumber-JVM Book."
