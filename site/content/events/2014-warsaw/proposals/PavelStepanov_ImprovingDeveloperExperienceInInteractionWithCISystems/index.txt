@@ -24,3 +24,5 @@ CI practices aim to provide fast feedback about developers changes. However, on 
 This presentation aims to describe an experience of Magento company in building of automation around CI related processes: issues encountered and lessons learned.
 
 **Speaker:**
+
+This section will be added soon.

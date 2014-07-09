@@ -24,3 +24,5 @@ Back in 2011 at Prezi we started off with a single SQL query that worked on a fe
 Along this journey we used standard Unix and statistical software, later on-premise Hadoop clusters, NoSQL databases and third-party BI tools. Learning from our mistakes we rebuilt our data infrastructure and ETL systems many times. We’ll share the successes and misses we encountered throughout this journey.
 
 **Speaker:**
+
+This section will be added soon.
