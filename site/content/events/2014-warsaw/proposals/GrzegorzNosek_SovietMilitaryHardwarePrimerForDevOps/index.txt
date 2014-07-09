@@ -19,4 +19,8 @@ author: Grzegorz Nosek
 
 **Abstract:**
 
+What does Soviet military hardware from the cold war era have in common with devops? Well, they both work in harsh conditions and both benefit from the KISS principle. Catch a few glimpses into how the Soviets' war machine worked and look for lessons for devops, which may or may not include heavy artillery fire.
+
 **Speaker:**
+
+Co-founder and Chief Tinkering Officer at MegiTeam, an innovative web host. Long-time Linux admin and systems programmer. Lazy to the bone, automates anything he has to do more than twice.

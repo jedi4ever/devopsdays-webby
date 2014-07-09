@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Changing the Behavior of IT
+proposal: true
+dirty: true
+talk: true
+ignite: false
+open_space: false
+selected: false
+layout: event_warsaw
+author: Michael Ducy
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+This talk will cover the changes of the last 6-7 years in development and IT that have driven the requirement for changing the behavior of IT organizations. No longer is it acceptable to provide long lead times in IT operations (and development). In addition, I will talk about what the very essence of DevOps is (to me), and movements within DevOps that can help change the behavior of IT organizations.
+
+**Speaker:**
+
+Michael Ducy (@mfdii) currently works as an Global Evangelist for Chef focusing on helping companies understand Chef, DevOps, and IT transformation. Previously, Michael focused on designing and implementing automation solutions for customer's Cloud, IT Automation, and Continuous Delivery needs. Michael has also worked in a variety of roles in his career including Cloud Architecture, Systems Engineering , Performance Engineering, and IT Instructor. After DevOpsDays Amsterdam 2013 Michael is also known as the GoatFather.

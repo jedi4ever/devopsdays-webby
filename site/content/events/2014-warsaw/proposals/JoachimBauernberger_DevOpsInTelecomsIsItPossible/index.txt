@@ -19,4 +19,12 @@ author: Joachim Bauernberger
 
 **Abstract:**
 
+DevOps is quickly gaining traction in IT and XaaS based environments, where tools such as OpenStack, Docker and Puppet can be used to deploy web based applications to a target environment. But applying these principles in industries which are "close to the hardware" presents many challengies both for "tooling" and for existing internal organizational and R&D processes. While Telecoms has been heralded as the leading industry willing to move to DevOps, it is unclear how exactly that happens. 
+
+This presentation will shed some light behind what is the current state of DevOps in such domains, what is only hype, and where is the biggest potential for making progress. We will also discuss the challenges which currently still prevent the DevOps mindset from spreading. The presentation will take Telecoms as an example but the same problems are present in all large organizations which are not rolling out a SaaS based service (e.g. Automotive, Industrial Automation, Smart-Grid, Embdded Software companies)
+
 **Speaker:**
+
+Left my home country Austria with the age of 19 in search for adventure and wisdom. After working for a decade across APAC, incl. war torn North Sumatra and Sri Lanka, I finally moved back to Europe much older (but not wiser). Like my 2 Belgian Malinois, I try to live in the moment but don't always succeed. I ♥ boundaries which I then challenge at the earliest opportunity. My best friends are my critics because they teach me where to improve. Sometimes I fall on my nose but consider it a splendid opportunity to re-evaluate the past in order to come out on top. My latest venture is a recruiting firm. 
+
+But actually I'm a programmer, and a good one. I've worked at several companies that went on to be acquired and 1 that went IPO. I bring new economy ideas to old economy industries. I love topics around SW Development and R&D but also comedy, satire (especially the dark British kind) and the absurd or surreal. My posts on LinkedIn are a mix of R&D news, job-adverts and poking fun at tech+politics (sometimes all rolled into one). I live by the principle that in order to be successful, you have to love your job. And if you don't, then it's up to you to change that. Having turned my passion into rewarding careers on several occasions I know how to successfully cross industry boundaries (break silos). I'm not as rich as most of my LinkedIn connections. Though if I'd have an infinite amount of money, I'd hire 2 private investigators and have them follow each other.
