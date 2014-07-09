@@ -19,4 +19,8 @@ author: Matt Harasymczuk
 
 **Abstract:**
 
+You have probably never thought about the scheme of branches in repository. What for, if what interests us most is providing new functionalities and coding! You may find interesting a couple of concepts that I am going to present and describe how to integrate them with Continuous Integration and Delivery system. Just a couple of small changes in your work style may give you extremely powerful tool to build and manage changes in the code, almost for free. I will also present some examples and show how it was implemented (Case study).
+
 **Speaker:**
+
+Hi, my name is Matt and I am an Agile Coach. I help organizations to embrace Agile (Scrum, Kanban, Lean, XP), Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT.

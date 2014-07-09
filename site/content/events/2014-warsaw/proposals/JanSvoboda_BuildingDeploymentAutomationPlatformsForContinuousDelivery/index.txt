@@ -19,4 +19,11 @@ author: Jan Svoboda
 
 **Abstract:**
 
+Market pressures are forcing organizations to develop and release software products faster than ever. Agile development is maturing and technologies like cloud and virtualization have enabled organizations to increase productivity. However, applications and IT environments have grown more complex, resulting in software delivery bottlenecks. 
+
+This presentation will describe common techniques and best practices how to build deployment automation platform. Integrated development tool chain will significantly improve your product time to market by providing capability to have automated deployment process and reducing risk though higher release quality and end to end software delivery transparency.
+
+
 **Speaker:**
+
+Jan Svoboda is IBM Rational Technical Specialist for Central Europe, based in Prague, Czech Republic. In his role he is consulting and architecting Application Lifecycle Management solutions for successful software delivery. He is also helping with best practices and agile methodologies for products and services development. Prior to joining IBM he worked at R&D department developing J2EE based SOA applications.
