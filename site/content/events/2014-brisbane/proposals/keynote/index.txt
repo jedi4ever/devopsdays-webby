@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Sidney Dekker
-title: "System Failure, Human Error: Who's to Blame"
+title: "Keynote: System Failure, Human Error: Who's to Blame"
 ---
 
 **Keynote**
