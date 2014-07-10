@@ -18,8 +18,8 @@ It uses webby as a framework:
 
 ## If you use RVM
 
-- there is an .rvmrc that select ruby-1.8.7
-- and creates a new gemset devopsdays-webby
+- there is a .ruby-version file that selects "ruby-1.8.7"
+- and a .ruby-gemset file creates a new gemset "devopsdays-webby"
 
 ## If you use rbenv + OSX 10.8+
 
