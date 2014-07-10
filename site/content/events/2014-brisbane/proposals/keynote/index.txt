@@ -8,13 +8,13 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Dr. Sidney Dekker
-title: "Keynote"
+author: Sidney Dekker
+title: "System Failure, Human Error: Who's to Blame"
 ---
 
-**Abstract:**
+**Keynote**
 
-TBC
+We are delighted to have world-renowned speaker and author, Sidney Dekker, present this year's keynote address focussing on the history of our understanding of system failures and the assumed role of human error.
 
 **Speaker:**
 
