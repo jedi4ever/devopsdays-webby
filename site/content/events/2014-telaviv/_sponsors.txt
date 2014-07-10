@@ -37,7 +37,7 @@ filter:    erb
 	{ :image => "gigaspaces.png", :name => "GigaSpaces Technologies", :link => "http://www.gigaspaces.com"},
 ]%>
 
-<% unless @csponsors.empty?  %><h1>Lead Oranizers</h1><% end %>
+<% unless @csponsors.empty?  %><h1>Lead Organizers</h1><% end %>
 
 <% @csponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
