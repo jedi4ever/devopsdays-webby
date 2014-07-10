@@ -9,6 +9,7 @@ filter:    erb
 { :image => "wotifgroup.png", :name => "Wotif Group", :link => "http://www.wotifgroup.com/"},
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "appdynamics.png", :name => "Appdynamics", :link => "http://www.appdynamics.com/"},
+{ :image => "rea.png", :name => "realestate.com.au", :link => "http://www.realestate.com.au/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
