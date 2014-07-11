@@ -9,7 +9,7 @@ ignite: true
 selected: true
 layout: event_msp
 author: Andy Fleener
-title: "Rub a little Ops on it!"
+title: "Rub Some Ops On It"
 ---
 
 **Description**
