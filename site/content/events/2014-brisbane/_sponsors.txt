@@ -10,6 +10,8 @@ filter:    erb
 { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 { :image => "appdynamics.png", :name => "Appdynamics", :link => "http://www.appdynamics.com/"},
 { :image => "rea.png", :name => "realestate.com.au", :link => "http://www.realestate.com.au/"},
+{ :image => "chef.png", :name => "Get Chef", :link => "http://www.getchef.com/"},
+{ :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
