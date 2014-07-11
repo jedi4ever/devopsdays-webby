@@ -13,6 +13,12 @@ end
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
 { :image => "ruxit.png", :name => "ruxit", :link => "http://www.ruxit.com/"},
 { :image => "appneta.png", :name => "AppNeta", :link => "http://www.appneta.com/"},
+{ :image => "compuware.png", :name => "Compuware APM", :link => "http://www.compuware.com/en_us/application-performance-management.html"},
+{ :image => "activestate.png", :name => "Active State", :link => "http://www.activestate.com"},
+{ :image => "datadog.png", :name => "Datadog", :link => "https://www.datadoghq.com/product/"},
+{ :image => "logentries.png", :name => "logentries", :link => "http://logentries.com"},
+{ :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com"},
+{ :image => "redhat.png", :name => "Red Hat", :link => "http://www.redhat.com"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -34,6 +40,7 @@ end
 
 <% @bsponsors = [
 { :image => "mathworks.png", :name => "MathWorks", :link => 'http://www.mathworks.com/company/jobs/opportunities/search?keywords=DevOps&location[]=US&q=?source=8862'},
+{ :image => "zanthos.png", :name => "zanthos", :link => 'http://www.zanthos.com'},
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
