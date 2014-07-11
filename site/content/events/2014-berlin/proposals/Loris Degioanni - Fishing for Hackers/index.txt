@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Loris Degioanni
+title: "Fishing for Hackers"
+---
+
+**Abstract**
+
+What happens when your servers get breached by a botnet? What steps
+does a typical attacker take after breaking in? What do they use your
+machine for? In order to find out, we started up some instances on
+some of the main cloud providers, configured them with easy-to-guess
+passwords, and then waited. But with a trick: we recorded everything
+with sysdig, an open source tool that captures system activity. The
+first machine was compromised in four hours. After a few minutes, the
+machine was part of a botnet and was sending out 800 Mbit/s of UDP
+traffic. This session shows what we learned by analyzing the trace
+files. It shows with a high level of detail the steps that the
+attacker took, and offers several tips to use a tool like sysdig for
+forensic purposes.
+
+**Speaker**
+
+Loris is the CEO and founder of Draios, Inc., a San Francisco-based
+startup that builds the tools that admins and devops professionals
+need to manage their virtualized and cloud infrastructure.
+
+Prior to founding Draios, Loris was a senior director of technology at
+Riverbed Technology, where he oversaw strategic technology roadmaps
+for the company’s network performance management business unit. Loris
+joined Riverbed after the acquisition of CACE Technologies, a company
+he co-founded in 2005. As CTO of CACE, Loris designed and led the
+development of the company's award-winning packet capture and network
+analysis product line.
+
+Loris has a long history of contributing to and supporting the open
+source community. He is the author of the recently released and very
+popular open source tool sysdig, which was released by Draios in the
+Spring of 2014.  He was also a pioneer in the field of open source
+network analysis through his work on WinPcap and Wireshark. These open
+source tools have millions of users worldwide.
+
+Loris holds a PhD in computer engineering from Politecnico di Torino
+and lives in Davis, California.
