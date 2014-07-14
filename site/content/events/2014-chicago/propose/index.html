@@ -4,10 +4,26 @@ filter:
 - erb
 - markdown
 layout: event
-title: Proposals
+title: Propose A Talk
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-TBD
+<h3>The call for proposals is now open and will close on Friday, August 15th!</h3>
+
+<h4>There are three types of sessions at Devopsdays Chicago:</h4>
+<ul>
+<li><strong><em>Proposal for a talk or panel: </em></strong>these talks are attended by the entire conference.</li>
+<li><strong><em>An Ignite talk: </em></strong> a 5 minute talk with 20 slides which auto-advance every 15 seconds. <a href="http://en.wikipedia.org/wiki/Ignite_(event)">The Ignite talks</a> will also be attended by the entire conference.</li>
+<li><strong><em>Open Space Sessions: </em></strong>Around half the time at Devopsdays Chicago will be Open Space Format, so come prepared with ideas even if you don't submit a proposal!</li>
+</ul>
+
+<h4>How to submit a proposal</h4>
+
+Send an email to <a href="mailto:proposals-chicago-2014@devopsdays.org">proposals-chicago-2014@devopsdays.org</a> with the following information:
+<ul>
+<li>Proposal title (can be changed later)</li>
+<li>Type (Presentation, Panel discussion, Ignite talk, etc.)</li>
+<li>Description or abstract of your talk</li>
+</ul>
