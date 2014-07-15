@@ -10,25 +10,25 @@ def make_sponsor_links(sponsors)
 end
 %>
 
-<% @psponsors = []
+<% @gsponsors = []
 #{ :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com/"},
 #{ :image => "", :name => "", :link => ""}
 #]%>
-<% if @psponsors.empty? %>Consider becoming a Platnium Sponsor!<% else %><%= make_sponsor_links(@psponsors) %><% end %>
-
-<br/>
-<br/>
-<h1>Gold sponsors</h1>
-
-<% @gsponsors = [] %>
 <% if @gsponsors.empty? %>Consider becoming a Gold Sponsor!<% else %><%= make_sponsor_links(@gsponsors) %><% end %>
 
 <br/>
 <br/>
-<h1>Silver sponsors</h1>
+<h1>Silver Sponsors</h1>
 
 <% @ssponsors = [] %>
 <% if @ssponsors.empty? %>Consider becoming a Silver Sponsor!<% else %><%= make_sponsor_links(@ssponsors) %><% end %>
+
+<br/>
+<br/>
+<h1>Bronze sponsors</h1>
+
+<% @bsponsors = [] %>
+<% if @bsponsors.empty? %>Consider becoming a Bronze Sponsor!<% else %><%= make_sponsor_links(@bsponsors) %><% end %>
 
 <br/>
 <br/>
