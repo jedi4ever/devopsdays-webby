@@ -19,6 +19,7 @@ end
 { :image => "logentries.png", :name => "logentries", :link => "http://logentries.com"},
 { :image => "xebialabs.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com"},
 { :image => "redhat.png", :name => "Red Hat", :link => "http://www.redhat.com"},
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com"},
 ]%>
 
 <% if @gsponsors.empty?  %>
