@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Brian Troutwine
+title: "The dangers of automating complex systems"
+---
+I believe that our current approach to designing software systems is driving society in a bad direction. In particular, I believe we are creating a society predicated on automation which is oriented to be serviced by humans or, requiring no service, is simply in control of humans. Ignoring the dystopian overtones of this, I argue that this is a _technically_ flawed approach, that such automation is less reliable, less flexible and less robust through time than a system designed with humans as the controlling party in mind. I will argue--with a mix of personal experience, reference to academic literature and historical examples--that complex systems designed with human control in mind are more lasting through time, more technically excellent and just generally more useful. I will further argue that a re-orientation toward human supremacy in computer systems is especially important as we begin to tightly couple western civilization's technology to the internet, being the Internet of Things. I'll talk a bit about the political and social implications, as well, after I've made a purely technical argument.
+
+I'm a software engineer with a focus on distributed, real-time Complex Software Systems. My particular focus is fault-tolerance in such an environment with a secondary emphasis on failure analysis and mitigation. I read a number of industrial accident reports and write a monthly column for the Huffington Post Code blog: "Peculiar Books Reviewed".
+
+When I'm not thinking about the delicate balance between engineering Complex Systems to avoid trapping users in an arbitrary, amoral system of control while avoiding mechanisms that run willy nilly over the world spraying fire and suffering, I take photographs of pigeons.
