@@ -6,6 +6,8 @@ filter: erb
   { :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
   { :image => 'vivus.jpg', :name => 'IT Vivus', :link => 'http://itvivus.pl/'},
   { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
+  { :image => 'ibm.jpg', :name => 'IBM - Polska', :link => 'http://www.ibm.com/pl/'},
+  { :image => 'kreuzwerker.jpg', :name => 'IBM - Polska', :link => 'http://kreuzwerker.de/en/'},
 ]%>
 
 <% if @gold_partners.empty?  %>
@@ -19,6 +21,7 @@ filter: erb
 <% @silver_partners = [
   { :image => 'megiteam.png', :name => 'MegiTeam', :link => 'http://www.megiteam.pl/hosting-dla-programistow/'},
   { :image => 'saltstack.jpg', :name => 'SaltStack', :link => 'http://www.saltstack.com/'},
+  { :image => 'itsmfpolska.jpg', :name => 'itSMF - Polska', :link => 'http://www.itsmf.org.pl/'},
 ]%>
 
 <% unless @silver_partners.empty?  %><h1>Silver partners</h1><% end %>
@@ -34,6 +37,7 @@ filter: erb
 <% @media_partners = [
   { :image => 'linux-magazine.jpg', :name => 'MegiTeam', :link => 'http://www.linux-magazine.pl/'},
   { :image => '7thguard.jpg', :name => '7thGuard', :link => 'http://www.7thguard.net/'},
+  { :image => 'governica.jpg', :name => 'Governica', :link => 'http://www.governica.com/'},
 ]%>
 
 <% unless @media_partners.empty?  %><h1>Media partners</h1><% end %>
