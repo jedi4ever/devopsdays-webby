@@ -21,4 +21,4 @@ Fabian Iannarella and Karl Chu will give an overview about the self-serve infras
 Fabian Iannarella is an I.T. infrastructure specialist at IOOF. His expertise lies in UNIX/LINUX, firewalls, and web technologies. He is currently leading a team focused on system automation and developing a devops culture, with the vision that development teams will be able to self-service their own infrastructure environments. Outside of I.T., Fabian has a background in electronics and audio engineering.
 
 Karl Chu is a software development and continuous delivery consultant at ThoughtWorks Australia. He has diverse experiences spanning across different technologies and industries; from .NET to ruby, healthcare to telecommunication. Prior to becoming a software professional, Karl was a professional mechanical engineer.
-"As a co-founder at Puppet Labs with a background in Agile development, Andrew Clay Shafer devops'd before devops had a name.
+
