@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Andrew Clay Shafer 
+title: "DevOps: A local optimization"
+---
+s Development and Operations working together in perfect harmony enough. Software and services don't exist in isolation. What about the rest of the organization? How many times have you heard technologists refer to marketing and sales with contempt? vice versa?
+
+Development and Operations do not have a monopoly on building and maintaining walls of confusion. Are marketing campaigns and products tossed over a wall to sales? Where is QA? Does anyone care about customer support? What would an organization look like if everyone understood why they are important? What would an organization look like if they understood why everyone else is?
+
+We build systems. Let's not limit that to computers.
