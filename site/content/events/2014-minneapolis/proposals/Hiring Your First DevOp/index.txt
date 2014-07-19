@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+layout: event_msp
+author: Matt Stratton
+title: "Hiring Your First DevOp"
+---
+
+**Abstract:**
+
+You want the DevOps, but how can you get it? Clearly you need to hire a DevOp! This Ignite presentation will teach you EVERYTHING you need when hiring the person who will BRING YOU THE DEVOPS. 
+
+Matt Stratton takes no responsibility for the flaming demise of any organization who actually takes this advice seriously.
+
+**Speaker:**
+Matt Stratton
+
+**Slides:**
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/37158525" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/mattstratton/dodmspignitestratton" title="Hiring Your First DevOp" target="_blank">Hiring Your First DevOp</a> </strong> from <strong><a href="http://www.slideshare.net/mattstratton" target="_blank">Matt Stratton</a></strong> </div>
