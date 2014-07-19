@@ -35,3 +35,6 @@ I'll show how Conway's Law is derived, how it's been empirically tested, and how
 **Speaker:**
 Dan Slimmon
 
+**Slides:**
+<iframe src="https://docs.google.com/presentation/embed?id=1IWerrBccPJ1ZPmF7yncwr52dc2MAwS_hCDGoGxYmwvw&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
+
