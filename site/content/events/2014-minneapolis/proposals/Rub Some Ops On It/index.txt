@@ -22,3 +22,6 @@ Building software is hard. Building maintainable quality software is incredibly 
 **Speaker:**
 Andy Fleener
 
+**Slides:**
+
+<script async class="speakerdeck-embed" data-id="7f3ed2d0f1c50131e17626e0503a2608" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
