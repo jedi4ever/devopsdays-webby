@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alex Brasetvik
+title: "Elasticsearch in Production"
+---
+
+**Abstract**
+
+Elasticsearch is an open source search and analytics engine, letting you easily search through massive amounts of data. It excels in handling log style data, and is by many now considered an essential ingredient of their Devops stack.
+
+This talk will cover the essentials of preparing and deploying Elasticsearch in production, focusing on performance, reliability, and security.
+
+**Speaker**
+
+Alex Brasetvik

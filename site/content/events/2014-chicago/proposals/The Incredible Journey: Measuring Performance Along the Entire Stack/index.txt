@@ -1,0 +1,55 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Matt Barlow
+title: "The Incredible Journey: Measuring Performance Along the Entire Stack"
+---
+
+**Abstract**
+
+During the 8 hours we spend every day in front of a computer, the
+greatest pain we are likely to endure comes from stress induced by
+application latency.
+
+Everyone hates latency, but what are the causes? During this
+presentation we will take the Incredible Journey along the entire stack
+from user request to final response.
+
+We will begin with time-to-first-byte, discussing DNS, CDNs, TCP and SSL
+handshakes.
+
+Next we will discuss HTTP multithreading and header compression with mod
+SPDY, automated benchmarking to test config changes scientifically, and
+do a deep dive on the open source tool WebPageTest.
+
+Then we will blow up requests within the application, looking at time
+spent inside the view, time in the cache, and time in the DB. We will
+overlay SELECTS, INSERTS, UPDATES, and DELETES in a graph and even drill
+down to time spent waiting for CPU vs. time spent waiting on disk.
+
+Lastly we will take a peak at OS internals. Process stacks in userland
+that are working on our request, and the sys calls they make on the
+kernel.
+
+When finished, attendees will know which open source tools will measure
+utilization and bottlenecks from front end to back. The deck will also
+be hosted online with links to further resources, including all code on
+GitHub that is used in the presentation.
+
+**Speaker**
+
+Matt Barlow is a member of a team at Rackspace that automates customer
+applications using Chef, and monitors performance with tools such as
+StatsD and Graphite. He began his career as a Linux Sys Admin in 2000
+and has been working in the Linux Hosting industry ever since. His most
+memorable Ops experience was automating the emergency kernel upgrade and
+reboot of over 10,000 physical Linux servers. In 2014, Matt presented at
+ChefConf and DevOpsDays in Austin and published a YouTube channel for
+Sys Admins learning to work on DevOps teams.
