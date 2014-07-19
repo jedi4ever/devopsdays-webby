@@ -19,3 +19,5 @@ Hi, I'm Seth Vargo, and I have OCD. But is that a bad thing? I continuously stru
 **Speaker:**
 Seth Vargo
 
+**Slides:**
+<script async class="speakerdeck-embed" data-id="3e3cf7504544013082b0123139416002" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

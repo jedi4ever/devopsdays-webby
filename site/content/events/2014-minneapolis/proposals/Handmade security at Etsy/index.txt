@@ -22,3 +22,5 @@ Devops culture has brought a number of improvements to the way engineering and o
 **Speaker:**
 Ben Hughes
 
+**Slides:**
+<script async class="speakerdeck-embed" data-id="c6508690f00a01314f850ee7ae59ed05" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>
