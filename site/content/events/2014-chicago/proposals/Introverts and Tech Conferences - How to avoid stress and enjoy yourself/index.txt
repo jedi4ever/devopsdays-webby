@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tom Duffield
+title: "Introverts and Tech Conferences - How to avoid stress and enjoy yourself"
+---
+
+**Abstract**
+
+Technical conferences can be difficult for individuals who, like myself, identify as "introverted." The sea of people can overwhelm the senses and the social pressures hidden around every corner can send some into anxious panics. This talk will discuss how introverts, extroverts, and everyone in between can approach these types of conferences so that it can be enjoyed by everyone.
+
+**Speaker**
+
+Tom Duffield
