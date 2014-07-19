@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 1
+title: "Building Top-Down Support for DevOps"
+---
+
+**Abstract**
+
+We all hear the glib and oft-repeated saw that any major change, especially in larger businesses, needs 'Executive Support' to succeed. And so it is with DevOps, too. You can drive a lot of positive change at the pointy end of dev and ops, but at some point you will need to bring along the Pointy-Haired Boss.
+So how can DevOps practitioners get this elusive Executive Support?
+This talk will explain the major barriers to change for executives and managers, especially in siloed, dispersed, and risk-averse larger businesses; and what they need to hear, learn, and know to support the DevOps transformation.
+In this talk you will learn:
+
+<ul>
+<li>what can drive managers and executives to want this change
+<li>the priorities they have, and what they realistically can do
+<li>how to mitigate their concerns about security/compliance/audit risks
+<li>working with (and/or around) ITIL and other process barrier
+<li>how to help execs build a business case that makes them look great
+</ul>
+
+With independent data, case studies, and more, backed by years of experience advising IT managers and executives through both inertia and change, this talk is a must if you want to grow DevOps in your organization, especially if you work in a larger business.
