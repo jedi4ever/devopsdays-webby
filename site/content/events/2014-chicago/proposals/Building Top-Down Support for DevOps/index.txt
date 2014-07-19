@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Andi Mann
+author: Speaker 1
 title: "Building Top-Down Support for DevOps"
 ---
 
@@ -28,7 +28,3 @@ In this talk you will learn:
 </ul>
 
 With independent data, case studies, and more, backed by years of experience advising IT managers and executives through both inertia and change, this talk is a must if you want to grow DevOps in your organization, especially if you work in a larger business.
-
-**Speaker**
-
-Andi Mann

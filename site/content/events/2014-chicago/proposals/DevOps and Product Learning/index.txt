@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Joel Tosi
+author: Speaker 2
 title: "DevOps and Product Learning"
 ---
 
@@ -16,6 +16,3 @@ title: "DevOps and Product Learning"
 
 The angle for the talk, and the message I am trying to get across, is leverage Continuous Delivery and DevOps not from a 'tech or process' perspective but rather how do we use the motivation to learn about our product faster to drive decisions. The talk covers natural items I strive for in environments - i.e. consistancy and predictability through environments - but from the perspective of not gold plating environments and how do you do this in an Agile team and not in a new silo.
 
-**Speaker**
-
-Joel Tosi

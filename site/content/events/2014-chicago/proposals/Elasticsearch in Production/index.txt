@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Alex Brasetvik
+author: Speaker 3
 title: "Elasticsearch in Production"
 ---
 
@@ -18,6 +18,3 @@ Elasticsearch is an open source search and analytics engine, letting you easily 
 
 This talk will cover the essentials of preparing and deploying Elasticsearch in production, focusing on performance, reliability, and security.
 
-**Speaker**
-
-Alex Brasetvik

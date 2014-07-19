@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Matt Barlow
+author: Speaker 6
 title: "The Incredible Journey: Measuring Performance Along the Entire Stack"
 ---
 
@@ -42,14 +42,3 @@ When finished, attendees will know which open source tools will measure
 utilization and bottlenecks from front end to back. The deck will also
 be hosted online with links to further resources, including all code on
 GitHub that is used in the presentation.
-
-**Speaker**
-
-Matt Barlow is a member of a team at Rackspace that automates customer
-applications using Chef, and monitors performance with tools such as
-StatsD and Graphite. He began his career as a Linux Sys Admin in 2000
-and has been working in the Linux Hosting industry ever since. His most
-memorable Ops experience was automating the emergency kernel upgrade and
-reboot of over 10,000 physical Linux servers. In 2014, Matt presented at
-ChefConf and DevOpsDays in Austin and published a YouTube channel for
-Sys Admins learning to work on DevOps teams.
