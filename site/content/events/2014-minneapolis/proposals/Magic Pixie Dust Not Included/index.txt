@@ -23,3 +23,7 @@ Sascha Bates
 **Slides:**
 
 <script async class="speakerdeck-embed" data-id="b14ab830f10d0131d797323063e9e5f4" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+**Video:**
+
+<iframe src="//player.vimeo.com/video/101193187" width="500" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101193187">DevOpsDays Minneapolis 2014 -- Sascha Bates, Magic Pixie Dust Not Included (opening keynote)</a> from <a href="http://vimeo.com/devopsdays">devopsdays</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
