@@ -20,3 +20,6 @@ Applying Stephen Covey's "The Seven Habits of Highly Effective People" to DevOps
 **Speaker:**
 Dave Stagner
 
+**Slides:**
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/37163603" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/davestagner/seven-habits-of-highly-effective-devops" title="Seven Habits of Highly Effective DevOps" target="_blank">Seven Habits of Highly Effective DevOps</a> </strong> from <strong><a href="http://www.slideshare.net/davestagner" target="_blank">davestagner</a></strong> </div>
