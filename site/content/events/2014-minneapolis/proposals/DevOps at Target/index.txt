@@ -22,3 +22,7 @@ Heather O'Sullivan & Ross Clanton
 **Slides:**
 
 <script async class="speakerdeck-embed" data-id="0422bcd0f1bd0131c8ad22cffa4b025b" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>
+
+**Video:**
+
+<iframe src="//player.vimeo.com/video/101229409" width="500" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101229409">DevOpsDays Minneapolis 2014 -- Heather Mickman O'Sullivan & Ross Clanton, DevOps at TGT</a> from <a href="http://vimeo.com/devopsdays">devopsdays</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
