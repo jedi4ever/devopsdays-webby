@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+layout: event_msp
+author: Jason Walker
+title: "Community Responsibility: Open Source, Experimentation, and You"
+---
+
+**Abstract:**
+
+Considerations and observations from a techie on introducing, selecting, adopting, and cautions of FOSS as a possible alternative or replacement to commercial products ... with references pulled from 1985's <a href="http://www.imdb.com/title/tt0089218/?ref_=fn_al_tt_1">Goonies</a>.
+
+**Speaker:**
+Jason Walker
+
+**Slides:**
+
+<script async class="speakerdeck-embed" data-id="29716970f1e001317ccb4eebb6e8a062" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>

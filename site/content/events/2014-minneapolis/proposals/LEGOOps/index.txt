@@ -7,9 +7,9 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: true
+selected: false
 layout: event_msp
-author: Jason Walker
+author: Speaker 2
 title: "LEGOOps"
 ---
 
@@ -18,5 +18,5 @@ title: "LEGOOps"
 This "LEGOOps" ignite talk is a corollary to DevOps, including culture, tools, community. The presentation goes through why implementing automation on core services, establishing patterns, and leveraging 'service management' are all good ideas when looking to implement DevOps within an existing company - especially an environment that includes legacy infra solutions and is competing with newer methods to deliver IT assets. 
 
 **Speaker:**
-Jason Walker
+Speaker 2
 
