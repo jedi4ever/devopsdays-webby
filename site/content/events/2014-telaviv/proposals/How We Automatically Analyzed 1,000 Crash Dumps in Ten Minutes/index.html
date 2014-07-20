@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dina Goldshtein
+title: "How We Automatically Analyzed 1,000 Crash Dumps in Ten Minutes"
+---
+
+**Abstract:**
+
+BrightSource’s production environment is disconnected from the main network, and there’s no easy way to perform remote debugging or get live monitoring data from the field. By configuring Windows to automatically generate crash dumps, we obtained hundreds of dump files from multiple servers while working on our latest release. There was no way we could analyze these dumps by hand, triage the bugs, and assign them to the relevant developers. That’s when I discovered ClrMD – a Microsoft NuGet package that provides a dump debugging API. In this talk I’ll explain how we built a tool with ClrMD to automatically analyze dumps and obtain exception information, thread call stacks, and memory usage. We also integrated this tool with Redmine, a popular project and work item management tool, to file bugs automatically to the relevant developer based on the tool’s initial analysis.
+
+**Speakers:**
+
+Dina Goldshtein is a Senior Software Engineer at BrightSource Energy, a solar energy company. Dina builds infrastructure components in C#, C++, and JavaScript, and spends a lot of time improving processes, tools, and operations.
