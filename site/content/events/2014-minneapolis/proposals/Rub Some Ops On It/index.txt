@@ -25,3 +25,7 @@ Andy Fleener
 **Slides:**
 
 <script async class="speakerdeck-embed" data-id="7f3ed2d0f1c50131e17626e0503a2608" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+**Video:**
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/yJR3llvIUfc?start=691&end=983" frameborder="0" allowfullscreen></iframe>
