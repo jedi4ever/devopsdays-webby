@@ -38,3 +38,6 @@ Dan Slimmon
 **Slides:**
 <iframe src="https://docs.google.com/presentation/embed?id=1IWerrBccPJ1ZPmF7yncwr52dc2MAwS_hCDGoGxYmwvw&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
 
+**Video:**
+
+<iframe src="//player.vimeo.com/video/101220166" width="500" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101220166">DevOpsDays Minneapolis 2014 -- Dan Slimmon, Conway's Law: the Skeleton of DevOps</a> from <a href="http://vimeo.com/devopsdays">devopsdays</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
