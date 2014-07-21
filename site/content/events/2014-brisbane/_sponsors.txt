@@ -22,22 +22,6 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @receptionsponsors = [
-]%>
-
-<h1>Reception sponsor</h1>
-
-<% if @receptionsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
-<% end %>
-
-<% @receptionsponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<% @lanyardsponsors = [
-]%>
-
 <% @ssponsors = [
 { :image => "bulletproof.png", :name => "Bullet Proof Networks", :link => "http://www.bulletproof.net.au/"},
 { :image => "redhat.png", :name => "Red Hat", :link => "http://au.redhat.com/"},
