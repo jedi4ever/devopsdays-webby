@@ -3,9 +3,10 @@ filter: erb
 ---
 
 <% @gsponsors = [
-	{ :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
-	{ :image => "autoscout.png", :name => "AutoScout24", :link => "http://about.autoscout24.com/de-de/au-career.aspx"},
-  ]%>
+ { :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
+ { :image => "autoscout.png", :name => "AutoScout24", :link => "http://about.autoscout24.com/de-de/au-career.aspx"},
+ { :image => "kreuzwerker.jpg", :name => "Kreuzwerker", :link => "http://kreuzwerker.de"},
+]%>
 
 <% if @gsponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
