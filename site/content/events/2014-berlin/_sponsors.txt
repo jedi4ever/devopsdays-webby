@@ -17,7 +17,8 @@ filter: erb
 <% end %>
 
 <% @ssponsors = [
-  ]%>
+ { :image => "martin_alfke2.png", :name => "Martin Alfke", :link => "http://martin-alfke.de"},
+]%>
 
 <h1>Silver sponsors</h1>
 <% if @ssponsors.empty?  %>
