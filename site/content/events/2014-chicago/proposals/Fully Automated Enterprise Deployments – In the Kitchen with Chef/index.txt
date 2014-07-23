@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 7
+title: "Fully Automated Enterprise Deployments – In the Kitchen with Chef"
+---
+
+**Abstract**
+
+With the emergence and growth of DevOps over the last several years, new tools are constantly surfacing, best practices are evolving, and the complexity of applications is growing. Most would argue that automated deployment is a win for any organization, and we have certainly found that to be true for ours, but where does one really begin? How do you move from having a Shell script to having fully automated application deployment and configuration?
+
+In this talk, I will cover how we went from having manual application deployment to fully automated enterprise deployments by using a variety of tools. I will outline the suite of tools used, the tool selection process, the composition of tools into a clean workflow, as well as Chef cookbook design patterns.
+

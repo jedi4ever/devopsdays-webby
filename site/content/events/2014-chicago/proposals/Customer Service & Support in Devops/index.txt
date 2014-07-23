@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Speaker 8
+title: "Customer Service & Support in Devops"
+---
+
+**Abstract**
+
+By now youknow that Devops is not something you buy off the app store or on a consulting contract, but a philosophy and process around people and how we interact to do great things. You’ve blown up the silos, punched holes in the walls, and mastered the art of empathy for all the people in your organization - or have you? What about your customers? Without them, you wouldn’t have a product, and without their feedback, you wouldn’t know how the product works for them. This ignite will talk about where your customers fit into the Devops paradigm, why you’re already doing customer support whether you know it or not, and why everyone in Devops should participate in customer service & tech support on a regular basis.
+
