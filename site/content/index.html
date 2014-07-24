@@ -58,19 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
-var minneapolismarker = new MarkerWithLabel({
-position: minneapolislocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Minneapolis 2014<br>July 17 & 18",
-labelAnchor: new google.maps.Point(50, 20),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2014-minneapolis"});
-
 var brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
 
 var brisbanemarker = new MarkerWithLabel({
