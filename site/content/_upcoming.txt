@@ -20,10 +20,6 @@
       Chicago
     </a>
     -
-    <a href="/events/2014-minneapolis">
-      Minneapolis
-    </a>
-    -
     <a href="/events/2014-toronto">
       Toronto
     </a>
