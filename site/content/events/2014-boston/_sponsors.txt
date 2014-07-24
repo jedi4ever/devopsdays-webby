@@ -13,7 +13,6 @@ end
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
 { :image => "ruxit.png", :name => "ruxit", :link => "http://www.ruxit.com/"},
 { :image => "appneta.png", :name => "AppNeta", :link => "http://www.appneta.com/"},
-{ :image => "compuware.png", :name => "Compuware APM", :link => "http://www.compuware.com/en_us/application-performance-management.html"},
 { :image => "activestate.png", :name => "Active State", :link => "http://www.activestate.com"},
 { :image => "datadog.png", :name => "Datadog", :link => "https://www.datadoghq.com/product/"},
 { :image => "logentries.png", :name => "logentries", :link => "http://logentries.com"},
@@ -34,6 +33,7 @@ end
 
 <% @ssponsors = [
 { :image => "acquia.png", :name => "Acquia", :link => 'https://www.acquia.com/careers/open-positions'},
+{ :image => "vmware.png", :name => "VMware", :link => 'http://www.vmware.com/'},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
