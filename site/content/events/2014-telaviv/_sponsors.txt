@@ -1,8 +1,24 @@
 ---
 filter:    erb
 ---
+<% @platinum_sponsors = [
+	{ :image => "aolon.png", :name => "AOL On", :link => "http://on.aol.com/"},	
+]%>
+
+<% unless @platinum.empty?  %><h1>Platinum Sponsors</h1><% end %>
+
+<% @platinum_sponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<br/>
+<br/>
+
+
 <% @gold_sponsors = [
 	{ :image => "cloudify.png", :name => "Cloudify by GigaSpaces", :link => "http://getcloudify.org"},
+	{ :image => "librato.png", :name => "Librato Metrics", :link => "https://metrics.librato.com/"},
+	{ :image => "chef.png", :name => "Chef", :link => "https://getchef.com/"},
 ]%>
 
 <% if @gold_sponsors.empty?  %>
@@ -19,6 +35,8 @@ filter:    erb
 <br/>
 
 <% @silver_sponsors = [
+	{ :image => "github.png", :name => "GitHub", :link => "http://github.com"},
+	{ :image => "wix.png", :name => "Wix", :link => "http://wix.com"},
 	
 ]%>
 
