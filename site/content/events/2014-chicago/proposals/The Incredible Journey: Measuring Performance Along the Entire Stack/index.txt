@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Speaker 6
+author: Proposal 6
 title: "The Incredible Journey: Measuring Performance Along the Entire Stack"
 ---
 
