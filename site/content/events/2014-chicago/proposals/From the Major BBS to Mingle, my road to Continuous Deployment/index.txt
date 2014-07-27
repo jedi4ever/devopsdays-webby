@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 14
+title: "From The Major BBS to Mingle, my road to Continuous Deployment"
+---
+
+**Abstract**
+
+I have about 20 years of experience that has led me to want to move my career towards DevOps.  I plan to make this pretty personal, funny, lighthearted and use my resume to drive the talk.  At the end of the day, I plan to keep it pretty humble and more of statement of respect for the where the movement has come and how I see the thought leadership behind DevOps driving change.
+
+I have the following outline so far.  I like the Ignite Talk format since I haven’t given a presentation of this nature for about 15 years and need a bit of a format to force me to edit/structure.  I also think I can probably come up with 20 original / entertaining slides.
+
+* My early days as a Sys Admin
+    * My very first job as a Sys Admin for an ISP in St. Charles called “Microthought”
+        * I will probably have a couple fun nostalgic slides
+            * Early FreeBSD and Modem Pools
+            * Windows NT 3.51
+    * I’m going to talk about my second Job where I worked with a bunch of really serious “Software Engineers” and how they were Sciencey and I was Musicy and when I found Web Development -- it wasn’t what they did and I liked it…
+        * Basically, I could do development without being much of a Scientist..
+* My move from being a Sys Admin to being a Web Developer
+    * I never stopped doing Sys Admin work
+    * I thought developers who couldn’t do Sys Admin work were lame
+    * Don’t even get me started on the ones that couldn’t write SQL
+    * More fun nostalgic AIS slides
+* Application Support
+    * How I was tricked into it
+    * Why I’m glad I was
+    * Why I think it’s precisely the “Dev” part of DevOps
+    * For me, I’m going to talk a bit about how I felt some Silos broke down while I did my job at Apartments.
+    * I’m also going to point out that some remained to rather inefficient ends.
+* Management
+    * What I like about management
+    * What I don’t like about management
+    * What parts of management I want to continue doing
+    * I intend to try to make this funny
+* 2014
+    * Why are we still making configuration changes without Code ?
+    * Why are deployments still hard ?
+    * Why are developers still doing too much support ?
+    * A few relavent RN things
