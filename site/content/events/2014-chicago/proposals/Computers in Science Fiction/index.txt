@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 10
+title: "Computers in Science Fiction"
+---
+
+**Abstract**
+
+Computers have appeared in science fiction books, movies, and television since before there were really computers. What did they get right? What did they get wrong? And how did the science fiction of yesterday lead to the computers of today?
