@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Speaker 4
+author: Proposal 4
 title: "Introverts and Tech Conferences - How to avoid stress and enjoy yourself"
 ---
 

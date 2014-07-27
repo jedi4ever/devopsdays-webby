@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 11
+title: "Health Check Yourself Before You Wreck Yourself"
+---
+
+**Abstract**
+
+One of the most common issues that application developers and DevOps Engineers encounter is designing a communication method for the different tiers of their application stack.  Often they re-invent the wheel, writing custom wiring for the web application to speak to the caching layer, caching to speak to DB, etc.  In the case of frameworks like Rails or Django, this wiring exists and allows for multiple destinations, but you end up with a config file like:
+
+    mysql_conn: {10.4.52.9, 10.4.87.123, 208.42.74.102}
+
+When one of the backend nodes has issues, you either edit the config file by hand (yuck), or using configuration management such as Chef to write a new configuration file with an updated list of servers (better).  Enter Service Discovery, and specifically for this talk, Consul.  Consul is an open source tool that can provide the wiring to your backends externally from your application.  With a single binary agent running on the frontend and backend nodes, Consul provides a 0 second TTL DNS provided locally on each node, allowing you to replace your config file with:
+
+    mysql_conn: {mysql.service.chicago.consul}
+
+Combined with nagios compatible health checks run by Consul run on a short time interval, the DNS record is updated quickly to remove the bad node automagically from the DNS response.  Within seconds of a node being added or removed, your application will respond accordingly with no restart needed!
+
+Stop writing complicated configuration files, use health checks against your services and join the revolution of service discovery!

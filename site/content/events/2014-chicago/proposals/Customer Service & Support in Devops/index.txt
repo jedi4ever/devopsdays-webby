@@ -5,10 +5,10 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
+ignite: true
 selected: false
 layout: event
-author: Speaker 8
+author: Proposal 8
 title: "Customer Service & Support in Devops"
 ---
 

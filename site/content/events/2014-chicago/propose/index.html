@@ -10,34 +10,56 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<h3>The call for proposals is now open and will close on Friday, August 15th!</h3>
+## Call for Proposals is open until Friday, August 15th!
 
-<h4>There are three types of sessions at Devopsdays Chicago:</h4>
+Now that DevOps is an established culture in many companies, we wonder about a few things - and maybe your proposal can answer some of the questions we have. Of course we are open to all other proposals you send us - both technical and cultural. But we are curious about the parts most people might have forgotten to look at.
+
+__This is what we would like to know. Do you have an answer?__
+
+* DevOps movement has been around for a few years now: Did anyone find out if it really helped your organization? Are there numbers for this?
+* Did the culture of DevOps spread to other parts of your company? If not, why?
+* Is DevOps the magic silver bullet which solved all your problems? What are the problems it didn't solve (although you thought it would)?
+* Were there unexpected problems during your cultural change into DevOps?
+* Did the required skill-set of people change after starting to do things DevOps-Style?
+* Did people leave because you "went DevOps"? Was this good or bad or both?
+* Have there been technical changes after the culture in your team changed?
+* Did the change affect the business/sales/marketing side?
+* And of course: Has DevOps affected you personally? How do you feel about the change it brought to your work?
+
+__The "classic" DevOps questions are of course not fully answered, either...__
+
+* What is the role of QA/Tester in DevOps, how do we integrate QA in the continuous delivery process
+* The impact DevOps has on traditional security/auditing/change control
+* Building dashboards because #monitoringsucks
+* The impact of DevOps on HR policies, and the hiring process
+* Help prove that DevOps can scale beyond the 5-8 person web startups, we love traditional IT enterprise cases
+* With all the automation, data is still a hard thing to handle, how does it affect DBA's, backup strategies, ...
+
+
+### There are three types of sessions at DevOpsDays Chicago:
 <ul>
-<li><strong><em>Proposal for a talk or panel: </em></strong>these talks are attended by the entire conference.</li>
-<li><strong><em>An Ignite talk: </em></strong> a 5 minute talk with 20 slides which auto-advance every 15 seconds. <a href="http://en.wikipedia.org/wiki/Ignite_(event)">The Ignite talks</a> will also be attended by the entire conference.</li>
-<li><strong><em>Open Space Sessions: </em></strong>Around half the time at Devopsdays Chicago will be Open Space Format, so come prepared with ideas even if you don't submit a proposal!</li>
+  <li><strong><em>Proposal for a talk or panel: </em></strong>these talks are attended by the entire conference.</li>
+  <li><strong><em>An Ignite talk: </em></strong> a 5 minute talk with 20 slides which auto-advance every 15 seconds. <a href="http://en.wikipedia.org/wiki/Ignite_(event)">The Ignite talks</a> will also be attended by the entire conference.</li>
+  <li><strong><em>Open Space Sessions: </em></strong>Around half the time at DevOpsDays Chicago will be Open Space Format, so come prepared with ideas even if you don't submit a proposal!</li>
 </ul>
 
 The most important things the committee will be considering are:
 
-- _original content_ content not yet presented at other conferences, or a new angle to an existing problem
-- _new presenters:_ people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
-- _no vendor pitches:_ as much as we love vendors and sponsors, we just don't think this is the right forum. We are working on some possible alternatives for sponsors to be able to provide demos to interested attendees.
+* _original content_ content not yet presented at other conferences, or a new angle to an existing problem
+* _new presenters:_ people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
+* _no vendor pitches:_ as much as we love vendors and sponsors, we just don't think this is the right forum. We are working on some possible alternatives for sponsors to be able to provide demos to interested attendees.
 
-<h4>How to submit a proposal</h4>
+### How to submit a proposal
 
-Send an email to <a href="mailto:proposals-chicago-2014@devopsdays.org">proposals-chicago-2014@devopsdays.org</a> with the following information:
-<ul>
-<li>Proposal title (can be changed later)</li>
-<li>Type (Presentation, Panel discussion, Ignite talk, etc.)</li>
-<li>Description or abstract of your talk</li>
-</ul>
+Send an email to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a> with the following information:
 
-<h4>Rules</h4>
-<ul>
-<li>Be specific... we aren't mind readers (a description of about 20 lines is about right)</li>
-<li>Detail is good... but not as important as explaining why your proposal would be interesting</li>
-<li>Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
-<li>Multiple proposals welcome... just follow the other rules</li>
-</ul>
+* Proposal title (can be changed later)
+* Type (Presentation, Panel discussion, Ignite talk, etc.)
+* Description or abstract of your talk
+
+#### Guidelines
+
+* Be specific... we aren't mind readers (a description of about 20 lines is about right)
+* Detail is good... but not as important as explaining why your proposal would be interesting
+* Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!
+* Multiple proposals welcome... just follow the other rules
