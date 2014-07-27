@@ -19,7 +19,3 @@ It's been five years since the first DevOpsDays in the sleepy little Belgian tow
 Analysts blame the "trough of disillusionment". But the reality of the situation is that YOU are to blame. Marketers, Opportunists, Practitioners, Recruiters, Analysts, Enterprise IT, StartUps, Devs, Ops, and DevOps all have will a role in the downfall of the movement if we don't change the way we act, transform, inform, and inspire others to change.
 
 This talk will focus on the current problems in DevOps, and provide attendees with solutions to take out into the DevOps and IT community to improve DevOps as it scales across the greater IT community.
-
-**Bio**
-
-Michael Ducy (@mfdii) currently works as an Global Evangelist for Chef focusing on helping companies understand Chef, DevOps, and IT transformation. Previously, Michael focused on designing and implementing automation solutions for customer's Cloud, IT Automation, and Continuous Delivery needs. Michael has also worked in a variety of roles in his career including Cloud Architecture, Systems Engineering , Performance Engineering, and IT Instructor. After DevOpsDays Amsterdam 2013 Michael is also known as the GoatFather.
