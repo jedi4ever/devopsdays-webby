@@ -5,7 +5,7 @@ filter:    erb
 	{ :image => "aolon.png", :name => "AOL On", :link => "http://on.aol.com/"},	
 ]%>
 
-<% unless @platinum.empty?  %><h1>Platinum Sponsors</h1><% end %>
+<% unless @platinum_sponsors.empty?  %><h1>Platinum Sponsors</h1><% end %>
 
 <% @platinum_sponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
