@@ -34,4 +34,4 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [] %>
-<% if @msponsors.empty? %>Consider becoming a Media Sponsor!<% else %><%= make_sponsor_links(@msponsors) %><% end %>
+<% if @msponsors.empty? %>Consider becoming a <a href="/<%= @eventhome %>/sponsor#sponsorship">Media Sponsor!</a><% else %><%= make_sponsor_links(@msponsors) %><% end %>
