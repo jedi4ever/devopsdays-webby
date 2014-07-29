@@ -1,0 +1,71 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+layout: event
+title: Presentations
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<center><img border=0 src="../logos/dodbne2014.png" alt="DevOps Days Brisbane"></center>
+
+<hr>
+
+<div class="span-16 append-bottom border">
+    <div class="span-12 last">
+        <h4>Day 1 </h4>
+    </div>
+    <div class="span-12 box last">
+      <b>Getting Devs to Own Their Ops</b><br>
+      Karl Chu & Fabian Iannarella</a><br>
+      <a href="https://docs.google.com/uc?id=0B_l5GR5C13Z0bmtUNTlJUVAwb0U&export=download">Slides</a>
+    </div>
+    <div class="span-12 box last">
+      <b>Designing and Developing Software for Operations</b><br>
+      Will Thames</a><br>
+      Slides:
+      (<a href="https://docs.google.com/uc?id=0B_l5GR5C13Z0Q2ZRNTV3eE4tenc&export=download">pdf</a>,
+      <a href="https://willthames.github.io/devopsdays2014/">reveal.js</a>)
+    </div>
+    <div class="span-12 append-bottom box last">
+      <b>Transforming ThoughtWorks' Internal Systems</b><br>
+      Sam Newman</a><br>
+      <a href="https://docs.google.com/uc?id=0B_l5GR5C13Z0NU1xS0xCbmJ2Vms&export=download">Slides</a>
+    </div>
+
+    <!--div class="span-12 last">
+        <h4>Day 1 - Ignites</h4>
+    </div-->
+
+
+    <div class="span-12 last">
+    <h4>Day 2 </h4>
+    </div>
+    <div class="span-12 box last">
+      <b>Why You're Destroying DevOps</b><br>
+      Michael Ducy</a><br>
+      Slides:
+      (<a href="https://docs.google.com/uc?id=0B_l5GR5C13Z0MTBKUmNmbnk0TDQ&export=download">pdf</a>,
+      <a href="https://mfdii.github.io/why_youre_destroying_devops">reveal.js</a>)
+    </div>
+    <div class="span-12 box last">
+      <b>DevOps @ Wotif: Making Easy = Right</b><br>
+      Alexandra Spillane & Matt Callanan</a><br>
+      Slides:
+      (<a href="https://docs.google.com/uc?id=0B_l5GR5C13Z0TTI5b1ZReWRVVWM&export=download">pdf</a>,
+      <a href="http://www.slideshare.net/mcallana/making-easy-right-devops-wotif">slideshare</a>)
+    </div>
+    <div class="span-12 box last">
+      <b>Managing Security Updates Under the DevOps Model</b><br>
+      David Jorm</a><br>
+      <a href="https://docs.google.com/uc?id=0B_l5GR5C13Z0NGpNWVpzb3V5Q3M&export=download">Slides</a>
+    </div>
+    <div class="span-12 append-bottom box last">
+      <b>Acquisition, Ownership and Migration of Legacy Applications</b><br>
+      Mujtaba Hussain</a><br>
+      <a href="https://docs.google.com/uc?id=0B_l5GR5C13Z0ZUVoWlNtM3RHVW8&export=download">Slides</a>
+    </div>
+</div>
