@@ -5,7 +5,7 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.shuffle.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
