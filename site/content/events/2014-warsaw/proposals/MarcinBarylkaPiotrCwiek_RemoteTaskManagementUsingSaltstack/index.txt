@@ -32,7 +32,7 @@ Python programmer converted by necessity from the curly-bracket and strongly-typ
 Institute Poland I supported Android commercialization with Python+Qt desktop tools, developed web systems in Django,
 almost drowned in JavaScript and, lately, designed software abstractions around SaltStack. As a trainer, I'm spreading
 the joy of Python programming. 
-<br />
+
 Marcin Baryłka:<br />
 
 Software engineer since 1997. At 2007, he started using Python (in dramatic conditions) and quickly became its fanboy.
