@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: DevOps in UK Government
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Gareth Workman
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+This talk will focus on the strides taken within UK Government to change their approach to digital delivery and how the
+principles surrounding DevOps are being used to drive the digital transformation. The talk will focus on the changes on
+the ground as part of delivery and the challenges faced and how they were addressed as part of the transformation. 
+
+**Speaker:**
+
+Gareth has been employed by Kainos for 7 years and is currently operating as a Solution Architect. For the past 2 years
+Gareth has been working within UK Government Departments in the delivery of programmes that aligns to their Digital by
+Default strategy. Gareth's focus has been in the field of Web Operations ensuring the delivery of robust, secure and
+scalable platforms for citizens to interact with Government. 

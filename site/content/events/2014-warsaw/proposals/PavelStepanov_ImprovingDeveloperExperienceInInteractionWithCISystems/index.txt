@@ -25,4 +25,7 @@ This presentation aims to describe an experience of Magento company in building 
 
 **Speaker:**
 
-This section will be added soon.
+I started my work in IT as a test automation engineer back in 2007. Gradually I became interested in CI practices and
+tools. First steps in this direction have opened DevOps world for me. In 2011 I joined oDesk.com where I was responsible
+for CI and development tools and processes. Last year I joined Magento’s CI/CD team: here we work hard enabling the
+second release of Magento. 
