@@ -3,7 +3,7 @@ extension: html
 filter:
   - erb
   - markdown
-title: DevOps: JFDI
+title: 'DevOps: JFDI'
 proposal: true
 dirty: true
 talk: false
