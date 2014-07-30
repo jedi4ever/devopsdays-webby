@@ -11,7 +11,7 @@ ignite: true
 open_space: false
 selected: false
 layout: event_warsaw
-author: 'Marcin Baryłka, Piotr Ćwiek'
+author: 'Marcin Baryłka and Piotr Ćwiek'
 ---
 
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
