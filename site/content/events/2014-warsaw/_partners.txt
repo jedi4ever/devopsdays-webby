@@ -8,6 +8,7 @@ filter: erb
   { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
   { :image => 'ibm.jpg', :name => 'IBM - Polska', :link => 'http://www.ibm.com/pl/'},
   { :image => 'kreuzwerker.jpg', :name => 'IBM - Polska', :link => 'http://kreuzwerker.de/en/'},
+  { :image => 'kainos.jpg', :name => 'Kainos', :link => 'http://kainos.pl/'},
 ]%>
 
 <% if @gold_partners.empty?  %>
@@ -22,6 +23,7 @@ filter: erb
   { :image => 'megiteam.png', :name => 'MegiTeam', :link => 'http://www.megiteam.pl/hosting-dla-programistow/'},
   { :image => 'saltstack.jpg', :name => 'SaltStack', :link => 'http://www.saltstack.com/'},
   { :image => 'itsmfpolska.jpg', :name => 'itSMF - Polska', :link => 'http://www.itsmf.org.pl/'},
+  { :image => 'chef.jpg', :name => 'Chef', :link => 'http://www.getchef.com/'},
 ]%>
 
 <% unless @silver_partners.empty?  %><h1>Silver partners</h1><% end %>
