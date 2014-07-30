@@ -11,7 +11,7 @@ ignite: true
 open_space: false
 selected: false
 layout: event_warsaw
-author: Zoltan Toth
+author: Zoltán Tóth
 ---
 
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
@@ -25,4 +25,6 @@ Along this journey we used standard Unix and statistical software, later on-prem
 
 **Speaker:**
 
-This section will be added soon.
+Prior to joining Prezi Zoltán worked as a developer/architect for pharmaceutical market research companies. Now, as
+Senior Data Engineer, he helps Prezi build and operate a world-class data infrastructure. In his free time he enjoys
+cooking and simplicity and is a wannabe triathlete. 

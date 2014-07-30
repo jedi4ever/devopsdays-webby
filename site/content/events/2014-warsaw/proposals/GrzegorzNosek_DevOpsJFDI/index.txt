@@ -3,7 +3,7 @@ extension: html
 filter:
   - erb
   - markdown
-title: Remove the guesswork from diagnostics with sysdig
+title: DevOps: JFDI
 proposal: true
 dirty: true
 talk: false
@@ -19,7 +19,8 @@ author: Grzegorz Nosek
 
 **Abstract:**
 
-This section will be added soon.
+Are your servers still unique snowflakes, managed by hand and an occasional shell script? No two development environments
+alike? Whatever your excuse for passing on configuration management, I've probably been there. 
 
 **Speaker:**
 

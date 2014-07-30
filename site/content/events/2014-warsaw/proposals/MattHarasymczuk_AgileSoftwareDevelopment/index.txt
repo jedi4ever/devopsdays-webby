@@ -19,4 +19,8 @@ author: Matt Harasymczuk
 
 **Abstract:**
 
+This section will be added soon.
+
 **Speaker:**
+
+Hi, my name is Matt and I am an Agile Coach. I help organizations to embrace Agile (Scrum, Kanban, Lean, XP), Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT.
