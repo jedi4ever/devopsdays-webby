@@ -3,7 +3,7 @@ extension: html
 filter:
   - erb
   - markdown
-title: DevOps at Home: making it working
+title: 'DevOps at Home: making it working'
 proposal: true
 dirty: true
 talk: false
