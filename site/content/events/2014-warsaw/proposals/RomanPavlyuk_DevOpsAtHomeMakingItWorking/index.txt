@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: DevOps at Home: making it working
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Roman Pavlyuk
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+A lightweight presentation about how I applied my DevOps practices to make them working at home: Zabbix to monitor
+electric equipment and appliances and Chef to perform smart home automation. Also, it is not just monitoring but some
+interesting analytics behind it — almost like in real enterprise company but in very tiny scale :)
+
+**Speaker:**
+
+I have 12+year of experience in IT where DevOps and Operations is almost 8+ years. Currently working at SoftServe Inc in
+Lviv, Ukraine. I regularly take part as a speaker in DevOpsDays events, especially in Austin, TX and Tel-Aviv.
