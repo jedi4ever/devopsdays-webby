@@ -20,7 +20,9 @@ end
 <br/>
 <h1>Silver Sponsors</h1>
 
-<% @ssponsors = [] %>
+<% @ssponsors = [
+{ :image => "victorops-100x100.png", :name => "VictorOps", :link => "http://victorops.com/"}
+] %>
 <% if @ssponsors.empty? %>Become a <a href="/<%= @eventhome %>/sponsor#sponsorship">Silver Sponsor!</a><% else %><%= make_sponsor_links(@ssponsors) %><% end %>
 
 <br/>
