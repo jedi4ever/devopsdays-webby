@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 12
+title: "Why You're Destroying DevOps"
+---
+
+**Abstract**
+
+It's been five years since the first DevOpsDays in the sleepy little Belgian town of Gent. DevOps is now all the rage and everyone is talking about DevOps, doing DevOps, selling DevOps, or ""thought leading"" DevOps. But the success of DevOps is also it's downfall. The practitioners often like to blame the marketers and opportunists for the downfall.
+
+Analysts blame the "trough of disillusionment". But the reality of the situation is that YOU are to blame. Marketers, Opportunists, Practitioners, Recruiters, Analysts, Enterprise IT, StartUps, Devs, Ops, and DevOps all have will a role in the downfall of the movement if we don't change the way we act, transform, inform, and inspire others to change.
+
+This talk will focus on the current problems in DevOps, and provide attendees with solutions to take out into the DevOps and IT community to improve DevOps as it scales across the greater IT community.

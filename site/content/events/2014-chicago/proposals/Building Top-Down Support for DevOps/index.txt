@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Speaker 1
+author: Proposal 1
 title: "Building Top-Down Support for DevOps"
 ---
 

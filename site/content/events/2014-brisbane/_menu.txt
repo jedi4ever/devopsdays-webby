@@ -6,7 +6,7 @@ filter:    erb
 <a href="/<%= @eventhome %>/">welcome</a>&nbsp;
 <a href="/<%= @eventhome %>/location">location</a>&nbsp;
 <a href="/<%= @eventhome %>/program">program</a>&nbsp;
-<a href="/<%= @eventhome %>/registration">register</a>&nbsp;
+<a href="/<%= @eventhome %>/presentations">presentations</a>&nbsp;
 <a href="/<%= @eventhome %>/contact">contact</a>&nbsp;
 <a href="/<%= @eventhome %>/conduct">conduct</a>&nbsp;
 </h3>

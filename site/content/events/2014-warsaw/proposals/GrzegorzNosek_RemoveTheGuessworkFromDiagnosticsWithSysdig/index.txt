@@ -19,6 +19,9 @@ author: Grzegorz Nosek
 
 **Abstract:**
 
+This section will be added soon.
+
 **Speaker:**
 
-Co-founder and Chief Tinkering Officer at MegiTeam, an innovative web host. Long-time Linux admin and systems programmer. Lazy to the bone, automates anything he has to do more than twice.
+Co-founder and Chief Tinkering Officer at MegiTeam, an innovative web host. Long-time Linux admin and systems programmer.
+Lazy to the bone, automates anything he has to do more than twice.

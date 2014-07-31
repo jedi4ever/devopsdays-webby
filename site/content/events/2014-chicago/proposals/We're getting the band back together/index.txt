@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 13
+title: "We're Getting the Band Back Together!"
+---
+
+**Abstract**
+
+How is building a DevOps team like being in a band? How do you find the right sets of skills and personalities to compliment each other, and make something together that none could make alone?

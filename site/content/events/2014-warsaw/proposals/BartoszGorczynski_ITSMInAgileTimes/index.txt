@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: ITSM in Agile times
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Bartosz Górczyński
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+IT Service Management is widely used as management approach to delivery of IT services. This approach is uses by majority
+of IT organizations and IT companies. Traditionally linked with ITIL as ITSM best practice. ITSM focuses on delivery of
+value in the form of services to customers and their users. It is great approach which works perfectly when implemented
+properly. What about ITSM in agile times? Is it still valid? What changes to the approach are needed? Is DevOps replacement
+for ITSM and ITIL? Answers to those questions you will get listening to this presentation.
+
+**Speaker:**
+
+itSMF International Chairman and IT Service Management practitioner with 20+ years experience. IT Manager, trainer, coach
+and consultant. Was involved in many ITSM implementations projects. Volunteer in itSMF International. Responsible for
+publications from 2012. Founder of itSMF in Poland. Experimental learning practitioner. Facilitated 100+ business simulations.

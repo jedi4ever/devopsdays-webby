@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Docker offshore - packaging applications for hard to reach datacenter
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Joern Barthel
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+What if your cooperate network infrastructure consists out of topological islands which aren’t connected permanently to
+the internet? How do you handle data synchronization among data centers if bandwidth is changing all the time? How do
+you deploy your applications in such an environment and how do you manage application monitoring? Is it possible to use
+cloud services, SaaS, IaaS and so on in such a setup and how to manage it? What is necessary to handle video data,
+images and other documents and keep everything in sync. Join us to learn how we use Docker, Chef, AWS and friends in
+such an unusual business case.
+
+**Speaker:**
+
+Joern has been developing, debugging and designing software for more than ten years. At kreuzwerker he is responsible
+for architecture, new technologies and concepts. A computer science graduate, his professional interest is in the use of
+functional programming languages and the architecture of distributed applications. In his diverse projects he has
+gained solid experience with operating systems (primarily Linux and Mac OS) and has created various databases from
+different paradigms. He masters C, Ruby, Java, Erlang and a little JVM LISP. He is thus as much at home in
+infrastructure and service clouds (preferably AWS) as on the 
+command line. 

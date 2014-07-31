@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Speaker 7
+author: Proposal 7
 title: "Fully Automated Enterprise Deployments – In the Kitchen with Chef"
 ---
 
