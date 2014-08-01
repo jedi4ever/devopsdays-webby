@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 17
+title: "DevOps and Security"
+---
+
+**Abstract**
+
+In order to be successful DevOps needs to be more than just develops and operators / operations we have to get other aspects of the organization involved as well. One very important group that must be involved is Information Security. In this talk I will look at external security and internal security policies and procedures that could be affected by DevOps. In order to work on a combined team we need to understand what IT Security thinks about DevOps, what can we do to be more inclusive of IT Security and how do we handle security across the entire team.

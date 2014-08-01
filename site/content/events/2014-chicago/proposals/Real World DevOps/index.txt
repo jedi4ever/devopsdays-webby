@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 16
+title: "Real World DevOps"
+---
+
+**Abstract**
+
+What does DevOps look like in the real world? Here at Think Through Learning we use DevOps every day to help students learn math. This talk is about our organization and team structure how it contributes to product development and in the end to happy customers.

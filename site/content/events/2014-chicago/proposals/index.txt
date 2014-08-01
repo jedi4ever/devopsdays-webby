@@ -5,7 +5,7 @@ filter:
 - erb
 - markdown
 dirty: true
-layout: event
+layout: event_html5
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
@@ -16,7 +16,7 @@ This page lists the proposals we have received. Help the presenters with your fe
 <ol>
 <%
   articles = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => true, :talk => true)
+      :sort_by => "title", :reverse => false, :talk => true)
   articles.delete(@page)
   articles.each do |page|
 -%>
@@ -28,7 +28,7 @@ This page lists the proposals we have received. Help the presenters with your fe
 <ol>
 <%
   ignites = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => true, :ignite => true)
+      :sort_by => "title", :reverse => false, :ignite => true)
   ignites.delete(@page)
   ignites.each do |ignite|
 -%>

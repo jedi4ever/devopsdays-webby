@@ -4,8 +4,8 @@ filter:    erb
 
 <%
 def make_sponsor_links(sponsors)
-  sponsors.shuffle.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
@@ -14,24 +14,33 @@ end
 { :image => "signal-100x100.png", :name => "Signal", :link => "http://www.signal.co/"}
 #{ :image => "", :name => "", :link => ""}
 ]%>
-<% if @gsponsors.empty? %>Consider becoming a Gold Sponsor!<% else %><%= make_sponsor_links(@gsponsors) %><% end %>
+<%= make_sponsor_links(@gsponsors) %>
+<br />
+<% if @gsponsors.size < 6 %>Becoming a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
 <br/>
 <br/>
 <h1>Silver Sponsors</h1>
 
-<% @ssponsors = [] %>
-<% if @ssponsors.empty? %>Become a <a href="/<%= @eventhome %>/sponsor#sponsorship">Silver Sponsor!</a><% else %><%= make_sponsor_links(@ssponsors) %><% end %>
+<% @ssponsors = [
+{ :image => "drw-100x100.png", :name => "DRW Trading", :link => "http://drw.com/"},
+{ :image => "victorops-100x100.png", :name => "VictorOps", :link => "http://victorops.com/"}
+] %>
+<%= make_sponsor_links(@ssponsors) %>
+<br />
+<% if @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
 <br/>
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [] %>
-<% if @bsponsors.empty? %>Become a <a href="/<%= @eventhome %>/sponsor#sponsorship">Bronze Sponsor!</a><% else %><%= make_sponsor_links(@bsponsors) %><% end %>
+<%= make_sponsor_links(@bsponsors) %>
+<br />
+<% if @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
 
 <br/>
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [] %>
-<% if @msponsors.empty? %>Consider becoming a Media Sponsor!<% else %><%= make_sponsor_links(@msponsors) %><% end %>
+<% if @msponsors.empty? %>Consider becoming a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% else %><%= make_sponsor_links(@msponsors) %><% end %>
