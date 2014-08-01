@@ -8,16 +8,16 @@ proposal: false
 talk: true
 selected: true
 layout: event_msp
-author: Heather O'Sullivan & Ross Clanton
+author: Heather Mickman & Ross Clanton
 title: "DevOps at TGT"
 ---
 
 **Abstract:**
 
-Heather O'Sullivan and Ross Clanton share their story of the DevOps journey in a large enterprise IT organization.  They will discuss how they have and continue to navigate the change/adoption curve through cultural changes, tools, and processes. 
+Heather Mickman and Ross Clanton share their story of the DevOps journey in a large enterprise IT organization.  They will discuss how they have and continue to navigate the change/adoption curve through cultural changes, tools, and processes. 
 
 **Speaker:**
-Heather O'Sullivan & Ross Clanton
+Heather Mickman & Ross Clanton
 
 **Slides:**
 
@@ -25,4 +25,4 @@ Heather O'Sullivan & Ross Clanton
 
 **Video:**
 
-<iframe src="//player.vimeo.com/video/101229409" width="500" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101229409">DevOpsDays Minneapolis 2014 -- Heather Mickman O'Sullivan & Ross Clanton, DevOps at TGT</a> from <a href="http://vimeo.com/devopsdays">devopsdays</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="//player.vimeo.com/video/101229409" width="500" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101229409">DevOpsDays Minneapolis 2014 -- Heather Mickman & Ross Clanton, DevOps at TGT</a> from <a href="http://vimeo.com/devopsdays">devopsdays</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
