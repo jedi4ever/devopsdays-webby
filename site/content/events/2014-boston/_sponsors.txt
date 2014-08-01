@@ -34,6 +34,7 @@ end
 <% @ssponsors = [
 { :image => "acquia.png", :name => "Acquia", :link => 'https://www.acquia.com/careers/open-positions'},
 { :image => "vmware.png", :name => "VMware", :link => 'http://www.vmware.com/'},
+{ :image => "victorops.png", :name => "VictorOps", :link => 'http://victorops.com//'},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -46,7 +47,6 @@ end
 { :image => "mathworks.png", :name => "MathWorks", :link => 'http://www.mathworks.com/company/jobs/opportunities/search?keywords=DevOps&location[]=US&q=?source=8862'},
 { :image => "zanthos.png", :name => "zanthos", :link => 'http://www.zanthos.com'},
 { :image => "winterwyman.png", :name => "Winter Wyman", :link => 'http://winterwyman.com/'},
-
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
