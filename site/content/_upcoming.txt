@@ -24,6 +24,10 @@
       Toronto
     </a>
     -
+    <a href="/events/2014-vancouver">
+      Vancouver
+    </a>
+    -
     <a href="/events/2014-warsaw">
       Warsaw
     </a>
