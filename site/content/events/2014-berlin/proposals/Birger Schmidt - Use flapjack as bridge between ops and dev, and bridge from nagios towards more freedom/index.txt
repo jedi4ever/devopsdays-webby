@@ -42,4 +42,14 @@ same time.
 
 **Speaker**
 
-Birger Schmidt, Bulletproof.net
+Birger Schmidt, Bulletproof
+
+Birger Schmidt graduated at the Rostock University and the Humboldt
+University of Berlin in computer science. Since the beginning of the
+90s he has been dealing with IT infrastructure, operations and
+development. From 2008 to 2012 he was senior consultant/trainer for
+Nagios/Icinga, Puppet and RT/OTRS at <a
+href="http://netways.de/en">NETWAYS (netways.de/en)</a>. Since 2012 he
+works for <a href="http://bulletproof.net">Bulletproof
+(bulletproof.net)</a> in Sydney and is in charge of the infrastructure
+behind <a href="http://movember.com">Movember (movember.com)</a>.
