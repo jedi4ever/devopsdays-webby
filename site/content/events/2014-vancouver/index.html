@@ -1,0 +1,57 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: Welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+
+### Friday November 14 to Saturday November 15, 2014
+
+<%#
+<a href="propose">Call for papers</a> is now open.
+<hr>
+If you want to be the first to get news [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+<hr>
+
+DevOpsDays is returning to Vancouver in 2014. This conference, which is now happening frequently around the globe, is THE conference for bridging the gap between developers and operations. <a href="http://devopsdays.org/">DevOps Days</a> is a grassroots event for folks in the field connecting, sharing war stories, advice, ideas, and tools relating to DevOps. It is organized by people who care about DevOps.
+
+Prior to the event in Vancouver, there are upcoming DevOps Days events in Tokyo, Tel Aviv, Atlanta, and New York. The "Downunder" DevOps Days just took place in Sydney a few weeks ago and before that was Amsterdam, Mountain View, Paris, and London. This is a truly international affair.
+
+The Format
+----------
+
+DevOpsDays Vancouver 2014 will be half talks and half open space unconference style.
+
+What's Included?
+----------------
+
+Your ticket for DevOpsDays Vancouver 2014 will include entrance to the event, a light breakfast with coffee each morning, lunch both days and entrance to a hosted evening event which will be taking place at Steamworks. The evening event will also include 2 drinks vouchers and some food.
+
+%>
+
+## Propose a Talk
+
+We are currently shouting out for speakers. If you are doing something new and interesting in the DevOps space we want to hear from you! If you have something great to talk about, then we're happy to help you polish and practice your presentation.
+
+Also, if you know someone who would be a great speaker or somebody you would like to see, let us know! This is a community driven event, so we want your input.
+
+Patrick Debois, who started DevOps Days and is also helping co-ordinate events around the world, recently said in an interview that "the content of the show needs to continuously evolve and be new. We don’t want content that is already available online. We want new content and controversial ideas for our audience." Let's make that happen!
+
+Here are some past proposals from the Mountain View event to give you an idea. We are looking for either 30 minutes talks or five minute "Ignite" talks.
+
+You can follow and comment of talk proposals as they come in <a href="proposals">here</a>.
+
+
+## Sponsor
+
+If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+
+
+## Contact the Organizers
+
+The <a href="contact">organizers</a> are Phil Whelan (ActiveState), Jenny Yang (Metafor Software), Sean Rousseau (Metafor Software), Dave Whiteley (StrongLoop), Natalie Murray (Demonware), Kelcey Damage (Backbone Technology) and Jonathan Thorpe (Serena). You can find us <a href="https://twitter.com/philwhln/devops-days-vancouver/members">here on Twitter</a>.
