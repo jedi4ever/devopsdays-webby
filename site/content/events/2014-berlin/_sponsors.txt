@@ -19,6 +19,7 @@ filter: erb
 
 <% @ssponsors = [
  { :image => "martin_alfke2.png", :name => "Martin Alfke", :link => "http://martin-alfke.de"},
+ { :image => "epost.jpeg", :name => "Deutsche Post E-Post", :link => "http://www.epost.de/privatkunden/recruiting/jobs.html"},
 ]%>
 
 <h1>Silver sponsors</h1>
