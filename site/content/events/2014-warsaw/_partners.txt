@@ -4,7 +4,7 @@ filter: erb
 
 <% @gold_partners = [
   { :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
-  { :image => 'vivus.jpg', :name => 'IT Vivus', :link => 'http://itvivus.pl/'},
+  { :image => '4finance.jpg', :name => 'IT Vivus', :link => 'http://www.4finance.com/'},
   { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
   { :image => 'ibm.jpg', :name => 'IBM - Polska', :link => 'http://www.ibm.com/pl/'},
   { :image => 'kreuzwerker.jpg', :name => 'IBM - Polska', :link => 'http://kreuzwerker.de/en/'},
