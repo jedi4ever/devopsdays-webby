@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Oliver White
+title: "What if you could finally disregard all the buzz and talk about how great DevOps is and finally show your manager some real-life statistics?"
+---
+
+**Abstract**
+
+What if you could finally disregard all the buzz and talk about how great DevOps is and finally show your manager some real-life statistics? We talked to over 600 engineers from around the world and asked them about:
+
+<ul>
+<li><em>How do they spend their work weeks?</em> (how much time, on average, do our respondents spend doing key tasks related to operations each week? how does the traditionally siloed IT Operations and DevOps cultures differ? How do you adopt one over the other?)
+<li><em>What do they do when apps fail and how do they recover?</em> (what causes application failures and how often do they occur? how are teams alerted and do issues get fixed quickly? How are production releases affected by human error or by apps not “built for production”?)
+<li><em>What kind of tools do they use?</em> (i.e. popular productivity boosters, new tool adoption, etc)
+<li><em>How do they release software?</em> (i.e tools and methodologies for controlling application releases, etc.)
+</ul>
+We found some interesting data that your colleagues and managers might like to see in this 30-minute, interactive sessions. I expect to hear about new tools and practices in here that you can suggest, and what's worked in your specific cases as well.
+
+
+**Speaker**
+
+Oliver White, Zeroturnaround
