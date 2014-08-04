@@ -15,8 +15,8 @@ layout: event_warsaw
   We are no longer accepting new talk proposals!<br/>
   Check our current <a href='<%= File.join('/',@eventhome,'/program') -%>'>program</a>, it's ready!
 </center>
-<hr/>
 <br/>
+<hr/>
 
 This page list the suggested topics and/or speakers, proposed talks and ignites we have received.<br/><br/>
 <strong><em>Note:</em></strong> Some talks will most likely provide an opportunity for further discussion
