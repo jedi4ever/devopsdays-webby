@@ -10,6 +10,13 @@ layout: event_warsaw
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
+<center>
+<strong><em>Note:</em></strong></br>
+We are no longer accepting new talk proposals!<br/>
+Check our current <a href='<%= File.join('/',@eventhome,'/program') -%>'>program</a>, it's ready!
+</center>
+<hr/>
+
 This page list the suggested topics and/or speakers, proposed talks and ignites we have received.<br/><br/>
 <strong><em>Note:</em></strong> Some talks will most likely provide an opportunity for further discussion
 in form of an <em>Open Spaces</em> style collaboration for people to talk about various ideas or whatever
