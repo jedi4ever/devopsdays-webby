@@ -11,11 +11,12 @@ layout: event_warsaw
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<strong><em>Note:</em></strong></br>
-We are no longer accepting new talk proposals!<br/>
-Check our current <a href='<%= File.join('/',@eventhome,'/program') -%>'>program</a>, it's ready!
+  <strong><em>Note:</em></strong></br>
+  We are no longer accepting new talk proposals!<br/>
+  Check our current <a href='<%= File.join('/',@eventhome,'/program') -%>'>program</a>, it's ready!
 </center>
 <hr/>
+<br/>
 
 This page list the suggested topics and/or speakers, proposed talks and ignites we have received.<br/><br/>
 <strong><em>Note:</em></strong> Some talks will most likely provide an opportunity for further discussion
