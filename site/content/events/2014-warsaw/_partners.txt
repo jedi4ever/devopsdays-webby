@@ -2,8 +2,6 @@
 filter: erb
 ---
 
-<%- require 'fileutils' ; FileUtils.rm_rf File.join('/',@eventhome,'/sponsor') %>
-
 <% @gold_partners = [
   { :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
   { :image => '4finance.jpg', :name => 'IT Vivus', :link => 'http://www.4finance.com/'},
