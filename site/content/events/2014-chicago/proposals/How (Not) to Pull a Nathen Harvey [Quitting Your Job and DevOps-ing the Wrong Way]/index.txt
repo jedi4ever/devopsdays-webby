@@ -14,30 +14,14 @@ title: "How (not) to pull a Nathen Harvey [Quitting your job and devop-ing the w
 
 **Abstract**
 
----
-extension: html
-filter:
-- erb
-- markdown
-dirty: true
-proposal: true
-talk: true
-selected: false
-layout: event_html5
-author: Proposal 15
-title: "How (not) to pull a Nathen Harvey [Quitting your job and devop-ing the wrong way]"
----
-
-**Abstract**
-
-Recently (after attending my first DevOpsDays in PGH), I pulled a semi-successful Nathen Harvey by quitting my small-town job. I was over-worked, under-paid, and under-appreciated. I had no mentor, no leader, and no room to grow. Following Nathen Harvey’s suggestion to “Become an DevOp”, I set out to quit my job and gain a level up.
+Recently (after attending my first DevOpsDays in PGH), I pulled a semi-successful Nathen Harvey by quitting my small-town job. I was over-worked, under-paid, and under-appreciated. I had no mentor, no leader, and no room to grow. Following Nathen Harvey's suggestion to “Become an DevOp”, I set out to quit my job and gain a level up.
 
 Being that my job wasn't paying me anything, I submitted a proposal to the organizers of DoDPGH for them to fund my attendance at the conference. They paid for my hotel room and ticket to the conference; provided that I supplied my own transportation to the conference. The first morning of the conference was a huge eye-opener for me. This was the first time that I was ever surrounded by any large amount of technology focused people, aside the fact that there were developers and operators sitting together. While eating breakfast and talking to a few other attendees, they were shocked to find out just how little I was being paid, how little experience I was gaining, and how unhappy I was with the position. Almost immediately they started asking for my resume to pass around and started my whole process of looking for a job.
 
 I immediately had several emails, tweets, and people talking to me about a possible position. I was shocked.
-However, from there is where things went wrong. There was a job-board posted in the lobby of DoDPGH, upon which I placed the *only* post-it under the “People Looking for a Job” category. While this was an amazing way for me to make more and more connections, Pete Cheslock took a picture of the job board and tweeted it. While this _was_ because of a joke that Jason Dixon had placed next to mine, it still got a lot of traffic (<https://twitter.com/petecheslock/status/472097821953630209>). Luckily my current employer didn’t see the tweet.
+However, from there is where things went wrong. There was a job-board posted in the lobby of DoDPGH, upon which I placed the *only* post-it under the “People Looking for a Job” category. While this was an amazing way for me to make more and more connections, Pete Cheslock took a picture of the job board and tweeted it. While this _was_ because of a joke that Jason Dixon had placed next to mine, it still got a lot of traffic (<https://twitter.com/petecheslock/status/472097821953630209>). Luckily my current employer didn't see the tweet.
 
-Due to my own stupidity on Twitter over the next month and a half, I didn’t make it all too private that I was looking for a job. Massive updates to my Linkedin profile, cleaning up my GitHub account, and creating a profile on Hired.com definitely didn’t help any matters.
+Due to my own stupidity on Twitter over the next month and a half, I didn't make it all too private that I was looking for a job. Massive updates to my LinkedIn profile, cleaning up my GitHub account, and creating a profile on Hired.com definitely didn't help any matters.
 
 Things got worse when companies were interested in me and wanted to fly me out to their locations for in-person interviews. Not being too bright, I posted pictures to Twitter while on and off the planes after taking vacation days from my current job.
 
