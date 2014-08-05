@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 19
+title: "DevOps Journey Map for Customers"
+---
+
+**Abstract**
+
+As the cloud model is being embraced by enterprises, there is a growing debate about the economics of the cloud. In other words, enterprises are trying to figure out how best to optimize cloud opportunities to get the most economic benefits. A cloud-based fully integrated DevOps capability is one of the golden nuggets which is gaining a lot of traction these days.
+
+In this presentation, I would like to pitch the DevOps journey that IBM went through internally, showcasing pre-DevOps and post-DevOps statistics with respect to application development and deployment, and also discuss organizational impact with the DevOps rollout
+
+I also want to propose a generic DevOps framework that describes a journey map for enterprises going from highly inefficient traditional model, to cloud enablement, embracing DevOps and finally reaching a fully integrated and automated DevOps on the cloud state. The framework will walk audience through this journey, addressing necessary capabilities required to get to each level, and mapping those capabilities to some industry-standard components/tools that can address those capabilities at each level.
+
+I envision the IBM story itself to be a presentation, and the DevOps framework can also be a panel discussion opportunity.

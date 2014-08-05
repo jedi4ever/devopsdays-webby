@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 21
+title: "Keep DevOps Simple"
+---
+
+**Abstract**
+
+There are many tools out there that can easily make the life of a team easier.  Implementation is a different story, having the right tool for the job can make the world of difference.
+
+Every team has a member that is or has been inflicted with what I call the "Kyle Syndrome".
+Those with Kyle Syndrome tend to play with all things new and shiny; applications, frameworks and gadgets that were recently posted on Hacker News or whatever the latest craze is on the internet.  He is the one that will try to shove every automation tool that he possibly can into the infrastructure to just say that he did it.  While this is great, being able to use mCollective, Puppet, reimann.io, logstash, tftp, etc in a complete infrastructure to perform one simple task, like deploying environments.
+
+People will can easily relate to this, they have seen in a tons of times.  Most common and famous example of this is the Rube Goldberg contraptions/machines.  For those that are not familiar with Rube Goldberg machines, "A Rube Goldberg machine is a contraption, invention, device or apparatus that is deliberately over-engineered or overdone to perform a very simple task in a very complicated fashion, usually including a chain reaction." - Wikipedia
+
+
+* How many points of failure does this introduce?
+* How easy is it to recover from something that fails?
+* Could it have been done simpler?
+* What is the technical debt that in introduced?
+
+What would happen if we replaced all these great tools with with one simple tool?
