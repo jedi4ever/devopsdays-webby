@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jesper Richter-Reichhelm
+title: "DevOps goes Mobile"
+---
+
+**Abstract**
+
+We've learned a lot through doing DevOps: Every commit is
+automatically integrated, tested, and deployed to a staging
+environment. And then it only takes one push of a button and the
+release goes live...
+
+Unfortunately, it's not as simple anymore when operating mobile
+applications: How can you quickly update your mobile software when the
+app store provider wants to test your software first for a few days?
+How can you update your configuration when your app can run offline?
+And how do you track down errors when the data is distributed to
+millions of mobile clients? Those were just some of the challenges we
+encountered during the operation of mobile games with millions of
+daily users. In this talk we will talk about the solutions we have
+found to address them.
+
+**Speaker**
+
+Jesper works as Head of Engineering at Wooga, one of the most popular
+developers of mobile games in the world. It's his job to make sure
+that developers can work happily and efficiently and usually he does
+that by letting those who know things best make their own decisions:
+the developers themselves.
+
+Jesper is passionate about playing and working on games as well as
+developing highly scalable software that is used by millions of
+players. He also loves sharing his knowledge and passion at
+conferences.
