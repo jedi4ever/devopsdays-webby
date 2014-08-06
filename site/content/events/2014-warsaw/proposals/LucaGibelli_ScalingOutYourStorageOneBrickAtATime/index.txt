@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: 'Scaling out your storage, one brick at a time'
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Luca Gibelli
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+One of the scariest sounds for DevOps all around the world is the beep of a pager coming from their SAN. Dead drives,
+degraded RAID, out of space conditions are the recurring nightmares that keep DevOps awake at night. But not anymore!
+Software-defined storage solutions bring peace of mind to our world by providing an extremely flexible and reliable
+way to store our data. DevOps can hot add and remove the nodes of a storage cluster on demand and achieve any level
+of capacity, redundancy and performance they may need. At the same time, the budget required to deploy such a cluster
+is lower than the typical SANs, because it can run on commodity hardware.
+<br/>
+This ignite talk will illustrate the advanges of software-defined storage over traditional SANs and show how
+DevOps can leverage common system automation tools to provision a storage cluster based on Skylable SX.
+<br/>
+After attending this talk, DevOps will be able to deploy, extend and shrink a storage cluster which spans over
+multiple servers, with just a few keystrokes!
+
+**Speaker:**
+
+Luca Gibelli, founder of Skylable. Open-Source advocate, ClamAV founder and developer for 10 years, started Skylable
+because he believes that relying on BigCo's and government to respect your privacy is like having a peeping-tom install
+your window blinds. Since 2012, he has been working no-stop to build a scalable open-source solution to safely store
+massive amounts of data in private clouds.
