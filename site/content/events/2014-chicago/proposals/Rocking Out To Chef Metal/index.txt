@@ -14,5 +14,5 @@ title: "Rocking Out To Chef Metal"
 
 **Abstract**
 
-Chef recently announced Chef Metal, a framework for managing clusters of machines in the same way you traditionally managed single nodes: with version-controlled recipes. Join Hart Hoover, an Engineer with the Rackspace DevOps Automation Service Team and founder of the San Antonio DevOps Meetup, as we walk through how Chef Metal and provisioners work while he performs a live demo deployment on an OpenStack cloud.
+Chef recently announced Chef Metal, a framework for managing clusters of machines in the same way you traditionally managed single nodes: with version-controlled recipes. Join us as we walk through how Rackspace uses Chef Metal and provisioners in a live demo deployment on an OpenStack cloud.
 

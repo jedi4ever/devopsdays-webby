@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 18
+title: "The Spiritual Journey of DevOps"
+---
+
+**Abstract**
+
+One of the main tenets of the DevOps movement is empathy.  One might even say it is the "essence" of DevOps.  (p.s. Jeff Sussna who wrote that blog is a well-known and  well-respected person within the DevOps community).
+
+A quick and easy way to describe empathy that is easy for nearly everyone to understand is simply the spiritual (or religious) "Golden Rule" of ... "One should treat others as one would like others to treat oneself." (i.e. do unto others).
+
+I will use this as a platform to explore additional parallels of basic spirituality and the ideals that are a part of that and how they can be woven in to the fabric of DevOps.  A different approach at explaining the DevOps message and movement.
+
+Additionally, I'll touch on the fact that (like in religion), "spirituality" leaders will surface to "Show you the way" (of DevOps).  Some have the best of intentions, others may just be looking out for themselves or trying to make money on the movement.
+
+Where do casual observers of DevOps "best practices" fall in to this?  Compare that to those who follow the DevOps methodology by the book and never deviate.  Is one better than the other?
+
+By placing the ideals of DevOps in to a different context, perhaps we can spark other interesting thoughts and dialogs that may help others to seek what DevOps may mean to them and how they can apply it to their own situations within an organization.

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 20
+title: "The Human Side of Cloud Monitoring"
+---
+
+**Abstract**
+
+Rackspace processes over a million metrics every minute as we monitor the IT infrastructure of hundreds of thousands of customers. That's a lot of data. We monitor our infrastructure too, and know just how overwhelming it can be to manage all the notifications from a cloud monitoring system.
+
+We monitor things such as the CPU and memory utilization, or the time it takes to reach your webserver from a particular part of the world. And of course we set alerts to tell us when the things we monitor start acting strange. And when you monitor at scale you get a lot of notifications: emails, SMS and push notifications are the most common.
+
+These notifications are great for helping you get work done, but we wanted something that our whole office could see and appreciate - something to bridge the gap between the digital and physical worlds. So we built an LED notification system for cloud monitoring alerts.
+
+Other than the obvious benefits around consuming notifications, the LED strip has had a great impact on the team's culture. Some of the features around suppressing false positives that sat on the back burner forever now suddenly took priority amongst engineers as they did not like the "red lights" in their area. They took pride in having a green slate and so passionately worked on these features.

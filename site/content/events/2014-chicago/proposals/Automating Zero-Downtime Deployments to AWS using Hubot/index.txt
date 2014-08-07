@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 22
+title: "Automating Zero-Downtime Deployments to AWS using Hubot"
+---
+
+**Abstract**
+
+This Ignite talk will share the process for automating zero-downtime deployments to AWS using Hubot and creating a process that scales as more contributors are added. This is especially helpful if you need the ability to deploy multiple times a day and roll back quickly when things go awry.
+
+In the talk, I'll cover the practical and technical challenges we encountered and the detailed steps we took to implement this setup including writing CloudFormation templates to describe the infrastructure and how to wait for load balancers to get warm.
+
+I'll also share how we hooked it all up with Hubot to deploy in chat, and even gave our robot a personality to fit the company's unique company culture. The resulting setup has improved our deployment process and productivity by an order of magnitude.
