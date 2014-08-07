@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Jan-Joost Bouwman & Robin Teurlings
+title: "Simple Solutions Should be your Strategy"
+---
+When organizations start doing DevOps the focus is all too often on new cool tools and gadgets. ING Netherlands was no exception to this rule. When we started our DevOps transition the engineers were encouraged to experiment and discover new tools to help them in their work. And there is certainly value in that phase.
+
+But is rolling out that new tool with all that cool features always your best choice? Yes, those features are really cool, but do you know how to use them, and more importantly: are they going to solve your problem? Sometimes Simple is Smarter.
+
+In this talk we will give you a real life example how we improved Value Chain monitoring for the Savings chain. Not by introducing the new shiny. But simply by getting all people from all the different teams that play a part in the chain together in one workshop. And getting them to talk to each other and share what they already knew and did about monitoring. And by the end of that day we had people that knew each other better, knew their Value Chain and its weaknesses better AND we had a working Value Chain monitoring solution that helps to solve real life problems.
+
+Robin Teurlings is stream lead of the Monitoring stream of ING Netherlands IT transformation programme Power IT. The past year he worked as IT Integrator on professionalizing Monitoring within ING. Before that he worked as a project manager and IT consultant.
+
+Jan-Joost Bouwman is as the community manager of the DevOps collaboration community (together with Mark Heistek and Evelijn van Leeuwen) on ING’s internal social network one of the DevOps evangelists within ING. He currently works as process owner for the ITIL processes within DB/CIO. Before ING made the transition to DevOps he was an ITIL Change manager in one of the involved departments, having started there as an service management engineer. Previously he worked as a project manager, information analyst/designer/tester in Voice response.

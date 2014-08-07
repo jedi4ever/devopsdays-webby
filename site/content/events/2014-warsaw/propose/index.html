@@ -10,8 +10,14 @@ layout: event_warsaw
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<center><h2>Call for proposals is now open and will close on August 1!</h2></center>
-<hr>
+<center>
+  <strong><em>Note:</em></strong></br>
+  We are no longer accepting new talk proposals!<br/>
+  Check our current <a href='<%= File.join('/',@eventhome,'/program') -%>'>program</a>, it's ready!
+</center>
+<br/>
+<hr/>
+
 There are three ways to propose a session:
 <ol>
   <li><strong><em>A proposal for a talk/panel</em></strong> during the conference part : these are 30 minutes slots that will have all people's full attention as everybody will be in that one room</li>

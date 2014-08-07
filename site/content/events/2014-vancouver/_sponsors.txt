@@ -1,0 +1,46 @@
+---
+filter:    erb
+---
+<% @gsponsors = [
+#{ :image => "stackato_by_activestate.png", :name => "Stackato by ActiveState", :link => "http://www.activestate.com/stackato"},
+#{ :image => "hootsuite.jpg", :name => "Hootsuite", :link => "http://www.hootsuite.com"},
+#{ :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com"},
+#{ :image => "ansibleworks.png", :name => "AnsibleWorks", :link => "http://www.ansibleworks.com/"},
+]%>
+
+<% if @gsponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @gsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @ssponsors = [
+#{ :image => "polyglot.png", :name => "Polyglot Conference", :link => "http://www.polyglotconf.com"},
+#{ :image => "unbounce.png", :name => "Unbounce", :link => "http://careers.unbounce.com"},
+#{ :image => "colonynetworks.png", :name => "Colony Networks", :link => "http://www.colonynetworks.com"},
+#{ :image => "opscode.png", :name => "Opscode", :link => "http://opscode.com/"},
+#{ :image => "pulse-energy.png", :name => "Pulse Energy", :link => "http://www.pulseenergy.com/"},
+]%>
+
+<% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
+
+<% @ssponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @msponsors = [
+]%>
+<% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
+<% @msponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @esponsors = [
+#{ :image => "demonware.png", :name => "Demonware", :link => "http://www.demonware.net"},
+]%>
+<% unless @esponsors.empty?  %><h1>Evening sponsors</h1><% end %>
+<% @esponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>

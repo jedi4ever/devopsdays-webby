@@ -1,0 +1,55 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Birger Schmidt
+title: "Use Flapjack as bridge between Ops and Dev, and bridge from Nagios towards more freedom"
+---
+
+**Abstract**
+
+Flapjack is an alert umbrella for people that intelligently routes and
+rolls up alerts, integrates with check execution engines like Sensu &
+Nagios, and ships a well documented API for restart-less
+configuration.
+
+There are two problems in monitoring:
+<ul>
+<li>check configuration
+<li>notification rules
+<li>and a well known third one: check execution
+</ul>
+
+I would considder the configuring checks part more or less solved in
+times of automated setups via Puppet or Chef.
+
+Still there is the problem with notifications. Nobody wants to get
+flooded with alerts and often the alerts that reach people are just
+poorly chosen. Sometimes even the wrong people are chosen. Ops are
+getting alerts that are only useful for devs and vice versa.  I've
+observed that Devs and Ops are suffering from a lag of influence on
+those notification rules configuration.
+
+This talk will give you an option to tackle this problem with the help
+of flapjack and move away from Nagios to whatever you like more at the
+same time.
+
+**Speaker**
+
+Birger Schmidt, Bulletproof
+
+Birger Schmidt graduated at the Rostock University and the Humboldt
+University of Berlin in computer science. Since the beginning of the
+90s he has been dealing with IT infrastructure, operations and
+development. From 2008 to 2012 he was senior consultant/trainer for
+Nagios/Icinga, Puppet and RT/OTRS at <a
+href="http://netways.de/en">NETWAYS (netways.de/en)</a>. Since 2012 he
+works for <a href="http://bulletproof.net">Bulletproof
+(bulletproof.net)</a> in Sydney and is in charge of the infrastructure
+behind <a href="http://movember.com">Movember (movember.com)</a>.
