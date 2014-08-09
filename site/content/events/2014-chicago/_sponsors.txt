@@ -34,7 +34,9 @@ end
 <br/>
 <h1>Bronze sponsors</h1>
 
-<% @bsponsors = [] %>
+<% @bsponsors = [
+{ :image => "opinionlab-100x100.png", :name => "Opinion Lab", :link => "http://www.opinionlab.com"}
+] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
 <% if @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
