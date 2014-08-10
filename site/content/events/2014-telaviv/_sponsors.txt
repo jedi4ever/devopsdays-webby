@@ -1,6 +1,20 @@
 ---
 filter:    erb
 ---
+<% @csponsors = [
+	{ :image => "gigaspaces.png", :name => "GigaSpaces Technologies", :link => "http://www.gigaspaces.com"},
+	{ :image => "hp.png", :name => "HP Software", :link => "https://www.facebook.com/HP.Software.Israel"},
+]%>
+
+<% unless @csponsors.empty?  %><h1>Event Hosts and Organizers</h1><% end %>
+
+<% @csponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<br/>
+<br/>
+
 <% @platinum_sponsors = [
 	{ :image => "aolon.png", :name => "AOL On", :link => "http://on.aol.com/"},	
 ]%>
@@ -17,8 +31,9 @@ filter:    erb
 
 <% @gold_sponsors = [
 	{ :image => "cloudify.png", :name => "Cloudify by GigaSpaces", :link => "http://getcloudify.org"},
-	{ :image => "librato.png", :name => "Librato Metrics", :link => "https://metrics.librato.com/"},
+	{ :image => "librato.png", :name => "Librato Metrics", :link => "https://metrics.librato.com/?utm_campaign=dev-ops-tel-aviv&utm_content=promotion&utm_medium=event&utm_source=devops-tel-aviv"},
 	{ :image => "chef.png", :name => "Chef", :link => "https://getchef.com/"},
+	{ :image => "bigpanda.png", :name => "bigpanda", :link => "http://bigpanda.io/"},
 ]%>
 
 <% if @gold_sponsors.empty?  %>
@@ -47,16 +62,3 @@ filter:    erb
 <% end %>
 
 
-<br/>
-<br/>
-
-
-<% @csponsors = [
-	{ :image => "gigaspaces.png", :name => "GigaSpaces Technologies", :link => "http://www.gigaspaces.com"},
-]%>
-
-<% unless @csponsors.empty?  %><h1>Lead Organizers</h1><% end %>
-
-<% @csponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
