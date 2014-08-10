@@ -14,7 +14,7 @@ title: "The myth of the full stack developer strikes back"
 
 **Abstract**
 
-In this talk we want to debunk the common misunderstanding that DevOps is <a href='http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer>"killing the developer"</a> or requires you to recruit "full-stack" people.
+In this talk we want to debunk the common misunderstanding that DevOps is <a href='http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer'>"killing the developer"</a> or requires you to recruit "full-stack" people.
 Our thesis is that the requirement to succeed with a DevOps culture is not to have/recruit people with a super-broad skillset.
 Instead, we discuss the analogy of <a href='http://en.wikipedia.org/wiki/T-shaped_skills'>"T-shaped people"</a> - people with a very specialized skillset but broad collaboration capabilities with experts in other fields.
 
