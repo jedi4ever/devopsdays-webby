@@ -13,7 +13,7 @@ filter:    erb
   { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.com/", :deal => 'Lanyard'},
   { :image => "xebialabs.png", :name => "Xebialabs", :link => "http://www.xebialabs.com/"},
   { :image => "sumologic.png", :name => "Sumologic", :link => "http://www.sumologic.com/"},
-  { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
+  { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/us/products/application-delivery.aspx?intcmp=headernav"},
 ]%>
 
 
