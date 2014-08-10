@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+suggestion: false
+selected: false
+layout: event
+author: "Gareth Rushgrove"
+title: "Devops Weekly, the first 200 issues"
+---
+This ignite talk will look back on nearly 4 years of cataloguing the
+DevOps conversation online. We'll look at:
+
+* How is the newsletter created?
+* What are my favourite posts from the archive?
+* What are some of the themes that have emerged over the last 4 years?
+* What are the best tools I've featured?
+* And who has had more posts included than anyone else?
+
+The talk should be a light hearted jog through the evolution of the
+devops community. Hopefully we'll discover how we got here, and if
+we're really lucky maybe where we're heading.
+
+Gareth is a professional and experienced software and operations engineer based in Cambridge, UK.
+He is the author of the devops weekly newsletter.
