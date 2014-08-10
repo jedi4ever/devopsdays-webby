@@ -6,7 +6,7 @@ filter:    erb
 	{ :image => "hp.png", :name => "HP Software", :link => "https://www.facebook.com/HP.Software.Israel"},
 ]%>
 
-<% unless @csponsors.empty?  %><h1>Event Hosts and Organizers</h1><% end %>
+<% unless @csponsors.empty?  %><h1>Event Hosts &amp; Organizers</h1><% end %>
 
 <% @csponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
