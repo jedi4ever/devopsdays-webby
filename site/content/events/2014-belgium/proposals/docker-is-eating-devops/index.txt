@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Aaron Huslage"
+title: "Docker is eating DevOps"
+---
+Docker is the new kid on the block and already it's transforming DevOps into something new.  Puppet, Chef, Ansible, Salt are all great but none of them hold a candle to the flexibility and scalability enabled by Docker. Never fear! All is not lost! We'll talk about how all of these things can fit together to make your DevOps life better, faster and cheaper. We'll talk about security, operations and management of Docker containers across multiple cloud platforms and show how you can keep all the hard work you've been doing the past few years. We'll also talk about how Docker will look in the future and get you on the right track to migrating there.
+
+Aaron has been a system administrator for the past 20 years. He's worked for the largest companies like IBM and Microsoft and for lots of small startups. He now works as a Solution Architect for Docker, Inc where he helps customers and partners to implement and realize the full potential of Linux containers in their environments.
