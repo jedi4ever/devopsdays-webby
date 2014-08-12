@@ -7,6 +7,7 @@ filter: erb
  { :image => "autoscout.png", :name => "AutoScout24", :link => "http://about.autoscout24.com/de-de/au-career.aspx"},
  { :image => "kreuzwerker.jpg", :name => "Kreuzwerker", :link => "http://kreuzwerker.de"},
  { :image => "opsworks.png", :name => "AWS OpsWorks", :link => "http://aws.amazon.com/opsworks/"},
+ { :image => "payback.png", :name => "PAYBACK", :link => "http://PAYBACK.net/karriere/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
