@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 29
+title: "Policy Management as Code"
+---
+
+**Abstract**
+
+Most organizations choose to centralize resource and policy management to make managing it easier. That centralization brings with it some challenges: single points of failure, scaling, etc. Using DevOps practices like configuration management, we have the opportunity to try a different route.
+
+In this talk, we'll discuss why PagerDuty chose to distribute our policy management. We'll look at how we skipped LDAP and distributed user management. We will cover our firewall automation which produces a perfect firewall tailored to each instance. We will profess our love for HAProxy which intelligently balances traffic between our ever changing service layers. We will discuss how we created a point to point IPSec mesh to secure our network traffic. We will discuss how this architecture is working so far and how we plan to improve the experience in the future.

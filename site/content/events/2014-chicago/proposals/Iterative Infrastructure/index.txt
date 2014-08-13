@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 23
+title: "Iterative Infrastructure"
+---
+
+**Abstract**
+
+Ansible is super flexible, we use it in a number of different scenarios such as building projects, continuous delivery, and configuration management. I have been using Ansible for some time now to manage my companies infrastructure. The infrastructure consists of many application spread over many servers. With this type of architecture it's easy to run a portion of the system locally, but trying to run more than a couple of Vagrant VMs will quickly max out your laptops resources. To be sure your playbooks work completely you need to reguarly destroy your infrastructure and bring it backup again from scratch. You need a way to efficiently simulate the whole infrastructure on your laptop so that you can verify the repeatability of your Playbooks locally before pushing it to staging or production.
+
+Don't worry, there is hope, Docker is here to help. With a single Vagrant image and Docker you can efficiently emulate you full infrastructure on your laptop. By running multiple Docker containers inside that single Vagrant vm you can efficiently iterate on your Ansible Playbooks. In this fast paced talk I will go over how to setup Vagrant and configure your Docker containers so that you can access them with Ansible. Next I will go over my build, test, learn loop to quickly iterate my Ansible Playbooks until they are ready for production use.

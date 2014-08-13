@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 25
+title: "Preparing for a SOC2 audit with DevOps in mind"
+---
+
+**Abstract**
+
+As a medium-sized company of around 100 people, we're engaged in a business-to-business (B2B) model with some of the world's largest companies where security is paramount. We provide a vendor solution that resides on our customers' websites, as well as store and transmit customer-owned (i.e. Confidential) data. Signing new customers up to our SaaS generally triggers a "security review process", which is both effort-intensive and can delay closing of the contracts. At the beginning of the year we committed internally to beginning a SOC2 audit as both a competitive differentiator and also to shorten the the time to complete a security review.
+
+In this talk I'd go over how I prepared for the SOC2 audit with DevOps in mind. This will include: how I selected an auditor to work with
+* how we wrote controls together
+* how I attempted to minimize manual effort for all teams
+* how I attempted to enable common "DevOps values" such as: developers releasing their own code
+* developers having access to Production
+* small, frequent releases
+* teams empowered to make decisions instead of an external control board
+
+I hope this can be useful to other companies, even if most engineers want to shy away from policy-based work in favor of more exciting things like tool development or engineering challenges.
