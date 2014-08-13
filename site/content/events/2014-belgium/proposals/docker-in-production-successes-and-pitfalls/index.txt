@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Aaron Huslage"
+title: "Docker in Production: Successes and Pitfalls"
+---
+Docker has been around for a year and a half and we're starting to see some real experience with it in production scenarios. We'll talk about the successes seen in various deployments, the tools they use and how they use them, and gotchas that you may not have heard about yet. We'll also talk about the pitfalls and failures and how people are using Docker in new and unusual ways. Finally, we'll go over some typical workflows that take code from laptop to production.
+
+Aaron has been a system administrator for the past 20 years. He's worked for the largest companies like IBM and Microsoft and for lots of small startups. He now works as a Solution Architect for Docker, Inc where he helps customers and partners to implement and realize the full potential of Linux containers in their environments.
