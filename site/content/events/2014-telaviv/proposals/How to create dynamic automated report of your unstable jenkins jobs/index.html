@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Eyal Edri
+title: "How to create dynamic automated report of your unstable jenkins jobs"
+---
+
+**Abstract:**
+
+Who doesn't hate monitoring and fixing unstable jenkins jobs?
+How many times your manager asked you for a report on latest failing jobs and their reason?
+This is a really painful topic for us at our devops team in RHEV, so we decided to automate that report.
+Today a job can fail due to some major reasons:
+ 1. bug is open on the product and still open (on bugzilla)
+ 2. the testing framework has a bug (on jira)
+ 3. issue that is monitoring on trac system
+ 4. work in progress - job is not final
+
+In this talk we'll show you how using a very simple text in the job desc ("api"), you can create automated report
+that will show your manager the reasons for the recent failures on ci and thier status (e.g - for a bug it will show it's status and current assignee).
+We might even show you how to skip those "known" issues so you can focus on the unknown failures you might be missing.
+
+**Speakers:**
+
+Eyal Edri is a devops team leader at Red Hat Israel, running the ci & build operations for the
+Red Hat Enterprise Virtualization Manager (RHEVM) product and a CI maintainer for the open-source project 'oVirt'.
+Previously did a few talks on Jenkins User Conference in Israel.
+Eyal is a dive control specialist and his favourite time out is diving with sharks in tropical destinations.

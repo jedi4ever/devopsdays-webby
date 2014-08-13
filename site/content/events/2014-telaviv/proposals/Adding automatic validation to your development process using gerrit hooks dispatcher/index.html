@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Eyal Edri
+title: "Adding automatic validation to your development process using gerrit hooks dispatcher"
+---
+
+**Abstract:**
+
+Every r&d department has its own rules and version planning for their product.
+It might be you're working on a latest (master) branch and at some point (feature freeze), you'll branch into
+a stable branch for the current version and backport only specific fixes to it.
+That process can be problematic and not without misses when managing a large scale project such as a virtualization
+project as oVirt.
+You'll want to integrate some validation into the process and ensure developers are following the right procedure,
+like merging fixes in right order (master->stable branch), adding 'bug-url' to the bug to maintain info on the bug fix
+and so on.
+In this talk I'll show you a unique system we developed for oVirt that works on gerrit (code review system) and bugzilla
+api that will run set of verification rules on each patch sent and will ensure patches are treated correctly
+and with respect! :)
+
+**Speakers:**
+
+Eyal Edri is a devops team leader at Red Hat Israel, running the ci & build operations for the
+Red Hat Enterprise Virtualization Manager (RHEVM) product and a CI maintainer for the open-source project 'oVirt'.
+Previously did a few talks on Jenkins User Conference in Israel.
+Eyal is a dive control specialist and his favourite time out is diving with sharks in tropical destinations.
