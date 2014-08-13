@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 33
+title: "Audits don't have to suck"
+---
+
+**Abstract**
+
+New presentation (not yet written) pulling together things I've seen about how to support governance/compliance/regulatory in environments practicing continuous delivery.

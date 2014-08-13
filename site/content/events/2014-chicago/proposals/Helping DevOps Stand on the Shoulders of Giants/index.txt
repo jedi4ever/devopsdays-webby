@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 28
+title: "Helping DevOps Stand on the Shoulders of Giants"
+---
+
+**Abstract**
+
+Just as analysis defects in business stories can wreak havoc on a product, so can analysis defects around infrastructure. We need to revamp our infrastructure or DevOps stories to analyze them even if they are "technical" in nature. I would like to share my experience in encouraging and implementing this change to allow our DevOps practices to utilize the years of application development practices that have been refined and proven effective.
+
+In this talk, I will provide concrete examples of how our team has applied this concept including: identification of customers for this functionality, INVEST story writing (Independent, Negotiable, Valuable, Estimable, Small, Testable), reusability in our code and story cycles including testing and sign-off periods.

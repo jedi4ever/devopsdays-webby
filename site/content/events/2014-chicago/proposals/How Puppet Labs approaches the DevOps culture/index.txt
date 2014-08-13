@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 32
+title: "How Puppet Labs approaches the DevOps culture"
+---
+
+**Abstract**
+
+In a company comprised of developers, operations and devops culture while focusing on building tools for the same mixed audience externally - where do we draw the line between dev and ops? Or do we? Historically Puppet Labs has been a heavy sysadmin turned developer company, as we continue to grow our employee skillset and ratio is evolving. We have to answer questions such as - who owns the CI infrastructure and who responds when it falls over - the Quality Engineering (QE) team that sits within Engineering or the Operations team that own the hardware? Who has root access when the majority of your company is used to having root and plenty of opinions on how the system should be configured? This case study will review how Puppet Labs has grown and adapted to the changing population and skill set we call ‘devops’.

@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 34
+title: "Continuous Delivery and Business Strategy"
+---
+
+**Abstract**
+
+A refinement of a keynote I gave at Agile Trends Brasil last year. It's more on the "why" of CD (to enable experimentation), and why experimentation is necessary (identify what will drive value is VERY hard, and usually wrong).
