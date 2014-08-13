@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 24
+title: "DevOps Leadership, Lessons Learned"
+---
+
+**Abstract**
+
+I'd like to give a talk about the successes and failures I've had as a leader of technology/people in the DevOps space. I first got interested in DevOps back in August of 2010 when I became the manager of an Operations Engineering team at Sony PlayStation in London. I led that team for 19 months, and wrote a blog post called "Building a DevOps Team" (http://www.agilesysadmin.net/building-a-devops-team). 
+
+This team was not quite Operations, nor Development, and this concept is a bit of a debated approach. I later moved to the Guardian, where I was a manager in a team with 13 Operations staff, and 80+ developers. Here we had people who rotated on to Product Development Sprints, for extended periods of time. I spent a great deal of time bridge building with developers, advocating for code instrumentation and graphite based dashboards, as well as listening to their frustrations with the speed of Ops task turnaround, etc. 
+
+Later I was at Sittercity here in Chicago, where a small 2-3 person Ops team supported a Legacy application, while trying to enable Development during a total re-platforming project. We built CI+CD pipelines, automating hundreds of deploys in Staging, but we failed to ever deliver on CD to Production. We also had a real Dev vs Ops breakdown as Project intensity and stress increased, and spent a great deal of energy trying to avoid blame, or counter blame gaming. 
+
+Now I'm at OpinionLab, where we're on our second version of attempting a good DevOps culture. We initially tried a model where Ops was separate from Dev, and we tried to minimize the impact of hand-offs by having sufficient automation in place. This was working reasonably well, but we've tried to make things even better by having an Ops person dedicated to each of 2 development teams. This allows Ops work to be prioritized by the goals of the Sprint, but has downsides as well. 
+
+To summarize, I've had a variety of experiences in a handful of companies for mission critical Operations, as I've constantly been trying to be a leader bringing the best of DevOps culture. I've had successes, and failures, and perhaps sharing these will be useful to others. I don't want to to make this talk about my resume, but rather want to make it about things I tried, what worked, what didn't, what blind-sided me, and what I'd do differently next time.
+

@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 22
+title: "How to make a video game"
+---
+
+**Abstract**
+
+This presentation will take you through all the steps you need to know to start making games with HTML5 and JavaScript (ES6/7). At the end of the presentation, participants will have all the skills they need to know to start making their own games.
+
+Topics include:
+
+* What you need to know (and don't need to know) about HTML5 and JavaScript.
+* Creating and rendering shapes, lines and text.
+* How to make "sprites", and how to make them move using a game loop.
+* Interactivity: using keyboard and pointer events.
+* Collisions: how to check wether objects are bumping into each other, and how to react those collisions.
+* Loading and playing sounds with the WebAudio API.
+* Making buttons.
+* How to build your own game engine: abstracting the engine, using plugins, and a strategy for seamlessly scaling your code.
+* “Haiku”: an approach to building a high-level, minimalist API so that you can create games quickly with as little code and mental overhead as possible.
+* Rendering with WebGL.
+* Publishing games as apps and for the web.
+
+This is detailed and highly practical talk for intermediate developers and literate programmers who want to jump into game development quickly using the latest technologies and best practices.
+
