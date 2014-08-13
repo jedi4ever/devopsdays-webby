@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Emanuil Slavov"
+title: "Faster Releases - Automated Tests Are Your First Line Of Defense"
+---
+DevOps organisations rely heavily on all sorts of automation - from building infrastructure and deployments to software testing including security and performance. This talk will focus on the product related software automation testing. As DevOps encourages faster deployment cycle, there is not much time for manual tests prior to release so good automated tests are key.
+
+Even if you got superb continuous delivery flow, without reliable automated tests, you’re just going to ship crappy features faster. This talk will show the different types of software automated tests, as well as strategies how to implement them well. How to smartly overlap them, to save the team time and effort. It will cover topics such as reliability, maintainability, speed and stability. What is needed for those tests to be run on the CI machine after commit, nightly, before release. The talk is going to cover unit (frontend and backend), integration, API and UI tests. Also will touch on strategies how to handle technical debt tips and tricks and how to improve your code quality and make your product more suitable for automation testing.
+
+Emanuil Slavov is working in software testing business for more than 13 years. He has tested software in industries such as secure file transfers, email based network security, electronic money transactions, anti fraud techniques, social media. His main speciality is systems thinking about software testing and where it fits in the big picture. Helps organisations achieve quality software products by working with product managers, developers, quality assurance, operations.
