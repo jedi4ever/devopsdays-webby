@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: James Fryman
+title: "DevOps Day 2: People and Process"
+---
+
+**Abstract**
+
+DevOps is often heralded as the solution to all the problems within IT
+- planning, slow delivery, large team, etc. All solved via
+automation. However, once the dust settles and the new tools are
+implemented, the more challenging problem begins. Implementation of a
+DevOps type practice requires change and adaptation of the practices
+within the framework of the existing culture, and these challenges are
+often overlooked or poorly addressed. This talk discusses many of
+these challenges as observed in small and large companies alike, how
+to plan and execute successfully.
+
+**Speaker**
+
+James Fryman, GitHub
