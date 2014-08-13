@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 21
+title: "From Water-Scrum-Fall to DevOps -- The journey we had and ahead of us"
+---
+
+**Abstract**
+
+In IBM we have adopted Scrum few years ago. While we thought we were Scrum, we were actually Water-Scrum-Fall. Our release cycle was 6~12 months, and that's nowhere near competitive in today's market. So we decides to adopt DevOps about 15 months ago. However, in a huge company like IBM, adopting something as big as DevOps is very difficult. Our failure in Scrum adoption was a very good proof that this is not easy. We didn't want to fail this time, and couldn't afford to fail. So, we did the following:
+
+*Made a lot of changes in the process and organization. For example, we merged our functional test team into development team. We also adopted many new processes within the development teams
+
+*Worked very hard in getting the support from managers and executives of all levels. We had worldwide technical leaders conducting many meetings and education sessions to managers and executives at all level to get their continued support.
+
+*Delivered many educations targeting every roles in software project. We delivered tens of education sessions to developers, testers, and managers.
+
+*Learned and explored knowledge and tools. We have specialized team working on investigating tools and studying DevOps related knowledge, and share with everyone.
+
+*Invested tons of efforts in developing automation tests of all types, as well as modifying existing automation tests to fulfill DevOps requirement.
+
+*Greatly improved our build process and scripts. We have a centralized build team helping us do this, and each development team also worked on improving their build scripts.
+
+I'll share what we did specifically in the areas above. As always, this is a continuous improvement and continuous learning process, and you're never "done" with DevOps. So, I'd like to discuss some topics that we don't have an answer as of now: 
+
+*Centralized build team or not? Most DevOps practitioners will say no to centralized build team, but in IBM we have super complicated compliance that applies to build machines. If we don't use the service of the centralized build team, the product team will have to handle the compliance, which is not fun at all.
+
+*Find and fix every single defect before releasing to production, or move that effort to production environment monitoring and improve the recovery process of the production environment? This is especially valid for our system test, where we run 5 days long run once every few weeks. Those tests can only find about 20% of defects, so is the result worth the effort?
+
+This topic should be very interesting for those who want to or just started to adopt DevOps in a relatively large organization. Applying DevOps in a web startup is what many people had already done. Applying DevOps in a large organization with on-premise products and huge amount of legacy codes and tests is a very different story.
+
