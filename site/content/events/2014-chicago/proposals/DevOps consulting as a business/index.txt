@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 26
+title: "DevOps consulting as a business"
+---
+
+**Abstract**
+
+Have you ever considered starting your own business? DevOps has finally gone mainstream and brought with it some incredible entrepreneurship opportunities. Join Jamie Begin as he discusses how he bootstrapped a freelancing gig into a $2MM/yr. cloud and DevOps consulting company. Topics include: choosing an appropriate service model, recruiting and training the right people, how to do sales when you're an engineer, and the challenges of scaling a quickly-growing company. Jamie will candidly share both his successes and failures over the past five years on the road to building his business, RightBrain Networks.

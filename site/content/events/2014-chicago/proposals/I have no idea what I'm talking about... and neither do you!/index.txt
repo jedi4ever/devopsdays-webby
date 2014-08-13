@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Proposal 27
+title: "I have no idea what I'm talking about... and neither do you!"
+---
+
+**Abstract**
+
+Benny, Retina, Ocular, Simon, Britt, and Alex. Those are just a small selection of the names of machines I have seen in my career. Benny was “fidgety”, Retina could never be turned off, and Alex ran (and is probably still running) Ubuntu 9.04. Despite having really cute names, these machines were critical SPoFs inside the organization that were what operations folks tend to call “special snowflakes”.
+
+We aspire to the achievements of the Googles, the Facebooks, the Twitters, and the GitHubs of the world, yet we fail to acknowledge when they are in a different problem space. Have the strategies these companies chosen allowed them to be successful? Or have the companies chosen those strategies so that they could be successful? Does it really matter? Why are we still holding examples from 5 or 10 years ago on a pedestal? Why do we practice the glorification of snapshots in time. Yes. That totally did happen. And it worked for that small subset of people. Back then. But this is now.
+
+The successes (and failures) those companies experienced were unique and specific to their problem domain. If you are not running a hosted git service fronted by a Rails app for collaboration or an online store front to buy and sell handmade items, then you are not GitHub or Etsy. These companies have been successful because they chose or built the tools and processes that worked best for them at the time. They are not restricted by the same constraints you may experience. Google and Amazon do not need to worry about cloud outages because they built their own! Most of us do not have such a luxury, so achieving that level of success is almost impossible.
+
+We should use Rails because GitHub did. We should write our StatsD service in Node.JS because Etsy did. We should use PHP because Facebook did. We should start with a Rails app and then migrate to a highly-distributed, multi-tiered, Scala-based service after a year because Twitter did. The logic in those statements should sound insane! It is absolutely ludicrous! Yet that is exactly what our industry is doing on a much larger scale. We are conforming to the norm instead of defining it. If our “idols” followed the patterns of their time, StatsD would be written in Java; GitHub would be SVNHub, deploying from trunk once a year; and Facebook would be written in ColdFusion – just imagine all the pretty Flash graphs they could create.
+
+As Abraham Maslow said in his 1966 book The Psychology of Science, “if all you have is a hammer, everything looks like a nail”. As an industry, we have one hammer. The “DevOps” and “Thought Leadering” companies exist today because they dared to defy the standard. We are quickly becoming too complacent in the DevOps bubble while we wait for “the next big thing” to come along. Let’s be the next big thing. Depart with me on a journey as we predict the future processes for success.
+
