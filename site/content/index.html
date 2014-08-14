@@ -179,6 +179,21 @@ labelStyle: {opacity: 1}
 
 google.maps.event.addListener(berlinmarker, "click", function (e) { location.href="events/2014-berlin"});
 
+
+var vancouverLocation = new google.maps.LatLng(49.27698,-123.12478);
+var vancouverMarker = new MarkerWithLabel({
+  position: vancouverLocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Vancouver 2014<br> Nov 14 & 15",
+  labelAnchor: new google.maps.Point(40, 20),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(vancouverMarker, "click", function (e) { location.href="events/2014-vancouver"});
+
 }
 </script>
 
