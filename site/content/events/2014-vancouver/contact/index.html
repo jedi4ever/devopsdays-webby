@@ -10,12 +10,15 @@ layout: event
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
 <% @eventid = File.basename(@page.directory) %>
 
-If you want to contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+## Email
+Contact the organizers by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
 
-** Our special team**
+## Our Team
 
 <%= render(:partial => "/#{@eventhome}/_team_local") %>
 
-** The core devopsdays organizer group**
+Find us on Twitter on the <a href="https://twitter.com/cdemwell/lists/devopsdays-vancouver-2014">devopsdays-vancouver-2014 list</a>.
+
+The core global DevOpsDays organizer group:
 
 <%= render(:partial => "/#{@eventhome}/_team_global") %>

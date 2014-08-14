@@ -1,6 +1,7 @@
-- Jenny Yang
-- Sean Rousseau
-- Dave Whiteley
-- Phil Whelan
-- Kelcey Damage
-- Jonathan Thorpe
+- Chris Demwell <a href="https://twitter.com/cdemwell">@cdemwell</a> (Dun and Bradstreet)
+- Saem Ghani <a href="https://twitter.com/saemg">@saemg</a> (Lasso Data Systems)
+- Jenny Yang <a href="https://twitter.com/jennyinc">@jennyinc</a> (Metafor Software)
+- Michael Collins <a href="https://twitter.com/ook">@ook</a> (Demonware)
+- Jonas Courteau <a href="https://twitter.com/artificialJC">@artificialJC</a> (HootSuite)
+- Ronald Bow <a href="https://twitter.com/rmkbow">@rmkbow</a> (HootSuite)
+- Martin Suchanek <a href="https://twitter.com/mrtn_su">@mrtn_su</a> (PlentyOfFish)
