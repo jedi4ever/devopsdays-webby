@@ -24,7 +24,7 @@ end
 
 <% @ssponsors = [
 { :image => "drw-100x100.png", :name => "DRW Trading", :link => "http://drw.com/"},
-{ :image => "victorops-100x100.png", :name => "VictorOps", :link => "http://victorops.com/"}
+{ :image => "victorops-100x100.png", :name => "VictorOps", :link => "http://victorops.com/"},
 { :image => "servercentral-100x100.png", :name => "ServerCentral", :link => "http://servercentral.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
