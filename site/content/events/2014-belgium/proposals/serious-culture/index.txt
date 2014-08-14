@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Kevin Behr"
+title: "Let's get serious about culture"
+---
+Over the last five years the halls of devopsdays events have reverberated that culture is one of the key legs devops stand on.  In this talk I propose we do a deep-dive in to key aspects of culture including an examination of the systems that it lives in. Is it possible to engineer culture the way we engineer data centers and large web platforms? And who are the different voices we can learn more from?
+
+We will explore the following areas:
+
+1. Which scientific disciplines contribute to our current understanding of culture
+2. Can we "change" the culture of our organizations?
+3. Will I have to hug everybody in my company?
+4. What roles does tribalism play in our work culture?
+5. Is culture the scapegoat for all of our human problems?
+6. What is the role of experimentation in cultural evolution.?
+7. A brief primer on complex adaptive human systems
+8. How to know when to collaborate, cooperate and coordinate
+
+Kevin brings more than 25 years of frontline experience in business management, technology and thought leadership as a Chief Information Officer, Chief Technology Officer, Chief Strategist and Chief Operations Officer. In addition to his leadership roles in public and private companies, Kevin also co-founded the IT Process Institute with Gene Kim, and served as its President for the first five years. Kevin is the author of The Definitive Guide to IT Management in the Adaptive Enterprise (Hewlett-Packard), Managing Certificate Lifecycles (Verisign - Thawte), and the co-author of the The Visible Ops Handbook and The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win. Today, The Phoenix Project is Amazon's tops the Amazon bestseller category for Business Technology and Operations.
+
+In his current role as Chief Science Officer at Praxis Flow, Kevin draws from science and engineering disciplines to consult CEOs, Boards of Directors and senior IT executives to rapidly increase fast value-flow, cultivate cultural transformation, and implement continuous improvement strategies. Kevin is a very popular keynote speaker and is frequently called on to address a broad range of technology and management topics by organizations such as the National Academy of Sciences, Hewlett-Packard, the SANS Institute, AFCOM and The IT Service Management Forum.
