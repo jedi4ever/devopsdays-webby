@@ -26,4 +26,14 @@ to plan and execute successfully.
 
 **Speaker**
 
-James Fryman, GitHub
+James Fryman is an Information Technologist who builds, designs,
+curates, and evangelizes automation in all layers of the IT
+stack. Over the last decade, James has held roles in Information
+Technology that includes the domains of Information Security, Service
+Delivery, IT Operations, Development, and IT Management. He has
+learned through these experiences the importance of automation in all
+facets of Information Technology to accelerate delivery, reduce human
+errors throughout an application lifecycle. Currently, James works at
+GitHub assisting in the development and curation of systems scaling
+within the Operations group. He is also a frequent speaker on the
+topic of automation at conferences throughout the world.
