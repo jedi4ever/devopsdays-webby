@@ -8,6 +8,7 @@ filter: erb
  { :image => "kreuzwerker.jpg", :name => "Kreuzwerker", :link => "http://kreuzwerker.de"},
  { :image => "opsworks.png", :name => "AWS OpsWorks", :link => "http://aws.amazon.com/opsworks/"},
  { :image => "payback.png", :name => "PAYBACK", :link => "http://PAYBACK.net/karriere/"},
+ { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com"},
 ]%>
 
 <% if @gsponsors.empty?  %>
