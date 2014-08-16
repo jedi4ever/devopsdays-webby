@@ -1,0 +1,72 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alexander Schwartz
+title: "DevOps = Effectiveness First!"
+---
+
+**Abstract**
+
+In this talk we explore in detail how efficiency and
+effectiveness are related to DevOps and the traditional
+separation of Development and Operations.
+
+Companies are usually aiming for high efficiency and
+predictability. This seems to make sense in the first place,
+as no one wants to be inefficient, right? But wait a second,
+the ask for efficiency might actually be a source for a
+permanent conflict with the DevOps idea.
+
+The focus on “synergy effects” and “good utilization” – which
+is a focus on efficiency – is often one of the main
+motivations for creating silos in the organisation, for the
+classical separation between Dev and Ops. Quite often those
+structures are neither effective nor efficient in the long
+run.
+
+On the other hand, with DevOps done right one can achieve a
+high level of effectiveness: Horizontal scaling, that is,
+increasing for a team their coverage of the value stream from
+idea to production, brings naturally the focus on doing the
+right thing for the customer. Furthermore, by improving the
+efficiency of an effective process, DevOps can enable
+companies to be ahead of their competitors.
+
+
+What I can learn in this session?
+
+<ul>
+<li> You can gain a better understanding how the DevOps approach yields to good organizational setups.
+
+<li> You learn some good arguments, why the traditional approach is suboptimal, and understand the mechanics that lead to ineffective and inefficient structures.
+
+<li> You learn good arguments for selling DevOps better
+
+<li> You learn ideas which help you to make the right choices in your DevOps journey.
+</ul>
+
+
+**Speaker**
+
+Alex works as an Agile Coach for HERE, a Nokia business, in
+Berlin. His journey in the IT industry started 20 years ago as a
+programmer. Over the years he assumed many different roles (tech lead,
+team lead, release manager, lean manager) in different companies and
+organizations.
+
+Alex main focus is to deliver value to production quickly, so he was
+working on evangelizing and introducing Continuous Delivery, DevOps
+and Agile Testing in enterprises. From 2008-2010 he was leading the
+release management of the eBay company mobile.de in Germany, the
+largest online market place for selling vehicles in Germany. In 2011
+Alex joined HERE, a Nokia business, in Berlin/Germany, and was leading
+a delivery team for three years, which is responsible for multiple
+REST services hosted in the cloud.  In March 2014 he switched to the
+role of an Agile Coach and Change Agent for HERE.

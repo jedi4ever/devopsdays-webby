@@ -1,0 +1,55 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alexander Schwartz
+title: "Our DevOps Journey at HERE/Nokia"
+---
+
+**Abstract**
+
+
+Establishing a DevOps culture in a big enterprise is usually quite
+a challenge.
+
+At HERE, a Nokia business, the traditional separation between
+development and operations is the primary model. However, during
+the last years several teams had the chance to establish DevOps
+for their products. Those teams have chosen different paths and
+solutions, and they all have in common that they are perceived as
+being successful. The DevOps model had been proven to support
+their goals, and the business is very satisfied about product
+quality and high delivery frequency.
+
+In this talk we try to share insights from the journeys of those
+pilot teams, covering the obstacles they dealt with, how they
+increased their maturity, how the cloud helped and most important,
+the cultural change that goes along with such a transition.
+
+The talk concludes with a discussion of the different forces
+related to the question if DevOps will be used at scale in future.
+
+
+**Speaker**
+
+Alex works as an Agile Coach for HERE, a Nokia business, in
+Berlin. His journey in the IT industry started 20 years ago as a
+programmer. Over the years he assumed many different roles (tech lead,
+team lead, release manager, lean manager) in different companies and
+organizations.
+
+Alex main focus is to deliver value to production quickly, so he was
+working on evangelizing and introducing Continuous Delivery, DevOps
+and Agile Testing in enterprises. From 2008-2010 he was leading the
+release management of the eBay company mobile.de in Germany, the
+largest online market place for selling vehicles in Germany. In 2011
+Alex joined HERE, a Nokia business, in Berlin/Germany, and was leading
+a delivery team for three years, which is responsible for multiple
+REST services hosted in the cloud.  In March 2014 he switched to the
+role of an Agile Coach and Change Agent for HERE.
