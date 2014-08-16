@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alexander Schwartz
+title: "How Continuous Delivery impacts testing"
+---
+
+**Abstract**
+
+
+Most teams introducing Continuous Delivery face problems such as "How
+do we fit our 4-day QA phase into a daily release rhythm?"
+
+The transition to a DevOps strategy and Continuous Delivery usually
+requires a significant readjustment of the testing approach.
+
+Alex shares stories from various companies he worked for, and
+discusses different ideas on how to retrofit testing for frequent
+releases. This includes adapting the rhythm of testing, test
+techniques, scope of testing, and re-thinking the entire quality
+assurance approach.
+
+**Speaker**
+
+Alex works as an Agile Coach for HERE, a Nokia business, in
+Berlin. His journey in the IT industry started 20 years ago as a
+programmer. Over the years he assumed many different roles (tech lead,
+team lead, release manager, lean manager) in different companies and
+organizations.
+
+Alex main focus is to deliver value to production quickly, so he was
+working on evangelizing and introducing Continuous Delivery, DevOps
+and Agile Testing in enterprises. From 2008-2010 he was leading the
+release management of the eBay company mobile.de in Germany, the
+largest online market place for selling vehicles in Germany. In 2011
+Alex joined HERE, a Nokia business, in Berlin/Germany, and was leading
+a delivery team for three years, which is responsible for multiple
+REST services hosted in the cloud.  In March 2014 he switched to the
+role of an Agile Coach and Change Agent for HERE.

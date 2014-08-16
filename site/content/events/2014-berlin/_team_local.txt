@@ -1,7 +1,8 @@
 - Ingmar Krusch
-- Jens Braeuer
-- Patrica Braeuer
+- Jens Bräuer
+- Patrica Bräuer
 - Bernd Erk
 - Norman Messtorff
 - Ralph Angenendt
 - Ravi Yadav
+- Leonard Ehrenfried
