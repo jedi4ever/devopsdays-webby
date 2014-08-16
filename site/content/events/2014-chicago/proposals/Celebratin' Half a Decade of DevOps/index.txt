@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 38
+title: "Celebratin' Half a Decade of DevOps"
+---
+
+**Abstract**
+
+This session would feature thoughts DevOpsDays community, a number of other leading lights in the DevOps field (we would ask many of you and Patrick Debois too!) to give us what they consider the highlights and then present those, together with what we feel are our highlights.

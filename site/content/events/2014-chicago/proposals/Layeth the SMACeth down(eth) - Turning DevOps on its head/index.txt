@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 40
+title: "Layeth the SMACeth down(eth) - Turning DevOps on Its Head"
+---
+
+**Abstract**
+
+A classic tl:dr for DevOps is the acronym CAMS: Culture, Automation, Measurement, Sharing. I argue this oversimplification is hurting adoption of and causing confusion around DevOps. My presentation is focused around presenting SMAC as acronym for both describing what DevOps is and the recipe for progression from mere familiarity to ingrained practice and change. I'll also introduce the lasting effect of implementation in my experience as a final C - Confidence - the real impact on the bottom line. Starting with culture is a non-starter, starting with sharing just works. The concepts presented align with stories I've seen such as The Phoenix Project and other case studies from HP and Etsy, and summarize personal experience with my own enterprise clients.

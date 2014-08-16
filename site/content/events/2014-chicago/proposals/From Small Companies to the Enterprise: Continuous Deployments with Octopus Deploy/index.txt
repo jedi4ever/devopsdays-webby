@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 42
+title: "From Small Companies to the Enterprise: Continuous Deployments with Octopus Deploy"
+---
+
+**Abstract**
+
+Whether you're a one person or 1,000 person development organization, performing continuous deployments is a challenge. At Accenture we have found an easy way to address this with Octopus Deploy.
+
+From .NET Web Application Projects to Windows Services, Web Services and Databases projects, Octopus Deploy has been up to the task. We've customized it for our own auditing/security needs for fast provisioning/configuration with new teams adopting Octopus Deploy. It's enabled numerous development teams throughout the world to leverage automated deployments in an easy to configure, reliable and traceable manner.
+
+From our experience, we've found measurable gains and metrics to projects, while speeding up delivery and lowering costs. Automation is not only a great component of Octopus Deploy it's an extension of DevOps. Octopus Deploy has become a catalyst for a DevOps culture within Accenture's internal software development.
+
+My session will demonstrate how Octopus Deploy can make a positive impact on your organization by reducing deployment friction with automating deployments and cultivating a DevOps mindset.

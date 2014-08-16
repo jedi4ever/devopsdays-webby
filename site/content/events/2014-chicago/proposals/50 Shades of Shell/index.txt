@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 41
+title: "50 Shades of Shell - There is a Time When Shell is No More"
+---
+
+**Abstract**
+
+System Engineers love shell. It's always there, ready to be used and everyone know how to write '#!/bin/bash'. Sometimes shell seems enough but in many cases it's not. Modern operations personnel should not use the "hammer of bash" to solve all problems. Use of improper methodology creates potential danger that can be avoided. The talk will focus on presenting the alternative, better way to solve problems. It will encourage and give guidance to use more powerful languages like Python ​ when more suitable​. It will explain how to utilize shell to the full capacity and how to structure the code and operationalize the execution. It will present alternatives to shell while solving common problems.

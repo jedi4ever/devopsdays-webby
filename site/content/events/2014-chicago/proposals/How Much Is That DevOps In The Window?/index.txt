@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 35
+title: "How Much Is That DevOps In The Window?"
+---
+
+**Abstract**
+
+Two critiques I've heard from first-time DevOpsDays attendees are that they felt like they were on the outside looking in and they didn't take away anything actionable. I posit that these are two aspects of the same problem we've created and can solve.
+
+What exactly do unicorns, horses, and goats have to do with corporate IT and software development, asks a newcomer? We want to reach outside the echo chamber, so we need to make the jargon and references of this community more accessible. We talk about empathy as the essence of DevOps; we need to ensure we practice inclusion. Whether it's providing more context for common references or giving clear speaker bios and introductions, we need to ensure our community mindfully welcomes new participants.
+
+Being new to the space can mean looking for rubrics and implementable strategies. It's not wrong to want a list of action items, but acting without reflection isn't enough. We need to make it clear that the "how" stems directly from the "why" and the "what".
+
+And just because DevOps is for everyone doesn't mean that DevOps encompasses anything and everything. There's no RFC for DevOps, but it does go beyond culture to automation, measurement, and sharing. There are many great tools in that space, and large organizations might implement them differently from small ones. Commerce in this space is welcome and expected, but the practice of DevOps itself is not a commodity.
+
+Forget hipster DevOps versus enterprise DevOps. The DevOps in the window is just DevOps, and it's not for sale.
