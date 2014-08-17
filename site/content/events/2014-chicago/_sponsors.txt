@@ -12,7 +12,8 @@ end
 
 <% @gsponsors = [
 { :image => "signal-100x100.png", :name => "Signal", :link => "http://www.signal.co/"},
-{ :image => "datadog-100x100.png", :name => "Datadog", :link => "http://www.datadoghq.com"}
+{ :image => "datadog-100x100.png", :name => "Datadog", :link => "http://www.datadoghq.com"},
+{ :image => "cloudbees-100x100.png", :name => "CloudBees", :link => "http://www.cloudbees.com"}
 #{ :image => "", :name => "", :link => ""}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
@@ -46,5 +47,9 @@ end
 <br/>
 <br/>
 <h1>Media sponsors</h1>
-<% @msponsors = [] %>
-<% if @msponsors.empty? %>Consider becoming a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% else %><%= make_sponsor_links(@msponsors) %><% end %>
+<% @msponsors = [
+{ :image => "oreilly-100x100.png", :name => "O&#39;Reilly Media", :link => "http://oreilly.com/"}
+] %>
+<%= make_sponsor_links(@msponsors) %>
+<br />
+<% if @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>

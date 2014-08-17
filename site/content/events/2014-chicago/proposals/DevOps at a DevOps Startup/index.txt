@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 37
+title: "DevOps at a DevOps Startup"
+---
+
+**Abstract**
+
+We build app delivery automation software that connects to and integrates with tons of other tools. As you can imagine, this results in a combinatorial explosion of testing scenarios, involving components that are both easy and not so easy to virtualize. We also need to provide self-service capabilities and insight for a team that includes not only Dev and Ops but also Product Owners, the sales team and even end users.
+
+Add in globally distributed team members that are always on the move and need to be highly self-sufficient, the desire for demo environments that match the user's setup and can be booted and run offline from a laptop, and the intricacies of making Continuous Delivery of our tools work for users running on-prem systems that they don't want to upgrade every couple of days, and you can quickly see that we face a complex DevOps challenge every single day.
+
+We'll talk tooling: how we've set up our toolset to support both integration testing and our demo requirements, how we make self-service available across the team both on- and offline (sales people doing product demos? Yeah!). And we'll talk lessons learned: what worked well and not so well, what was worth automating and what wasn't, what we would perhaps do differently next time around, and what our improvement plans are for the future.

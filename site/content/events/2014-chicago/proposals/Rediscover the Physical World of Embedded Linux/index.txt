@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event_html5
+author: Proposal 47
+title: "Rediscover the Physical World of Embedded Linux"
+---
+
+**Abstract**
+
+With the expanding popularity of the cloud, saas and paas, engineers stopped paying attention to the world of embedded devices surrounding them. In that ignite talk I would like to share ideas of what I've built with RaspberryPI. It serves as a openvpn, tor hub and client, time capsule server, music streaming device, fitbit syncing daemon, ibeacon, dual wifi router, android backup manager, dhcp and avahi (mdns) server and more.

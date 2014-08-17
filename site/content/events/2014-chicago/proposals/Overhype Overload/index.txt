@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 46
+title: "Overhype Overload"
+---
+
+**Abstract**
+
+Every company touts a culture of rainbows and unicorns. Every company hires the "best of the best." "Disruptive innovation" is in every company's DNA. However, you know that your company's not as great as your Careers page makes it out to be. The software industry's mastery of overhype is affecting you more than you think.
+
+Detailed Description:
+In this talk, I'll present an overview of the Dunning and Kruger Effect - the cognitive bias of illusory superiority. Dunning and Kruger's experiments set out to prove that people suffer from overestimating their own abilities while at the same time underestimating others' abilities.
+
+I'll present stories regarding how I've seen illusory superiority rear its head in company cultures, communities of practice, and the software industry as a whole. I'll then describe how continued time in a highly competitive and differentiation-focused culture further entrenches biases leading to the creation of less effective, isolated silos.
+
+Why This Matters:
+I feel like this is an interesting topic to me as well as the DevOps community because I want to extend the software industry's awareness of the fundamentals and roots of a movement of people who desire more for and from their trade. I thoroughly appreciate the DevOps past focus on empathy, but I think to advance the professional nature of our craft we need to expand our skillset to include humility. Humility leads to openness and vulnerability which fuels greater community.

@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 36
+title: "Why Dev Needs DevOps"
+---
+
+**Abstract**
+
+Some software application development purists feel that DevOps has possibly too much "ops" and not enough developer in it but XebiaLabs has a different perspective on this. Ultimately, developers want to get their apps released publicly so they can see how users respond and how well or poorly they perform. In this talk, I will talk about what is in it for dev, the challenges dev faces in a DevOps world and talk about how some companies have been able to take the dev pain out of the DevOps process.

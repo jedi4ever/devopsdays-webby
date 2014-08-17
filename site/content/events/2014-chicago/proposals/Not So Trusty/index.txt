@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 44
+title: "Not So Trusty"
+---
+
+**Abstract**
+
+Cloud Foundry has no QA 'team', but we focus on quality throughout the development process. We use disciplined pair programing and test driven development, with continuous integration and delivery of the open source project. Though we still do manually-triggered deployment to the production web service, we are usually quite confident that these deployments will succeed.
+
+This punchy, wry experience report of failing to update the Cloud Foundry default VM image from Ubuntu Lucid to Ubuntu Trusty, touches on how we reacted as a seemingly one-off failure message in one of our CI pipelines grew into a multi-week multi-team investigative effort, what we learned about our development and deployment processes, and what we changed. Oh, and the kernel networking bug we found along the way.

@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 39
+title: "Who Watches the Watchmen?"
+---
+
+**Abstract**
+
+At PagerDuty, we are building out our highly available service for alerting the right person when s%IT breaks, but how does PagerDuty monitor PagerDuty? In this talk we will cover the strategies that PagerDuty uses to always make sure our service is always up and running.

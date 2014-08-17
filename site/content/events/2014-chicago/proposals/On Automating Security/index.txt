@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 43
+title: "On Automating Security"
+---
+
+**Abstract**
+
+I'd love to give a talk on the whys and hows of automating security at DevOpsDays. I don't write a lot of proposals so forgive me if I've made silly mistakes in the content of this proposal; I'm primarily a practitioner.
+
+This talk would be a refinement of a presentation I made at MtnWestDevOps earlier this year. As part of the presentation I'd intend to cover:
+
+* Why it's useful or important to practice automation of security.
+* Describe at least one viewpoint of current options to aide in automating of security. At MtnWest I focused on chef and SaaS as that's what we use. If you think there's a different toolset in the majority I'd be happy to modify. There are a lot of tools out there that should be talked about, and I think this is one area where I'll need to curate what I actually spend time speaking individually vs speak about at a high level.
+* Use this as an opportunity to expose the more novel bits of our internal infosec chef tooling as open source, and invite others to join the fight.
+* Do a demonstration of an automated defender and attacker. This didn't work out as well as I'd hoped in the last iteration, so I have some definite hope to improve this bit.
+
+I feel pretty passionately that there's a lot the infosec world can start to take from the advances in DevOps tooling over the past few years. But I also feel like in many organizations the groups doing DevOps and the groups doing infosec aren't yet speaking the same language. So, I'd love to try to bridge that gap even a bit.

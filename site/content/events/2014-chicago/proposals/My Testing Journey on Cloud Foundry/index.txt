@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 45
+title: "My Testing Journey on Cloud Foundry"
+---
+
+**Abstract**
+
+I joined the Cloud Foundry team in November as an exploratory tester, and helped to figure out how that role would work in our pairing, test driven agile development culture. We settled quickly on a format to track work (testing charters as zero-point feature stories, where the product of the story is information), and a working method (I paired with developers on all charters). I worked with the Product Owner (PM) to define charters using Elisabeth Hendrickson's charter template from her book Explore It!
+
+When the backlog reached the point where I was picking up regular dev stories, I was rotated to another team.
+
+This presentation is my experience report, describing what things worked, and what things did not, and the thought process behind my eventual transition to a full-time dev role.
+
+Some of the points covered include:
+* how did we interview exploratory tester candidates - what were we looking for?
+* What happened when we hired a second explorer - one who didn't have as strong coding skills?
+* The proof-of-concept scaling test that motivated one developer to spend a hackathon-day building a simulator (AWS deploys can be slow)
+* sample testing charters
+  * e.g. explore gardens cpu isolation to determine if end user apps can starve other apps
+* comments by developers who paired with me on exploratory charters
+  * how do you decide whether to go off on a tangent?
+  * this is fun!
+  * this is weird!
+* examples of how I still bring my "exploratory tester" mindset to my dev tasks
