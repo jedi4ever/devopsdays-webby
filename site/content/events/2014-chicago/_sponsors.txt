@@ -12,7 +12,8 @@ end
 
 <% @gsponsors = [
 { :image => "signal-100x100.png", :name => "Signal", :link => "http://www.signal.co/"},
-{ :image => "datadog-100x100.png", :name => "Datadog", :link => "http://www.datadoghq.com"}
+{ :image => "datadog-100x100.png", :name => "Datadog", :link => "http://www.datadoghq.com"},
+{ :image => "cloudbees-100x100.png", :name => "CloudBees", :link => "http://www.cloudbees.com"}
 #{ :image => "", :name => "", :link => ""}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
