@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 56
+title: "Security, Logs and the ELK Stack"
+---
+
+**Abstract**
+
+Monitoring logs is an integral part of maintaining control over the security of your infrastructure. In this presentation, I will present an overview of Elasticsearch, Logstash, and Kibana and the various duties they perform in the ELK stack. Each of these tools has an important role in introspecting your logs, in order to surface critical information in an automated system. By configuring certain event traps, the ELK stack can trigger notifications or action items based on conditional logic. The ELK stack also provides a convenient mechanism for recording significant events and securing them for later forensic analysis. Learn about best practices for logging with regards to security, and configuring the system to optimally ingest and react to suspicious events.
