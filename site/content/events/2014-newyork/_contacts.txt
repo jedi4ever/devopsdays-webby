@@ -3,7 +3,8 @@ filter:    erb
 ---
 <% @local_contacts = [
 { :name => "Dave Zwieback", :phone => "+1 (646) 789-5008"},
-{ :name => "Mike Rembetsy", :phone => "+1 (765) 387-9032"}
+{ :name => "Mike Rembetsy", :phone => "+1 (765) 387-9032"},
+{ :name => "Peter Norton", :phone => "+1 (347) 497-6497"}
 ]%>
 
 <% @local_contacts.each do |local_contact| %>
