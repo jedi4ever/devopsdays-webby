@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Stephan Schmidt
+title: "Unit Testing for DevOps"
+---
+
+**Abstract**
+
+With more and more developer best practices moving into
+operations, the best practice of unit testing has not been
+explored to it's full potential in operations.
+
+After making changes to the operational setup of a site, by
+changing configurations or adding new systems, it is unclear
+if the system still works in the way it is designed.
+
+Having a suite of unit tests can clearly determine if the system
+is working, e.g. the search microservice, web login or writing to a
+database.
+
+In a critical situation the unit test suite also helps - just as with a
+bug in programming -  to determine the root cause faster.
+
+The talk gives an introduction to the concept of unit testing live
+setups and gives some examples how to write and use such
+unit tests.
+
+**Speaker**
+
+Stephan has been programming since over 30 years. He
+filled several development roles e.g. managing development
+of the pricing engine at ImmobilienScout24. With his last
+role as CTO of brands4friends / eBay Inc. he got deeply into site
+operations, though he is new to the DevOps scene.
