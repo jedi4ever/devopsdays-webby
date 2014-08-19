@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 52
+title: "Tales from the Scrum Bowl: My Double Life as a Developer and ScrumMaster"
+---
+
+**Abstract**
+
+What's it like to be a developer on a team and to serve as its Scrum Master? For many organizations, DevOps and Scrum are (if not synonymous) close cousins - strategies to help developers adapt to changing environments and focus on delivering valuable results. The Scrum Master's role is to play servant-leader for the team; to help them get answers, or get unblocked, and to be accountable to themselves so that they can be accountable to the business. But what does it mean to wear both the developer and Scrum Master hats? Does being a Scrum Master take away from the development role? Which role takes priority? Do the roles compliment each other? And what can we learn from each experience? In this talk I'll tell my story of doing just that - of playing both roles on a team that often gets drawn in to every project undertaken by the business.

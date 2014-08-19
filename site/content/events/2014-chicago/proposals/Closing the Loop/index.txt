@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 55
+title: "Closing the Loop"
+---
+
+**Abstract**
+
+The DevOps philosophy is really about what is classically considered "development" and "operations" working closely together to release more reliably and more frequently. This talk will focus on Signal's approach to DevOps and highlight both some of our successes as where as some of our failures. At Signal the tech team has taken this to heart from day one. It factors into how we design and build components, how we deploy and how we monitor. One of the key things we've learned in that helps to keep the feedback loop as tight as possible. Regardless of if this is in the form of a design review or by exposing exposing metrics in a dashboard, having a strong feedback mechanism is important.
+
+The topics will cover the full development and deployment cycle. Starting with an example of how we would design and build a new component. Working through how we'd configure monitoring and alerts in preparation of deployment. Next up is deployment and how we deal with backwards compatibility. Finally it's closing the loop with monitoring, logging and other outputs to feed into the next design cycle.

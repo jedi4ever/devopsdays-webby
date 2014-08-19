@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 53
+title: "Source to Deployment w/ Gradle & Docker"
+---
+
+**Abstract**
+
+Imagine a development environment where every change is built, tested, packaged and deployed at a single command. Combining the automation capabilities of Gradle with the portability and isolation of Docker allows DevOps to create such an environment. Build and test applications with Gradle's vast plugin ecosystem. Package applications for deployment within isolated and portable containers. Automate the entire pipeline with Gradle's simple, dynamic, and readable DSL. This talk will build up an such an environment piece by piece covering all the core concepts and a few best practices for these tools.

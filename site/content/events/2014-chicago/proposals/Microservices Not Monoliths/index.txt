@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 48
+title: "Microservices Not Monoliths"
+---
+
+**Abstract**
+
+The old monolithic style of building enterprise applications just isn't cutting it any more. It results in applications and teams both that are complex, inefficient, and inflexible, with considerable communication overhead and long change cycles.
+
+Microservices architectures, while they've been around for a while, are now gaining serious traction with software organizations, and for good reasons: they enable small targeted teams, rapid continuous deployment, independent updates, true polyglot languages and persistence layers, and a host of other benefits.
+
+But truly adopting a microservices architecture requires dramatic changes across the entire organization, and a DevOps culture is absolutely essential.
+
+This talk will dive into the microservices architecture, with a focus on the relationships between DevOps, microservices, and PaaS.
+
+We will cover:
+
+* microservices overview, and comparison with traditional monolithic applications
+* benefits and pitfalls of adopting microservices
+* revamping the organization to support microservices
+* how the DevOps culture enables success in a microservices-based organization
+* architecture practices and techniques essential for microservices adoption
+* lessons learned by corporations who have adopted microservices
+* essential tools for microservices
+* using PaaS to streamline microservices development
+
+This technical session is intended for developers, DevOps, system administrators, and IT decision-makers responsible for building modern cloud applications.
