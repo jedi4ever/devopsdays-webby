@@ -11,6 +11,9 @@ title: proposals
 
 <% parent="/#{@eventhome}/proposals" %>
 This page list the proposals we have received. Help the presenters with your feedback!
+<p>
+Also, the <b>CFP is still open until September 1st, 2014</b>. We are still looking for great stories! <a href='http://devopsdays.org/events/2014-berlin/propose/'>Find out here how to propose a talk</a>!
+
 
 <h2>Conference Talks</h2>
 <ol>
