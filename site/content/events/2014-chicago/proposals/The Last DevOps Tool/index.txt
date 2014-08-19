@@ -19,3 +19,5 @@ As a community we are consumed with tools. Tools that automate, tools that autom
 Are we alone in this tool obsession? Do doctors discuss the merits of a new stethoscope on the market or talk about compassion for patients? Do musicians argue which guitar picks is better for shredding (hint: they do) or why Zeppelin will always beat Metallica in an awesome contest?
 
 Let's explore the underlying causes of our tool-dominated culture and see if we can push beyond The DevOps Tool Talk.
+
+Lovingly brought to you by a self-described toolsmith.
