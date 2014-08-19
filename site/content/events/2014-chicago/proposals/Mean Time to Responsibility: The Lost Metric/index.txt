@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 51
+title: "Mean Time to Responsibility: The Lost Metric"
+---
+
+**Abstract**
+
+Who is responsible for the production environment in your company? Wrong. Everyone is. Then why is it so hard to get developers on-call? The thing I love most about the DevOps cultural shift is how it rallies people and instills them with a sense of responsibility for what they build and how they work. This is especially important when you're on-call and $#IT hits the fan: responsibilities need to be clear, communication needs to be concise, and effective collaboration is paramount.
+
+This session will cover two broad areas: techniques for instilling a culture of responsibility, and best practices for how responsibility should translate to action during a production outage.

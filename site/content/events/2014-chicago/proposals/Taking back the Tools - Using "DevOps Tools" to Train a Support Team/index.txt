@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 54
+title: 'Taking back the Tools - Using "DevOps Tools" to Train a Support Team'
+---
+
+**Abstract**
+
+Too often DevOps tools are seen as developer-only toolbox, used to test code, prepare deployments and test configuration management setups.
+
+Working in Managed Hosting, we get to see a lot of different setups. The questions we are asked span the range of how to add a new user to helping customers understand why their replication is broken or their website is "slow". It is a fast paced environment where you are always challenged to learn more.
+
+So with that, I want to share a different approach to using tools such as Vagrant and Ansible for system administrator / operations training.
+
+This session will be focused around sharing ideas, lessons learned, and techniques for building out training for your support teams.
