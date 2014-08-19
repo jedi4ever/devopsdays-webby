@@ -9,6 +9,7 @@ filter: erb
  { :image => "opsworks.png", :name => "AWS OpsWorks", :link => "http://aws.amazon.com/opsworks/"},
  { :image => "payback.png", :name => "PAYBACK", :link => "http://PAYBACK.net/karriere/"},
  { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com"},
+ { :image => "chef.png", :name => "Chef", :link => "http://getchef.com/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -22,6 +23,7 @@ filter: erb
 <% @ssponsors = [
  { :image => "martin_alfke2.png", :name => "Martin Alfke", :link => "http://martin-alfke.de"},
  { :image => "epost.jpeg", :name => "Deutsche Post E-Post", :link => "http://www.epost.de/privatkunden/recruiting/jobs.html"},
+ { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/de/default.aspx"},
 ]%>
 
 <h1>Silver sponsors</h1>
