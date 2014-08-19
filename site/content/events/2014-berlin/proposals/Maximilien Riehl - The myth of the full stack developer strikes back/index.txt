@@ -21,3 +21,17 @@ Instead, we discuss the analogy of <a href='http://en.wikipedia.org/wiki/T-shape
 **Speaker**
 
 Marcel Wolf, Maximilien Riehl
+
+Marcel is an agile and DevOps enthusiast and has been working in the
+IT for several years, assuming different roles. He started as a
+Network System Administrator, then he changed the company to become
+Application Manager at ImmobilienScout24. There, he consulted the
+software development teams and was responsible for datacenter
+automation. Afterwards he switched teams and became Software
+Developer. At the moment, he is one of the developers behind the YADT
+project, an open source datacenter automation tool.
+
+Maximilien is a system developer at ImmobilienScout24, writing
+(mostly) python code for a living. He works on YADT which is a huge
+part of their data center automation at work, and on PyBuilder in his
+spare time.
