@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 58
+title: "Adopting XP Practices for IaC Development"
+---
+
+**Abstract**
+
+A big part of DevOps is team interaction and a way for confidence-building to enable unified holistic teams, not only the technology we use.
+
+This presentation makes the case for XP practices, such as test-driven development and monitor-driven development, to provision, configure and monitor VMs to ensure that IaC development becomes an integral part of the wider application development cycle.
+
+Using standard software development techniques and tools, I will be demonstrating the use of TDD, Vagrant, ServerSpec, Cucumber and Ansible to provision and configure VMs from scratch, treating infrastructure code just as we would application code in the way it's tested and written.
+
+The presentation would consist of some 30 odd slides, taking around 30-45 minutes to present, covering:
+
+- The premise of TDD/MDD/BDD/xDD
+- A view of delivery as a unified process
+- Overview of XP practices to be applied for IaC
+- Overview of MDD using SeverSpec
+- Overview of BDD using Cucumber
+- IaC using Ansible
+- Use of source control
+- Use of CI
+- Demo of a provisioning session using Vagrant, Ansible, ServerSpec and Cucumber.
