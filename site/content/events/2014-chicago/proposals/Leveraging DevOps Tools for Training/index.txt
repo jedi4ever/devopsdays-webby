@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 54
+title: 'Leveraging DevOps Tools for Training'
+---
+
+**Abstract**
+
+This is about education, learning and training.
+
+Day after day our support teams are exposed to many different environments, ranging from the very well created and maintained to . . . well, not so very well created. Technicians are asked a wide range of questions from how to add a new user to helping the customer understand why their replication is broken. It is a fast paced environment. Things are always changed and technicians are always challenged to learn more to get up to speed quickly.
+
+This presents a tricky training opportunity to tackle - How do we create a learning environment that helps system administrators get up to speed on new technologies? How do we do this without taking people from their team for days at a time?
+
+Too often DevOps tools are seen as a developer-only toolbox. They are seen as the tools used to prepare deployments, test code and try out those shiny new cookbooks, playbooks, and manifests.
+
+I want to share a slightly different approach. I want to share some ideas on how to use the DevOps tools (think Vagrant, Ansible) not for code, but for training. I want to start scratching the surface of how we can take some of the principals of learning and apply them using these tools.
+
+This session will be focused around sharing ideas, techniques and lessons learned about building out training for support teams.
