@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event_html5
+author: Proposal 59
+title: "Multi-Container Docker Management with Panamax"
+---
+
+**Abstract**
+
+Docker is a powerful platform for building and managing distributed applications, and it helps to create standardized environments that can be used during development, QA, and in production. Each Docker container is 'shippable' and you can expect it to run exactly the same, anywhere. However, getting started with Docker comes with a steep learning curve.
+
+Panamax provides a friendly interface for users of Docker, Fleet & CoreOS, without hiding the work being done by each of the service components. With Panamax, you can easily create, share and deploy even the most complex, multi-container applications.
+
+You can run Panamax on your laptop or any cloud infrastructure that supports CoreOS. Panamax incorporates all the Docker best practices and gives you a beautiful UX that does the heavy lifting of deploying complex applications for you.
