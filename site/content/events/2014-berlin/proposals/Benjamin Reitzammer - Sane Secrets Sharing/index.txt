@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Benjamin Reitzammer
+title: "Sane Secrets Sharing"
+---
+
+**Abstract:**
+
+I want to present a simple yet fully functional way of sharing secrets in a team
+and using them in a configuration management tool.
+The approach builds on the Unix philosophy and combines multiple tools in an
+easy way and should be applicable by any team with very small effort, yet still
+provides reasonable security.
+
+The procedure is used in production and has proven itself well for our team of
+three involved people.
+
+I'll demonstrate the approach in a format that's both Ignite-compatible and is
+close to live-coding demos.
+
+**Speaker:**
+
+Benjamin Reitzammer
