@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Theo Schlossnagle"
+title: "Tackling Performance, Debugging and Development in Agile Production Environments"
+---
+Most Internet architectures are highly modular with rapid development of
+each component at different cadences.  This constantly shifting underlying
+platform, architecture and code base provides frustrating times for the
+multi-disciplinary engineers responsible for performance and stability.
+ There are methodologies and approaches that can be used to make debugging
+as agile as the underlying environment; however it requires some
+architectural considerations.  In this talk, I will frame the problem,
+discuss how architectures needs to be designed to reduce hostility toward
+these activities and finish with a tour though debugging methodologies that
+focus on collaboration and understanding cross-team needs.  Without a
+DevOps mindset, these methodologies could never emerge nor survive.
+
+After earning undergraduate and graduate degrees from Johns Hopkins
+University in computer science with a focus on graphics and randomized
+algorithms in distributed systems, he went on to research resource
+allocation techniques in distributed systems during four years of
+post-graduate work. In 1997, Theo founded OmniTI, which has established
+itself as the go-to source for organizations facing today’s most
+challenging scalability, performance and security problems. He was also the
+principal architect of the Momentum MTA, which is now the flagship product
+of Message Systems, Inc. Born from Theo’s vision and technical wisdom, this
+innovation is transforming the email software spectrum. Additionally, he
+was the principal architect of Fontdeck, which delivers professional
+typefaces optimized for the web. Theo founded Circonus in 2010, and
+continues to be its CEO and principal architect.
+
+A widely respected industry thought leader, Theo is the author of Scalable
+Internet Architectures (Sams) and a frequent speaker at worldwide IT
+conferences. Theo is a computer scientist in every respect. Theo is a
+member of the IEEE and a senior member of the ACM. He serves on the
+editorial board of the ACM’s Queue Magazine.
