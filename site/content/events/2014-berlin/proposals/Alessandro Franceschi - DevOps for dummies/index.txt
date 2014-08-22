@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alessandro Franceschi
+title: "DevOps for dummies"
+---
+
+**Abstract**
+
+An almost serious introduction to DevOps from an operational point of view. What DevOps is about and how we can promote DevOps practices and culture in a company.
+We will review the principles, the tools, the methodologies, the patterns and the culture and we will see how we they can be introduced and embraced in our working place.
+
+Target audience: The talk is oriented to who is relatively new to DevOps or needs to have a wider and more complete vision on what and how is all about.
+
+**Speaker**
+
+Alessandro Franceschi, Author or the book "Extending Puppet", and something else.
