@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Rafael Kolless
+title: "DevOps for dummies"
+---
+
+**Abstract**
+
+In the Development Build & Integrationtest Infrastructure HDI of SAP for the Hana Development very often a conflict is generated between the developer teams developing the Infrastructure tools necessary for central build landscapes and the developers using this infrastructure.
+With this Infrastructure we invented a new “Green-Orange” concept which provides an interrupt less maintenance, development and failover concept using a combination of Chef automation and the Cloud Provider Monsoon who provides internal IaaS for SAP with Chef support.
+
+Rafael shows the architecture setup of landscape in the cloud which satisfy DevOps and software developers as a customer.
+
+In the panel key some ideas and solutions are shown and opened for a discussion
+
+1)      Using Chef to provide production and development landscapes for DevOps and software developer customer
+
+2)      Fast delivery of sandbox landscapes for DevOps simulating the production customer landscape with fencing to production development.
+
+3)      Combining Monsoon IaaS cloud functions with Chef automation
+
+4)      Description of the „Green-Orange” Concept for Continuous Delivery without test & development interruptions
+
+**Speaker**
+
+Rafael Kolless is a developer of SAP for Hana Build & Test Infrastructure
