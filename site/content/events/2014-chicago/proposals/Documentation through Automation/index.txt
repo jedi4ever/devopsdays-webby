@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 61
+title: "Documentation through Automation"
+---
+
+**Abstract**
+
+Technology makes it possible for us to have highly distributed teams and systems, but when you have multiple systems interacting with each other and new team members constantly being added, you have to find a way to document these systems to avoid errors and onboard new members. So, as developers we turn to documentation to explain our system. But if there is anything developers hate, it is writing documentation. However, there is one thing developers love writing... code! So why not document your system with automation? "But what should be automated?" you ask. Everything! Or at least everything that can be (there will always be issues with security, but there is always a solution). This includes, testing, configuration management, dependency management, deployments, etc. Not only will the amount of documentation you have to write for new developers (and QAs for that matter) significantly decrease, but with automation you have significantly reduced the amount of work that you have to do to release, putting you on the fast-track to continuous delivery. You may not be throwing away your SADs of Confluence pages just yet, but automation speaks for itself! This presentation will cover what are the first steps you need to take to start automating your system.

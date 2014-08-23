@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event_html5
+author: Proposal 66
+title: "That's not a DevOps... *this* is a DevOps"
+---
+
+**Abstract**
+
+Many people come to DevOps Days events to find out what DevOps actually is. As notorious for being poorly defined as it is revered for its potential benefits, neophytes look to leaders in the space for guidance. In return they are often bombarded with abstract theories, intellectual concepts and a veritable torrent of information that often leaves them feeling further from the truth than when they started out.
+
+This tongue in cheek ignite talk will look to highlight the good, the bad and the ugly of DevOps theories with a view to reassure, as much as entertain, those still struggling for their footing in the maelstrom that is DevOps!

@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event_html5
+author: Proposal 60
+title: "Repository as a Deployment Artifact"
+---
+
+**Abstract**
+
+The idea of treating the snapshot of the repository (include any external mirrors) as an deployment artifact by using a tool called aptly.

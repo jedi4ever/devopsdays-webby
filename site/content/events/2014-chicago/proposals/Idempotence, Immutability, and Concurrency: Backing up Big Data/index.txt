@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 63
+title: "Idempotence, Immutability, and Concurrency: Backing up Big Data"
+---
+
+**Abstract**
+
+Traditional database, and storage, approaches have a well-defined, well-understood, "enterprise-ready" approach to backup and restore. NoSQL, as a general category, encompasses a wide variety of approaches for data storage, persistence, and database configuration. This has resulted in increased complexity when planning and implementing a backup and restore strategy. As DevOps practitioners, understanding application semantics ensure that our approach to backups aligns with the application, and business, needs.
+
+In this session, Basho will discuss the core concepts/reasons why backup & restore strategies are considered, explain data persistence in the context of "dynamo-like" (i.e. Riak & Cassandra) solutions, and discuss ways to achieve the goals of backup and restoration as datasets continue to scale rapidly.

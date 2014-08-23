@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 69
+title: "Priorities Affect Us All.... Differently!"
+---
+
+**Abstract**
+
+I work for a company called SPS Commerce, it's been a very aggressive growth company and a heck of a wild ride, being the 82nd employee when I started in 2005 I have had the opportunity to observe the wide variety of challenges a company can go through at different sizes (we're over 750 employees now).
+
+What I have come to observe as a critical factor in the success of a technology company is how well priorities are aligned across the company, not just Dev and Ops, but product, security, marketing, etc... I think this is a critical ignored factor of effectively delivering a service and as a result it causes humans to work against each other.
+
+This talk will go into how and why I believe not effectively managing an organization's priorities is as damaging to a company's success as not trying to implement a DevOps culture at all!  (I will try to touch on how this is different at various sizes of companies)

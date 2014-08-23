@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 68
+title: "Using Mesos + Docker for Cost-Effective, High-performance Infrastructure"
+---
+
+**Abstract**
+
+How do you control infrastructure costs while still ensuring high performance? Virtualization was a common answer to this problem in recent history. Virtualization helped, but it adds overhead, degrades performance, and still makes the it difficult to maximize resource utilization. Moving to cloud virtualization platforms eliminates the problem of host resource allocation, but still has the other disadvantages of virtualization plus the premium price paid to the cloud provider. There has to be a better way to maximize server utilization!
+
+Enter Mesos. Apache Mesos is an open source cluster manager for distributed applications and frameworks. Mesos enables resource sharing, high-availability and fault-tolerance for a cluster of servers. Mesos is like the operating system for your datacenter, it is a distributed system for building and running distributed systems. It enables you to think about resources, not servers - perfect for DevOps!
+
+I will present a case study in which I implemented a Mesos infrastructure. Learn about the requirements of the client, and the problems they were experiencing. I will present how Mesos was implemented, along with Mesosphere Marathon, the primary framework used in this implementation. Learn how Mesos + Marathon + Docker can help reduce or eliminate resource under-utilization while providing high-availability with very little effort. Learn why companies like airbnb, Ebay, and Twitter use Mesos. Whether your infrastructure is on baremetal, in-house virtualization, cloud virtualization, or a hybrid, you will benefit from implementing Mesos.
