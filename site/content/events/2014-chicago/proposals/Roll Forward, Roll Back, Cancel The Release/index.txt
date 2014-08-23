@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event_html5
+author: Proposal 65
+title: "Roll Forward, Roll Back, Cancel The Release"
+---
+
+**Abstract**
+
+As an evangelist for Continuous Delivery at Orbitz, I have been able to see many of the struggles and there to see how we have over come them. None of these struggles are purely development struggles. These changes are building stronger DevTestOps teams.
+
+Over the last year, Orbitz has started the transition from deploying our 175 applications at most once every 2 week to being able to deploy them at will, daily or more often. This is creating cultural change that is not always easy to bear. Our history has built a culture where a failed release is shameful and not just a learning opportunity. As the deployment of the Orbitz Global Platform's applications become more frequent we are entering a new level of maturity. As releases become more frequent the value of them changes. The value of many of our practices are changing also to the point of abandoning some of them, automating others, and refactoring the rest.
+
+As we simplify, automate, and speed up the deployment pipeline, the feedback of a release candidate's production worthiness becomes more important and clearer. In the past, there was a fuzzy gray area between Go and No-Go. We are learning to kill off a bad release sooner because another release is already on deck. Trying to salvage a release is an effort in fighting stupid and blinds you from an opportunity to make more awesome.
+
+There is a lot to learn from our mistakes such as:
+
+* made heroic efforts to deploy apps when procedures didn't work
+* kept releases in production that should have been rolled back
+* put undue pressure on teams to resolve an issue in the next days release
+* begged our Product partners to give us business justification for an additional off-cycle release in an effort to cover up our mistake
+
+As we are just entering the new maturity, I am sure there will be much more by October. We believe the community at the conference will benefit from hearing what we've learned, how we're changing, where we are still struggling, and how awesome it's going to continue to be as we head down this path.
