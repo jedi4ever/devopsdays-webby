@@ -15,9 +15,13 @@
     <a href="/events/2014-brisbane">
       Brisbane
     </a>
-    <br />
+    -
     <a href="/events/2014-chicago">
       Chicago
+    </a>
+    <br />
+    <a href="/events/2014-newyork">
+      New York
     </a>
     -
     <a href="/events/2014-toronto">
@@ -31,7 +35,7 @@
     <a href="/events/2014-warsaw">
       Warsaw
     </a>
-    - 
+    -
     <a href="/events/2014-telaviv">
       Tel Aviv
     </a>

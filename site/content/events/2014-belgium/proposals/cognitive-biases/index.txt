@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Nigel Kersten"
+title: "Cognitive Biases in Tech: Awareness of our own bugs in decision making"
+---
+Working in technology, whether that be part of a DevOps team, bug triaging
+on an open source project or just working as part of a team requires
+frequent judgement calls and decisions, often with limited information
+available, and under strong time pressures. These are the situations in
+which errors and missteps can easily arise due to our common cognitive
+biases and heuristics.
+
+Why do we perceive a rise in error rate differently to an equivalent drop
+in availability? Why do we overestimate the chance of memorable disasters
+and successes recurring? Why do we tend to construct post-mortems as a
+sequence of predictable events even if they weren’t?
+
+In this talk we’ll be covering the cognitive biases behind these questions
+and others, along with relevant examples from open source project work,
+operational incidents in the life of a sysadmin and various other
+technology situations.
+
+Nigel Kersten is the CIO at Puppet Labs, and is responsible for the
+technical operations and business optimization teams there. He came to
+Puppet Labs from Google HQ in Mountain View where he was responsible for
+the design and implementation of one of the larger Puppet deployments in
+the world and was an active member of the Puppet open source community.
+Before that he was a senior sysadmin at a Sydney university, and he's been
+working with Linux since floppy disks actually mattered.
+
+He's had a long standing interest in cognitive biases and behavioral
+economics since studying philosophy of mind at university.

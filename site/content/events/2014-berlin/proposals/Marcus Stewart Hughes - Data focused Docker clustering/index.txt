@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Marcus Stewart Hughes
+title: "Data focused Docker clustering"
+---
+
+**Abstract**
+
+Docker makes it great for creating portable applications and quickly provisioning them on different hosts, however Docker does not include tools to handle the persistent data these containers create. This talk will focus on handling persistent data with portability on Docker containers using an open source project called Flocker. There will be a demonstration of moving an application with state (a database) from one node to another.
+
+**Speaker**
+
+Marcus Stewart Hughes, Community Manager, ClusterHQ

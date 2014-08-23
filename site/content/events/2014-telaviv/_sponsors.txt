@@ -34,6 +34,7 @@ filter:    erb
 	{ :image => "librato.png", :name => "Librato Metrics", :link => "https://metrics.librato.com/?utm_campaign=dev-ops-tel-aviv&utm_content=promotion&utm_medium=event&utm_source=devops-tel-aviv"},
 	{ :image => "chef.png", :name => "Chef", :link => "https://getchef.com/"},
 	{ :image => "bigpanda.png", :name => "bigpanda", :link => "http://bigpanda.io/"},
+	{ :image => "JFrogDoD.png", :name => "JFrog", :link => "http://www.jfrog.com/"},
 ]%>
 
 <% if @gold_sponsors.empty?  %>

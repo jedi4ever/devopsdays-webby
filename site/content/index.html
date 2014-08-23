@@ -194,6 +194,21 @@ var vancouverMarker = new MarkerWithLabel({
 
 google.maps.event.addListener(vancouverMarker, "click", function (e) { location.href="events/2014-vancouver"});
 
+var newyorkLocation = new google.maps.LatLng(40.756554, -73.989804);
+var newyorkMarker = new MarkerWithLabel({
+  position: newyorkLocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "New York 2014<br> Sep 19",
+  labelAnchor: new google.maps.Point(40, 20),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(newyorkMarker, "click", function (e) { location.href="events/2014-newyork"});
+
+
 }
 </script>
 
