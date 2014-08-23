@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event_html5
+author: Proposal 62
+title: "Implementing Change"
+---
+
+**Abstract**
+
+Like with any other change, bringing the DevOps culture into an existing organization is hard. In all likelihood you will face a lot of resistance when trying to alter existing procedures, modify rigid roles people play on their teams and allocate budget and time to learning new tools and implementing new solutions.
+
+What, or rather who, are your main obstacles?
+Who is your "client" or the main beneficiary of the change?
+What are the principal steps you need to take to move "per aspera ad astra"?

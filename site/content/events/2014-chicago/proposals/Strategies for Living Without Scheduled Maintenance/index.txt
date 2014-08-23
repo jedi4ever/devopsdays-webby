@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event_html5
+author: Proposal 67
+title: "Strategies for Living Without Scheduled Maintenance"
+---
+
+**Abstract**
+
+With more companies moving to a continuous deployment model, delivering new functionality without affecting reliability can be challenging. This talk will discuss some strategies for delivering functionality to production while minimizing potential customer impact. We will discuss smaller deployments, canary deploys, effective production alarms, and quick rollback. At the end, I hope to have given you enough confidence to stop taking scheduled maintenance windows.
