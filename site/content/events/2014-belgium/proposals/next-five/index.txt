@@ -1,0 +1,64 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Chris Jackson"
+title: "DevOps, The Next Five Years"
+---
+
+From Deming to Domination, DevOps has become all things to all people.
+It's the new must have entry for your resume, it's the black magic
+that will save your business from irrelevance and obscurity, it's the
+snake oil that is sold by vendors looking for the new cloud, it's a
+community of smart people who care about making a difference.  Or, is
+it just a buzzword that people are hiding all the biggest challenges
+in their business behind?
+
+In this talk we’ll have a brief review of the last five years with
+insightful (and occasionally humorous) milestones on the journey to
+its present state.  We’ll then cast our horizon to the next five years
+and assess what events like this might look like in 2019 as well as
+suggesting:
+
+  * What will enterprises do to DevOps? What will the community do for them?
+  * Where does DevOps stop and innovative leadership start?  What happens when we’ve automated all of the things?
+  * What disruptive new tecnologies will be challenging DevOps to evolve and adapt?
+  * What will the definition of DevOps be?  Because we have to keep discussing this!
+  * How does a community manage it's vendors?  How do you balance
+    their commercial goals with the opportunity they present to put
+    DevOps on an even bigger platform?
+  * What will the 2019 State of DevOps Report tell us?  What have we succeeded at?  Where can we do better?
+  * What are the biggest challenges facing the community in the next few years?
+
+DevOps is the number one opportunity for IT to re-connect itself with
+the business it supports and I am passionate about making that work.
+Join me in debating what the future looks like for DevOps and whether
+it will continue to be the thing that originally attracted you to it
+in the first place?
+
+Chris Jackson is the CTO for Rackspace's emerging DevOps practice. He
+has over a decade of IT experience in technical support, solution
+design, account management and web application development.  In his
+current role, Chris is responsible for the technology and service
+strategy built around the new DevOps Automation service, as well as
+working with customers to understand how their needs map to a
+increasingly complex marketplace of services.  He has built and
+championed the creation of a DevOps advisory service and is
+contributing to a global group responsible for understanding the
+evolution of managed services in an increasingly automated world.
+
+Chris launched his Rackspace career eight years ago as a data center
+technician after spending a year with Motorola as a system
+administrator. He earned a bachelor's degree in computer science and
+e-business from Loughborough University in the UK, where he graduated
+with honors.  Chris and his wife, Sally, live in Berkshire, with their
+young son, George. When he's not in meetings, Chris can be found
+spending time with his family and catching up on sports.
