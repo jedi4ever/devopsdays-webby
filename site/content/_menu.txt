@@ -1,5 +1,6 @@
 <div style="height:370px;" id="quicklinks">
 <table><tr><td>
+      <a href="/events/2014-boston/">Boston 2014</a><br/>
       <a href="/events/2014-brisbane/">Brisbane 2014</a><br/>
       <a href="/events/2014-minneapolis/">Minneapolis 2014</a><br/>
       <a href="/events/2014-siliconvalley/">Silicon Valley 2014</a><br/>
