@@ -12,10 +12,6 @@
       Boston
     </a>
     -
-    <a href="/events/2014-brisbane">
-      Brisbane
-    </a>
-    -
     <a href="/events/2014-chicago">
       Chicago
     </a>

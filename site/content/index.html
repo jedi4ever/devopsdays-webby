@@ -58,21 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-var brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
-
-var brisbanemarker = new MarkerWithLabel({
-position: brisbanelocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Brisbane 2014<br>25 & 26 July",
-labelAnchor: new google.maps.Point(0, 10),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 0.9}
-});
-
-google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="/events/2014-brisbane"});
-
 
 torontolocation = new google.maps.LatLng(43.7000, -79.4000);
 
