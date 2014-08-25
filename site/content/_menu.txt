@@ -1,5 +1,7 @@
-<div style="height:370px;" id="quicklinks">
+<div style="height:390px;" id="quicklinks">
 <table><tr><td>
+      <a href="/events/2014-boston/">Boston 2014</a><br/>
+      <a href="/events/2014-brisbane/">Brisbane 2014</a><br/>
       <a href="/events/2014-minneapolis/">Minneapolis 2014</a><br/>
       <a href="/events/2014-siliconvalley/">Silicon Valley 2014</a><br/>
       <a href="/events/2014-amsterdam/">Amsterdam 2014</a><br/>
@@ -19,8 +21,8 @@
       <a href="/events/2013-downunder">Downunder 2013</a><br>
       <a href="/events/2013-mountainview/">Mountainview 2013</a><br>
       <a href="/events/2013-amsterdam/">Amsterdam 2013</a><br>
-      <a href="/events/2013-berlin/">Berlin 2013</a><br>
   </td><td>
+      <a href="/events/2013-berlin/">Berlin 2013</a><br>
       <a href="/events/2013-austin/">Austin 2013</a><br>
       <a href="/events/2013-paris/">Paris 2013</a><br>
       <a href="/events/2013-london-spring/">London 2013</a><br>

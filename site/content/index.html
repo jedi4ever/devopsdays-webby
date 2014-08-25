@@ -58,21 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-var brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
-
-var brisbanemarker = new MarkerWithLabel({
-position: brisbanelocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Brisbane 2014<br>25 & 26 July",
-labelAnchor: new google.maps.Point(0, 10),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 0.9}
-});
-
-google.maps.event.addListener(brisbanemarker, "click", function (e) { location.href="/events/2014-brisbane"});
-
 
 torontolocation = new google.maps.LatLng(43.7000, -79.4000);
 
@@ -82,7 +67,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Toronto 2014<br>Sept 12 & 13",
-labelAnchor: new google.maps.Point(-5, 22),
+labelAnchor: new google.maps.Point(-5, 42),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -118,21 +103,6 @@ labelStyle: {opacity: 1}
 });
 
 google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="events/2014-warsaw"});
-
-bostonlocation = new google.maps.LatLng(42.361316,-71.081309);
-
-var bostonmarker = new MarkerWithLabel({
-position: bostonlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Boston 2014<br>Aug 18 & 19",
-labelAnchor: new google.maps.Point(10, 0),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="events/2014-boston"});
 
 chicagolocation = new google.maps.LatLng(41.90,-87.65);
 
@@ -201,7 +171,7 @@ var newyorkMarker = new MarkerWithLabel({
   raiseOnDrag: false,
   map: map,
   labelContent: "New York 2014<br> Sep 19",
-  labelAnchor: new google.maps.Point(40, 20),
+  labelAnchor: new google.maps.Point(40, 25),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
 });
