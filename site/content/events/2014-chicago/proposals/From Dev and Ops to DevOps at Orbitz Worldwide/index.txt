@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event_html5
+author: Proposal 70
+title: "From Dev and Ops to DevOps at Orbitz Worldwide"
+---
+
+**Abstract**
+
+One of the DevOps definitions deals with breaking the barriers between Development and Operations. The same concept is also portrayed as removing the silos that prevent Development and Operations to collaborate.
+
+The findings of this presentation are based on the real story of two teams at Orbitz Worldwide that left their Development and Operations silos, respectively. This journey to collaboration started with a Developer and System Administrator crossing their paths during a major outage and, along the way, involved both their teams. This change triggered a virtuous cycle which is spreading across the whole organization.
+
+This presentation is an ex-post qualitative analysis of the factors that made this change possible. Respect, open-mindedness and willingness to learn are some of the factors which made this DevOps story successful.
