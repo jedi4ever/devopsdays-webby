@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Rafael Kolless
-title: "DevOps for dummies"
+title: "Running Near Zero Downtime Build Landscapes in the Cloud for DevOps"
 ---
 
 **Abstract**

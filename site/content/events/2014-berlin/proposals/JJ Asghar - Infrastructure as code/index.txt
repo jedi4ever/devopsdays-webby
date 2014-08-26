@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: JJ Asghar
+title: "Infrastructure as code"
+---
+
+**Abstract**
+I'd like to propose a talk/panel about leveraging Infrastructure as Code. I have come up through the industry as a System Administrator and now work at Chef, and these highlighted my trip through the industry.
+I have 5 points that I'd base this talk on:
+
+1)  Repeatability, most of DevOps stems from this concept.
+
+2)  Code instead of run books or documentation, documentation and run books become stale, if you build your systems with code you can trust everything will always be the same, and if someone wants to learn how it’s done read the code.
+
+3)  Machines are livestock instead of snowflakes, you shouldn’t care if a machine goes down, you just use your system to rebuild it.
+
+4)  Refactor and revisit. Turn a 10 step process to a 7 step then a 7 step to a 5 and so on.
+
+5)  Cross business unit scope everyone needs help at some level.
+
+The main bulk of the talk will focus on point 2, 3, 4, but touch on 1 and 5.
+
+**Speaker**
+
+JJ Asghar
