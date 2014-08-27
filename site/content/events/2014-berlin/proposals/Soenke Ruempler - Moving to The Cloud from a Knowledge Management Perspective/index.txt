@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Soenke Ruempler
+title: "Moving to The Cloud from a Knowledge Management Perspective"
+---
+
+**Abstract**
+
+Like DevOps, Knowledge Management (KM) is a wide topic, ranging from
+"knowledge base/store" software to being a highly strategic instrument
+influencing the foundations of how a company works. After giving a brief
+overview of what KM is, this talk will combine theoretical background
+and my observations of what happened to my company by moving to "The
+Cloud". I'd like to share how my view on complex systems changed with
+(systemic) knowledge management in mind.
+
+**Speaker**
+
+Soenke Ruempler
