@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Johannes Mainusch
+title: "Y-manage - ensure future success"
+---
+
+**Abstract**
+
+I shall talk about my experiences as manager in an agile and changing environment.
+With the following questions I will guide us through the presentation:
+- Y: why talk about agility and management?
+- What goes wrong in classic organizations? About information usury (Zinswucher), artificial prolongment of „value-added-(communication)-chains“, chinese whispers and forgotten nerds…
+- Why am I where I am, at the E-Post?
+- What does the future hold? Creating trust without weapons
+
+**Speaker**
+
+I am CTO of the E-POST, the tech/product development subsidiary of the German Post. As manager in a very traditional and durable German company, I am responsible for the successful future and thus the pending change. Agility is required.
+From 2012 to 2014 in the role of Software Development Lead, I helped Otto GmbH build a new eCommerce System from scratch leading an Inhouse development with the best software development team I have experienced to date.
+Between 2007 and 2012 I was responsible for Engineering and Operations at XING AG. During this period we developed XING from a 50 person startup to a 400 employee public corporation with more than 10 million customers.
+Prior to 2007 I gained experience as Project Lead, Developer, Ops guy, Product Manager at Lufthansa working mostly as a consultant for third party companies.
+
+Things that always fill me with enthusiasm are innovative technologies, tube radios and very fast websites. I really get inspired when people within my vicinity and myself learn to become better inhabitants of planet earth.
