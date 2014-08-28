@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Oliver Wehrens
+title: "Changing the Organisation to enable DevOps"
+---
+
+**Abstract**
+
+At E-POST we had an organisation with different departments for development, testing and production. According to Conway's law the resulting software was a monolith since everything was 'thrown over a wall' to the next department with slow feedback cycles.
+We started to change that over 2 1/2 years ago. We did not have the classic DevOps ideas in mind as we cut the big monolith into smaller services. It started with the teams defining how to deploy their own software with puppet in all environments.
+All of the sudden we found that the teams are gathering more and more operations know how. The developers were demanding that to work more independently and to take more responsibility for their product.
+The talk will cover in which problems we ran into (e.g. operations bottleneck), the changed skill set of developers (provisioning tools, virtual machines, OS knowledge), how we solved them and which problems still exist. All of that has forced us to change the organisation, like different hiring process, having developers accessing the production machines and changes to the technology stack.
+
+**Speaker**
+
+Oliver Wehrens works as Senior Architect at E-POST Deutsche Post Development GmbH. He develops the next generation of E-POST Services. He is interested in all things which speed up software deployment, simplify architecture and how to develop software faster and testable.
+Klaus Heuke works as Head of Department Production at Deutsche Post E-POST Development GmbH. He is responsible for the operations and the application management of the plattform E-POST. Therefor his interest is the combination of a stable and performing plattform with the ability for frequent changes in the system.
