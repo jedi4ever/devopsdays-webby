@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Yardena Meymann, Lior Shapsa
+title: "Running micro-services with Docker & CoreOS on VMware cloud"
+---
+
+**Abstract:**
+
+ITBM Benchmarking is a new service developed by our VMware Business Management group and delivered on top of the recently launched VMware Hybrid Cloud Service (vCHS). The application is designed from the grounds up to be reactive (using Typesafe stack - Akka, Play and Scala) and includes Big Data analytics with Apache Spark. Unlike traditional enterprise applications, it is composed of multiple "micro" services, each service packaged as a Docker container and deployed over both public and private VMware cloud. We use VMs running CoreOS as hosts for Dockers, and manage the services with some open-source tools like fleet/etcd, as well as vCenter and vCloud Director. Microservices model allows us to develop, test and ship code quickly using Jenkins pipeline with combination of Docker, sbt and other tools. In the talk we will discuss design trade-offs and challenges that we faced while developing the application, and how we have overcome them. 
+
+**Speakers:**
+
+Yardena Meymann: Software engineer, architect and trainer with almost 20 years of experience, currently working at VMware.  I am also a programming languages enthusiast and organizer of Sayeret Lambda meetup. 
+Lior Shapsa: Team leader in VMware Israel and a technology fanatic with many years of experience in software engineering. In my spare time I tasted and tested almost every modern technology that is out there.

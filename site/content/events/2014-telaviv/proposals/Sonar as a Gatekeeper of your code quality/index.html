@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Elena Dolinina
+title: "Sonar as a Gatekeeper of your code quality"
+---
+
+**Abstract:**
+
+Patches review is tedious, time consuming process and altogether very often not effective. Shallow-minded reviews cause code of bad quality to be merged to your scm and then to be dragged long away till someone will scream 'Stop!' and start refactoring. 
+Can we prevent bad code to be merged at all and to do it in a reliant and automated manner? The answer is ""Yes, We Can"" by usingSonarQube and 2 complementary plugins that will make code static analysis to run on patchset files only with automatic publishing the comments back to your review board (gerrit). It will allow you to set effective quality gates on pre-commit level and to ensure that bad code will be automatically rejected. Moreover your Sonar gatekeeper will teach all developers the code standards and conventions they should comply with.
+At first you will be surprised by so many complaints of your new reviewer, but soon you will learn and then will be rewarded by Sonar quality dashboard changing gradually to green color (=great code) instead of red (=bad code).
+Overall it will improve your code, will reduce dramatically review process time and code refactoring needs.
+
+**Speakers:**
+
+Elena works in VMware SaaS development group and is responsible mostly for DevOps processes, tools and infrastructure development. Previously (till Jan 2014) She was working in RedHat as Supervisor of Automation Infrastructure&DevOps team.
