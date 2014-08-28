@@ -42,6 +42,7 @@ filter: erb
   { :image => 'linux-magazine.jpg', :name => 'MegiTeam', :link => 'http://www.linux-magazine.pl/'},
   { :image => '7thguard.jpg', :name => '7thGuard', :link => 'http://www.7thguard.net/'},
   { :image => 'governica.jpg', :name => 'Governica', :link => 'http://www.governica.com/'},
+  { :image => 'gazetapraca.jpg', :name => 'GazetaPraca', :link => 'http://gazetapraca.pl/'},
 ]%>
 
 <% unless @media_partners.empty?  %><h1>Media partners</h1><% end %>
