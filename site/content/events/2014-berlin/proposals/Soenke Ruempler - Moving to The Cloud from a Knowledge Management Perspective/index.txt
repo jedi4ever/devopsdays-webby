@@ -24,4 +24,10 @@ Cloud". I'd like to share how my view on complex systems changed with
 
 **Speaker**
 
-Soenke Ruempler
+Soenke Ruempler is “Chief Trolling Officer” at Jimdo, an online website
+creation tool. Besides taking care of a good trolling culture he feels
+responsible for strategic technical decisions, reducing technical debt
+and advocating agile methods. After finishing his diploma thesis - which
+is about knowledge management in agile software development - he’s even
+more interested in social and cultural issues and how they play together
+with technical topics.
