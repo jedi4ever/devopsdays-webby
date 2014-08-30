@@ -52,7 +52,8 @@ end
 { :image => "oreilly-100x100.png", :name => "O&#39;Reilly Media", :link => "http://oreilly.com/"},
 { :image => "ado-100x100.png", :name => "Arrested DevOps", :link => "http://arresteddevops.com/"},
 { :image => "ffs-100x100.png", :name => "Food Fight Show", :link => "http://foodfightshow.org/"},
-{ :image => "tss-100x100.png", :name => "The Ship Show", :link => "http://theshipshow.com/"}
+{ :image => "tss-100x100.png", :name => "The Ship Show", :link => "http://theshipshow.com/"},
+{ :image => "bit-100x100.png", :name => "Blacks in Technology", :link => "http://www.blacksintechnology.net/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
