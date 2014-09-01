@@ -9,7 +9,8 @@ filter: erb
  { :image => "opsworks.png", :name => "AWS OpsWorks", :link => "http://aws.amazon.com/opsworks/"},
  { :image => "payback.png", :name => "PAYBACK", :link => "http://PAYBACK.net/karriere/"},
  { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com"},
- { :image => "chef.png", :name => "Chef", :link => "http://getchef.com/"}
+ { :image => "chef.png", :name => "Chef", :link => "http://getchef.com/"},
+ { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
