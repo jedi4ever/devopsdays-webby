@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Eric Sigler
+title: "ChatOps: A trojan horse to sneak DevOps ideas into other parts of your organization"
+---
+The Operations team at PagerDuty realized earlier this year we were becoming
+a bottleneck for other teams within the company. So we decided to provide
+common Ops services through our internal company chat bot - code deployments,
+database schema modifications, spinning up additional servers, etc.
+Our engineering teams immediately began taking advantage of this - but unexpectedly,
+non-engineering teams such as Finance and Sales also began using the services as well.
+Now, groups throughout the company are adding services and unblocking other teams,
+to be faster and more productive.
+
+In this talk we’ll go over what our current ChatOps tools are,
+how different teams have taken to using them in various ways (some expected, some less so),
+show what some of the pitfalls are when a bot does more than just show pictures of cats & manatees,
+and how you can incrementally try these ideas out in your own organisation.
+
+Eric Sigler is an Operations Engineer at PagerDuty,
+and enjoys making sure their infrastructure is ready to wake people up at 3AM.
+Before his current role, Eric led technical operations teams
+at Minted and Missouri University of Science & Technology.
+He currently lives in San Francisco along with his wife,
+and enjoys discovering new places to see in California whenever he isn’t on call.
