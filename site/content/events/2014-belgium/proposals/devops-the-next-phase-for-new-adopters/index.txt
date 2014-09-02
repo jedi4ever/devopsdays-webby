@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Heather Mickman
+title: "DevOps – the next phase for new adopters"
+---
+
+So much has been learned and achieved in the past 5 years of DevOps:
+culture, organization, process, and technologies. As more traditional, enterprise IT shops
+start to enter and embrace the many elements of DevOps they are poised to be even more productive.
+
+This talk will look at how Target’s IT organization has embraced the established DevOps patterns
+to accelerate adoption, demonstrate wins in the early phases of the journey,
+and discuss ideas on how to move more quickly in large traditional IT.
+There is an emerging adoption pattern within Target that as new teams join the DevOps journey
+they are able to move more quickly and become more productive faster
+taking best practices, learnings, and patterns from the early days of the journey.
+
+Heather Mickman is the leader for the API and Integration team at Target and a DevOps enthusiast.
+Throughout her career, Heather has continuously embraced hard technology challenges
+from consulting large Fortune 50 companies on Supply Chain approach,
+implementing warehouse automation technologies, running large Ops & Support organizations,
+and establishing enterprise security approaches.
+She has a passion for technology, building high performing teams,
+driving a culture of innovation, and having fun along the way.
+Heather lives in Minneapolis with her 2 sons and 2 dachshunds.
