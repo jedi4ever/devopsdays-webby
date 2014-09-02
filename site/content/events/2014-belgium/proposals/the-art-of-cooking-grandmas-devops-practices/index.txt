@@ -1,0 +1,80 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: true
+suggestion: false
+selected: false
+layout: event
+author: "Sandy Flath"
+title: "The Art of Cooking – Grandma’s DevOps practices – or how to compete with her in your environment"
+---
+
+## The original story:
+
+Your grandmother did cooking from scratch – she had all the time to do so.
+She controlled everything
+
+- she knew the recipe’s by heart as well as their variants (versions);
+- she made the right choice: Selecting the best ingredients;
+- she managed several processing steps in parallel;
+- she was knowing all the tools, over to the perfect timing and oven settings
+
+In brief: Everything was under her control, but took time!
+
+Would you aspire to cook like good old grandma today to impress your guests?
+Asked in other words: Are you sure, you’d manage to do so?
+Be true to yourself!
+**Prediction**: The shear idea would make you break out in sweat.
+And here is why:
+
+### How on earth to get started?
+
+All you see in front of you is this mountain of boring, exhausting, repetitive and error-prone tasks.
+You search for recipes’, but non seems to be straightforward.
+Finally you decide to combine two recipe’s which look promising.
+You hurry around to get all ingredients, from different places of course and not all at quality and price
+that suit you. Now, yet exhausted from the basic organization of your task, you want to get started in
+your kitchen:
+Somebody left it in a messy state, so first of all you have to clean the environment
+and all the tools you need. You even find some tools broken, so at best you can
+borrow some or need to quickly buy one or as a last resort: Carry on without it and improvise!
+
+### Development / Build:
+
+Slicing, dicing and finally – an accident – you cut into your finger.
+Eventually you get started with the build: You roll out the pizza yeast dough
+The next accident: You cannot use the oven as it’s suddenly out of operation mode!
+By the time you try to find someone who can fix the oven, your yeast dough has become fermented.
+So you have two choices: Start over again with the fundamentals: The dough - or make a test:
+
+### Test:
+
+Something smells, doesn’t taste well, but hey you need to carry on, guests are coming soon!
+
+### Deploy:
+
+Desperately do you try to get the right table wear to adapt your cooking result. You did not think about
+where you will present your results and how to arrange them.
+
+### Feedback loop:
+
+The final reward: User Acceptance Test failed! – User escaped from the dinner table,
+claiming that everything would be inedible. There was zero motivation to explain why – but what is
+assured is: Your guests will never again try your creations at your table!
+
+### Recommendation from an honest friend:
+
+Are you ready to learn now how joyful cooking can be, if you
+did it in a much different way with the right mindset and tools?
+Come to the Ignite Talk on The Art of DevOps Cooking – Grandma’s DevOps
+practices – or how to compete with her in your environment
+
+### What’s in it for you:
+
+Back from DevOps Days, you can proudly tell grandma that you learned how to stay
+on top of things in your environment - the same way she does in her kitchen!
