@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Bastian Widmer
+title: "Keeping your team in shape and minimize silos as your team grows"
+---
+Seperation of tasks and thinking in silos is something natural and human.
+It happens all the time when teams and companies grow. Hands down we all encountered this.
+
+As long as we have awareness and the willpower to tackle problems
+in the same way as small teams would do it (even if we become a larger team over time)
+and keeping communication up across all teams we grow stronger.
+
+I will talk about how we work in our team at Amazee Labs and
+what I encountered in prior companies which I worked for (i.e. goverment, agencys with huge growth)
+and what went haywire during this time and what worked out pretty well.
+
+For example just trying to copy successful patterns like the guild system
+from Spotify onto existing team structures did not work out that well.
+
+Establishing a culture of sharing knowledge and keeping teams spread
+across different countries is also a thing we established in our company culture.
+This means sometimes spending some hours in your evening or morning hours
+to discuss topics with your team across timezones.
+
+(So expect a 'cultural' insight in situations I encountered over time
+and how I personally encountered solving it)
