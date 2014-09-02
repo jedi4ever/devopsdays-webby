@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Marcelo Ancelmo
+title: "DevOps@Enterprise - Lessons from the Trenches"
+---
+The tricky part to implement a DevOps strategy is that there is no manual telling you
+exactly how to do it, and hence we have to experiment and continuously adapt the strategy
+until it suits your specific needs. This situation looks even worse on the Enterprise,
+where different departments need to collaborate, be aware and informed of whats going on.
+This presentation aims to show how to establish the strategy, identify key stakeholders,
+disseminate the culture and implement a continuous improvement process on the Enterprise,
+even better, we will give you a detailed view of how the DevOps strategy on
+one of the majors banks in Brazil evolved from Continuous Integration to a fully-fledged DevOps environment.
+
+This presentation will talk about the challenges to adopt and implement DevOps
+on the traditional enterprise, the value to establish short release cycles
+on the DevOps adoption to adapt and learn on the enterprise, how to establish
+a continuous improvement scenario, the best practices that should be followed to make it happen,
+how to gain sponsorship and tips to get traction to make the rollout.
+Also, will be shown how to enable and enhance the communication and collaboration
+between everyone that participates on the build-deploy-release cycle,
+augment existing environments and how to identify opportunities, key participants and stakeholders.
+All of this presentation is based on a case reference and DevOps success implementation
+in one of the major banks in Brazil, so we will show something real,
+that is happening right now and is having a huge impact on how the bank is working on
+and deploying real world software with speed and quality.
+
+Marcelo S. Ancelmo is currently a Senior IT Specialist with IBM,
+delivering to customers in Brazil tangible solutions
+with a specific focus on software architecture, middleware platforms,
+performance management and DevOps. In his twelve years of practical IT field experience,
+Marcelo has assisted, supported, mentored, and enabled teams with their IT application infrastructure,
+architecture, development, implementation, and operations challenges.
+A frequent conference speaker on software development, architecture and DevOps,
+with an active presence on the software community in Brazil and a Hackathon aficionado.

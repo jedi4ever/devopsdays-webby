@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Marcelo Ancelmo
+title: "DevOps - Practices, Techniques and Tools for Continuous Delivery"
+---
+Can you tell which version of your software that is currently in production?
+What is being approved? And who built it and when? If it was compiled using the right dependencies?
+Which scripts were run? And who authorized its publication?
+If it has been properly tested? It is running without any problem right now?
+In this presentation will be demonstrated how to approach the development and operation teams,
+how to establish practices, the benefits of using agile techniques and what tools are available
+to provide an environment where development, management, test and operations can
+communicate, collaborate, participate and evolve in the delivery of working software,
+with quality and speed in an auditable way.
+
+Marcelo S. Ancelmo is currently a Senior IT Specialist with IBM,
+delivering to customers in Brazil tangible solutions
+with a specific focus on software architecture, middleware platforms,
+performance management and DevOps. In his twelve years of practical IT field experience,
+Marcelo has assisted, supported, mentored, and enabled teams with their IT application infrastructure,
+architecture, development, implementation, and operations challenges.
+A frequent conference speaker on software development, architecture and DevOps,
+with an active presence on the software community in Brazil and a Hackathon aficionado.
