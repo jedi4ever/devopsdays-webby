@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mathias Meyer
+title: "Postmortems are Important for a Blameless Culture"
+---
+
+**Abstract**
+
+Culture is an important keystone of DevOps, with continuous learning and improving one of the relevant organizational habits to adopt.
+
+While we all would love to tell our bosses that 100% availability is absolutely doable, the reality looks different.
+
+Yet, when things do break in production, fingers are all too easily pointed, people are fired. This prevents the organization at large from learning, from improving, and from giving the power to do both to the people handling the sharp end of the action, operations and development.
+
+A blameless culture is important for an organization to learn and improve their operational habits and to give their people the room to grow and improve.
+
+Post-mortems are an important part of this culture, giving everyone a means to speak up and bring their view of a production issue to the table.
+
+I want to talk about why a blameless culture is important to fully adopt DevOps in an organization and why they are an important tool to empower people and to improve the organzation at large.
+
+**Speaker**
+
+Mathias Meyer

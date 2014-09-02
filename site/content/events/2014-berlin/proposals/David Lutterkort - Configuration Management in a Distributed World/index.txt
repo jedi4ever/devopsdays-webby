@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Lutterkort
+title: "Configuration Management in a Distributed World"
+---
+
+**Abstract**
+
+Over the last few years, the general management community has made so much progress on configuration management that we can consider configuration management of individual nodes a solved problem, even when dealing with large numbers of individual nodes. At the same time, we live in a world where individual nodes are no longer the center of attention; instead, we deal with distributed systems running in disposable, often immutable, containers such as Docker containers, cloud instances or virtual machines.
+
+In this talk, we will look at what lessons from the success of
+configuration management can and should be translated to the world of
+distributed infrastructure, such as desired state, idempotence, and the
+tradeoffs between implicit, emergent models and explicit models. We'll have some fun speculating what tools along those lines might look like.
+
+**Speaker**
+
+David is a principal engineer at Puppet Labs and the technical lead for
+Puppet Labs' development of Razor. He was one of the earliest contributors to Puppet, and is the main author of Augeas, a configuration editing tool. Before Puppet Labs he worked at Red Hat on a number of system management tools. Even longer ago, he wrote web applications in TCL, an endeavor he has since mostly recovered from.

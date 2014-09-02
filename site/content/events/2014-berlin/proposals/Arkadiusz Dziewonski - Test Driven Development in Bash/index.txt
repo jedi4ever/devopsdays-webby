@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Arkadiusz Dziewonski
+title: "Test Driven Development in Bash"
+---
+
+**Abstract:**
+
+One of the development practices, that operations can benefit from is
+Test Driven Development. I'd like to emphasize benefits of this
+approach and give you a feeling how TDD looks in Bash, (shortly)
+demonstrating building blocks for writing Bash scripts and function
+libraries in test-driven way and showing how they can interplay.
+
+**Speaker:**
+
+Arkadiusz Dziewonski is a software engineer with agile and devops
+mindset. He works at ImmobilienScout24 as a Java Developer.
