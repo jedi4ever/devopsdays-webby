@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Khushil Dep
+title: "Engineering Ethos"
+---
+Examining the reality of ‘devops’ as a synonym for Engineering.
+Looking at the benefits of slowing down instead of speeding up and how a return to
+Engineering principals can help individuals, teams and businesses to deliver
+better quality and set more realistic expectations in technology and beyond.
+This is a talk about tooling up the minds of the human to leave the machine alone
+to do what it’s really good at.
+
+A solutions focused, positive, driven team player and leader,
+ambitious with a record of technical excellence, commercial awareness and success.
+I'm a total geek and proud of it! I'm a strong advocate of mission leadership
+and promise theory when dealing with teams of complex personalities and passions.
+I lead teams of highly skilled engineers in environments where the rate
+of complex technical change is high and new technology adoption is encouraged.
