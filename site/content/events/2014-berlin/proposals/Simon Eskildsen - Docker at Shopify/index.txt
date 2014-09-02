@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Simon Eskildsen
+title: "Docker at Shopify"
+---
+
+**Abstract**
+
+At Shopify, we've been working with Docker since January 2014.
+As of this summer all Shopify store traffic (~200K RPM) is served
+from Docker containers. This talk covers some of the challenges
+we've had to deal with to deploy Docker:
+
+- The datacenter operating system we're building towards to provide a
+ PaaS within Shopify.
+- What a Docker-powered PaaS means for our development and operations teams.
+- Orchestrating and deploying 100s of containers across hosts.
+
+Docker is still early in the adoption curve, and there aren't a lot of
+people publicly talking about their experiences integrating it into their
+environments. We would like to share how we're linking Docker into our
+organization.
+
+**Speaker**
+
+Simon Eskildsen is part of the Infrastructure R&D Team at Shopify
+which is responsible for exploring and implementing new technologies
+to improve the development process at Shopify. Shopify's Infrastructure
+team has spent the majority of 2014 working on integrating Docker into the
+Company's infrastructure, to run most of Shopify's core platform and the
+surrounding apps.

@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Martin Klewitz
+title: "Make Love not War - let's have a Dev♥︎Ops Baby"
+---
+
+**Abstract:**
+
+The Talk motivates people to do DevOps. I will describe some of our experiences of Hypoport of starting DevOps in the small and scaling it into the whole IT organization. I'd like to describe how with some simple steps the acceptance of DevOps can be greatly increased in an organization. I will describe how the different roles of developer and operator can contribute what they do best while working for a common goal.
+How do we do that? We start a new project or new service as a the common baby of dev and ops right from the beginning. There is no coding without the operational impact in mind.
+
+Benefits to listeners:
+The goal of the talk is to be motivational while sharing our best practices and lessons learned. It will give practical ideas and steps for more <3 DevOps LOVE <3 .
+
+**Speaker:**
+
+Martin Klewitz, @MJFKlewitz, is a Lead Developer @Hypoport and DevOps enthusiast

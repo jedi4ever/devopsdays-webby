@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Florian Thiel
+title: "It’s not gonna be Heroku anytime soon - Hard truths in enterprise DevOps transitions and how to deal with them"
+---
+
+**Abstract**
+
+In the enterprise IT world, sometimes operations people have to sit in their own office with milk glass doors, separated from developers. Mundane tasks like DNS updates require writing requests to people in other org division. Security considerations dictate that every single one of your applications is shielded from the outside world by an application firewall with a custom ruleset that needs approval.
+
+… and then developers come around and demand that they can just push their code to a git repo like at Heroku, “without all that enterprise nonsense”.
+
+In this talk, the audience will hear a story about a traditional enterprise "going DevOps" and the many quests it had (and still has) to master on the way. I will talk about regulatory, organisational and personal challenges for DevOps in the enterprise and try to give advice and examples on how to deal with these challenges.
+
+**Speaker**
+
+Florian Thiel is a software engineer, mostly on the JVM but knows his way around shells, scripting languages and Unixes. He has worked as systems administrator, project lead and consultant.

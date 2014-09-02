@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Florian Thiel
+title: "Driving bottom-up cultural change through data visualisation"
+---
+
+**Abstract**
+
+It was first clear to the mobile app and front end developers that the performance of our web service would need major improvement before we could really win customers. There had been top-down initiatives and task forces to improve performance, all with minor and local success. Priorities shifted to other things.
+
+Then one product team went out of their way and brought Zipkin - a distributed tracing system by Twitter - to the platform. Zipkin traces calls through all our backend services, allowing developers, operations and management to spot bottlenecks.
+
+Showing off Zipkin in the development environments had management fast-track it into production. In the future, teams would gather ‘round Zipkin traces and discuss performance impact of design decisions where before performance was an afterthought.
+
+The talk highlights some preconditions and tactical approaches to take when individuals or teams want to change culture from the bottom up. These tips generalise to all phenomenae that can be sensibly visualised.
+
+**Speaker**
+
+Florian Thiel is a software engineer, mostly on the JVM but knows his way around shells, scripting languages and Unixes. He has worked as systems administrator, project lead and consultant.

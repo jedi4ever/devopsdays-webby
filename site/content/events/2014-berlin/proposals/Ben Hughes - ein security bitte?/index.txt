@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ben Hughes
+title: "ein security bitte?"
+---
+
+**Abstract**
+
+So you've bought yourselves a top of the line devops
+appliance. Everything is great. But, from what you've heard from Twitter,
+the next thing you need is a security. My talk is about the next steps. To
+get from zero to well at least better than most of the industry.
+
+Security from the application side, the CI/CD side, and the
+network/infrastructure end.
+Topics such as -
+* making builds more trustworthy.
+* IDS that isn't a complete waste of €100,000.
+* detect XSS with this one weird trick.
+* the one firewall per child project.
+
+They'll be humour, cat GIFs and some cool technical ideas.
+
+**Speaker**
+
+Ben Hughes is not a CTO, is not an award winning thought leader,
+nor an accomplished playwright. He is however a senior security engineer
+at Etsy. Before that he was doing operations at Puppet Labs.
+He's also pretended to a build engineer for cold hard cash, but he'd
+really rather not talk about it.
+He's spoken at conferences throughout the world on subjects such as
+security, devops, and security and devops.
