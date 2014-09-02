@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: true
+suggestion: false
+selected: false
+layout: event
+author: "Marta Paciorkowska"
+title: "The ultimate DevOps test"
+---
+
+"Culture", "tearing down the silos", "continuous integration", "infrastructure orchestration", …
+Did DevOps fall into the buzzwords trap? Do some of us use certain terms mechanically,
+just because everybody's doing it, without a 100% confidence we grasped their meaning?
+Or, even worse: we are more than positive we got it, but we actually didn't?
+
+Let's do a sanity check: will we be able to tell the difference
+between sentences authored by actual people and a well-fed Markov chain text generator?
+The condition of our community rests on our shoulders!
+
+Marta Paciorkowska is a junior software engineer at [Three of Coins](http://3ofcoins.net),
+a web operations consulting and services company. She likes Ruby, alleycats and vegan pizza.
+She tries to actively work towards making programming communities
+more inclusive, safer spaces, and is one of the ten funniest people she knows.
