@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Karu Kaimar
+title: "ITIL and DevOps, straight from the horse's mouth"
+---
+It has been 9 months since we became the custodians of ITIL.
+During this time, we have listened, asked, and listened further.
+We have heard of many 'ITIL implementation' horror stories – as have you, no doubt.
+We have also heard of many organisations, globally,
+that have benefitted from the best practice guidance over the 25 years of its existence.
+Where’s the catch? We have also heard of many things claimed to soon replace ITIL.
+How can you replace common sense?
+
+We will share what we have learned over these months, and discuss the following:
+- How does DevOps relate to ITIL, and vice versa
+- A session on folklore: 'Implementing' ITIL and other famous fairy tales
+- What does ITIL *really* say, and what does it mean (for the horned and the hornless)
+- How to avoid the unnecessary pain of processes (and the CAB)
+- The challenges for 'ITIL shops' when considering DevOps, and how to overcome these
+- What is Enterprise DevOps? What is small-scale ITIL?
+- How 'unicorns' are using ITIL (with examples)
+- What the future holds for ITIL, and your role in this
+
+Kaimar is the Head of ITSM at AXELOS – the custodians of Global Best Practice,
+including ITIL and PRINCE2 – leading the development of ITIL,
+with a focus on providing value for both organizations and professionals,
+and showing how combining ITIL, DevOps and other frameworks and philosophies
+can deliver an even stronger service management.
+
+Kaimar is an experienced IT Service Management practitioner
+who has a career background in IT support, software development and project management.
+He has a passion for education and taught in schools and universities
+before becoming a professional trainer, delivering courses for professionals
+in both the private and the public sector across Europe.
+In 2013 Kaimar was elected as President of itSMF Estonia after serving
+as a board member for five consecutive years. He’s now based in London but rarely seen there,
+as he’s on the road most of the time, working with practitioners
+around the world to make sure ITIL remains relevant and valuable.
