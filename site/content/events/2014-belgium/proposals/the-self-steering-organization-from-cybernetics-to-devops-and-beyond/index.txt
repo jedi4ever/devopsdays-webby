@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Jeff Sussna
+title: "The Self-Steering Organization: From Cybernetics to DevOps and Beyond"
+---
+Cybernetics is a profound, strange, and wonderful model for thinking about adaptive systems.
+Its name comes from the Greek for steersman, which reflects cybernetics’ view of control
+as a circular process based on feedback loops. Its insights have contributed to such
+fundamental theoretical developments as the von Neumann computer architecture and systems thinking.
+It defines the basic approach that underlies DevOps as well as Agile, Design Thinking, and Lean Startup.
+Understanding cybernetics lets us unify these perspectives across domains;
+by doing so, we can develop a holistic approach to IT as an inseparable part of adaptive business.
+
+The disruptive, digital service economy is forcing 21st-century businesses
+to rethink their approach to control. They need the ability to listen and respond
+as much as the ability to plan and execute. They need all parts of their organization
+to empathize and collaborate with each other, and with the customer,
+in order to continually create shared value. DevOps is a necessary
+but not sufficient part of this new approach to organizational structure and behavior.
+The three ways of flow, feedback, and continuous learning need to spread to the entire enterprise.
+Companies need a fundamental model they can use to guide themselves as dynamic, responsive wholes.
+Cybernetics can provide the theoretical underpinnings for such a model.
+
+This talk will help participants expand their perspective on DevOps,
+and see it as part of a larger strategy to align digital businesses with the demands
+of 21st-century markets. Understanding its commonality with other cybernetics-based methodologies
+will enable them to better connect DevOps to the rest of the organization,
+and complete the puzzle needed to drive business success in the age of disruption.
+The talk will introduce the basic principles of cybernetics, and describe their relevance
+to the challenges posed by the new economy. It will explain the relationship
+between cybernetics and DevOps and its agile cousins. It will explore the view
+that companies can use a cybernetic sensibility to generalize the lessons of DevOps,
+and by doing so, begin to understand and operate themselves as truly adaptive systems.
+
+Jeff Sussna is Founder and Principal of Ingineering.IT,
+a technology consulting firm that facilitates Adaptive IT through
+teaching, coaching, and strategic design. Jeff has more than 25 years of IT experience,
+and has led high-performance teams across the Dev/QA/Ops spectrum.
+He is a highly sought-after speaker, and was recognized as a
+Top 50 Must-Read IT Blogger for 2012 and 2013 by BizTech Magazine.
+His interests focus on the intersection of development, operations, design, and business.
