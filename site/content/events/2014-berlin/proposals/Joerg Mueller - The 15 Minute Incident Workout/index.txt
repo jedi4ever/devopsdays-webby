@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Joerg Mueller
+title: "The 15 Minute Incident Workout
+---
+
+**abstract**
+Incidents in software operations cannot be prevented. This is why we put
+responsiveness over prevention. In an ideal world we would all use tools like
+the Netflix Simian Army that puts your operations in a constant failure
+situation, which keeps everybody in perfect shape for incidents. In a less
+ideal world it is not easily possible to take down random parts of the
+production infrastructure just to test the incident readiness.
+But it is possible to get many of the benefits by a much simpler approach.
+Just by coming together and discussing certain situations following a
+specific set of questions. I call this the 15 minute incident workout. It
+doesn’t get you to a world championship but it will keep you fit for daily
+business.
+
+## bio
+Jörg is a developer, devops and manager at Hypoport AG in Berlin. He is
+working on EUROPACE an internet-based finance marketplace. For more than 15
+years he has been working in different roles in IT consulting and software
+development. He is always interested in all kinds of new approaches to
+software development and operations. He likes to share his ideas and opinions
+at conferences and user groups.
+
+

@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Joern Barthel
+title: "Datacenters and unreliable network conditions"
+---
+
+##Abstract
+
+Sometimes the network infrastructures are not one of the common environments you
+are used to work with. Think of swimming data centers, far away from the shore
+serving a high demand of modern web applications to be used by passengers. How
+do you maintain and operate an application stack like this if remote access can
+break every minute and deployments become a nightmare? How does a datacenter
+with an unreliable network connection works with cloud services? What are the
+challenges from the DevOps perspective? Join us to learn how we use Docker,
+Chef, AWS and friends in such a challenging business case.
+
+##Speaker
+
+Joern has been developing, debugging and designing software for more than ten
+years. At kreuzwerker he is responsible for architecture, new technologies and
+concepts. A computer science graduate, his professional interest is in the use
+of functional programming languages and the architecture of distributed
+applications. In his diverse projects he has gained solid experience with
+operating systems (primarily Linux and Mac OS) and has created various databases
+from different paradigms. He masters C, Ruby, Java, Erlang and a little JVM
+LISP. He is thus as much at home in infrastructure and service clouds
+(preferably AWS) as on the command line.
+
