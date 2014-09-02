@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Eric Sigler
+title: "ChatOps: Practices, Patterns, and Antipatterns"
+---
+One way to think of ChatOps is as another type of user-interface to your current ops toolset.
+It can be similar to existing command line syntax, but to take full advantage
+of "conversation driven development" there are some important differences.
+PagerDuty recently went through the process of creating or extending dozens
+of services to be chat-driven, and learned many lessons about
+how humans prefer to work with their robot minions.
+(Examples include: accuracy vs responsiveness of a reply,
+when should a reply be public vs private, and avoiding "information overload"
+on long-running or noisy commands).
+
+In this talk, we'll cover how plugins differ between several of the major chat frameworks,
+go over what tools are available to make plugin development easier,
+and go over UI patterns and conventions PagerDuty has
+standardized on when we add features to our 'bot.
+
+Eric Sigler is an Operations Engineer at PagerDuty,
+and enjoys making sure their infrastructure is ready to wake people up at 3AM.
+Before his current role, Eric led technical operations teams
+at Minted and Missouri University of Science & Technology.
+He currently lives in San Francisco along with his wife,
+and enjoys discovering new places to see in California whenever he isn’t on call.
