@@ -1,0 +1,45 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Jonathan Clarke
+title: "Why open source is to free software what automation is to devops"
+---
+If you’ve been to a devopsdays event before, you’ll have understood that
+deploying an open source automation tool doesn’t mean you magically reach DevOps nirvana.
+Similarly, using open source code doesn’t mean you magically get software for free,
+become independent from those who develop it, and don’t need to worry about those foundations
+you’re about to build your business on top of.
+
+One could argue that the DevOps movement grew around existing open source tools
+and inspired many new ones, and it certainly builds on the spirit of sharing.
+Looking beyond that, I will consider the evolution of DevOps from the perspective
+of a long history of success and failure in free/libre software projects
+(with a particular focus on infrastructure components - MySQL anyone?).
+
+Some food for thought, applicable to both devops and open source projects:
+- Sharing is great, but is pushing to GitHub enough?
+- Innovation is the way forward, but stability of some parts is necessary to continue innovating in others - where is the balance?
+- Over-commercialization can kill, but success helps us grow - what is the limit?
+- If you teach others to contribute to your project, isn’t there a risk of them changing it in ways you disagree with… all while making it sustainable and long-lasting?
+
+Jonathan Clarke is the Product Owner for Rudder, the open source IT automation & compliance tool,
+at Normation, a software company he co-founded in Paris in 2009.
+
+He has been working in IT infrastructure, almost exclusively with open source tools,
+since his beginnings as a system administrator. His work is now focused around automation
+for configuration and compliance, in particular [Rudder](http://www.rudder-project.org).
+He is also a contributor to several open source projects including CFEngine, LSC and OpenLDAP.
+In his spare time, he enjoys good food, real ale, cinema and cycling around Paris.
+
+Jonathan is a [regular speaker](http://lanyrd.com/profile/jooooooon42/sessions)
+at international events including Solutions Linux, Open World Forum, FOSDEM, RMLL,
+Floss UK Spring Conference, Loadays, LDAPCon...
