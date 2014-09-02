@@ -41,3 +41,11 @@ to the challenges posed by the new economy. It will explain the relationship
 between cybernetics and DevOps and its agile cousins. It will explore the view
 that companies can use a cybernetic sensibility to generalize the lessons of DevOps,
 and by doing so, begin to understand and operate themselves as truly adaptive systems.
+
+Jeff Sussna is Founder and Principal of Ingineering.IT,
+a technology consulting firm that facilitates Adaptive IT through
+teaching, coaching, and strategic design. Jeff has more than 25 years of IT experience,
+and has led high-performance teams across the Dev/QA/Ops spectrum.
+He is a highly sought-after speaker, and was recognized as a
+Top 50 Must-Read IT Blogger for 2012 and 2013 by BizTech Magazine.
+His interests focus on the intersection of development, operations, design, and business.
