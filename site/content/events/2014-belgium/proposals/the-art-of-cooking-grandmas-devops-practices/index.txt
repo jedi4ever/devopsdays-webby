@@ -5,7 +5,7 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
+talk: false
 ignite: true
 suggestion: false
 selected: false
@@ -78,3 +78,11 @@ practices – or how to compete with her in your environment
 
 Back from DevOps Days, you can proudly tell grandma that you learned how to stay
 on top of things in your environment - the same way she does in her kitchen!
+
+About Sandy Flath:
+I recently joined CA Technologies, with a background in international business
+and some programming Know How. The company I work for aims to bring DevOps into the C-Suite.
+Thereby, pursuing to make companies aware of good practices to leverage the full potential of DevOps.
+I’m a community exchange point at CA Technologies, making sure that CA Technologies stays
+on top of the issues practitioner’s face: Where the struggle is and where success happens –
+and most importantly: How and why.
