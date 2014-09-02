@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Bridget Kromhout
+title: "Ceci n'est pas #devops"
+---
+As much as we don't want recruiters, marketing campaigns, and sales pitches defining devops,
+practitioners are more inclined to define what DevOps is *not* than what it is.
+Perhaps this is fitting, as DevOps began in the land of famed Belgian surrealist René Magritte.
+This meta-talk will examine the definitions and negative space around the non-definition of DevOps,
+through the filter of Magritte's works.
+
+Topics covered will include:
+- views shifting over time, with examples from talks, podcasts, blog posts, and tweets
+- where consensus and dissent exist, including such contentious topics as "enterprise DevOps"
+- trends as evinced by divergent tribes in the similar and dissimilar communities active in this space
+- the map-territory relation: the importance of words in a world structured by semantics
+
+Part art history and part ethnography, this talk offers new views on some five-year-old questions.
+
+Bridget Kromhout is an operations engineer at DramaFever, the largest streaming video site
+for international content. She's been paying the bills with Unix sysadmin work
+since the last time 'flannel shirt over babydoll dress' was a trendy look.
+Her CS degree emphasis was in theory, but she now deals with the concrete
+(if 'cloud' can be considered tangible). She likes finicky wide-column data stores,
+stats-driven monitoring, formal grammars, bicycle-powered camping,
+and butchering pumpkins for home canning. In her spare time she helps organize
+her local AWS meetup and devopsdays Minneapolis.
