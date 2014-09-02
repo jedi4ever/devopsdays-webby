@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Marcelo Ancelmo
+title: "From Strategy to Deployment... and everything in between"
+---
+This session will show some best practices, tips and tricks on how to keep communication,
+visibility and collaboration between everyone that is involved on the software release
+and deployment process. The talk will be presented on a scenario where,
+on a continuous delivery pipeline, while deploying applications in 4 different environments:
+What are the kind of problems that can arise, what patterns need to be followed,
+what you should avoid and how to address the needs and viewpoints of the different teams
+(Architecture, Development, Quality and Operations) while they participate and interact
+on the different phases of the release and deploy of the applications.
+
+On this presentation, participants will learn about some DevOps best practices
+that can be followed on it adoption, the challenges that are faced when managing Culture Change,
+how to use MDA techniques to modeling DevOps and use it as a tool for a linked communication
+between different stakeholders. Also, it will cover how to structure the release management
+and how to make it visible to everyone on the enterprise.
+
+Marcelo S. Ancelmo is currently a Senior IT Specialist with IBM,
+delivering to customers in Brazil tangible solutions
+with a specific focus on software architecture, middleware platforms,
+performance management and DevOps. In his twelve years of practical IT field experience,
+Marcelo has assisted, supported, mentored, and enabled teams with their IT application infrastructure,
+architecture, development, implementation, and operations challenges.
+A frequent conference speaker on software development, architecture and DevOps,
+with an active presence on the software community in Brazil and a Hackathon aficionado.
