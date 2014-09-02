@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: John Deatherage
+title: "NetDevOps: No Compromises"
+---
+While DevOps culture has flourished, networking has missed out on the last 7 years or so of progress,
+and still exists as a silo today. The scale of cloud networking has grown,
+as well as the need for large and dynamically-changing virtual environments.
+Many are looking to Software-Defined Networking (SDN) for answers,
+but network automation has been defined as a business need from the cloud,
+to the startup, to the Enterprise network.
+
+If these automation solutions don't align with everything we've learned,
+we not only miss out on leveraging some of the best ideals that DevOps has brought to the table,
+but we risk creating another field that is disconnected from our efforts.
+
+Networking doesn't have to be left out, and NetDevOps can share the same practices
+and tooling that we've come to know and love. In this talk, we will explore
+the myths and challenges associated with cultivating network automation the DevOps way,
+and how we can leverage our existing efforts. We'll not only discuss how existing tools
+and methodologies can benefit networking, but we will also talk about the ways
+to develop for a network in a virtual environment, without needing any actual network hardware.
+
+John Deatherage is the Automation Architect for Juniper's Security Business Unit,
+where he helps develop solutions for Cloud Builders and High IQ Networks.
+He believes that traditional walls between networking, development, operations,
+and systems will continue to break down, and that the power of collaboration
+through DevOps culture will define how networks are built in the future.
