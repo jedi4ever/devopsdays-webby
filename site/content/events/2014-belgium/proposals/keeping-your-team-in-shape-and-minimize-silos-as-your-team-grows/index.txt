@@ -34,3 +34,16 @@ to discuss topics with your team across timezones.
 
 (So expect a 'cultural' insight in situations I encountered over time
 and how I personally encountered solving it)
+
+Bastian works as Development and Operations Engineer at Amazee Labs Zurich.
+His job is to keep servers fast and customers happy.
+
+Before joining Amazee Labs he worked for the Web Agency Liip AG as Scrummaster
+with the Web Operations Team. Even longer ago he wrapped his head around
+Enterprise Content Management Migration Projects for Canton of Berne.
+He dedicates a lot of time to organizing [TEDxBern](tedxbern.com)
+and chairs the DevOps Track for DrupalCon Amsterdam (amsterdam2014.drupal.org).
+
+When Bastian is not doing anything closely related to computers he is piloting
+his paraglider through the swiss alps,
+traveling around the world or skating around on his longboard.
