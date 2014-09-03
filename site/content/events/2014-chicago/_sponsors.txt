@@ -65,7 +65,7 @@ end
 <h1>Wifi sponsors</h1>
 <% @wsponsors = [
 { :image => "cisco-100x100.png", :name => "Cisco Meraki", :link => "https://meraki.cisco.com/"},
-# Waiting for logo... { :image => "backstop-100x100.png", :name => "Backstop Solutions Group", :link => "https://www.backstopsolutions.com/"},
+{ :image => "backstop-100x100.png", :name => "Backstop Solutions Group", :link => "https://www.backstopsolutions.com/"},
 ] %>
 <%= make_sponsor_links(@wsponsors) %>
 <br />
