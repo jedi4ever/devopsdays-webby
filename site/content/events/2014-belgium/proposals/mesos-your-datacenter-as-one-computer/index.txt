@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Nils De Moor"
+title: "Mesos: Your datacenter as one computer"
+---
+As applications continue to move to public and private clouds,
+our computing platform should no longer be treated as a tower of pizza boxes.
+It spans multiple datacenters spread around the world.
+That brings new challenges to the table to have all building blocks working in concerto,
+in terms of balancing and plumbing. The Apache Mesos ecosystem provides an holistic approach
+to this problem in order to deliver web scale performance.
+Servers will be utilized more efficiently, complexity is reduced,
+maintenance simplified resulting in a lower bill.
+And how does it do that?
+By treating your datacenter as one big computer.
+
+Nils is a techie born and raised in Belgium.
+He has a deep interest in developing applications in distributed environments.
+After a short path as PhD researcher and consultant,
+he wanted to work on his own product and co-founded WooRank with 2 friends,
+taking the role of CTO. WooRank is a SaaS startup that builds tools for digital marketing agencies.
+By grabbing and calculating millions of data points every day,
+he developed a passion for automating, scaling and distributing large scale applications.
