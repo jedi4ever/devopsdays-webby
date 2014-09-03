@@ -15,6 +15,7 @@ filter:    erb
   { :image => "sumologic.png", :name => "Sumologic", :link => "http://www.sumologic.com/"},
   { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/us/products/application-delivery.aspx?intcmp=headernav"},
   { :image => "kangaroot.png", :name => "Kangaroot", :link => "http://www.kangaroot.net/"},
+  { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://http://www.appdynamics.com/"},
 ]%>
 
 
