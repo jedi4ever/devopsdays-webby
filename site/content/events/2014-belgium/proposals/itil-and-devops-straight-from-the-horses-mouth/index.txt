@@ -22,6 +22,7 @@ Where’s the catch? We have also heard of many things claimed to soon replace I
 How can you replace common sense?
 
 We will share what we have learned over these months, and discuss the following:
+
 - How does DevOps relate to ITIL, and vice versa
 - A session on folklore: 'Implementing' ITIL and other famous fairy tales
 - What does ITIL *really* say, and what does it mean (for the horned and the hornless)
