@@ -26,6 +26,7 @@ of a long history of success and failure in free/libre software projects
 (with a particular focus on infrastructure components - MySQL anyone?).
 
 Some food for thought, applicable to both devops and open source projects:
+
 - Sharing is great, but is pushing to GitHub enough?
 - Innovation is the way forward, but stability of some parts is necessary to continue innovating in others - where is the balance?
 - Over-commercialization can kill, but success helps us grow - what is the limit?
