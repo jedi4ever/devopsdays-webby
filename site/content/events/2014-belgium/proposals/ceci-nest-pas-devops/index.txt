@@ -20,6 +20,7 @@ This meta-talk will examine the definitions and negative space around the non-de
 through the filter of Magritte's works.
 
 Topics covered will include:
+
 - views shifting over time, with examples from talks, podcasts, blog posts, and tweets
 - where consensus and dissent exist, including such contentious topics as "enterprise DevOps"
 - trends as evinced by divergent tribes in the similar and dissimilar communities active in this space
