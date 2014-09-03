@@ -29,7 +29,8 @@ end
 { :image => "drw-100x100.png", :name => "DRW Trading", :link => "http://drw.com/"},
 { :image => "victorops-100x100.png", :name => "VictorOps", :link => "http://victorops.com/"},
 { :image => "servercentral-100x100.png", :name => "ServerCentral", :link => "http://servercentral.com/"},
-{ :image => "puppetlabs-100x100.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"}
+{ :image => "puppetlabs-100x100.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
+{ :image => "enova-100x100.png", :name => "Enova", :link => "http://www.enova.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
