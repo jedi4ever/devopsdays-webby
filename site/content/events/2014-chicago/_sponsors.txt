@@ -15,7 +15,7 @@ end
 { :image => "datadog-100x100.png", :name => "Datadog", :link => "http://www.datadoghq.com"},
 { :image => "cloudbees-100x100.png", :name => "CloudBees", :link => "http://www.cloudbees.com"},
 { :image => "scriptrock-100x100.png", :name => "ScriptRock", :link => "http://scriptrock.com"},
-{ :image => "chef-100x100.png", :name => "Chef", :link => "http://www.getchef.com"}
+{ :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
