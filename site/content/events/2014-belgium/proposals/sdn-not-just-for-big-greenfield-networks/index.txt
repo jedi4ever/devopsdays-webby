@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Frank Louwers"
+title: "SDN, not just for big greenfield networks"
+---
+As Openminds is a rather small company, but one that focusses on thinking
+out of the box and offering our clients the best possible (Linux based) solution
+to host their web-applications, we are always innovating and trying new stuff.
+We’ve long used keepalived/lvs and friends to provide active-passive HA solutions, but they all suck.
+The networking nerd in me made me realise all these solutions are wrong, for various reasons.
+
+When building a “new” datacenter from scratch, there are lots of nice SDN gear you can buy (or build).
+It’s easy, when there is no legacy to work with.
+
+In this talk, I’ll show you how can implement SDN-like-techniques in a legacy environment to
+do HA, failover, Active-Passive and Active-Active.
+
+Frank Louwers cofounded Openminds, a managed hosting company during his study-years.
+Thirteen years later, he still heads the company, and is responsible
+for networking, webservers, performance and all the boring managerial stuff that comes with being “the boss”.
+Openminds is a Gold Sponsor of this event, but this talk is in no way a sales pitch or marketing talk.
