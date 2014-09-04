@@ -14,7 +14,8 @@ end
 { :image => "signal-100x100.png", :name => "Signal", :link => "http://www.signal.co/"},
 { :image => "datadog-100x100.png", :name => "Datadog", :link => "http://www.datadoghq.com"},
 { :image => "cloudbees-100x100.png", :name => "CloudBees", :link => "http://www.cloudbees.com"},
-{ :image => "scriptrock-100x100.png", :name => "ScriptRock", :link => "http://scriptrock.com"}
+{ :image => "scriptrock-100x100.png", :name => "ScriptRock", :link => "http://scriptrock.com"},
+{ :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -22,13 +23,14 @@ end
 
 <br/>
 <br/>
-<h1>Silver Sponsors</h1>
+<h1>Silver sponsors</h1>
 
 <% @ssponsors = [
 { :image => "drw-100x100.png", :name => "DRW Trading", :link => "http://drw.com/"},
 { :image => "victorops-100x100.png", :name => "VictorOps", :link => "http://victorops.com/"},
 { :image => "servercentral-100x100.png", :name => "ServerCentral", :link => "http://servercentral.com/"},
-{ :image => "puppetlabs-100x100.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"}
+{ :image => "puppetlabs-100x100.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
+{ :image => "enova-100x100.png", :name => "Enova", :link => "http://www.enova.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -58,3 +60,13 @@ end
 <%= make_sponsor_links(@msponsors) %>
 <br />
 <% if @msponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Wifi sponsors</h1>
+<% @wsponsors = [
+{ :image => "cisco-100x100.png", :name => "Cisco Meraki", :link => "https://meraki.cisco.com/"},
+{ :image => "backstop-100x100.png", :name => "Backstop Solutions Group", :link => "https://www.backstopsolutions.com/"},
+] %>
+<%= make_sponsor_links(@wsponsors) %>
+<br />
