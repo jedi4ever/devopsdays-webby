@@ -53,6 +53,7 @@ filter:    erb
 <% @silver_sponsors = [
 	{ :image => "github.png", :name => "GitHub", :link => "http://github.com"},
 	{ :image => "wix.png", :name => "Wix", :link => "http://wix.com"},
+	{ :image => "redislabs.png", :name => "redislabs", :link => "http://redislabs.com"},
 	
 ]%>
 
