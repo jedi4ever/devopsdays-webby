@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jens Dollenbacher
+title: "The DevOps Maturity Curve - where are you on it?"
+---
+
+**Abstract**
+
+While DevOps as an application delivery paradigm is already reality in young startup companies and the big internet platforms like Facebook, Amazone and eBay, it poses significant challenges to large enterprises of other branches with a long IT tradition. To transform structures, which were grown over decades, so they fit into the requirements of modern IT in terms of agility, speed and quality, there are many critical factors. How does this journey looks like and what experiences and successes had companies on their way to DevOps?
+
+**Speaker**
+
+Jens Dollenbacher, born 1962, studied computer science at the university of applied science in Mannheim, Germany, and worked many years as a developer for business and technical software. Since 1999 he was in technical sales for the middleware products of BEA Systems and Oracle in Germany and Switzerland and worked successfully with many large enterprises on scalable and high available software architectures. Since 2012 he works as a sales consultant for CA Technologies in the Application Delivery Business Unit in the DACH region.

@@ -26,7 +26,6 @@ This page list the proposals we have received. Help the presenters with your fee
 </ol>
 
 <h2>Ignite Talks</h2>
-Be the first one to propose an Ignite Talk!
 <ol>
 <%
   ignites = @pages.find(:all, :in_directory => parent, :recursive => true,

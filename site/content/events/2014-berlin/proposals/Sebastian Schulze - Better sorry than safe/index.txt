@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sebastian Schulze
+title: "Better sorry than safe"
+---
+
+**Abstract**
+
+The larger your company is, the slower and tougher it it will get
+to crawl along the chains of command. You'll spend your days
+discovering long-lost parts of your infrastructure and deciding
+wether you'll end up maintaining this particular component by
+yourself or by being given the runaround and ending up mainting
+the component anyways. If you think large and enterprisey
+environments are the death to corporate punk rock: think again.
+
+This talk won't be about mindsets, fences or silos. We won't be
+searching for solutions but instead try to explore this topic
+tongue in cheek – so don't bring anything to write, but be
+prepared to share your own story.
+
+**Speaker**
+
+Bascht is a freelance infrastructure developer, rubyist, python
+sympathiser, and redditor based in cologne. His weapons of choice
+include Puppet, Ansible, Packer and Consul and he's pretty quick
+with animated GIFs as well. At his shared office in cologne he is
+responsible for keeping the 25 % blocking minority for
+non-apple-devices.

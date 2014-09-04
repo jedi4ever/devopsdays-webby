@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Thomas Falkenberg
+title: "Monitors at PAYBACK"
+---
+
+**Abstract**
+
+Sharing is one of most important aspects of DevOps. I want to talk about our approach of sharing production metrics with everyone in the company by putting up TV screens displaying nice dashboards in our Munich offices.
+
+I’m going to give an overview of the requirements, involved tools like icinga, graphite, grafana and describe some of the challenges and (sometimes surprising) results.
+
+**Speaker**
+
+Thomas Falkenberg is a performance engineer and DevOps promoter who loves pretty dashboards and new ideas. He works at PAYBACK GmbH in Munich.

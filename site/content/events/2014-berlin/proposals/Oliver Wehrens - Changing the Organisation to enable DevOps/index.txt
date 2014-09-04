@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: false
 layout: event
-author: Oliver Wehrens
+author: Oliver Wehrens, Klaus Heuke
 title: "Changing the Organisation to enable DevOps"
 ---
 
