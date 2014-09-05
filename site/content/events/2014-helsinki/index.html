@@ -1,0 +1,26 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+platinum: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center>
+  <table><tr>
+<td>
+  Date : November 2014<br>Location: <a href="location">Helsinki, Finland</a>
+  <br><br>
+  <strong>Call for proposals and registration are opening soon.</strong>
+</td>
+</tr>
+</table>
+</center>
+<hr>
+
+If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
+
