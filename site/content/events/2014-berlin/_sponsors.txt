@@ -47,7 +47,9 @@ filter: erb
 <% end %>
 
 
-<% @partners = []%>
+<% @partners = [
+ { :image => "netways.png", :name => "NETWAYS GmbH", :link => "http://www.netways.de"}
+]%>
 
 <h1>Partners</h1>
 
