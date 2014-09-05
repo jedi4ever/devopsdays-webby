@@ -12,6 +12,10 @@
       Chicago
     </a>
     -
+    <a href="/events/2014-helsinki">
+      Helsinki
+    </a>
+    -
     <a href="/events/2014-newyork">
       New York
     </a>

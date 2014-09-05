@@ -1,0 +1,11 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: program
+dirty: true
+layout: event
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<p>Program coming soon.</p>
