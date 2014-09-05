@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: "Dave Zwieback"
+title: "The Death of Devops: A Premortem"
+---
+
+Imagine it's October, 2019. The headline on the front page of the Wall Street Journal reads:
+"Devops, a once promising approach, finally proven ineffective". Or worse… What happened that got us here?
+
+In this interactive session, I'll conduct a premortem to identify many of the things
+that could prevent devops from reaching its full potential by harnessing the wisdom of
+the assembled devops practitioners. We’ll then brainstorm solutions to these problems.
+According to research, premortems help improve the accuracy of “prospective hindsight” by about 30%.
+
+Dave Zwieback has been perfecting the art of looking busy at work for 18 years.
+You should definitely follow him on twitter [@mindweather](https://twitter.com/mindweather).
