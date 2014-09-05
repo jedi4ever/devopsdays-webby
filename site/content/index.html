@@ -119,6 +119,21 @@ labelStyle: {opacity: 1}
 
 google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="events/2014-chicago"});
 
+helsinkilocation = new google.maps.LatLng(60.1708, 24.9375);
+
+var helsinkimarker = new MarkerWithLabel({
+position: helsinkilocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Helsinki 2014<br>November",
+labelAnchor: new google.maps.Point(50, 0),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(helsinkimarker, "click", function (e) { location.href="events/2014-helsinki"});
+
 telavivlocation = new google.maps.LatLng(32.0794445, 34.8447104);
 
 var telavivmarker = new MarkerWithLabel({
