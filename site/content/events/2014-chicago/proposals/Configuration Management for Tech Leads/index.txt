@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 73
+title: "Configuration Management for Tech Leads"
+---
+
+**Abstract**
+
+What comes to mind when you hear the job title Tech Lead? Is it mentor, software architect, or project manager? I bet no one ever thinks infrastructure coder. Why would they? It is common knowledge that infrastructure is solidly in the realm of system administrators. In reality, tech leads gain a very in depth knowledge of the infrastructure that their website and/or application operates on. As a result, they have a great deal of contact with the system administration group at their company. This talk will focus on how configuration management can be used to give the tech lead more control over their infrastructure, reduce their dependency on system administrators, and free up time to focus on other things.

@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Proposal 25
-title: "Preparing for a SOC2 audit with DevOps in mind"
+title: "Preparing for a SOC2 Audit with DevOps in Mind"
 ---
 
 **Abstract**
