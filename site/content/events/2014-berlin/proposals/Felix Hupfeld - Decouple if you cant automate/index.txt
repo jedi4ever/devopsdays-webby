@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Felix Hupfeld
+title: "Decouple if you can't automate"
+---
+
+**Abstract**
+
+Automation is a great example for improving work processes with the help of technology. In case of automation, the means and gains are obvious: the task is done without human intervention. As not all work is amenable to automation, we need to be conscious about what other options we have. 
+
+In this talk, I'd like to draw attention to a another powerful tool: decoupling. Decoupling means making things independent from one another. It can apply to work tasks when designing processes or writing run books. It can apply when designing new systems or evaluating technology choices.  It materializes in the example: what do you need to do if a hard drive of your server breaks. Who is involved? 
+
+The goal is to make the audience conscious about decoupling and giving a framework to question the status quo and find potential for further improvement.
+
+**Speaker**
+
+Felix Hupfeld is one of the creators of XtreemFS, the open-source fault-tolerant distributed file system, spent several years at Google to accompany Google's tape backup system from pre-production to mind-blowing scale, and returned to Berlin to join in founding the software storage company Quobyte. Quobyte's Unified Storage Plane enables everyone to run professional storage infrastructure on standard hardware.
