@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Aviran Mordo
+title: "Advance A/B Testing"
+---
+
+**Abstract:**
+
+While A/B test is a very known and familiar methodology for conducting experiments on production when you do that on a large scale it has many challenges in the organization level and operational level.
+
+At Wix we are practicing continuous delivery for over 4 years. Conducting A/B tests and writing feature toggles is at the core of our development process. However when doing so on a large scale, with over 1000 experiments every month,  it holds many challenges and affect everyone in the company, from developers, product managers, QA, marketing and management.
+
+In this talk we will explain what is the lifecycle of an experiment, some of the challenges we faced and the effect on our development process.
+
+* How an experiment begins its life
+* How an experiment is defined
+* How do you let non technical people control the experiment while preventing mistakes
+* How an experiment go live, what is the lifecycle of an experiment from beginning to end
+* What is the difference between client and server experiments
+* How do you keep the user experience and not confuse them 
+* How does it affect the development process
+* How can QA test an environment that changes every 9 minutes
+* How can support help users when every user may be part of different experiment
+* How can we find if an experiment is causing errors when you have millions of permutations [at least 2^(number of active experiments)]
+* What are the effects of always having multiple experiments on system architecture
+* What are the development patterns when working with AB test
+
+At Wix we have developed our 3rd generation experiment system called PETRI, which is (will be) open sourced, that helps us maintain some order in a chaotic system that keep changing. We will also explain how PETRI works, what are the patterns in conducting experiments that will have a minimal effect on performance and user experience.
+
+**Speakers:**
+
+Aviran Mordo is the head of back-end engineering at Wix. With over 20 years of experience in the software industry Aviran has filled many engineering roles and leading positions; from designing and building the US national Electronic Records Archives prototype to building the infrastructure that powers indeed.com, the leading job search engine in the world. Aviran is a tech-savvy and a technology blogger, with vast knowledge of internet technologies, software development, continuous delivery and a dev-centric culture advocate.
