@@ -21,11 +21,14 @@ get from zero to well at least better than most of the industry.
 
 Security from the application side, the CI/CD side, and the
 network/infrastructure end.
-Topics such as -
-* making builds more trustworthy.
-* IDS that isn't a complete waste of €100,000.
-* detect XSS with this one weird trick.
-* the one firewall per child project.
+Topics such as
+
+<ul>
+<li>making builds more trustworthy.
+<li>IDS that isn't a complete waste of €100,000.
+<li>detect XSS with this one weird trick.
+<li>the one firewall per child project.
+</ul>
 
 They'll be humour, cat GIFs and some cool technical ideas.
 

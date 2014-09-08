@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Boris Gomolka, Gerald Hansen
+title: "How Ansible playbooks made our DevOps team"
+---
+
+**Abstract**
+
+<ul>
+<li>Our DevOps team (founding, situation, background)
+<li>Short about Ansible (configuration management system)
+<li>Choice of tool (requirements, choice, decision)
+<li>Our experiences with Ansible and our advices
+</ul>
+
+Target group: DevOps, System Administrators, IT manager
+
+**Speaker**
+
+Gerald Hansen is part of the DevOps team at GameDuell. The DevOps team at GameDuell has 8 members and is running 3 datacenters with several hundreds of hosts.
