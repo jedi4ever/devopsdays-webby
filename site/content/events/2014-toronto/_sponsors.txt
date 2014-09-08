@@ -71,3 +71,8 @@ filter: erb
 <h1>Lanyard sponsor</h1>
 <a href="http://evolvethinking.com"><img border="0" alt='Evolve Thinking' title='Evolve Thinking' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/evolvethinking.png")%>'></a>
 <br />
+<br />
+
+<h1>Media sponsor</h1>
+<a href="http://oreilly.com"><img border="0" alt='Evolve Thinking' title='O'Reilly Media' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/oreilly.png")%>'></a>
+<br />
