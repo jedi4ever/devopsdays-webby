@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Romain Pelisse
+title: "Data Virtualization, next step for DevOps?"
+---
+
+**Abstract**
+
+This proposal will discuss the opportunity to enhance a DevOps
+strategy, by bringing Data Virtualization into the usual mix of
+technologies nowadays commonly used to implement such
+strategy. Obvioulsy, the talk will feature some description and
+overview of what is data virtualization, before going into how it
+could play an interesting part in a DevOps strategy.
+
+**Speaker**
+
+Romain PELISSE, RedHat

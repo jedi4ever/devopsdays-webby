@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Romain Pelisse
+title: "Learn Puppet in 5min"
+---
+
+**Abstract**
+
+I would like to propose a ignite talk on learning Puppet in 5". The
+talk will feature no slides, but a short demo, exposing, quickly - and
+clearly, how to use Puppet and learn its main features. This ignite
+talk is based on several such "micro workshop" that I have
+successfully delivered in the past (like during the Java Posse Roundup
+2013).
+
+**Speaker**
+
+Romain PELISSE, RedHat

@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Romain Pelisse
+title: "Puppetshow and Masterchef"
+---
+
+**Abstract**
+
+I would like to propose for Berlin DevOps Days 2014 an english version of the talk I did with <a href="http://parleys.com/play/5367b4b6e4b0593229b85849/chapter0/about
+">François Le Droff at Devoxx France called "Puppetshow and masterchef"</a>. This talk offered a comparative return of experience on both Puppet and Chef.
+
+While not original (ie already done in Devoxx France), this talk has not yet been delivered in english, and is therefore for now limited to French speaker. Delivering it at the Berlin DevOps Days would be an excellent opportunity to remedy to this unfortunate situation !
+
+**Speaker**
+
+Romain PELISSE, RedHat
