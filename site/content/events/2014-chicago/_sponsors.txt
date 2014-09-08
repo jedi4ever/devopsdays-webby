@@ -16,7 +16,8 @@ end
 { :image => "cloudbees-100x100.png", :name => "CloudBees", :link => "http://www.cloudbees.com"},
 { :image => "scriptrock-100x100.png", :name => "ScriptRock", :link => "http://scriptrock.com"},
 { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"},
-{ :image => "rackspace-100x100.png", :name => "Rackspace", :link => "http://www.rackspace.com/"}
+{ :image => "rackspace-100x100.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
+{ :image => "xebialabs-100x100.png", :name => "XebiaLabs", :link => "http://xebialabs.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -31,11 +32,12 @@ end
 { :image => "victorops-100x100.png", :name => "VictorOps", :link => "http://victorops.com/"},
 { :image => "servercentral-100x100.png", :name => "ServerCentral", :link => "http://servercentral.com/"},
 { :image => "puppetlabs-100x100.png", :name => "Puppet Labs", :link => "http://puppetlabs.com/"},
-{ :image => "enova-100x100.png", :name => "Enova", :link => "http://www.enova.com/"}
+{ :image => "enova-100x100.png", :name => "Enova", :link => "http://www.enova.com/"},
+{ :image => "elasticsearch-100x100.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.org/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
-<% if @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+<% if @ssponsors.size < 9 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
 <br/>
