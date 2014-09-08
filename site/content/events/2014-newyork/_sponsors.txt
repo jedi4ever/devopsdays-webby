@@ -13,21 +13,11 @@ filter:    erb
 
 <% @gsponsors = [
   { :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com/"},
-#  { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
-#  { :image => "amplify.png", :name => "Amplify", :link => "http://www.amplify.com/"},
-#  { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"},
   { :image => "nextbigsound.png", :name => "Next Big Sound", :link => "http://www.nextbigsound.com/"},
-#  { :image => "spotify.png", :name => "Spotify", :link => "http://www.spotify.com/"},
-# { :image => "activestate_stackato.png", :name => "Active State", :link => "http://www.activestate.com/"},
-#  { :image => "2u.png", :name => "2u", :link => "http://www.2u.com/"},
-#  { :image => "saltstack.png", :name => "SaltStack", :link => "http://www.saltstack.com/"},
-#  { :image => "librato.png", :name => "Librato", :link => "http://www.librato.com/"},
-#  { :image => "salesforce.png", :name => "SalesForce", :link => "http://www.salesforce.com/"},
-#  { :image => "mongodb.png", :name => "Mongodb", :link => "http://mongodb.com/"}
+  { :image => "mongodb.png", :name => "Mongodb", :link => "http://mongodb.com/"},
+  { :image => "gigaspaces.png", :name => "GigaSpaces", :link => "http://www.gigaspaces.com/"},
+  { :image => "ruxit.png", :name => "Ruxit", :link => "http://www.ruxit.com/"}
 ]%>
-
-<br><br>
-<% unless @gsponsors.empty?  %><h1>Gold sponsors</h1><% end %>
 
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>

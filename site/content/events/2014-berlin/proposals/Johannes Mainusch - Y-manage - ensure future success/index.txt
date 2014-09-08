@@ -16,10 +16,12 @@ title: "Y-manage - ensure future success"
 
 I shall talk about my experiences as manager in an agile and changing environment.
 With the following questions I will guide us through the presentation:
-- Y: why talk about agility and management?
-- What goes wrong in classic organizations? About information usury (Zinswucher), artificial prolongment of „value-added-(communication)-chains“, chinese whispers and forgotten nerds…
-- Why am I where I am, at the E-Post?
-- What does the future hold? Creating trust without weapons
+<ul>
+<li> Y: why talk about agility and management?
+<li> What goes wrong in classic organizations? About information usury (Zinswucher), artificial prolongment of „value-added-(communication)-chains“, chinese whispers and forgotten nerds…
+<li> Why am I where I am, at the E-Post?
+<li> What does the future hold? Creating trust without weapons
+</ul>
 
 **Speaker**
 
