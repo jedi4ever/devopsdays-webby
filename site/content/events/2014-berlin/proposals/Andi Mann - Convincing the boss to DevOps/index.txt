@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Andi Mann
+title: "Convincing the boss to DevOps!"
+---
+
+**Abstract:**
+
+Want to deliver application the DevOps way? Your biggest challenge may
+be convincing your bosses that DevOps is right for you, for them, and
+for the business. In this 5-minute Ignite presentation based
+independent data and many years selling new projects to executive
+buyers, I will explain who to talk with to get support for DevOps, why
+they will care, what they want to hear, the outcomes they need to see,
+and how to respond to their objections.
+
+**Speaker:**
+
+Andi Mann, CA Technologies
