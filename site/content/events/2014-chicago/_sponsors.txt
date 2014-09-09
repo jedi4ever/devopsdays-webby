@@ -21,7 +21,7 @@ end
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
-<% if @gsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+<% if @gsponsors.size < 12 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
 <br/>
 <br/>
@@ -37,7 +37,7 @@ end
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
-<% if @ssponsors.size < 9 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+<% if @ssponsors.size < 12 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
 <br/>
@@ -62,7 +62,7 @@ end
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+<% if @msponsors.size < 12 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
 
 <br/>
 <br/>
