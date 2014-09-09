@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Andi Mann
+title: "5 Minutes for 10 DevOps Tools"
+---
+
+**Abstract:**
+
+While DevOps is primarily a culture change, it is undoubtedly assisted
+by technology and tools, especially in larger enterprises. From
+collaborative planning to automated problem detection, technologies
+and tools can help to connect individuals, smooth workflows streamline
+interactions, establish common language, and much more, to accelerate
+application delivery and unify service delivery teams. This 5-minute
+Ignite talk will highlight 10 important functional areas where
+technology and tools can assist a DevOps transformation – all without
+any product names or brands!
+
+**Speaker:**
+
+Andi Mann, CA Technologies
