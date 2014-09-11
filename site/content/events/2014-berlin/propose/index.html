@@ -5,7 +5,7 @@ filter:
 - markdown
 dirty: true
 layout: event
-title: proposals
+title: Propose
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
@@ -48,12 +48,14 @@ Now that DevOps is an established culture in many companies, we wonder about a f
 <hr>
 <table width='100%'>
   <tr>
+<!--
     <td style="text-align: center">
       <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>?Proposal talk">Propose a talk/panel</a>
     </td>
     <td style="text-align: center">
       <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>?Proposal Ignite">Propose an Ignite talk</a>
     </td>
+-->
     <td style="text-align: center">
       <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>?Proposal - I think that ...">Let us know what you think</a>
     </td>
