@@ -55,6 +55,7 @@ filter: erb
 
 <% @ssponsors = [
 { :image => 'evolvethinking.png', :name => 'Evolve Thinking', :link => 'http://evolvethinking.com/' },
+{ :image => 'truenorth.png', :name => 'True North PHP', :link => 'http://truenorthphp.ca/' },
   ]%>
 
 <h1>Silver sponsors</h1>
@@ -73,6 +74,7 @@ filter: erb
 <br />
 <br />
 
-<h1>Media sponsor</h1>
+<h1>Media sponsors</h1>
 <a href="http://oreilly.com"><img border="0" alt='Evolve Thinking' title='O'Reilly Media' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/oreilly.png")%>'></a>
+<a href="http://uberflip.com"><img border="0" alt='Uberflip' title='Uberflip' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/uberflip.png")%>'></a>
 <br />
