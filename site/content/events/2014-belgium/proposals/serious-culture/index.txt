@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: "Kevin Behr"
 title: "Let's get serious about culture"

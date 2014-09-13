@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: true
+layout: event
+author: "Michael Brunton-Spall"
+title: "Perfect is the enemy of good"
+---
+Describing how "monitoring should work in a perfect world" helps people who
+are already doing it well, but puts off people who aren;t doing it at all.
+We get the problem of where do I start, how can I possibly build an
+integrated monitoring, alerting, paging solution that has all the bells and
+whistles.
+I work with Government departments, many of whom still regard the entire
+web with hostility, run systems on mainframes (one of which actually rusted
+away at one point), and believe the cloud is still hype.
+Telling them how to do DevOps, Monitoring, Agile, HTML5 etc perfectly is a
+waste of time.  They often need to just get it started, with a simple
+nagios or pingdom check, enabling their lead developer to have even normal
+user access to the servers, or declassify the state secrets that might be
+the 10.x.x.x ip address.
+For the people I work with, the DevOps community continues to push the
+perfect solutions, how to do <X> correctly, but we need to also remind
+people how to start from scratch.
+
+(Somehow I'll turn that into an entertaining 5 minute rant/education to
+remind people that there are a lot of people who are still beginners and
+need advice to get started).

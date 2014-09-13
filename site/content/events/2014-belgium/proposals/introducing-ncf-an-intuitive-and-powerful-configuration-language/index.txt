@@ -8,7 +8,7 @@ proposal: true
 talk: false
 ignite: true
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: Jonathan Clarke
 title: "Introducing ncf: an intuitive and powerful configuration language"

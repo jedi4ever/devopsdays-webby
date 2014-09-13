@@ -8,7 +8,7 @@ proposal: true
 talk: false
 ignite: true
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: "Gareth Rushgrove"
 title: "Devops Weekly, the first 200 issues"

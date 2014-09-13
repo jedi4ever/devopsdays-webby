@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: Brian Troutwine
 title: "Automation with Humans in Mind: Making Complex Systems Predictable, Reliable and Humane"

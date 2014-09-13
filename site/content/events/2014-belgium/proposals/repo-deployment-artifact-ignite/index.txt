@@ -5,10 +5,10 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-ignite: false
+talk: false
+ignite: true 
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: "Inny So"
 title: "Repository as an deployment artifact"
