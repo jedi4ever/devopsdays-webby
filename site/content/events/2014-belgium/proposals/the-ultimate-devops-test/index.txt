@@ -8,7 +8,7 @@ proposal: true
 talk: false
 ignite: true
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: "Marta Paciorkowska"
 title: "The ultimate DevOps test"

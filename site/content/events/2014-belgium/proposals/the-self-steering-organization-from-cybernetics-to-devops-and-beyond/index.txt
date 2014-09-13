@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: Jeff Sussna
 title: "The Self-Steering Organization: From Cybernetics to DevOps and Beyond"

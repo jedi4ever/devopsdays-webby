@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: Dave Mangot
 title: "The Cognitive Neuroscience of Empathy: You're a DevOps Natural"

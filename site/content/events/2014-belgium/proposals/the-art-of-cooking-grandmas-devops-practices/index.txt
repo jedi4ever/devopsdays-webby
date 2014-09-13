@@ -8,7 +8,7 @@ proposal: true
 talk: false
 ignite: true
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: "Sandy Flath"
 title: "The Art of Cooking – Grandma’s DevOps practices – or how to compete with her in your environment"

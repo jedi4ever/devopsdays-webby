@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event
 author: "Nigel Kersten"
 title: "Cognitive Biases in Tech: Awareness of our own bugs in decision making"
