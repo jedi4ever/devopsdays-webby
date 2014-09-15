@@ -42,7 +42,8 @@ filter:    erb
   { :image => "inuits.png", :name => "Inuits", :link => "http://www.inuits.be/"},
   { :image => "nucleus.png", :name => "Nucleus", :link => "http://www.nucleus.be/"},
   { :image => "super-visions.png", :name => "Super Visions", :link => "http://www.super-visions.com/"},
-  { :image => "cegeka.png", :name => "Cegeka", :link => "http://agileinthecore.net/"}
+  { :image => "cegeka.png", :name => "Cegeka", :link => "http://agileinthecore.net/"},
+  { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -60,7 +61,6 @@ filter:    erb
   { :image => "scalefactory.png", :name => "Scale Factory", :link => "http://scalefactory.com"},
   { :image => "opsmatic.png", :name => "Opsmatic", :link => "http://opsmatic.com"},
   { :image => "imvalues.png", :name => "imValues", :link => "http://www.imvalues.nl/"},
-  { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
 ]%>
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 <% @bsponsors.each do |sponsor| %>
