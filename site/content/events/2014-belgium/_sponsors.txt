@@ -60,6 +60,7 @@ filter:    erb
   { :image => "scalefactory.png", :name => "Scale Factory", :link => "http://scalefactory.com"},
   { :image => "opsmatic.png", :name => "Opsmatic", :link => "http://opsmatic.com"},
   { :image => "imvalues.png", :name => "imValues", :link => "http://www.imvalues.nl/"},
+  { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
 ]%>
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 <% @bsponsors.each do |sponsor| %>
