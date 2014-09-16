@@ -16,7 +16,8 @@ filter:    erb
   { :image => "nextbigsound.png", :name => "Next Big Sound", :link => "http://www.nextbigsound.com/"},
   { :image => "mongodb.png", :name => "Mongodb", :link => "http://mongodb.com/"},
   { :image => "gigaspaces.png", :name => "GigaSpaces", :link => "http://www.gigaspaces.com/"},
-  { :image => "ruxit.png", :name => "Ruxit", :link => "http://www.ruxit.com/"}
+  { :image => "sematext.png", :name => "Sematext", :link => "http://sematext.com/"},
+  { :image => "datadog.png", :name => "Datadog", :link => "http://datadoghq.com/"}
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
