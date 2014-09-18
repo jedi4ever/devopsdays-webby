@@ -4,9 +4,9 @@ filter:
   - erb
   - markdown
 title: DevOps in Telecoms - is it possible?
-proposal: true
+proposal: false
 dirty: true
-talk: true
+talk: false
 ignite: false
 open_space: false
 selected: false
