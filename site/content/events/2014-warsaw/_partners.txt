@@ -10,6 +10,7 @@ filter: erb
   { :image => 'kreuzwerker.jpg', :name => 'IBM - Polska', :link => 'http://kreuzwerker.de/en/'},
   { :image => 'kainos.jpg', :name => 'Kainos', :link => 'http://kainos.pl/'},
   { :image => 'eximit.jpg', :name => 'e-Xim IT', :link => 'http://e-xim.pl/metody/wspomaganie-cyklu-wytworczego-oprogramowania.html'},
+  { :image => 'sematext.jpg', :name => 'Sematext', :link => 'http://sematext.com/'},
 ]%>
 
 <% if @gold_partners.empty?  %>
