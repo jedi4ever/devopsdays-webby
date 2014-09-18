@@ -16,6 +16,8 @@ filter:    erb
   { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/us/products/application-delivery.aspx?intcmp=headernav"},
   { :image => "kangaroot.png", :name => "Kangaroot", :link => "http://www.kangaroot.net/"},
   { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com/"},
+  { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
+  { :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com/"}
 ]%>
 
 
