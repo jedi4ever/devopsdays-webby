@@ -34,6 +34,7 @@ filter:    erb
 <% @hsponsors = [
   { :image => "chef.png", :name => "Getchef", :link => "http://www.getchef.com/", :deal => 'Happy Hour'},
   { :image => "elasticsearch.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.com/", :deal => 'Lanyard'},
+  { :image => "axelos.png", :name => "Axelos", :link => "http://www.axelos.com/", :deal => 'Barista'},
 ]%>
 
 <% @hsponsors.each do |sponsor| %>
