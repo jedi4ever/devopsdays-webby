@@ -24,16 +24,16 @@ monitoring servers and running predefined code on them. Additionally, it had to 
 presentation will focus on our approach to remote execution using technologies such as Saltstack, Django and Celery. We
 will share a few problems we encountered and how we managed to solve them. 
 
-**Speaker:**
+**Speakers:**
 
-Piotr Ćwiek:<br />
+Piotr Ćwiek<br />
 
 Python programmer converted by necessity from the curly-bracket and strongly-typed. During my three years at Samsung R&D
 Institute Poland I supported Android commercialization with Python+Qt desktop tools, developed web systems in Django,
 almost drowned in JavaScript and, lately, designed software abstractions around SaltStack. As a trainer, I'm spreading
 the joy of Python programming. 
 
-Marcin Baryłka:<br />
+Marcin Baryłka<br />
 
 Software engineer since 1997. At 2007, he started using Python (in dramatic conditions) and quickly became its fanboy.
 He worked for Bonnier Business press, where worked as a developer of Puls Biznesu pb.pl portal, and now works as
