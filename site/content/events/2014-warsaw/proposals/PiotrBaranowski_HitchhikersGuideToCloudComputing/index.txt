@@ -35,7 +35,10 @@ author: Piotr Baranowski
 **Speaker:**
 
 IT systems architect, admin, hacker, spoiler.
+
 Fan of all the varietes of car races and motorcycles which make a lot of noise.
+
 Red Hat Instructor/Lecturer/Examiner for 11 years. Open source Ambassador.
 
 Promoter of OpenStack, OpenShift, Docker and some other strange tools that are supposed to make developers' lives easier.
+

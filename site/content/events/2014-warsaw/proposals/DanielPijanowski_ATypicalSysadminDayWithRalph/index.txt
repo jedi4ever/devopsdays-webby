@@ -22,7 +22,8 @@ author: Daniel Pijanowski
 A typical sysadmin day with ralph.
 
 Ralph is full-featured Asset Management, DCIM and CMDB system for data center and back office.
-And what a typical day working with the Ralph looks like? Answers to this question will know from the point of view of the sysadmin. Will be presented daily tasks, eg. adding a new machine/device to the system Ralph, updated information about the detected hardware and software, etc.. Tasks with which you may encounter in sysadmin everyday life.
+
+And what a typical day working with the Ralph looks like? Answers to this question will know from the point of view of the sysadmin. Will be presented daily tasks, eg. adding a new machine/device to the system Ralph, updated information about the detected hardware and software, etc. Tasks with which you may encounter in sysadmin everyday life.
 
 **Speaker:**
 
