@@ -3,37 +3,65 @@ extension: html
 filter:
   - erb
   - markdown
-title: 'Lessons learned building a petabyte-scale data infrastructure'
-proposal: true
+title: Proposals
 dirty: true
-talk: false
-ignite: true
-open_space: false
-selected: false
 layout: event_warsaw
-author: Zoltan Toth and Julianna Göbölös-Szabó
 ---
-
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-**Abstract:**
+<center>
+  <strong><em>Note:</em></strong></br>
+  We are no longer accepting new talk proposals!<br/>
+  Check our current <a href='<%= File.join('/',@eventhome,'/program') -%>'>program</a>, it's ready!
+</center>
+<br/>
+<hr/>
 
-Back in 2011 at Prezi we started off with a single SQL query that worked on a few megabytes of data and produced somewhat accurate numbers satisfying basic business needs. This used to be our BI platform. Today we run a data infrastructure with around 70 high-performance servers that crunch hundreds of gigabytes of data and feed hundreds of reports day by day.
+This page list the suggested topics and/or speakers, proposed talks and ignites we have received.<br/><br/>
+<strong><em>Note:</em></strong> Some talks will most likely provide an opportunity for further discussion
+in form of an <em>Open Spaces</em> style collaboration for people to talk about various ideas or whatever
+they want.<br/>
 
-Along this journey we used standard Unix and statistical software, later on-premise Hadoop clusters, NoSQL databases and third-party BI tools. Learning from our mistakes we rebuilt our data infrastructure and ETL systems many times.
+Help the organisers and presenters with your feedback!<br/>
+Feel free to contact us by e-mail at: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
 
-We’ll share the successes and misses we encountered throughout this journey with a special focus on our current experiences with managed solutions such as Amazon’s Elastic MapReduce Hadoop solution and Redshift, Amazon’s hosted data warehouse solution.
+<h2>Conference Talks</h2>
+<ol>
+<%
+  talks = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
+                      :recursive => true, :sort_by => "title",
+                      :reverse => true, :talk => true)
+  talks.delete(@page)
+  talks.each do |talk|
+-%>
+<li><%= link_to_page(talk) %> - <%= talk.author %>
+<% end -%>
+</ol>
 
-**Speaker:**
+<h2>Ignite Talks</h2>
+<ol>
+<%
+  ignites = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
+                  :recursive => true, :sort_by => "title",
+                        :reverse => true, :ignite => true)
+  ignites.delete(@page)
+  ignites.each do |ignite|
+-%>
+<li><%= link_to_page(ignite) %> - <%= ignite.author %>
+<% end -%>
+</ol>
 
-__Zoltán Tóth__
-Data Engineer
-
-Prior to joining Prezi Zoltán worked as a developer/architect for pharmaceutical market research companies. Now, as Senior Data Engineer, he helps Prezi build and operate a world-class data infrastructure. In his free time he enjoys cooking and simplicity and is a wannabe triathlete.
-
-__Julianna Göbölös-Szabó__
-Data Engineer
-
-As a mathematician by education, Julcsi worked for years in a research institute and analysed big networks. Now she is a data engineer at Prezi building a reliable and easy-to-use ETL system for both developers and non-tech colleagues. In her free time she enjoys eating delicious food and then burning calories with running, swimming or biking.
-
+<h2>Open Sessions</h2>
+<ol>
+<%
+  open_sessions = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
+                        :recursive => true, :sort_by => "title",
+                  :reverse => true, :open_session => true)
+  open_sessions.delete(@page)
+  open_sessions.each do |open_session|
+-%>
+<li><%= link_to_page(open_session) %> - <%= open_session.author %>
+<% end -%>
+To be added. <i><a href='<%= File.join('/',@eventhome,'/propose') -%>'>Be the first to propose!</a></i>
+</ol>
