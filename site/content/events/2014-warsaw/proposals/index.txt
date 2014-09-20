@@ -43,7 +43,7 @@ Feel free to contact us by e-mail at: <a href='mailto:<%= render(:partial => "/#
 <ol>
 <%
   ignites = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
-	                :recursive => true, :sort_by => "title",
+                  :recursive => true, :sort_by => "title",
                         :reverse => true, :ignite => true)
   ignites.delete(@page)
   ignites.each do |ignite|
@@ -56,8 +56,8 @@ Feel free to contact us by e-mail at: <a href='mailto:<%= render(:partial => "/#
 <ol>
 <%
   open_sessions = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals",
-	                      :recursive => true, :sort_by => "title",
-		              :reverse => true, :open_session => true)
+                        :recursive => true, :sort_by => "title",
+                  :reverse => true, :open_session => true)
   open_sessions.delete(@page)
   open_sessions.each do |open_session|
 -%>

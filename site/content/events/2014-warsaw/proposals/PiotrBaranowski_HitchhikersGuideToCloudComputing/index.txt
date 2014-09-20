@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Hitchhiker's guide to cloud computing
+proposal: true
+dirty: true
+talk: true
+ignite: false
+open_space: false
+selected: false
+layout: event_warsaw
+author: Piotr Baranowski
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+- Intro
+- Consumer vs. Creator
+- Issues of both worlds
+- XXI century strategies
+- *aaS?
+- OpenStack
+- OpenShift
+- Docker
+- GearD
+- How to start?
+- A couple of finishing words
+- One and single slide with a name of the speaker that makes the projector burn out
+
+**Speaker:**
+
+IT systems architect, admin, hacker, spoiler.
+
+Fan of all the varietes of car races and motorcycles which make a lot of noise.
+
+Red Hat Instructor/Lecturer/Examiner for 11 years. Open source Ambassador.
+
+Promoter of OpenStack, OpenShift, Docker and some other strange tools that are supposed to make developers' lives easier.
+

@@ -6,3 +6,4 @@ site/output/*
 .idea
 
 /.ruby-version
+.vagrant
