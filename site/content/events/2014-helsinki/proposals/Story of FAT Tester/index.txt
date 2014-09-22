@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: true
+talk_day2: false
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Mika Karaila
+title: Story of FAT Tester, running millions of test cases
+---
+History of ideas and how it got implemented. 
+From fast proof-of-concept to to actual devops based implementation. 
+Fast way to save time in testing, reporting and tracing delivery projects. 
+
+Mika Karaila has a long history in distributed system design, visual languages & tools. 
+Results-oriented mind set, want to look how things are really implemented. 

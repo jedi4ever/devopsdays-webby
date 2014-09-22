@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Mika Karaila
+title: Speeding up deployments of large-scale automation systems
+---
+Selecting right components for implementing test automation. 
+Integration with legacy system: design data & communication. 
+Using end user keywords in domain specific test cases. 
+
+Mika Karaila has a long history in distributed system design, visual languages & tools. 
+Results-oriented mind set, want to look how things are really implemented. 

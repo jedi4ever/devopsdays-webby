@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Tero Parviainen
+title: Why The Front-End Needs Ops
+---
+Webapps are essentially distributed systems these days, with the front-end running on unknown software and hardware, behind slow, unreliable connections. Yet, we keep building more and more sophisticated front-end apps to ship into this great, murky unknown.
+
+How does one engineer a front-end web application so that it’s robust enough to function in these hugely varying environments? And when you’ve shipped an application, how do you know if it’s doing what it’s supposed to do? To answer these questions, you need not just front-end development but also front-end operations. This largely consists of taking the practices and tools we already have on the server, but applying them in a new way to the web delivery platform. It’s a difficult and very, very interesting problem. 
+
+This talk reflects on the particular problems I’ve faced during my 6+ years as a primarily front-end developer, and the solutions that we now have for them.
+
+Tero Parviainen is an independent software developer who has been creating web applications professionally for over 12 years. He is currently focusing on frontend web development in JavaScript and HTML5. He also has substantial experience in technologies like Java, Ruby, and Clojure. Tero is the author of Real-time Web Application Development using Vert.x 2.0. He is active in the Clojure community, organizing events such as the Clojure Cup, and some Clojure user group activities in Finland. He has published book Build Your Own AngularJS.

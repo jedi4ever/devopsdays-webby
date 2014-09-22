@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Niko Kurtti
+title: Docker at Shopify
+---
+At Shopify, we've been working with Docker since January 2014. As of this summer all Shopify store traffic (~200K RPM) 
+is served from Docker containers. This talk covers some of the challenges we've had to deal with to deploy Docker:
+
+The datacenter operating system we're building towards to provide a PaaS within Shopify.
+What a Docker-powered PaaS means for our development and operations teams.
+Orchestrating and deploying 100s of containers across hosts.
+Docker is still early in the adoption curve, and there aren't a lot of people publicly talking about their experiences 
+integrating it into their environments. We would like to share how we're linking Docker into our organization.
+
+Niko Kurtti is a tinkerer who is fortunate enough to get paid for doing it professionally at Shopify. Recovering Java programmer
+doing mostly Ruby these days. Loves to talk about WEBSCALE and infrastructure as code. Lives in the countryside with a 
+fiance, VW Beetle and three cats.

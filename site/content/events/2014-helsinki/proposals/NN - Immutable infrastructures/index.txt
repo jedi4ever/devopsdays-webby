@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk_day1: false
+talk_day2: false
+ignite: false
+suggestion: true
+selected: false
+layout: event
+author: TBD
+title: NN - Immutable infrastructures
+---
+I would like to hear about immutable infrastructures. Maybe something with CoreOS + Docker or maybe I come to speak...
+
+Ilari Mäkelä, Lead Quality Assurance Specialist, Solinor

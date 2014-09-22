@@ -11,11 +11,11 @@ layout: event
 <% parent="/#{@eventhome}/proposals" %>
 This page list the suggested topics/speakers, proposed talks  and ignites we have received. Help the presenters with your feedback! 
 
-<h2>Conference Talks</h2>
+<h2>Day 1 Talks</h2>
 <ol>
 <%
   articles = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => true, :talk => true)
+      :sort_by => "title", :reverse => true, :talk_day1 => true)
   articles.delete(@page)
   articles.each do |page|
 -%>
@@ -23,7 +23,19 @@ This page list the suggested topics/speakers, proposed talks  and ignites we hav
 <% end -%>
 </ol>
 
-<h2>Ignite Talks</h2>
+<h2>Day 2 Talks</h2>
+<ol>
+<%
+  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "title", :reverse => true, :talk_day2 => true)
+  articles.delete(@page)
+  articles.each do |page|
+-%>
+<li><%= link_to_page(page) %> - <%= page.author %> 
+<% end -%>
+</ol>
+
+<h2>Ignites</h2>
 <ol>
 <%
   ignites = @pages.find(:all, :in_directory => parent, :recursive => true,
