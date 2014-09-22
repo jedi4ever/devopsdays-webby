@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: true
+talk_day2: false
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Ilari Mäkelä
+title: When the cloud doesn’t scale
+---
+From an idea to production in an hour. How to do Lean with DevOps superpowers?
+
+Ilari Mäkelä, Lead Quality Assurance Specialist, Solinor

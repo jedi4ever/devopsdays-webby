@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Niko Kurtti
+title: When the cloud doesn’t scale
+---
+Cloud is nice and fluffy until the very moment you realize that you are coming up with workarounds to work with the service
+limitations. And that you are paying an arm a leg for it, and still getting certain shape box, and it's not the shape you
+need anymore. It's easy to get started with a blackbox service, but harder to make it grow with you. 
+
+At Shopify we try to reap the benefits of running our own infrastructure to keep our customers 24/7 and 200K+ RPM business ticking
+while trying to make bare metal as programmable as a cloud service. This talk covers the cost, performance and technical
+reasons behind that, and how we handle our datacenters as agile as possible.
+
+Niko Kurtti is a tinkerer who is fortunate enough to get paid for doing it professionally at Shopify. Recovering Java programmer
+doing mostly Ruby these days. Loves to talk about WEBSCALE and infrastructure as code. Lives in the countryside with a 
+fiance, VW Beetle and three cats.
