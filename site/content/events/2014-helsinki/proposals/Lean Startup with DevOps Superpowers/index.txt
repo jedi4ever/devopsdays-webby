@@ -12,7 +12,7 @@ suggestion: false
 selected: false
 layout: event
 author: Ilari Mäkelä
-title: When the cloud doesn’t scale
+title: Lean Startup with DevOps Superpowers
 ---
 From an idea to production in an hour. How to do Lean with DevOps superpowers?
 
