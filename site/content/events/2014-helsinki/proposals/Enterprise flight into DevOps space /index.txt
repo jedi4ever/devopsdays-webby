@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Andrey Adamovich
+title: Enterprise flight into DevOps space
+---
+Enterprise adoption of DevOps is something that is already happening, but like 
+with other trendy methodologies it happens quite differently with different 
+level of success. This presentation accumulates speaker's experience in helping 
+different size organizations to implement DevOps initiatives and gives 
+interesting real life examples: war stories, jokes, myths. 
+
+During last years we accumulated a lot of experience helping our clients 
+automating their JVM projects starting from automated deployments and ending 
+with fully automated production infrastructure configuration. 
+
+Andrey Adamovich is a software craftsman with many years of experience in 
+different lifecycle phases of software creation. Andrey's love is JVM ecosystem. 
+In recent years, he tries to apply JVM goodness and Puppet ecosystem to DevOps 
+initiatives his company is implementing for several clients.  He is one of the 
+authors of Groovy 2 Cookbook as well as frequent speaker at local communities 
+and conferences.

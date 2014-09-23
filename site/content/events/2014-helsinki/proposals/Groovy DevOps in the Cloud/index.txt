@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Andrey Adamovich
+title: Groovy DevOps in the Cloud
+---
+The presentation focuses on open-source Groovy/Java libraries that we have 
+developed in order to solve our daily DevOps problems including SSH 
+connectivity, cloud instance management, OS image management and integration 
+testing of Puppet modules with the help of Groovy and Junit. In the beginning of 
+the talk, attendees are introduced to DevOps principles and problems it is trying 
+to solve. After that we dive into the journey we had to take and tools we've 
+created to help us reuse JVM knowledge we already had in the team as well as 
+integrate operations team into DevOps initiatives and move closer to complete 
+infrastructure-as-code dream.  
+
+This presentation was already given at Java Day Riga (2013), DevOpsDays 
+Ljubljana (2014), DevConfu Jurmala (2014), Devoxx UK (2014).
+
+Andrey Adamovich is a software craftsman with many years of experience in 
+different lifecycle phases of software creation. Andrey's love is JVM ecosystem. 
+In recent years, he tries to apply JVM goodness and Puppet ecosystem to DevOps 
+initiatives his company is implementing for several clients.  He is one of the 
+authors of Groovy 2 Cookbook as well as frequent speaker at local communities 
+and conferences.
