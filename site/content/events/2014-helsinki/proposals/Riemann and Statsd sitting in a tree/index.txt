@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Simão Mata
+title: Riemann and Statsd sitting in a tree
+---
+Monitoring our systems is a problem that is not yet solved. That is
+why initiatives like Monitoring Sucks [1] exist.
+
+Riemann [2] is a a very powerful monitoring system that helps us
+monitor our distributed systems. With riemann we can use a powerful
+stream processing language to analyze our metrics and send emails,
+track metrics, combine statistics, etc.
+
+But switching to riemann is not easy if you have a statsd/graphite
+monitoring architecture in place. You would need to send all your
+metrics to riemann instead of statsd and this takes some time to
+change.
+
+In this talk I will give an introduction to riemann and show how you
+can set it up without changing your existent statsd/graphite
+architecture. You can continue to send metrics to statsd and they will
+be processed by riemann so your #monituringsucks less.
+
+My name is Simão Mata. I was born in Portugal and moved to Berlin
+three years ago. For the last year I have been working as
+backend/devops engineer at wimdu.com, where we have some very
+interesting problems to solve. I write about software at https://simao.io/blog.
+
+[1]: https://github.com/monitoringsucks
+[2]: http://riemann.io/

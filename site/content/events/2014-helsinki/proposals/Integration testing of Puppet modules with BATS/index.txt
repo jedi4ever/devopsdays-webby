@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Andrey Adamovich
+title: Integration testing of Puppet modules with BATS
+---
+This presentation describes an approach for creating integration tests for 
+Puppet modules with the help of BATS (Bash Automated Testing System), which 
+supports TAP (Test Anything Protocol). Examples are given of how to write the 
+tests, what are the pitfalls, and how to present test report. It also discusses 
+techniques of reusing integration tests as a monitoring tool for production 
+systems.
+
+Andrey Adamovich is a software craftsman with many years of experience in 
+different lifecycle phases of software creation. Andrey's love is JVM ecosystem. 
+In recent years, he tries to apply JVM goodness and Puppet ecosystem to DevOps 
+initiatives his company is implementing for several clients.  He is one of the 
+authors of Groovy 2 Cookbook as well as frequent speaker at local communities 
+and conferences.

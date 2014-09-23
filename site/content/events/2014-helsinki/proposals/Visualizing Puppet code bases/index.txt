@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Andrey Adamovich
+title: Visualizing Puppet code bases
+---
+Treating infrastructure as code gives tremendous possibilities. Puppet DSL and 
+module structure allows applying interesting techniques to visualize and 
+quantify useful code metrics and features. Tools like gource, dot, gnuplot, 
+d3.js can come handy in producing amazing visualizations. This presentation 
+shares author's experience in analyzing and visualizing custom Puppet code bases.
+
+Andrey Adamovich is a software craftsman with many years of experience in 
+different lifecycle phases of software creation. Andrey's love is JVM ecosystem. 
+In recent years, he tries to apply JVM goodness and Puppet ecosystem to DevOps 
+initiatives his company is implementing for several clients.  He is one of the 
+authors of Groovy 2 Cookbook as well as frequent speaker at local communities 
+and conferences.
