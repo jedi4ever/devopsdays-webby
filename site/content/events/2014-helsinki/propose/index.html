@@ -59,9 +59,18 @@ Suggestions so far:
 <% end -%>
 </ol>
 
-Talks so far:
+Day 1 talks so far:
 <ol>
-<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :talk => true)
+<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :talk_day1 => true)
+  suggestions.each do |suggestion|
+-%>
+<li><%= link_to_page(suggestion) %> - <%= suggestion.author %>
+<% end -%>
+</ol>
+
+Day 2 talks so far:
+<ol>
+<% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :talk_day2 => true)
   suggestions.each do |suggestion|
 -%>
 <li><%= link_to_page(suggestion) %> - <%= suggestion.author %>
