@@ -11,6 +11,6 @@ filter: erb
     <a href="/<%= @eventhome %>/sponsor">Sponsor</a>&nbsp;
     <a href="/<%= @eventhome %>/proposals">Proposals</a>&nbsp;
     <a href="/<%= @eventhome %>/propose">Propose</a>&nbsp;
-    <a href="/<%= @eventhome %>/conduct">conduct</a>&nbsp;
+    <a href="/<%= @eventhome %>/conduct">Conduct</a>&nbsp;
   </h3>
 </div>

@@ -27,6 +27,7 @@ filter: erb
  { :image => "epost.jpeg", :name => "Deutsche Post E-Post", :link => "http://www.epost.de/privatkunden/recruiting/jobs.html"},
  { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/de/default.aspx"},
  { :image => "cloudrunner.png", :name => "CloudRunner I/O", :link => "http://www.cloudrunner.io"},
+ { :image => "hypoport.png", :name => "Hypoport", :link => "http://blog-it.hypoport.de"},
 ]%>
 
 <h1>Silver sponsors</h1>
