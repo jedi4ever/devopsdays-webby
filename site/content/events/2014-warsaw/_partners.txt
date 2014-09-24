@@ -27,6 +27,7 @@ filter: erb
   { :image => 'itsmfpolska.jpg', :name => 'itSMF - Polska', :link => 'http://www.itsmf.org.pl/'},
   { :image => 'chef.jpg', :name => 'Chef', :link => 'http://www.getchef.com/'},
   { :image => 'ansible.jpg', :name => 'Ansible', :link => 'http://www.ansible.com/'},
+  { :image => 'sii.jpg', :name => 'Sii', :link => 'http://pl.sii.eu/pl/'},
 ]%>
 
 <% unless @silver_partners.empty?  %><h1>Silver partners</h1><% end %>
