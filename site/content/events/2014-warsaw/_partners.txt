@@ -7,7 +7,7 @@ filter: erb
   { :image => '4finance.jpg', :name => 'IT Vivus', :link => 'http://www.4finance.com/'},
   { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
   { :image => 'ibm.jpg', :name => 'IBM - Polska', :link => 'http://www.ibm.com/pl/'},
-  { :image => 'kreuzwerker.jpg', :name => 'IBM - Polska', :link => 'http://kreuzwerker.de/en/'},
+  { :image => 'kreuzwerker.jpg', :name => 'kreuzwerker GmbH', :link => 'http://kreuzwerker.de/en/'},
   { :image => 'kainos.jpg', :name => 'Kainos', :link => 'http://kainos.pl/'},
   { :image => 'eximit.jpg', :name => 'e-Xim IT', :link => 'http://e-xim.pl/metody/wspomaganie-cyklu-wytworczego-oprogramowania.html'},
   { :image => 'sematext.jpg', :name => 'Sematext', :link => 'http://sematext.com/'},
@@ -27,6 +27,7 @@ filter: erb
   { :image => 'itsmfpolska.jpg', :name => 'itSMF - Polska', :link => 'http://www.itsmf.org.pl/'},
   { :image => 'chef.jpg', :name => 'Chef', :link => 'http://www.getchef.com/'},
   { :image => 'ansible.jpg', :name => 'Ansible', :link => 'http://www.ansible.com/'},
+  { :image => 'sii.jpg', :name => 'Sii', :link => 'http://pl.sii.eu/pl/'},
 ]%>
 
 <% unless @silver_partners.empty?  %><h1>Silver partners</h1><% end %>
