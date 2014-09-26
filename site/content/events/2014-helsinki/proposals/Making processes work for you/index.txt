@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: true
+talk_day2: false
+ignite: false
+suggestion: false
+selected: false
+layout: event
+author: Mikko Paukkila
+title: Making processes work for you
+---
+Mikko will tell based on his experience dos and don'ts what processes and tools companies & projects should remember to have in place to enable software development to work most efficiently and to produce high quality.
+
+Mikko Paukkila (Nokia Technologies) is an expert in software build, release, testing and integration area. He has experience of multiple software development environments Linux, Mac, Windows, Android, Qt, Symbian etc. He has also wide knowledge of agile & lean processes and related tools from small 10-20 people software and hardware product projects to very large projects of 1000+ developers. He has been driving deployment of continuous integration processes in an international environment and has been administrating related tools like Jenkins and Gerrit.
