@@ -9,18 +9,34 @@ def make_sponsor_links(sponsors)
 end
 %>
 
+<h1>Special sponsors</h1>
+<% @hsponsors = [
+  { :image => "eficode.png", :name => "Eficode", :link => "http://www.eficode.com"}
+]%>
+
+<% @hsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img  border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
 <% @gsponsors = [
+  { :image => "cybercom.png", :name => "Cybercom", :link => "http://www.cybercom.com/fi/Suomi/"},
+  { :image => "nordcloud.png", :name => "Nordcloud", :link => "http://nordcloud.com/"},
+  { :image => "redhat.png", :name => "Nordicmind", :link => "http://www.nordicmind.com/"},
+  { :image => "siili.png", :name => "Siili", :link => "http://www.siili.fi/"},
+  { :image => "solita.png", :name => "Solita", :link => "http://www.solita.fi"}
 ]%>
 
 <% if @gsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Sponsoring options</a></i>
 <% end %>
 
+<h1>Gold sponsors</h1>
 <% @gsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
 <% @ssponsors = [
+  { :image => "nitor.png", :name => "Nitor Creations", :link => "http://nitorcreations.com"},
+
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
