@@ -47,7 +47,7 @@ filter:    erb
   { :image => "super-visions.png", :name => "Super Visions", :link => "http://www.super-visions.com/"},
   { :image => "cegeka.png", :name => "Cegeka", :link => "http://agileinthecore.net/"},
   { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
-  { :image => "oreilly.png", :name => "O'Reilly", :link => "http://http://www.oreilly.com/"},
+  { :image => "oreilly.png", :name => "O'Reilly", :link => "http://www.oreilly.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
