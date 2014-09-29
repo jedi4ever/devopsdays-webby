@@ -10,7 +10,7 @@ talk_day2: false
 ignite: false
 suggestion: false
 selected: false
-layout: event
+layout: event_helsinki
 author: Niilo Ursin
 title: Continuous Deployment of a Single Page Application - How continuous deployment helps business to prosper?
 ---

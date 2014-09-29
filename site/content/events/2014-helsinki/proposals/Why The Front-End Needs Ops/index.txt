@@ -10,7 +10,7 @@ talk_day2: true
 ignite: false
 suggestion: false
 selected: false
-layout: event
+layout: event_helsinki
 author: Tero Parviainen
 title: Why The Front-End Needs Ops
 ---
