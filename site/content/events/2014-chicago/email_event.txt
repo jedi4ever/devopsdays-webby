@@ -1,0 +1,46 @@
+	
+It’s almost time for DevOpsDays Chicago, happening October 7th and 8th! We’ll kick off sessions at 9am sharp each day, with registration, breakfast, and sponsor tables opening at 8am. The organizers are so excited to welcome you! Here are a few details you’ll want to review before the event.
+ 
+Code of Conduct
+Respect and empathy are core DevOps values. Make sure you’ve read our code of conduct! We will enforce it. 
+ 
+Registration
+The Registration desk with your badge and T-shirt will be on the 37th floor of the venue. Please check in with Willis Tower Security on the ground floor before coming up to the 37th floor. We will print your first and last name on your badge, which you’ll pick up at registration upon arrival. If you want your Twitter handle and/or organizational affiliation on your badge, please log in to Eventbrite and edit them into your registration before 11:59pm CDT on Friday, October 3, (as we’ll be printing the badges this weekend). If you have trouble doing that, please just reply to this mail with the information.
+ 
+Location
+We will be on the 37th floor of the Willis Tower. The address is 233 S. Wacker Drive, Chicago.
+ 
+For those of you staying in the conference hotel (the LaQuinta), the hotel is located about 3 blocks north of the venue. From the hotel, head south on Franklin Street. The entrance to the Willis Tower is on the west side of Franklin just south of Adams.
+ 
+Parking
+There is parking available in the Tower Self Park garage near the venue, however, it is quite pricey (>$40/day), so we highly recommend taking public transportation.
+
+Transportation
+From the airport, it’s a 25-min light-rail ride toward Downtown Minneapolis to the Nicollet Mall station. It costs $2.25 during rush hour and $1.75 otherwise. From the station, walk southwest on Nicollet Mall from 5th St to 11th St (or take the bus marked FREE RIDE), turn right onto 11th, and the DoubleTree Suites will be a block 
+down on your left.
+
+Uber (including UberX) and Lyft are available in Chicago as taxi alternatives.
+
+Wednesday Night Social Event
+We have a great party planned for all of you on Wednesday night. The sessions break at 5pm and you can head off to dinner on your own (or head home for a bit), but join us half a mile away from 7pm-midnight. We’ll have ice cream, snacks, local brews and non-alcoholic beverages, Trivia Mafia (yes, with Chuck and Sean! and with prizes like O’Reilly books, tickets to Velocity NY, Chef Conf, and Chef Summit), lawn games, music that doesn’t drown you out, party games like DevOps Against Humanity and Werewolf, & more! This is a fun way to relax and get to know the other attendees. Wear your conference badge for admittance.  
+
+Schedule
+The program for this two-day event promises a great time; just look at that lineup of speakers! We’ll be live-streaming the 30min talks and Ignites. Note that we’ll feed you breakfast and lunch both days! And consider proposing topics at Open Space if you like.
+
+Social Media
+The conference Twitter hashtag will be simply #devopsdays. Please tweet, blog, and otherwise share what you learn with everyone who isn’t able to attend but could benefit from your experience!  
+
+Food & Drink
+Breakfast, lunch, and non-stop coffee will be served on-site at the conference.
+ 
+ 
+As you’re searching for dinner and late-night options outside the Thursday social, Yelp is a great source in downtown Chicago. Calling ahead or using OpenTable is a good idea on Thurs/Fri night as wait times at popular places can exceed an hour. Some specific recommendations:
+
+Local: Devil’s Advocate, Hell’s Kitchen, and Butcher & the Boar ($$)
+Sushi: Origami, Zen Box Izakaya, and Ichiban
+Vegan: (nearby) Pizza Luce, Gorkha Palace, (farther away) Hard Times Café (till 4am), Ecopolitan, and Evergreen
+Cultural: MN has the largest Somali and 2nd-largest Hmong populations in the US. Good Somali food is nearby in the Cedar-Riverside area, and Hmong Village in St. Paul (25 min drive) is open till 7pm.
+For drinks, nearby favorites are The Local, the Bulldog, Devil's Advocate, Butcher & the Boar (check out the tent in back), and Mackenzie. Bars must close by 2am but may close earlier.
+
+Sponsors
+This event is made possible by our amazing sponsors! See all sponsors and links to sites at http://devopsdays.org/events/2014-chicago/ 
