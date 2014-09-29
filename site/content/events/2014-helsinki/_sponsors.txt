@@ -22,7 +22,7 @@ end
   { :image => "nordcloud.png", :name => "Nordcloud", :link => "http://nordcloud.com/"},
   { :image => "redhat.png", :name => "Nordicmind", :link => "http://www.nordicmind.com/"},
   { :image => "siili.png", :name => "Siili", :link => "http://www.siili.fi/"},
-  { :image => "solita.png", :name => "Solita", :link => "http://www.solita.fi"}
+  { :image => "solita.png", :name => "Solita", :link => "http://www.solita.fi/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -35,8 +35,8 @@ end
 <% end %>
 
 <% @ssponsors = [
-  { :image => "nitor.png", :name => "Nitor Creations", :link => "http://nitorcreations.com"},
-
+  { :image => "deveo.png", :name => "Deveo", :link => "https://deveo.com/"},
+  { :image => "nitor.png", :name => "Nitor Creations", :link => "http://nitorcreations.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
