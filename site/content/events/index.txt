@@ -8,6 +8,11 @@ title: Devopsdays Events
 The following events took place in the past:
 
 <ul>
+<li><a href="/events/2014-warsaw/">Warsaw 2014</a></li>
+<li><a href="/events/2014-newyork/">New York 2014</a></li>
+<li><a href="/events/2014-toronto/">Toronto 2014</a></li>
+<li><a href="/events/2014-boston/">Boston 2014</a></li>
+<li><a href="/events/2014-brisbane/">Brisbane 2014</a></li>
 <li><a href="/events/2014-minneapolis/">Minneapolis 2014</a></li>
 <li><a href="/events/2014-siliconvalley/">Silicon Valley 2014</a></li>
 <li><a href="/events/2014-amsterdam/">Amsterdam 2014</a></li>
