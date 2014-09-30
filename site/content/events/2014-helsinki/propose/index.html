@@ -50,7 +50,9 @@ Optionally we will tell people they are a runner up or ask them to propose the s
 Come on, don't be shy. We know you've always wanted a person to give their own view on a specific subject.
 Now's your chance and we might make it happen.
 
-Suggestions so far:
+<h3>Current proposals</h3>
+
+Suggested topics so far:
 <ol>
 <% suggestions = @pages.find(:all, :in_directory => parent, :recursive => true, :sort_by => "title", :reverse => true, :suggestion => true)
   suggestions.each do |suggestion|
