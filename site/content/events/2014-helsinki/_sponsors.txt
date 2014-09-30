@@ -20,7 +20,7 @@ end
 <% @gsponsors = [
   { :image => "cybercom.png", :name => "Cybercom", :link => "http://www.cybercom.com/fi/Suomi/"},
   { :image => "nordcloud.png", :name => "Nordcloud", :link => "http://nordcloud.com/"},
-  { :image => "redhat.png", :name => "Nordicmind", :link => "http://www.nordicmind.com/"},
+  { :image => "redhat.png", :name => "Redhat", :link => "http://www.redhat.com/"},
   { :image => "siili.png", :name => "Siili", :link => "http://www.siili.fi/"},
   { :image => "solita.png", :name => "Solita", :link => "http://www.solita.fi/"}
 ]%>
