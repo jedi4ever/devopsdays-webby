@@ -34,8 +34,6 @@ What's holding us back? What will the next 5 years look like? Will we
 still be using Nagios? Have we misjudged our audience? What are our
 biggest challenges?
 
----
-
 Lindsay Holmwood is an engineering manager living in the Australian
 Blue Mountains. He runs a distributed infracoders team at Bulletproof
 that builds hassle free tools, and was responsible for ensuring 100%
