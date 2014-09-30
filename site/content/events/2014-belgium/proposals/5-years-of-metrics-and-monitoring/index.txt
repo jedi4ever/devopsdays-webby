@@ -17,8 +17,8 @@ title: "5 years of metrics and monitoring"
 
 Since then there's been a cambrian explosion of tools, a rough
 formalisation of how the tools should be strung together, the
-emergence of the #monitoringsucks meme, the transformation of
-#monitoringsucks into #monitoringlove, and the rise of a sister
+emergence of the monitoringsucks meme, the transformation of
+monitoringsucks into monitoringlove, and the rise of a sister
 community around Monitorama.
 
 Alert fatigue has become a concept that's entered the devops
