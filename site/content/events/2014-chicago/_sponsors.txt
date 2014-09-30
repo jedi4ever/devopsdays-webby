@@ -19,8 +19,8 @@ end
 { :image => "rackspace-100x100.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
 { :image => "xebialabs-100x100.png", :name => "XebiaLabs", :link => "http://xebialabs.com/"},
 { :image => "elasticsearch-100x100.png", :name => "Elasticsearch", :link => "http://www.elasticsearch.org/"},
-{ :image => "orbitz-100x100.png", :name => "Orbitz", :link => "http://www.orbitz.com/"},
 { :image => "microsoft-100x100.png", :name => "Microsoft", :link => "http://www.microsoft.com/"},
+{ :image => "orbitz-100x100.png", :name => "Orbitz", :link => "http://www.orbitz.com/"},
 { :image => "circonus-100x100.png", :name => "Circonus", :link => "http://www.circonus.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
