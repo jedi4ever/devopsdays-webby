@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Proposal 74
+title: '"If Only They Knew" - The Dunning-Kruger Effect'
+---
+
+**Abstract**
+
+In 1999, Justin Kruger and David Dunning presented their seminal work on an area of psychology through a paper titled: "Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments." The conclusions of their study became popularly referred to as the "Dunning-Kruger Effect" which is ironically often misunderstood and overstated. In this talk, you'll get a whirlwind tour of the original study, a fascinating tale or two, and why the results of the study should matter to you as a member of the software industry.
