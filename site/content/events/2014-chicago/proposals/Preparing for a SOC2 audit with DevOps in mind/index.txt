@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Proposal 25
 title: "Preparing for a SOC2 Audit with DevOps in Mind"

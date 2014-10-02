@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 ignite: true
-selected: false
+selected: true
 layout: event_html5
 author: Proposal 66
 title: "That's not a DevOps... *this* is a DevOps"

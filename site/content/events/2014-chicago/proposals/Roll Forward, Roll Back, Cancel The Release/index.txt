@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event_html5
 author: Proposal 65
 title: "Roll Forward, Roll Back, Cancel The Release"
