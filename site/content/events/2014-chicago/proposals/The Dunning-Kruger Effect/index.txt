@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Proposal 74
 title: '"If Only They Knew" - The Dunning-Kruger Effect'

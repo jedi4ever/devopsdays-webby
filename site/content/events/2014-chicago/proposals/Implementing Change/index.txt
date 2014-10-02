@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 ignite: true
-selected: false
+selected: true
 layout: event_html5
 author: Proposal 62
 title: "Implementing Change"

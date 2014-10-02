@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 ignite: true
-selected: false
+selected: true
 layout: event
 author: Proposal 73
 title: "Configuration Management for Tech Leads"
