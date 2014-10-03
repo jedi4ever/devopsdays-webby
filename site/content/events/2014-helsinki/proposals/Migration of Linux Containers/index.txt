@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false 
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Tycho Andersen
+title: Migration of Linux Containers
+---
+Linux containers have been in the news a lot recently as a convenient
+deployment mechanism for apps in the cloud. In this talk I will cover
+work that Canonical is doing to enable container checkpoint/restore,
+and ultimately migration across hosts. Under the hood, migration is
+done using a tool called CRIU, which can dump and restore entire Linux
+process trees. Since containers "just" Linux process trees with a few
+control groups and some namespaces, we can use this tool to migrate
+them. I will also do a demo of our current container migration
+capabilities.
+
+Bio
+
+Tycho is a software engineer at Canonical actively working on several
+cloud-related projects. He holds degrees from the University of
+Wisconsin--Madison and Iowa State University, and has co-authored
+several peer-reviewed papers. In his spare time he collects
+programming languages, maintains several open source projects, rides
+bicycles, and climbs mountains.
