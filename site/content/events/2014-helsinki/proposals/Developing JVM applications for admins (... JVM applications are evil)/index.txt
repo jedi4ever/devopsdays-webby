@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Ken Barber
+title: Developing JVM applications for admins (... JVM applications are evil)
+---
+So there are many complaints about the JVM platform from
+administrators. Most of the problems however are related to the way
+applications themselves are written. Development is often done with a
+lot of consideration around the end-user experience, but doesn't take
+into account the administrators experience very often.
+
+As a developer for a largely devops driven company, we have learnt a
+lot of lessons around this. This talk is about the smart things one
+can do as a developer to make system administrators lives easier, and
+how we try to do this in our own humble but opinionated way. Our goals
+have been to improve the impression of the JVM for our users by
+listening and learning, treating the interfaces that administrators
+use as serious inputs to our system that require UX consideration like
+anything and providing helpers wherever possible to bridge the gap
+between administrators and our platform.
+
+I'll be talking about what we've done to make this better, from
+configuration files to logging, to stop/start scripts and everything
+in between, and I'll also talk about the open source application
+frameworks we've developed to make this process easier and consistent
+across our various software offerings. Further to this, I'll cover
+some future ideas for improving things from here. This talk is
+targeted at developers who want to make the world a better place,
+however the talk is largely from the perspective of an ex-admin who
+has only just joined the developer ranks.
+
+Bio:
+
+For the last 2 years I've been a Ruby and Clojure developer at Puppet
+Labs, working specifically on the PuppetDB platform, and another 2
+years in professional services. Before that I worked for 13 years as a
+systems admin in the ISP and Telecommunications industry. I've worked
+for Alfresco & Blackberry in the UK, Optus in Australia and travelled
+around Europe working for various organisations helping people get up
+and running with Puppet. In my spare time I love listening to music
+and developing computer games I only show to my friends.
