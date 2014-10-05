@@ -19,6 +19,7 @@ end
 <% end %>
 <% @gsponsors = [
   { :image => "cybercom.png", :name => "Cybercom", :link => "http://www.cybercom.com/fi/Suomi/"},
+  { :image => "gofore.png", :name => "Gofore", :link => "http://gofore.com/"},
   { :image => "nordcloud.png", :name => "Nordcloud", :link => "http://nordcloud.com/"},
   { :image => "redhat.png", :name => "Redhat", :link => "http://www.redhat.com/"},
   { :image => "siili.png", :name => "Siili", :link => "http://www.siili.fi/"},
@@ -36,7 +37,8 @@ end
 
 <% @ssponsors = [
   { :image => "deveo.png", :name => "Deveo", :link => "https://deveo.com/"},
-  { :image => "nitor.png", :name => "Nitor Creations", :link => "http://nitorcreations.com/"}
+  { :image => "nitor.png", :name => "Nitor Creations", :link => "http://nitorcreations.com/"},
+  { :image => "sysart.png", :name => "Sysart", :link => "http://www.sysart.fi/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
