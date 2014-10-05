@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: true
+talk_day2: false
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Teemu Matilainen, Mikko Apo, Juha Paananen
+title: Behind the scenes of Hello World Open 2014 - Coding World Championships
+---
+What’s needed to organise the coding world championships? What kind of technology is needed? How to scale to unlimited number of visitors and competitors? How to tackle the security issues? How to support more than 18 programming languages? How to keep the budget in balance?
+
+In 30 minutes we’ll tell you how we did. From start to finish in four months. What were the key decisions. What worked well and what didn’t work so well.
+
+Bio
+
+Teemu Matilainen, Reaktor. System Administrator with coding background. Builds and breaks infrastructure and tools for it.
+
+Mikko Apo, Reaktor. Software architect. Likes big systems, performance and cares about user experience.
+
+Juha Paananen, Reaktor. Full stack developer, open-source maintainer, part-time rock star.

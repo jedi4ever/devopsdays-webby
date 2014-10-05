@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event_html5
 author: Proposal 40
 title: "Layeth the SMACeth down(eth) - Turning DevOps on Its Head"

@@ -10,7 +10,7 @@ talk_day2: true
 ignite: false
 suggestion: false
 selected: false
-layout: event
+layout: event_helsinki
 author: Mika Karaila
 title: Speeding up deployments of large-scale automation systems
 ---

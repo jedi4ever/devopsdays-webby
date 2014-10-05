@@ -6,7 +6,7 @@ filter:
 dirty: true
 proposal: true
 talk: true
-selected: false
+selected: true
 layout: event
 author: Proposal 4
 title: "Introverts and Tech Conferences - How to avoid stress and enjoy yourself"

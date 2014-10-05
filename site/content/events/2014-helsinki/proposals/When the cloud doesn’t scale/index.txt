@@ -10,7 +10,7 @@ talk_day2: true
 ignite: false
 suggestion: false
 selected: false
-layout: event
+layout: event_helsinki
 author: Niko Kurtti
 title: When the cloud doesn’t scale
 ---

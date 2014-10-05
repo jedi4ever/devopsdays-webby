@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: true
+layout: event
+author: Lindsay Holmwood
+title: "5 years of metrics and monitoring"
+---
+5 years ago, monitoring was just beginning to emerge from the dark ages.
+
+Since then there's been a cambrian explosion of tools, a rough
+formalisation of how the tools should be strung together, the
+emergence of the monitoringsucks meme, the transformation of
+monitoringsucks into monitoringlove, and the rise of a sister
+community around Monitorama.
+
+Alert fatigue has become a concept that's entered the devops
+consciousness, and more advanced shops along the monitoring continuum
+are analysing their alerting data to help humans and machines work
+better together.
+
+But Nagios is still the dominant check executor. Plenty of sites still
+use RRDtool. And plenty of people are still chained to their pagers,
+with no relief in sight.
+
+What's holding us back? What will the next 5 years look like? Will we
+still be using Nagios? Have we misjudged our audience? What are our
+biggest challenges?
+
+Lindsay Holmwood is an engineering manager living in the Australian
+Blue Mountains. He runs a distributed infracoders team at Bulletproof
+that builds hassle free tools, and was responsible for ensuring 100%
+uptime for the 2010 + 2011 + 2012 Movember campaigns.
+
+In his spare time, Lindsay organises the monthly Sydney DevOps
+Meetups. He also won third place at the 1996 Sydney Royal Easter Show
+LEGO building competition.

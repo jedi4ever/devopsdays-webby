@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: false
+ignite: true
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Luca Gibelli
+title: Another brick in the (storage) cluster
+---
+Filesystem or object storage? Which way to go?
+When starting a new project, DevOps should always question whether they are going to need to store their data in a structured or unstructured way. Very often a bad decision in the early stage of the project can have devastating effects on the infrastructure and cause massive headaches when it is already too late to revisit the decision.
+
+This ignite talk will illustrate the advantages of object-storage over traditional filesystems and how to circumvent some of the most common limits of object-storages to make their data look more consistent and more structured. After attending this talk, DevOps will be able to make an informed decision on which storage is best suited for their needs and what are the pros and cons of each solution.
+
+Luca Gibelli, founder of Skylable. Open-Source advocate, ClamAV founder and developer for 10 years, started Skylable because he believes that relying on BigCo's and government to respect your privacy is like having a peeping-tom install your window blinds. Since 2012, he has been working no-stop to build a scalable open-source solution to safely store massive amounts of data in private clouds.

@@ -19,10 +19,11 @@ end
 <% end %>
 <% @gsponsors = [
   { :image => "cybercom.png", :name => "Cybercom", :link => "http://www.cybercom.com/fi/Suomi/"},
+  { :image => "gofore.png", :name => "Gofore", :link => "http://gofore.com/"},
   { :image => "nordcloud.png", :name => "Nordcloud", :link => "http://nordcloud.com/"},
-  { :image => "redhat.png", :name => "Nordicmind", :link => "http://www.nordicmind.com/"},
+  { :image => "redhat.png", :name => "Redhat", :link => "http://www.redhat.com/"},
   { :image => "siili.png", :name => "Siili", :link => "http://www.siili.fi/"},
-  { :image => "solita.png", :name => "Solita", :link => "http://www.solita.fi"}
+  { :image => "solita.png", :name => "Solita", :link => "http://www.solita.fi/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -35,8 +36,9 @@ end
 <% end %>
 
 <% @ssponsors = [
-  { :image => "nitor.png", :name => "Nitor Creations", :link => "http://nitorcreations.com"},
-
+  { :image => "deveo.png", :name => "Deveo", :link => "https://deveo.com/"},
+  { :image => "nitor.png", :name => "Nitor Creations", :link => "http://nitorcreations.com/"},
+  { :image => "sysart.png", :name => "Sysart", :link => "http://www.sysart.fi/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -52,9 +54,11 @@ end
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<br/>
-<br/>
-<h1>Host sponsor</h1>
 <% @hsponsors = [
 ]%>
-<%= make_sponsor_links(@hsponsors) %>
+
+<% unless @hsponsors.empty?  %><h1>Host sponsors</h1><% end %>
+
+<% @hsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
