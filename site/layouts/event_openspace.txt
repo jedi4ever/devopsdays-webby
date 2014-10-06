@@ -15,7 +15,7 @@ filter:    erb
   <title><%= @pagetitle  %></title>
   <link type="text/css" media="screen" rel="stylesheet" href="/css/devops.min.css" />
   <style type="text/css">
-    .container{width:95%;}
+    .container{width:95%;max-width:950px;}
   </style>
   <link type="text/css" media="screen" rel="stylesheet" href="/css/responsive-tables.css" />
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
