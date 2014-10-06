@@ -18,7 +18,7 @@ end
 <a href='<%= sponsor[:link] %>'><img  border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 <% @gsponsors = [
-  { :image => "cybercom.png", :name => "Cybercom", :link => "http://www.cybercom.com/fi/Suomi/"},
+  { :image => "cybercom_black.png", :name => "Cybercom", :link => "http://www.cybercom.com/fi/Suomi/"},
   { :image => "gofore.png", :name => "Gofore", :link => "http://gofore.com/"},
   { :image => "nordcloud.png", :name => "Nordcloud", :link => "http://nordcloud.com/"},
   { :image => "redhat.png", :name => "Redhat", :link => "http://www.redhat.com/"},
