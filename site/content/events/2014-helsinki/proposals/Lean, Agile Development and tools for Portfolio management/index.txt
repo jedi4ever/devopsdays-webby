@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk_day1: false
+talk_day2: false
+ignite: true
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Lasse Mikkonen
+title: Lean, Agile Development and tools for Portfolio management 
+---
+Teams are agile. DevOps made delivery smooth. How can we get proper control for Customer needs and value creation? And even harder, how can we get decisions and attention from management? Show us the value we can deliver. Can tools help us to 'automate' portfolio management?
+
+Bio
+Lasse has solid background of Software development organizations. He has worked as a consultant 1,5 decades and seen over 200 companies creating software in various methods.
+

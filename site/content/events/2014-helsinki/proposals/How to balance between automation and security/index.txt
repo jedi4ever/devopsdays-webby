@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk_day1: false
+talk_day2: false
+ignite: false
+suggestion: true
+selected: false
+layout: event_helsinki
+author: Hannu Piki
+title: How to balance between automation and security
+---
+How to balance between automation and security when trying to achieve automated deployment process between version control system and production environment?
