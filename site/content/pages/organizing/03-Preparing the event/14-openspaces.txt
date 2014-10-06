@@ -5,4 +5,4 @@ filter:
 - markdown
 title: Running Openspaces
 ---
-Placeholder
+[Openspace format page](/pages/open-space-format/)
