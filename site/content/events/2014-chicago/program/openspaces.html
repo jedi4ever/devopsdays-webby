@@ -1,0 +1,128 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: OpenSpaces
+layout: event_openspace
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<h2>Contents</h2>
+<ul>
+  <li><a href="#map">Venue Map</a></li>
+  <li><a href="#day-one">Day One OpenSpaces</a></li>
+  <li><a href="#day-two">Day Two OpenSpaces</a></li>
+</ul>
+
+
+<h2 id="map">Venue Map</h2>
+<h4>Floor 36</h4>
+<a href="/<%= @eventhome %>/img/willis-36-map.png">
+  <img src="/<%= @eventhome %>/img/willis-36-map.png" title="Willis Tower Floor 36" width="100%" />
+</a>
+
+<h4>Floor 37</h4>
+<a href="/<%= @eventhome %>/img/willis-37-map.png">
+  <img src="/<%= @eventhome %>/img/willis-37-map.png" title="Willis Tower Floor 37" width="100%" />
+</a>
+
+<hr />
+
+<h2 id="day-one">Day One OpenSpaces</h2>
+<table class="responsive">
+  <tr>
+    <th>Time Slot</th>
+    <th>36A</th>
+    <th>36B</th>
+    <th>36C</th>
+    <th>36D</th>
+    <th>36E</th>
+    <th>37A</th>
+    <th>37B</th>
+    <th>37C</th>
+  </tr>
+  <tr>
+    <td>14:20-15:05</td>
+    <td>36A One</td>
+    <td>36B One</td>
+    <td>36C One</td>
+    <td>36D One</td>
+    <td>36E One</td>
+    <td>37A One</td>
+    <td>37B One</td>
+    <td>37C One</td>
+  </tr>
+  <tr>
+    <td>15:20-16:05</td>
+    <td>36A Two</td>
+    <td>36B Two</td>
+    <td>36C Two</td>
+    <td>36D Two</td>
+    <td>36E Two</td>
+    <td>37A Two</td>
+    <td>37B Two</td>
+    <td>37C Two</td>
+  </tr>
+  <tr>
+    <td>16:20-17:05</td>
+    <td>36A Three</td>
+    <td>36B Three</td>
+    <td>36C Three</td>
+    <td>36D Three</td>
+    <td>36E Three</td>
+    <td>37A Three</td>
+    <td>37B Three</td>
+    <td>37C Three</td>
+  </tr>
+</table>
+
+<hr />
+
+<h2 id="day-two">Day Two OpenSpaces</h2>
+<table class="responsive">
+  <tr>
+    <th>Time Slot</th>
+    <th>36A</th>
+    <th>36B</th>
+    <th>36C</th>
+    <th>36D</th>
+    <th>36E</th>
+    <th>37A</th>
+    <th>37B</th>
+    <th>37C</th>
+  </tr>
+  <tr>
+    <td>14:20-15:05</td>
+    <td>Werewolf</td>
+    <td>Nerd Fitness</td>
+    <td>Public Sector DevOps</td>
+    <td>Contributing to Open Source</td>
+    <td>Dynamic Load Balancing</td>
+    <td>Arrested DevOps Recording</td>
+    <td>Math: Yes or No?</td>
+    <td>Absolutely enthralling session</td>
+  </tr>
+  <tr>
+    <td>15:20-16:05</td>
+    <td>MOAR GAMES</td>
+    <td>How to effect change in your organization</td>
+    <td>I have a new job; how do I start?</td>
+    <td>Public Speaking 101</td>
+    <td>What does a DevOps workflow look like to you?</td>
+    <td>&Oslash;</td>
+    <td>Make monitoring and alerting meaningful</td>
+    <td>37C Two</td>
+  </tr>
+  <tr>
+    <td>16:20-17:05</td>
+    <td>Werewolf</td>
+    <td>Technical Debt</td>
+    <td>&Oslash;</td>
+    <td>Hacking happy people and teams</td>
+    <td>Introverts and Tech Conferences</td>
+    <td>ShipShow Recording</td>
+    <td>Monitoring Stream Mapping</td>
+    <td>37C Three</td>
+  </tr>
+</table>
