@@ -29,5 +29,7 @@ filter:    erb
       </div>
     </div>
   </div>
+<%= render(:partial => '/googleanalytics') %>
+<%= render(:partial => '/footer') %>
 </body>
 </html>
