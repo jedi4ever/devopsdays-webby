@@ -43,7 +43,7 @@ filter:    erb
 
 <% @psponsors = [
   { :image => "automic.png", :name => "Automic", :link => "http://www.automic.com/"},
-  { :image => "cirb-cibg.png", :name => "CIRB-CIBG", :link => "http://cirb.brussels/"},
+  { :image => "cirb-cigb.png", :name => "CIRB-CIBG", :link => "http://cirb.brussels/"},
 ]%>
 
 <% unless @psponsors.empty?  %><h1>Pearl sponsors</h1><% end %>
