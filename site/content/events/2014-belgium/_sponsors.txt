@@ -18,8 +18,6 @@ filter:    erb
   { :image => "appdynamics.png", :name => "AppDynamics", :link => "http://www.appdynamics.com/"},
   { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
   { :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com/"},
-  { :image => "automic.png", :name => "Automic", :link => "http://www.automic.com/"},
-  { :image => "cirb-cibg.png", :name => "CIRB-CIBG", :link => "http://cirb.brussels/"},
 ]%>
 
 
