@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: false
+ignite: true
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Eero Heino
+title: Software Releasing in Agile
+---
+Release cycles are getting shorter on web while users demand more quality. What are our options to keep users happy while getting updates out as soon as possible? How can we handle the scenario with limited resources?
+Customer feedback, bug hunting, test automation?
+Examples of different size companies and how they deal their releases.
+
+CEO of Usetrace, agile test automation service. Eero has worked with agile software production and testing over ten years ranging from startups to companies like Nokia.
