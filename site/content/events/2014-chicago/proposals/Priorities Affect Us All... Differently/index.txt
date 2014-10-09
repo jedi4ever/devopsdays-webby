@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: true
 layout: event_html5
-author: Proposal 69
+author: Andy Domeier
 title: "Priorities Affect Us All.... Differently!"
 ---
 
@@ -19,3 +19,13 @@ I work for a company called SPS Commerce, it's been a very aggressive growth com
 What I have come to observe as a critical factor in the success of a technology company is how well priorities are aligned across the company, not just Dev and Ops, but product, security, marketing, etc... I think this is a critical ignored factor of effectively delivering a service and as a result it causes humans to work against each other.
 
 This talk will go into how and why I believe not effectively managing an organization's priorities is as damaging to a company's success as not trying to implement a DevOps culture at all!  (I will try to touch on how this is different at various sizes of companies)
+
+**Speaker** <a href="https://twitter.com/ajdomie">Andy Domeier</a>
+
+**Slides**
+
+
+
+**Video**
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/rUZL-HcDOwU" frameborder="0" allowfullscreen></iframe>

@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: true
 layout: event_html5
-author: Proposal 49
+author: Fletcher Nichol
 title: "The Last DevOps Tool"
 ---
 
@@ -21,3 +21,13 @@ Are we alone in this tool obsession? Do doctors discuss the merits of a new stet
 Let's explore the underlying causes of our tool-dominated culture and see if we can push beyond The DevOps Tool Talk.
 
 Lovingly brought to you by a self-described toolsmith.
+
+**Speaker** <a href="https://twitter.com/fnichol">Fletcher Nichol</a>
+
+**Slides**
+
+
+
+**Video**
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/s4efYf5VLfk" frameborder="0" allowfullscreen></iframe>

@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: true
 layout: event_html5
-author: Proposal 65
+author: Jacob Tomaw
 title: "Roll Forward, Roll Back, Cancel The Release"
 ---
 
@@ -28,3 +28,13 @@ There is a lot to learn from our mistakes such as:
 * begged our Product partners to give us business justification for an additional off-cycle release in an effort to cover up our mistake
 
 As we are just entering the new maturity, I am sure there will be much more by October. We believe the community at the conference will benefit from hearing what we've learned, how we're changing, where we are still struggling, and how awesome it's going to continue to be as we head down this path.
+
+**Speaker** <a href="https://twitter.com/JacobTomaw">Jacob Tomaw</a>
+
+**Slides**
+
+
+
+**Video**
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/sLMWmuaN9l0" frameborder="0" allowfullscreen></iframe>
