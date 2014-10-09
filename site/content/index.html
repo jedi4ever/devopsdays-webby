@@ -74,21 +74,6 @@ labelStyle: {opacity: 1}
 
 google.maps.event.addListener(belgiummarker, "click", function (e) { location.href="events/2014-belgium"});
 
-chicagolocation = new google.maps.LatLng(41.90,-87.65);
-
-var chicagomarker = new MarkerWithLabel({
-position: chicagolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Chicago 2014<br>Oct 7 & 8",
-labelAnchor: new google.maps.Point(50, 0),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="events/2014-chicago"});
-
 helsinkilocation = new google.maps.LatLng(60.1708, 24.9375);
 
 var helsinkimarker = new MarkerWithLabel({

@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_html5
+author: J. Paul Reed
+title: "DevOps == 42 & Three Destructive Myths"
+---
+
+**Abstract**
+
+
+
+**Speaker** <a href="https://twitter.com/SoberBuildEng">J. Paul Reed</a>
+
+**Slides**
+
+
+
+**Video**
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/TuxjY9GVXgE" frameborder="0" allowfullscreen></iframe>

@@ -8,7 +8,7 @@ proposal: true
 talk: true
 selected: true
 layout: event
-author: Proposal 25
+author: Brian Henerey
 title: "Preparing for a SOC2 Audit with DevOps in Mind"
 ---
 
@@ -25,3 +25,13 @@ In this talk I'd go over how I prepared for the SOC2 audit with DevOps in mind. 
 * teams empowered to make decisions instead of an external control board
 
 I hope this can be useful to other companies, even if most engineers want to shy away from policy-based work in favor of more exciting things like tool development or engineering challenges.
+
+**Speaker** <a href="https://twitter.com/bhenerey">Brian Henerey</a>
+
+**Slides**
+
+
+
+**Video**
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/G6Q9TGcNWqg" frameborder="0" allowfullscreen></iframe>
