@@ -43,7 +43,6 @@ filter:    erb
 
 <% @psponsors = [
   { :image => "automic.png", :name => "Automic", :link => "http://www.automic.com/"},
-  { :image => "cirb-cigb.png", :name => "CIRB-CIBG", :link => "http://cirb.brussels/"},
 ]%>
 
 <% unless @psponsors.empty?  %><h1>Pearl sponsors</h1><% end %>
@@ -59,6 +58,7 @@ filter:    erb
   { :image => "cegeka.png", :name => "Cegeka", :link => "http://agileinthecore.net/"},
   { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
   { :image => "oreilly.png", :name => "O'Reilly", :link => "http://www.oreilly.com/"},
+  { :image => "cirb-cigb.png", :name => "CIRB-CIBG", :link => "http://cirb.brussels/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
@@ -77,7 +77,9 @@ filter:    erb
   { :image => "imvalues.png", :name => "imValues", :link => "http://www.imvalues.nl/"},
   { :image => "adroll.png", :name => "adRoll", :link => "http://www.adroll.com/"},
   { :image => "citrix.png", :name => "Open@Citrix", :link => "http://open.citrix.com/"},
+  { :image => "stattys.png", :name => "Stattys", :link => "http://www.stattys.com/"},
 ]%>
+
 <% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
 <% @bsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
