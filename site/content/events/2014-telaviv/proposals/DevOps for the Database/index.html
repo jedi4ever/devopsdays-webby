@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Yaniv Yehuda
+title: "DevOps for the Database"
+---
+
+**Abstract:**
+
+When you do the large releases, the risk of change is huge, because those releases usually involve a lot of changes (and therefore have more quality assurance to do), but there are simply more things that can go wrong. This is what gave birth to what we now call DevOps. This is the case if you’re working in traditional code, whatever the language, but not if you’re doing database development. One of the ways developers lower the risk of change to their code is through the use of version-control systems. But database developers haven’t raced to adopt similar processes and tools when doing their jobs.
+Version-control concepts can be applied to working with databases. The notions of check-in/check-out, and compile and debug, are equally applicable, even though database coding and testing are done outside the pale of code development best practices. Working with the database is not working with scripts. You need to test your changes and you need to debug it. So as a part of it, after you check the script, you need to make sure you have the right script in the database. You need to compile, need to debug, get to the final revision where it’s working. Once it’s working, you need to extract the script, get it back into the version-control system, check it in, and then you’re happy.
+There are a lot of pitfalls. You might not have taken the latest revision from the version control. So you run something old in your database, you reach some working state, but when you check it in, you’ve overwritten somebody else’s changes. You might have extracted the changes but not put it in the database, or make everything run perfectly in the database but forgot either to extract the right script or check it back into the version-control system. This is essentially a non-enforced process… Two developers taking out a procedure, one edits the function, one edits something at the end, the first one puts it back into the database and the second one puts it in the database, and it overwrites the previous one’s changes, and no one even knows if it got lost
+This presentation will open people’s eyes to the possibility of DevOps for Database as well as the challenges and pitfalls – and how to overcome them.
+
+**Speakers:**
+
+Yaniv Yehuda is the Co-Founder and CTO of DBmaestro, an Enterprise Software Development Company focusing on database development and deployment technologies. Yaniv is also the Co-Founder and the head of development for Extreme Technology, an IT service provider for the Israeli market. Yaniv was a captain in Mamram, the Israel Defense Forces computer centers where he served as a software engineering manager. He is a popular contributor to InfoQ.com
