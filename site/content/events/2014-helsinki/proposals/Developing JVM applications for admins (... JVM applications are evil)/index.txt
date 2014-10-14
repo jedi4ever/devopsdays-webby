@@ -4,12 +4,12 @@ filter:
 - erb
 - markdown
 dirty: true
-proposal: true
+proposal: false
 talk_day1: false
 talk_day2: true
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event_helsinki
 author: Ken Barber
 title: Developing JVM applications for admins (... JVM applications are evil)
