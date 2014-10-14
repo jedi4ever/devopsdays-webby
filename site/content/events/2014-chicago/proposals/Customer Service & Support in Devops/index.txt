@@ -8,7 +8,7 @@ proposal: true
 ignite: true
 selected: true
 layout: event
-author: Proposal 8
+author: Mark Cornick
 title: "Customer Service & Support in Devops"
 ---
 
@@ -16,3 +16,11 @@ title: "Customer Service & Support in Devops"
 
 By now youknow that Devops is not something you buy off the app store or on a consulting contract, but a philosophy and process around people and how we interact to do great things. You’ve blown up the silos, punched holes in the walls, and mastered the art of empathy for all the people in your organization - or have you? What about your customers? Without them, you wouldn’t have a product, and without their feedback, you wouldn’t know how the product works for them. This ignite will talk about where your customers fit into the Devops paradigm, why you’re already doing customer support whether you know it or not, and why everyone in Devops should participate in customer service & tech support on a regular basis.
 
+**Speaker** <a href="https://twitter.com/markcornick">Mark Cornick</a>
+
+**Slides**
+
+
+
+**Video** (Mark starts at 5:45)
+<iframe width="420" height="315" src="//www.youtube.com/embed/kkWBSTbwI7s" frameborder="0" allowfullscreen></iframe>
