@@ -8,7 +8,7 @@ proposal: true
 ignite: true
 selected: true
 layout: event_html5
-author: Proposal 62
+author: Sasha Rosenbaum
 title: "Implementing Change"
 ---
 
@@ -19,3 +19,12 @@ Like with any other change, bringing the DevOps culture into an existing organiz
 What, or rather who, are your main obstacles?
 Who is your "client" or the main beneficiary of the change?
 What are the principal steps you need to take to move "per aspera ad astra"?
+
+**Speaker** <a href="https://twitter.com/do4urka_">Sasha Rosenbaum</a>
+
+**Slides**
+
+
+
+**Video** (Sasha starts at 0:32)
+<iframe width="420" height="315" src="//www.youtube.com/embed/01Qfk7d8CMg" frameborder="0" allowfullscreen></iframe>

@@ -8,6 +8,7 @@ title: Devopsdays Events
 The following events took place in the past:
 
 <ul>
+<li><a href="/events/2014-chicago/">Chicago 2014</a></li>
 <li><a href="/events/2014-warsaw/">Warsaw 2014</a></li>
 <li><a href="/events/2014-newyork/">New York 2014</a></li>
 <li><a href="/events/2014-toronto/">Toronto 2014</a></li>

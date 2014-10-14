@@ -8,10 +8,19 @@ proposal: true
 ignite: true
 selected: true
 layout: event
-author: Proposal 73
+author: Phaedra Marshall
 title: "Configuration Management for Tech Leads"
 ---
 
 **Abstract**
 
 What comes to mind when you hear the job title Tech Lead? Is it mentor, software architect, or project manager? I bet no one ever thinks infrastructure coder. Why would they? It is common knowledge that infrastructure is solidly in the realm of system administrators. In reality, tech leads gain a very in depth knowledge of the infrastructure that their website and/or application operates on. As a result, they have a great deal of contact with the system administration group at their company. This talk will focus on how configuration management can be used to give the tech lead more control over their infrastructure, reduce their dependency on system administrators, and free up time to focus on other things.
+
+**Speaker** <a href="https://www.linkedin.com/pub/phaedra-marshall/35/527/17">Phaedra Marshall</a></li>
+
+**Slides**
+
+
+
+**Video** (Phaedra starts at 0:28)
+<iframe width="420" height="315" src="//www.youtube.com/embed/kkWBSTbwI7s" frameborder="0" allowfullscreen></iframe>
