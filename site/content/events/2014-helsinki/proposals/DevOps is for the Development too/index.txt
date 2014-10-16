@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: false
+talk_day2: true
+ignite: true
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Antti Virtanen
+title: DevOps is for the Development too
+---
+If you have optimised the lead time in the deployment pipeline and are getting real time feedback from the users,  that’s awesome. 
+But what about the developers? What about the development process?
+
+Let’s forget for a moment the deployment pipeline (Dev) and monitoring the deployed software (Ops). Instead, let’s seehow DevOps tools and magic can ease the development process. We’ll present concrete examples of automated documentation and other tricks to make our case.

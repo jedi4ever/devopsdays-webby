@@ -4,12 +4,12 @@ filter:
 - erb
 - markdown
 dirty: true
-proposal: true
+proposal: false
 talk_day1: true
 talk_day2: false
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event_helsinki
 author: Mikko Paukkila
 title: Making processes work for you
