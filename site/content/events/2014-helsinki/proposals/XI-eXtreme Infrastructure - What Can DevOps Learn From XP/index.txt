@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Alex Wilson
+title: "XI: eXtreme Infrastructure - What Can DevOps Learn From XP?"
+---
+As a relatively young methodology, DevOps sometimes lacks the focus of other more battle-worn disciplines. We'll be asking ourselves, what can we take away from Extreme Programming that we can use to make our DevOps techniques even better?
+
+Alex Wilson has been a software developer at Unruly for two years, during which time he has had the opportunity to experience and solve scaling issues with their software development methodologies. He takes particular delight in the application of both Continuous Delivery and Xtreme Programming practices to the DevOps process, made easier by Unruly's stance of emphasising the value of generalists over specialists.
