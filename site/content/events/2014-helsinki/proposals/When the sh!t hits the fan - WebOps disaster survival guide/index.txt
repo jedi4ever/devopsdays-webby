@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Avishai Ish-Shalom
+title: When the sh!t hits the fan - WebOps disaster survival guide
+---
+This is a talk about reliability and disasters - how to prepare for disasters and how to handle them. But moreover, this talk is about why disasters are an inherent and essential part of building a reliable service. We will explore what kind of culture we want to improve the reliability of our systems and make disaster handling better.
+
+Avishai Ish-Shalom is a veteran operations engineer and a survivor of countless production skirmishes. As co-founder and CTO of Fewbytes he is consulting start-ups and enterprises to help build better systems and services.

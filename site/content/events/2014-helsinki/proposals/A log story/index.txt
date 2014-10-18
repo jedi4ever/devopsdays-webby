@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: false
+talk_day1: false
+talk_day2: true
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Avishai Ish-Shalom
+title: A Log Story
+---
+This is the story of a log. Like most logs, his childhood was innocent and happy; but age has not been kind to it. It became hard to understand and hard to handle. It became fat and big and eventually started weighting down on its application. The doctors tried to help using fancy gadgets like Logstash and kibana, but still the log had issues. (no Hollywood ending here i'm afraid).
+
+This talk is about how we can make logs better. We will consider the origin of the problems with logging and learn what can be done to improve.
+
+Avishai Ish-Shalom is a veteran operations engineer and a survivor of countless production skirmishes. As co-founder and CTO of Fewbytes he is consulting start-ups and enterprises to help build better systems and services.
