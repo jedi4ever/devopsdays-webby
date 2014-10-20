@@ -36,9 +36,39 @@ getting alerts that are only useful for devs and vice versa.  I've
 observed that Devs and Ops are suffering from a lag of influence on
 those notification rules configuration.
 
-This talk will give you an option to tackle this problem with the help
+This hands on will give you an option to tackle this problem with the help
 of flapjack and move away from Nagios to whatever you like more at the
 same time.
+
+**SESSION REQUIREMENTS AND INSTRUCTIONS FOR ATTENDEES**
+
+You will get the most out of the tutorial if you’ve got Flapjack running
+locally on your laptop beforehand. The simplest way to do this is to install
+flapjack as per the <a href="http://flapjack.io/docs/1.0/usage/quickstart/">Quickstart</a>,
+which involves installing <a href="https://www.virtualbox.org/">VirtualBox</a> 
+and <a href="http://www.vagrantup.com/">Vagrant</a>, cloning 
+<a href="https://github.com/flapjack/vagrant-flapjack">vagrant-flapjack</a> 
+and running vagrant up within it.
+
+There’s a bit to download with that, so it’s best to do this in your own time
+before the conference.
+
+You don’t need to have done the rest of the quickstart, though it can’t hurt.
+The main thing is to have Flapjack running locally and to have Icinga or Nagios
+sending it check execution results. This is all taken care of by the vagrant up
+within <a href="https://github.com/flapjack/vagrant-flapjack">vagrant-flapjack</a>.
+
+This information is also available on the Flapjack website, please visit it
+again in the days leading up to the tutorial in case we’ve added anything else. 
+
+Links:
+<ul>
+<li>Attendee Preparation – <a href="http://flapjack.io/docs/1.0/usage/Tutorial">http://flapjack.io/docs/1.0/usage/Tutorial</a>
+<li>Flapjack Quickstart – <a href="http://flapjack.io/docs/1.0/usage/quickstart">http://flapjack.io/docs/1.0/usage/quickstart</a>
+<li>VirtualBox – <a href="https://www.virtualbox.org">https://www.virtualbox.org</a>
+<li>Vagrant – <a href="http://www.vagrantup.com">http://www.vagrantup.com</a>
+<li>Vagrant-flapjack – <a href="https://github.com/flapjack/vagrant-flapjack">https://github.com/flapjack/vagrant-flapjack</a>
+</ul>
 
 **Speaker**
 
