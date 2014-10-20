@@ -50,7 +50,9 @@ end
 <% end %>
 
 <% @msponsors = [
+  { :image => "infocrea_border.png", :name => "Infocrea", :link => "http://www.infocrea.fi/english/"}
 ]%>
+
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
