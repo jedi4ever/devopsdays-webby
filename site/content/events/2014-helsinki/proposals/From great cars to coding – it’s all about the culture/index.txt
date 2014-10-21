@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: true
+talk_day2: false
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Julius Manni
+title: Enterprise flight into DevOps space
+---
+- How 50 year old management practices are re-invented as modern software development is facing the same revolution as car manufacturing in 1950’s
+
+- What does Top Management Commitment really mean?
+
+- Empowering the knowledge worker
+
+- Bad Cop vs. Good Cop management
+
+- Agile culture characteristics
+
+- The Quiet crisis of IT (not meeting the digital opportunities & threats)
+
+- Leading Business enabling IT vs. Business supporting IT
+
+- Case Waypoint @ If (also DevOps will be mentioned…)
+
+Julius Manni has an extensive background in generating business value through strategic IT. Proven track record of leading demanding technology driven change. Main industry experience in the financial services sector, but also solid experience working for high-tech & telecom companies and in the public sector. M.S. degree in Economics and Business Administration, majored in Information Systems Science. Also studied Mathematics and Computer Science. Keep 'Plan-B' up my sleeve to become a full-time street musician.
