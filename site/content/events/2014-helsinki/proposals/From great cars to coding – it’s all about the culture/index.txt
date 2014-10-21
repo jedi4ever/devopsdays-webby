@@ -12,7 +12,7 @@ suggestion: false
 selected: false
 layout: event_helsinki
 author: Julius Manni
-title: Enterprise flight into DevOps space
+title: From great cars to coding – it’s all about the culture
 ---
 - How 50 year old management practices are re-invented as modern software development is facing the same revolution as car manufacturing in 1950’s
 
