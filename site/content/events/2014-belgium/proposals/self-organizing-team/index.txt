@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+suggestion: false
+selected: true
+layout: event
+author: Dave Zwieback
+title: "Running a fully self-organizing/self-managing team (or company)"
+---
+There’s been a lot of publicity about organizations that are working without managers (for example, Valve, Github, Medium, and most recently Zappos). However, is the absence of managers in their organizations their Achilles heel? 
+
+Anyone who’s worked “under” a command-and-control manager will find the idea of getting rid managers at least mildly appealing. Moreover, if these organizations are really working in self-managing or self-directed ways—if individuals truly get to pick their work and how they get it done—it seems that the traditional role of manager as someone who tells you what to do is redundant and unnecessary. However, are there aspects of “traditional” management that remain relevant in such organizations? Are there new approaches that managers must adopt in such organizations?
+
+This talk is based on my experience as a “manager” in a largely self-managing/self-organizing company (Next Big Sound). I will discuss the stages of a gradual transition from a more traditional to a self-managing organization, including challenges along the way. I will also cover the critical role of managing individual engagement in such organizations, as well as practical ways of maximizing it. Finally, I’ll focus on the importance of transparency and accountability, and how managers can foster it.
+
+Dave Zwieback is VP, Engineering at Next Big Sound and Next Big Book. He has previously worked with the adaptive learning startup Knewton, the quantitative investment management firm D.E. Shaw & Co., and Morgan Stanley. He also ran a consultancy for 7 years. Dave is the author of "Being Blameless: The Best Way To Learn From Failure (and Success)", coming in 2015 from O'Reilly Media.
