@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk_day1: true
+talk_day2: false
+ignite: false
+suggestion: false
+selected: false
+layout: event_helsinki
+author: Niilo Ursin
+title: Battle story: devops of a modern website
+---
+What things must change when you choose to run your business in the cloud? Getting new features into production faster. New types of business risks. Possibilities with automation (=infrastructure as code and continuous deployment) and some words about autoscaling. Challenges in constantly changing environment. New types of security issues that must be handled. We don’t have first hand experience of all issues but we have already some pretty good battle stories to tell.
+
+Niilo Ursin, Technology Manager at Kauppalehti. Have been doing commercial web sites since 1998. Strong craftsmanship, leadership, get things done, agile and devops mindset. Currently hacking a lot with cloud, Golang and AngularJS.
