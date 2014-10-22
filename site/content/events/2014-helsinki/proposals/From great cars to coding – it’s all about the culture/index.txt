@@ -4,12 +4,12 @@ filter:
 - erb
 - markdown
 dirty: true
-proposal: true
+proposal: false
 talk_day1: true
 talk_day2: false
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event_helsinki
 author: Julius Manni
 title: From great cars to coding – it’s all about the culture
