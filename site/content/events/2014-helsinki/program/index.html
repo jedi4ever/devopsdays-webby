@@ -18,7 +18,7 @@ Day One is about successes with devops. Hear about experiences on devops in majo
 
 <h3>Selected talks</h3>
 
-<ol>
+<ul>
 <%
   articles = @pages.find(:all, :in_directory => proposals, :recursive => true,
       :sort_by => "title", :reverse => true, :talk_day1 => true, :selected => true)
@@ -27,7 +27,7 @@ Day One is about successes with devops. Hear about experiences on devops in majo
 -%>
 <li><%= link_to_page(page) %> - <%= page.author %>
 <% end -%>
-</ol>
+</ul>
 
 <h3>Schedule</h3>
 08.30 - 09.30 Registration and coffee<br>
@@ -42,7 +42,7 @@ Day One is about successes with devops. Hear about experiences on devops in majo
 Day Two is about the latest news on devops technologies. Meet other enthusiasts to find out what's hot.<br>
 
 <h3>Selected talks</h3>
-<ol>
+<ul>
 <%
   articles = @pages.find(:all, :in_directory => proposals, :recursive => true,
       :sort_by => "title", :reverse => true, :talk_day2 => true, :selected => true)
@@ -51,7 +51,7 @@ Day Two is about the latest news on devops technologies. Meet other enthusiasts 
 -%>
 <li><%= link_to_page(page) %> - <%= page.author %>
 <% end -%>
-</ol>
+</ul>
 
 <h3>Schedule</h3>
 08.30 - 09.00 Registration and coffee<br>

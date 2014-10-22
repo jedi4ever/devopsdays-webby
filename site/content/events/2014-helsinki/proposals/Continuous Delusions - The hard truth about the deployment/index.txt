@@ -3,13 +3,13 @@ extension: html
 filter:
 - erb
 - markdown
-dirty: true
+dirty: false
 proposal: false
 talk_day1: false
 talk_day2: true
 ignite: false
 suggestion: false
-selected: false
+selected: true
 layout: event_helsinki
 author: Avishai Ish-Shalom
 title: Continuous Delusions - The hard truth about the deployment
