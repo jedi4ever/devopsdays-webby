@@ -37,7 +37,7 @@ filter:    erb
 	{ :image => "JFrogDoD.png", :name => "JFrog", :link => "http://www.jfrog.com/"},
 	{ :image => "wix.png", :name => "Wix", :link => "http://wix.com"},	
 	{ :image => "outbrain.png", :name => "Outbrain", :link => "http://www.outbrain.com"},	
-	{ :image => "elasticsearch-ankor.png", :name => "ElasticSearch (in partnership with Ankor)", :link => "http://www.elasticsearch.com"},	
+	{ :image => "elasticsearch-ankor.png", :name => "ElasticSearch (in partnership with We-Ankor)", :link => "http://www.elasticsearch.com"},	
 ]%>
 
 <% if @gold_sponsors.empty?  %>
