@@ -25,7 +25,8 @@ end
   { :image => "redhat_border.png", :name => "Redhat", :link => "http://www.redhat.com/"},
   { :image => "siili_border.png", :name => "Siili", :link => "http://www.siili.fi/"},
   { :image => "solita_border.png", :name => "Solita", :link => "http://www.solita.fi/"},
-  { :image => "xebialabs_border.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"}
+  { :image => "xebialabs_border.png", :name => "XebiaLabs", :link => "http://www.xebialabs.com/"},
+  { :image => "ca.png", :name => "CA Technologies", :link => "http://www.ca.com/"}
 ]%>
 
 <% if @gsponsors.empty?  %>
