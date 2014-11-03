@@ -52,6 +52,7 @@ end
 <% end %>
 
 <% @msponsors = [
+  { :image => "cloudstreet_border.png", :name => "CloudStreet", :link => "http://www.thecldst.com/"},
   { :image => "infocrea_border.png", :name => "Infocrea", :link => "http://www.infocrea.fi/english/"}
 ]%>
 
