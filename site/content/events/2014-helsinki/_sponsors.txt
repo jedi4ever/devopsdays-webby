@@ -41,6 +41,7 @@ end
 <% @ssponsors = [
   { :image => "deveo_border.png", :name => "Deveo", :link => "https://deveo.com/"},
   { :image => "nitor_border.png", :name => "Nitor Creations", :link => "http://nitorcreations.com/"},
+  { :image => "reaktor_border.png", :name => "Reaktor", :link => "http://www.reaktor.fi/"},
   { :image => "sysart_border.png", :name => "Sysart", :link => "http://www.sysart.fi/"}
 ]%>
 
