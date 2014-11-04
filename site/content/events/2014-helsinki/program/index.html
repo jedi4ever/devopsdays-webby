@@ -10,52 +10,137 @@ layout: event_helsinki
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% proposals="/#{@eventhome}/proposals" %>
 
-<p>Preliminary agenda</p>
-
-<h2>Day 1 - Mon 10 Nov</h2>
-
-Day One is about successes with devops. Hear about experiences on devops in major Finnish companies.<br>
-
-<h3>Selected talks</h3>
-
-<ul>
-<%
-  articles = @pages.find(:all, :in_directory => proposals, :recursive => true,
-      :sort_by => "title", :reverse => true, :talk_day1 => true, :selected => true)
-  articles.delete(@page)
-  articles.each do |page|
--%>
-<li><%= link_to_page(page) %> - <%= page.author %>
-<% end -%>
-</ul>
+<center>
+<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
+</center>
+<hr />
 
 <h3>Schedule</h3>
-08.30 - 09.30 Registration and coffee<br>
-09.30 - 09.45 Introduction<br>
-09.45 - 12.30 Talks<br>
-12.30 - 13.30 Lunch<br>
-13.30 - 17.00 Open space<br>
-18.00 - 21.00 Evening activities<br>
 
-<h2>Day 2 - Tue 11 Nov</h2>
+<div class="span-7 append-bottom border">
+<div class="span-7 last">
+<h4>Day 1 - Mon 10 Nov</h4>
+</div>
 
-Day Two is about the latest news on devops technologies. Meet other enthusiasts to find out what's hot.<br>
+<div class="span-7 last append-bottom">
+Day One is about successes with devops. Hear about experiences on devops in major Finnish companies.
+</div>
+<hr/>
+<div class="span-2">08:30-09:30</div>
+<div class="span-4 last">Registration and Coffee</div>
+<div class="span-2">09:30-10:00</div>
+<div class="span-4 append-bottom last">Introduction</div>
+<div class="span-2">10:00-10:30</div>
+<div class="span-4 box last">
+  <strong><a href="/events/2014-helsinki/proposals/Battle%20story%20-%20devops%20of%20a%20modern%20website/">Battle story: devops of a modern website</a></strong>
+    <br />
+    <a href="https://twitter.com/niiloursin">Niilo Ursin</a>
+</div>
 
-<h3>Selected talks</h3>
-<ul>
-<%
-  articles = @pages.find(:all, :in_directory => proposals, :recursive => true,
-      :sort_by => "title", :reverse => true, :talk_day2 => true, :selected => true)
-  articles.delete(@page)
-  articles.each do |page|
--%>
-<li><%= link_to_page(page) %> - <%= page.author %>
-<% end -%>
-</ul>
+<div class="span-2">10:30-10:45</div>
+<div class="span-4 append-bottom last">break</div>
 
-<h3>Schedule</h3>
-08.30 - 09.00 Registration and coffee<br>
-09.00 - 09.15 Introduction<br>
-09.15 - 12.00 Talks<br>
-12.00 - 13.00 Lunch<br>
-13.00 - 17.00 Open space<br>
+<div class="span-2">10:45-11:15</div >
+<div class="span-4 box last">
+  <strong><a href="/events/2014-helsinki/proposals/Story%20of%20FAT%20Tester/">Story of FAT Tester, running millions of test cases</a></strong>
+    <br />
+    Mika Karaila
+</div>
+
+<div class="span-2">11:15-11:45</div>
+<div class="span-4 append-bottom box last">
+  <strong><a href="/events/2014-helsinki/proposals/Making%20processes%20work%20for%20you/">Making processes work for you</a></strong>
+    <br />
+    Mikko Paukkila
+</div>
+
+<div class="span-2">11:45-12:45</div>
+<div class="span-4 append-bottom last">lunch</div>
+
+<div class="span-2">12:45-12:15</div>
+<div class="span-4 append-bottom box last">
+  <strong><a href="/events/2014-helsinki/proposals/From%20great%20cars%20to%20coding%20–%20it’s%20all%20about%20the%20culture/">From great cars to coding – it’s all about the culture</a></strong>
+    <br />
+    <a href="https://twitter.com/juliusmanni">Julius Manni</a>
+</div>
+
+<div class="span-2">13:15-13:30</div> <div class="span-4 append-bottom box last"><strong>Open Space kick-off</strong></div>
+<div class="span-2">13:30-16:30</div> <div class="span-4 append-bottom box last"><strong>Open Space Sessions</strong></div>
+<div class="span-2">16:30</div> <div class="span-4 append-bottom last">Wrap-up for day one</div>
+<div class="span-2">18:00-21:00</div> <div class="span-4 append-bottom last">Evening activities</div>
+
+</div>
+
+<div class="span-7 append-bottom border">
+<div class="span-7 last">
+<h4>Day 2 - Tue 11 Nov</h4>
+</div>
+
+<div class="span-7 last append-bottom">
+Day Two is about the latest news on devops technologies. Meet other enthusiasts to find out what's hot.
+</div>
+<hr/>
+
+<div class="span-2">08:30-09:00</div>
+<div class="span-4 last">Registration and Coffee</div>
+
+<div class="span-2">09:00-09:15</div>
+<div class="span-4 append-bottom last">Introduction</div>
+
+<div class="span-2">09:15-09:45</div>
+<div class="span-4 box last">
+  <strong><a href="/events/2014-helsinki/proposals/Why%20The%20Front-End%20Needs%20Ops/">Why The Front-End Needs Ops</a></strong>
+    <br />
+    <a href="https://twitter.com/teropa">Tero Parviainen</a>
+</div>
+
+<div class="span-2">09:45-10:15</div >
+<div class="span-4 box last">
+  <strong><a href="/events/2014-helsinki/proposals/Docker%20at%20Shopify/">Docker at Shopify</a></strong>
+    <br />
+    <a href="https://twitter.com/n1kooo">Niko Kurtti</a>
+</div>
+
+<div class="span-2">10:15-10:30</div>
+<div class="span-4 append-bottom last">break</div>
+
+<div class="span-2">10:30-11:00</div>
+<div class="span-4 append-bottom box last">
+  <strong><a href="/events/2014-helsinki/proposals/Developing%20JVM%20applications%20for%20admins%20(...%20JVM%20applications%20are%20evil)/">Developing JVM applications for admins (... JVM applications are evil)</a></strong>
+    <br />
+    <a href="https://twitter.com/ken_barber">Ken Barber</a>
+</div>
+
+<div class="span-2">11:00-11:30</div>
+<div class="span-4 append-bottom box last">
+  <strong><a href="/events/2014-helsinki/proposals/Continuous%20Delusions%20-%20The%20hard%20truth%20about%20the%20deployment/">Continuous Delusions - The hard truth about the deployment</a></strong>
+    <br />
+    <a href="https://twitter.com/nukemberg">Avishai Ish-Shalom</a>
+</div>
+
+<div class="span-2">11:30-12:30</div>
+<div class="span-4 append-bottom last">lunch</div>
+
+<div class="span-2">12:30-13:00</div>
+<div class="span-4 append-bottom box last">
+  <strong>Ignites</strong>
+    <br />
+    <a href="events/2014-helsinki/proposals/Software%20Releasing%20in%20Agile/">Software releasing in agile</a>
+    <br />
+    <a href="https://twitter.com/EeroHeroHeino">Eero Heino</a>
+    <br />
+    <br />
+    <a href="/events/2014-helsinki/proposals/Lean,%20Agile%20Development%20and%20tools%20for%20Portfolio%20management/">Lean, agile development and tools for portfolio management</a>
+    <br />
+    Lasse Mikkonen
+    <br />
+    <br />
+    <a href="/events/2014-helsinki/proposals/Another%20brick%20in%20the%20(storage)%20cluster/">Another brick in the (storage) cluster</a>
+    <br />
+    Luca Gibelli
+</div>
+
+<div class="span-2">13:00-13:15</div> <div class="span-4 append-bottom box last"><strong>Open Space kick-off</strong></div>
+<div class="span-2">13:15-16:30</div> <div class="span-4 append-bottom box last"><strong>Open Space Sessions</strong></div>
+<div class="span-2">16:30</div> <div class="span-4 append-bottom last">Wrap-up for Devops Days Helsinki 2014</div>
+</div>
