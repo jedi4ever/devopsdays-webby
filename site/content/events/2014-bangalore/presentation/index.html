@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: program
+dirty: true
+layout: event
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<div class="span-14 append-bottom border">
+<style>
+  li {padding:0.5em;}
+  .mainVideo {margin-right:0.5em; margin-left:0.5em; background-color: yellow;}
+</style>
+<b><i>Day 1 Presentations</i></b>
+  <ul>
+    <li>Keynote <strong>Ranjib Dey, Developer, PagerDuty</strong><br/> <a href="#">[No Slides Yet]</a>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+  </ul>
+<br/><br/>
+<b><i>Day 2 Presentations</i></b>
+  <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
+<br/><br/>
+<strong>Ignite Talks</strong>
+<ul>
+
+</ul>
+<br/><br/>
+<div>
+  <b>Prologue and Interlude: <a href="http://www.youtube.com/watch?v=IEqom8hwSVk">@Youtube</a>
+</div>
+</div>
