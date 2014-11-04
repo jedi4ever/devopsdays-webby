@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: location
+layout: event
+dirty: true
+---
+### Conference Location
+
+At <%= render(:partial => "/#{@eventhome}/_event_location") -%>
+
+
+( _Contact Us if you want directions better than Google Maps_ )
+
+***
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.co.in/maps/place/ThoughtWorks/@12.9539974,77.6309395,11z/data=!4m5!1m2!2m1!1sthoughtworks+bangalore!3m1!1s0x0000000000000000:0x116853ce31352ab1?hl=en"></iframe><br /><small><a href="https://maps.google.com/maps?q=hyatt,+mg+road,+bangalore&amp;ie=UTF8&amp;hq=hyatt,+mg+road,&amp;hnear=Bangalore,+Bangalore+Urban,+Karnataka,+India&amp;ll=12.97356,77.62183&amp;spn=0.006295,0.059988&amp;t=m&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
+***

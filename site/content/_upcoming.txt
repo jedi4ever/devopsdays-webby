@@ -19,6 +19,10 @@
     <a href="/events/2014-vancouver">
       Vancouver
     </a>
+    -
+    <a href="/events/2014-bangalore">
+       Bangalore
+    </a>
     </a>
   </h3>
 </div>

@@ -87,7 +87,26 @@ labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
 
-google.maps.event.addListener(helsinkimarker, "click", function (e) { location.href="events/2014-helsinki"});
+
+
+
+bangalorelocation = new google.maps.LatLng(12.9539974,77.6309395);
+
+var bangaloremarker = new MarkerWithLabel({
+  position: bangalorelocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Bangalore 2014<br>Dec. 6-7, 2014",
+  labelAnchor: new google.maps.Point(20, 20),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="events/2014-bangalore"});
+
+
+
+      google.maps.event.addListener(helsinkimarker, "click", function (e) { location.href="events/2014-helsinki"});
 
 telavivlocation = new google.maps.LatLng(32.0794445, 34.8447104);
 
