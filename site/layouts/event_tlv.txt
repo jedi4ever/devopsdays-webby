@@ -95,7 +95,7 @@ google.load('jquery', '1.3.2');
 
 </div>
 
-<div class="span-8 last">
+<div style="margin-left:6px" class="span-8 last">
   <%= render(:partial => File.join(@eventhome,'_sponsors')) %>
 </div>
   
