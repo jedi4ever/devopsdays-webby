@@ -17,7 +17,7 @@ filter:    erb
 
 <% @platinum_sponsors = [
 	{ :image => "aolon.png", :name => "AOL On", :link => "http://on.aol.com/"},	
-	{ :image => "revello.png", :name => "Revello Systems", :link => "http://www.ravellosystems.com/"},	
+	{ :image => "ravello.png", :name => "Revello Systems", :link => "http://www.ravellosystems.com/"},	
 ]%>
 
 <% unless @platinum_sponsors.empty?  %><h1>Platinum Sponsors</h1><% end %>
