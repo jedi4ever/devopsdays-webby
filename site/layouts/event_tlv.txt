@@ -71,7 +71,7 @@ google.load('jquery', '1.3.2');
 <div class="span-24 last">
 
 <% if @page.sidebar == false %>
-<div class="span-24 last">
+<div class="span-16 last">
 <%= render(:partial => File.join(@eventhome,'_menu')) %>
 
 <%= @content %>
@@ -92,14 +92,15 @@ Back to <a href='..'>proposals overview</a> - <a href='../../program'>program</a
   <div class="span-16 first last">
   <%= render(:partial => '/disqus_comments') %>
   </div>
-  <% end %>
 </div>
-  
-</div>
+<% end %>
+
+
 <div class="span-8 last">
   <%= render(:partial => File.join(@eventhome,'_sponsors')) %>
 </div>
-
+  
+</div>
 <% end %>
 
 </div>
