@@ -94,12 +94,12 @@ Back to <a href='..'>proposals overview</a> - <a href='../../program'>program</a
   </div>
   <% end %>
 </div>
-
+  
+</div>
 <div class="span-8 last">
   <%= render(:partial => File.join(@eventhome,'_sponsors')) %>
 </div>
-  
-</div>
+
 <% end %>
 
 </div>
