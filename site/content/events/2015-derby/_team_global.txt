@@ -1,6 +1,6 @@
-- Dan Webb
-- Andy Burgin 
-- Luke Bradbury
-- Mike Preston
-- Jim Smith
-- James Heggs
+- Dan Webb - Operations Engineer University of Derby
+- Andy Burgin  - Founder of Leeds Devops
+- Luke Bradbury - Operations Engineer University of Derby
+- Mike Preston - Founder Leicester Devops
+- Jim Smith - Founder Cardiff Devops
+- James Heggs - Founder Devops Manchester
