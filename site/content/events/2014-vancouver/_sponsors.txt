@@ -12,14 +12,14 @@ filter:    erb
 <% end %>
 
 <% @gsponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>' style="margin:5px;"></a>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>' style="margin:5px;max-width:100px;max-height:100px;"></a>
 <% end %>
 
 <% @ssponsors = [
 { :image => "polyglot.png", :name => "Polyglot Software Association", :link => "http://www.polyglotconf.com"},
 { :image => "chef.png", :name => "Chef", :link => "http://getchef.com/"},
 { :image => "pulse_energy.jpg", :name => "Pulse Energy", :link => "http://www.pulseenergy.com/"},
-{ :image => "dnb.jpg", :name => "Dun and Bradstreet", :link => "http://www.dnb.ca/"},
+{ :image => "dnb.jpg", :name => "The D&B Cloud Innovation Center", :link => "http://www.dnbcloud.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1 style="margin-top: 0.5em;">Silver sponsors</h1><% end %>
