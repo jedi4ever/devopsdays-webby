@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: workshops
+dirty: true
+layout: event_tlv
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<div class="span-7 append-bottom border">
+  <div class="span-7 last">
+    <h4>Day 1 </h4>
+    <div class="span-2">15:30-17:00</div>
+    <div class="span-4 append-bottom box last">Lean Devops - Evgeny Zislis</div>
+    <div class="span-2">15:30-17:00</div> 
+    <div class="span-4 append-bottom box last"><strong>The ELK Stack</strong></div>
+  </div>
+</div>
+
+<div class="span-7 append-bottom border">
+  <div class="span-7 last">
+    <h4>Day 1 </h4>
+    <div class="span-2">15:30-17:00</div>
+    <div class="span-4 append-bottom box last">Docker - Adam Spektor</div>
+    <div class="span-2">15:30-17:00</div> 
+    <div class="span-4 append-bottom box last"><strong>InfluxDB Michael Sverdlik</strong></div>
+  </div>
+</div>
