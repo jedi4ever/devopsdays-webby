@@ -56,6 +56,7 @@ filter:    erb
 
 <% @silver_sponsors = [
 	{ :image => "github.png", :name => "GitHub", :link => "http://github.com"},
+	{ :image => "cloudinary.png", :name => "Cloudinary", :link => "http://cloudinary.com"},
 ]%>
 
 <% unless @silver_sponsors.empty?  %><h1>Silver Sponsors</h1><% end %>
