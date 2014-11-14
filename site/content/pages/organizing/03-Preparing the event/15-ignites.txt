@@ -15,7 +15,7 @@ Here are few tips on making this process more smoothly:
 - PDF is the easiest format to collect all presentations
 - You can run either :
     - `impressive -a 15` <http://impressive.sourceforge.net/>
-    - adobe acrobat reader in autoadvance mode <http://malektips.com/adobe_reader_7_0019.html>
+    - adobe acrobat reader in autoadvance mode <http://malektips.com/adobe_reader_7_0019.html>, ask presenters to add empty slide to the end as reader doesn't exit after last slide
 - Don't let them run on their own laptops
 - Use a dedicated laptop (avoid any popups etc...)
 
