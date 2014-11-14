@@ -59,36 +59,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 <!-- http://itouchmap.com/latlong.html -->
 
 
-belgiumlocation = new google.maps.LatLng(50.5333, 4.7667);
-
-var belgiummarker = new MarkerWithLabel({
-position: belgiumlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Belgium 2014<br>27 & 28 Oct",
-labelAnchor: new google.maps.Point(40, 0),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(belgiummarker, "click", function (e) { location.href="events/2014-belgium"});
-
-helsinkilocation = new google.maps.LatLng(60.1708, 24.9375);
-
-var helsinkimarker = new MarkerWithLabel({
-position: helsinkilocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Helsinki 2014<br>10 & 11 Nov",
-labelAnchor: new google.maps.Point(50, 25),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-
-
 
 bangalorelocation = new google.maps.LatLng(12.9539974,77.6309395);
 
@@ -106,7 +76,6 @@ google.maps.event.addListener(bangaloremarker, "click", function (e) { location.
 
 
 
-      google.maps.event.addListener(helsinkimarker, "click", function (e) { location.href="events/2014-helsinki"});
 
 telavivlocation = new google.maps.LatLng(32.0794445, 34.8447104);
 
@@ -122,21 +91,6 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(telavivmarker, "click", function (e) { location.href="events/2014-telaviv"});
 
-
-berlinlocation = new google.maps.LatLng(52.51,13.3833);
-
-var berlinmarker = new MarkerWithLabel({
-position: berlinlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Berlin 2014<br> 23 & 24 Oct",
-labelAnchor: new google.maps.Point(40, 20),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(berlinmarker, "click", function (e) { location.href="events/2014-berlin"});
 
 
 var vancouverLocation = new google.maps.LatLng(49.27698,-123.12478);
@@ -162,8 +116,3 @@ google.maps.event.addListener(vancouverMarker, "click", function (e) { location.
 <div id="map_canvas" style="width: 550px; height: 265px"></div>
 <br>
 <center><a href="/pages/organizing">Want to run your own event?</a></center>
-<div style="width: 550px; height: 290px">
-<center>
-<a href="/events/2014-belgium/"><img src="5years.jpg"></a>
-</center>
-</div>
