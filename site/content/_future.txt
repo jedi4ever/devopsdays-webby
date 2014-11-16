@@ -1,16 +1,23 @@
-<div style="height:340px;" id="quicklinks">
+<div style="height:350px;" id="quicklinks">
 <table>
+
 <tr>
 <div style="display:table-cell; vertical-align:top">
      <div style="margin:5px;">
       <strong>2014</strong><br/>
       <a href="/events/2014-telaviv">Tel Aviv 2014</a><br/>
-      <a href="/events/2014-vancouver">Vancouver 2014</a><br/>
       <a href="/events/2014-bangalore">Bangalore 2014</a><br/>
 </div>
-
-
   </tr>
+
+<tr>
+<div style="display:table-cell; vertical-align:top">
+     <div style="margin:5px;">
+      <strong>2015</strong><br/>
+      Coming soon!<br/>
+</div>
+  </tr>
+
 </table>
 </div>
 

@@ -4,10 +4,6 @@
       Tel Aviv
     </a>
     -
-    <a href="/events/2014-vancouver">
-      Vancouver
-    </a>
-    -
     <a href="/events/2014-bangalore">
        Bangalore
     </a>
