@@ -19,10 +19,6 @@
     <a href="/events/2014-vancouver">
       Vancouver
     </a>
-    -
-     <a href="/events/2015-derby">
-      Derby 
     </a>
-   </a>
   </h3>
 </div>
