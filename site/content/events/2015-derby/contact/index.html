@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Contact
+dirty: true
+layout: event
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
+<% @eventid = File.basename(@page.directory) %>
+
+## Email
+Contact the organizers by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+
+## Our Team
+
+<%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+Find us on <a href="https://twitter.com/devopsdaysDerby">Twitter</a>.
+
+The core global DevOpsDays organizer group:
+
+<%= render(:partial => "/#{@eventhome}/_team_global") %>
