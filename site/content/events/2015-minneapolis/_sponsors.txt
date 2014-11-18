@@ -1,0 +1,31 @@
+---
+filter:    erb
+---
+<%
+def make_sponsor_links(sponsors)
+  sponsors.shuffle.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<% @gsponsors = [
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
+<h1><font color="silver">Silver Lake</font> sponsors</h1>
+
+<% @gsponsors = [
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
+<h1><font color="Wheat">Stone Arch</font> sponsors</h1>
+
+<% @gsponsors = [
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
