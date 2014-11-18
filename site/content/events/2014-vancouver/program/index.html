@@ -3,115 +3,133 @@ extension: html
 filter:
 - erb
 - markdown
-title: program
+title: Program
 dirty: true
 layout: event
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<hr>
-<div class="span-16 last ">If you are new to the Open Space concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
-</center>
-<hr />
 
-<div class="span-7 append-bottom border">
-<div class="span-7 last">
-<h4>Day 1 </h4>
-</div>
-<div class="span-2">08:15-09:00</div>
-<div class="span-4 last">Registration and Breakfast</div>
-<div class="span-2">09:00-09:15</div>
-<div class="span-4 append-bottom last">Introduction</div>
-<div class="span-2">09:15-09:45</div>
-<div class="span-4 box last">
-  <a href="../proposals/Lessons%20learned%20trying%20to%20implement%20DevOps%20in%20a%20rapidly%20growing%20environment/">Lessons learned trying to implement DevOps in a rapidly growing environment</a><br>
-  Michael Collins
-</div>
-<div class="span-2">09:45-10:15</div>
-<div class="span-4 box last">
-    <a href="../proposals/Living%20system%20or%20build%20factory.%20Two%20approaches%20to%20operations/">Living system or build factory. Two approaches to operations</a><br>
-  Chris Maxwell
-</div>
-<div class="span-2">10:15-10:30</div>
-<div class="span-4 append-bottom last">break</div>
-
-<div class="span-2">10:30-11:00</div >
-<div class="span-4 box last">
-    <a href="../proposals/Comparative%20study%20of%20analytics%20algorithms%20for%20anomaly%20detection%20in%20the%20data%20center/">Comparative study of analytics algorithms for anomaly detection in the data center</a><br>
-    Toufic Boubez
-</div>
-
-<div class="span-2">11:00-11:30</div >
-<div class="span-4 box last">
-    <a href="../proposals/Sensu%20Introduction/">Sensu Introduction</a><br>
-    Sean Porter
-</div>
-
-<div class="span-2">11:30-12:00</div> <div class="span-4 append-bottom box last">Ignites Part 1</div>
-
-
-<div class="span-2">12:00-13:00</div>
-<div class="span-4 append-bottom last">Lunch</div>
-<div class="span-2">13:00-14:30</div>
-<div class="span-4 append-bottom box last">Opening Open Space</div>
-<div class="span-2">14:30-15:20</div>
-<div class="span-4 append-bottom box last">Open Space Slot1</div>
-<div class="span-2">15:20-16:10</div>
-<div class="span-4 append-bottom box last">Open Space Slot2</div>
-<div class="span-2">16:10-17:00</div>
-<div class="span-4 append-bottom box last">Open Space Slot 3</div>
-<div class="span-2">17:05-17:15</div>
-<div class="span-4 append-bottom box last">Day One Closing Comments</div>
-<div class="span-2">17:30-19:00</div>
-<div class="span-4 append-bottom box last">time for you to get some food, check in the hotel ...</div>
-<div class="span-2">19:00-21:30</div>
-<div class="span-4 append-bottom box last">Sponsored drinks</div>
-</div>
-<div class="span-7 append-bottom last">
-<div class="span-7 last">
-<h4>Day 2</h4>
-</div>
-<div class="span-2">08:15-09:00</div>
-<div class="span-4 last">Registration and Breakfast</div>
-<div class="span-2">09:00-09:15</div>
-<div class="span-4 append-bottom last">Kickoff Day 2</div>
-<div class="span-2">09:15-09:45</div>
-<div class="span-4 box last">
-    <a href="../proposals/From%20Vagrant%20to%20production/">From Vagrant to production</a><br>
-    Mark Eijsermans
-</div>
-<div class="span-2">09:45-10:15</div>
-<div class="span-4 box last">
-    <a href="../proposals/Test%20Kitchen%201.0%20-%20A%20Config%20Management-Neutral%20Integration%20Testing%20Tool/">Test Kitchen 1.0 - A Config Management-Neutral Integration Testing Tool</a><br>
-    Fletcher Nichol
-</div>
-<div class="span-2">10:15-10:30</div>
-<div class="span-4 append-bottom last">break</div>
-<div class="span-2">10:30-11:00</div>
-<div class="span-4 box last">
-    <a href="../proposals/Amazon%20OpsWorks:%20It's%20DevOps%20with%20Chef%20Jim,%20but%20not%20as%20we%20know%20it/">Amazon OpsWorks: It's DevOps with Chef Jim, but not as we know it</a><br>
-    Yuichiro Mori<br>
-    Jerome Pimmel<br>
-    Chris Barclay
-</div>
-<div class="span-2">11:00-11:30</div>
-<div class="span-4 box last">
-    <a href="../proposals/Building%20Applications%20for%20Operability/">Building Applications for Operability</a><br>
-    Reinhardt Quelle
-</div>
-<div class="span-2">11:30-12:00</div> <div class="span-4 append-bottom box last">Ignites Part 2<br>
-</div>
-
-<div class="span-2">12:00-13:00</div>
-<div class="span-4 append-bottom last">Lunch</div>
-<div class="span-2">14:00-14:30</div>
-<div class="span-4 append-bottom box last">Re-Opening Open Space</div>
-<div class="span-2">14:30-15:20</div>
-<div class="span-4 append-bottom box last">Open Space Slot4</div>
-<div class="span-2">15:20-16:10</div>
-<div class="span-4 append-bottom box last">Open Space Slot5</div>
-<div class="span-2">16:10-17:00</div>
-<div class="span-4 append-bottom box last">Open Space Slot6</div>
-<div class="span-2">17:05-17:15</div>
-<div class="span-4 append-bottom box last">Closing comments</div>
-</div>
+<table style="border-spacing: 10px;">
+    <tr>
+        <th></th>
+        <th><h2>Day 1</h2><h3>Friday November 14</h3></th>
+        <th><h2>Day 2</h2><h3>Saturday November 15</h3></th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">08:15-09:00</td>
+        <td>Registration and Breakfast<br>at <a href="/events/2014-vancouver/location">SFU Harbour Centre, Main Lobby</a></td>
+        <td>Registration and Breakfast</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">09:00-09:15</td>
+        <td>Introduction<br>at <a href="/events/2014-vancouver/location">SFU Harbour Centre, Fletcher Theatre, Room #1900, Main Floor</a></td>
+        <td>Kickoff Day 2</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">09:15-09:45</td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Application Dial Tone: The Benefits of Moving up the Stack</span> Cornelia Davis, <a href='https://twitter.com/@cdavisafc'>@cdavisafc</a><br>Director, Platform Engineering, Cloud Foundry, Pivotal</p>
+        </td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Steering the Titanic with a popsicle stick: Implementing change at a large company</span> Kelly Shkuratoff, <a href='https://twitter.com/@kshkuratoff'>@kshkuratoff</a><br>Lead Member of Technical Staff at Salesforce</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">09:45-10:15</td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Policy management as code</span> Doug Barth, <a href='https://twitter.com/@dougbarth'>@dougbarth</a><br>Operations, Pager Duty</p>
+        </td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Waiting for the Cavalry: Surviving the NoOps Purgatory</span> Jeremy Pierre, <a href='https://twitter.com/@j14159'>@j14159</a><br>Senior Software Developer, Askuity Inc.</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">10:15-10:30</td>
+        <td>15 Minute Break</td>
+        <td>15 Minute Break</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">10:30-11:00</td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Optimized for Learning - Cultivating and Sustaining Autonomous Teams</span> Jeff Hackert, <a href='https://twitter.com/@jchackert'>@jchackert</a><br>Director Eng Dev at Chef</p>
+        </td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Architecting Software as if Ops Matters</span> Alex Cruise, <a href='https://twitter.com/@alexcruise'>@alexcruise</a><br>Director of Architecture, Metafor Software</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">11:00-11:30</td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Lessons from Healthcare.gov: Strategies for Fixing Total Disasters</span> Stephanie Van Dyk, <a href='https://twitter.com/'></a><br></p>
+        </td>
+        <td class="box">
+            <p><span style='font-size:1.1em;font-weight:bold;display:block;'>Magic, Myth and the DevOps</span> Jennifer Davis, <a href='https://twitter.com/@sigje'>@sigje</a><br>Chef Automation Consulting Engineer</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">11:30-12:00</td>
+        <td class="box" style="vertical-align: top;">
+            <p>Ignite Talks</p>
+            <ol>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Test your REST Server with Jmeter</span> Henry Chan, <a href='https://twitter.com/'></a><br>Developer/Architect/Systems Admin/Instructor</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>A Year of DevOps - Communication, Understanding, and Empathy</span> Chris Maxwell, <a href='https://twitter.com/@wrathofchris'>@wrathofchris</a><br>Kickass fella, Ubiquiti</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>DevOps - Threat or Menace?</span> Blair Dean, <a href='https://twitter.com/@devops4evar'>@devops4evar</a><br>Systems and Infrastructure Management consultant, OpenSys Group</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Why K12 organizations need the DevOps culture</span> L. Joel Rendon, <a href='https://twitter.com/@ljoelrendon'>@ljoelrendon</a><br></p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Caching and You: Measuring the Performance of CDNs</span> Kyle Young, <a href='https://twitter.com/@ksgyoung'>@ksgyoung</a><br>System Engineer, Mobify</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Call Me Never - Building apps that don't wake you up</span> David Dossot, <a href='https://twitter.com/@ddossot'>@ddossot</a><br>Director of Software Architecture, Unbounce</p></li>
+            </ol>
+        </td>
+        <td class="box" style="vertical-align: top;">
+            <p>Ignite Talks</p>
+            <ol>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Diversity at DevOpsDays (and How I Was Part of the Problem)</span> Jerry Cattel, <a href='https://twitter.com/@jcattell'>@jcattell</a><br>Operations Lead at Pulse Energy</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>DevOps Against Inhumanity</span> Julian Dunn, <a href='https://twitter.com/@julian_dunn'>@julian_dunn</a><br>Engineering Lead, Chef Software</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>SparkleFormation: Build infrastructure with CloudFormation & keep your sanity</span> Sean Porter, <a href='https://twitter.com/@portertech'>@portertech</a><br>Heavy Water Ops</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Do as little as you can - Saas to Paas to Iaas to steel</span> Omar Yasin, <a href='https://twitter.com/@omarkj'>@omarkj</a><br>Programmer, Heroku</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Scaling Development Teams</span> John Boxall, <a href='https://twitter.com/@johnboxall'>@johnboxall</a><br>CTO and Co-Founder, Mobify</p></li>
+                <li><p><span style='font-size:1.1em;font-weight:bold;display:block;'>Schema from Nothing: Transformation of JSON into PostgreSQL 9.4 SQL + JSONB Power Schema</span> Christopher Hogue, <a href='https://twitter.com/@cwvhogue'>@cwvhogue</a><br>Ph.D., Senior Data Scientist, Joyent Inc.</p></li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">12:00-13:00</td>
+        <td>1 Hour Catered Lunch</td>
+        <td>1 Hour Catered Lunch</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">13:00-14:30</td>
+        <td class="box">Open Space Kickoff</td>
+        <td class="box">Open Space Kickoff</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">14:30-15:20</td>
+        <td class="box">Open Space Slot 1</td>
+        <td class="box">Open Space Slot 4</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">15:20-16:10</td>
+        <td class="box">Open Space Slot 2</td>
+        <td class="box">Open Space Slot 5</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">16:10-17:00</td>
+        <td class="box">Open Space Slot 3</td>
+        <td class="box">Open Space Slot 6</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">17:00-17:30</td>
+        <td>Day One Closing Comments</td>
+        <td>Conference Closing Comments</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">17:30-19:00</td>
+        <td>90 Minute Break</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">19:00-21:30</td>
+        <td class="box">Party with Sponsored Drinks<br>at <a href="/events/2014-vancouver/location">Steamworks Brew Pub, Harbour View Room</a></td>
+        <td></td>
+    </tr>
+</table>
 

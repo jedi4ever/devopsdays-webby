@@ -10,9 +10,6 @@ layout: event
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
 <% @eventid = File.basename(@page.directory) %>
 
-## Email
-Contact the organizers by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
-
 ## Our Team
 
 <%= render(:partial => "/#{@eventhome}/_team_local") %>
@@ -22,3 +19,12 @@ Find us on Twitter on the <a href="https://twitter.com/cdemwell/lists/devopsdays
 The core global DevOpsDays organizer group:
 
 <%= render(:partial => "/#{@eventhome}/_team_global") %>
+
+## Email
+Contact the organizers by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+
+## Twitter
+<a href="https://twitter.com/devopsdaysyvr">@devopsdaysyvr</a>
+
+## IRC
+<a href="http://webchat.freenode.net/?channels=%23vanops&uio=d4">irc.freenode.net #vanops</a>

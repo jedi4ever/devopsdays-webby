@@ -1,6 +1,4 @@
 - Timo Stordell
 - Erno Aapa
 - Ramez Hanna
-- Mika Karaila
-- Mikko Paukkila
 - Jyrki Puttonen

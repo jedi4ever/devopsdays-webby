@@ -1,0 +1,26 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+The **<%= render(:partial => "/#{@eventhome}/_title") %>** event will be held on
+on **<%= render(:partial => "/#{@eventhome}/_event_date") -%>**
+at **<%= render(:partial => "/#{@eventhome}/_event_location") -%>**.
+
+***
+
+** The videos and slides will be uploaded once event is concluded! **
+
+***
+
+Are you interested in helping out? Have ideas or suggestions? [Send an email to the organizers](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>).
+
+To stay updated on everything around devopsdays [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays).
+
+***
