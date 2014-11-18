@@ -1,12 +1,15 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2014-telaviv">
-      Tel Aviv
-    </a>
-    -
     <a href="/events/2014-bangalore">
        Bangalore
     </a>
+    -
+    <a href="/events/2015-derby">
+      Derby
+    </a>
+    -
+    <a href="/events/2014-telaviv">
+      Tel Aviv
     </a>
   </h3>
 </div>
