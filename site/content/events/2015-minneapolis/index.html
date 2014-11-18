@@ -1,0 +1,33 @@
+---
+extension: html
+layout: event_msp
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+        <center>
+        <img border=0 src="./river.jpg">
+</td><td valign=top>
+<strong>DevOpsDays is returning to Minneapolis! </strong>
+<br><br>
+Dates: Wednesday & Thursday July 8-9, 2015
+<br><br>
+Location: <a href="./location">downtown Minneapolis Hilton</a>
+<br><br>
+
+Registration, proposals, and sponsorships will open early in 2015.
+<br><br>
+
+<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
+<br><br>
+</td>
+</tr>
+</table>
+</center>
+
+<hr>
