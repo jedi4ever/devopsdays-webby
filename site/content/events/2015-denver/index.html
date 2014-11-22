@@ -1,0 +1,52 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: Welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center>
+  <img border="0" src="logos/devops-days-rockies.jpg" alt="DevOpsDays Rockies">
+</center>
+
+<center>
+<p>
+<center>
+  <table>
+    <tr>
+      <td>
+          DevOpsDays is making its debut in the Rocky Mountains spring 2015
+      </td>
+    </tr>
+    <tr>
+      <td>
+          The event will be held in downtown Denver, spanning two days of great talks and breakout sessions.
+      </td>
+    </tr>
+    <tr>
+      <td>
+          Check back soon for more information on submitting a talk, registering and sponsoring.
+      </td>
+    </tr>
+  </table>
+</center>
+
+<center>
+  <table>
+    <tr>
+      <td><b>Date</b></td>
+      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>
+         TBD
+      </td>
+    </tr>
+    <tr>
+  </table>
+</center>
