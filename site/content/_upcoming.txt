@@ -7,9 +7,5 @@
     <a href="/events/2015-derby">
       Derby
     </a>
-    -
-    <a href="/events/2014-telaviv">
-      Tel Aviv
-    </a>
   </h3>
 </div>
