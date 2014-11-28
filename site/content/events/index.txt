@@ -8,6 +8,7 @@ title: Devopsdays Events
 The following events took place in the past:
 
 <ul>
+<li><a href="/events/2014-telaviv/">Tel Aviv 2014</a></li>
 <li><a href="/events/2014-vancouver/">Vancouver 2014</a></li>
 <li><a href="/events/2014-helsinki/">Helsinki 2014</a></li>
 <li><a href="/events/2014-belgium/">Belgium 2014</a></li>
