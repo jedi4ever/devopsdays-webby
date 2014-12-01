@@ -88,6 +88,7 @@
       <a href="/events/2014-belgium/">Belgium 2014</a><br/>
       <a href="/events/2014-helsinki/">Helsinki 2014</a><br/>
       <a href="/events/2014-vancouver/">Vancouver 2014</a><br/>
+      <a href="/events/2014-telaviv/">Tel Aviv 2014</a><br/>
       </div>
 </div>
 
