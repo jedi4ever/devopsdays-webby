@@ -3,4 +3,4 @@
 - Luke Bradbury  <a href="https://twitter.com/hanskreuger">@hanskreuger</a> (University of Derby)
 - Mike Preston 
 - Jim Smith (DevOpsGuys) 
-- James Heggs  (AdInsight)
+- James Heggs <a href="https://twitter.com/eggsy84">@eggsy84</a> <a href="https://twitter.com/devopsmanc">@devopsmanc</a> (Valtech)
