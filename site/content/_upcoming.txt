@@ -3,5 +3,9 @@
     <a href="/events/2015-derby">
       Derby
     </a>
+    -
+    <a href="/events/2015-ljubljana">
+      Ljubljana
+    </a>
   </h3>
 </div>

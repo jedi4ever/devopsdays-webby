@@ -91,6 +91,18 @@ labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(derbymarker, "click", function (e) { location.href="events/2015-derby"});
 
+var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
+var ljubljanamarker = new MarkerWithLabel({
+    position: ljubljanalocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Ljubljana<br>3 & 4 Apr, 2015",
+    labelAnchor: new google.maps.Point(5, +40),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2015-ljubljana"});
 
 }
 </script>
