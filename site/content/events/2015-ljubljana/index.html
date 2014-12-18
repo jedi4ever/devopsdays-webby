@@ -1,0 +1,22 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+![Ljubljana](/<%= @eventhome -%>/images/lj.jpg)
+
+##<%= render(:partial => "/#{@eventhome}/_target_date") -%>
+
+Preparations for the 2nd DevopsDays in Ljubljana are underway. 
+
+[Call for proposals is already open!](/<%= @eventhome %>/propose)
+
+Registration will open soon!
+
+You can reach us at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
