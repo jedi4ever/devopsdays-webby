@@ -7,5 +7,9 @@
     <a href="/events/2015-ljubljana">
       Ljubljana
     </a>
+    -
+    <a href="/events/2015-paris">
+      Paris
+    </a>
   </h3>
 </div>

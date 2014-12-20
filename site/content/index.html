@@ -1,6 +1,6 @@
 ---
 extension: html
-filter:    erb
+filter: erb
 title: Upcoming devopsdays events
 dirty: true
 ---
@@ -58,10 +58,7 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-
-
 bangalorelocation = new google.maps.LatLng(12.9539974,77.6309395);
-
 var bangaloremarker = new MarkerWithLabel({
   position: bangalorelocation,
   draggable: false,
@@ -74,11 +71,7 @@ var bangaloremarker = new MarkerWithLabel({
 });
 google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="events/2014-bangalore"});
 
-
-
-
 derbylocation = new google.maps.LatLng(52.938061, -1.496437);
-
 var derbymarker = new MarkerWithLabel({
 position: derbylocation,
 draggable: false,
@@ -103,6 +96,19 @@ var ljubljanamarker = new MarkerWithLabel({
     labelStyle: {opacity: 1}
 });
 google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2015-ljubljana"});
+
+var parislocation = new google.maps.LatLng(48.856614, 2.352222);
+var parismarker = new MarkerWithLabel({
+    position: parislocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Paris<br>14 & 15 Apr, 2015",
+    labelAnchor: new google.maps.Point(0, 20),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+google.maps.event.addListener(parismarker, "click", function (e) { location.href="/events/2015-paris"});
 
 }
 </script>
