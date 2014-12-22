@@ -58,26 +58,13 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-bangalorelocation = new google.maps.LatLng(12.9539974,77.6309395);
-var bangaloremarker = new MarkerWithLabel({
-  position: bangalorelocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Bangalore 2014<br> Event Postponed",
-  labelAnchor: new google.maps.Point(20, 20),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="events/2014-bangalore"});
-
 derbylocation = new google.maps.LatLng(52.938061, -1.496437);
 var derbymarker = new MarkerWithLabel({
 position: derbylocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Derby 2015<br> 7 & 8 Feb",
+labelContent: "Derby<br> 7 & 8 Feb",
 labelAnchor: new google.maps.Point(40, 25),
 labelClass: "labels", 
 labelStyle: {opacity: 1}
@@ -90,7 +77,7 @@ var ljubljanamarker = new MarkerWithLabel({
     draggable: false,
     raiseOnDrag: false,
     map: map,
-    labelContent: "Ljubljana<br>3 & 4 Apr, 2015",
+    labelContent: "Ljubljana<br>3 & 4 Apr",
     labelAnchor: new google.maps.Point(5, +40),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
@@ -103,7 +90,7 @@ var parismarker = new MarkerWithLabel({
     draggable: false,
     raiseOnDrag: false,
     map: map,
-    labelContent: "Paris<br>14 & 15 Apr, 2015",
+    labelContent: "Paris<br>14 & 15 Apr",
     labelAnchor: new google.maps.Point(40, 5),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
