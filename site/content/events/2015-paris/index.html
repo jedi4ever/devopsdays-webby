@@ -9,7 +9,9 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-![Ljubljana](/<%= @eventhome -%>/images/paris.jpg)
+![Paris](/<%= @eventhome -%>/images/paris.jpg)
+
+Photo credit: [CC-BY-SA "BenH"](https://commons.wikimedia.org/wiki/User:Benh)
 
 ##<%= render(:partial => "/#{@eventhome}/_target_date") -%>
 
