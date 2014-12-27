@@ -12,4 +12,4 @@ deployment:
     branch: master
     commands:
       - scripts-ci/s3_upload.sh
-      - echo "notify fastly"
+      - scripts-ci/fastly_purge.sh
