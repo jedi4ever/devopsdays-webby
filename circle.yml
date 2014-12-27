@@ -11,5 +11,5 @@ deployment:
   release:
     branch: master
     commands:
-      - echo "uploading to S3"
+      - scripts-ci/s3_upload.sh
       - echo "notify fastly"
