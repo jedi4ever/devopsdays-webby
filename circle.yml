@@ -1,6 +1,15 @@
-dependencies:
-  pre:
-    - sudo apt-get install libonig-dev
 machine:
   ruby:
     version: 1.8.7-p374
+dependencies:
+  pre:
+    - sudo apt-get install libonig-dev
+test:
+  override:
+    - cd site ; bundle exec webby rebuild
+deployment:
+  release:
+    branch: master
+    commands:
+      - echo "uploading to S3"
+      - echo "notify fastly"
