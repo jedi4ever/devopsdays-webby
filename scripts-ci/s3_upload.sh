@@ -17,3 +17,5 @@ curl -O -L https://github.com/s3tools/s3cmd/archive/v$s3cmd_version.tar.gz
 tar xzf v$s3cmd_version.tar.gz
 
 s3cmd-$s3cmd_version/s3cmd sync --acl-public --progress site/content/ s3://$S3_BUCKET --bucket-location=EU
+
+
