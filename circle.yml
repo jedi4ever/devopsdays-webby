@@ -4,6 +4,8 @@ machine:
 dependencies:
   pre:
     - sudo apt-get install libonig-dev
+    # Necessary for s3cmd 1.5.0-rc1
+    - sudo apt-get install python-dateutil
 test:
   override:
     - cd site ; bundle exec webby rebuild
