@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-S3_BUCKET="devopsdays.org"
+S3_BUCKET="www.devopsdays.org"
 
 ################################################################################
 # Upload S3
