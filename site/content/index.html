@@ -58,19 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 <!-- http://itouchmap.com/latlong.html -->
 
-derbylocation = new google.maps.LatLng(52.938061, -1.496437);
-var derbymarker = new MarkerWithLabel({
-position: derbylocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Derby<br> 7 & 8 Feb",
-labelAnchor: new google.maps.Point(40, 25),
-labelClass: "labels", 
-labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(derbymarker, "click", function (e) { location.href="events/2015-derby"});
-
 var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
 var ljubljanamarker = new MarkerWithLabel({
     position: ljubljanalocation,

@@ -5,9 +5,9 @@
 <div style="display:table-cell; vertical-align:top">
      <div style="margin:5px;">
       <strong>2015</strong><br/>
-      <a href="/events/2015-derby/">Derby - Feb 2015</a><br/>
       <a href="/events/2015-ljubljana">Ljubljana - Apr 2015</a><br/>
       <a href="/events/2015-paris">Paris - Apr 2015</a><br/>
+      <a href="/events/2015-derby/">Derby - Spring 2015</a><br/>
       <a href="/events/2015-denver/">Denver - Spring 2015</a><br/>
       <a href="/events/2015-minneapolis/">Minneapolis - Jul 2015</a><br/>
 </div>
