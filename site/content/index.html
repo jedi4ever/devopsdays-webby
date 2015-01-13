@@ -84,6 +84,21 @@ var parismarker = new MarkerWithLabel({
 });
 google.maps.event.addListener(parismarker, "click", function (e) { location.href="/events/2015-paris"});
 
+var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
+var minneapolismarker = new MarkerWithLabel({
+    position: minneapolislocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Minneapolis<br>Jul 8 & 9",
+    labelAnchor: new google.maps.Point(40, 35),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2015-minneapolis"});
+
+
 }
 </script>
 
