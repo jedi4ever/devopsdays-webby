@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Avishai Ish-Shalom"
+title: 'Define "work"'
+---
+**Abstract**
+
+"Work" is an elusive term, especially in the context of software R&D. We imagine "work" as a pipeline of well defined tasks, each resulting in an artifact we can hand off to others for further "work" - until finally we have a complete product. This mental model, originating in factories and assembly lines, is pervasive as evident by the frequent use of the terms "production", "shipping", "delivery", etc. - has resulted in the classic departmental separation based on disciplines and working methodologies such as waterfall.
+In this talk we will analyze our "work" and develop a mental model to aid us. We will explore this model and hopefully gain a better understanding of the DevOps view of working.  
+
+**Speaker:**
+Avishai is a veteran ops and a survivor of many prod skirmishes. Currently masquerading as the CTO of Fewbytes - a consulting company for Ops and architecture.
+
