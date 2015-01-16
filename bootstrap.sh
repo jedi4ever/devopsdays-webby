@@ -21,6 +21,7 @@ cd site
 webby build
 
 sudo rm -rf /var/www
-sudo ln -fs /vagrant/site/output/ /var/www
+sudo mkdir -p /var/www
+sudo ln -fs /vagrant/site/output/ /var/www/html
 sudo /etc/init.d/apache2 stop
 sudo /etc/init.d/apache2 start
