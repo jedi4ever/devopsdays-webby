@@ -7,6 +7,7 @@
       <strong>2015</strong><br/>
       <a href="/events/2015-ljubljana">Ljubljana - Apr 2015</a><br/>
       <a href="/events/2015-paris">Paris - Apr 2015</a><br/>
+      <a href="/events/2015-austin">Austin - May 2015</a><br/>
       <a href="/events/2015-derby/">Derby - Spring 2015</a><br/>
       <a href="/events/2015-denver/">Denver - Spring 2015</a><br/>
       <a href="/events/2015-washington-dc/">Washington, DC - Spring 2015</a><br/>

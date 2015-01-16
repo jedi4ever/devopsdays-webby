@@ -8,6 +8,10 @@
       Paris
     </a>
     -
+    <a href="/events/2015-austin">
+      Austin
+    </a>
+    -
     <a href="/events/2015-minneapolis">
       Minneapolis
     </a>
