@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Marko Luk&#353;a, Ale&#353; Justin"
+title: "Docker, Kubernetes and Jube -- an open debate"
+---
+**Abstract**
+
+The new breed of cloud architecture currently revolves around cool Docker containers.
+In order to manage and scale those containers, you need something as Kubernetes.
+And if you use non-Linux environment, Jube is there to save your day.
+If you're into these cloud buzz-words, this is the presentation to see.
+
+**Speaker:**
+Marko Luk&#353;a, Ale&#353; Justin
