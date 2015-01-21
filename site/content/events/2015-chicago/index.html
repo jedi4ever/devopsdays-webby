@@ -1,0 +1,68 @@
+---
+extension: html
+layout: event_html5
+filter:
+- erb
+- markdown
+title: 'Welcome!'
+dirty: true
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<!-- ## Tuesday, October 7th and Wednesday, October 8th -->
+
+<div style="text-align:center;">
+  <img alt="DevOpsDays Chicago 2015" src="./logo.png"/>
+</div>
+
+<!-- <table>
+  <tr>
+    <td><b>Date</b></td>
+    <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td><a href="/<%= @eventhome %>/location/">Willis Tower</a></td>
+  </tr>
+  <tr>
+    <td><b>Participants</b></td>
+    <td>See you on the 7th!</td>
+  </tr>
+  <tr>
+    <td><b>Speakers</b></td>
+    <td>Call for proposals is closed, but you can review the submissions <a href="/<%= @eventhome %>/proposals/">here</a>.</td>
+  </tr>
+  <tr>
+    <td><b>Program</b></td>
+    <td>Check out current <a href="/<%= @eventhome %>/program/">program</a>.</td>
+  </tr>
+  <tr>
+    <td><b>Sponsors</b></td>
+    <td>If your interested in sponsoring the 2015 event (detail still TBD), please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Interested in Sponsoring 2015 DevOpsDays Chicago">email us</a></td>
+  </tr>
+  <tr>
+    <td><b>Contact</b></td>
+    <td><a href="/<%= @eventhome %>/contact/">Get in touch with the Organizers</a>.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://twitter.com/devopsdaysChi" class="twitter-follow-button" data-show-count="false">Follow @devopsdaysChi</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </td>
+  </tr>
+</table> -->
+
+<!-- Remove this and uncomment the table above when we have more info -->
+Welcome!  The group that brought you DevOpsDays Chicago 2014 is back together and planning the 2015 event.  We're encouraged by the feedback from last year's event and are determined to bring an improved experience and continue the DevOps conversation this September in Chicago.
+
+If you're interested in joining the organizing team, please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays 2015 Organizing">send us an email</a> or tweet at <a href="https://twitter.com/devopsdaysChi">@devopsdaysChi</a>.  We'd love to have more voices, talents and perspectives in the organizing team.
+
+If you're interested in speaking, follow us on Twitter for news as we set a date and open call for proposals (CFPs).
+
+If you're interested in sponsoring, please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Interested in Sponsoring 2015 DevOpsDays Chicago">email us</a>, but know that we're still developing a proper prospectus.
+
+<a href="https://twitter.com/devopsdaysChi" class="twitter-follow-button" data-show-count="false">Follow @devopsdaysChi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+We hope to see you in Chicago in September!
