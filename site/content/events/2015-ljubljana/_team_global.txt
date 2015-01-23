@@ -2,7 +2,6 @@
 - John Willis
 - Damon Edwards
 - Kris Buytaert
-- Gildas LeNadan
 - John Vincent
 - Andrew Shafer
 - Lindsay Holmwood
