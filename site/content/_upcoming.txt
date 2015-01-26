@@ -4,6 +4,10 @@
       Ljubljana
     </a>
     -
+    <a href="/events/2015-denver">
+      Denver 
+    </a>
+    -
     <a href="/events/2015-paris">
       Paris
     </a>
