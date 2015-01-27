@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Sabine Bernecker-Bendixen"
+title: "The human part of (biz)devops – everyone ́s responsibility for the team"
+---
+**Abstract**
+With working in a philosophy like (biz)devops the diversity of the stakeholders is a characteristic cornerstone. Although diversity includes an incredible opportunity for the success of each team, it could at the same time be the most demanding problem for one or more of the individuals in it. These underlying causes may effect the communication and the behaviour in a team and raise up external events, which distract the stakeholders from their real tasks and require too much time and energy in working on it.
+
+Everyone is in charge of monitoring his own personal attitude related to diversity and to the other stakeholder. But all members of a team are responsible for controlling their internal rules of behaviour and communication to be able to use the opportunities of diversity.
+
+In this session you will see
+
+- why it is so important to develop a framework with rules of communication and behaviour for a working team culture
+- how a personal attitude can influence communication and behaviour (Thomas A. Harris)
+- how our inner team could be a motivator or an obstacle (Friedemann Schulz von Thun)
+- why respect and tolerance are necessary values
+- how a feedback culture can influence your team in a positive way
+- what leadership has to do with it.
+
+
+**Speaker:**
+Sabine is coaching people, moderating workshops, leading projects up to 100 people and teaching people of different professions in communication skills, soft skills and leadership skills for more than 20 years. She helps new teams to grow together and leaders to find their own people centered way of bringing out the best of their teams.  To work on and manage agile projects means a lot more than technical tools and putting different people together especially in soft skills. According to her "Agile" is not only a management technique - it is a way of thinking and believe, a way of behaviour and living! She assists leaders, teams and companies to create and implement their own agile, human focused culture and helps them to reflect their situations.
