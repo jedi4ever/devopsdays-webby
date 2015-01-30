@@ -97,13 +97,31 @@ var austinmarker = new MarkerWithLabel({
 });
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2015-austin"});
 
+
+
+var denverlocation = new google.maps.LatLng(39.7618, -104.8811);
+var denvermarker = new MarkerWithLabel({
+position: denverlocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Denver<br>Apr 23 & 24",
+labelAnchor: new google.maps.Point(55, 25),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(denvermarker, "click", function (e) { location.href="/events/2015-denver"});
+
+
+
 var torontolocation = new google.maps.LatLng(43.7000, -79.4000);
 var torontomarker = new MarkerWithLabel({
 position: torontolocation,
 draggable: false,
 raiseOnDrag: false,
 map: map,
-labelContent: "Toronto 2015<br>May 14 & 15",
+labelContent: "Toronto<br>May 14 & 15",
 labelAnchor: new google.maps.Point(-5, 42),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
@@ -119,7 +137,7 @@ var minneapolismarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Minneapolis<br>Jul 8 & 9",
-    labelAnchor: new google.maps.Point(40, 35),
+    labelAnchor: new google.maps.Point(40, 40),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });

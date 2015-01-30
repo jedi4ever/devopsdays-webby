@@ -4,16 +4,20 @@
       Ljubljana
     </a>
     -
-    <a href="/events/2015-denver">
-      Denver 
-    </a>
-    -
     <a href="/events/2015-paris">
       Paris
     </a>
     -
+    <a href="/events/2015-denver">
+      Denver 
+    </a>
+    -
     <a href="/events/2015-austin">
       Austin
+    </a>
+    -
+    <a href="/events/2015-toronto">
+      Toronto
     </a>
     -
     <a href="/events/2015-minneapolis">
