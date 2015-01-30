@@ -97,6 +97,21 @@ var austinmarker = new MarkerWithLabel({
 });
 google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2015-austin"});
 
+var torontolocation = new google.maps.LatLng(43.7000, -79.4000);
+var torontomarker = new MarkerWithLabel({
+position: torontolocation,
+draggable: false,
+raiseOnDrag: false,
+map: map,
+labelContent: "Toronto 2015<br>May 14 & 15",
+labelAnchor: new google.maps.Point(-5, 42),
+labelClass: "labels", // the CSS class for the label
+labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(torontomarker, "click", function (e) { location.href="/events/2015-toronto"});
+
+
 var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
 var minneapolismarker = new MarkerWithLabel({
     position: minneapolislocation,
