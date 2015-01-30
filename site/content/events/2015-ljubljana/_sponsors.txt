@@ -27,6 +27,7 @@ filter:    erb
 <% @bronze_sponsors = [ 
 { :image => "github.png", :name => "Github", :link => "http://www.github.com/", :height => "40px"},
 { :image => "stackstorm.png", :name => "StackStorm", :link => "http://stackstorm.com/", :height => "40px"},
+{ :image => "infinum.png", :name => "Infinum", :link => "http://infinum.co/", :height => "25px"},
 ]%>
 
 
