@@ -12,6 +12,7 @@
       <a href="/events/2015-toronto/">Toronto - May 2015</a><br/>
       <a href="/events/2015-derby/">Derby - Spring 2015</a><br/>
       <a href="/events/2015-washington-dc/">Washington, DC - Spring 2015</a><br/>
+      <a href="/events/2015-singapore/">Singapore 2015</a><br/>
       <a href="/events/2015-minneapolis/">Minneapolis - July 2015</a><br/>
       <a href="/events/2015-chicago/">Chicago - September 2015</a><br/>
       Silicon Valley - Fall 2015
