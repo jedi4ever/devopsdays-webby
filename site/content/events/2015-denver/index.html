@@ -10,11 +10,9 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
 <center>
-  <img border="0" src="logos/devops-days-rockies.jpg" alt="DevOpsDays Rockies">
+  <img border="0" src="static/devops-days-rockies.jpg" alt="DevOpsDays Rockies">
 </center>
 
-<center>
-<p>
 <center>
   <table>
     <tr>
@@ -29,9 +27,15 @@ dirty: true
     </tr>
     <tr>
       <td>
-          Check back soon for more information on submitting a talk, registering and sponsoring.
+          The call for Presentations is open! We will be accepting proposals
+          until Feb 28th.
       </td>
-    </tr>
+  </tr>
+  <tr>
+      <td>
+          <a href="/<%= @eventhome %>/propose">Let us know what you want to talk about.</a>
+      </td>
+  </tr>
   </table>
 </center>
 
