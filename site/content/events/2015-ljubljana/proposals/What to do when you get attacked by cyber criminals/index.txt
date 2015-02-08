@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false 
+selected: false
+layout: event
+ignite: true
+author: "Dino Kova&#269;"
+title: "What to do when you get attacked by cyber criminals"
+---
+**Abstract**
+In 2014 our DNS provider was under a major DDoS attack. This took down our systems and generated panic with our customers. How we reacted, what did we learn, and how do we make sure this doesn't happen again?
+
+**Speaker:**
+Tomislav is the CEO at Infinum, a software design and development consultancy. He's been at the intersection of business, programming and design for over 12 years.
+Alongside his partners, Tomislav developed Infinum from a college hobby to a respectable business with over 65 employees and global clients. He's responsible for overall strategy of the company and growing the company at a sustainable rate.
