@@ -10,9 +10,7 @@ platinum: false
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<center><b>The call for proposals is not yet open. Check back soon!</center>
-<% if false %>
-<iframe src="https://docs.google.com/forms/d/1ZGmR4qgHdcyJEfuPBF24IdueXAZPEob-s3FDR0JKFvs/viewform?embedded=true" width="590" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/1Uvgq4R68WyvS-8nvfoM2zZZc2Ft-ho4dTzrErHRQCiE/viewform?embedded=true" width="590" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <hr>
 There are three ways to propose a session:
 <ol>
@@ -21,7 +19,9 @@ There are three ways to propose a session:
   <li><strong><em>Openspace session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during the openspace opening. Check the <a href="/pages/open-space-format">openspace format</a> for more information
 </ol>
 
+<% if false %>
 <strong>Even if you don't propose, please consider <a href="../proposals/">commenting on proposals submitted by others</a></strong>
+<% end %>
 
 If your proposal is accepted, you will receive free entry to the event.
 
@@ -50,12 +50,15 @@ Our main criteria to make it to the top selection are:
   <li>Beyond Configuration Management, about challenges like orchestration, or doing things at large scale</li>
 </ul>
 
+<% if false %>
 <strong>How to make a proposal:</strong> Send an email to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a> with the following information
 <ol>
   <li>Proposal working title (can be changed later)</li>
   <li>Type (presentation, panel discussion, moderated general discussion, debate, etc.,ignite)</li>
   <li>Description or abstract</li>
 </ol>
+<% end %>
+
 <strong>Rules:</strong>
 <ul>
   <li>Be specific... we aren't mind readers (a description of about 20 lines is about right)</li>
@@ -63,4 +66,3 @@ Our main criteria to make it to the top selection are:
   <li>Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
   <li>Multiple proposals welcome... just follow the other rules</li>
 </ul>
-<% end %>
