@@ -144,6 +144,19 @@ var minneapolismarker = new MarkerWithLabel({
 
 google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2015-minneapolis"});
 
+var dclocation=new google.maps.LatLng(38.801694, -77.064043);
+var dcmarker = new MarkerWithLabel({
+    position: dclocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Washington, DC<br>Jun 11 & 12",
+    labelAnchor: new google.maps.Point(40, 40),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2015-washington-dc"});
 
 }
 </script>

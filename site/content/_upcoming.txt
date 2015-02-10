@@ -23,5 +23,9 @@
     <a href="/events/2015-minneapolis">
       Minneapolis
     </a>
+    -
+    <a href="/events/2015-washington-dc">
+      Washington, DC
+    </a>
   </h3>
 </div>
