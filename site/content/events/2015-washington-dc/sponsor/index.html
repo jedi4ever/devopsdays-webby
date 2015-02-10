@@ -10,11 +10,85 @@ title: sponsor
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+<style>
+  table      { border-collapse: collapse; }
+  td         { text-align: left; border: 1px solid #000; padding: 3px; }
+  tr.hed1 td { border-bottom: 0px; }
+  tr.hed2 td { border-top: 0px; }
+  td.yes     { background-color: #888; }
+</style>
+<table>
+<tbody>
+<tr class="hed1">
+<td><strong>Packages</strong></td>
+<td><strong>Silver</strong></td>
+<td><strong>Gold</strong></td>
+<td><strong>Platinum</strong></td>
+</tr>
+<tr class="hed2">
+<td></td>
+<td><strong>1,000 USD</strong></td>
+<td><strong>3,000 USD</strong></td>
+<td><strong>5,000 USD</strong></td>
+</tr>
+<tr>
+<td>2 included tickets</td>
+<td class="yes"> </td>
+<td class="yes"> </td>
+<td class="yes"> </td>
+</tr>
+<tr>
+<td>Logo on shared slide, rotating during breaks</td>
+<td class="yes"> </td>
+<td class="yes"> </td>
+<td class="yes"> </td>
+</tr>
+<tr>
+<td>Logo on DevOpsDays DC 2015 event website</td>
+<td class="yes"> </td>
+<td class="yes"> </td>
+<td class="yes"> </td>
+</tr>
+<tr>
+<td>Logo on all email communication</td>
+<td class="no"> </td>
+<td class="yes"> </td>
+<td class="yes"> </td>
+</tr>
+<tr>
+<td>1 minute pitch to full audience (including streaming audience)</td>
+<td class="no"> </td>
+<td class="no"> </td>
+<td class="yes"> </td>
+</tr>
+<tr>
+<td>2 additional tickets (4 in total)</td>
+<td class="no"> </td>
+<td class="yes"> </td>
+<td class="no"> </td>
+</tr>
+<tr>
+<td>4 additional tickets (6 in total)</td>
+<td class="no"> </td>
+<td class="no"> </td>
+<td class="yes"> </td>
+</tr>
+<tr>
+<td>Shared table for swag</td>
+<td class="no"> </td>
+<td class="yes"> </td>
+<td class="no"> </td>
+</tr>
+<tr>
+<td>Dedicated table in preferred location for swag</td>
+<td class="no"> </td>
+<td class="no"> </td>
+<td class="yes"> </td>
+</tr>
+</tbody>
+</table>
 
-<hr />
-
-We are currently assessing the sponsorship packages and prices and will update this page as soon as we've got those details hammered out.
+We greatly value sponsors for this open event. If you are interested in other types of sponsorships, please contact us directly at [organizers-washington-dc-2015@devopsdays.org](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
 
 <hr />
 
