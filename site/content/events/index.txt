@@ -5,6 +5,9 @@ filter:
 - markdown
 title: Devopsdays Events
 ---
+
+Check the <a href="/events/calendar">DevOps Conferences & Events calendar</a> for relevant upcoming events.
+
 The following events took place in the past:
 
 <ul>
