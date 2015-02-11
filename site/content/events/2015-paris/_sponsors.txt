@@ -13,7 +13,9 @@ filter:    erb
 <% end %>
 
 <h1>Gold sponsors</h1>
-<% @gsponsors = [] %>
+<% @gsponsors = [
+{ :image => 'normation.png', :name => 'Normation', :link => 'http://www.normation.com', :width => '100px', :height => '100px' }
+] %>
 
 <% if @gsponsors.empty? %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
