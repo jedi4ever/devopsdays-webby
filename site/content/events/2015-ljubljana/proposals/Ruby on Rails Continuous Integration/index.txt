@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Jan Varljen"
+title: "A Ruby on Rails Continuous Integration process using Github, Semaphore, CodeClimate and HipChat"
+---
+**Abstract**
+When you work on applications that your clients are actively using, you want to be 100% sure you don't break something when deploying a new feature. In this talk we’ll demonstrate how we set up a Continuous Integration process for Ruby on Rails and JavaScript using a variety of hosted tools and services.
+
+We’ve also implemented various other improvements like code quality monitoring and notification systems.
+
+At the end, we’ll talk about how the “nag factor” and “shame factors” help you write better code.
+
+**Speaker:**
+Jan Varljen is the Technical Lead of Productive, a SaaS application for running a consulting business (like a software development company or an advertising agency). He manages the technical aspects of the project, communicates with customers and manages the team developing Productive. He's a big fan of Ruby on Rails, automated testing and continuous integration processes.
+He never takes off his sweater.

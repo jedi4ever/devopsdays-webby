@@ -28,6 +28,7 @@ filter:    erb
 { :image => "github.png", :name => "Github", :link => "http://www.github.com/", :height => "40px"},
 { :image => "stackstorm.png", :name => "StackStorm", :link => "http://stackstorm.com/", :height => "40px"},
 { :image => "infinum.png", :name => "Infinum", :link => "http://infinum.co/", :height => "25px"},
+{ :image => "3fs_logo_rumen.png", :name => "3fs", :link => "http://3fs.si/", :height => "40px"},
 ]%>
 
 
@@ -38,6 +39,7 @@ filter:    erb
 <% end %>
 <% @bronze_sponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<br/>
 <% end %>
 
 <% @special_sponsors = [ ]%>
