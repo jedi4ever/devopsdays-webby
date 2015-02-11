@@ -1,11 +1,12 @@
 ---
 extension: html
-layout: event
+layout: event_washington_dc
 filter:
 - erb
 - markdown
 title: Welcome
 dirty: true
+platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 

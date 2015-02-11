@@ -3,8 +3,9 @@ extension: html
 filter:
 - erb
 dirty: true
-layout: event
+layout: event_washington_dc
 title: sponsor
+platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
@@ -87,7 +88,7 @@ title: sponsor
 </tbody>
 </table>
 
-<p>We greatly value sponsors for this open event. If you are interested in other types of sponsorships, please contact us directly at [organizers-washington-dc-2015@devopsdays.org](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).</p>
+<p>We greatly value sponsors for this open event. If you are interested in other types of sponsorships, please contact us directly at <a href="mailto:organizers-washington-dc-2015@devopsdays.org">organizers-washington-dc-2015@devopsdays.org</a>.</p>
 
 <hr />
 
