@@ -49,9 +49,11 @@ filter:    erb
 <% end %>
 
 <% @msponsors = [
-{ :image => "iw.png", :name => "InternetWeek", :link => "http://www.internetweek.si/"}
+{ :image => "iw.png", :name => "InternetWeek", :link => "http://www.internetweek.si/"},
+{ :image => "netokracija.png", :name => "Netokracija", :link => "http://www.netokracija.si/"}
 ]%>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' height=40px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<br/>
 <% end %>
