@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Tit Petric"
+title: "API driven development"
+---
+**Abstract**
+
+API driven development is nothing new – but the way we use our APIs is. We use the same PHP code base as an internal SDK, and external API.
+ 
+We are going down the path where we generate as much as possible beforehand – documentation, developer console for testing API calls, assignment of Client IDs – it all becomes one big automated system, where API calls number in the millions, even billions. Literally every millisecond counts. And in the end, also the choice of programming language, and web server. You can push the limits very far, and your stack is not obsolete. You just need to extend your toolbox.
+  
+The talk will focus on RTVSLO MMC Slovenia and the approach we took to implementing the API platform they use. I will demonstrate some approaches where we deploy the API platform code in much the same way that Flickr does, and how we switch the programming language for some key API calls. Our stack is quite agnostic in the way that any API call can be implemented in a variety of ways – LUA, PHP, GO, Node.js. Or even just inside the web server itself.
