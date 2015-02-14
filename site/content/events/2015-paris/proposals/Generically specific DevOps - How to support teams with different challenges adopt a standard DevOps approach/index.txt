@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Owen Gardner
+title: "Generically specific DevOps - How to support teams with different challenges adopt a standard DevOps approach"
+platinum: false
+---
+
+**Abstract:**
+
+I recently spoke at DevOps Enterprise Summit in San Francisco on a similar subject, but I would like to see if it’d be possible to talk to being able to roll out a view of DevOps that takes account of the differences in delivery teams across an organisation.  Many of the talks and presentations I’ve seen on DevOps look at all teams in an organisation as a generally similar group with generally similar problems with generally similar products.  In a large organisation with a strong technical legacy (both good and bad), the one thing the teams have in common is that they have unique characteristics and problems to solve.
+
+It is possible to apply a standard approach to an organisation that has a wide array of challenges to overcome without mandating a rigorous and inflexible adoption or implementation strategy, and is something that has been applied in my current division in the Investment Bank, but also my previous employer of 140 strong staff.  This looks at using technical and process debt to establish a prioritised backlog of work to improve the way software is delivered and supported on a highest ROI basis. 
+
+Using concepts like Big Rocks, I would talk to an implementation of DevOps focusing on:
+
+* Defining what YOUR good looks like
+* Developing maturity belts to determine and communicate the work required to improve
+* Setting “Big Rock” deliverables to improve
+* Providing transparency on the work being done and the impact it has
+
+This would be followed by a case study of what we have been doing in the bank, using the above framework, and the outcome.
+
+This framework can be adopted by the attendees of the talk allowing them follow a similar pattern to adopt their best approach to implementing DevOps and delivering better quality software better.
+
+**Speaker:**
+
+*Owen Gardner*
+

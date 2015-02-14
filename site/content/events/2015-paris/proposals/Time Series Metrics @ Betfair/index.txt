@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: David Webster
+title: "Time Series Metrics @ Betfair"
+platinum: false
+---
+
+**Abstract:**
+
+Time Series Metrics are the lifeblood of your systems. The ability to capture, store, interrogate and alert from them is a wonderful thing. This session describes, at a high level, what they are and how Betfair is making amazing use of them.
+
+**Speaker:**
+
+*David Webster*

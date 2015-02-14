@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gilles Guirand
+title: "devOps culture ? survey kit to deliver a project to chinese users"
+platinum: false
+---
+
+**Abstract:**
+
+I'm talking about a huge worldwide project, with massive metrics : million of user accounts, 40 countries, complex features, 30+ developers (symfony, solr, varnish, talend), AWS team, 1000+ behat tests, etc.
+
+Everything was done with the best practices : test driven (1000+ behat tests), continuous integration, dedicated devOps team, etc... BUT we also delivered the chinese portal version, and so everything changed ! Forget all that you learnt, be mistaken your certainties, throws your marks, be allowed surprise !
+* No more... familiar browsers (also none on browserstack)
+* No more... alphabetic language (& so alphabetic sort ?)
+* No more... trustable network
+* No more... trustable DNS
+* No more... trustable analytics
+* No more... AWS
+
+This talk will tell you the story of this exotic trip, and how we resolved most of the issues,
+
+**Speaker:**
+
+*Gilles Guirand*
+
+Kaliop CTO / co-founder & member of the eZ Publish community board. He is widely acknowledged by the community to be one of the PHP experts on highly technical and complex projects. He extends now its expertise to other tools & communities : Symfony, Drupal, Silex, Varnish, Solr, elasticsearch, docker, CI tools & the devOps culture.
+
+He's leading now the Kaliop labs : a team with devops gurus dedicated to speed-up very innovating & open source projects
+
+
+
+

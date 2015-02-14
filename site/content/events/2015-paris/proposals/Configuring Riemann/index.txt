@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Webster
+title: "Configuring Riemann"
+platinum: false
+---
+
+**Abstract:**
+
+Riemann is an Open Source Event Stream Processor.  Betfair are using it to process an Event Stream of Time Series Metrics which means we get real time dashboards and alerts based on metric data sourced from every machine in our production estate.  This session will show you how to deploy this wonderful tool and guide you through configuring it using the configuration assistant that we created.
+
+**Speaker:**
+
+*David Webster*

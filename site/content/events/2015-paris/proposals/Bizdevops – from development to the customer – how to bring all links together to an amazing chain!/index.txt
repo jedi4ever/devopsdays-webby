@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sabine Bernecker-Bendixen
+title: "Bizdevops – from development to the customer – how to bring all links together to an amazing chain!"
+platinum: false
+---
+
+**Abstract:**
+
+With bringing the business into devops the development and operations have to approach to the customer ́s point of view. Usability, customers ́ expectations and fears have to be combined with operational management objectives and the technical feasibility. An effective communication without “buts” and with minimised misunder- standings will be in high demand to make this philosophy successful. The more people are combined in a communication process – especially if the types of characters are as different as they are in bizdevops – the more difficult it becomes to keep the flow active and helpful. To face these demanding tasks you have to look back to the roots of communication skills and personal attitudes.
+In this session you will see:
+* why the attitude of “I am okay – you are okay” (Thomas A. Harris; psychiatrist) is neccessary in interdisciplinary teams full of diversity
+* how the knowledge about the communication square (Friedemann Schulz von Thun) will help to minimise misunderstandings
+* why it is important to build an atmosphere of respect and tolerance
+* why changing personal attitudes is the only way to work on stereotypical
+prejudices
+* why diversity requires the willingness to consider different perspectives on a project.
+
+In this session you will identify some examples of your own daily work and will get an idea how to work on these problems apart from technical skills and organisational demands.
+
+**Speaker:**
+
+*Sabine Bernecker-Bendixen*
+
+Sabine is coaching people, moderating workshops, leading projects up to 100 people and teaching people of different professions in communication skills, soft skills and leadership skills for more than 20 years. She helps new teams to grow together and leaders to find their own people centered way of bringing out the best of their teams. To work on and manage agile projects means a lot more than technical tools and putting different people together especially in soft skills. According to her "Agile" is not only a management technique - it is a way of thinking and believe, a way of behaviour and living! She assists leaders, teams and companies to create and implement their own agile, human focused culture and helps them to reflect their situations.
