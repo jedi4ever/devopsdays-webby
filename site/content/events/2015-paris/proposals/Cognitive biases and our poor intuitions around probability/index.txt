@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nigel Kersten
+title: "Cognitive biases and our poor intuitions around probability"
+platinum: false
+---
+
+**Abstract:**
+
+
+It's a wonder we can make decisions at all, as technology workers or otherwise. Unlike language and grammar, our intuitive grasp of probability and statistics is atrocious. We're also subject to all sorts of common cognitive biases and bad heuristics that lead to errors and missteps in decision making.
+
+Why are we so easily fooled by retail pricing? Why do we overestimate the chance of memorable disasters and successes recurring? Why do many post-mortems fail at providing true understanding due to their reconstruction as a sequence of predictable events? 
+
+In this talk we’ll be covering the cognitive biases behind these questions and others, along with relevant examples from the life of a technology worker such as candidate interviewing, post-mortem analysis and service availability.
+
+**Speaker:**
+
+*Nigel Kersten*
+
+Nigel came to Puppet Labs from Google HQ in Mountain View, where he was responsible for the design and implementation of one of the largest Puppet deployments in the world. He's been a sysadmin for Linux and Mac deployments since before Mac OS became a UNIX. As CIO and VP of Operations at Puppet Labs, he is responsible for technical and business operations.

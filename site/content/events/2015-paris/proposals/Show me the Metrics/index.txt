@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Webster
+title: "Show me the Metrics"
+platinum: false
+---
+
+**Abstract:**
+
+We start with a brief introduction to Time Series Metrics, how they’re used in the popular OpenTSDB and some of the limitations of this type of system.  Betfair have created a new open source project called OpenTSP (Time Series Pipeline) which addresses these limitations and releases the full power of this metric data.  This session provides an overview of this new tool, deployed alongside OpenTSDB.
+
+**Speaker:**
+
+*David Webster*

@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Webster
+title: "TSDB / TSP / Riemann"
+platinum: false
+---
+
+**Abstract:**
+
+Like many other organisations, Betfair saw the benefits of a tool to store and analyse time series metrics. We deployed OpenTSDB but quickly realised that there was much, much more we could do with this valuable data. This session will show you how to use OpenTSDB and the Event Stream Processor Riemann with Betfair created OpenTSP bridging the gap and opening up a world of new possibilities.
+
+**Speaker:**
+
+*David Webster*

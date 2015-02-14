@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dirk Lehmann
+title: "Making the Elephant dance – Daily deliveries at SAP"
+platinum: false
+---
+
+**Abstract:**
+
+BSAP is an industry heavy weight: founded in 1972, 70.000+ employees in over 50 countries. We sell business critical enterprise applications to our customers, ERP system that process pay slips, corporate financial statements, critical stuff like that.
+
+Over decades we sold on premise software to our customers. We released updates once or twice a year. Major product releases each x-years.
+
+But since a few years the company set itself the goal to become a cloud company.
+
+This implies dramatic changes to the organization and it’s processes and beliefs.
+
+In 2012 a small internal cloud based ride-sharing service (TwoGo) was ordered to become an official SAP product.
+
+As becoming an official SAP product doesn’t sound that hard when you’ve already the service running in-house: Development done and ongoing, Operations up and running, quality hiccups cured…opening the service shouldn’t be that hard.
+
+Unfortunately large companies like SAP don’t work like that. Large/traditional companies have gazillions of processes, regulations, standards which must be fulfilled and documented before you are allowed to release as an official product.
+
+The aim of this talk is to tell the story how we as a small team managed to change the huge SAP.
+
+As DevOps might be “natural” to start-up like companies, it’s a huge paradigm and cultural shift in companies like SAP which used to be successful with their way of doing things since decades.
+
+We developed and pioneered new processes inside the company and with applying DevOps and Continuous Delivery as first SAP product ever we now (since Oct. 2014) delivery daily to our customers, making us the fasted delivering product of SAP.
+
+I will narrate the full circle from getting management buy-in, redesigning corporate processes, pioneering new technologies and how to change corporate culture in large and traditional enterprises.
+
+**Speaker:**
+
+*Dirk Lehmann*
+
+TwoGo by SAP - Technical Operations

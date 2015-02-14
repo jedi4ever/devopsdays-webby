@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Sc0tt Russell
+title: "Designing the Enterprise for Manufacturing"
+platinum: false
+---
+
+**Abstract:**
+
+Britain has a long history of manufacturing, and whilst the decline of the sector is well documented, applying the basic principles of traditional manufacturing to the “whitecollar” office environment is the new manufacturing. This talk will take you through the basic building patterns of manufacturing, looking at vendor selection/audits, the QA process, understanding of basic costings, discovering if the “products” are low volume, High mix, or low mix high volume and what the implications of design for manufacture would be in such an environment. Also, how to apply these basic patterns to the modern software driven “Office ” world. This is part one of a two part talk, the second one being “Preparing the Enterprise for Manufacturing”.
+
+**Speaker:**
+
+*Sc0tt Russell*
+
+Sc0tt is a member of Chef’s Customer and Community team - championing successful manufacturing patterns and delightful experiences in automation to enterprise customers large and small. Prior to working at Chef he spent a decade working in the computer vertical space, actually manufacturing Disk Drives, Motherboards, PC’s, Tape Drives, Mobile Phones, and others using a variety of technologies. Subsequently he moved into automation in software and has been automation/Performance tuning with Bluechip companies for the last 15 years. He lives in Helsinki, Finland and when he’s not traveling enjoys long walks and the company of good friends.

@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Josh Danielson & Arthur Andrieu
+title: "Pragmatic Cloud Security: What InfoSec Practitioners Have Been Waiting For."
+platinum: false
+---
+
+**Abstract:**
+
+Applying security standards consistently across environments has typically been a struggle for security practitioners. Maintaining accurate system baselines in dynamic, complex ecosystems is a challenge that makes asset management a seemingly impossible process to control in traditional environments. With the elastic capabilities of Cloud solutions such as Amazon Web Service (AWS) it may appear at first glance that this struggle will only continue. However, there is a light at the end of the tunnel. In this talk we will describe a practical implementation of AWS services; CloudTrail, SNS, and SQS, in combination with the configuration management capabilities of Puppet to ensure a consistent set of security standards across an entire environment; enabling practitioners to secure cloud environments in near real-time, even allowing for the segregation of non-compliant systems just as quickly. Lastly, we will take a peek into the future, where organizations will likely become more reliant on AWS services as critical components in their configuration management solution.
+
+**Speaker:**
+
+*Josh Danielson*
+
+Josh Danielson is a Sr. Security Manager with Axway, where he is responsible for global governance of the Cloud Services security program. With nearly a decade of experience in both public and private sectors, he has served a variety of industries throughout his security career; from academia and government contracting, to the software space. Josh is an active member of the infosec community were he has participated in multiple volunteer events. Josh has received a Master of Science degree in Information Management from Syracuse University, and currently holds multiple certifications including CISSP-ISSAP and CISM.
+ 
+
+*Arthur Andrieu*
+
+Arthur Andrieu is a Senior Security Architect with Axway. Based out of Paris, France, he leads Tier-1 customer deployments in Axway’s Cloud Services division. Arthur has several years of experience in delivering and securing enterprise systems, to include streaming lining Cloud processes based-on DevOps methodologies.
+
