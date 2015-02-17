@@ -22,4 +22,9 @@ I will also touch on the sensitive topic of how a project like that can take alm
 Although my presentation will be strongly technical, it won't be limited to one particular technology, I will talk about issues that anyone can face in a project like that.
 
 **Speaker:**
-I'm Daniel Torok, a senior developer at Prezi.com. I was the lead developer of a transition when we moved parts of a huge application from physical hardware into the AWS cloud.
+I'm Daniel Torok, senior software engineer at Prezi.com. I'm working in one of the Critical Backend Services teams whose job is to build an infrastructure that ensures high availability for the most critical parts of our system, to make sure that our users can present anytime, anywhere.
+
+I happen to have some sysadmin background that turned out to be very useful several time in my career. It makes it easier to do devops, helps me writing better code or finding tricky bugs.
+
+In my freetime I like to be with my family, play the piano, or work on a pet-project at home (usually with some functional language involved).
+
