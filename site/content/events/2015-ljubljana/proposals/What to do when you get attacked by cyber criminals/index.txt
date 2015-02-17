@@ -9,7 +9,7 @@ talk: false
 selected: false
 layout: event
 ignite: true
-author: "Dino Kova&#269;"
+author: "Tomislav Car"
 title: "What to do when you get attacked by cyber criminals"
 ---
 **Abstract**
