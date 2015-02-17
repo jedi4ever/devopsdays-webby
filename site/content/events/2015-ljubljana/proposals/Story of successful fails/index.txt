@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Pa&#353;ko Pajdek"
+title: 'From idea to product - story of successful fails'
+---
+**Abstract**
+Story about developing Mediatoolkit, the media monitoring tool. It all started with just an idea of a big data system, and no knowledge about building one.
+
+3 years of iterating through different technologies, architecture solutions and development methods will be presented, reasons why some of decisions were bad and valuable lessons learned in the process.
+
+A brief introduction to 15+ different technologies (databases, frameworks, programming languages, development methods) used in developing the system, why we stick to some, why are we holding the grudge against some.
+
+Dealing with fails and successes from developers’ point of view - pivoting around the concept idea of the product, dealing with growing dev team, introspective on transition from junior developer to lead developer.
+
+**Speaker:**
+I'm lead developer at Mediatoolkit, media monitoring service. My responsibilities there are technical development, feature selection and leading development team. My main interest is computer science with focus on big data processing. Big fan of STEM and Amiga 500. In my free time you can see me playing saxophone or basketball.

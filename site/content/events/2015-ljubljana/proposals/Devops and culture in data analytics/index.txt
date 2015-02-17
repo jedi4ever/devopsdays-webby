@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "M&#225;t&#233; Guly&#225;s"
+title: 'Devops and culture in data analytics'
+---
+**Abstract**
+
+Being a developer at two data analytics (DA) company with many analytical peers my job is to introduce devops and developer culture, part of a shift to adopt new DA trends. I'm working as Lead Developer at Dmlab, an innovative DA company, and as Senior Infrastructure Engineer at enbrite.ly. Both companies offer services based on data mining and analysing huge amount of data. As part of our shift towards big data, I was tasked with introducing automation and devops culture in both companies.
+
+It's challanging in both technical and human side. Analytical people usually don't have strong skills in operation and modern developer techniques like TDD and Continous Delivery. Data mining processes are hard to test and verify due to the stochastic nature of the algorithms and the size of the data.
+
+We started with changing our internal processes. I organized internal meetups to promote good techniques and to learn new tools. We adopted Jenkins for CD, gitlab and github for code review and issue tracking, Terraform for infrastructure automation, Ansible for configuration automation. Docker is also a key tool now for simplified deployment.  We had trainings to switch to different Linux distribution (most people had Windows) and organized bash programming workshop. We also moved to the cloud (AWS) that was new for most of us.
+
+We faced many difficulties, but we managed to convert these obstacles to change our culture and the way we think about software and resources. In my talk I would like to cover the technical and human difficulties we faced during the last 18 months. Now we have advanced processes and a friendly, no-blame culture where analytical experts using unit testing, Jenkins and code reviews.
+
+I would like to propose answers for questions like:
+- Why is it hard to work with analytical people as a developer.
+- How to get the interest of people who never practiced unit testing
+to apply TDD?
+- How did we change our communication to improve our processes?
+- How did I arrive to the blameless culture and why I had failed before that?
+
+The main message is how to introduce devops and developer culture to analytical people and to data analysis.
