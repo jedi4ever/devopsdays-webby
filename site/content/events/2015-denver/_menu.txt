@@ -8,5 +8,6 @@ filter: erb
     <a href="/<%= @eventhome %>/cfp">CFP</a>&nbsp;
     <a href="/<%= @eventhome %>/sponsor">Sponsor</a>&nbsp;
     <a href="/<%= @eventhome %>/conduct">Conduct</a>&nbsp;
+    <a href="http://devopsrox.eventbrite.com/" target="_blank" >Tickets</a>&nbsp;
   </h3>
 </div>

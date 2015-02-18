@@ -28,7 +28,7 @@ filter: erb
 <% @bsponsors = [
   ]%>
 
-<h1>Bronze sponsors</h1>
+<h1>Copper sponsors</h1>
 
 <% if @bsponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
