@@ -5,7 +5,7 @@ title: Upcoming devopsdays events
 dirty: true
 ---
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew&sensor=false"
-  type="text/javascript">
+type="text/javascript">
 </script>
 
 <script type="text/javascript" src="/js/googlemaps_label.js"></script>
@@ -30,56 +30,54 @@ dirty: true
 
 <script type="text/javascript">
   function initialize() {
+    // http://stackoverflow.com/questions/3472040/rgb-value-to-hsl-converter
+    // 197° - 78% 38%
+    var darkStyle = [{
+      featureType: 'water',
+      elementType: 'all',
+      stylers: [{visibility: 'simplified'} ,
+               // {saturation: 56}, {lightness: -76 }, { hue: '#1581AB' }, { gamma: 1}
+               ]
+             }];
 
 
-    <!-- http://stackoverflow.com/questions/3472040/rgb-value-to-hsl-converter -->
-      <!-- 197° - 78% 38% -->
-      var darkStyle = [{
-featureType: 'water',
-               elementType: 'all',
-               stylers: [{visibility: 'simplified'} ,
-               <!--			{saturation: 56}, {lightness: -76 }, { hue: '#1581AB' }, { gamma: 1} -->
-                 ]
-      }];
+             var homeLatLng=new google.maps.LatLng(40.4419, -72.1419)
+             var map = new google.maps.Map(document.getElementById("map_canvas"), {
+               zoom: 1,
+               mapTypeControlOptions: {
+                mapTypeIds: ['darkwater']
+              },
+              center: homeLatLng,
+              mapTypeId: 'darkwater',
+              disableDefaultUI: true,
+            });
 
+             map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
 
-    var homeLatLng=new google.maps.LatLng(40.4419, -72.1419)
-      var map = new google.maps.Map(document.getElementById("map_canvas"), {
-         zoom: 1,
-         mapTypeControlOptions: {
-            mapTypeIds: ['darkwater']
-         },
-         center: homeLatLng,
-         mapTypeId: 'darkwater',
-         disableDefaultUI: true,
-      });
-
-map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
-
-<!-- http://itouchmap.com/latlong.html -->
+// http://itouchmap.com/latlong.html
 
 amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
 
 var amsterdammarker = new MarkerWithLabel({
-position: amsterdamlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Amsterdam 2014<br>19, 20, 21 June 2014",
-labelAnchor: new google.maps.Point(0, 45),
+  position: amsterdamlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Amsterdam 2015<br>24, 25, 26 June 2015",
+  labelAnchor: new google.maps.Point(0, 45),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
-google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="#"});
+google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterdam"});
 
 var siliconvalleylocation=new google.maps.LatLng(37.77493,-122.419415);
 var siliconvalleymarker = new MarkerWithLabel({
-position: siliconvalleylocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Silicon Valley<br>27 & 28 June 2014",
-labelAnchor: new google.maps.Point(+85, 30),
+  position: siliconvalleylocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Silicon Valley<br>27 & 28 June 2014",
+  labelAnchor: new google.maps.Point(+85, 30),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -87,12 +85,12 @@ google.maps.event.addListener(siliconvalleymarker, "click", function (e) { locat
 
 var pittlocation=new google.maps.LatLng(40.442771, -79.956442);
 var pittmarker = new MarkerWithLabel({
-position: pittlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Pittsburgh<br>May 29 & 30 2014",
-labelAnchor: new google.maps.Point(-10, 10),
+  position: pittlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Pittsburgh<br>May 29 & 30 2014",
+  labelAnchor: new google.maps.Point(-10, 10),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -100,12 +98,12 @@ google.maps.event.addListener(pittmarker, "click", function (e) { location.href=
 
 var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
 var minneapolismarker = new MarkerWithLabel({
-position: minneapolislocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Minneapolis<br>July 17 & 18 2014",
-labelAnchor: new google.maps.Point(70, 45),
+  position: minneapolislocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Minneapolis<br>July 17 & 18 2014",
+  labelAnchor: new google.maps.Point(70, 45),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -113,12 +111,12 @@ google.maps.event.addListener(minneapolismarker, "click", function (e) { locatio
 
 var austinlocation=new google.maps.LatLng( 30.267153,-97.743061);
 var austinmarker = new MarkerWithLabel({
-position: austinlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Austin<br>May 5 & 6 2014",
-labelAnchor: new google.maps.Point(30, 0),
+  position: austinlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Austin<br>May 5 & 6 2014",
+  labelAnchor: new google.maps.Point(30, 0),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -127,12 +125,12 @@ google.maps.event.addListener(austinmarker, "click", function (e) { location.hre
 var brisbanelocation = new google.maps.LatLng(-27.4679, 153.0278);
 
 var brisbanemarker = new MarkerWithLabel({
-position: brisbanelocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Brisbane 2014<br>25 & 26 July 2014",
-labelAnchor: new google.maps.Point(0, 10),
+  position: brisbanelocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Brisbane 2014<br>25 & 26 July 2014",
+  labelAnchor: new google.maps.Point(0, 10),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 0.9}
 });
@@ -143,12 +141,12 @@ google.maps.event.addListener(brisbanemarker, "click", function (e) { location.h
 torontolocation = new google.maps.LatLng(43.7000, -79.4000);
 
 var torontomarker = new MarkerWithLabel({
-position: torontolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Toronto 2014",
-labelAnchor: new google.maps.Point(-10, 20),
+  position: torontolocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Toronto 2014",
+  labelAnchor: new google.maps.Point(-10, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -158,12 +156,12 @@ google.maps.event.addListener(torontomarker, "click", function (e) { location.hr
 belgiumlocation = new google.maps.LatLng(50.5333, 4.7667);
 
 var belgiummarker = new MarkerWithLabel({
-position: belgiumlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Belgium 2014<br>27 & 28 October 2014",
-labelAnchor: new google.maps.Point(60, 35),
+  position: belgiumlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Belgium 2014<br>27 & 28 October 2014",
+  labelAnchor: new google.maps.Point(60, 35),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -173,12 +171,12 @@ google.maps.event.addListener(belgiummarker, "click", function (e) { location.hr
 warsawlocation = new google.maps.LatLng(52.2329379, 21.0611941);
 
 var warsawmarker = new MarkerWithLabel({
-position: warsawlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Warsaw<br/>25 & 26 September 2014",
-labelAnchor: new google.maps.Point(25, -4),
+  position: warsawlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Warsaw<br/>25 & 26 September 2014",
+  labelAnchor: new google.maps.Point(25, -4),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -188,12 +186,12 @@ google.maps.event.addListener(warsawmarker, "click", function (e) { location.hre
 bostonlocation = new google.maps.LatLng(42.361316,-71.081309);
 
 var bostonmarker = new MarkerWithLabel({
-position: bostonlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Boston<br>Aug 18 & 19",
-labelAnchor: new google.maps.Point(20, 50),
+  position: bostonlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Boston<br>Aug 18 & 19",
+  labelAnchor: new google.maps.Point(20, 50),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -203,12 +201,12 @@ google.maps.event.addListener(bostonmarker, "click", function (e) { location.hre
 chicagolocation = new google.maps.LatLng(41.90,-87.65);
 
 var chicagomarker = new MarkerWithLabel({
-position: chicagolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Chicago<br>Oct 2014",
-labelAnchor: new google.maps.Point(30, 20),
+  position: chicagolocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Chicago<br>Oct 2014",
+  labelAnchor: new google.maps.Point(30, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -218,12 +216,12 @@ google.maps.event.addListener(chicagomarker, "click", function (e) { location.hr
 berlinlocation = new google.maps.LatLng(52.51,13.3833);
 
 var berlinmarker = new MarkerWithLabel({
-position: berlinlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Berlin 2014<br> 23 & 24 October 2014",
-labelAnchor: new google.maps.Point(0, 20),
+  position: berlinlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Berlin 2014<br> 23 & 24 October 2014",
+  labelAnchor: new google.maps.Point(0, 20),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -239,10 +237,10 @@ google.maps.event.addListener(berlinmarker, "click", function (e) { location.hre
 <br>
 <center><a href="/pages/organizing">Want to run your own event?</a></center>
 <div style="width: 550px; height: 290px">
-<center>
-<a href="/events/2014-belgium/"><img src="5years.jpg"></a>
-  <!-- <h2>This community is supported by</h2> -->
-  <script>
+  <center>
+    <a href="/events/2014-belgium/"><img src="5years.jpg"></a>
+    <!-- <h2>This community is supported by</h2> -->
+    <script>
 
   /*
     Array.prototype.randomize = function()
@@ -280,7 +278,7 @@ google.maps.event.addListener(berlinmarker, "click", function (e) { location.hre
         document.write('<br>');
       }
     }
-  */
+    */
   </script>
 </center>
 </div>
