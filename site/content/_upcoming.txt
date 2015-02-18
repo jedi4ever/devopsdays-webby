@@ -1,6 +1,6 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2014-amsterdam">
+    <a href="/events/2015-amsterdam">
       Amsterdam
     </a>
     -
@@ -36,7 +36,7 @@
     <a href="/events/2014-warsaw">
       Warsaw
     </a>
-    - 
+    -
     <a href="/events/2014-berlin">
       Berlin
     </a>
