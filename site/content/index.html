@@ -56,7 +56,19 @@ featureType: 'water',
 
 map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
 
-<!-- http://itouchmap.com/latlong.html -->
+// http://itouchmap.com/latlong.html
+
+amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
+var amsterdammarker = new MarkerWithLabel({
+  position: amsterdamlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Amsterdam 2015<br>24, 25, 26 June 2015",
+  labelAnchor: new google.maps.Point(0, 45),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+});
 
 
 amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
