@@ -5,12 +5,12 @@
 <div style="display:table-cell; vertical-align:top">
      <div style="margin:5px;">
       <strong>2015</strong><br/>
-      <a href="/events/2015-amsterdam">Amsterdam - June 2015</a><br/>
       <a href="/events/2015-ljubljana">Ljubljana - April 2015</a><br/>
       <a href="/events/2015-paris">Paris - April 2015</a><br/>
       <a href="/events/2015-denver/">Denver - April 2015</a><br/>
       <a href="/events/2015-austin">Austin - May 2015</a><br/>
       <a href="/events/2015-toronto/">Toronto - May 2015</a><br/>
+      <a href="/events/2015-amsterdam">Amsterdam - June 2015</a><br/>
       <a href="/events/2015-derby/">Derby - Spring 2015</a><br/>
       <a href="/events/2015-washington-dc/">Washington, DC - June 2015</a><br/>
       <a href="/events/2015-minneapolis/">Minneapolis - July 2015</a><br/>
