@@ -70,19 +70,6 @@ var amsterdammarker = new MarkerWithLabel({
   labelStyle: {opacity: 1}
 });
 
-
-amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
-var amsterdammarker = new MarkerWithLabel({
-  position: amsterdamlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Amsterdam 2015<br>24, 25, 26 June 2015",
-  labelAnchor: new google.maps.Point(0, 45),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-});
-
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterda"});
 
 var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
