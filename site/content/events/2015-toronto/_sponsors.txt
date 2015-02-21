@@ -16,6 +16,10 @@ filter: erb
 <br />
 
 <% @gsponsors = [
+{ :image => 'sonatype.png', :name => 'Sonatype', :link => 'http://sonatype.com/' },
+{ :image => 'myplanet.png', :name => 'Myplanet', :link => 'http://myplanet.io/' },
+{ :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://pagerduty.com/' },
+{ :image => 'vmfarms.png', :name => 'VM Farms', :link => 'http://vmfarms.com/' },
   ]%>
 
 <h1>Gold sponsors</h1>
@@ -43,3 +47,12 @@ filter: erb
 <br />
 <br />
 
+<h1>Media sponsors</h1>
+<a href="http://oreilly.com/"><img border="0" alt="O'Reilly Media" title="O'Reilly Media" width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/oreilly.png")%>'></a>
+<br />
+<br />
+
+<h1>Community Partners</h1>
+<a href="http://fitc.ca/"><img border="0" alt="FITC" title="FITC" width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/fitc.png")%>'></a>
+<br />
+<br />
