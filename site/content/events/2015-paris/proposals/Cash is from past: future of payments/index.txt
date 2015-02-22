@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lopez Martin, Alberto
+title: "Cash is from past: future of payments"
+platinum: false
+---
+
+**Abstract:**
+
+From the website to the mobile applications, from wearable devices to biometrical systems of authentication: innovation is driving the way we make payments. Cash is from Past, the notes and coins in few years will be in the Museums as elements of study. Write the credit card on a mobile? This is from the past!   Mobile devices are the most important central piece of technology towards the future of commerce, being the sweet point between the online and offline world and becoming a central point for the future hardware and technology.  In this talk I’ll speak about the evolution experimented in the mobile payment world, highlighting the most important trends: the collapse of the cash because of the growth of mobile apps, biometrical systems, future payments on mobile devices, etc. C’mon, drop to this talk and discover with me the latest tendencies on payments!
+
+**Speaker:**
+
+*Lopez Martin, Alberto*

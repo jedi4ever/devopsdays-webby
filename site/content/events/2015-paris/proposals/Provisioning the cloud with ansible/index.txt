@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ramez Hanna
+title: "Provisioning the cloud with ansible"
+platinum: false
+---
+
+**Abstract:**
+
+This is the story of how at my current job we tackled the provisioning the cloud, from the bling of the webui to the fully automated provisioning and insights into the future of transitioning toward "cattle" servers
+This talk is about a WIP and is provided so that people tackling the same issue don't have to make the same mistakes.
+
+**Speaker:**
+
+*Ramez Hanna*
+
+I am an operations guy. co-organizer or devops-finland, and ansible meetups in helsinki. Also an organizer of  devopsdays helsinki.
+I believe in infrastructure as code, I strive for efficiency.
+I have had many jobs, all around running development operations cycles from code to customer and maintaining infrastructures.

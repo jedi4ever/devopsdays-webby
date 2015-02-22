@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lopez Martin, Alberto
+title: "LeAPIng to real world:iOT!"
+platinum: false
+---
+
+**Abstract:**
+
+Over the latest years, the line between offline and online world becoming thinner, practically disappearing. Today, thanks to the new technologies, is possible take the control of all the things of your offline world using the power of the online world. Because, who didn’t ever feel that would be great having the APIs you use on the web available for your daily life? C’mon! Take a sit on this trip if you are willing to walk through wearable devices, newest technologies and examples of using online APIs for offline business!
+
+**Speaker:**
+
+*Lopez Martin, Alberto*

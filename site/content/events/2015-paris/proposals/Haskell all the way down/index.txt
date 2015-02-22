@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Arnaud Bailly & Willem van den Ende
+title: "Haskell all the way down"
+platinum: false
+---
+
+**Abstract:**
+
+In order to survive in the short and long term, as a startup we want to ship solid code and process user feedback fast now and in the future. We also can't spend too much time and money on getting the slickest of continuous delivery pipelines set up.
+
+Therefore we decided to also use the programming language we use for our backend services for everything else as much as possible. In the past we've had good experiences doing this with Ruby and Smalltalk, this time with Haskell we expected to save time and money by getting feedback on our configuration management and build pipeline from the Haskell compiler, because running builds and creating virtual machines and docker containers take a long time, getting feedback on a simple error after building for 10 or more minutes makes for slow improvement. The same goes for end-to-end and integration tests.
+
+Come to our talk to hear how we used Propellor (instead of e.g. chef or puppet) to configure our laptops, set up a disposable shared development environment in the cloud, and create our web and build servers, how we use Shake to build a set of Docker containers and Bake to run our continuous integration and delivery server, and hs/webdriver to run end-to-end tests.
+
+We've made quite a few unusual choices in our tooling, as well as the design of our web API and application to help us deliver fast and long. Some were no-brainers from the beginning, some are starting to work after a couple of months, and some we are still unsure about. And of course some choices turned out to be bad ideas.
+"
+**Speaker:**
+
+*Arnaud Bailly* 
+*Willem van den Ende*
+
+Both of us have applied continuous deployment to projects we worked on, and coached others in doing the same since we started doing eXtreme Programming. We’ve learnt that even though at times you feel like you are rolling rocks uphill, solid automation that is understood by as much of the team as humanly possible always pays off. Be it in better disaster recovery, faster feedback to users or being able to develop a solution in unexpected directions quickly and relatively cheaply.
+
+Igitur Ventures invests in early stage startups through seed software development and fulfilling CTO roles.
