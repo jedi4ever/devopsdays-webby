@@ -16,7 +16,8 @@ filter:    erb
 
 <h1>Gold sponsors</h1>
 <% @gsponsors = [
-{ :image => 'normation.png', :name => 'Normation', :link => 'http://www.normation.com', :width => '100px', :height => '100px' }
+{ :image => 'normation.png', :name => 'Normation', :link => 'http://www.normation.com', :width => '100px', :height => '100px' },
+{ :image => 'gandi.png', :name => 'Gandi.net', :link => 'https://www.gandi.net', :width => '100px', :height => '100px' }
 ] %>
 
 <% if @gsponsors.empty? %>
