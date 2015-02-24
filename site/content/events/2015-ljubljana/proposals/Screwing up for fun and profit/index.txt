@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Oliver Hankeln"
+title: 'Screwing up for fun and profit'
+---
+**Abstract**
+
+DevOps is all about getting Devs and Ops guys to effectivly work together. With things like better monitoring, automation, config management etc. we can now speak the same language when it comes to technology. We have continuous integration and sometimes even continuos deployment, and could be rather satisfied that we develop and deliver software like never before. 
+And all is quite nice, as long as everything runs as expected. 
+But then disaster strikes. It is in the face of failure that our abilities to effectively communicate and deal with problems are put to the test.
+
+All too often, things go downhill very fast, when someone screws up. 
+
+This talk will explore typical anti-patterns in dealing with failure and discuss the patterns that will help you stay on top of the problems and learn the most out of mistakes and failures. You will learn tools and techniques that help you avoid the blame game, keep communication between Devs and Ops and inside the teams flowing and help everyone to a common understanding of what happened why - and how to prevent this from happening again in the future.
+
+You will also learn how to reduce the risk of things going wrong not by more testing (though testing is important) or more specs but by getting the right bunch of people talking in the right way.
+
+This talk is for everyone who is not living in a perfect world, but in a world where mistakes happen.
+
+
+**Speaker:**
+
+ I started out as a software developer, working mostly for Internet companies. Fed up with browser incompatibilities I moved first to backend then to operations.
+ This experience in both "sides" of the game helps me understand the issues Dev has with Ops and vice versa. 
+
+ So I lived DevOps when the term was not even coined. Obviously the tools followed, so I gathered a lot of experience with things like chef, openTSDB, graphite, logstash and so on. But more and more I focus on the cultural side of how to get people to work together efficiently in teams and across teams and divisions.
+
+ I recently switched from being employed to freelance consulting, helping organisations getting more insight into their product with better monitoring and having great development and operations processes that match the agile mindset.

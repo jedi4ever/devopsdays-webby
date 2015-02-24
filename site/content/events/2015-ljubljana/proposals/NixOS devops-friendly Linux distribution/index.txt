@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Domen Kožar"
+title: 'NixOS: devops-friendly Linux distribution'
+---
+**Abstract**
+
+During the last few decades we have built many tools and layers on top
+of each other to automate the way we configure and distribute software.
+
+We'll explore NixOS, declarative Linux distribution that builds these
+tools from ground up based on the primitive Nix language and revolutionary
+approach to packaging and configuration Nix provides.
+
+Further more, we'll take a step further and use NixOps tool to use Nix
+language to describe deployments and how to provision them.
+
+Doing so should give us one language and one tool for managing the whole
+stack of: development, configuration and deployment.
+
+**Speaker**
+
+Domen Kožar is a NixOS core developer and a Python guru. He's been contracting for the last 7 years and stepped into the DevOps world in 2013.

@@ -17,5 +17,6 @@ title: 'Define "work"'
 In this talk we will analyze our "work" and develop a mental model to aid us. We will explore this model and hopefully gain a better understanding of the DevOps view of working.  
 
 **Speaker:**
+
 Avishai is a veteran ops and a survivor of many prod skirmishes. Currently masquerading as the CTO of Fewbytes - a consulting company for Ops and architecture.
 

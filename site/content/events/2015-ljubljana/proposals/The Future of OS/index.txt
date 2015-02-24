@@ -17,4 +17,5 @@ Linux distros and Windows NT both date back to 1993 and the principles of the op
 
 
 **Speaker:**
+
 Avishai is a veteran ops and a survivor of many prod skirmishes. Currently masquerading as the CTO of Fewbytes - a consulting company for Ops and architecture.

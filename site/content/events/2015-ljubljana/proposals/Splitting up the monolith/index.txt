@@ -12,6 +12,7 @@ author: "Daniel Torok"
 title: "Splitting up the monolith"
 ---
 **Abstract**
+
 Prezi is an online presentation software company with a complicated backend system, whose biggest chunk used to be a huge python application we had been building since the company was born, and what had became a pain point for the development and for our availability as well.
 We decided to separate the mission critical parts into separate, small services (microservices, if you will), and move them together with their databases from physical hardware to the AWS cloud.
 
@@ -22,6 +23,7 @@ I will also touch on the sensitive topic of how a project like that can take alm
 Although my presentation will be strongly technical, it won't be limited to one particular technology, I will talk about issues that anyone can face in a project like that.
 
 **Speaker:**
+
 I'm Daniel Torok, senior software engineer at Prezi.com. I'm working in one of the Critical Backend Services teams whose job is to build an infrastructure that ensures high availability for the most critical parts of our system, to make sure that our users can present anytime, anywhere.
 
 I happen to have some sysadmin background that turned out to be very useful several time in my career. It makes it easier to do devops, helps me writing better code or finding tricky bugs.

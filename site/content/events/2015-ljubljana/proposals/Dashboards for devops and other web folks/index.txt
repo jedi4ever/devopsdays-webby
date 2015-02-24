@@ -11,15 +11,14 @@ layout: event
 author: "Luka Muzinic"
 title: "Dashboards for devops and other web folks"
 ---
-**What is it about**
+**Abstract**
 
 The Importance of monitoring key aspects of your web application and organizing gathered data so you can instinctively react and fix problems.
-
-**Abstract**
 
 Wouldn’t it be great if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools like StatsD, Logstash, Cacti and many others. But successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you changes and pinpoints problems makes up the other half.
  
 This talk will focus on the importance of monitoring web applications and give advice on how to organize and build your dashboard for quick reactions. Find out tips and tricks as well as what impact running a dashboard monitor had on overall project performance.
 
 **Speaker:**
-Luka Muzinic
+
+Passionate about being a developer, teacher and mentor for newcomers into world of programming. Involved in organizing ZgPHP user group meetings, workshops and conferences. Currently working as senior software engineer for HomeExchange. Enjoys playing and watching sports that Croatians find odd and unpopular.

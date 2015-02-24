@@ -29,6 +29,7 @@ filter:    erb
 { :image => "stackstorm.png", :name => "StackStorm", :link => "http://stackstorm.com/", :height => "40px"},
 { :image => "infinum.png", :name => "Infinum", :link => "http://infinum.co/", :height => "25px"},
 { :image => "3fs_logo_rumen.png", :name => "3fs", :link => "http://3fs.si/", :height => "40px"},
+{ :image => "dlabs.png", :name => "Dlabs", :link => "http://dlabs.si/", :height => "50px"},
 ]%>
 
 

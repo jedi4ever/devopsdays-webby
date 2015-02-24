@@ -18,3 +18,7 @@ API driven development is nothing new – but the way we use our APIs is. We use
 We are going down the path where we generate as much as possible beforehand – documentation, developer console for testing API calls, assignment of Client IDs – it all becomes one big automated system, where API calls number in the millions, even billions. Literally every millisecond counts. And in the end, also the choice of programming language, and web server. You can push the limits very far, and your stack is not obsolete. You just need to extend your toolbox.
   
 The talk will focus on RTVSLO MMC Slovenia and the approach we took to implementing the API platform they use. I will demonstrate some approaches where we deploy the API platform code in much the same way that Flickr does, and how we switch the programming language for some key API calls. Our stack is quite agnostic in the way that any API call can be implemented in a variety of ways – LUA, PHP, GO, Node.js. Or even just inside the web server itself.
+
+**Speaker**
+
+Tit Petrič is a co-founder of Monotek d.o.o., a high-tech software development firm. As a systems architect he has intimate knowledge of planning and development of server-side applications, advanced knowledge of database design and extensive experience with various clients in regards to scaling infrastructure needs and high availability.
