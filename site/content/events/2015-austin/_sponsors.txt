@@ -3,6 +3,7 @@ filter:    erb
 ---
 <% @gsponsors = [
  { :image => "snap-ci.png", :name => "Snap", :link => "http://www.snap-ci.com/"},
+ { :image => "wpengine.png", :name => "WPEngine", :link => "http://www.wpengine.com/"},
 ]
 %>
 
