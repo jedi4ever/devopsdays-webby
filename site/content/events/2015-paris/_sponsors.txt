@@ -1,7 +1,9 @@
 ---
 filter:    erb
 ---
-<% @psponsors = [] %>
+<% @psponsors = [
+{ :image => 'ca_technologies.png', :name => 'CA Technologies', :link => 'http://www.ca.com/fr', :width => '100px', :height => '100px' }
+] %>
 
 <% if @psponsors.empty? %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
