@@ -18,5 +18,8 @@ In order to manage and scale those containers, you need something as Kubernetes.
 And if you use non-Linux environment, Jube is there to save your day.
 If you're into these cloud buzz-words, this is the presentation to see.
 
-**Speaker:**
-Marko Luk&#353;a, Ale&#353; Justin
+**Speakers:**
+
+**Marko Luksa** joined Red Hat in February '12 and is currently working on CapeDwarf (JBoss' open-source implementation of the Google App Engine API), the Google AppEngine TCK and Cloud Enablement; He has also contributed to Weld and Infinispan.
+
+**Ales Justin** was born in Ljubljana, Slovenia and graduated with a degree in mathematics from the University of Ljubljana. He fell in love with Java long ago and has spent most of his time developing information systems, ranging from customer service to energy management. He joined Red Hat in 2006 to work full time on the Microcontainer project. He currently leads CapeDwarf project, while still contributing to Cloud Enablement, ApplicationServer, Weld, Ceylon and many other JBoss projects."

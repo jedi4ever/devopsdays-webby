@@ -12,10 +12,12 @@ author: "Avishai Ish-Shalom"
 title: 'Monitoring done wrong'
 ---
 **Abstract**
+
 We all know that #monitoringsucks. By why is that? and how can we make it better?
 
 This talk will cover what monitoring is, why it's an inseparable part from application development and my thoughts on why we suck at monitoring and how we can make it better.
 
 **Speaker:**
+
 Avishai is a veteran ops and a survivor of many prod skirmishes. Currently masquerading as the CTO of Fewbytes - a consulting company for Ops and architecture.
 

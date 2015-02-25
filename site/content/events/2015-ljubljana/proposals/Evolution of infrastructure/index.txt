@@ -12,6 +12,7 @@ author: "Jure Pe&#269;ar"
 title: 'Evolution of infrastructure'
 ---
 **Abstract**
+
 We'll make an overview of technologies used to build infrastructre and
 methods to utilize it from the beginning of modern computing till now,
 trying to recognize the repeating patterns and deduce the future based on
@@ -20,6 +21,7 @@ cloud based VMs is lacking and explore alternatives that enable us to build
 a single infrastructure that can satisfy any kind of demand.
 
 **Speaker**
+
 Sysadmin with 15 years of expirience on all kinds of environments, from
 large enterprise desktop environment to web services with million+ users,
 large scale web hosting and lately High Performance Computing. Had

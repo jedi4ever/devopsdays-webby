@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Ankur Trivedi"
+title: 'How a payment processing company turned into a software release factory'
+---
+**Abstract**
+
+There was a company which had typical long running releases and the business was not happy.  Business wanted change but IT was not sure how to deliver. Then they heard about Agile. It looked like the magic potion to all their problems.They started doing Agile but it just meant more work for the team and a chaos during the last days of the sprint. Operations was still not happy. Then they heard about another magic potion called Devops, which forced them to think about continuous delivery. So enough of the dramatisation, I'll talk about the various tools being used in order to bring about this change and what were the challenges that they faced in this journey.The talk has two dimensions: First, The tool chain and Second, how the team was convinced to hop on this journey of continuos delivery. Let me begin by saying that both of the points are equally important and correlated because convincing a team to change is very difficult if the tool selection is not right.
+
+The pipeline includes: Puppet, Jenkins, AWS, and a release and deployment automation tool.
+
+**Speaker:**
+
+I have spent a fair amount of time in software development in different roles of software developer, project manager and scrum master. I have done large scale development projects in both waterfall and Agile and now my day job is of a devops consultant. So I spend time with the customers setting up their deployment and release automation frameworks. So now I have seen both sides of the fence Dev and ops. In my spare time I like to read about devops, continuos delivery or try new tools in this space.

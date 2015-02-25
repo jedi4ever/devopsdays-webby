@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Tomaz Muraus"
+title: 'Event driven infrastructure automation with StackStorm'
+---
+**Abstract**
+
+StackStorm is an open-source platform for integration and automation across services and tools, taking actions in response to events (sometimes called IFTTT for operations).
+
+At its heart, DevOps is primarily about cultural and organization shift. This means that using a particular tool or set of tools won't magically make your organization "DevOps". Nevertheless, tools still play an important role and can help you make the transition to DevOps easier, faster and smoother.
+
+Two of the most commonly recognized DevOps principles are "infrastructure as code" and "automation". In this talk I will show how you can apply those principles in practice using StackStorm open-source automation platform.
+
+At its core, StackStorm allows you to take actions in response to events and integrate together different services and tools. StackStorm allows you to achieve that by providing basic building blocks or so called integration packs (you can of course re-using existing scripts or build your own) which you can connect together to achieve a desired result (think legos).
+
+Most importantly, all of those building blocks are just code. This means you can (and should) version them, test them, review them and so on.
+
+It doesn't matter if you are a new company who's architecture is mostly organized around microservices or if you are a large established enterprise with many legacy systems, tools and processes - StackStorm allows you to easily bridge and connect those systems together.
+
+
+**Speaker:**
+
+Tomaz Muraus is a software engineer at StackStorm (http://stackstorm.com/) where he is helping to build the product. Tomaz previously worked at Cloudkick, Rackspace and DivvyCloud where he was building and operating highly performant and highly available distributed systems. His latest work at Rackspace includes Service Registry, an API-driven cloud service which allows users to react to changes faster and build highly-available and decoupled applications and services.
+
+Tomaz is a big supporter and proponent of open systems and open-source software. He has started, participated in development and contributed to many different open-source projects. Additionally, he is a project chair and main developer of Apache Libcloud, an open-source project that deals with cloud interoperability.
+
+Tomaz holds a BS in Computer Science from University of Maribor in Slovenia.

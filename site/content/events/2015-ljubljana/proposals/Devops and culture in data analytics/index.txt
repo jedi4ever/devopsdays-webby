@@ -29,3 +29,9 @@ to apply TDD?
 - How did I arrive to the blameless culture and why I had failed before that?
 
 The main message is how to introduce devops and developer culture to analytical people and to data analysis.
+
+**Speaker**
+
+As a software engineer I have more than 6 years experience in mobile development, backend development, operations and software architecture, recently I'm working with data processing architectures. 
+I work with several tools and frameworks, I believe in open source communities. I am very committed to automation and Infrastructure as code culture. I promote culture as a driver for success. 
+I am Co-founder and Senior Infrastructure Engineer at enbrite.ly, and Lead Developer at Dmlab, a data analytics company. Previously I worked at Distinction, an innovative mobile development shop, acquired last year by Skyscanner.
