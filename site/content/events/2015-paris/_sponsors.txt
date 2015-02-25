@@ -1,7 +1,9 @@
 ---
 filter:    erb
 ---
-<% @psponsors = [] %>
+<% @psponsors = [
+{ :image => 'ca_technologies.png', :name => 'CA Technologies', :link => 'http://www.ca.com/fr', :width => '100px', :height => '100px' }
+] %>
 
 <% if @psponsors.empty? %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
@@ -14,7 +16,8 @@ filter:    erb
 
 <h1>Gold sponsors</h1>
 <% @gsponsors = [
-{ :image => 'normation.png', :name => 'Normation', :link => 'http://www.normation.com', :width => '100px', :height => '100px' }
+{ :image => 'normation.png', :name => 'Normation', :link => 'http://www.normation.com', :width => '100px', :height => '100px' },
+{ :image => 'gandi.png', :name => 'Gandi.net', :link => 'https://www.gandi.net', :width => '100px', :height => '100px' }
 ] %>
 
 <% if @gsponsors.empty? %>
