@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Yann Rouillard & François Xavier Vende
+title: "Dev+Ops: when a fairy tale comes true !"
+platinum: false
+---
+
+**Abstract:**
+
+In 2015, thanks to the DevOps movement, OPS are getting more and more present inside the development teams. Everybody celebrates this beautiful union from which we all expect a lot: they must live happy and deliver plenty of wonderful applications in production.
+
+Unfortunately they are often caught up by the hard reality of couple life. Nor white, nor black, it's a permanent challenge, where our lovers must learn to understand each other: one wants to deliver quickly new functionalities while the other looks after the respect of production requirements.
+
+Through this presentation, we suggest to review the agreement between the two partners, to see what are the numerous temptations to avoid, to understand how to escape from the trap of routine and especially to share the practical recipes from the field which will allow to keep the idyll as it was on the 1st day !
+
+**Speaker:**
+
+*François Xavier VENDE*
+
+Architect @OCTOTechnology, DevOps evangelist for medium and big size company, industrialization expert with cloud skills and a development background
+
+*Yann ROUILLARD*
+
+Consultant and architect @OCTOTechnology, a previously pure OPS who once discovered the DevOps light and is now spreading the good word tirelessly.

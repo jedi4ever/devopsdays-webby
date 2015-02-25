@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bertrand Besnard
+title: "The Power Of Unicorns"
+platinum: false
+---
+
+**Abstract:**
+
+Every body loves unicorns, mostly because they are awesome but in the DevOps world, unicorns represent those companies which have embraced DevOps to the fullest and took it to the next level. 
+
+They're named that way because they are so rare and it all seems like they're doing magic when they're just doing what everyone should be doing: DevOps the right way.
+
+**Speaker:**
+
+*Bertrand Besnard*
+
+Bertrand Besnard is a French Software Engineer who migrated to Oslo. He has since then been working on some of the biggest Norwegian projects as a DevOps such as NAV and Autosys. He is currently employed by Sopra Steria and writes on www.devops.com.
+
+He is interested in process analysis and human interactions and travels the world to discover more cultures, and food, lots of food.
