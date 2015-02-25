@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: GACHES Alexis
+title: "DevOps, the fundamentals to accelerate application delivery"
+platinum: false
+---
+
+**Abstract:**
+
+New technologies such as connected devices, social networks and smartphones are revolutionizing the world of business by creating new relational patterns.
+In addition to new usage, the full digital is revealing new growth drivers for the business in various industries: distribution, information and entertainment, banking, education, public administration or communications.
+Several studies in recent years suggest that companies that have successfully undergone digital transformation benefited from an increase in revenue and an increase in their margins.
+To capture these new business opportunities, IT must adapt itself to allow faster development of new products and services. To achieve this, companies must foster collaboration to make teams more productive and innovative.
+The objective of this session is to present how technology can achieve the DevOps objectives by eliminating the application delivery constraints and bottlenecks that disrupt the production of value for end customers.
+Customers use cases will be used to illustrate our messages.
+
+
+
+**Speaker:**
+
+*GACHES Alexis*
+
+Alexis Gaches is a Technical Advisor within the CA Technologies Application Delivery group.  Alexis assists organizations adopting a DevOps methodology and a Continuous Delivery approach, as part of the reinvention of their software delivery lifecycle (SDLC). He has overseen many projects that have helped deliver better quality applications faster and cheaper. Alexis recently held a pivotal role as an SDLC architect for one of the biggest European banking transformation program. Before joining CA Technologies in September 2014, he has held several senior architect positions within major enterprise software companies, often with an agile delivery focus.

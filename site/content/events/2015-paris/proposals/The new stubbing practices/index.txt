@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: FINAS Dimitris
+title: "The new stubbing practices"
+platinum: false
+---
+
+**Abstract:**
+
+Stubs are used in the early phase of the application development lifecycle, to test components in an isolated way from other components. Their use is widespread within the agile, iterative and incremental development world, where the parallelization of development is strongly needed.
+However the classical stubbing techniques (MockIt, Mock-IU Junit...) quickly reach their limits with data management and performance issues. "Service virtualization" or "application simulator" complete this approach by offering practical answers to manage the constraints faced by development and testing teams. These new solutions are used to address the relevance of environments and test data.
+The aim of the presentation is to explain the fundamentals of Service virtualization and to show the advantages of this method over conventional stub techniques.
+
+
+**Speaker:**
+
+*FINAS Dimitris*
+
+Senior Principal Consultant, CA Technologies
+Pre-Sales and Evangelist for Service Virtualisation 
