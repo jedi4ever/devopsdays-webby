@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Arnaud Bétrémieux
+title: "Git-deliver"
+platinum: false
+---
+
+**Abstract:**
+
+Git-deliver is a portable, GPL licensed delivery system based on Git.
+
+It uses "git push" combined with SSH as a way of delivering a project (as of a specific Git commit) to various environments (Git remotes) simply and securely. It also helps keeping track of what is delivered on which server, and ensures integrity.
+
+It is ideal for delivering dynamic language projects and server configuration files.
+
+**Speaker:**
+
+*Arnaud Bétrémieux*
+
+Arnaud is a consultant with the performance team at Octo Technology.
+
+He's an avid lisper and proponent of open-source.
+
+A developer for 18 years, including 8 professionally, his background is pretty diversified: large C#, PHP and Java commercial and government projects, ops, consulting and training.
+
+Arnaud is the creator and maintainer of Git-deliver, an open-source delivery tool based on Git.

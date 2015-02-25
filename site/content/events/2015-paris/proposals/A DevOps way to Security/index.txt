@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alex Manly
+title: "A DevOps way to Security"
+platinum: false
+---
+
+**Abstract:**
+
+This talk will discuss the processes and practices that organizations can use to improve their security demeanor when applying change to systems in a fast moving world.  It explores ways in which compliance can be applied and controlled at velocity.  By having the correct processes and controls in place early in the delivery life cycles you can minimize your exposure and risk to security.  It will also highlight ways to manage your audit and compliance requirements whilst being able to resolve issues in a fast and controlled manner.
+
+
+**Speaker:**
+
+*Alex Manly*
+
+I have over 15 years’ technical sales, technical consulting, web application development and automation experience. I am an expert in JEE, continuous integration, continuous delivery and many of the toolsets used to implement these solutions.
+
+I am currently a Solutions Architect for Chef Software, but previous to Chef, I was the Vice President of Product Development at MidVision.  I designed and built the RapidDeploy product which primarily is used for deployment automation of middleware systems.
+
+I have previously spoken at the Jenkins User Conference in Boston and Berlin (https://www.cloudbees.com/company/events/juc) and the Jenkins CI User Event 2014 - http://www.jcicph.dk/ on the subject of automated application deployments.

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ingmar Van Glabbeek
+title: "Network automation: your network, your rules"
+platinum: false
+---
+
+**Abstract:**
+
+This presentation will be about finding devices in your network that are not configured to your standards.
+
+We will then address the issue and showcase some examples of other possible network automation tasks
+
+**Speaker:**
+
+*Ingmar Van Glabbeek*
+
+Implementing networking automation solutions and frequently working with devops and networking teams.
