@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: KHODABACCUS Reza
+title: "Continuous deployment, the necessary link for true DevOps"
+platinum: false
+---
+
+**Abstract:**
+
+The digital transformation is embracing all business sectors: retail, media, leisure, banking, education, communication and public services.
+In a world where everything is connected, new services are consumed through applications that are now the preferred means of interaction with customers.
+To exist in this application economy and attract new customers it is urgent and important for companies to provide high-quality user experience and demonstrate continuous innovation. This is only possible if the development chain and application deployment are specifically adapted to be able to constantly deliver innovations to customers.
+Recent studies show that companies that innovate and succeed today are those that have understood the importance of this transformation and have adapted quickly. The benefits they could derive is the significant increase in revenues from the digital channel, increasing their market share and improving their brand image.
+The objective of the presentation will be to explain how continuous deployment of applications facilitates the digital transformation. The discussion will be enhanced by concrete examples of clients who started this transformation in various sectors: banking, distribution…
+
+
+
+**Speaker:**
+
+*KHODABACCUS Reza*
+
+Principal Presales Consultant on DevOps/Continuous Application Delivery, Datacenter & Cloud Automation, Service Assurance, Desktop Management

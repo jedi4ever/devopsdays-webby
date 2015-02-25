@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Boris Feld
+title: "The importance of Why in DevOps"
+platinum: false
+---
+
+**Abstract:**
+
+In the DevOps community, we're mainly focused on what actions to implement to be "DevOps" compliant, how to implement them, and with which tools. We forget too often the WHY, why DevOps is vital for modern companies and why the actions we are trying to experiment with and implement are important.
+
+This talk will present a reflexion about "Why DevOps is important" and "Why CLAMS is important" with examples from my experience.
+
+**Speaker:**
+
+*Boris Feld*
+
+Boris Feld (@lothiraldan) is currently employed as a software engineer at tinyclues with a strong focus on operations issues and DevOps cultural shift.
+He worked previously at PeopleDoc where he led the "Infrastructure as Code" implementation and helped the transition from a traditional human-powered infrastructure to a brand new cloud SaltStack-powered openstack infrastructure in the US.
+He now helps his colleagues to work better and experiment on all the CLAMS issues like metrics, monitoring, error reporting, culture and processes changes. He uses AWS every day to build the most scalable, secure architecture possible using Saltstack.
+He is as big fan of Saltstack, he is quite active in the local French Saltstack community and has developed a web UI on top of Saltstack named saltpad (https://github.com/tinyclues/saltpad).
