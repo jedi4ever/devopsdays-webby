@@ -32,7 +32,8 @@ filter:    erb
 <h1>Silver sponsors</h1>
 <% @ssponsors = [
 { :image => 'prologism.png', :name => 'Prologism', :link => 'http://www.prologism.fr', :width => '100px', :height => '100px' },
-{ :image => 'mozilla.png', :name => 'Mozilla', :link => 'https://www.mozilla.org', :width => '100px', :height => '100px' }
+{ :image => 'mozilla.png', :name => 'Mozilla', :link => 'https://www.mozilla.org', :width => '100px', :height => '100px' },
+{ :image => 'dailymotion.png', :name => 'Daily Motion', :link => 'https://www.dailymotion.com', :width => '100px', :height => '100px' }
 ] %>
 
 <% if @ssponsors.empty? %>
