@@ -9,15 +9,47 @@ dirty: true
 platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
 <center>
-  <table><tr><td>
   <img border=0 width=211 height=158 src="/events/2014-amsterdam/logos/dod-amsterdam.png">
-</td><td>
-  Date : 24, 25 &amp; 26th of June 2015<br>Location: <a href="location/">Pakhuis de Zwijger - Amsterdam</a>
-</td>
-</tr>
-</table>
 </center>
+
+<div align="center">
+  <br/>
+  This year, we are hosting the third edition of devopsdays Amsterdam. We are looking forward to welcoming 300+ attendees, speakers and trainers for three days of interesting sessions in June 2015.
+  <br />
+
+  <table>
+    <tr>
+      <td><strong>Date</strong></td>
+      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+    </tr>
+
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>
+        <a href="http://devopsdays.org/events/2015-amsterdam/location/" target="_blank"><%= render(:partial => "/#{@eventhome}/_target_date") -%></a>
+      </td>
+    </tr>
+
+    <tr>
+      <td><strong>Speakers</strong></td>
+      <td>The call for <a href="propose/">proposals</a> is now open!</td>
+    </tr>
+
+    <tr>
+      <td><strong>Sponsors</strong></td>
+      <td><a href="sponsors/">Sponsoring opportunities</a> are available. Help us make this event an outstanding one!</td>
+    </tr>
+
+    <tr>
+      <td><strong>Contact</strong></td>
+      <td><a href="contact/">Get in touch with the Organisers</a>.</td>
+    </tr>
+  </table>
+
+</div align="center">
+
 <hr>
 
 Do you have any thoughts, concerns or ideas you want to share with us? [Talk to the organizers!](mailto:organizers-amsterdam-2015@devopsdays.org)!
