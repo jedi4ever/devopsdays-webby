@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Steve Pereira
+title: "The DevOps Checklist"
+platinum: true
+---
+
+**Abstract:**
+
+Analysis and opinion of what constitutes DevOps and a mature delivery-focused organization. 
+This year I’m creating a simple and social list of qualities of high calibre software delivery teams. You can see it at devopschecklist.com. Right now it’s in MVP, and I’ll share where it came from and where it’s going.
+
+We’ll cover:
+
+* why and how
+* what’s in it for me?
+* agile + devops content
+
+**Speaker:**
+
+*Steve Pereira*
+
+I'm a software delivery specialist in Toronto, helping companies and teams more effectively and efficiently ship code. I run Toronto's monthly DevOps meetup and ran Toronto's first DevOps Days conference last Sept. I'm unreasonably fond of throwing frisbees and a giant fan of all things software.

@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Steve Pereira
+title: "What Happens Without Traction?"
+platinum: true
+---
+
+**Abstract:**
+
+What if you're not the CTO and you want to improve your quality, performance and stability.
+
+This is my story of working within low buy-in, legacy, siloed organizations to break down barriers, blur borders and eliminate constraints. I’ll also tie in material from ‘Driving Technical Change’ and ‘Building a DevOps Culture’
+
+We’ll cover:
+
+* tribes and guilds vs teams
+* winning trust and building confidence
+* simple risk and roi
+* low impact tools
+
+**Speaker:**
+
+*Steve Pereira*
+
+I'm a software delivery specialist in Toronto, helping companies and teams more effectively and efficiently ship code. I run Toronto's monthly DevOps meetup and ran Toronto's first DevOps Days conference last Sept. I'm unreasonably fond of throwing frisbees and a giant fan of all things software.
+
+* DevOpsTO meetup
+* DevOps Days Toronto
+* @steveElsewhere
+
+linkedin.com/in/devopsto
