@@ -10,6 +10,7 @@ end
 %>
 
 <% @gsponsors = [
+{ :image => "sumologic.jpg", :name => "Sumo Logic", :link => "http://www.sumologic.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -17,15 +18,14 @@ end
 <br/>
 <h1><font color="silver">Silver Lake</font> sponsors</h1>
 
-<% @gsponsors = [
+<% @slsponsors = [
 ]%>
-<%= make_sponsor_links(@gsponsors) %>
+<%= make_sponsor_links(@slsponsors) %>
 
 <br/>
 <br/>
 <h1><font color="Wheat">Stone Arch</font> sponsors</h1>
 
-<% @gsponsors = [
+<% @sasponsors = [
 ]%>
-<%= make_sponsor_links(@gsponsors) %>
-
+<%= make_sponsor_links(@sasponsors) %>
