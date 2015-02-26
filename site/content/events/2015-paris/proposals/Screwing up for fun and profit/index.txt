@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Oliver Hankeln
 title: "Screwing up for fun and profit"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

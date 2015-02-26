@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Owen Gardner
 title: "Generically specific DevOps - How to support teams with different challenges adopt a standard DevOps approach"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

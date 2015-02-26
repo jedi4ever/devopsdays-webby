@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Nigel Kersten
 title: "Cognitive biases and our poor intuitions around probability"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

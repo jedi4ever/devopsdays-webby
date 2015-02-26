@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Arnaud Bétrémieux
 title: "Git-deliver"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

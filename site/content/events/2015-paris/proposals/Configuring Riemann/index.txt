@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: David Webster
 title: "Configuring Riemann"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

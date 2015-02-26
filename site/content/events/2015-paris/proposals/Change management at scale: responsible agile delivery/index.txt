@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Pierre-Yves Ritschard
 title: "Change management at scale: responsible agile delivery"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

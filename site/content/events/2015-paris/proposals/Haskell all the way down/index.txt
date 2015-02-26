@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Arnaud Bailly & Willem van den Ende
 title: "Haskell all the way down"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

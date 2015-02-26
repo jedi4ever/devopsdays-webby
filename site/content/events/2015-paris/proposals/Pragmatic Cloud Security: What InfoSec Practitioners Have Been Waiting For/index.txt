@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Josh Danielson & Arthur Andrieu
 title: "Pragmatic Cloud Security: What InfoSec Practitioners Have Been Waiting For."
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Bertrand Besnard
 title: "DevOps through history (1910s - tomorrow)"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

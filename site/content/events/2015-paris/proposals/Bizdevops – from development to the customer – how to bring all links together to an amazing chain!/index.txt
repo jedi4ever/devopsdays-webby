@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Sabine Bernecker-Bendixen
 title: "Bizdevops – from development to the customer – how to bring all links together to an amazing chain!"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

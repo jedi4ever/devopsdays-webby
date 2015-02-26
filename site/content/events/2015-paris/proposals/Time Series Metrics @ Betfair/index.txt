@@ -11,7 +11,7 @@ selected: false
 layout: event
 author: David Webster
 title: "Time Series Metrics @ Betfair"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Lopez Martin, Alberto
 title: "Cash is from past: future of payments"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

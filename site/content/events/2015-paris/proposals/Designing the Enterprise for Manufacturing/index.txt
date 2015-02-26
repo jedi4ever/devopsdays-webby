@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Sc0tt Russell
 title: "Designing the Enterprise for Manufacturing"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

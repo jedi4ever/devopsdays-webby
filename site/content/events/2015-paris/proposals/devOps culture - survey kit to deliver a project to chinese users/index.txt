@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Gilles Guirand
 title: "devOps culture ? survey kit to deliver a project to chinese users"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

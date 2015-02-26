@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: GACHES Alexis
 title: "DevOps, the fundamentals to accelerate application delivery"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

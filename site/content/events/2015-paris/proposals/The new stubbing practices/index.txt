@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: FINAS Dimitris
 title: "The new stubbing practices"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

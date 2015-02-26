@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Ankur Trivedi
 title: "How a payment processing company turned into a software release factory"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

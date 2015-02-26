@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Michael Ducy
 title: "The Importance of Language"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**
