@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Yann Rouillard & François Xavier Vende
 title: "Dev+Ops: when a fairy tale comes true !"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

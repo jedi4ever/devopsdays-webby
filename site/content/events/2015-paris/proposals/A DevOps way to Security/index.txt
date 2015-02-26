@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Alex Manly
 title: "A DevOps way to Security"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

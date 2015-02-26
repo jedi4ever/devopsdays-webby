@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Boris Feld
 title: "The importance of Why in DevOps"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

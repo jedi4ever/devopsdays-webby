@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Bertrand Besnard
 title: "Key Factors For A Switch to DevOps"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**

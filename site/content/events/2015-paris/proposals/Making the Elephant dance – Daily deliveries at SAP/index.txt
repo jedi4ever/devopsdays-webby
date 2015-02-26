@@ -10,7 +10,7 @@ selected: false
 layout: event
 author: Dirk Lehmann
 title: "Making the Elephant dance – Daily deliveries at SAP"
-platinum: false
+platinum: true
 ---
 
 **Abstract:**
