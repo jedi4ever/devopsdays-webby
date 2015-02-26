@@ -13,8 +13,7 @@ filter:    erb
 
 <% @gsponsors = [
   { :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com/"},
-  { :image => "nextbigsound.png", :name => "Next Big Sound", :link => "http://www.nextbigsound.com/"},
-  { :image => "mongodb.png", :name => "Mongodb", :link => "http://mongodb.com/"}
+  { :image => "nextbigsound.png", :name => "Next Big Sound", :link => "http://www.nextbigsound.com/"}
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
