@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: John "botchagalupe" Willis
+title: "Containers, Germs, and Microservices"
+platinum: true
+---
+
+**Abstract:**
+
+This presentation is loosely based on Jared Diamonds Pulitzer Prize winning
+nonfiction "Guns, Germs, and Steel: The Fates of Human Societies".  The concept
+that certain gaps in power and technology between human societies originate in
+environmental differences, which are amplified by various positive feedback
+loops.
+
+In this presentation we will first level set on the core definitions of
+Containers and Microservices.  We will also discuss another technology called
+Data Gravity and how the convergence of the three will create a positive
+feedback loop that will change how we do computing. Of course, Devops and
+culture will be a core theme to this presentation and an attempt will be made
+to conclude a consistent tie back to the aforementioned title of this
+presentation. 
+
+
+**Speaker:**
+
+*John "botchagalupe" Willis*
+
+John Willis has worked in the IT management
+industry for more than 30 years. Prior to joining Enstratius, Willis was the VP
+of Solutions for DTO Solutions where he led the transition to a new suite of
+automated infrastructure and DevOps solutions. Prior to DTO Solutions. Willis
+was the VP of Training & Services at Opscode where he formalized the training,
+evangelism, and professional services functions at the firm. Willis also
+founded Gulf Breeze Software, an award winning IBM business partner, which
+specializes in deploying Tivoli technology for the enterprise. Willis has
+authored six IBM Redbooks for IBM on enterprise systems management and was the
+founder and chief architect at Chain Bridge Systems.
