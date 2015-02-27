@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Thibault Ducray & Olivier Pellegrino
+title: "DevOps and Agility combined with contractual requirements in large IT organisations"
+platinum: true
+---
+
+**Abstract:**
+
+While today's software development organisations or web companies are using new approaches and skills such as Agile methods and DevOps on a daily basis, the IT departments of large companies are evolving a lot more slowly towards these schemes. But some of them have followed these transformations. We are working for companies that have developed these methods / approaches, and have adapted their internal process and organisations to face the challenges of software development efficiency.
+
+These changes combine two advantages. The first one is the use of subcontractors to help them build, deploy and run the business and IT segments of their projects (that is part of my role). The second one resides in managing these teams using Agility, DevOps, Lean IT. That is what we call using both the old and new ways of software development in IT organisations.
+
+In today's presentation, we'll focus on ERDF, the main energy distributor in France. As a TALAN consultant, I have been working with ERDF since 2008 for one of their strategic projects (that counts over 150000 man-days, and continuing...). Because the software created will be used during the next 10 or 15 years, we decided to use the best up-to-date technologies, and therefore the state-of-the-art methods and skills that Agility and DevOps promote.
+
+You will be given an explanation of how we have deployed these methods in a large organisation such as ERDF; how users (targeting more than 10000 internal employees and subcontractors), functional and technical consultants, developers, testers, and operational teams have created a large, uninterrupted flow from functional needs inventory and backlog to "on field" execution; how we and ERDF succeeded in managing the transition of the IT organisations from the old "V cycle" and client-supplier scheme to the integrated user to developer to operational approach (extended DevOps)... and still in progress.
+Olivier Pellegrino, from ERDF, will be my co-presenter.
+
+**Speaker:**
+
+*Thibault Ducray*
+
+I am, since 2007, Partner at TALAN (www.talan.com), a french consulting company, specialised in IT and business practices, always using top of the edge methods and approaches. Our customers are mainly service operators (Orange, SNCF, EDF group, GDF-Suez, Société Générale, ...) who use our services to drive the organisation and technical transformation of their IT and business. I am currently specialized in the IT for smart metering and smart grids.
+Before TALAN, I have been working 10 years in the Bouygues Group and particularly at Bouygues Telecom (3rd french telecom operator), in the IT domain, acting for the emergence of IT Architecture and Enterprise Architecture principles, data and business modeling, IT governance.
+
+As an IT specialist (or willing to be), and as a geek, I have always promote agility, continuous integration, and the establishment of collaborative relationships between each role or responsibility of IT projects. That's why, when the term ""DevOps"" and its tools began to appear, I immediately focused on it and supported my clients on adopting the main proposals of this term, especially to make projects' actors and organisations more efficients, in complement of the agile methods I've always be using.
+
+*Olivier Pellegrino*
+
+Olivier Pellegrino, is an IT technical manager for ERDF, who is deploying all parts of DevOps on his project.

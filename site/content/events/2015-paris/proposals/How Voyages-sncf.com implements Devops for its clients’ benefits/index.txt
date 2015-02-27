@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Frédéric Arnal
+title: "How Voyages-sncf.com implements Devops for its clients’ benefits"
+platinum: true
+---
+
+**Abstract:**
+
+In a competitive context, Voyages-sncf.com, as a leader of e-commerce, is looking permanently for the clients’ satisfaction. So we decided 3 years ago to move into an agile organization which has been the foundation to implement Devops. We will develop how a fast growing company like ours manages this transformation, with a clear vision, finding strategic internal supports to break the codes and create an independent transversal team. Of course we made mistakes (governance, false collaboration… we will develop them!), the change is not an easy stuff even if teams are opened to it! But we learned from them and more from our successes, to converge to our final objective which is simplify clients’ life.
+
+**Speaker:**
+
+*Frédéric Arnal*
+
+Frédéric Arnal is Agile transformation and Devops Manager at Voyages-sncf.com.
+After working three years in an ISP provider in Atlanta (USA) he entered VSC as a java software developper. Along the way he became  technical leader, development team manager and finally he is in charge of an Agile and Devops support team.
