@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Trevor Hess
+title: "The Chef Prince of Azure: How 10th Magnitude used Chef to flip-turn ZS Associates into Microsoft Azure Royalty"
+platinum: true
+---
+
+**Abstract:**
+ 
+
+Now, this is a story all about how<br />
+ZS got flipped-turned upside down<br />
+And I'd like to take a minute<br />
+Just sit right back,<br />
+I'll tell you how we used Chef on the Microsoft stack<br />
+
+
+--<br />
+Come hear the rap on how ZS Associates, a Global Sales and Marketing Data Firm, massively accelerated their change velocity and eradicated manual config errors by implementing Chef on Azure. Hear about ZS’s cool end-to-end provisioning process that uses Powershell and Chef to automate deploy, config and test with one button. 
+
+10th Magnitude Consultant and Arrested DevOps Podcast co-host Trevor Hess will take you through the implementation verse by verse. Trevor, by the way, will literally be rapping--with props to Will Smith.
+
+**Speaker:**
+
+*Trevor Hess*
+
+Trevor is a regular speaker on the topic of DevOps. He develops applications for 10th Magnitude and is a co-host of the podcast Arrested DevOps (http://www.arresteddevops.com). When he’s not sharing his love for concepts like CI and automation, you can find him singing karaoke.
