@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Sylvain Révéreault
+title: "How to reconcile DevOps and ITIL"
+platinum: true
+---
+
+**Abstract:**
+
+Part of my job is to help organizations embrace DevOps principles, and I've often been asked "But we are already ITIL, isn't that incompatible ?
+
+This talk is a compilation of answers I've given to this question, personal thoughts, and other DevOps community members thoughts about ITIL and DevOps.
+
+**Speaker:**
+
+*Sylvain Révéreault*
+
+I've been working for 15 years in IT, first as a system administrator, then as a system integrator, and I am now a consultant in Cloud Computing and DevOps at SII Rennes.
+
+As a system integrator, I've been working on web software industrialization and integration, and soon realized that something was wrong in the communication between the development and the production teams I was working with. 
+So I tried to improve this by making these teams talk to each other, especially focusing on the fact that the operational and technical requirements were shared and explained to the development teams.
+
+Then one day, about 4 years ago, I discovered DevOps, and with it the fact that others were working on the same subjects. So I ""entered"" this community and founded, with two other DevOps enthusiasts, Nicolas Ledez and Mathias Standaert, the "Rennes DevOps" user group so that we could share our experiences locally.
+
+We've been organizing DevOps events (after works, "boot camps") and we've participated as speakers in local events (BreizhCamp, Agile Tour Rennes, Agile Tour Nantes, Agile Tour Brest).
+
+Our last creation (in collaboration with the agilist Aurélien Morvant), "DevOps Mindstorm", is a serious game based on Lego Mindstorm robots to illustrate the need for communication beetwen Devs an Ops.
