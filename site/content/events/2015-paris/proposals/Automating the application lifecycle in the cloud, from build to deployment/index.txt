@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Laurent Bernaille
+title: "Automating the application lifecycle in the cloud, from build to deployment"
+platinum: true
+---
+
+**Abstract:**
+
+In cloud  environments, the installation of application components needs to be fully automated and integrated to the server creation process for auto-scaling to be possible. This talk will present different approaches to make this happen. We will first focus on the integration of configuration management tools with cloudformation in AWS. Then, we will discuss the possibility to create "fully-baked" server images (where everything including the application is installed) using jenkins and packer. The talk will end with a short demo of these solutions.
+
+**Speaker:**
+
+*Laurent Bernaille*
+
+I am a consultant specialized in cloud and automation. I have worked on several large puppet projects (I gave a presentation at puppet camp Paris last year). Lately I have been focusing on optimizing application deployment in cloud environments

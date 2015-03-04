@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Andy Burgin
+title: "How to make a Kick Ass Devops Meetup Group for 20 Euros"
+platinum: true
+---
+
+**Abstract:**
+
+In September 2013 I started a local Devops Meetup in Leeds (5th largest urban area in the UK) when 7 enthusiasts met in a pub - now in 2015 I have 80 people rush to grab tickets and attract speakers from major vendors/players, the meetups still retain the focus on what Devops is with it's roots back to Debois and Shafer still intact. This talk is step by step guide on how I did this and how you can too, it's also a rallying call for how we can all help each other to make meetups better regionally, nationally and beyond.
+
+
+**Speaker:**
+
+*Andy Burgin*
+
+I'm Andy Burgin I spent 15 years at Design and build Web development agency being a dev/systems guy who also ran the small scale "web ops" stuff - I now work as an web engineer for SkyBet keeping services up and running across hundreds of nodes. I formed a local Devops group to meet people who were also "doing devops" and soon realised that there was far more to this and now speak at other local meet up groups and the phpnw unconf about Devops, Lean and TOC and how that all relates to flow. I'm also part of the team behind DevopsDays Derby (which will happen soon)
