@@ -1,15 +1,18 @@
 ---
 filter:    erb
 ---
-<% @gsponsors = []%>
+<% @gsponsors = [
+	{ :image => "puppetlabs.png", :name => "PuppetLabs", :link => "http://www.puppetlabs.com/"},
+]%>
 
-<% if @gsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% @gsponsors.each do |sponsor| %>
+	<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"sponsors/sponsor-logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @msponsors = [
-]%>
+<% @msponsors = []%>
+
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
+
 <% @msponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+	<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
