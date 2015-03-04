@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Kelsey Hightower
+title: "Containers and DevOps: New Ways to Deploy and Manage Applications at Scale"
+platinum: true
+---
+
+**Abstract:**
+
+The last decade belonged to virtual machines, the next one belongs to containers. Gone are the days of pinning one service to a specific host and wearing a pager in case that host goes down. Containers enable a service to run on any host at any time. Our current set of tools are starting to show cracks because they were not designed for this level of application portability. It’s time to get ahead of the curve and take a look at new ways to deploy and manage applications at scale.
+
+This talk will examine the major components of CoreOS such as etcd and Rocket, and how these components work together to help DevOps solve the problems of today and tomorrow.
+
+**Speaker:**
+
+*Kelsey Hightower*
+
+Kelsey Hightower, Developer Advocate and Toolsmith at CoreOS, has worn every hat possible throughout his career in tech and enjoys leadership roles focused on making things happen and shipping software.
+
+Kelsey is a strong open source advocate focused on building simple tools that make people smile. When he is not slinging Go code you can catch him giving technical workshops covering everything from Programming, System Administration, and his favorite Linux distro (CoreOS).
