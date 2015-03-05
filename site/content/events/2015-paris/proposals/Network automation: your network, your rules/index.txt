@@ -15,12 +15,25 @@ platinum: true
 
 **Abstract:**
 
-This presentation will be about finding devices in your network that are not configured to your standards.
+Current devops rely on correctly and consistently configured network
+devices. Managing these from a central place and have them configured to
+your operational and organisational standards is a challenge in particular
+in a multi vendor environment.
 
-We will then address the issue and showcase some examples of other possible network automation tasks
+This presentation will show how by using NetMRI you can leverage a policy
+engine to evaluate config files in your network and automate the
+resolution after detection of any of these issues. It will also showcase
+how to automate tasks across your network.
+
+
+We will then address the issue and showcase some examples of other possible network automation tasks.
 
 **Speaker:**
 
 *Ingmar Van Glabbeek*
 
-Implementing networking automation solutions and frequently working with devops and networking teams.
+Ingmar Van Glabbeek is part of the Professional Services team at Infoblox
+which puts him in drastically different customer environments. He has been
+implementing and customising NetMRI projects and the sole EMEA expert on
+NetMRI.
+
