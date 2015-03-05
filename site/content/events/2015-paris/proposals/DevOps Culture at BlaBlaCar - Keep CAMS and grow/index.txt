@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Regis Allegre
+title: "DevOps Culture at BlaBlaCar - Keep CAMS and grow"
+platinum: true
+---
+
+**Abstract:**
+
+At BlaBlaCar, we were blessed with a good basis for DevOps: Agile Teams with full stack developers, as well as an early focus on automation. We also have our specifics, such as a strange addiction to physical servers, leveraging the cloud only when elasticity is required.
+
+This talk will cover the practices that have worked for us. Some were implemented early, enabling us to reach goodies such as 10 builds/day Continuous Delivery, and good relationship between our Dev and Ops communities. Some others had to upgraded as our team was growing, our services becoming more exposed, and our architecture becoming more complex.
+
+**Speaker:**
+
+*Regis Allegre*
+
+VP Engineering at BlaBlaCar
+
+Avid computer geek since his first Atari 800XL in the mid 80s, Regis started his career with 10 years of IT consultancy. He the ran the software engineering organisations of Digiplug and Cloudwatt before joining BlaBlaCar.
