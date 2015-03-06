@@ -7,6 +7,8 @@ filter:    erb
  { :image => "stackengine.png", :name => "StackEngine", :link => "http://www.stackengine.com/"},
  { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com/"},
  { :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
+ { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
+ { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io/"},
 ]
 %>
 
