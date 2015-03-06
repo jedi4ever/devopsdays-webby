@@ -8,6 +8,7 @@
       <a href="/events/2015-ljubljana">Ljubljana - April 2015</a><br/>
       <a href="/events/2015-paris">Paris - April 2015</a><br/>
       <a href="/events/2015-denver/">Denver - April 2015</a><br/>
+      <a href="/events/2015-newyork/">New York - April 2015</a><br/>
       <a href="/events/2015-austin">Austin - May 2015</a><br/>
       <a href="/events/2015-toronto/">Toronto - May 2015</a><br/>
       <a href="/events/2015-amsterdam">Amsterdam - June 2015</a><br/>

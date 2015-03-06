@@ -158,6 +158,20 @@ var minneapolismarker = new MarkerWithLabel({
 
 google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2015-minneapolis"});
 
+var newyorklocation=new google.maps.LatLng(40.756554, -73.989804);
+var newyorkmarker = new MarkerWithLabel({
+    position: newyorklocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "New York<br>Apr 30 & May 1",
+    labelAnchor: new google.maps.Point(40, 25),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2015-newyork"});
+
 var dclocation=new google.maps.LatLng(38.801694, -77.064043);
 var dcmarker = new MarkerWithLabel({
     position: dclocation,
