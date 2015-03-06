@@ -20,11 +20,11 @@
     <a href="/events/2015-austin">
       Austin
     </a>
-    -
+   <br>
     <a href="/events/2015-toronto">
       Toronto
     </a>
-   <br> 
+    -
     <a href="/events/2015-washington-dc">
       Washington, DC
     </a>

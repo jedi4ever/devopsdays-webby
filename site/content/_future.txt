@@ -11,11 +11,11 @@
       <a href="/events/2015-newyork/">New York - April 2015</a><br/>
       <a href="/events/2015-austin">Austin - May 2015</a><br/>
       <a href="/events/2015-toronto/">Toronto - May 2015</a><br/>
-      <a href="/events/2015-amsterdam">Amsterdam - June 2015</a><br/>
-      <a href="/events/2015-derby/">Derby - Spring 2015</a><br/>
       <a href="/events/2015-washington-dc/">Washington, DC - June 2015</a><br/>
+      <a href="/events/2015-amsterdam">Amsterdam - June 2015</a><br/>
       <a href="/events/2015-minneapolis/">Minneapolis - July 2015</a><br/>
       <a href="/events/2015-chicago/">Chicago - September 2015</a><br/>
+      <a href="/events/2015-derby/">Derby - 2015</a><br/>
       Silicon Valley - Fall 2015
 </div>
   </tr>
