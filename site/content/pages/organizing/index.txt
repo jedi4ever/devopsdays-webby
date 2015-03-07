@@ -19,6 +19,8 @@ title: Devopsdays - Organizing Guide
       :sort_by => "directory", :reverse => false)
   articles.delete(@page)
   articles.reject! {|page| page.filename.start_with?('.') }
+  # To don't show the charity dir, workaround
+  articles.reject! {|page| page.filename.start_with?('index') }
   counter = 0
   articles.sort! { |a,b| a.dir + a.filename <=> b.dir + b.filename }
 %>
