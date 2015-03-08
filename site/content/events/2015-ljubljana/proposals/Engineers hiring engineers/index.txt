@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Rodoljub Petrovi&#263;"
+title: 'Engineers hiring engineers'
+---
+**Abstract**
+
+Interviewing is often perceived as one of the most uninspiring tasks you can ask an engineer to od.
+
+But Rod would like to share his thoughts on hiring and explain why it is one of the most important processes happening in a startup, why every engineer should care deeply about who joins their team next and how to do it rigt (and how to do it wrong)
+
+**Speaker:**
+
+Rod is a software engineer, who previously served as CTO at TVbeat, VPE at Celtra and a team lead at several other startups.
+
+During his career, he's grown several engineering teams and interviewed more than 300 software engineers.

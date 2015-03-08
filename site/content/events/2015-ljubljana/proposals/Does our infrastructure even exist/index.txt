@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: "Jure Koren"
+title: 'Does our infrastructure even exist'
+---
+**Abstract**
+
+Based on Zemanta's experiences with docker, the talk will focus on both designing services for lightweight containers infrastructure and migration of legacy software projects. 
+
+While our experience was mostly positive, shortcomings of the current state of these software stacks became apparent very quickly, and we also tended to neglect to help engineers to adopt very different practices from the ones they were very much used to and were slow to provide them with tools that would be as balanced for use in both everyday and critical situations.
