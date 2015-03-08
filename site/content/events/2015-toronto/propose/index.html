@@ -11,59 +11,67 @@ platinum: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-### Call for proposals is now open and will close on April 1, 2015
-<hr>
-There are three ways to propose a session:
-<ol>
-  <li><strong><em>A proposal for a talk/panel</em></strong> during the conference part : these are 30 minutes slots that will have all people's full attention as everybody will be in that one room</li>
-  <li><strong><em>An Ignite talk</em></strong> that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>: these are 5 minutes slots with slides changing every 15 seconds (20 slides total) also presented to all attendees in one room</li>
-  <li><strong><em>Openspace session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during the openspace opening. Please check the <a href="/pages/open-space-format">openspace format</a> for more information
-</ol>
+## Equal Opportunity
+
+DevOpsDays Toronto is committed to creating a diverse environment and is proud to invite people of all backgrounds and profiles to submit presentation proposals. All potential speakers will receive consideration without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability or age.
+
+For more information, please see our published <a href="../conduct/index.html">Code of Conduct</a>.
+
+## Closing Date
+Call for proposals is now open and will close on April 1, 2015. Selected speakers will be notified on April 8, 2015.
+
+## Types of Proposals
+
+### Session Talks
+30 minute slots that will have the full attention of all attendees, as everybody will be in the main presentation room together. Travel and accomodation support is available for selected speakers,
+
+### Ignite Talks
+These are 5 minutes slots with slides changing every 15 seconds (20 slides total) which are also presented to all attendees in main presentation room. Good examples can be found at <a href="http://igniteshow.com/">http://igniteshow.com/</a>.
+
+### Open Spaces
+There will also be Open Spaces allowing for additional conversations to take place. Those topics will be suggested and selected just prior to Open Spaces on the day of the event. Please check the <a href="/pages/open-space-format">openspace format</a> for more information.
 
 Take a look at the <a href="http://vimeo.com/album/3123830" target="_blank">videos</a> from DevOpsDays Toronto 2014 to see how the different formats work.
 
+## Criteria
+These are the basic criteria our organizers will use as we select presentations.
+
+### Original content
+Content not yet presented at other conferences, or a new angle to an existing problem. DevOpsDays is one of the best events to learn about the DevOps movement. Look for ways to present or explain subjects that are related to DevOps. Interesting ways to explain DevOps to those that are not familiar with the term or how it can help their team and/or organization is highly encouraged
+
+### New presenters
+People who are new to the space and have insightful things to say and share. There are a number of great presenters on a variety of DevOps subjects. However, we want to encourage new voices and thoughts to the space.
+
+### No vendor pitches
+The quickest way to be denied to present is to pitch your company’s product or service. As much as we value vendors and sponsors, we just don't think this is the right forum. This is a participatory event in which everyone in attendance is encouraged to interact and discuss a wide range of DevOps topics. It is not a forum to pitch your services. You can demo at your table or during Open Space. Additionally, Platinum sponsors will be given a 60-second slot to have the full attention of the audience in order to share a little bit about your company and it’s offerings. Please keep this in mind when submitting proposals. If we feel that you may be using it as an opportunity to “sell” your company, you’ll likely be declined.
+
+## Tips
+
+### Be as specific as possible
+Proposal submissions that aren’t clear in what they intend to deliver and how it is useful to the audience won’t be selected. It is possible that organizers may reach out to you for clarification of an abstract, but try to be as descriptive as possible. A description of about 20 lines is about right. Detail is good but not as important as explaining why your proposal would be interesting to our participants. Explain to us why your proposal has value to the group and DevOps space in general.
+
+### Propose your own talk
+We understand that many who are interested in presenting are very busy. Trust us. We know. However, it’s best to submit your own proposal rather than having someone from a marketing team (or 3rd party) submit. We want to be able to reach out to the presenter for clarification on abstracts if necessary. We may possibly even suggest a slight modification to the talk to make it fit the overall agenda and voice of DevOpsDays. Working through anyone other than the person actually presenting the talk is very frustrating and may result in turning down a possibly great talk.
+
+### Nominations welcome
+If you know someone who has content or experience relevant to the DevOps conversation, please point us in their direction! It’s a great big world out there. It’s likely that you know of folks who have given killer presentations that really made a difference in your understanding of DevOps. Let us know who they are, or better yet, encourage them to submit a proposal.
+
+### Multiple proposals welcome
+There is no limit on the number of proposals you can submit. In fact, the more the better. We encourage you to submit more than one. It’s possible that a talk you propose may also be proposed in a similar way from another person. In that case, we’ll have to pick just one to avoid too much overlap or duplication of topics. The more CFP’s you submit, the better your chances of being selected is. Just be sure to follow the criteria mentioned above.
+
+## Submit - Online Form
+
+<a href="https://docs.google.com/forms/d/15sxC6Kfkt2sc9hltujU3FQXXHyaislUxetT3yQkgwjQ/viewform?usp=send_form" target="_blank">Open form in a new page.</a>
 
 <!-- Even if you don't propose, please consider [commenting on proposals submitted by others](../proposals/) -->
-<iframe src="https://docs.google.com/forms/d/15sxC6Kfkt2sc9hltujU3FQXXHyaislUxetT3yQkgwjQ/viewform?embedded=true" width="580" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
+<iframe src="https://docs.google.com/forms/d/15sxC6Kfkt2sc9hltujU3FQXXHyaislUxetT3yQkgwjQ/viewform?embedded=true" width="580" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <br>
-<a href="https://docs.google.com/forms/d/15sxC6Kfkt2sc9hltujU3FQXXHyaislUxetT3yQkgwjQ/viewform?usp=send_form" target="_blank">Click here for the form if you hate iframes =)</a>
-<br><br>
-<strong>You can also:</strong> Send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>] with the following information:
-<ol>
-  <li>Proposal working title (can be changed later)</li>
-  <li>Type (presentation, panel discussion, moderated general discussion, debate, etc.,ignite)</li>
-  <li>Description or abstract</li>
-</ol>
 
-Our main criteria to make it to the top selection are:
+## Submit - Email
+You can also send an email to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a> with the following information:
 
-- _original content_: content not yet presented at other conferences, or a new angle to an existing problem
-- _new presenters_: people who are new to the space and have insightful stuff to tell, we want to hear everbody's voice
-- _no vendor pitches_: as much as we value vendors and sponsors, we just don't think this is the right forum. There is a demo openspace slot where you have 5 minutes to show products.
+*  Proposal working title (can be changed later)
+*  Type (presentation, panel discussion, moderated general discussion, debate, etc.,ignite)
+*  Description or abstract
 
-<strong>Some suggestions to get you thinking:</strong>
-<ul>
-  <li>What is the role of QA/Tester in DevOps, how do we integrate QA in the continuous delivery process?</li>
-  <li>The impact DevOps has on traditional security/auditing/change control</li>
-  <li>How does DevOps co-exist with ITIL and Cobit?</li>
-  <li>How about Release Management?
-  <li>What about configuration management and delivery in Mixed Unix AND Windows environments?</li>
-  <li>Building dashboards because #monitoringsucks
-  <li>The impact of DevOps on HR policies and hiring process</li>
-  <li>Help prove that DevOps can scale beyond the 5-8 person web startups, we love traditional IT enterprise cases</li>
-  <li>With all the automation, data is still a hard thing to handle, how does it affect, DBA's, backup strategies, etc?</li>
-  <li>How to involve the business in DevOps?</li>
-  <li>How to get YOUR boss involved, how do you make the business case?</li>
-  <li>And of course any other topic in the realm of DevOps</li>
-  <li>Beyond Configuration Management, about challenges like orchestration, or doing things at large scale</li>
-</ul>
 
-<strong>Rules:</strong>
-<ul>
-  <li> English is the main language of our event... and of the talks as well</li>
-  <li>Be specific... we aren't mind readers (a description of about 20 lines is about right)</li>
-  <li>Detail is good... but not as important as explaining why your proposal would be interesting</li>
-  <li>Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
-  <li>Multiple proposals welcome... just follow the other rules</li>
-</ul>
