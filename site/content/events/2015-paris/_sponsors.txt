@@ -72,7 +72,8 @@ filter:    erb
 
 <% @msponsors = [
 { :image => 'rudebaguette.png', :name => 'Rude Baguette', :link => 'http://www.rudebaguette.com', :width => '100px', :height => '100px' },
-{ :image => 'itsocial.png', :name => 'IT Social', :link => 'http://itsocial.fr', :width => '100px', :height => '100px' }
+{ :image => 'itsocial.png', :name => 'IT Social', :link => 'http://itsocial.fr', :width => '100px', :height => '100px' },
+{ :image => 'oreilly.png', :name => 'O\'Reilly', :link => 'http://www.oreilly.com/', :width => '100px', :height => '100px' }
 ] %>
 <% unless @msponsors.empty? %><h1>Media sponsors</h1><% end %>
 
