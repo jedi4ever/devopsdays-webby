@@ -12,16 +12,18 @@ filter:    erb
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @ssponsors = [ ]%>
+<% @ssponsors = [ 
+{ :image => "hg.png", :name => "HostedGraphite", :link => "https://www.hostedgraphite.com/", :height => "90px"},
+]%>
 
 
 <h1>Silver sponsors</h1>
 
-<% if @gsponsors.empty?  %>
+<% if @ssponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 <% @ssponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
 <% @bronze_sponsors = [ 
@@ -35,13 +37,16 @@ filter:    erb
 
 <h1>Bronze sponsors</h1>
 
+<div class="column">
 <% if @bronze_sponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+  <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 <% @bronze_sponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<br/>
+  <p>
+  <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+  </p>
 <% end %>
+</div>
 
 <% @special_sponsors = [ ]%>
 <% unless @special_sponsors.empty?  %><h1>Special sponsors</h1><% end %>
