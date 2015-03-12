@@ -5,7 +5,7 @@ filter:    erb
 	{
 		:image => "gold-puppetlabs.png",
 		:name => "PuppetLabs",
-		:link => "http://www.puppetlabs.com/"
+		:link => "https://puppetlabs.com/"
 	},
 
 	{
