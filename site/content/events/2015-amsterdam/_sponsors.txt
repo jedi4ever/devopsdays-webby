@@ -5,7 +5,7 @@ filter:    erb
 	{
 		:image => "gold-puppetlabs.png",
 		:name => "PuppetLabs",
-		:link => "http://www.puppetlabs.com/"
+		:link => "https://puppetlabs.com/"
 	},
 
 	{
@@ -18,12 +18,11 @@ filter:    erb
 		:image => "gold-ebayclassifieds.png",
 		:name => "Marktplaats (eBay Classifieds)",
 		:link => "http://www.marktplaats.nl/"
-	},
-
+	}
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
-	<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"sponsors/sponsor-logos/#{sponsor[:image]}")%>'></a>
+	<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"sponsor/sponsor-logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
 <% @msponsors = []%>
