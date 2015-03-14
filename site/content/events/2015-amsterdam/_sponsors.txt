@@ -18,6 +18,12 @@ filter:    erb
 		:image => "gold-ebayclassifieds.png",
 		:name => "Marktplaats (eBay Classifieds)",
 		:link => "http://www.marktplaats.nl/"
+	},
+
+	{
+		:image => "gold-exact.png",
+		:name => "Exact",
+		:link => "http://www.exact.nl/"
 	}
 ]%>
 
