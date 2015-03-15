@@ -3,7 +3,7 @@ extension: html
 filter:
 - erb
 - markdown
-title: Setting up registration
+title: Running registration
 ---
 
 You are going to want a place where people can check in and get their badges when they arrive. They may also pick up T-shirts there. If you use Eventbrite, there is an app which makes check-in much easier than using paper. Sort the badges ahead of time alphabetical by last, then first name. If you separate out the sponsor ones, keep in mind that some people might not realize if they fell into the 2, 4, or 6 "sponsor" tickets or a "regular attendee" ticket according to how their company registered them.
