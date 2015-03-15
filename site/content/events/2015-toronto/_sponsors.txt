@@ -3,6 +3,7 @@ filter: erb
 ---
 
 <% @psponsors = [
+{ :image => 'shomi.png', :name => 'Shomi', :link => 'http://discover.shomi.com/' },
   ]%>
 
 <% if @psponsors.empty?  %>
