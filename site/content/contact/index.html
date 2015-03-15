@@ -1,9 +1,18 @@
 ---
 extension: html
-filter:    erb
+filter:    
+- erb
+- markdown
 title: Contact devopsdays 
 ---
-<h1><span style="font-weight: normal; font-size: 13px;">In case you have any questions don't hesitate to contact us: </span></h1>
+
+The devopsdays global core team helps local organizers host their own devopsdays events worldwide. The core team consists of the following people:
+
+<%= render(:partial => "/contact/_team_global") %>
+
+Organization is decentralized, so each individual event handles their own sponsorships, registration, and so forth. For questions about a specific event you see listed on the site, please contact the organizers for that event. 
+
+If you have other questions (such as inquiries about hosting your own event or about potential future events you don't see on the site), the core organizers are happy to hear from you:
 
 <ul>
 <li>Email: <a href="mailto:info@devopsdays.org">info@devopsdays.org</a>
