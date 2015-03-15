@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Website and Email
+---
+When you have your initial team, [email the global core organizers](mailto:info@devopsdays.org) and we'll set up the @devopsdays.org mail aliases for your team. This will let you have a standard email for organizer contact and proposals. 
+
+The other thing you'll want to do as soon as possible is get your event listed on the website by submitting a pull request to [https://github.com/jedi4ever/devopsdays-webby](https://github.com/jedi4ever/devopsdays-webby). The simplest way to do this:
+
+- [set up webby](https://github.com/jedi4ever/devopsdays-webby/blob/master/README.md)
+- clone [https://github.com/jedi4ever/devopsdays-webby](https://github.com/jedi4ever/devopsdays-webby)
+- start from [the current year's template](https://github.com/jedi4ever/devopsdays-webby/tree/master/site/content/events/2015-template) and create your own city's page.
+- it's fine if you just list the organizers, the city, and say "coming soon". You don't have to open registration and the CFP right away.
+- add your event to the ["Future" list](https://github.com/jedi4ever/devopsdays-webby/blob/master/site/content/_future.txt)
+- you'll be coming back to edit the [map header](https://github.com/jedi4ever/devopsdays-webby/blob/master/site/content/_upcoming.txt) and [map on the main page](https://github.com/jedi4ever/devopsdays-webby/blob/master/site/content/index.html) when your dates can be announced.
+- The [devopsdays code of conduct](http://www.devopsdays.org/events/2015-template/conduct/) is based on [the one from the Geek Feminism Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) as well additions by Andrew Clay Shafer for [devopsdaysPGH 2014](http://www.devopsdays.org/events/2014-pittsburgh/conduct/). You will need to have a code of conduct before your initial pull request will be merged.
+

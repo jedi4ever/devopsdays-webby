@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Setting up registration
+---
+
+Once pricing has been decided you're ready to set up registration. We've had good experiences with <http://www.eventbrite.com> integrated with <http://paypal.com> payments. 
+The paypal account for payment needs to be linked directly to the company that does the invoicing.
+
+The core organizers will not run registration for you, but we can suggest things that will be useful to you in your registration process.
+
+Specifically on eventbrite we usually:
+
+- ask for employer name (optional) if people want it printed on their badge
+- ask for Twitter handle (optional) to help attendees connect with one another
+- ask for T-shirt sizes (make sure you offer more than S-M-L-XL "unisex")
+- ask if they require an invoice; if yes ask more details like VAT number if needed
+- ask if they are interested in attending the evening event on the first night
+
+- disable the facebook integration
+- some events choose to allow people to see who is coming (name, company - not email!)
+
+- set up a sponsor/helper ticket which has a high price ($9999)
+- create discount codes for sponsors/helpers/organizers and have them select the special ticket so you can keep track of regular attendees and sponsors/helpers/speakers free tickets.
+- the main reason is that when the event is full, you still might want to register the sponsor/helper/speaker people.
+
+Attendee email or direct-contact information should never be visible on the website or given out to vendors. We value privacy and anti-spam a lot!

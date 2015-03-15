@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Finding/Handling Sponsors
+---
+Sponsors pay the bills. You rely on them. So what can you do to find them and keep them satisfied?
+
+- post the event on the devopsdays google group. We've informed previous sponsors to subscribe themselves to get information on new events. 
+- post on Twitter and other social media 
+- find local meetups/companies that can help you
+- if you're looking for a contact of a specific company that sponsored before, ping the devopsdays core organizers to see if they can help.
+- write a blog on the website to promote your event.
+
+Sponsors will usually ask you the following; best to have this information ready.
+
+- Projected number of attendees
+- Industries/Companies represented (share only in aggregate)
+- What they get with what level of sponsorship (refer to the sponsor page)
+- If they can buy a speaker spot (NO, but they can submit a talk, ignite or openspace topic)
+- If you provide a badge-scanning mechanism (no, we don't go that route)
+- If they will have electricity & network at the venue
+- If they can get a monitor (let them bring their own)
+- Where to ship their stuff and pick it up (don't take responsibility and let them handle that directly with venue)
+- What size of table they have? Find out from the venue and say it has to fit behind the one table
+- Where their table will be located (produce a map and let them choose in the order they signed up)
+
+From experience, we found that it helps to have a single local organizer act as the contact with the sponsors to track prospects, payment, and giving them discount codes.
+
+When they sponsor they need to supply:
+
+- a logo for the website
+- a URL to link it to
+- an email address of a contact you can reach
+- the invoice details (including VAT in Europe)
+
+In return you'll :
+
+- put the logo online
+- link it on the website
+- send the official invoice
+- once payment has been received, provide the registration discount code
+
+On the registration page, have them select the special sponsor ticket with their discount.
+Many of the sponsor contacts are traveling from event to event, you'll have to follow up with them a bit so they sign up their crew in time for your badge printing.
+Make sure you make the invoices "due on receipt" so sponsors don't wait months to pay you.
+Make sure they sponsor directly by check or by paypal; do not make it a special ticket type in eventbrite, or you'll have to wait for eventbrite to disperse funds after your event.

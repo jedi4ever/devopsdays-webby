@@ -1,0 +1,15 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Introduction
+---
+Congratulations! The fact that you have reached this page means you at least have an interest in spreading the devops love to the world.
+Back in 2009 when we organized the first event, we were probably as excited as you are now. But we were also bit scared and full of questions:
+how does this work? how do we get sponsors? what is the first thing we have to do?
+
+Years later, we can offer some advice from our experiences. Even though every event is a bit unique in its own way, we've come to a more or less standard approach for organizing these events.
+With this document we want to support you and make you feel at ease in organizing one yourself. Don't worry; we'll be there along the way!
+
+We recommend that at least one person on your team attend another devopsdays first, and then get in touch with the [core organizers](/contact/) to tell us about where you'd like to organize your own!

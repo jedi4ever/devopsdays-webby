@@ -1,8 +1,0 @@
----
-extension: html
-filter:
-- erb
-- markdown
-title: Running Openspaces
----
-[Openspace format page](/pages/open-space-format/)

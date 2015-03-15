@@ -1,0 +1,15 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: A word on hotels
+---
+
+There will almost certainly be a few speakers and sponsors who will travel to your event and will appreciate having a discounted rate at the most conveniently located affordable hotel you can manage.
+
+If you're holding your event in a hotel, they will likely give you a "courtesy" room block that guarantees a discounted rate for your attendees. 
+
+If you're not using the hotel's meeting rooms and catering, they may want you to guarantee at least 80% or so of the room nights you block off for your group will be used. This isn't as risky as it sounds if you want to start with a very small block (5 rooms or so, for the night before day one and the night between day one and day two - don't expect people to stay overnight the evening of day two). Usually the hotel will also let you add more rooms to the block as it fills.
+
+If you make your group rate code available on your website, keep on eye on who registers with it (the hotel should be able to provide this info), and ensure that you have enough space for all the out-of-town people you expect. You may have to remind some people to register, as the group rate usually expires a month or so before an event.

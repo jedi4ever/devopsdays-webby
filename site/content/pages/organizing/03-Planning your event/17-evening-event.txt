@@ -1,0 +1,10 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Evening event
+---
+Most devopsdays host a social gathering the evening after the first day of the two-day event. This is a great place for attendees to get to know one another better. There's some sort of food and drink, but usually a full dinner is not provided. Having fun activities to participate in (bowling, trivia, other games, etc) is recommended. While alcohol is enjoyable, it should not be the only activity, and it's important to remember the needs of attendees who aren't choosing to drink alcohol.
+
+Usually the evening event will be at a different location than the venue for the talks. It's a good idea to make it within walking distance or provide transportation if possible.

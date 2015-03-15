@@ -1,0 +1,12 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Website updates
+---
+
+- The core organizers want the devopsdays website to be a central reference for all content produced during your event.
+  - Add links to each of your speakers' slides on your program page.  (You may have to remind some of them a couple of times!)
+  - Submit the videos to the official devopsdays video archive, then link them on your program page. (Talk to the core team for access.)
+- Surveying your attendees and blogging about the results is optional, but strongly recommended.

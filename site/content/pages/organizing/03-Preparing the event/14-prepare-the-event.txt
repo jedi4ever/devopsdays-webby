@@ -1,8 +1,0 @@
----
-extension: html
-filter:
-- erb
-- markdown
-title: Preparing the event itself
----
-Placeholder

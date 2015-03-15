@@ -1,0 +1,8 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Running Openspaces
+---
+There is a wealth of detail on the [Open Space format page](/pages/open-space-format/). Consider both a physical schedule grid and an easily-updated shared spreadsheet you can link from your event page. Also consider posting the open space choices for a specific room outside that room.
