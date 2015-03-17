@@ -1,0 +1,15 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Running registration
+---
+
+You are going to want a place where people can check in and get their badges when they arrive. They may also pick up T-shirts there. If you use Eventbrite, there is an app which makes check-in much easier than using paper. Sort the badges ahead of time alphabetical by last, then first name. If you separate out the sponsor ones, keep in mind that some people might not realize if they fell into the 2, 4, or 6 "sponsor" tickets or a "regular attendee" ticket according to how their company registered them.
+
+Sort shirts by style and size, and then let attendees pick out their own. If you built in enough margin of error, this won't cause any problems and will be the most efficient way to deal with it.
+
+You may want to staff the registration desk at all times if you want to be able to help attendees with their questions. As the conference organizers may want to attend talks, it's wise to call in favors from friends and family who aren't interested in the subject matter of the talks and won't mind missing them all. Make sure any such staff have a way of getting ahold of the organizer on duty for any questions they can't answer on their own.
+
+

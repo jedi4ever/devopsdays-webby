@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Sponsorship packages
+---
+
+Sponsor packages are decided upon by the local organizing team for a city. The global core team does not offer sponsor packages, so any sponsors will work directly with the devopsdays event(s) they'd like to sponsor. You can use the [examples in the template](http://www.devopsdays.org/events/2015-template/sponsor/) to help you make your decisions. Here are some typical offerings:
+
+- Host (cost of venue): if a company sponsors the venue/food they will be acknowledged as a Host sponsor. Their logo will be directly visible on the main event page. They also have the opportunity to do a pre/post event meetup that will get promoted. And of course they get the same benefits as Gold and Silver sponsors
+- Gold (around 5000 Euro/USD): 6 included tickets + a 'promo' spot during talk intermissions + the ability to have a simple table/sponsor presence at the venue.
+- Silver (around 3000 Euro/USD): 4 included tickets, sometimes half a table depending on the local event's choices, sometimes just a single shared swag table.
+- Bronze (around 1000 Euro/USD): 2 included tickets, sometimes can leave stickers/flyers/etc in public spaces
+- Media Sponsor: get logo on the site and acknowledgement on social media. Used for media outlets and other conferences that are interested in cross-promotion with you. Sometimes they'll provide giveaways; usually you will not ask them to provide cash.
+
+We want to avoid the traditional high-priced model for sponsors. We believe that the more companies that sponsor, the better: it amplifies the ideas and shows that many companies subscribe to the devops idea. 
+
+We believe the pricing is low compared to the value sponsors get compared to what other conferences are charging.
+Also, you may want to refrain from deviations from the standard package. Exceptions take extra CPU cycles. Best to be avoided.
+
+Other offerings might be:
+
+- Companies sponsoring travel expenses of speakers
+- A Lanyard sponsorship
+- A drinkup sponsor
+- A speakers dinner sponsor
+
+As a reminder:
+
+- we do NOT offer speaker slots in return for sponsorship, and we want to maintain a standard policy on the pricing.
+- we do NOT ever sell contact details of attendees. you can share demographics in aggregate to give sponsors a feel for what kind of crowd will attend. 

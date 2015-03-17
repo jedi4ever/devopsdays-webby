@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Budgeting
+---
+
+Your budget is going to be refined and adjusted as you determine how many attendees you think you'll get and how much you're going to commit to spending up-front. You're not going to know all these numbers immediately, but it's valuable to start thinking about them as you're choosing a venue.
+
+Categories to consider:
+
+Income:
+
+- Sponsors (could be up to 75% of your income, depending on sponsorship levels)
+- Registrations (make sure to set this such that you're covering per-attendee costs)
+
+Expenses:
+
+- Venue for talks & open space discussions
+- Internet for attendees
+- Livestream/recording of talks
+- Catering for breakfast/coffee breaks/lunches
+- Evening event
+- Insurance/taxes
+- T-shirts/other swag
+- Badges/lanyards
+- Signage
+- Speakers dinner
+- Speaker gifts (small token)

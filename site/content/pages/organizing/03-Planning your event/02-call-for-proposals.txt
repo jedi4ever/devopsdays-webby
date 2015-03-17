@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Call for proposals
+---
+
+When you're ready to open your call for proposals, you'll want to include the date it opens, the date it closes, and the date by which people will be informed of your decisions. People will usually need at least 4-6 weeks to arrange for travel or time off, and you'll want your call to be open for at least a month, and you'll want at least 2 weeks to consider proposals and fill in any gaps. This means that you should open your CFP as soon as possible, and close it at least 6-8 weeks before your event.
+
+Set an official theme if one beyond "devops" is desired. Within the context of this theme (but other proposals can work too) we look for:
+
+- no speaker spots can be bought by sponsors: not ever - period.
+- encourage new content: if the content has already been presented/published online we will consider it but it's less attractive. We want to stimulate the creation of new content as much as we can, as part of the goal is to record and spread the ideas from these sessions
+- a good balance between local and out-of-town speakers. building the local community is just as important as bringing in new ideas from the wider community.
+- favor new speakers: devopsdays is a supportive environment to encourage new voices in our space
+- encourage bold subjects: we don't want to hear the same things over and over, do we? This avoids us becoming an echo-chamber of ideas
+- shy away from specific technology/product talks: always try to elevate it to the conceptual part
+- balance between technical and cultural content: for specific tools talk, there are open spaces not the main conference talks
+
+We usually have 4 conference slots/day + ignite talks. Open space sessions are scheduled during the conference, not ahead of time
+
+For people to respond to the call for proposals we create a specific address (proposals-yourlocation-year@devopsdays.org). Also proposals will be published on the website, both for inspiration and commenting by others. We encourage you to remove names when posting proposals that aren't yet accepted.
+
+Keep in mind that under-represented people in tech are much less likely to respond to your CFP. If you would like to encourage diverse viewpoints from voices other than those you hear the most often, you will need to reach out into those communities and encourage participation.
+
+Talk selection doesn't have to be finished when you announce a schedule; it's ok to leave to space until the end. Still, we found that a finished schedule helps for attendees to make the case for them to attend. Remember that announcing only a few speakers can lead to unwarranted assumptions about your demographics.
+
+If people qualify as a speaker (either talk or ignite):
+
+- they get a free ticket to the event
+- we don't do speaker-fees, sorry
+- we ask speakers to stay for both days, not just for the talk
+- travel cost assistance is unlikely except for in special circumstances at your team's discretion
+
+Don't be surprised if proposals don't flow in quickly at first. People usually wait a bit before sending them in and need some extra calls. It's good to have a backup plan and contact individual speakers as well. You're not required to create your schedule solely from responses to your CFP.
+
+It works best if you dedicate a person/pair to respond to proposals/speakers and handling communication. This is best for both ignite and conference talks.
+While your local team is going to select your event's talks, the core organizers may weigh in to help you make a more balanced schedule having less overlap with other devopsdays.

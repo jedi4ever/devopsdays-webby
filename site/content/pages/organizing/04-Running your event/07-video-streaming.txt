@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Video - recording and streaming
+---
+
+Whether or not you're able to livestream, it's important to record all the talks. This is invaluable for your speakers, and it's great for the community. Your audiovisual company should be able to provide a camera or cameras and record the feed off the board into a computer.
+
+If you're going to livestream, rehearse ahead of time, and then assign at least one person to run it during the event.
+
+- For past events we have used livestream. The sofware can be installed on windows & mac  - https://new.livestream.com/live-video-tools#mobile-broadcasting
+- You may need https://new.livestream.com/producer/software
+- You can create a free account at livestream to experiment. Create it as new.livestream.com and NOT at livestream.com.
+- We have mainly used it on a mac; there, it will read any video device supported and record it both on your local computer + stream.
+- Find out if you can hook up your camera equipment directly to a computer and have the software detect it.

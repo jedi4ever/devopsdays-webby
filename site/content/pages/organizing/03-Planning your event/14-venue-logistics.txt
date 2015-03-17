@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Venue logistics
+---
+
+You will want a local organizer acting as the primary contact person with the venue. You will need to arrange things like the chair layout, table arrangement, audio-visual needs, etc. The catering deadline (by which time you'll need to provide numbers) is usually a couple weeks or so before your event.
+
+Make sure you ask the venue how soon sponsors can start shipping items there, get the correct address/routing info, and ask what fees they might incur. Find out exact times you'll have access to your space, and find out whether you'll have secure overnight storage (because both you and definitely the sponsors will need that).
+
+Your venue may require some form of insurance. See what they require, and look into something like [TULIP event insurance](https://www.onebeaconentertainment.com/OneBeaconEntertainment/pages/products/tulip.page) depending on what's available for your local area.
+
+You will want some members of your local organizing team to be tasked with...
+
+  - finalizing venue details
+  - running the registration check-in desk
+  - preparing and posting signs
+  - printing and assembling badges
+  - etc.

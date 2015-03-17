@@ -1,0 +1,16 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: T-shirts and other swag
+---
+Printing shirts is entirely optional. Some events choose to donate to charity instead, while others go with a different kind of swag. If you decide to do shirts, bear in mind that at registration time, attendees can help you know what their body shapes and sizes mean for their preferences. Ask! Do not just guess, or you will find you've inadvertently made some attendees feel excluded. 
+
+While some shirt styles only go to 2XL, there will be attendees who (given the option) will choose 3XL or 4XL. Women will sometimes be happier with a fitted shirt (which is not the same as a "girl" shirt - those are typically a "junior" size). Avoid making your extended sizes and your fitted shirts significantly different from the "main" shirt in color or design.
+
+Keep in mind that you want your design to be appealing on a wide range of humans, not just those who happen to have smaller torsos without many curves. If you want soft, comfortable shirts that can fit many people, consider something like a tri-blend instead of a 100% cotton shirt.
+
+If you're ordering shirts a few weeks before your event, consider padding the counts by up to 30% of each size/style. Having a few extra shirts is way better than anyone going home sad.
+
+You may also want to order stickers or other items. Give yourself plenty of lead time.

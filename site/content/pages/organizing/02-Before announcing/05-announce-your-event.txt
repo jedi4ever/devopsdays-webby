@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Announce your event
+---
+Once you have a time and place, you can announce your event to the world! It's great if you've had a chance to open your CFP and registration, though those aren't essential to announce your dates.
+
+__Website:__
+
+- You'll add your dates to the map on the front page of the website, and your city's name to the header above the map. You'll update your year-city page with the location and dates.
+
+__Twitter:__
+
+Tweet with the hashtag __#devopsdays__ and if desired, set up a city-specific Twitter account such as @devopsdaysmsp. Your tweets will be included in the Twitter feed on devopsdays.org and we'll also retweet you.
+
+__Google group:__
+
+Announcements can be made on the official [devopsdays googlegroup](https://groups.google.com/forum/#!forum/devopsdays).
+

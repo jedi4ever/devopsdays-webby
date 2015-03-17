@@ -1,0 +1,11 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: How to pay us back
+---
+
+- The core team can be involved in the selection process of your talks if we ask to be.
+- If any global core organizers are able to attend your event, offer them a free courtesy ticket.
+- Consider giving back to the community.  See our <a href="/pages/organizing/charity/index.html">charity page</a> to get some ideas.
