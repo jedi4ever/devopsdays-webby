@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 1
+title: "Building Reactive Infrastructure with Consul"
+---
+
+**Abstract**
+                                                                                
+This talk will cover many of the high-level features of Consul as they relate to monitoring. While this talk may seem deeply technical on the surface, it is aimed at a very large audience. I will not discuss setup or installation of Consul, but I will demonstrate the Consul Web UI and command line. There will be some commands/code on slides, but there will be no live demos.              
+                                                                                
+One of the goals of this talk is to demonstrate the Consul is more than a monitoring solution - it is a runtime for the modern datacenter. Consul allows infrastructure to adapt to the changing needs of any environment.              
+
+**Descripton**
+
+Consul is an open source tool for service discovery, monitoring, and infrastructure configuration. There are two sides to monitoring -- exposing problems with alerts and acting upon those alerts to automatically resolve them when possible or notify an operator.                                           
+                                                                                
+For exposing problems, Consul works much like other monitoring solutions. Users can define any script for Consul to intelligently check and report the health status of a node in a cluster. In this way, Consul is compatible with Nagios and Sensu style checks, but the problem with monitoring systems like Nagios or Sensu is that they are knowledge silos. They are designed to ingest health information and expose them to human operators. Consul supports health monitoring using Nagios-style plugins, but it is designed to expose that information in a way that is both machine and human actionable.                
+                                                                                
+With Consul custom watches and service discovery integration, infrastructure can automatically react and adjust around failures. If a web node is reporting an unhealthy state, Consul can automatically remove the node from the load balancer. If a disk space health check is low, Consul can automatically run logrotate and delete everything in `/tmp`. If CPU load is high, Consul can trigger a script to add more nodes to the cluster. In this way, Consul pushes the existing paradigms of monitoring, making it much more than a notification system.                                                                        
+                                                                                
+
+**Speaker:**
+Speaker 1
+

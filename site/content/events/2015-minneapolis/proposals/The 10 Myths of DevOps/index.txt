@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 1
+title: "The 10 Myths of DevOps"
+---
+
+**Abstract:**
+
+Although not officially coined until 2009, DevOps ideals have been explicitly discussed since at least 2006. Recently, however, the term "DevOps" has gained increasing popularity across a variety of fields and industries. DevOps is not a development methodology or technology; DevOps is an ideology. It is a way to facilitate organizational prosperity and growth while increasing each individual employee's happiness along the way. As DevOps has gained in prominence, a gap has been created between the original definition of DevOps and this new "enterprise-ready" buzzword. I present to you the 10 Myths of DevOps!
+
+**Speaker:**
+Speaker 1
+
