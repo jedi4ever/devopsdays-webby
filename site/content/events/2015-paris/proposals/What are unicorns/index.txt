@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+layout: event
+author: Bertrand Besnard
+title: "What are unicorns"
+platinum: true
+---
+
+**Abstract:**
+
+We all know what unicorns are but in the DevOps world it does hold a special meaning; I's all about those crazy companies, mostly start-ups which have embraced DevOps early on and are now doing it right, from A to Z.
+
+**Speaker:**
+
+*Bertrand Besnard*
+
+Bertrand Besnard is a French Software Engineer who migrated to Oslo. He has since then been working on some of the biggest Norwegian projects as a DevOps such as NAV and Autosys. He is currently employed by Sopra Steria.
+He is interested in process analysis and human interactions and travels the world to discover more cultures, and food, lots of food.
