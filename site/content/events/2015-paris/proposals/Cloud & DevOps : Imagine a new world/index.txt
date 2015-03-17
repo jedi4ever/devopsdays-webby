@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+layout: event
+author: Hervé Leclerc & Stéphane Goudeau
+title: "Cloud & DevOps : Imagine a new world"
+platinum: true
+---
+
+**Abstract:**
+
+Imagine a world where infrastructure and platform services blend together in one seamless experience, so developers and IT professionals no longer have to work in disparate environments in the Cloud. The combined use of the Cloud and DevOps is one of the keys to the successful implementation of this vision through automated provisioning and configuration of environments, tests or deployments, or release management. Our objective with this ignite talk is to try to review some of these Cloud DevOps processes and of course, to have some fun.
+
+**Speaker:**
+
+*Hervé Leclerc (Alter Way CTO)*
+
+I am currently CTO at Alter Way. I've been working in IT for more than 20 years. After as strong experience in both Dev and Ops world, I joined Alter Way in 2006. Alter Way is a fully Open Source service provider focused on 3 main business activities: hosting, development and training. All the elements are there and as a CTO, I am in charge of the implementation of all the necessary components for making Alter Way a real DevOps company. As an Expert, I also do some consultancy on DevOps at Alter Way's customers.
+
+*Stéphane Goudeau (Microsoft Architect)*
+
+I am currently working as a Cloud Architect in Microsoft France. I've been working in IT for more than 20 years. I began my career as an engineer in BULL Integration Services. I joined Microsoft as a Consultant in 1996 and since then my position in Microsoft France organization has evolved through different technical roles. I've got a deep technical expertise on Microsoft platform technologies (but not only) and architect skills on several subjects: Application Lifecycle Management, DevOps, Cloud architecture design and application development, IT-as-a-Service private Cloud infrastructure deployment. I have also been the Technical Director of Microsoft Technical Center and have gained operation services knowledge through this experience.
