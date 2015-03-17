@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 3
+title: "Fear & Failure"
+---
+
+**Abstract:**
+
+Fear & Failure is a soft talk (with no technical content), discussing imposter syndrome, fear of failure, and how to combat them; I follow this up with a discussion on ways to cope with inevitable failure and benefit from it. This talk was inspired by one I saw at the Madison Ruby conference last year, "What Stuttering Taught Me About Marketing", which triggered a lot of self-reflection about why I let my fears hold me back personally and professionally.
+                                                                                
+**Speaker:**
+Speaker 3
+

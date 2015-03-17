@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 1
+title: "Shedding the Stigmas of Golden Images"
+---
+
+**Abstract:**
+
+Description                                                                     
+                                                                                
+It's time to bring golden images to the new age of automation. Using new tools, it is possible to automatically create golden images on top of configuration management best practices. Not only is this possible for a single platform, but for multiple platforms (AWS, VMware, OpenStack, etc.) all at the same time. Unlock new potential, increase organizational agility, and improve system stability.                                                                     
+                                                                                
+                                                                                
+Abstract                                                                        
+                                                                                
+Golden images have been thrown to wayside in the past few years in favor of using configuration management tools on top of clean OS installations. Historically, golden images have been tedious to maintain, slow to create, and represented archaic operations practices.                                      
+                                                                                
+But golden images also offer a variety of benefits. Instead of waiting 10 to 30 minutes for configuration management to complete on a new server, you can have a new server up and running in seconds. You can comprehensively test golden images before deploying them to production and confidently know that production will have stable configurations. Instead of manually building development environments, you can give developers golden image virtual machines, getting their development environments up and running in seconds. The list goes on.    
+
+It is time to bring golden images to the new age of automation. Using new tools, it is possible to automatically create golden images built on top of configuration management best practices. And not only is this possible for a single platform, but for multiple platforms (AWS, VMware, OpenStack, etc.) all at the same time.  Generate development images for VMware identical to production images that run in AWS. And do it all quickly, automatically, and using pre-existing configuration management scripts.                           
+It's time to shed the social stigma against golden images, because these are completely different, adopt modern operations best practices, embrace DevOps culture, improve agility of your operations organization, and are really, really cool.                          
+
+**Speaker:**
+Speaker 1
+
