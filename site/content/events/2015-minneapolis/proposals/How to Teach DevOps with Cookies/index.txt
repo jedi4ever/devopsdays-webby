@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 4
+title: "How to Teach DevOps with Cookies"
+---
+
+**Abstract:**
+
+DevOps can optimize any process that results in an artifact by applying lessons learned from manufacturing and agile software development. Unfortunately not many people firmly understand how either industry works, never mind both of them. Come learn how using a cookie company as a model for devOps provides an example that anyone can grasp.                           
+                                                                                
+When dealing with a new concept it's often convenient to have a base case example to fall back to for reference. In this presentation you'll learn how to teach devOps with cookies by working as a group to apply devOps models like CALMS, ICE, and the Three Ways to our cookie company as that base case reference. Not only are cookies and the baking process a good instructional aid for explaining devOps methodologies and concepts, but the snacks encourage the collaboration needed to work through difficult conversations and problems as well.                 
+
+-Why We Use Cookies and Not Gravel                                              
+                                                                                
+-Applying Different DevOps Models                                               
+                                                                                
+-How to Use Simple Descriptive Statistics                                       
+                                                                                
+-How to Use Simple Predictive Statistics                                        
+                                                                                
+-How to Manage what Drives Business Prioritization                              
+                                                                                
+-Optimizing Hand Offs and Transitions                                           
+                                                                                
+-Defining a Thin Line Between a POC and a MVP                                   
+                                                                                
+By the end of the presentation you should be able to form an actionable devOps game plan with a clear next step.           
+
+Attendees will need:                                                            
+                                                                                
+An network capable device, preferably a phone or a tablet                       
+                                                                                
+A problematic process or concept they're looking to establish or improve with the help of devOps       
+
+
+**Speaker:**
+Speaker 4
+
