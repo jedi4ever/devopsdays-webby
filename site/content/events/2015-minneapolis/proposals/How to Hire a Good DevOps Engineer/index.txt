@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 4
+title: "How to Hire a Good DevOps Engineer"
+---
+
+**Abstract:**
+
+There's a good and a bad side to any role in any industry and devOps is no different. Hiring to help ensure quality and optimize workflows is not anything new but the discipline has changed a lot over the years. We'll cover the history, evolution, and some experiences of this profession that will not only help find homes for wayward DevOps Engineers but empower them to have the desired effect too.         
+
+
+**Speaker:**
+Speaker 4
+
