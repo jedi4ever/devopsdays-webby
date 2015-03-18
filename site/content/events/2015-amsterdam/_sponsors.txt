@@ -24,6 +24,12 @@ filter:    erb
 		:image => "gold-exact.png",
 		:name => "Exact",
 		:link => "http://www.exact.nl/"
+	},
+
+	{
+		:image => "gold-rackspace.png",
+		:name => "Rackspace",
+		:link => "http://www.rackspace.com/"
 	}
 ]%>
 
