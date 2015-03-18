@@ -12,7 +12,7 @@ Now that you have assembled your team, the next step is choosing a date. We usua
 - 'piggyback' after/before other events: it's a great way to get started, and as people might have traveled already, they can be potentially be interested in a pre or post event conference
 - take a look at the [devops conferences and events calendar](http://www.devopsdays.org/events/calendar/) so as to avoid accidentally scheduling during a time it may be more challenging to get the speakers and sponsors you want.
 - you cannot announce a date until you have two things: an agreement with a venue, and a way to handle money.
-- look at a few two-day choices you can accept. When talking to a venue, you might find that they can accommodate you better during some parts of the week than others
+- look at a few two-day choices you can accept. When talking to a venue, you might find that they can accommodate you better during some parts of the week than others. Sometimes they may be fully booked a given week, but available the next.
 - consider that if you schedule one or more day on a weekend, you are likely to see a significant drop-off of attendance on the weekend day(s). DevOps is part of people's work life, and the weekends are typically used for refreshing energy with family. We recommend choosing weekdays.
 
 
