@@ -4,6 +4,7 @@ filter: erb
 
 <% @psponsors = [
 { :image => 'shomi.png', :name => 'Shomi', :link => 'http://discover.shomi.com/' },
+{ :image => 'chef.png', :name => 'Chef', :link => 'https://www.chef.io' },
   ]%>
 
 <% if @psponsors.empty?  %>
@@ -22,6 +23,7 @@ filter: erb
 { :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://pagerduty.com/' },
 { :image => 'vmfarms.png', :name => 'VM Farms', :link => 'http://vmfarms.com/' },
 { :image => 'shopify.png', :name => 'Shopify', :link => 'http://www.shopify.ca/' },
+{ :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com/home' },
   ]%>
 
 <h1>Gold sponsors</h1>
