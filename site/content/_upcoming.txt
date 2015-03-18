@@ -20,11 +20,11 @@
     <a href="/events/2015-austin">
       Austin
     </a>
-   <br>
+    -
     <a href="/events/2015-toronto">
       Toronto
     </a>
-    -
+<br>
     <a href="/events/2015-washington-dc">
       Washington, DC
     </a>
@@ -35,6 +35,10 @@
     -
     <a href="/events/2015-minneapolis">
       Minneapolis
+    </a>
+    -
+    <a href="/events/2015-siliconvalley">
+      Silicon Valley
     </a>
   </h3>
 </div>
