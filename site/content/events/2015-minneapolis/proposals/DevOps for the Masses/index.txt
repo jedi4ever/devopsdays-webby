@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 4
+title: "DevOps for the Masses"
+---
+
+**Abstract:**
+
+Two core tenets of DevOps are culture and sharing. While devOps is              
+proliferating through the tech industry there are still daily instances of      
+exclusion, cruelty, and indifference. As an engineer, a husband, and a          
+father I am in a constant struggle of trying to being inclusive without         
+being intrusive.                                                                
+                                                                                
+An understanding of the robustness that diversity provides only complicates     
+this matter further. Sometimes we have to work with people we don't prefer      
+and sometimes we have to perform tasks we'd rather avoid. This should not       
+prevent us from respecting each other, working together, and enjoying it        
+too.                                                                            
+                                                                                
+Please join me as we explore:                                                   
+                                                                                
+                                                                                
+-The perceived threat of diversity          
+-The actual strength diversity provides                                         
+-Why diversity is good for business                                             
+-Ways to increase diversity in your organization            
+
+
+**Speaker:**
+Speaker 4
+
