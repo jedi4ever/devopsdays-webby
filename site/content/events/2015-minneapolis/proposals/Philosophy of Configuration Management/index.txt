@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 5
+title: "Philosophy of Configuration Management"
+---
+
+**Abstract:**
+
+Dive into the theories behind a system of profound knowledge, how one can build positive interactions, develop and understand flow and see the very foundations of what we call devops.  I would talk about how to think through reliability, systems and human interactions and show how wrapping all of this together gives people the power to probe, sense, act and respond and managers & employees the tools they need to build a system of profound knowledge. This knowledge can then be codified, iterated and experimented with and the process of human management can be closely aligned with systems management to make both flexible and aware of each others requirements and easily communicated. 
+                                                                                
+**Speaker:**
+Speaker 5
+
