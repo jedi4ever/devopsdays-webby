@@ -11,7 +11,7 @@ talk: false
 ignite: true
 selected: false
 author: Nick Matantsev
-title: "Using Continuous Integration to Test your Platform"
+title: "How We Continuously Deploy... Every Three Months"
 ---
 
 **Abstract:**
