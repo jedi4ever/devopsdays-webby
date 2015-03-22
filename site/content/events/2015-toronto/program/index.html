@@ -1,0 +1,13 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Program
+layout: event
+platinum: true
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+The schedule will be posted closed to the event.
