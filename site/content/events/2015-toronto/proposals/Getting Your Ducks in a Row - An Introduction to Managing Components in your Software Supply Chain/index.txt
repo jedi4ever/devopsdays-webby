@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Manfred Moser
+title: "Getting Your Ducks in a Row - An Introduction to Managing Components in your Software Supply Chain"
+---
+
+**Abstract:**
+
+In this presentation the results of a five-year, industry-wide study on open source development and security practices, drivers and trends are presented. The answers of over 14k professionals form the basis for introducing the practices of supply chain management to your software development practice. Participants will learn how modern software development largely relies on the usage of third-party components. Shipping software based on these components they take on the responsibility for them and their characteristics in terms of licensing terms, security vulnerabilities and other criteria. This shift is largely overlooked at present, yet causes tremendous risks to your application. A new focus towards managing these components throughout your software development lifecycle is needed. Tools are slowly emerging to help in the management of these components. A number of these tools are presented to the participants.
+
+Results of a 5-year study on open source development and security practices form the basis for introducing supply chain management to your development practice. We rely on the usage of third-party components and you take on the responsibility for them and their licensing terms or security vulnerabilities. New tools for managing these components in your software development efforts are demoed.
+
+**Speaker:**
+
+Manfred Moser
+

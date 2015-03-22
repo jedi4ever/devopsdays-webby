@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Sharon Steed
+title: "How to talk to humans: a different approach to soft skills"
+---
+
+**Abstract:**
+
+Developers are trained to communicate to things with a goal in mind. When you're talking to something like, say a computer, you type in your code and it responds by giving you back what you want. Nine times out of ten, it works perfectly. Why, then, is it so difficult to do this same thing when talking to a client about a project, updating a superior on your progress, or pitching an investor your million-dollar idea? Because talking to people requires a special set of skills - namely, empathy and a little bit of storytelling. In an industry filled with brilliant minds, great ideas and mass disruption, so few of the best and brightest know how to tell their compelling story. The takeaways from this talk will be learning how to value the listener, improved social connection and becoming a master at building a relationship quickly and effectively.
+
+**Speaker:**
+
+Sharon Steed
+

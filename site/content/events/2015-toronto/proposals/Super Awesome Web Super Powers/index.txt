@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Daniel Stern
+title: "Super Awesome Web Super Powers"
+---
+
+**Abstract:**
+
+Being a web developer is all about being super-powered. And like any super hero you need a tool belt (unless you are Superman.)
+
+This talk discusses a range of tools developers might want to add to their belts.
+
+**Speaker:**
+
+Daniel Stern
+

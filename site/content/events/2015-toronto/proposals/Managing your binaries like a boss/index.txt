@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Manfred Moser
+title: "Managing your binaries like a boss"
+---
+
+**Abstract:**
+
+No matter what development stack you use - a large part of your application is assembled from components. They come in the form of JAR files, Ruby gems, NuGet packages and son on. And typically they are delivered to your build tool via online repositories such as the Central Repository, the NuGet Gallery or the NodeJs.org and then bundled in your application stack. The default setup for all the build tools means that you repeatedly download these components again and again, wasting time and bandwidth. You rely on the external servers to be up and running and when they are not your devops chain breaks down.
+
+In addition the tooling does not include a dedicated location to share build outputs and make them available to your other projects, organizations you cooperate with or your clients. With all this in mind everyone using a version control system for  your source code and even for your configuration is a given and any devops practitioners mind. Yet many, many organizations to not manage the binaries that comprise up to 90% of their applications at all. 
+
+A repository manager like Sonatype Nexus OSS allows you take charge and manage all those binaries. This presentation will show you how easy it is to get started and the wealth of benefits you will enjoy. Once we got started we will take a look at how we can take it to the next level towards a full software supply chain management making sure we understand what all the bits and pieces do in all the different locations of your application. With that in mind we can then take full ownership and responsibility and ensure that e.g. no security vulnerabilities or license issues creep into the software we ship.
+
+**Speaker:**
+
+Manfred Moser
+

@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Dale Hamel
+title: "Metalscale - Automating Operations on baremetal"
+---
+
+**Abstract:**
+
+*Running on baremetal is hard*
+
+This, perhaps more than anything else, has been the driving force behind the success and explosive growth of cloud platforms like AWS, OpenStack, and Azure.
+
+In the world of cloud, you hit an API and minutes later a virtual server pops into the ethereal cloud. You don't know where it is or what is in it, and you don't care. Or do you?
+
+In the world of metal, you negatiotiate POs, track packages, rack / stack / image servers in specific locations, manage hardware and component inventory, patch cables... and weeks to months later you have your server. You can know exactly where it is, what's in it, and how it's configured.
+
+Undeniably though, there are advantages to running on your own metal. Long-term cost tends to be much lower, and you can full control over the specs of the hardware and design of the network. The big players unilaterally run at *metalscale*, not on someone else's cloud.
+
+The presentation will cover our practices for applying DevOps practices to our metal fleet. We'll talk about how and why we automate as much as possible, and how we're building towards our own *metalscale* production cluster. We'll be sharing the software tools that we use for this, which are all open source.
+
+The content of the presentation should be interesting to anyone running on their own metal servers, but should also be interesting to anyone hitting limitations as they are outgrowing a public cloud computing service. It should also provide some useful information to younger projects/companies may be considering whether to deploy to the cloud, to metal, or adopt a blended solution.
+
+The presenter, Dale Hamel, previously gave a talk on similar subject matter at Velocity 2014 Santa Clara. This presentation is substantially different, but will reference and expand on some of the same content where it makes sense.
+
+**Speaker:**
+
+Dale Hamel
+

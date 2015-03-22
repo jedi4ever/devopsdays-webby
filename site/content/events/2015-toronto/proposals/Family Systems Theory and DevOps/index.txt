@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: Seth Goings
+title: "Family Systems Theory and DevOps"
+---
+
+**Abstract:**
+
+Family Systems Theory is a huge topic inside of the already broad topic of psychology. There’s no way to cover it in 5 minutes… or is there? How might Family Systems Theory apply to this wild and crazy trend of DevOps? Could we be leading our DevOps efforts fundamentally wrong? This unique choose-your-own-adventure style Ignite talk will leave you questioning your own leadership and management methods and piquing your interest in becoming a well-differentiated leader.
+
+Focus:
+
++ What it means to be a well-differentiated leader
++ A story of the effects of being a well-differentiated leader
++ Not stooping to the level of the least performant
++ Not being a data-head - being courageous and picking a direction instead of being wishy washy, waiting for the perfect answer
++ DevOps should not be just an empathy-centric movement
+
+Ideas taken shamelessly from Edwin Friedman’s book: “Failure of Nerve: Leadership in the Age of the Quick Fix”
+
+**Speaker:**
+
+Seth Goings
+
