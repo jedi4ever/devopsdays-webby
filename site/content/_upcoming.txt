@@ -37,6 +37,10 @@
       Minneapolis
     </a>
     -
+    <a href="/events/2015-melbourne">
+      Melbourne
+    </a>
+    -
     <a href="/events/2015-siliconvalley">
       Silicon Valley
     </a>

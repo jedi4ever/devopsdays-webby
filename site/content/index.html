@@ -158,6 +158,20 @@ var minneapolismarker = new MarkerWithLabel({
 
 google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2015-minneapolis"});
 
+var melbournelocation=new google.maps.LatLng(-37.824279, 144.958458);
+var melbournemarker = new MarkerWithLabel({
+    position: melbournelocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Melbourne<br>Jul 16 & 17",
+    labelAnchor: new google.maps.Point(40, 40),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(melbournemarker, "click", function (e) { location.href="/events/2015-melbourne"});
+
 var newyorklocation=new google.maps.LatLng(40.756554, -73.989804);
 var newyorkmarker = new MarkerWithLabel({
     position: newyorklocation,
