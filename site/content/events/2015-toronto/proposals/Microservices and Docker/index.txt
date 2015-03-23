@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Andrei Pop
+title: "Microservices and Docker"
+---
+
+**Abstract:**
+
+Microservices (Netflix OSS) / Docker / Continous Delivery
+
+Presenters:  Larry Mitchell and Andrei Pop
+
+**Speaker:**
+
+Andrei Pop
+

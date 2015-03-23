@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Jason Hand
+title: "Customizing the Alerting Experience"
+---
+
+**Abstract:**
+
+When you’re the one *on-call* you want to be able to acknowledge, diagnose, and resolve problems as quickly as possible. In order to achieve this, access to resources and tools that help you understand and take action on the situation are essential.
+
+In today’s infrastructure world, teams are typically utilizing many tools to monitor and analyze their environments in dozens, if not hundreds of ways. Finding methods to provide relevant information to the troubleshooter can make the difference between a major outage or a hiccup of services.
+
+When you are the one tasked with addressing and resolving and incident, don’t you want all important information provided to you instantly and automatically rather than spending valuable time hunting them down? How do you decide what type of information you want fed to you while diagnosing a problem? Additionally, how can you ensure that valuable context is made available with little-to-no effort on your part?
+
+We’ll take a look at several options for customizing your on-call experience and providing real-time valuable context to your alerts so on-call teams can resolve incidents and get back to what they were doing.
+
+**Speaker:**
+
+Jason Hand
+

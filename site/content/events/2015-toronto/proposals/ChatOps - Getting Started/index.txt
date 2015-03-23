@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Jason Hand
+title: "ChatOps - Getting Started"
+---
+
+**Abstract:**
+
+There’s a lot of content available explaining the benefits of ChatOps. Each giving example after example of how teams small and large are utilizing the power of ChatOps to increase efficiency, share knowledge, and broaden communications while managing infrastructure and code from the convenience of a chat client.
+
+What we don’t see much of is an examination of the process to select the right chat client and bot. Additionally, the concerns and steps of installing and configuring a chat bot that’s right for your team and situation are left out of the conversation. We’ll take a closer look at the process of evaluating a chat client and bot, as well as taking the initial steps towards a ChatOps solution.
+
+**Speaker:**
+
+Jason Hand
+

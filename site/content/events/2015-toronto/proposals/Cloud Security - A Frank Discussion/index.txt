@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: John Martinez
+title: "Cloud Security: A Frank Discussion"
+---
+
+**Abstract:**
+
+Moderated general discussion
+
+Let's have an honest discussion about what works and what doesn't in the world of Cloud Security. No topic is taboo and nobody will judge.
+
+**Speaker:**
+
+John Martinez
+

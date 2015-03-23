@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Byron Miller
+title: "Information is not knowledge"
+---
+
+**Abstract:**
+
+I would like to speak a little bit about Deming, Learning organizations and how to develop (and describe) a more profound system of knowledge. The theories behind a system of profound knowledge, how one can build positive interactions, develop and understand flow. I would talk about how to think through reliability, systems and human interactions and show how wrapping all of this together gives people the power to probe, sense, act and respond and managers & employees the tools they need to build a system of profound knowledge.  I won't necessarily dive into the manufacturing metaphor as much as invite people to start thinking about how they think and how they get work done while describing how people can use theory, experimentation and science to solve problems and build awareness to get work done.
+
+I've geared this talk to be 20-30 minutes but also can do lightning talk of smaller subset :)
+
+**Speaker:**
+
+Byron Miller
+
