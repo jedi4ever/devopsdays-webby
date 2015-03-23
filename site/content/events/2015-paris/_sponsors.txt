@@ -39,7 +39,7 @@ filter:    erb
 { :image => '10thmagnitude.png', :name => '10th Magnitude', :link => 'http://www.10thmagnitude.com/', :width => '100px', :height => '100px' },
 { :image => 'octo.png', :name => 'Octo Technology', :link => 'http://www.octo.com', :width => '100px', :height => '100px' },
 { :image => 'exoscale.png', :name => 'ExoScale', :link => 'https://www.exoscale.ch/welcome-dd2015/', :width => '100px', :height => '100px' },
-{ :image => 'automic.png', :name => 'Automic', :link => 'http://automic.com/', :width => '100px', :height => '100px' }
+{ :image => 'automic.png', :name => 'Automic', :link => 'http://automic.com/', :width => '100px', :height => '100px' },
 { :image => 'voyagessncf.png', :name => 'Voyages-sncf.com', :link => 'http://www.voyages-sncf.com/', :width => '100px', :height => '100px' }
 ] %>
 
