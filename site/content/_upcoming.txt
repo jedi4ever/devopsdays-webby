@@ -10,12 +10,12 @@
     </a>
     -
     <a href="/events/2015-denver">
-      Denver 
+      Denver
     </a>
     -
     <a href="/events/2015-newyork">
       New York
-    </a>	
+    </a>
     -
     <a href="/events/2015-austin">
       Austin
@@ -39,6 +39,10 @@
     -
     <a href="/events/2015-melbourne">
       Melbourne
+    </a>
+    -
+    <a href="/events/2015-chicago/">
+      Chicago
     </a>
     -
     <a href="/events/2015-siliconvalley">
