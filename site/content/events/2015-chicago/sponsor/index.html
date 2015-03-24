@@ -6,6 +6,7 @@ filter:
 dirty: true
 layout: event_html5
 title: Sponsor
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
@@ -29,7 +30,6 @@ impression on the attendees.
 The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
 <br>
 
-<!--
 <hr/>
 <div id="sponsorship" style="width:590px">
   <table border=1>
@@ -38,14 +38,17 @@ The best thing to do is send engineers to interact with the experts at DevOpsDay
       <th><center><b><u>Bronze<br />1000 USD</u></center></b></th>
       <th><center><b><u>Silver<br />3000 USD</u></center></b></th>
       <th><center><b><u>Gold<br />5000 USD</u></center></b></th>
-      <th></th>
+      <th><center><b><u>Platinum<br />10000 USD</u></center></b></th>
     </tr>
-    <tr>
+    <!-- <tr>
       <td></td><td colspan="3"><small>Note: Paypal payments include 3% service charge.</small></td>
-    </tr>
+    </tr> -->
     <tr>
       <td></td>
-      <td>
+      <td colspan="4" style="text-align:center;">
+        Please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Chicago 2015 Sponsorship">contact us</a> to inquire about sponsorship.
+      </td>
+      <!-- <td>
         <!-- bronze Paypal button  - ->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
@@ -64,47 +67,92 @@ The best thing to do is send engineers to interact with the experts at DevOpsDay
         </form>
       </td>
       <td style="width:107px;vertical-align:top;padding-top:8px;">
-        Please
-        <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=devopsdays <%= @eventid %> gold sponsorship">contact us</a>
+        <!-- gold Paypal button  - ->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="S9SCLZP3USU7L">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
       </td>
+      <td>
+        Platinum Sponsorship
+      </td>-->
     </tr>
     <tr>
       <td>included tickets</td>
-      <td bgcolor="bronze"><center><strong>2</strong></center></td>
-      <td bgcolor="silver"><center><strong>4</strong></center></td>
-      <td bgcolor="gold"><center><strong>6</strong></center></td>
+      <td bgcolor="bronze"><center><strong>1</strong></center></td>
+      <td bgcolor="silver"><center><strong>3</strong></center></td>
+      <td bgcolor="gold"><center><strong>5</strong></center></td>
+      <td bgcolor="teal" style="color:white;"><center><strong>7</strong></center></td>
     </tr>
     <tr>
       <td>logo on DevOpsDays Chicago event website</td>
       <td bgcolor="bronze">&nbsp;</td>
       <td bgcolor="silver">&nbsp;</td>
       <td bgcolor="gold">&nbsp;</td>
+      <td bgcolor="teal">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>sponsorship blurb on website</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td bgcolor="teal">&nbsp;</td>
     </tr>
     <tr>
       <td>logo on all email communication</td>
       <td>&nbsp;</td>
       <td bgcolor="silver">&nbsp;</td>
       <td bgcolor="gold">&nbsp;</td>
+      <td bgcolor="teal">&nbsp;</td>
     </tr>
     <tr>
-      <td>1 minute pitch to full audience (including streaming audience)</td><td>&nbsp;</td><td>&nbsp;</td><td bgcolor="gold">&nbsp;</td></tr></tr>
+      <td>logo on banner at venue during event</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td bgcolor="gold">&nbsp;</td>
+      <td bgcolor="teal">&nbsp;</td>
+    </tr>
     <tr>
-      <td>shared booth/table for swag</td>
+      <td>mention by MC at kickoff and close</td>
       <td>&nbsp;</td>
-      <td bgcolor="silver">&nbsp;</td>
       <td>&nbsp;</td>
+      <td bgcolor="gold">&nbsp;</td>
+      <td bgcolor="teal">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>1 minute pitch to full audience (including streaming audience)</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td bgcolor="gold">&nbsp;</td>
+      <td bgcolor="teal">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>premium booth/table space</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td bgcolor="teal">&nbsp;</td>
     </tr>
     <tr>
       <td>dedicated booth/table space</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td bgcolor="gold">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>shared booth/table for swag</td>
+      <td>&nbsp;</td>
+      <td bgcolor="silver">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
   </table>
   <hr/>
-  There are also opportunities for exclusive special sponsorships. We'll have sponsors for an evening social and a speakers' dinner with special privileges for the sponsors of these events. If you are interested in special sponsorships or have a creative idea about how you can support the event, <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=sponsor devopsdays <%= @eventid %>">send us an email</a>.
+  There are also opportunities for exclusive special sponsorships. We'll have sponsors for an evening social and a speakers' dinner with special privileges for the sponsors of these events. If you are interested in special sponsorships or have a creative idea about how you can support the event, <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Chicago 2015 Sponsorship">send us an email</a>.
   <br/>
   <br/>
 </div>
 <hr/>
--->
