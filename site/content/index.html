@@ -120,7 +120,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Denver<br>Apr 23 & 24",
-labelAnchor: new google.maps.Point(55, 25),
+labelAnchor: new google.maps.Point(70, 25),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -136,7 +136,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Toronto<br>May 14 & 15",
-labelAnchor: new google.maps.Point(-5, 45),
+labelAnchor: new google.maps.Point(-5, 46),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -151,7 +151,7 @@ var minneapolismarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Minneapolis<br>Jul 8 & 9",
-    labelAnchor: new google.maps.Point(40, 40),
+    labelAnchor: new google.maps.Point(40, 45),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -179,7 +179,7 @@ var newyorkmarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "New York<br>Apr 30 & May 1",
-    labelAnchor: new google.maps.Point(40, 25),
+    labelAnchor: new google.maps.Point(9, 25),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -193,7 +193,7 @@ var dcmarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Washington, DC<br>Jun 11 & 12",
-    labelAnchor: new google.maps.Point(25, 5),
+    labelAnchor: new google.maps.Point(25, 3),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -214,6 +214,19 @@ var sfmarker = new MarkerWithLabel({
 
 google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2015-siliconvalley"});
 
+var chicagolocation=new google.maps.LatLng(41.8369, -87.6847);
+var chicagomarker = new MarkerWithLabel({
+    position: chicagolocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Chicago<br>Aug 25 & 26",
+    labelAnchor: new google.maps.Point(43, 25),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+
+google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2015-chicago/"});
 
 }
 </script>
