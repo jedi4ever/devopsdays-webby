@@ -23,6 +23,7 @@ end
 <h1><font color="silver">Silver Lake</font> sponsors</h1>
 
 <% @slsponsors = [
+{ :image => "ansible.png", :name => "Anisble", :ling => "http://www.ansible.com" }
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
