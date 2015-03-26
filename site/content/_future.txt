@@ -18,7 +18,6 @@
       <a href="/events/2015-melbourne/">Melbourne - July 2015</a><br/>
       <a href="/events/2015-chicago/">Chicago - August 2015</a><br/>
       <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
-      <a href="/events/2015-derby/">Derby - 2015</a><br/>
 </div>
   </tr>
 
