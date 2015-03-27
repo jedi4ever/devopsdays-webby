@@ -14,6 +14,7 @@ filter:    erb
 
 <% @ssponsors = [ 
 { :image => "hg.png", :name => "HostedGraphite", :link => "https://www.hostedgraphite.com/", :height => "90px"},
+{ :image => "comtrade.png", :name => "Comtrade", :link => "http://www.comtrade.com/", :height => "50px"},
 ]%>
 
 
