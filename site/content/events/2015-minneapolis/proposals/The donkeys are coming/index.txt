@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: false
-ignite: true
+talk: true
+ignite: false
 selected: false
 author: Speaker 9
 title: "The donkeys are coming!"
