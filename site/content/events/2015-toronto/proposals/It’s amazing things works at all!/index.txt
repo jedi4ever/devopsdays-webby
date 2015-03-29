@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Brian Nuszkowski
+title: "It’s amazing things works at all!"
+---
+
+**Abstract:**
+
+Complex systems are weaving a permanent spot into modern day life. These systems are important not just to those who use them, but more importantly for the Operators and Engineers who build and support them. This talk will explore the people and technology behind the complex systems that are fueling our profession and how these systems are defining each other. While advancements and improvements continue to happen, have we come this far purely because of luck or are we doing something right?
+
+Areas of discussion will analyze:
+
++ Abstractions, frameworks, libraries, and Rube Goldberg machines.
++ Service Level Agreements and defining availability expectations: Where did SLAs come from? Where are they going? Do we need them?
++ Operator Impact: Studying the physical, mental, educational, and economical impact on the human operator.
++ Failure Opportunities.
+
+**Speaker:**
+
+Brian Nuszkowski
+

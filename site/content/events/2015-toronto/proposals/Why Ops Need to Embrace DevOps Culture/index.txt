@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Eric Wright
+title: "Why Ops Need to Embrace DevOps Culture"
+---
+
+**Abstract:**
+
+So many organizations are having trouble understanding what the DevOps culture is, and how to apply it in technology and process.
+
+This is a primer on how companies and individuals have had success building their DevOps practices beginning with the Ops team.
+
+We cover:
+
++ Building micro-orgs beginning with yourself
++ Understanding the value to you and your org
++ Technology examples
+
+Mostly, we cover how to always find success, even with partial adoption of DevOps practices. As a Systems Architect with 20 years in Financial Services data centers, Eric brings a host of proven experience in building out orchestration teams and creating cultural change in IT organizations.
+
+**Speaker:**
+
+Eric Wright
+
