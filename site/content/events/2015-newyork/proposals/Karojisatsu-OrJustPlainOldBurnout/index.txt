@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: John Willis
+title: "Karōjisatsu - Or Just Plain Old Burnout"
+---
+
+**Abstract:**
+Earlier this year I wrote a sensitive blog post about a young man who took his life. The response to the blog was overwhelming.  Within 48 hours the story had been retweeted over 1200 times.  I received over 40 very personal emails anywhere from close friends to complete strangers. The best thing that came out of all this was it got people talking about stress and burnout in our industry. In this talk I am going to express some thoughts about this experience.
+
+**Speaker:**
+John Willis
