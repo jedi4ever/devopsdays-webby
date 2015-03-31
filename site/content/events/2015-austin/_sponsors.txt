@@ -12,6 +12,7 @@ filter:    erb
  { :image => "bazaarvoice.png", :name => "Bazaarvoice", :link => "http://www.bazaarvoice.com/"},
  { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
  { :image => "sonatype.png", :name => "Sontaype", :link => "http://www.sonatype.com/"},
+ { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io/"},
 ]
 %>
 
