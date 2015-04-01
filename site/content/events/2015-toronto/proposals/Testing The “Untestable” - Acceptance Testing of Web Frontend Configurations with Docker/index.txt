@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Oleksiy Kovyrin
+title: "Testing The “Untestable”: Acceptance Testing of Web Frontend Configurations with Docker"
+---
+
+**Abstract:**
+
+Abstract:
+
+Many web companies have comprehensive testing suites for their applications: from single method unit tests to acceptance testing suites making sure web application code is as stable as it could be before pushing it out to production. In recent years, our frontend web servers, software load balancers and their configurations have become increasingly complex, while the culture of testing for this critical infrastructure component is virtually non-existent. At Swiftype, we have built a framework that could help with this issue.
+
+Details:
+
+Swiftype uses frontend layer for a lot of very important things (like smart routing of web traffic to different backend clusters for different classes of customers, handling backend outages by providing degraded results and much more) and this makes frontend web server configuration deploy a very real danger to the stability of the service. To prevent configuration errors from affecting our production stability and to help development and operation teams in testing their changes to frontend servers logic we have created a Docker-based acceptance testing framework, that allows us to use Ruby (with RSpec) to describe our expectations towards our web frontend’s behavior and easily and reproducibly ensure correctness and stability of our configuration long before it goes live.
+
+During this session I would like to describe the history of the project at Swiftype, give some real-world examples of tests we have created on top of it and try to encourage more teams to start testing their frontend web server configurations.
+
+**Speaker:**
+
+Oleksiy Kovyrin

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: Siraj Berhan
+title: "7 Tips for enabling agility and DevOps across a large scale enterprise"
+---
+
+**Abstract:**
+
+In the pursuit of being Agile and applying DevOps practices, many large scale organizations experience significant challenges in their transformation. Based on years of Agile coaching and training with dozens of project teams across various lines of businesses, I would like to share some common challenges and tips in large scale organizations’ journey to Agile and DevOps around people, processes, and technology & operations. I would like to focus on 7 tips for enabling agility and DevOps across a large scale enterprise.
+
+**Speaker:**
+
+Siraj Berhan

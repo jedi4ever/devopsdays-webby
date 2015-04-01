@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: Duncan Ward
+title: "Loadbalancers as a Feature Switch"
+---
+
+**Abstract:**
+
+If your application is advertising itself into a service discovery mechanism for your load balancer to consume, can this mechanism be combined with your source control system to provide a generic feature switch will doesn't concern the internals of your application?
+
+This lightning talk will introduce a small example of how this might be achieved.
+
+**Speaker:**
+
+Duncan Ward
