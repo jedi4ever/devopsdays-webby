@@ -17,6 +17,27 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
+{
+    :name   => 'Delphix',
+    :image  => 'delphix_large.png',
+    :link   => 'http://www.delphix.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Pagerduty',
+    :image  => 'pagerduty_large.png',
+    :link   => 'http://www.pagerduty.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Chef',
+    :image  => 'chef_large.png',
+    :link   => 'https://www.chef.io/',
+    :width  => '150px',
+    :height => '50px'
+},
 
   ]%>
 
@@ -54,7 +75,14 @@ filter: erb
     :link   => 'http://www.go.cd/',
     :width  => '100px',
     :height => '50px'
-}
+},
+{
+    :name   => 'Sonatype',
+    :image  => 'sonatype_large.png',
+    :link   => 'http://www.sonatype.com/',
+    :width  => '150px',
+    :height => '50px'
+},
   ]%>
 
 <h1>Silver sponsors</h1>
@@ -67,6 +95,20 @@ filter: erb
 <% end %>
 
 <% @bsponsors = [
+{
+    :name   => 'TrackVia',
+    :image  => 'trackvia_large.png',
+    :link   => 'http://www.trackvia.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Craftsy',
+    :image  => 'craftsy_large.png',
+    :link   => 'http://www.craftsy.com/',
+    :width  => '150px',
+    :height => '50px'
+},
   ]%>
 
 <h1>Copper sponsors</h1>
