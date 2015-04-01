@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Hany Fahim
+title: "Self-organizing clusters"
+---
+
+**Abstract:**
+
+"Servers that management themselves." Just a pipe dream. Or is it?
+
+This talk is a story about exploring concepts of self-organizing clusters using Docker, systemd, and CoreOS. It will go over an approach for building an auto-updating, auto-patching, self-balanced, and redundant cluster. It will even address the problem of the “data persistence” that Docker doesn't seem to solve, but is necessary for data stores.
+
+**Speaker:**
+
+Hany Fahim
