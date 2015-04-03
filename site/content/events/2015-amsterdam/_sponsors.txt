@@ -36,6 +36,18 @@ filter:    erb
 		:image => "gold-bitbrains.png",
 		:name => "Bitbrains",
 		:link => "http://www.bitbrains.nl/"
+	},
+
+	{
+		:image => "gold-bol.png",
+		:name => "bol.com",
+		:link => "http://www.bol.com/"
+	},
+
+	{
+		:image => "gold-coscale.png",
+		:name => "CoScale",
+		:link => "http://www.coscale.com/"
 	}
 ]%>
 
