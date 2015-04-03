@@ -21,7 +21,7 @@ filter:    erb
 <% end %>
 
 <% @ausponsors = [
-{ :image => "infozen.png", :name => "InfoZen", :link => "http://www.infozen.com"}
+{ :image => "infozen.png", :name => "InfoZen", :link => "http://www.infozen.com"},
 { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com"}
 ]%>
 <% unless @ausponsors.empty?  %><h1>Gold</h1><% end %>
