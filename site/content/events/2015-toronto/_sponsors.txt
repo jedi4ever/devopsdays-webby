@@ -38,6 +38,7 @@ filter: erb
 <br />
 
 <% @ssponsors = [
+{ :image => 'mercatus.png', :name => 'Mercatus', :link => 'http://mercatus.com' },
   ]%>
 
 <h1>Silver sponsors</h1>
