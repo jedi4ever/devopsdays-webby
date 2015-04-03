@@ -30,6 +30,12 @@ filter:    erb
 		:image => "gold-rackspace.png",
 		:name => "Rackspace",
 		:link => "http://www.rackspace.com/"
+	},
+
+	{
+		:image => "gold-bitbrains.png",
+		:name => "Bitbrains",
+		:link => "http://www.bitbrains.nl/"
 	}
 ]%>
 
