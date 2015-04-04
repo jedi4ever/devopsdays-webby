@@ -21,6 +21,7 @@ filter:    erb
 { :image => 'gandi.png', :name => 'Gandi.net', :link => 'https://www.gandi.net', :width => '100px', :height => '100px' },
 { :image => 'xebialabs.png', :name => 'XebiaLabs', :link => 'http://www.xebialabs.com', :width => '100px', :height => '100px' },
 { :image => 'redhat.png', :name => 'Red Hat', :link => 'https://www.redhat.com', :width => '100px', :height => '100px' },
+{ :image => 'delphix.png', :name => 'Delphix', :link => 'http://delphix.com', :width => '100px', :height => '100px' },
 ] %>
 
 <% if @gsponsors.empty? %>
