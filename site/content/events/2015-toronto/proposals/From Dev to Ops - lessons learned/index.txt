@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: Doug Barth
+title: "From Dev to Ops: lessons learned"
+---
+
+**Abstract:**
+
+I've held a number of roles in my career so far. I started as a developer at Orbitz, before moving to a small startup where I did full stack development and a bit of operations work. Now I'm at PagerDuty doing operations work full time.
+
+Having seen these varying organizations and job roles, I've come away with many observations that I'd love to share with the audience. Why are Ops teams always so grumpy? Why do developers produce such buggy code? What would a developer dropped into operations (or an ops person dropped into dev) find surprising?
+
+This talk with answer those questions in just 5 minutes. :)
+
+**Speaker:**
+
+Doug Barth
+

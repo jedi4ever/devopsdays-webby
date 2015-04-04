@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Fawzy Manaa
+title: "One Size does not Fit All (DevOps in the Enterprise)"
+---
+
+**Abstract:**
+
+Tech startups make DevOps look too easy to implement and master. Different organizations are starting from very different contexts and have varying technologies, application types, cultures, and practices, and based on that, the path on DevOps can and should very well be different. In this presentation, I'll go through what makes enterprise different, justify why different decisions and milestones may be made/ hit along the way, and provide some tips from my experience of evangelizing DevOps at TELUS.
+
+**Speaker:**
+
+Fawzy Manaa
