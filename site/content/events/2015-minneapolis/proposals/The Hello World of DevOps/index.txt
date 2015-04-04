@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 10
+title: "The 'Hello, World' of DevOps"
+---
+
+**Abstract:**
+
+we talk about DevOps as a process of dissolving organizational silos. We also focus a lot on automation. Both of these activities require a lot of time and energy. Are they absolutely necessary prerequisites? Can we do DevOps across silos, or even across company boundaries? What is the 'Hello, World' of DevOps? Is it possible to do anything useful without significant investment in organizational redesign and system retooling?                    
+                                                                                
+This talk will tackle this question in simple, concrete terms by presenting a DevOps transformation case study from 2004. This case study involves a highly dysfunctional relationship between a SaaS provider and its outsourced hosting vendor. It describes the simple transformation that repaired that relationship, and allowed the client to dramatically increase the quality of their service as well as their satisfaction with their vendor.                                  
+                                                                                
+The talk will conclude by describing precisely what it was about the repair process that led to success. It will illustrate the difference between healthy and dysfunctional inter-organizational relationships. It will explore ways that any IT organization, regardless of its structure, can begin to reap the benefits of DevOps.          
+
+
+
+**Speaker:**
+Speaker 10
+
