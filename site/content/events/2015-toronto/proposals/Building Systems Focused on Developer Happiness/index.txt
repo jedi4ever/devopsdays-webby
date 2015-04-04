@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Philip Corliss
+title: "Building Systems Focused on Developer Happiness"
+---
+
+**Abstract:**
+
+Have you ever used a tool that made you want to tear your hair out? If we’re being honest, we all have, and some of us are even responsible for the mess we’ve unleashed on our coworkers. Tools and automation that seemed fine at first don’t always scale with the team as it grows. When that happens, you’ll find that the tool will become the latest yak to shave when your new members need to get something done.
+
+In this talk, we’ll go over the trials and tribulations of working with a rapidly growing organization like Groupon and trying to improve systems used by hundreds of busy developers every day. We’ll start with the institutional barriers that rise up around existing systems to protect them from getting replaced. We’ll learn how to build systems with developer happiness in mind. Finally, we’ll discuss how those systems grow with your organization and allow developers to focus on the important stuff instead of which yak needs shaving.
+
+About Philip Corliss
+Formerly an engineering manager at Groupon and now a member of the Braintree Payments team, I’m building systems that keep engineers from shaving yaks and inspire them to build great software instead.
+
+**Speaker:**
+
+Philip Corliss
+

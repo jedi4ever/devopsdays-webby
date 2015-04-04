@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Adib Saikali
+title: "BOSH Overview"
+---
+
+**Abstract:**
+
+This presentation is an introduction to BOSH an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed services. BOSH installs and updates software packages on large numbers of VMs over many IaaS providers with the absolute minimum of configuration changes. BOSH is used by CloudFoundry and we will only cover the basic concepts and ideas behind BOSH.
+
+**Speaker:**
+
+Adib Saikali
+

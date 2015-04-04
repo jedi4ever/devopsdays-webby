@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: Andrina Kelly
+title: "DevOps For The People"
+---
+
+**Abstract:**
+
+Technology frequently gets labeled as the great enabler for making any business more productive. What this always forgets though, is that technology is not a solution for a people problem. You could have the best tools and coolest toys that a DevOps engineer could dream up, but if they don’t align with the entire team to get your product from conception to out the door you’re still not solving the initial problem you implemented DevOps for. This is DevOps for the people - all the people.
+
+**Speaker:**
+
+Andrina Kelly
+

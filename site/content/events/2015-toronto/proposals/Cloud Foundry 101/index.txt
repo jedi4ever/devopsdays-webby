@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Adib Saikali
+title: "Cloud Foundry 101"
+---
+
+**Abstract:**
+
+CloudFoundry has emerged as the premier Open Source PaaS (Platform as a Service) with wide industry backing from Pivotal, EMC, VMWare, IBM, CISCO, SAP, HP and numerous other vendors along. CloudFoundry development is managed through the Linux Foundation which manages the Cloud Foundry Foundation. This presentation will introduce key concepts of Cloud Foundry architecture and ecosystem along with a quick hands on demo that show how to deploy applications to cloud foundry. Only Open Source cloud foundry is covered by this presentation.
+
+**Speaker:**
+
+Adib Saikali
+
