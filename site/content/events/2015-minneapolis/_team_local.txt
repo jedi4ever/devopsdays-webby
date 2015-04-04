@@ -1,6 +1,5 @@
 - Donnie Berkholz
 - Andy Domeier
-- Michael Ducy
 - Tom Duffield
 - Bridget Kromhout
 - Heather Mickman
