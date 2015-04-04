@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 12
+title: "They Don't Call it Continuous Integration for Nothing!"
+---
+
+**Abstract:**
+
+This talk will dig deep into the process of continuous integration (CI) and the key processes that make up the overall CI process. We will discuss the relationships and process flows between change management, configuration management, and release/build management and how the CI process, when coupled with a solid performance engineering discipline across the product lifecycle, can result in a better user experience for your web & mobile application.  We will speak about the entire lifecycle, the "conveyor belt" of the application lifecycle, with concentration on the "Big 3" processes that support the overall CI strategy.                                           
+We will include a real-world example of how SOASTA uses Jenkins and other open source solutions for its "conveyor belt" and how this process enables SOASTA to complete over 100 product releases in 2014 and still maintain its customer SLA's for its Saas product offerings.          
+
+
+**Speaker:**
+Speaker 12
+
