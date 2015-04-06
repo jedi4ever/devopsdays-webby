@@ -10,8 +10,9 @@ platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
+<% @organizeremail = render(:partial => "/#{@eventhome}/_email_organizers").strip %>
 
-We greatly value sponsors for this open event. If you are interested in sponsoring, please check out our <a href="/<%= @eventhome %>/sponsor/devopsdays-chicago-2015-prospectus.pdf">prospectus</a> and [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Interested in Sponsoring DevOpsDays Chicago 2015).
+We greatly value sponsors for this open event. If you are interested in sponsoring, please check out our <a href="/<%= @eventhome %>/sponsor/devopsdays-chicago-2015-prospectus.pdf">prospectus</a> and [drop us an email](mailto:<%= @organizeremail %>?subject=Interested in Sponsoring DevOpsDays Chicago 2015).
 
 <hr>
 
@@ -29,6 +30,9 @@ impression on the attendees.
 <br>
 The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
 <br>
+
+If you would prefer to pay by check, please send us an [email](mailto:<%= @organizeremail %>?subject=Interested in paying for a DevOpsDays Chicago 2015 sponsorship by check) and we will send along an invoice.
+
 
 <hr/>
 <div id="sponsorship" style="width:590px">
