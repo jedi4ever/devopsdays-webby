@@ -1,10 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-ljubljana">
-      Ljubljana
-    </a>
-    -
-    </a>
     <a href="/events/2015-paris">
       Paris
     </a>

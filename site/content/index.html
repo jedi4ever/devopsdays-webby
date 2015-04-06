@@ -72,19 +72,6 @@ var amsterdammarker = new MarkerWithLabel({
 
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterdam"});
 
-var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
-var ljubljanamarker = new MarkerWithLabel({
-    position: ljubljanalocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Ljubljana<br>3 & 4 Apr",
-    labelAnchor: new google.maps.Point(5, +35),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2015-ljubljana"});
-
 var parislocation = new google.maps.LatLng(48.856614, 2.352222);
 var parismarker = new MarkerWithLabel({
     position: parislocation,
@@ -136,7 +123,7 @@ draggable: false,
 raiseOnDrag: false,
 map: map,
 labelContent: "Toronto<br>May 14 & 15",
-labelAnchor: new google.maps.Point(-5, 46),
+labelAnchor: new google.maps.Point(-5, 53),
 labelClass: "labels", // the CSS class for the label
 labelStyle: {opacity: 1}
 });
@@ -151,7 +138,7 @@ var minneapolismarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Minneapolis<br>Jul 8 & 9",
-    labelAnchor: new google.maps.Point(40, 45),
+    labelAnchor: new google.maps.Point(40, 52),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -179,7 +166,7 @@ var newyorkmarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "New York<br>Apr 30 & May 1",
-    labelAnchor: new google.maps.Point(9, 25),
+    labelAnchor: new google.maps.Point(3, 35),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -193,7 +180,7 @@ var dcmarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Washington, DC<br>Jun 11 & 12",
-    labelAnchor: new google.maps.Point(25, 3),
+    labelAnchor: new google.maps.Point(25, -10),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -221,7 +208,7 @@ var chicagomarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Chicago<br>Aug 25 & 26",
-    labelAnchor: new google.maps.Point(43, 25),
+    labelAnchor: new google.maps.Point(43, 35),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -235,7 +222,7 @@ var pittsburghmarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Pittsburgh<br>Aug 13 & 14",
-    labelAnchor: new google.maps.Point(29, 12),
+    labelAnchor: new google.maps.Point(20, 12),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
 });
