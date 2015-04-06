@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 15
+title: "DevOps Day 2: People and Process"
+---
+
+**Abstract:**
+
+DevOps is often heralded as the solution to all the problems within IT - planning, slow delivery, large team, etc. All solved via automation. Yet, DevOps is not a technology problem at core, but rather a business problem. Once the dust settles and the new tools are implemented, the more challenging problems begin. Implementation of a DevOps type practice requires change and adaptation of the practices within the framework of the existing culture, and these challenges are often overlooked or poorly addressed.                     
+This talk discusses many of these challenges as observed in small and large companies alike, how to plan and execute successfully. This includes technologies and techniques including:                                         
+                                                                                
+* The Hows and Why of ChatOps                                                   
+                                                                                
+* Avoiding the `Great is the Enemy of Good` concerns.                           
+                                                                                
+* Decoupling complex infrastructures with DevOps tools                          
+                                                                                
+* Expanding workflows beyond technology teams          
+
+* Things *not* to do.                                                           
+
+
+**Speaker:**
+Speaker 15
+
