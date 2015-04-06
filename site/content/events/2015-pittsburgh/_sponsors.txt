@@ -1,0 +1,45 @@
+---
+filter:    erb
+---
+<%
+def make_sponsor_links(sponsors)
+  sponsors.shuffle.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<% @gsponsors = [
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
+<h1><font color="Gainsboro">Aluminum</font> sponsors</h1>
+
+<% @gsponsors = [
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
+<h1><font color="MediumTurquoise">Glass</font> sponsors</h1>
+
+<% @gsponsors = [
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+
+<br/>
+<br/>
+<h1>Media sponsors</h1>
+<% @msponsors = [
+]%>
+<%= make_sponsor_links(@msponsors) %>
+
+<br/>
+<br/>
+<h1>Host sponsor</h1>
+<% @hsponsors = [
+{ :image => "pittCS.jpg", :name => "University of Pittsburgh Computer Science", :link => "http://www.cs.pitt.edu/"},
+]%>
+<%= make_sponsor_links(@hsponsors) %>

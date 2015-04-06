@@ -41,6 +41,10 @@
       Melbourne
     </a>
     -
+    <a href="/events/2015-pittsburgh/">
+      Pittsburgh
+    </a>
+    -
     <a href="/events/2015-chicago/">
       Chicago
     </a>

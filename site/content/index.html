@@ -228,6 +228,20 @@ var chicagomarker = new MarkerWithLabel({
 
 google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2015-chicago/"});
 
+var pittsburghlocation = new google.maps.LatLng(40.4397, -79.9764);
+var pittsburghmarker = new MarkerWithLabel({
+    position: pittsburghlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Pittsburgh<br>Aug 13 & 14",
+    labelAnchor: new google.maps.Point(29, 12),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(pittsburghmarker, "click", function (e) { location.href="/events/2015-pittsburgh/"});
+
 }
 </script>
 
