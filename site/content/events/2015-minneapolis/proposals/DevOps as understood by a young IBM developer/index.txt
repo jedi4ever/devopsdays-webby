@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 16
+title: "DevOps as understood by a young IBM developer"
+---
+
+**Abstract:**
+
+Most of us have heard about what DevOps is, and what are its merits and challenges. Many of us practice it everyday. In this conference and its past editions, we have heard what the early adopters did to catch the DevOps boat.                                                                    
+I wish to present a Developer's view on what it means to be a part of DevOps. What it means to be part of a steady, mature Agile process, and what happens when one is suddenly thrown into the fast paced, fail-fast, DevOps roller coaster.                                                          
+My short talk will focus on the following aspects.                              
+                                                                                
+1) Various change catalysts in the tech industry. viz. environment, competition, process need, leader's vision, curiosity.                          
+2) What I was doing couple of years back, and my current work-day. What changed, and what helped me get here?                                           
+3) Some of my biggest challenges, how I dealt with uncertainties, found my own path, and adapted to the changes to be a leader when I transitioned from Agile to DevOps.                                                           
+
+4) What developers need to know when they embark on DevOps transformation?     
+
+I would like the attendees to take this away from my presentation:              
+
+1) Understand what challenges development teams face during the transition to DevOps.                                                                      
+2) What developers need to know when they embark on DevOps transformation.  
+
+**Speaker:**
+Speaker 16
+
