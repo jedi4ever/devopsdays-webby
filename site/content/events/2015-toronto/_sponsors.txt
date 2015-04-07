@@ -5,6 +5,7 @@ filter: erb
 <% @psponsors = [
 { :image => 'shomi.png', :name => 'Shomi', :link => 'http://discover.shomi.com/' },
 { :image => 'chef.png', :name => 'Chef', :link => 'https://www.chef.io' },
+{ :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
   ]%>
 
 <% if @psponsors.empty?  %>
@@ -54,6 +55,7 @@ filter: erb
 
 <h1>Media sponsors</h1>
 <a href="http://oreilly.com/"><img border="0" alt="O'Reilly Media" title="O'Reilly Media" width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/oreilly.png")%>'></a>
+<a href="http://uberflip.com"><img border="0" alt='Uberflip' title='Uberflip' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/uberflip.png")%>'></a>
 <br />
 <br />
 
