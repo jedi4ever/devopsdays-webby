@@ -3,9 +3,9 @@ filter:
 - erb
 - markdown
 dirty: true
-sidebar: false
+sidebar: true
 title: proposals
-layout: event
+layout: event_msp
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
