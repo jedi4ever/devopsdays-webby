@@ -22,7 +22,8 @@ end
 <h1>Gold sponsors</h1>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+ { :image => "10thmagnitude.png", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com"},
+ { :image => "newrelic.png", :name => "New Relic", :link => "http://newrelic.com"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
