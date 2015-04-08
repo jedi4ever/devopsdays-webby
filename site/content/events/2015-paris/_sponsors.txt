@@ -36,6 +36,7 @@ filter:    erb
 
 <% @special_sponsors = [
 { :image => 'outscale.png', :name => 'Outscale', :link => 'http://www.outscale.com', :width => '100px', :height => '100px' },
+{ :image => 'automic.png', :name => 'Automic', :link => 'http://automic.com/', :width => '100px', :height => '100px' },
 ] %>
 <% unless @special_sponsors.empty? %><h1>Special sponsors</h1><% end %>
 
@@ -54,7 +55,6 @@ filter:    erb
 { :image => '10thmagnitude.png', :name => '10th Magnitude', :link => 'http://www.10thmagnitude.com/', :width => '100px', :height => '100px' },
 { :image => 'octo.png', :name => 'Octo Technology', :link => 'http://www.octo.com', :width => '100px', :height => '100px' },
 { :image => 'exoscale.png', :name => 'ExoScale', :link => 'https://www.exoscale.ch/welcome-dd2015/', :width => '100px', :height => '100px' },
-{ :image => 'automic.png', :name => 'Automic', :link => 'http://automic.com/', :width => '100px', :height => '100px' },
 { :image => 'voyagessncf.png', :name => 'Voyages-sncf.com', :link => 'http://www.voyages-sncf.com/', :width => '100px', :height => '100px' },
 { :image => 'alterway.png', :name => 'Alter Way', :link => 'http://www.alterway.fr/', :width => '100px', :height => '100px' },
 { :image => 'theodo.png', :name => 'Theodo', :link => 'http://www.theodo.fr/', :width => '100px', :height => '100px' },
@@ -70,7 +70,6 @@ filter:    erb
 <% end %>
 
 <% @msponsors = [
-{ :image => 'rudebaguette.png', :name => 'Rude Baguette', :link => 'http://www.rudebaguette.com', :width => '100px', :height => '100px' },
 { :image => 'itsocial.png', :name => 'IT Social', :link => 'http://itsocial.fr', :width => '100px', :height => '100px' },
 { :image => 'oreilly.png', :name => 'O\'Reilly', :link => 'http://www.oreilly.com/', :width => '100px', :height => '100px' }
 ] %>
