@@ -34,6 +34,17 @@ filter:    erb
 
 <% end %>
 
+<% @special_sponsors = [
+{ :image => 'outscale.png', :name => 'Outscale', :link => 'http://www.outscale.com', :width => '100px', :height => '100px' },
+] %>
+<% unless @special_sponsors.empty? %><h1>Special sponsors</h1><% end %>
+
+<% @special_sponsors.each do |sponsor| %>
+
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
+
+<% end %>
+
 <h1>Silver sponsors</h1>
 <% @ssponsors = [
 { :image => 'prologism.png', :name => 'Prologism', :link => 'http://www.prologism.fr', :width => '100px', :height => '100px' },
@@ -53,28 +64,6 @@ filter:    erb
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 <% @ssponsors.each do |sponsor| %>
-
-<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
-
-<% end %>
-
-<h1>Start-up sponsors</h1>
-<% @susponsors = [] %>
-
-<% if @susponsors.empty? %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
-<% end %>
-
-<% @susponsors.each do |sponsor| %>
-
-<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
-
-<% end %>
-
-<% @special_sponsors = [] %>
-<% unless @special_sponsors.empty? %><h1>Special sponsors</h1><% end %>
-
-<% @special_sponsors.each do |sponsor| %>
 
 <a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
 
