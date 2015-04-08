@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+layout: event
+author: Nicolas Charles
+title: "Working together - a Dance analogy"
+platinum: true
+---
+
+**Abstract:**
+
+Dancing is a wonderful activity, that can be done alone, in couple or in large groups.
+
+To be efficient (or to avoid chaos), learning to dance helps, as well as caring for others and following rules. A lot like teamwork actually. This ignite will unravel this dancing analogy to teamworking in IT, and hightlight how devops is just a part of successful strategies applied in other domains to reach top level.
+
+
+**Speaker:**
+
+*Nicolas Charles*
+
+I am co-founder of Normation, the company behind the open source IT automation and compliance solution Rudder. In charge of professional services, a bit developer and a bit sysadmin at Normation, I also love to dance in my free time. 
+
