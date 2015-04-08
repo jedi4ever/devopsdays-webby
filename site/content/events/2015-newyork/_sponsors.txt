@@ -27,6 +27,7 @@ filter:    erb
 { :image => "2u.png", :name => "2U", :link => "http://www.2u.com/"},
 { :image => "intentmedia.png", :name => "Intent Media", :link => "http://www.intentmedia.com/"},
 { :image => "apprenda.png", :name => "Apprenda", :link => "http://www.apprenda.com/"},
+{ :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
 ]%>
 
 <br><br>
