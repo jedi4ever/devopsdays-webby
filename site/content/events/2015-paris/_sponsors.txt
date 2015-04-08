@@ -4,6 +4,7 @@ filter:    erb
 <% @psponsors = [
 { :image => 'ca_technologies.png', :name => 'CA Technologies', :link => 'http://www.ca.com/fr', :width => '100px', :height => '100px' },
 { :image => 'puppetlabs.png', :name => 'PuppetLabs', :link => 'https://puppetlabs.com', :width => '100px', :height => '100px' },
+{ :image => 'microsoft_azure.png', :name => 'Microsoft Azure', :link => 'http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200618989', :width => '100px', :height => '100px' },
 ] %>
 
 <% if @psponsors.empty? %>
