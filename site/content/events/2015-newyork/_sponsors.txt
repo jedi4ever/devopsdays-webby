@@ -26,6 +26,9 @@ filter:    erb
 { :image => "nextbigsound.png", :name => "Next Big Sound", :link => "http://www.nextbigsound.com/"},
 { :image => "2u.png", :name => "2U", :link => "http://www.2u.com/"},
 { :image => "intentmedia.png", :name => "Intent Media", :link => "http://www.intentmedia.com/"},
+{ :image => "apprenda.png", :name => "Apprenda", :link => "http://www.apprenda.com/"},
+{ :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
+{ :image => "digitalocean.png", :name => "DigitalOcean", :link => "http://www.digitalocean.com/"},
 ]%>
 
 <br><br>
