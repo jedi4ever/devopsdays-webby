@@ -6,7 +6,8 @@ filter:    erb
 
 <% @ptsponsors = [
 { :image => "excella.png",   :name => "Excella Consulting", :link => "http://www.excella.com/"},
-{ :image => "sumologic.png", :name => "Sumo Logic",         :link => "http://www.sumologic.com/"}
+{ :image => "sumologic.png", :name => "Sumo Logic",         :link => "http://www.sumologic.com/"},
+{ :image => "netuitive.png", :name => "Netuitive",          :link => "http://www.netuitive.com/"}
 ]%>
 <% unless @ptsponsors.empty?  %><h1>Platinum</h1><% end %>
 <% @ptsponsors.each do |sponsor| %>
