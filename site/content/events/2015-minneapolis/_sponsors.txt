@@ -11,10 +11,10 @@ end
 
 <% @gsponsors = [
 { :image => "sumologic.jpg", :name => "Sumo Logic", :link => "https://www.sumologic.com/"},
-{ :image => "sps.jpg", :name => "SPS Commerce", :link => "https://www.spscommerce.com/"},
+{ :image => "sps.jpg", :name => "SPS Commerce", :link => "http://www.spscommerce.com/"},
 { :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "https://www.puppetlabs.com/"},
 { :image => "chef.jpg", :name => "Chef Software", :link => "https://www.chef.io/"},
-{ :image => "target.jpg", :name => "Target", :link => "https://www.target.com/"},
+{ :image => "target.jpg", :name => "Target", :link => "http://www.target.com/"},
 { :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
@@ -24,7 +24,7 @@ end
 <h1><font color="silver">Silver Lake</font> sponsors</h1>
 
 <% @slsponsors = [
-{ :image => "ansible.png", :name => "Ansible", :link => "https://www.ansible.com" },
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com" },
 { :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"}
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
@@ -40,7 +40,7 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
-{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "https://www.oreilly.com/"},
-{ :image => "velocity.png", :name => "Velocity Conf", :link => "https://www.velocityconf.com/"},
+{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
+{ :image => "velocity.png", :name => "Velocity Conf", :link => "http://www.velocityconf.com/"},
 ]%>
 <%= make_sponsor_links(@msponsors) %>
