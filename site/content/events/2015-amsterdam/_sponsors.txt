@@ -9,17 +9,6 @@ def make_sponsor_links(sponsors)
 end
 %>
 
-<% @psponsors = [
-{ :image => 'shomi.png', :name => 'Shomi', :link => 'http://discover.shomi.com/' },
-{ :image => 'chef.png', :name => 'Chef', :link => 'https://www.chef.io' },
-{ :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
-  ]%>
-<%= make_sponsor_links(@psponsors) %>
-
-<br />
-<br />
-
-<h1>Gold Sponsors</h1>
 <% @gsponsors = [
 	{
 		:image => "gold-puppetlabs.png",
@@ -116,15 +105,7 @@ end
 	}
 ]%>
 
-<%= make_sponsor_links(@ssponsors) %>
-
-<br />
-<br />
-
-<h1>Media Sponsors</h1>
-<% @msponsors = []%>
-
-<%= make_sponsor_links(@msponsors) %>
+<%= make_sponsor_links(@bsponsors) %>
 
 <br />
 <br />
