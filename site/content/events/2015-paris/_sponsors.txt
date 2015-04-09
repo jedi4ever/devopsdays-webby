@@ -23,6 +23,7 @@ filter:    erb
 { :image => 'xebialabs.png', :name => 'XebiaLabs', :link => 'http://www.xebialabs.com', :width => '100px', :height => '100px' },
 { :image => 'redhat.png', :name => 'Red Hat', :link => 'https://www.redhat.com', :width => '100px', :height => '100px' },
 { :image => 'delphix.png', :name => 'Delphix', :link => 'http://delphix.com', :width => '100px', :height => '100px' },
+{ :image => 'chef.png', :name => 'Chef', :link => 'http://chef.io', :width => '100px', :height => '100px' },
 ] %>
 
 <% if @gsponsors.empty? %>
@@ -37,6 +38,7 @@ filter:    erb
 <% @special_sponsors = [
 { :image => 'outscale.png', :name => 'Outscale', :link => 'http://www.outscale.com', :width => '100px', :height => '100px' },
 { :image => 'automic.png', :name => 'Automic', :link => 'http://automic.com/', :width => '100px', :height => '100px' },
+{ :image => 'timspirit.png', :name => 'Timspirit', :link => 'http://www.timspirit.com/', :width => '100px', :height => '100px' },
 ] %>
 <% unless @special_sponsors.empty? %><h1>Special sponsors</h1><% end %>
 
