@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Todd Waits and Aaron Volkmann
+title: "Overcoming DevOps Culture-Shock"
+---
+
+**Abstract:**
+For many of us, shifting to DevOps can create organizational "culture shock," or discomfort by those suddenly subjected to an unfamiliar culture, way of life, or set of attitudes. DevOps is not something you purchase or have implemented by a DevOps Engineer. Instead, a shared vision and common goals across teams and team members are critical to making a successful culture transformation.
+
+DevOps is all about teams working together to continually improve their processes and achieve their shared business goals. With cross-functional teams, documentation must be in place. We will discuss strategies for curating information repositories that fit how a team works.
+
+Also, project and team management are core components of ensuring that team members are able to work efficiently and don't get lost in meetings and context switching. Automated tools further enhance communication by exposing project data to everyone.
+
+**Speaker:**
+Todd Waits and Aaron Volkmann
