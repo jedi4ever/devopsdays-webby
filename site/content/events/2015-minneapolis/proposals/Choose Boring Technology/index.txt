@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 17
+title: "Choose Boring Technology"
+---
+
+**Abstract:**
+
+How do you choose the technology to run your business? The prevailing advice du jour is something like: "use the best tool for the job." This is obviously right, but it is also devoid of meaning in an unfortunate way that lets people define the words "best" and "job" as myopically as they like. 
+
+This talk aims to give shape to these nebulous terms. Your job is to keep your company in business. The best tools tend to be the ones that solve the widest array of problems while requiring the least amount of operational overhead. If innovation happens when preparation meets opportunity, I submit that opportunity rarely appears in the form of an unforeseen data loss bug. 
+
+Choose boring technology. If you can get past this, you can be exciting in ways you can't imagine. 
+
+**Speaker:**
+Speaker 17
+

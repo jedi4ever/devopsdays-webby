@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 19
+title: "Performance Metrics Driven Continuous Delivery"
+---
+
+**Abstract:**
+
+As organizations move towards implementing DevOps related concepts one of the building blocks is typically a Continuous Integration and Continuous Delivery pipeline. Traditional processes revolve around simple functional tests with Boolean pass/fail and do not encompass non-functional elements. This can result in more rollbacks as code is deployed that may be functionally sound but unstable or non-performant.
+
+In this talk we will show you how to automatically capture and report on key performance and scalability metrics (such as # of SQL Queries, time spent in components, # of resources on a page) through every stage of your deployment pipeline.
+
+Tracking these metrics across all stages and comparing them between builds will help ensure higher quality releases and ensure something like a database killing bug does not make it all the way into production! 
+
+Less time spent rolling back suboptimal releases means more time spent delivering new features and happier customers.
+
+
+**Speaker:**
+Speaker 19
+

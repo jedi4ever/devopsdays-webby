@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 20
+title: "We all scream for Metrics! Instrumentating everything via StatsD"
+---
+
+**Abstract:**
+
+"Maybe we have too many metrics." ~ said nobody.                                
+                                                                                
+The biz team wants revenue numbers. Developers want call times on key           
+methods. You want response times and error rates. We ALL want metrics, but      
+instrumenting, viewing, and monitoring our key metrics typically involves       
+many tools, lots of coordination, and worries about overhead.                   
+                                                                                
+StatsD, open-sourced by Etsy, gives us a way to simplify instrumentation,       
+and I'll walk thru the Swiss Army knife of metrics in a production setup.       
+I'll show real-world examples that illustrate how dev and devops teams can      
+leverage StatsD to instrument just about everything: even the temperature       
+of your meat as it sizzles on the grill during a weekend BBQ. Besides code      
+examples, I'll answer the key questions: does it scale? what's an               
+end-to-end StatsD stack look like? How much work is it to manage? What's        
+the language support? Will my hand hurt from awkward tech high-fives as         
+metrics appear with sudden ease?                                                
+                                                                                
+In a nutshell, you'll walk away with the key shortcuts to get started on a      
+tool you've been excited to try but haven't had time to explore.          
+
+
+
+**Speaker:**
+Speaker 20
+

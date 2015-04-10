@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 21
+title: "DevOps in IBM Power System Testing"
+---
+
+**Abstract:**
+
+In this presentation we are going to talk about how DevOps with Jenkins and Urban Code Deploy is used in verifying IBM Power Systems. Is it just the hardware we are testing? No. FSP, PHYP and HMC (Hardware Management Console) are being the major component and they all together makes IBM Power Server a whole product. So how are we going to test different components? How do they work together in achieving extended iterative development process beyond Continuous Integration and achieve Continuous Release, Continuous Delivery and Continuous Testing?  
+
+Is DevOps everything? Will it be sufficient to verify the IBM Power Systems? Obviously Not. There are different test teams. We will see how the quality products are delivered from DevOps to all other test teams.  
+
+We will also see how each team automated their component testing and how do they screen for defects in their respective subsystems using DevOps?  And how effective was it? Was it worth moving to DevOps? What was the outcome? Did it improve the product quality ? Did it improve the feedback time to development?
+
+How did the overall system test cycle improve? Did it improve really? What are the future plans? Let's wait and see. 
+
+
+
+**Speaker:**
+Speaker 21
+
