@@ -14,24 +14,9 @@ title: "Let's Safety Dance"
 
 **Abstract:**
 
-I hate computers. How many times have you heard those words? Or said them       
-yourself. Systems crash and go boom all the time. The easiest thing to do       
-is to blame the person touching the keyboard when it happens. Especially        
-when that person touching the keyboard is you. But how do we build safer        
-systems? How do we build humane systems, systems that actually engage and       
-even delight the user? Sidney Dekker says "Safety improvements come from        
-organizations monitoring the gap between procedures and practice". How can      
-you build a system for safety if the way the system is designed isn't           
-actually how it's used. Of course it doesn't work, you were doing it wrong.     
-We have to stop shoving users into systems with procedures that aren???t        
-based on reality.                                                               
-                                                                                
-In this talk I address these questions through my experience building tools     
-for developers. Every tool works in an ideal world and on my machine. But       
-the hard part is building tools that "work" even when they don't.               
-Understanding the gap between procedure and practice can be a real              
-challenge, and if you don't approach that problem with a big dose of            
-empathy you won't have much luck closing that gap.             
+I hate computers. How many times have you heard those words? Or said them yourself. Systems crash and go boom all the time. The easiest thing to do is to blame the person touching the keyboard when it happens. Especially when that person touching the keyboard is you. But how do we build safer systems? How do we build humane systems, systems that actually engage and even delight the user? Sidney Dekker says "Safety improvements come from organizations monitoring the gap between procedures and practice". How can you build a system for safety if the way the system is designed isn't actually how it's used. Of course it doesn't work, you were doing it wrong.  We have to stop shoving users into systems with procedures that aren't based on reality. 
+
+In this talk I address these questions through my experience building tools for developers. Every tool works in an ideal world and on my machine. But the hard part is building tools that "work" even when they don't.  Understanding the gap between procedure and practice can be a real challenge, and if you don't approach that problem with a big dose of empathy you won't have much luck closing that gap. 
 
 **Speaker:**
 Speaker 23
