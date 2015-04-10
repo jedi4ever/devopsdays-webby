@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Melissa Santos
+title: "The Dev/Ops Line is Fuzzy, or How to Work with your Ops Partners"
+---
+
+**Abstract:**
+I manage an infrastructure team, and we're having to learn which ops
+things we do, and which ops things we hand off. And it turns out not
+to be a clear line, but a process of working together with our
+designated ops. I figure 5 minutes introducing my team and the kind of
+problems we have, 10 minutes talking about how we're working with ops:
+we have primary/secondary/advisory ops members and they are on our
+team mailing list. They are invited to our weekly meetings, but have
+access to the agenda so they can decide for themselves if they want to
+attend. I have a 1:1 with our primary ops person every 2 weeks so I
+can find out how much bandwidth she's got and she can hear what things
+I'm worried about and might need help with soon. We work together on
+hardware buying, where we find the timing that make the most sense to
+both parties, talk about what hardware meets our needs, and make sure
+they have everything they need to order it. Sometimes we write chef
+code. Sometimes we build RPMs. Sometimes we pair with Ops people. It
+depends on urgency, bandwidth, available skills, and interest.
+I can slide in the horror story of the week spent double teaming NSLCD
+and losing. :)
+
+Then 10 minutes talking about what is generalizable about these things
+- communicate, communicate, cooperate! I love your theme of empathy
+and I think this fits well with it - it's about being on the same
+team, understanding that we have conflicting constraints, and helping
+each other achieve goals.
+Final five minutes: quick things you can do to make your ops
+relationship better (probably 3 different suggestions for how to open
+dialogue), wild ideas about how to make the relationship even better
+in the future.
+
+**Speaker:**
+Melissa Santos

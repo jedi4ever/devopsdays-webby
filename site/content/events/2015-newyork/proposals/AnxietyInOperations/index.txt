@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Justin Lintz
+title: "Dealing with Anxiety in Operations"
+---
+
+**Abstract:**
+The nature of being in operations can be very stressful. No matter how well you think you have your infrastructure together, disasters will still happen. According to the NIMH, 18% of Adults in the US have an anxiety disorder. I will discuss what I've learned dealing with a general panic disorder over the last 17 years and how I've managed to cope with it while still working in a job that can bring with it a lot of anxiety. I'll discuss what anxiety is, and what a panic attack is like and educate the audience so they can understand what some of their coworkers may be going through. I'll go over examples of how controlled burns, pre-mortems, being comfortable in your toolsets, oncall buddies can help in alleviating anxiety. Also will have information on getting help with a mental disorder.
+
+**Speaker:**
+Justin Lintz
