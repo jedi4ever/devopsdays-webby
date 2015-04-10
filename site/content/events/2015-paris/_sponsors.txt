@@ -39,6 +39,7 @@ filter:    erb
 { :image => 'outscale.png', :name => 'Outscale', :link => 'http://www.outscale.com', :width => '100px', :height => '100px' },
 { :image => 'automic.png', :name => 'Automic', :link => 'http://automic.com/', :width => '100px', :height => '100px' },
 { :image => 'timspirit.png', :name => 'Timspirit', :link => 'http://www.timspirit.com/', :width => '100px', :height => '100px' },
+{ :image => 'ibm.png', :name => 'IBM', :link => 'http://www.ibm.com/devops', :width => '100px', :height => '100px' },
 ] %>
 <% unless @special_sponsors.empty? %><h1>Special sponsors</h1><% end %>
 
@@ -60,6 +61,8 @@ filter:    erb
 { :image => 'voyagessncf.png', :name => 'Voyages-sncf.com', :link => 'http://www.voyages-sncf.com/', :width => '100px', :height => '100px' },
 { :image => 'alterway.png', :name => 'Alter Way', :link => 'http://www.alterway.fr/', :width => '100px', :height => '100px' },
 { :image => 'theodo.png', :name => 'Theodo', :link => 'http://www.theodo.fr/', :width => '100px', :height => '100px' },
+{ :image => 'dow.png', :name => 'Days of Wonder', :link => 'http://www.daysofwonder.com/', :width => '100px', :height => '100px' },
+{ :image => 'ikoula.png', :name => 'Ikoula', :link => 'http://www.ikoula.com/', :width => '100px', :height => '100px' },
 ] %>
 
 <% if @ssponsors.empty? %>
