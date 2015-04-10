@@ -60,6 +60,7 @@ filter:    erb
 { :image => 'voyagessncf.png', :name => 'Voyages-sncf.com', :link => 'http://www.voyages-sncf.com/', :width => '100px', :height => '100px' },
 { :image => 'alterway.png', :name => 'Alter Way', :link => 'http://www.alterway.fr/', :width => '100px', :height => '100px' },
 { :image => 'theodo.png', :name => 'Theodo', :link => 'http://www.theodo.fr/', :width => '100px', :height => '100px' },
+{ :image => 'dow.png', :name => 'Days of Wonder', :link => 'http://www.daysofwonder.com/', :width => '100px', :height => '100px' },
 ] %>
 
 <% if @ssponsors.empty? %>
