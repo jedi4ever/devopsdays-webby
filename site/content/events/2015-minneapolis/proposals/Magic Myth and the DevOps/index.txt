@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 27
+title: "Magic, Myth, and the DevOps"
+---
+
+**Abstract:**
+
+"Once upon a time": powerful words that begin many oral narratives and indicate that the story to be told will be imbued with magic and myth. Organizational folklore can be a very powerful force for instilling or perpetuating behavior, systems, and culture within an organization. 
+
+Too often, fear and negativity are the driving forces in the folklore behind many organizational traditions. A positive narrative that embraces the customs and traditions of a healthy, balanced feedback loop can help jumpstart your DevOps journey. This talk will help you frame your narrative alongside metrics and use folklore as a catalyst for positive change. 
+
+**Speaker:**
+Speaker 27
+
