@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Jeremy Price
+title: "Mixed metaphors, or reducing the bus factor of the lone wolf."
+---
+
+**Abstract:**
+Nobody likes being a lone wolf, but sometimes it’s unavoidable in small, stingy, or just plain cash-poor organizations.  Ok, some people thrive on being the lone wolf, but most of us would really like to be able to take a vacation w/o our leptops, go to bed w/o fear of being paged, or enjoy a holiday party w/o having to login to the restaurant’s wifi to debug something.  My talk will talk about some practices, tooling, and culture shifts that, while based on broader DevOps concepts, are aimed at the lone practitioners (lone rangers?) among us.  I’ll also be talking about the hows and whys… like the benefit of having a button so what anyone on the team or in the organization can take down the site.
+
+**Speaker:**
+Jeremy Price

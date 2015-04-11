@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Jake Davis
+title: "How and Why Simple Operations Uses Clojure"
+---
+
+**Abstract:**
+In most operations circles, Clojure is not a language that immediately comes to mind. But at [$COMPANY], it's one that we're using every day, and one that I spend the predominant amount of my time developing in. In this talk I'd be speaking to some of the pain points I've discovered along the way and how sharing the same development space as the rest of engineering at [$COMPANY] helps us empathize with people outside our team.
+
+Our backend is largely Scala (a JVM language), so in using Clojure I've been able to feel the pain in our infrastructure of getting a service out into the world, of interacting with our databases, of going through our CI system. It breaks down all the barriers between ops and other engineers, because I'm operating in the same space at all times, and this has informed a lot about how I work.
+
+Concretely, out of this experience has come documentation, conversation about how we can be doing things better, and improvements to our already fairly-polyglot infrastructure and workflow. Inclusivity comes naturally from everyone operating in the same playing field and wanting the experience to get better for everyone else. We've also moved, as an operations team, into writing services almost exclusively (as opposed to config management or scripts), which has been a massive win in empathy and general platform stability, as well as reducing the complexity between our various workflows.
+
+In all, Clojure has taught me and, in my opinion, our whole operations team valuable lessons about working together as an engineering organization.
+
+**Speaker:**
+Jake Davis

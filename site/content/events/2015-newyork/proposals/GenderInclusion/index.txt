@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Carmen Caelestis
+title: "Gender Inclusion for Women: Why having more moms in tech can improve gender diversity."
+---
+
+**Abstract:**
+Women make up a small percentage of DevOps teams and technical teams.  Mothers even less so.  
+
+This is an elaboration of my presentation talk proposal above:  how mothers and fathers make awesome team members, and why having kids helps troubleshooting, time management, crisis control, training, teamwork, , attention to detail, documentation. I mean, we ACTUALLY have the 5 -year olds to explain to #ELI5.  
+
+Here I'd like to focus on Tech Pipeline for females: everyone focuses on the very start of that pipeline, but what about the latter end? How to stop women attrition by inviting more MOMS back into tech.  Cite demographical statistics 
+
+1) 81% of women become mothers by age 40 to 44 as of 2010. 
+2) Retirement age is going up in 2050... to age 70 or 72... how that BENEFITS women. 
+3) Examples of successful moms who didn't get their start until later in life (Margaret Thatcher didn't start her first job until she was 37... and we went on to be the first female Sec. of State!) 
+
+**Speaker:**
+Carmen Caelestis

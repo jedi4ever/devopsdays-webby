@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Darron Froese
+title: "Scuba and Ops - what can we learn from the underwater environment"
+---
+
+**Abstract:**
+The skills and techniques needed to explore wrecks, caves and other challenging underwater environments have lots to teach those of us from the ops persuasion.
+
+Complex scenarios can be safely conquered when you master three main areas that I'm going to parallel in this talk:
+
+1. Building a team. You need more than some 10x'ers.
+2. Failure happens - how do you deal with it, learn from it and fail gracefully.
+3. "Just keep swimming."
+
+Using rarely before seen imagery from some of my own dives I want to connect two of my favorite pastimes - diving into unforgiving locations and taming the wild ops seas.
+
+I have had this talk bumping around in my head for a while, but have only recently put together 22 slides that tell this story.
+
+I will spend the next month removing / combining and rewriting so that only 20 of the best 15 second slides remain.
+
+**Speaker:**
+Darron Froese

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Stephanie Herr
+title: "Don’t forget your data! How do DBAs and data fit in DevOps?"
+---
+
+**Abstract:**
+Data is an integral part of every application, so why aren’t we talking about it more when it comes to DevOps and including the DBAs in this important conversation.  Data and databases have their own special challenges, but they also share numerous characteristics with other parts of your system.  It’s time to start thinking about incorporating your data into your best practices and including your DBAs in the discussion.
+ 
+In this talk you'll learn how ICE directly applies to data and DBAs.  It’s time to consider your entire complex system, including the data, and bring your data teams into your DevOps-driven organization.
+ 
+Disclaimer – I work for [$COMPANY].  We make tools for Database Lifecycle Management.  This talk will be completely tool agnostic and focus on getting people to start thinking about how data and DBAs fit with DevOps. 
+
+**Speaker:**
+Stephanie Herr

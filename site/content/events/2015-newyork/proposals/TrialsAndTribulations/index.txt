@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Tyler Randles
+title: "Trials and tribulations of database container orchestration"
+---
+
+**Abstract:**
+This talk will be about container orchestration, how it can make our lives easier and the pain points of managing a database in containers. Orchestration has come along way from home brewed scripts managing LXCs to mesosphere and the official docker tools; but these tools have been built mostly for stateless applications and stateful databases present a new set of challenges. Discovery, mapping host  volumes, and even how to restart containers.  
+
+**Speaker:**
+Tyler Randles
