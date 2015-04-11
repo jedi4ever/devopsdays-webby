@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 25
+title: "Simplifying Cloud Template Management Using Packer"
+---
+
+**Abstract:**
+
+While installing OpenStack or CloudStack is a fairly simple prospect, the promise of cloud efficiency comes from a viable template
+management process. Creating the first template, or attempting to migrate existing VMs into that new cloud can be quite problematic. In this session we'll learn how Packer plugins can be used to both create that initial set of templates, and to clone existing VMs into the cloud. When cloning existing VMs, a process will be presented where users aren't impacted when migrating existing functionality to a cloud.
+
+**Speaker:**
+Speaker 25
+
