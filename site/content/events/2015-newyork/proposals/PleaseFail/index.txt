@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Diógenes Guedes Rettori
+title: "Please Fail"
+---
+
+**Abstract:**
+I truly don't believe we engage in any activity expecting it to fail, and same goes for app development. I remember an old statistics that compared software projects to airplanes development, which would say that only 30% would take off without significative problems. I got scared when I first heard about it, but then I looked back on the projects I worked for, and even though the numbers weren't so bad, there was really a considerable amount of projects that failed and some miserably, but there is a deep relationship between failing and innovating.
+DevOps for me can be the main driver and accelerator of innovation. We all know that change is a constant, but so is failure. Having that, your development and operations is wrong, if changes and failures are seen as the result of bad decisions more than as result of a learning curve. But failing is not simple and on this ignite talk I’ll cover the following considerations around DevOps, failure, and innovation:
+See your project as an R&D project
+Expect failure more than you expect change
+There's no way to run away from 'people process and tools'
+You need a good enterprise architect
+Pray for your boss
+
+As a result I expect the attendee to give the right importance of DevOps in failing towards innovation.
+
+NOT PRESENTED ANYWHERE ELSE, NEW PRESENTER, NO VENDOR SPEECH, 100% EMPATHY :-)
+
+**Speaker:**
+Diógenes Guedes Rettori
