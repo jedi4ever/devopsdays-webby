@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dušan Đorđević
+title: "Starting small with Devops and making it work"
+---
+
+**Abstract:**
+
+When I joined aerlingus.com as a consultant, I was first member of team that was tasked to migrate aerlingus.com to Amazon cloud. AerLingus is Irish national air carrier, ex-government owned, now public company. Around 75% of company sales go through that site, which is around 1.2 B EUR/year. Current site relies on bunch of legacy technologies (Solaris, IBM mainframe, etc...). There was 0 lines of documentation about anything and there was no drive nor understanding from management to do devops. Still in a year time we managed to establish some devops procedures. Main things that I would like to illustrate in this talk is
+-Enterprises are not complex and unique, but alike
+
+-It is possible to do enterprise devops, side by side with ITIL
+-It is possible to sell devops to organization from within, simply because it works
+-It is possible to connect legacy and new, we have direct connectivity between mainframe and Amazon cloud
+-Illustrate how we are using Kanban as main methodology for collaboration between teams and how we convinced organization to use it
+
+I would also like to illustrate key mistakes we made:
+-To some extent you can sell devops to organization from within, but to really do it you need to have organizational drive
+-Silos still continued to exist
+
+I would still need to get confirmation from AerLingus if I may use name in presentation, otherwise it can be presented as Irish Airline company
+
+**Speaker:**
+
+Experienced in designing and running telecom and gambling/gaming systems, large web sites (cloud and data center based), various HA systems with 99.999% availability, infrastructure and cloud operations, managing and influencing teams. Devops practitioner.
+
+Worldwide multicultural experience with various types of clients and contacts up to C level.
+
+Specialties: Infrastructure and platform architecture. High availability and disaster recovery. Automation. Cloud computing. Devops/Agile/Kanban. Linux and open source. OpenStack.

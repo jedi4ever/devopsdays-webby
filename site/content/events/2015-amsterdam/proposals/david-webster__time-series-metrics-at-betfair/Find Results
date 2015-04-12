@@ -1,0 +1,348 @@
+Searching 28 files for "Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+
+Key topics covered include:
+
+- Successful transition of operational and management paradigm
+- How the VM density of clouds change Ops
+- What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+- Preventing storage costs from outpacing the capacity of the cloud
+
+The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions."
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/ciaran-o-neill__retrospective/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/dan-boutin__its-not-called-continuous-integration-for-nothing/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/david-mytton__how-to-handle-incidents-downtime-and-outages/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/david-webster__time-series-metrics-at-betfair/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/dusan-dordevic__starting-small-with-devops-and-making-it-work/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/gopal-ramachandran__dont-do-devops-without-a-solid-config-management/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/gregory-damiani__chef-patterns-for-speed-and-reusability/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/james-brooks__show-me-the-metrics-opentsdb-and-opentsp-at-betfair/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/mark-robert-coleman__a-re-imagining-of-the-term-full-stack-developer/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/michael-cote__[insert-keynote-here]/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/michael-cote__devops-from-an-investors-perspective/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/michael-cote__the-donkeys-are-coming/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/mike-fulton__test-optimization-whats-changed/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/niels-loader__devops-is-not-what-it-seems/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/patrick-roelke__data-science-the-solution-to-monitoringsucks/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/pini-reznik__continuous-delivery-with-docker-and-mesos/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/pini-reznik__using-docker_software-containers-for-automated-testing/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/stathy-g-touloumis__devops-and-the-doppelganger/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/tom-heisterkamp__agile-has-no-brain-that’s-why-you-need-continuous-service-discovery/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+/Users/ksatirli/Sites/github.com/ksatirli/devopsdays-webby/site/content/events/2015-amsterdam/proposals/trishal__functional-and-system-verification-testing-–-the-devops-way/index.txt:
+   15  **Abstract:**
+   16
+   17: Today everyone is talking about clouds, and a few are building them, but far fewer are operating successful clouds.  In this session we'll examine a variety of paradigm shifts IT makes when moving from a traditional virtualization and management mindset to operating a successful cloud.  For most organizations, without careful planning the hype of a given cloud solution can quickly overcome its capabilities and pre-existing best practices can combine to create the worst possible cloud scenario -- a cloud which isn't economical to operate, and which is more cumbersome to manage than a traditional virtualization farm.
+   18:
+   19: Key topics covered include:
+   20:
+   21: - Successful transition of operational and management paradigm
+   22: - How the VM density of clouds change Ops
+   23: - What it means to monitor the network in a cloud environment, at hyper-dense virtualization levels
+   24: - Preventing storage costs from outpacing the capacity of the cloud
+   25:
+   26: The presentation is vendor, hypervisor and cloud management model neutral, though some technology and implementation decisions will impact the possible cloud management solutions.
+   27
+   28  **Speaker:**
+
+21 matches across 21 files

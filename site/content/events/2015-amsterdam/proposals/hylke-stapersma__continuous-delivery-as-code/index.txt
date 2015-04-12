@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Hylke Stapersma
+title: "Continuous delivery as code"
+---
+
+**Abstract:**
+
+When you are building software it is important that you have a factory floor equipped with the right tools and machines to build a particular version of your software. This is similar to building a car.
+
+You are unable to build a T-Ford in a modern Ford factory. This means that your factory floor (continuous delivery pipeline) has to evolve with every version of your software.
+
+In this workshop you will learn how to facilitate the evolution of your continuous delivery pipeline. You will learn how to build such a pipeline within Jenkins using open-source plugins and how this pipeline can be versioned within your source code. During the workshop a complete continuous delivery pipeline will be build from scratch.
+
+This includes important steps like testing puppet code with docker and rspec, functional testing and deploying.
+
+
+**Speaker:**
+
+Hylke is a software craftsman who is working as a consultant for codecentric and he is a contributor and maintainer of a small number of open-source projects.
+
+He is passionate about sharing ideas and knowledge on everything related to software development and delivery.

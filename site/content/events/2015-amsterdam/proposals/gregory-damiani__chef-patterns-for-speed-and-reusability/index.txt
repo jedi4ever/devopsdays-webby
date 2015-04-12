@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Gregory Damiani
+title: "Chef Patterns For Speed and Reusability"
+---
+
+**Abstract:**
+
+Rewriting your brittle shell scripts in Chef, Puppet, or another configuration management tool is great, but are you solving problems or keeping busy?  Here's a test:  do your 'execute' resources far outnumber all your other resources combined?
+
+It turns out, If you're not thinking about software engineering and designing your configuration management code as a solution to a business problem, you're just rewriting your shell scripts in a different language.
+
+If you know the basics of Chef and you're comfortable writing a full-featured cookbook, then perhaps this is the next step.  Hopefully you started out automating something small rather than your company's core application (The Devops Whale).  Now you're thinking about tackling the bigger projects around your infrastructure and you want to level up your skills.  If you consider yourself an advanced Chef developer, hopefully this review of state-of-the-art in Chef Patterns will teach you something new.
+
+**Speaker:**
+
+Senior Kitten Delivery Engineer at BuzzFeed UK. Waterman. Skier. Head chef at my house. Reader. Dancer. Gardener. Fast fingers, bad ideas.

@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: James Brooks
+title: "Show me the Metrics: OpenTSDB and OpenTSP at Betfair"
+---
+
+**Abstract:**
+
+"Time Series metrics can be an important part of a comprehensive monitoring solution. Betfair will present a talk on their experiences running OpenTSDB and a new open source tool called OpenTSP, designed to streamline the process of gathering and delivering system metrics quickly and reliably to multiple endpoints so that you can use any of your favourite tools to analyse the stream.
+
+**Speaker:**
+
+James Brooks is a Senior Engineer with Betfair's site reliability engineering team. Having spent time at Sun Microsystems and Interoute Communications, James is keenly aware of the power of well-implemented monitoring to be a driver for continuous improvement.

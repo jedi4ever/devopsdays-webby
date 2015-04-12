@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tom Heisterkamp
+title: "Agile has no brain, that’s why you need continuous service discovery"
+---
+
+**Abstract:**
+
+"What’s next after lean/six sigma, agile development and continuous delivery? These methods make you do things right (effective and efficient), but what makes you do the right things? Agile starts with a vision and a filled product backlog, but how does it get filled and where does it come from? Hence the title ‘Agile has no brain’.
+
+Here is where the next thing comes in: continuous service discovery. This closes the complete life cycle from service discovery, development and delivery to service retirement. It can be done by collaborative cross-functional teams. With continuous service discovery your organization is capable of constant innovation. Lean Startup and Design thinking methods are used to achieve this. How it all fits together is going to be published in a book called ‘How to Build a Sequoia’.
+"
+
+**Speaker:**
+
+Tom Heisterkamp, certified SAFe Agilist (SA) and Certified Scrum Product Owner, has worked with the Dutch Tax and Customs Administration (DTCA) for more than thirty years. He has had a career of over twenty years in IT as programmer, designer, project leader and manager.
+
+Both in applications and in infrastructures. Then he switched to the demand side and has been concerned with the quality of demand ánd supply because you can’t have one without the other. The last ten years he has been a development coach and picked up lean and agile five years ago as major ways to improve.
+
+This talk is given on personal behalf, either in Dutch or English. He was guest speaker at the Service Manager Dag twice, the DevOps Dialogues and several times at the MIT-symposium.
