@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Eddy Pauwels
+title: "Bimodal IT through Lean Application Delivery"
+---
+
+**Abstract:**
+
+As Gartner predicts, by 2017 about 75% of IT organisations will have bimodal capability with about half making a mess. The type of business application is crucial to decide on the best application delivery strategy. IT Organisations need to build capability to support multiple methodologies and still have end-to-end traceability and control. This requires a Lean Application Delivery approach.
+
+This session will talk about Lean Application Delivery, how it supports bimodal, and what they key capabilities to focus on.
+
+**Speaker:**
+
+Eddy Pauwels (ITIL Master, Lean IT trainer, CSM, CSPO) is an experienced IT professional and excellent speaker. Eddy has a masters degree in computer science from the University of Brussels.
+
+During the past 25 years he specialised in Application and Service Lifecycle Management. As an accredited APMG trainer he regularly lectured on Lean IT and ITIL. Eddy is a respected coach within organisations to implement Agile, Lean IT and performance based service management principles.
+
+Currently he is VP of Sales and Marketing at Clarive Software.

@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Patrick Roelke
+title: "Data Science: The Solution to #monitoringsucks"
+---
+
+**Abstract:**
+
+"As an Operations Engineer at Germany’s leading fashion website STYLIGHT, my team and I are constantly looking for ways to reach monitoring zen– with mixed results. Despite using leading tools like New Relic, Loggly, and DataDog, we still aren’t getting the answers we need from our data.  My proposed talk will address #monitoringsucks in 2015, what this new fangled data science thing means, and what the tools of the future look like.
+
+Ever since the #monitoringsucks trend kicked off a conversation about the state of monitoring tools in 2011, there has been a flurry of activity resulting in new solutions, improved tools, and applications generating tons of data. However, we are still faced with the same issues almost 4 years later. Alerts still generate far too much noise to be useful. Dashboards aren’t actionable and require human interpretation. The volume of log, time series, and other data makes it difficult to collate, visualize, and interpret in the mythical single pane of glass. How do we definitively solve these problems?
+
+Data science. Using advances in data science and machine learning that are already being applied to “sexy” problems at companies around the globe, we can finally reach a tipping point when it comes to #monitoringsucks issues. New data science  tools can pinpoint problems before they hit a static threshold, group alerts from a variety of sources into a single logical error, and prevent eye strain from studying hundreds of graphs. In this talk, I will be discussing the virtues – and pitfalls – of new monitoring entrants like Kale from Etsy, Bosun from StackExchange, and Twitter’s open source R package AnomalyDetection."
+
+**Speaker:**
+
+Patrick Roelke is an Operations Engineer at STYLIGHT in Munich, Germany.
+
+He has more than 11 years of experience in IT Operations, Configuration Management, and charming useful data from monitoring systems.

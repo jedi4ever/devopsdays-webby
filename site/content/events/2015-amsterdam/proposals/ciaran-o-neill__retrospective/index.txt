@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Ciarán Ó Néill
+title: "Retrospective"
+---
+
+**Abstract:**
+
+Scrum, Kanban, XP, whatever - regardless of method, the retrospective is an oft overlooked/undervalued technique in the agile toolbox. In this workshop I would like to demonstrate the potential of the retrospective through running a retrospective on DevOPS Days itself.
+
+I will use (and explain) the retrospective framework as described by Derby & Larsen in Agile Retrospectives (Making good teams great) to do so, thereby giving the attendees the basis to go ahead with their own retrospectives.
+
+**Speaker:**
+
+Ciarán is a process coach with a strong technical background.
+
+As a one time developer who, as agile coach, is building a specialist niche in a hosting environment he has developed a strong interest in the DevOPs movement.
+
+This complements his generalist tendencies while challenging his DEV bias.

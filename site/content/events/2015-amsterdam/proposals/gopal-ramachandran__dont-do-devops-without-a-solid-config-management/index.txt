@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Gopal Ramachandran
+title: "Don't do devops without a solid Config Management"
+---
+
+**Abstract:**
+
+Everybody is now taking about devops and continuous delivery, which is basically a means to get the software from idea to production as quickly (and often) as possible. So we get started right-away with a ""deployment pipeline"", but forgetting to put in place some proper configuration management. This talk will focus on managing application configuration.
+
+So why do you need config management?
+
+Before configuration management (in the context of the organization I was working at (which applies to many other organizations)):
+- Incorrect application configuration leading to broken tests
+- Stakeholders (Dev, Ops, QA, functional managers) have no clue what is running where
+- Wastage of development cycle time
+
+How did we go about it:
+- Following the classic principle (to quote Jez Humble and David Farley in the bible on Continuous Delivery): ""Keep binary ﬁles independent from conﬁguration information, and keep all conﬁguration information in one place.""
+- An auto-discovering CMDB which provides realtime insight
+- Making use of the Configuration management functionality of the automated deployment tool which we had bought
+
+The results:
+- Improved quality and reduced risks
+- Quick changes without touching code
+- Dashboard of version of software is running where
+- Longer test timeslots became available
+- Increased collaboration, everyone happier!
+
+**Speaker:**
+
+I have about 10 years of enterprise IT experience. I began my career as a Java web developer. After about 3 years, out of sheer curiosity I jumped the wall and took on the role of a deployment and hosting engineer. I then became part of an effort to break down the proverbial "wall between dev and ops" in the organization.
+
+As a "configuration manager", I have been working the past 2 years (at a large airline company) along with application teams to implement configuration management, devops and continuous delivery.

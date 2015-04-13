@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: David Webster
+title: "Time Series Metrics@Betfair"
+---
+
+**Abstract:**
+
+Time Series Metrics are the lifeblood of your systems. The ability to capture, store, interrogate and alert from that data is a wonderful thing.
+
+This session describes, at a high level, what they are and how Betfair is making amazing use of them by combining the open source projects OpenTSDB and Riemann and our own “special sauce”, OpenTSP.
+
+**Speaker:**
+
+David Webster is a Betfair veteran of 12 years.
+
+He’s held many positions in that time but currently manages the UK Site Reliability team and has a passion for the monitoring systems required to support their production estate.
+
+This estate processes in excess of 70 million betting transactions on a busy day so Betfair’s monitoring systems are bigger than some company’s customer facing systems.
+
+He lives with his wife and three children on the Suffolk coast and is a member of the local RNLI lifeboat crew.

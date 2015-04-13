@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Trishal Choudhari
+title: "Functional and System Verification testing – The DevOps Way!"
+---
+
+**Abstract:**
+
+Testing or quality control for any product or a service offering is as critical as developing the product / service offering itself.  Additionally, achieving sufficient amount of testing to certify that the requirements are met with high quality or as per the quality criteria defined by the organization in a fast pace delivery model like DevOps is quite challenging.
+
+This paper address the experience of adoption of the DevOps by the FVT and SVT teams – in terms of their perception, best practices and methodologies that have been adopted to achieve sufficient amount of testing in DevOps model and hence their inherent benefits which can be a great reference point for teams looking to adopt to this model.
+
+**Speaker:**
+
+"Trishal Choudhari is the overall SVT lead for the Cloud Systems Software group on the Infrastructure as a Service cloud delivery model. He has a strong networking background and has front end-ed all the critical SVT deliveries.
