@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 2
+title: "Example Talk Name"
+---
+
+**Abstract:**
+
+This is the talk description as submitted by the user, but with their name removed if they put it in the abstract. This lets you post the talk so people can see the possible talks ahead of time but without the names.
+
+**Speaker:**
+Speaker 2
+

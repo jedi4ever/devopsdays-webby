@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: contact
+layout: event
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
+<% @eventid = File.basename(@page.directory) %>
+
+If you'd like to contact us by email: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+
+** Our local team**
+
+<%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+** The core devopsdays organizer group**
+
+<%= render(:partial => "/contact/_team_global") %>
