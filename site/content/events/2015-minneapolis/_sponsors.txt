@@ -15,7 +15,8 @@ end
 { :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "https://www.puppetlabs.com/"},
 { :image => "chef.jpg", :name => "Chef Software", :link => "https://www.chef.io/"},
 { :image => "target.jpg", :name => "Target", :link => "http://www.target.com/"},
-{ :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"}
+{ :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"},
+{ :image => "newrelic.png", :name => "New Relic", :link => "https://newrelic.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
