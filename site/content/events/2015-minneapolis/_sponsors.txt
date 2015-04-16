@@ -26,7 +26,8 @@ end
 
 <% @slsponsors = [
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com" },
-{ :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"}
+{ :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
+{ :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"}
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
