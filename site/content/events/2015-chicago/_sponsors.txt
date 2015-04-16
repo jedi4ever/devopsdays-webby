@@ -22,8 +22,11 @@ end
 <h1>Gold sponsors</h1>
 
 <% @gsponsors = [
- { :image => "10thmagnitude.png", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com"},
- { :image => "newrelic.png", :name => "New Relic", :link => "http://newrelic.com"}
+{ :image => '10thmagnitude.png', :name => '10th Magnitude', :link => 'http://www.10thmagnitude.com'},
+{ :image => 'newrelic.png', :name => 'New Relic', :link => 'https://newrelic.com'},
+{ :image => 'elastic.png', :name => 'Elastic', :link => 'https://www.elastic.co/' }
+# { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://servercentral.com/'},
+# { :image => 'drw.png', :name => 'DRW Trading', :link => 'http://drw.com/'}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -56,6 +59,7 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => 'oreilly.png', :name => 'O&#39;Reilly Media', :link => 'http://oreilly.com/'}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
