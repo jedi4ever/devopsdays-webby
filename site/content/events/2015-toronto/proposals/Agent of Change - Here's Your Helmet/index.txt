@@ -9,7 +9,7 @@ layout: event
 platinum: true
 talk: true
 ignite: false
-selected: false
+selected: true
 author: H. "Waldo" Grunenwald
 title: "Agent of Change? Here's Your Helmet."
 ---
