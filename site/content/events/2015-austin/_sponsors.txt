@@ -17,6 +17,7 @@ filter:    erb
  { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
  { :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.co/"},
  { :image => "leankit.png", :name => "LeanKit", :link => "http://leankit.com/"},
+ { :image => "ibm.png", :name => "IBM", :link => "http://ibm.com/"},
 ]
 %>
 
