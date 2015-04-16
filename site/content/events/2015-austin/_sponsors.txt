@@ -14,6 +14,9 @@ filter:    erb
  { :image => "sonatype.png", :name => "Sontaype", :link => "http://www.sonatype.com/"},
  { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io/"},
  { :image => "delphix.png", :name => "Delphix", :link => "http://www.delphix.com/"},
+ { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
+ { :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.co/"},
+ { :image => "leankit.png", :name => "LeanKit", :link => "http://leankit.com/"},
 ]
 %>
 
@@ -56,6 +59,7 @@ filter:    erb
 <% @ssponsors = [
  { :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
  { :image => "rancher.png", :name => "Rancher", :link => "http://www.rancher.com/"},
+ { :image => "hired.png", :name => "Hired", :link => "https://hired.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
