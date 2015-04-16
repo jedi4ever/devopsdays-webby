@@ -23,8 +23,9 @@ filter:    erb
 <% end %>
 
 <% @ausponsors = [
-{ :image => "infozen.png", :name => "InfoZen", :link => "http://www.infozen.com"},
-{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com"}
+{ :image => "infozen.png",  :name => "InfoZen",  :link => "http://www.infozen.com"},
+{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com"},
+{ :image => "comcast.png",  :name => "Comcast",  :link => "http://www.comcast.com"}
 ]%>
 <% unless @ausponsors.empty?  %><h1>Gold</h1><% end %>
 <% @ausponsors.each do |sponsor| %>
