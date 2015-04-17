@@ -42,7 +42,7 @@ end
 <br />
 <br />
 
-<h1>Contributor</h1>
+<h1>Contributors</h1>
 <% @csponsors = [
 { :image => 'blendedperspectives.png', :name => 'Blended Perspectives', :link => 'http://www.blendedperspectives.com' },
   ]%>
