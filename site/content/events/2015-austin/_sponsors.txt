@@ -17,7 +17,9 @@ filter:    erb
  { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
  { :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.co/"},
  { :image => "leankit.png", :name => "LeanKit", :link => "http://leankit.com/"},
- { :image => "ibm.png", :name => "IBM", :link => "http://ibm.com/"},
+ { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/"},
+ { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
+ { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
 ]
 %>
 
@@ -61,6 +63,7 @@ filter:    erb
  { :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
  { :image => "rancher.png", :name => "Rancher", :link => "http://www.rancher.com/"},
  { :image => "hired.png", :name => "Hired", :link => "https://hired.com/"},
+ { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
