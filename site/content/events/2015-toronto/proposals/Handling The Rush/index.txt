@@ -9,7 +9,7 @@ layout: event
 platinum: true
 talk: true
 ignite: false
-selected: false
+selected: true
 author: Brian Nuszkowski
 title: "Handling The Rush"
 ---

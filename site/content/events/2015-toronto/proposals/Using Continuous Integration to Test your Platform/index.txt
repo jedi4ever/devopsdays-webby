@@ -9,7 +9,7 @@ layout: event
 platinum: true
 talk: true
 ignite: false
-selected: false
+selected: true
 author: Kirsten Hunter
 title: "Using Continuous Integration to Test your Platform"
 ---
