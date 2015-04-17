@@ -42,6 +42,15 @@ end
 <br />
 <br />
 
+<h1>Contributor</h1>
+<% @csponsors = [
+{ :image => 'blendedperspectives.png', :name => 'Blended Perspectives', :link => 'http://www.blendedperspectives.com' },
+  ]%>
+<%= make_sponsor_links(@csponsors) %>
+
+<br />
+<br />
+
 <h1>Media sponsors</h1>
 <% @msponsors = [
 { :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
@@ -53,10 +62,10 @@ end
 <br />
 
 <h1>Community Partners</h1>
-<% @csponsors = [
+<% @cpsponsors = [
 { :image => "fitc.png", :name => "FITC", :link => "http://fitc.ca/"},
   ]%>
-<%= make_sponsor_links(@csponsors) %>
+<%= make_sponsor_links(@cpsponsors) %>
 
 <br />
 <br />
