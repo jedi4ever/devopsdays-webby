@@ -30,6 +30,7 @@ filter:    erb
 { :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
 { :image => "digitalocean.png", :name => "DigitalOcean", :link => "http://www.digitalocean.com/"},
 { :image => "amplify.png", :name => "Amplify", :link => "http://www.amplify.com/"},
+{ :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
 ]%>
 
 <br><br>
