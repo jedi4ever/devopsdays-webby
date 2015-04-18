@@ -38,6 +38,13 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
+{
+    :name   => 'New Relic',
+    :image  => 'newrelic_large.png',
+    :link   => 'http://www.newrelic.com/',
+    :width  => '150px',
+    :height => '50px'
+},
 
   ]%>
 
@@ -106,6 +113,41 @@ filter: erb
     :name   => 'Craftsy',
     :image  => 'craftsy_large.png',
     :link   => 'http://www.craftsy.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Rancher',
+    :image  => 'rancher_large.png',
+    :link   => 'http://rancher.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Applied Trust',
+    :image  => 'appliedtrust_large.png',
+    :link   => 'https://www.appliedtrust.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Qwinix',
+    :image  => 'qwinix_large.png',
+    :link   => 'http://www.qwinixtech.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'SDL',
+    :image  => 'SDL_large.png',
+    :link   => 'http://www.sdl.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Scout',
+    :image  => 'scout_large.png',
+    :link   => 'http://www.scoutapp.com/',
     :width  => '150px',
     :height => '50px'
 },
