@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 31
+title: "linux command-fu for developers"
+---
+
+**Abstract:**
+
+As a developer, for years I wrote code in a graphical IDE on Windows or a Mac.  I have written hundreds of thousands of lines likely to only click a button to compile, build, deploy locally or even push to repositories. Coming from the development side of the house I regularly feel like a fraud when working with the system.  I have had this feeling before, since I didn't study computer science in school.  I will cover techniques I used to ramp up quickly on system commands and string together my favorite commands to understand a system quickly.  Even experienced system admins will likely get an interesting tidbit or 2.    
+
+**Speaker:**
+Speaker 31
+

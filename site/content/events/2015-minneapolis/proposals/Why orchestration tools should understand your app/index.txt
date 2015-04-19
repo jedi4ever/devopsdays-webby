@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 28
+title: "Why orchestration tools should understand your app"
+---
+
+**Abstract:**
+
+Configuration management tools have made it possible to manage complex distributed applications. Their power can be further enhanced with a model of the application architecture. Benefits of a model based tool include ease of use, increased safety, consistency of what is managed, rich functionality, and many more we will discuss during this session. We will walk you through how we manage a large-scale, distributed system in AWS using a single, model-based tool. 
+
+**Speaker:**
+Speaker 28
+
