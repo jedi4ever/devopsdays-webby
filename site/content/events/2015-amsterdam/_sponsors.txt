@@ -69,6 +69,12 @@ end
 		:name => "Quint",
 		:link => "http://www.quintgroup.com/"
 	},
+
+  {
+		:image => "gold-ing.png",
+		:name => "ING",
+		:link => "http://www.ing.jobs/Nederland/Vakgebieden/Informatie-Technologie.htm"
+	},
 ]%>
 
 <%= make_sponsor_links(@gsponsors) %>
