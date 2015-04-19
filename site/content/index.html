@@ -72,18 +72,6 @@ var amsterdammarker = new MarkerWithLabel({
 
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterdam"});
 
-var parislocation = new google.maps.LatLng(48.856614, 2.352222);
-var parismarker = new MarkerWithLabel({
-    position: parislocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Paris<br>14 & 15 Apr",
-    labelAnchor: new google.maps.Point(40, 5),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(parismarker, "click", function (e) { location.href="/events/2015-paris"});
 
 var austinlocation=new google.maps.LatLng(30.3077609, -97.7534014);
 var austinmarker = new MarkerWithLabel({
