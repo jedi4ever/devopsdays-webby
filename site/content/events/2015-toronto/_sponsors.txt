@@ -36,6 +36,7 @@ end
 <h1>Silver sponsors</h1>
 <% @ssponsors = [
 { :image => 'mercatus.png', :name => 'Mercatus', :link => 'http://mercatus.com' },
+{ :image => 'scalar.png', :name => 'Scalar', :link => 'http://www.scalar.ca' },
   ]%>
 <%= make_sponsor_links(@ssponsors) %>
 

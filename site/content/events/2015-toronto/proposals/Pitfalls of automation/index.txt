@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: James Martin
+title: "Pitfalls of automation"
+---
+
+**Abstract:**
+
+People are often in a rush to automate things, as it can be a very rewarding experience, but one must tread carefully.  Automating the wrong things, automating too soon, automating without a plan, over-engineering the automation, can all be a giant waste of time, and that's what we're trying to avoid to begin with!  This Ignite Talk will talk about how to avoid these pitfalls and put you on the right path to automation.
+
+**Speaker:**
+
+James Martin
