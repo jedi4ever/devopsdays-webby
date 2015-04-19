@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: false
-ignite: true
+talk: true
+ignite: false
 selected: false
 author: Speaker 33
 title: "Why you should care about DevOps in the public sector"
