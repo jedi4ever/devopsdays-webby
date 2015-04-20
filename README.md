@@ -16,6 +16,10 @@ It uses webby as a framework:
 ### On Macosx
 `$ brew install oniguruma`
 
+### On Windows
+See [README-Windows](README-Windows.md) for using webby on Windows operating systems
+
+
 ## If you use RVM
 
 - there is a .ruby-version file that selects "ruby-1.8.7"
