@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Jeff Wouters
+title: "PowerShell, Desired State Configuration, OneGet and JustEnoughAdmin"
+---
+
+**Abstract:**
+
+More than a decade ago Jeffrey Snover, the architect of Windows PowerShell, wrote the Monad Manifesto.
+Here he described the problem he was seeing, and his vision of solving it. With that, the foundation of what we now know as PowerShell was set.
+One of the pillars of this document was the ability to use declarative syntax for configuration management: Desired State Configuration.
+
+The logical next step would be to integrate with solutions to deploy software (packages): OneGet.
+And last, but not least in any way, to do this in a way that is as secure as possible: JustEnoughAdmin.
+
+Throughout this day we’ll teach you how to use Desired State Configuration, OneGet and JustEnoughAdmin. No more investigating why it stopped working in production, when it works in development/test/acceptation environments. No more playing ‘look for the difference’ on your systems. We’ll teach you how to do DevOps the way it was intended, with very little effort.
+
+**Speaker:**
+
+It's Jeff Wouters.

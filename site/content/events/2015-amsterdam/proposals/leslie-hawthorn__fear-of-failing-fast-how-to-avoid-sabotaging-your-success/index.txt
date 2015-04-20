@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Leslie Hawthorn
+title: "Fear of Failing Fast: How to Avoid Sabotaging Your Success"
+---
+
+**Abstract:**
+
+While it’s easy to pay lip service to the idea of innovating by failing fast, humans are both neurally geared and financially incentivized to avoid failure. We’ve all heard the tales of woe: blameless reviews that were anything but blameless, encouragement to work on an experimental project with punishment being the primary result of its failure, and the associated fear of doing anything new, speculative or untried. The results are simple: individuals, teams and companies that stagnate slowly.
+
+So how can we create an environment that makes failing fast safe for the participants and their organizations?
+
+In this talk, we’ll cover key strategies for creating an environment that fosters rapid innovation in your organization, including:
+
+* Conducting effective and truly blameless project post-mortems
+* Building a corporate culture & HR processes that encourage failing ""the right way""
+* Measuring the impacts of positive failure – and failing to fail – on your organization’s bottom line
+
+Attendees will leave this presentation with concrete strategies to conquer their own fear of failure, and how to help their organizations do the same.
+
+**Speaker:**
+
+An internationally known community manager, speaker and author, Leslie Hawthorn has spent the past decade creating, cultivating and enabling open source communities.
+
+She created the world’s first initiative to involve pre-university students in open source software development, launched Google’s #2 Developer Blog, received an O’Reilly Open Source Award in 2010 and gave a few great talks on many things open source. In August 2013, she joined Elastic as Director of Developer Relations, where she leads community outreach efforts.
