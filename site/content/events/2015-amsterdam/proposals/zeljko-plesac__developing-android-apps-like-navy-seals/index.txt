@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Željko Plesac
+title: "Developing Android apps like Navy Seals"
+---
+
+**Abstract:**
+
+DevOps principles have been used in web application development for a couple of years now. They provide mechanisms to quickly respond to feature requests or bug reports and build better software. Mobile development, being a much younger discipline, is yet to develop these principles to a higher level.
+
+In this talk, we'll show how we organised a state-of-the-art Android development process. We use a few well known tactics like Continuous integration, MVP, Git flow, Lint checks, Unit tests, multi-environment support, a Jenkins build server and others. Also, we created new solutions to assault Android problems, like an internal service for deployment and a few new Android libraries.
+
+With this process, we're sure that all developers work to a standard level of quality, that all new features are tested by automated tests before going into production and that we always have a stable build on our hands. Our goal was to have a standard process, but also remain agile (just like Navy seals!) .
+
+We'll wrap up with a few tips&tricks, and point out a couple of problems we stumbled upon while implementing the process.
+
+**Speaker:**
+
+Željko has been a part of the Infinum Android team for 2 years. He has mastered all those nasty bugs and errors which can occur while developing even the most complicated projects. His passions include ORM libraries and frameworks, Android Studio and contributing to open source. His love for Android Studio can only be matched by his hatred for Eclipse.

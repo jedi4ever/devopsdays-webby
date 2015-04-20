@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Anirban Saha
+title: "Understanding Orchestration in DevOps"
+---
+
+**Abstract:**
+
+With the availability of multiple and efficient infrastructure management tools and solutions, the term Orchestration does not just define a procedure anymore. 
+
+In present days, Orchestration has a much wider definition starting from command blasting to ordered configuration deployment and many more. Different product vendors have defined Orchestration in their own ways and same is the case with users.
+
+In this talk, we will go through an overview about Orchestration from a user, as well as a vendor perspective. The talk will include understanding of the term Orchestration in a wider scenario, each of the procedures or workflows which are defined by the term, a couple of examples about orchestration using tools such as Ansible and Salt.
+
+**Speaker:**
+
+DevOps Engineer with experience in large scale infrastructure management, private cloud deployments, automating infrastructure and application workflows. Speaker at conferences and meetups and interested in anything about technology.
