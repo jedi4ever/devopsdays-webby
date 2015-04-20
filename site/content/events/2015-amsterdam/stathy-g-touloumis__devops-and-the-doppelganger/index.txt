@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Stathy G Touloumis
+title: "DevOps and The Doppelganger"
+---
+
+**Abstract:**
+
+A fun talk delivered as a tale describing a king, his doppelganger and the knight who helped them both.
+
+The story will make analogies to current DevOps events, maturity on views and bring some light heartedness to some of the community drama.
+
+**Speaker:**
+
+Stathy began his career in tech back in 1996 when he co-founded an ISP. In early 2000 he had a consulting practice which led to a software eng leadership role at Edison Schools Technology Group.
+
+During that time he heavily leveraged open source technologies and used some of the early practices which have evolved into current Agile and DevOps practices. He currently works within the Business Development team at Chef.
+
+Occasionally this involves goat herding with his fellow Cheffers but mostly involves driving product, strategy and evangelism for strategic partners and businesses.

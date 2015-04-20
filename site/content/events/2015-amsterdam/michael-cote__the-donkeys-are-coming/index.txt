@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Michael Coté
+title: "The donkeys are coming!"
+---
+
+**Abstract:**
+
+DevOps is growing in popularity and even usage in "the real world." It seems like we're slowly getting past unicorns only and seeing many "horses" do DevOps. Soon we'll see the mainstream market - the "donkeys" - start to pick it up and bend DevOps to its will.
+
+This talk will go over "the state of the union" of DevOps and provide some guidance for how to prepare for the donkey apocalypse.
+
+**Speaker:**
+
+I'm a sometimes industry analyst (having worked at RedMonk and 451 Research), corporate strategist (Dell), and former programmer.
+
+Now I work at Pivotal in technical marketing for Pivotal Cloud Foundry. Cloud!

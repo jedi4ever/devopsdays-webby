@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dan Boutin
+title: "It is not called Continuous Integration for Nothing!"
+---
+
+**Abstract:**
+
+This talk will dig deep into the process of continuous integration (CI) and the key processes that make up the overall CI process.  We will discuss the relationships and process flows between change management, configuration management, and release/build management and how the CI process, when coupled with a solid performance engineering discipline across the product lifecycle, can result in a better user experience for your web & mobile application.  We will speak about the entire lifecycle, the "conveyor belt" of the application lifecycle, with concentration on the "Big 3" processes that support the overall CI strategy.
+
+We will include a real-world example of how SOASTA uses Jenkins and other open source solutions for its "conveyor belt" and how this process enables SOASTA to complete over 100 product releases in 2014 and still maintain its customer SLA's for its Saas product offerings.
+
+**Speaker:**
+
+Based in Gainesville, Florida, Mr. Daniel Boutin is Senior Product Evangelist at SOASTA.
+
+Prior to that, Mr. Boutin has held roles at IBM Rational and Mercury/HP Software, and has worked for IBM Global Services, specializing in the areas of performance management, testing and scalability and ITIL.
+
+In addition, Mr. Boutin led the corporate SEI initiative at Lockheed Martin and was one of the contributors to ISO 12207, the U.S. commercial software standard.
+
+Mr. Boutin has previously presented his work at the Atlantic Test Workshop (ATW) in Corsica, France, and Durham, New Hampshire.  Mr.Boutin also has presented at the Advanced Technology Workshop in Toulouse, France, and at Hanscom Air Force Base in Massachusetts.
+
+Mr. Boutin has also presented at itSMF events in Milwaukee, Toronto, Atlanta and Calgary, as well as the itSMF National Conference, multiple Gartner Conferences, and many local and regional events on a variety of topics in performance engineering and the SDLC.
