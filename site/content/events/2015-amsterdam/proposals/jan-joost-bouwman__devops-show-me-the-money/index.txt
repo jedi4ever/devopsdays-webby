@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Jan-Joost Bouwman
+title: "DevOps - show me the money!"
+---
+
+**Abstract:**
+
+The DevOps movement has always been about the community, full of people sharing and caring for their fellow dev and ops men and women, without any personal gain. Even the vendors trying to sell us tools are kinda nice about it.
+And this is where we have gone wrong! Some people who shall remain unnamed decided to hijack DevOps, monitize it and start a training and certification institute.
+
+WE SHOULD HAVE DONE THAT OURSELVES!
+
+And this ignite will give a brief overview of the possibilties we have as a community to squeeze out some money, that we than can put back into the community. Or invest into quality time on a beach in the South Pacific. That might work too. Either way, I think you need to be on board for this!
+
+**Speaker:**
+
+Jan-Joost stumbled into IT almost 20 years ago, starting on a temp job for 5 days that lasted 7 years. During those years he has been mostly on the functional/process side of things, having worked as tester, designer, information analyst, project manager, application manager, change manager and currently as process owner the ITIL change management process at ING.
+
+He is also the self appointed DevOps evangelist and community leader there, trying to help his co-workers to make the transition to DevOps and Continuous Delivery and have fun with it at the same time!
+
+In his spare time he enjoys travelling the world to watch birds, or cooking, but rarely at the same time.
