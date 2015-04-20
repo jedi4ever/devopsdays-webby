@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: William Louth
+title: "Resilience: CircuitBreakers, Back Pressure, QoS and Adaptive Control"
+---
+
+**Abstract:**
+
+This talk looks at some of the techniques used by online software services to enhance the resilience of service entry and exit points long the software supply chain in the processing of a request.
+
+The talk covers such rudimentary techniques as circuit breakers and back pressure and then moves onto Quality of Service (QoS) at the application level and finally delving into more advanced options such as adaptive control valves: moving from explicit and intrusive options to those driven by policy and/or goal searching that are much better aligned to a "systems thinking" approach to resilience.
+
+**Speaker:**
+
+A renowned software engineer with particular expertise in self adaptive software runtimes, adaptive control, self-regulation, resilience engineering, information visualization, software simulation & mirroring as well as performance measurement and optimization.

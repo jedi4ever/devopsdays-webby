@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jan-Joost Bouwman
+title: "State of DevOps @ ING: does DevOps make your team more sucessful?"
+---
+
+**Abstract:**
+
+ING is a dutch based financial institution. ING IT has always been considered a leading edge innovator in the Netherlands, being the first to introduce ATMs, internet banking etc. But our growth increased our bureaucracy, making the lead time to market longer and longer in a time when market conditions demanded shorter lead times.
+
+After adopting Agile/Scrum as our development methodology we needed to make the transition to full DevOps cooperation to complete the feedback circle. And let development and operations take joint responsibility for production, together with the business.
+
+Two years ago we embarked on this journey, transforming our entire IT department into small self organising DevOps teams with a lot of autonomy towards tooling. And with the goal of Continuous Delivery on the horizon.
+
+How far have we come so far in our strive towards Continuous Delivery? And has it payed off? We see numerous highlights, but are they indicative for the whole organisation? And how do people feel about the transition?
+
+In a first ever ‘State of DevOps @ING’ survey (inspired by the State of DevOps survey 2014) among the staff I investigated these questions. This talk will focus on some of the results, combining them with other sources like the number of incidents or failed changes:
+ - does the staff understand the transition and agree with it?
+ - do we like working in DevOps teams?
+ - how far are we really on our path towards Continuous Delivery?
+ - are teams that are closer to reach Continuous Delivery Nirwana also more succesful?
+
+**Speaker:**
+
+Jan-Joost stumbled into IT almost 20 years ago, starting on a temp job for 5 days that lasted 7 years. During those years he has been mostly on the functional/process side of things, having worked as tester, designer, information analyst, project manager, application manager, change manager and currently as process owner the ITIL change management process at ING.
+
+He is also the self appointed DevOps evangelist and community leader there, trying to help his co-workers to make the transition to DevOps and Continuous Delivery and have fun with it at the same time!
+
+In his spare time he enjoys travelling the world to watch birds, or cooking, but rarely at the same time.

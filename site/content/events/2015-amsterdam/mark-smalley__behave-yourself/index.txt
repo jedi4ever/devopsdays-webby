@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Mark Smalley
+title: "Behave yourself!"
+---
+
+**Abstract:**
+
+"The aim of this highly participative session is to help you improve the Dev-Ops relationship so that both ‘parties’ perceive that they are getting more value from it and are working towards common goals for the organization. After a short introduction, you and your fellow participants will explore possibilities for both Dev and Ops to improve how they collaborate. Some groups will take the Dev perspective, while others will view things from an Ops point of view. You will define your top three desired behaviours for Dev, and the top three for Ops.
+
+After establishing what kind of behaviour is desired, you will explore the kind of interventions that can actually change behaviour. Or rather, the kind of interventions that can change the things that drive and facilitate behaviour. Such as motivation, thought-patterns, values, knowledge, and skills.
+
+At the end of the workshop you will have the opportunity capture your personal practical takeaways to apply at work."
+
+**Speaker:**
+
+Mark Smalley is an IT Management Consultant at Smalley.IT and is specialized in application management and business information management. He is affiliated with the non-profit ASL BiSL Foundation, APMG-International, GamingWorks and Pink Elephant.
+
+Mark is an inaugural member of the industry initiatives SM Congress and Taking Service Forward. Mark has spoken to thousands of IT professionals at more than 100 events on 4 continents.
+
+He was born in London but has lived in the Netherlands for 40 years, currently on the southern outskirts of Amsterdam. Mark is married, with 3½ children.

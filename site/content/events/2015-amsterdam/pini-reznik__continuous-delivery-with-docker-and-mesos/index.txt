@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Pini Reznik
+title: "Continuous Delivery with Docker and Mesos"
+---
+
+**Abstract:**
+
+This workshop will start with brief intro to Docker and more elaborate overview of Mesos and it's framework.
+This will include:
+- overview of distributed computing
+- history of Mesos
+- Mesos architecture
+- Maraton framework
+- Chronos framework
+- Integration with Docker
+
+During the rest of the workshop attendees will use Terraform to setup their own full continuous delivery pipeline with git, Jenkins, Docker, Docker Registry, Marathon and Mesos.
+
+**Speaker:**
+
+Pini has 15+ years of experience in delivering software in Israel and Netherlands.
+
+Starting as a developer and moving through technical, managerial and consulting positions in Configuration Management and Operations areas, Pini acquired deep understanding of the software delivery processes and currently helping organisations around Europe with improving software delivery pipeline by introducing Docker and other cutting edge technologies.

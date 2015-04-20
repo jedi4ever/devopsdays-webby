@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Pini Reznik
+title: "Using Docker/Software Containers for automated testing"
+---
+
+**Abstract:**
+
+What is Docker and containers in general? Why they are so popular? How they differ from Virtual Machine?
+
+I’ll try to answer these and other related questions during my talk.
+
+But the main focus of the talk will be on software testing and the improvements Docker can bring in this area.
+
+To give you an idea I’ll ask you few questions about software testing:
+
+-	How to set up consistent testing environments?
+-	How we can deploy the software quickly and consistently?
+-	How we execute tests in parallel?
+-	What are the easiest ways to reproduce found issues?
+-	How do we test infrastructure including large-scale deployments, elastic scaling and other advanced capabilities?
+-	How do we test microservices?
+
+At the the talk I'll try to give some answers about the way Docker can help you addressing these challenges.
+
+**Speaker:**
+
+Pini has 15+ years of experience in delivering software in Israel and Netherlands.
+
+Starting as a developer and moving through technical, managerial and consulting positions in Configuration Management and Operations areas, Pini acquired deep understanding of the software delivery processes and currently helping organisations around Europe with improving software delivery pipeline by introducing Docker and other cutting edge technologies.

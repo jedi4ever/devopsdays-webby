@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Niels Loader
+title: "DevOps is not what it seems"
+---
+
+**Abstract:**
+
+"There are many definitions of DevOps. Depending on who you ask, you will get a different view of what DevOps is about - tooling, an extension of Agile, continuous delivery, multifunctional teams, culture change, cost reduction. In Europe, DevOps is seen as a work method rather than a strategic choice.
+
+In this talk, I will present a different view on DevOps, based on its goals and intentions rather than its technical characteritics. The aim of this view is to create common ground between the technical and managerial responsibiities within an IT organization, and ensure that both areas can reap the benefits of DevOps "
+
+**Speaker:**
+
+Niels has been involved with improving the performance of IT organizations for the past 13 years. He developed an IT Performance Improvement method that has provided many IT organizations with substantial improvements. He subsequently was involved with the development of Lean IT.
+
+He was Chief Examiner Lean IT for APMG and is currently Content Lead for the Lean IT Association. More recently, he has been using the principles of DevOps to help IT organizations take the next steps in their ability to meet the requirements of their customers.
