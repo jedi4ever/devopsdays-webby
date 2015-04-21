@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Ernesto Antonio Torreblanca Lopez
-title: "Develop Operation, Operate Development: A journey towards service delivery at large scale"
+title: "The future of testing how testers improves their activities with DevOps"
 ---
 
 **Abstract:**
