@@ -21,6 +21,15 @@ end
 <br />
 <br />
 
+<h1>Venue/Party sponsor</h1>
+<% @vsponsors = [
+{ :image => 'hp.png', :name => 'HP', :link => 'http://www.hpsoftware.com/' },
+  ]%>
+<%= make_sponsor_links(@vsponsors) %>
+
+<br />
+<br />
+
 <h1>Gold sponsors</h1>
 <% @gsponsors = [
 { :image => 'sonatype.png', :name => 'Sonatype', :link => 'http://sonatype.com/' },
@@ -28,6 +37,7 @@ end
 { :image => 'vmfarms.png', :name => 'VM Farms', :link => 'http://vmfarms.com/' },
 { :image => 'shopify.png', :name => 'Shopify', :link => 'http://www.shopify.ca/' },
 { :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com/home' },
+{ :image => 'blendedperspectives.png', :name => 'Blended Perspectives', :link => 'http://www.blendedperspectives.com' },
   ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -40,15 +50,6 @@ end
 { :image => 'scalar.png', :name => 'Scalar', :link => 'http://www.scalar.ca' },
   ]%>
 <%= make_sponsor_links(@ssponsors) %>
-
-<br />
-<br />
-
-<h1>Contributors</h1>
-<% @csponsors = [
-{ :image => 'blendedperspectives.png', :name => 'Blended Perspectives', :link => 'http://www.blendedperspectives.com' },
-  ]%>
-<%= make_sponsor_links(@csponsors) %>
 
 <br />
 <br />
