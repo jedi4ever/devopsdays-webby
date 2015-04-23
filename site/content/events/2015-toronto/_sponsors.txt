@@ -23,7 +23,7 @@ end
 
 <h1>Venue/Party sponsor</h1>
 <% @vsponsors = [
-{ :image => 'hp.png', :name => 'HP', :link => 'http://www.hpsoftware.com/' },
+{ :image => 'hp.png', :name => 'HP', :link => 'http://www8.hp.com/us/en/software-solutions/devops-solutions/index.html' },
   ]%>
 <%= make_sponsor_links(@vsponsors) %>
 
