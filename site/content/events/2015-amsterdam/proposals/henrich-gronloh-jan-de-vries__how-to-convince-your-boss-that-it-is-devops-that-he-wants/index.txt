@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+workshop: true
+selected: false
+layout: event
+author: Henrich Grönloh and Jan de Vries
+title: "How to convince your boss that it is DevOps that he wants"
+---
+
+**Abstract:**
+
+We all know that we could implement DevOps a lot faster if we only would have commitment from our boss.
+We all know that there is a shiny business case for almost every DevOps implementation
+
+And we all know that the whole company will reap the benefits regarding speed, agility and stability once we implemented DevOps.
+Actually, it provides good, fast and cheap at the same time.
+So, what are we waiting for? What is your boss waiting for? What is C-level waiting for?
+
+That’s something we will do research on in this workshop.
+We will also share our research on this from the recent past.
+The technique that we use is called Appreciative Inquiry. To tackle a problem, it discovers the best practices that work, the reason they work and how these combined practices can be used to avoid the problem ahead and create a strategic change. The aim is to build – or even rebuild – organizations around what works, rather than trying to fix what doesn’t. 
+
+So we want to know what your boss is afraid of and what you have already tried to convince him that he is better of with DevOps.
+You will leave the workshop with the combined Appreciative Inquiry insights of all the attendees.
+
+**Speaker:**
+
+Henrich Grönloh and Jan de Vries have been deploying DevOps at insurance company a.s.r. in the past 18 months and are drawing their roadmap for the coming years.
+
+Henrich is an Agile Coach/Lean Expert at a.s.r. He is a trusted advisor, trainer and coach on Agile and Lean topics for management and employees. He is also active in the Enterprise DevOps community in the working group DevOps Culture.
+
+Jan de Vries is a senior business IT Consultant at a.s.r. and a trusted advisor in the fields of requirements engineering, business information management, application management and DevOps.
+He is BiSL, ASL and ITIL trainer and convenor of the Enterprise DevOps working group that unites members of the ASL BiSL Foundation, the Agile Consortium and ITSMF.
