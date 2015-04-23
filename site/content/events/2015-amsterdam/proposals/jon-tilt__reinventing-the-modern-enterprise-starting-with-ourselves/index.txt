@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jon Tilt
+title: "Reinventing the modern Enterprise, starting with ourselves!"
+---
+
+**Abstract:**
+
+DevOps in the Enterprise
+“How do we deliver the right outcome at the speed the market demands?” This is the question at the center of our DevOps journey. Most of the strategies and tactics that have been successful are well-known: learn and respond quickly from tight feedback loops with real customers, have self-organized and motivated teams share ownership of all aspects of their outcomes, and use high-value engineering practices that produce operationally excellent software that’s able to build and deploy and perhaps even repair itself.
+If you are starting up a new group, adopting these approaches as you learn to work together towards your new outcome is only a normal amount of challenging. But what if you have a going concern, an existing enterprise, that didn’t grow up working that way? And what if those teams already have products in the field and work in their backlogs? How do you shift left and successfully transform culture, practice and attitudes?
+IBM’s Cloud unit’s DevOps Transformation Team goes well beyond advocacy and evangelism, embedding educators, coaches and practitioners with teams prepared to improve. The program starts with selecting teams that are willing and committed to the transformation and kicks off with a 3 day boot camp for executives and managers to set expectations and assure alignment. This is followed by a series of developer boot camps where teams learn to use IBM Design Thinking to drive the right outcomes as well as various modern practices to improve speed of delivery and operational excellence while adopting a start-up culture to the way they work. Another service of the DevOps Transformation Team is providing a fully functional tool chain that teams learn to operate and can adapt to their situation. Practitioners and coaches remain embedded with the teams to help assure their success.
+This session will share details and early results of this program."
+
+**Speaker:**
+
+Jon is an Agile coach for IBM's Cloud unit. He has a background in software testing and is passionate about the 'How' of software delivery. 
+
+For the past 10 years he has been a leader in the agile transformation of IBM's Software group and more recently evangelizing the values and practices of DevOps.
+
+In his spare time Jon is an athletics coach, leading a large group of endurance athletes. 
