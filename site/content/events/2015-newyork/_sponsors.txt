@@ -33,6 +33,8 @@ filter:    erb
 { :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
 { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com/"},
 { :image => "rancher.png", :name => "Rancher", :link => "http://www.rancher.com/"},
+{ :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/devops"},
+{ :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
 ]%>
 
 <br><br>
