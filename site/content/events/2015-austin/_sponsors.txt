@@ -79,6 +79,7 @@ filter:    erb
 <% end %>
 
 <% @msponsors = [
+ { :image => "devopsdotcom.png", :name => "DevOps.com", :link => "https://devops.com/"},
 ]%>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>
