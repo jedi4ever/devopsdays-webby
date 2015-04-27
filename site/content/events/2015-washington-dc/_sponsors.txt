@@ -29,7 +29,8 @@ filter:    erb
 { :image => "infozen.png",  :name => "InfoZen",  :link => "http://www.infozen.com"},
 { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com"},
 { :image => "comcast.png",  :name => "Comcast",  :link => "http://www.comcast.com"},
-{ :image => "circonus.png", :name => "Circonus", :link => "http://circonus.com"}
+{ :image => "circonus.png", :name => "Circonus", :link => "http://circonus.com"},
+{ :image => "opusgroupllc.png", :name => "Opus Group, LLC", :link => "http://www.opusgroupllc.com"},
 ]%>
 <h1>Gold Sponsors</h1>
 <% @ausponsors.each do |sponsor| %>
