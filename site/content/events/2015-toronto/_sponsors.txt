@@ -15,6 +15,7 @@ end
 { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
 { :image => "microsoft.png", :name => "Visual Studio", :link => "https://www.visualstudio.com/"},
 { :image => 'puppetlabs.png', :name => 'PuppetLabs', :link => 'https://puppetlabs.com'},
+{ :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/devops"},
   ]%>
 <%= make_sponsor_links(@psponsors) %>
 
