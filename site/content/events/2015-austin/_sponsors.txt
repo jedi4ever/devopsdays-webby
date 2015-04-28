@@ -20,6 +20,7 @@ filter:    erb
  { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/ibm/devops/us/en/"},
  { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
  { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
+ { :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
 ]
 %>
 
@@ -66,6 +67,7 @@ filter:    erb
  { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
  { :image => "victorops.png", :name => "VictorOps", :link => "https://victorops.com/"},
  { :image => "10thmagnitude.png", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
+ { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
