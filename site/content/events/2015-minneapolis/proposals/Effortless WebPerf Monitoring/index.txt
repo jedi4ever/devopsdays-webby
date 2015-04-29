@@ -7,23 +7,21 @@ dirty: true
 proposal: true
 talk: false
 ignite: true
-selected: false
-author: Speaker 32
+selected: true
+author: Michael Lanyon
 title: "Effortless WebPerf Monitoring"
 ---
 
 **Abstract:**
 
-Monitoring isn't just for ops people and application developers. Front-end developers need just as much visibility into their work as anyone else.      
+Monitoring isn't just for ops people and application developers. Front-end developers need just as much visibility into their work as anyone else.
 
-When thinking about the things we monitor with our configuration-managed monitoring pipelines, we rarely include the front-end development team or consider their needs from the outset. As the statistics that browser APIs can collect have become more robust, it is becoming easier to standardize the collection of WebPerf stats.                                                
-                                                                                
-Inspired by the <a href="https://github.com/alphagov/event-store">UK GDS team's event-store project</a>, the team at Critical Mass created a Go program that can collects Navigation Timing API data, Javascript Error Reports, and CSP Reports. The application became the focus of one of our monitoring recipes, and has since become standard on any node serving web pages to end-users. Our front-end developers have developed drop-in javascript functions to interact with this service and thus made WebPerf monitoring relatively turnkey. 
-                                                                                
-                                                                                
-                                                                                
-In this ignite, I'd like to talk about the conversations and brainstorming that lead to this initiative, about some of the mechanics of collecting the data, and how it has changed the way front-end developers relate to the production applications and monitoring dashboards used by the team. I plan to focus on the cultural aspects of the experience, but will also be able to share the architecture and code.             
+When thinking about the things we monitor with our configuration-managed monitoring pipelines, we rarely include the front-end development team or consider their needs from the outset. As the statistics that browser APIs can collect have become more robust, it is becoming easier to standardize the collection of WebPerf stats.
+
+Inspired by the <a href="https://github.com/alphagov/event-store">UK GDS team's event-store project</a>, the team at Critical Mass created a Go program that can collects Navigation Timing API data, Javascript Error Reports, and CSP Reports. The application became the focus of one of our monitoring recipes, and has since become standard on any node serving web pages to end-users. Our front-end developers have developed drop-in javascript functions to interact with this service and thus made WebPerf monitoring relatively turnkey.
+
+In this ignite, I'd like to talk about the conversations and brainstorming that lead to this initiative, about some of the mechanics of collecting the data, and how it has changed the way front-end developers relate to the production applications and monitoring dashboards used by the team. I plan to focus on the cultural aspects of the experience, but will also be able to share the architecture and code.
 
 **Speaker:**
-Speaker 32
+Michael Lanyon
 

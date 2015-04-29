@@ -7,17 +7,16 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
-author: Speaker 24
+selected: true
+author: Luke Francl
 title: "Helping Developers Monitor Their Own Application"
 ---
 
 **Abstract:**
 
-I'm a developer. I barely know what Nagios is, let alone how to set it up or configure new alerts. But I do know a lot about the application I'm working on, and I know how to code. By building a framework for easily adding new monitoring rules, the operations team at [my company] has opened up application-level monitoring for the whole development team. I'll talk about the tools we wrote and explain how they allow developers to easily add new monitoring checks that probe our application (including web services, queues, and database) and alert the team by email, chat, or phone.
+I'm a developer. I barely know what Nagios is, let alone how to set it up or configure new alerts. But I do know a lot about the application I'm working on, and I know how to code. By building a framework for easily adding new monitoring rules, the operations team at Swiftype has opened up application-level monitoring for the whole development team. I'll talk about the tools we wrote and explain how they allow developers to easily add new monitoring checks that probe our application (including web services, queues, and database) and alert the team by email, chat, or phone.
 
-I'll show how to use the monitoring framework we wrote, but I'll also use this collaboration as a jumping off point to discuss how I think developers and operations can work together to build software faster and keep it reliable, based on our experiences at [my company]. 
+I'll show how to use the monitoring framework we wrote, but I'll also use this collaboration as a jumping off point to discuss how I think developers and operations can work together to build software faster and keep it reliable, based on our experiences at Swiftype.
 
 **Speaker:**
-Speaker 24
-
+Luke Francl
