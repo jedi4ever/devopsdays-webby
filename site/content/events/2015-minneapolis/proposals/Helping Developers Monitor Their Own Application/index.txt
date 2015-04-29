@@ -7,7 +7,7 @@ dirty: true
 proposal: true
 talk: true
 ignite: false
-selected: false
+selected: true
 author: Luke Francl
 title: "Helping Developers Monitor Their Own Application"
 ---
