@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Katherine Daniels
+title: "DevOps: The Missing Pieces"
+---
+
+**Opening Keynote:**
+
+Devops has come a long way in the 5+ years since its inception. From simply breaking down silos and automating/measuring all the things, we’ve grown and started talking recently about complexity and inclusivity, burnout and empathy. We started trying to make people's professional lives better in the fields of development and operations; this expanded in two dimensions: both including more teams (QA! Databases! Even security!) and outside of the office, encouraging people to think about burnout and work-life balance.
+
+What’s missing from this picture? Or rather, what’s next for devops? I’d like to propose that, as the lines between the “online” world and the “real” world blur and fade away to nothing, we expand our view of devops to cover this whole new world. Let’s expand our empathy beyond just the tech industry, following the examples of B Corporations who work towards social and environmental good. And let’s talk about how we can make the world better, more empathetic, and safer for everyone, online and off.
+
+**Speaker:**
+Katherine Daniels
