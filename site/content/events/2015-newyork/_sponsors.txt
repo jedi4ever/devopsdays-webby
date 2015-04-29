@@ -35,6 +35,7 @@ filter:    erb
 { :image => "rancher.png", :name => "Rancher", :link => "http://www.rancher.com/"},
 { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/devops"},
 { :image => "conjur.png", :name => "Conjur", :link => "http://www.conjur.net/"},
+{ :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
 ]%>
 
 <br><br>
