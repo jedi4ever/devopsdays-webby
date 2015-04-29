@@ -24,9 +24,9 @@ end
 <% @gsponsors = [
 { :image => '10thmagnitude.png', :name => '10th Magnitude', :link => 'http://www.10thmagnitude.com'},
 { :image => 'newrelic.png', :name => 'New Relic', :link => 'https://newrelic.com'},
-{ :image => 'elastic.png', :name => 'Elastic', :link => 'https://www.elastic.co/' }
-# { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://servercentral.com/'},
-# { :image => 'drw.png', :name => 'DRW Trading', :link => 'http://drw.com/'}
+{ :image => 'elastic.png', :name => 'Elastic', :link => 'https://www.elastic.co/' },
+{ :image => 'drw.png', :name => 'DRW Trading', :link => 'http://drw.com/'}
+# { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://servercentral.com/'}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -38,6 +38,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => 'victorops.png', :name => 'VictorOps', :link => 'https://victorops.com/'}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
