@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jeffrey Fredrick
+title: "Frustrated? It's probably your fault"
+---
+
+**Abstract:**
+
+Are you frustrated at work, unable to get everyone to see the obvious? Are you blocked by political machinations, incompetence, sloth, or the embodiment of other human failings? I’ve here to give you the good news: it is probably your fault, which means you can do something about it.
+
+Like most people you probably suffer from Skilled Incompetence. Skilled, because you produce actions effortlessly and unconsciously; Incompetence because your actions generate outcomes other than what you want. Without being aware of it the strategies you enact generate the very mistrust and resistance that is the source of your frustration.
+
+In this talk I will introduce the work of Chris Argyris, his models for understanding our action strategies, and tools that can help you understand your own behavior better, build trust with others, and to create better outcomes by seeking learning rather than winning.
+
+Ultimately this talk will attempt to convince you to take up the challenge of changing your own behavior. Despite what you may espouse about wanting a learning culture your frustration is a signal that what you want is for other people to learn. Saying you are open to change is different than acting that way. I hope by the end of the talk you want to know the truth about yourself enough to put these tools into practice.
+
+**Speaker:**
+
+Jeffrey Fredrick is an internationally recognized expert on Continuous Integration with a mission to reduce suffering in software development through acquiring excellence. He is currently CTO and Head of Product at TIM Group in London. He is also the organizer of CITCON, an international open space software conference, and the organizer of the London Action Science meetup, which focuses teaching individuals to create change in their organization by changing their mindset and communication.

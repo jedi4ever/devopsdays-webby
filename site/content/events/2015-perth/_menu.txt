@@ -1,0 +1,15 @@
+---
+filter:    erb
+---
+<div class="submenu">
+<h3>
+<a href="/<%= @eventhome %>/">welcome</a>&nbsp;
+<a href="/<%= @eventhome %>/propose">propose</a>&nbsp;
+<a href="/<%= @eventhome %>/program">program</a>&nbsp;
+<a href="/<%= @eventhome %>/location">location</a>&nbsp;
+<a href="/<%= @eventhome %>/registration">register</a>&nbsp;
+<a href="/<%= @eventhome %>/sponsor">sponsor</a>&nbsp;
+<a href="/<%= @eventhome %>/contact">contact</a>&nbsp;
+<a href="/<%= @eventhome %>/conduct">conduct</a>&nbsp;
+</h3>
+</div>

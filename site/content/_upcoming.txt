@@ -44,6 +44,10 @@
       Chicago
     </a>
     -
+    <a href="/events/2015-perth">
+      Perth
+    </a>
+    -
     <a href="/events/2015-siliconvalley">
       Silicon Valley
     </a>

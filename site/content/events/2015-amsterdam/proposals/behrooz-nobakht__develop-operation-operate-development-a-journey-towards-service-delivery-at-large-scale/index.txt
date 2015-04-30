@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Behrooz Nobakht
+title: "Develop Operation, Operate Development: A journey towards service delivery at large scale"
+---
+
+**Abstract:**
+
+SDL Fredhopper has experienced a 10x-magnitude of growth in the past few years. Currently, SDL Fredhopper e-commerce services are delivered to around 400 customers through close to 3000 servers on our cloud environments. Operating such an environment is not an easy task as well as developing for it. To overcome the task, we started to realize we need to bring development and operations together. In this talk, we present how this unique journey started, discuss our challenges throughout the journey, how the accomplishments became possible, and how this journey continues. 
+
+The talk presents the following outline:
+
+- The Challenges: The journey began for us with pinpointing essential and fundamental objectives. What is a server definition from an operations and development perspective? What operations do we expect from a server? What operations the software itself should take away? What is our unit of deployment and development? 
+- The Solution: We took in every challenge from operations perspective and turned it into a development responsibility. We explain how the challenges we identified explicitly present  themselves into the architecture of the products we develop. We present how we lifted the abstraction of a server from “resource” level to API level. We discuss how the unit of deployment from a physical server is turned into a unit of API for a server. In addition, we discuss how such deployment API facilitates operation of a cluster of servers in a natural way. 
+- Diversity: We present how our approach is different from other common approaches. When we started our journey, we did not have a complete world view. On the way, we found out related work targeting the same objectives. We present how we differ from very well-known similar approaches, re-assuring of the approaches that we took.
+- Gains and Conclusions: We present how our journey has helped us to craft a unified development, deployment, and operation architecture to enable our service delivery. We present how such approach gives us benefits and removes the concerns and challenges that we started with.
+
+**Speaker:**
+
+Behrooz joined SDL Fredhopper in 2011 as a software engineer and he is now leading the cloud services platform team. He comes from more than a decade of software engineering practice with recent focus on distributed systems, fault-tolerant and highly-available services. 
+
+His typical week involves catching up with operations team, identifying the gaps and bridges for the platform team, hacking on prototype ideas for operations, and of course weekly work in the team. In the practice of DevOps, as a developer, he has experience in sleepless nights, false negative SMS alerts and as such which he thinks is an insightful experience for every software engineer.

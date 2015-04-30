@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jarl Meijer
+title: "SAFER!"
+---
+
+**Abstract:**
+
+Agile teams have become mainstream. Many managers consider setting the next step and scaling Agile in their organization. Scrum and Kanban are considered to be for team level Agile. Frameworks like the popular Scaled Agile Framework (SAFe), the Spotify model and –recently- Large Scale Scrum (LESS) provide solutions for implementing Agile at Scale. SAFe and LESS both are based on Scrum and try to apply Scrum and its values to a team of teams. Obviously the founders of Scrum, Jeff Sutherland and Ken Schwaber, are also basing their scaling models on Scrum.
+
+The Spotify-model is the exception, because it let Scrum go. Nevertheless all these models share a common foundation and partly even a common solution, when looking from a process point of view. These similarities makes that you can use them all as a source of inspiration for your scaling challenges. However, these models differ in their approach towards change and on their interpretation of Agility. And these differences makes that one model will suit your organization better than another. This talk will give you a brief introduction into these 3 models, their common grounds and their main differences. You will learn what model will be the most appropriate one for you to start studying, and you will learn an important lesson. It is all about Scaling Agile For Enterprises Right.
+
+**Speaker:**
+
+Jarl Meijer is an experienced Agile coach-trainer-consultant. Educated in Business Computer Science and Psychology, he started his career as an entrepreneur, developing medical diagnostic tools. From the mid '90-ties he is an IT-consultant who made his mark in quality- and project/program-management. 
+
+In 2008 he moved to Xebia, the leading Agile consultancy company in the Netherlands. In his assignments he helpes organizations to transform in an Agile organization to realize their goals as improved time to market, increased customer- and employee satisfaction, cost reductions, and meeting regulatory deadlines. Jarl is an enthusiastic and knowledgeable trainer on several Agile topics. He trains yearly from practitioners to management, from team practices to Agile at Scale solutions, from foundation to advanced level. 
