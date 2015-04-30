@@ -19,6 +19,7 @@ filter:    erb
 <% end %>
 
 <% @agsponsors = [
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
 ]%>
 <% unless @agsponsors.empty?  %><h1>Silver Sponsors</h1><% end %>
 <% @agsponsors.each do |sponsor| %>
