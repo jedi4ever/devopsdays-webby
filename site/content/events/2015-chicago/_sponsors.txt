@@ -11,7 +11,7 @@ end
 %>
 
 <% @psponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => 'chef.png', :name => 'CHEF', :link => 'https://www.chef.io'}
 ]%>
 <%= make_sponsor_links(@psponsors) %>
 <br />
