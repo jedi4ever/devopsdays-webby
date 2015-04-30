@@ -6,9 +6,7 @@ filter:    erb
 <a href="/<%= @eventhome %>/">Welcome</a>&nbsp;
 <a href="https://devopsdaysdc2015.busyconf.com/bookings/new">Register</a>&nbsp;
 <a href="https://devopsdaysdc2015.busyconf.com/proposals/new">Propose</a>&nbsp;
-<!--
-<a href="/<%= @eventhome %>/program">Program</a>&nbsp;
--->
+<a href="http://devopsdaysdc2015.busyconf.com/schedule">Program</a>&nbsp;
 <a href="/<%= @eventhome %>/location">Location</a>&nbsp;
 <a href="/<%= @eventhome %>/sponsor">Sponsor</a>&nbsp;
 <a href="/<%= @eventhome %>/contact">Contact</a>&nbsp;
