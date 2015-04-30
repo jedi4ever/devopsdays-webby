@@ -16,7 +16,8 @@ end
 { :image => "chef.jpg", :name => "Chef Software", :link => "https://www.chef.io/"},
 { :image => "target.jpg", :name => "Target", :link => "http://www.target.com/"},
 { :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"},
-{ :image => "newrelic.png", :name => "New Relic", :link => "https://newrelic.com/"}
+{ :image => "newrelic.png", :name => "New Relic", :link => "https://newrelic.com/"},
+{ :image => "hp.png", :name => "HP Software", :link => "http://www.hpsoftware.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -27,7 +28,8 @@ end
 <% @slsponsors = [
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com" },
 { :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
-{ :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"}
+{ :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
+{ :image => "dell.jpg", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com//"}
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
@@ -44,5 +46,6 @@ end
 <% @msponsors = [
 { :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
 { :image => "velocity.png", :name => "Velocity Conf", :link => "http://www.velocityconf.com/"},
+{ :image => "ado.png", :name => "Arrested DevOps", :link => "http://www.arresteddevops.com/"},
 ]%>
 <%= make_sponsor_links(@msponsors) %>
