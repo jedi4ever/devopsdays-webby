@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Julianna Göbölös-Szabó
+title: "Data Quality achieved by culture"
+---
+
+**Abstract:**
+
+To be a data driven company, you can't be satisfied with measuring every tiny aspect and detail of your business or service, you have to be sure that the raw data is accurate. Assuring the quality or ever growing unstructured clickstream data is very hard though, espacially if the accountable team is your dedicated data team but the logs are written and produced by all other product teams.  
+
+We faced this problem recently and this is the way we tackled it: First, forget unstructured data, you can get sustainable quality only with structured logs. Then convince your fellow developers in the product teams about the importance of this project. Make the migration as smooth as possible by leveraging from the nature of structured data: provide tools that build upon the schema of the JSON logs, make monitoring and alerting automatic, so facilitating to sustain the quality of logs. 
+
+All in all, we focused on communication between teams, selling rather than telling, creating the demand on better quality data. Eventually all data team, product teams and the company won.
+
+**Speaker:**
+
+Julianna works in Prezi's data infrastructure team. She's responsible for both the availability of Prezi's big data platforms (hadoop, data warehouse) and the tooling on top of them (eg. automated ETL framework) and any other projects related to data and logs, like providing automated monitoring for logs.
+
+In her spare time Julianna likes going out running or doing any other kind of sport. Besides she's involved in feminist movements, her main focus is attracting more women and girls to tech fields.
