@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Pavel Chunyayev
+title: "Why immutable infrastructure?"
+---
+
+**Abstract:**
+
+I'd like to present the evolution of infrastructure up to the modern day: from big physical snowflake-like servers to the modern immutable and disposable containers.
+
+During this ignite talk I'd like to answer the following questions:
+* Why have we ended up with immutable infrastructure? 
+* What are the challenges for the system administrators when moving towards immutable infrastructure?
+* What are the benefits? 
+* Why can't we just continue reusing the servers/VMs like we've got used to? 
+* How immutable infrastructure influences Continuous Delivery process?
+
+**Speaker:**
+
+Pavel Chunyayev works as a continuous delivery architect at Levi9 IT Services and has more than 10 years of experience in IT Operations. 
+
+He has helped more than a dozen customers to assess and improve their release/deployment processes, and run their applications better in production.
