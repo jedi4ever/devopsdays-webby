@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Thomas Adams
+title: "Bringing DevOps to a Hardware Test Environment"
+---
+
+**Abstract:**
+
+Traditionally, DevOps focuses on the software model, bringing quality builds in rapid succession to end users who can quickly consume them. But what happens when the end user has to schedule an outage just to deploy the latest code? How do you combine the flexibility and speed of agile development with the cumbersome beast that is hardware test? It is possible! 
+
+Through intense collaboration, the right tools and a good mix of automation, we were able to develop a DevOps pipeline that was not only able to consume new builds as fast as development could churn them out, but also do a baseline level of testing to ensure those builds were release candidates to the wider test floor. Hear how we tamed the beast and developed a process and infrastructure that is now being deployed to multiple other areas in the organization!
+
+**Speaker:**
+
+Thomas Adams is a Test Release Manager for High End Power Systems at IBM. With a background in programming and automation, he was asked to tackle bringing DevOps to life in the hardware test environment.
+
+He has been with IBM for 12 years in various roles within the test organization.

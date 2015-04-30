@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Harm Pauw
+title: "Continuous Delivery, DevOps and the end of DTAP"
+---
+
+**Abstract:**
+
+Having a DTAP (Development, Test, Acceptance and Production) environment is a very common setup that a lot of companies use in their software development process. While this setup maps perfectly to waterfall development, it doesn't really fit when used in a Continuous Delivery and DevOps environment. A lot of tests run automatically and often cause  concurrency problems since they all run on the same machines. Test data management is becoming difficult since you need to satisfy all tests with one set of test data.
+
+Meanwhile, technologies like Docker, cloud based computing and Infrastructure as Code change the rules of the game. Instead of having a supply-based infrastructure, you can quickly and in a cheap way create a demand-based infrastructure where you provision environments on the fly, which greatly reduces complexity and concurrency problems. 
+
+This session covers the rationale behind DTAP and we'll see how good of a fit DTAP is in a Continuous Delivery and DevOps environment. We'll take a look at proven patterns in software development and apply these using technologies like Docker and cloud based computing in order to reduce complexity go from a supply-driven infrastructure to a demand-driven infrastructure.
+
+**Speaker:**
+
+Harm Pauw is a Technical Agile coach at Prowareness. Using his experience and knowledge as a former passionate software developer, he now helps teams with starting and practicing Continuous Delivery and increasing their craftsmanship.

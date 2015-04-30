@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Wouter Geurts
+title: "DevOps is not enough / DevOps leads to Disruptive Innovation?"
+---
+
+**Abstract:**
+
+DevOps is a condition for business agility. It flourishes in a collaborative and sharing environment. DevOps in Name Only (DINO) is lurking when the organization puts constraints, gates and other ‘pre-DevOps’ constructs. The early adopters feel the benefits and move fast forward. The basic questions are: will the laggards catch up, do they need to?
+Follow this talk if you think ahead of the first DevOps wave, if you focus on the really hard-to-change part, viz. business culture change to help the early and late majority improve. Will DevOps itself help these organisations?
+
+**Speaker:**
+
+Wouter Geurts is Solution Architect with CGI Netherlands. He is active as technical manager in the larger projects or consulting clients on the software delivery, with focus on stakeholders (determining scope and accepting the delivery) or on delivery quality.
