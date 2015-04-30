@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Miel Donkers & Hylke Stapersma
+title: "Continuous Delivery isn't Finished"
+---
+
+**Abstract:**
+
+Continuous Delivery is focussing mostly on deploying services (software) to production, so that they can be used by the customer. But we think that's not where the role of Continuous Delivery ends. Keeping these services running in production is just as important. Therefore making sure that monitoring is in place and the possibility to take evasive measures belongs to the process of continuous delivery.
+We would like to discuss what we think is necessary to take the next steps, and show some examples on how this can be arranged.
+
+**Speaker:**
+
+Miel Donkers:
+Miel Donkers is a software craftsman at codecentric Netherlands. He's an experienced web- and Java developer, who's also interested in ways for bringing software into production as fast and as reliable as possible. This not only includes the deployment process, but also monitoring, problem mitigation and simply building 'the right thing'.
+
+Hylke Stapersma:
+Hylke is a software craftsman who is working as a consultant for codecentric and he is a contributor and maintainer of a small number of open-source projects. He is passionate about sharing ideas and knowledge on everything related to software development and delivery."

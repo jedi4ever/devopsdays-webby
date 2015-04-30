@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Francisco Medrano
+title: "Create chaos and gain confidence! - Thinking outside of the box"
+---
+
+**Abstract:**
+
+"A small number of modules usually contains most of the defects"
+
+This is one of the seven principles of testing and has been proven by many past projects in the test reports. When we talk about Testing, two topics comes up, Black Box and White Box. These techniques are good to make sure the system meets their requirements. But what if you think different and outside of the Box by doing things are not in the requirements. ;) like type a large string in a small text box field, upload a corrupt file to the data base, try to access a privileged function with a normal user access or even send the same command to a server several times in a row? output definitively it will be different.
+
+Error Injection is important to evaluating the dependability of computer systems, both Hardware and Software. This is a technique to improve coverage of a test in particular to error handling, recovering, tolerance and auto-reparing of a system. It's often used in stress and load test. Errors can be injected in Software, Hardware and Service procedures environments. There's not a magic recipe for doing a full test coverage. But definitively a correct risk analysis and error injection approach will give you more confidence about the quality of the system.
+
+**Speaker:**
+
+Born tester and evaluator of new Technology, Francisco Medrano is a passionate for state of the Art Technology and Aviation enthusiastic. He was graduated from University of Guadalajara in Mexico in Electrical Engineering on 2008. With more than 9 year of experience in Software and Hardware Testing Francisco has been involved in complex and challenging  projects of Storage, Aviation and Manufacturing Industry.
+
+Currently he is charge of Develop Test strategy for emerging Technologies tools. Helping Sales force to achieve their goals and objectives. Collaborate and work with Global Test teams around the globe, making sure the new Tools meet the QA metrics and accomplish the requirements.

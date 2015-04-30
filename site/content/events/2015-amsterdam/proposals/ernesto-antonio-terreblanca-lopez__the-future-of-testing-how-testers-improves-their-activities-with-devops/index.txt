@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Ernesto Antonio Torreblanca Lopez
+title: "The future of testing how testers improves their activities with DevOps"
+---
+
+**Abstract:**
+
+Test early, test continuously and deliver quality, this is the main idea of Testing in DevOps. 
+In the actual market, IT companies have to rapidly turn business ideas into high-quality software solutions. Here is where DevOps appears to help during all the project phases to accomplish this. For Testers, the approach that DevOps suggest is Continuous Testing. Continuous Testing helps DevOps teams balance quality and speed, It uses automation, the cloud and service virtualization to eliminate testing bottlenecks and simplifies the creation of test environments that can be more easily deployed, shared and updated as systems change.
+
+**Speaker:**
+
+Ernesto Torreblanca is an IT Specialist in IBM México. Ernesto has been involved in different activities for the Software Development Process, specifically in Test phases, having roles as Test Specialist, Test Leader, and more recently as Mobile Test Leader for Global Delivery Center Mexico.
+
+He holds the Mobile Test Lead role on the Mobile Center of Competence of IBM Mexico and currently he is currently supporting new business deals with clients related to the Mobile Testing field.
