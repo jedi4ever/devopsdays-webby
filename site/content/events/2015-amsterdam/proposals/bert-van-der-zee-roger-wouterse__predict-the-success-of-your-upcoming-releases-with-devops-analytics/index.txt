@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Bert van der Zee and Roger Wouterse
+title: "Predict the success of your upcoming releases with DevOps Analytics"
+---
+
+**Abstract:**
+
+DevOps Analytics is a new method of analytics based on Big Data technology and Machine Learning. DevOps Analytics predicts trends and  the success of the upcoming releases before the coding of the release even starts. This gives a new insight in the validated learning idea of LEAN and new testing ideas for DevOps.
+
+One of the key elements of DevOps is continuous testing. To optimize testing, automation is essential. However, you do not know how successful the system actually is, unless it’s based on experiences of users. The latter is needed to power the learning cycle in DevOps. 
+Tangible data tells us about, performance, production, number of errors etc . Non tangible data is about  experience, feelings, surveys and all non-structured information like tweets, logfiles etc. DevOps Analytics gives us the possibility to find trends and relationships in the tangible and non tanglible data
+Our talk is about the possibilities and the implementation of DevOps Analytics to analyze data (BigData) to extract the users actual experiences on the functional and non-functional level. By using machine learning, the algorithms improve themselves every release. This results in a quick feedback loop to the DevOps team, making sure that every release is an improvement.
+
+**Speaker:**
+
+Bert van der Zee is an independent teacher and consultant specialized in Data Analytics, Agile,  Lean, and Quality management. He writes articles about  Innovation, Data Analytics and Agile and published a book about the innovation method Qute in 2013. He speaks to groups about innovation and the world of Big Data. 
+
+Roger Wouterse is Managing Consultant for SYSQA specialized in Agile, requirements and QA. He also trains and coaches on these subjects and is part-time Agile trainer for the Nyenrode Business University.
