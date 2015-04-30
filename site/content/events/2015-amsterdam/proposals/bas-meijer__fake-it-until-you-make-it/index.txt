@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Bas Meijer
+title: "Fake IT until you make IT"
+---
+
+**Abstract:**
+
+Before launching your new app you would better be in control of your environments: develop & test in a production-like environment and automate the whole enchilada using Ansible & Vagrant.
+
+Bassie will show how to set up a disposable development environment that mimics your production servers in a re-usable way with minimal maintenance.
+
+**Speaker:**
+
+Bassie is a software developer & system engineer with decades wasted on late-night hacking. While born before the epoch he has a keen eye for new technologies. At the moment he is engaged with a major Dutch bank and an established European identity & access management cloud service.
