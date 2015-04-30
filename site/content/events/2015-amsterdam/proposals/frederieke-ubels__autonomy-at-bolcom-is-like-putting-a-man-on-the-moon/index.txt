@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Frederieke Ubels
+title: "Autonomy at bol.com is like putting a Man on the Moon: a small step for a team, a giant leap for the company"
+---
+
+**Abstract:**
+
+Bol.com opened its doors on 30 March, 1999. Almost 16 years later bol.com is the largest (web)shop in the Netherlands and Belgium and market leader in the field of online sales of books, entertainment, electronic devices and toys, with over 5 million active customers and 900 employees.
+Over the years bol.com has grown fast and steadily and the in-house IT department has been a powerful driver of innovation. To support our business with a short time to market and parallel progress in all key business areas, we started working agile in 2009. And to take all things necessary for growing further in our own hands, last year we build our own datacenter and insourced all web operations capabilities. 
+But when you’re growing you have to deal with growing pains: too many teams working in the same code, too many dependencies between development and operations, releases getting bigger and buggier, and the risk of frustrations getting out of hand. And with our ambition to grow more than 200 people every year, that’s not risk but a certainty.
+So last summer we started “Man on the Moon”, our program to ensure scalability, productivity and motivation. Our goal is to help our teams to become independent & autonomous while delivering a continuous flow of new functionality. Putting a Man on the Moon is not just a program: it requires boldness, creativity, inventiveness and commitment of everyone in the organization. It’s a technical challenge and a cultural one as well. And it requires lift: of teams wanting autonomy, trust and tooling to fly their own mission.  
+In the program we focus on 3 things: 
+-	You build it, you run it, you love it: development teams pulling in operational run responsibility and eliminating dependencies that hold them down, one-by-one
+-	Building a self-service & self-scaling platform to help us grow
+-	A new IT organization that enables autonomy and combines build & run responsibility
+
+At this moment some teams are still on earth while others are preparing their landing on the moon. We redesigned the IT organization, gained scalability and boosted motivation. Releases are getting smaller and the number of incidents is dropping. We’re not there, but as with so many trips: the journey itself is as much fun as reaching the destination, so we have a great story to share about everything we did, messed up, learned and gained on the way. 
+
+**Speaker:**
+
+Frederieke Ubels has been working for bol.com for 10+ years. She started as the manager of the book department, and switched to IT in 2007. Her background in the marketing department has played a key role in aligning the IT organization with the business departments within bol.com. As a Director IT Innovation she is responsible for continuous improvement of the innovation process at bol.com, alignment with business departments and for the transition to a DevOps way of working, to ensure scalability of the IT organization. This helps bol.com grow, stay ahead of the competition and hold its leading role in (e)commerce in the Netherlands and Belgium.
+
+William de Ronde joined bol.com 10 years ago. In the years since, he did a full Tour of Duty in IT: as a developer, project manager, manager technology and head of operations. His experience combined with his gut feel way of working made him the best candidate to lead the migration to bol.com’s newly built datacenter in 2014. Now that that’s completed very successfully, he’s the IT Innovation Manager helping the IT organization to stay on the edge by constantly motivating every engineer, manager and director to get the most out of themselves.
