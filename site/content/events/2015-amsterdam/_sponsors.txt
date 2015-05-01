@@ -75,6 +75,12 @@ end
 		:name => "ING",
 		:link => "http://www.ing.jobs/Nederland/Vakgebieden/Informatie-Technologie.htm"
 	},
+
+  {
+    :image => "gold-bmc.png",
+    :name => "BMC",
+    :link => "http://www.bmcsoftware.nl/"
+  },
 ]%>
 
 <%= make_sponsor_links(@gsponsors) %>
@@ -109,9 +115,25 @@ end
 		:name => "SDL",
 		:link => "http://www.sdl.com/"
 	}
+
+  {
+    :image => "bronze-devoteam.png",
+    :name => "DevoTeam",
+    :link => "http://www.devoteam.nl/"
+  }
 ]%>
 
 <%= make_sponsor_links(@bsponsors) %>
+
+<h1>Media sponsors</h1>
+<% @msponsors = [
+  {
+    :image => "media-oreilly.png",
+    :name => "O'Reilly Media",
+    :link => "http://www.oreilly.com/"
+  }
+  ]%>
+<%= make_sponsor_links(@msponsors) %>
 
 <br />
 <br />
