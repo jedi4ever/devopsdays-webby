@@ -217,6 +217,19 @@ var pittsburghmarker = new MarkerWithLabel({
 
 google.maps.event.addListener(pittsburghmarker, "click", function (e) { location.href="/events/2015-pittsburgh/"});
 
+var berlinlocation = new google.maps.LatLng(52.51, 13.3833);
+var berlinmarker = new MarkerWithLabel({
+    position: berlinlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Berlin<br>Oct 26 & 27",
+    labelAnchor: new google.maps.Point(50, 25),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(berlinmarker, "click", function (e) { location.href="/events/2015-berlin/"});
 }
 </script>
 
