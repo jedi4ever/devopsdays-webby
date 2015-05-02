@@ -114,7 +114,7 @@ end
 		:image => "bronze-sdl.png",
 		:name => "SDL",
 		:link => "http://www.sdl.com/"
-	}
+	},
 
   {
     :image => "bronze-devoteam.png",
