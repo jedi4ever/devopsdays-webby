@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Walter Heck
+title: "Puppet on Windows at scale: KPN"
+---
+
+**Abstract:**
+
+A very large project is being undertaken at KPN this year with most of their  managed hosting clients being moved to puppet. The interesting part is the sheer number and size of environments and the fact that the majority of servers runs windows.
+
+This talk will outline the story so far, lessons we have already learned and what we are doing to make things as smooth as possible.
+
+**Speaker:**
+
+Walter is a passionate puppet expert, certified Puppet Labs trainer and DevOps enthusiast. He has been running PuppetLabs partner OlinData since 2008 and is now involved in one of the largest and most advanced puppet projects in the Netherlands. 
+
+Walter has spoken at many conferences around the world about technical topics on many subjects.

@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Sanny Bradic
+title: "DevOps step in Systems Evolution– breaking Demand – Supply relationship"
+---
+
+**Abstract:**
+
+Technology and business are closing the gap in Continuous Migration – Continuous Adaptation – Continuous Delivery  
+Technology is progressing rapidly, new applications, new services that can change our way of thinking and can be a breakthrough for some companies who are adopting the technologies quickly and other hand rapid declining in growth for the companies who are slow or left behind.
+From the evolution of the IT – business ecosystems we can learn a lot. Remember Novell or Apple and IBM in early days. They discover and some not that agility and more focus to a customer by making innovative services.
+Nowadays we see with DevOps that time is for new relationship between business, IT and customers. 
+The demand – supply relationship is an obstacle to a new ideas, creativity and entrepreneurship. 
+The devops is one step to think about new organization structure that empowers knowledge sharing, collaboration, by using technology and faster execution power through Continuous development and deployment.
+The DevOps is the first step through Continuous System Migration and Adaptation to Empowered organization structure where we all supply for the common purpose. 
+Slides:
+1)	Evolution of the systems
+2)	Careful step by step  system development 
+3)	Large projects and more years IT plans – we can forget about that, vision is all you need
+4)	Demand – Supply – lost in translation 
+5)	Agile not only in development but in structure and business clients relationships
+6)	Technology is in every piece of our business and life why division – collaboration is the way
+7)	Clean up removing technical debt, restructure finance and move up to empowered organization  
+8)	With DevOps first step in BizzIT  no boundary - technology and business together 
+9)	 How Empowered organization looks like?
+10)	Is it just a dream or evolution step?
+
+**Speaker:**
+
+Sanny is Solution Architect with 25 yers experiance in IT and 15 years as Solution Architect. He has been working at ABNAMRO, IBM, ING, KPN and now CGI.
