@@ -97,6 +97,8 @@
       <strong>2015</strong><br/>
       <a href="/events/2015-ljubljana/">Ljubljana 2015</a><br/>
       <a href="/events/2015-paris">Paris 2015</a><br/>
+      <a href="/events/2015-denver/">Denver 2015</a><br/>
+      <a href="/events/2015-newyork/">New York 2015</a><br/>
       </div>
 </div>
 
