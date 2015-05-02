@@ -5,8 +5,6 @@
 <div style="display:table-cell; vertical-align:top">
      <div style="margin:4px;">
       <strong>2015</strong><br/>
-      <a href="/events/2015-denver/">Denver - April 2015</a><br/>
-      <a href="/events/2015-newyork/">New York - April 2015</a><br/>
       <a href="/events/2015-austin">Austin - May 2015</a><br/>
       <a href="/events/2015-toronto/">Toronto - May 2015</a><br/>
       <a href="/events/2015-washington-dc/">Washington, DC - June 2015</a><br/>
