@@ -1,13 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-denver">
-      Denver
-    </a>
-    -
-    <a href="/events/2015-newyork">
-      New York
-    </a>
-    -
     <a href="/events/2015-austin">
       Austin
     </a>
@@ -15,7 +7,7 @@
     <a href="/events/2015-toronto">
       Toronto
     </a>
-    <br>
+    -
     <a href="/events/2015-washington-dc">
       Washington, DC
     </a>
@@ -23,11 +15,11 @@
     <a href="/events/2015-amsterdam">
       Amsterdam
     </a>
-    -
+    <br>
     <a href="/events/2015-minneapolis">
       Minneapolis
     </a>
-    <br>
+    -
     <a href="/events/2015-melbourne">
       Melbourne
     </a>
@@ -35,17 +27,13 @@
     <a href="/events/2015-pittsburgh/">
       Pittsburgh
     </a>
-    -
+    <br>
     <a href="/events/2015-chicago/">
       Chicago
     </a>
     -
     <a href="/events/2015-berlin">
       Berlin
-    </a>
-    -
-    <a href="/events/2015-perth">
-      Perth
     </a>
     -
     <a href="/events/2015-siliconvalley">
