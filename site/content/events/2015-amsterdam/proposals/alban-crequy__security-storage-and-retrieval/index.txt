@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Alban Crequy
+title: "Security: storage and retrieval of Application Container Images"
+---
+
+**Abstract:**
+
+How can you be sure that the containers you execute are really the ones you intend to?
+
+rkt fetches Application Container Images (ACIs) using the appc discovery protocol. It involves HTTPS, cryptographic hashes and GPG signatures. This talk will explain some best practices and the security it provides. Will also be mentioned the differences when rkt fetches and executes a Docker image from the Docker registry thanks to docker2aci.
+
+**Speaker:**
+
+After a more than a decade of developing on Linux, Alban has racked up experience in system and kernel development, focusing on security and networking.
+Originally working on proprietary software for Linux clusters, Alban long since switched to working on Open Source software for embedded devices and has never looked back. He has worked with such technologies as systemd, D-Bus, AppArmor and cgroups, as well as the Linux kernel itself.
+
+More recently, he has added several more areas to his resumé, including networking and cloud-based development. Alban particularly values work that allows him to collaborate with other contributors in a community.
