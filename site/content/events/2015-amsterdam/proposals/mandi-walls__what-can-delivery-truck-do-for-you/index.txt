@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mandi Walls
+title: "What Can Delivery Truck Do For You"
+---
+
+**Abstract:**
+Chef debuted Delivery, a new continuous delivery and deployment pipeline tool, at ChefConf 2015. The full product won't be generally available for a while, but we have open sourced a couple of components that we think might be interesting for teams building pipelines.
+
+This talk will walk through the Delivery Truck cookbook and the Delivery CLI, both available as open source projects from Chef, and how these components can be utilized with other tools, some of our thoughts on bringing CI/CD pipelines to DevOps teams, and the behaviors we've found that lead to pipeline happiness.
+
+**Speaker:**
+
+Mandi Walls heads up Chef's new London-based professional services and customer success functions for EMEA. She joined Chef in late 2011 as a Technical Evangelist and roaming sysadmin for hire. She's written about DevOps for O'Reilly and regularly presents on DevOps, Chef, and related topics.

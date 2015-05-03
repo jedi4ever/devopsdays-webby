@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tim Nolet
+title: "microservices: I don't always test, but when I do I do it in production"
+---
+
+**Abstract:**
+
+Testing (micro)service based architectures is hard. Mocking/stubbing is an option, but the sheer difficulty of replicating datasets, traffic patterns, async response cycles and mocking other infrastructure make concerns multiply quite rapidly and logarithmically.
+
+To combat this, there are release patterns like blue/green deployments, canary releases and A/B-testing to test whether our services are up to scratch and production worthy. Essentially, this means we are testing in production: one of the last taboos in the world! For companies like Netflix, Facebook but also Booking.com this an essential part of their online success and flows directly from their DevOps strategy.
+
+This talk lays out the problem space and then focusses on the practicalities of such tests and how they work in a microservices and/or containerized world. Questions like what tech do you need and what steps you would take to get successful results are the core part.
+
+Part of the talk will show our open source product VAMP (the Very Awesome Microservices Platform) tackles this problem. This talk is however not a product pitch and puts forward enough info and tips to take home regardless of implementation, language or specific infrastructure solution.
+
+**Speaker:**
+
+Tim Nolet is CTO and co-founder of Magnetic.io and has a 15 year background in online services and enterprise IT. Magnetic.io is currently gearing up for the open source launch of their product VAMP, also known as the Very Awesome Microservices Platform.
+
+Tim is currently on a mission to reap all the benefits of the DevOps movement and loves playing around with  containers, Reactive Programming, streaming data and A/B testing.

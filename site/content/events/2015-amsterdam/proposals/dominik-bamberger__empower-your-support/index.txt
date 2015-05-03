@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Dominik Bamberger
+title: "Empower your Support"
+---
+
+**Abstract:**
+
+Times during which Tech Support has mostly been about suggesting to turn things off and on again are over. Nowadays, for a lot of companies, customers are highly skilled professionals themselves and are therefore more demanding when it comes to paid services. As a result, the broad spectrum of knowledge and experience that comes with DevOps practices come into focus when trying to build a high quality support team.
+
+This talk is going to shed some light on how GitHub Enterprise Support works and why DevOps is an integral part of it. We're going to look at the overall problem that needs solving and some best practices around it. Finally, there will be a couple of real life examples to gain a deeper understanding of the subject.
+
+**Speaker:**
+
+Dominik is a Ruby developer by heart. He thrives when working in an open-source environment and loves people who freely share their ideas (and code) with others. He relishes the infinite possibilities that come with that freedom.
+
+Born and raised in Franconia, Germany, Dominik received a master’s degree in computer science and business administration from the University of Bamberg. After working as Engineering Manager for SUSE Linux, he joined GitHub as an Enterprise Support Engineer.

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+ignite: true
+selected: false
+layout: event
+author: Alban Crequy
+title: "Debugging in a containerized world"
+---
+
+**Abstract:**
+
+Debugging becomes slightly more complicated when you live in a containerized world. Make debugging easier by learning how to use your tools! How to use tools like actool, nsenter, strace, gdb to debug your applications.
+
+This ignite talk will show how to use actool, nsenter, strace or gdb that make your life easier when debugging containers. It will focus on ACI containers but similar techniques can be used for other container systems.
+
+**Speaker:**
+
+After a more than a decade of developing on Linux, Alban has racked up experience in system and kernel development, focusing on security and networking.
+Originally working on proprietary software for Linux clusters, Alban long since switched to working on Open Source software for embedded devices and has never looked back. He has worked with such technologies as systemd, D-Bus, AppArmor and cgroups, as well as the Linux kernel itself.
+
+More recently, he has added several more areas to his resumé, including networking and cloud-based development. Alban particularly values work that allows him to collaborate with other contributors in a community.
