@@ -26,8 +26,9 @@ end
 { :image => 'newrelic.png', :name => 'New Relic', :link => 'https://newrelic.com'},
 { :image => 'elastic.png', :name => 'Elastic', :link => 'https://www.elastic.co/' },
 { :image => 'drw.png', :name => 'DRW Trading', :link => 'http://drw.com/'},
-{ :image => 'hp.png', :name => 'HP', :link => 'http://www.hp.com/'}
-# { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://servercentral.com/'}
+{ :image => 'hp.png', :name => 'HP', :link => 'http://www.hp.com/'},
+{ :image => 'puppetlabs.png', :name => 'Puppet Labs', :link => 'https://puppetlabs.com/'},
+# { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://servercentral.com/'},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -67,3 +68,12 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Wifi sponsor</h1>
+<% @wsponsors = [
+{ :image => 'hp.png', :name => 'HP', :link => 'http://www.hp.com/'}
+] %>
+<%= make_sponsor_links(@wsponsors) %>
+
