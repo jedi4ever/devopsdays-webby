@@ -24,7 +24,7 @@ Until now.
 
 Let's spend 5 minutes and explore StatsD, an open-sourced network daemon that listens, collects and aggregates statistics for backend services. We'll take a quick look at what StatsD can collect, what a typical StatsD stack looks like - and a little bit about how teams can leverage StatsD to instrument (all the things).
 
-Walk away with a great head start on a technology you???ve heard a lot about - but haven't had the chance to explore.
+Walk away with a great head start on a technology you've heard a lot about - but haven't had the chance to explore.
 
 **Speaker:**
 Mark Morris
