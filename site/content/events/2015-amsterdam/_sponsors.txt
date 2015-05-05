@@ -121,6 +121,12 @@ end
     :name => "DevoTeam",
     :link => "http://www.devoteam.nl/"
   }
+
+  {
+    :image => "bronze-do.png",
+    :name => "doConsultants",
+    :link => "http://doconsultants.com/"
+  }
 ]%>
 
 <%= make_sponsor_links(@bsponsors) %>
