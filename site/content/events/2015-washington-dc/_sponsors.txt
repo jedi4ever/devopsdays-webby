@@ -12,17 +12,10 @@ filter:    erb
 { :image => "sumologic.png", :name => "Sumo Logic",         :link => "http://www.sumologic.com/"},
 { :image => "netuitive.png", :name => "Netuitive",          :link => "http://www.netuitive.com/"},
 { :image => "ansible.png",   :name => "Ansible",            :link => "http://www.ansible.com/"},
+{ :image => "chef.png"   ,   :name => "Chef",               :link => "http://www.chef.io"},
 ]%>
 <h1>Platinum Sponsors</h1>
 <% @ptsponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<% @agsponsors = [
-{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
-]%>
-<% unless @agsponsors.empty?  %><h1>Silver Sponsors</h1><% end %>
-<% @agsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
@@ -35,6 +28,14 @@ filter:    erb
 ]%>
 <h1>Gold Sponsors</h1>
 <% @ausponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @agsponsors = [
+{ :image => "puppetlabs.png", :name => "Puppet Labs", :link => "http://www.puppetlabs.com/"},
+]%>
+<h1>Silver Sponsors</h1>
+<% @agsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
