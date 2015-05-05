@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Mark Morris
+title: "You, Me & StatsD"
+---
+
+**Abstract:**
+
+"Maybe we have too many metrics" ~ said nobody.
+
+Biz team wants revenue. Devs want key method call times. Ops want response times and throughput.
+
+We ALL want metrics, but instrumenting, viewing and monitoring these metrics normally involves a stack of tools, tons of coordination and worries about overhead.
+
+Until now.
+
+Let's spend 5 minutes and explore StatsD, an open-sourced network daemon that listens, collects and aggregates statistics for backend services. We'll take a quick look at what StatsD can collect, what a typical StatsD stack looks like - and a little bit about how teams can leverage StatsD to instrument (all the things).
+
+Walk away with a great head start on a technology you've heard a lot about - but haven't had the chance to explore.
+
+**Speaker:**
+Mark Morris
+
