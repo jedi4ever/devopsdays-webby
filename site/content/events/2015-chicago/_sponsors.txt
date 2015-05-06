@@ -29,6 +29,7 @@ end
 { :image => 'hp.png', :name => 'HP', :link => 'http://www.hp.com/'},
 { :image => 'puppetlabs.png', :name => 'Puppet Labs', :link => 'https://puppetlabs.com/'},
 { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://www.servercentral.com/'},
+{ :image => 'moogsoft.png', :name => 'Moogsoft', :link => 'http://moogsoft.com/'}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
