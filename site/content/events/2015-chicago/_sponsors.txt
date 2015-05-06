@@ -28,7 +28,7 @@ end
 { :image => 'drw.png', :name => 'DRW Trading', :link => 'http://drw.com/'},
 { :image => 'hp.png', :name => 'HP', :link => 'http://www.hp.com/'},
 { :image => 'puppetlabs.png', :name => 'Puppet Labs', :link => 'https://puppetlabs.com/'},
-# { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://servercentral.com/'},
+{ :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://servercentral.com/'},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
