@@ -29,7 +29,7 @@ end
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com" },
 { :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
 { :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
-{ :image => "dell.jpg", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com//"}
+{ :image => "dell.png", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com/"}
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
@@ -38,6 +38,7 @@ end
 <h1><font color="Wheat">Stone Arch</font> sponsors</h1>
 
 <% @sasponsors = [
+{ :image => "scout.png", :name => "Scout", :link =>"https://scoutapp.com" }
 ]%>
 <%= make_sponsor_links(@sasponsors) %>
 

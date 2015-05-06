@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Happy Hour
+layout: event
+platinum: true
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<div>Back to the <a href="./index.html">Program</a>.</div>
+<hr />
+
+<h3>Happy Hour</h3>
+
+<p>Stick around after our first day close for an exciting evening of food, drinks, music, conversation and gaming at Glenn Gould Studio. Mix
+	around in the reception area or join a game of Werewolves, Poker, Catan, Clue, Cards/DevOps Against Humanity, Release or anything else 
+	you'd like to play. We'll have a few games but we're hoping you'll bring more. There will be a place at the venue to store games 
+	during the day and overnight.</p>

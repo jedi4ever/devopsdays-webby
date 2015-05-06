@@ -13,6 +13,7 @@ filter:    erb
 { :image => "netuitive.png", :name => "Netuitive",          :link => "http://www.netuitive.com/"},
 { :image => "ansible.png",   :name => "Ansible",            :link => "http://www.ansible.com/"},
 { :image => "chef.png"   ,   :name => "Chef",               :link => "http://www.chef.io"},
+{ :image => "customink.png", :name => "CustomInk",          :link => "http://www.customink.com"},
 ]%>
 <h1>Platinum Sponsors</h1>
 <% @ptsponsors.each do |sponsor| %>
