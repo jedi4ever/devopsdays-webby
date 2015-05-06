@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: true
+author: Gil Rice, Dave Josephson, Boris Livshutz, moderator Dave Cliffe
+title: "DevOps Metrics Panel"
+---
+
+**Abstract:**
+
+Metrics: a standard for measuring or evaluating something, especially one that uses figures or statistics. Regardless of your role 
+(Ops, Dev, Batman, etc.), data-driven decision-making is what all the cool kids are doing. But that doesn’t mean they’re doing it 
+properly! (except for Batman, 'cause ya know, he's Batman)
+
+As monitoring tools have gotten better and better, metrics of all kinds have become easier and easier to collect, manage, and 
+visualize. But are you getting the most out of your metrics? Come listen to our panel of experts (Dave, Boris, Gil … and possibly 
+Batman) discuss all aspects of Metrics, including some practical tips on how you can start to use them to promote collaboration 
+across the organization.
+
+**Moderator:**
+
+Dave Cliffe (PagerDuty)
+
+**Panel Members:**
+
+Gil Rice (New Relic),
+Dave Josephson (Librato),
+Boris Livshutz (Akamai)
+
