@@ -17,7 +17,6 @@ filter:    erb
  { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
  { :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.co/"},
  { :image => "leankit.png", :name => "LeanKit", :link => "http://leankit.com/"},
- { :image => "ibm.png", :name => "IBM", :link => "http://www.ibm.com/ibm/devops/us/en/"},
  { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
  { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
  { :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
