@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Daniel Willis
+title: "Sports Stats 101"
+---
+
+**Abstract:**
+
+I love sports and my Dad loves programming.  Our compromise is learning statistics with computers.  In this presentation I will share what I learned about statistics working with all sorts of sports data.
+
+**Speaker:**
+Daniel Willis
+
