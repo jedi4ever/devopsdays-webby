@@ -100,7 +100,7 @@ end
 		:image => "silver-sentia.png",
 		:name => "Sentia",
 		:link => "https://www.sentia.com/"
-	}
+	},
 ]%>
 
 <%= make_sponsor_links(@ssponsors) %>
@@ -120,7 +120,13 @@ end
     :image => "bronze-devoteam.png",
     :name => "DevoTeam",
     :link => "http://www.devoteam.nl/"
-  }
+  },
+
+  {
+    :image => "bronze-do.png",
+    :name => "Do Consultants",
+    :link => "http://doconsultants.com/"
+  },
 ]%>
 
 <%= make_sponsor_links(@bsponsors) %>
