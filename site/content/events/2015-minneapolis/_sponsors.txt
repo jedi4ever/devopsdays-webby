@@ -18,6 +18,7 @@ end
 { :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"},
 { :image => "newrelic.png", :name => "New Relic", :link => "https://newrelic.com/"},
 { :image => "hp.png", :name => "HP Software", :link => "http://www.hpsoftware.com"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -43,10 +44,12 @@ end
 <%= make_sponsor_links(@sasponsors) %>
 
 <br/>
+<br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
 { :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
 { :image => "velocity.png", :name => "Velocity Conf", :link => "http://www.velocityconf.com/"},
 { :image => "ado.png", :name => "Arrested DevOps", :link => "http://www.arresteddevops.com/"},
+{ :image => "gitmsp.png", :name => "Girls in Tech - Minneapolis", :link => "http://gitmsp.org/"},
 ]%>
 <%= make_sponsor_links(@msponsors) %>
