@@ -50,6 +50,7 @@ end
 <% @ssponsors = [
 { :image => 'mercatus.png', :name => 'Mercatus', :link => 'http://mercatus.com' },
 { :image => 'scalar.png', :name => 'Scalar', :link => 'http://www.scalar.ca' },
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
   ]%>
 <%= make_sponsor_links(@ssponsors) %>
 
