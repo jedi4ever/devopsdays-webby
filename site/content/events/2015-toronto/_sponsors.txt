@@ -39,6 +39,7 @@ end
 { :image => 'shopify.png', :name => 'Shopify', :link => 'http://www.shopify.ca/' },
 { :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com/home' },
 { :image => 'blendedperspectives.png', :name => 'Blended Perspectives', :link => 'http://www.blendedperspectives.com' },
+{ :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
   ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
