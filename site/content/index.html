@@ -73,21 +73,6 @@ var amsterdammarker = new MarkerWithLabel({
 google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterdam"});
 
 
-var austinlocation=new google.maps.LatLng(30.3077609, -97.7534014);
-var austinmarker = new MarkerWithLabel({
-    position: austinlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Austin<br>May 4 & 5",
-    labelAnchor: new google.maps.Point(40, 15),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2015-austin"});
-
-
-
 
 var torontolocation = new google.maps.LatLng(43.7000, -79.4000);
 var torontomarker = new MarkerWithLabel({
