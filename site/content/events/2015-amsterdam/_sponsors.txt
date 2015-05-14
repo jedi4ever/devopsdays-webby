@@ -16,6 +16,18 @@ end
 		:link => "https://puppetlabs.com/"
 	},
 
+  {
+    :image => "gold-sonatype.png",
+    :name => "Sonatype",
+    :link => "https://sonatype.com/"
+  },
+
+  {
+    :image => "gold-xebialabs.png",
+    :name => "Xebia",
+    :link => "https://xebia.com/"
+  },
+
 	{
 		:image => "gold-schubergphilis.png",
 		:name => "Schuberg Philis",
@@ -96,6 +108,12 @@ end
 		:link => "http://container-solutions.com/"
 	},
 
+  {
+    :image => "silver-vmware.png",
+    :name => "VMware",
+    :link => "http://vmware.com/"
+  },
+
 	{
 		:image => "silver-sentia.png",
 		:name => "Sentia",
@@ -115,6 +133,18 @@ end
 		:name => "SDL",
 		:link => "http://www.sdl.com/"
 	},
+  
+  {
+    :image => "bronze-github.png",
+    :name => "GitHub",
+    :link => "http://www.github.com/"
+  },
+
+  {
+    :image => "bronze-leaseweb.png",
+    :name => "leaseweb",
+    :link => "http://www.leaseweb.nl/"
+  },
 
   {
     :image => "bronze-devoteam.png",
