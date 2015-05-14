@@ -17,6 +17,12 @@ end
 	},
 
   {
+    :image => "gold-cloudstack.png",
+    :name => "Apache Cloudstack",
+    :link => "https://cloudstack.apache.org/"
+  },
+
+  {
     :image => "gold-sonatype.png",
     :name => "Sonatype",
     :link => "https://sonatype.com/"
