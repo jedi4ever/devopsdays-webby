@@ -163,10 +163,17 @@ end
     :name => "Do Consultants",
     :link => "http://doconsultants.com/"
   },
+
   {
     :image => "bronze-chef.png",
     :name => "Chef",
     :link => "http://chef.io/"
+  },
+
+  {
+    :image => "bronze-keycdn.png",
+    :name => "keycdn",
+    :link => "https://www.keycdn.com"
   },
 ]%>
 
