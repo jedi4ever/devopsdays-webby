@@ -133,7 +133,7 @@ end
 		:name => "SDL",
 		:link => "http://www.sdl.com/"
 	},
-  
+
   {
     :image => "bronze-github.png",
     :name => "GitHub",
@@ -156,6 +156,11 @@ end
     :image => "bronze-do.png",
     :name => "Do Consultants",
     :link => "http://doconsultants.com/"
+  },
+  {
+    :image => "bronze-chef.png",
+    :name => "Chef",
+    :link => "http://chef.io/"
   },
 ]%>
 
