@@ -129,6 +129,19 @@ var dcmarker = new MarkerWithLabel({
     labelStyle: {opacity: 1}
 });
 
+var perthlocation=new google.maps.LatLng(-31.9528536, 115.8573389);
+var perthmarker = new MarkerWithLabel({
+    position: perthlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Perth<br>Oct 15",
+    labelAnchor: new google.maps.Point(40, 40),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+});
+
+
 google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2015-washington-dc"});
 
 var sflocation=new google.maps.LatLng(37.3894, -122.0819);
