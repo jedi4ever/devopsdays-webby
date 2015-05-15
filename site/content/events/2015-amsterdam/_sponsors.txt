@@ -16,6 +16,24 @@ end
 		:link => "https://puppetlabs.com/"
 	},
 
+  {
+    :image => "gold-cloudstack.png",
+    :name => "Apache Cloudstack",
+    :link => "https://cloudstack.apache.org/"
+  },
+
+  {
+    :image => "gold-sonatype.png",
+    :name => "Sonatype",
+    :link => "https://sonatype.com/"
+  },
+
+  {
+    :image => "gold-xebialabs.png",
+    :name => "Xebia",
+    :link => "https://xebia.com/"
+  },
+
 	{
 		:image => "gold-schubergphilis.png",
 		:name => "Schuberg Philis",
@@ -96,6 +114,12 @@ end
 		:link => "http://container-solutions.com/"
 	},
 
+  {
+    :image => "silver-vmware.png",
+    :name => "VMware",
+    :link => "http://vmware.com/"
+  },
+
 	{
 		:image => "silver-sentia.png",
 		:name => "Sentia",
@@ -117,6 +141,18 @@ end
 	},
 
   {
+    :image => "bronze-github.png",
+    :name => "GitHub",
+    :link => "http://www.github.com/"
+  },
+
+  {
+    :image => "bronze-leaseweb.png",
+    :name => "leaseweb",
+    :link => "http://www.leaseweb.nl/"
+  },
+
+  {
     :image => "bronze-devoteam.png",
     :name => "DevoTeam",
     :link => "http://www.devoteam.nl/"
@@ -126,6 +162,18 @@ end
     :image => "bronze-do.png",
     :name => "Do Consultants",
     :link => "http://doconsultants.com/"
+  },
+
+  {
+    :image => "bronze-chef.png",
+    :name => "Chef",
+    :link => "http://chef.io/"
+  },
+
+  {
+    :image => "bronze-keycdn.png",
+    :name => "keycdn",
+    :link => "https://www.keycdn.com"
   },
 ]%>
 
