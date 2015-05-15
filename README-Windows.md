@@ -51,6 +51,7 @@ git clone <git source URL> c:\DevOpsDays
 *Note - Ignore the file errors as you only the need the Vagrant setup and support files*
 
 **Configure Vagrant**
+
 Edit `C:\DevOpsDays\VagrantFile` and uncomment the following lines.  This is required for the FTP server that will be installed later;
 ```
   config.vm.network "forwarded_port", guest: 21, host: 2121
@@ -58,6 +59,7 @@ Edit `C:\DevOpsDays\VagrantFile` and uncomment the following lines.  This is req
 ```
 
 **Start Vagrant**
+
 Open an administrator command prompt and start the Vagrant process
 ```
 CD /D C:\DevOpsDays
@@ -79,6 +81,7 @@ sudo apt-get install vsftpd
 ```
 
 **Configure the FTP Server**
+
 Edit the configuration file.  This guide uses nano, but use an editor you are comfortable with
 ```
 sudo nano /etc/vsftpd.conf
@@ -98,7 +101,7 @@ Restart the FTP server
 ```
 sudo service vsftpd restart
 ```
-Test the connection to the FTP server `ftp://127.0.0.1:2121`.  If the connection is successful but you are unable to do a directory listing then there may be an issue with the passive transfer settings.
+Test the connection to the FTP server `ftp://127.0.0.1:2021`.  If the connection is successful but you are unable to do a directory listing then there may be an issue with the passive transfer settings.
 
 ### Clone the repo into the Virtual Machine
 
