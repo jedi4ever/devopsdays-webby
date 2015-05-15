@@ -6,3 +6,4 @@
 - Chris Little
 - Fawzy Manaa
 - Philippe Tremblay
+- Abeer Rahman
