@@ -186,6 +186,20 @@ var berlinmarker = new MarkerWithLabel({
 });
 
 google.maps.event.addListener(berlinmarker, "click", function (e) { location.href="/events/2015-berlin/"});
+
+var telavivlocation = new google.maps.LatLng(32.07, 34.8);
+var telavivmarker = new MarkerWithLabel({
+    position: telavivlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Tel Aviv<br>Oct 7 & 8",
+    labelAnchor: new google.maps.Point(50, 25),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(telavivmarker, "click", function (e) { location.href="/events/2015-telaviv/"});
 }
 </script>
 
