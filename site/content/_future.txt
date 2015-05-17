@@ -13,6 +13,7 @@
       <a href="/events/2015-chicago/">Chicago - August 2015</a><br/>
       <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
       <a href="/events/2015-perth/">Perth - October 2015</a><br/>
+      <a href="/events/2015-telaviv/">Tel Aviv - October 2015</a><br/>
       <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
       <a href="/events/2015-singapore/">Singapore - 2015</a><br/>
 </div>
