@@ -4,15 +4,14 @@ filter:
 - erb
 - markdown
 dirty: true
-layout: event_tlv
+layout: event
 title: Sponsor
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
-
-
+We greatly value sponsors for this open event. If you are interested in sponsoring please leave your details in our [sponsorship form](https://docs.google.com/forms/d/1AHQXwONZZ0Lu9NGnxYpdPzAEXgawxj9Jrj6c3PHA7aQ/viewform).
 <hr/>
 
 <h4><b>Sponsorship Packages</b></h4>
@@ -23,9 +22,9 @@ We greatly value sponsors for this open event.  If you are interested in sponsor
 <table border=1 cellspacing=1>
   <tr>
     <th><i>Included in Package</i></th>
-    <th><center><b>Silver<br />1000 USD</center></b></th>
-    <th><center><b>Gold<br />3000 USD<br/> <em>Sold Out!</em></center></b></th>
-    <th><center><b>Platinum<br />4500 USD <br/> <em>Two in Total, One Left</em></center></b></th>
+    <th><center><b>Silver<br/>1000 USD</center></b></th>
+    <th><center><b>Gold<br/>3000 USD<br/></center></b></th>
+    <th><center><b>Platinum<br/>4500 USD<br/></center></b></th>
     <th></th>
   </tr>
 <tr><td>2 Tickets</td><td bgcolor="DodgerBlue">&nbsp;</td><td bgcolor="DodgerBlue">&nbsp;</td><td bgcolor="DodgerBlue">&nbsp;</td></tr>
@@ -40,12 +39,8 @@ We greatly value sponsors for this open event.  If you are interested in sponsor
 <tr><td>Lunch or After Party Sponsorship (1 Each)</td><td>&nbsp;</td><td>&nbsp;</td><td bgcolor="DodgerBlue">&nbsp;</td></tr>
 </table>
 <hr/>
-
-</br>
-
+</div>
 
 DevOpsDays is a self-organizing conference for DevOps practitioners that depends on your sponsorships to happen. 
 
 All attendees are welcome to propose any subject they want during the openspaces, but this is not 'that kind of conference' and heavy marketing will probably work against you when trying to make a good impression on the attendees. The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
-
-</div>
