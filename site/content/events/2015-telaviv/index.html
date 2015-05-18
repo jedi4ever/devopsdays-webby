@@ -1,18 +1,18 @@
 ---
 extension: html
-layout: event_tlv
 filter:
 - erb
 - markdown
 title: welcome
+layout: event
 dirty: true
+platinum: true
 ---
-
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<center><img border=0 src="logos/dod-tlv.png"></center></br>
 
-## DevOpsDays TLV is comming!
-
-## Date: **<%= render(:partial => "/#{@eventhome}/_target_date") -%>**
-
-## CFP and Registration will be opened soon. Stay tunned!
+<center>
+<h2>DevOpsDays TLV is coming back!</h2>
+<img border=0 src="logos/devopsdaystlv.jpg"><br>
+<h1><%= render(:partial => "/#{@eventhome}/_target_date") -%> </h1>
+<h2>CFP is now open!</h2>
+</center>

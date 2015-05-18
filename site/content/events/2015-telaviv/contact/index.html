@@ -3,19 +3,15 @@ extension: html
 filter:
 - erb
 - markdown
-title: contact
 dirty: true
-layout: event_tlv
+layout: event
+title: contact
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
-<% @eventid = File.basename(@page.directory) %>
 
-If you want to contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
-
-** Our special team**
+** DevOpsDays TLV 2015 organizers: **
 
 <%= render(:partial => "/#{@eventhome}/_team_local") %>
 
-** The core devopsdays organizer group**
-
-<%= render(:partial => "/#{@eventhome}/_team_global") %>
+Contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>

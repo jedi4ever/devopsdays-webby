@@ -1,74 +1,46 @@
 ---
 filter:    erb
 ---
-<% @csponsors = [
-#	{ :image => "gigaspaces.png", :name => "GigaSpaces Technologies", :link => "http://www.gigaspaces.com"},
-]%>
+<% @psponsors = [] %>
 
-<% unless @csponsors.empty?  %><h1>Event Leaders</h1><% end %>
-
-<% @csponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<br/>
-<br/>
-
-<% @platinum_sponsors = [
-#	{ :image => "aolon.png", :name => "AOL On", :link => "http://on.aol.com/"},	
-]%>
-
-<% unless @platinum_sponsors.empty?  %><h1>Platinum Sponsors</h1><% end %>
-
-<% @platinum_sponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<br/>
-<br/>
-
-
-<% @gold_sponsors = [
-#	{ :image => "cloudify.png", :name => "Cloudify by GigaSpaces", :link => "http://getcloudify.org"},
-]%>
-
-<% if @gold_sponsors.empty?  %>
+<% if @psponsors.empty? %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 
-<% unless @gold_sponsors.empty?  %><h1>Gold Sponsors</h1><% end %>
+<% @psponsors.each do |sponsor| %>
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
 
-<% @gold_sponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=80px height=80px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<br/>
-<br/>
+<h1>Gold sponsors</h1>
+<% @gsponsors = [] %>
 
-<% @silver_sponsors = [
-#	{ :image => "github.png", :name => "GitHub", :link => "http://github.com"},
-]%>
-
-<% unless @silver_sponsors.empty?  %><h1>Silver Sponsors</h1><% end %>
-
-<% @silver_sponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=70px height=70px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% if @gsponsors.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 
-<br/>
-<br/>
+<% @gsponsors.each do |sponsor| %>
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
 
-<% @community_sponsors = [
-#	{ :image => "igt.png", :name => "IGT", :link => "http://meetup.com/IGTCloud"},
-]%>
-
-<% unless @community_sponsors.empty?  %><h1>Community Partner</h1><% end %>
-
-<% @community_sponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=70px height=70px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
+<% @special_sponsors = [] %>
+<% unless @special_sponsors.empty? %><h1>Special sponsors</h1><% end %>
 
+<% @special_sponsors.each do |sponsor| %>
 
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
 
+<% end %>
 
+<h1>Silver sponsors</h1>
+<% @ssponsors = [] %>
+
+<% if @ssponsors.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+<% @ssponsors.each do |sponsor| %>
+
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
+
+<% end %>

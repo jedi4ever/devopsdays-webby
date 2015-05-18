@@ -9,7 +9,7 @@ talk: true
 selected: false
 layout: event
 author: Nir Cohen
-title: "Why Can't I Nail that "DevOps" Interview?"
+title: "Why Can't I Nail that \"DevOps\" Interview?"
 ---
 
 **Abstract:**
