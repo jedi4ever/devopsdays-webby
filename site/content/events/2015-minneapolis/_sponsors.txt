@@ -21,6 +21,7 @@ end
 { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 { :image => "sysdig.png", :name => "sysdig", :link => "https://sysdig.com"},
 { :image => "saltstack.png", :name => "SaltStack", :link => "http://saltstack.com/"},
+{ :image => "jut.png", :name => "Jut", :link => "http://www.jut.io"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
