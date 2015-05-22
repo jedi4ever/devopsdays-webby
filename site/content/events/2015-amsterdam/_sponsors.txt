@@ -161,7 +161,7 @@ end
   {
     :image => "bronze-inuits.png",
     :name => "Inuits",
-    :link => "http://www.inuits.com/"
+    :link => "http://www.inuits.eu/"
   },
 
   {
