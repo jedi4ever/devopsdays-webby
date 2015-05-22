@@ -52,6 +52,12 @@ end
 		:link => "http://www.exact.nl/"
 	},
 
+  {
+    :image => "gold-chef.png",
+    :name => "Chef",
+    :link => "http://www.chef.io/"
+  },
+
 	{
 		:image => "gold-rackspace.png",
 		:name => "Rackspace",
@@ -115,6 +121,18 @@ end
 	},
 
   {
+    :image => "silver-docker.png",
+    :name => "Docker",
+    :link => "http://docker.com/"
+  },
+
+  {
+    :image => "silver-redhat.png",
+    :name => "RedHat",
+    :link => "http://redhat.com/"
+  },
+
+  {
     :image => "silver-vmware.png",
     :name => "VMware",
     :link => "http://vmware.com/"
@@ -141,6 +159,12 @@ end
 	},
 
   {
+    :image => "bronze-inuits.png",
+    :name => "Inuits",
+    :link => "http://www.inuits.com/"
+  },
+
+  {
     :image => "bronze-github.png",
     :name => "GitHub",
     :link => "http://www.github.com/"
@@ -165,9 +189,9 @@ end
   },
 
   {
-    :image => "bronze-chef.png",
-    :name => "Chef",
-    :link => "http://chef.io/"
+    :image => "bronze-arista.png",
+    :name => "Arista",
+    :link => "http://arista.com/"
   },
 
   {
