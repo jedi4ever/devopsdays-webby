@@ -2,8 +2,6 @@
 filter:    erb
 ---
 
-<p><i>&nbsp;&nbsp;&nbsp;<a href='https://devopsdaysdc2015.busyconf.com/bookings/new?discount=SPONSOR'>Register as a sponsor!</a></i></p>
-
 <h1>Platinum &amp; Venue Sponsor</h1>
 <a href="http://www.uspto.gov/"><img border=0 alt="USPTO" title="USPTO" width=280px height=70px src="/events/2015-washington-dc/logos/uspto.jpg"></a>
 
@@ -31,6 +29,8 @@ filter:    erb
 { :image => "circonus.png",     :name => "Circonus",        :link => "http://circonus.com"},
 { :image => "opusgroupllc.png", :name => "Opus Group, LLC", :link => "http://www.opusgroupllc.com"},
 { :image => "blackmesh.png",    :name => "BlackMesh",       :link => "http://www.blackmesh.com"},
+{ :image => "pagerduty.png",    :name => "PagerDuty",       :link => "http://www.pagerduty.com"},
+{ :image => "govready.png",     :name => "govready",        :link => "http://www.govready.org"},
 ]%>
 <h1>Gold Sponsors</h1>
 <% @ausponsors.each do |sponsor| %>
