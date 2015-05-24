@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 9
+title: "Saved or Sabotaged?  Seven Deadly Wastes in Your DevOps Practice"
+---
+
+**Abstract:**
+Every software development organization on the planet has a software supply chain that is consuming a massive volume of open source and third-party components at extremely high velocity.  To provide a much clearer perspective to this volume and velocity, we can see that a global population more than 11 million developers consumed over 20 billion components in 2014.
+
+Those in DevOps who have pursued improved visibility, supplier choices, and control mechanisms across their software supply chains have boosted developer productivity by 15%, crumbled mountains of technical debt, and shifted millions of dollars from sustaining operations to accelerating innovation.
+
+Yet the vast majority of organizations developing software are blind to their free-for-all consumption volume, patterns, and velocity.  Their  software supply chain practices are silently sabotaging efforts to accelerate development, improve efficiency and maintain quality.
+
+In May, I authored the 2015 State of the Software Supply Chain Report.  It is a quantitative analysis of more than 160,000 software development organizations consuming billions of open source and third-party software components from over 15,000 suppliers.  Your organization is most likely among those I analyzed.
+
+While the average organization in the study consumed 240,000 open source and third party software components in 2014, the study revealed evidence of seven deadly wastes in their operations: (1) inefficient software sourcing practices, (2) building in outdated software components, (3) using redundant software components, (4) bypassing quality control mechanisms, (5) extending build times, (6) limiting traceability, and (7) electively sourcing software with known security vulnerabilities or risky license types that result in unplanned rework.
+
+These practices have resulted in:
+
+An average of 27 versions of software components consumed, meaning development teams are electively building in outdated parts and creating mountains of technical debt
+
+An average of 15,337 components consumed included known security flaws, impacting the integrity of operations
+
+Over 30 days of build time wasted annually as a result of poor sourcing practices
+
+But this discussion is not intended to simply shed light on bad practices, it is about learning.  Attendees will gain new visibility as to what’s happening in their own software supply chains, how to avoid the seven deadly wastes, and how leading organizations like eBay, ServiceNow, Blackboard, Aetna, the US Air Force, Federal Reserve and Department of Homeland Security are applying proven supply chain principles from other industries toward improving their DevOps practices.
+ther interesting thoughts and dialogues that may help others to seek what Devops may mean to them and how they can apply it to their own situations within an organization.
+
+
+**Speaker:**
+Speaker 9

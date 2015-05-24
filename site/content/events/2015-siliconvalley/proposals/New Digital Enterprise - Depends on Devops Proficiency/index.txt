@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 11
+title: "New Digital Enterprise - Depends on Devops Proficiency"
+---
+
+**Abstract:**
+Note: Presentation and I can do an Ignite as well
+
+The success of Agile combined with the new IoT+Mobile+Big Data+Cloud application development and operational infrastructure requires DevOps process, people, and technology mastery.
+Some companies are implementing Devops with serious intent as part of their Digital Enterprise Strategy while others are playing the wait and see if this crosses the Technology Adoption chasm.
+The waiting will impact business results for many companies.
+The presentation will cover why the urgency, how DevOps is part of the Digital Enterprise, the Agile and DevOps Connection, and provide some case studies of an Insurance and Bank company that are seriously implementing Agile and DevOps.
+**Speaker:**
+Speaker 11

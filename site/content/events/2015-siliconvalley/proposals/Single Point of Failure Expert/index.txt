@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 10
+title: "Single Point of Failure Expert"
+---
+
+**Abstract:**
+Note: Presentation and I can do an Ignite as well
+
+When you create or manage a complex system you tend to learn all the "gotchas", accumulate arcane knowledge and become the system wizard.
+The desire to become an expert is natural. However, monopolizing knowledge can be unhealthy for you and dangerous for your employer.
+
+In this talk I will help you learn how to recognize the early signs and stop yourself and your peers from becoming a single point of failure.
+Speaker 10
