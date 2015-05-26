@@ -201,6 +201,12 @@ end
   },
 
   {
+    :image => "bronze-impexp.png",
+    :name => "Implicit Explicit",
+    :link => "http://implicit-explicit.com/"
+  },
+
+  {
     :image => "bronze-keycdn.png",
     :name => "keycdn",
     :link => "https://www.keycdn.com"
