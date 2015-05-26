@@ -201,7 +201,7 @@ end
   },
 
   {
-    :image => "bronze-impexp.png",
+    :image => "bronze-implicitexplicit.png",
     :name => "Implicit Explicit",
     :link => "http://implicit-explicit.com/"
   },
