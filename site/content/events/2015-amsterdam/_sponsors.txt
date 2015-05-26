@@ -17,6 +17,12 @@ end
 	},
 
   {
+    :image => "gold-pivotal.png",
+    :name => "Pivotal",
+    :link => http://pivotal.io/"
+  },
+
+  {
     :image => "gold-cloudstack.png",
     :name => "Apache Cloudstack",
     :link => "https://cloudstack.apache.org/"
@@ -29,7 +35,7 @@ end
   },
 
   {
-    :image => "gold-xebialabs.png",
+    :image => "gold-xebia.png",
     :name => "Xebia",
     :link => "https://xebia.com/"
   },
