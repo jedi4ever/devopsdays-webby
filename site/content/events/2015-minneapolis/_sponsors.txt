@@ -42,7 +42,8 @@ end
 <h1><font color="Wheat">Stone Arch</font> sponsors</h1>
 
 <% @sasponsors = [
-{ :image => "scout.png", :name => "Scout", :link =>"https://scoutapp.com" }
+{ :image => "scout.png", :name => "Scout", :link =>"https://scoutapp.com" },
+{ :image => "buzzfeed.png", :name => "BuzzFeed", :link =>"http://www.buzzfeed.com" },
 ]%>
 <%= make_sponsor_links(@sasponsors) %>
 
