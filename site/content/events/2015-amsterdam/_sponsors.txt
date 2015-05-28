@@ -23,6 +23,12 @@ end
   },
 
   {
+    :image => "gold-dynatrace.png",
+    :name => "Dynatrace",
+    :link => "http://www.dynatrace.com/"
+  },
+
+  {
     :image => "gold-cloudstack.png",
     :name => "Apache Cloudstack",
     :link => "https://cloudstack.apache.org/"
@@ -186,6 +192,12 @@ end
     :image => "bronze-devoteam.png",
     :name => "DevoTeam",
     :link => "http://www.devoteam.nl/"
+  },
+
+  {
+    :image => "bronze-pcextreme.png",
+    :name => "PCextreme",
+    :link => "https://www.pcextreme.nl/"
   },
 
   {
