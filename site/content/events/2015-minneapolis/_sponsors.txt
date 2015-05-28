@@ -33,7 +33,8 @@ end
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com" },
 { :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
 { :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
-{ :image => "dell.png", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com/"}
+{ :image => "dell.png", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com/"},
+{ :image => "govdelivery.png", :name => "GovDelivery", :link => "http://www.govdelivery.com"}
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
