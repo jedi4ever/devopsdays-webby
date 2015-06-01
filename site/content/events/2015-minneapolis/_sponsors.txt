@@ -22,6 +22,7 @@ end
 { :image => "sysdig.png", :name => "sysdig", :link => "https://sysdig.com"},
 { :image => "saltstack.png", :name => "SaltStack", :link => "http://saltstack.com/"},
 { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io"},
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://pivotal.io"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -34,7 +35,7 @@ end
 { :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
 { :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
 { :image => "dell.png", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com/"},
-{ :image => "govdelivery.png", :name => "GovDelivery", :link => "http://www.govdelivery.com"}
+{ :image => "govdelivery.png", :name => "GovDelivery", :link => "http://www.govdelivery.com"},
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
