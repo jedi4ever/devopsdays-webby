@@ -11,6 +11,7 @@ end
 %>
 
 <% @gsponsors = [
+ { :image => "codecentric.png", :name => "Codecentric", :link => "https://www.codecentric.de/"},
  { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
