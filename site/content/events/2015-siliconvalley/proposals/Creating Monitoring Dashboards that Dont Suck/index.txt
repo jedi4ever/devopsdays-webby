@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 12
+title: "Creating Monitoring Dashboards that Don’t Suck"
+---
+
+**Abstract:**
+Monitoring is a challenge near and dear to the hearts of all DevOps folks.  What’s happening with all the systems?  Are they up or down?  Has that new release broken something?  Whoa, it seems like the system is slow all of a sudden.  We don’t have time to watch these things ourselves, and while there’s great frameworks for the NOC to use to determine what’s happening with the network and base systems, monitoring systems you rely on is more difficult.
+
+In this talk, I’ll discuss several different frameworks you can use to create real-time dashboards and analytics for the systems you rely on.  Graphite and Sensu are both open source systems which allow you to write plugins to access systems and report analytics, and Sumo Logic, New Relic and Keen.io are hosted platforms which take data you post and make it available for their analytics and dashboard systems.  Both have advantages and disadvantages, and I’ll quickly cover the various scenarios to help you choose the system that works best for you.
+**Speaker:**
+Speaker 12

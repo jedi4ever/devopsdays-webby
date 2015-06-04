@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 12
+title: "Caching Slow MetaData with Git"
+---
+
+**Abstract:**
+When you have a slow system, getting meta-information about the contents can be quite frustrating. Whether the system is an API, database or source code management system, caching the information can help immensely with performance and the ability to do common tasks such as diff, logging and retrieving/finding data.
+
+I’ve used git to create an easy-to-access cache, and tools to wrap the git functions to enable users to find what they want and easily see differences between different versions. While keeping information in two places can seem inefficient, it’s frequently the case that metadata about “committed” items doesn’t change, and when your SCM, API or database is slow your users can find it very frustrating to find the information they’re looking for. Additionally, these systems aren’t usually tuned for quick retrieval of and comparison of metadata.
+
+I’ve also created a website for accessing this data, making it easy for users to see the information in a convenient form – and having the metadata easy to access means I can also run metrics and show how specific pieces of the metadata have changed over time.
+
+Come discover how you can help your users find the information they need without frustration.
+
+**Speaker:**
+Speaker 12

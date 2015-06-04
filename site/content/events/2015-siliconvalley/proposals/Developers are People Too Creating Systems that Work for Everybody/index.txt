@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 12
+title: "Developers are People Too! Creating Systems that Work for Everybody"
+---
+
+**Abstract:**
+So many systems used by developers (and here I’m talking about workers on both sides of the DevOps divide) are difficult to use, require manual tweaking, and don’t really solve the problem at hand.  These systems, whether SCM, APIs, monitoring, or process tools, tend toward a very consumer-developer-intensive experience, because they are designed from the bottom up.  When creating things to help developers, the thought is that those people can spend their lives configuring, debugging and manually tweaking the experience themselves.
+
+Instead of this mindset, what if these products were designed as if the developers were users?  With developer experience as a goal, design your products (because that’s what they are) as first class citizens.  Create a UI that gets the work done with a minimum of human intervention - when developers have to use these systems in addition to their general tasks, you can increase their productivity and morale immeasurably by creating something that just plain works, which is designed with their use case in mind, which treat these developers as if they’re as valuable as other employees or customers.
+
+Come learn how to ask for and create applications that just work every time, that don’t require constant manual fiddling and configuration, and that delight the people using them.  Developers are people too, and they deserve a great experience!
+
+**Speaker:**
+Speaker 12

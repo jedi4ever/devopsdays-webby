@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 13
+title: "Look at the man in the mirror – The smart way for change management in personality"
+---
+
+**Abstract:**
+You want to implement DevOps ideas in your team? Then be aware that
+implementing DevOps means a lot more than just changing the general
+set-up of the actual organization of the work. It demands lots of changes
+in personal behaviour and attitude - first of all by the initiator!
+Besides powerful arguments it is of an absolute importance to convince
+others of the necessity of the personal change! So you – as the initiator –
+have to think about punchy arguments as well as reflecting yourself – and
+all this before integrating the whole team!
+
+With starting your own personal changes you will also commence a viral
+process in your team. Your own attitude, your way of communication or
+your attempts to recognize other people ́s points of view are possible
+sources for your own change. Sooner or later multipliers will follow you
+step by step and help you to spread out your ideas! A motivational loop
+will start and will reach more and more people.
+
+In this session you will learn:
+- which questions you will have to ask yourself before starting the personal change
+- why personal changes need time to grow
+- why leading people to change is much more efficient than pushing them to change
+- how you will identify different roles of all stakeholders in a team
+- how you will make multipliers work for your ideas
+- how to deal with “NoNos”
+- how this smart way of personal change management will have a motivational effect on you and your team
+- that it will also work if your are not “the big boss” in the team
+
+But most of all you will learn that there always has to be someone to start
+with the change – YOU!
+
+**Speaker:**
+Speaker 13
