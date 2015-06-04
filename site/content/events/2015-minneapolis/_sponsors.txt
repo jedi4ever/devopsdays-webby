@@ -36,6 +36,7 @@ end
 { :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
 { :image => "dell.png", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com/"},
 { :image => "govdelivery.png", :name => "GovDelivery", :link => "http://www.govdelivery.com"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com"},
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
