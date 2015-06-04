@@ -219,6 +219,12 @@ end
   },
 
   {
+    :image => "bronze-tellki.png",
+    :name => "Tellki",
+    :link => "http://www.tellki.com/"
+  },
+
+  {
     :image => "bronze-keycdn.png",
     :name => "keycdn",
     :link => "https://www.keycdn.com"
