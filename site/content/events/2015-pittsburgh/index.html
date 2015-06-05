@@ -9,23 +9,20 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-
 # devopsdays Pittsburgh n'at!
-## Date : 13 & 14 of August 2015
-## (That's Thursday & Friday)
 
-Main engine on.  Details coming.
+When: <%= render(:partial => "/#{@eventhome}/_target_date") %>
 
-<!-- 
+Where: [University of Pittsburgh](location)
+
 We are proud to put on [this program](program).
 
-We also published our [code of conduct](conduct)
+The [call for proposals](propose) is open until <%= render(:partial => "/#{@eventhome}/_target_date") %>.
+You can alternatively [propose an Ignite](propose).
 
-Location: [University of Pittsburgh](location)
+It is never too early to get excited about [open spaces](http://devopsdays.org/pages/open-space-format/).
 
-The call for proposals is closed for presentations, but you can still [propose an Ignite](propose).
-
-And it is never too early to get excited about [Open Spaces](http://devopsdays.org/pages/open-space-format/).
+We have a [code of conduct](conduct).
 
 ## [Register Now](registration)
 
@@ -37,5 +34,3 @@ see you soon!
 <hr>
 
 <img border=0 width="500px" height="500px" src="warholdevops.png"><br>
-
--->
