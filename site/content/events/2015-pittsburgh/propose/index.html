@@ -10,4 +10,21 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-TBD
+Questions about proposing a talk can be directed to
+<%= render(:partial => "/#{@eventhome}/_email_proposals") %>.
+
+### Full-length talks
+
+This years, we are accepting all full-length (30-45 minute) proposals through our blinder system.
+
+##### [Submit a **talk** proposal](http://cfp.devopsdayspgh.org/DODPGH2015)
+
+Big thanks to [Steel City Ruby](http://www.steelcityruby.org) for developing
+[Blinder](https://github.com/jnf/blinder).
+Our fork, when available, is [here](https://github.com/cmluciano/blinder/).
+
+### Ignite talks
+
+Ignite talks are five minute talks with twenty slides that automatically advance. [Read more about this exciting format.](http://www.devopsdays.org/pages/ignite-talks-format/)
+
+##### [Submit an **Ignite** proposal](mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>?subject=DoD%20PGH%20Ignite%20Proposal:%20XXXXXXXXX&body=I%20propose%20the%20following%20Ignite%20talk%20for%20DevOpsDays%20Pittsburgh%202015%3A%0A%0AMy%20name%3A%20FirstnameLastname%0AIgnite%20talk%20title%3A%20MyTalkTitle%0A)
