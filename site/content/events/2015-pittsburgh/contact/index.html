@@ -7,15 +7,19 @@ title: contact
 dirty: true
 layout: event_pitt
 ---
-<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@page.directory) %>
 
 If you want to contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
 
-** Our special team**
+We pay attention to Twitter at [@devopsdayspgh](http://twitter.com/devopsdayspgh).
+
+Most of our organizers hangout on [Code & Supply's Slack chat](http://www.codeandsupply.co/chat).
+
+** Our special team **
 
 <%= render(:partial => "/#{@eventhome}/_team_local") %>
 
-** The core devopsdays organizer group**
+** The core devopsdays organizer group **
 
 <%= render(:partial => "/contact/_team_global") %>
