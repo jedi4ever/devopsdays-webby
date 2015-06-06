@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+layout: event
+title: proposals
+dirty: true
+platinum: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+## Equal opportunity
+
+DevopsdaysIndia is committed to creating a diverse environment and is proud to invite people of all backgrounds and profiles to submit presentation proposals.  All potential speakers will receive consideration without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.
+
+For more information, please see our published <a href="http://www.devopsdays.org/events/2015-paris/conduct/">Code of Conduct</a>.
+
+## Closing date
+
+CFP is open till ** June 30th 2015 **
+
+Goto [CFP App](http://cfp-devopsdays.herokuapp.com/events/devopsdays-2015)
+
+### Rules
+* Presentations are held in *English*; however, you don't need to be a native speaker (many of us aren't either).
+* Be specific! We aren't mind readers - a description of about 20 lines is about right.
+* Detail is good, but not as important as explaining why your proposal would be interesting.
+* Nominations welcome. If you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction.
+* Multiple proposals are welcome - just follow the other rules.
+
+### What we're looking for
+
+* We're very interested in new ideas and novel concepts - especially if this is your first time presenting on the topic.
+* Talks which have a strong **human** element are particularly compelling. Take a look at the programme from the <a href="http://www.devopsdays.org/events/2014-belgium/program/">Belgium 2014</a> for some great examples.
+* Sincerity and passion go a long way - if you're excited then we are too!
+
+### Presentation formats
+<ol>
+  <li><strong><em>A proposal for a talk/panel</em></strong> during the conference part : these are 30 minutes slots that will have all people's full attention as everybody will be in that one room.</li>
+  <li><strong><em>An Ignite talk</em></strong> that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>: these are 5 minutes slots with slides changing every 15 seconds (20 slides total) also presented to all attendees in one room</li>
+  <li><strong><em>Openspace session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during the openspace opening. Check the <a href="/pages/open-space-format">openspace format</a> for more information
+</ol>
+
+### Even if you don't propose, please consider [commenting on proposals submitted by others](../proposals/)
+
+
+

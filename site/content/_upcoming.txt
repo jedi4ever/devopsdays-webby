@@ -28,6 +28,10 @@
       Perth
     </a>
     -
+    <a href="/events/2015-bangalore">
+      Bangalore
+    </a>
+    -
     <a href="/events/2015-berlin">
       Berlin
     </a>
