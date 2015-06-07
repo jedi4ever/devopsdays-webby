@@ -4,22 +4,97 @@ filter:
 - erb
 - markdown
 dirty: true
-title: sponsor
+title: Sponsor
 layout: event
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring, please [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
-
-<hr>
-
+We greatly value sponsors for this open event. If you are interested in sponsoring, please [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+<strong>
+You can download our sponsorsip details <a href="Sponsorship-DOD-Berlin-2015.pdf">as PDF here</a>.
+</strong>
+<hr />
 DevOpsDays is a self-organizing conference for practitioners that depends on sponsorships. We do not have vendor booths, sell product presentations, or distributee attendee contact lists. Sponsors have the opportunity to have short elevator pitches during the program and will get recognition on the website and social media before, during and after the event. Sponsors are encouraged to represent themselves by actively participating and engaging with the attendees as peers. Any attendee also has the opportunity to demo products/projects as part of an open space session.
-<br>
-Sponsorsip details wll be announced soon!
-<br/>
-<br/>
 <hr/>
+
+<center>
+<div style="width:580px">
+    <table style="border:0px solid #000000;border-collapse:collapse">
+        <tr style="border:0px solid #000000">
+            <th style="text-align:left;padding-left:5px;"><em>Packages</em><br>Price in Euro excl. VAT</th>
+            <th style="text-align:center;text-decoration:underline;padding-left:10px;padding-right:10px"><strong>Silver<br>&euro;&nbsp;1.000</strong></th>
+            <th style="text-align:center;text-decoration:underline;padding-left:10px;padding-right:10px"><strong>Gold<br>&euro;&nbsp;3.000</strong></th>
+            <th style="text-align:center;text-decoration:underline;padding-left:10px;padding-right:10px"><strong>Evening<br>&euro;&nbsp;5.000</strong></th>
+        </tr>
+        <tr style="border:0px solid #000000;text-align:center;">
+            <td></td>
+            <td style="color:green;text-align:center;">available</td>
+            <td style="color:green;text-align:center;">available</td>
+            <td style="color:green;text-align:center;">available</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Logo on DevOps Days Berlin website</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Logo on all email communications</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Two included tickets</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Two additional tickets</td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>One minute pitch to the full audience (including streaming audience)(**)</td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Shared table for swag</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Private booth / table space</td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Named host of the evening event</td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;">
+            <td>Thank you tweet to our Twitter followers</td>
+            <td style="text-align:center;color:red;font-size:32px"></td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+            <td style="text-align:center;color:green;font-size:32px">&#x2713;</td>
+        </tr>
+        <tr style="border:0px solid #000000;"><td colspan="4" style="font-size:12px">(**) Streaming of the event is optional and not guaranteed</td>
+        </tr>
+    </table>
+</div>
+</center>
+<br />
+Become a sponsor now by [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>)
+
 
 <!-- Piwik -->
 <script type="text/javascript">
