@@ -10,6 +10,10 @@ end
 %>
 
 <% @gsponsors = [
+{ :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
+{ :image => "delphix.jpg", :name => "Delphix", :link => "http://www.delphix.com/"},
+{ :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
+{ :image => "sysdig.png", :name => "Sysdig", :link => "http://www.sysdig.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -17,22 +21,27 @@ end
 <br/>
 <h1><font color="Gainsboro">Aluminum</font> sponsors</h1>
 
-<% @gsponsors = [
+<% @ssponsors = [
 ]%>
-<%= make_sponsor_links(@gsponsors) %>
+<%= make_sponsor_links(@ssponsors) %>
 
 <br/>
 <br/>
 <h1><font color="MediumTurquoise">Glass</font> sponsors</h1>
 
-<% @gsponsors = [
+<% @bsponsors = [
+{ :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
+{ :image => "travis.png", :name => "Travis-CI", :link => "http://www.travis-ci.com/"}
+
 ]%>
-<%= make_sponsor_links(@gsponsors) %>
+<%= make_sponsor_links(@bsponsors) %>
 
 <br/>
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "code_and_supply.png", :name => "Pittsburgh Code & Supply", :link => "http://www.meetup.com/Pittsburgh-Code-Supply/"},
+
 ]%>
 <%= make_sponsor_links(@msponsors) %>
 
