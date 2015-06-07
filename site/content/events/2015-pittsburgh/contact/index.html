@@ -10,7 +10,7 @@ layout: event_pitt
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@page.directory) %>
 
-If you want to contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+Contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>.
 
 We pay attention to Twitter at [@devopsdayspgh](http://twitter.com/devopsdayspgh).
 
@@ -19,6 +19,9 @@ Most of our organizers hangout on [Code & Supply's Slack chat](http://www.codean
 ** Our special team **
 
 <%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+Please thank [@CodeAndSupply](http://www.twitter.com/codeandsupply) and
+[Justin X. Reese](http://www.twitter.com/justinxreese) for ensuring that our bills are paid.
 
 ** The core devopsdays organizer group **
 
