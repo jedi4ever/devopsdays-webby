@@ -12,7 +12,8 @@ end
 
 <% @gsponsors = [
 { :image => "versent.png", :name => "Versent", :link => "http://www.versent.com.au"},
-{ :image => "redhat.png", :name => "Red Hat", :link => "http://www.redhat.com"}
+{ :image => "redhat.png", :name => "Red Hat", :link => "http://www.redhat.com"},
+{ :image => "aconex.png", :name => "Aconex", :link => "http://www.aconex.com.au"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
