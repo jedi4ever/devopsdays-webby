@@ -10,6 +10,7 @@ end
 %>
 
 <% @gsponsors = [
+{ :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
 { :image => "sumologic.jpg", :name => "Sumo Logic", :link => "https://www.sumologic.com/"},
 { :image => "sps.jpg", :name => "SPS Commerce", :link => "http://www.spscommerce.com/"},
 { :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "https://www.puppetlabs.com/"},
@@ -32,7 +33,6 @@ end
 
 <% @slsponsors = [
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com" },
-{ :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
 { :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
 { :image => "dell.png", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com/"},
 { :image => "govdelivery.png", :name => "GovDelivery", :link => "http://www.govdelivery.com"},
