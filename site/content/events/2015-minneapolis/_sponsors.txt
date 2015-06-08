@@ -23,6 +23,7 @@ end
 { :image => "saltstack.png", :name => "SaltStack", :link => "http://saltstack.com/"},
 { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io"},
 { :image => "pivotal.png", :name => "Pivotal", :link => "http://pivotal.io"},
+{ :image => "docker.png", :name => "Docker", :link => "https://www.docker.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
