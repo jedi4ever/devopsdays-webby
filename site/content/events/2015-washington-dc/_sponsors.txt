@@ -16,8 +16,9 @@ filter:    erb
 { :image => "redhat.png",    :name => "Red Hat",            :link => "http://redhat.com"},
 { :image => "elastic.png",   :name => "Elastic",            :link => "http://www.elastic.co/"},
 { :image => "victorops.png", :name => "VictorOps",          :link => "http://www.victorops.com"},
-{ :image => "luminal.png",   :name => "Luminal",            :link => "http://www.luminal.com/"},
+{ :image => "fugue.png",     :name => "Fugue",              :link => "http://www.fugue.com/"},
 { :image => "sonatype.png",  :name => "Sonatype",           :link => "http://www.sonatype.com"},
+{ :image => "fireeye.png",   :name => "FireEye",            :link => "http://www.fireeye.com/"},
 ]%>
 <h1>Platinum Sponsors</h1>
 <% @ptsponsors.each do |sponsor| %>
