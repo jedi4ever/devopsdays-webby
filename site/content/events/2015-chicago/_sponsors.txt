@@ -31,7 +31,8 @@ end
 { :image => 'servercentral.png', :name => 'ServerCentral', :link => 'http://www.servercentral.com/'},
 { :image => 'moogsoft.png', :name => 'Moogsoft', :link => 'http://moogsoft.com/'},
 { :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://www.pagerduty.com/'},
-{ :image => 'sysdig.png', :name => 'Sysdig', :link => 'https://sysdig.com/'}
+{ :image => 'sysdig.png', :name => 'Sysdig', :link => 'https://sysdig.com/'},
+{ :image => 'alertops.png', :name => 'AlertOps', :link => 'http://alertops.com/'}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -65,12 +66,14 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
-{ :image => 'oreilly.png', :name => 'O&#39;Reilly Media', :link => 'http://oreilly.com/'}
+{ :image => 'oreilly.png', :name => 'O&#39;Reilly Media', :link => 'http://oreilly.com/'},
+{ :image => "ado.png", :name => "Arrested DevOps", :link => "http://arresteddevops.com/"},
+{ :image => "bit.png", :name => "Blacks in Technology", :link => "http://www.blacksintechnology.net/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
-<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+<% elsif @msponsors.size < 5 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
 
 <br/>
 <br/>
