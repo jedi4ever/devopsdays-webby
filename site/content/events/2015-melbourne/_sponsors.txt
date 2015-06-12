@@ -26,7 +26,8 @@ end
 
 <% @ssponsors = [
 { :image => "odecee.png", :name => "Odecee", :link => "http://www.odecee.com.au/"},
-{ :image => "realestatecomau.png", :name => "Realestate.com.au", :link => "http://www.realestate.com.au/"}
+{ :image => "realestatecomau.png", :name => "Realestate.com.au", :link => "http://www.realestate.com.au/"},
+{ :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -39,6 +40,7 @@ end
 
 <% @bsponsors = [
 { :image => "mosaic.png", :name => "Mosaic Recruitment", :link => "http://www.mosaicrecruitment.com.au/"},
+{ :image => "accenture.png", :name => "Accenture", :link => "http://www.accenture.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
