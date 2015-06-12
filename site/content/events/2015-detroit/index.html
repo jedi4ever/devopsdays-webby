@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Welcome
+layout: event
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table>
+    <tr>
+      <td>
+       <h3>Coming Soon: DevOpsDays Detroit 2015</h3>
+       <img src="grand_circus_map.png" alt="" width="565" height="408"/>
+      </td>
+    </tr>
+    <tr>
+      <td valign=top>
+        <br>
+        <strong>Dates:</strong> Hang tight! We're working hard to bring you the details for this event!
+        <br><br>
+        
+        In the meantime, please contact us if you'd like to <a href="./sponsor">sponsor the event</a>! It's a great way to promote your organization.
+        <br><br>
+        
+        If you are interested in joining the planning committee or have general questions, feel free to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">email the organizers</a>.
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</center>
+<hr>
