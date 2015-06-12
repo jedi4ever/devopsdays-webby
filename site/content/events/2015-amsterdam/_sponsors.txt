@@ -139,6 +139,13 @@ end
   },
 
   {
+    :image => "silver-aws.png",
+    :name => "Amazon Web Services",
+    :link => "http://www.amazon.jobs/location/dublin-ireland"
+  },
+
+
+  {
     :image => "silver-redhat.png",
     :name => "RedHat",
     :link => "http://redhat.com/"
