@@ -31,7 +31,8 @@ end
 
 <% @bsponsors = [
 { :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
-{ :image => "travis.png", :name => "Travis-CI", :link => "http://www.travis-ci.com/"}
+{ :image => "travis.png", :name => "Travis-CI", :link => "http://www.travis-ci.com/"},
+{ :image => "containership.png", :name => "ContainerShip.io", :link => "http://www.containership.io/"}
 
 ]%>
 <%= make_sponsor_links(@bsponsors) %>
