@@ -100,18 +100,6 @@ var melbournemarker = new MarkerWithLabel({
 
 google.maps.event.addListener(melbournemarker, "click", function (e) { location.href="/events/2015-melbourne"});
 
-var dclocation=new google.maps.LatLng(38.801694, -77.064043);
-var dcmarker = new MarkerWithLabel({
-    position: dclocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Washington, DC<br>Jun 11 & 12",
-    labelAnchor: new google.maps.Point(25, -10),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
 var perthlocation=new google.maps.LatLng(-31.9528536, 115.8573389);
 var perthmarker = new MarkerWithLabel({
     position: perthlocation,
@@ -124,8 +112,6 @@ var perthmarker = new MarkerWithLabel({
     labelStyle: {opacity: 1}
 });
 
-
-google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2015-washington-dc"});
 
 var sflocation=new google.maps.LatLng(37.3894, -122.0819);
 var sfmarker = new MarkerWithLabel({
