@@ -1,13 +1,9 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-washington-dc">
-      Washington, DC
-    </a>
-    -
     <a href="/events/2015-amsterdam">
       Amsterdam
     </a>
-    <br>
+    -
     <a href="/events/2015-minneapolis">
       Minneapolis
     </a>
