@@ -17,6 +17,7 @@
       <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
       <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
       <a href="/events/2015-singapore/">Singapore - 2015</a><br/>
+      <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
 </div>
   </tr>
 
