@@ -24,6 +24,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+ { :image => "endocode.png", :name => "Endocode", :link => "http://www.endocode.com/"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
