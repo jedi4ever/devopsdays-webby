@@ -32,6 +32,10 @@
       Bangalore
     </a>
     -
+    <a href="/events/2015-boston">
+      Boston
+    </a>
+    -
     <a href="/events/2015-berlin">
       Berlin
     </a>
