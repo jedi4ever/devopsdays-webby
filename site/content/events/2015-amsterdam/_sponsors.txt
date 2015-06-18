@@ -240,6 +240,16 @@ end
 
 <%= make_sponsor_links(@bsponsors) %>
 
+<h1>Community sponsors</h1>
+<% @csponsors = [
+  {
+    :image => "community-startupams.png",
+    :name => "Startup Amsterdam",
+    :link => "http://startupamsterdam.org/"
+  }
+  ]%>
+<%= make_sponsor_links(@csponsors) %>
+
 <h1>Media sponsors</h1>
 <% @msponsors = [
   {
