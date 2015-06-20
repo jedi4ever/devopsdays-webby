@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Javier Turegano
+title: The devops laboratory
+---
+"This talk will be going over 3 years of experiments in a medium/large sized online organization with a high pride of its devops culture and a massive push for autonomy in the business areas and teams that have provided lots of interesting results. 
+
+Some of the experiments that will be covered include:
+
+Centralized vs Secondments vs Embedded Operations
+The raise and decay of the first devops/tooling team
+Dedicated ops per team/stream, how many ops is too many ops
+Decentralize > Centralize > Decentralize > Centralize and so on
+The raise of the delivery engineering teams, sometimes called devops teams and sometimes BAU
+
+The focus of the talk would be focused on both cultural and technical aspects, but a bigger lean towards the first area.
+"""
+How these will be solved in the future"

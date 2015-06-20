@@ -1,0 +1,15 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: false
+selected: false
+layout: event
+author: Charles Korn
+title:  "Deploying A Smartphone App and Microservices Multiple Times A Day To Production: What Worked For Us"
+---
+"A cross-functional team of 10 were able to confidently deploy updates to a multi-platform smartphone app backed by a series of microservices multiple times a day, all while minimising downtime and reducing risk for the business. In this brief talk, I’ll discuss how we used techniques such as build pipelines and event sourcing combined with technologies such as Ansible and Docker to achieve this. I’ll also explain how the additional complexity introduced by a microservices architecture actually enabled us to move faster and rollback changes more easily. 
+"

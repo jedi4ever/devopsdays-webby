@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mujtaba Hussain
+title: Quit your job as a developer and go do OPS
+---
+"For 6 years I have worked in the software development industry as a programmer with enough knowledge about the systems to which I am deploying the applications I develop. In October 2014, I decided to remedy my lack of operations knowledge by quitting my job as a developer and taking up the position of Infrastructure Engineer at a startup. This talk shares my motivations and experiences in this journey and the lessons (learnings is not a word) learnt. Hopefully this inspires someone else as well.
+ 
+ Why would this be helpful: My understanding of DevOPS is that its not just about attending a meetup or two and learning all the cool ways in which developers press buttons on a bamboo build. It is about learning things from the other side. Learning things about the highs and lows of each others discipline. And I set out to do that by being an OPS full time. And whats more important, I did this deliberately and not due to some restructure in my company. With this talk, and my amazing good looks (TBC) I hope to convince a few more developers that this is the way of the future.
+ 
+ A few more salient points about the presentation itself.
+ 
+ In this talk, I will outline how: I came to realisation of the lack of knowledge I had about systems and deploying applications to said systems. I realised what I needed to learn in order to be a better engineer, and not just a programmer/developer. I decided to move onto a smaller company and why. I went about my work at the new place, things I did well and things I did not do well. Lessons I learnt overall My suggestions for the wider community of developers in this particular context. and much much more. And if you order now, you will get a free set of steak knives with every donated $20. USD"
