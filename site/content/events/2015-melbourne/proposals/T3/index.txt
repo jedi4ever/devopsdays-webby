@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Daniel Sowter
+title: "The platform or the roadmap?"
+---
+"It's been a busy year for our engineering team. We started with 6 or so legacy monoliths on a mix of physical and virtual ubuntu servers from a traditional Sydney datacentre, and as I write this, we're 30+ services exclusively running in Docker containers on CoreOS out of AWS in US East. I suspect lots of people have had similar projects this last year, and I expect there'd be lots to share purely from a tooling / operational perspective. I'm happy to speak to those, but I'd really like to discuss the evolving team structures (and the consequences of these structures) that have gone alongside this transition.
+
+We never had a ""move this to Amazon on CoreOS"" roadmap for the team. Everything operational is and was a supporting activity to the product roadmap, and to the core business goals. We love the Netflix / Spotify ""you build it, you run it"" attitude - but when you don't have their size to back it up, how much inconsistency between teams can you afford? When is autonomy (and diversity) better than encouraging (or enforcing) shared components?
+
+If the teams are aligned along business capabilities (consumer, charity, payments, etc), who picks up the tab for a unified logging system? There's a lot of painful lessons to be learned moving from something like Puppet + Ubuntu -> Docker + CoreOS... To be self-sufficient, should all the teams go through the same rite of passage? If they don't, will they become overreliant on their colleagues in other teams further down the road?
+
+I'd love to speak to the steps we took along the way, to where we are today - having broken a ""Tooling"" team out from the product-focussed ones. There have been tradeoffs in each phase, and I'm sure we have a long way to go, but I think we've learned enough to tell an interesting story.
+"
