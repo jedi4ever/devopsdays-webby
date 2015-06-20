@@ -8,7 +8,7 @@ ignite: true
 talk: false
 selected: false
 layout: event
-author: TBA
+author: Mirco Hering
 title: What we can learn from Computer games about maturity models
 ---
 "Maturity model are always at risk of being gamed.
