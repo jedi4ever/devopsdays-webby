@@ -9,6 +9,7 @@ It uses webby as a framework:
 
 ### On RedHat/CentOS/Fedora:
 `$ yum install oniguruma oniguruma-devel`
+`$ yum install libxslt libxml2 libxslt-devel libxlm2-devel`
 
 ### On Debian/Ubuntu:
 `$ apt-get install libonig-dev`
