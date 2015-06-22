@@ -33,6 +33,7 @@ end
 <% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <% @esponsors = [
+ { :image => "elastic.png", :name => "Elasticsearch", :link => "http://www.elastic.co/"},
 ]%>
 
 <% unless @esponsors.empty?  %><h1>Evening sponsor</h1><% end %>
