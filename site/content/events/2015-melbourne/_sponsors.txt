@@ -31,7 +31,7 @@ end
 { :image => "realestatecomau.png", :name => "Realestate.com.au", :link => "http://www.realestate.com.au/"},
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com/"},
 { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"},
-{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.org/"}
+{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
