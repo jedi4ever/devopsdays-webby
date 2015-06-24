@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 14
+title: "The evolution of monitoring systems. #monitoringstillsucks."
+---
+
+**Abstract:**
+Even though you and your team might employ the best monitoring solutions currently available, when a problem occurs it is often not only your problem and is often not caused by you. Can your monitoring solutions identify this when it occurs? When something goes wrong often there are usually one or two data points that tell us all we need to know. Pin-pointing these data points and knowing their relations is the hard part. Since the #monitoringsucks movement of 2011 a lot of great solutions have entered the monitoring market quite a bit, yet now we are faced with another challenge: how toprevent from drowning in monitoring data?
+
+In this talk you’ll get a ten thousand feet overview of all types of monitoring solutions. Where they stand and where they are headed. We will describe the different maturity levels organizations rise through. At the end of the presentation you know what your organization should do to stop drowning in monitoring data and what steps to take in order to reach the next level.
+
+**Speaker:**
+Speaker 14

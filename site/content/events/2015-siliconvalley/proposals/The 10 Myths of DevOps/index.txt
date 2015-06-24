@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 16
+title: "Using Continuous Integration to Test your Platform"
+---
+
+**Abstract:**
+
+Although not officially coined until 2009, DevOps ideals have been explicitly discussed since at least 2006. Recently, however, the term "DevOps" has gained increasing popularity across a variety of fields and industries. DevOps is not a development methodology or technology; DevOps is an ideology. It is a way to facilitate organizational prosperity and growth while increasing each individual employee's happiness along the way. As DevOps has gained in prominence, a gap has been created between the original definition of DevOps and this new "enterprise-ready" buzzword.
+For organizations beginning DevOps practices, this talk will provide a 10,000ft view of DevOps and how you can properly implement DevOps practices in your organization. For organizations that are currently practicing DevOps, this talk will cover common pitfalls, ways to sustain a happy culture, and new tips to foster organizational prosperity.
+
+After this session, attendees will have a firmer understanding of DevOps is, and more important what DevOps isn't. They will be empowered to facilitate change in their organization, while avoiding common pitfalls new organizations trying to "implement DevOps" experience.
+
+**Speaker:**
+Speaker 16
