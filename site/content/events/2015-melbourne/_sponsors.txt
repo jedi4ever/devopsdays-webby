@@ -29,7 +29,8 @@ end
 <% @ssponsors = [
 { :image => "odecee.png", :name => "Odecee", :link => "http://www.odecee.com.au/"},
 { :image => "realestatecomau.png", :name => "Realestate.com.au", :link => "http://www.realestate.com.au/"},
-{ :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com/"}
+{ :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com/"},
+{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
