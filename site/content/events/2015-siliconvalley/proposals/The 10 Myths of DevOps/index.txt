@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 author: Speaker 16
-title: "Using Continuous Integration to Test your Platform"
+title: "The 10 Myths of DevOps"
 ---
 
 **Abstract:**

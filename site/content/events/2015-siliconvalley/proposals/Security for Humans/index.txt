@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 author: Speaker 17
-title: "Using Continuous Integration to Test your Platform"
+title: "Security for Humans"
 ---
 
 **Abstract:**
