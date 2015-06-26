@@ -12,6 +12,7 @@ end
 
 <% @gsponsors = [
  { :image => "codecentric.png", :name => "Codecentric", :link => "https://www.codecentric.de/"},
+ { :image => "docker.png", :name => "Docker", :link => "https://www.docker.com/"},
  { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"},
  { :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
 ]%>
