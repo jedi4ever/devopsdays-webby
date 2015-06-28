@@ -58,19 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 // http://itouchmap.com/latlong.html
 
-amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
-var amsterdammarker = new MarkerWithLabel({
-  position: amsterdamlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Amsterdam<br>24, 25, 26 June",
-  labelAnchor: new google.maps.Point(0, 45),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterdam"});
 
 var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
 var minneapolismarker = new MarkerWithLabel({

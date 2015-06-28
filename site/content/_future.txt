@@ -5,16 +5,15 @@
 <div style="display:table-cell; vertical-align:top">
      <div style="margin:4px;">
       <strong>2015</strong><br/>
-      <a href="/events/2015-amsterdam">Amsterdam - June 2015</a><br/>
       <a href="/events/2015-minneapolis/">Minneapolis - July 2015</a><br/>
       <a href="/events/2015-melbourne/">Melbourne - July 2015</a><br/>
       <a href="/events/2015-pittsburgh/">Pittsburgh - August 2015</a><br/>
       <a href="/events/2015-chicago/">Chicago - August 2015</a><br/>
       <a href="/events/2015-bangalore/">Bangalore - September 2015</a><br/>
-      <a href="/events/2015-boston/">Boston - September 2015</a><br/> 
-      <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
-      <a href="/events/2015-perth/">Perth - October 2015</a><br/>
+      <a href="/events/2015-boston/">Boston - September 2015</a><br/>
       <a href="/events/2015-telaviv/">Tel Aviv - October 2015</a><br/>
+      <a href="/events/2015-perth/">Perth - October 2015</a><br/>
+      <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
       <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
       <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
       <a href="/events/2015-singapore/">Singapore - 2015</a><br/>
