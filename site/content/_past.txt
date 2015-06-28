@@ -103,7 +103,7 @@
       <a href="/events/2015-austin">Austin 2015</a><br/>
       <a href="/events/2015-toronto">Toronto 2015</a><br/>
       <a href="/events/2015-washington-dc/">Washington, DC 2015</a><br/>
-      <a href="/events/2015-amsterdam">Amsterdam</a><br/>
+      <a href="/events/2015-amsterdam">Amsterdam 2015</a><br/>
       </div>
 </div>
 
