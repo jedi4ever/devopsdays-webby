@@ -10,42 +10,75 @@ def make_sponsor_links(sponsors)
 end
 %>
 
-<% @gsponsors = [
-# { :image => "logo.png", :name => "Company name", :link => "http://www.example.com"}
+<% @sponsors = [
+#{ :image => "logo.png", :name => "Company name", :link => "http://www.example.com"}
 ]%>
-<%= make_sponsor_links(@gsponsors) %>
+<%= make_sponsor_links(@sponsors) %>
 <br />
-<% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
-<% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
+<% elsif @sponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
 <br/>
 <br/>
-<h1>Silver sponsors</h1>
+<h1>Silver Sponsors</h1>
 
-<% @ssponsors = [
+<% @sponsors = [
 ] %>
-<%= make_sponsor_links(@ssponsors) %>
+<%= make_sponsor_links(@sponsors) %>
 <br />
-<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
-<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
+<% elsif @sponsors.size < 4 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
 <br/>
-<h1>Bronze sponsors</h1>
+<h1>Host Sponsors</h1>
 
-<% @bsponsors = [
+<% @sponsors = [
 ] %>
-<%= make_sponsor_links(@bsponsors) %>
+<%= make_sponsor_links(@sponsors) %>
 <br />
-<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
-<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a>
+<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a><% end %>
 
 <br/>
 <br/>
-<h1>Media sponsors</h1>
-<% @msponsors = [
+<h1>After Party Sponsor</h1>
+
+<% @sponsors = [
 ] %>
-<%= make_sponsor_links(@msponsors) %>
+<%= make_sponsor_links(@sponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
-<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">After Party Sponsor!</a>
+<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">After Party Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Speaker Dinner Sponsor</h1>
+
+<% @sponsors = [
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Speaker Dinner Sponsor!</a>
+<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Speaker Dinner Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Lanyard Sponsors</h1>
+
+<% @sponsors = [
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a>
+<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Contributors</h1>
+<% @sponsors = [
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a>
+<% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a><% end %>
