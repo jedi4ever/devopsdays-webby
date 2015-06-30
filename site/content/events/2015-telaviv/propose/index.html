@@ -8,14 +8,13 @@ dirty: true
 platinum: true
 ---
 
-## CFP is open! Last date for submission: 1st of September, 2015
-## Submit your proposal in the form below.
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-<br/>
-<iframe src="https://docs.google.com/forms/d/1XberogeTEikd5Xspt_UouR4t1vqdCtW9TTOfBbzDAnE/viewform?embedded=true" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-<br/>
+## Last date for submission: <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>
 
-## There are three types of session:
+## [Submit your proposal](https://docs.google.com/forms/d/1XberogeTEikd5Xspt_UouR4t1vqdCtW9TTOfBbzDAnE/viewform)
+
+## There are four types of session:
   
 1. **_A proposal for a talk/panel_** during the conference part: these are 45 minutes slots that will have all people's full attention as everybody will be in that one room.
 2. **_An Ignite talk_** that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>: these are 5 minutes slots with slides changing every 15 seconds (20 slides total) also presented to all attendees in one room

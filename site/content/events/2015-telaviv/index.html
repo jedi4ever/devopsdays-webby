@@ -11,13 +11,11 @@ platinum: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
 <center>
-
-<h1>DevOpsDays TLV is coming back!</h1>
-
 <img border=0 src="logos/devopsdaystlv.jpg"><br>
+</center><br /><br />
 
-<h2><%= render(:partial => "/#{@eventhome}/_target_date") -%></h2>
-
-<h2><a href="/2015-telaviv/propose">CFP is now open!</a></h2>
-
-</center>
+### **Registration:** [Now Open](registration)
+### **Date:** <%= render(:partial => "/#{@eventhome}/_target_date") -%>
+### **Venue:** [Wohl Center](location)
+### **Call for papers:** [Now Open](propose)
+### **Last date for submission:** <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>
