@@ -48,7 +48,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-{ :image => 'victorops.png', :name => 'VictorOps', :link => 'https://victorops.com/'}
+{ :image => 'victorops.png', :name => 'VictorOps', :link => 'https://victorops.com/'},
+{ :image => 'cloudpassage.png', :name => 'CloudPassage', :link => 'https://www.cloudpassage.com/'},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
