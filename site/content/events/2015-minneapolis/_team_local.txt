@@ -2,6 +2,7 @@
 - Andy Domeier
 - Tom Duffield
 - Bridget Kromhout
+- Joe Laha
 - Heather Mickman
 - Tony Notto
 - Jeff Williams
