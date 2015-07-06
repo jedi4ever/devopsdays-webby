@@ -44,7 +44,8 @@ end
 
 <% @bsponsors = [
 { :image => "mosaic.png", :name => "Mosaic Recruitment", :link => "http://www.mosaicrecruitment.com.au/"},
-{ :image => "accenture.png", :name => "Accenture", :link => "http://www.accenture.com/"}
+{ :image => "accenture.png", :name => "Accenture", :link => "http://www.accenture.com/"},
+{ :image => "pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
