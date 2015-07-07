@@ -4,6 +4,7 @@
 - Aaron Lindstrom
 - Chris Read
 - Kevin Reedy
+- Sasha Rosenbaum
 - Charles Schwenger
 - Shannon Smith
 - Matt Stratton

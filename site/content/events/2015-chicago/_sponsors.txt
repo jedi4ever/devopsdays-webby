@@ -35,7 +35,7 @@ end
 { :image => 'alertops.png', :name => 'AlertOps', :link => 'http://alertops.com/'},
 { :image => 'docker.png', :name => 'Docker', :link => 'https://www.docker.com/'},
 { :image => 'saltstack.png', :name => 'SaltStack', :link => 'http://saltstack.com/'},
-{ :image => 'microsoft.png', :name => 'Microsoft', :link => 'https://www.microsoft.com'},
+{ :image => 'microsoft.png', :name => 'Visual Studio', :link => 'https://www.visualstudio.com/'},
 { :image => 'pivotal.png', :name => 'Pivotal', :link => 'https://pivotal.io/'},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
