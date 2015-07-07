@@ -3,7 +3,7 @@ extension: html
 filter:
 - erb
 - markdown
-title: proposals
+title: Proposals
 layout: event
 dirty: true
 ---
@@ -11,9 +11,9 @@ dirty: true
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>
-<b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
-Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
+<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %></b><br>
+<b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %></b><br>
+Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>
 </center>
 
 <hr>
