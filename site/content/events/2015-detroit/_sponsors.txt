@@ -5,13 +5,13 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}' target='_blank'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "rbn_logo_orange_100x100.png", :name => "Right Brain Networks", :link => "http://www.rightbrainnetworks.com"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -23,11 +23,23 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "message_blocks_logo_100x100.png", :name => "Message Blocks", :link => "https://www.messageblocks.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
 <% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
 <% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Party sponsors</h1>
+
+<% @partysponsors = [
+] %>
+<%= make_sponsor_links(@partysponsors) %>
+<br />
+<% if @partysponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a>
+<% elsif @partysponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a><% end %>
 
 <br/>
 <br/>
