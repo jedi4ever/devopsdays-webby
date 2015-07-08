@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 19
+title: "Containerization and Productivity and You"
+---
+
+**Abstract:**
+
+Containerization promises some great things in the field of DevOps. Software defined infrastructure empowers developers to create and maintain the exact software stack that they want to build on and maintain. At VictorOps, we sought to alleviate the pain of dependency management for the purposes of developer productivity and hit some stumbling blocks along the way. Whether it was the available toolset, or intrinsic properties of kernel level virtualization, we didn't find our silver bullet. I have seen many talks hailing containers as the future, and I tend to agree. However, I have seen zero talks detailing the work involved in migrating to such a stack for projects that have started on a non-containerized path. This migration has serious implications not only for operations, but for developers as well, and not just the obvious change of underlying infrastructure e.g.
+Running locally, what does that mean now?
+How do you get the software package (.deb, .tar, etc.) onto the image?
+What is the current state of tooling to deal additional layer of abstraction?
+How does developer workflow change to deal with this?
+
+This is the story of our foray into containers; what we liked, what we didn't, where things went wrong, and how you can avoid the same issues going forward.
+
+**Speaker:**
+Speaker 19
