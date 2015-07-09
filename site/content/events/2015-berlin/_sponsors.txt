@@ -11,6 +11,7 @@ end
 %>
 
 <% @gsponsors = [
+ { :image => "autoscout.png", :name => "AutoScout24", :link => "http://about.autoscout24.com/de-de/au-career.asp"},
  { :image => "codecentric.png", :name => "Codecentric", :link => "https://www.codecentric.de/"},
  { :image => "docker.png", :name => "Docker", :link => "https://www.docker.com/"},
  { :image => "epost.png", :name => "E-POST", :link => "http://www.epost.de/"},
