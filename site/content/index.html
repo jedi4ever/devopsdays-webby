@@ -59,20 +59,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 // http://itouchmap.com/latlong.html
 
 
-var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
-var minneapolismarker = new MarkerWithLabel({
-    position: minneapolislocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Minneapolis<br>Jul 8 & 9",
-    labelAnchor: new google.maps.Point(40, 52),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2015-minneapolis"});
-
 var melbournelocation=new google.maps.LatLng(-37.824279, 144.958458);
 var melbournemarker = new MarkerWithLabel({
     position: melbournelocation,
@@ -205,7 +191,7 @@ var detroitmarker = new MarkerWithLabel({
   raiseOnDrag: false,
   map: map,
   labelContent: "Detroit<br>Nov 11 & 12",
-  labelAnchor: new google.maps.Point(0, 50),
+  labelAnchor: new google.maps.Point(40, 60),
   labelClass: "labels",
   labelStyle: { opacity: 1 }
 });
