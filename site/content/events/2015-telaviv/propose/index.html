@@ -3,16 +3,18 @@ filter:
 - erb
 - markdown
 layout: event
-title: proposals
+title: Proposals
 dirty: true
 platinum: true
 ---
 
-# CFP is now open! 
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+## Last date for submission: <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>
+
 ## [Submit your proposal](https://docs.google.com/forms/d/1XberogeTEikd5Xspt_UouR4t1vqdCtW9TTOfBbzDAnE/viewform)
 
-
-## There are three types of session:
+## There are four types of session:
   
 1. **_A proposal for a talk/panel_** during the conference part: these are 45 minutes slots that will have all people's full attention as everybody will be in that one room.
 2. **_An Ignite talk_** that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>: these are 5 minutes slots with slides changing every 15 seconds (20 slides total) also presented to all attendees in one room

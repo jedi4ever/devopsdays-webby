@@ -10,9 +10,9 @@ platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
-<% @organizeremail = render(:partial => "/#{@eventhome}/_email_organizers").strip %>
+<% @sponsor_team_email = 'sponsorships@devopsdayschi.org' %>
 
-We greatly value sponsors for this open event. If you are interested in sponsoring, please check out our <a href="/<%= @eventhome %>/sponsor/devopsdays-chicago-2015-prospectus.pdf">prospectus</a> and [drop us an email](mailto:<%= @organizeremail %>?subject=Interested in Sponsoring DevOpsDays Chicago 2015).
+We greatly value sponsors for this open event. If you are interested in sponsoring, please check out our <a href="/<%= @eventhome %>/sponsor/devopsdays-chicago-2015-prospectus.pdf">prospectus</a> and [drop us an email](mailto:<%= @sponsor_team_email %>?subject=Interested in Sponsoring DevOpsDays Chicago 2015).
 
 <hr>
 
@@ -47,7 +47,7 @@ The best thing to do is send engineers to interact with the experts at DevOpsDay
     <tr>
       <td></td>
       <!-- <td colspan="4" style="text-align:center;">
-        Please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Chicago 2015 Sponsorship">contact us</a> to inquire about sponsorship.
+        Please <a href="mailto:<%= @sponsor_team_email %>?subject=DevOpsDays Chicago 2015 Sponsorship">contact us</a> to inquire about sponsorship.
       </td> -->
       <td colspan="3" style="padding:0px;">
         <table style="margin:0px;line-height:6px;">
@@ -73,11 +73,11 @@ The best thing to do is send engineers to interact with the experts at DevOpsDay
             </td>
             <td style="padding: 4px 10px 0px 5px;">
               <!-- I know, nbsp.  This thing is insane -->
-              <p><a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Chicago 2015 Sponsorship">Contact&nbsp;us!</a></p>
+              <p><a href="mailto:<%= @sponsor_team_email %>?subject=DevOpsDays Chicago 2015 Sponsorship">Contact&nbsp;us!</a></p>
             </td>
           </tr>
           <tr>
-            <td colspan="3" style="padding: 2px 0 12px 0;text-align: center;"><a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Chicago 2015 Sponsorship">Email us</a> if you prefer to pay by check</td>
+            <td colspan="3" style="padding: 2px 0 12px 0;text-align: center;"><a href="mailto:<%= @sponsor_team_email %>?subject=DevOpsDays Chicago 2015 Sponsorship">Email us</a> if you prefer to pay by check</td>
           </tr>
         </table>
       </td>
@@ -163,7 +163,7 @@ The best thing to do is send engineers to interact with the experts at DevOpsDay
   <br/>
   <br/>
   <hr/>
-  There are also opportunities for exclusive special sponsorships. We have sponsorships available for an evening event and a speakers' dinner with special privileges for the sponsors of these events. We also have a lanyard sponsorship available. If you are interested in special sponsorships or have a creative idea about how you can support the event, <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=DevOpsDays Chicago 2015 Sponsorship">send us an email</a>.
+  There are also opportunities for exclusive special sponsorships. We have sponsorships available for an evening event and a speakers' dinner with special privileges for the sponsors of these events. We also have a lanyard sponsorship available. If you are interested in special sponsorships or have a creative idea about how you can support the event, <a href="mailto:<%= @sponsor_team_email %>?subject=DevOpsDays Chicago 2015 Sponsorship">send us an email</a>.
   <br/>
   <br/>
 </div>

@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Will Thames 
+title: What Operations can learn from Developers 
+---
+"Developers have learned over the course of many many years that high quality software development practices tend to result in high quality code, with bugs caught at various stages in the software development process - either very early through unit tests or later on through integration tests.
+
+Practices such as source control are by now well known, reasonably understood and implemented in all mature operations teams.
+
+Practices such as pinning packages, libraries or commits to specific versions are probably less widely used.
+
+I would like to talk about code review practices, such as pull requests, that allow contributions from team members to be peer reviewed, and contributions from non-operations colleagues to be made without giving full production push rights. Documentation can live alongside the code in the repo.
+
+Having best practices and standards reviewed and improved in a similar manner to code allows the whole team to contribute to improving quality and drive improvement organically through full team contribution, rather than imposed from on high by fiat.
+
+I will also cover test scenarios from running software in non production environments through to the full CI/CD implementation. Confidence in code comes from good test coverage in breadth and depth. Performance is also crucial - a slow test suite doesn’t get run as often as it should.
+
+On top of this I might talk a bit about inheritance hierarchies, code reuse, and abstraction with reference to configuration management. I may also stray into source control hooks and aliases to make lives safer and easier.
+
+While this might seem a bit like a tools topic, it’s actually more cultural, with the key being how teams can work together to protect their codebase from poor practices for a higher quality result."

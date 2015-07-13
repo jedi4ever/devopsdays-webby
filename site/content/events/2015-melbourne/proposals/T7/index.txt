@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Shiva Narayanaswamy
+title: Event Driven Infrastructure
+---
+"Event driven architectures are becoming mainstream with many organizations realizing the pace of innovation is a key differentiator, and loosely coupled software components allow them to move their business ideas to production in the shortest possible time, reliably. Until now, event driven architectures were restrained by the underlying infrastructure. Not any more. With the recent innovations in public cloud services, developers are able to throw away their shackles and just write code.
+ 
+This talk will be focussed on the new possibilities unleashed by the ability to drive infrastructure based on events. All you need is code, and come get your Function-as-a-Service. On demand, elastic provisioning of compute/memory resources to run your microservice, in milliseconds, and not having to worry about the underlying infrastructure.AWS services will be used as examples, though the underlying concepts are applicable to any cloud provider with relevant services behind an API. A couple of the possibilities explored in the talk will be -:
+-       Extending Infrastructure as a Code to be driven by events, to anything that can be provisioned with an API
+
+-       Event driven Infrastructure for IoT"

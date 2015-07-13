@@ -1,0 +1,16 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: false
+selected: false
+layout: event
+author: Mirco Hering
+title: What we can learn from Computer games about maturity models
+---
+"Maturity model are always at risk of being gamed.
+ But perhaps gaming is not a bad inspiration for maturity models.
+ Being inspired by the tech tree of civilisation, we have created a Continuous Delivery Tech tree that addresses many concerns we have about maturity models."

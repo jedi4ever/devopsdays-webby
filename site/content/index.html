@@ -58,33 +58,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 // http://itouchmap.com/latlong.html
 
-amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
-var amsterdammarker = new MarkerWithLabel({
-  position: amsterdamlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Amsterdam<br>24, 25, 26 June",
-  labelAnchor: new google.maps.Point(0, 45),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterdam"});
-
-var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
-var minneapolismarker = new MarkerWithLabel({
-    position: minneapolislocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Minneapolis<br>Jul 8 & 9",
-    labelAnchor: new google.maps.Point(40, 52),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2015-minneapolis"});
 
 var melbournelocation=new google.maps.LatLng(-37.824279, 144.958458);
 var melbournemarker = new MarkerWithLabel({
@@ -197,6 +170,33 @@ var bangaloremarker = new MarkerWithLabel({
 
 google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="/events/2015-bangalore/"});
 
+var bostonlocation = new google.maps.LatLng(42.361369, -71.081355);
+var bostonmarker = new MarkerWithLabel({
+  position: bostonlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Boston<br>Sep 15 & 16",
+  labelAnchor: new google.maps.Point(0, 50),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2015-boston/"});
+
+var detroitlocation = new google.maps.LatLng(42.3595788,-83.0706835);
+var detroitmarker = new MarkerWithLabel({
+  position: detroitlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Detroit<br>Nov 11 & 12",
+  labelAnchor: new google.maps.Point(40, 60),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2015-detroit/"});
 }
 
 

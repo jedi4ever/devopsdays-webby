@@ -12,7 +12,10 @@ end
 
 <% @gsponsors = [
  { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io", :width => '100px', :height => '100px' },
+ { :image => "docker.png", :name => "Jut", :link => "http://www.docker.io", :width => '100px', :height => '100px' },
  { :image => 'appformix.png', :name => 'AppFormix', :link => 'http://www.appformix.com', :width => '150px', :height => '50px' },
+ { :image => 'sysdig.png', :name => 'Sysdig', :link => 'http://www.sysdig.com', :width => '100px', :height => '100px' },
+ { :image => 'cloudpassage.png', :name => 'CloudPassage', :link => 'http://www.cloudpassage.com', :width => '100px', :height => '100px' },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />

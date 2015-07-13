@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Sam Kottler
+title: "How to Debug Anything"
+
+---
+
+**Abstract:**
+
+In this talk, Sam will discuss some common and some not-so-common tools for debugging code, systems, and anything in between. He will take strace, valgrind, gdb to the next level.
+
+**Speaker:**
+Sam Kottler
+
+Sam Kottler is a software and systems engineer; he's a core committer on Bundler, RubyGems, CentOS, Ansible, and operates RubyGems.org's infrastructure. In addition to his open source contributions, Sam is the founding member of the platform engineering team at DigitalOcean, where he designs and manages hardware, data centers, and systems across the globe. Before DigitalOcean he worked in Red Hat's virtualization group, and was an early engineer at Venmo and Acquia.

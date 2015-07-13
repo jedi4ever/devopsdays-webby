@@ -3,7 +3,7 @@ extension: html
 filter:
 - erb
 - markdown
-title: welcome
+title: Welcome
 layout: event
 dirty: true
 platinum: true
@@ -11,8 +11,11 @@ platinum: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
 <center>
-<h2>DevOpsDays TLV is coming back!</h2>
 <img border=0 src="logos/devopsdaystlv.jpg"><br>
-<h1><%= render(:partial => "/#{@eventhome}/_target_date") -%> </h1>
-<h2>CFP is now open!</h2>
-</center>
+</center><br /><br />
+
+### **Registration:** [Now Open](registration)
+### **Date:** <%= render(:partial => "/#{@eventhome}/_target_date") -%>
+### **Venue:** [Wohl Center](location)
+### **Call for papers:** [Now Open](propose)
+### **Last date for submission:** <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>
