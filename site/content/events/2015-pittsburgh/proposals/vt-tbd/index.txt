@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Valerie Thomas
+title: "TBD"
+
+---
+
+**Abstract:**
+
+TBD
+
+**Speaker:**
+Valerie Thomas
+
+TBD
