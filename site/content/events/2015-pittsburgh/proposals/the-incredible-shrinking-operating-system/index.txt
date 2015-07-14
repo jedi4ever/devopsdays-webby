@@ -1,0 +1,78 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Steve Jones
+title: "The Incredible Shrinking Operating System!"
+
+---
+
+**Abstract:**
+
+Operating Systems. Where did they come from? Did your customer ask for one?
+Why do you bother with them at all?
+
+Operating systems have traditionally played an enormous part in software
+development and operations. Most of us would find it difficult to imagine
+computing without one. They are certainly a source of religious contention.
+
+Operating systems represent a maintenance and security burden; they have long
+been viewed by many as a necessary evil. They often bring more bulk and
+complexity than the systems we are producing; particularly in the case of
+microservices. They complicate security, greatly increasing the attack surface,
+and they require a significant expense and effort to maintain. But generally,
+operating systems are assumed to be required and we seldom consider a service
+environment without them. How well do you really even know what you're deploying
+when an OS is involved?
+
+Operating systems introduce variation into a development workflow that can be
+difficult to manage. On a dev team, each individual's computing environment
+tends to stray apart. This divergence is a primary cause of Works-on-my-box
+syndrome. Things such as VM, libraries and general configuration are a source of
+drift.
+
+Unless your product is, itself, an operating system, your customer is not
+generally concerned about your OS. A great deal of effort and expense goes to
+the operating system, without any direct ROI.
+
+We will take a look at the ways emerging technologies will help you to reduce
+the liability of operating systems. We will consider how the minimization, or
+even elimination, of the operating system impacts development workflow; for
+better or worse. What would a CD pipeline look like? In particular, we would
+like to consider ways in which containers and unikernels or anykernels
+complement and can be used in combination.
+
+**Speaker:**
+Steve Jones
+
+In his deluded state, Steve fancies himself the Liebniz of DevOps, or its Tesla.
+Or, as even he would concede more likely, its Rodney Dangerfield. He has worked
+as a software developer for nearly a quarter of a century, with pronounced
+polyglot tendencies since the 90's - wow! Steve has worked in various industries
+and for companies as small as startups and as gargantuan as Lockheed Martin.
+When he began hearing talk of `DevOps`, he immediately resonated with what he
+heard; he was pleased there was actually a word for it (although he realized
+this word was destined to be abused).
+
+Steve has always been a *Dev*, but also a little bit *Ops*, beginning from the
+time they first plopped a Sun workstation on his desk. Not long after, Linux
+showed up in the form of a few floppy images which he downloaded over 24k baud
+modem. Debian appeared and has been his desktop/laptop environment of choice
+ever since. He never aspired to be a sysadmin per se, but always considered a
+certain subset of it as part of his stock-in-trade.
+
+By day, Steve is a software developer and an active DevOps practitioner, as well
+as a proponent and evangelist. In terms of tools, he is a daily user of things
+like Ansible, Vagrant and Docker; all of which he introduced at his current
+workplace. In matters of culture, he's trying very hard to balance passion and
+empathy -- he's trying.
+
+By night, he is a devotee of the Functional Programming Paradigm.
+
+You will be hearing more about him soon; hopefully not on the evening news.
