@@ -15,6 +15,7 @@ end
 { :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
 { :image => "sysdig.png", :name => "Sysdig", :link => "http://www.sysdig.com/"},
 { :image => "uber.png", :name => "Uber Advanced Technologies Center", :link => "http://www.uberatc.com/"},
+{ :image => "pivotal.png", :name => "Pivotal Software", :link => "http://www.pivotal.io/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
