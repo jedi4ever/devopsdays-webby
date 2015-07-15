@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 20
+title: "Not Everybody is Kelsey Hightower"
+---
+
+This is the tale of how we iterate on infrastructure, tooling, and product
+continuously at $startup. It arose from a need for an infrastructure that would
+allow us to continuously deliver applications; that would be appropriate for
+distributed systems and a services-oriented architecture; and that facilitated
+rapidly prototyping, building, and scaling new features. We went from a couple
+of Ubuntu instances with services running in screen to continuous deployments
+using Docker, CoreOS, Fleet, and custom tooling (soon to be open sourced). It
+stars our intrepid heroine, $name, in zir first role as employee #1 at a
+startup and the entire corpus of Kelsey Hightower's open source contributions
+as zir trusty sidekick.
+
+It's a tale of experimentation, failure, breaking things, rebuilding things,
+and finally just running things (with scissors). It runs the gamut of emotions
+in your typical buddy flick as our stars learn how to run software together.
+You'll laugh as they try to run Kubernetes in production from day one. You'll
+cry when they manually rebuild an etcd2 cluster because they have to learn how.
+You'll be on the edge of your seat when they rebuild an entire AWS infrastructure
+in 15 minutes. You'll smile when the complete development stack spins up in Docker
+and no developer ever has to hit production databases again.
+
+The moral of the story: you don't go from zero to Kelsey Hightower overnight.
+Understand your needs, and use that understanding to describe the ideal
+tool for the job. Evaluate multiple tools and find the tool or tools with the
+closest resemblance that allow you to do the most by doing the least. Then
+experiment until you get it right.
+
+**Speaker:**
+Speaker 20
