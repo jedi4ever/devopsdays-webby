@@ -39,5 +39,9 @@
     <a href="/events/2015-detroit">
       Detroit
     </a>
+    -
+    <a href="/events/2015-charlotte”>
+      Charlotte
+    </a>
   </h3>
 </div>
