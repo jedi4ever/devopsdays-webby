@@ -50,6 +50,7 @@ end
 <% @ssponsors = [
 { :image => 'victorops.png', :name => 'VictorOps', :link => 'https://victorops.com/'},
 { :image => 'cloudpassage.png', :name => 'CloudPassage', :link => 'https://www.cloudpassage.com/'},
+{ :image => 'sumologic.png', :name => 'Sumo Logic', :link => 'https://www.sumologic.com/'},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
