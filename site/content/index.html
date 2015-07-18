@@ -107,7 +107,7 @@ var chicagomarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Chicago<br>Aug 25 & 26",
-    labelAnchor: new google.maps.Point(43, 35),
+    labelAnchor: new google.maps.Point(55, 35),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
@@ -121,7 +121,7 @@ var pittsburghmarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Pittsburgh<br>Aug 13 & 14",
-    labelAnchor: new google.maps.Point(20, 12),
+    labelAnchor: new google.maps.Point(10, 2),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
 });
@@ -191,14 +191,42 @@ var detroitmarker = new MarkerWithLabel({
   raiseOnDrag: false,
   map: map,
   labelContent: "Detroit<br>Nov 11 & 12",
-  labelAnchor: new google.maps.Point(40, 60),
+  labelAnchor: new google.maps.Point(40, 65),
   labelClass: "labels",
   labelStyle: { opacity: 1 }
 });
 
 google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2015-detroit/"});
-}
 
+var singaporelocation = new google.maps.LatLng(1.283333, 103.833333);
+var singaporemarker = new MarkerWithLabel({
+  position: singaporelocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Singapore<br>Oct 16 & 17",
+  labelAnchor: new google.maps.Point(38, 25),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(singaporemarker, "click", function (e) { location.href="/events/2015-singapore/"});
+
+
+var ohiolocation = new google.maps.LatLng(39.9833, -82.9833);
+var ohiomarker = new MarkerWithLabel({
+  position: ohiolocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Ohio<br>Nov 18 & 19",
+  labelAnchor: new google.maps.Point(10, 30),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(ohiomarker, "click", function (e) { location.href="/events/2015-ohio/"});
+}
 
 
 
