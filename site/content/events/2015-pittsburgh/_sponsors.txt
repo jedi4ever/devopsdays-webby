@@ -17,7 +17,6 @@ end
 { :image => "uber.png", :name => "Uber Advanced Technologies Center", :link => "http://www.uberatc.com/"},
 { :image => "pivotal.png", :name => "Pivotal Software", :link => "http://www.pivotal.io/"},
 { :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
-{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -26,6 +25,7 @@ end
 <h1><font color="Gainsboro">Aluminum</font> sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 ]%>
 <%= make_sponsor_links(@ssponsors) %>
 
