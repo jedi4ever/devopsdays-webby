@@ -45,6 +45,7 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "imaginecareers.png", :name => "Imagine Careers", :link => "http://www.imaginecareers.com"},
 { :image => "code_and_supply.png", :name => "Pittsburgh Code & Supply", :link => "http://www.meetup.com/Pittsburgh-Code-Supply/"},
 
 ]%>
