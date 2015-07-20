@@ -26,6 +26,8 @@ Let's spend 5 minutes and explore StatsD, an open-sourced network daemon that li
 
 Walk away with a great head start on a technology you've heard a lot about - but haven't had the chance to explore.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qAMu5dRDmGA?start=347&end=650" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Mark Morris
 

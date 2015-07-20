@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Sara Cowles
+title: "If you want to have an impact"
+---
+
+**Abstract:**
+If you want to have an impact, DevOps is not enough.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qAMu5dRDmGA?start=657&end=972" frameborder="0" allowfullscreen></iframe>
+
+**Speaker:**
+Sara Cowles

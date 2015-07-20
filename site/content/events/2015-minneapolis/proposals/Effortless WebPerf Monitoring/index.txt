@@ -22,6 +22,12 @@ Inspired by the <a href="https://github.com/alphagov/event-store">UK GDS team's 
 
 In this ignite, I'd like to talk about the conversations and brainstorming that lead to this initiative, about some of the mechanics of collecting the data, and how it has changed the way front-end developers relate to the production applications and monitoring dashboards used by the team. I plan to focus on the cultural aspects of the experience, but will also be able to share the architecture and code.
 
+Slides:
+<script async class="speakerdeck-embed" data-id="932c1c5a6d2c4ed899a19893908bb64f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+Video:
+<iframe width="560" height="315" src="//www.youtube.com/embed/ku3O4HnMXrM?start=387&end=694" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Michael Lanyon
 
