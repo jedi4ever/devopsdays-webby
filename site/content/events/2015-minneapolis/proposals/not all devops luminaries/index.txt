@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Andrew Clay Shafer
+title: "not all devops luminaries"
+---
+
+**Abstract:**
+
+A far-reaching and thought-provoking closing keynote by an early influencer in the devops movement.
+
+Video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dg5U9mj3HCo" frameborder="0" allowfullscreen></iframe>
+
+**Speaker:**
+Andrew Clay Shafer
