@@ -16,6 +16,7 @@ end
 { :image => "sysdig.png", :name => "Sysdig", :link => "http://www.sysdig.com/"},
 { :image => "uber.png", :name => "Uber Advanced Technologies Center", :link => "http://www.uberatc.com/"},
 { :image => "pivotal.png", :name => "Pivotal Software", :link => "http://www.pivotal.io/"},
+{ :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -24,6 +25,7 @@ end
 <h1><font color="Gainsboro">Aluminum</font> sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 ]%>
 <%= make_sponsor_links(@ssponsors) %>
 
@@ -43,7 +45,9 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "imaginecareers.png", :name => "Imagine Careers", :link => "http://www.imaginecareers.com"},
 { :image => "code_and_supply.png", :name => "Pittsburgh Code & Supply", :link => "http://www.meetup.com/Pittsburgh-Code-Supply/"},
+{ :image => "gdi.png", :name => "Girl Develop It", :link => "https://www.girldevelopit.com/chapters/pittsburgh"},
 
 ]%>
 <%= make_sponsor_links(@msponsors) %>

@@ -40,8 +40,8 @@
       Detroit
     </a>
     -
-    <a href="/events/2015-charlotte”>
-      Charlotte
+    <a href="/events/2015-ohio">
+      Ohio
     </a>
   </h3>
 </div>

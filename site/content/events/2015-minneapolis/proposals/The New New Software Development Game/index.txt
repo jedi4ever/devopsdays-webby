@@ -20,5 +20,8 @@ It’s time to focus on the tools and techniques that make it possible for small
 
 In the end the important question is:  How long does it take you to deploy a single line a code, learn something useful, and act on the information?
 
+Video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K2_yPtAB7Lw" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Mary Poppendieck

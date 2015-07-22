@@ -1,4 +1,4 @@
-<div style="height:350px;" id="quicklinks">
+<div style="height:425px;" id="quicklinks">
 <table>
 
 <tr>
@@ -14,10 +14,10 @@
       <a href="/events/2015-perth/">Perth - October 2015</a><br/>
       <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
       <a href="/events/2015-singapore/">Singapore - October 2015</a><br/>
-      <a href="/events/2015-charlotte/“>Charlotte - 2015</a><br/>
       <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
       <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
       <a href="/events/2015-ohio/">Ohio - 2015</a><br/>
+      <a href="/events/2015-charlotte">Charlotte - 2015</a><br/>
       <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
       <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
 </div>
