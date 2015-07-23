@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 24
+title: "The Inevitable Convergence of DevOps and Security"
+---
+
+**Abstract:**
+
+Note: this could also be a panel or general discussion if multiple presenters are of the same mind.
+I’m interested in showcasing how the impossible proposition of computer security and stopping attacks against rapidly evolving exploits simply has no real solution in today’s world. Enterprises patch layers on layers of solutions, but the efficacy is extremely low. The only “solution" is to patch as fast as earthly possible. For that, of course, you need DevOps. You have to get security patches from Dev to QA to prod as rapidly as possible, preferably within hours of release. Because exploit kits package new exploits as soon as they are publicly known. They’re small shops and can release software rapidly, so to maintain parity defensive capability, enterprises have to patch equally rapidly. So this is really a talk about DevSecOps. Or SecDevOps. I have a number of studies I can use to chart this, and at the end of the day, the presentation would speak powerfully towards DevOps and turning CSO’s and their teams into enablers instead of the usual disablers that we all know and (don’t) love.
+**Speaker:**
+
+Speaker 24
