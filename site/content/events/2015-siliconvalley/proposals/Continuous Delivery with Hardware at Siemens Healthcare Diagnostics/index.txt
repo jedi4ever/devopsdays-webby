@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 23
+title: "Continuous Delivery with Hardware at Siemens Healthcare Diagnostics"
+---
+
+**Abstract:**
+
+How would you turn around a 300 developer project, across multiple sites, with C#, C++ and Embedded C++ code, over 20 branches, and a very deep regulation related process? How do you make a huge application deployable onto hardware automatically? Multiple times a day? How do you handle the people aspects of achieving that?
+
+In this talk we will discuss steps we took at a large project in siemens heathcare to tackle exactly these problems. From designin the CI pipeline, the deployment pipline, how the various groups interacted with each other, and other problems we came across along the way.
+
+Details
+Takeaways:
+- even in a huge paper loving organization, a real change can still be made
+- management is a make or break factor
+- what does a pipeline with hardware look like?
+- how to handle various stakeholders of the pipeline
+
+flow:
+- introducing the project (before): numbers, problems
+- introducing the vision
+- the steps we took to apply that vision
+- problems along the way: QA, amount of available hardware, politics
+- what software tools we used and customized (teamcity, finalbuilder, VCloud, PRTG etc)
+- monitoring with PRTG ( with beautiful screenshots)
+- screenshots of the delivery pipeline in teamcity
+- lessons learned
+
+**Speaker:**
+Speaker 23

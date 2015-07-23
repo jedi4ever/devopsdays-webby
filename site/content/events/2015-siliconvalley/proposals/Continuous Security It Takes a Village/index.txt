@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 22
+title: "Continuous Security: It Takes a Village"
+---
+
+**Abstract:**
+
+If it takes a village to make software security assurance (SSA) successful, you need to understand the motivations of your neighbors. In particular, the development team who is incented to innovate and deliver quickly and the ops team who is incented to be efficient and reliable.  SSA initiatives that work counter to these goals cannot succeed. On the other hand, Security teams that can embed themselves in the software development lifecycle (SDLC) with a focus on today’s continuous and DevOps patterns can both secure IT at speed and contribute to a more reliable, repeatable and higher quality release cycle.
+
+Today’s SDLC is more like a software factory with far less custom code and far more reusable building blocks like open source components. This past year was open season on open source: Heartbleed, Bash Bug, Shellshock... For most it took days, weeks, even months to determine if they were impacted, where they were impacted and then make the appropriate fixes. And those are just the vulnerabilities that made the headlines.
+
+Join this session to learn about bringing Security, Dev and Ops together to apply proven supply chain principles to the software supply chain for continuous security.
+
+**Speaker:**
+Speaker 22
