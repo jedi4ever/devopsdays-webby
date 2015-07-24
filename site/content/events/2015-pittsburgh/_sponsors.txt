@@ -49,7 +49,7 @@ end
 { :image => "code_and_supply.png", :name => "Pittsburgh Code & Supply", :link => "http://www.meetup.com/Pittsburgh-Code-Supply/"},
 { :image => "gdi.png", :name => "Girl Develop It", :link => "https://www.girldevelopit.com/chapters/pittsburgh"},
 { :image => "womenwhocode.png", :name => "Women Who Code", :link => "https://www.womenwhocode.com/"},
-
+{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
 
 ]%>
 <%= make_sponsor_links(@msponsors) %>
