@@ -59,20 +59,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 // http://itouchmap.com/latlong.html
 
 
-var melbournelocation=new google.maps.LatLng(-37.824279, 144.958458);
-var melbournemarker = new MarkerWithLabel({
-    position: melbournelocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Melbourne<br>Jul 16 & 17",
-    labelAnchor: new google.maps.Point(40, 40),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(melbournemarker, "click", function (e) { location.href="/events/2015-melbourne"});
-
 var perthlocation=new google.maps.LatLng(-31.9528536, 115.8573389);
 var perthmarker = new MarkerWithLabel({
     position: perthlocation,
@@ -80,7 +66,7 @@ var perthmarker = new MarkerWithLabel({
     raiseOnDrag: false,
     map: map,
     labelContent: "Perth<br>Oct 14 & 15",
-    labelAnchor: new google.maps.Point(40, 40),
+    labelAnchor: new google.maps.Point(30, 40),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });

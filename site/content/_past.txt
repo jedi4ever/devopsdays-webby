@@ -105,6 +105,7 @@
       <a href="/events/2015-washington-dc/">Washington, DC 2015</a><br/>
       <a href="/events/2015-amsterdam">Amsterdam 2015</a><br/>
       <a href="/events/2015-minneapolis/">Minneapolis 2015</a><br/>
+      <a href="/events/2015-melbourne/">Melbourne 2015</a><br/>
       </div>
 </div>
 
