@@ -36,8 +36,8 @@ end
 <% @bsponsors = [
 { :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
 { :image => "travis.png", :name => "Travis-CI", :link => "http://www.travis-ci.com/"},
-{ :image => "containership.png", :name => "ContainerShip.io", :link => "http://www.containership.io/"}
-
+{ :image => "containership.png", :name => "ContainerShip.io", :link => "http://www.containership.io/"},
+{ :image => "digital_ocean.png", :name => "Digital Ocean", :link => "https://www.digitalocean.com/"}
 ]%>
 <%= make_sponsor_links(@bsponsors) %>
 
@@ -48,6 +48,8 @@ end
 { :image => "imaginecareers.png", :name => "Imagine Careers", :link => "http://www.imaginecareers.com"},
 { :image => "code_and_supply.png", :name => "Pittsburgh Code & Supply", :link => "http://www.meetup.com/Pittsburgh-Code-Supply/"},
 { :image => "gdi.png", :name => "Girl Develop It", :link => "https://www.girldevelopit.com/chapters/pittsburgh"},
+{ :image => "womenwhocode.png", :name => "Women Who Code", :link => "https://www.womenwhocode.com/"},
+{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
 
 ]%>
 <%= make_sponsor_links(@msponsors) %>

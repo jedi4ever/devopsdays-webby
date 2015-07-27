@@ -10,7 +10,12 @@ layout: event
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring this event in any way, please [email us](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor DevOpsDays Detroit<%= @eventid %>).
+We greatly value sponsors for this open event.
+<br/>
+Details on the different sponsorship levels can be found in the Sponsorship Prospectus found
+<a href="../DOD_OHIO_Prospectus_2015.pdf">here</a>.
+<br/>
+If you are interested in sponsoring this event in any way, please [email us](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor DevOpsDays Detroit<%= @eventid %>).
 
 <hr>
 
