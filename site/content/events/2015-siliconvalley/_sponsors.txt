@@ -19,7 +19,7 @@ end
  { :image => 'neptune.png', :name => 'Neptune', :link => 'http://www.neptune.io', :width => '100px', :height => '100px' },
  { :image => 'delphix.png', :name => 'Delphix', :link => 'http://www.delphix.com', :width => '100px', :height => '100px' },
  { :image => 'chef.png', :name => 'Chef', :link => 'http://www.chef.io', :width => '100px', :height => '100px' },
- { :image => 'signalfx.png', :name => 'SignalFx', :link => 'https://signalfx.com/', :width => '100px', :height => '100px' },
+ { :image => 'signalfx.jpg', :name => 'SignalFx', :link => 'https://signalfx.com/', :width => '100px', :height => '100px' },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
