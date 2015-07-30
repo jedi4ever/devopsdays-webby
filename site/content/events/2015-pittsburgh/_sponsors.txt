@@ -37,7 +37,8 @@ end
 { :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
 { :image => "travis.png", :name => "Travis-CI", :link => "http://www.travis-ci.com/"},
 { :image => "containership.png", :name => "ContainerShip.io", :link => "http://www.containership.io/"},
-{ :image => "digital_ocean.png", :name => "Digital Ocean", :link => "https://www.digitalocean.com/"}
+{ :image => "digital_ocean.png", :name => "Digital Ocean", :link => "https://www.digitalocean.com/"},
+{ :image => "innovation_works.png", :name => "Innovation Works", :link => "https://www.innovationworks.org/"},
 ]%>
 <%= make_sponsor_links(@bsponsors) %>
 
