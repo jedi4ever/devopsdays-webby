@@ -53,6 +53,7 @@ end
 { :image => 'neptune.png', :name => 'Neptune.io', :link => 'https://www.neptune.io'},
 { :image => 'sumologic.png', :name => 'Sumo Logic', :link => 'https://www.sumologic.com/'},
 { :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com/'},
+{ :image => 'rackspace.png', :name => 'Rackspace', :link => 'http://www.rackspace.com/'},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
