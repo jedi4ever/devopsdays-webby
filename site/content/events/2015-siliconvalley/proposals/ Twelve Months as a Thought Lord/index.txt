@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 28
+title: "Twelve Months as a Thought Lord"
+---
+
+**Abstract:**
+
+To be honest I could definitely do a full-length presentation on the matter, but it'd probably be meatier if condensed down into an Ignite.
+
+The gist of it is that I have worked in the tech sector for about 10 years in various roles (most recently, a comedy writer) and found myself writing marketing copy for a popular DevOps software company. It's been a pretty interesting ride and I think I have some really honest and unique "outsider-but-insider" observations I can share about the movement.
+**Speaker:**
+Speaker 28

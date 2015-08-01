@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 25
+title: "Is your team ready for DevOps?"
+---
+
+**Abstract:**
+
+Too many people are jumping straight into automation without the cultural context. That leads to conflict, confusion, and frustration. We can learn 3 things from the Agile Fluency model about the DevOps journey: it leads to a shared destination, it requires investment, and it is a way to achieve business value. Lets apply the model to help demystify the idea of DevOps as a "cultural movement" and derive some gives clear guidance about what kinds of changes people, teams, and organizations may undergo.
+
+**Speaker:**
+Speaker 25

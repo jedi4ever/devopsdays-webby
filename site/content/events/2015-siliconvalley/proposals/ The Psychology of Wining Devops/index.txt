@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 7
+title: "The Psychology of Wining Devops"
+---
+
+**Abstract:**
+
+The intersection of multiple skillets and environments affords the great opportunity for those that want to empower and build with a team. This talk shares some of my lessons learned from working in the trenches and the psychology that lays behind the patterns that make Devops ridiculously fun.
+
+Speaker 7

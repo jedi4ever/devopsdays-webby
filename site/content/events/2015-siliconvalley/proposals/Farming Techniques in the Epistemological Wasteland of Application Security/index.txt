@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 29
+title: "Farming Techniques in the Epistemological Wasteland of Application Security"
+---
+
+**Abstract:**
+
+Application security has made progress over the years, but it has also made some considerable mis-steps focusing almost solely on developer awareness and training as solutions. This isn't a sustainable approach, however there is a convergence happening: Security meets DevOps and it's awesome!
+
+Lets journey together to reclaim old truths and find new approaches to application security. We will explore ways to make a change for the better across all levels of the development lifecycle. You will learn pragmatic approaches that will change your development process, delivery pipeline and operational runtime.
+**Speaker:**
+Speaker 29
