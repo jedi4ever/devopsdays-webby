@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 26
+title: "Securing the Heart of Automated Infrastructure"
+---
+
+**Abstract:**
+
+Automation and orchestration tools like Chef are critical to DevOps, but how do you ensure these tools are not exposed to security risks? How do you include sound security principles while keeping your infrastructure humming when prepping new installs or migrations? Hear practical lessons learned when securing a complex infrastructure – inside a cloud security company!
+Note: 30 minutes presentation
+
+**Speaker:**
+Speaker 26
