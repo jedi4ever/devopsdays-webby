@@ -17,6 +17,7 @@ end
 { :image => "uber.png", :name => "Uber Advanced Technologies Center", :link => "http://www.uberatc.com/"},
 { :image => "pivotal.png", :name => "Pivotal Software", :link => "http://www.pivotal.io/"},
 { :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
+{ :image => "immunio.png", :name => "Immunio", :link => "http://immun.io/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
