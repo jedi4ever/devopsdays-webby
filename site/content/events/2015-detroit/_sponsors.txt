@@ -23,7 +23,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-{ :image => "message_blocks_logo_100x100.png", :name => "Message Blocks", :link => "https://www.messageblocks.com"}
+{ :image => "message_blocks_logo_100x100.png", :name => "Message Blocks", :link => "https://www.messageblocks.com"},
+{ :image => "yelp_logo_100x100.png", :name => "yelp", :link => "https://www.yelp.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
