@@ -25,7 +25,7 @@ end
 <% end %>
 
 <% @ssponsors = [
-{ :image => "conjur.png", :name => "Conjur", :link => "https://www.conjur.net/"},
+{ :image => "conjur.png", :name => "Conjur", :link => "http://www.conjur.net/"},
 { :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "http://www.puppetlabs.com"}
 ]%>
 
