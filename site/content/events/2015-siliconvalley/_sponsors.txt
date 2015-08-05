@@ -20,6 +20,7 @@ end
  { :image => 'delphix.png', :name => 'Delphix', :link => 'http://www.delphix.com', :width => '100px', :height => '100px' },
  { :image => 'chef.png', :name => 'Chef', :link => 'http://www.chef.io', :width => '100px', :height => '100px' },
  { :image => 'signalfx.jpg', :name => 'SignalFx', :link => 'https://signalfx.com/', :width => '100px', :height => '100px' },
+ { :image => 'elastic.png', :name => 'Elastic', :link => 'http://www.elastic.co/', :width => '100px', :height => '100px' },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
