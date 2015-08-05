@@ -1,0 +1,89 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Program
+dirty: true
+layout: event_warsaw
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<div class="span-16 last ">If you are new to the <em>Open Space</em> concept you may <a href="/pages/open-space-format">want to read some more details</a>.</div>
+<br /><br />
+Please see <strong><a href="http://lanyrd.com/2014/devopsdayswaw/">Lanyrd</a></strong> for the latest program updates!<br />
+<hr/>
+
+<div class="span-7 append-bottom border">
+  <div class="span-7 last">
+    <h4>Day 1 - Thursday 25th September</h4>
+  </div>
+  <div class="span-2">08:00 - 09:00</div><div class="span-4 append-bottom last">Registration and Breakfast</div>
+  <div class="span-2">09:00 - 09:30</div><div class="span-4 append-bottom last">Opening</div>
+  <div class="span-2">09:30 - 10:00</div><div class="span-4 box last"><strong>Michael Ducy</strong><br /><a href="../proposals/MichaelDucy_ChangingTheBehaviorOfIT/">Changing the Behavior of IT</a></div>
+  <div class="span-2">10:00 - 10:30</div><div class="span-4 box last"><strong>Piotr Baranowski</strong><br /><a href="../proposals/PiotrBaranowski_HitchhikersGuideToCloudComputing/">Hitchhiker's guide to cloud computing </a></div>
+  <div class="span-2">10:30 - 11:00</div><div class="span-4 box last"><strong>Matt Harasymczuk</strong><br /><a href="../proposals/MattHarasymczuk_BranchManagementContinuousIntegrationAtAlmostNoCost/">Branch Management: Continuous Integration, Change and Release Management at No Cost</a></div>
+  <div class="span-2">11:00 - 11:30</div><div class="span-4 append-bottom last">Coffee Break</div>
+  <div class="span-2">11:30 - 12:00</div><div class="span-4 box last"><strong>Andrzej Grzesik</strong><br /><a href="../proposals/AndrzejGrzesik_CheffingADepartmentOneDevAtATime/">Cheffing a department, one Dev at a time</a></div>
+  <div class="span-2">12:00 - 12:30</div><div class="span-4 box last"><strong>Pavel Stepanov</strong><br /><a href="../proposals/PavelStepanov_ImprovingDeveloperExperienceInInteractionWithCISystems/">Improving developers experience in interaction with CI systems</a></div>
+  <div class="span-2">12:30 - 13:00</div><div class="span-4 box last"><strong>Bartosz Górczyński</strong><br /><a href="../proposals/BartoszGorczynski_ITSMInAgileTimes/">ITSM in Agile times</a></div>
+  <div class="span-2">13:00 - 13:30</div><div class="span-4 append-bottom last">Lunch</div>
+  <div class="span-2">13:30 - 14:00</div><div class="span-4 box last"><strong>Grzegorz Nosek</strong><br /><a href="../proposals/GrzegorzNosek_DevOpsJFDI/">DevOps: JFDI</a></div>
+  <div class="span-2">14:00 - 14:30</div><div class="span-4 box last"><strong>Gareth Workman</strong><br /><a href="../proposals/GarethWorkman_DevOpsInUKGovernment/">DevOps in UK Government</a></div>
+<div class="span-2">14:30 - 15:30</div><div class="span-4 box last"><strong>Open Space Opening</strong><br />Opening (Day #1)</div>
+  <div class="span-2">15:30 - 16:30</div><div class="span-4 box last"><strong>Open Space. Round 1</strong><br />Open Space #1</div>
+  <div class="span-2">16:30 - 17:30</div><div class="span-4 box last"><strong>Open Space. Round 2</strong><br />Open Space #2</div>
+  <div class="span-2">17:30 - 19:30</div><div class="span-4 append-bottom last">Burger Fest with Allegro</div>
+  <div class="span-2">19:30 - 24:00</div><div class="span-4 append-bottom last">Beer Fest</div>
+</div>
+
+<div class="span-7 append-bottom border">
+  <div class="span-7 last">
+    <h4>Day 2 - Friday 26th September</h4>
+  </div>
+  <div class="span-2">08:00 - 09:00</div><div class="span-4 append-bottom last">Registration and Breakfast</div>
+  <div class="span-2">09:00 - 09:30</div><div class="span-4 box last"><strong>Jan Svoboda</strong><br /><a href="../proposals/JanSvoboda_BuildingDeploymentAutomationPlatformsForContinuousDelivery/">Building Deployment Automation Platforms for Continuous Delivery</a></div>
+  <div class="span-2">09:30 - 10:00</div><div class="span-4 box last"><strong>Rafał Kuć</strong><br /><a href="../proposals/RafalKuc_FromZeroToHeroWithLogstashAndElasticsearch/">From zero to hero - easy log centralization with Logstash and Elasticsearch</a></div>
+  <div class="span-2">10:00 - 10:10</div><div class="span-4 box last"><strong>Grzegorz Nosek</strong><br /><a href="../proposals/GrzegorzNosek_SovietMilitaryHardwarePrimerForDevOps/">Soviet military hardware primer for devops</a></div>
+  <div class="span-2">10:10 - 10:20</div><div class="span-4 box last"><strong>Bartosz Chrabski</strong><br /><a href="../proposals/BartoszChrabski_IBMBlueMixIntroduction/">IBM BlueMix Introduction</a></div>
+  <div class="span-2">10:20 - 10:30</div><div class="span-4 box last"><strong>Luca Gibelli</strong><br /><a href="../proposals/LucaGibelli_ScalingOutYourStorageOneBrickAtATime/">Scaling out your storage, one brick at a time</a></div>
+  <div class="span-2">10:30 - 11:00</div><div class="span-4 append-bottom last">Coffee Break</div>
+  <div class="span-2">11:00 - 11:30</div><div class="span-4 box last"><strong>Roman Pavlyuk</strong><br /><a href="../proposals/RomanPavlyuk_DevOpsAtHomeMakingItWorking/">DevOps at Home: making it working</a></div>
+  <div class="span-2">11:30 - 12:00</div><div class="span-4 box last"><strong>Alex Lomau</strong><br /><a href="../proposals/AlexLomau_CloudFoundryHowItscooked/">Cloud Foundry: How it’s cooked</a></div>
+  <div class="span-2">12:00 - 12:30</div><div class="span-4 box last"><strong> Zoltan Toth and Julianna Göbölös-Szabó</strong><br /><a href="../proposals/ZoltanTothJuliannaGobolosSzabo_HowToBuildAPetabyteScaleDataInfrastructure/">Lessons learned building a petabyte-scale data infrastructure</a></div>
+  <div class="span-2">12:30 - 13:00</div><div class="span-4 box last"><strong>Marcin Baryłka and Piotr Ćwiek</strong><br /><a href="../proposals/MarcinBarylkaPiotrCwiek_RemoteTaskManagementUsingSaltstack/">Remote task management using Saltstack</a></div>
+  <div class="span-2">13:00 - 14:00</div><div class="span-4 append-bottom last">Lunch</div>
+  <div class="span-2">14:00 - 14:30</div><div class="span-4 box last"><strong>Daniel Pijanowski</strong><br /><a href="../proposals/DanielPijanowski_ATypicalSysadminDayWithRalph/">A typical sysadmin day with ralph</a></div>
+  <div class="span-2">14:30 - 15:00</div><div class="span-4 box last"><strong>Joern Barthel</strong><br /><a href="../proposals/JoernBarthel_DockerOffshorePackagingApplicationsForHardToReachDatacenter/">Docker offshore - packaging applications for hard to reach datacenter</a></div>
+  <div class="span-2">15:00 - 15:30</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Opening (Day #2)</div>
+  <div class="span-2">15:30 - 16:30</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Open Space #1</div>
+  <div class="span-2">16:30 - 17:30</div><div class="span-4 box last"><strong>Open Spaces</strong><br />Open Space #2</div>
+  <div class="span-2">17:30 - 18:00</div><div class="span-4 append-bottom last">Closing</div>
+</div>
+
+<br />
+<div class="span-15 append-bottom border">
+	<div class="span-15 last">
+		<h4>Open Space and Workshops Day 1</h4>
+	</div>
+	<hr/>
+	<div class="span-2"><b>Time</b></div><div class="span-3"><b>Workshop Room A</b></div><div class="span-3"><b>Workshop Room B</b></div><div class="span-3"><b>Open Space Room A</b></div><div class="span-3 append-bottom last"><b>Open Space Room B and C</b></div>
+	<div class="span-2">15:30 - 16:30</div><div class="span-3">Ansible - Grzegorz Nosek</div><div class="span-3">Docker - Joern Barthel</div><div class="span-3">“What drives a successful DevOps transformation" - Simon H Poulton</div><div class="span-3 append-bottom last">To be added.</div>
+    <hr/>
+	<div class="span-2">16:30 - 17:30</div><div class="span-3">Ansible - Grzegorz Nosek</div><div class="span-3">Docker - Joern Barthel</div><div class="span-3">To be added.</div><div class="span-3 append-bottom last">To be added.</div>
+</div>
+<hr/>
+<br />
+
+<div class="span-15 append-bottom border">
+	<div class="span-15 last">
+		<h4>Open Space and Workshops Day 2</h4>
+	</div>
+	<hr/>
+	<div class="span-2"><b>Time</b></div><div class="span-3"><b>Workshop Room A</b></div><div class="span-3"><b>Workshop Room B</b></div><div class="span-3"><b>Open Space Room A</b></div><div class="span-3 append-bottom last"><b>Open Space Room B and C</b></div>
+	<div class="span-2">15:30 - 16:30</div><div class="span-3">Puppet - Marcin Piebiak</div><div class="span-3">Chef - Krzysztof Wilczyński, Mike Pavlenko, Michael Ducy</div><div class="span-3">To be added.</div><div class="span-3 append-bottom last">To be added.</div>
+    <hr/>
+	<div class="span-2">16:30 - 17:30</div><div class="span-3">Puppet - Marcin Piebiak</div><div class="span-3">Chef - Krzysztof Wilczyński, Mike Pavlenko, Michael Ducy</div><div class="span-3">To be added.</div><div class="span-3 append-bottom last">To be added.</div>
+</div>
+<hr/>

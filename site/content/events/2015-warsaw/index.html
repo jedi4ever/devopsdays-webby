@@ -1,0 +1,63 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Welcome
+dirty: true
+layout: event_warsaw
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<center>
+  <img src="logos/warsaw.png" alt=""/>
+</center>
+<center>
+  <br/>
+  We are coming back with DevOpsDays in <a href="https://www.youtube.com/watch?v=Qbu_FRg8vuU">Poland</a>.
+  We are extremely excited and would like to invite everyone from Europe and outside to attend, participate, and perhaps become a speaker.
+  Join us to share the adventure!
+
+  <a href="http://devopsdays.pl">On the separate website</a> you can find all the information about DevOpsDays Warsaw 2015.
+
+  <table>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>
+        <a href="location/">
+          <a href="http://devopsdays.org/events/2015-warsaw/location/" target="_blank">Gromada Hotel</a>
+      </td>
+    </tr>
+    <tr>
+    <td><b>Participants</b></td><td><b><a href="https://rejestracja.proidea.org.pl/registration/form.html?conferenceId=9A66580322513117A49E03F6A43C884E&utm_campaign=website&utm_source=orgsite&utm_medium=link">Register now!</a></b></td></tr>
+    <tr>
+      <td><b>Speakers</b></td>
+      <td>Call for <a href="propose/">proposals</a> is already open. We are waiting for your submissions!</td>
+    </tr>
+    <tr>
+      <td><b>Partners</b></td>
+      <td>Multiple <a href="partners/">partnership opportunities</a> are available. Help us make this event an outstanding one!</td>
+    </tr>
+    <tr>
+      <td><b>Contact</b></td>
+      <td><a href="contact/">Get in touch with the Organisers</a>.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><a href="https://twitter.com/devopsdayswaw" class="twitter-follow-button" data-show-count="false">Follow @devopsdayswaw</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </td>
+    </tr>
+  </table>
+</center>
+<center>
+  <a href="http://groups.google.com/group/devopsdays">Subscribe to the DevOpsDays mailing list</a>
+</center>
