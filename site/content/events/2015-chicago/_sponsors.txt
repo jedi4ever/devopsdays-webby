@@ -37,6 +37,7 @@ end
 { :image => 'saltstack.png', :name => 'SaltStack', :link => 'http://saltstack.com/'},
 { :image => 'microsoft.png', :name => 'Visual Studio', :link => 'https://www.visualstudio.com/'},
 { :image => 'pivotal.png', :name => 'Pivotal', :link => 'https://pivotal.io/'},
+{ :image => 'slalom.png', :name => 'Slalom Consulting', :link => 'https://www.slalom.com/'},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -54,6 +55,7 @@ end
 { :image => 'sumologic.png', :name => 'Sumo Logic', :link => 'https://www.sumologic.com/'},
 { :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com/'},
 { :image => 'rackspace.png', :name => 'Rackspace', :link => 'http://www.rackspace.com/'},
+{ :image => 'opinionlab.png', :name => 'OpinionLab', :link => 'http://www.opinionlab.com/'},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
