@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: From zero to hero - easy log centralization with Logstash and Elasticsearch
+proposal: true
+dirty: true
+talk: true
+ignite: false
+open_space: false
+selected: false
+layout: event_warsaw
+author: Rafal Kuc
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+How many times you had to dig through the logs to find one particular event or a group of them? If you have tons of servers and you don't have a single place to look for logs, you can end up with hours of digging through text files to find the proper one. Of course there are tools out there that can help you, but what if you could build a solution yourself by using tools that are available and doesn't cost a single dolar? 
+
+In this talk I'll guide you through the basics of using Logstash and Elasticsearch together as the perfect couple to handle logs from your applications. You'll learn how to setup Logstash, how to configure it to parse your logs and finally send them to Elasticsearch cluster. We will also take a look at tuning Elasticsearch for log handling purposes.
+
+**Speaker:**
+
+Author of Apache Solr Cookbook series and Elasticsearch server books, father, Sematext consultant and co-founder of <a href="http://solr.pl">solr.pl</a> blog where he tries to share his knowledge. Currently working as search consultant and software engineer at Sematext Group, Inc. Mainly focused on Lucene, Solr, Elasticsearch, Hadoop and Mahout.

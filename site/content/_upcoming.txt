@@ -47,5 +47,9 @@
     <a href="/events/2015-ohio">
       Ohio
     </a>
+    -
+    <a href="/events/2015-warsaw">
+      Warsaw
+    </a>
   </h3>
 </div>

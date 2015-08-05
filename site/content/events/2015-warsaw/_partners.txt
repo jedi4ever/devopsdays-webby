@@ -1,0 +1,59 @@
+---
+filter: erb
+---
+<% if false %>
+
+<% @gold_partners = [
+  { :image => 'pjwstk.jpg', :name => 'Polish-Japanese Institute of Information Technology', :link => 'http://www.pjwstk.edu.pl/' },
+  { :image => '4finance.jpg', :name => 'IT Vivus', :link => 'http://www.4finance.com/'},
+  { :image => 'allegro.jpg', :name => 'Allegro', :link => 'http://allegro.pl/'},
+  { :image => 'ibm.jpg', :name => 'IBM - Polska', :link => 'http://www.ibm.com/pl/'},
+  { :image => 'kreuzwerker.jpg', :name => 'kreuzwerker GmbH', :link => 'http://kreuzwerker.de/en/'},
+  { :image => 'kainos.jpg', :name => 'Kainos', :link => 'http://kainos.pl/'},
+  { :image => 'eximit.jpg', :name => 'e-Xim IT', :link => 'http://e-xim.pl/metody/wspomaganie-cyklu-wytworczego-oprogramowania.html'},
+  { :image => 'sematext.jpg', :name => 'Sematext', :link => 'http://sematext.com/'},
+]%>
+
+<% @gold_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @silver_partners = [
+  { :image => 'megiteam.png', :name => 'MegiTeam', :link => 'http://www.megiteam.pl/hosting-dla-programistow/'},
+  { :image => 'saltstack.jpg', :name => 'SaltStack', :link => 'http://www.saltstack.com/'},
+  { :image => 'itsmfpolska.jpg', :name => 'itSMF - Polska', :link => 'http://www.itsmf.org.pl/'},
+  { :image => 'chef.jpg', :name => 'Chef', :link => 'http://www.getchef.com/'},
+  { :image => 'ansible.jpg', :name => 'Ansible', :link => 'http://www.ansible.com/'},
+  { :image => 'sii.jpg', :name => 'Sii', :link => 'http://pl.sii.eu/pl/'},
+]%>
+
+<% unless @silver_partners.empty?  %><h1>Silver partners</h1><% end %>
+
+<% if @silver_partners.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
+<% end %>
+
+<% @silver_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @media_partners = [
+  { :image => 'linux-magazine.jpg', :name => 'MegiTeam', :link => 'http://www.linux-magazine.pl/'},
+  { :image => '7thguard.jpg', :name => '7thGuard', :link => 'http://www.7thguard.net/'},
+  { :image => 'governica.jpg', :name => 'Governica', :link => 'http://www.governica.com/'},
+  { :image => 'gazetapraca.jpg', :name => 'GazetaPraca', :link => 'http://gazetapraca.pl/'},
+]%>
+
+<% unless @media_partners.empty?  %><h1>Media partners</h1><% end %>
+
+<% if @media_partners.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
+<% end %>
+
+<% @media_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% end %>
+
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>

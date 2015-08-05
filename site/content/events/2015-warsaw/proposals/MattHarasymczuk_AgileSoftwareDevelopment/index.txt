@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Agile Software Development
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Matt Harasymczuk
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+This section will be added soon.
+
+**Speaker:**
+
+Hi, my name is Matt and I am an Agile Coach. I help organizations to embrace Agile (Scrum, Kanban, Lean, XP), Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT.
