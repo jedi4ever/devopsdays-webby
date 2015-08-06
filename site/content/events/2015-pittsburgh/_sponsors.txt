@@ -19,6 +19,8 @@ end
 { :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
 { :image => "immunio.png", :name => "Immunio", :link => "http://immun.io/"},
 { :image => "ibm_watson.png", :name => "IBM Watson", :link => "http://ibm.biz/watson-pgh-jobs"},
+{ :image => "cmu_sei_cert.png", :name => "Computer Emergency Response Team at the Carnegie Mellon University Software Engineering Institute", :link => "http://www.cert.org"},
+
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
