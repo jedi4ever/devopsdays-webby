@@ -1,6 +1,28 @@
 ---
 filter: erb
 ---
+<% @main_partners = [
+  { :image => 'allegro.png', :name => 'Allegro', :link => 'http://allegro.pl/'},
+]%>
+
+<h1>Main Partner</h1>
+<% @main_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @partners = [
+  { :image => 'codersmill.png', :name => 'Codersmill', :link => 'http://coders-mill.com/' },
+  { :image => 'eventory.png', :name => 'EventoryApp', :link => 'http://eventory.cc/'},
+  { :image => 'kamea.png', :name => 'Kamea', :link => 'http://kamea.travel.pl/'},
+  { :image => 'teetbee.png', :name => 'Teetbee', :link => 'https://teetbee.com/'},
+]%>
+
+<h1>Partners</h1>
+<% @partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+
 <% if false %>
 
 <% @gold_partners = [
