@@ -16,9 +16,8 @@
       <a href="/events/2015-charlotte">Charlotte - Nov 2015</a><br/>
       <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
       <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
-      <a href="/events/2015-ohio/">Ohio - 2015</a><br/>
-      <a href="/events/2015-warsaw/">Warsaw - 2015</a><br/>
-      <a href="/events/2015-charlotte">Charlotte - 2015</a><br/>
+      <a href="/events/2015-ohio/">Ohio - Nov 2015</a><br/>
+      <a href="/events/2015-warsaw/">Warsaw - Nov 2015</a><br/>
       <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
       <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
 </div>
