@@ -19,6 +19,7 @@ end
 { :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
 { :image => "immunio.png", :name => "Immunio", :link => "http://immun.io/"},
 { :image => "ibm_watson.png", :name => "IBM Watson", :link => "http://ibm.biz/watson-pgh-jobs"},
+{ :image => "philips.png", :name => "Philips", :link => "http://jobs.philips.com/pittsburgh/pennsylvania/usa/jobs/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
