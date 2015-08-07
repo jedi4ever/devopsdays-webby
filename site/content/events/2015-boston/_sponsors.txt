@@ -13,7 +13,7 @@ end
 { :image => "bmc.png", :name => "BMC Software", :link => "http://www.bmc.com"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
 { :image => "g2.png", :name => "G2 Technology Group", :link => "http://www.g2techgroup.com"},
-{ :image => "logz.png", :name => "Logz.io", :link => "http://logz.io"}
+{ :image => "logz.png", :name => "Logz.io", :link => "http://on.logz.io/1UnbUiM"}
 ]%>
 
 <% if @gsponsors.empty?  %>
