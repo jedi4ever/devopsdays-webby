@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Valerie Thomas
+title: "Confessions of a social engineer: Why developers are my favorite target"
+
+---
+
+**Abstract:**
+
+Social engineers use a dangerous combination of technology and old fashioned con
+artistry to infiltrate organizations every day. In this talk we'll walk through
+the social engineering process including research, target selection, attack
+selection, and attack execution. Learn to see the world through the eyes of a
+social engineer and prevent yourself from being a victim.
+
+**Speaker:**
+Valerie Thomas
+
+Principal Security Consultant, Securicon
