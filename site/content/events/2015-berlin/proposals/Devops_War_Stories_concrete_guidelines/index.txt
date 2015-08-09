@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Joris De Winne
+title: "DevOps War Stories resulting in 10 concrete guidelines"
+---
+
+**Abstract:**
+
+It is now essential that you quickly and reliably deliver
+new features to your users without compromising quality. The rapid adoption
+of DevOps and Continuous Delivery has been driven by this realization. Come
+to this 30 minute session and hear 10 quick fire tips for successful
+Continuous Delivery implementations. Whether you’re part of a small
+development team or working in a large enterprise, you’ll take something
+away.
+
+Schedule:
+
+- Bringing Dev and Ops together.
+- DevOps as marketing
+- Where's the Silver Bullet
+- We're an enterprise...
+- CI stands for Continuous Improvement
+
+**Speaker:**
+Joris De Winne
+

@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Franziska Sauerwein
+title: "How I got from Zero to Continuous Deployment"
+---
+
+**Abstract:**
+
+I'm building a pet project from the ground up, using Continuous Deployment.  My
+goal was to combine DevOps with Test Driven Development to provide a reliable
+deployment chain and production environment.  In this talk, I want to present
+the steps I used to get to a place where one commit builds and deploys
+completely automated.  It also features monitoring and Zero Downtime.  Some of
+the technologies I used are Git, Docker, Travis, Amazon Cloud EC2.
+
+**Speaker:**
+Franziska Sauerwein

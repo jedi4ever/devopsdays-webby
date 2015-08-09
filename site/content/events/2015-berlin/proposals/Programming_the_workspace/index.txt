@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Pere Urbon-Bayes
+title: "Programming the Workspace"
+---
+
+**Abstract:**
+
+Becoming a parent is an step in many people’s life path that will arrive
+sooner or later, suddenly changing all your priorities. What before was
+critical might become less important, but what will not change is your need
+to work.
+
+We all know there is no more challenging group of people than parents, as
+they always have many issues to deal with: kids being ill, errands to run
+for them, etc. However, parents can also be extra focused as they know just
+how valuable their time is.
+
+In this talk, we’re going to introduce ways companies can build a family
+friendly environment and how work can be organized within teams by using
+the many productivity tools available nowadays - benefiting both parents
+and the child-free. We’re going to share the pros and potential conflicts,
+with our ultimate goal to provide all attendees with ideas on how to
+improve their workplace! In a nutshell, ideas, tricks and tips on how to
+organize your time as a parent, plus how to optimize your workplace
+interactions whether you have zero or more small humans at home.
+
+**Speaker:**
+Pere Urbon-Bayes
+

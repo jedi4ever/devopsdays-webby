@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Gosuke Miyashita
+title: "Improvement of Serverspec integration tests in multi platform environments by the combination of Wercker, Walter and DigitalOcean"
+---
+
+**Abstract:**
+
+Serverspec (http://serverspec.org/) is a common framework to test servers
+provisioned by Puppet, Chef, Ansible, CFEngine and so on. Serverspec is
+applied to a wide variety of OSes, and therefore unit tests are insufficient
+for checking Serverspec itself.
+
+This presentation shows the environment of Serverspec integration tests
+improved by DevOps tools and services. Specifically the powerful combination
+of Walter (https://github.com/walter-cd/walter), Wercker (
+http://wercker.com/)
+and DigitalOcean (http://digitalocean.com/) are described in detail.
+
+The Serverspec integration test for the multiple OSes (CentOS, Ubuntu,
+FreeBSD and Docker on CoreOS) is run in Wercker. The VMs of the OSes for
+the tests are created in DigitalOcean. Walter, tiny deployment tool executes
+the tests for each OS in parallel, which is useful to shorten the testing
+time.
+
+**Speaker:**
+
+Gosuke Miyashita
+

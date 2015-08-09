@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Lothar Schulz
+title: "Continuous Delivery DevOps"
+---
+
+**Abstract:**
+
+In summer 2014, the continuous delivery engineering team at
+Zalando--Europe’s leading online fashion platform for men, women and
+children--began brainstorming about a distributed approach to
+infrastructure. We started this conversation after learning from our
+customer feedback that a one-solution-fits-all CI approach no longer
+worked, given our team’s evolving objectives and business needs. Zalando’s
+continuous delivery team took responsibility for the CI infrastructure in
+place at the time: three central CI servers serving slightly different use
+cases. The team adapted this trio of servers into a continuous delivery
+landscape of multiple CI servers that can be configured to meet various
+teams’ specific needs.
+
+In this talk, Zalando Continuous Delivery Lead Lothar Schulz will describe
+how his team successfully moved from a central, continuous integration
+infrastructure to a distributed infrastructure. Lothar will talk about how
+the team defined devops for this purpose. He will explain why a distributed
+approach makes sense for a company (15+ million active customers) and tech
+team (800+ members and growing) of Zalando’s size. Finally, he will share
+knowledge that you can use to transform your own user feedback into CI
+solutions that work.
+
+
+**Speaker:**
+Lothar Schulz
+
