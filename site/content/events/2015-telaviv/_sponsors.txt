@@ -59,18 +59,3 @@ filter:    erb
 
 <br/>
 <br/>
-
-<% @community_sponsors = [
-    { :image => "igt.png", :name => "IGT", :link => "http://meetup.com/IGTCloud"},
-]%>
-
-<% unless @community_sponsors.empty?  %><h1>Community Partner</h1><% end %>
-
-<% @community_sponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=70px height=70px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-
-
-
-
