@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Stephen Hardisty
+title: "Screwing up for Less"
+---
+
+**Abstract:**
+
+When building software, we typically put a lot of emphasis and spend
+a lot of money on preventing failure in production. This talk covers some
+strategies for reducing the cost and severity of bugs for hosted services.
+
+**Speaker:**
+Stephen Hardisty
+

@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Thomas Fricke
+title: "Use and abuse of containers"
+---
+
+**Abstract:**
+
+Not everything which can be build in containers is a good idea to be
+shipped to production. It might make sense to test a Hadoop pipeline
+with data in dev and test environment, however is this a good idea to
+ship this to production?
+
+Containers are different from virtualisation, and their life cyle
+should be treated differently.
+
+Should containers be run on our current package based Linux
+distributions or is the paradigm shift so radical, that we should even
+rethink the way, we run our platforms. Is the additional effort of
+container orchestration with kubernetes, etcd, flannel,... another
+layer of complexity to be fought with or is it a strategy to simplify
+our distributed systems in the long run?
+
+If we want to go this way, what are the next steps in operations to go
+forward on this road?
+
+The talk discusses patterns and antipatterns of container rollouts.
+With some two years of experience with containers in general and
+especially Docker it is time to review container rollouts from a
+DevOps point of view. The talk tries to raise awareness, that
+containerized systems need also a new architecture for the data center
+of the 21st century.
+
+**Speaker:**
+Thomas Fricke
+

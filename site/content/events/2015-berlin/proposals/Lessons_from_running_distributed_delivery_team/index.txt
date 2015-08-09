@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Trent Hornibrook
+title: "Lessons from running a distributed delivery team"
+---
+
+**Abstract:**
+
+Imagine leading a team of 5 20-something-year old skilled developers that need to create, build, run and maintain application code and its infrastructure for a successful publicly listed Australian company. Imagine if the 5 people are in China and you are in Australia. How would you do it?  I will share how I did.
+
+I will talk through how I run a distributed agile delivery team including how to build trust between cultures and how to provide autonomy mastery and purpose to build an effective delivery team.
+
+**Speaker:**
+Trent Hornibrook
+

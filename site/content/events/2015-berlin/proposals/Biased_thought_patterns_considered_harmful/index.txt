@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Maximilien Riehl
+title: "Biased thought patterns considered harmful"
+---
+
+**Abstract:**
+
+It is well-understood that in order to get the most out of a framework,
+developers must be aware of its tradeoffs and shortcomings.
+
+However, the greatest challenge in tighly-knit technical teams - as
+encouraged by DevOps - is of a more social than technical nature. The
+root issue this difficulty stems from is somewhat well-understood by
+perception theory and psychology. At its core lies the fact that the
+human mind is the product of a long evolutionary timeline - one might
+go as far as calling it legacy. As a consequence, we are driven by
+certain patterns of thought and behaviour that were very much adequate
+while living in caves. But it goes without saying that some of these
+are no longer appropriate and sometimes even harmful.
+
+Some examples:
+
+* The *illusion of asymmetric insight* makes it all too easy to believe
+  that we are promoting diversity while we are actually forming closed
+  groups and excluding other opinions simply because they are not our
+  own. Thwarting this misconception is tremendously important in
+  heterogenous groups of people with different mindsets.
+
+* *Ego depletion* is the observation that, contrarily to common belief,
+  willpower is a finite resource. Understanding this limitation can
+  allow for better self-discipline. This comes in handy while
+  broadening one's technical skills but also for self-improvement in
+  general.
+
+This talk assumes that to be at our best, we also need to be aware of
+the tradeoffs and shortcomings of the human mind. In order to achieve
+this, this talk will explore common thought patterns and fallacies
+leading to bias, misunderstanding and self-delusion.
+
+
+**Speaker:**
+Maximilien Riehl
+

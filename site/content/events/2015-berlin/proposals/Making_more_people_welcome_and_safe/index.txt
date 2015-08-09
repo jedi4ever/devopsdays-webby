@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Franziska Sauerwein
+title: "Making more people feel welcome and safe at your event"
+---
+
+**Abstract:**
+
+I'll quickly point out a few easy steps to make conferences more accessible and save.
+http://slides.com/franziskasauerwein/how-to-make-more-people-feel-welcome-and-safe-at-your-conference#/
+
+**Speaker:**
+Franziska Sauerwein
