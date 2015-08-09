@@ -42,10 +42,11 @@ end
 
 <br/>
 <br/>
-<h1>Media sponsors</h1>
+<h1>Community sponsors</h1>
 <% @msponsors = [
+{ :image => 'triangle.png', :name => 'Triangle DevOps', :link => 'https://twitter.com/TriangleDevOps'}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
+<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
