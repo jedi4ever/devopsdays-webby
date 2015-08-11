@@ -23,7 +23,7 @@ end
 <%= make_sponsor_links(@gsponsors) %>
 <br />
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
-<% elsif @gsponsors.size < 9 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+<% elsif @gsponsors.size < 8 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
 <br/>
 <br/>
