@@ -5,13 +5,13 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}' target='_blank'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100%' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}' target='_blank'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='#{sponsor[:width] || "100px"}' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
 
 <% @sponsors = [
-#{ :image => "logo.png", :name => "Company name", :link => "http://www.example.com"}
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.gopivotal.com/"}
 ]%>
 <%= make_sponsor_links(@sponsors) %>
 <br />
@@ -34,7 +34,7 @@ end
 <h1>Host Sponsors</h1>
 
 <% @sponsors = [
-{ :image => "TW_Colour_Logos_trans_black.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"}
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/", :width => "100%"}
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
