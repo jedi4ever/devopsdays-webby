@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Schlomo Schapiro
+title: "DevOps, Agile and Open Source at ImmobilienScout24"
+---
+
+**Abstract:**
+
+What have Open Source, an Agile Mindset and DevOps in common? The right
+combination of those topics creates a new base for cooperation in IT.
+
+A review of the last 6 years at ImmobilienScout24 shows how our IT
+department advanced by implementing them in practice. Especially our cloud
+migration benefits from the open culture in the company and the larger IT
+community.
+
+**Speaker:**
+Schlomo Schapiro
+

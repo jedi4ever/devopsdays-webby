@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Bernhard Cygan  
+title: "Implementing a build pipeline with Docker and Infrastructure-as-Code"
+---
+
+**Abstract:**
+
+I will start with an existing build job (probably Maven) and define a build
+pipeline in Jenkins with Workflow DSL. I will show how to easily use Docker
+inside Jenkins workflow for running the builds and various tests.
+
+This will only use Jenkins OSS features to avoid vendor pitching.
+
+I think that many people are using traditional job definitions in Jenkins. I
+want to show how much easier and more maintainable it is to switch to an
+Infrastructure-as-Code model with the Jenkins Workflow DSL.
+
+
+**Speaker:**
+Bernhard Cygan
+

@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Lauri Apple
+title: "How to Create a Diverse DevOps Team"
+---
+
+**Abstract:**
+
+Creating a diverse engineering team is challenging for many reasons. First,
+you must decide what “diversity” means to your tech organization, and how
+broadly you wish to define the term. Next: Given your resources, how can
+you find enough candidates to build a team that fits your definition?
+
+Lastly: How do you create a work environment where each member feels they
+can be themselves, and where management contributes? In this talk, I will
+offer insights and answers so that you can start advocating successfully
+for more diversity in your tech organization. I will describe steps Zalando
+has taken to increase diversity in tech, including our Diversity Guild (a
+self-organized group of Zalando technologists and People & Organization/HR
+professionals who promote diversity internally); open hiring policies
+(technologists from 50 nations and counting); and relocation services.
+
+Finally, I will discuss recent research suggesting what works — and what
+doesn’t — when trying to increase diversity in the tech workplace.
+
+
+**Speaker:**
+Lauri Apple
+
