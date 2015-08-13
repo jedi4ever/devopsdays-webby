@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Philip Emery
+title: "My name's Phil and I was a DevOps skeptic"
+---
+
+**Abstract:**
+
+In the past 4 years, PAYBACK technologies has started its devops journey,
+turned left & right a few times - and achieved goals that some people thought
+were not possible.
+
+During the course of the presentation we will look back at where PAYBACK was
+and where it is today.  PAYBACK technologies works in large scale enterprise
+world, with corporate datacentres, ITIL process and carried with it a sizable
+amount of technical debt. Everyone here realises we're not perfect but in the
+past years we've made significant progress.
+
+During the presentation we will look at how we switched to deployment
+automation with 48 artefacts, our battles with tool choices, how we've spread
+the message for culture, improved our monitoring - and where we see ourselves
+going in the next 4-5 years.
+
+
+**Speaker:**
+Philip Emery
+

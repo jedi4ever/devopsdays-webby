@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Ben Kuboto
+title: "How to run one of the top 100 US websites from Germany"
+---
+
+**Abstract:**
+
+Within three years, Berlin based startup moviepilot.com became the largest
+US site around movies. With a small team of developers and ops we decided -
+contrary to all advice - to host the website on cheap servers in Germany.
+
+In this talk, moviepilot’s CTO is going to give an overview on the
+infrastructure and our learnings on what did work well and what did not. We
+will talk about tech, hosting costs and give advice on how to bootstrap an
+international high traffic site from Germany.
+
+
+**Speaker:**
+Ben Kuboto
+

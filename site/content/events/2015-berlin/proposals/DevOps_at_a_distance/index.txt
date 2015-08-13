@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Greg Damiani
+title: "DevOps at a Distance"
+---
+
+**Abstract:**
+
+How to get your team collaborating with Chef, Configuration Management,
+and CI when you're not in the room, the office, or the country.
+
+In 2014, BuzzFeed embarked on a project to work Chef into how their main
+CMS, an application with 5 years of history, 3 different teams, dozens of
+internal and external service dependencies, and about a thousand
+configuration variables, gets configured and deployed.
+
+It was never going to be an easy task to tackle, but the benefits just
+over the horizon were myriad and dazzling.
+
+Then, for fun, they sent the SysAdmin in charge of the project to go live
+on the other side of an ocean and work in a remote office.
+
+This is a talk about my experiences being that remote worker in London,
+interfacing with Ops, Tools, and Dev teams in New York with only a few
+hours a day of overlap.  It's a talk about communication, tooling, best
+practices, empathy, ChatOps, getting everyone on board, Conway's Law,
+sleeping in so you can work until midnight, and cats.
+
+
+**Speaker:**
+Greg Damiani
+

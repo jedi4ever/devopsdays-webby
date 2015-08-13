@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Simon Tennant
+title: "DevOps and Realtime Messaging: Running your XMPP messaging at scale using Saltstack and Docker"
+---
+
+**Abstract:**
+
+At the end of the talk you should have a fairly good grasp of how to
+reliably and repeatedly build and deploy and scale your own realtime
+messaging infrastructure using XMPP.
+
+The first half of this talk will cover realtime messaging approaches and
+then look at how XMPP works and how to run your own XMPP server.
+
+The talk then covers considerations for scaling XMPP to millions of
+simultaneous users. The talk draws on experience of the Buddycloud team
+building and running the Buddycloud hosted environment.
+
+The second half of the talk looks at automation strategies and the pros and
+cons of Docker and why we switched over to using Saltstack to manage the
+Buddycloud XMPP and server environment. We'll show code snippets from the
+Buddycloud infrastructure and cover how we solved automation challenges.
+
+
+**Speaker:**
+Simon Tennant
+
