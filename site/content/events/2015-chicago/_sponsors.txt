@@ -56,6 +56,8 @@ end
 { :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com/'},
 { :image => 'rackspace.png', :name => 'Rackspace', :link => 'http://www.rackspace.com/'},
 { :image => 'opinionlab.png', :name => 'OpinionLab', :link => 'http://www.opinionlab.com/'},
+{ :image => 'quint.png', :name => 'Quint Wellington Redwood', :link => 'http://www.quintgroup.com/'},
+{ :image => 'columnit.png', :name => 'Column Technologies', :link => 'http://www.columnit.com/'},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
