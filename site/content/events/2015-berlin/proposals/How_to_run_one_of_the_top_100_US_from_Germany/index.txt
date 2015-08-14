@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 selected: false
-author: Ben Kuboto
+author: Ben Kubota
 title: "How to run one of the top 100 US websites from Germany"
 ---
 
@@ -25,5 +25,5 @@ international high traffic site from Germany.
 
 
 **Speaker:**
-Ben Kuboto
+Ben Kubota
 
