@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 30
+title: "War games"
+---
+
+**Abstract:**
+Description: Small scare systems fail in known ways: disk failure, power outage or out of memory. Simple outages can usually be dealt with quickly and by one person. However, as systems scale, they become more complex, have multiple components, and the built in redundancy usually means failure is a combination of many smaller failures. Dealing with the perfect storm requires experience, knowledge and practice because it is often a novel situation, never seen before.
+
+The aviation industry prides itself on the levels of redundancy across all systems, but still has highly skilled pilots work through hours and hours of simulation for all kinds of failure scenarios. The only way to prepare for real world situations is in-depth training.
+
+This talk will introduce the concept of war games in an operations context. It will examine how aspects of aviation best practice can be applied to operations and how teams across dev, ops and other areas of the business should work together to train for outages. It will include the “why" as well as the “how" to provide actionable suggestions for implementing proper war games in your own company.
+**Speaker:**
+Speaker 30

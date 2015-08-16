@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 34
+title: "Application Driven Infrastructure"
+---
+
+**Abstract:**
+
+GOn the road to continuous operations, one must come to the realization that applications must continuously dictate how the infrastructure performs.  Even the best written application will perform sporadically in a production environment if it doesn’t receive the proper allotment of infrastructure resources at any given time.  The reason this is so tricky today in the enterprise cloud is that applications share the infrastructure.  Not only are the needs of applications continuously changing, they run on infrastructure that house several other applications each of which has constantly changing needs.  This complexity is at the root of performance unreliability.
+
+Application Driven Infrastructure allows applications to express their needs directly to an infrastructure that is malleable enough to meet the demands of all the applications it is running. Through the use of APIs, applications will have a continuous stream of metrics on how they consume infrastructure resources and will be able to, in real-time, have programmatic controls to change resource demand as needed.  So how can we build this more fluid infrastructure?  Let us show you...
+
+Speaker 34
