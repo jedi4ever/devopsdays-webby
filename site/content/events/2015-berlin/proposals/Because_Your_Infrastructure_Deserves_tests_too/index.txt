@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Martin Etmajer
+title: "Because your Infrastructure Deserves Tests, Too: Test-Driven Infrastructure with Test Kitchen, Serverspec and RSpec"
+---
+
+**Abstract:**
+
+The goal of Continuous Delivery is, briefly, to get features into your users'
+or customers' hands as quickly as possible. In order to succeed, Development
+and Operations teams need to align and come up with both working and deployable
+software in short, regular intervals. Chef, Puppet, Ansible & Co. enable teams
+to code up application runtime environments, but alone do not allow for
+building quality into their processes. In this talk I will show how you can
+apply the "Red, Green, Refactor Cycle" of Test-Driven Development and combine
+it with your configuration management or orchestration tool of choice in order
+to come up with better infrastructure that can automatically be tested using
+Test Kitchen, Docker, Serverspec and RSpec.
+
+
+**Speaker:**
+Martin Etmajer
+

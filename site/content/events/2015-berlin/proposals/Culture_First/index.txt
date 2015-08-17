@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Engin Yöyen
+title: "Culture First!"
+---
+
+**Abstract:**
+
+In this presentation we would like to share our experience of building a team
+which employed DevOps methodology to build the software and all underlying
+infrastructure from ground up, with continous integration, delivery,
+monitoring, logging, scalability and availability in mind for different stages.
+We believe that the culture and inner collaborating of the team are the key
+points to achieve a success.
+
+The question we would be answering in this presentation are
+
+- How to build a team with DevOps methodology
+- What kind of culture needs to be in place for this methodology to be effective
+- Who does what? Tasks such as monitoring, logging,dashboard, etc. are tasks of Dev or Ops?
+- how does the team solves the problems? Can we use traditional approaches such as pair programming?
+- how to integrate infrastructure work into agile methods such as scrum
+- how to establish collaboration between Dev and ops?
+
+
+**Speaker:**
+Engin & Adham
+

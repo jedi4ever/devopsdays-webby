@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Daniel Kühne
+title: "The TICK stack or how I got to love InfluxDB"
+---
+
+**Abstract:**
+
+The TICK stack are 4 pieces of software from the  makers of
+InfluxDB. The T stands for Telegraf a daemon which collects metrics and
+sends them to InfluxDB, I is for InfluxDB a metrics database, C is for
+Chronograf which is used to build graphs from InfluxDB data and K is still
+in stealth mode. All tools have two properties in common they are really
+simple to setup and really flexibel to use. For this reason the stack can
+be used to analyse problems, show performance improvements and get a
+feeling for your application right from the beginning. In this presentation
+I want give a short introduction into each tool and setup all of them using
+a simple example. And if we are in luck a can also show the K.
+
+
+**Speaker:**
+Daniel Kühne
+
