@@ -18,6 +18,7 @@ end
  { :image => "epost.png", :name => "E-POST", :link => "http://www.epost.de/"},
  { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"},
  { :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
+ { :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://www.pagerduty.com/'},
  { :image => "payback.png", :name => "PAYBACK", :link => "http://PAYBACK.net/karriere/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
