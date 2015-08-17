@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Daniel Kühne
+title: "Monitoring Java applications in Docker container with Jolokia and InfluxDB"
+---
+
+**Abstract:**
+
+Monitoring Java applications with JMX can only be done with
+another Java process, we all know this.  Roland Huss has created Jolokia to
+make JMX metrics available without using another Java process. In the age
+of Docker there is also the problem with exposing the right ports to
+monitor with JMX and this is where Jolokia is useful too. With
+check_jmx4perl there exists a posibillity to use Jolokia together with
+Nagios. But there is at the moment no way to use Jolokia together with
+InfluxDB or Graphite. In this talk I will give an introduction into Jolokia
+and jmx4perl, compare standard JMX monitoring with using Jolokia and Demo
+using a simple application how to get metrics values from Jolokia to
+InfluxDB.
+
+
+**Speaker:**
+Daniel Kühne
+

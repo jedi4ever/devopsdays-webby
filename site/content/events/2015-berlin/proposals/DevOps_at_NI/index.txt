@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Callum MacGregor
+title: "DevOps at Native Instruments"
+---
+
+**Abstract:**
+
+Introducing automation into NI's development and operations
+We will present an overview of how we have been introducing automation
+and DevOps methodologies at NI. First from a birds eye view
+perspective and then diving deeper into a couple of specific areas.
+
+Salt strategies
+
+An insight into the problems and challenges we have faced and overcome
+with the following:
+
+- secrets management
+- deployment authorisation
+- secure configuration management
+
+Having selected Salt as our weapon of choice, we will share our
+experiences.
+
+DevOps, Architectures & Agile
+
+How we have used gradual specification and incremental implementation
+to build large scale infrastructure in small scale sprints.
+
+**Speaker:**
+Callum MacGregor
+

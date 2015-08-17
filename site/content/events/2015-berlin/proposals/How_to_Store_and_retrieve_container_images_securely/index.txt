@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Alban Crequy
+title: "How to store and retrieve container images securely"
+---
+
+**Abstract:**
+
+When Docker, rkt or Kubernetes executes your containers, they first
+have to download the container images from a repository, a hub or a
+web server. How can you be sure that the containers you execute are
+really the ones you want and not an image that has been altered?
+
+I will talk first about how Docker images and Application Container
+Images (ACIs, used by rkt) are built and who you have to trust when a
+container image has multiple layers.
+
+Then I will talk about how the images are downloaded and verified by
+the appc discovery protocol (in rkt) or by Docker Notary, involving
+HTTPS, cryptographic hashes and GPG signatures.
+
+
+**Speaker:**
+Alban Crequy
+
