@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 selected: false
-author: Inga Hoelt
+author: Inga Höltmann
 title: "Power in the workplace and women in tech - interdependencies for successful alliances"
 ---
 
@@ -31,5 +31,5 @@ teams.
 
 
 **Speaker:**
-Inga Hoelt
+Inga Höltmann
 
