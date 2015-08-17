@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 31
+title: "Human & Organizational factors of DevOps implementation"
+---
+
+**Abstract:**
+
+As enterprises start adopting Cloud and DevOps solutions, not only will there be anticipated consequences, such as, some degree of cost take out, improved quality and accelerated software delivery etc, but also some unanticipated consequences. History shows us that for any disruptive technology transformation, unanticipated consequences actually make a much more long lasting impact, be it positive or negative. In my opinion, most of such unanticipated consequences of DevOps will be around organizational and human factors. As part of this presentation, I’ll provide some historical anecdotes of technological disruption leading to organization & human changes, and extrapolate some of those for Cloud and DevOps implementations. There are several ‘actors’ within  a DevOps ecosystem – business owners, developers, testers, service management (operations) and end users. And each of these actors are going to have some degree of impact due to DevOps, and so will the overall organization that’ll implement it. If nothing else, I think this topic will open up some much needed thought provoking debate around the human factors of this disruptive technology.
+
+**Speaker:**
+Speaker 31

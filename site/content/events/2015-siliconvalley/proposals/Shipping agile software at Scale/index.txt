@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 33
+title: "Shipping agile software @ Scale"
+---
+
+**Abstract:**
+
+Most enterprise organizations see the need to iterate rapidly to learn from their users, yet few large organizations have been successful implementing agile development @ scale for a myriad of valid reasons. In this talk Eli will tackle the main reasons why it is hard and often impossible to implement agile development when release cycles are long, code interwind, development teams siloed from operation etc. Eli will cover how modern platforms (such as Cloud Foundry) can be leveraged to empower development teams to be masters of their own destiny, yet avoid the pitfalls and system fragility.
+
+**Speaker:**
+Speaker 33
