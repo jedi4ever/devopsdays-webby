@@ -7,7 +7,6 @@ filter:
 title: 'Welcome !'
 layout: event
 dirty: true
-platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
@@ -16,11 +15,12 @@ platinum: true
 
 Welcome!  The DevOps Days comes to Perth for the first time. Come be a part and create history with us.
 
+<div style="text-align:center;">
+   <img alt="DevOpsDays Perth 2015" src="./logo.png"/>
+</div>
+
 <table>
-	<tr>	
-		<td><img border=0 src="logos/dodperth2015.png" alt="DevOps Days Perth"></td>
-		<td><img border=0 width="160" height="240" src="./perth.png"></td>
-	</tr>
+
 	  <tr>
 		<td><b>Date</b></td>
 		<td> <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %></td>
