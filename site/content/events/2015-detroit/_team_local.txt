@@ -4,6 +4,4 @@
 - Joe Arnet
 - Vito Brooks
 - Adam Jurevicius
-- Chris McDevitt
-- Steve Ulicny
-- Erik Barbara
+- Sam Boyer
