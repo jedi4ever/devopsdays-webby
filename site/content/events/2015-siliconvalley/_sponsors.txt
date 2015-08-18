@@ -16,7 +16,7 @@ end
  { :image => 'cloudpassage.png', :name => 'CloudPassage', :link => 'http://www.cloudpassage.com', :width => '100px', :height => '100px' },
  { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com", :width => '100px', :height => '100px' },
  { :image => 'delphix.png', :name => 'Delphix', :link => 'http://www.delphix.com', :width => '100px', :height => '100px' },
- { :image => "docker.png", :name => "Jut", :link => "http://www.docker.io", :width => '100px', :height => '100px' },
+ { :image => "docker.png", :name => "Docker", :link => "http://www.docker.io", :width => '100px', :height => '100px' },
  { :image => 'elastic.png', :name => 'Elastic', :link => 'http://www.elastic.co/', :width => '100px', :height => '100px' },
  { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io", :width => '100px', :height => '100px' },
  { :image => 'neptune.png', :name => 'Neptune', :link => 'http://www.neptune.io', :width => '100px', :height => '100px' },
