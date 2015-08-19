@@ -1,0 +1,22 @@
+---
+title: Program
+layout: event_tlv
+extension: html
+dirty: true
+filter:
+- erb
+- markdown
+---
+
+## Massively Distributed Backup at Facebook Scale
+MySQL is at the core of Facebook's persistent storage. The graph itself, including every like, comment, post and status, is stored in MySQL, along with many other things. This data is the company's most important asset, and we take great care to make sure everything is properly backed up. Yes, even the lol cats and puppy picture posts. Everything!
+
+As you can imagine, backing up this behemoth of a dataset is quite a challenge.
+The backup system Facebook runs for MySQL is multi-tiered and massively distributed. We employ binary log, full, and differential backups and clever hacks to balance speed, space and reliability.
+
+In this talk you'll learn how we backup Facebook, every single day. We'll go over the design, engineering and operational challenges we've had to overcome, and wrap up with some fun war stories.
+
+## About the speaker - [Shlomo Priymak](https://twitter.com/shlomoid)
+Shlomo has been on the MySQL Operations team at Facebook since 2011, managing one of the biggest MySQL clusters in the world — mostly by being lazy and making automation manage it instead of him.
+Before making the switch to manage 1000s of MySQL servers, Shlomo was pretty happy with 100s of them at companies like Sears and Wix, where he was a DBA and a developer.
+Prior to diving into to the MySQL world in 2006, Shlomo used to be a SQL Server DBA at the Israeli Intelligence Corps, but he can't tell you how many servers he managed there.
