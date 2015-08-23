@@ -16,6 +16,7 @@ filter:    erb
 
 <% @platinum_sponsors = [
     { :image => "aolon.png", :name => "AOL On", :link => "http://on.aol.com/"},
+    { :image => "monitis.png", :name => "Monitis", :link => "http://www.monitis.com/"}
 ]%>
 
 <% unless @platinum_sponsors.empty?  %><h1>Platinum Sponsors</h1><% end %>
@@ -49,6 +50,7 @@ filter:    erb
 
 <% @silver_sponsors = [
     { :image => "librato.png", :name => "Librato Metrics", :link => "https://metrics.librato.com/?utm_campaign=dev-ops-tel-aviv&utm_content=promotion&utm_medium=event&utm_source=devops-tel-aviv"},
+    { :image => "rounds.png", :name => "Rounds", :link => "https://www.rounds.com/"}
 ]%>
 
 <% unless @silver_sponsors.empty?  %><h1>Silver Sponsors</h1><% end %>
