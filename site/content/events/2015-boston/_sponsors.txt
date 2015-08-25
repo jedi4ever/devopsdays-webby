@@ -26,7 +26,11 @@ end
 
 <% @ssponsors = [
 { :image => "conjur.png", :name => "Conjur", :link => "http://www.conjur.net/"},
-{ :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "http://www.puppetlabs.com"}
+{ :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "http://www.puppetlabs.com"},
+{ :image => "xebia.png", :name => "Xebialabs", :link => "https://xebialabs.com/"},
+{ :image => "nutanix.png", :name => "Nutanix", :link => "http://www.nutanix.com/"},
+{ :image => "appneta.png", :name => "AppNeta", :link => "http://www.appneta.com/"},
+{ :image => "cimpress.png", :name => "Cimpress", :link => "http://cimpress.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Gold sponsors</h1><% end %>
@@ -37,6 +41,8 @@ end
 
 <% @bsponsors = [
 { :image => "athenahealth.png", :name => "athenhealth", :link => "http://www.athenahealth.com"},
+{ :image => "battery_ventures.png", :name => "Battery Ventures", :link => "https://www.battery.com/"},
+{ :image => "brainshark.png", :name => "brainshark", :link => "http://www.brainshark.com/"}
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Silver sponsors</h1><% end %>
