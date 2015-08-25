@@ -13,7 +13,8 @@ end
 { :image => "bmc.png", :name => "BMC Software", :link => "http://www.bmc.com"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
 { :image => "g2.png", :name => "G2 Technology Group", :link => "http://www.g2techgroup.com"},
-{ :image => "logz.png", :name => "Logz.io", :link => "http://on.logz.io/1UnbUiM"}
+{ :image => "logz.png", :name => "Logz.io", :link => "http://on.logz.io/1UnbUiM"},
+{ :image => "cimpress.png", :name => "Cimpress", :link => "http://cimpress.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -30,7 +31,6 @@ end
 { :image => "xebia.png", :name => "Xebialabs", :link => "https://xebialabs.com/"},
 { :image => "nutanix.png", :name => "Nutanix", :link => "http://www.nutanix.com/"},
 { :image => "appneta.png", :name => "AppNeta", :link => "http://www.appneta.com/"},
-{ :image => "cimpress.png", :name => "Cimpress", :link => "http://cimpress.com/"}
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Gold sponsors</h1><% end %>
@@ -42,7 +42,7 @@ end
 <% @bsponsors = [
 { :image => "athenahealth.png", :name => "athenhealth", :link => "http://www.athenahealth.com"},
 { :image => "battery_ventures.png", :name => "Battery Ventures", :link => "https://www.battery.com/"},
-{ :image => "brainshark.png", :name => "brainshark", :link => "http://www.brainshark.com/"}
+{ :image => "brainshark.png", :name => "brainshark", :link => "http://www.brainshark.com/"},
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Silver sponsors</h1><% end %>
