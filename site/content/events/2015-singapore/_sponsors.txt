@@ -11,7 +11,16 @@ end
 %>
 
 <% @sponsors = [
-{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.gopivotal.com/"}
+  {
+    :image => "pivotal.png",
+    :name => "Pivotal",
+    :link => "http://www.gopivotal.com/"
+  },
+  {
+    :image => "puppetlabs.png",
+    :name => "Puppetlabs",
+    :link => "http://www.puppetlabs.com/"
+  }
 ]%>
 <%= make_sponsor_links(@sponsors) %>
 <br />
@@ -34,7 +43,12 @@ end
 <h1>Host Sponsors</h1>
 
 <% @sponsors = [
-{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/", :width => "100%"}
+  {
+    :image => "thoughtworks.png",
+    :name => "ThoughtWorks",
+    :link => "http://www.thoughtworks.com/",
+    :width => "100%"
+  }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
