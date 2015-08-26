@@ -43,6 +43,7 @@ end
 { :image => "athenahealth.png", :name => "athenhealth", :link => "http://www.athenahealth.com"},
 { :image => "battery_ventures.png", :name => "Battery Ventures", :link => "https://www.battery.com/"},
 { :image => "brainshark.png", :name => "brainshark", :link => "http://www.brainshark.com/"},
+{ :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Silver sponsors</h1><% end %>
