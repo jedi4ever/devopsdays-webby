@@ -20,6 +20,11 @@ end
     :image => "puppetlabs.png",
     :name => "Puppetlabs",
     :link => "http://www.puppetlabs.com/"
+  },
+  {
+    :image => "titansoft.jpg",
+    :name => "Titansoft",
+    :link => "http://www.titansoft.com/"
   }
 ]%>
 <%= make_sponsor_links(@sponsors) %>
