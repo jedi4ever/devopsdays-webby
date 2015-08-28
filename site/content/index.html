@@ -86,20 +86,6 @@ var sfmarker = new MarkerWithLabel({
 
 google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2015-siliconvalley"});
 
-var chicagolocation=new google.maps.LatLng(41.8369, -87.6847);
-var chicagomarker = new MarkerWithLabel({
-    position: chicagolocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Chicago<br>Aug 25 & 26",
-    labelAnchor: new google.maps.Point(60, 50),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2015-chicago/"});
-
 var charlottelocation = new google.maps.LatLng(35.2269, -80.8433);
 var charlottemarker = new MarkerWithLabel({
     position: charlottelocation,

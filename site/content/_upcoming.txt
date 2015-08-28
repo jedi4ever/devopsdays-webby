@@ -1,9 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-chicago/">
-      Chicago
-    </a>
-    -
     <a href="/events/2015-bangalore">
       Bangalore
     </a>
