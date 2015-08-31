@@ -1,12 +1,50 @@
 ---
-filter:    erb
+filter: erb
 ---
+<%
+def make_sponsor_links(sponsors)
+  sponsors.shuffle.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"sponsor/sponsor-logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
 <% @gsponsors = [
 	{
 		:image => "gold-puppetlabs.png",
 		:name => "PuppetLabs",
 		:link => "https://puppetlabs.com/"
 	},
+
+  {
+    :image => "gold-pivotal.png",
+    :name => "Pivotal",
+    :link => "http://pivotal.io/"
+  },
+
+  {
+    :image => "gold-dynatrace.png",
+    :name => "Dynatrace",
+    :link => "http://www.dynatrace.com/"
+  },
+
+  {
+    :image => "gold-cloudstack.png",
+    :name => "Apache Cloudstack",
+    :link => "https://cloudstack.apache.org/"
+  },
+
+  {
+    :image => "gold-sonatype.png",
+    :name => "Sonatype",
+    :link => "https://sonatype.com/"
+  },
+
+  {
+    :image => "gold-xebia.png",
+    :name => "Xebia",
+    :link => "https://xebia.com/"
+  },
 
 	{
 		:image => "gold-schubergphilis.png",
@@ -26,21 +64,201 @@ filter:    erb
 		:link => "http://www.exact.nl/"
 	},
 
+  {
+    :image => "gold-chef.png",
+    :name => "Chef",
+    :link => "http://www.chef.io/"
+  },
+
 	{
 		:image => "gold-rackspace.png",
 		:name => "Rackspace",
 		:link => "http://www.rackspace.com/"
-	}
+	},
+
+	{
+		:image => "gold-bitbrains.png",
+		:name => "Bitbrains",
+		:link => "http://www.bitbrains.nl/"
+	},
+
+	{
+		:image => "gold-bol.png",
+		:name => "bol.com",
+		:link => "http://www.bol.com/"
+	},
+
+	{
+		:image => "gold-coscale.png",
+		:name => "CoScale",
+		:link => "http://www.coscale.com/"
+	},
+
+	{
+		:image => "gold-elastic.png",
+		:name => "Elastic",
+		:link => "http://www.elastic.co/"
+	},
+
+	{
+		:image => "gold-quint.png",
+		:name => "Quint",
+		:link => "http://www.quintgroup.com/"
+	},
+
+  {
+		:image => "gold-ing.png",
+		:name => "ING",
+		:link => "http://www.ing.jobs/Nederland/Vakgebieden/Informatie-Technologie.htm"
+	},
+
+  {
+    :image => "gold-bmc.png",
+    :name => "BMC",
+    :link => "http://www.bmcsoftware.nl/"
+  },
 ]%>
 
-<% @gsponsors.each do |sponsor| %>
-	<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"sponsor/sponsor-logos/#{sponsor[:image]}")%>'></a>
-<% end %>
+<%= make_sponsor_links(@gsponsors) %>
 
-<% @msponsors = []%>
+<br />
+<br />
 
-<% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
+<h1>Silver Sponsors</h1>
+<% @ssponsors = [
+	{
+		:image => "silver-containersolutions.png",
+		:name => "Container Solutions",
+		:link => "http://container-solutions.com/"
+	},
 
-<% @msponsors.each do |sponsor| %>
-	<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
+  {
+    :image => "silver-docker.png",
+    :name => "Docker",
+    :link => "http://docker.com/"
+  },
+
+  {
+    :image => "silver-aws.png",
+    :name => "Amazon Web Services",
+    :link => "http://www.amazon.jobs/location/dublin-ireland"
+  },
+
+
+  {
+    :image => "silver-redhat.png",
+    :name => "RedHat",
+    :link => "http://redhat.com/"
+  },
+
+  {
+    :image => "silver-vmware.png",
+    :name => "VMware",
+    :link => "http://vmware.com/"
+  },
+
+	{
+		:image => "silver-sentia.png",
+		:name => "Sentia",
+		:link => "https://www.sentia.com/"
+	},
+]%>
+
+<%= make_sponsor_links(@ssponsors) %>
+
+<br />
+<br />
+
+<h1>Bronze Sponsors</h1>
+<% @bsponsors = [
+	{
+		:image => "bronze-sdl.png",
+		:name => "SDL",
+		:link => "http://www.sdl.com/"
+	},
+
+  {
+    :image => "bronze-inuits.png",
+    :name => "Inuits",
+    :link => "http://www.inuits.eu/"
+  },
+
+  {
+    :image => "bronze-github.png",
+    :name => "GitHub",
+    :link => "http://www.github.com/"
+  },
+
+  {
+    :image => "bronze-leaseweb.png",
+    :name => "leaseweb",
+    :link => "http://www.leaseweb.nl/"
+  },
+
+  {
+    :image => "bronze-devoteam.png",
+    :name => "DevoTeam",
+    :link => "http://www.devoteam.nl/"
+  },
+
+  {
+    :image => "bronze-pcextreme.png",
+    :name => "PCextreme",
+    :link => "https://www.pcextreme.nl/"
+  },
+
+  {
+    :image => "bronze-do.png",
+    :name => "Do Consultants",
+    :link => "http://doconsultants.com/"
+  },
+
+  {
+    :image => "bronze-arista.png",
+    :name => "Arista",
+    :link => "http://arista.com/"
+  },
+
+  {
+    :image => "bronze-implicitexplicit.png",
+    :name => "Implicit Explicit",
+    :link => "http://implicit-explicit.com/"
+  },
+
+  {
+    :image => "bronze-tellki.png",
+    :name => "Tellki",
+    :link => "http://www.tellki.com/"
+  },
+
+  {
+    :image => "bronze-keycdn.png",
+    :name => "keycdn",
+    :link => "https://www.keycdn.com"
+  },
+]%>
+
+<%= make_sponsor_links(@bsponsors) %>
+
+<h1>Community sponsors</h1>
+<% @csponsors = [
+  {
+    :image => "community-startupams.png",
+    :name => "Startup Amsterdam",
+    :link => "http://startupamsterdam.org/"
+  }
+  ]%>
+<%= make_sponsor_links(@csponsors) %>
+
+<h1>Media sponsors</h1>
+<% @msponsors = [
+  {
+    :image => "media-oreilly.png",
+    :name => "O'Reilly Media",
+    :link => "http://www.oreilly.com/"
+  }
+  ]%>
+<%= make_sponsor_links(@msponsors) %>
+
+<br />
+<br />

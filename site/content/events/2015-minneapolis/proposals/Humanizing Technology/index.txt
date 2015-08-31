@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 11
+title: "Humanizing Technology"
+---
+
+**Abstract:**
+
+The promise of technology, and of automation particularly, is that they can free people to do the things that people excel at by assuming the rote, repetitive tasks that are better suited to machines. That promise has largely gone unfulfilled, as the demands and structure of the modern workplace have instead compelled people to behave more like machines than like people: consider the assembly-line worker, the sysadmin on call, the siloed teams accepting input from and providing output to one another. Too often, technological work diminishes the humanity of those who do the work. One of the most exciting aspects of the DevOps movement is its power to affirm that humanity.                                                           
+                                                                                
+This talk will focus on the potential of DevOps principles and practices to create environments where technology enriches not only organizations, but also the lives of their people.        
+
+
+**Speaker:**
+Speaker 11
+

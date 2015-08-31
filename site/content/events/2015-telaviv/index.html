@@ -1,0 +1,20 @@
+---
+title: Welcome
+layout: event_tlv
+extension: html
+dirty: true
+filter:
+- erb
+- markdown
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center>
+<img border=0 src="logos/devopsdaystlv.jpg"><br>
+</center><br /><br />
+
+### **Registration:** [Now Open](registration)
+### **Date:** <%= render(:partial => "/#{@eventhome}/_target_date") -%>
+### **Venue:** [Wohl Center](location)
+### **Call for papers:** [Now Open](propose)
+### **Last date for submission:** <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>

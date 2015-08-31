@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Bridget Kromhout
+title: "Long Distance DevOps"
+---
+
+**Abstract:**
+Collaboration. Empathy. Trust. We know how important these interactions are in a DevOps practice, but what if your team has remote members? My company's in Manhattan, and I'm over a thousand miles away. Moving from a small startup with everyone around the same table to being a remote operations engineer is a dramatic shift and requires a new approach.
+
+I'll share the story of being one of those little squares at the bottom of every video call, and what's worked well (and not so well) over the better part of the last year. I'll detail practices that help us and how we've approached obstacles we've encountered. Great tools are necessary but not sufficient for remote work; the way we use them is just as important.
+
+Attendees will leave with specific changes they can implement to make their organizations more inclusive no matter where a team member is located or how they best communicate, including tool and culture ideas. Building understanding across teams works a bit differently with remotes in the mix... perhaps even better!
+
+**Speaker:**
+Bridget Kromhout

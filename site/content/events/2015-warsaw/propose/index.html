@@ -1,0 +1,15 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Propose
+dirty: true
+layout: event_warsaw
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<p>
+  <a href="http://devopsdays.pl/cfp/form">Call for Papers</a> is already running - we are waiting for your applications. CFP is open till September the 30th.
+</p>

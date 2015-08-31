@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Alex Howells
+title: "Hiring - From Dice Roll to Science"
+---
+
+**Abstract:**
+
+As an applicant pursuing a new role, I feel like I'm walking into a
+bookmaker and putting €10 on a pony, without knowing anything about its
+genetics or having historical knowledge about performance in races. Winning
+gives you a salary and benefits, losing hits where it hurts, "Am I actually
+good at this stuff?". Feedback is often simply not provided, and where it
+is, you think "WTF?!" more often than not.
+
+It's easy to overlook that sitting on the other side of the table is a
+hiring manager who also has a dilemma. There is huge variability in C.V.
+format and quality, and no proven correlation between a well-presented
+candidate and a high-performing employee. To coin a phrase: it's a goat
+rodeo.
+
+The status quo doesn't make sense to me. On both sides of the table, the
+stakes involved are massive. Making a bad hire can be hugely costly to an
+employer; pursuing the wrong role can be a devastating setback to an
+individual. In both cases you wish for a Tardis and ask "How did that go so
+wrong?".
+
+As developers and operations professionals, we preach that instrumentation
+and monitoring are essential. We have entire conferences (e.g. Monitorama,
+Strata, et al) concerning the capture and analysis of data, we've coined
+terms like "Big Data", and yet, as an industry we are largely not
+practicing what we preach within recruitment despite the criticality of
+such decisions.
+
+We're going to embark on a journey down the rabbit hole of hiring, analyse
+the common techniques employed in making hiring decisions today, and talk
+about opportunities to instrument your processes and the immediate benefits
+of doing so, to both the applicant and employer.
+
+
+**Speaker:**
+Alex Howells
+

@@ -1,0 +1,6 @@
+- Christopher Williamson <home@chrisaw.com>
+- Darren Dow <ddow@dow-cloud.com>
+- Jim Croft <jimcrofty@gmail.com>
+- Jorn Jambers <jorn@in4it.be>
+- Martin Ellis <martin@ellis.name>
+- Max Manders <max@maxmanders.co.uk>

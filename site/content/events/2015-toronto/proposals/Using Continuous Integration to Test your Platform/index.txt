@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: true
+author: Kirsten Hunter
+title: "Using Continuous Integration to Test your Platform"
+---
+
+**Abstract:**
+
+APIs have become ubiquitous, with practically every component requiring an API. In order to achieve such scale, it’s common that the core systems developers are the ones creating the APIs as well, which in turn can lead to inconsistencies, performance bottlenecks and general integration issues. With APIs, it’s critically important that each resource integrates seamlessly with related items – but testing the entire system is frequently not part of the testing strategy for the individual coding team.
+
+One solution we’ve implemented for integrated testing is to create clients based on several use cases and run them through a continuous integration system such as Jenkins to make sure that the responses are within the parameters chosen for those clients. This can help identify sudden changes in response time, inconsistencies between endpoints, regressions and other unacceptable outcomes – so we can get back to the team responsible and fix the issue before it affects our customers.
+
+Jenkins is aimed at continuous integration for build systems, but can easily be used for this type of monitoring and feedback. The API makes it simple to integrate the status for these tests into an existing dashboard. Using Jenkins instead of an external testing system allows for the control and testing of the authentication mechanism as well as the resources themselves.
+
+**Speaker:**
+
+Kirsten Hunter
+

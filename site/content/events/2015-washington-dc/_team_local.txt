@@ -1,5 +1,5 @@
 - Nathen Harvey <a href="https://twitter.com/nathenharvey">@nathenharvey</a> (Chef)
-- Mark Cornick <a href="http://www.markcornick.com/">markcornick.com</a> (TeamSnap)
+- Mark Cornick <a href="https://twitter.com/markcornick">@markcornick</a> (TeamSnap)
 - Greg Elin <a href="https://twitter.com/gregelin">@gregelin</a> (GovReady)
 - Mike DelNegro <a href="https://twitter.com/radiocats">@radiocats</a> (Mandiant)
 - Jason Simpson <a href="https://twitter.com/jfsimpson1">@jfsimpson1</a> (Netuitive)

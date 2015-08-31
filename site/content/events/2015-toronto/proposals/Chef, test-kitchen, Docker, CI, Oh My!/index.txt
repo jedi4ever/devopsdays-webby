@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: true
+author: Arthur Maltson
+title: "Chef, test-kitchen, Docker, CI, Oh My!"
+---
+
+**Abstract:**
+
+Test Driven Development is a popular concept in Software Development, leading to higher quality code that's easier to maintain. Automated testing is normally a foreign concept in the Operations world, but as you ssh into your servers to make that quick fix or run your updated script (fingers crossed), you might be wondering if there's a better way. A way that gives you the confidence in your script and lets you test those scripts in isolation. Well I have good news for you, there is a better way! Test Driven Infrastructure (TDI) is now possible. I know, it sounds crazy.
+
+At this session you'll learn the how, and more importantly the why, of TDI. You'll see how Chef (or any other Config Management framework) can be tested with Test Kitchen and ServerSpec. You'll also learn how to improve your feedback cycle with Docker, and using the Docker approach on a CI server. There may even be some live demos!
+
+Finally, the Ops world collides with the Dev world in true DevOps testing bliss.
+
+**Speaker:**
+
+Arthur Maltson
+

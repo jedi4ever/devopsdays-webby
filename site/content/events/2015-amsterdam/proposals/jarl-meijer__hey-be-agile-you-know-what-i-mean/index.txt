@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Jarl Meijer
+title: "Predict the success of your upcoming releases with DevOps Analytics"
+---
+
+**Abstract:**
+
+What does it really mean to be Agile? Following an ‘Agile process’ like Scrum, Kanban or SAFe is just one step. While transforming to an Agile organization we also expect people to be Agile in behavior and mindset. Without ‘an Agile culture’ and ‘Agile people’ fallback to traditional behavior is close by and benefits from an Agile transformation shrink rapidly. Can you explain what Personal Agility is, so that the people in your organization understand what is expected from them? After this session you can!
+
+This session will explain the 4 aspects of being Agile: 
+•	Agile collaboration (COLLABORATION)
+•	Agile attitude (ATTITUDE)
+•	Agile solutions (SOLUTION)
+•	Agile way of working (METHOD)
+
+Each aspect will be made tangible –and the model is best explained- by using many explicit examples of less versus more Agile. 
+The participants will be invited to actively apply what they learn by filling in the short version of the personal agility assessment during the session.
+
+**Speaker:**
+
+Jarl Meijer is an experienced Agile coach-trainer-consultant. Educated in Business Computer Science and Psychology, he started his career as an entrepreneur, developing medical diagnostic tools. From the mid '90-ties he is an IT-consultant who made his mark in quality- and project/program-management. 
+
+In 2008 he moved to Xebia, the leading Agile consultancy company in the Netherlands. In his assignments he helpes organizations to transform in an Agile organization to realize their goals as improved time to market, increased customer- and employee satisfaction, cost reductions, and meeting regulatory deadlines. Jarl is an enthusiastic and knowledgeable trainer on several Agile topics. He trains yearly from practitioners to management, from team practices to Agile at Scale solutions, from foundation to advanced level. 

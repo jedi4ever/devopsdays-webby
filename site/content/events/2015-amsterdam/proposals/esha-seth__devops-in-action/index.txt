@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Esha Seth
+title: "DevOps in Action"
+---
+
+**Abstract:**
+
+Software product development has seen the change from various legacy SDLC to lean development via agile and DevOps methodology. DevOps methodology enables communication and strong collaboration among all stakeholders like developers, testers and customers. The 'one team' approach' provides continuous delivery/ integration keeping stakeholders feedback in mind. My session will focus on the challenges and benefits of adapting DevOps as a practice in our product development, from planning a release to fast paced sprint execution, close collaboration between development, test/QA, documentation team, management and customers, challenges like external dependencies if open source code is involved (openstack), continuous integration/delivery and benefits of this approach like enabling to integrate customer requirements during release by continuous feedback, focus on test automation to reach a successful final release of product.
+
+DevOps integrates developers and operations teams in order to improve collaboration and productivity by automating infrastructure, automating workflows and continuously measuring application performance.
+
+DevOps Delivers
+Accelerated software delivery - By enabling collaboration and eliminating organizational silos
+Balanced speed, cost, quality and risk - By automating manual processes and eliminating waste
+Improved client experience - By automating the customer feedback loop
+
+**Speaker:**
+
+Esha Seth is a senior staff software engineer with IBM Systems and Technology Labs in Pune,India. She has around 8.5+ years of product development in cloud computing, systems management and virtualization related projects. She holds a Bachelor in Engineering in Computer Science from Pune University and a Masters of Science in Systems Software degree from BITS Pilani. 
+She has worked with various SDLC methodologies during her career and has been actively involved currently in a project related to Openstack and POWER systems management adapting DevOps methodology in practice.
+She has co-authored an IBM Redbook, 3 filed patents, 6 published disclosures and been a part of Corporate Service Corps program for leadership development at IBM. She is also an active participant in diversity and University Relations program at IBM. She has been selected for presenting sessions at internal IBM events and posters at external events like Women in Technology and Society of Women Engineers.

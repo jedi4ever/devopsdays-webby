@@ -4,14 +4,27 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.shuffle.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='98px' height='98px' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
 
 <% @gsponsors = [
-{ :image => "sumologic.jpg", :name => "Sumo Logic", :link => "http://www.sumologic.com/"},
-{ :image => "sps.jpg", :name => "SPS Commerce", :link => "http://www.spscommerce.com/"}
+{ :image => "victorops.png", :name => "VictorOps", :link => "https://www.victorops.com"},
+{ :image => "sumologic.jpg", :name => "Sumo Logic", :link => "https://www.sumologic.com/"},
+{ :image => "sps.jpg", :name => "SPS Commerce", :link => "http://www.spscommerce.com/"},
+{ :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "https://www.puppetlabs.com/"},
+{ :image => "chef.png", :name => "Chef Software", :link => "https://www.chef.io/"},
+{ :image => "target.jpg", :name => "Target", :link => "http://www.target.com/"},
+{ :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"},
+{ :image => "newrelic.png", :name => "New Relic", :link => "https://newrelic.com/"},
+{ :image => "hp.png", :name => "HP Software", :link => "http://www.hpsoftware.com"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
+{ :image => "sysdig.png", :name => "sysdig", :link => "https://sysdig.com"},
+{ :image => "saltstack.png", :name => "SaltStack", :link => "http://saltstack.com/"},
+{ :image => "jut.png", :name => "Jut", :link => "http://www.jut.io"},
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://pivotal.io"},
+{ :image => "docker.png", :name => "Docker", :link => "https://www.docker.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -20,6 +33,11 @@ end
 <h1><font color="silver">Silver Lake</font> sponsors</h1>
 
 <% @slsponsors = [
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com" },
+{ :image => "10thmagnitude.jpg", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
+{ :image => "dell.png", :name => "Dell Software / Enstratius", :link => "http://www.enstratius.com/"},
+{ :image => "govdelivery.png", :name => "GovDelivery", :link => "http://www.govdelivery.com"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com"},
 ]%>
 <%= make_sponsor_links(@slsponsors) %>
 
@@ -28,5 +46,18 @@ end
 <h1><font color="Wheat">Stone Arch</font> sponsors</h1>
 
 <% @sasponsors = [
+{ :image => "scout.png", :name => "Scout", :link =>"https://scoutapp.com" },
+{ :image => "buzzfeed.png", :name => "BuzzFeed", :link =>"http://www.buzzfeed.com" },
 ]%>
 <%= make_sponsor_links(@sasponsors) %>
+
+<br/>
+<br/>
+<h1>Media sponsors</h1>
+<% @msponsors = [
+{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
+{ :image => "velocity.png", :name => "Velocity Conf", :link => "http://www.velocityconf.com/"},
+{ :image => "ado.png", :name => "Arrested DevOps", :link => "http://www.arresteddevops.com/"},
+{ :image => "gitmsp.png", :name => "Girls in Tech - Minneapolis", :link => "http://gitmsp.org/"},
+]%>
+<%= make_sponsor_links(@msponsors) %>

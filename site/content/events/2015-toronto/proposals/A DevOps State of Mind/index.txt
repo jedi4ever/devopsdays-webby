@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Chris Van Tuin
+title: "A DevOps State of Mind"
+---
+
+**Abstract:**
+
+Rapid innovation, changing business landscapes, and new IT demands force businesses to make changes quickly. The DevOps approach is a way to increase business agility through collaboration, communication, and integration across different teams in the IT organization.
+
+In this presentation, you’ll learn about:
+
++ The acceleration of Application Delivery for the Business with DevOps
++ The transformation of IT to a DevOps, Microservices, and Container based Cloud Architecture including the use of a PaaS along with Docker, Google’s Kubernetes and Jenkins.
++ How DevOps practices can operate in a Platform-as-a-Service (PaaS)-enabled environment.
++ PaaS and DevOps, used together, can reduce software delivery cycle times, drive automation, and increase efficiency.
++ Other organizations are using PaaS and how to replicate their success
+         
+Join Chris Van Tuin, Chief Technologist, West at Red Hat, as he walks through how DevOps can accelerate application delivery for the Business.
+
+**Speaker:**
+
+Chris Van Tuin
+

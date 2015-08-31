@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: true
+author: Brian Nuszkowski
+title: "Handling The Rush"
+---
+
+**Abstract:**
+
+Congratulations! Your site has just gone big. Depending on how thorough you’ve been with load testing, you may or may not be celebrating this impending flood of user traffic. This talk will define what a load testing strategy should look like and elaborate on several components involved in the process.
+
+This talk captures the ideas and results of over a years worth of work defining the load testing strategy that was used for a worldwide online ordering system, used for ordering pizza! When I first started as a Site Reliability Engineer, while online ordering traffic growth did occur, our traffic patterns were relatively predictable. But, as the business steadily grew to upwards 50% online orders and the company was able to craft high value, high volume promotions, my team and I quickly realized we needed to stay ahead of the traffic volume curve. Our services were fast, but how did they perform under pressure?
+
+My team and I sought the guidance of several load testing vendors and soon discovered that a mostly generic formula was being used across the industry: Throw as much traffic as you can at your site and see when it breaks. This method disappointed and most importantly, failed us. So, we decided to seek out some answers for ourselves. From our work, we were able to identify 5 areas that provided us with a framework to generate successful and realistic load tests. It is my intention that this information will reach other companies who are experiencing similar issues and in turn assist them in developing a realistic and accurate load testing strategy for their sites. If Success = Fast + Vast. Do you have the entire formula covered?
+
+The topics include:
+
++ Understanding and testing with real user data
++ Properly defining and capturing test data
++ Testing outside of the vacuum
++ Load Test Beneficiaries
++ Diversity in testing types
+
+**Speaker:**
+
+Brian Nuszkowski
+

@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 13
+title: "Code like a Beginner with the Insight of a Pro"
+---
+
+**Abstract:**
+
+Too often, the most experienced people on your team, the ones who have so much to teach, are also the hardest to understand. Documentation frequently falls out of date, intimidated rookies become the norm, and perl golf jokes get thrown around (and actually implemented).                                   
+                                                                                
+For this reason, its really important to establish a natural method of knowledge transfer. Too many people have work that cant be completed or improved upon by others due to siloed strategies and implementations. Collaborative work using things like wiki's, git repositories, code reviews, partner programming (even in reactive situations), allows you to get things done right, improve processes, and move forward in all areas of work. This gives you the best bang for your buck and keeps things progressing.                                                                    
+                                                                                
+Documentation becomes universally understood. Information spreads naturally through the organization. Decisions get made quicker and concensus is established early. Walking through these strategies allows us to find ways where everyone of every level can contribute, and even those experts, really hone their skills and consider things they originally didnt think about. Everyone improves and everyone becomes an expert.  
+
+**Speaker:**
+Speaker 13
+

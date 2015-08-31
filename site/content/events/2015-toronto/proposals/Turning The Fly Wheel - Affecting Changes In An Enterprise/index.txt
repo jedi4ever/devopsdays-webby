@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Arthur Maltson
+title: "Turning The Fly Wheel - Affecting Changes In An Enterprise"
+---
+
+**Abstract:**
+
+You just finished attending another great conference, or reading an insightful blog post, and now you have a bunch of great ideas you'd like to put to use. You get to work and your great ideas crash into the reality of the giant flywheel, i.e. the Enterprise Bureaucracy. You start pushing, but the flywheel is heavy or even turning in the opposite direction!
+
+Don't give up yet, come and learn techniques for greasing the flywheel of change in your Enterprise. Whether you work in a large Enterprise where the flywheels weigh a ton or a small startup where the flywheel can be turned with a single hand, these techniques will help rally your team/organization around new ideas and move your company forward.
+
+**Speaker:**
+
+Arthur Maltson
+

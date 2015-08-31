@@ -2,7 +2,7 @@
 
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install -y apache2 libonig-dev libxml2-dev libxslt-dev git git-doc
+sudo apt-get install -y apache2 curl libonig-dev libxml2-dev libxslt-dev git git-doc
 
 curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
 
@@ -21,7 +21,6 @@ cd site
 webby build
 
 sudo rm -rf /var/www
-sudo mkdir -p /var/www
-sudo ln -fs /vagrant/site/output/ /var/www/html
+sudo ln -fs /vagrant/site/output/ /var/www
 sudo /etc/init.d/apache2 stop
 sudo /etc/init.d/apache2 start

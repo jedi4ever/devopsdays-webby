@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Simon Eskildsen
+title: "Shopify’s Holiday Resiliency Sprint"
+---
+
+**Abstract:**
+
+Routers fail, fibers get cut, databases crash, drives fail, and your application falls over. For the busy holiday season of 2014, Shopify’s operations and site reliability teams came together for months of resiliency work after a series of embarrassing failures. This talk covers the cross-team effort from start to now, the technical tools and techniques, and how resiliency has successfully entered our engineering culture. Through the war stories of our own resiliency effort this talk will cover ideas on how to successfully execute resiliency within your own organization.
+
+**Speaker:**
+
+Simon Eskildsen
+

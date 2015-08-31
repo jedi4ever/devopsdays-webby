@@ -1,13 +1,15 @@
 ---
-title:  proposals
-filter:     
+filter:
 - erb
 - markdown
-dirty:      true
+dirty: true
+sidebar: true
+title: proposals
+layout: event_msp
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
-This page lists the proposals we have received. Help the presenters with your feedback! 
+This page lists the proposals we have received. Help the presenters with your feedback!
 
 
 <h2>Conference Talks</h2>
@@ -18,7 +20,7 @@ This page lists the proposals we have received. Help the presenters with your fe
   articles.delete(@page)
   articles.each do |page|
 -%>
-<li><%= link_to_page(page) %> - <%= page.author %> 
+<li><%= link_to_page(page) %> - <%= page.author %>
 <% end -%>
 </ol>
 

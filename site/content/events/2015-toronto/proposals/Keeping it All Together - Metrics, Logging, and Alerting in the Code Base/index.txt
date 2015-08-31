@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: true
+author: Will Weaver
+title: "Keeping it All Together: Metrics, Logging, and Alerting in the Code Base"
+---
+
+**Abstract:**
+
+During this talk we will review a novel implementation of metrics, logging and alerting using docker and fluentd in a distributed containerized environment. In looking at this implementation we will explore how each the system was architected to take advantage of the deploy anywhere nature of containers. We will also examine how we can simplify the work of ops and further engage developers by keeping metrics, logging, and alerting configuration as a testable part of the application repo.
+
+**Speaker:**
+
+Will Weaver
+

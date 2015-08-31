@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: J. Paul Reed
+title: "Live Fast, Die Young, Leave a DevOps Corpse"
+---
+
+**Abstract:**
+
+Despite being just five years old, DevOps has exploded both in terms of community and mindshare, unarguably changing the IT landscape. But will "DevOps" be around in another five years? It may seem like an absurd question, but with murmurs of "DevOps is Dead: Long Live DevOps" and "'DevOps' in a Post-DevOps World" --both recent conference presentations-- some are starting to wonder what the future holds, and ask: does the emperor have any clothes? In this talk, we'll explore the avenues DevOps may find itself strolling down the next few years, whether or not it'll even be called DevOps, and what aspects of today's DevOps are likely to remain timeless.
+
+**Speaker:**
+
+J. Paul Reed
+

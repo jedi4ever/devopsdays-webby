@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 26
+title: "DevOops: The (Unintended) War Stories"
+---
+
+**Abstract:**
+It's your birthday, and the day before your vacation starts. You arrive at the office, prep your workstation, get a drink, and start the day. Almost immediately, you start to receive indicators that multiple core systems are beginning to have critical failures as the slow trickle of alerts increases to multiple alarms sounding. By now the systems are entirely inaccessible due to system load, and you watch the count of outgoing alerts plummet. It's 10:52 am; it's your aircraft. 
+
+These are the PagerDuty (Unintended) War Stories. 
+
+In this talk we'll discuss the failures, the successes, and the outcomes of unexpected incidents at PagerDuty. This includes the technical details of the outage, and how an internal incident commander was used to coordinate the recovery work across multiple teams cohesively. 
+
+**Speaker:**
+Speaker 26
+

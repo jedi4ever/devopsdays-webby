@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Gil Rice
+title: "Creating a common language to evaluate application performance"
+---
+
+**Abstract:**
+
+Effectively communicating the operational state of an application between business and technical stakeholders can be challenging. We will explore a data driven methodology for defining both the business and technical objective measurement criteria and for application management success.
+
+**Speaker:**
+
+Gil Rice

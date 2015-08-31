@@ -11,6 +11,15 @@ filter:    erb
  { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io/"},
  { :image => "bazaarvoice.png", :name => "Bazaarvoice", :link => "http://www.bazaarvoice.com/"},
  { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
+ { :image => "sonatype.png", :name => "Sontaype", :link => "http://www.sonatype.com/"},
+ { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io/"},
+ { :image => "delphix.png", :name => "Delphix", :link => "http://www.delphix.com/"},
+ { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
+ { :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.co/"},
+ { :image => "leankit.png", :name => "LeanKit", :link => "http://leankit.com/"},
+ { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
+ { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com/"},
+ { :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
 ]
 %>
 
@@ -51,6 +60,13 @@ filter:    erb
 <% end %>
 
 <% @ssponsors = [
+ { :image => "internap.png", :name => "Internap", :link => "http://www.internap.com/"},
+ { :image => "rancher.png", :name => "Rancher", :link => "http://www.rancher.com/"},
+ { :image => "hired.png", :name => "Hired", :link => "https://hired.com/"},
+ { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
+ { :image => "victorops.png", :name => "VictorOps", :link => "https://victorops.com/"},
+ { :image => "10thmagnitude.png", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
+ { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 ]%>
 
 <h1>Silver sponsors</h1>
@@ -65,6 +81,7 @@ filter:    erb
 <% end %>
 
 <% @msponsors = [
+ { :image => "devopsdotcom.png", :name => "DevOps.com", :link => "http://devops.com/"},
 ]%>
 <% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
 <% @msponsors.each do |sponsor| %>

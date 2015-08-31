@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: PJ Hagerty
+title: "Cloud: Is that thing still around?"
+---
+
+**Abstract:**
+
+It seems like a few years ago Cloud and PaaS was something you heard around every corner. Then suddenly it became an odd flavor. But Cloud is still around, and you should be using it. Let's explore why!
+
+We'll take a dissecting look at what made the Cloud, then it's decline. We will explore:
+
++ The history of cloud
++ It's Decline in Popularity
++ The rebuild and refactor
++ The way it stands today
+
+**Speaker:**
+
+PJ Hagerty
+

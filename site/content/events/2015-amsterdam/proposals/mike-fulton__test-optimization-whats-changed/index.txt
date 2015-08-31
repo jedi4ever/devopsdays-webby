@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mike Fulton
+title: "Test Optimization: What's changed?"
+---
+
+**Abstract:**
+
+As a developer, are you testing the code you changed? Are you sure?
+As a tester, do you focus on what the developer just broke?
+As a project lead, do you know what your test exposure is?
+Does your build process update your code coverage?
+Do you spend more time testing than you should?
+
+Think about testing a different way. Come hear about test optimization.
+We will walk through day-to-day scenarios for developers, testers, the build team and project managers and how they can do their job better through a deeper understanding of how their application is tested.
+
+**Speaker:**
+
+Mike lives in the community of Brackendale, British Columbia. Brackendale sites between Whister ski adventures and Vancouver big lights.
+
+Mike works for IBM as CTO for Enterprise DevOps, and spends much of his time talking to clients about the DevOps process and practical ways to get started with agile development.
+
+For more than 25 years, Mike has focused on creating development tools to make developers lives easier. Mike's depth is in compilers, language runtimes, debuggers, profilers and development environments for z/OS.

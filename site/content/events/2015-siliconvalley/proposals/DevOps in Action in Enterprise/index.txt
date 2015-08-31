@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 15
+title: "DevOps in Action in Enterprise"
+---
+
+**Abstract:**
+Software product development has seen the change from various legacy SDLC to lean development via agile and DevOps methodology. DevOps methodology enables communication and strong collaboration among all stakeholders like developers, testers and customers. The 'one team' approach' provides continuous delivery/ integration keeping stakeholders feedback in mind. My session will focus on the challenges and benefits of adapting DevOps as a practice in our enterprise class product's development, from planning a release to fast paced sprint execution, close collaboration between development, test/QA, documentation team, management and customers, challenges like external dependencies if open source code is involved (openstack), continuous integration/delivery and benefits of this approach like enabling to integrate customer requirements during release by continuous feedback, focus on test automation to reach a successful final release of product.
+
+DevOps integrates developers and operations teams in order to improve collaboration and productivity by automating infrastructure, automating workflows and continuously measuring application performance.Some observations will be based on performance improvement in current product successfully launched in market and how adapting DevOps has been beneficial to the product.
+
+DevOps Delivers
+Accelerated software delivery - By enabling collaboration and eliminating organizational silos
+Balanced speed, cost, quality and risk - By automating manual processes and eliminating waste
+Improved client experience - By automating the customer feedback loop
+
+The talk will be based on my personal experience of a SWOT analysis of using DevOps in our enterprise class product (already running successfully in market and based on openstack) and the success obtained due to this adoption.
+
+**Speaker:**
+Speaker 15

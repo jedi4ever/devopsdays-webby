@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 8
+title: "Adoption of ChatOps for non-distributed teams"
+---
+
+**Abstract:**
+
+ChatOps is a topic that has really started to gain traction within the last year. As teams begin to adopt the practice of inserting tools right within their conversations, more and more questions are being raised. Many of those questions are simply "how do I get started?"
+
+In many cases, teams are distributed across the country or broader and adopting the practice of ChatOps is easy and the benefits are clear. Conversely, for those teams who all work together, it's tougher to find obvious motivation to adopt the practice. 
+
+We'll address methods of bringing non-distributed teams in to the modern age of ChatOps by highlighting the primary benefits of the practice with a focus on what is important even when your entire team works under one roof.
+
+
+**Speaker:**
+Speaker 8
+

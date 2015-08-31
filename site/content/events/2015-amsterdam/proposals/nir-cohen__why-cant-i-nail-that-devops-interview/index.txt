@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Nir Cohen
+title: "Why Can't I Nail that \"DevOps\" Interview?"
+---
+
+**Abstract:**
+
+I'm far from being an HR specialist; Even so, I've interviewed approximately 30 people for an Ops Lead role and couldn't find even one to stand up to my requirements. I've also heard of many (many) bad questions and wrong decisions made by interviewers because of which they didn't get the right person for the job. I would like to present the problem of why, in my opinion, it is hard to find that right person; why interviewers should stop looking for "DevOps" and start looking for "Good, Technical People" and why, after all, 30 people didn't suffice. (Presented at DevOpsDays TLV 2014)
+
+**Speaker:**
+
+Nir Cohen – is an architect at GigaSpaces working on Cloudify and a co-organizer of DevOpsDays Tel Aviv. Nir is a relatively short, brown eyed human being, loves animals and holds true to ethics as a life path. He likes to think, walk long distances, breathe and eat lettuce.

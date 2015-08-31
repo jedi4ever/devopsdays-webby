@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Kirsten Hunter
+title: "Creating a Dashboard from Reporting APIs"
+---
+
+**Abstract:**
+
+While many systems have various APIs for reporting usage, frequently these systems don’t have exactly the information you need tied together. Different stakeholders want different information, and sometimes developers are tasked with integrating this information into existing monitoring dashboards. When the system itself doesn’t provide historical data, that data needs to be cached on the customer side, adding an additional level of complexity.
+
+This talk will demonstrate a couple examples of the creation of a dashboard with real-time and historical data for traffic, purge queues, alerts and trends. Methods for storing data to support the dashboard will be discussed, as well as strategies for tying together different representations of the same resources.
+
+**Speaker:**
+
+Kirsten Hunter
+

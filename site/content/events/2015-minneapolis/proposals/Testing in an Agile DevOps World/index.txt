@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 18
+title: "Testing in an Agile DevOps World"
+---
+
+**Abstract:**
+
+Type:Moderated General Discussion 
+
+Description:
+
+ This session would focus on how testing changes in an agile DevOps world.Discussion points would include:
+
+ What is the best combination of white box, grey box, and black box testing? 
+ Should there be separate test teams and what testing should they own? 
+ Is there still a concept of System Test in an Agile DevOps world?  
+If so, how does it change? When and how should Accessibility, Usability, and Performance testing be done?
+ How does customer usage (A/B testing or Beta testing) fit into the Agile DevOps world?
+
+
+
+ I would provide the following to start the discussion: 
+ Generally accepted definitions of white box, grey box, and black box testing 
+ Working models of agile testing in a DevOps world (a couple of views that can be discussed) 
+ Breakdown of what is typically done during System Test so we can discuss what is still needed 
+ Breakdown of the other type of testing (Accessibility, Usability, Performance, and so on) so we can discuss when and how this should be done 
+
+
+**Speaker:**
+Speaker 18
+

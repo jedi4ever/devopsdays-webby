@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: "Cloud Foundry: How it’s cooked"
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Alex Lomau
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+ - Application lifecycle: from development to production
+ - Deep dive into Cloud Foundry architecture
+ - Where to deploy Cloud Foundry
+ - How to Deploy Cloud Foundry: from small evaluation to hundreds VMs High Availability production environments
+ - Scale up and down your infrastructure. Can you autoscale?
+ - Zero downtime upgrades
+ - Auto Healing deployments
+ - Cloud Foundry system logging and monitoring
+ - Services: types, current restrictions and expectations
+
+**Speaker:**
+
+I would like to describe myself as communicative and up-and-coming person, open source fan and contributor. I've committed to RefineryCMS, Netzke and simple_form projects. My aim is to rise professional skills and widening fields of knowledge to come up with own project or business.
+
+I have experience working with Ruby on Rails, JavaScript, jQuery, backbone, html5+css3, Flex, Java Servlets, AWS, MySQL, PostgreSQL, Cassandra, MongoDB, TDD and BDD techniques, C++, Qt, DirectX and non-commercial using of Maya, CorelDraw, Photoshop and development under iOS.

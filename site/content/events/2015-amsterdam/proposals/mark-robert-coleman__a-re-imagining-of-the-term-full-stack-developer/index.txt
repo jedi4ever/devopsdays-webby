@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mark Robert Coleman
+title: "A re-imagining of the term; 'full-stack developer'"
+---
+
+**Abstract:**
+
+The aim of continuous delivery has always been to reduce risk by increasing the rate of feedback. Its predecessor continuous integration had the same goal and lead to the development silo swallowing the testing silo. Continuous delivery, by way of the devops movement, is now taking the next step: development is swallowing operations. This has lead to the emergence of so called 'full stack' developers; developers who claim to be able to do the dev and the ops.
+
+But the stack is not full. As software becomes bigger and more complex, the only way to make useful software is with teams of software developers. Teams means soft skills, and they are conspicuously absent from most people's definition of 'full stack developer.'
+
+In this talk I will explain why, to build cutting edge software, technical skills are simply not enough. All 'modern' software developers must be strong communicators, must display empathy for others and must be resilient in the face of criticism; skills that we hardly ever interview for, and that we almost never know how to develop in our staff.
+
+This talk will be of interest to anyone who has a technically strong team who fail to perform, or anyone who spends too much of their working day in petty conversations about tool choices or any developers who want to know how to move into the upper echelons of their profession.
+
+**Speaker:**
+
+Mark Coleman is a freelance Continuous Delivery consultant, a founding member of Docker Amsterdam, an associate at Container Solutions, and a co-organiser of DockerCon Europe 2014.
+
+He has more than 10 years of experience in Software Development, Configuration Management and IT Operations and has helped some of Europe's largest companies to change the way they create and deliver software to their users.
+
+When he's not hacking tech, he's hacking humans. Why do they do the things they do?
+
+Mark lives in Amsterdam, the Netherlands.

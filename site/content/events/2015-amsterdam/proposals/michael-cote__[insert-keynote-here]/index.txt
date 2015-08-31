@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Michael Coté
+title: "(to be announced)"
+---
+
+**Abstract:**
+
+DevOps is just one part of a bucket of “trends” you hear about in every keynote, the riders of the digital apocalypse.
+
+You’ve heard these talks: Software is eating the world! Cloud! Millennials! Mobile! DevOps! Change or die! You must buy our products! These trends are cast out as imperatives with little analysis of what they mean and if they’re real.
+
+This talk looks at those keynote cliches and answers the question, “do I really need to do anything about them?”
+
+
+**Speaker:**
+
+I'm a sometimes industry analyst (having worked at RedMonk and 451 Research), corporate strategist (Dell), and former programmer.
+
+Now I work at Pivotal in technical marketing for Pivotal Cloud Foundry. Cloud!

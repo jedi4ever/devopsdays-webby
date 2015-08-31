@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 17
+title: "Security for Humans"
+---
+
+**Abstract:**
+
+Many security setups in the wild have been developed with one group in mind, to the detriment of other users of the system. This creates bottlenecks in an organization, and worse, leads people to working around the system, exposing threat surfaces.
+There are many stakeholders involved when you are creating or assembling a security toolchain. How do you satisfy the different, and sometimes conflicting, needs of these stakeholders in a responsive way?
+I propose we use some of the concepts developed in the user experience domain to create better tooling. User personas are living guides and provide a fast feedback loop when paired with user interviews. Giving direction while allowing freedom is a key tenet to integrating security into different parts of your organization.
+
+**Speaker:**
+Speaker 17

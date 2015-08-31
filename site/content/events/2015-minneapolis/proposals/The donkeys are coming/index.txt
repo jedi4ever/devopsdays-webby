@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 9
+title: "The donkeys are coming!"
+---
+
+**Abstract:**
+
+DevOps is growing in popularity and even usage in "the real world." It seems like we're slowly getting past unicorns only and seeing many "horses" do DevOps. Soon we'll see the mainstream market - the "donkeys" - start to pick it up and bend DevOps to its will. This talk will go over "the state of the union" of DevOps and provide some guidance for how to prepare for the donkey apocalypse.            
+
+**Speaker:**
+Speaker 9
+

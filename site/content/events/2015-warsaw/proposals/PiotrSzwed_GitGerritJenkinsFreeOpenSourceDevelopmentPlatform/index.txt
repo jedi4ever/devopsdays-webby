@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Git, Gerrit, Jenkins - Free & Open Source Development Platform
+proposal: true
+dirty: true
+talk: true
+ignite: false
+open_space: false
+selected: false
+layout: event_warsaw
+author: Piotr Szwed
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+This section will be added soon.
+
+**Speaker:**
+
+This section will be added soon.

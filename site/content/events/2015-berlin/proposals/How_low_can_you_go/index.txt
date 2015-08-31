@@ -1,0 +1,63 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Gerald Schmidt
+title: "How low can you go? Scalable infrastructure on a shoestring"
+---
+
+**Abstract:**
+
+Most products we release into the world are destined for abject failure. A
+very small number will become runaway successes. What separates one from the
+other, as N.N. Taleb never tires of reminding us, is not sage-like foresight
+or iron-clad work ethic but luck.
+
+  Taleb¹s advice to casino dwellers everywhere holds important lessons for
+those of us who plan and build the virtual infrastructure on which future
+products will thrive or, more frequently, sink into oblivion.
+
+  To maximize our chances of a lucky break, we have to settle into a rhythm
+of placing small bets, none of them so costly failure would send in the
+bailiffs. We have to minimize the cost of each investment made without
+sacrificing our ability to scale up massively in the never unexpected but
+highly unlikely event of a smash hit.
+
+  To borrow one of Taleb¹s key terms, the goal is to thrive on optionality¹
+[1]: we are able to scale at a moment's notice, but we pay little for
+redundant resources until traffic ramps up. We are left with pairs of
+autoscaling groups (one empty, the other nearly so) and geographically
+distributed copies of our infrastructure that are instantiated occasionally
+for testing and immediately torn down.
+
+  Scaling out using many inexpensive commodity components that often fail¹
+[2] has allowed the web giants to grow at an astonishing rate, but it also
+holds out the promise of an architecture that can be collapsed back to a
+single node running on bargain bin hardware.
+
+  This talk is an invitation to start asking questions we are often too
+embarrassed to ask: what is the least performant model you have in stock?
+Can you order one that is cheaper still? What is the lowest achievable
+throughput for that database-as-a-service your sales rep has praised to the
+skies? Once that is out of the way, you will find that there is plenty to
+like in an occasionally sluggish service used by not very many people.
+Crucially, though, we can always scale up in the unlikely event that we
+unwrap the golden ticket.
+
+  Sadly the talk has no golden ticket to offer, but it does come with a
+budget-friendly, open source CloudFormation template that puts this approach
+into practice.
+
+[1] N.N. Taleb, Antifragile: Things That Gain from Disorder, esp. Book IV.
+
+[2] gfs-sosp2003.pdf <http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf>
+
+**Speaker:**
+Gerald Schmidt
+

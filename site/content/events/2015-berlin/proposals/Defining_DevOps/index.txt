@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Dimitrios Verraros
+title: "Defining DevOps"
+---
+
+**Abstract:**
+
+The purpose of this talk is to define, by trying to decipher, the current
+meaning and perception of DevOps. While a big interest towards adopting the
+DevOps philosophy has been shown, especially the last year, there is still a
+huge struggle in understanding what is really needed to take this step, from
+using the right tools and hiring the write people, to adopting an agile
+mentality and swifting towards a completely new model, where cross-functional
+teams come to replace the old and strictly layered IT departments, which are
+still really tough to shake. In the end, it is crucial to understand how this
+new approach is there to achieve one very specific thing; help your team and
+company become more efficient in achieving its targets by using the benefits of
+the tools and the knowledge brought by what we today call DevOps.
+
+Description: 
+
+The proposed talk will go through what DevOps describes when it
+comes to tools, techniques and technologies, what it is asked by a company, and
+a candidate, when a new DevOps position is opened, and finally how the
+aforementioned come together to shape a philosophy and a mentality, which needs
+to be adopted by the whole team, that will eradicate the dysfunctionalities of
+nowadays IT departments and create a healthier and more effective workflow and
+environment.
+
+
+**Speaker:**
+Dimitrios Verraros
+

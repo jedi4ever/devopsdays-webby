@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: Nick Matantsev
+title: "How We Continuously Deploy... Every Three Months"
+---
+
+**Abstract:**
+
+We love continuous deployment, DevOps and automation of all the things.
+
+And then one day we decided to build a user-facing product that is installed on-premise by our clients - large telecoms and network providers (cue old-fashioned stack of installation floppies).
+
+So we pursue rapid iteration on UX delight, new features, bugfixes, but ultimately run up against a 3-month upgrade cycle executed by external admin staff who can't even give us access to their system (for legal/audit reasons).
+
+This talk outlines some of our approaches in tackling that, and how they apply to not just on-premise software installations, but also companies and projects that are transitioning to the DevOps philosophy.
+
+**Speaker:**
+
+Nick Matantsev
+

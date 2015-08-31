@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Michael Taylor
+title: "Your place in DevTOps is not about finding more bugs but problem solutions"
+---
+
+**Abstract:**
+
+Developers don’t like bugs in their inbox that they need to reproduce because that keeps them from doing what they like most: coding new stuff. Entering bugs should also not be the most exciting thing in your life as a tester: it should be about providing insight into the problem you found (e.g: leaking objects on the heap, code change resulting in high CPU, incorrect configured Connection Pool settings, non-optimized Hibernate configuration, too heavy JavaScript code, …) with a potential solution. 80% of the bugs found in software are caused by 20% of problem patterns: You as testers need to become the expert in finding these problems, knowing where the problem was introduced and then automating this process along the delivery pipeline to optimize the lead time of your next deployment. This is YOUR CONTRIBUTION to DevTOps!
+
+In this session I show you how you can level-up your approach of testing software by using similar tools that developers use for their triage. We will walk over 3 specific real life use cases that crashed production systems. I show you how to find this problem plus the solution as a tester and how to automate this process in your delivery pipeline.
+
+**Speaker:**
+
+Michael Taylor
+

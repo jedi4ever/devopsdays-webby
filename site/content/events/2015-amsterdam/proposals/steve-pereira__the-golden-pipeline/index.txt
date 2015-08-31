@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Steve Pereira
+title: "The Golden Pipeline"
+---
+
+**Abstract:**
+
+A guided tour of a modern continuous delivery process, along with the benefits and challenges it presents.
+I’m a visual person, when I started out with build and release engineering and agile, charged with reducing cycle time I wanted a holistic view of the current system and a path to tackling the issues. I've since learned much more about the practice of value stream mapping and how it can help tune your delivery process. This is my story of working to create pipelines for consistent and high quality software delivery systems.
+
+We’ll cover:
+- value stream mapping 0-60
+- identifying and addressing constraints
+- building quality in
+- connections, tools and integrations
+
+**Speaker:**
+
+Steve is a software delivery specialist in Toronto, previously consulting large and small companies, recently joining a tiny startup called Statflo as CTO. He runs Toronto's monthly DevOps and OpenStack meetups and DevOps Days Toronto. Steve is unreasonably fond of beer, throwing frisbees and a giant fan of all things software.
+
+Speaker: Chicago, Belgium, Paris, Denver
+
+http://devopschecklist.com

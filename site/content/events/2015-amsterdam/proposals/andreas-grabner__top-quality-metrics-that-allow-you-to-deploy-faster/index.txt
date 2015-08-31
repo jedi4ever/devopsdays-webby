@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Andreas Grabner
+title: Top Quality Metrics that allow you to Deploy Faster without Failing Fasterps"
+---
+
+**Abstract:**
+
+Your ultimate goal is to bring new features faster to our end users. Yet – based on a recent study - you spend 80% of developer time in bugfixing resulting in $60B annual costs in 2014 alone. That means you only have 20% of engineering time for new innovative development.
+In my opinion the reason for this disaster is the lack of automated quality control throughout the delivery pipeline. The good news is that most of the software and deployment problems can be detected early in an test automation. Why? Because ~ 80% of issues are only caused by about 20% of problem patterns, e.g: overloaded web pages, bad database access patterns, memory leaks, bad coding of algorithms or deployment configuration mistakes.
+If you want to reduce lead time to bring the new cool features faster to your paying users you need to make sure you are not failing faster and then spending all our engineering power to fix these issues. In my talk I discuss 3 real life use cases of large applications that failed after a deployment, why they failed (technically deep dive) and which key software metrics these companies now look at in their delivery pipeline to stop bad code early on.
+
+**Speaker:**
+
+Andreas has been working in software quality for the past 15 years helping companies from small startup to large enterprise figuring out why their current application falls short on quality and how to prevent quality issues for future development.
+He is a regular speaker at international conferences, meetups & user groups. He has done DevOps Boston, Velocity Santa Clara, Agile Testing Days, Star West or STPCon in the recent years.
+Besides being excited about software quality he is also an enthusiastic salsa dancer

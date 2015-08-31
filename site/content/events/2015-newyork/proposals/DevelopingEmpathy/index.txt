@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Tom Limoncelli
+title: "Developing empathy though process mapping"
+---
+
+**Abstract:**
+What do you do when your API is "open a ticket"?
+
+At a past employer, [PRESENTER] found himself responsible for a process that,
+when finally mapped, involved 12 teams, 30 steps, and 27 hand-offs
+between teams.  Most teams only saw their own "box". The process took
+6+ weeks to complete and there were usually 3-4 instances of the
+process active at any given time (about 24 executions of the process
+each year).
+
+The "API" for most of the steps was to open a ticket with that team,
+making a request and waiting for the request to complete.  A project
+manager literally spent hours each day watching which tickets were
+getting attention and pushing the process along.
+
+The team:
+1.  Mapped the entire process.  It took 3+ months to just find out
+there were 30 steps and 27 handoffs.
+2.  Held "empathy" meetings with each team to help them see how they
+fit into the process, brainstorm optimizations, and enroll the teams
+in process improvements.
+3.  Wrote a robot that watched the tickets automatically. Eventually
+it could see that one ticket was complete and open the next tickets
+(that had been blocked) automatically.  It included a status dashboard
+and generated stats about lead time and SLA compliance.
+
+Sadly [PRESENTER] left the company without taking any screen caps and the
+system hasn't been open sourced, so you'll have to believe me and my
+hand-drawn slides :-)  However, I'll gladly discuss details after the
+Ignite talks are over if anyone would like to write a clone.
+
+**Speaker:**
+Tom Limoncelli

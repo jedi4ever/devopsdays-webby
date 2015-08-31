@@ -1,0 +1,14 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: false
+selected: false
+layout: event
+author: Karl Chu
+title: The identity crisis
+---
+When the Infrastructure Automation team at IOOF finished its primary project, the team lost focus; it became a bit lost in terms of knowing its purpose. The team got caught between supporting the previous project, supporting some common infrastructure, and creating a new deployment orchestration tool. It feels like it is spinning its wheels. This short talk is about what this team’s is trying to measure and do in order to find its purpose again.

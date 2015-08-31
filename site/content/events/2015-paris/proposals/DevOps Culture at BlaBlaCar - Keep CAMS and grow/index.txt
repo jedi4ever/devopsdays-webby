@@ -26,3 +26,11 @@ This talk will cover the practices that have worked for us. Some were implemente
 VP Engineering at BlaBlaCar
 
 Avid computer geek since his first Atari 800XL in the mid 80s, Regis started his career with 10 years of IT consultancy. He the ran the software engineering organisations of Digiplug and Cloudwatt before joining BlaBlaCar.
+
+*Nicolas Blanc*
+
+Head of the platform architecture team at BlaBlaCar
+
+Computer geek for over 30 years, and passionate about internet technologies. Nicolas Blanc has worked for some of the most challenging french startups like Meetic and MyFab.
+
+twitter: @thewhitegeek

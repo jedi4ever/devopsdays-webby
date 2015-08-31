@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Sharon Steed
+title: "Conversation 201: what stuttering can teach you about connecting with people"
+
+---
+
+**Abstract:**
+
+Developers are trained to communicate to things with a goal in mind. When you're
+talking to something like, say a computer, you type in your code and it responds
+by giving you back what you want. Nine times out of ten, it works perfectly.
+Why, then, is it so difficult to do this same thing when talking to a client
+about a project, updating a superior on your progress, or pitching an investor
+your million-dollar idea? Because talking to people requires a special set of
+skills - namely, empathy and a little bit of storytelling. In an industry filled
+with brilliant minds, great ideas and mass disruption, so few of the best and
+brightest know how to tell their compelling story. The takeaways from this
+workshop will be learning how to value the listener and use vulnerability to
+improve your social connection.
+
+**Speaker:**
+Sharon Steed
+
+Sharon is a communications consultant with over a decade of experience creating
+and managing content. A life-long stutterer, she helps companies communicate
+better with their audience as well as their fellow team members by utilizing her
+experience with her speech impediment in combination with her marketing savvy.
+She has spoken to universities about stuttering, at Ignite Chicago about
+patience, Madison+ Ruby about branding and to a host of other audiences.

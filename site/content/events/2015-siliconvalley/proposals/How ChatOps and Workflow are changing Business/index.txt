@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 18
+title: "How ChatOps and Workflow are changing Business"
+---
+
+**Abstract:**
+
+The next phase in the DevOps journey is quickly approaching, and in many cases, already here. In the first phase of DevOps, teams spent time working out the kinks out of custom built IT infrastructure, working to automate everyday tasks and low hanging fruit. The ultimate goal of these efforts was to allow business customers move faster and more efficiently by removing friction in doing basic tasks.
+
+What we’ve removed from our existing processes is the custom business logic that lived too close to the application. However, this logic, core to business operations, needs to live somewhere. Enter: workflow. With workflow, the connection is made between human interaction and automatic processes, with a new, value-added result, strengthened by ChatOps.
+
+By using ChatOps, we’re letting the communications structure become part of the process. This is where the snowflake matters. More than a schema, it’s the business glue, the soul, where we can go and bring special, unique insight to DevOps. The walls have been torn down as we build in continual improvement cycles into our workflow, enabling team scaling, and logging/monitoring/graphing, as Ops is now able to tactically grow the business from the technology side. Operations need to continue to perform essential data center functions of load balancing, etc., but we are no longer burdened by these functions.
+
+Workflow is the next step in our journey. This talk discusses the different ways workflow problems are being solved with software, the role ChatOps plays in developing and maintaining ChatOps, and to discuss immense gains in productivity gained by leveraging these concepts.
+
+**Speaker:**
+Speaker 18

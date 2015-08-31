@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Alban Crequy
+title: "Container mechanics on Linux"
+---
+
+**Abstract:**
+
+Containers as a virtualization technique become more relevant for devops. But do you know how containers work under the hood? This talk will describe the Linux primitives that make containers possible: namespaces and cgroups.
+
+Have you ever wondered what containers really are? We will attempt to shed some light on this.
+
+Linux doesn’t have a “container” concept, but a set of primitives that allow containers to be implemented. These primitives are namespaces and cgroups: namespaces provide isolation and cgroups allow process grouping and restriction.
+
+This talk will explain what namespaces are there currently (PID, mount, network) and what can you do with them. It will also introduce cgroups and how they can be used to restrict processes inside the container.
+
+This will not go into specific details of system calls (unshare/clone).
+
+**Speaker:**
+
+After a more than a decade of developing on Linux, Alban has racked up experience in system and kernel development, focusing on security and networking.
+Originally working on proprietary software for Linux clusters, Alban long since switched to working on Open Source software for embedded devices and has never looked back. He has worked with such technologies as systemd, D-Bus, AppArmor and cgroups, as well as the Linux kernel itself.
+
+More recently, he has added several more areas to his resumé, including networking and cloud-based development. Alban particularly values work that allows him to collaborate with other contributors in a community.

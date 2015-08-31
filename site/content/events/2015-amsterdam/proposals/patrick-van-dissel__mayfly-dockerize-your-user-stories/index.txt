@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Patrick van Dissel
+title: "Mayfly, Dockerize your user stories"
+---
+
+**Abstract:**
+
+In this talk we introduce Mayfly, a user story-centered development platform for continuous delivery, developed and in use at bol.com. Mayfly leverages container technology to provide engineers with short-lived, isolated development environments for their services.
+
+This talk will provide an overview of the Mayfly architecture, how it works and the technology it uses.
+
+Topics include:
+- Everything-as-code (Environments, Build pipelines, Definition of Done, ...)
+- No conflicts on master
+- No integration testing environment
+- Open Source
+
+**Speaker:**
+
+DevOps minded software craftsman with operational skills. Delivering Groovy Java solutions continuously in a test-driven, agile manner. Working on everything development process tooling related, like the Continuous Delivery build pipeline, with the Development Process Innovation team at bol.com

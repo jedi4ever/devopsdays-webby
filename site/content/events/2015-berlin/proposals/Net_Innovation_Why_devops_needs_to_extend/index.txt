@@ -1,0 +1,89 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Ilkka Turunen
+title: "Net innovation: Why devops needs to extend to the greater supply chain of software"
+---
+
+**Abstract:**
+
+With continuous development, we write less code and consume more re-usable
+open source code. Innovation is accelerated and so is application
+complexity. However, the ability to produce software alone does not paint a
+full picture of what is involved in software production. There are
+complexities that come for a very human source - business, compliance,
+legislation etc.
+
+The concept of net innovation is simple: Total Innovation = Speed of
+innovation ( raw awesome productiveness of a team ) - cost of innovation (
+ any complexity that slows down producing quality software).
+
+Complexity is the enemy of quality. Poor quality creates unplanned
+break-fixes. Break-fixes create a drag on development speed. It’s a
+continuous loop, since even the most innovative bunch of people can be
+bogged down in speed or in quality because of external factors to their
+environment.
+
+What if we could deliver applications on-time (even faster), on-budget
+(even more efficiently) and with a natural byproduct of less risk? We’ve
+mastered the art of creating quality code, mastered deployment and testing.
+We’ve created software defined infrastructure, and have finally leveraged
+the power of the cloud. Next, to reduce the cost of innovation we must seek
+to automate what is left - governance, risk aversion, and trust in our
+external component suppliers.
+
+
+The good news: other industries have answered this challenge with supply
+chain management. Applying supply chain approaches to software raises the
+bar on continuous goals.
+
+Get practical tips from the software supply chain playbook to:
+-Scrutinize the number and quality of your “suppliers”
+-Manage out avoidable risk and bloat from external code
+With continuous development, we write less code and consume more re-usable
+open source code. Innovation is accelerated and so is application
+complexity. However, the ability to produce software alone does not paint a
+full picture of what is involved in software production. There are
+complexities that come for a very human source - business, compliance,
+legislation etc.
+
+The concept of net innovation is simple: Total Innovation = Speed of
+innovation ( raw awesome productiveness of a team ) - cost of innovation (
+ any complexity that slows down producing quality software).
+
+Complexity is the enemy of quality. Poor quality creates unplanned
+break-fixes. Break-fixes create a drag on development speed. It’s a
+continuous loop, since even the most innovative bunch of people can be
+bogged down in speed or in quality because of external factors to their
+environment.
+
+What if we could deliver applications on-time (even faster), on-budget
+(even more efficiently) and with a natural byproduct of less risk? We’ve
+mastered the art of creating quality code, mastered deployment and testing.
+We’ve created software defined infrastructure, and have finally leveraged
+the power of the cloud. Next, to reduce the cost of innovation we must seek
+to automate what is left - governance, risk aversion, and trust in our
+external component suppliers.
+
+
+The good news: other industries have answered this challenge with supply
+chain management. Applying supply chain approaches to software raises the
+bar on continuous goals.
+
+Get practical tips from the software supply chain playbook to:
+
+-Scrutinize the number and quality of your “suppliers”
+-Manage out avoidable risk and bloat from external code
+-Improve traceability and visibility of decisions
+-Ensure prompt agile responses when things go wrong
+
+**Speaker:**
+Ilkka Turunen
+

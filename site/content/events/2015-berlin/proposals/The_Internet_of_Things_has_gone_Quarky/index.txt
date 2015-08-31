@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Kieran Hearty
+title: "The Internet of Things has gone Quarky (Lessons from a grain of sand)"
+---
+
+**Abstract:**
+
+Code is cool, the 'Internet of Things' is cool, but have we
+lost sight of who we are supposed to be serving - The Internet of People?
+By exploring the relationship between leading edge quantum physics,
+technology, and human behaviour, the audience will be challenged as
+follows:
+
+*Are your skills with 'things' matched by your skills with 'DNA'? *
+
+
+**Speaker:**
+Kieran Hearty
+

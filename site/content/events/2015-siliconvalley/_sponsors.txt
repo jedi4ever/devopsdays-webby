@@ -5,13 +5,26 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='#{sponsor[:width]}' height='#{sponsor[:height]}' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+ { :image => 'appformix.png', :name => 'AppFormix', :link => 'http://www.appformix.com', :width => '150px', :height => '50px' },
+ { :image => 'chef.png', :name => 'Chef', :link => 'http://www.chef.io', :width => '100px', :height => '100px' },
+ { :image => 'cloudpassage.png', :name => 'CloudPassage', :link => 'http://www.cloudpassage.com', :width => '100px', :height => '100px' },
+ { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com", :width => '100px', :height => '100px' },
+ { :image => 'delphix.png', :name => 'Delphix', :link => 'http://www.delphix.com', :width => '100px', :height => '100px' },
+ { :image => "docker.png", :name => "Docker", :link => "http://www.docker.io", :width => '100px', :height => '100px' },
+ { :image => 'elastic.png', :name => 'Elastic', :link => 'http://www.elastic.co/', :width => '100px', :height => '100px' },
+ { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io", :width => '100px', :height => '100px' },
+ { :image => 'neptune.png', :name => 'Neptune', :link => 'http://www.neptune.io', :width => '100px', :height => '100px' },
+ { :image => 'netuitive.png', :name => 'Netuitive', :link => 'http://www.netuitive.com', :width => '100px', :height => '100px' },
+ { :image => 'pivotal.png', :name => 'Pivotal', :link => 'http://www.pivotal.io', :width => '100px', :height => '100px' },
+ { :image => 'signalfx.jpg', :name => 'SignalFx', :link => 'https://signalfx.com/', :width => '100px', :height => '100px' },
+ { :image => 'sysdig.png', :name => 'Sysdig', :link => 'http://www.sysdig.com', :width => '100px', :height => '100px' },
+ { :image => 'victorops.png', :name => 'VictorOps', :link => 'http://www.victorops.com', :width => '100px', :height => '100px' },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />

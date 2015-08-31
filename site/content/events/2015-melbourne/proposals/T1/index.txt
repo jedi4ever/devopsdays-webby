@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Lindsay Holmwood 
+title: "Fast Feedback for Flexible Antifragile Foundations: Continuous Deployment for Infrastructure"
+---
+"If you're doing devops, you're almost certainly doing CD. Developers get their changes in front of customers quicker, operations have consistency, repeatability, and auditability, and the business gets measurable value, faster.
+ 
+But most of the literature and case studies on CD are around applications. What about infrastructure? The evidence clearly shows that CD of applications reduces failures and increases reliability, but operations teams generally don't manage infrastructure services like PaaS or monitoring with CD - and they're missing out on the same benefits.
+ 
+ For the last 6 months, we have been building our next generation monitoring metrics storage platform to handle over 350,000 metrics updated every 10 seconds, with at least 6 months retention. And it must scale to double the number of metrics in the next 12 months.
+ 
+ Because monitoring infrastructure needs to be at least as reliable (if not more reliable) than the things being monitored, we opted to design this infrastructure service to be Continuous Deployed. By designing CD-first, we have been able to adapt to changing business and engineering requirements, and scale the infrastructure faster and more reliably than would have otherwise been possible.
+ 
+ In this talk we'll cover a toolchain for Continuously Deploying changes to infrastructure services, compare and contrast the CD challenges for applications vs infrastructure, and explore how to get good feedback on changes to infrastructure that compliments and assists monitoring."

@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: 'DevOps: JFDI'
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Grzegorz Nosek
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+Are your servers still unique snowflakes, managed by hand and an occasional shell script? No two development environments
+alike? Whatever your excuse for passing on configuration management, I've probably been there. 
+
+**Speaker:**
+
+Co-founder and Chief Tinkering Officer at MegiTeam, an innovative web host. Long-time Linux admin and systems programmer.
+Lazy to the bone, automates anything he has to do more than twice.

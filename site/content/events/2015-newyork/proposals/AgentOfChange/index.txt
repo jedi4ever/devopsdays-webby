@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Waldo Grunenwald
+title: "Agent of Change? Here's Your Helmet."
+---
+
+**Abstract:**
+A company that wants help bootstrapping a DevOps culture shift may seem like an attractive move for someone who is looking to make a move?  What's not to like?  There seems to be a lot of these jobs now.  It looks like a chance to make your name, and heavily influence a culture that wants to be influenced.
+
+But this path is fraught with peril.  Choosing the wrong company - especially as an Agent of Change - could harm your health and your career.  In this talk, I will describe
+
+- What problems do they want you to solve?
+- The ways that companies delude themselves.
+- The people that you'll meet.
+- The roadblocks that you'll encounter.
+- The questions that you should ask before deciding to take the job.
+
+**Speaker:**
+Waldo Grunenwald

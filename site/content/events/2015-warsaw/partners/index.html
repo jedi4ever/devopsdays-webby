@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Partners
+dirty: true
+layout: event_warsaw
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+We would like to offer you an opportunity to support DevOpsDays Warsaw 2015 – Polish edition of the international conference DevOpsDays, which will be held on November  24-25th in Gromada Hotel in  Warsaw.
+
+Watch <a href='https://www.youtube.com/watch?v=JC4xh1bO7ww'>this video</a> and get an idea why investing in Poland and events held there might benefit your business too!
+
+We greatly value sponsors and partners for this open event. If you are interested in sponsoring or want to become our partner [drop us an e-mail](mailto:<%= render(:partial => "/#{@eventhome}/_email_partners") %>?subject=DevOpsDays Warsaw - Partnership<%= @eventid %>).
+<hr/>

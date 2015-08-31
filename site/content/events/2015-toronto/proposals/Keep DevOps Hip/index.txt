@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: false
+ignite: true
+selected: false
+author: Fawzy Manaa
+title: "Keep DevOps Hip!"
+---
+
+**Abstract:**
+
+At a time when DevOps is becoming more prominent and mainstream, many efforts exist to define, restrict, and scope what DevOps is and is not. I'd argue that DevOps is not a checklist but rather a movement that should keep evolving. It's all about the energy it creates in people and the drive in continuous exploration and improvement it nurtures (which is never ending by definition).
+
+**Speaker:**
+
+Fawzy Manaa
+

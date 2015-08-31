@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Michael Lanyon
+title: "Achieving Innovation at a Creative Company"
+---
+
+**Abstract:**
+When creative companies bring diverse teams and skill-sets together, they bank on the idea that seamless interdisciplinary collaboration will lead to truly innovative products and experiences—and it will, if empathy, inclusivity, and communication are priorities. The DevOps community has embraced things like value stream mapping and continuous feedback loops, but these concepts need reframing to resonate with Strategy and Design disciplines. Technologists and engineers have the opportunity to teach and cultivate collaboration strategies beyond the bounds of their area of expertise.
+
+In this ignite, I’d like to talk about some of the successes and failures I’ve experienced when trying to bring DevOps values to the wider organization and explain how empathy, inclusion, and communication are integral to the successes.
+
+I’ll discuss a handful of ideas, including “surprise reduction,” “curiosity,” and “sharing,” and will briefly touch upon how diversity in teams enables stronger ideas and better innovation. The journey of cultural change will be different from one organization to the next, but I hope to ignite more conversation on this topic by talking about the changes we’ve attempted.
+
+Ultimately, by working to understand other disciplines and finding empathetic, inclusive ways to bridge the gaps between “us and them,” technology can work more collaboratively with other disciplines, and we can create better, more innovative products as a result.
+
+**Speaker:**
+Michael Lanyon

@@ -1,0 +1,55 @@
+---
+filter:    erb
+---
+<% @psponsors = [] %>
+
+<% if @psponsors.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @psponsors.each do |sponsor| %>
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
+
+<% end %>
+
+<h1>Gold sponsors</h1>
+<% @gsponsors = [] %>
+
+<% if @gsponsors.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @gsponsors.each do |sponsor| %>
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
+
+<% end %>
+
+<% @special_sponsors = [] %>
+<% unless @special_sponsors.empty? %><h1>Special sponsors</h1><% end %>
+
+<% @special_sponsors.each do |sponsor| %>
+
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
+
+<% end %>
+
+<h1>Silver sponsors</h1>
+<% @ssponsors = [] %>
+
+<% if @ssponsors.empty? %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+<% @ssponsors.each do |sponsor| %>
+
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
+
+<% end %>
+
+<% @msponsors = [] %>
+<% unless @msponsors.empty? %><h1>Media sponsors</h1><% end %>
+
+<% @msponsors.each do |sponsor| %>
+
+<a href="<%= sponsor[:link] %>"><img border="1" alt="<%= sponsor[:name] %>" title="<%= sponsor[:name] %>" width="<%= sponsor[:width] %>" height="<%= sponsor[:height] %>" src="<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}") %>" /></a>
+
+<% end %>

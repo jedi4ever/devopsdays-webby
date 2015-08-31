@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Kirsten Hunter
+title: "Bootstrapping Training with Docker"
+---
+
+**Abstract:**
+
+When teaching customers how to use your platform, system setup can take longer than the actual coding exercises. Specific language requirements, libraries and the requirements of different operating systems can make the learning curve steep for workshops and online tutorials – even before the developer gets to the meat of the topic. Additionally, requiring specific libraries or language versions requires that a developer change their own system environment to meet the requirements of your sample code.
+
+With Docker, it¹s possible to create a container that contains exactly what the developer needs to start working with the code immediately. Boot2Docker makes setup on Windows and Macintosh simple, and on Linux the setup is even more straightforward. While Docker is designed for more complex scenarios, where containers link to each other and systems can interconnect, this simple use case can improve the developer experience for your platform and increase engagement with your developer community.
+
+This approach has the added benefit of avoiding impact on your developers' existing system setup. Administrative privileges aren¹t required, and a Docker container acts as a sandbox to protect the main system from any ill effects.
+
+**Speaker:**
+
+Kirsten Hunter
+

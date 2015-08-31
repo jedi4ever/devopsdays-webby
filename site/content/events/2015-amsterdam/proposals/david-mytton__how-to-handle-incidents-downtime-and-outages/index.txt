@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: David Mytton
+title: "How to handle incidents, downtime and outages"
+---
+
+**Abstract:**
+
+"100% uptime is impossible. Modern architectures are designed around failure but what does that mean for the human aspect of incident management? This talk will consider how to prepare for outages, how to structure the response, and how those experiences and techniques differ for small and large companies.
+
+Key topics will include:
+
+* On call - rotations, scheduling, systems and policies
+* Preparing for downtime - teams, systems and product architecture
+* Documentation
+* Checklists and playbooks
+* How we actually handle incidents
+* Post mortems"
+
+**Speaker:**
+
+"David Mytton is the founder of Server Density, a SaaS product which helps you manage the uptime and performance of your infrastructure.
+
+Based in the UK, David has been programming in Python and PHP for over 10 years, was one of the earliest production MongoDB users (founding the London MongoDB User Group) and scaled his company from a single VPS to hundreds of servers deployed across multiple data centers.
+
+Server Density now processes over 250TB/month of monitoring data from organisations such Boeing, Greenpeace and the NHS Ambulance Emergency Response.
+
+He has spoken at a range of tech conferences including GigaOm Structure, Velocity Europe, MongoDB Days, NoSQL Matters, CloudConf, PuppetCamp and Devopsdays."

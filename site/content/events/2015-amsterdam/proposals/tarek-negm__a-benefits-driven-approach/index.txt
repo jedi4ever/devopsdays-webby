@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Tarek Negm
+title: "A Benefits – Driven approach to practically identify a DevOps “point of launch” in Enterprise."
+---
+
+**Abstract:**
+
+As our client - a global Telecoms organisation - embarked on their journey to adopt DevOps, the key question they asked of us was: “How to practically Start?”. Although an end-to-end view with a phased approach is always the consensus when implementing DevOps in an enterprise, the exact, practical starting point is always a debatable detail.
+
+This case will present an approach to answer this important question (How to practically Start?) in a global enterprise where financial governance requires a benefits-driven approach to demonstrate business value and a business case to be approved.
+
+We will talk about our experience & insights in building a benefits case for DevOps based on tangible business value using methodologies like activity-based accounting and priority criteria to help identify a platform or project to be the “point of launch” for DevOps and then decide which phase in the IT lifecycle is best to start with first – ensuring the bigger picture of DevOps in the enterprise is not lost into the details.
+
+**Speaker:**
+
+Tarek is a founding partner of Do Consultants - a specialist Enterprise DevOps services company. Before that, Tarek spent 16 years in global organisations in the Middle East, UK and Europe working in IT leadership and Technology roles. Tarek has worked in a wide variety of industries including Telecoms, Financial Services, Hospitality and F&B. His experience in IT spans technology and change where he previously led global IT transformation programmes in global european organisations. Tarek holds an MBA from London Business School.

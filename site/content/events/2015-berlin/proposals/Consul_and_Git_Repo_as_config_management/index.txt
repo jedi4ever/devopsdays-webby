@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Sergey Chernyshov
+title: "Consul and Git repo as a configuration management tools"
+---
+
+**Abstract:**
+
+Consul is a very good tool that opens unlimited possibilities in modern DevOps, in this presentation I want to share my experience of using Consul to instantly keep up to date git hosted configurations across the infrastructure.Consul is a very good tool that opens unlimited possibilities in modern DevOps, in this presentation I want to share my experience of using Consul to instantly keep up to date git hosted configurations across the infrastructure.
+
+**Speaker:**
+Sergey Chernyshov

@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Stein Inge Morisbak
+title: "Zero Downtime Deployment with Ansible"
+---
+
+**Abstract:**
+
+Ansible is a radically simple and lightweight provisioning framework which
+makes your servers and applications easier to provision and deploy. By
+orchestrating your application deployments you gain benefits such as
+documentation as code, testability, continuous integration, version control,
+refactoring, automation and autonomy of your deployment routines, server- and
+application configuration. Ansible uses a language that approaches plain
+English, uses SSH and has no agents to install on remote systems. It is the
+simplest way to automate and orchestrate application deployment, configuration
+management and continuous delivery.
+
+In this talk I will give a brief introduction to Ansible and explain how to
+provision Linux servers with a web-proxy, a database and some other packages.
+Furthermore we will automate zero downtime deployment of a Java application to
+a load balanced environment using the expand contract pattern to mitigate the
+pain of database upgrades.
+
+We will cover how to provision servers with:
+
+* an application user
+* a PostgreSQL database
+* Nginx with a load balanced reverse proxy
+* an init script installed as a service
+* zero downtime deployment of an application that uses the provisioned infrastructure
+
+
+**Speaker:**
+Stein Inge Morisbak
+

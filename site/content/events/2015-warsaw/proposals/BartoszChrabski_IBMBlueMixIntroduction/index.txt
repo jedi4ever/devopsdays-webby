@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: IBM BlueMix Introduction
+proposal: true
+dirty: true
+talk: true
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Bartosz Chrabski
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+IBM recently introduced Codename BlueMix, a cloud-based development environment for building, composing, managing, and running your new and innovative cloud applications in an open environment.
+
+Presentation highligts BlueMix, a cloud-based application development environment that supports the development lifecycle for the applications that are required in today's business environment.
+
+**Speaker:**
+
+Bartosz is a chief IT specialist in the software group IBM Poland. He designs and implements systems managing the work of developing teams. Bartosz deals with technical support of IBM Rational software management and creation tools. 
+
+He specialises in middleware technologies and SOA architecture modelling. PhD student of Faculty of Management and Economics at Gdańsk University of Technology. Founder and leader of Lodz Java Users Group.

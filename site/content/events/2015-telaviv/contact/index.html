@@ -1,0 +1,16 @@
+---
+title: Contact
+layout: event_tlv
+extension: html
+dirty: true
+filter:
+- erb
+- markdown
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+** DevOpsDays TLV 2015 organizers: **
+
+<%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+Contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>

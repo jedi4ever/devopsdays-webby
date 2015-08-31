@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: William Collani
+title: "Integrating Security into Devops Practices"
+---
+
+**Abstract:**
+
+Just like we balance the needs of Development and Operations into our collaborative workflows and tool sets, we can improve our security posture by integrating some common sense security practices. In this talk, we will examine ways to automate security testing in the various stages of development, techniques to balance security with continuous integration/deployment and some ways to secure important management systems such as our configuration management.
+
+**Speaker:**
+
+William Collani
+

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Hany Fahim
+title: "Is this the end of traditional configuration management?"
+---
+
+**Abstract:**
+
+The concept of using images for provisioning servers has been around for ages. Containers, and more specifically Docker, are putting a new spin on this old idea and lowering the bar for all users. Traditional configuration management is having a hard time fitting into this new age.
+
+This talk is a story on our journal into exploring containers and Docker as a potential replacement for configuration management for managing large clusters.
+
+**Speaker:**
+
+Hany Fahim
+

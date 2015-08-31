@@ -1,0 +1,51 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Thomas Stolt
+title: "The DevOps Simulation Experience - or 'How to get everyone into the DevOps Boat?'"
+---
+
+**Abstract:**
+
+Introduction of new methodologies and technologies always require changing
+existing, proven structures and processes. This often causes suspicion,
+skepticism and resistance; there is significant effort necessary to get
+everyone into the same boat.  
+Typical approaches to create adoption with
+colleagues, employees and partners range from sending out emails, whitepapers,
+sponsoring books, online training to prolonged presentations and workshops.  In
+this presentation we show how a professional "Business Simulation" can help to
+significantly accelerate the adoption process, reduce suspicion and cynicism
+and create stakeholder appreciation at all levels. Adopting techniques from
+"serious games" and "Experiential Learning", we have created an "in room
+simulation", which lead participants in a virtual organisation (which is trying
+to create and release applications) over 3 rounds from "Chaos" to "Order".
+Students will discover challenges, discuss ways of overcoming them, implement
+those changes and prove them in the next round. Each round we will measure
+progress by a number of parameters:
+
+- number of apps brought into production
+- time to market (how long did it take to bring an app from its idea into production)
+- cost and RoI
+- application compatibility and performance
+
+After those Simulations, participants are always extremely positive and
+enthused and are much more open to change as the understand the bigger picture
+better.  Using a couple of use cases we will also show, how we have deployed
+this Simulation over the last 18 months internally, with business partners and
+customers worldwide and explain, how this program has helped organisations to
+drive change towards DevOps adoption.  We will also give some insight into what
+it takes, to develop and deliver such a Business Simulation and talk about our
+experiences about the simulation program.
+
+
+**Speaker:**
+Thomas Stolt
+

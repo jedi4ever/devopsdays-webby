@@ -1,27 +1,23 @@
-<div style="height:350px;" id="quicklinks">
-<table>
-
-<tr>
-<div style="display:table-cell; vertical-align:top">
-     <div style="margin:5px;">
-      <strong>2015</strong><br/>
-      <a href="/events/2015-ljubljana">Ljubljana - April 2015</a><br/>
-      <a href="/events/2015-paris">Paris - April 2015</a><br/>
-      <a href="/events/2015-denver/">Denver - April 2015</a><br/>
-      <a href="/events/2015-newyork/">New York - April 2015</a><br/>
-      <a href="/events/2015-austin">Austin - May 2015</a><br/>
-      <a href="/events/2015-toronto/">Toronto - May 2015</a><br/>
-      <a href="/events/2015-washington-dc/">Washington, DC - June 2015</a><br/>
-      <a href="/events/2015-amsterdam">Amsterdam - June 2015</a><br/>
-      <a href="/events/2015-singapore/">Singapore - 2015</a><br/>
-      <a href="/events/2015-minneapolis/">Minneapolis - July 2015</a><br/>
-      <a href="/events/2015-chicago/">Chicago - September 2015</a><br/>
-      <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
-      <a href="/events/2015-derby/">Derby - 2015</a><br/>
+<div style="height:425px;" id="quicklinks">
+  <table>
+    <tr>
+      <td>
+        <strong>2015</strong><br/>
+        <a href="/events/2015-bangalore/">Bangalore - September 2015</a><br/>
+        <a href="/events/2015-boston/">Boston - September 2015</a><br/>
+        <a href="/events/2015-telaviv/">Tel Aviv - October 2015</a><br/>
+        <a href="/events/2015-perth/">Perth - October 2015</a><br/>
+        <a href="/events/2015-singapore/">Singapore - October 2015</a><br/>
+        <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
+        <a href="/events/2015-charlotte">Charlotte - Nov 2015</a><br/>
+        <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
+        <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
+        <a href="/events/2015-ohio/">Ohio - Nov 2015</a><br/>
+        <a href="/events/2015-warsaw/">Warsaw - Nov 2015</a><br/>
+        <br/><strong>2016</strong><br/>
+        <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
+        <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
+      </td>
+    </tr>
+  </table>
 </div>
-  </tr>
-
-</table>
-</div>
-
-

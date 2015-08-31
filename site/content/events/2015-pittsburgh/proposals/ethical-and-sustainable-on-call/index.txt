@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Jon Daniel
+title: "Ethical and Sustainable On-Call"
+
+---
+
+**Abstract:**
+
+It's 2:30 AM and you hear your phone buzz. You reach over and see an alert from
+PagerDuty. That new service your team has been working on for a few weeks has
+crashed and you don't know the first thing about debugging Clojure apps. After
+crawling out of bed and logging into your company's VPN you discover your
+co-workers have left you absolutely no documentation on what to do when
+"bad things happen". You sit there wondering if you'll be getting back to bed
+tonight.
+
+Sound familiar? It doesn't have to be this way. On-call doesn't have to be a pit
+of lost productivity and stress. On-call can actually be a very rewarding
+experience that improves application stability, increases uptime, and avoids
+those dreaded 2:30 AM PagerDuty notifications. Let's start thinking about
+on-call for Humans.
+
+**Speaker:**
+Jon Daniel
+
+Ambitious developer. Opinions proven correct through catastrophe.
+Recovering startup junkie.

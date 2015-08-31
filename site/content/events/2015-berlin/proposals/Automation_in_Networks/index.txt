@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Nicolas Antonio
+title: "Automating networks. Breaking one status quo at the time."
+---
+
+**Abstract:**
+
+Much like System Administrators, Network Engineers are constantly working on repetitive tasks. And much like in the servers space, the network infrastructure can be described as code. This presentation will attempt to establish the similarities between the issues that have been already addressed in the system administration space, and how they can be addressed as well in the network space, show a number of use cases for automation in the network. Finally, there will be a quick demonstration of how to manage network devices.
+
+
+**Speaker:**
+Nicolas Antonio
+

@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+ignite: true
+talk: false
+selected: false
+layout: event
+author: Mathew Dawe
+title: Logstash, from kindling to lumberyard
+---
+Abstract/Synopsis:
+
+A brief journey of the trials and tribulations of managing an Elasticsearch, Logstash and Kibana (ELK) stack in one of Australia’s largest financial advice and superannuation firms. At IOOF Holdings Ltd. the requirement for a centralized means of collecting and retrieving logs from our ever growing clusters of Hypervisors and Docker hosts means that the days of checking the logs on individual machines are no longer viable.
+ 
+Through multiple failed attempts at dealing with scale, speed and reliability across the ELK ecosystem, the learning’s from each iteration has given us a glimpse at “logging nirvana,” however to this day we still seek her spoils. We hope that sharing the experiences and discoveries surrounding our story, will be both informative and useful for those who are thinking of taking the first steps.

@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 15
+title: "DevOps Next Steps: Event Driven Operations"
+---
+
+**Abstract:**
+
+The most critical component of building out successful a DevOps culture is creating a successful merger of sustainable technology and process. ChatOps practices help teams accelerate delivery by bringing in technology operations inline with conversations already happening today. This in turn helps turns operations into simple events than can be chained together to make teams even more powerful and flexible than ever before! This talk discusses the practical implementations of ChatOps and how it can be used to grow teams of all types and sizes.  
+
+
+**Speaker:**
+Speaker 15
+

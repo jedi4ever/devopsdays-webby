@@ -58,133 +58,19 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 
 // http://itouchmap.com/latlong.html
 
-amsterdamlocation = new google.maps.LatLng(52.3731, 4.8922);
-var amsterdammarker = new MarkerWithLabel({
-  position: amsterdamlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Amsterdam<br>24, 25, 26 June",
-  labelAnchor: new google.maps.Point(0, 45),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-});
 
-google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2015-amsterdam"});
-
-var ljubljanalocation = new google.maps.LatLng(46.056237, 14.502444);
-var ljubljanamarker = new MarkerWithLabel({
-    position: ljubljanalocation,
+var perthlocation=new google.maps.LatLng(-31.9528536, 115.8573389);
+var perthmarker = new MarkerWithLabel({
+    position: perthlocation,
     draggable: false,
     raiseOnDrag: false,
     map: map,
-    labelContent: "Ljubljana<br>3 & 4 Apr",
-    labelAnchor: new google.maps.Point(5, +35),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(ljubljanamarker, "click", function (e) { location.href="/events/2015-ljubljana"});
-
-var parislocation = new google.maps.LatLng(48.856614, 2.352222);
-var parismarker = new MarkerWithLabel({
-    position: parislocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Paris<br>14 & 15 Apr",
-    labelAnchor: new google.maps.Point(40, 5),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(parismarker, "click", function (e) { location.href="/events/2015-paris"});
-
-var austinlocation=new google.maps.LatLng(30.3077609, -97.7534014);
-var austinmarker = new MarkerWithLabel({
-    position: austinlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Austin<br>May 4 & 5",
-    labelAnchor: new google.maps.Point(40, 15),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2015-austin"});
-
-
-
-var denverlocation = new google.maps.LatLng(39.7618, -104.8811);
-var denvermarker = new MarkerWithLabel({
-position: denverlocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Denver<br>Apr 23 & 24",
-labelAnchor: new google.maps.Point(55, 25),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(denvermarker, "click", function (e) { location.href="/events/2015-denver"});
-
-
-
-var torontolocation = new google.maps.LatLng(43.7000, -79.4000);
-var torontomarker = new MarkerWithLabel({
-position: torontolocation,
-draggable: false,
-raiseOnDrag: false,
-map: map,
-labelContent: "Toronto<br>May 14 & 15",
-labelAnchor: new google.maps.Point(-5, 45),
-labelClass: "labels", // the CSS class for the label
-labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(torontomarker, "click", function (e) { location.href="/events/2015-toronto"});
-
-
-var minneapolislocation=new google.maps.LatLng(44.980519, -93.270855);
-var minneapolismarker = new MarkerWithLabel({
-    position: minneapolislocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Minneapolis<br>Jul 8 & 9",
-    labelAnchor: new google.maps.Point(40, 40),
+    labelContent: "Perth<br>Oct 14 & 15",
+    labelAnchor: new google.maps.Point(30, 40),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
 });
 
-google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2015-minneapolis"});
-
-var newyorklocation=new google.maps.LatLng(40.756554, -73.989804);
-var newyorkmarker = new MarkerWithLabel({
-    position: newyorklocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "New York<br>Apr 30 & May 1",
-    labelAnchor: new google.maps.Point(40, 25),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2015-newyork"});
-
-var dclocation=new google.maps.LatLng(38.801694, -77.064043);
-var dcmarker = new MarkerWithLabel({
-    position: dclocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Washington, DC<br>Jun 11 & 12",
-    labelAnchor: new google.maps.Point(25, 5),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
-google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2015-washington-dc"});
 
 var sflocation=new google.maps.LatLng(37.3894, -122.0819);
 var sfmarker = new MarkerWithLabel({
@@ -200,8 +86,138 @@ var sfmarker = new MarkerWithLabel({
 
 google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2015-siliconvalley"});
 
+var charlottelocation = new google.maps.LatLng(35.2269, -80.8433);
+var charlottemarker = new MarkerWithLabel({
+    position: charlottelocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Charlotte<br>Nov 2 & 3",
+    labelAnchor: new google.maps.Point(5, -10),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(charlottemarker, "click", function (e) { location.href="/events/2015-charlotte/"});
+
+var berlinlocation = new google.maps.LatLng(52.51, 13.3833);
+var berlinmarker = new MarkerWithLabel({
+    position: berlinlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Berlin<br>Oct 26 & 27",
+    labelAnchor: new google.maps.Point(50, 25),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(berlinmarker, "click", function (e) { location.href="/events/2015-berlin/"});
+
+var telavivlocation = new google.maps.LatLng(32.07, 34.8);
+var telavivmarker = new MarkerWithLabel({
+    position: telavivlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Tel Aviv<br>Oct 7 & 8",
+    labelAnchor: new google.maps.Point(50, 25),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(telavivmarker, "click", function (e) { location.href="/events/2015-telaviv/"});
+
+var bangalorelocation = new google.maps.LatLng(13.0, 77.6);
+var bangaloremarker = new MarkerWithLabel({
+  position: bangalorelocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Bangalore<br>Sep 12 & 13",
+  labelAnchor: new google.maps.Point(50, 25),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="/events/2015-bangalore/"});
+
+var bostonlocation = new google.maps.LatLng(42.361369, -71.081355);
+var bostonmarker = new MarkerWithLabel({
+  position: bostonlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Boston<br>Sep 15 & 16",
+  labelAnchor: new google.maps.Point(0, 50),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2015-boston/"});
+
+var detroitlocation = new google.maps.LatLng(42.3595788,-83.0706835);
+var detroitmarker = new MarkerWithLabel({
+  position: detroitlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Detroit<br>Nov 11 & 12",
+  labelAnchor: new google.maps.Point(40, 70),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2015-detroit/"});
+
+var singaporelocation = new google.maps.LatLng(1.283333, 103.833333);
+var singaporemarker = new MarkerWithLabel({
+  position: singaporelocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Singapore<br>Oct 16 & 17",
+  labelAnchor: new google.maps.Point(38, 25),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(singaporemarker, "click", function (e) { location.href="/events/2015-singapore/"});
+
+
+var ohiolocation = new google.maps.LatLng(39.9833, -82.9833);
+var ohiomarker = new MarkerWithLabel({
+  position: ohiolocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Ohio<br>Nov 18 & 19",
+  labelAnchor: new google.maps.Point(20, 30),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+
+google.maps.event.addListener(ohiomarker, "click", function (e) { location.href="/events/2015-ohio/"});
+
+
+var warsawlocation = new google.maps.LatLng(52.1800879, 20.9788363);
+var warsawmarker = new MarkerWithLabel({
+  position: warsawlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Warsaw<br>Nov 24 & 25",
+  labelAnchor: new google.maps.Point(10, 25),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
+google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2015-warsaw/"});
+
 
 }
+
+
+
 </script>
 
 <%= render(:partial => '/_upcoming') %>

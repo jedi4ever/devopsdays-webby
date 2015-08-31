@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Matt Stratton
+title: "DevOps in the Machine"
+---
+
+**Abstract:**
+
+In this ignite, a set of tweets from @petechesbot will be selected and presented. Pete Chesbot is the ultimate DevOps bot, distilling down the thought leadership of Pete Cheslock into much more consumable, and often more coherent, ideas. The presenter will explain the truth behind these constructed tweets, and we will all learn some deep insight into the "DevOps in the Machine".
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qAMu5dRDmGA?start=1286&end=1603" frameborder="0" allowfullscreen></iframe>
+
+**Speaker:**
+Matt Stratton
+

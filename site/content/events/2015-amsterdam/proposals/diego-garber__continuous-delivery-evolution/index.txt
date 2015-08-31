@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Diego Garber
+title: "Continuous Delivery evolution"
+---
+
+**Abstract:**
+
+Over the lapse of 2 years we have been implementing Continuous Delivery at OLX (Free Classifieds online), the aim of the talk is to share some of our learnings, tools used and tools developed in house and opensourced (like Octopush check it up on github).
+
+How we manage to change the culture in the process and install the concept of DevOps.
+
+We are in the process of continuous improvement, we have evolved from SVN to Git, from tags to artifacts and then to Native packages, from bash to Ansible and from manually triggering deployments to the intensive use of Jenkins.
+
+**Speaker:**
+
+Diego Garber has studied Computer Science and worked as a Java programmer for most of his carreer, but 4 years ago he was tempted with the challenge to become Release Manager at OLX. He managed since then to completely change the way Dev and Ops worked, evangelizing about devops and Continuous Delivery he achieved his goal of speeding up and agilizing Deployments to Production and the overall Development cycle. He has given talks about this issue on 2014 at Devops Ljubjlana, Agiles Conference in Medellin and at MySQL/NoSQL & Cloud conferences in Buenos Aires.

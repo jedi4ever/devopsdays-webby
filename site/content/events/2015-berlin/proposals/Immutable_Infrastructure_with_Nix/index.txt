@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Rok Garbas
+title: "Immutable infrastructure with NixOps"
+---
+
+**Abstract:**
+
+Immutable infrastructure is a term to describe the practice of not making
+configuration changes directly on servers, but in contrast automate
+configuration changes (continuously) using tools like Chef, Pupper or in
+our case NixOps.
+
+NixOps is a tool for deploying sets of NixOS Linux machines, either to real
+hardware or to virtual machines. It extends NixOS’s declarative approach to
+system configuration management to networks and adds provisioning.
+
+NixOS is a Linux distribution with a unique approach to package and
+configuration management. Built on top of the Nix package manager, it is
+completely declarative, makes upgrading systems reliable.
+
+Declarative specs and safe upgrades make NixOS a great system for DevOps
+use. NixOps, the NixOS cloud deployment tool, allows you to provision and
+manage networks of NixOS machines in environments like Amazon EC2,
+VirtualBox, ...
+
+**Speaker:**
+Rok Garbas
+

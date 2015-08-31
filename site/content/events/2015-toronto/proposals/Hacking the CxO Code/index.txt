@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: true
+author: J. Paul Reed
+title: "Hacking the CxO Code"
+---
+
+**Abstract:**
+
+That famous saying begins "First they ignore you, then they laugh at you, then they fight you..."
+
+The past five years has presented plenty of evidence that certain technical practices and organizational ethos do result in better outcomes. These successes can no longer be ignored and the laughter of those who claimed "that'll never work" is steadily dying out.
+
+But as organizations of all sizes try to wrap their collective heads around the tectonic industry transformations occurring today, to us practitioners, managers, and the "team in the trenches" it often feels like we're stuck in the "fight to convince" everyone that DevOps and (lower-case) agility really are our key to survival.
+
+In this talk, we'll look at:
+
++ Why a disconnect can so easily form when communicating with leadership
++ Why it seems leaders are looking at a different part of the "DevOps elephant" (and just what part is that, exactly?)
++ Methods to align our needs for support with the things our leaders are really concerned with
++ What accounting has to do with DevOps (and what you can do about it)
++ Simple ways to make your own observations become "obvious" to everyone
++ How to get past the DevOps "culture vs. tooling" debate with one simple trick
+
+At the end of this talk, you'll be able to go into tough conversations with organizational leaders, armed with the right language, convincing data sets, and persuasive techniques to move the conversation forward and secure the resources you need to start changing your company's operations.
+
+"... and then you win."
+
+**Speaker:**
+
+J. Paul Reed
+

@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Jon Cowie
+title: "Cheffing Etsy: Do too many cooks really spoil the soup?"
+---
+
+**Abstract:**
+
+It's an oft-quoted adage that too many cooks spoil the soup. But is this always true? At Etsy, we have roughly 40 Ops and Developers making upwards of 20 or 30 Chef changes per day.
+
+In this talk, I'll look at the tools, techniques and workflows we leverage to enable tens of people spread across teams, timezones and even countries to work together to continuously deliver Chef changes with nearly the same frequency we ship code. Although the specific tooling discussed in this talk is designed to work with Chef, many of the techniques and practices I'll talk about are applicable to many other engineering disciplines - the importance of communication and visibility in a Continuously Delivered world, the importance of testing and metrics, and optimising your workflows to remove friction and enable agility while also satisfying the requirements of your stakeholders.
+
+This talk will break down roughly as follows:
+
+* A quick summary of Chef at Etsy - what we use it for, a quick guide to our workflow, and how we think about Chef changes internally
+* Tooling & Workflows - the tools and practices we use to deliver our Chef changes, and how we monitor and test our changes.
+* The roadbumps we've encountered along the way as we've scaled and evolved our usage of Chef and what we've done to solve those problems
+* What next? We're not perfect, and we never stop iterating and improving our workflows. What are the pain points we're experiencing currently, and how are we looking to solve them?
+
+Slides:
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/9cCgK2tsH3GLv" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jonlives/cheffing-etsy-do-too-many-cooks-spoil-the-soup" title="Cheffing Etsy - Do too many cooks spoil the soup?" target="_blank">Cheffing Etsy - Do too many cooks spoil the soup?</a> </strong> from <strong><a href="//www.slideshare.net/jonlives" target="_blank">Jon Cowie</a></strong> </div>
+
+Video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pt_qtcfTk3M" frameborder="0" allowfullscreen></iframe>
+**Speaker:**
+Speaker Jon Cowie
+

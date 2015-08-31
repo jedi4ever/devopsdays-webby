@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 22
+title: "Enabling DevOps Through End to End Performance Monitoring"
+---
+
+**Abstract:**
+
+A typical HTTP request lifecycle could be divided on three stages:
+
+* front end devices (browser, API, or mobile) 
+* middle mile transport (CDN) 
+* backend servers and services in a data center (or cloudified data center) 
+
+A request can span dozens of diverse systems and platforms, and with that, many monitoring tools controlled by diverse teams in development, operations, performance and QA. These teams cannot collaborate efficiently as they lack unified data, leaving each team with different limited understanding of what is really happening.With the full lifecycle of the request not well understood and teams operating in silos,its no wonder the end result is unnecessary finger pointing during troubleshooting efforts such as performance incidents.
+
+For a DevOps team to be successful, they must see the big picture and know the answers to key questions such as:. Where to spend your resources to improve application performance?How to do root cause analysis for performance issues along the entire path?What metrics to use? Identify, in real time, what is and isn't working through the request flow? What your CDN is contributing to this picture? What out-of-your-control performance issues from systems such as mobile carriers or corporate gateways impact your site? 
+
+This talk will look at the tools available to monitor each stage of the request, and then examine how to unify this data into a single real time global view of the request lifecycle. During the presentation you will learn how unified monitoring of the request flow enables DevOps teams to see the big picture and collaborate using an unified set of metrics over a global dashboard. 
+
+
+
+**Speaker:**
+Speaker 22
+

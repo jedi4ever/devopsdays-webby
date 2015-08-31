@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Chris Ward
+title: "Automating Data Deployments with Distributed Databases"
+---
+
+**Abstract:**
+
+A typical approach to constructing a data store for applications has been
+adding functionality to a central database as and when required. This works to
+a point, but over time this gets harder for DevOps teams to scale and manage,
+with replication and synchronisation of data increasingly more complex and
+fraught.
+
+Distributed databases help solve the scaling side of this problem, allowing for
+simple adding and removing of database nodes as demand dictates.
+
+In this presentation I will show:
+
+- How to set-up a Distributed Database and the options available.
+- How re-synchronisation, balancing and indexing of data works as the number of nodes in a cluster changes.
+- Constructing a cluster spread across data-centres and geographical regions
+
+**Speaker:**
+Chris Ward
+

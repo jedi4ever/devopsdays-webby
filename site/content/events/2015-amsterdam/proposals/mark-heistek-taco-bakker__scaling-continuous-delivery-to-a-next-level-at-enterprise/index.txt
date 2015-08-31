@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: false
+layout: event
+author: Mark Heistek and Taco Bakker
+title: "Scaling Continuous Delivery to a next level at the enterprise."
+---
+
+**Abstract:**
+
+Our journey started five years ago by implementing Scrum in order to develop our ING mobile app. A year later we started with full automation of IT processes. In May 2013 ING reorganized with Continuous Delivery as the way of working and DevOps the way we organize. All this in an enterprise organization which is bound by national legislation & historical legacy. 
+
+Many practices within the market helped us in this journey, but little was discussed and known about scaling Continuous Delivery and increasing the quality of operations within the enterprise. This talk shares experiences and key learnings of implementing Continuous Delivery at scale and integrating operations.
+
+We will cover;
+* Individual teams with their own pipelines towards Continuous Delivery as a service (CDaaS) within the enterprise
+* Standardization of tooling 
+* Embedding operations within Continuous Delivery (like monitoring, Config management etc.)
+* Security and DevOps
+* Security and Continuous Delivery
+
+**Speaker:**
+
+Taco is a IT engineer with a lot of continuous delivery, Agile/Scrum and DevOps experience. Improving people, processes and techniques is what he constantly does. In the end it's the results that matter!
+
+Mark Heistek works at ING. Evangelizing Continuous Delivery and DevOps within and outside ING . Also part of the DevOps team which is responsable for Continuous Delivery as a Service globally within the enterprise.

@@ -10,8 +10,8 @@ extension: html
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
-This page lists the proposals we have received. Help the presenters with your feedback!
 
+This page lists the proposals we have received. Help the presenters with your feedback!
 
 <h2>Conference Talks</h2>
 <ol>
@@ -22,6 +22,18 @@ This page lists the proposals we have received. Help the presenters with your fe
   articles.each do |page|
 -%>
 <li><%= link_to_page(page) %> - <%= page.author %>
+<% end -%>
+</ol>
+
+<h2>Workshops</h2>
+<ol>
+<%
+  workshops = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "title", :reverse => true, :workshop => true)
+  workshops.delete(@page)
+  workshops.each do |workshop|
+-%>
+<li><%= link_to_page(workshop) %> - <%= workshop.author %>
 <% end -%>
 </ol>
 

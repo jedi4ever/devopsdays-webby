@@ -1,0 +1,51 @@
+---
+title: Proposals
+layout: event_tlv
+extension: html
+dirty: true
+filter:
+- erb
+- markdown
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+## Last date for submission: <%= render(:partial => "/#{@eventhome}/_cfp_date_end") -%>
+
+## [Submit your proposal](https://docs.google.com/forms/d/1XberogeTEikd5Xspt_UouR4t1vqdCtW9TTOfBbzDAnE/viewform)
+
+## There are four types of session:
+
+1. **_A proposal for a talk/panel_** during the conference part: these are 45 minutes slots that will have all people's full attention as everybody will be in that one room.
+2. **_An Ignite talk_** that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>: these are 5 minutes slots with slides changing every 15 seconds (20 slides total) also presented to all attendees in one room
+3. **_Workshops_**: A hands-on session, typiclly few hours long, focusing on specific technologies and different levels of expertise (beginner/intermediate/expert)
+4. **_Openspace session_**: even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during the openspace opening. Check the <a href="/pages/open-space-format">openspace format</a> for more information
+
+
+## Our main criteria to make it to the top selection are:
+
+* _original content_: content not yet presented at other conferences, or a new angle to an existing problem
+* _new presenters_: people who are new to the space and have insightful stuff to tell, we want to hear everbody's voice
+* _no vendor pitches_: as much as we value vendors and sponsors, we just don't think this is the right forum. There is a demo openspace slot where you have 5 minutes to show products.
+
+## Some suggestions to get you thinking:
+
+* What is the role of QA/Tester in devops, how do we integrate QA in the continuous delivery process
+* The impact devops has on traditional security/auditing/change control
+* How does devops co-exist with ITIL, Cobit
+* How about release management ?
+* What about configuration management and delivery in Mixed Unix AND Windows environments
+* Building dashboards because #monitoringsucks
+* The impact of devops on HR policies, and the hiring process
+* Help prove that devops can scale beyond the 5-8 person web startups, we love traditional IT enterprise cases
+* With all the automation, data is still a hard thing to handle, how does it affect, DBA's, backup strategies, ...
+* How to involve the business in devops
+* How to get YOUR boss involved, how do you make the business case
+* And of course any other topic in the realm of Devops
+* Beyond Configuration Management, about challenges like orchestration, or doing things at large scale
+
+## Rules:
+* Be specific... we aren't mind readers (a description of about 20 lines is about right)
+* Detail is good... but not as important as explaining why your proposal would be interesting
+* Nominations welcome... if you know someone who has content/experience relevant to the DevOps  conversation, please point us in their direction!
+* Multiple proposals welcome... just follow the other rules

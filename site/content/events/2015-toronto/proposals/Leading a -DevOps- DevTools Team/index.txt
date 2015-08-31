@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: false
+author: Seth Goings
+title: "Leading a -DevOps- DevTools Team"
+---
+
+**Abstract:**
+
+Though there shouldn't necessarily be a “DevOps Team” in your organization, your organization’s survival depends on having a group of people that can consistently and effectively challenge and surpass the status quo of what it means to build and deliver a software product. This group needs to have a strong grasp of technical as well as non-technical workings of both organizations as a whole and individuals themselves. But what exactly does the group need to focus on? What should the fundamental technical and non-technical tenets of a DevOps (or as I’ll describe it: a DevTools) team be?
+
+Focus:
+
++ Provide Context: Describe the inner workings of a company that’s growing from a small company (start-up) to a medium size company (case study: ReadyTalk - the company I have worked for for the past 4 years)
++ Developing Leadership: Explain how I've grown from an individual contributor to leading engineering-wide improvement efforts
++ Laying out the Fundamentals: Boiling down the DevOps/Continuous Integration/Delivery/Testing techniques and thought processes that we've discovered over the last 10 years into a set of easily digestible fundamentals that can radically improve your life as a software engineer, sysadmin, tester, etc.
+
+**Speaker:**
+
+Seth Goings
+

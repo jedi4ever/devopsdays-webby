@@ -1,0 +1,66 @@
+---
+filter:    erb
+---
+
+<%
+def make_sponsor_links(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<% @gsponsors = [
+ { :image => "autoscout.png", :name => "AutoScout24", :link => "http://about.autoscout24.com/de-de/au-career.asp"},
+ { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
+ { :image => "codecentric.png", :name => "Codecentric", :link => "https://www.codecentric.de/"},
+ { :image => "delphix.jpg", :name => "Delphix", :link => "http://www.delphix.com/"},
+ { :image => "docker.png", :name => "Docker", :link => "https://www.docker.com/"},
+ { :image => "epost.png", :name => "E-POST", :link => "http://www.epost.de/"},
+ { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"},
+ { :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
+ { :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://www.pagerduty.com/'},
+ { :image => "payback.png", :name => "PAYBACK", :link => "http://PAYBACK.net/karriere/"},
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+<br />
+<% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
+<% elsif @gsponsors.size < 8 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Silver sponsors</h1>
+
+<% @ssponsors = [
+ { :image => "endocode.png", :name => "Endocode", :link => "http://www.endocode.com/"},
+] %>
+<%= make_sponsor_links(@ssponsors) %>
+<br />
+<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
+<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+
+<% @esponsors = [
+ { :image => "elastic.png", :name => "Elasticsearch", :link => "http://www.elastic.co/"},
+]%>
+
+<% unless @esponsors.empty?  %><h1>Evening sponsor</h1><% end %>
+
+<% @esponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+
+<% @partners = [
+ { :image => "netways.png", :name => "NETWAYS GmbH", :link => "http://www.netways.de"}
+]%>
+
+<h1>Partners</h1>
+
+<% if @partners.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Become our partner!</a></i>
+<% end %>
+
+<% @partners.shuffle.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="100px" height="100px" src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+<br />
