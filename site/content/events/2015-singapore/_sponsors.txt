@@ -22,7 +22,7 @@ end
     :link => "http://www.puppetlabs.com/"
   },
   {
-    :image => "titansoft.jpg",
+    :image => "titansoft.png",
     :name => "Titansoft",
     :link => "http://www.titansoft.com/"
   },
