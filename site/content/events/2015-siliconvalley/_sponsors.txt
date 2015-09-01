@@ -53,7 +53,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
- { :image => 'containership.png', :name => 'Containership', :link => 'http://www.containership.com', :width => '100px', :height => '100px' },
+ { :image => 'containership.png', :name => 'Containership', :link => 'http://www.containership.io', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
