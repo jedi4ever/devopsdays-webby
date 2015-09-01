@@ -31,6 +31,7 @@ end
 { :image => "xebia.png", :name => "Xebialabs", :link => "https://xebialabs.com/"},
 { :image => "nutanix.png", :name => "Nutanix", :link => "http://www.nutanix.com/"},
 { :image => "appneta.png", :name => "AppNeta", :link => "http://www.appneta.com/"},
+{ :image => "booz_allen_hamilton.png", :name => "Booz Allen Hamilton", :link => "http://www.boozallen.com/"},
 ]%>
 
 <% unless @ssponsors.empty?  %><h1>Gold sponsors</h1><% end %>
@@ -44,6 +45,9 @@ end
 { :image => "battery_ventures.png", :name => "Battery Ventures", :link => "https://www.battery.com/"},
 { :image => "brainshark.png", :name => "brainshark", :link => "http://www.brainshark.com/"},
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
+{ :image => "constantcontact.png", :name => "Constant Contact", :link => "http://www.constantcontact.com/"},
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "https://www.sumologic.com/"},
+
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Silver sponsors</h1><% end %>
