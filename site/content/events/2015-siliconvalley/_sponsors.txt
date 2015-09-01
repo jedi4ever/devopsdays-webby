@@ -23,7 +23,7 @@ end
  { :image => 'neptune.png', :name => 'Neptune', :link => 'http://www.neptune.io', :width => '100px', :height => '100px' },
  { :image => 'netuitive.png', :name => 'Netuitive', :link => 'http://www.netuitive.com', :width => '100px', :height => '100px' },
  { :image => 'pivotal.png', :name => 'Pivotal', :link => 'http://www.pivotal.io', :width => '100px', :height => '100px' },
- { :image => 'rackspace.jpg', :name => 'Rackspace', :link => 'https://www.rackspace.com/', :width => '100px', :height => '100px' },
+ { :image => 'rackspace.png', :name => 'Rackspace', :link => 'https://www.rackspace.com/', :width => '100px', :height => '100px' },
  { :image => 'redislabs.png', :name => 'Redis Labs', :link => 'https://www.redislabs.com/', :width => '100px', :height => '100px' },
  { :image => 'signalfx.jpg', :name => 'SignalFx', :link => 'https://signalfx.com/', :width => '100px', :height => '100px' },
  { :image => 'sysdig.png', :name => 'Sysdig', :link => 'http://www.sysdig.com', :width => '100px', :height => '100px' },
