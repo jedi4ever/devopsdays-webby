@@ -47,7 +47,6 @@ end
 { :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
 { :image => "constantcontact.png", :name => "Constant Contact", :link => "http://www.constantcontact.com/"},
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "https://www.sumologic.com/"},
-
 ]%>
 
 <% unless @bsponsors.empty?  %><h1>Silver sponsors</h1><% end %>
