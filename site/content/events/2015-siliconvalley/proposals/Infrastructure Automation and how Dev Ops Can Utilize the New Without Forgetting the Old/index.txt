@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 36
+title: "Infrastructure Automation and how Dev Ops Can Utilize the New Without Forgetting the Old"
+---
+
+**Abstract:**
+
+New devices and technologies are regularly being added to your network; however, DNS and IPv6 are typically an afterthought. Now that you’ve enabled these resources, how do you prevent them from eating up your time? How do you minimize the pain of managing them? That's what the next generation of resource management tools are able to do; not only accommodate new technologies but also continue to support older technologies. No one wants to spend time worrying about these thing, and the right tools can automate such concerns right off a devop’s plate.
+
+
+**Speaker:**
+Speaker 36
