@@ -9,13 +9,19 @@ h1, h2, h3 {
 }
 
 body {
-  font-family: 'Droid Serif';
+  font-family: 'Helvetica';
 }
+
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
-  font-weight: 400;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
   margin-bottom: 0;
+  color: #1582AB;
 }
+h2, h3 {
+  color: #084B73;
+}
+
 .remark-slide-content h1 { font-size: 3em; }
 .remark-slide-content h2 { font-size: 2em; }
 .remark-slide-content h3 { font-size: 1.6em; }
@@ -27,7 +33,7 @@ li p { line-height: 1.25em; }
 .red { color: #fa0000; }
 .large { font-size: 2em; }
 a, a > code {
-  color: rgb(249, 38, 114);
+  color: #084B73;
   text-decoration: none;
 }
 code {
@@ -116,7 +122,18 @@ code {
 }
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
-.sponsor-gold {
+#slide-sponsors h1,
+#slide-sponsors h2,
+#slide-sponsors h3 {
+  margin: 0;
+}
+
+#slide-sponsors h3 {
+  margin-top: 20px;
+}
+
+#slide-sponsors .sponsor-gold,
+#slide-sponsors .sponsor-silver {
   padding: 5px;
   width: 100px;
 }
