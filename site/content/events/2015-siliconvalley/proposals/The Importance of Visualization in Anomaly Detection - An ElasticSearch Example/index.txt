@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 37
+title: "Infrastructure Automation and how Dev Ops Can Utilize the New Without Forgetting the Old"
+---
+
+**Abstract:**
+I have been working on anomaly detection algorithms, but find that a visual approach is also very powerful. Since I want to present in an Ignite format, this aspect of my work would fit very well with the presentation format. Anomaly Detection is at the cross-roads of Data, Algorithms and Visualization: The algorithm to be used depends on what kind of data you have, and without a good visualization, its hard to understand the meaning of the anomaly detected. For DevOps in particular, the correlation of anomalies is usually more important than a single anomaly, placing higher emphasis on good visualization. In my talk, I will share some of my efforts at detecting -- and understanding the root causes -- behind anomalies using ElasticSearch. I will share beautiful visualizations and show how crafting a good visualization contributes a good deal towards visually detecting, and understanding, anomalies in a complex system such as ElasticSearch.
+
+**Speaker:**
+Speaker 37

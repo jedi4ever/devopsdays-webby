@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 35
+title: "Errbot, a chatbot the python way"
+---
+
+**Abstract:**
+
+I'd like to propose a talk for the conference: Errbot, a chatbot the python way (working title).
+It is a general presentation about ChatOps and Errbot an open source (GPL) chabot in particular, followed by a more specific presentation on features helping developers to integrate it very easily with their systems.
+it is 30 minutes long.
+
+**Speaker:**
+Speaker 35
