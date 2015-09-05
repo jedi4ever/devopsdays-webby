@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false 
+ignite: true
+selected: false
+author: Rok Garbas
+title: "Nix, the purely functional package manager"
+---
+
+**Abstract:**
+
+Nix is a powerful package manager for Linux and other Unix systems that
+makes package management reliable and reproducible. It provides atomic upgrades
+and rollbacks, side-by-side installation of multiple versions of a package,
+multi-user package management and easy setup of build environments.
+
+Why would somebody even touch package management in 2015? Current package
+management never fails us, right? What does package management has to do with
+Continuous development?
+
+What I would like to show (and hopefully convince you) is that not only
+packaging is possible in small teams (startups), but is actually one of the
+points where whole development process can be optimized.
+
+**Speaker:**
+Rok Garbas
+
