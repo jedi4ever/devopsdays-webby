@@ -30,7 +30,12 @@ end
     :image => "datarobot.png",
     :name => "Datarobot",
     :link => "http://www.datarobot.com/",
-    :style => "padding: 20px 0 20px 0;"
+    :style => "padding: 20px 0 0 0;"
+  },
+  {
+    :image => "ca.png",
+    :name => "ca",
+    :link => "http://www.ca.com/"
   }
 ]%>
 <%= make_sponsor_links(@sponsors) %>
@@ -98,11 +103,16 @@ end
 <h1>Lanyard Sponsors</h1>
 
 <% @sponsors = [
+{
+  :image => "ca.png",
+  :name => "ca",
+  :link => "http://www.ca.com/"
+}
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
 <% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a>
-<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a><% end %>
+<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a><% end %>
 
 <br/>
 <br/>
