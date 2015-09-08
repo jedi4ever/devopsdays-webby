@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 42
+title: "The DevOps Pipeline"
+---
+
+**Abstract:**
+
+A guided tour of using value stream mapping techniques to create and communicate a modern continuous delivery process, along with the benefits and challenges it presents.
+I’m a visual person, when I started out with build and release engineering and agile, charged with reducing cycle time I wanted a holistic view of the current system and a path to tackling conflict and bottlenecks. I've since learned much more about the practice of value stream mapping and how it can help tune your delivery process. This talk will provide a clear and actionable tool for starting or excelling with DevOps.
+
+We’ll cover:
+- why value is everything
+- value stream mapping 0-60
+- identifying and addressing constraints
+- easy wins
+- connections, tools and integrations
+
+Audience:
+Newcomers or seasoned pros looking for a new tool for their arsenal
+
+What you get:
+Insight into examining the bottenecks and issues in your delivery process, and what to do about them.
+
+* This talk has been roughly presented before, but this iteration is radically streamlined and updated based on prior feedback
+
+**Speaker:**
+Speaker 42

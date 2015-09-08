@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 43
+title: "Launch your cognitive computing app in minutes on the cloud"
+---
+
+**Abstract:**
+
+This session demonstrates how one can create an
+app in a matter of minutes using Bluemix DevOps
+services using agile methodology. In this session we
+will see how we can launch a watson cognitive
+computing application in a matter of minutes on
+IBM's new platform as a service cloud. This session
+will also go through some tips and tricks or shortcuts
+available to the developer.
+
+Can do the same for analytics apps in node.js
+
+**Speaker:**
+Speaker 43
