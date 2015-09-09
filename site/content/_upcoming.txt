@@ -11,11 +11,6 @@
     <a href="/events/2015-telaviv">
       Tel Aviv
     </a>
-    <br>
-    <a href="/events/2015-perth">
-      Perth
-    </a>
-    -
     <a href="/events/2015-singapore">
       Singapore
     </a>
@@ -23,11 +18,11 @@
     <a href="/events/2015-berlin">
       Berlin
     </a>
-    -
+    <br>
     <a href="/events/2015-charlotte">
       Charlotte
     </a>
-    <br>
+    -
     <a href="/events/2015-siliconvalley">
       Silicon Valley
     </a>

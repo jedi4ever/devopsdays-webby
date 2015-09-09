@@ -59,18 +59,6 @@ map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: '
 // http://itouchmap.com/latlong.html
 
 
-var perthlocation=new google.maps.LatLng(-31.9528536, 115.8573389);
-var perthmarker = new MarkerWithLabel({
-    position: perthlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Perth<br>Oct 14 & 15",
-    labelAnchor: new google.maps.Point(30, 40),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-});
-
 
 var sflocation=new google.maps.LatLng(37.3894, -122.0819);
 var sfmarker = new MarkerWithLabel({
