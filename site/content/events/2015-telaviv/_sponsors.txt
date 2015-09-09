@@ -32,8 +32,8 @@ filter:    erb
 <% @gold_sponsors = [
     { :image => "cloudify.png", :name => "Cloudify by GigaSpaces", :link => "http://getcloudify.org"},
     { :image => "JFrogDoD.png", :name => "JFrog", :link => "http://www.jfrog.com/"},
-    { :image => "wix.png", :name => "Wix", :link => "http://wix.com"},
     { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"},
+    { :image => "stratoscale.png", :name => "Stratoscale", :link => "http://www.stratoscale.com/"},
 ]%>
 
 <% if @gold_sponsors.empty?  %>
