@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 author: Maximilien Riehl
-title: "Biased thought patterns considered harmful"
+title: "The beauty and the bias: A tale of self-delusion and fallacy"
 ---
 
 **Abstract:**
