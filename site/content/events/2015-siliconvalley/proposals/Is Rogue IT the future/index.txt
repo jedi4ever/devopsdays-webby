@@ -14,11 +14,11 @@ title: "Is “Rogue IT” the future?"
 
 **Abstract:**
 
-You see it over and over again, business units spinning up apps that IT teams, whether dev or ops, have to support later when they become mission critical. We rail against Rogue IT, or Stealth IT, often and loudly because IT is inevitably involved when there are issues with the application. Not only that, when it becomes a mission critical application, it causes more work for IT than it would have it we were involved from the start.
+In IT, we see it over and over again, business units spinning up apps that IT teams, whether dev or ops, have to support later when the apps become mission critical. We rail against Rogue IT, or Stealth IT, often and loudly because IT is inevitably involved when there are issues with the application and because it. Not only that, when the app becomes mission critical, there is more work for IT than there would have it IT were involved from the start.
 
-Despite our concerns, we don’t often put ourselves in the shoes of those we rail against to find out why Rogue IT pops up. Does the organization need to move faster than the “speed of IT” or build a cross-functional team that blends implementers with those in traditional business roles? What needs aren’t being met?
+Despite our concerns, we in IT don’t often put ourselves in the shoes of those we rail against in order to find out why Rogue IT pops up. Does the organization need to move faster than the “speed of IT” or build a cross-functional team that blends implementers with those in traditional business roles? Rogue IT isn’t inherently good or bad, it is a type of failure demand. It is up to IT to determine what perceived needs aren’t being met and decide how to move forward.
 
-This presentation strives to encourage thought and start the dialogue needed to go from focusing on conflict at work to driving value by discussing why Rogue IT happens and if we should keep attempting to suppress it or move forward with enabling guardrails to make it successful for everyone.
+This session is for anyone who works in IT or other teams delivering applications and services. Attendees will walk away from this presentation with an understanding of the common reasons Rogue IT happens, some real-life examples of when to push back and when not to, and strategies for coming out of these situations with everyone’s sanity intact.
 
 **Speaker:**
 Speaker 38

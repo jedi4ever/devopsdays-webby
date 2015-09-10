@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 45
+title: "Scaling PostgreSQL on AWS"
+---
+
+**Abstract:**
+
+We needed a highly available database with full PostgreSQL support without changes in application logic, on a large write- and read-heavy data set. After reviewing all of the available options we chose CitusDB, made some improvements to support backup, high-availability and failover cases and integrated it with our Ruby on Rails platform. We'll cover our design considerations, challenges and future plans for autoscaling, leveraging AWS technologies to handle high availability and failover and tuning EBS to handle write- and read-heavy database loads.
+**Speaker:**
+Speaker 45
