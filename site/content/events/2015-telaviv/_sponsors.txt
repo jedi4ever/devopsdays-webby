@@ -54,6 +54,7 @@ filter:    erb
     { :image => "librato.png", :name => "Librato Metrics", :link => "https://metrics.librato.com/?utm_campaign=dev-ops-tel-aviv&utm_content=promotion&utm_medium=event&utm_source=devops-tel-aviv"},
     { :image => "rounds.png", :name => "Rounds", :link => "https://www.rounds.com/"},
     { :image => "pagerduty.png", :name => "PagerDuty", :link => "https://www.pagerduty.com/"},
+    { :image => "kenshoo.png", :name => "Kenshoo", :link => "http://kenshoo.com/"},
 ]%>
 
 <% unless @silver_sponsors.empty?  %><h1>Silver Sponsors</h1><% end %>
