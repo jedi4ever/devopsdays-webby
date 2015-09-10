@@ -27,12 +27,12 @@ Fairmont Singapore & Swissôtel The Stamford<br>
 <a href="/<%= @eventhome %>/location/">Map</a></td>
   </tr>
   <tr>
-    <td><b>Register</b></td>
-    <td><a href="/<%= @eventhome %>/registration/">Registration is open! Register now!</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Track DevOpsDays Singapore on <a href="http://lanyrd.com/2015/devopsdayssg/" target="_blank">Lanyrd!</a></td>
+    <td style="vertical-align:top"><b>Register</b></td>
+    <td>
+      Registration is OPEN. <a href="/<%= @eventhome %>/registration/">Register now!</a>
+      <br>
+      Please read <a href="/<%= @eventhome %>/conduct/#1">our anti-harassment policy</a> and <a href="/<%= @eventhome %>/conduct/#2">code of conduct</a> before you register!
+    </td>
   </tr>
   <tr>
     <td><b>Speakers</b></td>
@@ -44,11 +44,17 @@ Fairmont Singapore & Swissôtel The Stamford<br>
   </tr>
   <tr>
     <td><b>Sponsors</b></td>
-    <td>If your interested in sponsoring the first DevOpsDays in Singapore, please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Interested in Sponsoring 2015 DevOpsDays Singapore">email us</a></td>
+    <td>Have a look at <a href="/<%= @eventhome %>/sponsor/#sponsorship">our sponsor packages</a> and <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Interested in Sponsoring 2015 DevOpsDays Singapore">get in touch with us</a>.</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top"><b>Travel</b></td>
+    <td>
+      First time to Singapore? A good start is to <a href="https://github.com/rubysg/singapore#getting-around">read the advices</a> from our friends at the <a href="http://www.meetup.com/Singapore-Ruby-Group/" target="_blank">Singapore Ruby Group</a>.
+    </td>
   </tr>
   <tr>
     <td><b>Contact</b></td>
-    <td><a href="/<%= @eventhome %>/contact/">Get in touch with the Organizers</a>.</td>
+    <td>Got questions? <a href="/<%= @eventhome %>/contact/">Get in touch with the Organizers</a>.</td>
   </tr>
   <tr>
     <td></td>
@@ -58,6 +64,7 @@ Fairmont Singapore & Swissôtel The Stamford<br>
   </tr>
 </table>
 
+<a name="why-attend"></a>
 # Why Attend?
 
 Whether you're in government, academia, or the private sector,
@@ -73,6 +80,7 @@ DevOpsDays are a mix of keynote sessions and [open spaces](http://en.wikipedia.o
 
 <img src="wordcloud.jpg" width="580" alt="proposal word cloud">
 
+<a name="about-singapore"></a>
 # About Singapore
 
 If all you know of Singapore is that it is a _fine_ city, you're missing out.
