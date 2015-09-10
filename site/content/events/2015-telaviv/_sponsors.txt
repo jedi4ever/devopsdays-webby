@@ -34,6 +34,7 @@ filter:    erb
     { :image => "JFrogDoD.png", :name => "JFrog", :link => "http://www.jfrog.com/"},
     { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"},
     { :image => "stratoscale.png", :name => "Stratoscale", :link => "http://www.stratoscale.com/"},
+    { :image => "bigpanda.png", :name => "BigPanda", :link => "https://bigpanda.io"},
 ]%>
 
 <% if @gold_sponsors.empty?  %>
