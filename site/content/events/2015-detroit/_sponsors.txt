@@ -58,7 +58,8 @@ end
 <h1>Media sponsors</h1>
 <% @msponsors = [
 { :image => "stream_detroit_alt_100x100.png", :name => "Stream Detroit", :link => "http://www.streamdetroit.com/"},
-{ :image => "oreilly.png", :name => "O'Reilly", :link =>"http://www.oreilly.com/"}
+{ :image => "oreilly.png", :name => "O'Reilly", :link =>"http://www.oreilly.com/"},
+{ :image => "itinthed_logo_100x100.png", :name => "IT in the D", :link =>"http://www.itinthed.com/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
