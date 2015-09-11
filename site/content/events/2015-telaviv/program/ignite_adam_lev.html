@@ -1,0 +1,21 @@
+---
+title: Program
+layout: event_tlv
+extension: html
+dirty: true
+filter:
+- erb
+- markdown
+---
+
+## From 10 users to 10 million in 10 days
+
+We scaled a clients python software using storm (streamparse) and ELK over AWS with 3 programmers in around 10 days of work, most of the work was deleting unheeded features, and adapting the existing code to the new system design.
+The first stage was to note the entire flow of the system and spread the critical sections as far out as possible (this included moving from object oriented to event oriented, stateless design).
+The second stage was to choose a suitable stack for us - AWS was best for out scaling per dollar, streamparse was best for python over storm (storm was best for that kind of stateless flow) and ELK was best for the logging we needed. 
+
+## About the speaker - [Adam Lev](https://www.linkedin.com/in/adamlev)
+
+A software architect with a keen passion for doing things right.
+Rich experience in development, optimization and deployment over Linux (mostly C/C++ over debian & redhat).
+Solid background in distributed computing, in particular the MOSIX and OMPI systems.

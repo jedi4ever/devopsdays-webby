@@ -8,7 +8,36 @@ filter:
 - markdown
 ---
 
-## Security as part of your Continuous Integration
+## Security Tests as part of Continuous Integration process
+
+Continuous Integration (CI) is a key agile software engineering practice where members of a team, or teams in a project, integrate their work frequently.
+In order to achieve Usable Software each Sprint a CI process has to be clearly defined and implemented.
+The problem today is the lake of frequency of scanning static code (using tools like HP Fortify, Checkmarx) and dynamic scan (using tools like IBM AppSCan, HP WebInspect).
+Therefore It's not connected to CI processes often. The reasons are:
+ 
+1.  Complicity - requires someone who has experience and time.
+2.  Time - The scan takes long and requires extra attention.
+3.  Stability of those processes.
+ 
+This leads to the following symptoms:
+
+1. Security issues are being discovered once in a release or more.
+2. The developers need to reproduce the issues that created too long ago.
+3. Security issues are being part of the code.
+4. Difficulty to fix issues since sometime additional post developments are based on this code
+5. Unable to track of trends.
+
+ 
+How did we implemented it?
+ 
+* Build of latest code.
+* Deploy to a reference system
+* Scan the Java code statically (HP Fortify)
+* Scan the JS code statically (CheckMarx)
+* Scan the deployed system dynamically (HP WebInspect)
+* Analysis and report generation of API to the CI notifications.
+* HTML mail report sends to the relevant people.
+
 
 
 ## About the speaker - [Nir Koren](https://twitter.com/korennir)
