@@ -12,6 +12,23 @@ end
 
 <% @sponsors = [
   {
+    :image => "thoughtworks.png",
+    :name => "ThoughtWorks",
+    :link => "http://www.thoughtworks.com/",
+    :width => "100%"
+  }
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a>
+<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Gold Sponsors</h1>
+
+<% @sponsors = [
+  {
     :image => "pivotal.png",
     :name => "Pivotal",
     :link => "http://www.gopivotal.com/"
@@ -42,7 +59,7 @@ end
 <%= make_sponsor_links(@sponsors) %>
 <br />
 <% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
-<% elsif @sponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+<% elsif @sponsors.size < 9 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
 <br/>
 <br/>
@@ -65,23 +82,6 @@ end
 <br />
 <% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
 <% elsif @sponsors.size < 4 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Host Sponsors</h1>
-
-<% @sponsors = [
-  {
-    :image => "thoughtworks.png",
-    :name => "ThoughtWorks",
-    :link => "http://www.thoughtworks.com/",
-    :width => "100%"
-  }
-] %>
-<%= make_sponsor_links(@sponsors) %>
-<br />
-<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a>
-<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a><% end %>
 
 <br/>
 <br/>
