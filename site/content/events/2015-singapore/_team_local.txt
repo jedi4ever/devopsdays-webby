@@ -1,6 +1,5 @@
 - Christian Trabold
 - Felix Sperling
-- Garima Singh
 - Sandeep Joshi
 - Satyam Agarwala
 - Sergiu Bodiu
