@@ -35,7 +35,8 @@ end
   {
     :image => "ca.png",
     :name => "ca",
-    :link => "http://www.ca.com/"
+    :link => "http://www.ca.com/",
+    :style => "padding: 20px 0;"
   }
 ]%>
 <%= make_sponsor_links(@sponsors) %>
@@ -52,6 +53,12 @@ end
     :image => "redmart.png",
     :name => "RedMart",
     :link => "https://redmart.com/"
+  },
+  {
+    :image => "xebia.jpg",
+    :name => "Xebia",
+    :link => "http://xebia.com/",
+    :style => "padding: 30px 5px;"
   }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
