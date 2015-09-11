@@ -1,12 +1,11 @@
 ---
+title: 'Welcome!'
+layout: event_singapore
 extension: html
-layout: event_html5
 filter:
 - erb
 - markdown
-title: 'Welcome!'
 dirty: true
-platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 

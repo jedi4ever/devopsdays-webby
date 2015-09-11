@@ -1,11 +1,11 @@
 ---
+title: Contact
+layout: event_singapore
 extension: html
 filter:
 - erb
 - markdown
-title: Contact
 dirty: true
-layout: event_html5
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@page.directory) %>
