@@ -12,6 +12,7 @@ end
 
 <% @gsponsors = [
  { :image => 'appformix.png', :name => 'AppFormix', :link => 'http://www.appformix.com', :width => '150px', :height => '50px' },
+ { :image => 'bigpanda.png', :name => 'BigPanda', :link => 'http://www.bigpanda.io', :width => '100px', :height => '100px' },
  { :image => 'chef.png', :name => 'Chef', :link => 'http://www.chef.io', :width => '100px', :height => '100px' },
  { :image => 'calmio.png', :name => 'Calm.io', :link => 'http://www.calm.io', :width => '100px', :height => '100px' },
  { :image => 'cloudpassage.png', :name => 'CloudPassage', :link => 'http://www.cloudpassage.com', :width => '100px', :height => '100px' },
