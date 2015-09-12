@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 63
+title: "Docker Enables DevOps"
+---
+
+**Abstract:**
+
+There are any number of presentations on how to use Docker. But why would someone consider using Docker? If we are thinking DevOps and Theory of Constraints, then what "biggest problem" or bottleneck does Docker address?  If Docker addresses the issue, then what can an implementer expect in terms of new problems in culture, measurement and sharing?
+
+This talk is not a pitch to use Docker. It is a view of a technology that enables the DevOps paradigm of CALMS in an unusually large number of ways:
+
+* Culture: Microservices -> Microteams and addressing the issues of The Mythical Man-Month
+* Automation: The Dockerfile isn't ideal, but it does provide a very simple configuration management paradigm
+* Lean: The theme of the presentation will be lean
+* Measurement: QA is arguably the primary adoption path for Docker to date?  How does Docker enable better measurement of Quality?
+* Measurement(2): (If the timing allows) Black box testing of containers means that instead of governance ("You must used this version of Ubuntu and this patch level of Nginx and only these approved Java libraries"), we can begin to think about security and compliance issues as tests for compliance.  This will see the advent of another shift in the traditional role of the operator towards development-like practices.  In short the job of an ops team will be to create test suites demonstrating security, performance and PCI|HIPPA|FERPA compliance.
+* Sharing: Docker makes disposable development environments very easy to implement!
+
+**Speaker:**
+Speaker 63

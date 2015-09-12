@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 50
+title: "How to Use Docker to Streamline Continuous Integration"
+---
+
+**Abstract:**
+
+As systems grow and increase in scale, it becomes increasingly difficult to run a continuous-integration practice in order to keep organization agile and better serve customers. Integrating Docker containers into development, DevOps, and operational processes can enable companies to achieve new levels of agility and robustness. In this talk, we will share with developers and DevOps engineers the lessons we have learned in a step-by-step guide integrating Docker into development processes, deployment processes, and scaling processes.
+
+**Speaker:**
+Speaker 50

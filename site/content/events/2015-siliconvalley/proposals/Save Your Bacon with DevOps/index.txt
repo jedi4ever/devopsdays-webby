@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 68
+title: "Save Your Bacon with DevOps"
+---
+
+**Abstract:**
+
+It's what everyone loves to hate, thinking about disaster recovery.  Dusty plans, half-baked tests, late night phone calls and questionable contact lists.  If your company is new to DevOps or even looking for a new project to hone your DevOps practices on, look back at that last DR test.  How can you use DevOps practices to make that next round of testing better?  Jessica DeVita from Chef and Jennelle Crothers from Microsoft will talk DR basics with examples of tools that can help you get prepared.  Your business will thank you, your family will thank you.
+
+**Speaker:**
+Speaker 68

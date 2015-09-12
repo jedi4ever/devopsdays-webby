@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 53
+title: "Say NO to just devops"
+---
+
+**Abstract:**
+
+The DevOps movement has been great and many organizations we have successfully broken down silos between the Development, QA and Operations groups.However, this is just the beginning. There are also silos between Development, Product, Marketing, Sales, Finance and Management teams as well, which are  obstacles for the business in achieving its true potential. We’ll explore what’s next by looking at organizational structures such as cell based organizations (e.g. Amazon’s two-pizza model ) and trimodal organizations (e.g. Wardley’s Pioneers, Settlers and Town Planners model)
+
+**Speaker:**
+Speaker 53

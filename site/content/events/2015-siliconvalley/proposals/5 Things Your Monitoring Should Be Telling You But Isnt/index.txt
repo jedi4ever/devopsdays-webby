@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 59
+title: "5 Things Your Monitoring Should Be Telling You, But Isn’t"
+---
+
+**Abstract:**
+
+You may think you have the perfect monitoring solution, but is it hiding valuable information from you? Your monitoring can be telling you so much more than whether or not your systems are online or if a metric went above a static threshold. In this Ignite presentation, we will discuss the value of computed metrics, self-learning and 5 things you should expect from your monitoring tool:
+
+1.       Meta-data: Capturing it lets you alarm at a cluster and app level instead of one metric at a time.
+2.       Composite metric: Combining metrics with complex mathematical functions can be meaningful.
+3.       Utilization: Max rating of a standard AWS EBS can let you measure it as a percentage
+4.       Historic and contextual bands: Machine learning can tell you what’s normal
+5.       Intelligent policies: Machine learning combined with best practices helps automate monitoring
+
+**Speaker:**
+Speaker 59

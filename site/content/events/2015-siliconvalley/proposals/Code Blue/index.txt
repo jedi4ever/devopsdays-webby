@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 72
+title: "Code Blue"
+---
+
+**Abstract:**
+
+The patient was critically ill, if the surgeons couldn’t stabilize her she’d be gone. All of the monitors and alerts, lab results, every single piece of data, all in pursuit of saving a life. Amidst all that automation in the pediatric ICU we find communication and documentation making the difference between life and death. There is much that technologists can learn from healthcare about human to human communications and human to machine interactions. Let's talk about monitoring, alerts, incident command and burnout and come away with practical steps to apply to our work in IT.
+
+**Speaker:**
+Speaker 72

@@ -1,0 +1,44 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 66
+title: "Touchstone - a framework for metrics based promotion in software pipelines"
+---
+
+**Abstract:**
+
+Nowadays, Software is deployed to production hosts using pipelines and there are many stages (component, staging, production, etc.) in a pipeline. To assure software quality, various testing (unit, functional, integration) are performed in the pipeline stages.
+
+While testing at various levels improves the quality of software, it does have a ceiling. The limitation is that these tests are based on assertions and does not consider dynamic factors and system level metrics in real environment that could lead to performance degradation and subsequent outages. Most of these are preventable incidents.
+
+To ensure software works at Internet scale, we need a framework that does the following:
+The software package has to be previewed in an environment that is comparable to production
+Tee or replay real production traffic.
+Monitor these environments (pre-prod & prod) for hours and collect data from these hosts.
+Analyze the collected data and calculate the difference between the two environments.
+If the difference is greater than an accepted threshold, then the newer version is not as good as the one in production and is not fit to be deployed (or promoted) to production.
+
+Simply put, we need to preview how the newer version of software behaves in an environment that is similar to production, checking various metrics and then promoting this thoroughly tested version to production. Promotion of code from pre-production stage to production should be driven by metrics
+
+Touchstone is the framework that collects, analyzes and determines if the code is ready to promoted to the next stage in a software pipeline.
+
+At a high level, Touchstone provides the following features:
+Pipeline agnostic – Touchstone can be used in any existing pipeline to promote code based on metrics.
+Extensibility – Ability to collect metrics from any data source - like databases, splunk, monitoring systems…
+Parallelization – Each metric is collected and evaluated in an individual process so collection and analysis of many metrics happen simultaneously.
+Resiliency – Touchstone depends on external systems and failures can happen there too. Therefore, Touchstone have in-built resilience to mitigate these failures.
+Fail fast – Fail fast if there is no need to continue with data collection and analysis as some tests have failed
+Configurable - provide users the capability to add or remove any metric they want without altering touchstone code
+
+Conclusion
+Touchstone is a framework for metrics based promotion of software from one stage to another stage in a software pipeline. By integrating touchstone into the pipelines, product teams can identify issues that cannot be identified by conventional testing (like unit, functional,...) methods and prevents performance degradation and subsequent outages. Prevention is better than cure.
+
+**Speaker:**
+Speaker 66

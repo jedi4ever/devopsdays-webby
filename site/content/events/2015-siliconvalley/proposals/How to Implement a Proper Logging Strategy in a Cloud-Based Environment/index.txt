@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 50
+title: "How to Build an Infinitely-Scalable ELK Stack on AWS"
+---
+
+**Abstract:**
+
+When migrating to the cloud, many companies realize that before the migration, they had only a few servers that they needed to access to search through the logs. But after the migration, they see that their environment is now changing every minute. As a result, it is impossible to troubleshoot events and issues in log files. The solution is to execute a new, centralized logging strategy that encompasses all levels of applications, networks, and servers to monitor the new environment properly. In this session, we will show DevOps engineers and system administrators how to do this effectively.
+
+**Speaker:**
+Speaker 50

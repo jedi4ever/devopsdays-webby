@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 57
+title: "DevOps Army of One - How To Survive When You're The SPoF"
+---
+
+**Abstract:**
+
+Despite the best of intentions, we sometimes find ourselves working on a team of size one. Groups shrink for many reasons: attrition, mergers and acquisitions, transfers, and financial distress. It's never comfortable being a Single Point of Failure, but how can you survive this state of non-redundancy? Are there any benefits to being a team of "me, myself, and I", or is it all a pit of despair? What kind of red flags should you be on the lookout for? And, most importantly, what compelling leverage can you try to use to encourage team growth back to a reasonable size?
+
+In this talk, I will share a series of unfortunate events that led to my current status: the Human SPoF; I will also discuss some of the tactics I've used to survive. Automation, tools, and code-as-infrastructure are a force multiplier applied correctly, allowing one engineer to do the work of many. However, these wonders come with a price tag. I will also share strategies to grow a team, and ways to maintain sanity while keeping the lights blinking and the disks spinning in a 24x7 real-time environment with over 2000 servers.
+
+**Speaker:**
+Speaker 57

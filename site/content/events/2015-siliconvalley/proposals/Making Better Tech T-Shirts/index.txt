@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 50
+title: "Making Better Tech T-Shirts"
+---
+
+**Abstract:**
+
+Everyone in tech loves T-shirts! After all, an April Fool’s Day post on Tumblr by The Halting Problem contained this headline: “Study Reveals Average Tech Worker’s Wardrobe Consists of 85% Free Tech T-shirts.”
+
+In this short, funny talk, we will go into everything that people in tech need to know about T-shirts -- but hopefully not too much!
+
+Why people in tech love T-shirts
+How T-shirts can be used by conferences, sponsors, speakers, and attendees
+How to design T-shirts for conferences that people will actually wear
+
+**Speaker:**
+Speaker 50

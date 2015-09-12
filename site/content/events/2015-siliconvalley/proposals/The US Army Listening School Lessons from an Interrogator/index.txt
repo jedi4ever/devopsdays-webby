@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 74
+title: "The U.S. Army Listening School: Lessons from an Interrogator"
+---
+
+**Abstract:**
+
+The U.S. Army Listening School: Lessons from an Interrogator
+
+**Speaker:**
+Speaker 74
