@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 63
+title: "HomeOps - Practical DevOps at Home"
+---
+
+**Abstract:**
+You all can Pick (Presentation or Ignite)
+
+Background: I did a specific version of this as an Ignite at DoD Chicago on just LaundryOps (One load per day as a metaphor for CI/CD).  It was really popular and ignited an open space. I am working on extending the metaphor for DoD SV.
+
+Note: My family does _all_ of these things for real in our home.  This is a thought-experiment that spilled in to the real world.
+
+My wife and kids asked me what DevOps is. Explaining it in terms of a software context was just not viable. They have not lived through 2 day releases or more break-fix work than time in a day. So, I got my wife to agree to a load of laundry per day and all three (wife and sons) got it.  Interestingly friends get it too.
+
+So, I have been extending the metaphor:
+
+* SuckOps - As a metaphor for automation tooling we had Santa bring us a Roomba.  In our quest to maximize family time and minimize some allergy issues, automating vacuuming has been a very big win.
+* Family Kanban - Coach a First Lego League of 10 year olds, I introduced them to a Kanban board to help them describe, organizing and execute work.  The kids really got it.  Moreover they decided to do their presentation portion (Theme was improving how people learn) on using Kanban.  They actually used a Kanban board to organize the presentation in front of the judges and taught them how to use Kanban by moving their queue cards as tasks. They even staged one card moving backwards in the process.
+* PaintOps - We painted the interior of our house in time based increments over the course of several months. It was highly successful for _us_ but will not work for some.  This metaphor is very similar to Laundry (above), however it breaks down faster due to the discrete nature of tasks and the classic "definite end."  In that way it is fun to discuss it in terms of how CI/CD processes can break down and how to recognize when this is happening.
+
+The above is the full presentation.  If you would like me to do it as a lightening talk, I will probably pick two of these and reference the others to ignite an open space.
+
+**Speaker:**
+Speaker 63

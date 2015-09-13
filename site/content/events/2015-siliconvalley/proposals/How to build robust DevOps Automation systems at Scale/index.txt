@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 54
+title: "How to build robust DevOps Automation systems at Scale"
+---
+
+**Abstract:**
+
+Keeping your systems available 24X7 is hard! This is even more true at scale where failures (and correlated failures) are just expected on a hourly or daily basis. The challenge is that your automation tool needs to be at least an order of magnitude more available and reliable than your typical app since your tool only kicks in when the rest of your apps and infrastructure are falling apart or experiencing outages.
+
+This talk presents insights and best practices about how you go about building fault-tolerant and highly scalable alert automation system. DevOps teams often underestimate the consequences and outages that could result in simply deploying custom one-off scripts or un-scalable automation solutions.
+
+Specifically, I’d like to focus on:
+
+- why DevOps alert automation is important
+
+- first-hand learnings from architecting and building a scalable automation tool that handled various failures for thousands of servers for AWS
+
+- what kind of alerts you should (not) automate
+
+- how to enforce consistency and accuracy in your automation
+
+- interesting patterns and anti-patterns through learnings from 100+ ops teams
+
+**Speaker:**
+Speaker 54

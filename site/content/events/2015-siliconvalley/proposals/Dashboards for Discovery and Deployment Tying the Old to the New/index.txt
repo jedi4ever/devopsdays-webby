@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 73
+title: "Dashboards for Discovery and Deployment: Tying the Old to the New"
+---
+
+**Abstract:**
+
+Service discovery: It's an old problem, and it's still a royal pain!
+
+Where is my app running? If I add more compute power, will I have to manually reconfigure my cluster? How do I know my cluster is doing the right thing or running the correct version of its code? What about versions of configuration data?
+
+Systems like Apache Mesos and Airbnb's SmartStack are really good at automating parts of our daily operations: they help $company scale to many thousands of servers and hundreds of services. However, humans still want to watch dashboards, and they want to see them in real time! As we progress toward automating these processes, a script to query "web1" just doesn't cut it anymore.
+
+At $company, our SOA has grown so large that, until recently, we couldn't answer these questions at a glance. I reimplemented our service monitoring dashboard to use SmartStack, to address hundreds of services concurrently, to pull in data from our deployment tools, and to be much easier to use. This talk touches on our internal platform as a service (PaaS), cross-datacenter ZooKeeper infrastructure, legacy deployment processes, and some of the challenges I faced while writing a Python web application to tie it all together.
+
+**Speaker:**
+Speaker 73

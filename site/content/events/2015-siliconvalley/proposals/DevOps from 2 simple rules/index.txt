@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 52
+title: "DevOps from 2 simple rules"
+---
+
+**Abstract:**
+
+The contention is that there are 2 simple rules to drive DevOps adoption across any given engineering organization.  A bunch of work comes from these 2 rules, but the basic adoption of these rules is the founding of any adoption of DevOps mentality. Complete with real world example!
+
+**Speaker:**
+Speaker 52

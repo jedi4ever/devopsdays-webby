@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 50
+title: "How to Use Kibana 4 for Log Analysis"
+---
+
+**Abstract:**
+
+In this session, we will explore the value of Kibana 4 for log analysis and will give a real live, hands-on tutorial on how to set up Kibana 4 and get the most out of Apache log files. We will examine three use cases: IT operations, business intelligence, and security and compliance. This is a hands-on session which will require participants to bring their own laptops, and we will provide the rest.
+**Speaker:**
+Speaker 50

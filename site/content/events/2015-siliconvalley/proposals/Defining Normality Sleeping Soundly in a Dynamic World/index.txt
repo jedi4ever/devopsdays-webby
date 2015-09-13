@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 75
+title: "Defining Normality: Sleeping Soundly in a Dynamic World"
+---
+
+**Abstract:**
+
+You want to know when something unexpected is happening in your infrastructure. That’s why you monitor anything that moves, right? So you set thresholds and sleep soundly knowing that you’ll be alerted whenever those thresholds are crossed.  And yet no matter what threshold you set, you seem to either miss incidents, or have sleepless nights and page fatigue.
+The reality is that for many metrics it is non-trivial to define ahead of time what constitutes “normal” versus “abnormal” values, and often normal changes over time.
+So why not let computers do what they do best and detect these patterns for you? You deserve monitoring systems that are as dynamic as your infrastructure!  Join us as we take a whirlwind tour through anomaly detection algorithms you that can apply to help define normal, even if normal is always changing.
+
+**Speaker:**
+Speaker 75

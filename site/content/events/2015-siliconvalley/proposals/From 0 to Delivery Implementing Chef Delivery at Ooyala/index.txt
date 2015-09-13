@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 52
+title: "From 0 to Delivery :: Implementing Chef Delivery at Ooyala"
+---
+
+**Abstract:**
+
+This talk will show how we are currently implementing Chef Delivery at Ooyala.  We are in the process of moving an entire Enterprise model to Continuous Delivery and we will cover the following aspects:
+	DevOps Culture is not a bolt-on
+	Lessons learned in convincing your team that Continuous Delivery is the way forward
+	Technical lessons learned in using Chef Delivery’s default model
+	Chef Delivery features that were driven by this partnership
+	The current state of play
+	The future of Continuous Delivery at Ooyala
+  
+**Speaker:**
+Speaker 52
