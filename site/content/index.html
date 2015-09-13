@@ -116,20 +116,6 @@ var telavivmarker = new MarkerWithLabel({
 
 google.maps.event.addListener(telavivmarker, "click", function (e) { location.href="/events/2015-telaviv/"});
 
-var bangalorelocation = new google.maps.LatLng(13.0, 77.6);
-var bangaloremarker = new MarkerWithLabel({
-  position: bangalorelocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Bangalore<br>Sep 12 & 13",
-  labelAnchor: new google.maps.Point(50, 25),
-  labelClass: "labels",
-  labelStyle: { opacity: 1 }
-});
-
-google.maps.event.addListener(bangaloremarker, "click", function (e) { location.href="/events/2015-bangalore/"});
-
 var bostonlocation = new google.maps.LatLng(42.361369, -71.081355);
 var bostonmarker = new MarkerWithLabel({
   position: bostonlocation,
