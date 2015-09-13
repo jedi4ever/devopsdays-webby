@@ -14,7 +14,7 @@ title: "Where are my services?"
 
 **Abstract:**
 
-YService discovery is the glue that ties together any large scale Service Oriented Architecture, yet the tradeoffs between the various approaches have received relatively little attention.
+Service discovery is the glue that ties together any large scale Service Oriented Architecture, yet the tradeoffs between the various approaches have received relatively little attention.
 
 Here at .... we've built a service discovery using SmartStack, Apache ZooKeeper and HAProxy.  We'll describe some of the lessons that we've learned during the process.  Specific topics include:
 

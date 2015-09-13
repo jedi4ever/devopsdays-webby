@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: false
-ignite: true
+talk: true
+ignite: false
 selected: false
 author: Speaker 60
 title: "Borrowing from Aviation Engineering: Using Apache Flume and Apache Kafka for redundant minimal-data loss messaging systems."

@@ -16,9 +16,5 @@ title: "The Power of a Positive Community"
 
 Attitude is contagious, both positive and negative.  As a community we can affect change by embracing a positive attitude and choosing support one another through positive words and actions.
 
-Abstract:
-
-This talk will follow-up on the “Embracing My Sparkle” at Velocity, by discussing how “We” as a community embrace the qualities of a DevOps Princess (see Velocity Ignite) to encourage and support others and that in doing so we foster open communities where individuals can grow as well as mentor others and in that “We All” create the right culture to attract, keep and maintain the right talent to our respective organizations.  In addition to creating the right culture, attitude is contagious and by making the choice to be positive “we” can affect change without even knowing it. One voice alone can be powerful enough to affect change, by adding as many positive voices from the community as possible we can all empower others to be more confident, not only at work but in everyday life.  The positive outpouring from the community at Velocity is what helped me to face six weeks of chemotherapy treatments, to continue to learn technology and to feel confident that I can accomplish any goal.
-
 **Speaker:**
 Speaker 69
