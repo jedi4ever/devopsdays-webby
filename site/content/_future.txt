@@ -3,15 +3,15 @@
     <tr>
       <td>
         <strong>2015</strong><br/>
-        <a href="/events/2015-boston/">Boston - September 2015</a><br/>
-        <a href="/events/2015-telaviv/">Tel Aviv - October 2015</a><br/>
-        <a href="/events/2015-singapore/">Singapore - October 2015</a><br/>
-        <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
-        <a href="/events/2015-charlotte">Charlotte - Nov 2015</a><br/>
-        <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
-        <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
-        <a href="/events/2015-ohio/">Ohio - Nov 2015</a><br/>
-        <a href="/events/2015-warsaw/">Warsaw - Nov 2015</a><br/>
+        <a href="/events/2015-boston/">Boston - Sep 15 & 16</a><br/>
+        <a href="/events/2015-telaviv/">Tel Aviv - Oct 7 & 8</a><br/>
+        <a href="/events/2015-singapore/">Singapore - Oct 16 & 17</a><br/>
+        <a href="/events/2015-berlin/">Berlin - Oct 26 & 27</a><br/>
+        <a href="/events/2015-charlotte">Charlotte - Nov 2 & 3</a><br/>
+        <a href="/events/2015-siliconvalley">Silicon Valley - Nov 6 & 7</a><br/>
+        <a href="/events/2015-detroit">Detroit - Nov 11 & 12</a><br/>
+        <a href="/events/2015-ohio/">Ohio - Nov 18 & 19</a><br/>
+        <a href="/events/2015-warsaw/">Warsaw - Nov 24 & 25</a><br/>
         <br/><strong>2016</strong><br/>
         <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
         <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
