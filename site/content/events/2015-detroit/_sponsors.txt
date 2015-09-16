@@ -11,9 +11,10 @@ end
 %>
 
 <% @gsponsors = [
-{ :image => "rbn_logo_orange_100x100.png", :name => "Right Brain Networks", :link => "http://www.rightbrainnetworks.com"},
+{ :image => "rbn_logo_orange_100x100.png", :name => "Right Brain Networks", :link => "http://www.rightbrainnetworks.com/"},
 { :image => "pivotal.png", :name => "Pivotal", :link => "http://pivotal.io/"},
-{ :image => "sumologic.jpg", :name => "Sumo Logic", :link =>"http://www.sumologic.com/"}
+{ :image => "sumologic.jpg", :name => "Sumo Logic", :link =>"http://www.sumologic.com/"},
+{ :image => "victorops.png", :name => "VictorOps", :link=>"https://victorops.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
