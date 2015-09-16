@@ -45,6 +45,7 @@ end
 
 <% @ssponsors = [
  { :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com', :width => '100px', :height => '100px' },
+ { :image => 'sendgrid.png', :name => 'Sendgrid', :link => 'http://www.sendgrid.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
