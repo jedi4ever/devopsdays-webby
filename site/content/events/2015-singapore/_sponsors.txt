@@ -54,12 +54,6 @@ end
     :name => "ca",
     :link => "http://www.ca.com/",
     :style => "padding: 20px 0;"
-  },
-  {
-    :image => "redhat.png",
-    :name => "Red Hat",
-    :link => "http://www.redhat.com/",
-    :style => "padding: 0 0 20px 0;"
   }
 ]%>
 <%= make_sponsor_links(@sponsors) %>
@@ -82,6 +76,12 @@ end
     :name => "Xebia",
     :link => "http://xebia.com/",
     :style => "padding: 30px 5px;"
+  },
+  {
+    :image => "redhat.png",
+    :name => "Red Hat",
+    :link => "http://www.redhat.com/",
+    :style => "padding: 0 0 20px 0;"
   }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
