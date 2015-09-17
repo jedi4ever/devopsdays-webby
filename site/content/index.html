@@ -116,20 +116,6 @@ var telavivmarker = new MarkerWithLabel({
 
 google.maps.event.addListener(telavivmarker, "click", function (e) { location.href="/events/2015-telaviv/"});
 
-var bostonlocation = new google.maps.LatLng(42.361369, -71.081355);
-var bostonmarker = new MarkerWithLabel({
-  position: bostonlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Boston<br>Sep 15 & 16",
-  labelAnchor: new google.maps.Point(0, 50),
-  labelClass: "labels",
-  labelStyle: { opacity: 1 }
-});
-
-google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2015-boston/"});
-
 var detroitlocation = new google.maps.LatLng(42.3595788,-83.0706835);
 var detroitmarker = new MarkerWithLabel({
   position: detroitlocation,
