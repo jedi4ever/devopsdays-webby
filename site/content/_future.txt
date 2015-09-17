@@ -13,6 +13,7 @@
         <a href="/events/2015-ohio/">Ohio - Nov 18 & 19</a><br/>
         <a href="/events/2015-warsaw/">Warsaw - Nov 24 & 25</a><br/>
         <br/><strong>2016</strong><br/>
+        <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21 2016</a><br/>
         <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
         <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
       </td>
