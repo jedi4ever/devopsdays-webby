@@ -86,8 +86,12 @@ end
   {
     :image => "redhat.png",
     :name => "Red Hat",
-    :link => "http://www.redhat.com/",
-    :style => "padding: 0 0 20px 0;"
+    :link => "http://www.redhat.com/"
+  },
+  {
+    :image => "paypal.png",
+    :name => "Paypal",
+    :link => "https://www.paypal.com/"
   }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
