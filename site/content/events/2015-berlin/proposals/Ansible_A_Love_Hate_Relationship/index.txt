@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 selected: false
-author: Sveinung Dalatung
+author: Sveinung Dalatun
 title: "Ansible: A Love–Hate Relationship"
 ---
 
@@ -29,7 +29,6 @@ We don't have all the answers, but we are happy with most of what we've
 done so far. We'll rant, uhm, share our experiences with Ansible and how it
 has helped us along the way (and sometimes blocked us).
 
-
 **Speaker:**
-Sveinung Dalatung
+Sveinung Dalatun
 
