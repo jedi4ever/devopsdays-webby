@@ -20,16 +20,18 @@ you'll probably need some. With many people still looking for a *silver
 bullet* regarding DevOps, this talk covers the different kind of tooling
 that is available for DevOps and focuses on bad practices and good
 practices on using these tools.
-Schedule:
-1. The tooling isn't your biggest problem!
-2. Doing Agile
-3. Continuous Integration
-4. Automated Provisioning
-5. Automated Deployments
-6. Automated Testing
-7. Orchestration
-8. And monitoring, security, ...
 
+Schedule:
+<ol>
+<li>The tooling isn't your biggest problem!
+<li>Doing Agile
+<li>Continuous Integration
+<li>Automated Provisioning
+<li>Automated Deployments
+<li>Automated Testing
+<li>Orchestration
+<li>And monitoring, security, ...
+</ol>
 **Speaker:**
 Joris De Winne
 
