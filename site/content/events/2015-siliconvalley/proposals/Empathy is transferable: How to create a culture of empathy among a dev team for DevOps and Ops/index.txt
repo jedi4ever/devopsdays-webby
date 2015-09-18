@@ -9,7 +9,7 @@ talk: true
 ignite: false
 selected: false
 author: Speaker 51
-title: "title: "Empathy is transferable: How to create a culture of empathy among a dev team for DevOps and Ops"
+title: "Empathy is transferable: How to create a culture of empathy among a dev team for DevOps and Ops"
 ---
 
 **Abstract:**
