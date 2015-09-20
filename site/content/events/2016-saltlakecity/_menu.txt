@@ -10,7 +10,7 @@ filter:    erb
 <a href="/<%= @eventhome %>/propose/">propose</a>&nbsp;
 <a href="/<%= @eventhome %>/proposals/">proposals</a>&nbsp;
     <!-- <a href="/<%= @eventhome %>/program/">program</a>&nbsp; -->
-    <!-- <a href="/<%= @eventhome %>/registration/">registration</a>&nbsp; -->
+<a href="/<%= @eventhome %>/registration/">registration</a>&nbsp;
 <a href="/<%= @eventhome %>/conduct">conduct</a>&nbsp;
 </h3>
 </div>
