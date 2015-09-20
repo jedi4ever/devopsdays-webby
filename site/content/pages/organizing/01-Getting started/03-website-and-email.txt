@@ -12,7 +12,8 @@ We prefer the city name for the actual email and site. Wider regional terms are 
 The other thing you'll want to do as soon as possible is get your event listed on the website by submitting a pull request to [https://github.com/jedi4ever/devopsdays-webby](https://github.com/jedi4ever/devopsdays-webby). The simplest way to do this:
 
 - [set up webby](https://github.com/jedi4ever/devopsdays-webby/blob/master/README.md)
-- clone [https://github.com/jedi4ever/devopsdays-webby](https://github.com/jedi4ever/devopsdays-webby)
+- fork [https://github.com/jedi4ever/devopsdays-webby](https://github.com/jedi4ever/devopsdays-webby)
+- clone your fork 
 - start from [the current year's template](https://github.com/jedi4ever/devopsdays-webby/tree/master/site/content/events/2016-template) and create your own city's page.
 - it's fine if you just list the organizers, the city, and say "coming soon". You don't have to have the date & venue set or open registration & the CFP right away.
 - add your event to the ["Future" list](https://github.com/jedi4ever/devopsdays-webby/blob/master/site/content/_future.txt)
