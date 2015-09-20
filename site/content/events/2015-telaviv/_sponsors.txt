@@ -55,6 +55,7 @@ filter:    erb
     { :image => "rounds.png", :name => "Rounds", :link => "https://www.rounds.com/"},
     { :image => "pagerduty.png", :name => "PagerDuty", :link => "https://www.pagerduty.com/"},
     { :image => "kenshoo.png", :name => "Kenshoo", :link => "http://kenshoo.com/"},
+    { :image => "anodot.png", :name => "Anodot", :link => "http://www.anodot.com/"},
 ]%>
 
 <% unless @silver_sponsors.empty?  %><h1>Silver Sponsors</h1><% end %>
