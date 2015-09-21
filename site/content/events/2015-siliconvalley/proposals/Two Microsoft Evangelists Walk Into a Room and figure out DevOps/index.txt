@@ -14,7 +14,7 @@ title: "Two Microsoft Evangelists Walk Into a Room… and figure out DevOps?"
 
 **Abstract:**
 
-Amazon Web Services provides the opportunity for a high degree of automation, making it an ideal platform for implementing DevOps practices. We’ll demonstrate how we implement true DevOps on the AWS platform using AWS CloudFormation, Python boto library, AWS Command Line Interface (CLI) and Fluxboard (a customized Jenkins IT process solution). We will provide an example setup for a standard application and share best practices from the 100+ implementations Flux7 has been a part of.
+DevOps is still pretty new to the technology world and Microsoft has come a long way, but still has a lot to learn. See what happens when a developer and sysadmin come together to try to figure it all out.
 
 **Speaker:**
 Speaker 68

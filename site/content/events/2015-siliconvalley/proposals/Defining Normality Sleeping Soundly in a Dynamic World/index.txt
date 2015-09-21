@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-ignite: false
+talk: false
+ignite: true
 selected: false
 author: Speaker 75
 title: "Defining Normality: Sleeping Soundly in a Dynamic World"
