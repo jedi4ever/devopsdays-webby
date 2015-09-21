@@ -1,0 +1,35 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: true
+ignite: false
+selected: true
+author: Jason K Jackson
+talk_title: The Paradox of Progress
+
+---
+
+# The Paradox of Progress
+
+## Abstract
+
+My first exposure to a DevOps Days was in 2010. I was an early adopter of most of the tools, took part in the heated iClassify debate, was contributing to Chef before it had a name, back when it was still a pet project at HJK Solutions.. As things evolved, we tried the offshoots that we hoped would fill the gaps.. MCollective, opscode-agent, but really we were just trading one problem for another..
+
+DevOps Days was started in this gap, and over the years I have seen more and more vendor and product encroachment, and fewer people (especially outside of SF) who grasp the roots and the spirit out of which this event was born.
+
+I will be talking about the original spirit of DevOps Days, which i feel started in 1942, and has mutated into a flavor specific to our modern world. I will not be discussing any vendor products, and this is not a sales pitch for anything.
+
+
+## Speaker
+Jason K Jason, Pivotal
+
+## Bio
+
+Jason K Jackson is the CTO and Director of Advanced Field Engineering for Pivotal in APJ, where he is responsible for helping the region’s most strategic customers successfully implement technology and process for cloud and “3rd Platform” services. Previously, he was the Director of Cloud Services APAC for Citrix, and was instrumental in the success of every large cloud deployment in APAC. Jason originally relocated to Asia when working with Cloudscaling, an early OpenStack startup company located in San Francisco (recently acquired by EMC), where he was key to the successful implementation of uCloud, of Korea Telecom, which at that time was one of the largest public clouds in Asia.
