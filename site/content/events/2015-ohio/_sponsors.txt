@@ -15,7 +15,9 @@ end
  { :image => "sumologic.png", :name => "sumologic", :link => "https://www.sumologic.com/"},
  { :image => "scrumorg.png", :name => "scrumorg", :link => "https://www.scrum.org/"},
  { :image => "newrelic.png", :name => "newrelic", :link => "http://newrelic.com/"},
- { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"}
+ { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"},
+ { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"},
+ { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -49,7 +51,8 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
- { :image => "bit.png", :name => "BIT", :link => "https://www.blacksintechnology.net/"}
+ { :image => "bit.png", :name => "BIT", :link => "https://www.blacksintechnology.net/"},
+ { :image => "oreilly.png", :name => "oreilly", :link => "http://www.oreilly.com/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
