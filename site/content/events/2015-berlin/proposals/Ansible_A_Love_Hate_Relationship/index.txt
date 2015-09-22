@@ -30,5 +30,5 @@ done so far. We'll rant, uhm, share our experiences with Ansible and how it
 has helped us along the way (and sometimes blocked us).
 
 **Speaker:**
-Sveinung Dalatun
+Sveinung Dalatun, Kjetil Valle
 
