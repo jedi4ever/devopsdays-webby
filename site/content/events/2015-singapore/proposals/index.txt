@@ -53,7 +53,7 @@ This page lists the proposals we have received. Help the presenters with your fe
 <%
   proposals = @pages.find(
     :all,
-    in_directory => parent,
+    :in_directory => parent,
     :recursive => true,
     :sort_by => "title",
     :reverse => false,
