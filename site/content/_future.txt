@@ -21,6 +21,7 @@
       <a href="/events/2015-warsaw/">Warsaw - Nov 2015</a><br/>
       <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
       <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
+      <a href="/events/2016-london/">London - 2016</a><br/>
 </div>
   </tr>
 
