@@ -10,7 +10,9 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@page.directory) %>
 
-You can contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+You can contact us by email at <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>.
+
+<a href="https://twitter.com/devopsdaysSG">Follow us on Twitter</a> for updates.
 
 ## Our team
 
