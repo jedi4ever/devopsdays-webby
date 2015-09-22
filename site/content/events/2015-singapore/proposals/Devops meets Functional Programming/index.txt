@@ -1,0 +1,46 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: true
+ignite: false
+selected: true
+author: Vladimir Kirillov
+talk_title: Devops meets Functional Programming
+
+---
+
+# Devops meets Functional Programming
+
+## Abstract
+
+This is a story of an Infrastructure team at Zalora that implemented DevOps using Haskell and Nix.
+
+The story is about:
+
+- drowning in inherent complexity of existing Puppet configuration
+- establishing a functional programming community inside the company
+- implementing configuration management using purely-functional language and package manager Nix and using NixOS as the base OS
+- challenges of using new tools at scale
+- building cloud infrastructure tools using Haskell
+- building a code-driven deployment platform borrowing design practices from Erlang/OTP, Mesos and other successful distributed system frameworks, accommodating engineering team growth
+- overcoming adoption failures and finally reaching operational happiness
+
+## Speaker
+Vladimir Kirillov, zalora.com
+
+## Bio
+
+Vlad is a young hacker who has been developing CDN software in dynamic
+and weak languages, shifted towards cloud-native applications using
+Erlang on Xen and Unikernels and is now building infrastructure and
+platform software using Haskell at Zalora.
+
+- [https://speakerdeck.com/proger](https://speakerdeck.com/proger)
+- [https://github.com/proger](https://github.com/proger)
