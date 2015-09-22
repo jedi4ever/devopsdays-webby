@@ -13,35 +13,56 @@ This page lists the proposals we have received. Help the presenters with your fe
 <h2>Keynotes</h2>
 <ol>
 <%
-  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => false, :keynote => true)
-  articles.delete(@page)
-  articles.each do |page|
+  proposals = @pages.find(
+    :all,
+    :in_directory => parent,
+    :recursive => true,
+    :sort_by => "title",
+    :reverse => false,
+    :keynote => true
+  )
+  proposals.delete(@page)
+  proposals.each do |proposal|
 -%>
-<li><%= link_to(page.talk_title, page) %> - <%= page.author %>
+<li><%= link_to(proposal.talk_title, proposal) %> - <%= proposal.author %>
 <% end -%>
+<% if proposals.size == 0 %>Coming soon!<% end %>
 </ol>
 
 <h2>Conference Talks</h2>
 <ol>
 <%
-  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => false, :talk => true)
-  articles.delete(@page)
-  articles.each do |page|
+  proposals = @pages.find(
+    :all,
+    :in_directory => parent,
+    :recursive => true,
+    :sort_by => "title",
+    :reverse => false,
+    :talk => true
+  )
+  proposals.delete(@page)
+  proposals.each do |proposal|
 -%>
-<li><%= link_to(page.talk_title, page) %> - <%= page.author %>
+<li><%= link_to(proposal.talk_title, proposal) %> - <%= proposal.author %>
 <% end -%>
+<% if proposals.size == 0 %>Coming soon!<% end %>
 </ol>
 
 <h2>Ignite Talks</h2>
 <ol>
 <%
-  ignites = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => false, :ignite => true)
-  ignites.delete(@page)
-  ignites.each do |ignite|
+  proposals = @pages.find(
+    :all,
+    in_directory => parent,
+    :recursive => true,
+    :sort_by => "title",
+    :reverse => false,
+    :ignite => true
+  )
+  proposals.delete(@page)
+  proposals.each do |proposal|
 -%>
-<li><%= link_to(ignite.talk_title, page) %> - <%= ignite.author %>
+<li><%= link_to(proposal.talk_title, proposal) %> - <%= proposal.author %>
 <% end -%>
+<% if proposals.size == 0 %>Coming soon!<% end %>
 </ol>
