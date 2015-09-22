@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 56
+title: "DevOps from Laptop to Production and everything in between"
+---
+
+**Abstract:**
+
+Niche.co has created a discrete portable stack using Docker, Rancher, Convoy, and Vault. We use the full stack, including all the deployment tools, for developing locally and that same stack and toolset is deployed for testing and QA and ultimately deployed to production. Its immutable infrastructure on steroids. This automation is used to automatically create entire stacks on AWS with a full copy of the data for each individual GitHub pull request so that testing new features are ready at individual endpoints (ie: pr1234.niche.co for pull request #1234). We also use a unique environment injection system using Vault at container runtime so that the same container can be used for each environment and only a single environment variable for APP_ENV needs to be passed at runtime.
+
+For this presentation, I will deconstruct the process and architecture of this unique tooling. We will walk through how the different moving parts work and also cover the challenges of automating a discrete, portable, immutable, full stack of docker containers for production as well as how we overcame these challenges. I will also share next steps and plans for how we are going to make this system even more portable and reduce the iteration time for development and operations.
+
+**Speaker:**
+Speaker 56

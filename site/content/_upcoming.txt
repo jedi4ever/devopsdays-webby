@@ -1,27 +1,7 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-pittsburgh/">
-      Pittsburgh
-    </a>
-    -
-    <a href="/events/2015-chicago/">
-      Chicago
-    </a>
-    -
-    <a href="/events/2015-bangalore">
-      Bangalore
-    </a>
-    -
-    <a href="/events/2015-boston">
-      Boston
-    </a>
-    -
     <a href="/events/2015-telaviv">
       Tel Aviv
-    </a>
-    <br>
-    <a href="/events/2015-perth">
-      Perth
     </a>
     -
     <a href="/events/2015-singapore">

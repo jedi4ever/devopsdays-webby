@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 32
+title: "#hugops in Practice: Operationalizing Empathy"
+---
+
+**Abstract:**
+
+We often say that “DevOps is about empathy,” and we like how we’re breaking down silos and generating all the warm fuzzies, but what does it actually mean to be empathetic? If you’re trying to drive empathy in your organization, how do you know when you’ve succeeded? We’ll look at exactly what empathy looks like in practice, as well as specific tactics and strategies teams can use to promote empathy and inclusivity within our organization.
+
+Details:
+
+- Communication frameworks and strategies: non-violent communication, hostage negotiator strategies, defusing charged situations. What are the specific skills and tactics used by masters of high-stress situations to calm people and get them on the same page?
+- Turning directional conflicts into approach conflicts: getting departments to create common goals so that the scope of disagreements changes from what's important to the simpler question ofhow to get there.
+- Tricks and tactics for relationship-building: team-building activities that don't feel silly and stupid, how to handle distributed teams, and being inclusive of differing genders / orientations / family statuses.
+
+Why me? Why this talk?
+
+The message of "DevOps" as empathy continues to sweep the community, but I worry that we sometimes practice empathy when it's easy. Real empathy means being empathetic even in trying or conflict-ful situations, and even when those we're trying to work with are very different than ourselves.
+
+As a product manager, a support specialist, ...., I've managed heavy interpersonal conflict across work, departmental, and class and race lines, and developed strong skills in defusing hot situations and helping different parties come to understand and see each others' perspective. I'm passionate about helping operations, developers, and every other department in a company realize that everybody is on the same team, working toward a common good.
+**Speaker:**
+Speaker 32

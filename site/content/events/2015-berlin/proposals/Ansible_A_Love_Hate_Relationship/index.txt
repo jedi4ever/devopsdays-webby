@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Sveinung Dalatun
+title: "Ansible: A Love–Hate Relationship"
+---
+
+**Abstract:**
+
+JavaZone is one of the biggest IT conferences in Norway. The last couple of
+years we have been moving our applications into the cloud. By pushing a few
+buttons we can now bring up a brand spanking new server ready to host the
+systems JavaZone depends on.
+
+We will talk about how Ansible has helped us and some of the problems we
+faced along the way. Such as "How do we separate data from logic?", "Where
+do we draw the line between deployment and provisioning?" and "Is there
+really a line?". How is Ansible compared to other frameworks? What should
+you know before you start using Ansible?
+
+We don't have all the answers, but we are happy with most of what we've
+done so far. We'll rant, uhm, share our experiences with Ansible and how it
+has helped us along the way (and sometimes blocked us).
+
+**Speaker:**
+Sveinung Dalatun
+

@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 30
+title: "How to handle incidents, downtime and outages"
+---
+
+**Abstract:**
+
+100% uptime is impossible. Modern architectures are
+designed around failure but what does that mean for the human aspect
+of incident management? This talk will consider how to prepare for
+outages, how to structure the response, and how those experiences and
+techniques differ for small and large companies.
+
+Key topics will include:
+
+* On call - rotations, scheduling, systems and policies
+* Preparing for downtime - teams, systems and product architecture
+* Documentation
+* Checklists and playbooks
+* How we actually handle incidents
+* Post mortems
+
+This is a more formal talk based off a discussion session I ran with a
+couple of engineers from Yelp
+
+**Speaker:**
+Speaker 30

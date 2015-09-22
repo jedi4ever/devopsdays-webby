@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 44
+title: "Monitoring 101: A Framework to Get Meaning From Your Metrics"
+---
+
+**Abstract:**
+
+You only need to monitor a few machines and applications before fixing issues in your environment becomes very complicated. Knowing which metrics to watch and how to troubleshoot based on those metrics will help you solve problems much more quickly. In this session we will look at a new framework for your metrics and how to use it to find solutions to the issues that come up. We will cover:
+
+- The three types of monitoring data
+- What data to collect
+- What should trigger an alert (while avoiding an alert storm)
+- How to follow the resources to find the root causes of problems
+
+You will come away from this session with specific strategies you can use today no matter what monitoring platform you are using.
+
+**Speaker:**
+Speaker 44

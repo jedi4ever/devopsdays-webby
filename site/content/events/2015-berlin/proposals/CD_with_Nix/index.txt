@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Rok Garbas
+title: "Continuous Development with Nix"
+---
+
+**Abstract:**
+
+Continuous development is an umbrella term for several iterable development
+cycles, including continuous integration, continuous delivery, continuous
+testing and continuous deployment.
+
+Nix is a powerful package manager for Linux and other Unix systems that
+makes package management reliable and reproducible. It provides atomic upgrades
+and rollbacks, side-by-side installation of multiple versions of a package,
+multi-user package management and easy setup of build environments.
+
+Why would somebody even touch package management in 2015? Current package
+management never fails us, right? What does package management has to do with
+Continuous development?
+
+Any successful project at one point will have to be shared or redistributed,
+most likely to paying customers. Current tools at our disposal make this very
+expensive, if not altogether impossible.
+
+What I would like to show (and hopefully convince you) is that not only
+packaging is possible in small teams (startups), but is actually one of the
+points where whole development process can be optimized.
+
+**Speaker:**
+Rok Garbas
+

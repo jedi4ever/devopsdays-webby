@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 32
+title: "Join the Dark Side: Why we need more DevOps in Product"
+---
+
+**Abstract:**
+
+Good product management works as a multiplier on customer value, engineering efficiency, and everybody’s happiness...and bad product management destroys teams and companies. But product management isn’t magic, and it’s not something you’re born with— it’s a specific set of learnable skills, and in fact, skills that you’ve already built up quite a bit as a devops engineer. Learn what life looks like in product-land, how #devops and product management intersect, and if you so choose, how to make it as a product manager.
+
+Details:
+Product management isn’t a thing you are, it’s a thing you do— prioritizing a backlog, selling the vision, keeping stakeholders up-to-date, and filling in the cracks to get stuff shipped. Oh, and saying “no a lot.” It’s not important that the product management be done by somebody with “product manager” in their title, but it’s important to know how the work will get done.
+Good product management takes collaboration, empathy (for the user and the team), systems thinking, and relentless optimism….sound familiar? Many of the skillsets that drive success in devops also support great product management.
+Caveats and failure cases — substituting your viewpoints for those of the user, putting too much ego into the work, not budgeting enough time, poor expectation-setting.
+
+Speaker 32

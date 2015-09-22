@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Victor Volle
+title: "Multi-Stage Provisioning with Ansible"
+---
+
+**Abstract:**
+
+How to configure your server landscape is always difficult. You have servers of
+different kinds, like web servers and database servers on the one hand and you
+have different stages, like "development" and "production" on the other. Puppet,
+Chef and Ansible simplify such configuration, but you really need a clear model
+of what you want to achieve and how to map that to the capabilities of your
+toolbox. Ansible is easy to learn and your playbooks can become powerful very
+fast. But it is not so obvious how to model multiple "stages" with Ansible.
+
+In this talk a very quick overview of Ansible is given and different solutions
+to handle multi-stage provisioning are explained and contrasted with the
+mechanisms of Puppet and Chef. It is not a comparison, in the sense: what is
+best -- but simply a comparison of the models and mechanisms of these tools in
+a certain (important) dimension.
+
+**Speaker:**
+Victor Volle
+

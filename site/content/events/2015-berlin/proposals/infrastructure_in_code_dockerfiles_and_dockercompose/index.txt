@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Chris Ward
+title: "Infrastructure in Code - DockerFiles and Docker Compose"
+---
+
+**Abstract:**
+
+The growth in Virtualisation and Containers is helping us replace a lot of our
+network infrastructure with discrete, ephemeral components and micro-services.
+
+In this presentation I will introduce you to a DockerFile, a way of describing
+an individual container, a set of commands for creating a Container. This will
+specifically cover:
+
+- Finding existing Docker images to use and extending them
+- Triggering commands on a container
+- Setting environment variables
+- Exposing ports that a container may need
+- Copying files to a container
+- Submitting your own images to the Docker hub
+
+I will demonstrate how DockerFiles can be supplemented with Docker Compose to
+create complex, inter-connected application stacks that can be created, deleted
+and updated with simple one-line commands. I will specifically cover:
+
+- Compose equivalents to DockerFile options
+- Linking containers
+- Selecting local or remote images
+
+
+**Speaker:**
+Chris Ward
+

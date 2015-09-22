@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Christoph Hartmann
+title: "DevOps and Security"
+---
+
+**Abstract:**
+
+IT infrastructure is becoming more diverse than ever. Current application
+deployments range from bare-metal installations to cloud environments and
+containers infrastructures. At the same time, companies in competitive markets
+need to ship features and applications faster.
+
+On top of managing the core infrastructure, it is very challenging to manage
+security and compliance baselines. By using DevOps, companies are able to
+incorporate security measures at all stages of development, deployment, and
+operations. New approaches allow us to share the same verification tests across
+all expert groups and to automate security hardening via DevOps. In this talk,
+I will walk you through the steps to increase your security baseline.
+
+**Speaker:**
+Christoph Hartmann
+

@@ -1,5 +1,6 @@
 - Jerry Cattell
 - Brian Devlin
+- Joshua Goldman
 - Michael Lanyon
 - Aaron Lindstrom
 - Chris Read

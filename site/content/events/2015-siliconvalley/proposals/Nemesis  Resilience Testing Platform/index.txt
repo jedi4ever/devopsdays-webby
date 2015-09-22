@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 71
+title: "Nemesis  Resilience Testing Platform"
+---
+
+**Abstract:**
+
+Today’s applications are complex and interdependent systems. Whenever a system upon which your application depends becomes slow, or unavailable, it can cause havoc.
+Nemesis Resilience Testing Platform,  which allows engineers to test their application’s resilience against unexpected downstream/dependent  system failures. With Nemesis you can test your application’s resilience by synthetically introducing error conditions in a programmatic fashion.
+Nemesis aims to solve this problem by allowing users to test their system’s resilience by providing easy-to-use disruptors. A disruptor is something as simple (yet powerful) as additional latency in the response from a dependency. With Nemesis you can introduce arbitrary latency into your system to test how well it behaves under such circumstances.
+Nemesis allows developers to perform disruptive testing under controlled situations and with a wide range of protocols like TCP, HTTP/S, REDIS and MySQL. Nemesis helps you make your application better by allowing you to easily test its robustness.
+
+**Speaker:**
+Speaker 71

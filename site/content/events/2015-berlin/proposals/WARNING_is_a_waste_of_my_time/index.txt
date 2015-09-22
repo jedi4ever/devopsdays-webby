@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Schlomo Schapiro
+title: "WARNING is a waste of my time"
+---
+
+**Abstract:**
+
+How many log levels do you know? How many log levels are actually useful?
+What is the practical difference between WARNING and NOTICE?
+
+I believe that in a world of automation, I need only two log levels:
+
+ERROR and everthing else.
+
+ERROR means that I as a human should take action. Everything else is
+irrelevant for me. All the other log levels are IMHO a remnant of the past
+from the last century. This ignite talk looks at the WARNING problem from
+both a Dev and an Ops perspective in order to find a useful definition for
+the age of automation.
+
+
+**Speaker:**
+Schlomo Schapiro
+

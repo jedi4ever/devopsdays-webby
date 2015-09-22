@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Johan Uhle
+title: "Empowering developers at Mapbox with a DevOps culture"
+---
+
+**Abstract:**
+
+At Mapbox around 60 globally-distributed developers work
+on online and batch applications, running hundreds of instances at
+AWS, answering hundreds of millions of requests and processing
+terabytes of data each day. All developer fully own their software's
+lifecycle. We've developed own tools and processes to aid with
+development and see broad collaboration there. In this talk I will
+explain how we organize our work, which cultural and technical
+decisions we made and what challenges we struggle with. There will be
+no silver bullets, but honest experiences.
+
+**Speaker:**
+Johan Uhle
+

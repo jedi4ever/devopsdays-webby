@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 67
+title: "IT/Process Orchestration with Jenkins"
+---
+
+**Abstract:**
+
+Description: DevOps implementation and strategy has become a primary request from organizations moving to or optimizing cloud infrastructure. We’ve observed several key needs in our DevOps practice and frequently rely on Jenkins as the back end engine to address these needs. Yet, customers needed a more streamlined interface in order to simplify processes and management further. We’ll share our top observations about IT process orchestration needs and demonstrate how we created Fluxboard, a custom DevOps dashboard that both automates some of the most frequently needed tasks and allows the developers to easily perform infrastructure tasks.
+
+**Speaker:**
+Speaker 67

@@ -2,7 +2,7 @@
 filter: erb
 ---
 <% @main_partners = [
-  { :image => 'allegro.png', :name => 'Allegro', :link => 'http://allegro.pl/'},
+  { :image => 'allegrotech.png', :name => 'allegro.tech', :link => 'http://allegro.tech/'},
 ]%>
 
 <h1>Main Partner</h1>
@@ -78,4 +78,4 @@ filter: erb
 
 <% end %>
 
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Be the first to become our parner!</a></i>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/partners') -%>'>Become one!</a></i>

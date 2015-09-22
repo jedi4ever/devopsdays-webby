@@ -5,41 +5,105 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}' target='_blank'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='#{sponsor[:width] || "100px"}' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}' target='_blank'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='#{sponsor[:width] || "100px"}' style='#{sponsor[:style] || ""}' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
 
 <% @sponsors = [
-{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.gopivotal.com/"}
+  {
+    :image => "thoughtworks.png",
+    :name => "ThoughtWorks",
+    :link => "http://www.thoughtworks.com/",
+    :width => "100%"
+  }
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a>
+<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Gold Sponsors</h1>
+
+<% @sponsors = [
+  {
+    :image => "pivotal.png",
+    :name => "Pivotal",
+    :link => "http://www.gopivotal.com/"
+  },
+  {
+    :image => "puppetlabs.png",
+    :name => "Puppetlabs",
+    :link => "http://www.puppetlabs.com/"
+  },
+  {
+    :image => "titansoft.png",
+    :name => "Titansoft",
+    :link => "http://www.titansoft.com/"
+  },
+  {
+    :image => "datarobot.png",
+    :name => "Datarobot",
+    :link => "http://www.datarobot.com/",
+    :style => "padding: 20px 0 0 0;"
+  },
+  {
+    :image => "ca.png",
+    :name => "ca",
+    :link => "http://www.ca.com/",
+    :style => "padding: 20px 0;"
+  },
+  {
+    :image => "forest_tech.png",
+    :name => "Forest Technologies",
+    :link => "http://www.forest-technologies.co.uk/",
+    :style => "padding: 0 0 40px 0;"
+  },
+  {
+    :image => "actifio.jpg",
+    :name => "Actifio",
+    :link => "http://www.actifio.com/",
+    :style => "padding: 20px 0;"
+  }
 ]%>
 <%= make_sponsor_links(@sponsors) %>
 <br />
 <% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
-<% elsif @sponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+<% elsif @sponsors.size < 9 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
 <br/>
 <br/>
 <h1>Silver Sponsors</h1>
 
 <% @sponsors = [
+  {
+    :image => "redmart.png",
+    :name => "RedMart",
+    :link => "https://redmart.com/"
+  },
+  {
+    :image => "xebia.jpg",
+    :name => "Xebia",
+    :link => "http://xebia.com/",
+    :style => "padding: 30px 5px;"
+  },
+  {
+    :image => "redhat.png",
+    :name => "Red Hat",
+    :link => "http://www.redhat.com/"
+  },
+  {
+    :image => "paypal.png",
+    :name => "Paypal",
+    :link => "https://www.paypal.com/"
+  }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
 <% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
 <% elsif @sponsors.size < 4 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Host Sponsors</h1>
-
-<% @sponsors = [
-{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/", :width => "100%"}
-] %>
-<%= make_sponsor_links(@sponsors) %>
-<br />
-<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a>
-<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a><% end %>
 
 <br/>
 <br/>
@@ -68,11 +132,16 @@ end
 <h1>Lanyard Sponsors</h1>
 
 <% @sponsors = [
+{
+  :image => "ca.png",
+  :name => "ca",
+  :link => "http://www.ca.com/"
+}
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
 <% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a>
-<% elsif @sponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a><% end %>
+<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Lanyard Sponsor!</a><% end %>
 
 <br/>
 <br/>

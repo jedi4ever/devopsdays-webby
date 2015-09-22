@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 65
+title: "Introducing the private Container Service: How large organizations are adopting Docker"
+---
+
+**Abstract:**
+
+Containers are all the rage among developers and web companies, but they also represent two very substantial benefits to larger organizations. First, they have the potential to dramatically accelerate the application lifecycle from software builds and testing to deployment and upgrades. Second they represent the first truly hybrid-approach to consuming infrastructure, allowing organizations to run the same workloads on any cloud, virtual machine or physical server.  Together, they represent a very real opportunity for faster development and cheaper operations, without many of the limitations of existing PaaS platforms.
+
+In this session, we’ll introduce the concept of the private Container Service, an enterprise-grade platform that runs and manages containers across any computing platforms.  Specifically, we’ll discuss:
+
+-  How organizations are plugging existing development pipelines into container orchestration tools to accelerate build processes, provide instant test environments, and manage releases.
+
+- How open container standards such as Docker and Kubernetes are being adopted and used within organizations to describe applications.
+
+- How software-defined infrastructure services make container networking and storage seamless, whether containers are deployed locally, to private clouds or to the public cloud.
+
+- How collaboration, service marketplaces and microservices are being developed and shared within organizations.
+
+Over the course of the presentation we’ll share case studies and discuss how open source tools are driving this transformation.
+
+**Speaker:**
+Speaker 65
