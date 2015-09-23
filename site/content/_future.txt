@@ -17,6 +17,7 @@
         <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
         <a href="/events/2016-saltlakecity/">Salt Lake City - 2016</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia - 2016</a><br/>
+        <a href="/events/2016-london/">London - 2016</a><br/>
       </td>
     </tr>
   </table>
