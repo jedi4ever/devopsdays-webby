@@ -153,6 +153,11 @@ end
 <br/>
 <h1>Contributors</h1>
 <% @sponsors = [
+{
+  :image => "google_cloud_platform.png",
+  :name => "GoogleCloudPlatform",
+  :link => "https://cloud.google.com/"
+}
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
