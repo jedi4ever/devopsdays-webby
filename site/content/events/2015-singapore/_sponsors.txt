@@ -68,10 +68,10 @@ end
     :style => "padding: 20px 0;"
   },
   {
-    :image => "dynatrace.jpg",
+    :image => "dynatrace.gif",
     :name => "Dynatrace",
     :link => "http://www.dynatrace.com/",
-    :style => "padding: 30px 0;"
+    :style => "padding: 10px 0;"
   }
 ]%>
 <%= make_sponsor_links(@sponsors) %>
