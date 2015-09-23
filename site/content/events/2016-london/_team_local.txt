@@ -1,0 +1,3 @@
+- Barry Chandler <barry.chandler@barclays.com>
+- Owen Gardner <owen.gardner@barclays.com>
+- Philippe Guenet <philippe.guenet@gft.com>
