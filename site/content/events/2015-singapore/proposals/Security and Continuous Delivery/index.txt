@@ -1,0 +1,36 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: true
+ignite: false
+selected: true
+author: Sriram Narayanan & Prasanna K
+author_role: Principal Consultant
+talk_title: Security and Continuous Delivery
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+We will share our success stories and lessons learned on working toward Continuous Delivery on a public facing web application for a Government Agency. This will cover Infrastructure Engineering, Build and Release Engineering, End to End Auditability and Tracability,  1 Click Application Deployments, and Security from the Infrastructure to the Application Workflow.
+
+## Speaker
+
+Sriram Narayanan, Principal Consultant at [ThoughtWorks](http://thoughtworks.com/).
+
+Prasanna K is a Penetration Tester at [ThoughtWorks](http://thoughtworks.com/).
+
+## Bio
+
+Sriram "Ram" Narayanan ([@sriramnrn](https://twitter.com/sriramnrn)) is a Principal Consultant at ThoughtWorks, and help clients in their Continuous Delivery journey - covering application architecture, change management, development and testing practices, build, infrastructure and release engineering, and Infrastructure security.
+
+Prasanna K a.k.a Shifu is a Penetration Tester at ThoughtWorks, and helps teams ensure that their application workflows are secure and not vulnerable to attacks.
