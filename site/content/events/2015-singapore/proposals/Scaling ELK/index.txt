@@ -1,0 +1,37 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: true
+ignite: false
+selected: true
+author: Angad Singh
+talk_title: Scaling Elasticsearch, Logstash and Kibana (ELK)
+
+---
+
+# Scaling Elasticsearch, Logstash and Kibana (ELK)
+
+## Abstract
+
+At [Viki](https://www.viki.com/), we run a number of micro services that process thousands of requests per second in various geographical regions.
+Micro service architecture helps us break down the complexity of building a large distributed system, but also introduces the complexity of debugging an issue.
+
+This talk is about log processing at scale - building an Elasticsearch cluster that can handle tens of thousands of events per second from all levels of a micro-service container based architecture.
+
+## Speaker
+Angad Singh, DevOps and Platform at [Viki Inc](https://www.viki.com/).
+
+## Bio
+
+Angad drives DevOps and the Platform at [Viki Inc](https://www.viki.com/).
+
+He was previously Site Reliability Engineer at [Twitter](http://twitter.com/), handling scaling for Login, mobile web.
+
+Survived the oscars.

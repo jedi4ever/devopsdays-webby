@@ -1,0 +1,38 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Anoop Kumar Bhat
+talk_title: Sustainable Innovation - the Business Mantra for DevOps in Enterprise
+
+---
+
+# Sustainable Innovation - the Business Mantra for DevOps in Enterprise
+
+## Abstract
+
+There are always blockbuster ideas that make a big impact in terms of a company's top line and market share, however for an enterprise to be successful, they need to produce a series of blockbuster ideas and bring them to life, every year, every month  to be relevant for their customers and market. This is the core essence of Sustainable Innovation.
+
+Topic is around how DevOps can help connect directly to the business needs and how enablers like Enterprise Hackathons help in driving a Minimum Viable Product (MVP) approach to solving problems quickly and the role that DevOps culture plays in all of this transformation.
+
+## Speaker
+Anoop Kumar Bhat, Director for Product Portfolio and Strategy for the Asia Pacific market working with HP Helion team based in Singapore
+
+## Bio
+
+Anoop Kumar Bhat is an engineer by heart and by education but for fodder, he is the Director for Product Portfolio and Strategy for the Asia Pacific market working with HP Helion team based in Singapore.
+
+He is also responsible for driving engagements with Service Providers in APJ.
+
+He runs a lot of DevOps openhouse internally within HP and also publish on linkedin. His upcoming talk includes one at CloudExp Asia:
+
+[http://www.cloudexpoasia.com/page.cfm/action=Visitor/VisitorID=469/nocache=01092015](http://www.cloudexpoasia.com/page.cfm/action=Visitor/VisitorID=469/nocache=01092015)
