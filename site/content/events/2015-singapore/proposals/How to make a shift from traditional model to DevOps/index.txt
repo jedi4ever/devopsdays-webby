@@ -12,11 +12,12 @@ talk: false
 ignite: true
 selected: true
 author: Namrata Rao
+author_role: Software QA Lead at TreeBox solutions
 talk_title: How to make a shift from traditional model to DevOps?
 
 ---
 
-# How to make a shift from traditional model to DevOps?
+# <%= @page.talk_title %>
 
 ## Abstract
 
@@ -25,7 +26,8 @@ DevOps is a recent addition and it is a common belief that hardcore followers of
 So, my talk focuses on how this transition can be made smoothly and highlight the benefits of doing so.
 
 ## Speaker
-Namrata Rao, Software QA Lead
+
+<%= @page.author %>, <%= @page.author_role %>
 
 ## Bio
 

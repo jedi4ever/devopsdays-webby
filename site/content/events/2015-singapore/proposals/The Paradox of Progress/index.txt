@@ -12,11 +12,12 @@ talk: true
 ignite: false
 selected: true
 author: Jason K Jackson
+author_role: CTO at Pivotal
 talk_title: The Paradox of Progress
 
 ---
 
-# The Paradox of Progress
+# <%= @page.talk_title %>
 
 ## Abstract
 
@@ -26,9 +27,9 @@ DevOps Days was started in this gap, and over the years I have seen more and mor
 
 I will be talking about the original spirit of DevOps Days, which i feel started in 1942, and has mutated into a flavor specific to our modern world. I will not be discussing any vendor products, and this is not a sales pitch for anything.
 
-
 ## Speaker
-Jason K Jason, Pivotal
+
+<%= @page.author %>, <%= @page.author_role %>
 
 ## Bio
 
