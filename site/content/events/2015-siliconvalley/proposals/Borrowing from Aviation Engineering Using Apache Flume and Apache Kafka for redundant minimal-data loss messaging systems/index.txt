@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 60
+title: "Borrowing from Aviation Engineering: Using Apache Flume and Apache Kafka for redundant minimal-data loss messaging systems."
+---
+
+**Abstract:**
+
+When flying in a plane, there are various redundant systems to ensure that you can safely get to your destination in the event of a failure. We recently architected and implemented an ingestion and messaging backbone, using both Apache Flume and Apache Kafka in tandem to provide multiple redundant systems, increasing the probability we would be able to survive any catastrophic loss, as well as scale with the various bursty nature of monitoring elastic environments. This presentation will discuss the process and what we learned along the way.
+**Speaker:**
+Speaker 60

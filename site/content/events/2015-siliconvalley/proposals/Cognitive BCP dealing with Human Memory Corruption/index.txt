@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 58
+title: "Cognitive BCP (dealing with Human Memory Corruption)"
+---
+
+**Abstract:**
+
+Can be Ignite
+
+Many people, at some point in their lives, will find their memory
+capabilities not fully functional.  There are several possible causes
+for this, and various remediations and work-arounds.  'Wetware' is as
+much a part of DevOps as hardware and software, so it is beneficial to
+look at how to maintain function when our memories start to fail.
+
+Outline:
+
+Causes - Three Broad Classes:
+1) Stress and Fatigue
+2) Brain Injury or Illness
+3) Aging
+Work-Arounds:
+* Notes
+* Written Reqs
+* Commenting Code
+* Searchable Documentation
+* Structure or Habit
+* Pair/Partner/Team
+
+**Speaker:**
+Speaker 58

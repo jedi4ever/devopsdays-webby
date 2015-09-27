@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 51
+title: "Empathy is transferable: How to create a culture of empathy among a dev team for DevOps and Ops"
+---
+
+**Abstract:**
+
+Some years ago, I was both the senior software developer of a team, but also the front-line “Lord High Fixer” who answered pages for a complicated software architecture that I didn’t design or develop.  I spent much of that time trying to bring order to that codebase while my head was buzzing from getting woken up at 3 AM too many times.  I came to really understand what it means to support something in production, in ways I hadn’t before.
+
+Empathy is transferable.  In future positions, I was able to create products where the dev team understood the importance of making things operational from the early stages of development.  It started by giving the DevOps team members a seat at the same table as the developers.
+
+In my talk, I will discuss some mistruths about how uptime is engineered, how good QE is important to fight DevOps burnout, how reliability changes when you are one piece of a larger system, and what your next challenge for reliability will be once you’ve actually reached the enviable position of delivering a product that never goes down.
+
+**Speaker:**
+Speaker 51

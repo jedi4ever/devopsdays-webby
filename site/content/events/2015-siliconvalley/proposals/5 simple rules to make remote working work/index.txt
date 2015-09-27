@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 53
+title: "5 simple rules to make remote working work"
+---
+
+**Abstract:**
+
+Today telecommuting at least partially is the norm in the software industry and in some instances companies only have virtual offices. Whether it is for work-life balance or the ability to hire talent anywhere in the world, the benefits do come with some challenges. In this talk we’ll explore some simple rules that can make remote working actually work.
+
+**Speaker:**
+Speaker 53

@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 50
+title: "How to Build an Infinitely-Scalable ELK Stack on AWS"
+---
+
+**Abstract:**
+
+Log analysis is a crucial task to perform in any environment, but as environments scale and grow in complexity, effectively implementing logging systems becomes a big challenge. In this session, we will demonstrate how to create a log analytics platform with the open-source ELK Stack (Elasticsearch, Logstash, and Kibana) on AWS that is production-grade, highly available and infinitely scalable. This session would be a technical session for DevOps engineers and developers that would include live demonstrations and discussions about architecture, the mistakes we have made when building ELK and what we have learned from them.
+
+**Speaker:**
+Speaker 50

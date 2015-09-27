@@ -1,13 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-bangalore">
-      Bangalore
-    </a>
-    -
-    <a href="/events/2015-boston">
-      Boston
-    </a>
-    -
     <a href="/events/2015-telaviv">
       Tel Aviv
     </a>
@@ -19,11 +11,11 @@
     <a href="/events/2015-berlin">
       Berlin
     </a>
-    <br>
+    -
     <a href="/events/2015-charlotte">
       Charlotte
     </a>
-    -
+    <br>
     <a href="/events/2015-siliconvalley">
       Silicon Valley
     </a>

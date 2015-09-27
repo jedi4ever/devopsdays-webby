@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 59
+title: "Monitoring for Unknown Problems"
+---
+
+**Abstract:**
+
+Best practices are very useful in monitoring and the best monitoring tools come with pre-set best practice configurations to get you started. Good system administrators setup or refine their own alarming configuration based on best practices. But how do you create alarming policies for less common yet equally service-impacting problems? How do you set alarming for your custom metrics? How do you alarm on the "unknown unknowns"? How do you expand your best practices portfolio?
+
+1.       Use a technology that can do dynamic baselining and anomaly detection
+2.       Detect deviations of metrics from their learned baselines
+3.       Score and search the magnitude of accumulated deviations
+4.       Conduct a post-mortem analysis after each major incident and comb through deviations
+5.       Create new alarming policies based on the early indicator metrics having future deviations
+
+**Speaker:**
+Speaker 59

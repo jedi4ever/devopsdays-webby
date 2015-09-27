@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 50
+title: "The Pitfalls to Avoid When Building SaaS Products"
+---
+
+**Abstract:**
+
+When building SaaS products, there are many challenges in implementing highly-available and highly-secure SaaS solutions. One example is making sure to take QoS and multi-region issues into account. In this session, we will discuss the mistakes we have made in our own SaaS product’s environment and then share the lessons we have learned and the best practices when building SaaS.
+
+**Speaker:**
+Speaker 50

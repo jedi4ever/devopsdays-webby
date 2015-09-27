@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 55
+title: "Why Analytics Fail"
+---
+
+**Abstract:**
+
+Are you plagued by false alerts?  Is your monitoring system asleep at the switch when real “situations” occur?  Do you feel like your analytics are letting your down?  This presentation explores why analytics fail; but also how they can succeed.  Specific cases are described that are drawn from actual (anonymized) customer data to 1) illustrate why analytics can be too noisy or too silent and 2) identify concrete strategies for achieving (and measuring) significant improvements in alarm quality.
+The presentation is divided into two sections.  The first talks about notorious failures with analytics and why they happened.  The second presents several pearls of wisdom on applying analytics successfully with insights as to why they work and real world evidence of their value.
+
+**Speaker:**
+Speaker 55

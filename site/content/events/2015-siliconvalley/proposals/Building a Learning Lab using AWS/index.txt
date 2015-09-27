@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 67
+title: "Building a Learning Lab using AWS"
+---
+
+**Abstract:**
+
+Description: Many enterprises, universities, hospitals and other organizations provide regular training that requires a specific set of applications and configuration. The choice often has been between  purchasing and maintaining hardware for training that is infrequently used, or relying on trainees to implement and configure software properly in advance or during training sessions. Both are fraught with inefficiencies and the potential for inconsistent configurations. Establishing a Desktop-as-a-Service service offers trainers the ability to configure a setup once, and provide trainees with one-click set-up, dramatically improving the efficiency and quality, and reducing costs of training. We describe how we helped a major tech enterprise implement an easy to use on-demand DaaS solution for training and save on CAPEX, as well as maintenance and setup time.
+
+**Speaker:**
+Speaker 67

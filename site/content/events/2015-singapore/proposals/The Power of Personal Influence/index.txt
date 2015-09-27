@@ -1,0 +1,42 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Kimble Ngo
+talk_title: The Power of Personal Influence
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+1. Self Introduction
+2. Power of Personal Influence (using my story)
+3. Application of the AMPLIFY Method (AMP)
+4. Yay life is good and Call to Action (How will the developers Amplify their Influence?)
+
+## Speaker
+
+<%= @page.author %>, Coach
+
+## Bio
+
+Kimble coached Web Designers and other operational/tech folks to better increase their influence in sales, pitches, and presentations.
+Kimble believes its important that those who are in the DevOps space develop their own personal brand and circle of influence so they can drive the growth they need in their business and culture.
+
+Kimble is an Ex-Investment Banker @ UBS and Ex-GM of a Regional Liquor Distributor in Asia
+
+He hosted Fundraiser Events (MC and Host at main events, but trailers of the documentary shown below)
+
+- [Australian High Commission Event (Spinning Dreams Cambodia)](https://www.youtube.com/watch?v=ZCPFdfwNA9c)
+- [British High Commissioner (Cycle on Ceylon)](https://www.youtube.com/watch?v=aaalyJfyoQU)

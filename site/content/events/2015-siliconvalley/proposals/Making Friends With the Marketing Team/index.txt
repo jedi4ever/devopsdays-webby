@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 50
+title: "Making Friends With the Marketing Team"
+---
+
+**Abstract:**
+
+This funny but informative short talk will show how technical teams can impress marketing teams by showing them how to use log analysis for technical SEO. The marketing team will be able to understand how search engines are crawling the website.
+
+Why log analysis is important in technical SEO
+How to use log data to help search engines to crawl your website
+How the improved crawling will help digital marketing efforts
+
+This talk is pertinent because log files contain the only data that is 100% accurate in terms of how search engines are crawling a website -- but too many digital marketers don’t even know they exist.
+
+**Speaker:**
+Speaker 50

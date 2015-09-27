@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 62
+title: "Why to Docker?"
+---
+
+**Abstract:**
+
+In this talk, we will delve into everything Docker. Starting with the different components in Docker, we will go into details of what are the value adds of using Docker in your enterprise (or company), and what are the most popular scenarios that companies that are jumping on the Docker bandwagon are using the platform for.
+
+At the end of this presentation, you will leave with an understanding of what the different components of Docker are, where you can leverage it in your organization, and what might be the quickest wins you can achieve to get you there.
+
+**Speaker:**
+Speaker 62

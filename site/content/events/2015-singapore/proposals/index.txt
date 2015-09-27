@@ -1,36 +1,68 @@
 ---
 title: Proposals
-created_at: 2012-08-14 17:11:09.082858 +02:00
+layout: event_singapore
+extension: html
 filter:
 - erb
 - markdown
-dirty: true
-layout: event_html5
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
 This page lists the proposals we have received. Help the presenters with your feedback!
 
+<h2>Keynotes</h2>
+<ol>
+<%
+  proposals = @pages.find(
+    :all,
+    :in_directory => parent,
+    :recursive => true,
+    :sort_by => "title",
+    :reverse => false,
+    :keynote => true
+  )
+  proposals.delete(@page)
+  proposals.each do |proposal|
+-%>
+<li><%= link_to(proposal.talk_title, proposal) %> - <%= proposal.author %>
+<% end -%>
+<% if proposals.size == 0 %>Coming soon!<% end %>
+</ol>
+
 <h2>Conference Talks</h2>
 <ol>
 <%
-  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => false, :talk => true)
-  articles.delete(@page)
-  articles.each do |page|
+  proposals = @pages.find(
+    :all,
+    :in_directory => parent,
+    :recursive => true,
+    :sort_by => "title",
+    :reverse => false,
+    :talk => true
+  )
+  proposals.delete(@page)
+  proposals.each do |proposal|
 -%>
-<li><%= link_to_page(page) %> - <%= page.author %>
+<li><%= link_to(proposal.talk_title, proposal) %> - <%= proposal.author %>
 <% end -%>
+<% if proposals.size == 0 %>Coming soon!<% end %>
 </ol>
 
 <h2>Ignite Talks</h2>
 <ol>
 <%
-  ignites = @pages.find(:all, :in_directory => parent, :recursive => true,
-      :sort_by => "title", :reverse => false, :ignite => true)
-  ignites.delete(@page)
-  ignites.each do |ignite|
+  proposals = @pages.find(
+    :all,
+    :in_directory => parent,
+    :recursive => true,
+    :sort_by => "title",
+    :reverse => false,
+    :ignite => true
+  )
+  proposals.delete(@page)
+  proposals.each do |proposal|
 -%>
-<li><%= link_to_page(ignite) %> - <%= ignite.author %>
+<li><%= link_to(proposal.talk_title, proposal) %> - <%= proposal.author %>
 <% end -%>
+<% if proposals.size == 0 %>Coming soon!<% end %>
 </ol>

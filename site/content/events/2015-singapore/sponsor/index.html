@@ -1,11 +1,11 @@
 ---
+title: Sponsor
+layout: event_singapore
 extension: html
 filter:
 - erb
 - markdown
 dirty: true
-layout: event_html5
-title: Sponsor
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
@@ -57,11 +57,13 @@ DevOpsDays Singapore 2015 will be held at the [Atrium Ballroom in the Raffles Ci
     <tr>
       <td></td>
       <td style="text-align: center">
-        <a href="https://ti.to/devopsdays-singapore/2015/with/1u8obldzrms" target="_blank">Buy here</a>
+        <a href="https://ti.to/devopsdays-singapore/2015/with/1u8obldzrms" target="_blank">Contribute here</a>
       </td>
-      <td colspan="2" style="text-align: center">
-        Please
-        <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=devopsdays <%= @eventid %> gold sponsorship">contact us</a>
+      <td style="text-align: center">
+        <span style="color: red">SOLD OUT</a>
+      </td>
+      <td style="text-align: center">
+        <span style="color: red">SOLD OUT</a>
       </td>
     </tr>
     <tr>
@@ -135,10 +137,10 @@ DevOpsDays Singapore 2015 will be held at the [Atrium Ballroom in the Raffles Ci
     </tr>
     <tr>
       <td></td>
-      <td colspan="4" style="text-align: center">
-        Please
-        <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=devopsdays <%= @eventid %> Venue sponsorship">contact us</a>
+      <td colspan="3" style="text-align: center">
+        <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=devopsdays <%= @eventid %> sponsorship">Contact us</a>
       </td>
+      <td><span style="color: red">SOLD&nbsp;OUT</a></td>
     </tr>
     <tr>
       <td>Included tickets</td>
@@ -226,8 +228,11 @@ DevOpsDays Singapore 2015 will be held at the [Atrium Ballroom in the Raffles Ci
     </tr>
   </table>
   <p>
-    NOTE: WE CANNOT RELEASE ATTENDEE INFORMATION; SIZE & PLACEMENT OF LOGOS VARY ACCORDING TO SPONSORSHIP; PLEASE PROVIDE US WITH A VECTOR / HIGH RESOLUTION LOGO FOR THE PRINT PROGRAM. ALL EXCLUDING GST.
-  </p>
+    NOTE: WE CANNOT RELEASE ATTENDEE INFORMATION; SIZE & PLACEMENT OF LOGOS VARY ACCORDING TO SPONSORSHIP; PLEASE PROVIDE US WITH A VECTOR / HIGH RESOLUTION LOGO FOR THE PRINT PROGRAM. ALL INCLUDING <a href="https://en.wikipedia.org/wiki/Goods_and_Services_Tax_Singapore" target="_blank">GST</a>.
+    <br>
+    <br>
+    TO ALLOW US SUFFICIENT TIME TO PREPARE FOR AND ORGANISE THE MARKETING AND OTHER RELEVANT ACTIVITIES, PLEASE PROVIDE IN A TIMELY MANNER YOUR LOGO AND OTHER RELEVANT MATERIALS OR INFORMATION REQUIRED FOR SUCH PURPOSES.
+  </p>
 
 </div>
 <hr/>

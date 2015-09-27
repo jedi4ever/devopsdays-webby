@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 52
+title: "Avoiding the Process Event Horizon"
+---
+
+**Abstract:**
+
+This talk covers how as organizations grow, the need for process is perceived to grow also. However, to people with 0 process, even lightweight process seems heavy handed. Past a certain point, reducing process is impossible as even a lighter weight process seems like anarchy.  I will touch on who to listen to, how to drive correctly and avoid this gravity well
+
+**Speaker:**
+Speaker 52

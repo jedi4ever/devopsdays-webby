@@ -5,7 +5,7 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' style='max-width: 300px; max-height: 100px' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' style='max-width: 300px; max-height: 80px' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
@@ -13,7 +13,11 @@ end
 <% @gsponsors = [
  { :image => "covermymeds.png", :name => "covermymeds", :link => "https://www.scriptscribe.org/"},
  { :image => "sumologic.png", :name => "sumologic", :link => "https://www.sumologic.com/"},
- { :image => "scrumorg.png", :name => "scrumorg", :link => "https://www.scrum.org/"}
+ { :image => "scrumorg.png", :name => "scrumorg", :link => "https://www.scrum.org/"},
+ { :image => "newrelic.png", :name => "newrelic", :link => "http://newrelic.com/"},
+ { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"},
+ { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"},
+ { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -47,7 +51,8 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
- { :image => "bit.png", :name => "BIT", :link => "https://www.blacksintechnology.net/"}
+ { :image => "bit.png", :name => "BIT", :link => "https://www.blacksintechnology.net/"},
+ { :image => "oreilly.png", :name => "oreilly", :link => "http://www.oreilly.com/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />

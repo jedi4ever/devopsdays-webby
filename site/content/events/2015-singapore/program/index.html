@@ -1,11 +1,11 @@
 ---
+title: Program
+layout: event_singapore
 extension: html
 filter:
 - erb
 - markdown
-title: Program
 dirty: true
-layout: event_html5
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
@@ -34,25 +34,34 @@ We will be <a href="https://www.youtube.com/watch?v=XXXXXXXXXX">livestreaming th
   <div class="span-4 box last"><strong></strong>Opening Welcome & Sponsors</div>
 
   <div class="span-2">09:15-09:45</div>
-  <div class="span-4 box last"><strong>Keynote</strong>TBA</div>
+  <div class="span-4 box last"><strong>Keynote</strong>
+    <br>
+    <a href="/<%= @eventhome %>/proposals/Life at REA Group">Life at REA Group - Lessons from 7 years of DevOps.</a> (Trent Hornibrook)
+  </div>
 
   <div class="span-2">09:45-09:55</div>
   <div class="span-4 box last">Sponsors</div>
 
   <div class="span-2">09:55-10:25</div>
-  <div class="span-4 box last"><strong>Talk</strong>TBA</div>
+  <div class="span-4 box last">
+    <a href="/<%= @eventhome %>/proposals/How a payment processing company turned into a software release factory">How a payment processing company turned into a software release factory</a> (Ankur Trivedi)
+  </div>
 
   <div class="span-2">10:25-10:40</div>
   <div class="span-4 append-bottom last">Break</div>
 
   <div class="span-2">10:40-11:10</div>
-  <div class="span-4 box last"><strong>Talk</strong>TBA</div>
+  <div class="span-4 box last">
+    <a href="/<%= @eventhome %>/proposals/Agile Service Provider Transformation">Agile Service Provider Transformation</a> (Kiran Inampudi)
+  </div>
 
   <div class="span-2">11:10-11:20</div>
   <div class="span-4 box last">Sponsors</div>
 
   <div class="span-2">11:20-11:50</div>
-  <div class="span-4 box last"><strong>Talk</strong>TBA</div>
+  <div class="span-4 box last">
+    <a href="/<%= @eventhome %>/proposals/Security and Continuous Delivery">Security and Continuous Delivery</a> (Sriram "Ram" Narayanan & Prasanna K)
+  </div>
 
   <div class="span-2">11:50-13:00</div>
   <div class="span-4 append-bottom last">Catered Lunch</div>
@@ -60,7 +69,8 @@ We will be <a href="https://www.youtube.com/watch?v=XXXXXXXXXX">livestreaming th
   <div class="span-2">13:00-13:30</div>
   <div class="span-4 box last"><strong>Ignites</strong><br />
     <ul>
-      <li>TBA</li>
+      <li><a href="/<%= @eventhome %>/proposals/Sustainable Innovation - the Business Mantra for DevOps in Enterprise">Sustainable Innovation - the Business Mantra for DevOps in Enterprise</a> (Anoop Kumar Bhat)</li>
+      <li><a href="/<%= @eventhome %>/proposals/The Power of Personal Influence">The Power of Personal Influence</a> (Kimble Ngo)</li>
     </ul>
   </div>
 
@@ -110,25 +120,34 @@ We will be <a href="https://www.youtube.com/watch?v=XXXXXXXXXX">livestreaming th
   <div class="span-6 last"><!-- for spacing --><br /></div>
 
   <div class="span-2">09:15-09:45</div>
-  <div class="span-4 box last"><strong>Keynote</strong>TBA</div>
+  <div class="span-4 box last"><strong>Keynote</strong>
+    <br>
+    <a href="/<%= @eventhome %>/proposals/State Of The DevOps Union">State Of The 'DevOps' Union</a> (John Willis)
+  </div>
 
   <div class="span-2">09:45-09:55</div>
   <div class="span-4 box last">Sponsors</div>
 
   <div class="span-2">09:55-10:25</div>
-  <div class="span-4 box last"><strong>Talk</strong>TBA</div>
+  <div class="span-4 box last">
+    <a href="/<%= @eventhome %>/proposals/Devops meets Functional Programming">Devops meets Functional Programming</a> (Vladimir Kirillov)
+  </div>
 
   <div class="span-2">10:25-10:40</div>
   <div class="span-4 append-bottom last">Break</div>
 
   <div class="span-2">10:40-11:10</div>
-  <div class="span-4 box last"><strong>Talk</strong>TBA</div>
+  <div class="span-4 box last">
+    <a href="/<%= @eventhome %>/proposals/Scaling ELK">Scaling Elasticsearch, Logstash and Kibana</a> (Angad Singh)
+  </div>
 
   <div class="span-2">11:10-11:20</div>
   <div class="span-4 box last">Sponsors</div>
 
   <div class="span-2">11:20-11:50</div>
-  <div class="span-4 box last"><strong>Talk</strong>TBA</div>
+  <div class="span-4 box last">
+    <a href="/<%= @eventhome %>/proposals/The Paradox of Progress">The Paradox of Progress</a> (Jason K Jackson)
+  </div>
 
   <div class="span-2">11:50-13:00</div>
   <div class="span-4 append-bottom last">Catered Lunch</div>
@@ -136,7 +155,9 @@ We will be <a href="https://www.youtube.com/watch?v=XXXXXXXXXX">livestreaming th
   <div class="span-2">13:00-13:20</div>
   <div class="span-4 box last"><strong>Ignites</strong><br />
     <ul>
-      <li>TBA</li>
+      <li>
+        <a href="/<%= @eventhome %>/proposals/How to make a shift from traditional model to DevOps">How to make a shift from traditional model to DevOps?</a> (Namrata Rao)
+      </li>
     </ul>
   </div>
 
