@@ -1,7 +1,7 @@
 ---
 title:  proposals
 created_at: 2014-02-28 22:49:19.082858 -06:00
-layout: event
+layout: event_slc
 filter:     
 - erb
 - markdown
