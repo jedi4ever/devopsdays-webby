@@ -12,6 +12,7 @@ talk: false
 ignite: true
 selected: true
 author: Kimble Ngo
+author_role: Coach
 talk_title: The Power of Personal Influence
 
 ---
@@ -27,7 +28,7 @@ talk_title: The Power of Personal Influence
 
 ## Speaker
 
-<%= @page.author %>, Coach
+<%= @page.author %>, <%= @page.author_role %>
 
 ## Bio
 
