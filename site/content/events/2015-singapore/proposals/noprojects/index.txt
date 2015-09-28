@@ -1,0 +1,42 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Evan Leybourn
+author_role: Consultant & Author
+talk_title: &#x23;noprojects
+
+---
+
+# &#x23;noprojects
+
+## Abstract
+
+I want to be controversial for a moment and propose an end to IT projects, project management & project managers. I propose that the entire project process is flawed from the start for one simple reason. If you need to run a project, you've already failed.
+
+By definition, an IT project is a temporary structure to govern and deliver a complex change (such as a new product or platform) into an organisation. However, to be truly competitive, an organisation needs to be able to deliver a continuous stream of change. Managed properly, this negates the need for a project and the associated cost overheads.
+
+\#noprojects works best when you have systems in place to streamline the continuous change process; continuous delivery, automated testing and devops.
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+Evan pioneered the field of Agile Business Management; applying the successful concepts and practices from the Lean and Agile movements to corporate management. He keeps busy as a senior IT executive, business management consultant, non-executive director, conference speaker, internationally published author and father.
+
+Evan is known for getting things done by bringing enthusiasm, energy and humour to motivate people and drive his clients corporate objectives. He has a passion for building effective and productive organisations, filled with actively engaged and committed staff while ensuring high-levels of customer satisfaction.
+
+Evan's experiences when holding executive and board positions in both private industry and government has driven his passion for lean business management and he regularly speaks on these topics at local and international industry conferences.
+
+As well as writing "Directing the Agile Organisation", Evan currently consults to organisations around Australia and SE Asia on Agile management and governance.
