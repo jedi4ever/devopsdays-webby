@@ -104,6 +104,11 @@ end
     :image => "paypal.png",
     :name => "Paypal",
     :link => "https://www.paypal.com/"
+  },
+  {
+    :image => "zalora.png",
+    :name => "Zalora",
+    :link => "http://www.zalora.com/"
   }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
