@@ -32,6 +32,7 @@ Oh and I might add some useful content about the commercial ramifications on how
 ## Bio
 
 I had a few media interviews and spoken at the AIIA (www.aiia.com.au) a couple of time, being a Red Hat APAC media spokesperson on DevOps, PaaS, and Development.
+
 - [http://www.slideshare.net/CarlDurrant/bh-ice-systemsv11](http://www.slideshare.net/CarlDurrant/bh-ice-systemsv11)
 - [http://devops.com/2015/01/23/role-middleware-devops/](http://devops.com/2015/01/23/role-middleware-devops/)
 - [http://www.computerworld.com.au/article/581759/red-hat-launch-devops-training-services/](http://devops.com/2015/01/23/role-middleware-devops/)
