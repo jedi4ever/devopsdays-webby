@@ -21,7 +21,7 @@ talk_title: Security and Continuous Delivery
 
 ## Abstract
 
-We will share our success stories and lessons learned on working toward Continuous Delivery on a public facing web application for a Government Agency. This will cover Infrastructure Engineering, Build and Release Engineering, End to End Auditability and Tracability,  1 Click Application Deployments, and Security from the Infrastructure to the Application Workflow.
+We will share our success stories and lessons learned on working toward Continuous Delivery on a public facing web application for a popular website. This will cover Infrastructure Engineering, Build and Release Engineering, End to End Auditability and Tracability,  1 Click Application Deployments, and Security from the Infrastructure to the Application Workflow.
 
 ## Speaker
 
