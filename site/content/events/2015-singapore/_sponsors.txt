@@ -168,3 +168,18 @@ end
 <br />
 <% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a>
 <% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Drink Sponsors</h1>
+<% @sponsors = [
+{
+  :image => "clubmate.png",
+  :name => "Club-Mate",
+  :link => "http://www.clubmate.sg/"
+}
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a>
+<% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/contact">Drink Sponsor - drop us a note!</a> Cheers!<% end %>
