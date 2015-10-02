@@ -18,6 +18,7 @@
         <a href="/events/2016-saltlakecity/">Salt Lake City - 2016</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia - 2016</a><br/>
         <a href="/events/2016-london/">London - 2016</a><br/>
+	<a href="/events/2016-kiel/">Kiel - May 12 & 13 2016</a><br/>
       </td>
     </tr>
   </table>
