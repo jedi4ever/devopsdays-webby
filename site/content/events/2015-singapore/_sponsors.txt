@@ -109,6 +109,12 @@ end
     :image => "zalora.png",
     :name => "Zalora",
     :link => "http://www.zalora.com/"
+  },
+  {
+    :image => "microsoft.png",
+    :name => "Microsoft",
+    :link => "http://www.microsoft.com/",
+    :style => "padding: 30px 5px;"
   }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
