@@ -189,3 +189,18 @@ end
 <br />
 <% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a>
 <% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/contact">Drink Sponsor - drop us a note!</a> Cheers!<% end %>
+
+<br/>
+<br/>
+<h1>Media Sponsors</h1>
+<% @sponsors = [
+{
+  :image => "entreprenic.png",
+  :name => "JF Times LLP",
+  :link => "http://www.jftimes.com"
+}
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">media sponsor!</a>
+<% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/contact">media sponsor - drop us a note!</a><% end %>
