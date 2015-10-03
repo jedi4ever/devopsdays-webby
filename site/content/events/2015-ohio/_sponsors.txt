@@ -13,6 +13,7 @@ end
 <% @gsponsors = [
  { :image => "covermymeds.png", :name => "covermymeds", :link => "https://www.scriptscribe.org/"},
  { :image => "sumologic.png", :name => "sumologic", :link => "https://www.sumologic.com/"},
+ { :image => "chef.png", :name => "chef", :link => "https://www.chef.io/"},
  { :image => "scrumorg.png", :name => "scrumorg", :link => "https://www.scrum.org/"},
  { :image => "newrelic.png", :name => "newrelic", :link => "http://newrelic.com/"},
  { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"},
