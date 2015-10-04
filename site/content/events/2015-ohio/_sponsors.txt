@@ -13,12 +13,11 @@ end
 <% @gsponsors = [
  { :image => "covermymeds.png", :name => "covermymeds", :link => "https://www.scriptscribe.org/"},
  { :image => "sumologic.png", :name => "sumologic", :link => "https://www.sumologic.com/"},
- { :image => "chef.png", :name => "chef", :link => "https://www.chef.io/"},
  { :image => "scrumorg.png", :name => "scrumorg", :link => "https://www.scrum.org/"},
+ { :image => "chef.png", :name => "chef", :link => "https://www.chef.io/"},
  { :image => "newrelic.png", :name => "newrelic", :link => "http://newrelic.com/"},
  { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"},
- { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"},
- { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"}
+ { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -30,7 +29,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
- { :image => "fuse.jpg", :name => "fuse", :link => "http://www.cardinalhealth.com/en/about-us/our-business/fuse-by-cardinal-health.html"}
+ { :image => "fuse.jpg", :name => "fuse", :link => "http://www.cardinalhealth.com/en/about-us/our-business/fuse-by-cardinal-health.html"},
+ { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />

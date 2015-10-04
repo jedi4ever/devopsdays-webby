@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Justin Kuss
+title: "Dos and Don'ts for Raising Cattle In Your Data Centers"
+---
+
+**Abstract:**
+
+This is the talk description as submitted by the user, but with their name removed if they put it in the abstract. This lets you post the talk so people can see the possible talks ahead of time but without the names.
+
+**Speaker:**
+Justin Kuss
+
+Justin Kuss is an engineer at Fuse by Cardinal Health. He has over 10 years of system administrator experience in Healthcare IT, focusing on automation of infrastructure and platform for the past 5 years. Justin enjoys researching workload abstractions, distributed and high–scale computing, and information security. When Justin is not in front of a keyboard, he is training for his next marathon or triathlon.

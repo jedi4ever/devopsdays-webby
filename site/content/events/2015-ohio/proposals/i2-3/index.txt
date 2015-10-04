@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mike Sandman, Dan McSorley, Adam
+title: "12-factor assessment in 5 minutes"
+---
+
+**Abstract:**
+
+Many IT organization are trying to move workload into the cloud. Demonstrate a framework for assessing application against 12-factors (http://12factor.net/) as a cloud-readiness check. The intent is a simple tools that practitioners can use against their current application portfolio.
+
+**Speaker:**
+Mike Sandman
+Old dude that does computer stuff (working bio)
+
+Dan McSorley
+Itinerant agile/developer/ops guy.
+
+Adam
+
