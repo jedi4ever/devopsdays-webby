@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Carmen DeArdo
+title: "The Nationwide DevOps Journey"
+---
+
+**Abstract:**
+
+<!--This is the talk description as submitted by the user, but with their name removed if they put it in the abstract. This lets you post the talk so people can see the possible talks ahead of time but without the names.-->
+
+**Speaker:**
+Carmen DeArdo is the Build Technology Leader at Nationwide Insurance.  He is responsible for driving continuous delivery utilizing DevOps, Lean and Agile techniques across mobile, distributed, mainframe and infrastructure technologies. This includes recommendations and implementation of technologies integrated across the development life cycle to drive variable speed IT.
+
+He has been a speaker at various conferences, including Gene Kim’s DevOps Enterprise Summit and IBM Innovate and Interconnect conferences, on improving productivity, quality and visibility through the use of DevOps practices such as continuous planning, integration and continuous deployment.
+
