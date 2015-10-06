@@ -14,7 +14,7 @@ title: "Dos and Don'ts for Raising Cattle In Your Data Centers"
 
 **Abstract:**
 
-This is the talk description as submitted by the user, but with their name removed if they put it in the abstract. This lets you post the talk so people can see the possible talks ahead of time but without the names.
+By now most of us have heard the phrase "cattle vs. pet", alluding to the mindset of treating servers more like cattle -- commodity, and less like pets. This, of course, can be accomplished through configuration management, automation, and proper planning. Sounds easy enough. In this session, I'll share a top 10 list of lessons learned to help you go from "crazy cat [person]" of the IT world to professional cattle rancher.
 
 **Speaker:**
 Justin Kuss
