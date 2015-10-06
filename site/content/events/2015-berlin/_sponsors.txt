@@ -37,6 +37,7 @@ end
  { :image => "endocode.png", :name => "Endocode", :link => "http://www.endocode.com/"},
  { :image => "babbel.png", :name => "Babbel", :link => "http://jobs.babbel.com/en/"},
  { :image => "nexinto.png", :name => "Nexinto", :link => "https://www.nexinto.com"},
+ { :image => "microsoft.png", :name => "Microsoft", :link => "https://www.microsoft.com"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
