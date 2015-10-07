@@ -14,7 +14,7 @@ title: "The Nationwide DevOps Journey"
 
 **Abstract:**
 
-<!--This is the talk description as submitted by the user, but with their name removed if they put it in the abstract. This lets you post the talk so people can see the possible talks ahead of time but without the names.-->
+The Financial Services industry is fast moving, highly regulated and customer-centric. The general perception in our industry is that any change in processes implies risk and delay, neither of which we can afford. But at the same time, we are faced by the mammoth task of needing to continually introduce new products and services to stay competitive and cater to the growing needs of our customers. This is unthinkable without a fast software delivery lifecycle, as our business is highly dependent on technology. The best way to accelerate software delivery in a complex, fast moving environment like ours is to adopt a DevOps approach. I'll take you through the Nationwide DevOps journey in this talk.
 
 **Speaker:**
 Carmen DeArdo is the Build Technology Leader at Nationwide Insurance.  He is responsible for driving continuous delivery utilizing DevOps, Lean and Agile techniques across mobile, distributed, mainframe and infrastructure technologies. This includes recommendations and implementation of technologies integrated across the development life cycle to drive variable speed IT.
