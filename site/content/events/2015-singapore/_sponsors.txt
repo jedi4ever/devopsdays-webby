@@ -198,6 +198,11 @@ end
   :image => "entreprenic.png",
   :name => "JF Times LLP",
   :link => "http://www.jftimes.com"
+},
+{
+  :image => "engineerssg.jpg",
+  :name => "Engineers.SG",
+  :link => "http://engineers.sg/"
 }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
