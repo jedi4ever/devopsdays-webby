@@ -168,6 +168,11 @@ end
   :image => "google_cloud_platform.png",
   :name => "GoogleCloudPlatform",
   :link => "https://cloud.google.com/"
+},
+{
+  :image => "rea.png",
+  :name => "REA Group",
+  :link => "http://www.rea-group.com/"
 }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
