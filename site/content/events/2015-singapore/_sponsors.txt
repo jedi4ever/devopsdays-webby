@@ -170,7 +170,7 @@ end
   :link => "https://cloud.google.com/"
 },
 {
-  :image => "rea.png",
+  :image => "rea.jpg",
   :name => "REA Group",
   :link => "http://www.rea-group.com/"
 }
