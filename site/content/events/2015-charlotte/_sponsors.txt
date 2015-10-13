@@ -27,7 +27,8 @@ end
 
 <% @ssponsors = [
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
-{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"}
+{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"},
+{ :image => "arista.png", :name => "Arista Networks", :link => "http://www.arista.com/en/"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -48,11 +49,22 @@ end
 
 <br/>
 <br/>
-<h1>Community sponsors</h1>
+<h1>Media sponsors</h1>
 <% @msponsors = [
-{ :image => 'triangle.png', :name => 'Triangle DevOps', :link => 'https://twitter.com/TriangleDevOps'}
+{ :image => 'ado.png', :name => 'ADO', :link => 'http://arresteddevops.com'}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a>
+<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Community sponsors</h1>
+<% @csponsors = [
+{ :image => 'triangle.png', :name => 'Triangle DevOps', :link => 'https://twitter.com/TriangleDevOps'}
+] %>
+<%= make_sponsor_links(@csponsors) %>
+<br />
+<% if @csponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a>
+<% elsif @csponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a><% end %>
