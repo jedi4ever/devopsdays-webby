@@ -93,7 +93,8 @@ end
     :image => "xebia.jpg",
     :name => "Xebia",
     :link => "http://xebia.com/",
-    :style => "padding: 30px 5px;"
+    :width => "90px",
+    :style => "padding: 30px 5px; width: 90px;"
   },
   {
     :image => "redhat.png",
@@ -113,8 +114,7 @@ end
   {
     :image => "microsoft.png",
     :name => "Microsoft",
-    :link => "http://www.microsoft.com/",
-    :style => "padding: 30px 5px;"
+    :link => "http://www.microsoft.com/"
   }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
