@@ -124,28 +124,6 @@ end
 
 <br/>
 <br/>
-<h1>After Party Sponsor</h1>
-
-<% @sponsors = [
-] %>
-<%= make_sponsor_links(@sponsors) %>
-<br />
-<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">After Party Sponsor!</a>
-<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">After Party Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Speaker Dinner Sponsor</h1>
-
-<% @sponsors = [
-] %>
-<%= make_sponsor_links(@sponsors) %>
-<br />
-<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Speaker Dinner Sponsor!</a>
-<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Speaker Dinner Sponsor!</a><% end %>
-
-<br/>
-<br/>
 <h1>Lanyard Sponsors</h1>
 
 <% @sponsors = [
