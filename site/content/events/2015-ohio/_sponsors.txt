@@ -42,6 +42,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+ { :image => "advizex.png", :name => "advizex", :link => "http://www.advizex.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
