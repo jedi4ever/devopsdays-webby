@@ -186,3 +186,12 @@ code {
   padding: 5px;
   width: 100px;
 }
+
+#slide-program table td {
+  padding: 10px;
+}
+
+#slide-program table th {
+  padding: 10px;
+  border-bottom: solid 1px #666;
+}
