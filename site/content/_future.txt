@@ -3,8 +3,6 @@
     <tr>
       <td>
         <strong>2015</strong><br/>
-        <a href="/events/2015-telaviv/">Tel Aviv - Oct 7 & 8</a><br/>
-        <a href="/events/2015-singapore/">Singapore - Oct 16 & 17</a><br/>
         <a href="/events/2015-berlin/">Berlin - Oct 26 & 27</a><br/>
         <a href="/events/2015-charlotte">Charlotte - Nov 2 & 3</a><br/>
         <a href="/events/2015-siliconvalley">Silicon Valley - Nov 6 & 7</a><br/>
@@ -18,7 +16,7 @@
         <a href="/events/2016-saltlakecity/">Salt Lake City - 2016</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia - 2016</a><br/>
         <a href="/events/2016-london/">London - 2016</a><br/>
-	<a href="/events/2016-kiel/">Kiel - May 12 & 13 2016</a><br/>
+        <a href="/events/2016-kiel/">Kiel - May 12 & 13 2016</a><br/>
       </td>
     </tr>
   </table>
