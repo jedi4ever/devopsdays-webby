@@ -110,6 +110,7 @@
       <a href="/events/2015-chicago/">Chicago 2015</a><br/>
       <a href="/events/2015-bangalore/">Bangalore 2015</a><br/>
       <a href="/events/2015-boston/">Boston 2015</a><br/>
+      <a href="/events/2015-telaviv/">Tel Aviv 2015</a><br/>
       </div>
 </div>
 
