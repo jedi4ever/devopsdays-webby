@@ -3,7 +3,6 @@
     <tr>
       <td>
         <strong>2015</strong><br/>
-        <a href="/events/2015-singapore/">Singapore - Oct 16 & 17</a><br/>
         <a href="/events/2015-berlin/">Berlin - Oct 26 & 27</a><br/>
         <a href="/events/2015-charlotte">Charlotte - Nov 2 & 3</a><br/>
         <a href="/events/2015-siliconvalley">Silicon Valley - Nov 6 & 7</a><br/>
