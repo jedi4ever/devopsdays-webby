@@ -68,6 +68,7 @@ google.load('jquery', '1.3.2');
         <%= render(:partial => File.join(@eventhome,'_menu')) %>
         <%= @content %>
         <% if @page.proposal %>
+          <a name="feedback"></a>
           <h2>Your Feedback</h2>
           <div class="span-15 first last">
           <%= render(:partial => '/disqus_comments') %>
