@@ -49,7 +49,9 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+ { :image => 'opsclarity.png', :name => 'OpsClarity', :link => 'http://www.opsclarity.com', :width => '100px', :height => '100px' },
  { :image => 'sendgrid.png', :name => 'Sendgrid', :link => 'http://www.sendgrid.com', :width => '100px', :height => '100px' },
+ { :image => 'usertesting.jpg', :name => 'UserTesting', :link => 'http://www.usertesting.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
