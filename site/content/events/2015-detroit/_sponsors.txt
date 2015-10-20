@@ -14,7 +14,8 @@ end
 { :image => "rbn_logo_orange_100x100.png", :name => "Right Brain Networks", :link => "http://www.rightbrainnetworks.com/"},
 { :image => "pivotal_298x298.png", :name => "Pivotal", :link => "http://pivotal.io/"},
 { :image => "sumologic.jpg", :name => "Sumo Logic", :link =>"http://www.sumologic.com/"},
-{ :image => "chef.svg", :name => "Chef", :link=>"https://www.chef.io/"}
+{ :image => "chef.svg", :name => "Chef", :link=>"https://www.chef.io/"},
+{ :image => "newrelic_large.png", :name => "New Relic", :link=>"https://www.newrelic.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
