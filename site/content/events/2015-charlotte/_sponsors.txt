@@ -51,9 +51,22 @@ end
 
 <br/>
 <br/>
+<h1>Design sponsors</h1>
+
+<% @dsponsors = [
+{ :image => "seismic.png", :name => "Seismic", :link => "http://www.thinkseismic.com"},
+] %>
+<%= make_sponsor_links(@dsponsors) %>
+<br />
+<% if @dsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Design  Sponsor!</a>
+<% elsif @dsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Design Sponsor!</a><% end %>
+
+<br/>
+<br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
-{ :image => 'ado.png', :name => 'ADO', :link => 'http://arresteddevops.com'}
+{ :image => 'ado.png', :name => 'ADO', :link => 'http://arresteddevops.com'},
+{ :image => 'oreilly.png', :name => 'O'Reilly', :link => 'http://www.oreilly.com/'},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
