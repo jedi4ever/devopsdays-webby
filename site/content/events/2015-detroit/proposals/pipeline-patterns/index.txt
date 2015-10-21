@@ -8,7 +8,7 @@ proposal: true
 talk: true
 ignite: false
 selected: true
-author: Max Griffiths
+author: Max Griffiths & Max Lincoln
 title: "Pipeline Patterns"
 ---
 
@@ -22,4 +22,4 @@ it works out. Immutable servers, AMI artefacts, baking vs frying: Max and Max
 and shortcomings using a combined ~20 years experience.
 
 **Speaker:**
-Max Griffiths, ThoughtWorks
+Max Griffiths & Max Lincoln, ThoughtWorks
