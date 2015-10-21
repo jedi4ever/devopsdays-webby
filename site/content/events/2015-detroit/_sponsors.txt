@@ -8,6 +8,12 @@ def make_sponsor_links(sponsors)
     "<a href='#{sponsor[:link]}' target='_blank'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
+
+def make_sponsor_links_alt_image_size(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}' target='_blank'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=300px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
 %>
 
 <% @gsponsors = [
@@ -38,6 +44,21 @@ end
 
 <br/>
 <br/>
+<h1>Bronze sponsors</h1>
+
+<% @bsponsors = [
+] %>
+<% @bsponsors_alt_image = [
+{ :image => "parasoft_logo.gif", :name => "Parasoft", :link=>"https://www.parasoft.com/"}
+] %>
+<%= make_sponsor_links(@bsponsors) %>
+<%= make_sponsor_links_alt_image_size(@bsponsors_alt_image) %>
+<br />
+<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
+<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+
+<br/>
+<br/>
 <h1>Party sponsors</h1>
 
 <% @partysponsors = [
@@ -46,18 +67,6 @@ end
 <br />
 <% if @partysponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a>
 <% elsif @partysponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Bronze sponsors</h1>
-
-<% @bsponsors = [
-{ :image => "parasoft_logo.png", :name => "Parasoft", :link=>"https://www.parasoft.com/"}
-] %>
-<%= make_sponsor_links(@bsponsors) %>
-<br />
-<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
-<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
 
 <br/>
 <br/>
