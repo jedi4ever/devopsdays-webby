@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Max Griffiths
+title: "Pipeline Patterns"
+---
+
+**Abstract:**
+The industry is starting to 'get' Continuous Delivery, and automated
+deployment pipelines are the backbone of your delivery capability. However,
+with the choice of tools, philosophies, and patterns increasing, picking a path
+is becoming harder and it's tempting to listen to the smartest person and hope
+it works out. Immutable servers, AMI artefacts, baking vs frying: Max and Max
+(not a typo) will navigate the modern day options and help clarify the benefits
+and shortcomings using a combined ~20 years experience.
+
+**Speaker:**
+Max Griffiths, ThoughtWorks
