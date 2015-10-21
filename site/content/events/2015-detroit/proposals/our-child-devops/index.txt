@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Steve Pereira
+title: "Our Child, DevOps"
+---
+
+**Abstract:**
+An examination of the history and circumstances that led us here, and what it
+means for business and collaboration in the future. I’ve always been fascinated
+by the concept of Zugswang, and how it relates to the cost of becoming a truly
+agile organization in 2015. DevOps Days tend to be overwhelmingly attended by
+newcomers, and this talk will set the stage and provide context for the tools
+and techniques in the program and larger scene.
+
+We’ll cover:
+
+- our siloed, waterfalled past
+- the ‘lean’, ‘agile' future
+- the cost of doing business
+- what to do about it
+- what works
+
+**Audience:**
+New attendees, and those looking for more context to their DevOps journey
+
+**What you get:**
+A guided tour of the history of tech, the birth of DevOps and the future of the movement
+
+**Speaker:**
+Steve Pereira, Statflo

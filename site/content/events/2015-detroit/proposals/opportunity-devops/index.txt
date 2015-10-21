@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Derek DeJonghe
+title: "Opportunity DevOps"
+---
+
+**Abstract:**
+A play on the Opportunity Detroit campaign, this talk will casually stroll
+through the opportunities of a devops culture and workflow. Introducing
+opportunity in life, work and play. Life being everyday run operations and
+development, Work being meeting dead lines and time to market, and play being
+those side projects, experiments and interests that make you, the intricate
+part of the team you are. With a focus on the changing culture and workflow of
+teams in the current age, this talk will explore opportunities for developing
+code to solve operational tasks in a dynamic environment. We will look at what
+the opportunist has to gain, how the opportunist is to obtain, and where the
+opportunist will transcend. Touching on monitoring, automating responses,
+CI/CD, creating fan out workflows, and innovation.
+
+**Speaker:**
+Derek DeJonghe, RightBrain Networks
