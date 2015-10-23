@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Matt Stratton
+title: "How To Train Your(self) Dragon-Style To Submit Talks"
+---
+
+**Abstract:**
+Deciding to submit a talk for consideration at an event can be a troubling
+thing - what if my idea isn't good enough? Do I think big enough thoughts to
+share a stage with Thought Leaders? Why would anyone care what I have to say?
+
+In this Ignite, I will share with you my secrets for identifying a talk idea,
+deciding where to submit, and help give advice on overcoming the dreaded
+Imposter Syndrome, to help you get past the worries of being "not good enough"
+and break through to share your individual expertise and insight with audiences
+who would love to hear it!
+
+
+
+**Speaker:**
+Matt Stratton, Chef

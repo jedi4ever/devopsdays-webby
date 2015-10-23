@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Adam Goodman
+title: "Securing the Software Development Supply Chain"
+---
+
+**Abstract:**
+Recently, it came to light that many apps in the iOS App Store had been
+infected with malware via a malicious XCode distribution. While this particular
+malware - "XCodeGhost" - mostly only affected developers in China who'd been
+looking for a faster Xcode download mirror, it still brings to mind a point
+that is - or should be! - keeping security engineers awake at night:
+
+Even if our own teams wrote perfect, security-bug-free software (spoiler alert:
+they don't!) there are many other points along the software development "supply
+chain" where we could end up getting pwned. (Don't believe it? Just go "npm
+install" something and watch the dependencies fly on by...)
+
+As with most security problems, there aren't perfect solutions here, but we
+certainly can "raise the bar" / "move the goalposts" / "<insert favorite idiom
+here>". In this talk, we'll explore some strategies to build trust and reduce
+risk across this supply chain, ranging from philosophical questions (how should
+we evaluate what third party tools / libraries to use?) to in-the-weeds
+technical issues (signatures vs. checksums, GPG and Git, TLS, ...)
+
+
+**Speaker:**
+Adam Goodman, Duo Security

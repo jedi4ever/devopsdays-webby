@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 2
+title: "DBAs and DEVs, we really can be friends"
+---
+
+**Abstract:**
+
+Hey Developers, do you have a project that you need to progress on, but it’s being held up by those annoying Database Administrators, with their pesky rules and silly standards? Database guy, do you have those dopey developers who know better than you about database properties and how their data should be stored, right? Managers, need to find a way to get the teams working together to keep work moving? This presentation will explore DevOps practices and tools that can be used to help collaboration between Developers and DBAs using tools like Github.
+
+**Speaker:**
+JP ODonnell
+
+JP O'Donnell has been in the technology world since taking an Apple IIgs to preschool for show-and-tell. He has held numerous positions throughout his career, top tier help desk, network admin, domain admin, developer and database administrator. He is currently a DBA at CoverMyMeds. He enjoys learning and discussing new technologies.
+

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mike Sandman, Dan McSorley, Adam
+title: "Zero effort developer on-boarding"
+---
+
+**Abstract:**
+
+A hurdle in developer on-boarding is tool and environment setup. We will show how a developer can become productive on a team within 5 minutes.
+
+**Speaker:**
+Mike Sandman
+Old dude that does computer stuff (working bio)
+
+Dan McSorley
+Itinerant agile/developer/ops guy.
+
+Adam

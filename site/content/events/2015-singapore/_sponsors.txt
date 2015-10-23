@@ -93,7 +93,8 @@ end
     :image => "xebia.jpg",
     :name => "Xebia",
     :link => "http://xebia.com/",
-    :style => "padding: 30px 5px;"
+    :width => "90px",
+    :style => "padding: 30px 5px; width: 90px;"
   },
   {
     :image => "redhat.png",
@@ -109,34 +110,17 @@ end
     :image => "zalora.png",
     :name => "Zalora",
     :link => "http://www.zalora.com/"
+  },
+  {
+    :image => "microsoft.png",
+    :name => "Microsoft",
+    :link => "http://www.microsoft.com/"
   }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
 <% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
 <% elsif @sponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>After Party Sponsor</h1>
-
-<% @sponsors = [
-] %>
-<%= make_sponsor_links(@sponsors) %>
-<br />
-<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">After Party Sponsor!</a>
-<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">After Party Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Speaker Dinner Sponsor</h1>
-
-<% @sponsors = [
-] %>
-<%= make_sponsor_links(@sponsors) %>
-<br />
-<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Speaker Dinner Sponsor!</a>
-<% elsif @sponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Speaker Dinner Sponsor!</a><% end %>
 
 <br/>
 <br/>
@@ -161,10 +145,57 @@ end
 {
   :image => "google_cloud_platform.png",
   :name => "GoogleCloudPlatform",
-  :link => "https://cloud.google.com/"
+  :link => "https://cloud.google.com/",
+  :style => "padding: 10px 0;"
+},
+{
+  :image => "rea.jpg",
+  :name => "REA Group",
+  :link => "http://www.rea-group.com/"
+},
+{
+  :image => "appdynamics.png",
+  :name => "AppDynamics",
+  :link => "http://www.appdynamics.com/",
+  :style => "padding: 30px 0;"
 }
 ] %>
 <%= make_sponsor_links(@sponsors) %>
 <br />
 <% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a>
 <% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Drink Sponsors</h1>
+<% @sponsors = [
+{
+  :image => "clubmate.png",
+  :name => "Club-Mate",
+  :link => "http://www.clubmate.sg/"
+}
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">contributor!</a>
+<% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/contact">Drink Sponsor - drop us a note!</a> Cheers!<% end %>
+
+<br/>
+<br/>
+<h1>Media Sponsors</h1>
+<% @sponsors = [
+{
+  :image => "entreprenic.png",
+  :name => "JF Times LLP",
+  :link => "http://www.jftimes.com"
+},
+{
+  :image => "engineerssg.jpg",
+  :name => "Engineers.SG",
+  :link => "http://engineers.sg/"
+}
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first <a href="/<%= @eventhome %>/sponsor/#sponsorship">media sponsor!</a>
+<% elsif @sponsors.size < 99 %>Become a <a href="/<%= @eventhome %>/contact">media sponsor - drop us a note!</a><% end %>

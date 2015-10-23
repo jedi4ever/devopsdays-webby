@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Rob Kinyon
+title: "Questions to ask Operations"
+---
+
+**Abstract:**
+
+How do you know you're doing the right thing in your DevOps practice? What are you striving for? Here are 10 questions to continuously ask yourself. Every question without a confident "YES!" is something to work on.
+
+**Speaker:**
+Rob Kinyon
+
+20-year IT veteran, happily now in devops.

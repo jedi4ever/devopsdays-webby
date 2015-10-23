@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Kelly Looney
+title: "The DevOps Journey in Real Money Gaming"
+---
+
+**Abstract:**
+
+This talk traces a large-scale Agile and DevOps transformation, with 96 Scrum teams and over 200 operations personnel. It discusses the challenges and barriers that stood in the way, and what strategies were put in place to make things work. This talk addresses culture, organization, and technology issues and how they interact when major changes are underway.
+
+**Speaker:**
+Kelly Looney
+
+Kelly is a 30-year veteran of the software development world harkening back to the Smalltalk community. At ThoughtWorks and Valtech Kelly worked with many of the early adopters of Continuous Delivery and DevOps, and he brought that mindset and knowledge to Agile transformations for a variety of customers. He currently helps Skytap customers improve their development processes and toolsets.
