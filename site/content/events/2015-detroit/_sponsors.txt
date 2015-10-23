@@ -49,7 +49,8 @@ end
 <% @bsponsors = [
 ] %>
 <% @bsponsors_alt_image = [
-{ :image => "parasoft_logo.gif", :name => "Parasoft", :link=>"https://www.parasoft.com/"}
+{ :image => "parasoft_logo.gif", :name => "Parasoft", :link=>"https://www.parasoft.com/"},
+{ :image => "proquest_logo.png", :name => "ProQuest", :link=>"http://www.proquest.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <%= make_sponsor_links_alt_image_size(@bsponsors_alt_image) %>
