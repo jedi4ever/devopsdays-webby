@@ -42,7 +42,8 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
-{ :image => "transloc.png", :name => "TransLoc", :link => "http://www.transloc.com/"}
+{ :image => "transloc.png", :name => "TransLoc", :link => "http://www.transloc.com/"},
+{ :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -66,7 +67,7 @@ end
 <h1>Media sponsors</h1>
 <% @msponsors = [
 { :image => 'ado.png', :name => 'ADO', :link => 'http://arresteddevops.com'},
-{ :image => 'oreilly.png', :name => "O'Reilly", :link => 'http://www.oreilly.com/'},
+{ :image => 'oreilly.png', :name => "O Reilly", :link => 'http://www.oreilly.com/'},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
