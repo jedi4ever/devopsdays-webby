@@ -30,7 +30,8 @@ end
 
 <% @ssponsors = [
  { :image => "fuse.jpg", :name => "fuse", :link => "http://www.cardinalhealth.com/en/about-us/our-business/fuse-by-cardinal-health.html"},
- { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"}
+ { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"},
+ { :image => "servicenow.png", :name => "servicenow", :link => "https://www.servicenow.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -42,7 +43,8 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
- { :image => "advizex.png", :name => "advizex", :link => "http://www.advizex.com/"}
+ { :image => "advizex.png", :name => "advizex", :link => "http://www.advizex.com/"},
+ { :image => "teksystems.png", :name => "teksystems", :link => "http://www.teksystems.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
