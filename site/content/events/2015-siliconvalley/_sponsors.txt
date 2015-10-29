@@ -35,6 +35,7 @@ end
  { :image => 'redislabs.png', :name => 'Redis Labs', :link => 'https://www.redislabs.com/', :width => '100px', :height => '100px' },
  { :image => 'signalfx.jpg', :name => 'SignalFx', :link => 'https://signalfx.com/', :width => '100px', :height => '100px' },
  { :image => 'stackstate.png', :name => 'StackState', :link => 'http://www.stackstate.com/', :width => '100px', :height => '100px' },
+ { :image => 'sumologic.png', :name => 'Sumologic', :link => 'http://www.sumologic.com/', :width => '100px', :height => '100px' },
  { :image => 'sysdig.png', :name => 'Sysdig', :link => 'http://www.sysdig.com', :width => '100px', :height => '100px' },
  { :image => 'talena.png', :name => 'Talena', :link => 'http://www.talena-inc.com', :width => '100px', :height => '100px' },
  { :image => 'victorops.png', :name => 'VictorOps', :link => 'http://www.victorops.com', :width => '100px', :height => '100px' },
