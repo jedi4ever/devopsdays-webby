@@ -31,6 +31,7 @@ end
 { :image => "arista.png", :name => "Arista Networks", :link => "http://www.arista.com/en/"},
 { :image => "belk.png", :name => "Belk", :link => "http://www.belk.com"},
 { :image => "fastly.png", :name => "Fastly", :link => "http://www.fastly.com"},
+{ :image => "rv.png", :name => "Red Ventures", :link => "http://www.redventures.com"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
