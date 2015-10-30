@@ -23,6 +23,7 @@ end
  { :image => 'deis.png', :name => 'Deis', :link => 'http://www.deis.io', :width => '100px', :height => '100px' },
  { :image => 'docker.png', :name => 'Docker', :link => 'http://www.docker.io', :width => '100px', :height => '100px' },
  { :image => 'elastic.png', :name => 'Elastic', :link => 'http://www.elastic.co/', :width => '100px', :height => '100px' },
+ { :image => 'ibm.png', :name => 'IBM', :link => 'http://www.ibm.com/', :width => '100px', :height => '100px' },
  { :image => 'jut.png', :name => 'Jut', :link => 'http://www.jut.io', :width => '100px', :height => '100px' },
  { :image => 'logz.png', :name => 'Logz.io', :link => 'http://www.logz.io', :width => '100px', :height => '100px' },
  { :image => 'microsoft.png', :name => 'Microsoft', :link => 'http://www.microsoft.com', :width => '100px', :height => '100px' },
