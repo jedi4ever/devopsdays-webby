@@ -48,6 +48,8 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+{ :image => "parasoft_100x100.png", :name => "Parasoft", :link=>"https://www.parasoft.com/"},
+{ :image => "proquest_100x100.jpg", :name => "ProQuest", :link=>"http://www.proquest.com/"}
 ] %>
 <% @bsponsors_alt_image = [
 { :image => "parasoft_logo.gif", :name => "Parasoft", :link=>"https://www.parasoft.com/"},
