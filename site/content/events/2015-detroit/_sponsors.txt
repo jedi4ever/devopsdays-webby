@@ -15,7 +15,8 @@ end
 { :image => "pivotal_298x298.png", :name => "Pivotal", :link => "http://pivotal.io/"},
 { :image => "sumologic.jpg", :name => "Sumo Logic", :link =>"http://www.sumologic.com/"},
 { :image => "chef.svg", :name => "Chef", :link=>"https://www.chef.io/"},
-{ :image => "newrelic_large.png", :name => "New Relic", :link=>"https://www.newrelic.com/"}
+{ :image => "newrelic_large.png", :name => "New Relic", :link=>"https://www.newrelic.com/"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link=>"https://www.thoughtworks.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
