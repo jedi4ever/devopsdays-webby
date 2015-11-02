@@ -42,7 +42,7 @@ filter: erb
 ]%>
 
 <h1>Sponsor</h1>
-<% @regeneration_partners.each do |partner| %>
+<% @sponsor_partners.each do |partner| %>
 <a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
 <% end %>
 
