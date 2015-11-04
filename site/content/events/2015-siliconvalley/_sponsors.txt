@@ -29,6 +29,7 @@ end
  { :image => 'microsoft.png', :name => 'Microsoft', :link => 'http://www.microsoft.com', :width => '100px', :height => '100px' },
  { :image => 'neptune.png', :name => 'Neptune', :link => 'http://www.neptune.io', :width => '100px', :height => '100px' },
  { :image => 'netuitive.png', :name => 'Netuitive', :link => 'http://www.netuitive.com', :width => '100px', :height => '100px' },
+ { :image => 'newrelic.png', :name => 'Newrelic', :link => 'http://www.newrelic.com', :width => '100px', :height => '100px' },
  { :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://www.pagerduty.com', :width => '100px', :height => '100px' },
  { :image => 'pivotal.png', :name => 'Pivotal', :link => 'http://www.pivotal.io', :width => '100px', :height => '100px' },
  { :image => 'puppetlabs.png', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
