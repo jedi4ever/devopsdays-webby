@@ -112,6 +112,8 @@
       <a href="/events/2015-boston/">Boston 2015</a><br/>
       <a href="/events/2015-telaviv/">Tel Aviv 2015</a><br/>
       <a href="/events/2015-singapore/">Singapore 2015</a><br/>
+      <a href="/events/2015-berlin/">Berlin 2015</a><br/>
+      <a href="/events/2015-charlotte">Charlotte 2015</a><br/>
       </div>
 </div>
 
