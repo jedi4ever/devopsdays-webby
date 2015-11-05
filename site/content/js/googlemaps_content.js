@@ -40,36 +40,6 @@ function initialize() {
   google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2015-siliconvalley"});
 
 
-  var charlottelocation = new google.maps.LatLng(35.2269, -80.8433);
-  var charlottemarker = new MarkerWithLabel({
-    position: charlottelocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Charlotte<br>Nov 2 & 3",
-    labelAnchor: new google.maps.Point(5, -10),
-    labelClass: "labels",
-    labelStyle: { opacity: 1 }
-  });
-
-  google.maps.event.addListener(charlottemarker, "click", function (e) { location.href="/events/2015-charlotte/"});
-
-
-  var berlinlocation = new google.maps.LatLng(52.51, 13.3833);
-  var berlinmarker = new MarkerWithLabel({
-    position: berlinlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Berlin<br>Oct 26 & 27",
-    labelAnchor: new google.maps.Point(50, 25),
-    labelClass: "labels",
-    labelStyle: { opacity: 1 }
-  });
-
-  google.maps.event.addListener(berlinmarker, "click", function (e) { location.href="/events/2015-berlin/"});
-
-
   var detroitlocation = new google.maps.LatLng(42.3595788,-83.0706835);
   var detroitmarker = new MarkerWithLabel({
     position: detroitlocation,
