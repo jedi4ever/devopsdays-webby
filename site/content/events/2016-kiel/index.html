@@ -4,40 +4,65 @@ filter:
 - erb
 - markdown
 title: welcome
-layout: event
+layout: event_kiel
 dirty: true
+host: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<h1>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location")%>!</h1>
+<h2>
+<%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
+</h2>
+
 <center>
-  <table><tr><td>
-        <center>
-        <!-- <img border=0 width="160" height="240" src="./yourlogohere.png">
--->
+  <table><tr><td valign=top>
+        <img border=0 width="200" height="200" src="./logos/DevOps_Logo_Webseite-200.png">
 </td><td valign=top>
-<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
-<br><br>
-Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
-<br><br>
+
 <a href="./location">Location</a>
-<br><br>
+<br>
 
 <a href="./propose">Propose a talk</a>
-<br><br>
+<br>
 
-<!-- <a href="./registration">Register</a>! -->
-<br><br>
+<a href="./registration">Register</a>
+<br>
 
-<!-- <a href="./program">View the program</a>! -->
-<br><br>
+<!---<a href="./program">View the program</a> -->
+<br>
 
 <a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.
-<br><br>
+<br>
 
 <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
 <br><br>
 </td>
 </tr>
 </table>
+
+
+
 </center>
+<p>
+DevOpsDays is coming to Kiel for the first time on May, 12-13 2016! We are proud to present this amazing conference here in the beautiful city Kiel in northern Germany! 
+<br><br>
+We want to make this event unforgettable to all attendees, sponsors and contributors! 
+Due to this we kindly ask you to answer some questions within the registration process and/or the submission process.
+<br><br>
+DevOpsDays Kiel wants to offer a family-friendly child care service to all attendees. Please pay attention to this question during the registration, so that we can organize this service!
+<br><br>
+See you all in Kiel!
+</p>
+
+<center>
+<a href="https://twitter.com/DevOpsDaysKiel" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @DevOpsDaysKiel</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</center>
+<br>
+<hr>
+<div style="text-align:center;" margin-top=5px>
+  <img alt="DevOpsDays Kiel 2016" src="./kiel-590x332.jpg"/>
+</div>
 
 <hr>
