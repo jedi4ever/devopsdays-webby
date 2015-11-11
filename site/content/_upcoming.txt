@@ -39,5 +39,9 @@
     <a href="/events/2015-siliconvalley">
       Silicon Valley
     </a>
+    -
+    <a href="/events/2016-seattle">
+      Seattle
+    </a>
   </h3>
 </div>

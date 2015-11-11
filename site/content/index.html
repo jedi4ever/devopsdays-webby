@@ -199,8 +199,20 @@ var bostonmarker = new MarkerWithLabel({
 google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2015-boston/"});
 }
 
+var seattlelocation = new google.maps.LatLng(47.609895, -122.330259);
+var seattlemarker = new MarkerWithLabel({
+  position: seattlelocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Seattle<br>May 12 & 13",
+  labelAnchor: new google.maps.Point(0,0),
+  labelClass: "labels",
+  labelStyle: { opacity: 1 }
+});
 
-
+google.maps.event.addListener(seattlemarker, "click", function (e) { location.href="/events/2016-seattle/"});
+}
 
 </script>
 
