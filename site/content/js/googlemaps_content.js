@@ -23,21 +23,7 @@ function initialize() {
   map.mapTypes.set('darkwater', new google.maps.StyledMapType(darkStyle, { name: 'Dark' }));
 
   // Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html
-  var sflocation=new google.maps.LatLng(37.3894, -122.0819);
-
   // Events
-  var sfmarker = new MarkerWithLabel({
-    position: sflocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Silicon Valley<br>Nov 6 & 7",
-    labelAnchor: new google.maps.Point(63, 5),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-  });
-
-  google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2015-siliconvalley"});
 
 
   var detroitlocation = new google.maps.LatLng(42.3595788,-83.0706835);
