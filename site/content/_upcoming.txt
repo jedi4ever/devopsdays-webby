@@ -11,5 +11,9 @@
     <a href="/events/2015-warsaw">
       Warsaw
     </a>
+    -
+    <a href="/events/2016-seattle">
+      Seattle
+    </a>
   </h3>
 </div>
