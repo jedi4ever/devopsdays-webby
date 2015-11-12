@@ -68,5 +68,48 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2015-warsaw/"});
+  google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
+
+  var dclocation = new google.maps.LatLng(38.8011545,-77.0659376);
+  var dcmarker = new MarkerWithLabel({
+    position: dclocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Washington, DC<br>Jun 8 & 9",
+    labelAnchor: new google.maps.Point(0, 0),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
+  google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2016-minneapolis/"});
+
+  var minneapolislocation = new google.maps.LatLng(44.9726428,-93.2752562);
+  var minneapolismarker = new MarkerWithLabel({
+    position: minneapolislocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Minneapolis<br>Jul 20 & 21",
+    labelAnchor: new google.maps.Point(25, 0),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
+  google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
+
+  var kiellocation = new google.maps.LatLng(54.34208,10.121949);
+  var kielmarker = new MarkerWithLabel({
+    position: kiellocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Kiel<br>May 12 & 13",
+    labelAnchor: new google.maps.Point(20,-5),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
+  google.maps.event.addListener(kielmarker, "click", function (e) { location.href="/events/2016-kiel/"});
+
 }
