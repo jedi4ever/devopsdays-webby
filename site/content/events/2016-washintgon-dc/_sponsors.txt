@@ -1,5 +1,9 @@
 ---
 filter:    erb
 ---
+<h1>Platinum &amp; Venue Sponsor</h1>
+<a href="http://www.uspto.gov/"><img border=0 alt="USPTO" title="USPTO" width=280px height=70px src="/events/2016-washington-dc/logos/uspto.jpg"></a>
+
+<h1>Other Sponsors</h1>
 
 Coming Soon!
