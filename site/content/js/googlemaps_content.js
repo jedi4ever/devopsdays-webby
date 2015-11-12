@@ -55,7 +55,6 @@ function initialize() {
 
   google.maps.event.addListener(ohiomarker, "click", function (e) { location.href="/events/2015-ohio/"});
 
-
   var warsawlocation = new google.maps.LatLng(52.1800879, 20.9788363);
   var warsawmarker = new MarkerWithLabel({
     position: warsawlocation,
@@ -112,4 +111,17 @@ function initialize() {
 
   google.maps.event.addListener(kielmarker, "click", function (e) { location.href="/events/2016-kiel/"});
 
+  var seattlelocation = new google.maps.LatLng(47.609895, -122.330259);
+  var seattlemarker = new MarkerWithLabel({
+    position: seattlelocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Seattle<br>May 12 & 13",
+    labelAnchor: new google.maps.Point(0,0),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
+  google.maps.event.addListener(seattlemarker, "click", function (e) { location.href="/events/2016-seattle/"});
 }
