@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 68
+title: "Two Microsoft Evangelists Walk Into a Room… and figure out DevOps?"
+---
+
+**Abstract:**
+
+DevOps is still pretty new to the technology world and Microsoft has come a long way, but still has a lot to learn. See what happens when a developer and sysadmin come together to try to figure it all out.
+
+**Speaker:**
+Speaker 68

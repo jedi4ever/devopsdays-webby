@@ -1,0 +1,40 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: true
+ignite: false
+selected: true
+author: Kiran Inampudi
+author_role: Cisco.com
+talk_title: Agile Service Provider (Telco) Transformation – What does it take to be Agile?
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+As service providers(Telco's)  begin to transform their business to embrace Virtualization & Cloud ( ie SDN & NFV)  their network operations/service delivery teams needs to evolve. While Virtualization & Cloud make it easy to rapidly expand the size of infrastructure, but the habits and practices they used in the past with hardware-based infrastructure don't keep up.
+The Network operations teams need to adopt IT’s DevOps practices to maximize the potential benefits of the evolving software-defined infrastructure.
+This includes adopting new tools that enhance agility, implementing agile operational and organizational models and procedures, and in some cases adopting a new culture.  The benefits of such an approach are compelling: lower costs and increased agility, including the ability to implement new services in days rather than weeks or months
+
+In this session, we will look at how to take advantage of technologies like cloud, virtualization, and configuration automation to manage IT infrastructure using  patterns, practices, and ideas that have been adopted from software development, especially Agile concepts, and brought into the Network  Operations world as part of the DevOps movement. Also, we will also go through the challenges and problems created by all these new tools, and the principles and mindset changes that a team needs to make to use them effectively
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+Prior to joining Cisco, Kiran has spent over 15 years in the IT industry in different roles (Business  & Technology Consulting, Start Up CEO, Product Management, Solution Architect, Network Engineer)
+
+Kiran currently leads DevOps Automation solutions for Cisco’s Global Service Provider team.  He focuses on strategy & business case, solution development, solution launch, strategic partnerships, Sales enablement & GTM etc
+
+In his current role, Kiran leads a cross functional team consisting of product marketing, sales, engineering & delivery for execution of Global Service provider plan.

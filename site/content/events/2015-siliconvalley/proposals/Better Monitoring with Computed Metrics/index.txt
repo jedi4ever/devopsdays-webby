@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 59
+title: "Better Monitoring with Computed Metrics"
+---
+
+**Abstract:**
+
+Monitoring is no stranger to the problems of data overload. How do you know which data your monitoring system provides is valuable or important? Enter Computed Metrics. This presentation will discuss the benefits of computed metrics and provide three examples based on real (anonymized) data that illustrate how they can deliver significant value to your monitoring efforts.
+
+**Speaker:**
+Speaker 59

@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 70
+title: "How I stopped worrying and learned to love InfraOps"
+---
+
+**Abstract:**
+
+In the last two years, the ideal organization of security amongst other teams has been hotly debated. Many permutations have been presented: DevOps and SecOps should be married[1], SecOps is DevOps[2], DevOps includes security[3]. By contrast, others have raised questions about whether there can ever be a reconciliation between DevOps and SecOps[4], and the explored the security risks of having a fast paced DevOps environment[5]. Illustrating the importance of this interaction, the RSA Conference has an entire day dedicated to DevOpsSec, at which information security luminaries are presenting.
+
+Taken in sum, the crux is that Security is still an outsider looking in, and trying to find a seat at the table where Development, Operations, IT, and Product meet. While Security teams might not be considered exclusively naysayers, their differing priorities (compliance, different appetites for risk, etc.) make integration hardly facile.
+
+In this talk, we present a new paradigm that better aligns security with the needs of the full organization - InfraOps. This isnt merely a new name, but a novel, holistic approach to how we deal with operations. It encompasses not only how we deploy software or how we monitor our production environments - but rather permeates to all areas, including local networks and IT infrastructure.
+
+This presentation will focus on the tools, processes, and mechanisms Addepar has used to implement InfraOps, and demonstrate the value added since such implementation. In addition, we will be providing tools and hope to spur further conversation to encourage organizations of various sizes to implement the ideas provided, so as to give back to the community in general.
+
+**Speaker:**
+Speaker 70

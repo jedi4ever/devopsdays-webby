@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Trent Hornibrook
+title: "Hiring Infrastructure Operations Engineers"
+---
+
+**Abstract:**
+
+What are some of the strategies you should consider when you hire an
+Infrastructure Operations Engineer? What should you consider if you are
+looking to join a company.
+
+I will talk through the evolution of the hiring process that I have driven
+at a large publicly listed Australian company detailing the optimisations
+to that process along the way.
+
+Hopefully the talk will be really light hearted but drive the message of
+always refine your hiring process as you refine the role and
+responsibilities of your roles.
+
+Some of the content will be based around [my blog](http://www.mysqldbahelp.com/2015/08/how-to-hire-for-infrastructure.html
+) on the topic.
+
+**Speaker:**
+Trent Hornibrook
+

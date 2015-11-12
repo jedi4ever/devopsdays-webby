@@ -1,0 +1,15 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Propose
+dirty: true
+layout: event_warsaw
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<p>
+  <strong>Call for Papers</strong> is over but we are still waiting for your <a href="http://devopsdays.pl/cfp/ignites/form">Ignites proposals</a> until 13th November.
+</p>

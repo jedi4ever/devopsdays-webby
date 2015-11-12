@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: A typical sysadmin day with ralph
+proposal: true
+dirty: true
+talk: true
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Daniel Pijanowski
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+A typical sysadmin day with ralph.
+
+Ralph is full-featured Asset Management, DCIM and CMDB system for data center and back office.
+
+And what a typical day working with the Ralph looks like? Answers to this question will know from the point of view of the sysadmin. Will be presented daily tasks, eg. adding a new machine/device to the system Ralph, updated information about the detected hardware and software, etc. Tasks with which you may encounter in sysadmin everyday life.
+
+**Speaker:**
+
+Daniel Pijanowski works in Allegro Group as a System Administrator. From the beginning he is related with building and maintaining the infrastructure shared services within Allegro Group.

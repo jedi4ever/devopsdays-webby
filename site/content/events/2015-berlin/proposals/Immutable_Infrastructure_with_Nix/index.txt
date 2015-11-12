@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Rok Garbas
+title: "Nix - the purely functional package manager"
+---
+
+**Abstract:**
+NixOS is a Linux distribution with a unique approach to package and
+configuration management. Built on top of the Nix package manager, it is
+completely declarative, makes upgrading systems reliable.
+
+Declarative specs and safe upgrades make NixOS a great system for DevOps
+use. NixOps, the NixOS cloud deployment tool, allows you to provision and
+manage networks of NixOS machines in environments like Amazon EC2,
+VirtualBox, ...
+
+**Speaker:**
+Rok Garbas
+

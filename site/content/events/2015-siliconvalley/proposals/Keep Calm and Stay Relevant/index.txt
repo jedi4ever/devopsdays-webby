@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 10
+title: "Keep Calm and Stay Relevant"
+---
+
+**Abstract:**
+
+We are in the best industry in the world. Jobs in software development and IT are rated at the top of the list for both salary and job satisfaction. Yet the industry is evolving at an incredible pace. In the past few years I have seen many people with IT background get worried that their jobs might become obsolete, taken over by configuration management tools and infrastructure as code. Lately I am seeing a new trend - with the rise of customizable and cheap third party SaaS services and applications, custom software development does not make financial sense for many businesses anymore. Are all of our jobs on the line?
+
+In this talk I will discuss how to stay relevant in the rapidly changing IT world. I plan to give my audience efficient tools for
+
+a.       Identifying the emerging professional demand in the market
+
+b.      Finding time and energy for acquiring new skills ahead of time
+
+The talk is important for everyone in IT.
+
+**Speaker:**
+Speaker 10

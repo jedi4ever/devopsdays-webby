@@ -14,7 +14,13 @@ title: "Rolling Your Own vs SaaS: Tradeoffs & Considerations"
 
 **Description**
 
-At Bloom Health, we're operating in a highly regulated environment (including HIPPA & PII) while at the same time running our infrastructure in public cloud. This leads to a number of considerations and tradeoffs when choosing the various parts of our stack. I'll detail the considerations we've undertaken, the compromises and winding paths towards workable solutions, and the specific technologies we've found work better for us as in-house solutions versus those where we've found SaaS to be the optimal (or at least acceptable) choice.
+At Bloom Health, we're operating in a highly regulated environment (including HIPAA & PII) while at the same time running our infrastructure in public cloud. This leads to a number of considerations and tradeoffs when choosing the various parts of our stack. I'll detail the considerations we've undertaken, the compromises and winding paths towards workable solutions, and the specific technologies we've found work better for us as in-house solutions versus those where we've found SaaS to be the optimal (or at least acceptable) choice.
+
+Slides:
+<iframe src="//slides.com/cmvelo/devopsdays2015/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/se32sXCKb9g" frameborder="0" allowfullscreen></iframe>
 
 **Speaker:**
 Colleen Velo

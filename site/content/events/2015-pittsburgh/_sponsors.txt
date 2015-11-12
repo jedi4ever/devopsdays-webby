@@ -15,6 +15,12 @@ end
 { :image => "hp.png", :name => "HP", :link => "http://www.hp.com/"},
 { :image => "sysdig.png", :name => "Sysdig", :link => "http://www.sysdig.com/"},
 { :image => "uber.png", :name => "Uber Advanced Technologies Center", :link => "http://www.uberatc.com/"},
+{ :image => "pivotal.png", :name => "Pivotal Software", :link => "http://www.pivotal.io/"},
+{ :image => "showclix.png", :name => "ShowClix", :link => "http://www.showclix.com/"},
+{ :image => "immunio.png", :name => "Immunio", :link => "http://immun.io/"},
+{ :image => "ibm_watson.png", :name => "IBM Watson", :link => "http://ibm.biz/watson-pgh-jobs"},
+{ :image => "cmu_sei_cert.png", :name => "Computer Emergency Response Team at the Carnegie Mellon University Software Engineering Institute", :link => "http://www.cert.org"},
+{ :image => "philips.png", :name => "Philips", :link => "http://jobs.philips.com/pittsburgh/pennsylvania/usa/jobs/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -23,6 +29,7 @@ end
 <h1><font color="Gainsboro">Aluminum</font> sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 ]%>
 <%= make_sponsor_links(@ssponsors) %>
 
@@ -33,8 +40,9 @@ end
 <% @bsponsors = [
 { :image => "apcera.png", :name => "Apcera", :link => "http://www.apcera.com/"},
 { :image => "travis.png", :name => "Travis-CI", :link => "http://www.travis-ci.com/"},
-{ :image => "containership.png", :name => "ContainerShip.io", :link => "http://www.containership.io/"}
-
+{ :image => "containership.png", :name => "ContainerShip.io", :link => "http://www.containership.io/"},
+{ :image => "digital_ocean.png", :name => "Digital Ocean", :link => "https://www.digitalocean.com/"},
+{ :image => "innovation_works.png", :name => "Innovation Works", :link => "https://www.innovationworks.org/"},
 ]%>
 <%= make_sponsor_links(@bsponsors) %>
 
@@ -42,7 +50,11 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "imaginecareers.png", :name => "Imagine Careers", :link => "http://www.imaginecareers.com"},
 { :image => "code_and_supply.png", :name => "Pittsburgh Code & Supply", :link => "http://www.meetup.com/Pittsburgh-Code-Supply/"},
+{ :image => "gdi.png", :name => "Girl Develop It", :link => "https://www.girldevelopit.com/chapters/pittsburgh"},
+{ :image => "womenwhocode.png", :name => "Women Who Code", :link => "https://www.womenwhocode.com/"},
+{ :image => "oreilly.png", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"},
 
 ]%>
 <%= make_sponsor_links(@msponsors) %>

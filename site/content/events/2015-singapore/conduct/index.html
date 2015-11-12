@@ -1,18 +1,19 @@
 ---
-title:  Conduct
+title: Conduct
+layout: event_singapore
+extension: html
 filter:
 - erb
 - markdown
 dirty: true
-layout: event_html5
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
 Please read the anti-harassment policy and code of conduct following the important contact information:
 
-* Email address for organizers: < <%= render(:partial => "/#{@eventhome}/_email_organizers") %>\>
-* Phone number for organizers: TBA 
-* Singapore Emergency Contact list: http://www.e101.gov.sg/learn_contacts.html
+* Email address for organizers: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+* Phone number for organizers: TBA
+* Singapore Emergency Contact list: [http://www.e101.gov.sg/learn_contacts.html](http://www.e101.gov.sg/learn_contacts.html)
 * Local law enforcement: Singapore Police Force - call 999
 * Sexual assault hotline: 1800 774 5935
 * Medical Emergency: Call 995
@@ -26,7 +27,7 @@ Please read the anti-harassment policy and code of conduct following the importa
     * Street Directory/Singapore Maps
     * bus@sg
 
-
+<a name="1"></a>
 ## ANTI-HARASSMENT POLICY
 
 DevOpsDays Singapore is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
@@ -43,6 +44,7 @@ Conference staff can be identified by distinct staff badges. Conference staff wi
 
 We expect participants to adhere to the code of conduct at all conference venues and conference-related social events.
 
+<a name="2"></a>
 ## CODE OF CONDUCT
 
 I. I am an attendee at DevOpsDays, learning from and sharing with other DevOpsDays attendees in an effort to better myself and my industry. I co-create the experience with fellow attendees. I am prepared to give my energy, presence and sensitivity to creating the best possible experience for myself and others.

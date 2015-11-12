@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Inga Höltmann
+title: "Power in the workplace and women in tech - interdependencies for successful alliances"
+---
+
+**Abstract:**
+
+When you look at working environments, different manifestations of power are
+omnipresent. Without power, work would probably not be done, at least not as
+efficient as we are used to it. But what exactly is power?
+
+There are different aspects to power and definitively no such thing as “good”
+or “bad” power, since both can be used in a good and in a not-so-good way.
+Furthermore, power is different to mere enforcement. And, if used in a wise
+way, power can be vital to organizations.
+
+I would like to be talking about different types of power and how power can be
+used for a collaborative working atmosphere, which empowers women and leads to
+more diverse teams. I will also stress the link between power and leadership
+and how both should interact to create sustainable, diverse and successful
+teams.
+
+
+**Speaker:**
+Inga Höltmann
+

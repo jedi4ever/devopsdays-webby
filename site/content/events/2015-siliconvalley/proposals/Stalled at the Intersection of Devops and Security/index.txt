@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 22
+title: "Stalled at the Intersection of Devops and Security"
+---
+
+**Abstract:**
+
+The majority of enterprises are very concerned about the security of the software they are developing, but how can they secure their software without slowing down their velocity - or put another way - how can they move past being stalled at the Intersection of DevOps and Security?
+In this talk we discuss
+1. Why are we stalled.
+2. Should we be securing our software supply chain and how would one do that?
+3. How do accelerate our application security scans?  Can they be continuous like our development?
+4. What other qualities are needed for our security tools to fit into a modern devops environment?
+
+**Speaker:**
+Speaker 22

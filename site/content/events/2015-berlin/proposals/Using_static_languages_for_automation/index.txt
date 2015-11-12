@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Ivan Kusalic
+title: "Using static languages for automation, a Scala case study"
+---
+
+**Abstract:**
+
+Scripting languages are commonly used to write automation code. Python
+and Ruby seem to be the default choices for the task. They are flexible
+and easy to work with. But often a problem arises as the code base
+grows: refactoring becomes harder and harder without the compiler
+support. As a consequence it becomes almost impossible to keeping the
+code clean and readable. Change the people working on the project and
+you easily end up in ... well ... hell.
+
+Is there another way? Can you gain the benefits of statically-typed
+languages without losing the development speed?
+
+To answer this question I'll present our journey of rewriting existing
+Ruby deployment tooling from scratch in Scala. This will include:
+* what were the problems with existing tooling
+* why did we decide to have a full rewrite
+* all the design-decisions we made and why
+* what were the problems and what we learned along the way
+
+The goal of the presentation is not to convince you to rewrite
+everything in Scala, nor to preach the benefits of static languages. It
+is simply to give you another perspective on the topic of tooling. Who
+knows, maybe you'll find some parts worth adopting to your situation.
+
+
+**Speaker:**
+Ivan Kusalic
+

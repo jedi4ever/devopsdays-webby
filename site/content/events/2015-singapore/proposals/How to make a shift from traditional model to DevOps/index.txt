@@ -1,0 +1,38 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Namrata Rao
+author_role: Software QA Lead at TreeBox solutions
+talk_title: How to make a shift from traditional model to DevOps?
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+DevOps is a recent addition and it is a common belief that hardcore followers of the traditional models such as Waterfall/Agile will be apprehensive to move to DevOps.
+
+So, my talk focuses on how this transition can be made smoothly and highlight the benefits of doing so.
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+My name is Namrata Rao & I work as a Software QA Lead in a Singapore startup organization - TreeBox solutions.
+
+I recently wrote [a LinkedIn post on DevOps](https://www.linkedin.com/pulse/devops-real-world-namrata-rao).
+
+I also presented about DevOps for the internal team at HP: [https://youtu.be/JM0P3868Bok](https://youtu.be/JM0P3868Bok).

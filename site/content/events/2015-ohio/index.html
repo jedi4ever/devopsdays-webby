@@ -1,0 +1,65 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Welcome
+layout: event
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<div style="text-align: center">
+    <table>
+        <tr>
+            <td>
+                <h3>Coming Soon: DevOpsDays Ohio 2015</h3>
+                <img src="gears_ohio.png" alt="" style="display: block; margin: 0 auto;"/>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <strong>Dates:</strong> November 18th &amp; 19th
+                <br/><br/>
+                <strong>Where:</strong> <a href="./location">The Bluestone, Columbus, Ohio</a>
+                <br/><br/>
+                <strong><a target="_blank"
+                           href="https://www.eventbrite.com/e/devopsdays-ohio-2015-tickets-17998431794?ref=estw">Register
+                    Here</a></strong>
+                <br/><br/>
+                <a href="./hotels">Hotel information</a>
+                <br/><br/>
+                From fledgling startups to established industry, the Midwest is home to a large, vibrant technology
+                community. Ohio in particular has been a flurry of activity in the past several years, drawing attention
+                from around the globe.
+                <br/><br/>
+                DevOpsDays Ohio will bring 300+ development, infrastructure, operations, InfoSec, management and
+                leadership professionals together to discuss the culture and tools to make better organizations and
+                products.
+                <br/><br/>
+                The event's schedule will consist of a mixture of single-track presentations, Ignite Talks, and the
+                "open space" format that DevOpsDays is known for.
+                <br/><br/>
+                We're thrilled to announce two of our keynote speakers:
+                <ul>
+                    <li>Carmen DeArdo - Nationwide Insurance - Build Technology Leader - - "The Nationwide DevOps
+                        Journey"
+                    </li>
+                    <li>Courtney Kissler - Nordstrom - Vice President of E-Commerce and Store Technologies -
+                        "Transforming to a Culture of Continuous Improvement"
+                    </li>
+                </ul>
+                <!--<br/><br/>-->
+                Please contact us if you'd like to <a href="./sponsor">sponsor the event</a>! It's a
+                great way to promote your organization.
+                <br/><br/>
+                Interested in giving a talk? See the <a href="./propose">proposal guidelines</a> and <a
+                    href="https://devopsohiocfp.herokuapp.com">submit a proposal</a>.
+                <br/><br/>
+                If you are interested in joining the planning committee or have general questions, feel free to
+                <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">email the organizers</a>.
+                <br/><br/>
+            </td>
+        </tr>
+    </table>
+</div>
+<hr>

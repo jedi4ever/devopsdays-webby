@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 63
+title: "Many Hands Make Light Work"
+---
+
+**Abstract:**
+
+Background: Each year at Legofest there is a pile of ~2,000,000 bricks.  This year I showed up with the idea of building a pyramid 4 ft on a side. (roughly 3ft tall).  This would mean ~20,000 bricks, repeatable processes and a team of willing strangers of all sizes, shapes, colors, skills and ages.
+
+I started out sitting next to the pile and getting to work alone.  Nobody was interested.
+I got a corner done and a few people would stop and look.
+When I got the base about 2/3 set (4ft x 4ft x 3 bricks high) two kids and their mother asked if they could help. So I explained the standards and needs.
+One kid (~3 years age) got hundreds of the right size/color of bricks)
+One kid (~8 years age) listen to how to start the next row up and got to work with his mom.
+I was able to focus on tying the entire base together.
+And then a couple more kids walked up and asked if they could help. And they worked to add more rows, asking for my expertise when we got to the corners.
+My role began to migrate from laying bricks to checking quality (esp at the corners)
+A 10 year old girl showed up with her mom to ask what we were doing.
+The girl not only laid bricks, but also policed the corners ensuring other kids did not try to rush through them and always having me check (wow, a developer who cares about quality!)
+Her mom brought 100's of the right size of brick.
+My role evolved to sitting in the pyramid, building and placing structural support.
+Our team grew.  At any given time we had about 10 people working. Many would come and go to engage in more interesting things.
+People took notice of the project and started to take pictures. Several kids started building replicas.
+A tall teenage boy showed up and became another boss.  The 10 year old girl (first boss) moved in to the pyramid to set supports and police quality
+My role evolved to managing the managers
+Another mom and her son sat down and asked what they could do.  But, there was no room.  Literally a dozen kids were vying for space to lay bricks
+I asked them to build from the top down with yellow bricks.
+My role temporarily changed back to brick layer/architect as I started the top and explained how to make it strong.
+What I learned:
+Open source projects require a myriad of different skill sets and talents to make them successful.  Attached are a couple of pics of the project in flight and finished.  Total time was about 4 hours.  20 kids, 7 adults made significant contributions.
+Building a culture of cooperation was core to the success.  Blamelessness was hard to teach to young kids!
+Sometimes you cannot automate, when you cannot process and quality checking early and often are good substitutes
+Lean principles apply - Check quality early and often.  This is especially true in key areas (corners)
+Measurement was critical to success. Ensuring the base was perfect, carefully counting out the number of bricks. Calculating the weight of the top were all critical to the success of the project.
+Sharing my expertise to the joy of random kids and their parents was very rewarding.
+
+**Speaker:**
+Speaker 63

@@ -1,0 +1,46 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Steve Sloka
+title: "Application Orchestration with Kubernetes"
+
+---
+
+**Abstract:**
+
+How to take an app from your laptop to production utilizing the future of
+container orchestration. It’s difficult to say with confidence that your app
+will work in production without testing it, many people today have very complex
+scripts which out outline deployment, testing and validation, and often rely on
+late night pager calls and very brittle rollback scenarios. Additionally,
+developers struggle with developing software on different platforms and SDK
+versions that are hard to make consistent which results in different builds and
+exceptions which are hard to resolve. We can finally stop saying, 'it works on
+my machine' phrase since it will work the same on every machine. Other processes
+in the past have attempted to solve the problem but are brittle and take time to
+build out environments.
+
+This talk will outline the process of how to deploy an app locally in
+`docker-compose`, then scale it out to multiple servers running Kubernetes. From
+there, the audience will see how to scale the app to achieve performance, manage
+failures, debug, and understand best practices.
+
+Containers are a great way to package, build, run and deploy apps and Docker has
+make that practice very simple, however, it’s only really works well on a single
+host. With the learnings from Google, Kubernetes is the open source container
+orchestration offering which builds on Google's current infrastructure learnings
+that we all can use in an Open Source model.
+
+**Speaker:**
+Steve Sloka
+
+Steve Sloka is a Software Engineer from Pittsburgh, PA, currently working at
+UPMC Enterprises as a Software Architect working to deliver healthcare solutions
+to help patients and their caregivers.

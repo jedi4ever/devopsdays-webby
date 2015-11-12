@@ -5,13 +5,19 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}' target='_blank'><img border=0 alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "rbn_logo_orange_100x100.png", :name => "Right Brain Networks", :link => "http://www.rightbrainnetworks.com/"},
+{ :image => "pivotal_298x298.png", :name => "Pivotal", :link => "http://pivotal.io/"},
+{ :image => "sumologic.jpg", :name => "Sumo Logic", :link =>"http://www.sumologic.com/"},
+{ :image => "chef.svg", :name => "Chef", :link=>"https://www.chef.io/"},
+{ :image => "newrelic_large.png", :name => "New Relic", :link=>"https://www.newrelic.com/"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link=>"https://www.thoughtworks.com/"},
+{ :image => "github.png", :name => "GitHub", :link=>"https://www.github.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -23,6 +29,10 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "yelp_logo_100x100.png", :name => "yelp", :link => "https://www.yelp.com"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link=>"https://www.pagerduty.com/"},
+{ :image => "message_blocks_logo_100x100.png", :name => "Message Blocks", :link => "https://www.messageblocks.com"},
+{ :image => "victorops.png", :name => "VictorOps", :link=>"https://victorops.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -34,6 +44,8 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+{ :image => "parasoft_100x100.png", :name => "Parasoft", :link=>"https://www.parasoft.com/"},
+{ :image => "proquest_100x100.jpg", :name => "ProQuest", :link=>"http://www.proquest.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -42,8 +54,22 @@ end
 
 <br/>
 <br/>
+<h1>Party sponsors</h1>
+
+<% @partysponsors = [
+] %>
+<%= make_sponsor_links(@partysponsors) %>
+<br />
+<% if @partysponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a>
+<% elsif @partysponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a><% end %>
+
+<br/>
+<br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "stream_detroit_alt_100x100.png", :name => "Stream Detroit", :link => "http://www.streamdetroit.com/"},
+{ :image => "oreilly.png", :name => "O'Reilly", :link =>"http://www.oreilly.com/"},
+{ :image => "itinthed_logo_100x100.png", :name => "IT in the D", :link =>"http://www.itinthed.com/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />

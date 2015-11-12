@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Engin Yöyen
+title: "Infrastructure as code - Ansible, how to make your life easier!"
+---
+
+**Abstract:**
+
+In this presentation we would like to show how to use Ansible in an
+effective way to solve problems such as infrastructure testing, continous
+integration for infrastructure, staging as well as some of the best
+practices of how to use Ansible. Ansible is a very easy to use and learn,
+but just because of this it is very often used badly. If infrastructure is
+code, than this code must be treated with same care and standards as other
+software. Therefore we will not only be focusing on the solution but the
+quality of the solution as well.
+
+
+In our presentation, we will show:
+
+- how to test the infrastructure
+- how to use continuous integration for infrastructure code
+- how to handle staging
+- Ansible roles : how to handle internal roles and open source roles?
+- Infrastructure code : how to turn everything in to variables
+
+
+**Speaker:**
+Engin & Adham
+

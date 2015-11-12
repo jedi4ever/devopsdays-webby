@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 26
+title: "Securing the Heart of Automated Infrastructure"
+---
+
+**Abstract:**
+
+Our configuration management tools are a key part of our automated infrastructure and keeping it running. So when caring for the heart of automation operations, it’s important to make sure they aren’t exposed to dangerous elements. How do we do that? And how does that work, especially on prepping with new installs/migrations? My aim is to answer those questions, exploring the setup of a configuration management system with a mind’s eye into security and it’s principles, including stories about CloudPassage’s setup with Enterprise Chef Server and the hurdles faced.
+
+**Speaker:**
+Speaker 26

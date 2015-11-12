@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Pere Urbon-Bayes
+title: "Logstash - The state of the union"
+---
+
+**Abstract:**
+
+With the release of 1.5, Logstash has been going throw a big reshaped, and
+some very nice features were added such as the plugin ecosystem, a set of
+highly demanded plugins ( such as Apache Kafka, CouchDB, RabbitMQ, etc )
+and much more.
+
+In this talk, we will walk you through the new features in the Logstash
+1.5.x branch and how they can help you with your log processing
+infrastructure. We’ll answer questions like “why a new plugin ecosystem?”,
+“How should I adapt to the changes?”, “how is Logstash 1.5 faster than
+1.4.2?”, “why do I need an Apache Kafka plugin?”, etc. We’ll also review
+the upcoming improvements in next releases and how this will benefit your
+monitoring infrastructure.
+
+**Speaker:**
+Pere Urbon-Bayes
+

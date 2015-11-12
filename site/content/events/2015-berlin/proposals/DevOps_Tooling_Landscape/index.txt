@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Joris De Winne
+title: "DevOps Tooling landscape"
+---
+
+**Abstract:**
+
+On a regular basis the question is asked what's the best
+DevOps tool? Although finding a tool shouldn't be your primary focus,
+you'll probably need some. With many people still looking for a *silver
+bullet* regarding DevOps, this talk covers the different kind of tooling
+that is available for DevOps and focuses on bad practices and good
+practices on using these tools.
+
+Schedule:
+<ol>
+<li>The tooling isn't your biggest problem!
+<li>Doing Agile
+<li>Continuous Integration
+<li>Automated Provisioning
+<li>Automated Deployments
+<li>Automated Testing
+<li>Orchestration
+<li>And monitoring, security, ...
+</ol>
+**Speaker:**
+Joris De Winne
+

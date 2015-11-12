@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 52
+title: "VP Mindmelds - Lessons learned"
+---
+
+**Abstract:**
+
+This talk covers why enterprise companies adopt buzzwords but do the same old stuff, and how to avoid that.  DevOps is no longer just a movement - it’s a hiring buzzword. Generate a self-generating organization within a larger enterprise by performing a Vulcan Mindmeld with your Engineering VP.  Includes Jedi Mind-tricks, Reverse Psychology and how to get out of the way when people are in yours!
+
+**Speaker:**
+Speaker 52

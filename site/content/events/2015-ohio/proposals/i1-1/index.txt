@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Adam Luck
+title: "Automating Threat Detection and Intelligence"
+---
+
+**Abstract:**
+
+Security Administrators tend to be short on resources. There never seems to be enough hours in the day and the budget always seems to fall a little short. Fortunately there are a number of ways that corporations can leverage open source intelligence and automation to detect threats against your organization.
+
+**Speaker:**
+Adam Luck

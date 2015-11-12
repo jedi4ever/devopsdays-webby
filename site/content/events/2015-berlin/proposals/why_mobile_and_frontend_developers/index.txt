@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: James Nocentini
+title: "Why mobile and front-end developers will love you for having continuous deployment and integration set up"
+---
+
+**Abstract:**
+
+Deploying the back-end architecture to support a mobile application can be a
+daunting and repetitive task but thanks to different tools such as Docker and
+Tutum we can automate that process into a deployment pipeline. That is, you
+only have to set it up once and then it will automatically re-deploy the app to
+a staging or production server when new commits are detected in a particular
+GitHub repository. But how far do you have to go to keep your team happy?
+
+This will not only make your life as the DevOps easier but also your whole team
+happier. This lightning talk will focus on the team dynamics and how to keep
+mobile and front-end developers happy and less on the technical aspect of the
+task at hand.
+
+
+**Speaker:**
+James Nocentini
+

@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Florian Thiel
+title: "Move fast! Break stuff! Oh, wait!"
+---
+
+**Abstract:**
+
+In the old days, everything in Ops land was about control.
+
+Now, developers try to take over, introducing every hype technology they
+come across, burning bridges where they find them, revelling in the
+self-created chaos. Speed increases, resilience increases, everything is
+automated. But is it really? Can you re-create all your services? Even
+when people leave?
+
+A call for responsible technology use and automation
+
+**Speaker:**
+Florian Thiel
+

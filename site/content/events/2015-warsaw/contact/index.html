@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Contact
+dirty: true
+layout: event_warsaw
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@page.directory) %>
+
+Feel free to contact the organisers by e-mail at: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+
+More contact forms <a href="http://devopsdays.pl/contact/">see our website</a>.
+
+** Our local team: **
+
+<%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+** The core DevOpsDays organizer group: **
+
+<%= render(:partial => "/contact/_team_global") %>

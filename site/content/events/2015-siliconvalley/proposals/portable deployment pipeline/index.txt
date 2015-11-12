@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 48
+title: "portable deployment pipeline"
+---
+
+**Abstract:**
+Walter (github.com/walter-cd/walter) is a tiny tool for executing
+deployment pipelines (such as automated build workflows) in Continuous
+Integration / Delivery (CI / CD).
+
+When managing a CI environment with Jenkins, we commonly use some sort of
+build pipeline plugins such as build pipeline-plugin to define deployment
+flows and execute the tasks in the flow one by one.
+
+Although these Jenkins plugins are useful to manage and control CI, we
+still have the following problems in the deployment of our services.
+
+- None of us is able to run build pipeline without our Jenkins server
+- No one is able to check if the pipeline works until starting the CI
+jobs in the Jenkins server
+- We feel the difficulties to migrate the build pipeline settings to
+other CI environments
+
+Although we have built our system that maintains the servers settings
+with configuration files of Chef or Ansible in the Git repositories, only
+the deployment pipeline settings are still in Jenkins server… Of course
+Modern CI services such as Travis-ci or Wercker provide the solution to
+this problem. Unfortunately, we can’t execute these services locally.
+
+To manage the deployment settings with the local repositories, we have
+developed a tiny deployment workflow engine in Golang.
+
+At DevOpsDays, I would like to talk about how walter solves the problems
+around the deployment systems. The session also covers use cases of
+walter in the combination with other tools such as Docker. ref:
+[http://]ainoya.io/docker-android-walter .
+
+**Speaker:**
+Speaker 48

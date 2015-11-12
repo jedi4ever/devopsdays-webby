@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 27
+title: "Performance Metrics Driven Continuous Delivery"
+---
+
+**Abstract:**
+A deployment pipeline speeds up the process of delivering new software releases, and automated testing is a key component to make sure we deliver releases that actually work. However, often only functional aspects are checked in those tests, and a lack of focus on non-functional properties like performance means we end up delivering slow software to end users.
+
+In this talk we show you how to automatically capture key performance and scalability metrics (# of resources on a page, # of SQL queries, time spent in component, …) about your application in every step of the deployment pipeline. Looking at these metrics across all stages and comparing them between builds allows you to decide whether a build should be pushed all the way into production or better back to engineering to fix performance, architectural or scalability problems.
+
+**Speaker:**
+Speaker 27

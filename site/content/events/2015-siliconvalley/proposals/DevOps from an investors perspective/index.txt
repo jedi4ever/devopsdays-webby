@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 8
+title: "DevOps from an investor's perspective"
+---
+
+**Abstract:**
+Investors - like VCs and strategy planners inside companies - are starting to hear about DevOps and are curious how they might profit from it. This talk is a DevOpsDays version of what those investors want to know, explaing how they view emerging markets like DevOps and evaluate investment into the markets. It contains a "case" for evaluating investments in DevOps, covering the viablity of DevOps from their perspective and possible ways that "DevOps" could effect the models and valuations that investors are performing. The question being answered is: "should I invest in DevOps? Does that even make sense?"
+Background: This distills down some of the consulting work that I've done on this topic and am sometimes asked to do. The topic came up again recently and it looks like I'll be putting together a talk on it, so I thought I'd try to make a version that I could share publicly as well.
+
+**Speaker:**
+Speaker 8

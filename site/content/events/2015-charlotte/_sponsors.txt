@@ -1,0 +1,87 @@
+---
+filter:    erb
+---
+
+<%
+def make_sponsor_links(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<% @gsponsors = [
+{ :image => "gearstream.png", :name => "Gearstream", :link => "http://www.gearstream.com/"},
+{ :image => 'victorops.png', :name => 'VictorOps', :link => 'https://victorops.com/'},
+{ :image => 'pivotal.png', :name => 'Pivotal', :link => 'http://www.pivotal.io'},
+{ :image => 'sumologic.png', :name => 'Sumo Logic', :link => 'https://www.sumologic.com/'}
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+<br />
+<% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
+<% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Silver sponsors</h1>
+
+<% @ssponsors = [
+{ :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
+{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"},
+{ :image => "arista.png", :name => "Arista Networks", :link => "http://www.arista.com/en/"},
+{ :image => "belk.png", :name => "Belk", :link => "http://www.belk.com"},
+{ :image => "fastly.png", :name => "Fastly", :link => "http://www.fastly.com"},
+{ :image => "rv.png", :name => "Red Ventures", :link => "http://www.redventures.com"},
+] %>
+<%= make_sponsor_links(@ssponsors) %>
+<br />
+<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
+<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Bronze sponsors</h1>
+
+<% @bsponsors = [
+{ :image => "transloc.png", :name => "TransLoc", :link => "http://www.transloc.com/"},
+{ :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
+] %>
+<%= make_sponsor_links(@bsponsors) %>
+<br />
+<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
+<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Design sponsors</h1>
+
+<% @dsponsors = [
+{ :image => "seismic.png", :name => "Seismic", :link => "http://www.thinkseismic.com"},
+] %>
+<%= make_sponsor_links(@dsponsors) %>
+<br />
+<% if @dsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Design  Sponsor!</a>
+<% elsif @dsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Design Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Media sponsors</h1>
+<% @msponsors = [
+{ :image => 'ado.png', :name => 'ADO', :link => 'http://arresteddevops.com'},
+{ :image => 'oreilly.png', :name => "O Reilly", :link => 'http://www.oreilly.com/'},
+] %>
+<%= make_sponsor_links(@msponsors) %>
+<br />
+<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
+<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Community sponsors</h1>
+<% @csponsors = [
+{ :image => 'triangle.png', :name => 'Triangle DevOps', :link => 'https://twitter.com/TriangleDevOps'}
+] %>
+<%= make_sponsor_links(@csponsors) %>
+<br />
+<% if @csponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a>
+<% elsif @csponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a><% end %>

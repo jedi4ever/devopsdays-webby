@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 49
+title: "OpsDev 4 Life!"
+---
+
+**Abstract:**
+
+When you work for a large corporation, it's almost very common to divide your workforce into siloed specializations to get work done "fast" -- mainly Operations and Development.  Having lived on both sides of the fence as a production engineer and as a developer, this presentation will discuss the mindset of each workforce, how each group can learn from each other, and the need for an OpsDev -- Someone that cares to build in operability features into the product.
+
+This presentation is for the aspiring Production Engineer, Service Engineer, Service Reliability Engineer or any one in operations. Its also the developer wanting to make sure your service is well made and more resilient.
+
+**Speaker:**
+Speaker 49

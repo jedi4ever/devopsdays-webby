@@ -1,27 +1,20 @@
-<div style="height:350px;" id="quicklinks">
-<table>
-
-<tr>
-<div style="display:table-cell; vertical-align:top">
-     <div style="margin:4px;">
-      <strong>2015</strong><br/>
-      <a href="/events/2015-minneapolis/">Minneapolis - July 2015</a><br/>
-      <a href="/events/2015-melbourne/">Melbourne - July 2015</a><br/>
-      <a href="/events/2015-pittsburgh/">Pittsburgh - August 2015</a><br/>
-      <a href="/events/2015-chicago/">Chicago - August 2015</a><br/>
-      <a href="/events/2015-bangalore/">Bangalore - September 2015</a><br/>
-      <a href="/events/2015-boston/">Boston - September 2015</a><br/>
-      <a href="/events/2015-telaviv/">Tel Aviv - October 2015</a><br/>
-      <a href="/events/2015-perth/">Perth - October 2015</a><br/>
-      <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
-      <a href="/events/2015-singapore/">Singapore - October 2015</a><br/>
-      <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
-      <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
-      <a href="/events/2015-singapore/">Singapore - 2015</a><br/>
-      <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
-      <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
-</div>
-  </tr>
-
-</table>
+<div style="height:550px;" id="quicklinks">
+  <table>
+    <tr>
+      <td>
+        <strong>2015</strong><br/>
+        <a href="/events/2015-detroit">Detroit - Nov 11 & 12</a><br/>
+        <a href="/events/2015-ohio/">Ohio - Nov 18 & 19</a><br/>
+        <a href="/events/2015-warsaw/">Warsaw - Nov 24 & 25</a><br/>
+        <br/><strong>2016</strong><br/>
+        <a href="/events/2016-kiel/">Kiel - May 12 & 13 2016</a><br/>
+        <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
+        <a href="/events/2016-saltlakecity/">Salt Lake City - 2016</a><br/>
+        <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21 2016</a><br/>
+        <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
+        <a href="/events/2016-philadelphia/">Philadelphia - 2016</a><br/>
+        <a href="/events/2016-london/">London - 2016</a><br/>
+      </td>
+    </tr>
+  </table>
 </div>

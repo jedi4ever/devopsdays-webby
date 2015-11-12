@@ -10,6 +10,11 @@ end
 %>
 
 <% @gsponsors = [
+{ :image => "bmc.png", :name => "BMC Software", :link => "http://www.bmc.com"},
+{ :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
+{ :image => "g2.png", :name => "G2 Technology Group", :link => "http://www.g2techgroup.com"},
+{ :image => "logz.png", :name => "Logz.io", :link => "http://on.logz.io/1UnbUiM"},
+{ :image => "cimpress.png", :name => "Cimpress", :link => "http://cimpress.com/"},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -21,18 +26,32 @@ end
 <% end %>
 
 <% @ssponsors = [
+{ :image => "conjur.png", :name => "Conjur", :link => "http://www.conjur.net/"},
+{ :image => "puppetlabs.jpg", :name => "Puppet Labs", :link => "http://www.puppetlabs.com"},
+{ :image => "xebia.png", :name => "Xebialabs", :link => "https://xebialabs.com/"},
+{ :image => "nutanix.png", :name => "Nutanix", :link => "http://www.nutanix.com/"},
+{ :image => "appneta.png", :name => "AppNeta", :link => "http://www.appneta.com/"},
+{ :image => "booz_allen_hamilton.png", :name => "Booz Allen Hamilton", :link => "http://www.boozallen.com/"},
 ]%>
 
-<% unless @ssponsors.empty?  %><h1>Silver sponsors</h1><% end %>
+<% unless @ssponsors.empty?  %><h1>Gold sponsors</h1><% end %>
 
 <% @ssponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
 <% @bsponsors = [
+{ :image => "athenahealth.png", :name => "athenhealth", :link => "http://www.athenahealth.com"},
+{ :image => "battery_ventures.png", :name => "Battery Ventures", :link => "https://www.battery.com/"},
+{ :image => "brainshark.png", :name => "brainshark", :link => "http://www.brainshark.com/"},
+{ :image => "rackspace.png", :name => "Rackspace", :link => "http://www.rackspace.com/"},
+{ :image => "constantcontact.png", :name => "Constant Contact", :link => "http://www.constantcontact.com/"},
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "https://www.sumologic.com/"},
+{ :image => "motus.png", :name => "Motus", :link => "http://www.motus.com/"},
+{ :image => "victorops.png", :name => "VictorOps", :link => "https://victorops.com/"},
 ]%>
 
-<% unless @bsponsors.empty?  %><h1>Bronze sponsors</h1><% end %>
+<% unless @bsponsors.empty?  %><h1>Silver sponsors</h1><% end %>
 
 <% @bsponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>

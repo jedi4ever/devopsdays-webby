@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Jenna Pederson
+title: "Stop Blogging About Women In Tech"
+---
+
+**Abstract:**
+
+Stop blogging about women in tech; start doing something about it.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/ku3O4HnMXrM?start=60&end=366" frameborder="0" allowfullscreen></iframe>
+
+**Speaker:**
+Jenna Pederson
+

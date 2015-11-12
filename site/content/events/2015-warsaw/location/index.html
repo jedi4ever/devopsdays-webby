@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Location
+dirty: true
+layout: event_warsaw
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+### Conference Location
+
+DevOpsDays Warsaw 2015 will be held in <b><a href="http://devopsdays.pl/venue/" target="_blank">Gromada Hotel Airport</a></b><br>
+
+<strong>Gromada Warsaw Airport Hotel ***</strong> <br/>
+17 Stycznia Street No. 32<br/>
+02 - 148 Warsaw<br/>
+<hr><br/>

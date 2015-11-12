@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 62
+title: "The 10 best golang security tips you'll evar hear!"
+---
+
+**Abstract:**
+
+Yesterday the developer community was all about Javascript and node, and today everyone's talking about "Go", and perhaps writing applications and services in your enterprise using Go. In this talk, I'll cover practical advice to build more secure applications written in Golang, and cover best practices that all developers should be adhering to when building go apps.
+
+Unlike ALL the other talks, you don't have to wait till Devopsdays SV 2015 to listen to this talk. As a part of the abstract, the 1st tip is free!
+
+Best Golang security tip evar #1: use crypto/rand to generate secure random numbers
+Remember when all your developers kept using java.util.Random and didn't realize it wasn't a secure random number? Well, golang makes this mistake a lot harder to make. A quick google search on "secure random number in golang" only gives you 1 result- use crypto/rand. The creators of Go realized that developers kept making this mistake, and added 1 solid way to generate random numbers. This lessened the need for other developers to create their own homebaked secure random number generators, and avoid vulnerabilities.
+
+**Speaker:**
+Speaker 62

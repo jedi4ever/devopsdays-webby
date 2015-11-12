@@ -1,0 +1,68 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Markus Krogemann
+title: "From Hero to Zero - DevOps at Kuehne + Nagel KN Freightnet"
+---
+
+**Abstract:**
+
+So you work in a startup, the field is green and you aim for Continuous
+Delivery and Zero-Downtime Deployments. Of course you do, anything else would
+just be foolish!
+
+But what if not?
+
+Let's say you work in a large, globally distributed Enterprise environment,
+with a long company history (including an IT history), organically grown
+systems, lots of heritage (aka legacy) and a "traditional" IT organisation,
+where some folks do Software Development while others do what is known as
+"Ops".
+
+How can Continuous Delivery and DevOps practices become a reality in such a
+context?  How do you start a successful Change Initiative, and - even more
+importantly - how do you make it stick?
+
+This talk will be an experience report that focuses on the second and arguably
+more difficult scenario.
+
+It will present a journey taken at Kuehne + Nagel, a global leader in
+transportation services - with more than 60.000 employees, hundreds of offices,
+distributed teams and millions of transports serviced around the globe each
+year.
+
+We will go back in time a few years: Where was Kuehne + Nagel five years ago
+and what is the situation today?  Spoiler Alert: Yes, Continuous Delivery is
+now a reality and Zero Downtime Deployments have made releases a Non-Event (we
+all miss the parties).
+
+We will mention some tools and techniques in passing. However: The focus of
+this talk will be different:
+
+- What influence can experienced developers and leaders have for a successful outcome?
+- How can management and IT support the effort - how to engage the business side?
+- What is the mindset that you want to share and how can hiring and coaching play out in favour of the expected change?
+
+Among the properties that distinguish this change initiative from some others
+may be the following:
+
+- Less disruptive - more evolutionary
+- Don't try to change the world all at once
+- Understand the realities of "Ops" life in a complex and grown environment
+- Make sure you take everybody along and make it a shared success
+
+We will end the talk with the latest and greatest of what we have achieved so
+far, an outlook into the future and some honest statements about the pains that
+still remain.
+
+
+**Speaker:**
+Markus Krogemann, Sascha Krüger
+

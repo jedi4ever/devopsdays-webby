@@ -1,51 +1,50 @@
 ---
+title: 'Welcome!'
+layout: event_singapore
 extension: html
-layout: event_html5
 filter:
 - erb
 - markdown
-title: 'Welcome!'
 dirty: true
-platinum: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-<div style="text-align:center;">
-  <img alt="DevOpsDays Singapore 2015" src="./logo.png"/>
-</div>
+<h1>That's a wrap! DevOpsDays Singapore was amazing!</h1>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/devopsdayssg/22165830280/in/dateposted/" title="DevOps2015_SG-7889"><img src="https://farm1.staticflickr.com/646/22165830280_c7ff55bfb6.jpg" width="100%" alt="DevOps2015_SG-7889"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 <table>
   <tr>
-    <td><b>Date</b></td>
-    <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
-  </tr>
-  <tr>
-    <td style="vertical-align:top"><b>Location</b></td>
-    <td>Raffles City Convention Centre<br>
-Fairmont Singapore & Swissôtel The Stamford<br>
-80 Bras Basah Road | Singapore 189560 | Singapore<br>
-<a href="/<%= @eventhome %>/location/">Map</a></td>
-  </tr>
-  <tr>
-    <td><b>Speakers</b></td>
-    <td><a href="/<%= @eventhome %>/propose/">Call for proposals is open!</a></td>
-  </tr>
-  <tr>
-    <td><b>Program</b></td>
-    <td>Check out current <a href="/<%= @eventhome %>/program/">program</a>.</td>
-  </tr>
-  <tr>
-    <td><b>Sponsors</b></td>
-    <td>If your interested in sponsoring the first DevOpsDays in Singapore, please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Interested in Sponsoring 2015 DevOpsDays Singapore">email us</a></td>
-  </tr>
-  <tr>
-    <td><b>Contact</b></td>
-    <td><a href="/<%= @eventhome %>/contact/">Get in touch with the Organizers</a>.</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td><a href="https://twitter.com/devopsdaysSG" class="twitter-follow-button" data-show-count="false">Follow @devopsdaysSG</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <td style="width: 295px; vertical-align: top;">
+      <img alt="DevOpsDays Singapore 2015" src="./singapore-2015-logo-web.png" width="100%" />
+    </td>
+    <td>
+      <p>Date: <%= render(:partial => "/#{@eventhome}/_target_date") -%></p>
+      <p>Recap the <a href="https://www.youtube.com/playlist?list=PLpWsyYqY_ehl-U2r0zhi8WoJofHJpGHX8">talks on YouTube!</a></p>
+      <p>Take a look at <a href="https://speakerdeck.com/devopsdayssg">the slides</a> and <a href="https://www.flickr.com/photos/devopsdayssg/">pictures</a>!</p>
+      <p><a href="https://twitter.com/DevOpsDaysSG">Follow us on twitter for updates.</a></p>
+      <p><a href="https://ti.to/devopsdays-singapore/2016">Get announcements for upcoming events!</a></p>
+      <p><a href="/<%= @eventhome %>/contact/">Email the Organizers</a></p>
     </td>
   </tr>
 </table>
+
+<a name="reactions"></a>
+# What others say
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Belated thanks to the organizers of <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a> for putting on a great, well executed show. Looking forward to next year!</p>&mdash; Robbie Honerkamp (@rjhatl) <a href="https://twitter.com/rjhatl/status/656809722863972352">October 21, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en" data-cards="hidden"><p lang="en" dir="ltr">Thanks for the invite to speak at <a href="https://twitter.com/hashtag/devopsdays?src=hash">#devopsdays</a>!  The <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a> and <a href="https://twitter.com/dreamsergiu">@dreamsergiu</a> did an awesome job organizing!&#10;&#10; <a href="https://t.co/SDLIQF2dnb">https://t.co/SDLIQF2dnb</a></p>&mdash; Jason K Jackson (@jasonkjackson) <a href="https://twitter.com/jasonkjackson/status/655401072408719360">October 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Thanks for having me today at <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a>! Organizing is hard and you pulled it off :)</p>&mdash; Thomas Gorissen (@serrynaimo) <a href="https://twitter.com/serrynaimo/status/655317776790261761">October 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a> finished, now real work beginning digesting and implementing what was learned and experienced <a href="https://twitter.com/hashtag/devopsdays?src=hash">#devopsdays</a></p>&mdash; Ion Mudreac (@mudrii) <a href="https://twitter.com/mudrii/status/655312167130951680">October 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">A great way to end the conference by talking about how to do it better! Kudos to the organisers! <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a></p>&mdash; Vignesh (@rvignesh89) <a href="https://twitter.com/rvignesh89/status/655298630279036928">October 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Great turn out for day two at <a href="https://twitter.com/hashtag/devopsdays?src=hash">#devopsdays</a> <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a></p>&mdash; Trent Hornibrook (@mysqldbahelp) <a href="https://twitter.com/mysqldbahelp/status/655205174412255232">October 17, 2015</a></blockquote>
+
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Awesome discussion from the panel at <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a> : unikernels, culture, agility, etc... <a href="https://twitter.com/hashtag/devops?src=hash">#devops</a> <a href="http://t.co/SIt31n0Qv7">pic.twitter.com/SIt31n0Qv7</a></p>&mdash; Herdy Handoko (@_hhandoko) <a href="https://twitter.com/_hhandoko/status/655269816933089281">October 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/jasonkjackson">@jasonkjackson</a> I sure will the way I&#39;ve learned a lot in <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a> 2015. Thanks! <a href="https://twitter.com/hashtag/devopsdays?src=hash">#devopsdays</a></p>&mdash; Nap Ramirez (@napramirez) <a href="https://twitter.com/napramirez/status/655256337660510208">October 17, 2015</a></blockquote>
+
+
+<blockquote class="twitter-tweet" lang="en" data-cards="hidden"><p lang="en" dir="ltr">Finally,did my first <a href="https://twitter.com/hashtag/ignite?src=hash">#ignite</a> session at <a href="https://twitter.com/hashtag/devopsdayssg?src=hash">#devopsdayssg</a> Thanks again <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a> for the opportunity! <a href="http://t.co/ZKLwZdGuFW">pic.twitter.com/ZKLwZdGuFW</a></p>&mdash; Namrata Rao (@NamrataRao1502) <a href="https://twitter.com/NamrataRao1502/status/655257423385522177">October 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Awesome content <a href="https://twitter.com/devopsdaysSG">@DevOpsDaysSG</a> looking forward for more <a href="https://twitter.com/hashtag/devopsdays?src=hash">#devopsdays</a></p>&mdash; Ion Mudreac (@mudrii) <a href="https://twitter.com/mudrii/status/655222647664414721">October 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The first day of <a href="https://twitter.com/hashtag/devopsdaysSG?src=hash">#devopsdaysSG</a> was great, well done <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a></p>&mdash; Stefan (@s_streichsbier) <a href="https://twitter.com/s_streichsbier/status/654996845588942848">October 16, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Enjoyed the first day of <a href="https://twitter.com/devopsdaysSG">@devopsdaysSG</a> with great open space sessions. Kudos to the organizing team for bringing together like minded folks.</p>&mdash; Angad (@angadsg) <a href="https://twitter.com/angadsg/status/654959945910095872">October 16, 2015</a></blockquote>

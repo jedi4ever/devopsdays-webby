@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Jason Walker
+title: "Empathy, Fairness, and Contentment"
+---
+
+**Abstract:**
+
+Empathy, Fairness, and Contentment
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/ku3O4HnMXrM?start=1370&end=1691" frameborder="0" allowfullscreen></iframe>
+
+
+**Speaker:**
+Jason Walker

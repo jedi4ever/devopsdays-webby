@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Derya Sezen
+title: "Extreme Agility: DevOps"
+---
+
+**Abstract:**
+
+4 Iterations will be run by dividing the attendees into teams and
+teams will be asked to progress towards an automated deployment pipeline in
+each Sprint, providing new requirements as a Product Owner
+
+Agenda:
+
+- Continuous Integration
+
+- Version Control Culture
+
+- Configuration Strategies
+
+- Deployment Pipeline
+
+- Continuous Delivery and Deployment
+
+- Dev vs. Ops
+
+- Test Strategies
+
+Link:
+http://prezi.com/ts-vqyi1mfty/?utm_campaign=share&utm_medium=copy&rc=ex0share
+
+
+**Speaker:**
+Derya Sezen
+

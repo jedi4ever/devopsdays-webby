@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 56
+title: "How early DevOps investment greased the wheels of acquisition for Niche.co"
+---
+
+**Abstract:**
+
+Niche.co invested early in DevOps and during the acquisition we were presented with hundreds of due diligence questions as well as thrust into SOX compliance requirements shortly after the acquisition. These questions and requirements were 90% covered by the early investment in DevOps and using the DevOps disciplines, mindset, and processes early on in the company.
+
+I would love to discuss and present examples of how subscribing to DevOps practices automatically builds in resiliency, checks & balances, reproducibility, system and user auditing, and more. I will also explore how implementing DevOps early on takes away the strain of growing and scaling quickly and how experimentation and new technologies are less scary for the entire team and management.
+
+**Speaker:**
+Speaker 56

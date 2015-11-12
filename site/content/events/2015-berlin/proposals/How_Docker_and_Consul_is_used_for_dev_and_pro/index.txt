@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Jan de Cooman
+title: "How Docker and Consul is used for development and production"
+---
+
+**Abstract:**
+
+DevOps and automation go hand in hand. We automated each step from the
+source code to the hosting facility with GoCD and Docker. Even the build
+process is completely dockerized and can run everywhere. We do not only
+build Java artifacts anymore. Our deliverables at the end of the build
+process are Docker images. This allows us to be language-, technology- and
+platform-agnostic. The images which are generated are tested in the
+pipeline too. To accomplish this we spin up a smaller version of the
+production environment on the fly. As those infrastructure instances are
+ephemeral and dynamic, we use Consul as the service directory for this
+environment. We make no difference between test and production
+environments. When tests are completed successfully, the image is
+automatically deployed to the hosting facility. This strategy offers even
+more benefits. It's allows the developers to develop and test code in the
+production environment. This way of working improved and revolutionized the
+complete development-, build- and rollout-process.
+
+We will show and talk about this process, how we got rid of properties, are
+hoster-agnostic and used the same images for development and production.
+
+**Speaker:**
+Jan de Cooman
+

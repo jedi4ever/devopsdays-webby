@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Marcelo S. Ancelmo
+title: "Agile and DevOps for Services - Making your SOA Agile"
+---
+
+**Abstract:**
+
+In this presentation we will talk about fast development
+cycles, incremental change, continuous deployment of new functionality and
+how to enhance the communication, visibility and collaboration between
+development and operation teams. Based on this will be presented how to
+apply agile disciplines for services development and how this disciplines
+naturally aligns and leverages the DevOps principles. It will be shown what
+are the strategies you should use during development and what kind of tools
+are needed to create a continuous integration, delivery and deployment
+environment to allow a massive increase of productivity, visibility and
+traceability within the development life cycle of the services.
+
+
+**Speaker:**
+Marcelo S. Ancelmo
+

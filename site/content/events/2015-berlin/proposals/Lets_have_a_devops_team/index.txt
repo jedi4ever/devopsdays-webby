@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Alexander Schwartz
+title: "Let's have a DevOps team!"
+---
+
+**Abstract:**
+
+Can it help your organization to create DevOps teams? This is a quite
+controversial question. One one hand many experts are not tired to point out
+there should not never ever be such a thing as a DevOps team. On the other hand
+many organization try out to form DevOps teams, at least as an intermediate
+step of a long-term transformation of their organizational structure.
+
+I am a guy who formed such a DevOps team inside an enterprise, and over the
+course of four years we had the chance to learn a lot. In this talk we cover
+the advantages — how this helped our organization on its journey to become more
+agile — as well as the disadvantages and challenges.
+
+
+**Speaker:**
+Alexander Schwartz
+

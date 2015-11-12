@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: "Cheffing a department, one Dev at a time"
+proposal: true
+dirty: true
+talk: false
+ignite: true
+open_space: false
+selected: false
+layout: event_warsaw
+author: Andrzej Grzesik
+---
+
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+**Abstract:**
+
+One dev dept in ebay went chef. World peace happened, everything was easier than making pancakes and everybody coded happily ever after.. Oh, wait, it didn’t all just happen like that. I’d love to give you a story of bringing in Chef to a part of an organisation. A new part, full of developers new to the organisation, full of hormones, with everybody wanting to lead in the new pack. How and why it happened and mostly – what went wrong and what lessons we have learnt.
+
+**Speaker:**
+
+I like programming. I do it a lot, mostly on the JVM, and most of the time writing fancy backends for big, distributed systems.. UI, unless quickly hacked, is not my thing. I believe that most problems we have to deal with are people problems, therefore I mix and match tools and technologies to get closer to achieving my goals and making people happy :-) I believe in software quality, am one of the organizers of GeeCON, Polish Java User Group, Krakow Software Craftsmanship movement. In my free time, I read paper books and cycle. A lot!

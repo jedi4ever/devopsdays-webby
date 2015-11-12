@@ -1,0 +1,27 @@
+---
+title: Program
+layout: event_tlv
+extension: html
+dirty: true
+filter:
+- erb
+- markdown
+---
+
+## 10 devops-friendly database must-haves
+
+How would you pick the right database for you?
+There are so many databases, ranging from mighty Oracle that can do it all but you need a special funding round just for it, towards specific databases that can store your data in special memory called RAM..
+
+The talk does not try to compare Mongo to Cassandra but to point toward features which make a database devops-friendly. The list starts with trivials such as integrated-collectd / JSON-as-a-format / docker packaging to more sophisticated features such as distributed backup, Spark connectors, etc.
+
+What's distributed backup you ask?  Oh, does your database independently backup each node separately in a non-consistent manner and save 3 different copies of the replicas? 
+Restore is another issue and many database projects expect you to restore on an identical set of hardware you backed it up which is a big no-no.
+
+Performance is a factor too. The fact that your database scales out linearly doesn't hold if a single node performs as low as few thousands transaction/s. Tail latency is more important than average latency unless you agree that on average you and Bill Gates are billionaires. Lastly, performance tuning should be clear and expected and not black magic (remember, we're in the data-science business).
+
+In the era of XXX-as-a-service, one expects multi-tenancy features, great analytic integration and map reduce for the mass. The session will provide examples from a wide range of common, existing databases.
+
+## About the speaker - [Dor Laor](https://twitter.com/dorlaor)
+
+Dor Laor is the CEO of Scylla. Previously, Dor was part of the founding team of the KVM hypervisor under Qumranet that was acquired by Red Hat. At Red Hat Dor was managing the KVM and Xen development for several years. Dor holds an MSc from the Technion and a Phd in snowboarding.

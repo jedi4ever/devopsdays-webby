@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+selected: true
+layout: event_pitt
+author: Dustin Collins
+title: "Security for Humans"
+
+---
+
+**Abstract:**
+
+There are many stakeholders involved when you are creating or assembling a
+security toolchain. How do you satisfy the different, and sometimes conflicting,
+needs of these stakeholders in a responsive way?
+
+We can use some of the concepts developed in the user experience domain to
+create better security tooling. User personas allow us to map out different
+roles that must interact with security to get their work done. These personas
+are living and provide a fast feedback loop when paired with user interviews.
+Giving direction while allowing freedom is a key tenet to integrating security
+into different parts of your organization.
+
+**Speaker:**
+Dustin Collins
+
+I've worked for several tech startups around the US. DevOps has been a necessity
+at that scale. Currently I am the developer advocate for Conjur, a security
+startup west of Boston. Doing whatever I can to help people operate complex
+systems and still be happy is my goal. I live in Providence, RI with my wife
+and two cats.
