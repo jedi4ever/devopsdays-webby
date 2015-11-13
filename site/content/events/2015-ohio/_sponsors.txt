@@ -18,7 +18,8 @@ end
  { :image => "newrelic.png", :name => "newrelic", :link => "http://newrelic.com/"},
  { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"},
  { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"},
- { :image => "cloudbees.jpeg", :name => "cloudbees", :link => "https://www.cloudbees.com/"}
+ { :image => "cloudbees.jpeg", :name => "cloudbees", :link => "https://www.cloudbees.com/"},
+ { :image => "solarwinds.jpeg", :name => "solarwinds", :link => "http://www.solarwinds.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -33,7 +34,8 @@ end
  { :image => "fuse.jpg", :name => "fuse", :link => "http://www.cardinalhealth.com/en/about-us/our-business/fuse-by-cardinal-health.html"},
  { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"},
  { :image => "servicenow.png", :name => "servicenow", :link => "https://www.servicenow.com/"},
- { :image => "cardinal.png", :name => "cardinal", :link => "http://www.cardinalsolutions.com/"}
+ { :image => "cardinal.png", :name => "cardinal", :link => "http://www.cardinalsolutions.com/"},
+ { :image => "bmc.png", :name => "bmc", :link => "http://www.bmc.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
