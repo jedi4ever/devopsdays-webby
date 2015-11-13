@@ -19,7 +19,7 @@ end
  { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"},
  { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"},
  { :image => "cloudbees.jpeg", :name => "cloudbees", :link => "https://www.cloudbees.com/"},
- { :image => "solarwinds.jpeg", :name => "solarwinds", :link => "http://www.solarwinds.com/"}
+ { :image => "solarwinds.png", :name => "solarwinds", :link => "http://www.solarwinds.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
