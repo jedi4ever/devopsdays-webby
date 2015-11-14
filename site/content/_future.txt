@@ -3,16 +3,15 @@
     <tr>
       <td>
         <strong>2015</strong><br/>
-        <a href="/events/2015-detroit">Detroit - Nov 11 & 12</a><br/>
         <a href="/events/2015-ohio/">Ohio - Nov 18 & 19</a><br/>
         <a href="/events/2015-warsaw/">Warsaw - Nov 24 & 25</a><br/>
         <br/><strong>2016</strong><br/>
         <a href="/events/2016-london/">London - Apr</a><br/>
         <a href="/events/2016-kiel/">Kiel - May 12 & 13</a><br/>
+        <a href="/events/2016-seattle/">Seattle - May 12 & 13</a><br/>
         <a href="/events/2016-washington-dc/">Washington, DC - Jun 8 & 9</a><br/>
         <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21</a><br/>
         <a href="/events/2016-edinburgh/">Edinburgh - Jul</a><br/>
-        <a href="/events/2016-seattle/">Seattle</a><br/>
         <a href="/events/2016-saltlakecity/">Salt Lake City</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
       </td>
