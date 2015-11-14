@@ -118,7 +118,7 @@ function initialize() {
     raiseOnDrag: false,
     map: map,
     labelContent: "Seattle<br>May 12 & 13",
-    labelAnchor: new google.maps.Point(0,0),
+    labelAnchor: new google.maps.Point(50,0),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
   });
