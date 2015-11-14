@@ -1,9 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-detroit">
-      Detroit
-    </a>
-    -
     <a href="/events/2015-ohio">
       Ohio
     </a>
@@ -15,16 +11,16 @@
     <a href="/events/2016-kiel/">
       Kiel
     </a>
-    -
+	-
+    <a href="/events/2016-seattle">
+      Seattle
+    </a>
+    <br>
     <a href="/events/2016-washington-dc">
       Washington, DC
     </a>
     -
     <a href="/events/2016-minneapolis">
       Minneapolis
-	-
-    <a href="/events/2016-seattle">
-      Seattle
-    </a>
   </h3>
 </div>

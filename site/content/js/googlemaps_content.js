@@ -26,21 +26,6 @@ function initialize() {
   // Events
 
 
-  var detroitlocation = new google.maps.LatLng(42.3595788,-83.0706835);
-  var detroitmarker = new MarkerWithLabel({
-    position: detroitlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Detroit<br>Nov 11 & 12",
-    labelAnchor: new google.maps.Point(40, 70),
-    labelClass: "labels",
-    labelStyle: { opacity: 1 }
-  });
-
-  google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2015-detroit/"});
-
-
   var ohiolocation = new google.maps.LatLng(39.9833, -82.9833);
   var ohiomarker = new MarkerWithLabel({
     position: ohiolocation,
