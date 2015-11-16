@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Baraa Basata
+title: "Three ways to automate application deployment to Amazon Web Services"
+---
+
+**Abstract:**
+Comparing and contrasting full-stack automated app deployment using:
+
+* Ansible, a task-centric tool with uses from configuration management to cloud provisioning
+* Terraform, an model-/graph-centric tool for cloud provisioning
+* Convox, a Heroku-like open source Platform-as-a-Service offering that can be deployed into your Amazon Web Services account
+
+
+**Speaker:**
+Baraa Basata, Decisiv

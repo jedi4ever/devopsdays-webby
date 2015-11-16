@@ -1,0 +1,39 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Yue Lin Choong
+author_role: Senior developer, technical lead & Scrum Master
+talk_title: Agile&#058; Break it down
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+People are often intimidated by Agile.
+
+This talk will attempt to provide a few tips and tricks for transitioning to Agile.
+
+Breaking it down into more manageable chunks and provide some comparison charts to dispel some 'superstitions' and fears about Agile.
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+I am a Scrum Master, with a PSM I (Professional Scrum Master I) certification from Scrum.org.
+I've been a C developer for about 10 years, mostly working in financial industry in manufacturing companies as a firmware developer.
+
+I was involved in a transitioning to Scrum from traditional methodologies, and during the year long process, was able to have a close up experience of the issues faced.

@@ -1,0 +1,40 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Oyvind Roti
+author_role: Solutions Architect, Google Cloud Platform team
+talk_title: Automated Docker Image Builds with Jenkins, Packer, and Kubernetes
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+Creating custom images to boot your Docker containers can reduce boot time and increase reliability. By pre-installing software into a custom image, you can also reduce your dependency on the availability of 3rd party repositories that are out of your control.
+
+The process of building images has a lot in common with building software: you have code (Chef, Puppet, bash, etc.) and the people who write it; a build happens when you apply the code to a base image; a successful build process outputs an artifact; and you often want to put the artifact through some tests.
+
+Many of the best practices that apply to building software also apply to images: you can version control to manage image configuration scripts; trigger builds when changes are made to those scripts; perform image builds automatically; and version and even test the resulting image artifacts when builds complete.
+
+In this session you will learn about two general approaches to building custom images and how to use several popular open source tools—including Jenkins, Packer, Docker, and Kubernetes—to create an automated pipeline to continuously build images.
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+Solutions Architect in the Google Cloud Platform team. I help developers and customers understand how to best use and architect applications for Google Cloud. Previously, I also worked for Amazon Web Services in the same capacity - so I have built up broad experience in what works well and not so well for companies of different sizes, complexity and maturity when developing and running applications on the cloud.
+
+Example video from recent talk to ~1000 developers in Bangalore: [https://www.youtube.com/watch?v=mm5BJZUfqBo&feature=youtu.be&t=7h10m19s](https://www.youtube.com/watch?v=mm5BJZUfqBo&feature=youtu.be&t=7h10m19s)

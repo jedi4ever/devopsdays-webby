@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Gene Pavell
+title: "Change Management Does Not Have To Be Horrible"
+---
+
+**Abstract:**
+
+How do we deliver outside of our iteration releases in less time than the five minutes I have for this Ignite talk?
+
+So you have automated your deployments to provide rapid business value but the Product Owner did not want that feature released or even worse you took down the call center while a database script was running.
+
+Now you need to figure out a way to give a heads up, gain approval, and provide metrics going forward.
+
+Never fear – DevOps and ITIL can play nicely together without the dreaded overhead and yet keep the developers happy and in control of production releases.
+
+**Speaker:**
+Gene Pavell
+
+Like many of my peers, I have worn several hats from analyst to developer to QA within the agile space. As the DevOps Lead for IGS Energy in Dublin, Ohio, I am leveraging my past experience to help our development teams deliver faster, better-quality software using best practices within a .NET environment.
+

@@ -1,0 +1,43 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Kimble Ngo
+author_role: Business & Influence Coach, Amplify Influence
+talk_title: The Power of Personal Influence
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+In a more highly automated tech and process oriented culture we often overlook the power of the individual. A lot of time is spent on optimizing and defining logical paths through our products, lifestyle, and outlook in life. Yet, one of the biggest constants are hardly considered nowadays. The human being. The individual who has a dream, a vision and a family. They have hopes and fears you cannot just quantify them in numbers.
+
+ The purpose of this quick 5min conversation is to talk about Empathy. It is about the power of the individual you see in the mirror each day & of those who you cross paths with along the way. How can this impact your objectives and help you build the world you dream of?
+
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+An Ex-Banker & Ex-GM of a Regional Liquor Business, Kimble believes everyone has the capacity inside of them to transform the world in their own way. He believes we all have leadership capabilities but it is often under-utilized or underdeveloped. We focus heavily on hard & technical skills but overlook the fundamental human skills that binds all of us together such as communication, conflict resolution, relationship building, and leadership.
+
+ His mission is to draw the best out of each of his clients so they can make a positive impact in their work, business, and community.
+
+  With Amplify Influence, Kimble has trained and coached Web Designers, Accountants, Operations Teams, Laboratory Assistants and others to better increase their abilities in the area of influence, communication, business strategy, and leadership.
+
+   In Kimble’s past he was a CRM at an International Investment Bank & was the GM of a Regional Liquor Distribution & Branding firm throughout South East Asia. He is involved in multiple businesses, while providing training & coaching with Amplify Influence. He specializes in empathy based sales & leadership training. 
+
+   His focus around individual growth through personal development has helped numerous individuals go from being quiet and reserved to confidently being powerful in their careers and/or businesses.

@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: David Shackelford
+title: "Human Load Balancing – creative strategies for managing on-call"
+---
+
+**Abstract:**
+I’ll present a taxonomy of both standard and totally non-standard ways
+companies have organized their on-call schedules and escalation policies to
+make sure incidents get handled quickly, work gets distributed fairly, and pain
+is minimized.
+
+Details:
+
+* How people set up schedules (and why): Weekly vs daily vs odd-length rotations
+* Constructing primary/secondary/tertiary backup layers
+* Race-to-the-pager, round-robin, and availability-driven response
+* Multi-tiered support and NOC use cases
+
+
+**Speaker:**
+David Shackelford, PagerDuty

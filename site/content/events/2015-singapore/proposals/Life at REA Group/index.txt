@@ -11,14 +11,14 @@ keynote: true
 ignite: false
 selected: true
 author: Trent Hornibrook
+author_role: Delivery Lead at [REA](http://www.realestate.com.au/)
 talk_title: Life at REA Group - Lessons from 7 years of DevOps
 
 ---
 
-# Life at REA Group - Lessons from 7 years of DevOps
+# <%= @page.talk_title %>
 
 ## _From hiring the right people to running distributed teams._
-
 
 ## Abstract
 
@@ -37,7 +37,8 @@ Over my 7 years at REA we have lessons which I’d love to share on
 - How to knowledge share technical information across the entire company
 
 ## Speaker
-Trent Hornibrook, Delivery Lead at [REA](http://www.realestate.com.au/)
+
+<%= @page.author %>, <%= @page.author_role %>
 
 ## Bio
 In Australia, one of the most trafficked Australian websites is realestate.com.au - a real estate portal similar to iproperty.com.sg in Singapore.

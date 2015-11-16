@@ -1,0 +1,36 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Jason Man
+author_role: CD and DevOps consultant
+talk_title: Crawl before you Run, Implementing DevOps
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+People expect results quick, but actually you need to take a step back to understand process and what you want to achieve as part of the DevOps movement.
+
+This will help identify what metric data that can be picked up today against what you want to implement.
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+I am from Forest Technologies and have had experience in the DevOps field for the last few years, I am a CD and DevOps consultant and have implemented CI and CD processes at many client sites globally.
+
+Having been on many different sites I have been provided with a view of what works well and not so well within the different DevOps practices.

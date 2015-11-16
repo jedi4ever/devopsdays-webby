@@ -1,0 +1,42 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Inny So
+author_role: Consultant, Thoughtworks Australia
+talk_title: Repository as an deployment artifact
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+With the increase number of dependency between applications and third-party packages, it is quite often that we find ourselves bury in the dependency hell.
+
+In scenario like this, wouldn't it be great if we can take a snapshot of the repository, version it and use it.
+
+Even better if we can take cherry pick the required packages from the local repository and third-party repository and create a snapshot of it so that we can share and distribute the snapshot.
+
+This ignite talk will be able using a tool called aptly to achieve this goal.
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+Inny So is a consultant working in Thoughtworks Australia.
+
+She started off as a Java developer then slowly become interested in continuos integration and delivery.
+
+She is especially interested in pipeline design and what can be done to reduce the feedback loop between code checkin to production.

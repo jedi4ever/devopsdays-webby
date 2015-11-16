@@ -11,20 +11,23 @@ keynote: true
 ignite: false
 selected: true
 author: John Willis
+author_role: Evangelist at [Docker](https://www.docker.com/)
 talk_title: State Of The 'DevOps' Union
 
 ---
 
-# State Of The 'DevOps' Union
+# <%= @page.talk_title %>
 
 ## Abstract
 
 This presentation covers the current state of the Devops movement as presented by one of the original "Core Organizers" of the movement.  The presentation will look at some of the taxonomies that have been used to describe Devops such as CAMS and ICE.  It will also cover the recent 2015 Devops Survey and we will end up with a discussion about how Devops is being adopted in the enterprise.
 
 ## Speaker
-John Willis, Evangelist at [Docker](https://www.docker.com/)
+
+<%= @page.author %>, <%= @page.author_role %>
 
 ## Bio
+
 John Willis has worked in the IT management industry for more than 35 years.
 
 Currently he is an Evangelist at [Docker Inc](https://www.docker.com/).

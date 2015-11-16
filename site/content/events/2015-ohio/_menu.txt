@@ -5,6 +5,7 @@ filter:    erb
 <h3>
 <a href="/<%= @eventhome %>/">Welcome</a>&nbsp;
 <a href="/<%= @eventhome %>/location">Location</a>&nbsp;
+<a href="/<%= @eventhome %>/hotels">Hotels</a>&nbsp;
 <a target="_blank" href="https://www.eventbrite.com/e/devopsdays-ohio-2015-tickets-17998431794?ref=estw">Register</a>&nbsp;
 <a href="/<%= @eventhome %>/sponsor">Sponsor</a>&nbsp;
 <a href="/<%= @eventhome %>/propose">Propose</a>&nbsp;
