@@ -11,7 +11,9 @@ dirty: true
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>
+
+<b>Call for proposals is open - <a href=https://docs.google.com/forms/d/1NbSgfXr0Zi1Tj7CoZ1XoYNiQZ899wi2arKiK1w6Som4/viewform>submit your talk</a></b></b><br>
+<!--<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>-->
 <b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
 Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
 </center>
@@ -32,7 +34,10 @@ Our main criteria to make it to the top selection are:
 - _new presenters_: people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
 - _no vendor pitches_: as much as we value vendors and sponsors, we just don't think this is the right forum. You can demo at your table or during Open Space.
 
-<strong>How to submit a proposal:</strong> As soon as CFP is open you'll find the information here.
+<strong>How to submit a proposal:</strong> Follow the link below and fill 
+out the the form to submit a proposal. If you have any questions don't hesitate to send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>]. 
+
+<h2><a href=https://docs.google.com/forms/d/1NbSgfXr0Zi1Tj7CoZ1XoYNiQZ899wi2arKiK1w6Som4/viewform>submit your talk</a></h2>
 
 <!--<strong>How to submit a proposal:</strong> Send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>] with the following information
 <ol>
