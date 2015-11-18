@@ -35,7 +35,9 @@ end
  { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"},
  { :image => "servicenow.png", :name => "servicenow", :link => "https://www.servicenow.com/"},
  { :image => "cardinal.png", :name => "cardinal", :link => "http://www.cardinalsolutions.com/"},
- { :image => "bmc.png", :name => "bmc", :link => "http://www.bmc.com/"}
+ { :image => "bmc.png", :name => "bmc", :link => "http://www.bmc.com/"},
+ { :image => "appdynamic.png", :name => "appdynamic", :link => "http://www.appdynamics.com/"},
+ { :image => "columntechnologies.jpg", :name => "columntechnologies", :link => "http://www.columnit.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
