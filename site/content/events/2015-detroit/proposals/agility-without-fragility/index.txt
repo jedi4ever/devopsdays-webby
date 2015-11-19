@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Sterling Windmill
+title: "Agility without fragility: or how I learned to temper paranoia with trust"
+---
+
+**Abstract:**
+As you might expect, we're intensely focused on security in all that we do at
+Duo. We are entrusted with not only securing our own digital assets and
+infrastructure but helping customers protect theirs as well. The nature of our
+business demands a significant amount of operational maturity and we're
+constantly fielding questions about our information security
+policies/practices. We aim to be transparent whenever possible and this
+occasionally leads to difficult conversations when dealing with customers bound
+by specific compliance requirements or internal processes that don't map
+directly to our way of doing things. Our operations team exists because our
+engineering team was growing too fast to maintain the previously flat reporting
+structure and we split the group up by specialization. We're developers focused
+on the infrastructure that underpins our service and the overall robustness of
+the solutions we provide. We deploy software when it's ready, trust but verify
+when it comes to providing production access, and actively distance ourselves
+from the notion of having individuals managing infrastructure in a bubble
+waiting for change request tickets to come through. This is occasionally
+somewhat surprising to customers and auditors alike (yes, even in 2015) and
+we've learned a lot over the years in terms of how to follow best practices
+without negatively impacting our ability to execute and innovate.
+
+
+**Speaker:**
+Sterling Windmill, Duo Security

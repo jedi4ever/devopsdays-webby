@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Matt Williams
+title: "The Three R's of DevOps"
+---
+
+**Abstract:**
+
+In School, the foundation of learning is Reading, 'Riting, and 'Rithmatic. DevOps has its own three 'R's -- Repeatable, Reproducible, and Reliable which form the basis for all of DevOps. Without school's three 'R's, we can't succeed in life. Likewise DevOps needs it's 'R's. Practicing them makes us 'able'.
+
+**Speaker:**
+Matt Williams
+
+Matt Williams lives in Columbus, OH, in a house filled with computers, cats, books and fiber. Pursuing the goal of being a modern Renaissance person, he plays with his daughter, cooks, roasts coffee, reads, weaves, and hacks, including crazy ideas like a Cloud in a Box. Docker has been an especial passion since June of 2013. In previous incarnations he has been, among other things, a Java instructor for Sun, a Kitchen Bard, and King of the May.

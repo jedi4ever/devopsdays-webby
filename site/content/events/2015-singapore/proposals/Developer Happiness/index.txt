@@ -1,0 +1,32 @@
+---
+title: Proposal
+layout: event_singapore
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+keynote: false
+talk: false
+ignite: true
+selected: true
+author: Surya Dharma Tio
+author_role: Lead DevOps Engineer at RedMart
+talk_title: Developer Happiness at RedMart
+
+---
+
+# <%= @page.talk_title %>
+
+## Abstract
+
+Being one of the fastest growing start up in the region, it is always a challenge to keep up with the speed of releasing quality software in a ever-growing tech team. 'Developer happiness at RedMart' is a talk about the tools and the technologies used at RedMart to continually shorten the release cycle (idea to golive), and at the same time elevate developers' skill-sets.
+
+## Speaker
+
+<%= @page.author %>, <%= @page.author_role %>
+
+## Bio
+
+Surya currently works as Lead DevOps Engineer at Redmart, with a mission of taking RedMart developers' happiness to the next level. Surya is a firm DevOps advocate and believes that happy developers are the key to great products. He enjoys crafting processes and automation tools if that means eliminating mundane routines and making painful tasks less painful.

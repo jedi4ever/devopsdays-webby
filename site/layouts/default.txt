@@ -35,6 +35,15 @@ google.load('jquery', '1.3.2');
 <!--[if IE]>
 <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
 <![endif]-->
+
+<!--
+  Customize the labels on the map
+
+  *References*
+  - http://code.google.com/apis/maps/documentation/javascript/maptypes.html#StyledMaps
+  - http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1/examples/basic.html
+-->
+<link href="/css/googlemaps.css" rel="stylesheet">
 </head>
 
 

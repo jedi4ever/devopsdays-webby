@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Monica McJunkin
+title: "Driving DevOps with Data"
+---
+
+**Abstract:**
+
+Prioritizing shared services work is tough, whether you’re in a traditional or agile shop. How do you respond quickly to urgent support needs, perform planned upgrades, and still have time to address technical debt when each request is your “number one priority?” Monica will explain how Fuse is using data to understand demand, perform capacity planning, and drive prioritization decisions.
+
+**Speaker:**
+Monica McJunkin

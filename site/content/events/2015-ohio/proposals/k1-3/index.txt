@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Mallika Iyer
+title: "Cloud Anti-Patterns: Micro services, Containers and Large Scale Search gone wrong"
+---
+
+**Abstract:**
+
+My talk is about patterns of architecture that should be avoided while building and deploying cloud-native applications and large-scale containerized search. 90% of the talk is focused on cloud-native anti-patterns and 10% on large-scale cloud-native search.
+
+**Speaker:**
+Mallika Iyer
+
+I'm a software engineer by training, and a cloud architect by trade. I work closely with Fortune 100 customers at Pivotal, guiding them towards a cloud native architecture, helping them build the next generation of Internet-of-Things (IoT) applications in a scalable way using technologies like Cloud Foundry, application architecture paradigms like micro services and containerized deployment vehicles.

@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Fred Hatfull
+title: "Humans by the Hundred"
+---
+
+**Abstract:**
+
+Humans are difficult to operate. While they rarely crash and tend to be self-healing, they are frequently out of memory, are slow at servicing interrupts, and don't respond well to configuration management. Despite these drawbacks, we still build software companies out of people, and scaling those people is often even harder than scaling the technology they build. In this session, I'll cover some of the most common challenges faced by growing companies, and will discuss some of the most common solutions that allow companies to iterate on their people and business as fast as their technology.
+
+**Speaker:**
+Fred Hatfull
+
+I've spent the last four years building and managing technical infrastructure at Yelp, and I currently lead the Operations team there. I'm fascinated by the challenges that rapidly-growing organizations face, particularly when they are tasked with scaling out high-perfomance, rapidly changing technology, and I spend a lot of time thinking about how to build tools and infrastructure that makes scaling people as seamless as scaling our website.

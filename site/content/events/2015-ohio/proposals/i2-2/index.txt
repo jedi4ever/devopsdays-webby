@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Justin Kuss
+title: "Dos and Don'ts for Raising Cattle In Your Data Centers"
+---
+
+**Abstract:**
+
+By now most of us have heard the phrase "cattle vs. pet", alluding to the mindset of treating servers more like cattle -- commodity, and less like pets. This, of course, can be accomplished through configuration management, automation, and proper planning. Sounds easy enough. In this session, I'll share a top 10 list of lessons learned to help you go from "crazy cat [person]" of the IT world to professional cattle rancher.
+
+**Speaker:**
+Justin Kuss
+
+Justin Kuss is an engineer at Fuse by Cardinal Health. He has over 10 years of system administrator experience in Healthcare IT, focusing on automation of infrastructure and platform for the past 5 years. Justin enjoys researching workload abstractions, distributed and high–scale computing, and information security. When Justin is not in front of a keyboard, he is training for his next marathon or triathlon.

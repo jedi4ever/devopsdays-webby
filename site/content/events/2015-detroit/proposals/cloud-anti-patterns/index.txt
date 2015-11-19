@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Mallika Iyer
+title: "Cloud Anti-Patterns: Micro services, Containers and Large Scale Search gone wrong"
+---
+
+**Abstract:**
+The value of micro services, containers, and continuous deployment is powerful
+only when brought together in a logical, scalable and platform agnostic manner.
+
+Moreover, when used in the wrong way, it is fairly easy to shoot your self (and
+your entire application) in the foot. For eg: Micro services can be used to
+either create unnecessary pockets of redundancy, or used to isolate
+functionality and directly be an ally of efficient continuous deployment. I
+have seen more incorrect usages of containers and micro services than I’d like
+to admit, and a few key components are frequently left out of the cloud-native
+architecture while starting down this path.
+
+Using the micro service paradigm is not a panacea for all problems, because one
+is creating a large-scale distributed cluster, in essence. Another aspect that
+is frequently neglected is large-scale containerized search in a cloud-native
+environment, a governance model around micro services and cloud orchestration.
+For instance, API frameworks like swagger.io enhance the usability of micro
+services by documenting the API functionality in real-time alongside the API
+contract. A micro service is only as useful as the interface contract that it
+has with other services in the application eco system.
+
+Based on my experience over multiple cloud deployments, I will share a
+collection of anti-patterns and best practices to build production-ready
+cloud-native applications.
+
+**Speaker:**
+Mallika Iyer, Pivotal

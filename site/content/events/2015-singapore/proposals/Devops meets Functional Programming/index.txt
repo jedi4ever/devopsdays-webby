@@ -12,11 +12,12 @@ talk: true
 ignite: false
 selected: true
 author: Vladimir Kirillov
+author_role: zalora.com
 talk_title: Devops meets Functional Programming
 
 ---
 
-# Devops meets Functional Programming
+# <%= @page.talk_title %>
 
 ## Abstract
 
@@ -33,7 +34,8 @@ The story is about:
 - overcoming adoption failures and finally reaching operational happiness
 
 ## Speaker
-Vladimir Kirillov, zalora.com
+
+<%= @page.author %>, <%= @page.author_role %>
 
 ## Bio
 

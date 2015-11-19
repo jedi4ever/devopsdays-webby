@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Courtney Kissler
+title: "Transforming to a Culture of Continuous Improvement"
+---
+
+**Abstract:**
+
+Large, traditional enterprises are adopting DevOps at an accelerating rate. This will soon be the new normal, those behind the curve will find themselves unable to effectively adapt to inevitable changes in customer expectations and at a disadvantage for attracting top talent.  We (Nordstrom) have the challenge, common amongst our peers, of transforming a large enterprise to a new way of thinking about how to deliver software.  We have legacy applications, legacy technology, and legacy mindsets.  In this talk, I will share how we are approaching this problem with case studies ranging from our eCommerce platform (both legacy and modern) to our mainframe/legacy application space.
+
+**Speaker:**
+Courtney Kissler - Nordstrom - Vice President of E-Commerce and Store Technologies
+

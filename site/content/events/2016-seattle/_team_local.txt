@@ -5,5 +5,7 @@
 - Todd Wilson
 - Mark Peterson
 - Michael Goetz
-- steven Mullinax
 - Dan Dicamillo
+- Rob Cummings
+- Dominica DeGrandis
+- Ken Mugrage

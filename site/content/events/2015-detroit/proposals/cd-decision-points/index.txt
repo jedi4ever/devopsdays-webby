@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Kelly Looney
+title: "Continuous Delivery Decision Points - getting software safely into production"
+---
+
+**Abstract:**
+Not everyone is ready to do Continuous Delivery (CD) but there is pretty strong
+agreement that moving in that direction is a good thing for many (most?)
+applications. We hear a lot about the important of automation, but this talk
+focuses on how to think about what you need to automate (hint: it’s not run
+every test you can cobble together). At various steps in the delivery cycle you
+need make the decision to either promote a piece of code to the next step or go
+back and make further changes/fixes. Scaling development multiplies these
+decision points as integration points in which teams collaborate around shared
+functionality.
+
+Too many organizations approach CD by automating the wrong things and just
+increasing the amount of (often poor quality) code they have to maintain.
+Others focus only on various provisioning/configuration management tools and
+declare themselves “DevOps enabled” without really improving their ability to
+deliver small chunks of new code. We’ll discuss what functioning CD really
+looks like and why it helps the organization so much.
+
+Also, we’ll discuss the requirement for valid test environments in order to
+make good decisions, and what the tests should look like that enable our
+decisions. Finally we will talk about how to assess and improve our overall
+delivery system over time resulting in better software faster without the
+stress and drama of major releases.
+
+**Speaker:**
+Kelly Looney, Skytap
