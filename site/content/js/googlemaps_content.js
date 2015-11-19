@@ -26,6 +26,18 @@ function initialize() {
   // Events
 
 
+  var denverlocation = new google.maps.LatLng(39.739236, -104.990251);
+  var denvermaker = new MarkerWithLabel({
+    position: denverlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Denver<br>April 21 & 22",
+    labelAnchor: new google.maps.Point(20, 30),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
   var ohiolocation = new google.maps.LatLng(39.9833, -82.9833);
   var ohiomarker = new MarkerWithLabel({
     position: ohiolocation,
