@@ -8,6 +8,10 @@
       Warsaw
     </a>
     -
+    <a href="/events/2016-denver/">
+     Denver
+    </a>
+    -
     <a href="/events/2016-kiel/">
       Kiel
     </a>
