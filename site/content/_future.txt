@@ -7,6 +7,7 @@
         <a href="/events/2015-warsaw/">Warsaw - Nov 24 & 25</a><br/>
         <br/><strong>2016</strong><br/>
         <a href="/events/2016-london/">London - Apr</a><br/>
+        <a href="/events/2016-atlanta/">Atlanta - Apr</a><br/>
         <a href="/events/2016-kiel/">Kiel - May 12 & 13</a><br/>
         <a href="/events/2016-seattle/">Seattle - May 12 & 13</a><br/>
         <a href="/events/2016-washington-dc/">Washington, DC - Jun 8 & 9</a><br/>
