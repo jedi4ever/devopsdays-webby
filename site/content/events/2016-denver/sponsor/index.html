@@ -1,0 +1,56 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Sponsor
+dirty: true
+layout: event
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+## Sponsorship Packages
+
+<iframe src="https://docs.google.com/forms/d/1kzaSMqfQhz_AeMar7eNDfyz5PCOU9zaORftweyYn_yI/viewform?embedded=true" width="580" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+### Gold Sponsorship ($5,000)
+
+* 6 tickets to the event
+* Logo on DevOpsDays Rockies event website
+* Logo on all email communication
+* Logo on shared slide, rotating during breaks
+* Logo on its own slide, rotating during breaks
+* 2 minute pitch to full audience (including streaming audience)
+* Premium Booth/Table
+
+### Silver Sponsorship ($3,000)
+
+* 4 tickets to the event
+* Logo on DevOpsDays Rockies event website
+* Logo on shared slide, rotating during
+* Logo on all email communication
+* Logo on its own slide, rotating during
+* Booth/Table space
+
+### Copper Sponsorship ($1,000)
+
+* 2 tickets to the event
+* Logo on shared slide, rotating during
+* Shared booth/table space
+
+<!--
+### Social Hour Sponsorship – Availability 1 (4,500)
+
+* 2 tickets to the event
+* Logo on DevOpsDays Rockies event website
+* logo on shared slide, rotating during breaks
+* logo on all email communication
+* logo on its own slide, rotating during breaks
+* Exclusive brand recognition on all social hour swag
+* Marketing table set up at the Social Hour
+* 6 tickets to the Social Hour
+
+-->
+[Sponsorship Packages.pdf](/events/2015-denver/static/DevOpsDaysSponsorshipPackages.pdf)

@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+  - erb
+  - markdown
+title: Contact
+dirty: true
+layout: event
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %> 
+<% @eventid = File.basename(@page.directory) %>
+
+<a href="https://twitter.com/devopsdaysrox" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @devopsdaysrox</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+If you'd like to contact us by email: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+
+** Our local team: **
+
+<%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+** The core DevOpsDays organizer group: **
+
+<%= render(:partial => "/contact/_team_global") %>
