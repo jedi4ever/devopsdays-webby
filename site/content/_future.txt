@@ -14,6 +14,7 @@
         <a href="/events/2016-edinburgh/">Edinburgh - Jul</a><br/>
         <a href="/events/2016-saltlakecity/">Salt Lake City</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
+        <a href="/events/2016-portland/">Portland</a><br/>
       </td>
     </tr>
   </table>
