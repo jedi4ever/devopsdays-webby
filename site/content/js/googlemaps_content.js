@@ -107,4 +107,18 @@ function initialize() {
   });
 
   google.maps.event.addListener(seattlemarker, "click", function (e) { location.href="/events/2016-seattle/"});
+
+  var torontolocation = new google.maps.LatLng(43.7000, -79.4000);
+  var torontomarker = new MarkerWithLabel({
+  position: torontolocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Toronto<br>May 26 & 27",
+  labelAnchor: new google.maps.Point(-5, 42),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(torontomarker, "click", function (e) { location.href="/events/2016-toronto"});
 }
