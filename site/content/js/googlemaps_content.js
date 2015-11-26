@@ -38,20 +38,6 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  var warsawlocation = new google.maps.LatLng(52.1800879, 20.9788363);
-  var warsawmarker = new MarkerWithLabel({
-    position: warsawlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Warsaw<br>Nov 24 & 25",
-    labelAnchor: new google.maps.Point(10, 25),
-    labelClass: "labels",
-    labelStyle: { opacity: 1 }
-  });
-
-  google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2015-warsaw/"});
-
   var dclocation = new google.maps.LatLng(38.8011545,-77.0659376);
   var dcmarker = new MarkerWithLabel({
     position: dclocation,
