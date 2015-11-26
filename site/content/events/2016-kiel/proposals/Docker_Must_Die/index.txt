@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Corey Quinn
+title: "Docker Must Die: Heresy in the Church of Docker"
+---
+
+**Abstract:**
+
+Docker (and by extension, microservices based architecture) has expanded our horizons with respect to how the industry builds and supports applications at scale, which helps to explain why so many people seem willing to throw away decades of experience in favor of untested tools and barely functional design principles.
+
+**Speaker:**
+
+Corey has a long and storied history as a consultant -- long, in that every year he did it felt like three years, and storied, in that he's got a few. One of the early developers behind Saltstack, Corey also has a rich history of contributing to various open source projects.
