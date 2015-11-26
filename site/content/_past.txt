@@ -117,6 +117,7 @@
       <a href="/events/2015-siliconvalley">Silicon Valley 2015</a><br/>
       <a href="/events/2015-detroit">Detroit 2015</a><br/>
       <a href="/events/2015-ohio/">Ohio 2015</a><br/>
+      <a href="/events/2015-warsaw/">Warsaw 2015</a><br/>
       </div>
 </div>
 
