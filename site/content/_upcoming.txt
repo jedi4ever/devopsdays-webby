@@ -4,6 +4,10 @@
       Warsaw
     </a>
     -
+    <a href="/events/2016-london/">
+     London
+    </a>
+    -
     <a href="/events/2016-denver/">
      Denver
     </a>
@@ -11,11 +15,11 @@
     <a href="/events/2016-kiel/">
       Kiel
     </a>
-	-
+    <br>
     <a href="/events/2016-seattle">
       Seattle
     </a>
-    <br>
+	-
     <a href="/events/2016-toronto">
       Toronto
     </a>
