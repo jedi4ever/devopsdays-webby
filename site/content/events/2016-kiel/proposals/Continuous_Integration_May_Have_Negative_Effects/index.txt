@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Yegor Bugayenko
+title: "Continuous Integration May Have Negative Effects"
+---
+
+**Abstract:**
+
+CI is a popular idea, but in reality it doesn't work as expected. Moreover, according to my experience, it may cause problems if being enforced too much.
+
+**Speaker:**
+
+Yegor is a CTO and co-founder of Teamed.io, a software development company with a unique approach to management of distributed teams; a regular blogger at www.yegor256.com; a proud holder of PMP and OCMEA certifications; a hands-on Java developer and a lead architect of a few popular open source projects, including jcabi.com, takes.org, rultor.com and qulice.com. Yegor lives in Palo Alto, CA and Kyiv, Ukraine.
