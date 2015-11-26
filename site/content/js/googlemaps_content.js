@@ -50,7 +50,7 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
+  google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2015-warsaw/"});
 
   var dclocation = new google.maps.LatLng(38.8011545,-77.0659376);
   var dcmarker = new MarkerWithLabel({
@@ -64,7 +64,7 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2016-minneapolis/"});
+  google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
 
   var minneapolislocation = new google.maps.LatLng(44.9726428,-93.2752562);
   var minneapolismarker = new MarkerWithLabel({
@@ -78,7 +78,7 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
+  google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2016-minneapolis/"});
 
   var kiellocation = new google.maps.LatLng(54.34208,10.121949);
   var kielmarker = new MarkerWithLabel({
@@ -121,4 +121,20 @@ function initialize() {
   });
 
   google.maps.event.addListener(torontomarker, "click", function (e) { location.href="/events/2016-toronto"});
+
+  var londonlocation = new google.maps.LatLng(51.5072, -0.1275);
+  var londonmarker = new MarkerWithLabel({
+  position: londonlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "London<br>Apr 19 & 20",
+  labelAnchor: new google.maps.Point(25, 25),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2016-london"});
+
+
 }
