@@ -3,7 +3,7 @@ filter:    erb
 ---
 <% @psponsors = [
 { :image => "barclays.png", :name => "Barclays", :link => "http://www.barclays.co.uk/"},
-{ :image => "gft.png", :name => "GFT", :link => "http://www.gft.com/"},
+{ :image => "gft.jpg", :name => "GFT", :link => "http://www.gft.com/"},
 ]%>
 
 <% @psponsors.shuffle.each do |sponsor| %>
