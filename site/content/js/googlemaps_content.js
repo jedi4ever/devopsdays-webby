@@ -136,6 +136,21 @@ function initialize() {
 
   google.maps.event.addListener(vancouvermarker, "click", function (e) { location.href="/events/2016-vancouver"});
 
+  var losangeleslocation = new google.maps.LatLng(34.0500, -118.2500);
+  var losangelesmarker = new MarkerWithLabel({
+  position: losangeleslocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Los Angeles<br>Jan 22",
+  labelAnchor: new google.maps.Point(60, 0),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(losangelesmarker, "click", function (e) { location.href="/events/2016-losangeles-1day"});
+
+
 
 
 }
