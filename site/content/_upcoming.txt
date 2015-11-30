@@ -1,5 +1,9 @@
 <div class="submenu" style="width:550px">
   <h3>
+    <a href="/events/2016-losangeles-1day/">
+     Los Angeles
+    </a>
+    -
     <a href="/events/2016-vancouver/">
      Vancouver
     </a>
