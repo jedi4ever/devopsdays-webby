@@ -5,7 +5,7 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='#{sponsor[:width]}' height='#{sponsor[:height]}' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
@@ -34,7 +34,7 @@ end
 <h1>Break Sponsors</h1>
 
 <% @bsponsors = [
- { :image => 'carsdotcocm.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '43px' },
+ { :image => 'carsdotcom.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '43px' },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
