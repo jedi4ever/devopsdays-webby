@@ -3,6 +3,8 @@
     <tr>
       <td>
         <strong>2016</strong><br/>
+        <a href="/events/2016-losangeles/">Los Angeles - Jan 22nd as part of SCALE14x https://www.socallinuxexpo.org/scale/14x/devopsday-la
+        <a href="/events/2016-losangeles/">Los Angeles - TBD but likely Apr 7 & 8 </a><br/>
         <a href="/events/2016-vancouver/">Vancouver - Apr 15 & 16</a><br/>
         <a href="/events/2016-london/">London - Apr 19 & 20</a><br/>
         <a href="/events/2016-denver/">Denver - Apr 21 & 22</a><br/>
