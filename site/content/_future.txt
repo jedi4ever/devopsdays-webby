@@ -19,6 +19,7 @@
         <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
         <a href="/events/2016-portland/">Portland</a><br/>
         <a href="/events/2016-istanbul/">Istanbul</a><br/>
+        <a href="/events/2016-chicago/">Chicago</a><br/>
       </td>
     </tr>
   </table>
