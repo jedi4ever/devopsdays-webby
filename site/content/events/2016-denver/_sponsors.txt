@@ -1,0 +1,70 @@
+---
+filter: erb
+---
+
+<% @gsponsors = [ ]%>
+
+<% if @gsponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a target="_blank" href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @gsponsors.shuffle.each do |sponsor| %>
+<a target="_blank" href='<%= sponsor[:link] %>'><img border="1" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<h1>Social sponsors</h1>
+<% @esponsors = [ ]%>
+<% if @esponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a target="_blank" href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @esponsors.shuffle.each do |sponsor| %>
+<a target="_blank" href='<%= sponsor[:link] %>'><img border="1" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @ssponsors = [ ]%>
+
+<h1>Silver sponsors</h1>
+<% if @ssponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a target="_blank" href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @ssponsors.shuffle.each do |sponsor| %>
+<a target="_blank" href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @bsponsors = [ ]%>
+
+<h1>Copper sponsors</h1>
+
+<% if @bsponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a target="_blank" href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+<% @bsponsors.shuffle.each do |sponsor| %>
+<a target="_blank" href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @hsponsors = [
+{
+    :name => 'Fortrust',
+    :image => 'fortrust_large.png',
+    :link => 'http://www.fortrustdatacenter.com/',
+    :width => '200px',
+    :height => '50px',
+},
+]%>
+
+<h1>Host sponsors</h1>
+
+<% @hsponsors.shuffle.each do |sponsor| %>
+<a target="_blank" href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% @msponsors = [
+] %>
+<% unless @msponsors.empty? %><h1>Media sponsors</h1><% end %>
+
+<% @msponsors.each do |sponsor| %>
+<a target="_blank" href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
+<% end %>

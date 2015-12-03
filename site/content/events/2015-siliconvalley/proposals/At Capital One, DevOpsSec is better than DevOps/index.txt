@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 6
+title: "At Capital One, DevOpsSec is better than DevOps"
+---
+
+**Abstract:**
+
+Speed is the new currency in software development world. DevOps practices with tools and automation; shift-left mentality; and transparency of the delivery pipeline allow a team to deliver business values to the customer rapidly. However, the security aspects are often overlooked or come as an after-thought. For a large financial institute like Capital One, security is a top priority. Even though we are not a unicorn like Facebook, Netflix, Etsy etc., we are maturing in our DevOps practices rapidly. We have gone one step further by bringing in Information Security in the mix – DevOpsSec!
+
+In this presentation, we will describe how we have embedded Information Security into the development lifecycle – starting from the development tools, continuous integration, shared library management and testing. We are also working towards embedding Information Security in our infrastructure automation.
+
+**Speaker:**
+Speaker 6

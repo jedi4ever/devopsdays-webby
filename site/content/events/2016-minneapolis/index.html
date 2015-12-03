@@ -1,0 +1,22 @@
+---
+extension: html
+layout: event_msp
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<strong>DevOpsDays is returning to Minneapolis! </strong>
+<br>
+Dates: Wednesday & Thursday July 20 & 21, 2016
+<br>
+Location: <a href="./location">downtown Minneapolis Hilton</a>
+<br>
+<iframe src="https://docs.google.com/forms/d/1MsOQEg_HxTH6YGoNCf1GTfKjYOarOTh2696btQi1c3A/viewform?embedded=true" width="560" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
+<br><br>
+
+<hr>

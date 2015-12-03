@@ -11,10 +11,11 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
 
-## Wednesday, October 14th and Thursday, October 15th
+## Unfortunately the event has been cancelled. 
+For any information contact  organizers at <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
 
-Welcome!  The DevOps Days comes to Perth for the first time. Come be a part and create history with us.
-
+If you have already made a booking you will be given a refund soon.
+<!--
 <div style="text-align:center;">
    <img alt="DevOpsDays Perth 2015" src="./logos/dodperth2015.png"/>
 </div>
@@ -48,3 +49,4 @@ Welcome!  The DevOps Days comes to Perth for the first time. Come be a part and 
 		</tr>
 </table>
 We hope to see you at the event.
+--!>

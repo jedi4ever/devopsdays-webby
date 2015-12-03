@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 55
+title: "Anomaly Detection 101"
+---
+
+**Abstract:**
+
+This presentation surveys a collection of techniques for detecting anomalies in a DevOps environment.  Each of the techniques has strengths and weaknesses that are illustrated via real-world (anonymized) customer data.  Techniques discussed include deterministic and statistical models as well as uni-variate and multi-variate analytics.  Examples are given that show concrete evidence where each can succeed and each can fail.
+This presentation is about concepts and how to think about alternative anomaly detection techniques.  This presentation is not an academic discourse in math, statistics or probability theory.
+
+**Speaker:**
+Speaker 55

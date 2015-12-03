@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 77
+title: "There will be no DevOps jobs in five years"
+---
+
+**Abstract:**
+
+With the rise of "serverless" architectures (AWS Lambda, Appengine, Parse, etc.) what will be the place of the DevOps engineer?  How can we get ahead of the serverless trend and still provide value to our employers and customers?  In this talk I'll explore ways to stay relevant in the serverless world, such as building tools to select the best environment for each type of workload and tools for integrating serverless and "serverfull" environments into a seamless experience for developers.
+
+**Speaker:**
+Speaker 77

@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Speaker 50
+title: "To Debug or Not to Debug"
+---
+
+**Abstract:**
+
+A funny talk about the relevance of log levels in today’s environment.
+
+Traditionally people have set their log levels to Debug, Info Warn, Error, and Fatal. You’d assume that they’d want the Error level to have only Errors in them, but in reality they have everything they want in the log file in that level. Using Debug is also controversial and most likely will never work in production because the load on the system would be too much because all of the storage and network was optimised for Warning and above. This funny talk is about why you shouldn’t have any log levels anymore.
+
+**Speaker:**
+Speaker 50

@@ -1,22 +1,24 @@
-<div style="height:425px;" id="quicklinks">
+<div style="height:550px;" id="quicklinks">
   <table>
     <tr>
       <td>
-        <strong>2015</strong><br/>
-        <a href="/events/2015-bangalore/">Bangalore - September 2015</a><br/>
-        <a href="/events/2015-boston/">Boston - September 2015</a><br/>
-        <a href="/events/2015-telaviv/">Tel Aviv - October 2015</a><br/>
-        <a href="/events/2015-perth/">Perth - October 2015</a><br/>
-        <a href="/events/2015-singapore/">Singapore - October 2015</a><br/>
-        <a href="/events/2015-berlin/">Berlin - October 2015</a><br/>
-        <a href="/events/2015-charlotte">Charlotte - Nov 2015</a><br/>
-        <a href="/events/2015-siliconvalley">Silicon Valley - Nov 2015</a><br/>
-        <a href="/events/2015-detroit">Detroit - Nov 2015</a><br/>
-        <a href="/events/2015-ohio/">Ohio - Nov 2015</a><br/>
-        <a href="/events/2015-warsaw/">Warsaw - Nov 2015</a><br/>
-        <br/><strong>2016</strong><br/>
-        <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
-        <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
+        <strong>2016</strong><br/>
+        <a href="/events/2016-losangeles-1day/">Los Angeles (1 day) - Jan 22</a>
+        <a href="/events/2016-losangeles/">Los Angeles - TBD (April)</a>
+        <a href="/events/2016-vancouver/">Vancouver - Apr 15 & 16</a><br/>
+        <a href="/events/2016-london/">London - Apr 19 & 20</a><br/>
+        <a href="/events/2016-denver/">Denver - Apr 21 & 22</a><br/>
+        <a href="/events/2016-atlanta/">Atlanta - Apr</a><br/>
+        <a href="/events/2016-kiel/">Kiel - May 12 & 13</a><br/>
+        <a href="/events/2016-seattle/">Seattle - May 12 & 13</a><br/>
+        <a href="/events/2016-toronto/">Toronto - May 26 & 27</a><br/>
+        <a href="/events/2016-washington-dc/">Washington, DC - Jun 8 & 9</a><br/>
+        <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21</a><br/>
+        <a href="/events/2016-edinburgh/">Edinburgh - Jul</a><br/>
+        <a href="/events/2016-saltlakecity/">Salt Lake City</a><br/>
+        <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
+        <a href="/events/2016-portland/">Portland</a><br/>
+        <a href="/events/2016-istanbul/">Istanbul</a><br/>
       </td>
     </tr>
   </table>

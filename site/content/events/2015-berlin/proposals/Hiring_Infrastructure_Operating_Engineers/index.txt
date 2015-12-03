@@ -26,8 +26,8 @@ Hopefully the talk will be really light hearted but drive the message of
 always refine your hiring process as you refine the role and
 responsibilities of your roles.
 
-Some of the content will be based around my blog on the topic:
-http://www.mysqldbahelp.com/2015/08/how-to-hire-for-infrastructure.html
+Some of the content will be based around [my blog](http://www.mysqldbahelp.com/2015/08/how-to-hire-for-infrastructure.html
+) on the topic.
 
 **Speaker:**
 Trent Hornibrook

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 44
+title: "Using Metrics to Choose the Right Container Scalability Platform"
+---
+
+**Abstract:**
+Docker introduces a new style of scalability and orchestration to DevOps. Functionality like docker compose, scale, and swarm are easy to use. Tools like kubernetes, deis and other container cluster management systems take scalability and orchestration in other directions. Understanding which is better for your workloads can be difficult. The first step to making better decisions in DevOps is to measure. In this session with Datadog Evangelist Matt Williams, you will learn:
+
+* How to monitor containers in different environments
+* How to correlate the information from various sources
+* How to make a better decision about which way to go for container scalability and orchestration
+
+**Speaker:**
+Speaker 44

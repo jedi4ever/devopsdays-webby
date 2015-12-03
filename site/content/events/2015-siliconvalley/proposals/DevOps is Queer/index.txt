@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 46
+title: "DevOps is Queer"
+---
+
+**Abstract:**
+
+DevOps is supposed be about culture, not tools. I propose a panel discussion on what it's like to participate in the DevOps community and culture for people who would traditionally identify as a minority (non-cisgender, non-heterosexual, non-male, non-white, and more). The major discussion question would be, "as the industry transcends traditional roles in IT, are we still stuck with outmoded concepts of race, gender and sexuality." I'd like to cite examples of diversity in teams having been shown to be more successful teams, and how we're potentially shooting ourselves in the foot by creating a monoculture.
+
+I would invite folks from across our community, and across the spectrum of race, gender, and sexuality. I would not limit it to those categories, but would also try to find other examples of non-conformance and how it hurts our movement.
+
+**Speaker:**
+Speaker 46

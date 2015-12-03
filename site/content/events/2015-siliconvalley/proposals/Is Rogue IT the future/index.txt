@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 38
+title: "Is “Rogue IT” the future?"
+---
+
+**Abstract:**
+
+In IT, we see it over and over again, business units spinning up apps that IT teams, whether dev or ops, have to support later when the apps become mission critical. We rail against Rogue IT, or Stealth IT, often and loudly because IT is inevitably involved when there are issues with the application and because it. Not only that, when the app becomes mission critical, there is more work for IT than there would have it IT were involved from the start.
+
+Despite our concerns, we in IT don’t often put ourselves in the shoes of those we rail against in order to find out why Rogue IT pops up. Does the organization need to move faster than the “speed of IT” or build a cross-functional team that blends implementers with those in traditional business roles? Rogue IT isn’t inherently good or bad, it is a type of failure demand. It is up to IT to determine what perceived needs aren’t being met and decide how to move forward.
+
+This session is for anyone who works in IT or other teams delivering applications and services. Attendees will walk away from this presentation with an understanding of the common reasons Rogue IT happens, some real-life examples of when to push back and when not to, and strategies for coming out of these situations with everyone’s sanity intact.
+
+**Speaker:**
+Speaker 38

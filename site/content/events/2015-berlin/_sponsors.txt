@@ -14,8 +14,10 @@ end
  { :image => "autoscout.png", :name => "AutoScout24", :link => "http://about.autoscout24.com/de-de/au-career.asp"},
  { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
  { :image => "codecentric.png", :name => "Codecentric", :link => "https://www.codecentric.de/"},
+ { :image => "datarobot.png", :name => "DataRobot", :link => "http://www.datarobot.com/"},
  { :image => "delphix.jpg", :name => "Delphix", :link => "http://www.delphix.com/"},
  { :image => "docker.png", :name => "Docker", :link => "https://www.docker.com/"},
+ { :image => "egym.png", :name => "eGym", :link => "https://www.egym.com/jobs"},
  { :image => "epost.png", :name => "E-POST", :link => "http://www.epost.de/"},
  { :image => "idealo.png", :name => "Idealo", :link => "http://www.idealo.de/"},
  { :image => "immobilienscout.png", :name => "ImmobilienScout24", :link => "http://www.immobilienscout24.de/jobs"},
@@ -33,11 +35,17 @@ end
 
 <% @ssponsors = [
  { :image => "endocode.png", :name => "Endocode", :link => "http://www.endocode.com/"},
+ { :image => "babbel.png", :name => "Babbel", :link => "http://jobs.babbel.com/en/"},
+ { :image => "microsoft.png", :name => "Microsoft", :link => "https://www.microsoft.com"},
+ { :image => "nexinto.png", :name => "Nexinto", :link => "https://www.nexinto.com"},
+ { :image => "puppetlabs.png", :name => "Puppetlabs", :link => "https://puppetlabs.com"},
+ { :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com"},
+ { :image => "noris.png", :name => "noris network AG", :link => "http://noris.de"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
 <% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
-<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+<% elsif @ssponsors.size < 6 && false %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <% @esponsors = [
  { :image => "elastic.png", :name => "Elasticsearch", :link => "http://www.elastic.co/"},

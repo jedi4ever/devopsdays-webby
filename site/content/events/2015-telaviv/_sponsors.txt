@@ -32,8 +32,12 @@ filter:    erb
 <% @gold_sponsors = [
     { :image => "cloudify.png", :name => "Cloudify by GigaSpaces", :link => "http://getcloudify.org"},
     { :image => "JFrogDoD.png", :name => "JFrog", :link => "http://www.jfrog.com/"},
-    { :image => "wix.png", :name => "Wix", :link => "http://wix.com"},
     { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"},
+    { :image => "stratoscale.png", :name => "Stratoscale", :link => "http://www.stratoscale.com/"},
+    { :image => "bigpanda.png", :name => "BigPanda", :link => "https://bigpanda.io"},
+    { :image => "wixeng.png", :name => "Wix Engineering", :link => "http://engineering.wix.com/"},
+    { :image => "outbrain.png", :name => "Outbrain", :link => "http://www.outbrain.com/"},
+    { :image => "similarweb.png", :name => "SimilarWeb", :link => "http://www.similarweb.com/"},
 ]%>
 
 <% if @gold_sponsors.empty?  %>
@@ -53,6 +57,8 @@ filter:    erb
     { :image => "librato.png", :name => "Librato Metrics", :link => "https://metrics.librato.com/?utm_campaign=dev-ops-tel-aviv&utm_content=promotion&utm_medium=event&utm_source=devops-tel-aviv"},
     { :image => "rounds.png", :name => "Rounds", :link => "https://www.rounds.com/"},
     { :image => "pagerduty.png", :name => "PagerDuty", :link => "https://www.pagerduty.com/"},
+    { :image => "kenshoo.png", :name => "Kenshoo", :link => "http://kenshoo.com/"},
+    { :image => "anodot.png", :name => "Anodot", :link => "http://www.anodot.com/"},
 ]%>
 
 <% unless @silver_sponsors.empty?  %><h1>Silver Sponsors</h1><% end %>

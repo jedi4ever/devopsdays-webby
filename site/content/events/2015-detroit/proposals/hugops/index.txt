@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: David Shackelford
+title: "#hugops in Practice: Operationalizing Empathy"
+---
+
+**Abstract:**
+We often say that “DevOps is about empathy,” and we like how we’re breaking
+down silos and generating all the warm fuzzies, but what does it actually mean
+to be empathetic? We’ll look at specific tactics and strategies teams can use
+to promote empathy and inclusivity within our organization.
+
+**Details:**
+
+* Communication frameworks and strategies: non-violent communication, hostage
+negotiator strategies, defusing charged situations. What are the specific
+skills and tactics used by masters of high-stress situations to calm people
+and get them on the same page?
+* Turning directional conflicts into approach conflicts: getting departments
+to create common goals so that the scope of disagreements changes from what's
+important to the simpler question of how to get there.
+* Tricks and tactics for inclusivity and relationship-building within the team
+and across your organization.
+
+
+
+**Speaker:**
+David Shackelford, PagerDuty

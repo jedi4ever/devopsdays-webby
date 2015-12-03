@@ -1,0 +1,15 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: Speakers
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<h3> Main Talks </h3>
+<table>
+<tr><th>Name</th><th>Session Title</th></tr>
+</table>
+<a target="_blank" href="http://www.devopsdaysrox.org/speakers/index.html">Check them all out here</a>

@@ -11,19 +11,35 @@ end
 %>
 
 <% @gsponsors = [
+ { :image => 'alertops.png', :name => 'AlertOps', :link => 'http://www.alertops.com', :width => '100px', :height => '100px' },
+ { :image => 'ansible.png', :name => 'Ansible', :link => 'http://www.ansible.com', :width => '100px', :height => '100px' },
  { :image => 'appformix.png', :name => 'AppFormix', :link => 'http://www.appformix.com', :width => '150px', :height => '50px' },
+ { :image => 'bigpanda.png', :name => 'BigPanda', :link => 'http://www.bigpanda.io', :width => '100px', :height => '100px' },
  { :image => 'chef.png', :name => 'Chef', :link => 'http://www.chef.io', :width => '100px', :height => '100px' },
+ { :image => 'calmio.png', :name => 'Calm.io', :link => 'http://www.calm.io', :width => '100px', :height => '100px' },
  { :image => 'cloudpassage.png', :name => 'CloudPassage', :link => 'http://www.cloudpassage.com', :width => '100px', :height => '100px' },
- { :image => "datadog.png", :name => "Datadog", :link => "http://www.datadoghq.com", :width => '100px', :height => '100px' },
+ { :image => 'datadog.png', :name => 'Datadog', :link => 'http://www.datadoghq.com', :width => '100px', :height => '100px' },
  { :image => 'delphix.png', :name => 'Delphix', :link => 'http://www.delphix.com', :width => '100px', :height => '100px' },
- { :image => "docker.png", :name => "Docker", :link => "http://www.docker.io", :width => '100px', :height => '100px' },
+ { :image => 'deis.png', :name => 'Deis', :link => 'http://www.deis.io', :width => '100px', :height => '100px' },
+ { :image => 'docker.png', :name => 'Docker', :link => 'http://www.docker.io', :width => '100px', :height => '100px' },
  { :image => 'elastic.png', :name => 'Elastic', :link => 'http://www.elastic.co/', :width => '100px', :height => '100px' },
- { :image => "jut.png", :name => "Jut", :link => "http://www.jut.io", :width => '100px', :height => '100px' },
+ { :image => 'ibm.png', :name => 'IBM', :link => 'http://www.ibm.com/', :width => '100px', :height => '100px' },
+ { :image => 'jut.png', :name => 'Jut', :link => 'http://www.jut.io', :width => '100px', :height => '100px' },
+ { :image => 'logz.png', :name => 'Logz.io', :link => 'http://www.logz.io', :width => '100px', :height => '100px' },
+ { :image => 'microsoft.png', :name => 'Microsoft', :link => 'http://www.microsoft.com', :width => '100px', :height => '100px' },
  { :image => 'neptune.png', :name => 'Neptune', :link => 'http://www.neptune.io', :width => '100px', :height => '100px' },
  { :image => 'netuitive.png', :name => 'Netuitive', :link => 'http://www.netuitive.com', :width => '100px', :height => '100px' },
+ { :image => 'newrelic.png', :name => 'Newrelic', :link => 'http://www.newrelic.com', :width => '100px', :height => '100px' },
+ { :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://www.pagerduty.com', :width => '100px', :height => '100px' },
  { :image => 'pivotal.png', :name => 'Pivotal', :link => 'http://www.pivotal.io', :width => '100px', :height => '100px' },
+ { :image => 'puppetlabs.png', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
+ { :image => 'rackspace.png', :name => 'Rackspace', :link => 'https://www.rackspace.com/', :width => '100px', :height => '100px' },
+ { :image => 'redislabs.png', :name => 'Redis Labs', :link => 'https://www.redislabs.com/', :width => '100px', :height => '100px' },
  { :image => 'signalfx.jpg', :name => 'SignalFx', :link => 'https://signalfx.com/', :width => '100px', :height => '100px' },
+ { :image => 'stackstate.png', :name => 'StackState', :link => 'http://www.stackstate.com/', :width => '100px', :height => '100px' },
+ { :image => 'sumologic.jpg', :name => 'Sumologic', :link => 'http://www.sumologic.com/', :width => '100px', :height => '100px' },
  { :image => 'sysdig.png', :name => 'Sysdig', :link => 'http://www.sysdig.com', :width => '100px', :height => '100px' },
+ { :image => 'talena.png', :name => 'Talena', :link => 'http://www.talena-inc.com', :width => '100px', :height => '100px' },
  { :image => 'victorops.png', :name => 'VictorOps', :link => 'http://www.victorops.com', :width => '100px', :height => '100px' },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
@@ -36,6 +52,9 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+ { :image => 'opsclarity.png', :name => 'OpsClarity', :link => 'http://www.opsclarity.com', :width => '100px', :height => '100px' },
+ { :image => 'sendgrid.png', :name => 'Sendgrid', :link => 'http://www.sendgrid.com', :width => '100px', :height => '100px' },
+ { :image => 'usertesting.jpg', :name => 'UserTesting', :link => 'http://www.usertesting.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -47,6 +66,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+ { :image => 'containership.png', :name => 'Containership', :link => 'http://www.containership.io', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -57,6 +77,7 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+ { :image => 'oreilly.png', :name => "O'Reilly Media", :link => 'http://www.oreilly.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />

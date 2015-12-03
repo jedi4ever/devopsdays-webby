@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 41
+title: "Where are my services?"
+---
+
+**Abstract:**
+
+Service discovery is the glue that ties together any large scale Service Oriented Architecture, yet the tradeoffs between the various approaches have received relatively little attention.
+
+Here at .... we've built a service discovery using SmartStack, Apache ZooKeeper and HAProxy.  We'll describe some of the lessons that we've learned during the process.  Specific topics include:
+
+* Why not just use DNS or Amazon Elastic Load Balancing?
+* How to define a configuration language for service discovery that any developer can use
+* How to perform service discovery between datacenters
+* How to safely deploy changes to service discovery code
+* Tradeoffs between CP and AP for discovery data
+* Scaling challenges
+
+**Speaker:**
+Speaker 41

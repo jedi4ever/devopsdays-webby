@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 47
+title: "Solving the noisy alert problem: why correlation at scale is so hard"
+---
+
+**Abstract:**
+
+Noisy alerts are the bane of our existence. Continuous integration, micro-services, IoT device sprawl, and virtual infrastructure are only making the problem worse. Humans are great at certain things. Correlating thousands of machine alerts isn’t one of them.
+
+In this session we’ll discuss three ways data science and machine learning are being used to reduce noise and make humans scale to monitor modern infrastructure. We’ll discuss the algorithms used to distinguish signal from noise, the unique structure of IT alerts, and how proximity scoring can be used to achieve higher correlation accuracy than traditional natural language processing.
+
+We’ll use examples from three ops teams that successfully implemented this approach and share best practices for getting your organization to adopt the key technologies and cultural practices they use.
+
+Key takeaways: Receive a blueprint for solving your noisy alert problem and learn how organizations like Twitter, Facebook, and Google use the same techniques to monitor at scale.
+
+**Speaker:**
+Speaker 47

@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 46
+title: "DevOps is People: Scaling your Team"
+---
+
+**Abstract:**
+
+How do you scale up a team to cover multiple configuration management technologies, multiple ticketing systems, multiple projects, and covering multiple time zones, while remaining sane?
+
+I'd like to talk about the good and the bad of scaling "DevOps Engineering" when staff can no longer intimately familiar with every project and every line of code. I present some some lessons learned of having a team of 50+ engineers that might be expected to keep up with every configuration management tool, from Chef to Puppet, Ansible, or Salt Stack, across hundreds of services and customers; I'll share some stories about my team, that provides "DevOps" expertise, in a 24-7-365 way, and has lived (mostly) to tell the tale.
+
+I'll provide examples in team structure, working remotely, teams with wide focus (all the DevOps things) and teams with narrow focus (single tool or technology), how to organize code and infrastructure, keeping in sync with colleagues working a flipped schedule, dealing with multiple monitoring systems, and more.
+
+As one of the examples referenced above, I'll present, "When to share code that manages infrastructure, when to keep that code separate/project specific, and how to tell when you're starting to err too much on one side or the other."
+
+While I'll present specific examples, I'd also like to tie some of the practices I'm recommending back into the DevOps philosophy, highlighting things like data driven decision making, a good CI/CD pipeline, automation in general, and human factors (DevOps is People, like the title) like communication and collaboration recommendations/best practices/war stories.
+
+If time permits, I'd get a panel together of folks with different perspectives from my organization, and let them also comment on many of these themes.
+
+**Speaker:**
+Speaker 46

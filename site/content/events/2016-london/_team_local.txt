@@ -1,0 +1,4 @@
+- Barry Chandler <barry.chandler@barclays.com>
+- Owen Gardner <Owen.Gardner@barclays.com>
+- Philippe Guenet <Philippe.Guenet@gft.com>
+- Mark Rendell <mark.rendell@accenture.com>

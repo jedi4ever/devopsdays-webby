@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Corey Quinn
+title: "Terrible Ideas in Git"
+---
+
+**Abstract:**
+
+Adapted from his class "The Screaming Horrors of Git," Corey takes us on a magical tour through the (mis)use of Git to do things its creators never intended. In this humorously delivered exploration of one of the open source community's more ubiquitous tools, Corey demonstrates that a finely crafted wrench makes a barely acceptable hammer if you hold it wrong.
+
+**Speaker:**
+
+Corey has a long and storied history as a consultant -- long, in that every year he did it felt like three years, and storied, in that he's got a few. One of the early developers behind Saltstack, Corey also has a rich history of contributing to various open source projects.

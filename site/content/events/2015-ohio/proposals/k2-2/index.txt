@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Dustin Collins
+title: "Human Error and Secure Systems"
+---
+
+**Abstract:**
+
+We see reports all the time with headlines like "90% of data breaches caused by human error". But what does that really mean? In this talk I will cover the traditional view of human error and how it hinders our ability to develop and maintain secure systems. Other industries have improved safety and security by shifting their view of human error. We can apply many of the the same concepts to software development and operations, minimizing risk and maximizing learning opportunity. The talk will also cover how to "sell" these concepts and practices in your organization.
+
+**Speaker:**
+Dustin Collins
+
+Dustin Collins is the developer advocate for Conjur and organizer for the Boston DevOps meetup. He is most interested in cross-functional collaboration and leveling up software engineers no matter their specific role.

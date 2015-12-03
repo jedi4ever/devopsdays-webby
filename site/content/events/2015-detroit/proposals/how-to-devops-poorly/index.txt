@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: true
+author: Clif Bratcher
+title: "How-to DevOps (Poorly)"
+---
+
+**Abstract:**
+A sarcastic guide on how (not) to work in, with, and around a DevOps team.
+Information has been gathered from real-world experience, eyewitness testimony,
+campfire stories, and overheard at various bars. Names and locations have been
+changed to protect the innocent, and content is heavily inflated for impact.
+
+Topics include:
+
+* Pigs and Walls
+* Fortified Silos
+* Mythical Man-Meetings
+* Bruce Wayne, Sr. Engineer
+* The Horizontal Tooling Methodology
+* IaIK (Infrastructure as Institutional Knowledge)
+* Oracles and You
+* Nihilism in the Workplace
+* Fear-based Scaling
+* Security by Force
+
+
+**Speaker:**
+Clif Bratcher, Duo Security

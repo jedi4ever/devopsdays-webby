@@ -5,6 +5,18 @@ It uses webby as a framework:
 ## Get the source
 `$ git clone git@github.com:jedi4ever/devopsdays-webby.git`
 
+## Install with docker
+If you have docker you can be up and running very quickly. A docker image has been pushed to [docker hub](https://hub.docker.com/r/pietrojs/devopsdays-webby/) with all the dependencies packaged in the image.
+
+### Run the site
+`make docker_run_site`
+
+### Build the site
+`make docker_build_site`
+
+### Create a new docker image
+`make docker_build_image`
+
 ## Install native dependencies
 
 ### On RedHat/CentOS/Fedora:

@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: David Mortman
+title: " Container Orchestration Security"
+---
+
+**Abstract:**
+
+There's been a lot of talks/blog posts/etc about how secure containers are and what their weaknesses are. However there hasn't been nearly enough discussion about the broader orchestration space. It doesn't matter if your containers are secure if you don't manage them securely. I'll discuss what to be worried about and what not to be worried about when it comes to frameworks such as kubernetes, mesos and their cousins.
+
+**Speaker:**
+David Mortman
+
+David Mortman is the Chief Security Architect and a Distinguished Engineer for Dell Software. Recently, he was the Director of Security and Operations at C3. Previously, David was the CISO at Siebel. David speaks regularly at Blackhat, DEF CON, RSA and other conferences. He blogs at emergentchaos.com, newschoolsecurity.com and securosis.com. David sits on a variety of advisory boards, including Qualys and Lookout. David holds a B.S. from the University of Chicago.
