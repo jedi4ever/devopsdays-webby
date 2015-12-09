@@ -1,0 +1,33 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+![Austin](/<%= @eventhome -%>/keepdevopsweird.png)
+
+##<%= render(:partial => "/#{@eventhome}/_target_date") -%>
+
+Registration and CFP coming soon.
+
+<br>
+
+<div>
+  Location: <a href="location">The Marchesa - Austin</a>
+  <br/><br/>
+
+  <% if false %>
+  <br><br>
+  <br><br>
+  If you are looking for a place to stay, the closest Hotel to the event is the <a href="http://www.ihg.com/holidayinn/hotels/us/en/austin/ausmf/hoteldetail">Austin Midtown Holiday</a>. Please review our <a href="conduct/">code of conduct</a> before you arrive.
+  <% end %>
+</div>
+<hr>
+
+If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)

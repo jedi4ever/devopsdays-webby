@@ -9,6 +9,7 @@
         <a href="/events/2016-london/">London - Apr 19 & 20</a><br/>
         <a href="/events/2016-denver/">Denver - Apr 21 & 22</a><br/>
         <a href="/events/2016-atlanta/">Atlanta - Apr</a><br/>
+        <a href="/events/2016-austin/">Austin - May 3 & 4</a><br/>
         <a href="/events/2016-kiel/">Kiel - May 12 & 13</a><br/>
         <a href="/events/2016-seattle/">Seattle - May 12 & 13</a><br/>
         <a href="/events/2016-toronto/">Toronto - May 26 & 27</a><br/>
