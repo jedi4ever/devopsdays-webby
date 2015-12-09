@@ -150,6 +150,20 @@ function initialize() {
 
   google.maps.event.addListener(losangelesmarker, "click", function (e) { location.href="/events/2016-losangeles-1day"});
 
+  var austinlocation = new google.maps.LatLng(30.2500, -97.7500);
+  var austinmarker = new MarkerWithLabel({
+  position: austinlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Austin<br>May 3 & 4",
+  labelAnchor: new google.maps.Point(10, 0),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2016-austin"});
+
 
 
 

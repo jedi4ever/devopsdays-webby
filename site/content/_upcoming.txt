@@ -16,10 +16,14 @@
      Denver
     </a>
     -
+    <a href="/events/2016-austin/">
+     Austin
+    </a>
+    <br>
     <a href="/events/2016-kiel/">
       Kiel
     </a>
-    <br>
+    -
     <a href="/events/2016-seattle">
       Seattle
     </a>
