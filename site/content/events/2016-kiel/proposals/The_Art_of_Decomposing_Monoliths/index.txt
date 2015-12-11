@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Kfir Bloch
+title: "The Art of Decomposing Monoliths"
+---
+
+**Abstract:**
+
+Microservices are the new black. You've heard about them, you've read about them, you may have even implemented a few, but sooner or later you'll run into the age-old conundrum: How do I break my monolith apart? Where do I draw service boundaries?
+
+In this talk you will learn several widely-applicable strategies for decomposing your monolithic application, along with their respective risks and the appropriate mitigation strategies. These techniques are widely used at Wix, took us a long time to develop and have proven consistently effective; hopefully they will help you avoid the same battle scars.
+
+**Speaker:**
+
+Currently the Head of Backend Engineering at Wix, Kfir has seen some things during the 17 years in the field.
+Unfortunately for him, Kfir has not lost his passion for hands on development, even though it usually collides with his
+day to day job of architecting and managing 70 developers. His past includes working in various networking companies, 
+and it seems that the past continues to haunt him - while he is working today to bring Wix to the NodeJS age, he can't seem to forget that he wrote server-side JavaScript on a Netscape server a long while ago.
+

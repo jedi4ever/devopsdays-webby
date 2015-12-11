@@ -38,20 +38,6 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  var warsawlocation = new google.maps.LatLng(52.1800879, 20.9788363);
-  var warsawmarker = new MarkerWithLabel({
-    position: warsawlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Warsaw<br>Nov 24 & 25",
-    labelAnchor: new google.maps.Point(10, 25),
-    labelClass: "labels",
-    labelStyle: { opacity: 1 }
-  });
-
-  google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2015-warsaw/"});
-
   var dclocation = new google.maps.LatLng(38.8011545,-77.0659376);
   var dcmarker = new MarkerWithLabel({
     position: dclocation,
@@ -135,6 +121,50 @@ function initialize() {
   });
 
   google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2016-london"});
+
+  var vancouverlocation = new google.maps.LatLng(49.2827, -123.1207);
+  var vancouvermarker = new MarkerWithLabel({
+  position: vancouverlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Vancouver<br>Apr 15 & 16",
+  labelAnchor: new google.maps.Point(60, 30),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(vancouvermarker, "click", function (e) { location.href="/events/2016-vancouver"});
+
+  var losangeleslocation = new google.maps.LatLng(34.0500, -118.2500);
+  var losangelesmarker = new MarkerWithLabel({
+  position: losangeleslocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Los Angeles<br>Jan 22",
+  labelAnchor: new google.maps.Point(60, 0),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(losangelesmarker, "click", function (e) { location.href="/events/2016-losangeles-1day"});
+
+  var austinlocation = new google.maps.LatLng(30.2500, -97.7500);
+  var austinmarker = new MarkerWithLabel({
+  position: austinlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Austin<br>May 2 & 3",
+  labelAnchor: new google.maps.Point(10, 0),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2016-austin"});
+
+
 
 
 }
