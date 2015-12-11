@@ -2,12 +2,12 @@
 filter:    erb
 ---
 <% @psponsors = [
-{ :image => "barclays.png", :name => "Barclays", :link => "http://www.barclays.co.uk/"},
-{ :image => "gft.jpg", :name => "GFT", :link => "http://www.gft.com/"},
+{ :image => "barclays.jpg", :name => "Barclays", :link => "http://www.barclays.co.uk/"},
+{ :image => "gft.png", :name => "GFT", :link => "http://www.gft.com/"},
 ]%>
 
 <% @psponsors.shuffle.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=2 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=150px height=150px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=200px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a><br/><br/>
 <% end %>
 
 <% if @psponsors.empty?  %>
@@ -15,11 +15,10 @@ filter:    erb
 <% end %>
 
 
-
 <h1>Gold sponsors</h1>
 
 <% @gsponsors = [
-#{ :image => "xebialabs.png", :name => "Xebialabs", :link => "http://xebialabs.com/"},
+{ :image => "oracle.png", :name => "Oracle", :link => "http://www.oracle.com/"},
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
@@ -31,10 +30,9 @@ filter:    erb
 <% end %>
 
 
-
 <h1>Silver sponsors</h1>
 <% @ssponsors = [
-#{ :image => "kainos.png", :name => "Kainos", :link => "http://kainos.com/"}
+{ :image => "serverdensity.png", :name => "server density", :link => "http://www.serverdensity.com/"}
 ]%>
 
 <% @ssponsors.each do |sponsor| %>

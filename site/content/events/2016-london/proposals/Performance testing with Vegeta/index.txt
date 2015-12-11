@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Oliver Wood 
+title: "Performance testing with Vegeta"
+---
+
+**Abstract:**
+
+I'd like to do a whistle stop walk though of hi volume (multiple k requests a second) testing of an API using Vegeta (https://github.com/tsenart/vegeta) including generating traffic using EC2 instances as hosts, Python for setup and BASH for easy collating of results.
+
+Nothing super complex (it's only 5 minutes after all) but covering all the major activities needed for both peak volume and soak testing.
+
+**Speaker:**
+Oliver Wood
+
