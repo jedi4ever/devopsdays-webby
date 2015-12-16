@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Felix Willnecker/André van Hoorn
+title: "Rethinking Performance Engineering in the DevOps World"
+---
+
+**Abstract:**
+
+Researchers and practitioners know quite well how to handle performance in classical environments involving a strict separation between Dev and Ops. DevOps aims to merge these silos. So far, the community has failed to systematically integrate performance management practices into the DevOps world, even though modern software development paradigms provide great opportunities to do that. Only holistic performance management, integrating Dev and Ops throughout the whole life-cycle, leads to high-quality software.
+
+We have developed a blueprint for performance-aware DevOps processes and infrastructures, serving as a template for holistic performance management. The design rationale for this blueprint has been accompanied by an industry survey ascertaining current practices and tools. The blueprint is a result of a joint work by multiple institutions. This talk will outline the blueprint and give the opportunity to exchange views among DevOps-enthusiastic researchers and practitioners.
+
+**Speaker:**
+
+Felix Willnecker studied computer science at the Technical University Munich. After several years of professional work experience as CTO of Weptun GmbH he started researching at fortiss. His research areas include application system performance and enterprise architecture management.
+
+Andre van Hoorn is the interim professor for Reliable Software Systems at the University of Stuttgart. His research interests include combining model-based and measurement-based performance evaluation.
