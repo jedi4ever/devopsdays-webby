@@ -19,6 +19,8 @@ filter:    erb
 
 <% @gsponsors = [
 { :image => "oracle.png", :name => "Oracle", :link => "http://www.oracle.com/"},
+{ :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
+{ :image => "Microsoft-Logo.jpg", :name => "Microsoft", :link => "http://www.microsoft.com/"},
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
@@ -32,7 +34,8 @@ filter:    erb
 
 <h1>Silver sponsors</h1>
 <% @ssponsors = [
-{ :image => "serverdensity.png", :name => "server density", :link => "http://www.serverdensity.com/"}
+{ :image => "serverdensity.png", :name => "server density", :link => "http://www.serverdensity.com/"},
+{ :image => "OpenText_logo.jpg", :name => "OpenText", :link => "http://www.opentext.com/"},
 ]%>
 
 <% @ssponsors.each do |sponsor| %>
