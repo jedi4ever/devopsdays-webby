@@ -47,5 +47,5 @@ end
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a [Media Sponsor!](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>)
+<% if @msponsors.size == 0 %>Be the first to become a <a href="mailto:organizers-seattle-2016@devopsdays.org?Subject=DevopsDays%20Sponsership" target="_top">Media Sponsor</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
