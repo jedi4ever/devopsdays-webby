@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Wayne Ariola
+title: "Continuous Testing for DevOps: Evolving Beyond Automation"
+---
+
+**Abstract:**
+
+Attend this session to learn why and how Continuous Testing's real-time objective assessment of an application's business risks is a critical component of DevOps:
+
+Throughout the process, business stakeholders have instant access to feedback on whether their expectations are being met, enabling them to make informed decisions.
+
+At the time of the critical "go/no go" decision, there is an instant, objective assessment of whether your organization's specific expectations are satisfied--reducing the business risk of a fully-automated Continuous Delivery process.
+
+Defects are eliminated at the point when they are easiest, fastest, and least costly to fix--a prime principle of being "lean."
+
+Continuous measurement vs. key metrics means continuous feedback, which can be shared and used to refine the process.
+
+**Speaker:**
+
+Wayne Ariola, Chief Strategy Officer, leads the development and execution of Parasoft's long-term strategy. Ariola is a frequent contributor to publications as well as a sought-after speaker at key industry events. Ariola brings more than 20 years strategic consulting experience within the technology and software development industries.
