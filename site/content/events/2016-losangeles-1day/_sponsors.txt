@@ -15,6 +15,7 @@ end
 <% @bsponsors = [
  { :image => 'carsdotcom.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '43px' },
  { :image => 'puppetlabs.jpg', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
+ { :image => 'cisco.png', :name => 'Cisco', :link => 'http://www.cisco.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
