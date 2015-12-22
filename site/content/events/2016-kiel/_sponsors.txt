@@ -46,6 +46,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "core-admin-logo-100x100.png", :name => "Core-Admin", :link => "http://www.core-admin.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
