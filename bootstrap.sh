@@ -13,7 +13,7 @@ rbenv bootstrap-ubuntu-12-04
 CONFIGURE_OPTS=--without-tk rbenv install 1.8.7-p370
 rbenv rehash
 rbenv global 1.8.7-p370
-gem install bundler
+gem install bundler --version 1.10.6
 
 cd /vagrant
 bundle install
