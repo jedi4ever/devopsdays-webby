@@ -14,3 +14,7 @@ filter:    erb
 
 </h3>
 </div>
+
+<h3>Ready for more DevOpsDays?</h3>
+
+<h3><a href='/event/2016-washington-dc/'>DevOpsDays DC will return June 8-9, 2016</a>.</h3>
