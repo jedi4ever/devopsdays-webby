@@ -15,9 +15,10 @@ end
 <h1>Break Sponsors</h1>
 
 <% @bsponsors = [
- { :image => 'carsdotcom.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '43px' },
- { :image => 'puppetlabs.jpg', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
+ { :image => 'carsdotcom.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '100px' },
  { :image => 'cisco.png', :name => 'Cisco', :link => 'http://www.cisco.com', :width => '100px', :height => '100px' },
+ { :image => 'puppetlabs.jpg', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
+ { :image => 'sumologic.jpg', :name => 'SumoLogic', :link => 'http://www.sumologic.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -28,10 +29,10 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
- { :image => 'devopsdotcom.png', :name => 'DevOps.com', :link => 'http://www.devops.com', :width => '100px', :height => '25px' },
+ { :image => 'devopsdotcom.png', :name => 'DevOps.com', :link => 'http://www.devops.com', :width => '100px', :height => '100px' },
  { :image => 'usenix.png', :name => 'Usenix', :link => 'http://www.usenix.org', :width => '100px', :height => '100px' },
- { :image => 'linuxjournal.jpg', :name => 'Linux Journal', :link => 'http://www.linuxjournal.com', :width => '100px', :height => '45px' },
- { :image => 'linuxpromagazine.jpg', :name => 'Linux Pro Magazine', :link => 'http://www.linuxpromagazine.com/', :width => '100px', :height => '40px' },
+ { :image => 'linuxjournal.jpg', :name => 'Linux Journal', :link => 'http://www.linuxjournal.com', :width => '100px', :height => '100px' },
+ { :image => 'linuxpromagazine.jpg', :name => 'Linux Pro Magazine', :link => 'http://www.linuxpromagazine.com/', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
