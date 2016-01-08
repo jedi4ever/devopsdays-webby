@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Gareth Rushgrove 
+title: "Rate of Change, (Un)opinionated Platforms and Devops Coevolution"
+---
+
+**Abstract:**
+
+The recent explosion in new technologies for running software systems;
+architectures based around smaller and smaller (micro)services; the
+devops movement and operators and developers working closely together.
+
+In this talk I'll argue that these threads, while somewhat separate,
+are all related at a higher level and the changes we are seeing are
+the result of coevolution - where a change in one practice has a
+direct effect on others. The talk will touch on:
+
+* The operational cost of smaller and smaller components, and the
+resulting macro increase in complexity
+* Why different types of teams find it easier (or harder) to adopt
+certain types of software
+* How the skills and composition of teams change as a result of the
+adoption of platforms/devops/microservices (or is it the other way
+around?)
+* Why the rapid rate of change resists traditional standards, and
+examples of lightweight alternatives
+
+The audience should take away:
+
+* An appreciation of how the adoption of practices like devops and
+microservices, and tools like platform as a service, are
+interconnected
+* A better understanding of how devops emerged in widely different organisations
+* How coevolution means cause and effect could be either way round,
+and how to use that to change your organisation
+
+
+**Speaker:**
+
+Gareth Rushgrove

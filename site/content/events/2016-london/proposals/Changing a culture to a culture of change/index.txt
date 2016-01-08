@@ -1,0 +1,42 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Joseph McKevitt 
+title: "Changing a culture to a culture of change"
+---
+
+**Abstract:**
+"Brief Synopsis
+Four years ago we introduced Continuous Delivery into a highly regulated environment for a FTSE250 company. At the time it had an engrained release process that involved weekend maintenance windows, monthly offshore regression cycles and a complex delivery process. It was all very stressful.
+Listen to a selection of stories starting from how we lobbied the first POC based on an initiative from a devops bookclub to releasing our trading application more times in the last month than the previous year. All without an architecture rewrite, off the shelf tooling or a companywide mandate.
+Come and learn our strategies for change
+ 
+ 
+Talk Details
+ 
+The journey of CD adoption is told over a number of short stories, where each story represents step up in adoption and moves further away from our previous culture.
+ 
+Act 1- Fear of change
+Before we started our journey, it could not have been more further away from continuously delivery.  Small changes took around 2 months to reach production, with half dozen teams involved in the delivery process.  It was an environment that stifled innovation, responsibility and social engagements over weekends.  Everything is geared around this lock step release, how on earth can a group of minions like us change it? 
+ 
+Act 2 – Yes we can!
+After learning about zero downtime deploys and motived to get our Friday nights back, this is a story about lobbying, selling and collaborating across various teams and management structures and convincing the powers that be that yes we can make changes to our production systems during core hours, even in a highly regulated environment.  
+ 
+Act 3 – Lets get Serious
+We have a few CD early adopters but everyone else thinks it’s just wishful hippy thinking and that when applied on any of our core apps that are remotely complex, we are going to get into a deploy time dependencies nightmare.  So this story is about transforming a team of doubters to a team of trail blazers that not only delivered the crown jewels of our apps onto a CD workflow but became the company CD evangelists.
+ 
+Act 4 - Tipping point
+Now we organising internal monthly CD meetups, hosting external CD meetups, printing we love CD t-shirts.  Still not everyone is convinced, especially outside the IT department.  Most of our changes are on existing legacy applications, so lets target our most valuable asset – the trading platform.  CD was just a twinkle in Jezz Humbles and Dave Farleys eye when this app was built, yet over a course of months we managed to slowly migrate the application, the regression team and the teams who contributed to it over to the CD workflow.  Learn how the workflow liberated teams to innovate and feedback into wider CD adoption.
+ 
+Act 5 - a lot done more to do
+Given all the success, some people are still not convinced.  Instead of losing heart, it’s an opportunity for us to address their concerns.  Now that we have addressed the technical impediments how do we go about scaling out CD across an organisation?  How do we go about convincing our Product owners that uncertainty is okay and its okay not to plan too far in the future."
+
+**Speaker:**
+Joseph McKevitt

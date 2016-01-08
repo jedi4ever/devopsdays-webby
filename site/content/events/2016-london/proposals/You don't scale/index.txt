@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Oliver Wood
+title: "You don't scale"
+---
+
+**Abstract:**
+
+
+Back in 2008 I worked myself into hospital, collapsing a disc in my spine and ending up taking 3 months off work and having some surgery.  I'd like to highlight how we all focus on scaling servers, but need to look after ourselves.   It's a topic I'd given several lightening talks on before (see https://twitter.com/hypersupermeta/status/581507212855668737 from ScaleSummit)
+
+
+
+**Speaker:**
+Oliver Wood

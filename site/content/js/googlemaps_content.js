@@ -38,20 +38,6 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  var warsawlocation = new google.maps.LatLng(52.1800879, 20.9788363);
-  var warsawmarker = new MarkerWithLabel({
-    position: warsawlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Warsaw<br>Nov 24 & 25",
-    labelAnchor: new google.maps.Point(10, 25),
-    labelClass: "labels",
-    labelStyle: { opacity: 1 }
-  });
-
-  google.maps.event.addListener(warsawmarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
-
   var dclocation = new google.maps.LatLng(38.8011545,-77.0659376);
   var dcmarker = new MarkerWithLabel({
     position: dclocation,
@@ -64,7 +50,7 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2016-minneapolis/"});
+  google.maps.event.addListener(dcmarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
 
   var minneapolislocation = new google.maps.LatLng(44.9726428,-93.2752562);
   var minneapolismarker = new MarkerWithLabel({
@@ -78,7 +64,7 @@ function initialize() {
     labelStyle: { opacity: 1 }
   });
 
-  google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2016-washington-dc/"});
+  google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2016-minneapolis/"});
 
   var kiellocation = new google.maps.LatLng(54.34208,10.121949);
   var kielmarker = new MarkerWithLabel({
@@ -107,4 +93,78 @@ function initialize() {
   });
 
   google.maps.event.addListener(seattlemarker, "click", function (e) { location.href="/events/2016-seattle/"});
+
+  var torontolocation = new google.maps.LatLng(43.7000, -79.4000);
+  var torontomarker = new MarkerWithLabel({
+  position: torontolocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Toronto<br>May 26 & 27",
+  labelAnchor: new google.maps.Point(-5, 42),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(torontomarker, "click", function (e) { location.href="/events/2016-toronto"});
+
+  var londonlocation = new google.maps.LatLng(51.5072, -0.1275);
+  var londonmarker = new MarkerWithLabel({
+  position: londonlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "London<br>Apr 19 & 20",
+  labelAnchor: new google.maps.Point(25, 25),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2016-london"});
+
+  var vancouverlocation = new google.maps.LatLng(49.2827, -123.1207);
+  var vancouvermarker = new MarkerWithLabel({
+  position: vancouverlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Vancouver<br>Apr 15 & 16",
+  labelAnchor: new google.maps.Point(60, 30),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(vancouvermarker, "click", function (e) { location.href="/events/2016-vancouver"});
+
+  var losangeleslocation = new google.maps.LatLng(34.0500, -118.2500);
+  var losangelesmarker = new MarkerWithLabel({
+  position: losangeleslocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Los Angeles<br>Jan 22",
+  labelAnchor: new google.maps.Point(60, 0),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(losangelesmarker, "click", function (e) { location.href="/events/2016-losangeles-1day"});
+
+  var austinlocation = new google.maps.LatLng(30.2500, -97.7500);
+  var austinmarker = new MarkerWithLabel({
+  position: austinlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Austin<br>May 2 & 3",
+  labelAnchor: new google.maps.Point(10, 0),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2016-austin"});
+
+
+
+
 }

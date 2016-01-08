@@ -15,7 +15,7 @@ end
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
-<% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
+<% if @gsponsors.size == 0 %>Be the first to become a <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LDL9YT3DT62DC">Gold Sponsor!</a>
 <% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
 <br/>
@@ -26,7 +26,7 @@ end
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
-<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
+<% if @ssponsors.size == 0 %>Be the first to become a <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XSZA34MYCG3FS">Silver Sponsor!</a>
 <% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
@@ -37,7 +37,7 @@ end
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
-<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
+<% if @bsponsors.size == 0 %>Be the first to become a <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F24MPPK5RC5Z8">Bronze Sponsor!</a>
 <% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
 
 <br/>
@@ -47,5 +47,5 @@ end
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
+<% if @msponsors.size == 0 %>Be the first to become a media sponsor. Please email the orgainzers at organizers-seattle-2016@devopsdays.org
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>

@@ -1,51 +1,84 @@
 ---
 filter:    erb
 ---
+<% @psponsors = [
+{ :image => "barclays.jpg", :name => "Barclays", :link => "http://www.barclays.co.uk/"},
+{ :image => "gft.png", :name => "GFT", :link => "http://www.gft.com/"},
+]%>
 
-<%
-def make_sponsor_links(sponsors)
-  sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
-  end.join("\n")
-end
-%>
+<% @psponsors.shuffle.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=200px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a><br/><br/>
+<% end %>
+
+<% if @psponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+
+<h1>Gold sponsors</h1>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "oracle.png", :name => "Oracle", :link => "http://www.oracle.com/"},
+{ :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
+{ :image => "Microsoft-Logo.jpg", :name => "Microsoft", :link => "http://www.microsoft.com/"},
+{ :image => "pagerduty.jpg", :name => "PagerDuty", :link => "https://www.pagerduty.com"},
+{ :image => "Pivotal_TealOnWhite_RGB_1.png", :name => "Pivotal", :link => "http://pivotal.io/"},
 ]%>
-<%= make_sponsor_links(@gsponsors) %>
-<br />
-<% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
-<% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
-<br/>
-<br/>
+<% @gsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% if @gsponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+
 <h1>Silver sponsors</h1>
-
 <% @ssponsors = [
-] %>
-<%= make_sponsor_links(@ssponsors) %>
-<br />
-<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
-<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+{ :image => "serverdensity.png", :name => "server density", :link => "http://www.serverdensity.com/"},
+{ :image => "OpenText_logo.jpg", :name => "OpenText", :link => "http://www.opentext.com/"},
+{ :image => "coscale.png", :name => "Coscale", :link => "http://www.coscale.com/"},
+{ :image => "delphix_logo.png", :name => "Delphix", :link => "http://www.delphix.com"},
+{ :image => "moog.png", :name => "Moogsoft", :link => "https://www.moogsoft.com/"},
+{ :image => "xebialabs-standard.png", :name => "Xebia Labs", :link => "https://xebialabs.com"},
+]%>
 
-<br/>
-<br/>
+<% @ssponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% if @ssponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+
+
 <h1>Bronze sponsors</h1>
-
 <% @bsponsors = [
-] %>
-<%= make_sponsor_links(@bsponsors) %>
-<br />
-<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
-<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+{ :image => "nuage_VerticalLogo_print_CMYK_medium_2.png", :name => "Nuage Networks", :link => "http://www.nuagenetworks.net/"},
+]%>
 
-<br/>
-<br/>
-<h1>Media sponsors</h1>
+<% @bsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% if @bsponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+
+
+<h1>Media sponsor</h1>
 <% @msponsors = [
-] %>
-<%= make_sponsor_links(@msponsors) %>
-<br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
-<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+]%>
+
+<% @msponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
+<% if @msponsors.empty?  %>
+<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
+<% end %>
+
+
