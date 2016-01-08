@@ -21,6 +21,8 @@ filter:    erb
 { :image => "oracle.png", :name => "Oracle", :link => "http://www.oracle.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
 { :image => "Microsoft-Logo.jpg", :name => "Microsoft", :link => "http://www.microsoft.com/"},
+{ :image => "pagerduty.jpg", :name => "PagerDuty", :link => "https://www.pagerduty.com"},
+{ :image => "Pivotal_TealOnWhite_RGB_1.png", :name => "Pivotal", :link => "http://pivotal.io/"},
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
@@ -36,6 +38,10 @@ filter:    erb
 <% @ssponsors = [
 { :image => "serverdensity.png", :name => "server density", :link => "http://www.serverdensity.com/"},
 { :image => "OpenText_logo.jpg", :name => "OpenText", :link => "http://www.opentext.com/"},
+{ :image => "coscale.png", :name => "Coscale", :link => "http://www.coscale.com/"},
+{ :image => "delphix_logo.png", :name => "Delphix", :link => "http://www.delphix.com"},
+{ :image => "moog.png", :name => "Moogsoft", :link => "https://www.moogsoft.com/"},
+{ :image => "xebialabs-standard.png", :name => "Xebia Labs", :link => "https://xebialabs.com"},
 ]%>
 
 <% @ssponsors.each do |sponsor| %>
@@ -50,7 +56,7 @@ filter:    erb
 
 <h1>Bronze sponsors</h1>
 <% @bsponsors = [
-#{ :image => "kainos.png", :name => "Kainos", :link => "http://kainos.com/"}
+{ :image => "nuage_VerticalLogo_print_CMYK_medium_2.png", :name => "Nuage Networks", :link => "http://www.nuagenetworks.net/"},
 ]%>
 
 <% @bsponsors.each do |sponsor| %>
