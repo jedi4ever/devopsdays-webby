@@ -21,7 +21,7 @@
         <a href="/events/2016-istanbul/">Istanbul</a><br/>
         <a href="/events/2016-chicago/">Chicago</a><br/>
         <a href="/events/2016-ghent/">Ghent</a><br/>
-        <a href="/events/2016-raleigh/">Raleigh</a><br/>
+        <a href="/events/2016-raleigh/">Raleigh - Fall</a><br/>
       </td>
     </tr>
   </table>
