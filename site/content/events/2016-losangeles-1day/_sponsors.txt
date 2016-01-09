@@ -19,6 +19,7 @@ end
  { :image => 'cisco.png', :name => 'Cisco', :link => 'http://www.cisco.com', :width => '100px', :height => '100px' },
  { :image => 'puppetlabs.jpg', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
  { :image => 'sumologic.jpg', :name => 'SumoLogic', :link => 'http://www.sumologic.com', :width => '100px', :height => '100px' },
+ { :image => 'verizon.png', :name => 'Verizon Digital Media Services', :link => 'https://www.verizondigitalmedia.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
