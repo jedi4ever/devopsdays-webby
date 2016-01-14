@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+layout: event
+title: Propose
+dirty: true
+platinum: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<center>
+<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>
+<b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
+Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
+</center>
+
+## Equal Opportunity
+
+DevOpsDays Toronto is committed to creating a diverse environment and is proud to invite people of all backgrounds and profiles to submit presentation proposals. All potential speakers will receive consideration without regard to race, colour, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, ability or age.
+
+For more information, please see our published <a href="../conduct/index.html">Code of Conduct</a>.
+
+## Proposals
+
+There are three ways to propose a session:
+
+1. __A proposal for a talk/panel__ during the conference part : these are 30 minute slots that will have the full attention of all attendees, as everybody will be in that one room.
+2. __An Ignite talk__ that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>. These are 5 minutes slots with slides changing every 15 seconds (20 slides total) which are also presented to all attendees in one room
+3. __Open Space session__ : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during Open Space. Check the <a href="/pages/open-space-format">Open Space explanation</a> for more information.
+
+Our main criteria to make it to the top selection are:
+
+- __original content__: content not yet presented at other conferences, or a new angle to an existing problem
+- __new presenters__: people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
+- __no vendor pitches__: as much as we value vendors and sponsors, we just don't think this is the right forum. You can demo at your table or during Open Space.
+
+##Submit
+
+To submit a talk create an account on our <a href="https://cfp.devopsto.com/" target="_blank">OpenCFP</a> and click the Submit a talk button. 
+
+- Be specific... we aren't mind readers (a description of about 20 lines is about right)
+- Detail is good... but not as important as explaining why your proposal would be interesting
+- Propose your own talk; don't have someone else do it for you.
+- Multiple proposals welcome... just follow the other rules
