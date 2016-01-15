@@ -1,0 +1,23 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Inny So
+title: Firefighter
+---
+
+**Abstract:**
+
+Have you and your team ever been buried under piles of support works? This talk will look at how constant firefighting can affect a team to deliver, sharing some ideas for how to recognise and proactively avoid this issue.
+
+**Speaker:**
+
+Inny So
+
+

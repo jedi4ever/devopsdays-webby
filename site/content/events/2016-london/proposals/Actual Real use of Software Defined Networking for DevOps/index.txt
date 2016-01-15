@@ -1,0 +1,24 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Christoph Andreas Torlinsky
+title: Actual Real use of Software Defined Networking for DevOps
+---
+
+**Abstract:**
+
+The DevOps movement is gaining moment and going increasingly mainstream, with new Cloud Architectures redefining the way Applications and Teams deliver for the Business, subsequently new technologies emerge which remove the Silos that have much prevented the 'better way of doing things'. Enter Software Defined Networking in 2016 - as a much hyped technology finally finds itself being adopted by teams that need to Deliver with precision, speed, and greater efficiency this presentation cover what it takes to use the SDN underpinning 'for Real' in a CI/CD pipeline. 
+
+
+**Speaker:**
+
+Christoph Andreas Torlinsky
+
+

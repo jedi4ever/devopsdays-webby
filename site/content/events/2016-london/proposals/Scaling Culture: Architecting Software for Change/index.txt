@@ -1,0 +1,40 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Casey West
+title: Scaling Culture: Architecting Software for Change
+---
+
+**Abstract:**
+
+In this talk I explore the relationship between our practices of cultural evolution and technological advancement. Software teams often focus deeply on one of two areas for improvement: 
+
+Culture (e.g., doing _devops_, being _agile_, or conducting _retrospectives_). 
+Technological advancement (e.g., becoming _cloud-native_, deploying _containers_, or writing _lambda functions_). 
+
+As [Conway’s Law](https://en.wikipedia.org/wiki/Conway%27s_law) suggests, though, the quality of your software is a direct reflection on the quality of the culture creating it (just as the structure of your software reflects your organizational structure). This acknowledgment of a symbiotic relationship between technological proficiency and the quality of our working lives goes back 70 years to the development of Sociotechnical Systems Theory at the Tavistock Institute in London: any improvement in one area must be accompanied by a commensurate improvement in the other. 
+
+For example, the recent opportunity to make huge technological leaps forward by leveraging strong foundational components such as development frameworks, automated infrastructure, and structured platforms requires a cultural shift to embrace solutions maintained by strong independent teams on Open Source projects and outside one’s own organization. 
+
+Open Source components and commodity infrastructure providers have created an ecosystem where even small teams can manage scalable solutions without having to build every component themselves. This is a major shift in our industry: we are in an age where large systems no longer need to be bespoke. Embracing and leveraging what are essentially outsourced components can’t be done in a traditional "not invented here” culture. 
+
+We’ve known for decades there is no silver bullet which dramatically improves engineering performance. Fred Brooks wrote about it in _The Mythical Man Month_ nearly 40 years ago. This talk aims to take a fresh look at his "no silver bullet” thesis from the perspective of today’s demands of organizational and systems scalability, as well as today’s opportunities to leverage significant technological advancements in infrastructure automation, elastic runtimes, and application frameworks. 
+
+Our discipline has gone through two significant architectural revolutions (mainframes to servers, servers to virtualization) since Brooks penned _The Mythical Man Month_. We’re in the midst of the third: virtualization to cloud-native applications. Designing large-scale software in this landscape is a complex undertaking. Expectations for organizational scale, engineering throughput, and operational performance have never been higher. We must carefully craft our culture _and_ technological design to meet these demands. No single change in technology or culture will yield a major transformational improvement; it takes many small, coordinated, continuous improvements to create such a transformation. Moreover, it’s challenging to be a change agent addressing both culture and technology; I will present proven strategies for influencing cultural change to take advantage of technological advancements. 
+
+Key Takeaways for Audience 
+
+I hope to provide the audience with a clear understanding of the symbiotic relationship between technology and the social constructs that create it. By teaching the audience about Sociotechnical Systems and Conway’s Law, and tying them to the seminal work by Fred Brooks, I aim to convince them no single improvement in technology or culture will be transformational. Rather, a joint optimization of both is required. In order to achieve such a joint optimization any change agents in the audience will need solid strategies and compelling arguments for comprehensive improvement across culture and technology. This talk will provide many of those, and I intend to make time for the audience to share their own experiences which have worked, or not, for the edification of everyone.
+
+**Speaker:**
+
+Casey West
+
+

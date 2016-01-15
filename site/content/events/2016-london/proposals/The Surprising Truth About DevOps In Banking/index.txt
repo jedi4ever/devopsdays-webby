@@ -1,0 +1,27 @@
+--
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Benjamin Wootton
+title: The Surprising Truth About DevOps In Banking
+---
+
+**Abstract:**
+
+Though many of the people within banking will be surprised by this, banks are in many ways relatively DevOps mature and in an even better situation for improving their DevOps capability going forward.
+
+In this presentation I'll begin by describing where banks are typically effective, well placed, or have a head start on their DevOps transformation relative to other industries. Then I will follow up focusing on where banks have lower maturity and more to do on their DevOps transformation.
+
+This presentation will be based on experience within 4 global investment banks and over 30 organisations who are on the DevOps journey outside of banking
+
+**Speaker:**
+
+Benjamin Wootton
+
+

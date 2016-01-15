@@ -1,0 +1,44 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Casey West
+title: Minimum Viable Platform
+---
+
+**Abstract:**
+
+Platforms: either you have one or you’re building one. Over the years I’ve observed six high-level characteristics common to production environments which are operationally mature: 
+
+Routing and load balancing. 
+Backing services broker. 
+Infrastructure orchestration. 
+Health management, monitoring, and recovery. 
+Immutable artifact repository. 
+Log aggregation. 
+
+This talk will explain in detail the six capabilities in an operationally mature production environment. It will serve as a rubric for anyone building their own production platform composed of unstructured components; or choosing an integrated, structured platform from the many options available. 
+
+Sometimes the automation and speed available to operationally mature organizations can seem like magic to those at the beginning of their devops and automation journeys. That’s why I will also demonstrate these capabilities in an interactive, live exposition. 
+
+Critical capabilities including infrastructure and application lifecycle management, deployment, auto-provisioning backing services, and failure recovery will shown. You’ll see what life is like for teams who have the operational maturity of a Minimum Viable Platform. 
+
+For the purposes of demonstration I will be using the [Open Source Cloud Foundry Platform](http://cloudfoundry.org). 
+
+Key Takeaways for Audience 
+
+A clear understanding of operational maturity for a distributed-systems production environment, including an explanation of critical characteristics and hands-on exposure to "a day in the life” of teams with these capabilities. 
+
+For many people coming to Velocity looking to learn what their future holds this is a very practical explanation of where they’re headed. It’s like a guide book. For many in our community who are further along in their automation and operational maturity journeys this talk will feel like a ~301 class.
+
+**Speaker:**
+
+Casey West
+
+

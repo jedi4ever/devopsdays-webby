@@ -1,0 +1,51 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Sabine Bernecker-Bendixen
+title: The "House of Cards" game in your organization
+---
+
+**Abstract:**
+
+You all know or have heard about the film "House of Cards" of Netflix? The truth is, 
+
+that a lot of the hidden political decisions happen each day in a lot of organizations! 
+
+The negative effects of such personal goals – which often are counterproductive to 
+
+the companies’ or team ´s goals – are immeasurable! What about you organization 
+
+and the "House of Cards” game? In modern IT practices like "continuous everything” 
+
+time is a limiting factor; no time left for clearing up misunderstandings and problems 
+
+caused by that sneaky and dangerous game! In DevOps surrounding trust is 
+
+important to break away from new silos. 
+
+In this session you will learn how important transparency is to avoid this offstage 
+
+game. You will see that an atmosphere of trust will reduce the readiness of the 
+
+employees for playing this game. 
+
+But still the question is, how to achieve transparency and build an atmosphere of 
+
+trust! See how a strong communication and a modern way of leadership will be 
+
+valuable tools helping you to build up a successful DevOps reality with common 
+
+goals.
+
+**Speaker:**
+
+Sabine Bernecker-Bendixen
+
+

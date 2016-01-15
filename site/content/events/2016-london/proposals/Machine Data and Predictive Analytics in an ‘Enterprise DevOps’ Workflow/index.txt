@@ -1,0 +1,29 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Andi Mann
+title: Machine Data and Predictive Analytics in an ‘Enterprise DevOps’ Workflow
+---
+
+**Abstract:**
+
+Enterprise IT organizations are increasingly using machine data and predictive analytics to generate 'metrics that matter’, including in DevOps practices. These metrics drive IT and business value especially in large, complex, and disconnected application environments. 
+
+Machine data and predictive analytics provide DevOps teams and others - including QA, secops, CxOs and LOB leaders - with meaningful and actionable metrics. They allow all stakeholders to monitor, measure, manage, and continuously improve the velocity and quality of code throughout the software lifecycle, from dev/test activities to customer-facing outcomes and business value metrics. 
+
+This machine data and predictive analytics strategy is driving greater velocity, producing higher quality, and ultimately building greater alignment of software delivery teams with business value in organizations of all sizes. 
+
+In this session Andi Mann, chief technology advocate at Splunk, will share core methodologies, interesting stories, key success factors and 'gotcha' moments from real-world enterprise experiences with machine data and predictive analytics in a DevOps context.
+
+**Speaker:**
+
+Andi Mann
+
+

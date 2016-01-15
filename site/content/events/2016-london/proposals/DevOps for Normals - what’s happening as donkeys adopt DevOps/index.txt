@@ -1,0 +1,25 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Michael Coté
+title: DevOps for Normals - what’s happening as donkeys adopt DevOps
+---
+
+**Abstract:**
+
+In the past two years, DevOps has clearly gone mainstream which is creating all sorts of interesting experiments to observe as "normal” companies, out-side of technology, adopt DevOps practices. These companies are often beguiled by the core berries to DevOps adoption - a corporate culture and processes that are built around slow, project-mindset driven application delivery - but are also encountering problems unique to "normals” like dealing with legacy code, audit and compliance, and managers who don’t quiet seem to get how computers work.
+
+I’ve been studying these stories over recent years and will present what I’ve observed organized into best and worst practices. My goal is always to give helpful advice that can actually be put into practice once the audience goes back to work. As a preview of the type of content, see the tail-end of my DevOpsDays talks from last year (e.g., http://cote.io/2015/09/08/201598day-of-the-donkey-devopsdays-chicago/) and a recent my recent "how not to screw up your cloud strategy” series (http://cote.io/2015/10/09/cloud-native-journey/). This presentation will be brand new.
+
+**Speaker:**
+
+Michael Coté
+
+

@@ -1,0 +1,41 @@
+---
+extension: HTML
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Anna Littner
+title: The Steps to Achieving Continuous Quality
+---
+
+**Abstract:**
+
+Mobile app performance often falls short because development, QA and IT Ops teams haven't adjusted to the complexities of their users' mobile environments. The answer to releasing better apps faster requires a shift to Continuous Quality, a process that embeds quality practices into every step of the mobile SDLC process, from design to build to production to fast feedback loops running from Ops back to developers. 
+
+When the practice of Continuous Quality is done right, it manages risk in an automated way so teams throughout an organization can work together to speed up app releases and reduce defects. 
+
+In this session, Perfecto's Technology Evangelist Eran Kinsbruner will reveal the steps needed to achieve Continuous Quality, such as how to: 
+
+Define the right testing tools for the right test environment – i.e. an internal testing lab that tests app performance on real devices, not emulators. 
+
+Extend test automation tools like Selenium and Appium to mobile, in order to achieve at least 70% automation of regression tests (testing the effectiveness of every code change), and working to automate a CI (continuous integration) server that keeps code changes in sync. 
+
+Create actionable post-production insights about app usage using analytics and mobile monitoring tools that Ops teams can then pass on to developers for the next app release 
+
+Pull all the pieces together in a cloud-based test lab with remote access to devices and 24/7 availability and support. 
+
+Key audience takeaways from this session include: 
+- Why the Continuous Quality process benefits today's DevOps teams as well as business and marketing groups 
+- What are the necessary components to achieve Continuous Quality 
+- How to implement Continuous Quality to deliver higher quality apps and faster releases 
+- As a bonus, attendees will be granted access to Perfecto's cloud-based Continuous Quality Lab to follow along and run tests on their own dedicated devices
+
+**Speaker:**
+
+Anna Littner
+
+

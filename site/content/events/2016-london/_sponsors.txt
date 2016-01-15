@@ -23,6 +23,7 @@ filter:    erb
 { :image => "Microsoft-Logo.jpg", :name => "Microsoft", :link => "http://www.microsoft.com/"},
 { :image => "pagerduty.jpg", :name => "PagerDuty", :link => "https://www.pagerduty.com"},
 { :image => "Pivotal_TealOnWhite_RGB_1.png", :name => "Pivotal", :link => "http://pivotal.io/"},
+{ :image => "accenture.png", :name => "Accenture", :link => "http://www.accenture.com/devops"},
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
