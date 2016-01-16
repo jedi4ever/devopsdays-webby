@@ -1,5 +1,5 @@
 --
-extension: HTML
+extension: html
 filter:
 - erb
 - markdown
@@ -23,5 +23,4 @@ This presentation will be based on experience within 4 global investment banks a
 **Speaker:**
 
 Benjamin Wootton
-
 

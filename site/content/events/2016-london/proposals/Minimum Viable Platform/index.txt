@@ -1,5 +1,5 @@
 ---
-extension: HTML
+extension: html
 filter:
 - erb
 - markdown
