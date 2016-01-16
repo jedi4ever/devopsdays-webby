@@ -22,6 +22,7 @@
         <a href="/events/2016-chicago/">Chicago</a><br/>
         <a href="/events/2016-ghent/">Ghent</a><br/>
         <a href="/events/2016-raleigh/">Raleigh - Fall</a><br/>
+        <a href="/events/2016-kansascity/">Kansas City</a><br/>
       </td>
     </tr>
   </table>
