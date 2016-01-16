@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Maik Wojcieszak
+title: The dark side of automation
+---
+
+**Abstract:**
+
+Civilization advances by extending the number of important operations which we can perform without thinking about them." This quote from Alfred North Whitehead (1861-1947), a British mathematician who became an American philosopher, describes an attitude to automation that can turn good intentions into bad results. 
+Without thinking automation can easily end up in managing crisis rather than in controlling a system. 
+This talk is about negative effects of automation. It's about the mindset that may lead to bad results. And it's about how DevOps can help to avoid automation pitfalls. 
+The role of monitoring, culture and sharing in successful automation projects are considered from a systems thinking perspective.
+
+**Speaker:**
+
+Maik Wojcieszak
+
+

@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mukta Aphale
+title: Measuring Success with the Right Metrics
+---
+
+**Abstract:**
+
+Measuring what matters provides an insight into your application and can help you measure the success of your business! 
+
+"DevOps is what you do to with your software, so that you are able to grow your business, by overcoming the limitations of systems and infrastructure and also by providing the insights in the code to help in better development". How can you provide insights in the code? Application monitoring is the solution. Application monitoring is being talked about a lot these days and it helps provide key information that is helpful in developing better software and also in taking some key business decision. The right combination of metrics, studied as a group, can show not only where the company is succeeding but also highlight specific areas of weakness. 
+
+Measuring your application with the right metrics can help transform your legacy applications too. It can help you write new applications which get right and continuous feedback that minimises business risk. 
+
+This talk will work you through a use case to show how you can collect metrics from your code using Datadog, generate useful graphs that helps in debugging issues, help in getting better feedback in the regression testing phase and can monitor your application in production to get continuous feedback which would help in continuous improvement.
+
+**Speaker:**
+
+Mukta Aphale
+
+
