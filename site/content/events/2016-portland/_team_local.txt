@@ -3,6 +3,8 @@
 - Spencer Krum
 - Alice Goldfuss
 - Jonathan Harker
-- Emily Dunham
-- VM Brasseur
 - Caleb Hailey
+- Michelle Carroll
+- Alastair Drong
+- Jason Yee
+- Joe Nuspl
