@@ -4,11 +4,26 @@ filter:
 - erb
 - markdown
 dirty: true
-layout: event_msp
+layout: event
 title: sponsor
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring, please [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>). Sponsorship packages will be listed here when determined.
+We greatly value sponsors for this community event.  If you are interested in sponsoring, please [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>). Platinum, Gold, and Silver sponsorship packages are detailed in our <a href="devopsdaysMSP2016-prospectus.pdf">prospectus</a>.
 
+Additional à la carte sponsorships:
+
+<ul>
+<li>coffee ($1k) - 2 slots available - signage by the coffee displays with your logo throughout the day
+<li>breakfast ($2k) - 2 slots available - signage by the breakfast tables and in the eating area with your logo in the morning before sessions
+<li>snacks ($2k) - 4 slots available - signage by the snack area with your logo during the afternoon when snacks are available
+<li>lunch ($2k) - 2 slots available - signage by the lunch tables and in the eating area with your logo during lunch
+<li>evening happy hour ($4k) - 1 slot available - signage at the evening happy hour
+<li>lanyard ($5k) - 1 slot available - your logo on the lanyards
+</ul>
+
+These may be purchased in addition to (or in lieu of) the sponsorships in the prospectus.
+
+Please [email us](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>) for more information.
