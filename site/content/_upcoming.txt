@@ -19,7 +19,7 @@
     <a href="/events/2016-austin/">
      Austin
     </a>
-    -
+    <br>
     <a href="/events/2016-kiel/">
       Kiel
     </a>
@@ -30,10 +30,6 @@
 	-
     <a href="/events/2016-toronto">
       Toronto
-    </a>
-    -
-    <a href="/events/2016-philadelphia">
-      Philadelphia
     </a>
     -
     <a href="/events/2016-washington-dc">

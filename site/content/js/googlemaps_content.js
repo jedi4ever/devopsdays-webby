@@ -164,19 +164,7 @@ function initialize() {
 
   google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2016-austin"});
 
-  var philadelphialocation = new google.maps.LatLng(39.9500, -75.1667);
-  var philadelphiamarker = new MarkerWithLabel({
-  position: philadelphialocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Philadelphia<br>Jun 1 & 2",
-  labelAnchor: new google.maps.Point(0, 25),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-  });
 
-  google.maps.event.addListener(philadelphiamarker, "click", function (e) { location.href="/events/2016-philadelphia"});
 
 
 }
