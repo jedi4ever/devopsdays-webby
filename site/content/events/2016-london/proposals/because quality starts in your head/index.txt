@@ -1,0 +1,50 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Sabine Bernecker-Bendixen
+title: ...because quality starts in your head!
+---
+
+**Abstract:**
+
+"Quality is everyone ´s responsibility", is one important quote of William Edwards 
+
+Demming. This means that quality is also a question of your personal inner attitude. 
+
+Today high quality is an important criteria to remain competitive at the market. 
+
+Changing the users story into an accepted user story is helpful to define the level of 
+
+quality to be able to focus on it during the whole development process. Early testing 
+
+help to walk the line. Prompt feedbacks are useful to save time. 
+
+But this way of working presumes a common understanding for quality and the way 
+
+how to achieve it. It also presumes to value the common goals in a very high way. 
+
+These ideas work very well – in theory! But reality shows us that human beings are 
+
+much more complex than the just logical driven: feelings, comforts, biases, 
+
+prejudices, anxieties, habits, moods, experiences, proud and the fear to fail define 
+
+our way of working, acting, thinking and making decisions. 
+
+To bring the theoretical approach of quality to success it needs to become the 
+
+common mindset of employees and managers! To reach the goal of quality we need 
+
+to talk about communication, transparency, trust, responsibility and culture in a multi- 
+facetted way! We need to talk about the quality, which starts inside your head...
+
+**Speaker:**
+
+Sabine Bernecker-Bendixen

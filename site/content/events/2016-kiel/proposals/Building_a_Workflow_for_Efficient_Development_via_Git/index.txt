@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Lemi Orhan Ergin
+title: "Building a Workflow for Efficient Development via Git"
+---
+
+**Abstract:**
+
+Today is very common to see hundreds of developers working on same Git repositories. Due to the need for parallel work, people develop not only new features for the next release, but also develop for future releases, do experimental coding, fix bugs, apply hot fixes, make releases and deployments to different environments at the same time. Even though Git is very powerful for handling all the cases, usually the complexity at the end becomes unbearable. In this session, I would like to describe the audience how to build a workflow for efficient development covering all the cases via Git.
+
+**Speaker:**
+
+Lemi Orhan Ergin is the managing partner and master software craftsman at ACM. He is a software craftsman, technical leader, development warrior, agile coach and trainer. Prior to his role, Lemi has worked at Sony Europe and eBay Turkey as developer, lead developer, team leader, technical coordinator, team manager, technical architect, solution architect, agile practice lead, principal developer and technical leader for 15 years.
