@@ -10,7 +10,7 @@ platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
-<% @sponsor_team_email = render(:partial => "/#{@eventhome}/_e mail_organizers") %>
+<% @sponsor_team_email = render(:partial => "/#{@eventhome}/_email_organizers") %>
 
 We greatly value sponsors for this open event. If you are interested in sponsoring, please [drop us an email](mailto:<%= @sponsor_team_email %>?subject=Interested in Sponsoring DevOpsDays Portland 2016).
 
