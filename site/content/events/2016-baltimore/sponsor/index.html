@@ -1,0 +1,16 @@
+---
+extension: html
+filter:
+- erb
+dirty: true
+layout: event_baltimore
+title: Sponsor
+platinum: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<p>
+  We greatly value sponsors for this open event. We will announce sponsorship
+  opportunities later in 2016.
+</p>
