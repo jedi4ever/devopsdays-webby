@@ -8,3 +8,4 @@
 - Alastair Drong
 - Jason Yee
 - Joe Nuspl
+- Rich Burroughs
