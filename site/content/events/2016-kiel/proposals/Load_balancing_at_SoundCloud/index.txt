@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Matthias Rampke
+title: "Load balancing at SoundCloud: A practical history"
+---
+
+**Abstract:**
+
+As SoundCloud's application and deployment architectures have evolved, so have the technologies we use to get requests and connections to where they need to be. Today, they support 175 million monthly active listeners and hundreds of thousands of requests per second - and are still built on readily available, open source components.
+This talk gives an overview of the techniques we use now and the background that they grew out of. It is not a comprehensive overview of all possible ways to do load balancing, but rather focuses on what works for us and how the pieces complement and complete each other.
+We will take a closer look at IPVS for Layer 4 connection load balancing, HAProxy for Layer 7 HTTP loadbalancing, with honorable mentions for ECMP and our service discovery mechanism. For each, we will see which use cases they excel in, when and how they break down, and what to watch out for so this doesn't catch you by surprise.
+
+**Speaker:**
+
+I joined SoundCloud in 2011 to help with internal IT. As part of the Systems and Production Engineering teams, I have been operating, debugging and restarting the glue that holds SoundCloud together since 2013.
