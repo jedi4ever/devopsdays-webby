@@ -16,6 +16,7 @@ end
 
 <% @bsponsors = [
  { :image => 'carsdotcom.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '100px' },
+ { :image => 'chef.png', :name => 'Chef Software', :link => 'http://www.chef.io', :width => '100px', :height => '100px' },
  { :image => 'cisco.png', :name => 'Cisco', :link => 'http://www.cisco.com', :width => '100px', :height => '100px' },
  { :image => 'puppetlabs.jpg', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
  { :image => 'sumologic.jpg', :name => 'SumoLogic', :link => 'http://www.sumologic.com', :width => '100px', :height => '100px' },
