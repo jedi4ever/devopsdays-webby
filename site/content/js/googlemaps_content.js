@@ -66,6 +66,20 @@ function initialize() {
 
   google.maps.event.addListener(minneapolismarker, "click", function (e) { location.href="/events/2016-minneapolis/"});
 
+  var saltlakecitylocation = new google.maps.LatLng(40.7631, -111.8828);
+  var saltlakecitymarker = new MarkerWithLabel({
+  position: saltlakecitylocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Salt Lake City<br>Jun 14 & 15",
+  labelAnchor: new google.maps.Point(0, 0),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(saltlakecitymarker, "click", function (e) { location.href="/events/2016-saltlakecity/"});
+
   var kiellocation = new google.maps.LatLng(54.34208,10.121949);
   var kielmarker = new MarkerWithLabel({
     position: kiellocation,
@@ -163,8 +177,6 @@ function initialize() {
   });
 
   google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2016-austin"});
-
-
 
 
 }
