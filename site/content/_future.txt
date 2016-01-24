@@ -3,12 +3,10 @@
     <tr>
       <td>
         <strong>2016</strong><br/>
-        <a href="/events/2016-losangeles-1day/">Los Angeles (1 day) - Jan 22</a>
-        <a href="/events/2016-losangeles/">Los Angeles - TBD (April)</a>
+        <a href="/events/2016-atlanta/">Atlanta - Apr 5 & 6</a><br/>
         <a href="/events/2016-vancouver/">Vancouver - Apr 15 & 16</a><br/>
         <a href="/events/2016-london/">London - Apr 19 & 20</a><br/>
         <a href="/events/2016-denver/">Denver - Apr 21 & 22</a><br/>
-        <a href="/events/2016-atlanta/">Atlanta - Apr</a><br/>
         <a href="/events/2016-austin/">Austin - May 2 & 3</a><br/>
         <a href="/events/2016-kiel/">Kiel - May 12 & 13</a><br/>
         <a href="/events/2016-seattle/">Seattle - May 12 & 13</a><br/>
@@ -16,6 +14,7 @@
         <a href="/events/2016-washington-dc/">Washington, DC - Jun 8 & 9</a><br/>
         <a href="/events/2016-saltlakecity/">Salt Lake City - Jun 14 & 15</a><br/>
         <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21</a><br/>
+        <a href="/events/2016-losangeles/">Los Angeles</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
         <a href="/events/2016-portland/">Portland</a><br/>
         <a href="/events/2016-istanbul/">Istanbul</a><br/>
