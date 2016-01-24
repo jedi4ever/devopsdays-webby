@@ -8,36 +8,46 @@ layout: event
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
-<center>
-  <table><tr><td>
-        <center>
-        <!-- <img border=0 width="160" height="240" src="./yourlogohere.png">
--->
-</td><td valign=top>
-<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
-<br><br>
-Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
-<br><br>
-<!-- <a href="./location">Location</a> -->
-<br><br>
 
-<!-- <a href="./propose">Propose a talk</a>! -->
-<br><br>
+## <%= render(:partial => "/#{@eventhome}/_event_date_start") %> and <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
 
+Welcome! We've just settled dates and <a href="/<%= @eventhome %>/location/">location</a> for DevOpsDays <%= render(:partial => "/#{@eventhome}/_title")%>. Call for speakers and sponsors now open. Early bird registrations coming soon.
+
+<table>
+  <tr>
+    <td>
+      <!--
+      <img border=0 width="160" height="240" src="./yourlogohere.png">
+      -->
+    </td>
+  </tr>
+  <tr>
+    <td><b>Dates</b></td>
+    <td><%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %></td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td><a href="/<%= @eventhome %>/location/">Emory Conference Center Hotel</a></td>
+  </tr>
+  <tr>
+    <td><b>Speakers</b></td>
+    <td><a href="/<%= @eventhome %>/propose/">Propose a talk!</a></td>
+  </tr>
+  <tr>
+    <td><b>Sponsors</b></td>
+    <td>If your organization is interested in sponsoring <%= render(:partial => "/#{@eventhome}/_title") %>, please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsoring DevOpsDays <%= render(:partial => "/#{@eventhome}/_title")%>">email us</a>.</td>
+  </tr>
+  <tr>
+    <td><b>Questions?</b></td>
+    <td><a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a></td>
+  </tr>
+
+<br><br>
 <!-- <a href="./registration">Register</a>! -->
 <br><br>
-
 <!-- <a href="./program">View the program</a>! -->
-<br><br>
 
-<a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.
-<br><br>
-
-<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
-<br><br>
-</td>
-</tr>
+  </tr>
 </table>
-</center>
 
 <hr>
