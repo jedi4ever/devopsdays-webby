@@ -3,13 +3,35 @@ extension: html
 filter:
 - erb
 - markdown
-title: location
-layout: event
 dirty: true
+layout: event
+title: location
 ---
-<h4>
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
 
-Information about the venue including address, map/direction, parking/transit, and any hotel group discount codes.
-<p>
+<%= render(:partial => "/#{@eventhome}/_title")%>
+will be held at the Emory Conference Center Hotel
 
+1615 Clifton Road NE<br>
+Atlanta, Georgia 30329
 
+## Driving
+
+Parking will be provided free of charge.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13261.666929666286!2d-84.3330750324055!3d33.80155728067488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f506f62a324081%3A0xe9b51f7914410845!2sEmory+Conference+Center+Hotel!5e0!3m2!1sen!2sus!4v1453665121063" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+[View on Google Maps](https://www.google.com/maps/place/Emory+Conference+Center+Hotel/@33.8015573,-84.333075,15z/data=!4m2!3m1!1s0x88f506f62a324081:0xe9b51f7914410845)
+
+## Airport Shuttle
+
+Airport transportation is available from [Atlanta Superior Shuttle](http://www.atlsuperiorshuttle.com/). Please visit their website for rate information and reservations. Shuttle service from Hartsfield's Ground Transportation Center.
+
+## Public Transportation
+
+[MARTA](http://www.itsmarta.com/) serves the Emory Conference Center Hotel. From Hartsfield International Airport take MARTA to the Lindbergh Station. From Lindbergh take the #6 bus directly to the hotel.
+
+## Lodging
+
+The conference center will have a block of reserved rooms for conference attendees.
