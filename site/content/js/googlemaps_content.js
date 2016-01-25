@@ -136,6 +136,20 @@ function initialize() {
 
   google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2016-london"});
 
+  var amsterdamlocation = new google.maps.LatLng(52.373791, 4.920502);
+  var amsterdammarker = new MarkerWithLabel({
+    position: amsterdamlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Amsterdam<br>Jun 29, 30 & Jul 1",
+    labelAnchor: new google.maps.Point(25, 30),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
+  google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2016-amsterdam/"});
+
   var vancouverlocation = new google.maps.LatLng(49.2827, -123.1207);
   var vancouvermarker = new MarkerWithLabel({
   position: vancouverlocation,

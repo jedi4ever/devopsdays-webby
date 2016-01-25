@@ -36,6 +36,10 @@
       Washington, DC
     </a>
     -
+    <a href="/events/2016-amsterdam">
+      Amsterdam
+    </a>
+    -
     <a href="/events/2016-saltlakecity">
       Salt Lake City
     </a>
