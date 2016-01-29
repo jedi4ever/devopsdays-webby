@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Pei Xin
+title: "Lessons learnt - how extreme difference helped my scrum team"
+---
+
+**Abstract:**
+
+Sharing of lessons learnt while working with scrum teams where cultural, language and value differences make or break sprints
+
+**Speaker:**
+
+Excited Newbie to DevOps

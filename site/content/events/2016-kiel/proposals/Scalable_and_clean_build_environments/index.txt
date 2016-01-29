@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Stefan Kahlhöfer
+title: "Scalable and clean build environments with Jenkins and Docker"
+---
+
+**Abstract:**
+
+By combining Jenkins CI server and Docker application containers you can provide dynamically created build environments that are free of old build fragments. There is not only one way to realize such scenario and we will show you three of them we have tried.
+
+**Speaker:**
+
+Equally understanding operations and development, Stefan supports teams in various tasks. From setting and maintaining their development environment and tool chain to moderating workshops and being their Scrum Master.
