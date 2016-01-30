@@ -18,4 +18,4 @@ By combining Jenkins CI server and Docker application containers you can provide
 
 **Speaker:**
 
-Equally understanding operations and development, Stefan supports teams in various tasks. From setting and maintaining their development environment and tool chain to moderating workshops and being their Scrum Master.
+Stefan supports teams in a variety of activities, with a strong understanding of both operational and development aspects. These activities range from setting and maintaining customer development environments and tools to acting as Agile Coach.
