@@ -1,8 +1,6 @@
 - Jason Vance
 - David Snider
-- Pat O'Shea
 - Thomas Cook
-- David Batten
 - Allia DeAngelis
 - Mike Duffy
 - Alex Lutz
