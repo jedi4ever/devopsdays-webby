@@ -58,6 +58,7 @@ filter:    erb
 <h1>Bronze sponsors</h1>
 <% @bsponsors = [
 { :image => "nuage_VerticalLogo_print_CMYK_medium_2.png", :name => "Nuage Networks", :link => "http://www.nuagenetworks.net/"},
+{ :image => "parasoft.jpg", :name => "Parasoft", :link => "https://www.parasoft.com/"},
 ]%>
 
 <% @bsponsors.each do |sponsor| %>
@@ -68,18 +69,15 @@ filter:    erb
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 
-
-
-<h1>Media sponsor</h1>
-<% @msponsors = [
+<h1>Event Reception Sponsor</h1>
+<% @ersponsors = [
+{ :image => "hays.jpg", :name => "Hays", :link => "https://www.hays.co.uk/"},
 ]%>
 
-<% @msponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% @ersponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=120 height=48 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% if @msponsors.empty?  %>
+<% if @ersponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
-
-
