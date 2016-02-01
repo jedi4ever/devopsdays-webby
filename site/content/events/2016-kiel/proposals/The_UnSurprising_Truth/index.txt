@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Manuel Pais
+title: "The (Un)Surprising Truth About DevOps Culture"
+---
+
+**Abstract:**
+
+`<irony>`Yes, this talk will tell you about all the right practices you need to adopt to become a successful DevOps organization!`</>`
+
+`<bummer>`DevOps is highly contextual, there is no set of prescribed practices an enterprise can pick up and "become DevOps".`</>`
+
+However, healthy organizations exhibit similar organizational and behavioral patterns that help them continuously learn and become better places to work while outperforming competitors.
+
+In this talk we explore some of those patterns, why they might help in certain contexts while they might hurt in others.
+
+We will also look at some surprising results from community-driven research on which practices contribute the most towards an environment of collaboration, sharing and ownership (of both successes and failures). In other words, what moves the needle towards DevOps? Is it infrastructure-as-code? Devs on-call? Blameless post-mortems?
+
+Attend this ignite talk and get ready to be surprised!
+
+**Speaker:**
+
+Manuel Pais is a DevOps advocate, with a mixed background as developer, build manager and QA lead. Jack of all trades, master of continuous improvement, Manuel enjoys helping organizations adopt test automation, continuous delivery and cloud, from both technical and human perspectives. He has worked on a range of technologies (Java, .Net, web, mobile) and industries (banking, telecom, defense and aviation).
