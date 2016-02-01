@@ -70,16 +70,14 @@ filter:    erb
 <% end %>
 
 <h1>Event Reception Sponsor</h1>
-<% @msponsors = [
+<% @ersponsors = [
 { :image => "hays.jpg", :name => "Hays", :link => "https://www.hays.co.uk/"},
 ]%>
 
-<% @msponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% @ersponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=120 height=48 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% if @msponsors.empty?  %>
+<% if @ersponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
-
-
