@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Andrew Bettany
+title: Learning Pathways with Microsoft for DevOps Noobs
+---
+
+**Abstract:**
+
+With DevOps defining the way that IT is shaping the next decade, it is essential that you place your learning ladder against the right wall. The early adopters of this New World will lead others as the realm of DevOps evolves. Time is your scarcest resource and we want you to utilise your learning time most effectively. In this session, Andrew Bettany, MVP (Windows and Devices for IT) will outline the key resources available to you today that you can leverage to gain maximum advantage in your career.
+
+**Speaker:**
+
+Andrew Bettany

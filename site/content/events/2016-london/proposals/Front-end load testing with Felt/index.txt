@@ -1,0 +1,39 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Samuel Vandamme
+title: Front-end load testing with Felt
+---
+
+**Abstract:**
+
+I've been working on a load tester that works by starting a lot of (headless) browsers. The goal of Felt (front-end load testing) is to allow a developer to load test a front-end web application without having to setup different load scenarios for all the API calls and external resources. The system works with basic scenarios allowing you to set up a path through your application for the browser to follow.
+
+The advantage of using real browsers is that you get a real load testing environment, including all the javascript, api calls and other front-end resources …
+
+The goal of my talk is to get feedback on Felt and see where I can improve the project so it becomes a useful tool for devops people. 
+
+Felt repository: https://github.com/kidk/felt
+
+Talking points:
+Why felt was developed
+Testing features at CoScale
+Enough users to get realistic data
+Steps we took to get there
+tsung
+squish (closed source selenium)
+phantomjs / slimerjs
+Current features and planned features
+Example on how it works and the load it can generate
+Request for feedback
+
+**Speaker:**
+
+Samuel Vandamme

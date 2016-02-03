@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Joshua Goldman
+title: Affecting Change in Your Organization – Being an Agent of Change
+---
+
+**Abstract:**
+
+Anyone can drive change in an organization but sometimes it can feel like a daunting task if you are a relatively new individual contributor.  This paper talks about experiences and case studies from individuals who started out at the bottom but still managed to get their ideas across.  Don’t fear being the little guy or just a grunt.  In the game of chess any pawn can become a queen.  Driving change helps organizations stay ahead of the game.  Rarely do companies succeed by remaining stagnant.  New ideas, innovations, technologies, frameworks, and processes can come from anyone and everyone. Affecting change requires knowledge of the nature of change and the environment you want to change, doing the change by getting buy in, finding the path of change, and dealing with the aftermath. 
+ 
+Knowing the change and your organization is only the first part of the battle.  Including some business lingo can go a long way in gaining acceptance from your management. By understanding things like cost benefit analysis and return on investment you can add fuel to your request for change.  Adding a solid foundation to your change with a strong business case can help drive your change to fulfilment.  Understanding your spheres of influence and how to step beyond them can foster better growth not only in ability to be an agent of change but in your career.  Continual improvement through change can take your organization to higher places and do wonders for your own career.  It can even help form lasting relationships with colleagues. 
+ 
+
+**Speaker:**
+
+Joshua Goldman

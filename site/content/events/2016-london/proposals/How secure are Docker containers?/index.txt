@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Ben Hall
+title: How secure are Docker containers?
+---
+
+**Abstract:**
+
+Docker offers a great deal of advantages, simplifying both development and production environments. But there is still uncertainty around the security of containers. During this talk Ben will share his experiences and investigate Docker and it's security model. The aim is to answer the question - "How secure are Docker containers".
+ 
+Ben’s experience comes from building Katacoda. Katacoda is a platform providing users with a sandboxed and personalised learning playground. A side effect is that they can execute malicious code and hack the system from inside the container.
+ 
+The talk will cover:
+            - Out of the box security with Docker
+            - Docker security issues
+            - Docker and Linux vulnerabilities
+            - Staying up-to-date
+            - Monitoring and alerting to security issues
+            - Using the model to your advantage
+ 
+Attendees will leave the session understanding Docker's security model, the limitations and how to handle them.
+
+**Speaker:**
+
+Ben Hall

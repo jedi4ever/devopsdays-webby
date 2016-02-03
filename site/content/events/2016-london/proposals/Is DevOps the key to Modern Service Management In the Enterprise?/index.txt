@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Samuel Erskine
+title:  Is DevOps the key to Modern Service Management In the Enterprise?
+---
+
+**Abstract:**
+
+DevOps is the new kid on the buzz word bingo block. What is it and how does it relate to the Morden Service Management movement?
+In this Interactive session MVP, author and community speaker Samuel Erskine invites you on an experimental journey. Connect the dots between concept and the practical benefits of DevOps  to the Enterprise on this short action packed journey.
+Buckle up for this is  fun journey … taking you from concept to “I can do that at work”!
+
+**Speaker:**
+
+Samuel Erskine

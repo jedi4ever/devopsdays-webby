@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mikael Sundberg
+title:  Dev ops is not only about devs doing ops
+---
+
+**Abstract:**
+
+Thanks to using event sourcing we have made it very easy to scale and distribute our application. In this talk i will describe how we designed our application to make it easier to operate. When talking about devops, there seems to be a big focus on automating the operations part. But what about having operations in mind when you do development? This can greatly ease the daily operation of your application and make impossible things like having an your application in two different datacenters not only possible but easy. As a bonus Event sourcing and CQRS probably have no better fit than in the financial world.
+
+**Speaker:**
+
+Mikael Sundberg

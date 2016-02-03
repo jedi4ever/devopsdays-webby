@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Tushar Dadlani
+title: Mobile DevOps
+---
+
+**Abstract:**
+
+The focus of the talk will be on what are the possibilities of using a mobile device as an interface to the software defined datacenter. It will give an overview of how as devops engineers, mobile based operations can help us find problems in our operations process and think of simplicity and minimalistic approaches to infrastructure management.
+
+**Speaker:**
+
+Tushar Dadlani

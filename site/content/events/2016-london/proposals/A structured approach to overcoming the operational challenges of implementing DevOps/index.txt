@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Lathan, Lars
+title: A structured approach to overcoming the operational challenges of implementing DevOps
+---
+
+**Abstract:**
+
+In my professional experience working on multiple projects with different banks, either legacy or greenfield, everybody starts with the intention of increasing the number of releases, reducing the number of issues, reduce manual testing activities, embracing the culture of DevOps. However when the pressure of delivery starts to hit, it is difficult to maintain the direction. More requirements coming-in lead to less elaborate definitions, more bugs, back-loading of testing activities and mini waterfall cycles of releasing. Best practices are abandoned, shortcuts taken and the whole delivery ends up getting slower whilst trying to go faster.
+In trying to address these issues, the old adage rings true: you cannot manage what you cannot measure.
+So in trying to resolve this issue, we decided to establish a DevOps maturity on every project and make it part of the project steering that the “What” –ie throughput of delivery – is equally discussed as the “How” – ie adherence to best practices and improvements.
+This talk will focus on sharing how we approached the measurement of DevOps best practices – questionnaire / categories / how to score, what typical patterns we recognised and how we drove the discipline of adhering to best practice in all engagements. This includes considerations on source code repository, build tools, continuous integration tools, unit testing, code review, … . After gathering the first results from projects we saw that the majority of the projects were good on source code repositories and documentation. On the other hand we encountered that projects lacked on using the correct build tools, implementing right testing strategies (unit, integration, functional, security), source code review and continuous integration.
+With those metrics we have been able to detect weaknesses, define best practices, training paths and drive the governance to move projects and teams to DevOps maturity. Nowadays the DevOps self-assessment is part of all projects and we are embedding it in the Governance of the projects. It is evolving constantly and is producing a mind set in teams to effectively apply DevOps. Getting operations teams incorporated from the early stages in the development process additional assessments have been made at the project inception. For instance we check that the projects have been enhanced to cover DevOps requirements including professional skills within the project team. With the results of this analysis we are able to provide a clear picture of the current state makes a conscious governance of developing the DevOps practices whilst delivering. So far this has yielded the best results in adopting DevOps best practices.
+
+**Speaker:**
+
+Lathan, Lars

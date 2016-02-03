@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Marcin Bazydlo
+title:  "Service-Status: Very Polite Service Monitoring"
+---
+
+**Abstract:**
+
+Monitoring has many names and is often happening by external tools and applications. What would happen if we changed that and instead ask the system under test to perform self check and report it’s status? What would happen if we moved monitoring logic into application? What would happen if we empower developers writing application to implement it's monitoring? This small change of roles opens whole new world of possibilities, let’s explore them together.
+
+**Speaker:**
+
+Marcin Bazydlo

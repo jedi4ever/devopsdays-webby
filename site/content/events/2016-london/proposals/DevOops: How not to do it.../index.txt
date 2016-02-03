@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Owen Gardner
+title: "DevOops: How not to do it..."
+---
+
+**Abstract:**
+
+As a general rule, everyone agrees that Culture is core to a successful DevOps implementation.  So how do we keep starting with the toolset?  This and other aspects of starting and maturing a devops process will be discussed, along with an enterprise level framework that allows for team specific improvement, and a ruleset on steps to improve culture, identify key areas for improvement, & communicate progress... 
+Takeaway: 
+1 - Framework for Big Rock identification and resolution
+2 -  steps to improve collaboration
+3 - standard documentation to help build a better DevOps
+ 4 - How to avoid DevOops...
+
+**Speaker:**
+
+Owen Gardner
