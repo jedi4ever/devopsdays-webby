@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Christos Matskas
+title:  "DevOp: Saving projects, one at a time - a case study"
+---
+
+**Abstract:**
+
+After one too many long failed deployments I knew there must be a better way. How does everyone else deploy? It took us 6 months and we still failed. Have you ever found yourself in a similar situation? I'm sure you have! So what can we do to ensure that this never happens again? DevOps to the rescue! In this talk, I plan to use real life projects to show you how DevOps can benefit developers, teams and companies and even save failed projects. Laughing is optional.
+
+**Speaker:**
+
+Christos Matskas

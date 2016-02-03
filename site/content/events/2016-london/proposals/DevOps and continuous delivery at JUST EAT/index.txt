@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Peter Mounce
+title: DevOps and continuous delivery at JUST EAT
+---
+
+**Abstract:**
+
+Come see a demo of how JUST EAT got from ~10 deployments a year in 2010 to ~800 in 2014. I will kill some randomly-chosen things in production and talk about how I can get away with it on stage.
+
+I'll illustrate how we:
+automated a lot of the pain out of our day to day (what did that need?)
+can get from done-on-workstation to ready-for-production inside 20 minutes (and why that last bit sucks!)
+find when we pushed something bad (what do we do about it?)
+know about failure before our customers do (where do we look?)
+have reaped the cultural benefits of letting engineers fix things (does the business care we ship several times a day?)
+still have problems in paradise ;-)
+
+**Speaker:**
+
+Peter Mounce

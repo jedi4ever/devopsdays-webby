@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author:         Jonathan Wilkinson
+title: 10 Things I Hate About DevOps
+---
+
+**Abstract:**
+
+Dear DevOps:
+"In faith, I do not love thee with mine eyes,
+For they in thee a thousand errors note,
+But 'tis my heart that loves what they despise,
+Who in despite of view is pleased to dote."
+·   Shakespeare's Sonnet 141
+ 
+Thanks to the proliferation of the term "DevOps", it's quickly becoming a word that either we love (because its driven legitimate cultural change in our organization) or just love to hate (because it means everything and nothing).
+ 
+This session will focus on the different ways we've seen DevOps successfully and unsuccessfully applied to organizations, across a variety of products and verticals, through the lens of operability and incident management. What impact does shared operational responsibility have on incident response? How is uptime affected by having "more cooks in the kitchen"? Under what circumstances does this kind of operational model even make sense?
+ 
+How do I love thee, DevOps? Let me count the ways! 
+ 
+Key Takeaways:
+A DevOps culture should have a significant impact on an organization's operational model, but many companies apply DevOps in a way that doesn't. They are likely missing out on some of the larger benefits.
+In the same way that Agile development doesn't always fit, DevOps actually doesn't always make sense.
+
+**Speaker:**
+
+        Jonathan Wilkinson

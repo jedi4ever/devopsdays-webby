@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Ilkka Turunen
+title: Chain reactions or identifying and reducing the muda from the other parts of the value chain
+---
+
+**Abstract:**
+
+Devops has done a great job at transforming enterprises into thinking about value chains, and helping them reduce muda by bringing together developers and operators with automation, culture and toolkits. However, in the interests of Kaizen - continuous improvement - we must ask the question what next?
+
+As enterprises implement Devops practices, they often face challenges when thinking about standard compliancy, such as PCI-DSS or other auditory requirements. These tools are often legally required to be implemented, but many fall in to the trap of implementing them as they have always have.
+
+This has to change. According to Corman and Willis in their 2015 DOES presentation when we think of continuous delivery, we must also start thinking about quality, security and maintainability as metrics in a Devops working way. This means bringing the people involved into the loop and as a part of the Devops value stream. This approach is known as Software Supply Chain thinking.
+
+In the session I'll describe how we can leverage the same LEAN principles that has help kick start the Devops revolution in dev/ops/qa and bring the next batch of people on board and delivering value - not blocking it.
+
+**Speaker:**
+
+Ilkka Turunen

@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Wilkins, Andrew
+title: How Can My Organization Adopt DevOps
+---
+
+**Abstract:**
+
+In most organizations bridging the gap from current development and operations practices to DevOps is a daunting challenge. This presentation describes a structured approach to adopting DevOps that can help to tame that challenge.
+The approach consists of the following stages:
+0) Identify the problem – why do you want to adopt DevOps?
+1) Get buy-in - who do you need to convince and how to make your case to start
+2) Assess DevOps capability/maturity in your organization – where are you at?
+3) Pick an adoption Strategy – typical adoption strategies include bottom up, top down, incremental, big bang
+4) Define a Roadmap - set goals for what your adoption will achieve
+5) Identify Stakeholders and their issues – who is going to benefit? How?
+6) Acquire the resources you need to be successful – people, coaches, money, hardware, training
+7) Define metrics and take baseline measurements
+8) Build an adoption backlog for the goals on your roadmap
+9) Implement adoption backlog items
+10) Measure the results, decide what to do next
+11) Repeat 6 & 7 until done
+12) Review Roadmap, compare metrics with baseline, publish results, decide what to do next
+
+**Speaker:**
+
+Wilkins, Andrew

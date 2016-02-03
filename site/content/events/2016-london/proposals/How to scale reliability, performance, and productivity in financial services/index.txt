@@ -1,0 +1,47 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Hamed Silatani
+title: How to scale reliability, performance, and productivity in financial services
+---
+
+**Abstract:**
+
+It is hard to meet reliability and performance requirements without impacting productivity of dev teams and causing frustration; it is even harder in a large IT department in a heavily regulated industry. Join me to learn practical steps to create a supporting ecosystem that made it possible for IG Group to make teams happy owners of performance and reliability while improving their productivity.
+
+ ABSTRACT:
+
+20 apps to 200, 30 engineers to 350 across 3 time zones, acquisitions which brought in different cultures, and strict regulatory requirements that IG, as a major provider of financial trading platform, had to comply with left us with a huge challenge of scaling ops and performance engineering without getting in the way of productivity and causing frustration. It took us multiple failures, before we found our way through mazes of rigorous regulatory policies and minefields of different established cultures and learned how to scale performance and reliability and become even more productive. Each failure looked different, but all boiled down to one important fact: we needed a supportive ecosystem that encourages:
+
+1.       Making it easy and fun to care about reliability and performance.
+
+2.       Trust and earn trust.
+
+3.       Emphasise on whys of regulations rather than hows.
+
+4.       Mapping and tracking (KPIs).
+
+In this talk you will learn how to implement 5 practical patterns that helped us to create the supportive ecosystem that we needed:
+
+1.       Create an operation as a service platform to make it easy for teams to operate their apps.
+
+2.       Introduce a paradigm of “trust, but verify” to shorten feedback cycle and build trust.
+
+3.       Redefine requirements for segregation of duties between ops and developers.
+
+4.       Use KPIs to create a common platform to engage stakeholders (i.e. execs and teams).
+
+5.       Persuade development teams to own out of hours support of their apps to improve reliability of their apps.
+
+I believe neither challenges nor failures were unique to us so I hope sharing our story may save you several months, if not years!  
+
+**Speaker:**
+
+Hamed Silatani

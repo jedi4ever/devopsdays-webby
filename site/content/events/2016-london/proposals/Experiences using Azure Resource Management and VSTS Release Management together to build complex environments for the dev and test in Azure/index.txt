@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Richard Fennell
+title: Experiences using Azure Resource Management and VSTS Release Management together to build complex environments for the dev and test in Azure
+---
+
+**Abstract:**
+
+In this session I will discuss our experiences in using Azure Resource Management templates to provision complex multi server environments as part of a VSTS release management pipeline.
+
+**Speaker:**
+
+Richard Fennell

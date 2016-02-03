@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Kris Saxton
+title: Bimodal IT and other snakeoil
+---
+
+**Abstract:**
+
+I’ve been to several analyst and even cloud vendor events over the past couple of years where ‘Bimodal IT’ is being pushed as the strategic response to the supposedly intractable task of reforming legacy estates while continuing to innovate.  I will argue that this approach is a flawed oversimplification which, when adopted, results in lost opportunities, delays crucial decisions on how we evolve our legacy systems, and ultimately cripples the very ability to innovate we seek to protect.  Based on 5 projects (4 within large retail or investment banks and 1 with a large reinsurer) over the past two years, I will attempt to show that agile, devops teams within large financial organisations cannot hope to succeed without dealing with legacy environments, but also provide reassurance that these teams already have everything they need to both innovate and evolve their legacy environments.
+
+**Speaker:**
+
+Kris Saxton
