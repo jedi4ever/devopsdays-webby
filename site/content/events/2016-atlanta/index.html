@@ -9,9 +9,9 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-## <%= render(:partial => "/#{@eventhome}/_event_date_start") %> and <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
+<h2><%= render(:partial => "/#{@eventhome}/_event_date_start") %> and <%= render(:partial => "/#{@eventhome}/_event_date_end") %></h2>
 
-Welcome! We've just settled dates and <a href="/<%= @eventhome %>/location/">location</a> for DevOpsDays <%= render(:partial => "/#{@eventhome}/_title")%>. Call for speakers and sponsors now open. Early bird registrations coming soon.
+Welcome! We've just settled dates and <a href="/<%= @eventhome %>/location/">location</a> for DevOpsDays <%= render(:partial => "/#{@eventhome}/_title")%>. Call for <a href="/<%= @eventhome %>/propose/">speakers</a> and <a href="/<%= @eventhome %>/sponsor/">sponsors</a> now open. Early bird registrations coming soon.
 
 <table>
   <tr>
@@ -27,7 +27,7 @@ Welcome! We've just settled dates and <a href="/<%= @eventhome %>/location/">loc
   </tr>
   <tr>
     <td><b>Location</b></td>
-    <td><a href="/<%= @eventhome %>/location/">Emory Conference Center Hotel</a></td>
+    <td><a href="/<%= @eventhome %>/location/">The Historic Academy of Medicine at Georgia Tech</a></td>
   </tr>
   <tr>
     <td><b>Speakers</b></td>

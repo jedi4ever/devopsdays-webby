@@ -1,6 +1,5 @@
 - Tom Hall
 - Ian Buchanan
-- Laura Little
 - John Dyer
-- Mike Murphy
 - Chris Corriere
+- Laura Little
