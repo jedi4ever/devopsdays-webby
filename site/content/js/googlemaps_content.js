@@ -184,7 +184,7 @@ function initialize() {
   draggable: false,
   raiseOnDrag: false,
   map: map,
-  labelContent: "Atlanta<br>Apr 5 & 6",
+  labelContent: "Atlanta<br>Apr 26 & 27",
   labelAnchor: new google.maps.Point(-5, 20),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
