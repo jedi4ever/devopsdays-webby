@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Gabriel Bico
+title:  Spinning up 100 machines with one line
+---
+
+**Abstract:**
+
+On this talk I go trough the journey to have the infrastructure as code on a very complex system were we have more than 400 machines, how using Azure Resource Manager templates I was able to script it in an idempotent way so you can include this on your build process.
+
+There is automation of everything from domain controllers to database and windows and linux machines.
+
+I talk about the caveats and some tricks that would help on the way to write your infrastructure as code. Things as, where to find the best resources for your templates and how to optimize the creation of your infrastructure.
+
+**Speaker:**
+
+Gabriel Bico

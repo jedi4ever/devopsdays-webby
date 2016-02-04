@@ -11,53 +11,15 @@ platinum: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
 <center>
-  <img border="0" src="toronto-new.png" alt="DevOpsDays Toronto"><br><br>
-  <b>Be part of the second DevOpsDays in Toronto!</b>
-</center>
-<center>
-  <table>
-    <tr>
-      <td><b>Date</b></td>
-      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
-    </tr>
-    <tr>
-      <td><b>Location</b></td>
-      <td><a href="location/">Glenn Gould Studios in Toronto</a></td>
-    </tr>
-    <tr>
-      <td><b>Participants</b></td>
-      <td>We are sold out. Be sure to watch out for next year's event.</td>
-    </tr>
-    <tr>
-      <td><b>Speakers</b></td>
-      <td>Call for proposals is closed. Thanks to all who submitted such great ideas!</td>
-    </tr>
-    <tr>
-      <td><b>Program</b></td>
-      <td><a href="program/">The Program</a> is jam-packed with DevOps goodness!</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>We'll have the video from the presentations and ignites up on the <a href="https://vimeo.com/devopsdays" target="_blank">DevOpsDays Vimeo account</a> soon.
-        While you're waiting you watch them from our <a href="https://devops.uberflip.com/h/c/189873-devops-days-toronto-2015-videos" target="_blank">Uberflip</a> page.</td>
-    </tr>
-    <tr>
-      <td><b>Sponsorship</b></td>
-      <td><a href="sponsor/">Check out the prospectus</a></td>
-    </tr>
-    <tr>
-      <td><b>Contact</b></td>
-      <td><a href="contact/">Get in touch with the Organisers</a>.</td>
-    </tr>
-  </table>
+  <img border="0" src="toronto-new.png" alt="DevOpsDays Toronto"><br /><br />
 </center>
 
-<p><b>Contest:</b> Our Twitter contest is closed. The winner of the pass to O'Reilly Velocity Conference will be notified shortly.<br />
-<br />
-<b>Contest Rules:</b> Tweet with #DevOpsDays and the @DevOpsDaysTO Twitter handle on why you think DevOpsDays rocks. Participants must be following @DevOpsDaysTO for their entry to qualify. Participants may enter as often as they like. The contest begins on Monday, April 13th and ends at midnight Eastern time on Friday May 11th. The winning entry will be randomly selected.</p>
-<center><img border="0" src="DODTOTwitterContestSample.png" alt="DevOps is not just about the unicorns"></center>
-<br />
-<br />
+<strong>You can find information on DevOpsDays Toronto 2016 information is available at <a href="http://www.devopsdays.org/events/2016-toronto/">DevOpsDays Toronto 2016</a>!</strong>
+
+DevOpsDays Toronto 2015 was Thursday & Friday May 14-15, 2015 at <a href="location/">Glenn Gould Studios in Toronto</a>. You can review the 2015 <a href="program/">program</a> and watch the <a href="https://devops.uberflip.com/h/c/189873-devops-days-toronto-2015-videos" target="_blank">videos</a>.
+
+Email the <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'>organizers</a>.
+
 <center>
   <a href="https://twitter.com/DevOpsDaysTO" class="twitter-follow-button" data-show-count="false">Follow @DevOpsDaysTO</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <br />

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Rickard Dybeck
+title: Eremetic - Running One-Off tasks in Apache Mesos
+---
+
+**Abstract:**
+
+If you want to run a short-lived docker container on demand, Eremitic is an answer.
+Originally developed to help our System Tests team parallelise their tests without having to use several jenkins slaves and to leverage the power of Apache Mesos. It soon turned out that the simple concept of “fire and forget” tasks provides some quite powerful potential.
+It can be described as “Bring your own Lambda”, and can be used as a building block for more complex jobs.
+
+**Speaker:**
+
+Rickard Dybeck

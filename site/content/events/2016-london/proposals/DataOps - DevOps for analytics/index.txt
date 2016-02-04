@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Stephanie Locke
+title: DataOps - DevOps for analytics
+---
+
+**Abstract:**
+
+DevOps is a movement focused on improving quality and time to deliver value by tackling the thorny issues of infrastructure, testing, integration, and deployment.
+
+These are big issues that have faced the data & analytics world for years, and tools have been slow to be delivered. This is changing though, so now we can start using the concepts from DevOps and applying them to analytics.
+
+Taking you through the principles, the tools, and the journey to DataOps, this session will help you do work with data.
+
+**Speaker:**
+
+Stephanie Locke

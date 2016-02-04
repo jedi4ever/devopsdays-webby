@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Gabriel Bico
+title: Stop Guessing! Using AI to predict outages.
+---
+
+**Abstract:**
+
+The idea here is to demystify that idea of setting up limits and alarms for you application. If you say that you system should throw one alarm if the utilisation of CPU is over 70% what data do you have to back this up.
+
+What I will show here it is how easy it is to set-up with current tools one system to analyse your logs and based on real data predict when you may have one outage and alert you based on that. With few experience on Artificial intelligence and without the need of data scientists, today it is easy to take one educated guess about when you will might have an outage.
+
+On this talk I will show how to construct a base model and how can you grow this further.
+
+**Speaker:**
+
+Gabriel Bico

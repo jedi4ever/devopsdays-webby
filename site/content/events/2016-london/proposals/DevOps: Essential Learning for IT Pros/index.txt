@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Andrew Bettany
+title: "DevOps: Essential Learning for IT Pros"
+---
+
+**Abstract:**
+
+The IT Professional plays a critical role in DevOps, and some skills uplifting is essential for IT Pros to transition to the DevOps role.  Are you ready to join the cultural and technical evolution within your organization which will focus on the people, processes and the tools to make your IT more agile? You will work closely with your Dev team to harmonise the application lifecycle to make it faster and more predictable for your organisation, whilst at the same time providing them seamless operational infrastructure. In this session, Andrew Bettany, MVP (Windows and Devices for IT) will outline the key learning resources available to you so that you can leverage to gain maximum advantage in your career.
+
+**Speaker:**
+
+Andrew Bettany

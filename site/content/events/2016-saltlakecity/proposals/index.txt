@@ -15,9 +15,8 @@ This page will list the proposals we have received. Help the presenters with you
 <h2>Conference Talks</h2>
 <ol>
 <!-- Uncomment the below once we get talks -->
-No talk proposals have been accepted yet
+<!-- No talk proposals have been accepted yet -->
 
-<!--
 <%
   articles = @pages.find(:all, :in_directory => parent, :recursive => true,
       :sort_by => "title", :reverse => true, :talk => true)
@@ -26,13 +25,12 @@ No talk proposals have been accepted yet
 -%>
 <li><%= link_to_page(page) %> - <%= page.author %> 
 <% end -%>
--->
 </ol>
 
 <h2>Ignite Talks</h2>
 <ol>
 <!-- Uncomment the below once we get talks -->
-No ignite proposals have been accepted yet
+No ignite proposals have been received yet
 <%
   ignites = @pages.find(:all, :in_directory => parent, :recursive => true,
       :sort_by => "title", :reverse => true, :ignite => true)

@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Christoph Andreas Torlinsky
+title: Python meet Network; Network meet Python - let's get it on!
+---
+
+**Abstract:**
+
+Proposal for a Ignite session on making use of Python and Software Defined Networking to interact in a better way by using SDK bindings (example: https://github.com/nuagenetworks/vspk-examples). Using this new way to interact programmatically in a way not done before, appeases
+all teams from Sys Admins, Network Admins and Application Delivery for a better experience 
+and enabling a DevOps mindset with a common language everyone is happy to understand).
+In this ignite talk we will spin up some Network topology and tear it down programmatically and have some fun with it. It's both educational, techie and new, and fast to understand.
+
+**Speaker:**
+
+Christoph Andreas Torlinsky

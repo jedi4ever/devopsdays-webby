@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Philipp Krenn
+title: "Collect all the things with Beats"
+---
+
+**Abstract:**
+
+The ELK stack is widely used to collect logs with Logstash, analyze and search the data with Elasticsearch, and visualize what is happening in your system. Now there is a new platform for shipping many types of operational data: Beats. It can be used to collect, parse, and ship any type of data.
+This talk provides an overview of the Beats platform and dives into gathering system metrics, tapping your wire data, and using real-time file analytics. Finally, we take a look at building custom data shippers to get a complete overview of your infrastructure.
+
+**Speaker:**
+
+Philipp is a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things Elasticsearch, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.

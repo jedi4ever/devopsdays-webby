@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Christos Matskas
+title: Becoming an awesome open source contributor
+---
+
+**Abstract:**
+
+Are you a developer that wants to give back to the open source community? Perhaps you're already a seasoned contributor but you want to get better? Or you want to join the open source movement because, well, OSS is the future? Just look at all the cool tech built with OSS: Node.js, BootStrap, ASP.NET etc. Join Christos Matskas to learn about the many ways to contribute, key development tools in OSS projects and tips about what it takes to become a successful first-time contributor and collaborator in this welcoming and open community.
+
+**Speaker:**
+
+Christos Matskas

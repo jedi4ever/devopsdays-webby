@@ -1,0 +1,32 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Thierry de Pauw
+title: Continuous Delivery is More then just Tooling, it's a Culture
+---
+
+**Abstract:**
+
+Some enterprise IT organisations are adopting Continuous Delivery thinking that tooling is enough to do the job, that all of a sudden they will go faster to market and build quality in because they are automating their existing delivery process. Just throwing tools at the problem is not enough; to be successful, organisations also need to adopt the right mindset and establish a culture of fast delivery, fast feedback, and continuous improvement.
+
+
+Description:
+
+In order to successfully implement Continuous Delivery an organisation should adopt the right mindset or culture that I like to bring using the 3 Ways of the DevOps culture as explained by the book "The Phoenix Project".
+
+These are 3 easy to understand concepts that resonate:
+the first way, from left to right: maximising the flow from Dev to Ops to Customers
+the second way, from right to left: constant flow of fast feedback from Customers to Ops and Dev
+the third way: a culture of improvement
+The talk will go deeper into the 3 Ways. What is it, what does this mean for an organisation and how does this relate to Continuous Delivery and Software Engineering.
+
+**Speaker:**
+
+Thierry de Pauw

@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Casey West
+title: Redefining Culture Fit
+---
+
+**Abstract:**
+
+The words we use to describe culture matter. We talk about the rituals and traditions we enjoy together. In agile software development one of the traditions we like is standups. Some of our rituals include drinking coffee and alcohol. It’s very important to us. I’m a self-described "beverage enthusiast” so I’m no stranger to these rituals. These are ways to bring some people together, but when we’re creatively building something we must dig deeper to describe what we value in our collaborative interactions. 
+
+Consider how our values, the core principles of our character, fit together when building a community and working with one another. Not everyone likes coffee. Not everyone likes beer. Not every can pop off to the pub after work to make critical business decisions over a pint, so maybe we shouldn’t be doing that. 
+
+Rituals and traditions are helpful but superficial ways to bring people together. Unfortunately they only bring some people together. This boils down to being deliberate about how we make decisions, and how we work together. If you aren’t being deliberate about what values bring people in your community together then you’re likely to end up with a community of people who are all very similar. 
+
+How do we end up with communities and organizations which lack diversity? By not being deliberate about creating inclusive environments. It can be avoided, and this talk is a discussion about what members of majority groups, often in positions of power, can do to influence the inclusivity of open source.
+
+**Speaker:**
+
+Casey West
+
+

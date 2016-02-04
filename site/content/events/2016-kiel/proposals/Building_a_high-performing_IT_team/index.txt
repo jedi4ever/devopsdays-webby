@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Andreas Wilke
+title: "Building a high-performing IT team - there's a handbook for that"
+---
+
+**Abstract:**
+
+Nobody said going from a typical IT team to a high-performing, DevOps-embracing one was easy. But if you're reading this, you know as well as we do that it's worth the effort.
+
+We've learned a lot about how IT teams have found DevOps success from talking with hundreds of Puppet users and in analyzing the results from our State of DevOps surveys. We want to pass what we've learned on to you so your team can become a high-performing IT team and DevOps success story. So we've created a five-chapter handbook, How To Build a High-Performing IT Team: Essential Steps to Mapping Your DevOps Journey. It will help you:
+
+- Build the business case for DevOps and get buy-in from colleagues and managers.
+- Address your team's skepticism.
+- Combat the biggest challenges to DevOps success.
+- Develop the optimal team structure for your organization.
+- Choose the right tools and processes.
+- Plan your DevOps implementation phases.
+
+
+**Speaker:**
+
+My name is Andreas Wilke, and I'm enthusiastic when it comes to automation and simplification of IT. In the past i developed a lot of customised scripts and workflows with different technologies and tools to avoid recurring manual work as IT admin. In my current role as Technical Solutions Engineer at the IT automation leader Puppet Labs Inc. i'm happy to focus on one of the most important influencing factor for successful DevOps projects which is configuration management.

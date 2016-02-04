@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Thiago Almeida
+title: "Making Sense of DevOps: People, Process, Products"
+---
+
+**Abstract:**
+
+For some, much like cloud or IoT, DevOps has become a buzzword and a conceptual shell that everyone projects their own notions into. If you are still trying to understand it, in this session we will share one way to map from culture changes to processes and products inside your enterprise. Based on real world experiences, we will give examples of how modern tools have successfully supported cultural shifts introduced by most common DevOps practices. This talk will cover the approach we take when discussing DevOps with our enterprise customers: People - the high level cultural and mindset shifts, value stream maps, and other. This is the most important aspect. Process - more specific DevOps practices, like continuous integration, application performance monitoring, and advanced practices, and how they map to the People changes Product - how different modern tools can help implement the practices discussed in the Process section
+
+**Speaker:**
+
+Thiago Almeida

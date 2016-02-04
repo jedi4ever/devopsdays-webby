@@ -1,0 +1,8 @@
+---
+filter:    erb
+---
+<div class="submenu">
+<h3>
+<a href="/<%= @eventhome %>/">welcome</a>&nbsp;
+</h3>
+</div>

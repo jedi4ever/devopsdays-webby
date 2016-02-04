@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: john clapham
+title: Four things I learnt about DevOps when my car was engulfed by flames.
+---
+
+**Abstract:**
+
+This is the story of the things I learnt when my car caught fire while driving through a less-than-salubrious area of Bristol one sunny afternoon.  The whole experience lasted just half an hour and yet it was rich in learning, with uncanny parallels to the challenges we face encouraging DevOps in organisations.
+
+Notes to committee
+This is a true story, my aim is to tell it vividly and amusingly, so people remember the learning points drawn from it.  The points are all around people and approach, and not technical.  For example;  I'm a pretty good mechanic so when my wife told me she could smell smoke in the car, I checked the instruments, thought back to last service, and chances that something would go wrong....and promptly ignored her.  Five minutes later there were flames at my feet.  This leads to a DevOps learning like  " Expertise leaves you vulnerable – listen to perspectives".  The other lessons are similarly drawn out as the incident unfolds.  
+
+Looking forward to the conference, thanks for all your organisational efforts :-)
+
+**Speaker:**
+
+john clapham

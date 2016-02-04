@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Marcus Robinson
+title: "DevOps: The final nail in the coffin for Sysadmins?"
+---
+
+**Abstract:**
+
+“I have made a career out of system administration. I recent years I've witnessed the role of the system administrator evolve alongside changes in how software is delivered and consumed. My career has had to evolve too.
+ 
+The DevOps movement is now accelerating and the adoption of DevOps practices is becoming more widespread.  How will the role of a Sysadmin change and are we nearing the day that Sysadmins are no longer required?”
+
+**Speaker:**
+
+Marcus Robinson

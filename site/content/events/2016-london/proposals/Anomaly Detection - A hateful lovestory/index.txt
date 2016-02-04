@@ -1,0 +1,30 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Pieter Buteneers
+title: Anomaly Detection - A hateful lovestory
+---
+
+**Abstract:**
+
+Anomaly detection. Many people speak about it, some use it, some build it, some love it but many hate it. What is this strange beast and why should you use it? 
+
+In this talk I will go through my experiences in developing an anomaly detection system for CoScale. I will discuss many of the methods I have used, tested and dismissed. What works? What doesn’t work? And why doesn’t it work? 
+
+I will go into detail about the difference between statistical significance and relevance. Why the univariate approach is the way to go. Why most multivariate techniques don’t work. And why you should keep it simple, stupid. 
+
+Contrary to my advice, I know some of you will try the more complex techniques. And you should! But not before you know how you can use them without them misleading you.
+
+**Speaker:**
+
+Pieter Buteneers
+
+
+

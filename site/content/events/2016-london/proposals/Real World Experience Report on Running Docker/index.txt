@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Ben Hall
+title: Real World Experience Report on Running Docker
+---
+
+**Abstract:**
+
+Docker has taken the world by storm and is rapidly becoming the de-facto way to deploy applications and services. With a new development and deployment approach it brings new challenges and best practices.
+ 
+During this talk Ben will discuss his experiences of working with Docker on a daily basis as a development platform and deploying it into production.
+ 
+Ben discuss his experience with using Docker around areas such as:
+-       Development, Test and Build lifecycle
+-       Building and creating small, streamlined, containers
+-       Auto-discovery architecture
+-       Scaling production nodes
+-       Resource management
+-       Security concerns and considerations
+ 
+At the end attendees will understand the advantages along with the potential issues of running Docker based on real world experience. This should enable them to identify how to migrate and build their own applications using a container based architecture. 
+
+**Speaker:**
+
+Ben Hall

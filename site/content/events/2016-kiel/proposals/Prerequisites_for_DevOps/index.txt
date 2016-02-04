@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Daniel Reis
+title: "Prerequisites for DevOps - Requirements to Code Transparency Concept"
+---
+
+**Abstract:**
+
+For introducing DevOps into a company four main aspects need to be addressed: cultural change, tooling, development & automatic testing procedures and advanced deployment techniques. While the DevOps discussions usually evolve around the latter we focused on a concept to address the tools-part of this endeavor, which support the other three parameter. We want to show how this concept eases the introduction of DevOps into the process and providing a great transparency from Code to the business process and vice versa. Via a collaboration platform and an agile management tool we structure projects hierarchically and logically and connect all important means of the project including the automated and manual testing if required. Full transparency and traceability from bottom up (piece of code to the business process) and top down is established. This allows every stakeholder to see the big picture and to fully engage into the discussion while keeping the documentation updated.
+
+**Speaker:**
+
+Daniel Reis is since 2011 manager and project leader at it-economics GmbH in Munich. After his study for Business Informatics he works more than ten years in different roles in many projects in different countries.
+Since 2013 he is leading the internal focus group Requirmeents Engineering and is especially interested to look for options to improve the collaboration between all stakeholders in a project.

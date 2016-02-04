@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Kris Buytaert 
+title: "Devops is a Reorg"
+---
+
+**Abstract:**
+
+Breaking down the silos between development and operations is the
+starting point for devops adoption,  but is this sufficient ? for a
+number of organisations adopting devops really is a full reorganisation
+with a lot of team members getting new roles.  This talk will guide you
+trough a number of these changes.   What roles dissapear, what skills
+remain but in a different role.  This talk is based on real changes in
+actuall large organisations.  It will cover merging teams, relocating
+teams, changing the management of a team, the new role of architects,
+and many more.
+
+**Speaker:**
+Kris Buytaert

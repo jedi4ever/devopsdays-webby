@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Oliver Siebenmarck
+title: "From 0 to DevOps - Coping with Continuous Delivery to the Cloud"
+---
+
+**Abstract:**
+
+"Hey, we're doing this really cool new platform and it will be run in the cloud. The team is international and everything will be DevOps. Interested?"
+"Sure!"
+
+And so, a tale of woe begins. Not because DevOps is hard, but because it has to be learned to be done right. By the young talents as well as the old guard. Mistakes were made, misunderstandings were common, shouting matches only avoided by the low quality of some telephone lines.
+So, how come that in the end it all worked out? That people like each other, that everyone kept their sanity and that the portal went live in time and with good quality.
+
+This talk will give a detailed report on the lessons learned by a diverse project team that tried to do everything right while keeping deadlines. Insights include managing a geographically diverse team, when to use automation and how to make sure that tech and people play nice.
+
+**Speaker:**
+
+Oliver happily works as a consultant for IBM, with a focus on all topics cloud and innovation in IT. He has a keen interest in application lifecycle management and the question of how people can best work together on a project.
+
+Oliver lives and codes in Kiel, Germany.
