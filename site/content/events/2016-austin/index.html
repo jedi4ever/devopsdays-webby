@@ -7,27 +7,18 @@ filter:
 title: welcome
 dirty: true
 platinum: false
+sidebar: false
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-![Austin](/<%= @eventhome -%>/keepdevopsweird.png)
-
 ##<%= render(:partial => "/#{@eventhome}/_target_date") -%>
 
-Registration and CFP coming soon.
+Visit the [www.devopsdaysaustin.com](http://www.devopsdaysaustin.com) for more up to date information. Registration and CFP coming soon.
+
+![Austin](/<%= @eventhome -%>/keepdevopsweird.png)
 
 <br>
 
 <div>
   Location: <a href="location">Darrel K. Royal Texas Memorial Stadium</a>
-  <br/><br/>
-
-  <% if false %>
-  <br><br>
-  <br><br>
-Please review our <a href="conduct/">code of conduct</a> before you arrive.
-  <% end %>
 </div>
-<hr>
-
-If you want to be the first to know [subscribe to the devopsdays mailinglist](http://groups.google.com/group/devopsdays)
