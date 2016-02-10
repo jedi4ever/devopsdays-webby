@@ -46,7 +46,8 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
-{ :image => "ado-podcast-logo.png", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"}
+{ :image => "ado-podcast-logo.png", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"},
+{ :image => "food_fight.png", :name => "Food Fight", :link => "http://foodfightshow.org/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
