@@ -190,7 +190,21 @@ function initialize() {
   labelStyle: {opacity: 1}
   });
 
-  google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2016-atlanta"});
+  google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2016-chicago"});
+
+  var chicagolocation = new google.maps.LatLng(41.882219, -87.640530);
+  var chicagomarker = new MarkerWithLabel({
+  position: chicagolocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Chicago<br>Aug 30 & 31",
+  labelAnchor: new google.maps.Point(-5, 20),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2016-chicago"});
 
 
 }
