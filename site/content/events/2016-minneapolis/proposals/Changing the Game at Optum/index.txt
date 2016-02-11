@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 7
+title: "Changing the Game at Optum"
+---
+
+**Title:**
+Changing the Game at Optum
+
+**Description:**
+
+An experience report of using the Improvement Kata and Kanban to help guide discovery and hypothesis-driven-development for the new technology building Optum Cloud.  The presentation focuses on how Sr. Leaders can make a huge difference by practicing the Kata while doing portfolio grooming.
+
+**Speaker:**
+Speaker 7

@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Matteo Emili
+title: I read The Phoenix Project and I loved it! Now what?
+---
+
+**Abstract:**
+
+Pipelines and DevOps are the new Big Data - everybody is talking about them, but how many actually implemented and use them in a valuable way?
+
+The Phoenix Project is a great book describing a very common scenario in many companies, and you can read it very quickly - let's say in a weekend. But once you get back to work, you risk facing a shock: you might still be deploying on Friday afternoon, or you might still face the kind of frictions the book narrated that well.
+
+Can I introduce a Release Pipeline in a regulated environment, or in an enterprise where most of the development teams are still anchored to a legacy perspective? How can I actually bring value in an incremental and iterative way, without disrupting everybody like a big bang?
+
+This session is all about this - from my experience and others', a different perspective on DevOps and Continuous Delivery focused on how to bring the practices in an environment where big, disruptive changes are not always welcome and on using technology to bring a tangible contribution to the ultimate business goal: revenue.
+
+**Speaker:**
+
+Matteo Emili

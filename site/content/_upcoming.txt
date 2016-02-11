@@ -1,9 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2016-losangeles-1day/">
-     Los Angeles
-    </a>
-    -
     <a href="/events/2016-vancouver/">
      Vancouver
     </a>
@@ -16,14 +12,22 @@
      Denver
     </a>
     -
+    <a href="/events/2016-atlanta/">
+     Atlanta
+    </a>
+    -
+    <a href="/events/2016-austin/">
+     Austin
+    </a>
+    -
     <a href="/events/2016-kiel/">
       Kiel
     </a>
-    <br>
+    -
     <a href="/events/2016-seattle">
       Seattle
     </a>
-	-
+    -
     <a href="/events/2016-toronto">
       Toronto
     </a>
@@ -32,7 +36,16 @@
       Washington, DC
     </a>
     -
+    <a href="/events/2016-saltlakecity">
+      Salt Lake City
+    </a>
+    -
+    <a href="/events/2016-amsterdam">
+      Amsterdam
+    </a>
+    -
     <a href="/events/2016-minneapolis">
       Minneapolis
+    </a>
   </h3>
 </div>

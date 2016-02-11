@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Casey West
+title: "Scaling Culture: Architecting Software for Change"
+---
+
+**Abstract:**
+
+Expectations for organizational scale, engineering throughput, and operational performance have never been higher. Designing large-scale software in the cloud-native landscape is a complex undertaking. I will present proven strategies for influencing cultural change to take advantage of recent technological advancements.
+
+**Speaker:**
+
+Working in Internet infrastructure, web app security, and design taught Casey to be a paranoid, UX-oriented, problem solving Internet plumber; his earliest contributions to Perl live to this day on your Mac. Casey's speaking and writing ranges from open source communities and culture to technical architecture and automation tips and tricks. Casey West wears the mantle of Principal Technologist focused on Pivotal's Cloud Foundry Platform and lives in Pittsburgh raising three sarcastic children.

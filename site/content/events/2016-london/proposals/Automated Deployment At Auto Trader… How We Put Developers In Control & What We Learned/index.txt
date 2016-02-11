@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mark Crossfield
+title:  Automated Deployment At Auto Trader… How We Put Developers In Control & What We Learned
+---
+
+**Abstract:**
+
+2013 was a big year for Auto Trader. We published our final magazine, completing our print-to-digital transition. We had a new CEO and completely restructured our business and teams around products (not projects). One of the new teams began a project to automate our deployment process using GoCD, which we were already using for Continuous Integration. Our goal was that teams should be able to safely deploy their changes by clicking a button. At that time Operations were manually deploying our portfolio of around 75 applications around 50 times a week.
+
+In 2015 we achieved our goal—development teams initiate up to 73 deployments a week using the new process, but it wasn’t an easy journey.
+
+In this talk I will cover:
+The deployment history which provided the foundation for this work
+How our solution works
+What we struggled with and learned about along the way
+How this process was rolled out to achieve our goal
+What helped make that nine-month project successful and how this has influenced the delivery of our next goal
+This talk is given from a point-of-view of an engineer within a mid-sized business, which I hope is a context the audience can relate to. At peak, we serve four million page views an hour and we have around 85 developers. This talk isn’t theoretical; it covers something tangible which has been delivered, focusing on business value with an operational mindset.
+
+Key takeaways:
+Having one team focused on a goal can bring about change faster than distributed responsibility
+Cross-discipline teams are even more important in an operational context
+Be wary of bending the tools you have
+Work hard to engage your development teams
+It’s better to deliver something that works but isn’t perfect when you need breathing space to make it better
+
+**Speaker:**
+
+Mark Crossfield

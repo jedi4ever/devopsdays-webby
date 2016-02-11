@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Gil Tayar
+title: "Building a Micro-Services Infrastructure in 7 Days"
+---
+
+**Abstract:**
+
+In 2015, in an internal Hackathon at Wix, we decided to rebuild Wix's Micro-services infrastructure on a Mesos/Marathon base. This is our story. Learn what components are needed for a viable and scalable Micro-services infrastructure, and how to build one using off the shelf components.
+
+**Speaker:**
+
+From the olden days of DOS, to the stratospheric architectures of Wix, Gil was, is, and always will be, a software developer. Currently a software architect at Wix, he has in the past co-founded WebCollage, survived the bubble collapse of 2000, and worked on various big cloudy projects. He still doesn't know whether static languages or dynamic languages are the best.

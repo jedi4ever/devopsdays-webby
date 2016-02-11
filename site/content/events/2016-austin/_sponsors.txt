@@ -1,0 +1,33 @@
+---
+filter:    erb
+---
+
+<%
+def make_sponsor_links(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<% @gsponsors = [
+# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+<br />
+<% if @gsponsors.size == 0 %>Be the first to become a <a href="http://www.devopsdaysaustin.com/#sponsors">Gold Sponsor!</a>
+<% elsif @gsponsors.size < 11 %>Become a <a href="http://www.devopsdaysaustin.com/#sponsors">Gold Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Silver sponsors</h1>
+
+<% @ssponsors = [
+] %>
+<%= make_sponsor_links(@ssponsors) %>
+<br />
+<% if @ssponsors.size == 0 %>Be the first to become a <a href="http://www.devopsdaysaustin.com/#sponsors">Silver Sponsor!</a>
+<% elsif @ssponsors.size < 6 %>Become a <a href="http://www.devopsdaysaustin.com/#sponsors">Silver Sponsor!</a><% end %>
+
+<br/>
+<br/>

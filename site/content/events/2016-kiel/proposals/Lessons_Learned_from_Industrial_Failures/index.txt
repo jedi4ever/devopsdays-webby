@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Charlotte Chang
+title: "Software Development Lessons Learned from Industrial Failures in the 1980s"
+---
+
+**Abstract:**
+
+In the mid-late 20th century, industry giants asked; "How do we continuously improve?", "How do we build a quality product?" and "How do we design for end users?" Today we face those same questions as software professionals. After major innovations in transportation, space exploration and computer science, the U.S. was considered a global leader in economic and scientific achievement. The focus turned to manufacturing advantages like mass production and repeatability. American industries struggled with process improvements, adapting to market changes and ability to pivot. Yet, the tech industry boomed. Why? This talk is a case study of General Motors, examining failures in reliability, collaboration, and product design. Take a step back in history to relive the experiences of these pioneers, learn from their past failures, and how they apply to crafting software products today.
+
+**Speaker:**
+
+Charlotte is a passionate learner who actively seeks new ways of thinking, professional and personal. The majority of her industry experience has been non-technical (primarily UX) and the last two, Charlotte has embraced as a Ruby on Rails engineer. She is an advocate for diversity in the tech industry, teaching girls to code and robotics through a nonprofit, Her Ideas in Motion. When Charlotte isn't nerding out, you'll find her hiking with her dog or playing ultimate frisbee.

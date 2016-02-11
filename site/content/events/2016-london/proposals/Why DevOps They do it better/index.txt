@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author:         Jonathan Wilkinson
+title: Why DevOps? They do it better.
+---
+
+**Abstract:**
+
+In fact, according to a survey conducted by Dimensional Research and commissioned by PagerDuty, 85% of teams report missing a critical incident, and 99% say that missing alerts has the potential to hurt their business. This talk will explore why it’s not all about monitoring and where incident response kicks in to really affect the business’s bottom line. 
+?
+
+**Speaker:**
+
+Jonathan Wilkinson

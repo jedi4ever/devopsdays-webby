@@ -5,36 +5,22 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='#{sponsor[:width]}' height='#{sponsor[:height]}' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
-
-<% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
-]%>
-<%= make_sponsor_links(@gsponsors) %>
-<br />
-<% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
-<% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Silver sponsors</h1>
-
-<% @ssponsors = [
-] %>
-<%= make_sponsor_links(@ssponsors) %>
-<br />
-<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
-<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
 <br/>
 <h1>Break Sponsors</h1>
 
 <% @bsponsors = [
- { :image => 'carsdotcom.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '43px' },
+ { :image => 'carsdotcom.jpg', :name => 'Cars.com', :link => 'http://www.cars.com', :width => '100px', :height => '100px' },
+ { :image => 'chef.png', :name => 'Chef Software', :link => 'http://www.chef.io', :width => '100px', :height => '100px' },
+ { :image => 'cisco.png', :name => 'Cisco', :link => 'http://www.cisco.com', :width => '100px', :height => '100px' },
+ { :image => 'puppetlabs.jpg', :name => 'Puppet Labs', :link => 'http://www.puppetlabs.com', :width => '100px', :height => '100px' },
+ { :image => 'sumologic.jpg', :name => 'SumoLogic', :link => 'http://www.sumologic.com', :width => '100px', :height => '100px' },
+ { :image => 'verizon.png', :name => 'Verizon Digital Media Services', :link => 'https://www.verizondigitalmedia.com', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -45,10 +31,10 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
- { :image => 'devopsdotcom.png', :name => 'DevOps.com', :link => 'http://www.devops.com', :width => '100px', :height => '25px' },
+ { :image => 'devopsdotcom.png', :name => 'DevOps.com', :link => 'http://www.devops.com', :width => '100px', :height => '100px' },
  { :image => 'usenix.png', :name => 'Usenix', :link => 'http://www.usenix.org', :width => '100px', :height => '100px' },
- { :image => 'linuxjournal.jpg', :name => 'Linux Journal', :link => 'http://www.linuxjournal.com', :width => '100px', :height => '45px' },
- { :image => 'linuxpromagazine.jpg', :name => 'Linux Pro Magazine', :link => 'http://www.linuxpromagazine.com/', :width => '100px', :height => '40px' },
+ { :image => 'linuxjournal.jpg', :name => 'Linux Journal', :link => 'http://www.linuxjournal.com', :width => '100px', :height => '100px' },
+ { :image => 'linuxpromagazine.jpg', :name => 'Linux Pro Magazine', :link => 'http://www.linuxpromagazine.com/', :width => '100px', :height => '100px' },
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />

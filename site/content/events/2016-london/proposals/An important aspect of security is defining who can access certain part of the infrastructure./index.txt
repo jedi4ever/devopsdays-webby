@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Tiziano Perrucci
+title: An important aspect of security is defining who can access certain part of the infrastructure. 
+---
+
+**Abstract:**
+
+Firewall rules and policies define which communication channels are allowed. Authorize different ssh keys on different instances. Whitelist IPs which are well known and won't change that often.
+
+Sometimes all those restrictions will make you feel miserable. Issues will raise when people are not available or located in a non familiar place. Circumstances like this when the only operational guy with an internet connection is in an airport are not that uncommon.
+
+To avoid spending time in reconfiguring firewall or, even worse, opening the all production network to anyone in the airport we can leverage a well know system called port knocking. Port knocking will allow you to access with a high level of security production.
+
+In this talk we will walk through an Ansible roles that we made openly available to setup fknop on a jump server.
+
+In this session the audience will learn
+* fundamentals of securing a server
+* creating secure infrastructure backdoor
+* firewall port knocking concept
+* automate fwknopd installation and iptables configuration
+
+**Speaker:**
+
+Tiziano Perrucci

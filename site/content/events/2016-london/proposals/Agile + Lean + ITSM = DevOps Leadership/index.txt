@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Daniel Breston
+title: Agile + Lean + ITSM = DevOps Leadership
+---
+
+**Abstract:**
+
+DevOps leadership and the good, the bad and the great!
+
+How do you always have a team that says they can remove an obstacle or achieve a goal that the organization wants? How do you do this better, faster, safer and ultimately with less cost?
+
+**Speaker:**
+
+Daniel Breston

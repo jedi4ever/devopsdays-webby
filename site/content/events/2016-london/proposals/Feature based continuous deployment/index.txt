@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Tiziano Perrucci
+title: Feature based continuous deployment
+---
+
+**Abstract:**
+
+Be able to continuously deploy and test independently features that the dev team is building is a challenge.
+
+For each pull request opened we should be able to see if it builds correctly, if all unit tests pass and if there is any issue with the integration test. Automated tests try to avoid regression but there are some things that are very hard to test in an automated fashion. At this point deploying and checking manually the feature on some live environment becomes crucial.
+
+Things get even more interesting when several features development happen in parallel and all the PRs will be eventually merged into master. 
+
+Most of the work flow described for feature branches will apply for master but the deployment will be extended. Master will be provisioned on several environments with different characteristics which leads to manage various configurations.
+
+In this talk we will show how we implemented a continuous deployment pipeline for one of our customer on top of Jenkins with the help of Ansible.
+
+In this session audience will learn:
+* building pipeline in Jenkins as a set of downstream/upstream jobs
+* reliably deploying each features independently with Ansible
+* tracking deployed features
+* how dev teams can support continuous deployment
+* not to be afraid of rebuilding your infrastructure
+
+**Speaker:**
+
+Tiziano Perrucci

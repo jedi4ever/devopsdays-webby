@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Thiago Almeida
+title: "DevOps inside Microsoft engineering: lessons learned"
+---
+
+**Abstract:**
+
+Bing, PowerBI, Azure, Visual Studio, MSN, Microsoft Developer Network – all of these and other teams inside Microsoft are embracing organizational changes and cultural shifts necessary for adopting DevOps. In this session we will tell the DevOps transformation stories of theses teams, including:
+Shifts in roles and accountabilities
+Mindset changes
+Learning from production, experimentation and metrics
+We will also cover the recommendations based on what these teams have learned.
+
+**Speaker:**
+
+Thiago Almeida

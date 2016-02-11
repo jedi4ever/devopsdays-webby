@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Bernhard Cygan
+title: "Pipeline-as-Code with Jenkins"
+---
+
+**Abstract:**
+
+Defining build pipelines in the source code repository (Pipeline-as-Code) has many advantages over defining sequences of build jobs. This talk will demonstrate in which cases Pipeline-as-Code make sense and which cases it doesn't.
+
+This will be demonstrated using real-world examples allowing automatic creation and deletion of build jobs for feature branches as well as explorative testing of a build pipeline itself.
+
+**Speaker:**
+
+Bernhard Cygan is a Senior Solution Architect at CloudBees. Coming from prior experience in Dev as well as Ops he learned to appreciate agile methods and processes. He is working with software technology used by enterprises and is a regular speaker at conferences and workshops about Jenkins as well as agile best practises. For him, going from Continuous Integration to Continuous Delivery is the next logical step for professionalism in software development.

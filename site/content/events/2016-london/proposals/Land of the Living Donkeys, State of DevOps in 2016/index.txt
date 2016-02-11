@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Michael Coté
+title: Land of the Living Donkeys, State of DevOps in 2016
+---
+
+**Abstract:**
+
+DevOps is finally mainstream and there will massive carnage from companies that don't understand how to properly apply it to their organizations. These are the "donkeys" that contrast to the "unicorns" we spend all our time focusing on. This talk goes over what drives the need for DevOps for donkeys, how they can safely apply it to their organization, and stories of regular companies doing so. 
+
+It's one thing for tech companies to seek out the best way to create and run their own software, but seeing non-tech companies large and small start to gravitate towards becoming software experts is a recent trend. Regular companies - "donkeys" in my parlance - are being forced to become software companies. After years of outsourcing and neglecting this part of IT in favor of wringing out costs in virtualization and SaaS, most companies find themselves terrible deficient in their software development capabilities. Thankfully, cloud and DevOps are racing in the save the day. But wait, is it just as simple as installing a cloud, putting Jenkins in place, and then deploying daily? Hardly. There's predictions that around 90% of these types of transformations will fail. And rightly so, there's nothing easy about being a software company. 
+
+This talk will cover the history that's brought us to this point - how companies are now in a position where they need to become masters of their own custom software development - and then give guidelines for safely and reliably making the switchover to taking on a DevOps mind-set. I'll cover associated concepts like what cloud actually is and can do for you and the major way that "management" needs to change. 
+
+
+**Speaker:**
+
+Michael Coté
+
+

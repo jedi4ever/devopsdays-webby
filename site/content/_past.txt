@@ -6,13 +6,10 @@
      <div style="margin:2px;">
       <strong>2009</strong><br/>
       <a href="/events/2009-ghent/">Ghent 2009</a>
-
       </div>
-</div>
 
-<div style="display:table-cell; vertical-align:top">
-     <div style="margin:2px;">
-
+<br>
+      <div style="margin:2px;">
       <strong>2010</strong><br/>
       <a href="/events/2010-sydney/">Sydney 2010</a><br>
       <a href="/events/2010-us/">Mountain View 2010</a><br>
@@ -20,6 +17,7 @@
       <a href="/events/2010-brazil/">Sao Paulo 2010</a><br>
       </div>
 </div>
+
 
 <div style="display:table-cell; vertical-align:top">
      <div style="margin:2px;">
@@ -31,10 +29,11 @@
       <a href="/events/2011-goteborg/">Göteborg 2011</a><br>
       <a href="/events/2011-manila/">Manila 2011</a><br>
       </div>
-</div>
 
-<div style="display:table-cell; vertical-align:top">
+<br>
+
      <div style="margin:2px;">
+
       <strong>2012</strong><br/>
       <a href="/events/2012-austin/">Austin 2012</a><br>
       <a href="/events/2012-tokyo/">Tokyo 2012</a><br>
@@ -43,7 +42,8 @@
       <a href="/events/2012-italy/">Rome 2012</a><br>
       <a href="/events/2012-newyork/">New York 2012</a><br>
       </div>
-</div>
+  </div>
+
 
 <div style="display:table-cell; vertical-align:top">
      <div style="margin:2px;">
@@ -121,6 +121,12 @@
       </div>
 </div>
 
+<div style="display:table-cell; vertical-align:top">
+     <div style="margin:2px;">
+      <strong>2016</strong><br/>
+      <a href="/events/2016-losangeles-1day/">Los Angeles (1 day)</a>
+      </div>
+</div>
 
 
 

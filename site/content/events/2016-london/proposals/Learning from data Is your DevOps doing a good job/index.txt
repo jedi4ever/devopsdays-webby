@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Gordon Haff
+title: "Learning from data: Is your DevOps doing a good job?"
+---
+
+**Abstract:**
+
+DevOps works because continuous iteration and improvement is fundamentally a more rapid and flexible approach to software development than slow rigid project cycles. However, realizing this approach to developing and deploying software means putting in place the measurement systems and metrics to present actionable insights that can then be acted on appropriately. Adding to the complexity is the need to present appropriate metrics for different audiences such as developers, operations, and business leaders.
+
+In this session, I'll cover relevant for different audiences including: change frequency, response time, deployment failure rate, service availability, change volume, and mean time to recover.
+
+**Speaker:**
+
+Gordon Haff

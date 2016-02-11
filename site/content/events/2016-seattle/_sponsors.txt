@@ -11,7 +11,9 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "pivotal.png", :name => "Pivotal Software, Inc.", :link => "http://www.pivotal.io/"},
+{ :image => "chef.jpg", :name => "Chef", :link => "http://www.chef.io/"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks CD Products", :link => "http://www.thoughtworks.com/products/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -44,8 +46,16 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "ado-podcast-logo.png", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"},
+{ :image => "food_fight.png", :name => "Food Fight", :link => "http://foodfightshow.org/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a [Media Sponsor!](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>)
+<% if @msponsors.size == 0 %>Be the first to become a media sponsor. Please email the orgainzers at organizers-seattle-2016@devopsdays.org
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br />
+<br />
+<h1>Other Sponsorships</h1>
+<b>Streaming Video:</b> Sponsor a live video stream! We'd love to make the sessions available to people unable to attend. By sponsoring
+the streaming video for the event you'll have unique exposure to a wider audience. Price: $5,000

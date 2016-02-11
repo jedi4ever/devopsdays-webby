@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Pei Xin
+title: "Fury and Love - A Corporate Governor's journey into AGILE"
+---
+
+**Abstract:**
+
+Story of a corporate governance and compliance manager trying to find peace when her company started their very first AGILE project.
+
+**Speaker:**
+
+Runs a humble standards governance & compliance office in a data center in sunny Singapore. Loves learning and travelling.

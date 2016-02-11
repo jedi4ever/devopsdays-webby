@@ -1,0 +1,24 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: welcome
+dirty: true
+platinum: false
+sidebar: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+##<%= render(:partial => "/#{@eventhome}/_target_date") -%>
+
+Visit the [www.devopsdaysaustin.com](http://www.devopsdaysaustin.com) for more up to date information. Registration and CFP coming soon.
+
+![Austin](/<%= @eventhome -%>/keepdevopsweird.png)
+
+<br>
+
+<div>
+  Location: <a href="location">Darrel K. Royal Texas Memorial Stadium</a>
+</div>

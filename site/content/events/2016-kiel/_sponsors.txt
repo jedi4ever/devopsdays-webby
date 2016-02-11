@@ -11,7 +11,8 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "ServerDensity-190x190.png", :name => "server density", :link => "https://www.serverdensity.com/"},
+{ :image => "chef200x200.png", :name => "Chef", :link => "https://www.chef.io/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -33,7 +34,7 @@ end
 <br/>
 <br/>
 <h1>Special sponsors</h1>
-<% @esponsors = [
+<% @esponsors = [{ :image => "Kieler_Nachrichten_Logo100x100.png", :name => "Kieler Nachrichten", :link => "http://www.kn-online.de/"},
 { :image => "wobe2.png", :name => "wobe-systems GmbH", :link => "http://www.wobe-team.com"}
 ]%>
 <%= make_sponsor_links(@esponsors) %>
@@ -46,6 +47,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "core-admin-logo-100x100.png", :name => "Core-Admin", :link => "http://www.core-admin.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />

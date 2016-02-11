@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Bianca Heinemann
+title: "The Challenges of Adopting DevOps"
+---
+
+**Abstract:**
+
+A lot of companies underestimate the amount of change that adopting DevOps brings to the organization. What are the challenges for a company going DevOps? What should be expected in the realms of tools, methods and even culture? This presentation will try to shed some light on what is going to happen after someone says, "Let's do this DevOps thing.
+
+**Speaker:**
+
+Bianca started her career and still works at IBM as a consultant and business analyst after finishing her master's degree in business computing. She helps various companies setting up and managing their software lifecycle projects. Her focus is on the interplay of humans, the tools they use and the methods they use to organize themselves.

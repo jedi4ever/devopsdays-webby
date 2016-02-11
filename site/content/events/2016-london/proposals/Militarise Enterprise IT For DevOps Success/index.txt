@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: John Rakowski
+title: Militarise Enterprise IT For DevOps Success 
+---
+
+**Abstract:**
+
+At this point you are probably thinking, “What? I thought DevOps was all about keeping CALM?”. But the reality is that military teaching on how to survive in dangerous battlefield situations is completely relevant to your DevOps adoption. Since Sun Tzu’s 'The Art of War', soldiers have understood that in order to stay alive, it’s critical to understand what’s happening in their vicinity, to comprehend events and information in real-time to make the next move or take the next action.
+
+This basic concept is known as 'Situational Awareness' and is something that is critical to a continuous delivery capability. Today, situational awareness in IT is provided through monitoring but, unfortunately, research  shows that this DevOps necessity is overlooked in the enterprise. Multiple monitoring tools and failure to quickly understand root cause result in negative customer impact and damage to the business. In this session you will learn how to improve and militarise IT as John Rakowski, Director of Technology Strategy at AppDynamics will cover: 
+
+•	The importance of measurement to DevOps
+•	The basics of Situational Awareness and OODA concepts
+•	Three essentials for DevOps Situational Awareness
+
+**Speaker:**
+
+John Rakowski

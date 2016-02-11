@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Evgeny Zislis
+title: Your team will never DevOps
+---
+
+**Abstract:**
+
+The DevOps buzz is louder than ever; there is hardly a company who is not looking for a DevOps engineer today. Everyone wants to join the party! The promise is that your business will flourish, and team members will be happier than ever. In most companies, there is no significant change and adopting the DevOps ideas is nearly impossible. I have been working with several companies over the last ten years and learned the multitude of faults and reasons why your team will never adopt DevOps. This presentation shares these negative assertions and offers some common-sense solutions. If only common sense was more common.
+
+**Speaker:**
+
+Evgeny Zislis
+
+

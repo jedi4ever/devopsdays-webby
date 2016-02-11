@@ -4,9 +4,9 @@ filter:    erb
 <div class="submenu">
 <h3>
 <a href="/<%= @eventhome %>/">Welcome</a>&nbsp;
-<!--
 <a href="https://devopsdaysdc2016.busyconf.com/bookings/new">Register</a>&nbsp;
 <a href="https://devopsdaysdc2016.busyconf.com/proposals/new">Propose</a>&nbsp;
+<!--
 <a href="/<%= @eventhome %>/program">Program</a>&nbsp;
 -->
 <a href="/<%= @eventhome %>/location">Location</a>&nbsp;

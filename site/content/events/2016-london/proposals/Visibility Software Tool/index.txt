@@ -1,0 +1,33 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Doug Gibbons
+title: Visibility Software Tool
+---
+
+**Abstract:**
+
+Having worked in the Enterprise DevOps sphere for a number of years now, I noticed that we have a tool missing.  It's like we've been banging in nails with a screwdriver all these years.  
+
+When releasing software, especially in larger organisations, it's important to know what has changed, and when.  Imagine a day starting out with a short and swift conversation with change management; "Did build 3873 really go through UAT?  2 months ago you say? Is that a guess?  Go back and trace all of our builds and find out how many of them actually went through all of our test environments and tell me exactly when they were tested."
+
+It seems like an unreasonable request at the cutting edge of agile, but there many be plenty of excellent and enterprisy reasons for needing to know.
+
+Some of that information might be locked away in a CI tool somewhere, but these tools are notorious users of disk space. Old builds rarely seem as important as freeing up that space to get the build pipeline running again.
+
+Imagine a tool that kept all the information. One that stored all that data, quietly in the background, and was able to present it all back through a nice and simple web interface, whenever you need it.
+
+Well, I created that tool a while back and recently started using it in a large company. Others in the company saw it, and started to adopt it too. Some of them even liked it.  The tool is open source, available on GitHub, and can even be demonstrated to an audience in about a minute (or 4 slides).
+
+The project can be found at https://github.com/zenly/visibility and I'd appreciate the chance to demonstrate this software to a wider audience, so it can have the chance to gain some traction and/or spark a few new ideas.
+
+**Speaker:**
+
+Doug Gibbons

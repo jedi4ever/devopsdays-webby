@@ -11,7 +11,7 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+  { :image => "pivotal.png", :name => "PIVOTAL", :link => "https://pivotal.io" },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 
@@ -45,6 +45,8 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+  { :image => "oreilly.png", :name => "OREILLY", :link => "http://www.oreilly.com" },
+  { :image => "ado.png", :name => "ADO", :link => "https://www.arresteddevops.com" },
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />

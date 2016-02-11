@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Claire Agutter
+title: Agile your ITIL – bringing DevOps benefits to IT service management
+---
+
+**Abstract:**
+
+Description: many large financial enterprises have spent years implementing frameworks, standards and methodologies to try and get IT ‘right’.  One of the most commonly adopted of these is ITIL, and organisations have at least got the basics with incident management, change management and perhaps a few more processes in place.  ITIL will mainly be restricted to ops, and any gleams of agile thinking will be in the dev space.  IT staff might feel overloaded and resist DevOps initiatives because they’ve only just ‘finished’ ITIL. 
+This presentation will focus on bring some elements of agile thinking to IT service management to give the benefits of DevOps without overwhelming the organisation and staff.  This will include:
+·         Uniting dev and ops – practical ways to merge
+·         Applying agile thinking to ITSM processes
+·         Redefining ‘service’ and ‘product’
+
+At the end of the presentation delegates should leave with a better understanding of how to adopt DevOps in a large organisation by evolution, not revolution.
+
+**Speaker:**
+
+Claire Agutter

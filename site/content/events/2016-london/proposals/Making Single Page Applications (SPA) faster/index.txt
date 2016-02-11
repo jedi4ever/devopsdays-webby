@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Livshutz, Boris
+title: Making Single Page Applications (SPA) faster
+---
+
+**Abstract:**
+
+   Single Page Applications (SPA) have been one of the major new architectural shifts for websites. While this has enabled impressive site look and feel, and reduced the number of bytes delivered to the end users, it has introduced new challenges resulting on many sites degrading performance or not “working” on mobile after migrating to SPA. Come to this talk and learn how to get a top performing SPA. 
+
+When implementing SPA it is critical to understand that techniques that worked well in traditional sites might no longer deliver acceptable site performance. Single Page Applications pose inherent obstacles to fast load times and good user experience:
+The Overhead of Frameworks: SPA frameworks use JavaScript to modify and control the DOM in a developer friendly environment; however, this comes with a cost. Experts in the field have identified problems such as memory leaks, overloaded libraries, and large framework files.  This can especially be devastating on lower end mobile devices.  
+API Caching: Many SPA sites encounter decreased caching and offload at both clients and CDN.  Both do not work well with default configurations and JSON communications only add to the difficulties.   
+Expensive Load: We often see websites first view taking 6-10 seconds to load on desktops.  Often this is due to  an install/bootstrap process for the framework on each user visits. In lower end mobile devices, the framework’s JavaScript overhead can make the site practically unusable.   
+Latency Sensibility: As SPAs consist mostly of API based communications, they are extremely sensitive to latency . This is particularly troubling  in mobile connections where latency could be between 100 ms and 3.5s  All the old HTML tricks of rending and flushing are not applicable anymore.
+Performance Monitoring and Testing Challenges: Classic monitoring and testing tools cannot accurately track the transactions and end user experience.  For example,  because Navigation events happen after the onload event, the popular onLoad metric ceases to be useful. Metrics such as Page Load Time and Time to Start Render are not well defined making it hard to identify the real user Time To Interact.  All this lack of visibility into the application makes tuning difficult
+ 
+In this talk we will discuss each of these challenges and how they can be solved.  We will explore the latest industry best practices for the fastest SPA sites, such as:
+Lazy load strategies as they apply to SPA JavaScript packaging best practices Latest Monitoring tools and techniques for SPA Over download mitigation
+CDN configuration optimizations Server rendering to reduce client processing
+ 
+While your Single Page Application may deliver many benefits, it should not come at the cost of performance. By learning new techniques to optimize the application and new tools to track performance, SPAs should deliver equal if not faster performance than any classic server side rendering frameworks.
+
+**Speaker:**
+
+Livshutz, Boris

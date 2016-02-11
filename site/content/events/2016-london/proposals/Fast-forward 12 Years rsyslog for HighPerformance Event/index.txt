@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Radu Gheorghe 
+title: "Fast-forward 12 Years: rsyslog for High-Performance Event
+Processing"
+---
+
+**Abstract:**
+
+rsyslog was born about 12 years ago, as a fork of syslogd. In all this
+time, it grew a lot of nice functionalities. First of all, it’s
+modular, which means you can do things like tail files, parse
+unstructured event intro structured JSON, and output to an array of
+destinations such as MongoDB or Elasticsearch.
+
+There’s also a new (new as in “introduced 4 years ago”) configuration
+language, which allows powerful filtering, local variables, and lots
+of other tricks. Last but not least, you can choose buffer data (in
+memory, on disk, or a combination) per input and per action. This
+effectively allows you to route data in whichever way you want and
+also handle intermittent network failures or slowness in your
+destinations.
+
+Like any other open-source project, rsyslog doesn’t pretend to be
+perfect. There’s lots of work ahead in terms of documentation and ease
+of use, for example. Here, I’ll show the important features of
+rsyslog, some of the best practices (you’ll need a few tweaks to get
+to that 1M EPS per machine that some people report), how we want to
+move things forward and how you can help with that
+
+**Speaker:**
+Radu Gheorghe

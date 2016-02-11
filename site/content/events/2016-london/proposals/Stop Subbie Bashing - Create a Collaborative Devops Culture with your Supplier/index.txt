@@ -1,0 +1,40 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Andy Burgin
+title: Stop Subbie Bashing - Create a Collaborative Devops Culture with your Supplier
+---
+
+**Abstract:**
+
+I'm very lucky, I work at a company that "gets" devops, we follow the spotify tribes model and implement many of the practices defined by CAMS in an agile environment. But I wasn't always so lucky, at one point in my illustrious employment history I found myself in a "Career Cul-de-sac" working with CAD systems at a small firm of architects. I learned some valuable lessons looking after the CAD systems, one of those lessons was the tale told by the architects (the kind that design buildings not software) of how the construction industry would use contractual loopholes to avoid full or part payment to suppliers or sub contractors - known as "Subbie Bashing".
+
+I didn't work at the architects long and subsequently left to work at a several digital agencies swept along with the dotcom boom of the early 2000s. During the 15+ years since then I've worked in teams predominantly being a supplier as part of a team building and hosting digital services, I've also used suppliers for 3rd party help and services (freelancers, hosting etc). 
+
+I've worked with a number of SMEs and large companies, but in this talk I'll focus on experiences learned in dealing with enterprise level customers for a variety of sectors including:
+Financial Services (aka FinTech)
+Marketing, HR, Broadcast, Ecommerce, Retail
+At a DevopsDays conference there is much talk about creating a "collaborative culture" and evangalising about "sharing", this talk will explain how these practices can be extended beyond your internal teams/departments/tribes to suppliers. Based on my experiences I'll advise how devops practices helped (or where they could have) and as a customer how you can engage with suppliers so you both get business value. The talk will cover:
+All creatures great and small - Blue chips vs SME, suppliers vs vendors - are you sure you got it right?
+Understanding a suppliers business model - short projects, waterfall managed, time == money, moon on stick sales man
+Selection process - proposals, pitches, prototypes, innovation - what's the business criteria ? did your brief include how to work together (did you think devops) ?
+Making friends - Culture and Sharing, what is the team structure? just another scrum team? the lines of communication, who "owns" the product? don't forget the NFRs!
+Nuts and Bolts - Who's server is it anyway ? embracing automation, you actually want a wall of confusion ? deployment - YOLO to live ? stealth sites
+Ch, ch, ch, ch, changes - getting hand offs and feedback loops right, communicating them, managing them, paying for them, saying no!
+Going Live - acceptance criteria, you did show the big boss ? what about the legal and compliance teams ?
+We'll support you evermore - SLAs, Load testing, out of hours, ticket queue == silo
+Whoops there goes my data - security compliance and realistic application, you may be a Blue Chip should you treat your supplier like one ?
+Legals and contracts - evil penalty clauses, procurement departments and getting paid, it's all about cashflow.
+Lets do it all again - retainers ? preferred supplier ? walking away ?
+Finally the talk will conclude with a summary of the lessons learned. Explaining which aspects of devops are key to a successful supplier relationship.
+
+**Speaker:**
+
+Andy Burgin
