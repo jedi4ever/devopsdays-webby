@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Matthew Smillie
+title: "Empathy is a core engineering skill"
+---
+
+**Abstract:**
+
+I'll present the idea that operational empathy is essential to the software engineering practice. With examples from five years of helping to build and operate a large IaaS product, I'll show how empathy influences choices from logging libraries to high-level design for observability and debuggability.
+Touching on the role of code review, professional development, and the
+existential inevitability of production failures, we'll see how this approach acts as a #hugops force multiplier, improves operations, and creates positive feedback into engineering.
+
+**Speaker:**
+
+Matthew Smillie is a Software Engineer at Joyent.

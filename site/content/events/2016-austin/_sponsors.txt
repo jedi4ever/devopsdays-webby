@@ -11,7 +11,8 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"},
+{ :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -20,6 +21,40 @@ end
 
 <br/>
 <br/>
+
+<h1>Jumbotron sponsor</h1>
+
+<% @jsponsors = [
+] %>
+<%= make_sponsor_links(@jsponsors) %>
+<br />
+<% if @jsponsors.size == 0 %>Be the <a href="http://www.devopsdaysaustin.com/#sponsors">Jumbotron Sponsor!</a><% end %>
+
+<br/>
+<br/>
+
+<h1>Happy Hour sponsor</h1>
+
+<% @hhsponsors = [
+] %>
+<%= make_sponsor_links(@hhsponsors) %>
+<br />
+<% if @hhsponsors.size == 0 %>Be the <a href="http://www.devopsdaysaustin.com/#sponsors">Happy Hour Sponsor!</a><% end %>
+
+<br/>
+<br/>
+
+<h1>Lanyard sponsor</h1>
+
+<% @lsponsors = [
+] %>
+<%= make_sponsor_links(@lsponsors) %>
+<br />
+<% if @lsponsors.size == 0 %>Be the <a href="http://www.devopsdaysaustin.com/#sponsors">Lanyard Sponsor!</a><% end %>
+
+<br/>
+<br/>
+
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [

@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Yaroslav Tkachenko
+title: "Evolving your AWS infrastructure with Ansible"
+---
+
+**Abstract:**
+
+It took Bench Accounting a long time to go from simple manually provisioned Java monolith app to a fully automated microservices environment with Scala and Node.js apps deployed in AWS. 
+
+In this session I want to share our experience using Ansible to leverage your existing AWS infrastructure and build repeatable environments using AMIs, CloudFormation and Elastic Beanstalk. 
+
+In the beginning I’m going to describe how we created playbooks for our backing services and also used Ansible for creating AWS AMIs. 
+
+Then I’ll talk more about repeatable environments and show how one can use Ansible playbooks, AMIs and CloudFormation together. 
+
+Finally, I’ll present the way of automating AWS CLI with Ansible for services that are not covered by Ansible standard modules, using Elastic Beanstalk as an example. 
+
+**Speaker:**
+
+Yaroslav Tkachenko is a Software Engineer at Bench. For more about Yaroslav see [sap1ens.com](http://sap1ens.com) and [linkedin.com/in/sap1ens](https://www.linkedin.com/in/sap1ens)

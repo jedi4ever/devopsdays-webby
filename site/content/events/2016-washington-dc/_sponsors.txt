@@ -4,6 +4,30 @@ filter:    erb
 <h1>Platinum &amp; Venue Sponsor</h1>
 <a href="http://www.uspto.gov/"><img border=0 alt="USPTO" title="USPTO" width=280px height=70px src="/events/2016-washington-dc/logos/uspto.jpg"></a>
 
-<h1>Other Sponsors</h1>
+<% @ptsponsors = [
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io/"},
+]%>
+<% unless @ptsponsors.empty? %>
+<h1>Platinum Sponsors</h1>
+<% @ptsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+<% end %>
 
-Coming Soon!
+<% @ausponsors = [
+]%>
+<% unless @ausponsors.empty? %>
+<h1>Gold Sponsors</h1>
+<% @ausponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+<% end %>
+
+<% @agsponsors = [
+]%>
+<% unless @agsponsors.empty? %>
+<h1>Silver Sponsors</h1>
+<% @agsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+<% end %>

@@ -32,6 +32,9 @@
       Toronto
     </a>
     -
+    <a href="/events/2016-istanbul">
+      Istanbul
+    -
     <a href="/events/2016-washington-dc">
       Washington, DC
     </a>
@@ -50,6 +53,10 @@
     -
     <a href = "/events/2016-chicago">
       Chicago
+    </a>
+    -
+    <a href="/events/2016-detroit">
+      Detroit
     </a>
   </h3>
 </div>
