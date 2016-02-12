@@ -33,7 +33,7 @@ function initialize() {
     raiseOnDrag: false,
     map: map,
     labelContent: "Denver<br>April 21 & 22",
-    labelAnchor: new google.maps.Point(20, 30),
+    labelAnchor: new google.maps.Point(20, 10),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
   });
@@ -45,7 +45,7 @@ function initialize() {
     raiseOnDrag: false,
     map: map,
     labelContent: "Washington, DC<br>Jun 8 & 9",
-    labelAnchor: new google.maps.Point(0, 30),
+    labelAnchor: new google.maps.Point(0, 28),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
   });
@@ -59,7 +59,7 @@ function initialize() {
     raiseOnDrag: false,
     map: map,
     labelContent: "Minneapolis<br>Jul 20 & 21",
-    labelAnchor: new google.maps.Point(25, 40),
+    labelAnchor: new google.maps.Point(50, 75),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
   });
@@ -73,7 +73,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Salt Lake City<br>Jun 14 & 15",
-  labelAnchor: new google.maps.Point(45, 0),
+  labelAnchor: new google.maps.Point(66, -2),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -101,7 +101,7 @@ function initialize() {
     raiseOnDrag: false,
     map: map,
     labelContent: "Seattle<br>May 12 & 13",
-    labelAnchor: new google.maps.Point(50,10),
+    labelAnchor: new google.maps.Point(55,10),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
   });
@@ -157,7 +157,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Vancouver<br>Apr 15 & 16",
-  labelAnchor: new google.maps.Point(60, 30),
+  labelAnchor: new google.maps.Point(45, 30),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -171,7 +171,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Austin<br>May 2 & 3",
-  labelAnchor: new google.maps.Point(10, 0),
+  labelAnchor: new google.maps.Point(30, 0),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -185,25 +185,37 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Atlanta<br>Apr 26 & 27",
-  labelAnchor: new google.maps.Point(-5, 20),
+  labelAnchor: new google.maps.Point(-5, 10),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
 
   google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2016-atlanta"});
 
+  var chicagolocation = new google.maps.LatLng(41.882219, -87.640530);
+  var chicagomarker = new MarkerWithLabel({
+    position: chicagolocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Chicago<br>Aug 30 & 31",
+    labelAnchor: new google.maps.Point(40, 30),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+  google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2016-chicago/"});
+
   var detroitlocation = new google.maps.LatLng(42.331034, -83.046382);
   var detroitmarker = new MarkerWithLabel({
-  position: detroitlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Detroit<br>Oct 11 & 12",
-  labelAnchor: new google.maps.Point(-5, 20),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
+    position: detroitlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Detroit<br>Oct 11 & 12",
+    labelAnchor: new google.maps.Point(40, 55),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
   });
-
   google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2016-detroit"});
 
   var istanbullocation = new google.maps.LatLng(41.0136, 28.9550);

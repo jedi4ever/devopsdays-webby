@@ -51,6 +51,10 @@
       Minneapolis
     </a>
     -
+    <a href = "/events/2016-chicago">
+      Chicago
+    </a>
+    -
     <a href="/events/2016-detroit">
       Detroit
     </a>
