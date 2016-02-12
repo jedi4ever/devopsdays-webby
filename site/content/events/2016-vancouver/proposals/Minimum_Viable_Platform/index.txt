@@ -1,0 +1,36 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Casey West
+title: "Minimum Viable Platform"
+---
+
+**Abstract:**
+
+Platforms: either you have one or you’re building one. Over the years I’ve observed six high-level characteristics common to production environments which are operationally mature:
+
+Routing and load balancing.
+Backing services broker.
+Infrastructure orchestration.
+Health management, monitoring, and recovery.
+Immutable artifact repository.
+Log aggregation.
+
+This talk will explain in detail the six capabilities in an operationally mature production environment. It will serve as a rubric for anyone building their own production platform composed of unstructured components; or choosing an integrated, structured platform from the many options available.
+
+Sometimes the automation and speed available to operationally mature organizations can seem like magic to those at the beginning of their devops and automation journeys. That’s why I will also demonstrate these capabilities in an interactive, live exposition.
+
+Critical capabilities including infrastructure and application lifecycle management, deployment, auto-provisioning backing services, and failure recovery will shown. You’ll see what life is like for teams who have the operational maturity of a Minimum Viable Platform.
+
+For the purposes of demonstration I will be using the [Open Source Cloud Foundry Platform](http://cloudfoundry.org).
+
+**Speaker:**
+
+Working in Internet infrastructure, web app security, and design taught Casey to be a paranoid, UX-oriented, problem solving Internet plumber; his earliest contributions to Perl live to this day on your Mac. Casey’s speaking and writing ranges from open source communities and culture to technical architecture and automation tips and tricks. Casey West wears the mantle of Principal Technologist focused on Pivotal’s Cloud Foundry Platform and lives in Pittsburgh raising three sarcastic children.

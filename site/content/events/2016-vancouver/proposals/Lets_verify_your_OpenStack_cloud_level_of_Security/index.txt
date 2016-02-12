@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: JJ Asghar
+title: "Lets verify your OpenStack cloud's level of Security!"
+---
+
+**Abstract:**
+
+Using Compliance, and in turn Inspec, on an OpenStack cloud. I'll explain and show the OpenStack security guide, and where you can find it and how we have used Inspec to code the whole thing.
+
+This will be a technical discussion about the OpenStack security guide, a walk through and then a demo of using Inspec to automate the manual steps. I plan on demoing Compliance also as another layer of reporting too.
+
+**Speaker:**
+
+JJ Asghar is a Senior Partner Engineer at Chef.
