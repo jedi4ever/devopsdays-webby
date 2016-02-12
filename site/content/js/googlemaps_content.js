@@ -205,4 +205,19 @@ function initialize() {
   });
 
   google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2016-detroit"});
+
+  var istanbullocation = new google.maps.LatLng(41.0136, 28.9550);
+  var istanbulmarker = new MarkerWithLabel({
+    position: istanbullocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Istanbul<br>Jun 3",
+    labelAnchor: new google.maps.Point(25, 0),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
+  google.maps.event.addListener(istanbulmarker, "click", function (e) { location.href="/events/2016-istanbul/"});
+
 }
