@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Ken Rose 
+title: "Improving Resilience: TiPS for Testing in Production Systems"
+---
+
+**Abstract:**
+You know the story.  You wrote some code, diligently wrote unit tests and integration tests, babysat the deploy, performed a smoke test, and your new feature is shipped and looking good.  Five minutes later though and the metrics in some unrelated part of the system have all tanked, everyone's getting paged, and it looks like it was your deploy that did it.  You sheepishly roll back to make the system stable again.  What happened? You did everything you were supposed to.
+ 
+Whether you are an enterprise or one person startup, reliability is paramount.  Downtime creates irate customers and lost business opportunity.  In this talk, we'll discuss how to improve the overall resilience of your systems, and prevent situations like the above, by testing in production.  We will review four different tools and processes PagerDuty has implemented that test various dimensions of its production systems:
+•        Canary Deploys: Verifying forward progress is made during deploys
+•        End to End Provider Testing: Ensuring availability of our third party telephony providers
+•        Failure Friday: Intentionally injecting failure into production systems
+•        Watchdog: Constantly validating the functional specification
+For each of these, we will discuss their origin story, their tooling and functionality, pitfalls to watch out for, learnings we've gathered, and how they've measurably improved reliability.
+
+**Speaker:**
+Ken Rose
