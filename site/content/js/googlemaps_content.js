@@ -190,7 +190,7 @@ function initialize() {
   labelStyle: {opacity: 1}
   });
 
-  google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2016-atalanta"});
+  google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2016-atlanta"});
 
   var chicagolocation = new google.maps.LatLng(41.882219, -87.640530);
   var chicagomarker = new MarkerWithLabel({
@@ -204,7 +204,7 @@ function initialize() {
   labelStyle: {opacity: 1}
   });
 
-  google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2016-chicago"});
+  google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2016-chicago/"});
 
 
 }
