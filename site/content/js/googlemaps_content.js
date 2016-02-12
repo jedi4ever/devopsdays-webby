@@ -192,5 +192,17 @@ function initialize() {
 
   google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2016-atlanta"});
 
+  var detroitlocation = new google.maps.LatLng(42.331034, -83.046382);
+  var detroitmarker = new MarkerWithLabel({
+  position: detroitlocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Detroit<br>Oct 11 & 12",
+  labelAnchor: new google.maps.Point(-5, 20),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
 
+  google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2016-detroit"});
 }
