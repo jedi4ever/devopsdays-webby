@@ -16,7 +16,7 @@ end
 <%= make_sponsor_links(@psponsors) %>
 <br />
 <% if @psponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Platinum Sponsor!</a>
-<% elsif @psponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Platinum Sponsor!</a><% end %>
+<% elsif @psponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Platinum Sponsor!</a><% end %>
 
 <br/>
 <br/>
