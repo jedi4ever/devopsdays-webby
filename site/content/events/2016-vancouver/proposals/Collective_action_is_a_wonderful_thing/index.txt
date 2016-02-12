@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Noel Pullen
+title: "Collective action is a wonderful thing"
+---
+
+**Abstract:**
+
+Collective action is a wonderful thing. Meetups and open source projects are two examples of people getting together to have a conversation about the things they care about, with the aim to do something positive for themselves and their community. How can this collective action happen inside your organization? At Hootsuite, the answer is Guilds.
+
+Guilds are a self-organizing group of people with common interests. It is a natural forum for social interactions that build relationships that, in turn, promote cooperation, cohesion, and productivity.
+
+Guilds provide a horizontal communication layer across our Product Engineering teams. Our engineers, testers, and other staff use them to set their own missions, to establish technical roadmaps, to take on joint tasks for their grassroots initiatives, and to promote education through experiential learning. This collective action benefits their members, their craft, and our organization. 
+
+This talk will be based on my recent article [Guilds: How To Get Stuff Done Together](https://www.linkedin.com/pulse/guilds-how-get-stuff-done-together-noel-pullen?trk=prof-post).
+
+**Speaker:**
+
+Noel Pullen is Senior Director, Technology at Hootsuite.

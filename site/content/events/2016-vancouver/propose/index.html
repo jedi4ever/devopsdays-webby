@@ -3,46 +3,96 @@ extension: html
 filter:
 - erb
 - markdown
-title: proposals
 layout: event
+title: Proposals
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<center>
-<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>
-<b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
-Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
-</center>
+## Propose a Talk!
+        
+<div><p style="font-size:large;">Deadline: March 31, 2016</p></div>
 
-<hr>
-There are three ways to propose a session:
-<ol>
-  <li><strong><em>A proposal for a talk/panel</em></strong> during the conference part : these are 30 minute slots that will have the full attention of all attendees, as everybody will be in that one room.</li>
-  <li><strong><em>An Ignite talk</em></strong> that will be presented during the<a href="/pages/ignite-talks-format"> Ignite sessions</a>. These are 5 minutes slots with slides changing every 15 seconds (20 slides total) which are also presented to all attendees in one room</li>
-  <li><strong><em>Open Space session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during Open Space. Check the <a href="/pages/open-space-format">Open Space explanation</a> for more information.
-</ol>
+### Steps
+1. Create a proposal (see the Proposal Checklist below)
+2. Email your proposal to [proposals-vancouver-2016@devopsdays.org](mailto:proposals-vancouver-2016@devopsdays.org)
+3. Answer any clarifying questions (via email)
+4. Get a notification whether your proposal was accepted
+
+### Proposal Checklist
+* Title
+* Speaker name (optionally, company/position)
+* Abstract
+* Talk type (Ignite (5 min) or regular (30 min))
+* Twitter handle (or public means of contact)
+* Email (won’t be published, unless specified by you)
+* Bio (max 200 words, we reserve the right to shorten it for publishing/layout reasons)
 
 ### Even if you don't propose, please consider [commenting on proposals submitted by others](../proposals/)
 
-Our main criteria to make it to the top selection are:
+## FAQ
 
-- _original content_: content not yet presented at other conferences, or a new angle to an existing problem
-- _new presenters_: people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
-- _no vendor pitches_: as much as we value vendors and sponsors, we just don't think this is the right forum. You can demo at your table or during Open Space.
+### Does DevOpsDays Vancouver have a code of conduct?
+Yes! It’s [here](/events/2016-vancouver/conduct/). If you have a problem related to a breach of the code of conduct, text or speak with any DevOpsDays volunteer to ask for Jenny Yang who is the point person for this.
 
-<strong>How to submit a proposal:</strong> Send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>] with the following information
-<ol>
-	<li>Proposal working title (can be changed later)</li>
-	<li>Type (presentation, panel discussion, moderated general discussion, debate, etc.,ignite)</li>
-	<li>Description or abstract</li>
-</ol>
-<strong>Rules:</strong>
-<ul>
-	<li>Be specific... we aren't mind readers (a description of about 20 lines is about right)</li>
-	<li>Detail is good... but not as important as explaining why your proposal would be interesting</li>
-	<li>Propose your own talk; don't have someone else do it for you.</li>
-	<li>Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
-	<li>Multiple proposals welcome... just follow the other rules</li>
-</ul>
+### But my topic seems too basic!
+We can’t seem to emphasize this enough: DevOpsDays is a conference for everyone involved in operations and devops - that means experts, but also it means people new to these methodologies and ideas. The selection committee will make sure there’s a good balance as long as people like you submit good talks of all levels.
+
+### I have a rough idea, but I need a sounding board.
+We’re all about community. Talk to some of your coworkers maybe drop in on [#vandevops on freenode](http://webchat.freenode.net/?channels=%23vandevops&uio=d4) to chat with some other members of the local community or contact the organizers [proposals-vancouver-2016@devopsdays.org](mailto:proposals-vancouver-2016@devopsdays.org) and see if anyone is free to meet for a coffee and chat.
+
+### What’s your selection process?
+Our selection process involves two criteria:
+
+1. A talk that contributes to improvement and breadth in the Vancouver DevOps community.
+2. A high quality talk that’s educational and engaging to uninitiated, beginner, intermediate and/or advanced practitioners.
+
+### Does my talk fit?
+The majority of our audience are people engaged in technical operations roles. They may be a dedicated operations person, a business person heavily engaged with the ops team, or developers that work closely with the ops team or who have one foot in operations themselves. Within the context of operations, subjects could include:
+
+* architecture and design
+* deployment
+* testing
+* configuration and orchestration
+* monitoring
+* business value
+* risk assessment
+* reliability
+* automation
+* staffing
+
+We’ve tried to make this comprehensive, if you feel your talk fits or does, we’re probably wrong
+
+### What is an Ignite talk?
+
+An Ignite talk is a 5 minute talk where presenters get 20 slides which automatically advance every 15 seconds.
+For more information and inspiration see [ignitetalks.io](http://www.ignitetalks.io).
+
+### What does a proposal look like?
+
+Ignite Talk (5 minutes)
+> **Title:** Data Sanitization
+
+> **Speaker name:** Bobbi Tables
+
+> **Abstract:** In our highly-connected world with several different identities, usernames, shared-accounts, how do we properly write APIs that allow don’t corrupt one another? This presentation will be a quick look at tips and tricks for protecting your own services from other supposedly “trusted” services.
+
+> **Twitter handle:** @bobbi_tables
+
+> **Email:** bobbitables@fakemail.com
+
+> **Bio:** Bobbi Tables is DBA completing her first year in the industry. She enjoys hiking, cooking, and breaking your tweetz.
+
+Presentation (30 minutes)
+> **Title:** Implementing DevOps: Lessons learned
+
+> **Speaker name:** Collin Murray
+
+> **Abstract:** Bunnyware as a company has grown on many axes; teams, staff, services, and infrastructure. Made relatively early attempts to embrace DevOps - established a DevOps team in early 2011 (disbanding it a year later), have 100+ internal puppet modules with Continuous Deployment to production yet we still struggle to articulate DevOps within the company and bridge the Dev vs Ops divide, especially when everyone is busy and has some service to ship. This talk covers a history of “DevOps” at Bunnyware covering what worked and more importantly what didn’t, and with the benefit of hindsight suggests some possible real world approaches for rolling out DevOps in your organisation.
+
+> **Twitter handle:** @dops
+
+> **Email:** cm@fakemail.com
+
+> **Bio:** Collin Murray is a Principal Systems Engineer at Bunnyware, with over ten years experience at scaling systems.

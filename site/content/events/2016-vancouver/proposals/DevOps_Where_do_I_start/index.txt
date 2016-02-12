@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Julien Stroheker
+title: "DevOps: Where do I start?"
+---
+
+**Abstract:**
+
+Your boss has asked you to do DevOps? No surprise as the term DevOps has become a trendy word. DevOps however is more than just Devs and Ops working together. It is not something you can buy with your credit card. The efficiencies the process provides on behalf of a supported organization can yield increased productivity between IT Professionals, Developers and Business Decision Makers.
+ 
+Yes… But where I'm supposed to start ??? What will be my learning path ? How I can involve people ?
+ 
+Come to this sessions to share together our success stories and help you start your strategy.
+You can also come and share about your success or not experiences.
+This session will be interactive and will require your creativity to be successful.
+
+**Speaker:**
+
+Julien Stroheker is a Technical Evangelist at Microsoft.
