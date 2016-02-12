@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 11
+title: "Lets verify your OpenStack cloud's level of Security!"
+---
+
+Title: Lets verify your OpenStack cloud's level of Security!
+
+Abstract:
+
+Using Compliance, and in turn Inspec, on an OpenStack cloud. I'll explain and show
+the OpenStack security guide, and where you can find it and how we have
+used Inspec to code the whole thing.
+
+
+**Speaker:**
+Speaker 11
