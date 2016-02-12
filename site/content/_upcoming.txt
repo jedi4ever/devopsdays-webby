@@ -47,5 +47,9 @@
     <a href="/events/2016-minneapolis">
       Minneapolis
     </a>
+    -
+    <a href="/events/2016-portlaand">
+      Portland
+    </a>
   </h3>
 </div>
