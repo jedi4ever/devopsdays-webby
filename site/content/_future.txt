@@ -15,6 +15,7 @@
         <a href="/events/2016-saltlakecity/">Salt Lake City - Jun 14 & 15</a><br/>
         <a href="/events/2016-amsterdam/">Amsterdam - Jun 29, 30 & Jul 1</a><br/>
         <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21</a><br/>
+        <a href="/events/2016-detroit/">Detroit - Oct 11 & 12</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
         <a href="/events/2016-portland/">Portland</a><br/>
         <a href="/events/2016-istanbul/">Istanbul</a><br/>
@@ -24,7 +25,6 @@
         <a href="/events/2016-kansascity/">Kansas City</a><br/>
         <a href="/events/2016-oslo/">Oslo</a><br/>
         <a href="/events/2016-newzealand/">New Zealand</a><br/>
-        <a href="/events/2016-detroit/">Detroit</a><br/>
       </td>
     </tr>
   </table>
