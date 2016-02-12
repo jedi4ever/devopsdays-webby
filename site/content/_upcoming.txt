@@ -32,6 +32,9 @@
       Toronto
     </a>
     -
+    <a href="/events/2016-istanbul">
+      Istanbul
+    -
     <a href="/events/2016-washington-dc">
       Washington, DC
     </a>
