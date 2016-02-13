@@ -35,6 +35,8 @@ end
 <h1><font color="Green">Green Circle</font> sponsors</h1>
 
 <% @bsponsors = [
+  { :image => "centurylink.png", :name => "CENTURYLINK", :link => "http://www.centurylink.com/business/" },
+
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
