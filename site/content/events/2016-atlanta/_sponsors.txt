@@ -11,13 +11,13 @@ end
 %>
 
 <% @gsponsors = [
-{ :image => "versionone.png", :name => "VersionOne", :link => "http://www.versionone.com"}
-{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"}
-# { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"}
-# { :image => "redis.png", :name => "RedisLabs", :link => "http://www.redis.com"}
-# { :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"}
-# { :image => ".png", :name => "", :link => "http://www..com"}
-# { :image => ".png", :name => "", :link => "http://www..com"}
+{ :image => "versionone.png", :name => "VersionOne", :link => "http://www.versionone.com"},
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"},
+# { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
+# { :image => "redis.png", :name => "RedisLabs", :link => "http://www.redis.com"},
+# { :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"},
+# { :image => ".png", :name => "", :link => "http://www..com"},
+# { :image => ".png", :name => "", :link => "http://www..com"},
 # { :image => ".png", :name => "", :link => "http://www..com"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
@@ -30,7 +30,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-# { :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"}
+# { :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
 # { :image => ".png", :name => "", :link => "http://www.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
@@ -43,7 +43,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
-{ :image => "salesforce.png", :name => "Salesforce Pardot", :link => "http://www.pardot.com"}
+{ :image => "pardot.png", :name => "Salesforce Pardot", :link => "http://www.pardot.com"},
 { :image => "careerbuilder.png", :name => "CareerBuilder", :link => "http://www.careerbuilder.com"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
