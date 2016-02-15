@@ -17,6 +17,7 @@
         <a href="/events/2016-amsterdam/">Amsterdam - Jun 29, 30 & Jul 1</a><br/>
         <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21</a><br/>
         <a href="/events/2016-chicago/">Chicago - Aug 30 & 31</a><br/>
+        <a href="/events/2016-Dallas/">Dallas - Sept 15 & 16</a><br/>
         <a href="/events/2016-detroit/">Detroit - Oct 11 & 12</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
         <a href="/events/2016-portland/">Portland</a><br/>
