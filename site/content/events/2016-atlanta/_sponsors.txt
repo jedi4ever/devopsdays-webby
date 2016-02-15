@@ -43,7 +43,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
-{ :image => "pardot.png", :name => "Salesforce Pardot", :link => "http://www.pardot.com"},
+{ :image => "pardot.png", :name => "Salesforce Pardot", :link => "http://www.twitter.com/pardoteng"},
 { :image => "careerbuilder.png", :name => "CareerBuilder", :link => "http://www.careerbuilder.com"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
