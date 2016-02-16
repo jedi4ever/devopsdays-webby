@@ -25,6 +25,7 @@
         <a href="/events/2016-kansascity/">Kansas City</a><br/>
         <a href="/events/2016-oslo/">Oslo</a><br/>
         <a href="/events/2016-newzealand/">New Zealand</a><br/>
+        <a href="/events/2016-dallas/">Dallas</a><br/>
       </td>
     </tr>
   </table>
