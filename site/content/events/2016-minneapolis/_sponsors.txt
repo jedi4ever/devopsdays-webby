@@ -13,6 +13,7 @@ end
 <% @psponsors = [
   { :image => "chef-100x100.jpg", :name => "CHEF", :link => "http://www.chef.io" },
   { :image => "pivotal-100x100.jpg", :name => "Pivotal", :link => "http://www.pivotal.io" },
+  { :image => "uhg-100x100.jpg", :name => "UnitedHealth Group", :link => "http://www.unitedhealthgroup.com/" }
 ]%>
 <%= make_sponsor_links(@psponsors) %>
 <br />
