@@ -16,7 +16,7 @@ end
 ]%>
 <%= make_sponsor_links(@psponsors) %>
 <br />
-<% if @psponsors.size < 15 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Platinum Sponsor!</a><% end %>
+<% if @psponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Platinum Sponsor!</a><% end %>
 
 <br />
 <h1>Gold sponsors</h1>
@@ -40,12 +40,13 @@ end
 <%= make_sponsor_links(@ssponsors) %>
 <br />
 <% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
-<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+<% elsif @ssponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+  { :image => "oreilly-100x100.jpg", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
