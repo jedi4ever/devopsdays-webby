@@ -55,6 +55,8 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "bit.png", :name => "Blacks in Technology", :link => "https://www.blacksintechnology.net"},
+{ :image => "ado.png", :name => "Arrested Devops", :link => "https://www.arresteddevops.com"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
