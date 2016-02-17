@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Kyle Young
+title: "Data Pipelines for the Lazy"
+---
+
+**Abstract:**
+
+Mobify has access to and a great interest in copious quantities of end-user data regarding shopping behaviour and global network performance (see: DevOps Days '15 talk RE CDN performance). We're scaling up to do be able to churn more data and analyze it in new and interesting ways, all with a path of least resistance to keep things simple and easy for our data science teams to jump and use the tools. This talk will be a quick recap of the stack choices we've used at every stage of the pipeline, and take a look at how path dependency and "MVP" dev practices shape our final solutions.
+
+**Speaker:**
+
+Kyle Young [@ksgyoung](https://twitter.com/ksgyoung) is Mobify's System Engineer, where he has spent the last three years championing DevOps, and building the backend systems and infrastructure that keep things humming. He is also Quidditch Captain.
