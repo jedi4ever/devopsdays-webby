@@ -12,9 +12,12 @@ end
 
 <% @gsponsors = [
   { :image => "appneta.png", :name => "AppNeta", :link => "https://www.appneta.com"},
+  { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
+  { :image => "demonware.png", :name => "DemonWare", :link => "https://www.demonware.net"},
   { :image => "pivotal.png", :name => "Pivotal", :link => "http://pivotal.io"},
   { :image => "salesforce.png", :name => "Salesforce", :link => "https://www.salesforce.com"},
-  { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com"}
+  { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com"},
+  { :image => "trinimbus.png", :name => "TriNimbus", :link => "http://www.trinimbus.com"}
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
@@ -43,7 +46,9 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
-  { :image => "stat_search_analytics.png", :name => "STAT Search Analytics", :link => "https://getstat.com"},
+{ :image => "mobify.png", :name => "Mobify", :link => "http://www.mobify.com"},
+{ :image => "stat_search_analytics.png", :name => "STAT Search Analytics", :link => "https://getstat.com"},
+
 
 ] %>
 <% @bsponsors.each do |sponsor| %>
@@ -70,3 +75,14 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<% @fsponsors = [
+  { :text => "Alex Jopson - City to Suburb Real Estate", :link => "http://www.citytosuburb.ca"},
+  { :text => "The Pearl Fisher Group", :link => "http://www.pearlfishergroup.com"}
+]%>
+<% unless @fsponsors.empty?  %><h1 style="margin-top: 0.5em;">Friend sponsors</h1><% end %>
+<% @fsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><%= sponsor[:text] %></a><br/><br/>
+<% end %>
