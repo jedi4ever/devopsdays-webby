@@ -75,3 +75,14 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<% @fsponsors = [
+  { :text => "Alex Jopson - City to Suburb Real Estate", :link => "http://www.citytosuburb.ca"},
+  { :text => "The Pearl Fisher Group", :link => "http://www.pearlfishergroup.com"}
+]%>
+<% unless @fsponsors.empty?  %><h1 style="margin-top: 0.5em;">Friend sponsors</h1><% end %>
+<% @fsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><%= sponsor[:text] %></a><br/><br/>
+<% end %>
