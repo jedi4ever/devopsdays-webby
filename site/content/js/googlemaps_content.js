@@ -232,4 +232,18 @@ function initialize() {
 
   google.maps.event.addListener(istanbulmarker, "click", function (e) { location.href="/events/2016-istanbul/"});
 
+  var portlandlocation = new google.maps.LatLng(45.5200, -122.6819);
+  var portlandmarker = new MarkerWithLabel({
+    position: portlandlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Portland, OR<br>Aug 9 & 10",
+    labelAnchor: new google.maps.Point(55, 10),
+    labelClass: "labels",
+    labelStyle: { opacity: 1 }
+  });
+
+  google.maps.event.addListener(portlandmarker, "click", function (e) { location.href="/events/2016-portland/"});
+
 }
