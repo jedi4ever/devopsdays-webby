@@ -8,7 +8,8 @@ filter: erb
     <a href="/<%= @eventhome %>/sponsor">Sponsor</a>&nbsp;
     <a href="/<%= @eventhome %>/speakers">Speakers</a>&nbsp;
     <a href="/<%= @eventhome %>/conduct">Conduct</a>&nbsp;
-    <a href="http://devopsrox.eventbrite.com/" target="_blank" >Tickets</a>&nbsp;
-    <a href="http://www.devopsdaysrox.org/" target="_blank" >Mobile Site</a>&nbsp;
+    <a href="/<%= @eventhome %>/cfp">CFP</a>&nbsp;
+    <a href="https://www.eventbrite.com/e/devopsdays-rockies-2016-tickets-20878656624?aff=es2" target="_blank" >Tickets</a>&nbsp;
+    <a href="http://www.devopsdaysrox.org/" target="_blank" >Site</a>&nbsp;
   </h3>
 </div>

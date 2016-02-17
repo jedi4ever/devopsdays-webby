@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Moritz Rogalli
+title: "Keep it simple, stupid! (A reminder to myself and a surprisingly accurate analogy to how (not) to build sustainable systems)"
+---
+
+**Abstract:**
+
+The journey of how the idea of a simple personal blog turned into an unmanageable and expensive system, its similarities to unsustainable systems on a bigger scale and the importance of going back to square one.
+
+**Speaker:**
+
+Consultant at Init AB currently mainly working on building easily accessible (and simple) infrastructure systems and an interest in how to build strong and diverse teams and including environments.

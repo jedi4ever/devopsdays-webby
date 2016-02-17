@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Frank Elberzhager
+title: "Going DevOps - Questions you should answer at the beginning of your journey"
+---
+
+**Abstract:**
+
+After seeing the success of Netflix, Amazon and other global players, more and more companies including SMEs are thinking about going DevOps. However, these companies often do not know exactly what DevOps means, or how to change and where to start. Moreover, their stakeholders have contradicting goals and ideas. Running blindly into the adventure of DevOps will inevitably result in failure. To be successful, you need to know your requirements and limitations.
+Based on practical experience gained in the systematic introduction of DevOps at Fujitsu EST, we present important lessons learned, for example, about scoping, setting up a deployment pipeline, defining a reasonable migration plan, tool analysis, selection, and implementation. We discuss questions which need to be answered at the beginning of a DevOps journey. Our best practices can help other companies prepare for their DevOps adventure, increase confidence, provide guidance, and avoid pitfalls.
+
+**Speaker:**
+
+Frank Elberzhager is working as a researcher at the Fraunhofer Institute for Experimental Software Engineering (IESE). He, for example, personally conducts training seminars and supports especially the introduction and improvement of quality assurance techniques to companies. Recent activities included the introduction of DevOps to companies. During his ten years at IESE, he gave several presentations at many different conferences.

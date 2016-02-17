@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Michael Lihs
+title: "Introducing A DevOps Culture With A Virtual Team (?)"
+---
+
+**Abstract:**
+
+Maybe one of the most frequently asked questions about DevOps is "How to get started?". Especially in large companies - with complex processes involving well established business units and responsibilities distributed over many different teams - this can be a tricky task. Within this talk I would like to present you a real world example of how we tried to get DevOps started within our project in a very large company (300k employees) and which (good and bad) experience we made:
+
+* how we motivated a distributed, virtual DevOps team
+* what form of collaboration we chose
+* what about the "DevOps Team Anti-Pattern"
+* expected outcome vs. what we achieved
+* we build it - who runs it?
+
+Although our example is taken from a large company it is also helpful for "smaller" settings since we think that certain principles apply to all sizes of organizations.
+
+*) virtual team refers to the fact that the team members worked 50% in this setup while still being part of their "normal" team for 3 months.
+
+**Speaker:**
+
+Michael Lihs studied computer science at the University of Karlsruhe. His professional career brought him from web development to data center automatization (where he always has been more on the dev than on the ops side ). Currently he's involved in software architecture for cloud-native web services and strongly believes that writing and operating great software requires an agile mindset and what is now called a DevOps culture.

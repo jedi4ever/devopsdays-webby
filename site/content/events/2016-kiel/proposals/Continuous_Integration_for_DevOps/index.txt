@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Patrick M. Hausen
+title: "Continuous Integration for DevOps with Vagrant, Chef and Jenkins or: How to Automate a Data Centre?"
+---
+
+**Abstract:**
+
+When we started modernizing the architecture of our data centre we decided to use Chef.io as our platform of choice. With Chef the main task of the admin-developer (DevOps) is the design and writing of "cookbooks" to perform the desired configuration tasks on the target servers.
+This talk shows how to implement a complete continuous integration (CI) environment for Chef cookbooks. We used our experience with continuous integration and delivery in application development to achieve a comparable level of test coverage and automation.
+
+**Speaker:**
+
+Patrick M. Hausen is a partner of punkt.de GmbH since 1998. He is mainly responsible for the planning and operation of our data centre, networks, servers and security. As a long-term FreeBSD user (and advocate) his current focus is on scaling and automating the punkt.de data centre to accomodate growth and ensure continuing reliable operation.
