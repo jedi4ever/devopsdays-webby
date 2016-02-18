@@ -73,7 +73,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Salt Lake City<br>Jun 14 & 15",
-  labelAnchor: new google.maps.Point(66, -2),
+  labelAnchor: new google.maps.Point(66, -5),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -101,7 +101,7 @@ function initialize() {
     raiseOnDrag: false,
     map: map,
     labelContent: "Seattle<br>May 12 & 13",
-    labelAnchor: new google.maps.Point(55,10),
+    labelAnchor: new google.maps.Point(55,30),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
   });
@@ -157,7 +157,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Vancouver<br>Apr 15 & 16",
-  labelAnchor: new google.maps.Point(45, 30),
+  labelAnchor: new google.maps.Point(55, 50),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
