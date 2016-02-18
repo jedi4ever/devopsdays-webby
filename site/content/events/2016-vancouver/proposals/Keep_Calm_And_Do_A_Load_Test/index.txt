@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Julien Stroheker
+title: "Keep Calm And Do A Load Test"
+---
+
+**Abstract:**
+
+Do you know if your infrastructure have the good specifications to run your application ? Or do you have a need for testing your service with a large burst load just before your big launch ?
+In this session, we will talk about how you can automatically include load tests in your development stream from code to production and the best practices in term of how integrate your favorite tools in your workflow using Visual Studio.
+
+**Speaker:**
+
+Julien Stroheker is a Technical Evangelist at Microsoft.

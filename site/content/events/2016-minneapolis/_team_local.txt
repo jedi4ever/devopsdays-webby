@@ -1,6 +1,7 @@
 - Donnie Berkholz
 - Andy Domeier
 - Tom Duffield
+- Samantha Grumdahl
 - Bridget Kromhout
 - Joe Laha
 - Heather Mickman

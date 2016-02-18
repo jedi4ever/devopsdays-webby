@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: welcome
+layout: event_singapore
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<table>
+  <tr>
+    <td>
+      <!-- <img border=0 width="160" height="240" src="./logo.png"> -->
+    </td>
+    <td valign=top>
+      <p><strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong></p>
+      <p>Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %></p>
+      <!-- <p><a href="./location">Location</a> </p>-->
+      <!-- <p><a href="./propose">Propose a talk</a>! </p>-->
+      <!-- <p><a href="./registration">Register</a>! </p>-->
+      <!-- <p><a href="./program">View the program</a>! </p>-->
+      <p><a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.</p>
+      <p><a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a></p>
+    </td>
+  </tr>
+</table>

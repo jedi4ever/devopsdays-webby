@@ -11,9 +11,19 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+  { :image => "appneta.png", :name => "AppNeta", :link => "https://www.appneta.com"},
+  { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
+  { :image => "demonware.png", :name => "DemonWare", :link => "https://www.demonware.net"},
+  { :image => "pivotal.png", :name => "Pivotal", :link => "http://pivotal.io"},
+  { :image => "salesforce.png", :name => "Salesforce", :link => "https://www.salesforce.com"},
+  { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com"},
+  { :image => "trinimbus.png", :name => "TriNimbus", :link => "http://www.trinimbus.com"}
 ]%>
-<%= make_sponsor_links(@gsponsors) %>
+
+<% @gsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>' style="margin:5px;max-width:100px;max-height:100px;"></a>
+<% end %>
+
 <br />
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
 <% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
@@ -23,9 +33,11 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+  { :image => "visioncritical.png", :name => "Vision Critical", :link => "https://www.visioncritical.com"},
 ] %>
-<%= make_sponsor_links(@ssponsors) %>
-<br />
+<% @ssponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>' style="margin:5px;max-width:100px;max-height:100px;"></a>
+<% end %><br />
 <% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
 <% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
@@ -34,11 +46,25 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+{ :image => "mobify.png", :name => "Mobify", :link => "http://www.mobify.com"},
+{ :image => "stat_search_analytics.png", :name => "STAT Search Analytics", :link => "https://getstat.com"},
+
+
 ] %>
-<%= make_sponsor_links(@bsponsors) %>
-<br />
+<% @bsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>' style="margin:5px;max-width:100px;max-height:100px;"></a>
+<% end %><br />
 <% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
 <% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+
+
+<% @esponsors = [
+  { :image => "appneta.png", :name => "AppNeta", :link => "https://www.appneta.com"}
+]%>
+<% unless @esponsors.empty?  %><h1 style="margin-top: 0.5em;">Party sponsor</h1><% end %>
+<% @esponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>' style="margin:5px;"></a>
+<% end %>
 
 <br/>
 <br/>
@@ -49,3 +75,14 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<% @fsponsors = [
+  { :text => "Alex Jopson - City to Suburb Real Estate", :link => "http://www.citytosuburb.ca"},
+  { :text => "The Pearl Fisher Group", :link => "http://www.pearlfishergroup.com"}
+]%>
+<% unless @fsponsors.empty?  %><h1 style="margin-top: 0.5em;">Friend sponsors</h1><% end %>
+<% @fsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><%= sponsor[:text] %></a><br/><br/>
+<% end %>

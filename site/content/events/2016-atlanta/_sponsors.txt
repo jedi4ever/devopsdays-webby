@@ -11,7 +11,14 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "versionone.png", :name => "VersionOne", :link => "http://www.versionone.com"},
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"},
+# { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
+# { :image => "redis.png", :name => "RedisLabs", :link => "http://www.redis.com"},
+# { :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"},
+# { :image => ".png", :name => "", :link => "http://www..com"},
+# { :image => ".png", :name => "", :link => "http://www..com"},
+# { :image => ".png", :name => "", :link => "http://www..com"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -23,6 +30,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+# { :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
+# { :image => ".png", :name => "", :link => "http://www.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -34,6 +43,8 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+{ :image => "pardot.png", :name => "Salesforce Pardot", :link => "http://www.twitter.com/pardoteng"},
+{ :image => "careerbuilder.png", :name => "CareerBuilder", :link => "http://www.careerbuilder.com"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -44,6 +55,8 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+{ :image => "bit.png", :name => "Blacks in Technology", :link => "https://www.blacksintechnology.net"},
+{ :image => "ado.png", :name => "Arrested Devops", :link => "https://www.arresteddevops.com"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
