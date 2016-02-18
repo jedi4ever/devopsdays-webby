@@ -70,6 +70,16 @@ filter:    erb
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 
+<h1>Media Sponsor</h1>
+<% @medsponsors = [
+{ :image => "devops.jpg", :name => "DevOps.com", :link => "http://www.devops.com/"},
+{ :image => "oreilly.jpg", :name => "O'Reilly", :link => "https://www.oreilly.com/"},
+]%>
+
+<% @medsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100 height=100 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <h1>Event Reception Sponsor</h1>
 <% @ersponsors = [
 { :image => "hays.jpg", :name => "Hays", :link => "https://www.hays.co.uk/"},
@@ -77,8 +87,4 @@ filter:    erb
 
 <% @ersponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=120 height=48 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<% if @ersponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
