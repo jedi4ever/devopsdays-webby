@@ -7,6 +7,7 @@ filter:    erb
 <% @ptsponsors = [
 { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io/"},
 { :image => "cloudpassage.png", :name => "CloudPassage", :link => "http://www.cloudpassage.com/"},
+{ :image => "netuitive.png", :name => "Netuitive", :link => "http://www.netuitive.com/"},
 ]%>
 <% unless @ptsponsors.empty? %>
 <h1>Platinum Sponsors</h1>
