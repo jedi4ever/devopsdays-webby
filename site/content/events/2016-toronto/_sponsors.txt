@@ -24,6 +24,8 @@ end
 <% @gsponsors = [
 { :image => 'pivotal.png', :name => 'Pivotal', :link => 'https://pivotal.io/'},
 { :image => 'blendedperspectives.png', :name => 'Blended Perspectives', :link => 'http://www.blendedperspectives.com' },
+{ :image => 'chef.png', :name => 'Chef', :link => 'https://www.chef.io' },
+{ :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://pagerduty.com/' },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
