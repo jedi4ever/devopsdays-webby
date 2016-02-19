@@ -246,4 +246,17 @@ function initialize() {
 
   google.maps.event.addListener(portlandmarker, "click", function (e) { location.href="/events/2016-portland/"});
 
+  var dallaslocation = new google.maps.LatLng(32.7767, -96.7970);
+  var dallasmarker = new MarkerWithLabel({
+  position: dallaslocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Dallas<br>Sep 15 & 16",
+  labelAnchor: new google.maps.Point(30, -30),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(dallasmarker, "click", function (e) { location.href="/events/2016-dallas"});
 }
