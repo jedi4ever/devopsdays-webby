@@ -35,7 +35,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-  { :image => "signalfx-100x100.jpg", :name => "SignalFX", :link => "http://www.signalfx.com" }
+  { :image => "signalfx-100x100.jpg", :name => "SignalFX", :link => "http://www.signalfx.com" },
+  { :image => "pantheon-100x100.jpg", :name => "Pantheon", :link => "https://pantheon.io" }
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
