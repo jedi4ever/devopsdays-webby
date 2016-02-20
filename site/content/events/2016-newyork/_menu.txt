@@ -1,0 +1,11 @@
+<div class="submenu">
+<h3>
+<a href="/events/2016-newyork/">welcome</a>&nbsp;
+<!--<a href="/events/2016-newyork/program">program</a>&nbsp;-->
+<a href="/events/2016-newyork/location">location</a>&nbsp; 
+<!--<a href="https://ti.to/devopsdaysnyc/devopsdays-nyc-2016/" target="_blank">register</a>&nbsp;-->
+<a href="/events/2016-newyork/sponsor">sponsor</a>&nbsp;
+<a href="/events/2016-newyork/contact">contact</a>&nbsp;
+<a href="/events/2016-newyork/code-of-conduct">code of conduct</a>&nbsp;
+</h3>
+</div>
