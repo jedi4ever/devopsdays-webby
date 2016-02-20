@@ -30,7 +30,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-# { :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
+{ :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
 # { :image => ".png", :name => "", :link => "http://www.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
@@ -56,6 +56,7 @@ end
 <h1>Media sponsors</h1>
 <% @msponsors = [
 { :image => "bit.png", :name => "Blacks in Technology", :link => "https://www.blacksintechnology.net"},
+{ :image => "oreilly.png", :name => "O'Reilly", :link => "http://www.oreilly.com"},
 { :image => "ado.png", :name => "Arrested Devops", :link => "https://www.arresteddevops.com"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
