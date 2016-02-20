@@ -30,7 +30,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-# { :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
+{ :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
 # { :image => ".png", :name => "", :link => "http://www.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
