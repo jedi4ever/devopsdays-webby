@@ -72,7 +72,7 @@ Once the build process has finished try the website by browsing to `http://127.0
 ```
 **NOTE** 
 If you get the following message when trying to start vagrant on Windows 10, basically you may need to download and 
-install https://www.microsoft.com/en-us/download/confirmation.aspx?id=5555 on your windows machine.
+install `https://www.microsoft.com/en-us/download/confirmation.aspx?id=5555` on your windows machine.
 The Microsoft Visual C++ 2010 Redistributable Package installs runtime components of Visual C++ Libraries required 
 to run applications developed with Visual C++ on a computer that does not have Visual C++ 2010 installed.
 
@@ -118,7 +118,7 @@ Restart the FTP server
 ```
 sudo service vsftpd restart
 ```
-Test the connection to the FTP server `ftp://127.0.0.1:2021`.  If the connection is successful but you are unable to do a directory listing then there may be an issue with the passive transfer settings.
+Test the connection to the FTP server `ftp://127.0.0.1:2121`.  If the connection is successful but you are unable to do a directory listing then there may be an issue with the passive transfer settings.
 
 ### Clone the repo into the Virtual Machine
 
