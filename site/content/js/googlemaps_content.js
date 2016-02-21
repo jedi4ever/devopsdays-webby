@@ -115,7 +115,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Toronto<br>May 26 & 27",
-  labelAnchor: new google.maps.Point(-5, 42),
+  labelAnchor: new google.maps.Point(-15, 62),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -259,4 +259,20 @@ function initialize() {
   });
 
   google.maps.event.addListener(dallasmarker, "click", function (e) { location.href="/events/2016-dallas"});
+
+  var newyorklocation = new google.maps.LatLng(40.7127, -74.0059);
+  var newyorkmarker = new MarkerWithLabel({
+  position: newyorklocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "New York<br>Sep 23 & 24",
+  labelAnchor: new google.maps.Point(-5, 48),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(dallasmarker, "click", function (e) { location.href="/events/2016-dallas"});
+
+
 }

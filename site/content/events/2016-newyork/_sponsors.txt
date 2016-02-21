@@ -1,36 +1,22 @@
 ---
 filter:    erb
 ---
-<% unless @psponsors.empty? %>
-  <% @psponsors.shuffle.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-  <% end %>
-<% end %>
-<% @gsponsors = [
-]%>
 
-<% unless @gsponsors.empty? %>
-  <% @gsponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-  <% end %>
-<% end %>
+<%
+def make_sponsor_links(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
 
-<% @ssponsors = [
-{ :image => "microsoft.png", :name => "Microsoft", :link => "http://www.microsoft.com/"},
-{ :image => "etsy.png", :name => "Etsy", :link => "http://www.etsy.com/"},
-]%>
+<br/>
+<h1>Sponsors</h1>
 
-<br><br>
-<% unless @ssponsors.empty?  %><h1>Sponsors</h1><% end %>
+<% @sponsors = [
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Sponsor!</a>
+<% elsif @sponsors.size < 16 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Sponsor!</a><% end %>
 
-<% @ssponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<% @msponsors = [
-#{ :image => "dzone.png", :name => "Dzone", :link => "http://www.dzone.com/"},
-]%>
-<% unless @msponsors.empty?  %><h1>Media sponsors</h1><% end %>
-<% @msponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>

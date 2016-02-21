@@ -63,6 +63,9 @@
       Dallas
     </a>
     -
+    <a href="/events/2016-newyork">
+      New York
+    -
     <a href="/events/2016-detroit">
       Detroit
     </a>

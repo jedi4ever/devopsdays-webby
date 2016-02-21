@@ -4,13 +4,11 @@ filter:
 - erb
 - markdown
 title: program
-dirty: true
 layout: event
+dirty: true
 platinum: false
 gold: false
 ---
-Our program will be announced after the CFP has closed.
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 
-<hr />
-<div class="span-7 append-bottom border">
-</div>
+Our program will be announced after the CFP has closed.
