@@ -69,6 +69,21 @@ vagrant up
 
 Once the build process has finished try the website by browsing to `http://127.0.0.1:8000`
 
+```
+**NOTE** 
+If you get the following message when trying to start vagrant on Windows 10, basically you may need to download and install https://www.microsoft.com/en-us/download/confirmation.aspx?id=5555 on your windows machine.
+The Microsoft Visual C++ 2010 Redistributable Package installs runtime components of Visual C++ Libraries required to run applications developed with Visual C++ on a computer that does not have Visual C++ 2010 installed.
+
+The box 'bento\ubuntu-12.04' could not be found or
+could not be accessed in the remote catalog. If this is a private
+box on HashiCorp's Atlas, please verify you're logged in via
+`vagrant login`. Also, please double-check the name. The expanded
+URL and error message are shown below:
+
+URL: ["https://atlas.hashicorp.com/ubuntu/precise64"]
+Error:
+```
+
 ### Install an FTP server in the Virtual Machine
 
 **Install an FTP Server**
