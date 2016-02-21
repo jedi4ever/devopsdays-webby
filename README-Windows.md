@@ -71,8 +71,10 @@ Once the build process has finished try the website by browsing to `http://127.0
 
 ```
 **NOTE** 
-If you get the following message when trying to start vagrant on Windows 10, basically you may need to download and install https://www.microsoft.com/en-us/download/confirmation.aspx?id=5555 on your windows machine.
-The Microsoft Visual C++ 2010 Redistributable Package installs runtime components of Visual C++ Libraries required to run applications developed with Visual C++ on a computer that does not have Visual C++ 2010 installed.
+If you get the following message when trying to start vagrant on Windows 10, basically you may need to download and 
+install https://www.microsoft.com/en-us/download/confirmation.aspx?id=5555 on your windows machine.
+The Microsoft Visual C++ 2010 Redistributable Package installs runtime components of Visual C++ Libraries required 
+to run applications developed with Visual C++ on a computer that does not have Visual C++ 2010 installed.
 
 The box 'bento\ubuntu-12.04' could not be found or
 could not be accessed in the remote catalog. If this is a private
