@@ -10,6 +10,9 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
+<p style="text-align: center; font-weight: bold">Our call for proposals will be opening soon!</p>
+
+<% if false %>
 <p style="text-align: center; font-weight: bold">Our call for proposals is currently open and will close at midnight on Feb 28th!</p>
 <p style="text-align: center">The final selections will be announced June 1st.</p>
 
@@ -44,4 +47,6 @@ dirty: true
     <li>Nominations are welcome!  if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
 </ol>
 
-<p>Thank you for helping make DevOpsDays Boston at great event!</p>
+<p>Thank you for helping make DevOpsDays Boston a great event!</p>
+<% end %>
+
