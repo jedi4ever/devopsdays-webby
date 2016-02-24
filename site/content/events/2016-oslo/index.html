@@ -3,38 +3,47 @@ extension: html
 filter:
 - erb
 - markdown
-title: welcome
 layout: event
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <center>
-  <table><tr><td>
-        <center>
-        <!-- <img border=0 width="160" height="240" src="./yourlogohere.png">
--->
-</td><td valign=top>
-<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
-<br><br>
-Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
-<br><br>
+
+<table>
+<tr><td><center><img border=0 width="450" height="218" src="./logos/oslo-skyline4.png"></td></tr>
+
+<tr><td valign=top>
+
+<br>
+
+<h2>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>!</h2>
+
+<p style="font-size:1.3em; font-weight: bold;">
+From <%= render(:partial => "/#{@eventhome}/_event_date_start") %>
+to <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
+</p>
+
 <!-- <a href="./location">Location</a> -->
-<br><br>
-
-<!-- <a href="./propose">Propose a talk</a>! -->
-<br><br>
-
 <!-- <a href="./registration">Register</a>! -->
-<br><br>
-
 <!-- <a href="./program">View the program</a>! -->
-<br><br>
 
-<a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.
-<br><br>
+<h2>Sponsorships</h2>
 
-<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
-<br><br>
+<p><a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.</p>
+
+<h2>Language</h2>
+
+<p>All presentations will be held in <i>English</i></p>
+
+<h2>Call for papers</h2>
+
+<p><a href="./propose">Propose a talk</a>!</p>
+
+<h2>For more information</h2>
+
+<p><a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
+</p>
+
 </td>
 </tr>
 </table>
