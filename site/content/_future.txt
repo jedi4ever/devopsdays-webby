@@ -20,9 +20,9 @@
         <a href="/events/2016-chicago/">Chicago - Aug 30 & 31</a><br/>
         <a href="/events/2016-dallas/">Dallas - Sep 15 & 16</a><br/>
         <a href="/events/2016-newyork/">New York - Sep 23 & 24</a><br/>
-        <a href="/events/2016-detroit/">Detroit - Oct 11 & 12</a><br/>
 	<br/>
         <strong>2016, Dates TBD</strong><br/>
+        <a href="/events/2016-detroit/">Detroit</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
         <a href="/events/2016-ghent/">Ghent</a><br/>
         <a href="/events/2016-raleigh/">Raleigh</a><br/>
