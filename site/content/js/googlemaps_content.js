@@ -205,19 +205,6 @@ function initialize() {
   });
   google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2016-chicago/"});
 
-  var detroitlocation = new google.maps.LatLng(42.331034, -83.046382);
-  var detroitmarker = new MarkerWithLabel({
-    position: detroitlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Detroit<br>Oct 11 & 12",
-    labelAnchor: new google.maps.Point(40, 55),
-    labelClass: "labels", // the CSS class for the label
-    labelStyle: {opacity: 1}
-  });
-  google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2016-detroit"});
-
   var istanbullocation = new google.maps.LatLng(41.0136, 28.9550);
   var istanbulmarker = new MarkerWithLabel({
     position: istanbullocation,
