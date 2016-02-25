@@ -1,8 +1,11 @@
 - Ben Blanquera
 - Bill Schwanitz
 - Dan Sajner
-- Michael Swartzbaugh
-- Warner Moore
+- David Laulusa
+- Faye Thompson
 - Kyle Jenkins
+- Mark Goodmanson
 - Michael Ducy
-- Matt Stratton
+- Michael Swartzbaugh
+- Rob Kinyon
+- Warner Moore
