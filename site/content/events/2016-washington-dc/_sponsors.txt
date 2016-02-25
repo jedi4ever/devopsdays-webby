@@ -10,6 +10,7 @@ filter:    erb
 { :image => "netuitive.png", :name => "Netuitive", :link => "http://www.netuitive.com/"},
 { :image => "capitalone.png", :name => "Capital One", :link => "http://www.capitalone.com/"},
 { :image => "eglobaltech.png", :name => "eGlobalTech", :link => "http://www.eglobaltech.com/"},
+{ :image => "excella.png", :name => "Excella", :link => "http://www.excella.com/"},
 ]%>
 <% unless @ptsponsors.empty? %>
 <h1>Platinum Sponsors</h1>
