@@ -24,7 +24,8 @@ end
 
 <% @gsponsors = [
  { :image => "thoughtworks-100x100.jpg", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/products" },
- { :image => "newrelic-100x100.jpg", :name => "New Relic", :link => "http://www.newrelic.com" }
+ { :image => "newrelic-100x100.jpg", :name => "New Relic", :link => "http://www.newrelic.com" },
+ { :image => "appdyanmics-100x100.jpg", :name => "AppDynamics", :link => "https://www.appdynamics.com/" }
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
