@@ -3,7 +3,7 @@ extension: html
 filter:
 - erb
 - markdown
-title: welcome
+title: Welcome
 layout: event
 dirty: true
 ---
@@ -11,11 +11,13 @@ dirty: true
 
 <h2><%= render(:partial => "/#{@eventhome}/_event_date_start") %> and <%= render(:partial => "/#{@eventhome}/_event_date_end") %></h2>
 
-Welcome! We've just settled dates and <a href="/<%= @eventhome %>/location/">location</a> for DevOpsDays <%= render(:partial => "/#{@eventhome}/_title")%>. 
+<img src="./dodPeach.png">
+
+<h3>Our call for <a href="/<%= @eventhome %>/propose/"><b>speakers</b></a> and <a href="/<%= @eventhome %>/sponsor/"><b>sponsors</b></a> is still open until March 1st! </h3>
 <br>
-Call for <a href="/<%= @eventhome %>/propose/">speakers</a> and <a href="/<%= @eventhome %>/sponsor/">sponsors</a> is still open. 
+<h3>We're proud to have author/consultant <a href="http://ingineering.it/jeffsussna.html">Jeff Sussna</a> and Docker Evangelist/DevOps Pioneer <a href="https://twitter.com/botchagalupe">John Willis</a> as our keynotes.</h3>
 <br>
-<a href="https://www.eventbrite.com/e/devopsdaysatl-tickets-21363190879">Register now!</a>
+<h2><a href="https://www.eventbrite.com/e/devopsdaysatl-tickets-21363190879">Register now for Early Bird Pricing!</a></h2>
 
 <table>
   <tr>
