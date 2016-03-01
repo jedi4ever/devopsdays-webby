@@ -267,7 +267,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "New York<br>Sep 23 & 24",
-  labelAnchor: new google.maps.Point(-15, 68),
+  labelAnchor: new google.maps.Point(-15, 76),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
