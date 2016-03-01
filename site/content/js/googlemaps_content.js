@@ -115,7 +115,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Toronto<br>May 26 & 27",
-  labelAnchor: new google.maps.Point(-15, 62),
+  labelAnchor: new google.maps.Point(-15, 92),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -267,12 +267,26 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "New York<br>Sep 23 & 24",
-  labelAnchor: new google.maps.Point(-5, 48),
+  labelAnchor: new google.maps.Point(-15, 76),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
 
-  google.maps.event.addListener(dallasmarker, "click", function (e) { location.href="/events/2016-dallas"});
+  google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2016-newyork"});
+
+  var philadelphialocation = new google.maps.LatLng(39.9500, -75.1667);
+  var philadelphiamarker = new MarkerWithLabel({
+  position: philadelphialocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Philadelphia<br>Oct 26 & 27",
+  labelAnchor: new google.maps.Point(-10, 54),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(philadelphiamarker, "click", function (e) { location.href="/events/2016-newyork"});
 
 
 }
