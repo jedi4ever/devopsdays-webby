@@ -272,7 +272,7 @@ function initialize() {
   labelStyle: {opacity: 1}
   });
 
-  google.maps.event.addListener(dallasmarker, "click", function (e) { location.href="/events/2016-dallas"});
+  google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2016-newyork"});
 
 
 }
