@@ -59,6 +59,10 @@
       Chicago
     </a>
     -
+    <a href = "/events/2016-detroit">
+      Detroit
+    </a>
+    -
     <a href = "/events/2016-dallas">
       Dallas
     </a>
