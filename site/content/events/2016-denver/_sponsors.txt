@@ -4,7 +4,7 @@ filter: erb
 
 <% @gsponsors = [
 {
-    :name   => 'Thoughtworks Go',
+    :name   => 'Thoughtworks',
     :image  => 'go.png',
     :link   => 'http://www.go.cd/',
     :width  => '100px',
@@ -108,6 +108,27 @@ filter: erb
     :name   => 'Parasoft',
     :image  => 'parasoft.png',
     :link   => 'https://www.parasoft.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'StatusPage.io',
+    :image  => 'statuspage.png',
+    :link   => 'https://www.statuspage.io/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Bertram Capital',
+    :image  => 'bcap.png',
+    :link   => 'http://www.bertramcapital.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Morpheus',
+    :image  => 'morpheus.png',
+    :link   => 'https://www.morpheusdata.com/',
     :width  => '150px',
     :height => '50px'
 },
