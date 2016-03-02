@@ -1,0 +1,37 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Speaker 11
+title: "I'm a text editor and so can you"
+---
+
+Title: I'm a text editor and so can you
+
+Abstract:
+
+I'd like to put a selection of people to talk about ways they use different
+plugins and tools for the different text editors out there.
+
+<pre>
+Mainly covering:
+- How to set up snippets for Atom, Sublime Text, NeoVim, Emacs
+- How to set up ways to run rubocop inside Atom, Sublime Text, NeoVim, Emacs
+- Ways to run rspec inside Atom, Sublime Text, NeoVim, Emacs
+- General plugins and 'neat' things you can do in Atom, Sublime Text, NeoVim, Emacs
+</pre>
+
+I want, this talk, NOT to be a religious war, I want this talk to be informative and get
+people away from using Notepad, or Notepad++ or even Word.
+
+In a statement, "I realize there are strong opinions here, but I want you to be
+informed not which is 'better.'"
+
+**Speaker:**
+Speaker 11

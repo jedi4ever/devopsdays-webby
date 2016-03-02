@@ -2,7 +2,79 @@
 filter: erb
 ---
 
-<% @gsponsors = [ ]%>
+<% @gsponsors = [
+{
+    :name   => 'Thoughtworks',
+    :image  => 'go.png',
+    :link   => 'http://www.go.cd/',
+    :width  => '100px',
+    :height => '50px'
+},
+{
+    :name   => 'VictorOps',
+    :image  => 'victorops.png',
+    :link   => 'http://www.victorops.com/',
+    :width  => '100px',
+    :height => '50px'
+
+},
+{
+    :name   => 'Pagerduty',
+    :image  => 'pagerduty.png',
+    :link   => 'http://www.pagerduty.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'SDL',
+    :image  => 'SDL.png',
+    :link   => 'http://www.sdl.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Chef',
+    :image  => 'chef.png',
+    :link   => 'https://www.chef.io/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Quinix',
+    :image  => 'qwinix.png',
+    :link   => 'http://www.qwinix.io/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Piviotal',
+    :image  => 'pivotal.png',
+    :link   => 'http://pivotal.io/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Logic Monitor',
+    :image  => 'logicmonitor.png',
+    :link   => 'http://www.logicmonitor.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Trace3',
+    :image  => 'trace3.png',
+    :link   => 'http://trace3.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'EMC',
+    :image  => 'emc.png',
+    :link   => 'http://emc.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+]%>
 
 <% if @gsponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a target="_blank" href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
@@ -13,7 +85,16 @@ filter: erb
 <% end %>
 
 <h1>Social sponsors</h1>
-<% @esponsors = [ ]%>
+<% @esponsors = [
+{
+    :name   => 'VictorOps',
+    :image  => 'victorops.png',
+    :link   => 'http://www.victorops.com/',
+    :width  => '100px',
+    :height => '50px'
+
+},
+]%>
 <% if @esponsors.empty?  %>
 <i>&nbsp;&nbsp;&nbsp;<a target="_blank" href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
@@ -22,7 +103,36 @@ filter: erb
 <a target="_blank" href='<%= sponsor[:link] %>'><img border="1" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
 <% end %>
 
-<% @ssponsors = [ ]%>
+<% @ssponsors = [
+{
+    :name   => 'Parasoft',
+    :image  => 'parasoft.png',
+    :link   => 'https://www.parasoft.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'StatusPage.io',
+    :image  => 'statuspage.png',
+    :link   => 'https://www.statuspage.io/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Bertram Capital',
+    :image  => 'bcap.png',
+    :link   => 'http://www.bertramcapital.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Morpheus',
+    :image  => 'morpheus.png',
+    :link   => 'https://www.morpheusdata.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+]%>
 
 <h1>Silver sponsors</h1>
 <% if @ssponsors.empty?  %>
@@ -30,18 +140,6 @@ filter: erb
 <% end %>
 
 <% @ssponsors.shuffle.each do |sponsor| %>
-<a target="_blank" href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<% @bsponsors = [ ]%>
-
-<h1>Copper sponsors</h1>
-
-<% if @bsponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a target="_blank" href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
-<% end %>
-
-<% @bsponsors.shuffle.each do |sponsor| %>
 <a target="_blank" href='<%= sponsor[:link] %>'><img border="0" alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width="<%= sponsor[:width] %>" height=""<%= sponsor[:height] %> src='<%= File.join('/',@eventhome,"static/#{sponsor[:image]}")%>'></a>
 <% end %>
 
@@ -62,6 +160,20 @@ filter: erb
 <% end %>
 
 <% @msponsors = [
+{
+    :name => 'O\'Reilly',
+    :image => 'oreilly.png',
+    :link => 'http://www.oreilly.com/',
+    :width => '100px',
+    :height => '100px'
+},
+{
+    :name => 'Arrested DevOps (Podcast)',
+    :image => 'ado.png',
+    :link => 'https://www.arresteddevops.com/',
+    :width => '100px',
+    :height => '100px'
+}
 ] %>
 <% unless @msponsors.empty? %><h1>Media sponsors</h1><% end %>
 

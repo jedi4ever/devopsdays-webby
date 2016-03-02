@@ -1,0 +1,14 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: program
+layout: event
+dirty: true
+platinum: false
+gold: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+Our program will be announced after the CFP has closed.

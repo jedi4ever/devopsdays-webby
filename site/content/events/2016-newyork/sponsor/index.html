@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+title: sponsor
+layout: event
+platinum: false
+gold: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+Detailed sponsorship information will be available shortly. Stay tuned!
+
+If you are interested in sponsoring [drop us an email](mailto:organizers-nyc-2016@devopsdays.org?subject=sponsor devopsdays NYC).

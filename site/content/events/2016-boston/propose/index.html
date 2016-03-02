@@ -1,0 +1,52 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: proposals
+layout: event
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<p style="text-align: center; font-weight: bold">Our call for proposals will be opening soon!</p>
+
+<% if false %>
+<p style="text-align: center; font-weight: bold">Our call for proposals is currently open and will close at midnight on Feb 28th!</p>
+<p style="text-align: center">The final selections will be announced June 1st.</p>
+
+<p style="font-weight: bold">There will be three types of talks: 30 min, 5 min, and Open Space. Only the first two types require proposals.</p>
+<ol>
+    <li>(8) 30 minute talks - On the main stage to the estimated 1000 person audience.</li>
+    <li>(10) 5 minute Ignite talks -  On the main stage to the full audience with slides changing every 15 seconds (20 slides total).  See Ignite sessions</li>
+    <li>(30) Open Space talks -  Occurring in breakout rooms and spaces. These will be smaller group discussions, welcome even without a prepared presentation.  See Open Space explanation</li>
+</ol>
+
+<p style="font-weight: bold">How to submit a proposal: Send an email to <a href="mailto:proposals-boston-2016@devopsdays.org">proposals-boston-2016@devopsdays.org</a> with the following information:</p>
+<ol>
+    <li>Your working title (can be changed later)</li>
+    <li>The type of your talk (30 min or Ignite) (also a good place to indicate if you'd do either)</li>
+    <li>A description or abstract</li>
+    <li>Media links to this talk or a prior talk.  (To help us see that you and the topic can engage the large audience)</li>
+</ol>
+
+<p style="font-weight: bold">Our top criteria for the final selections will be:</p>
+<ol>
+    <li>New content: content not yet presented at other conferences, at this conference, or a new angle to an existing problem</li>
+    <li>New presenters: people who are new to the space and have insightful stuff to say; we want to hear everybody's voice</li>
+    <li>No vendor pitches: as much as we value vendors and sponsors, we just don't think this is the right forum. You can demo at your table or during Open Space.</li>
+</ol>
+
+<p style="font-weight: bold">Additional Criteria:</p>
+<ol>
+    <li>Be specific (about 20 lines)</li>
+    <li>Detail is good... but not as important as explaining why your proposal would be interesting</li>
+    <li>Propose your own talk; please don't have your marketing department do it for you.</li>
+    <li>Multiple proposals are welcome!</li>
+    <li>Nominations are welcome!  if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
+</ol>
+
+<p>Thank you for helping make DevOpsDays Boston a great event!</p>
+<% end %>
+

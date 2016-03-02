@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Kyle Young
+title: "Scaling DevOps Culture"
+---
+
+**Abstract:**
+
+A follow up to 2014's DevOps days regarding Mobify's DevOps culture. We've since grown from a 50 person team to an international crew several times that size with offices across the world, and the way DevOps fits in our culture has changed. What does "DevOps" mean to a startup vs a medium sized technology company.
+
+**Speaker:**
+
+Kyle Young [@ksgyoung](https://twitter.com/ksgyoung) is Mobify's System Engineer, where he has spent the last three years championing DevOps, and building the backend systems and infrastructure that keep things humming. He is also Quidditch Captain.

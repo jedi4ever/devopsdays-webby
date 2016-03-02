@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: welcome
+layout: event
+dirty: true
+platinum: false
+gold: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+<img src='workers.png'>
+<h4>We're in this together</h4>
+<p><b>Friday, September 23 - Saturday, September 24, 2016</b><br/>NYC</p>
+      <hr>
+      <p>You can <a href="sponsor">become a sponsor.</a></p>
+</center>

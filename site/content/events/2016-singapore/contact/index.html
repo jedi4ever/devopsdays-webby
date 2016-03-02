@@ -1,0 +1,29 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: contact
+layout: event_singapore
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@page.directory) %>
+
+If you'd like to contact us by email: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+
+** Our local team**
+
+<%= render(:partial => "/#{@eventhome}/_team_local") %>
+
+** The core devopsdays organizer group**
+
+<%= render(:partial => "/contact/_team_global") %>
+
+<a name="emergency"></a>
+** Important addresses **
+
+* Email address for organizers: <a href='mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>'><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a>
+* Singapore Emergency Contact list: [http://www.e101.gov.sg/learn_contacts.html](http://www.e101.gov.sg/learn_contacts.html)
+* Local law enforcement: Singapore Police Force - call 999
+* Sexual assault hotline: 1800 774 5935

@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+title: sponsor
+layout: event_singapore
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+We greatly value sponsors for this open event. If you are interested in sponsoring, please [drop us an email](mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>).
+
+DevOpsDays is a self-organizing conference for practitioners that depends on sponsorships. We do not have vendor booths, sell product presentations, or distributee attendee contact lists.
+
+Sponsors are encouraged to represent themselves by actively participating and engaging with the attendees as peers. Any attendee also has the opportunity to demo products/projects as part of an open space session.
+
+The best thing to do is send engineers to interact with the experts at DevOpsDays on their own terms.
+
+
+## Why Sponsor Us?
+
+The DevOpsDays event mandate is to bring the highest­ quality speakers, experts, and the curious together.
+
+Singapore is not only one of the fastest growing startup hubs in the world but is also a trusted healthcare, telecom, and financial services nexus in Asia with strong investment in technology from the Government. We aim to attract representation from large enterprises and the startup community alike.
+
+By sponsoring DevOpsDays, you will be exposing your company’s brand and services to Singapore and Southeast Asia’s top talent in this rapidly growing space.

@@ -89,23 +89,23 @@ google.load('jquery', '1.3.2');
     <%= render(:partial => '/twitterfeed') %>
   </div>
 </div>
-<div class="span-18 ">
-  <div style=" padding-top:18px;" class="span-8 last">
+<div class="span-17 ">
+  <div style=" padding-top:18px;" class="span-7 last">
     <h1>Past </h1>
   </div>
 
-  <div class="span-18 ">
+  <div class="span-17 ">
     <%= render(:partial => '/past') %>
   </div>
 
 </div>
 
-<div class="span-5 last ">
-  <div style=" padding-top:18px;" class="span-4 last">
+<div class="span-6 last ">
+  <div style=" padding-top:18px;" class="span-5 last">
     <h1>Future </h1>
   </div>
 
-  <div class="span-5 last">
+  <div class="span-6 last">
     <%= render(:partial => '/future') %>
   </div>
 

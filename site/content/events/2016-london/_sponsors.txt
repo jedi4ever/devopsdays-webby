@@ -4,6 +4,7 @@ filter:    erb
 <% @psponsors = [
 { :image => "barclays.jpg", :name => "Barclays", :link => "http://www.barclays.co.uk/"},
 { :image => "gft.png", :name => "GFT", :link => "http://www.gft.com/"},
+{ :image => "hpent.png", :name => "HP", :link => "http://www.hp-enterprisesolutions.com/"},
 ]%>
 
 <% @psponsors.shuffle.each do |sponsor| %>
@@ -24,6 +25,8 @@ filter:    erb
 { :image => "pagerduty.jpg", :name => "PagerDuty", :link => "https://www.pagerduty.com"},
 { :image => "Pivotal_TealOnWhite_RGB_1.png", :name => "Pivotal", :link => "http://pivotal.io/"},
 { :image => "accenture.png", :name => "Accenture", :link => "http://www.accenture.com/devops"},
+{ :image => "redhat.png", :name => "redhat", :link => "http://www.redhat.com/"},
+{ :image => "docker.png", :name => "docker", :link => "http://www.docker.com/"},
 ]%>
 
 <% @gsponsors.each do |sponsor| %>
@@ -69,6 +72,16 @@ filter:    erb
 <i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
 
+<h1>Media Sponsor</h1>
+<% @medsponsors = [
+{ :image => "devops.jpg", :name => "DevOps.com", :link => "http://www.devops.com/"},
+{ :image => "oreilly.jpg", :name => "O'Reilly", :link => "https://www.oreilly.com/"},
+]%>
+
+<% @medsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100 height=100 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+
 <h1>Event Reception Sponsor</h1>
 <% @ersponsors = [
 { :image => "hays.jpg", :name => "Hays", :link => "https://www.hays.co.uk/"},
@@ -76,8 +89,4 @@ filter:    erb
 
 <% @ersponsors.each do |sponsor| %>
 <a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=120 height=48 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
-<% end %>
-
-<% if @ersponsors.empty?  %>
-<i>&nbsp;&nbsp;&nbsp;<a href='<%= File.join('/',@eventhome,'/sponsor') -%>'>Be the first to sponsor!</a></i>
 <% end %>
