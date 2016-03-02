@@ -115,7 +115,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Toronto<br>May 26 & 27",
-  labelAnchor: new google.maps.Point(-15, 62),
+  labelAnchor: new google.maps.Point(-15, 92),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -205,6 +205,19 @@ function initialize() {
   });
   google.maps.event.addListener(chicagomarker, "click", function (e) { location.href="/events/2016-chicago/"});
 
+  var detroitlocation = new google.maps.LatLng(42.331034, -83.046382);
+  var detroitmarker = new MarkerWithLabel({
+    position: detroitlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Detroit<br>Oct 12 & 13",
+    labelAnchor: new google.maps.Point(40, 55),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+  google.maps.event.addListener(detroitmarker, "click", function (e) { location.href="/events/2016-detroit"});
+
   var istanbullocation = new google.maps.LatLng(41.0136, 28.9550);
   var istanbulmarker = new MarkerWithLabel({
     position: istanbullocation,
@@ -254,12 +267,26 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "New York<br>Sep 23 & 24",
-  labelAnchor: new google.maps.Point(-5, 48),
+  labelAnchor: new google.maps.Point(-15, 76),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
 
-  google.maps.event.addListener(dallasmarker, "click", function (e) { location.href="/events/2016-dallas"});
+  google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2016-newyork"});
+
+  var philadelphialocation = new google.maps.LatLng(39.9500, -75.1667);
+  var philadelphiamarker = new MarkerWithLabel({
+  position: philadelphialocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Philadelphia<br>Oct 26 & 27",
+  labelAnchor: new google.maps.Point(-10, 54),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(philadelphiamarker, "click", function (e) { location.href="/events/2016-newyork"});
 
 
 }

@@ -1,4 +1,4 @@
-<div style="height:600px;" id="quicklinks">
+<div style="height:650px;" id="quicklinks">
   <table>
     <tr>
       <td>
@@ -21,16 +21,18 @@
         <a href="/events/2016-dallas/">Dallas - Sep 15 & 16</a><br/>
         <a href="/events/2016-newyork/">New York - Sep 23 & 24</a><br/>
         <a href="/events/2016-singapore/">Singapore - Oct 8 & 9</a><br/>
+        <a href="/events/2016-detroit/">Detroit - Oct 12 & 13</a><br/>
+        <a href="/events/2016-philadelphia/">Philadelphia - Oct 26 & 27</a><br/>
 	<br/>
         <strong>2016, Dates TBD</strong><br/>
-        <a href="/events/2016-detroit/">Detroit</a><br/>
-        <a href="/events/2016-philadelphia/">Philadelphia</a><br/>
         <a href="/events/2016-ghent/">Ghent</a><br/>
         <a href="/events/2016-raleigh/">Raleigh</a><br/>
         <a href="/events/2016-kansascity/">Kansas City</a><br/>
         <a href="/events/2016-oslo/">Oslo</a><br/>
         <a href="/events/2016-newzealand/">New Zealand</a><br/>
         <a href="/events/2016-boston/">Boston</a><br/>
+        <a href="/events/2016-ohio/">Ohio</a><br/>
+        <a href="/events/2016-nashville/">Nashville</a><br/>
       </td>
     </tr>
   </table>
