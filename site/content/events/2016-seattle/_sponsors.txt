@@ -14,7 +14,8 @@ end
 { :image => "pivotal.png", :name => "Pivotal Software, Inc.", :link => "http://www.pivotal.io/"},
 { :image => "chef.jpg", :name => "Chef", :link => "http://www.chef.io/"},
 { :image => "thoughtworks.png", :name => "ThoughtWorks CD Products", :link => "http://www.thoughtworks.com/products/"},
-{ :image => "victorops100.png", :name => "VictorOps", :link => "http://www.victorops.com/"}
+{ :image => "victorops100.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
+{ :image => "expedia.jpg", :name => "Expedia", :link => "http://www.expedia.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
