@@ -43,6 +43,7 @@ end
 <br/>
 <h1>Community sponsors</h1>
 <% @msponsors = [
+{ :image => "ado.png", :name => "Arrested DevOps", :link => "http://arresteddevops.com/"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
