@@ -11,7 +11,6 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -42,10 +41,11 @@ end
 
 <br/>
 <br/>
-<h1>Media sponsors</h1>
+<h1>Community sponsors</h1>
 <% @msponsors = [
+{ :image => "ado.png", :name => "Arrested DevOps", :link => "http://arresteddevops.com/"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
-<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a>
+<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a><% end %>
