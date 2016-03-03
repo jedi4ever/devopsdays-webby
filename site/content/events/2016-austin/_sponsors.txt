@@ -13,6 +13,15 @@ end
 <% @gsponsors = [
 { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"},
 { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
+{ :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/products"},
+{ :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"},
+{ :image => "logicmonitor.png", :name => "Logicmonitor", :link => "http://www.logicmonitor.com"},
+{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
+{ :image => "techtowntraining.png", :name => "Techtown Training", :link => "http://www.techtowntraining.com"},
+{ :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.io"},
+{ :image => "parasoft.png", :name => "Parasoft", :link => "https://www.parasoft.com"},
+{ :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com"},
+{ :image => "dell.png", :name => "Dell", :link => "http://www.dell.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -36,6 +45,7 @@ end
 <h1>Happy Hour sponsor</h1>
 
 <% @hhsponsors = [
+{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
 ] %>
 <%= make_sponsor_links(@hhsponsors) %>
 <br />
@@ -58,6 +68,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "pagerduty.png", :name => "Pagerduty", :link => "https://www.pagerduty.com"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
