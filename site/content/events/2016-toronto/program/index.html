@@ -1,0 +1,144 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Program
+layout: event
+platinum: true
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<hr>
+<div><p>Our program contains three kinds of sessions: presentations, ignites and open spaces. Ignites are 
+    short 5 minutes presentations where the slides advance automatically every 15 seconds. Open spaces are where attendees suggest and
+    vote on the topics to be discussed. There will six open space break out areas during each time slot. If you are new to the Open 
+    Space concept you can learn more about the format <a href="/pages/open-space-format">here</a>.</p>
+        
+<p>Take a look at the <a href="https://devops.uberflip.com/h/c/189873-devops-days-toronto-2015-videos" target="_blank">videos</a> from DevOpsDays Toronto 2015 to see 
+    how the different formats work.</p></div>
+<hr />
+
+<center><b><h2>The Schedule</h2></b></center>
+<div class="span-7 append-bottom border">
+
+<div class="span-7 last">
+<h4>Day 1 - Thursday, May 26th</h4>
+</div>
+
+<div class="span-2">09:00-10:00</div><div class="span-4 box last">Registration, Breakfast, and Sponsor Booths Open</div>
+
+<div class="span-2">10:00-10:15</div><div class="span-4 box last">Opening Welcome</div>
+
+<div class="span-2">10:15-10:45</div><div class="span-4 box last">
+    Keynote<br />
+</div>
+
+<div class="span-2">10:50-11:20</div><div class="span-4 box last">
+    Talk 1<br />
+</div>
+
+<div class="span-2">11:20-11:30</div><div class="span-4 box last">Break</div>
+
+<div class="span-2">11:30-12:00</div><div class="span-4 box last">
+    Talk 2<br />
+</div>
+
+<div class="span-2">12:00-13:00</div><div class="span-4 box last">Lunch</div>
+
+<div class="span-2">13:00-13:30</div><div class="span-4 box last">
+    Ignites<br />
+</div>
+
+<div class="span-2">13:35-14:05</div><div class="span-4 box last">
+    Talk 3<br />
+</div>
+
+
+<div class="span-2">14:05-14:40</div><div class="span-4 box last">Open Space Opening</div>
+
+<div class="span-2">14:40-15:25</div><div class="span-4 box last">Open Space #1</div>
+
+<div class="span-2">15:25-15:40</div><div class="span-4 box last">Break</div>
+
+<div class="span-2">15:40-16:25</div><div class="span-4 box last">Open Space #2</div>
+
+<div class="span-2">16:25-16:40</div><div class="span-4 box last">Break</div>
+
+<div class="span-2">16:40-17:35</div><div class="span-4 box last">Open Space #3</div>
+
+<div class="span-2">17:35-17:45</div><div class="span-4 box last"><strong>Closing Day & Logistics</strong></div>
+
+<div class="span-2">17:45-20:30</div><div class="span-4 box last"><strong>Happy Hour</strong></div>
+
+
+</div>
+
+
+<div class="span-7 append-bottom border">
+
+<div class="span-7 last">
+<h4>Day 2 - Friday, May 27th</h4>
+</div>
+
+<div class="span-2">09:00-10:00</div><div class="span-4 box last">Registration, Breakfast, and Sponsor Booths Open</div>
+
+<div class="span-2">10:00-10:15</div><div class="span-4 box last">Opening Welcome</div>
+
+<div class="span-2">10:15-10:45</div><div class="span-4 box last">
+    Talk 4<br />
+</div>
+
+<div class="span-2">10:50-11:20</div><div class="span-4 box last">
+    Talk 5<br />
+</div>
+
+<div class="span-2">11:20-11:30</div><div class="span-4 box last">Break</div>
+
+<div class="span-2">11:30-12:00</div><div class="span-4 box last">
+    Talk 6<br />
+</div>
+
+<div class="span-2">12:00-13:00</div><div class="span-4 box last">Lunch</div>
+
+<div class="span-2">13:00-13:30</div><div class="span-4 box last">
+    Ignites<br />
+</div>
+
+<div class="span-2">13:35-14:05</div><div class="span-4 box last">
+    Talk 7<br />
+</div>
+
+<div class="span-2">14:05-14:40</div><div class="span-4 box last">Open Space Opening</div>
+
+<div class="span-2">14:40-15:25</div><div class="span-4 box last">Open Space #1</div>
+
+<div class="span-2">15:25-15:40</div><div class="span-4 box last">Break</div>
+
+<div class="span-2">15:40-16:25</div><div class="span-4 box last">Open Space #2</div>
+
+<div class="span-2">16:25-16:40</div><div class="span-4 box last">Break</div>
+
+<div class="span-2">16:40-17:35</div><div class="span-4 box last">Open Space #3</div>
+
+<div class="span-2">17:35-17:45</div><div class="span-4 box last"><strong>Closing Day & Farewell</strong></div>
+
+</div>
+
+<hr />
+
+Below are our confirmed talks for 2016. More will be posted as speakers confirm their attendance.
+
+<b>Conference Talks</b>
+
+<ol>
+<%
+  articles = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals", :recursive => true,
+      :sort_by => "title", :reverse => true, :talk => true)
+  articles.delete(@page)
+  articles.each do |page|
+-%>
+<li><%= link_to_page(page) %> - <%= page.author %> 
+<% end -%>
+</ol>
