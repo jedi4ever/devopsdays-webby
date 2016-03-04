@@ -14,9 +14,9 @@ end
 { :image => "versionone.png", :name => "VersionOne", :link => "http://www.versionone.com"},
 { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"},
 { :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"},
+# { :image => "sumologic.png", :name => "SumoLogic", :link => "http://www.sumologic.com"},
 # { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
 # { :image => "redis.png", :name => "RedisLabs", :link => "http://www.redis.com"},
-# { :image => ".png", :name => "", :link => "http://www..com"},
 # { :image => ".png", :name => "", :link => "http://www..com"},
 # { :image => ".png", :name => "", :link => "http://www..com"}
 ]%>
@@ -63,3 +63,12 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Badge sponsor</h1>
+<% @msponsors = [
+# { :image => "upguard.png", :name => "Upguard", :link => "https://www.upguard.com"},
+] %>
+<%= make_sponsor_links(@msponsors) %>
+
