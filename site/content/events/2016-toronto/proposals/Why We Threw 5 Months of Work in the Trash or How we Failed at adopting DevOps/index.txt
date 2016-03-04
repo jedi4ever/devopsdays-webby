@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+layout: event
+platinum: true
+talk: true
+ignite: false
+selected: true
+author: Sina Jahan
+title: "Why We Threw 5 Months of Work in the Trash; or How we Failed at adopting DevOps"
+---
+
+**Abstract:**
+
+Last summer we started an engineering enablement engagement in Seattle. Very quickly we decided DevOps enablement had a lot of potential and started our work...5 months later the "DevOps" part of work was shot down by management due to lack of result. We will take a look at three main reasons that we failed. These are pitfalls that can happen in any company and any project.
+
+**Speaker:**
+
+Sina Jahan
+

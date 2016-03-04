@@ -9,18 +9,27 @@ dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <center>
-  <table><tr><td>
+  <table>
+<tr>
+	<td colspan=2>
+<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
+<br><br>
+<p>DevOpsDays Seattle brings development, operations, QA, InfoSec, management, and leadership together to discuss the culture and tools to make better organizations and products. With over 10% in technology job growth in the last two years, Seattle is considered by many to be the tech hub of America.</p>
+<p>Our call for proposals has ended, and we will be announcing the program soon.</p>
+
+	
+	</td>
+<tr>
+<td>
         <center>
          <img border=0 width="250" height="149" src="./devopsdaysseattle.png"> 
 </td><td valign=top>
-<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
-<br><br>
 Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
 <br><br>
 <a href="./location">Location</a>
 <br><br>
 
-<a href="./registration">Register</a>!
+<a href="./registration">Register now for early bird pricing!</a>!
 <br><br>
 
 <a href="./program">View the program</a>!
