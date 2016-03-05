@@ -147,13 +147,6 @@ filter: erb
     :height => '50px'
 },
 {
-    :name   => 'SumoLogic',
-    :image  => 'sumologic.png',
-    :link   => 'https://www.sumologic.com/',
-    :width  => '150px',
-    :height => '50px'
-},
-{
     :name   => 'CA',
     :image  => 'ca.png',
     :link   => 'http://www.ca.com/us.html',
