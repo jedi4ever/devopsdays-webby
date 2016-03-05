@@ -22,3 +22,4 @@ Last summer we started an engineering enablement engagement in Seattle. Very qui
 
 Sina Jahan
 
+I'm a developer at ThoughtWorks. I tend to focus on work in the cloud and continuous delivery space, more recently focusing on the use of microservice architectures. I love learning new things and helping people build better systems. I love presenting ideas, meeting people and learning new things, and I find conferences a great way to help that. I've also written a few articles along the way.
