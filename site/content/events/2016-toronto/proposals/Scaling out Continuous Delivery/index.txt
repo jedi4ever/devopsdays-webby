@@ -24,5 +24,7 @@ Today, every developer on a team of hundreds can deliver a change from commit to
 
 **Speaker:**
 
-John Arthorne
+John Arthorne, <a href="https://twitter.com/jarthorne" target="_blank">@jarthorne</a> 
 
+
+John works on the Shopify Production Engineering team, with a specific focus on creating developer tooling to accelerate application delivery. John is a <a href="http://jarthorn.github.io/" target="_blank">frequent speaker</a> at technical conferences in both Europe and North America, serves on conference program committees, is a JavaOne Rock Star, and frequently writes blogs and articles on technical topics. His current interests are in tools and practices for Continuous Delivery, and in highly scalable cloud architectures. Before joining Shopify, John led a team building cloud-based developer tooling for IBM Bluemix, and was a <a href="https://wiki.eclipse.org/User:John_arthorne.ca.ibm.com" target="_blank">prominent leader</a> within the Eclipse open source community.

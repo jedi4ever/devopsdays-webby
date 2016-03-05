@@ -28,5 +28,6 @@ Part rant, part devops therapy, this talk will explain in the nerdiest of terms 
 
 **Speaker:**
 
-Bridget Kromhout
+Bridget Kromhout, <a href="https://twitter.com/bridgetkromhout" target="_blank">@bridgetkromhout</a>
 
+Bridget Kromhout is a Principal Technologist for Cloud Foundry at Pivotal. Her CS degree emphasis was in theory, but she now deals with the concrete (if 'cloud' can be considered tangible). After years in site reliability operations (most recently at DramaFever), she traded in oncall for more travel. A frequent speaker at tech conferences, she helps organize the AWS and devops meetups at home in Minneapolis, serves on the program committee for Velocity, and acts as a global core organizer for devopsdays. She podcasts at Arrested DevOps, occasionally blogs at <a href="http://bridgetkromhout.com" target="_blank">bridgetkromhout.com</a>, and is active in a Twitterverse near you.
