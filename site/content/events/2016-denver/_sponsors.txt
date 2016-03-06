@@ -74,6 +74,13 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
+{
+    :name   => 'Deis',
+    :image  => 'deis.png',
+    :link   => 'http://deis.io/',
+    :width  => '150px',
+    :height => '50px'
+},
 ]%>
 
 <% if @gsponsors.empty?  %>
@@ -132,6 +139,21 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
+{
+    :name   => 'SumoLogic',
+    :image  => 'sumologic.png',
+    :link   => 'https://www.sumologic.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'CA',
+    :image  => 'ca.png',
+    :link   => 'http://www.ca.com/us.html',
+    :width  => '150px',
+    :height => '50px'
+},
+
 ]%>
 
 <h1>Silver sponsors</h1>
