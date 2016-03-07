@@ -35,6 +35,7 @@
         <a href="/events/2016-ohio/">Ohio</a><br/>
         <a href="/events/2016-nashville/">Nashville</a><br/>
         <a href="/events/2016-boise/">Boise</a><br/>
+        <a href="/events/2016-madison/">Madison</a><br/>
       </td>
     </tr>
   </table>
