@@ -300,7 +300,7 @@ function initialize() {
     labelStyle: {opacity: 1}
   });
 
-  google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2015-siliconvalley"});
+  google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2016-siliconvalley"});
 
 
 
