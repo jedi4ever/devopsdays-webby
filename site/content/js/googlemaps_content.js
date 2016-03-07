@@ -288,5 +288,20 @@ function initialize() {
 
   google.maps.event.addListener(philadelphiamarker, "click", function (e) { location.href="/events/2016-newyork"});
 
+  var sflocation=new google.maps.LatLng(37.3894, -122.0819);
+  var sfmarker = new MarkerWithLabel({
+    position: sflocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Silicon Valley<br>Jun 24 & 25",
+    labelAnchor: new google.maps.Point(55, -25),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2015-siliconvalley"});
+
+
 
 }

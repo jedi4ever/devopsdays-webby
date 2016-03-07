@@ -43,6 +43,10 @@
       Salt Lake City
     </a>
     -
+    <a href="/events/2016-siliconvalley">
+      Silicon Valley
+    </a>
+    -
     <a href="/events/2016-amsterdam">
       Amsterdam
     </a>
