@@ -142,3 +142,16 @@ Below are our confirmed talks for 2016. More will be posted as speakers confirm 
 <li><%= link_to_page(page) %> - <%= page.author %> 
 <% end -%>
 </ol>
+
+## Ignite Talks
+
+<ol>
+<%
+  articles = @pages.find(:all, :in_directory => "/#{@eventhome}/proposals", :recursive => true,
+      :sort_by => "title", :reverse => true, :ignite => true)
+  articles.delete(@page)
+  articles.each do |page|
+-%>
+<li><%= link_to_page(page) %> - <%= page.author %> 
+<% end -%>
+</ol>
