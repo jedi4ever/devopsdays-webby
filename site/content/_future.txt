@@ -1,4 +1,4 @@
-<div style="height:650px;" id="quicklinks">
+<div style="height:700px;" id="quicklinks">
   <table>
     <tr>
       <td>
@@ -36,6 +36,7 @@
         <a href="/events/2016-nashville/">Nashville</a><br/>
         <a href="/events/2016-boise/">Boise</a><br/>
         <a href="/events/2016-madison/">Madison</a><br/>
+        <a href="/events/2016-capetown/">Cape Town</a><br/>
       </td>
     </tr>
   </table>
