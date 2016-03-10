@@ -27,6 +27,7 @@ end
 { :image => 'chef.png', :name => 'Chef', :link => 'https://www.chef.io' },
 { :image => 'pagerduty.png', :name => 'PagerDuty', :link => 'http://pagerduty.com/' },
 { :image => "github.png", :name => "GitHub", :link=>"https://www.github.com/"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
