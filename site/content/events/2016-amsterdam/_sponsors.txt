@@ -10,6 +10,15 @@ def make_sponsor_links(sponsors)
 end
 %>
 
+<h1>BBQ sponsor</h1>
+<% @bbqsponsor = [
+ { :image => "../logos/gold-chef.png", :name => "Chef", :link => "https://www.chef.io/"},
+] %>
+<%= make_sponsor_links(@bbqsponsor) %>
+
+<br/>
+<br/>
+
 <% @gsponsors = [
  { :image => "../logos/gold-schubergphilis.png", :name => "Schuberg Philis", :link => "https://www.schubergphilis.com/"}
 ]%>
@@ -23,7 +32,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
- { :image => "../logos/silver-redhat.png", :name => "Red Hat", :link => "http://www.redhat.com"}
+ { :image => "../logos/silver-redhat.png", :name => "Red Hat", :link => "https://www.redhat.com"}
+ { :image => "../logos/silver-linkit.png", :name => "LINKIT", :link => "https://www.linkit.nl/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -35,7 +45,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
- { :image => "../logos/bronze-beslist.png", :name => "beslist.nl", :link => "http://www.beslist.nl"}
+ { :image => "../logos/bronze-beslist.png", :name => "BESLIST.nl", :link => "http://www.beslist.nl"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -44,16 +54,9 @@ end
 
 <br/>
 <br/>
-<h1>BBQ sponsor</h1>
-<% @bbqsponsor = [
- { :image => "../logos/gold-chef.png", :name => "Chef", :link => "http://www.getchef.com"},
-] %>
-<%= make_sponsor_links(@bbqsponsor) %>
-
-<br/>
-<br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
+ { :image => "../logos/media-oreilly.png", :name => "O'Reilly", :link => "http://www.oreilly.com/"}
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
