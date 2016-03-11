@@ -88,5 +88,5 @@ filter:    erb
 ]%>
 
 <% @ersponsors.each do |sponsor| %>
-<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=120 height=48 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=190 src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
 <% end %>
