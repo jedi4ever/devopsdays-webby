@@ -15,7 +15,8 @@ end
 { :image => "chef.jpg", :name => "Chef", :link => "http://www.chef.io/"},
 { :image => "thoughtworks.png", :name => "ThoughtWorks CD Products", :link => "http://www.thoughtworks.com/products/"},
 { :image => "victorops100.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
-{ :image => "expedia.jpg", :name => "Expedia", :link => "http://www.expedia.com/"}
+{ :image => "expedia.jpg", :name => "Expedia", :link => "http://www.expedia.com/"},
+{ :image => "microsoft100.png", :name => "Microsoft", :link => "http://www.microsoft.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -39,7 +40,8 @@ end
 
 <% @bsponsors = [
 { :image => "rei.png", :name => "REI", :link => "http://www.rei.com/"},
-{ :image => "luxoft.png", :name => "Luxoft", :link => "http://www.luxoft.com/"}
+{ :image => "luxoft.png", :name => "Luxoft", :link => "http://www.luxoft.com/"},
+{ :image => "leankit100.jpg", :name => "Leankit", :link => "http://www.leankit.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
