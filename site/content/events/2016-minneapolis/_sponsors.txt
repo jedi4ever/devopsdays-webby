@@ -26,6 +26,8 @@ end
  { :image => "thoughtworks-100x100.jpg", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/products" },
  { :image => "newrelic-100x100.jpg", :name => "New Relic", :link => "http://www.newrelic.com" },
  { :image => "appdynamics-100x100.jpg", :name => "AppDynamics", :link => "https://www.appdynamics.com/" },
+ { :image => "sps-100x100.jpg", :name => "SPS Commerce", :link => "http://www.spscommerce.com/" },
+ { :image => "sumologic-100x100.jpg", :name => "SumoLogic", :link => "https://www.sumologic.com/" },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -38,7 +40,9 @@ end
 
 <% @ssponsors = [
   { :image => "signalfx-100x100.jpg", :name => "SignalFX", :link => "http://www.signalfx.com" },
-  { :image => "pantheon-100x100.jpg", :name => "Pantheon", :link => "https://pantheon.io" }
+  { :image => "pantheon-100x100.jpg", :name => "Pantheon", :link => "https://pantheon.io" },
+  { :image => "veritas-100x100.jpg", :name => "Veritas", :link => "https://www.veritas.com/" },
+  { :image => "logicmonitor-100x100.jpg", :name => "LogicMonitor", :link => "http://www.logicmonitor.com/" },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -49,7 +53,9 @@ end
 <br/>
 <h1>Media sponsors</h1>
 <% @msponsors = [
-  { :image => "oreilly-100x100.jpg", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"}
+  { :image => "oreilly-100x100.jpg", :name => "O'Reilly Media", :link => "http://www.oreilly.com/" },
+  { :image => "ado-100x100.jpg", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"},
+  { :image => "sdt-100x100.jpg", :name => "Software Defined Talk", :link => "http://cote.io/podcasts/sdt/"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
