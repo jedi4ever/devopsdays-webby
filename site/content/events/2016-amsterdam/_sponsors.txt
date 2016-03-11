@@ -32,7 +32,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
- { :image => "../logos/silver-redhat.png", :name => "Red Hat", :link => "https://www.redhat.com"}
+ { :image => "../logos/silver-redhat.png", :name => "Red Hat", :link => "https://www.redhat.com"},
  { :image => "../logos/silver-linkit.png", :name => "LINKIT", :link => "https://www.linkit.nl/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
