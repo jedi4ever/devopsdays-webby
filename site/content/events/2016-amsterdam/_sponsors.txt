@@ -21,7 +21,7 @@ end
 
 <% @gsponsors = [
  { :image => "../logos/gold-schubergphilis.png", :name => "Schuberg Philis", :link => "https://www.schubergphilis.com/"}
-]%>
+] %>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
