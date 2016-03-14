@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Jeff Bragdon
+title: "Building an End to End Windows or Linux Application Deployment Pipeline"
+---
+
+We would like to share our journey towards an OS Agnostic fully automated application deployment pipeline. Our proposal would take our audience through our trial and error, how we chose our tools, how we geared those tools, and were we are headed in the future. As a sample, we would cover things like; Arriving at the conclusion that most DevOps groups focus on a handful of programming languages specific to a single OS. In contrast, CareerBuilder has applications built on both Rails and .NET. Therefore we needed a solution that satisfies both sets of requirements. We also learned that not many examples exist for Windows based deployment pipelines leveraging .Net. Most examples are geared towards Linux and a language like Rails or Node.JS. Even with all available information, it is not easy to create a serviceable solution that supports all language and OS requirements within a single gitflow framework.
+
+**Speaker:**
+Jeff Bragdon
