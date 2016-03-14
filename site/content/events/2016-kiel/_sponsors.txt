@@ -12,7 +12,9 @@ end
 
 <% @gsponsors = [
 { :image => "ServerDensity-190x190.png", :name => "server density", :link => "https://www.serverdensity.com/"},
-{ :image => "chef200x200.png", :name => "Chef", :link => "https://www.chef.io/"}
+{ :image => "chef200x200.png", :name => "Chef", :link => "https://www.chef.io/"},
+{ :image => "Nuage-Nokia-VerticalLogo-200x200-COLOR-BB.png", :name => "Nuage Networks", :link => "http://www.nuagenetworks.net/"},
+{ :image => "JFrog200x200.png", :name => "JFrog", :link => "https://www.jfrog.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
