@@ -43,6 +43,7 @@ end
   { :image => "pantheon-100x100.jpg", :name => "Pantheon", :link => "https://pantheon.io" },
   { :image => "veritas-100x100.jpg", :name => "Veritas", :link => "https://www.veritas.com/" },
   { :image => "logicmonitor-100x100.jpg", :name => "LogicMonitor", :link => "http://www.logicmonitor.com/" },
+  { :image => "victorops-100x100.jpg", :name => "VictorOps", :link => "https://victorops.com" },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
