@@ -153,6 +153,27 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
+{
+    :name   => 'Atlassian',
+    :image  => 'servicedesk.png',
+    :link   => 'https://www.atlassian.com/software/jira/service-desk',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Ping Identity',
+    :image  => 'pingidentity.png',
+    :link   => 'https://www.pingidentity.com',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'New Relic',
+    :image  => 'newrelic.png',
+    :link   => 'http://newrelic.com/',
+    :width  => '150px',
+    :height => '50px'
+},
 
 ]%>
 
