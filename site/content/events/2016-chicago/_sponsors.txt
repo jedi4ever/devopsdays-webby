@@ -11,6 +11,7 @@ end
 %>
 
 <% @gsponsors = [
+{ :image => "pivotal-100x100.jpg", :name => "Pivotal", :link => "http://www.pivotal.io"  }
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
