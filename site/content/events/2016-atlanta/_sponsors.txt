@@ -30,7 +30,7 @@ end
 
 <% @ssponsors = [
 { :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
-# { :image => ".png", :name => "", :link => "http://www.com"}
+{ :image => "tropo.png", :name => "Tropo", :link => "https://www.tropo.com"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -70,4 +70,3 @@ end
 { :image => "upguard.png", :name => "Upguard", :link => "https://www.upguard.com"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
-
