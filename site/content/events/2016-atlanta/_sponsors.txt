@@ -56,7 +56,10 @@ end
 <% @msponsors = [
 { :image => "bit.png", :name => "Blacks in Technology", :link => "https://www.blacksintechnology.net"},
 { :image => "oreilly.png", :name => "O'Reilly", :link => "http://www.oreilly.com"},
-{ :image => "ado.png", :name => "Arrested Devops", :link => "https://www.arresteddevops.com"}
+{ :image => "ado.png", :name => "Arrested Devops", :link => "https://www.arresteddevops.com"},
+{ :image => "sonatype.png", :name => "Sonatype", :link => "https://www.sonatype.com"},
+{ :image => "devopsdotcom.png", :name => "DevOps.com", :link => "http://www.devops.com"}
+
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
