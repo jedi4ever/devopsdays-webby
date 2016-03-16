@@ -19,6 +19,7 @@
         <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21</a><br/>
         <a href="/events/2016-portland/">Portland - Aug 9 & 10</a><br/>
         <a href="/events/2016-chicago/">Chicago - Aug 30 & 31</a><br/>
+        <a href="/events/2016-oslo/">Oslo - Sep 5 & 6</a><br/>
         <a href="/events/2016-dallas/">Dallas - Sep 15 & 16</a><br/>
         <a href="/events/2016-newyork/">New York - Sep 23 & 24</a><br/>
         <a href="/events/2016-singapore/">Singapore - Oct 8 & 9</a><br/>
@@ -29,7 +30,6 @@
         <a href="/events/2016-ghent/">Ghent</a><br/>
         <a href="/events/2016-raleigh/">Raleigh</a><br/>
         <a href="/events/2016-kansascity/">Kansas City</a><br/>
-        <a href="/events/2016-oslo/">Oslo</a><br/>
         <a href="/events/2016-newzealand/">New Zealand</a><br/>
         <a href="/events/2016-boston/">Boston</a><br/>
         <a href="/events/2016-ohio/">Ohio</a><br/>
