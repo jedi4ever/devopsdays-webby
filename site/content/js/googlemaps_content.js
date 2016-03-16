@@ -302,6 +302,18 @@ function initialize() {
 
   google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2016-siliconvalley"});
 
+  var oslolocation=new google.maps.LatLng(59.908174, 10.744303);
+  var oslomarker = new MarkerWithLabel({
+    position: oslolocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Oslo<br>Sep 5 & 6",
+    labelAnchor: new google.maps.Point(55, 50),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
 
+  google.maps.event.addListener(oslomarker, "click", function (e) { location.href="/events/2016-oslo"});
 
 }
