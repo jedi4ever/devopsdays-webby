@@ -16,6 +16,8 @@ end
   { :image => "demonware.png", :name => "DemonWare", :link => "https://www.demonware.net"},
   { :image => "pivotal.png", :name => "Pivotal", :link => "http://pivotal.io"},
   { :image => "salesforce.png", :name => "Salesforce", :link => "https://www.salesforce.com"},
+  { :image => "splunk.png", :name => "Splunk", :link => "https://www.splunk.com"},
+  { :image => "sumologic.png", :name => "Sumologic", :link => "https://www.sumologic.com"},
   { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com"},
   { :image => "trinimbus.png", :name => "TriNimbus", :link => "http://www.trinimbus.com"}
 ]%>
@@ -33,6 +35,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+  { :image => "boeing_aeroInfo.png", :name => "Boeing Aeroinfo", :link => "http://www.aeroinfo.com"},
   { :image => "visioncritical.png", :name => "Vision Critical", :link => "https://www.visioncritical.com"},
 ] %>
 <% @ssponsors.each do |sponsor| %>
@@ -46,7 +49,10 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+{ :image => "broadbandtv.png", :name => "BroadbandTV", :link => "http://bbtv.com"},
+{ :image => "enernoc.png", :name => "EnerNOC", :link => "https://www.enernoc.com"},
 { :image => "mobify.png", :name => "Mobify", :link => "http://www.mobify.com"},
+{ :image => "samsung.png", :name => "Samsung", :link => "https://www.samsung.com/ca/home"},
 { :image => "stat_search_analytics.png", :name => "STAT Search Analytics", :link => "https://getstat.com"},
 
 
