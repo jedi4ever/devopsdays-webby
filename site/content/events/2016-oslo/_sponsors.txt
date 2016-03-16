@@ -2,6 +2,7 @@
 filter:    erb
 ---
 
+<!--
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
@@ -49,3 +50,4 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+-->
