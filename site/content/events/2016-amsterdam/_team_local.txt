@@ -4,6 +4,7 @@
 - Arjan Wolfs
 - Wilco Noordermeer
 - Arjan Eriks
+- Gérard de Vos
 - Yvo van Doorn
 - Marjana Shammi
 - Mine Heck
