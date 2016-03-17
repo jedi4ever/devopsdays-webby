@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: false
+workshop: true
+selected: false
+author: Speaker 2
+title: "Example Workshop Title"
+---
+
+**Abstract:**
+
+This is the workshop description as submitted by the user, but with their name removed if they put it in the abstract. This lets you post the workshop so people can see the possible workshops ahead of time but without the names.
+
+**Speaker:**
+Speaker
+
