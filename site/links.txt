@@ -48,6 +48,8 @@ http://lists.metalab.at/mailman/listinfo/devops
 
 http://groups.google.com/group/devopsfr
 
+DevOps Norway Meetup - http://www.meetup.com/DevOps-Norway/
+
 =====
 
 http://flv.thruhere.net/presentations/10-oct-lessonslearned.flv
