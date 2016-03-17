@@ -8,6 +8,9 @@ sidebar: false
 title: registration
 layout: event
 ---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
 <div style="width:100%; text-align:left;">
 
 It will be possible to register very soon! In the meantime <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">drop us an email</a> and we will contact you as soon as we open for registration.
