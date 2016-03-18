@@ -23,6 +23,7 @@ end
 { :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com"},
 { :image => "dell.png", :name => "Dell", :link => "http://www.dell.com"},
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com"},
+{ :image => "solarwinds.png", :name => "SolarWinds", :link => "http://www.solarwinds.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -58,6 +59,7 @@ end
 <h1>Lanyard sponsor</h1>
 
 <% @lsponsors = [
+{ :image => "ca.png", :name => "CA", :link => "http://www.ca.com/us.html"},
 ] %>
 <%= make_sponsor_links(@lsponsors) %>
 <br />
@@ -70,6 +72,7 @@ end
 
 <% @ssponsors = [
 { :image => "pagerduty.png", :name => "Pagerduty", :link => "https://www.pagerduty.com"},
+{ :image => "atlassian.png", :name => "Atlassian", :link => "https://www.atlassian.com/software/jira/service-desk"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
