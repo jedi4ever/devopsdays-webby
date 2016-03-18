@@ -11,7 +11,6 @@ end
 %>
 
 <% @psponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
 ] %>
 <%= make_sponsor_links(@psponsors) %>
 <br />
@@ -23,8 +22,8 @@ end
 <h1>Gold sponsors</h1>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
-]%>
+ { :image => "pivotal.png", :name => "Pivotal", :link => "https://pivotal.io"}
+] %>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
@@ -35,6 +34,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+ { :image => "victorops.png", :name => "VictorOps", :link => "http://victorops.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
