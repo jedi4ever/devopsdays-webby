@@ -17,7 +17,8 @@ end
 { :image => "victorops100.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
 { :image => "expedia.jpg", :name => "Expedia", :link => "http://www.expedia.com/"},
 { :image => "microsoft100.png", :name => "Microsoft", :link => "http://www.microsoft.com/"},
-{ :image => "slalom100.png", :name => "Slalom", :link => "http://www.slalom.com/"}
+{ :image => "slalom100.png", :name => "Slalom", :link => "http://www.slalom.com/"},
+{ :image => "sendachi.png", :name => "Sendachi", :link => "http://sendachi.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
