@@ -1,0 +1,34 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Rongxin Zhang
+title: "Running on hotness, deploying with Docker and Convox"
+---
+
+**Abstract:**
+
+The need for small teams to deploy and manage applications on a massive scale has fuelled the development of open source deployment tools such as Docker and Convox. This has removed the dependencies on specialized teams or system admins to deploy, manage and provision applications. At Zillow / Retsly, we share this vision of empowering our developers to deploy, manage and scale their own code at will.
+
+In this talk I will go through:
+- Retsly’s use case and how we got to the scaling problem.
+- Why we chose to use open source software such as Docker and Convox.
+- A demo on deploying a microservice stack to AWS using Convox.
+- The good, the hard and the lessons learned.
+
+This talk is useful to the developers and teams:
+- Who’s deployment demands are outgrowing their time and capabilities.
+- Who want to learn about the risks of deploying production grade application with new open-source software.
+- Who want to see a live deployment of applications using Convox and compare that to their own flows.
+
+Open source software such as Docker and Convox is quickly becoming the foundation of deployment pipelines. By simplifying a once complicated and gruesome processes, it has enabled small teams to easily deploy and manage applications on a scale once thought impossible.
+
+**Speaker:**
+
+At Zillow / Retsly, Rongxin has helped set up deployment pipelines that enable their applications to scale with an ever increasing developer base. He has deep experiences that span from designing beautiful user-interfaces to deploying battle-tested containers. When he is not developing or deploying, he spends his days listening to old school funk and grooming flowers.

@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Payam Moghaddam
+title: "Infrastructure drift detection using Terraform"
+---
+
+**Abstract:**
+
+How confident are you that your infrastructure is in the state that you think it's in? How do you detect when unexpected changes are made to your infrastructure? In this talk, I'll teach how you can use Terraform to detect infrastructure inconsistencies in AWS and how you can use this technique to stay sane when managing multiple data centres.
+
+**Speaker:**
+
+Payam Moghaddam is an Infrastructure Engineer at ACL for their global SaaS platform where he both manages and implements ACL's platform on AWS. Payam started off as an application developer where he consulted enterprises in both architecting and implementing their web applications with modern web frameworks. He has since shifted focus away from application development towards infrastructure development, where he now focuses on coding the infrastructure and automating everything.

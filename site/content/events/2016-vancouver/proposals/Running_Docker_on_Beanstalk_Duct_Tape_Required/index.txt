@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Sebastian Vetter
+title: "Running Docker on Beanstalk - Duct Tape Required"
+---
+
+**Abstract:**
+
+At Mobify, we’ve been running Docker in Production for about a year now. When we decided to make the switch, we evaluated several SaaS solution that would allow us to run Docker services and ended up choosing Amazon Beanstalk.
+
+After 12 months and countless moments of swearing, it is time to share some of the annoyances that came with Beanstalk running Docker.
+
+These are the problems we’ll be looking at:
+
+- Worker WTF: running a worker on Beanstalk is plain weird.
+- Getting centralized logging to work.
+- Integrating New Relic server monitoring (for EC2 intances).
+- Some insane and some not so insane scripts that we wrote.
+- Try EC2 Container Service (ECS)…if you have a high pain threshold
+
+**Speaker:**
+
+Sebastian has discovered his love for Python early on and found ways to use it successfully in various industries. Over the last few years, he's been mainly building things for the web using the Django framework. He's also enthusiastic about Docker and improving life, one container at a time. 
