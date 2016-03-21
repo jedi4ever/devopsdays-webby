@@ -155,8 +155,8 @@ filter: erb
 },
 {
     :name   => 'Atlassian',
-    :image  => 'servicedesk.png',
-    :link   => 'https://www.atlassian.com/software/jira/service-desk',
+    :image  => 'atlassian.png',
+    :link   => 'https://www.atlassian.com',
     :width  => '150px',
     :height => '50px'
 },
