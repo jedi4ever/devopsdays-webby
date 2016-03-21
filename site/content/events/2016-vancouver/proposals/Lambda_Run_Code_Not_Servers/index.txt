@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Michael Towbin and Jeremy Dyche
+title: "Lambda: Run Code, Not Servers"
+---
+
+**Abstract:**
+
+A client wanted to enable their teams to take ownership of AWS projects in a manner that removed the client's CloudOps Team as a direct blocker.  However, CloudOps still needed to maintain permission oversight over the AWS projects.  Our team was brought in to develop a solution to monitor and store permission changes in AWS and if necessary escalate repeated bad requests to the CloudOps team.
+
+We designed and developed a new solution to manage and govern IAM credentials across various organizations. The design was created to be scalable to multiple accounts in a repeatable fashion using Cloud Formation.
+
+Lambda was used for data and permission processing. DynamoDB tables was used to store allowed/denied information. SNS was utilized to message resources of failed attempts.
+
+**Speaker:**
+
+[Michael Towbin](https://www.linkedin.com/in/michaeltowbin) is a Senior DevOps Engineer at Slalom Consulting
+
+[Jeremy Dyche](https://www.linkedin.com/in/jeremydyche) is a Senior DevOps Engineer at Slalom Consulting
