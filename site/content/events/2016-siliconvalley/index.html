@@ -10,14 +10,18 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <center>
   <table><tr><td>
-        <center>
+        <center><img border=0 width="250" height="220" src="./sv_logo.png"></center>
 </td><td valign=top>
 <strong>DevOpsDays is returning to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
 <br><br>
 Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
-<br><br>
+<br>
 <a href="./location">Location</a>
-<br><br>
+<br>
+Call for participation: <a href="https://dodsv2016.busyconf.com/proposals/new">propose a talk!</a>
+<br>
+Registration: <a href="https://dodsv2016.busyconf.com/bookings/new">register to attend the conference!</a>
+<br>
 
 <a href="./sponsor">Sponsor the event</a>! 
 <br><br>
