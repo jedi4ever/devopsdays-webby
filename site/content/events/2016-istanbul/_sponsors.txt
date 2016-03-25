@@ -13,7 +13,7 @@ end
 <h1>Host Sponsor</h1>
 
 <% @hsponsors = [
- { :image => "borsa.jpg", :name => "BORSA", :link => "http://www.borsaistanbul.com/"}
+ { :image => "borsaistanbul.png", :name => "BORSA", :link => "http://www.borsaistanbul.com/"}
 ]%>
 <%= make_sponsor_links(@hsponsors) %>
 <br />
