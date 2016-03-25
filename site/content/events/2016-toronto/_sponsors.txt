@@ -15,8 +15,7 @@ end
 ]%>
 <%= make_sponsor_links(@psponsors) %>
 <br />
-<% if @psponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/">Platinum Sponsor!</a>
-<% elsif @psponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/">Platinum Sponsor!</a><% end %>
+<% if @psponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/">Platinum Sponsor!</a><% end %>
 
 <br/>
 <br/>
@@ -30,11 +29,12 @@ end
 { :image => "github.png", :name => "GitHub", :link=>"https://www.github.com/"},
 { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com"},
 { :image => 'shopify.png', :name => 'Shopify', :link => 'http://www.shopify.ca/' },
+{ :image => 'trinimbus.png', :name => 'TriNimbus', :link => 'http://www.trinimbus.com/' },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/">Gold Sponsor!</a>
-<% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/">Gold Sponsor!</a><% end %>
+<% elsif @gsponsors.size < 12 %>Become a <a href="/<%= @eventhome %>/sponsor/">Gold Sponsor!</a><% end %>
 
 <br/>
 <br/>
