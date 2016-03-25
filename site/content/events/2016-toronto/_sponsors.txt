@@ -11,6 +11,7 @@ end
 %>
 
 <% @psponsors = [
+{ :image => 'deloitte.png', :name => 'Deloitte', :link => 'http://www2.deloitte.com/ca/en.html'},
 ]%>
 <%= make_sponsor_links(@psponsors) %>
 <br />
