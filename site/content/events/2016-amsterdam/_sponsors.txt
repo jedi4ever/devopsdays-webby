@@ -12,7 +12,8 @@ end
 
 <% @gsponsors = [
  { :image => "../logos/gold-schubergphilis.png", :name => "Schuberg Philis", :link => "https://www.schubergphilis.com/"},
- { :image => "../logos/gold-pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"}
+ { :image => "../logos/gold-pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"},
+ { :image => "../logos/gold-stackstate.png", :name => "StackState", :link => "http://stackstate.com/"}
 ] %>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
