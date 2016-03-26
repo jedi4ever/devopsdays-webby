@@ -74,10 +74,6 @@
     <a href="/events/2016-newyork">
       New York
     -
-    <a href = "/events/2016-boise">
-      Boise
-    </a>
-    -
     <a href = "/events/2016-singapore">
       Singapore
     </a>
