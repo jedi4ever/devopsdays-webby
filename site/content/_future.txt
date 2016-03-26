@@ -22,6 +22,7 @@
         <a href="/events/2016-oslo/">Oslo - Sep 5 & 6</a><br/>
         <a href="/events/2016-dallas/">Dallas - Sep 15 & 16</a><br/>
         <a href="/events/2016-newyork/">New York - Sep 23 & 24</a><br/>
+        <a href="/events/2016-boise/">Boise - Oct 7 & 8</a><br/>
         <a href="/events/2016-singapore/">Singapore - Oct 8 & 9</a><br/>
         <a href="/events/2016-detroit/">Detroit - Oct 12 & 13</a><br/>
         <a href="/events/2016-philadelphia/">Philadelphia - Oct 26 & 27</a><br/>
@@ -34,7 +35,6 @@
         <a href="/events/2016-boston/">Boston</a><br/>
         <a href="/events/2016-ohio/">Ohio</a><br/>
         <a href="/events/2016-nashville/">Nashville</a><br/>
-        <a href="/events/2016-boise/">Boise</a><br/>
         <a href="/events/2016-madison/">Madison</a><br/>
         <a href="/events/2016-capetown/">Cape Town</a><br/>
       </td>
