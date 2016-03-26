@@ -27,6 +27,16 @@ end
 
 <br/>
 <br/>
+<h1>Evening Social Sponsors</h1>
+<% @esponsors = [
+  { :image => "newrelic.png", :name => "NEWRELIC", :link => "http://newrelic.com" },
+] %>
+<%= make_sponsor_links(@esponsors) %>
+<br />
+<% if @esponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Evening Social Sponsor!</a>
+<% elsif @esponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Evening Social Sponsor!</a><% end %>
+<br/>
+<br/>
 <h1><font color="Blue">Blue Square</font> sponsors</h1>
 
 <% @ssponsors = [
@@ -52,6 +62,7 @@ end
 
 <br/>
 <br/>
+
 <h1>Media sponsors</h1>
 <% @msponsors = [
   { :image => "oreilly.png", :name => "OREILLY", :link => "http://www.oreilly.com" },
