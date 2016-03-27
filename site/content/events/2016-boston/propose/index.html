@@ -1,52 +1,226 @@
 ---
+title: Proposals
 extension: html
 filter:
 - erb
-- markdown
-title: proposals
 layout: event
 dirty: true
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
-<p style="text-align: center; font-weight: bold">Our call for proposals will be opening soon!</p>
+<% @cfp_open = "March 28th" %>
+<% @cfp_close = "June 1st" %>
+<% @cfp_annc = "June 13th" %>
 
-<% if false %>
-<p style="text-align: center; font-weight: bold">Our call for proposals is currently open and will close at midnight on Feb 28th!</p>
-<p style="text-align: center">The final selections will be announced June 1st.</p>
+<style>
+  h3#announce { text-align: center; }
+  .strong { font-weight: bold; }
+  .em { font-style: italic; }
+</style>
 
-<p style="font-weight: bold">There will be three types of talks: 30 min, 5 min, and Open Space. Only the first two types require proposals.</p>
-<ol>
-    <li>(8) 30 minute talks - On the main stage to the estimated 1000 person audience.</li>
-    <li>(10) 5 minute Ignite talks -  On the main stage to the full audience with slides changing every 15 seconds (20 slides total).  See Ignite sessions</li>
-    <li>(30) Open Space talks -  Occurring in breakout rooms and spaces. These will be smaller group discussions, welcome even without a prepared presentation.  See Open Space explanation</li>
-</ol>
+<h3 id="annouce">
+  Our call for proposals is currently open and will close at midnight on <%= @cfp_close %>!<br/>
+  The final selections will be announced <%= @cfp_annc %>.
+</h3>
 
-<p style="font-weight: bold">How to submit a proposal: Send an email to <a href="mailto:proposals-boston-2016@devopsdays.org">proposals-boston-2016@devopsdays.org</a> with the following information:</p>
-<ol>
-    <li>Your working title (can be changed later)</li>
-    <li>The type of your talk (30 min or Ignite) (also a good place to indicate if you'd do either)</li>
-    <li>A description or abstract</li>
-    <li>Media links to this talk or a prior talk.  (To help us see that you and the topic can engage the large audience)</li>
-</ol>
+<p>
+  DevOpsDays Boston 2016 is currently accepting session, tutorial, and lightning talk proposals from interested speakers. Our programming is focused on three goals:
 
-<p style="font-weight: bold">Our top criteria for the final selections will be:</p>
-<ol>
-    <li>New content: content not yet presented at other conferences, at this conference, or a new angle to an existing problem</li>
-    <li>New presenters: people who are new to the space and have insightful stuff to say; we want to hear everybody's voice</li>
-    <li>No vendor pitches: as much as we value vendors and sponsors, we just don't think this is the right forum. You can demo at your table or during Open Space.</li>
-</ol>
+  <dl>
+    <dt>Diverse backgrounds</dt>
+    <dd>We're eager to provide a platform to our speakers, so if devops hasn't
+    included people like you in the past, tell us about it in your proposal. We
+    want to make a space for the perspectives of people that are underrepresented
+    in or excluded from technology: people of color, women, LGBTQ people, people
+    with disabilities, students, veterans, and many more. In the more specific
+    context of this event, we want to hear about devops from a wide set of roles:
+    QA testers, security teams, DBAs, network administrators, compliance experts,
+    UX designers, government employees, scientists, and other technologists who
+    face unique challenges.</dd>
 
-<p style="font-weight: bold">Additional Criteria:</p>
-<ol>
-    <li>Be specific (about 20 lines)</li>
-    <li>Detail is good... but not as important as explaining why your proposal would be interesting</li>
-    <li>Propose your own talk; please don't have your marketing department do it for you.</li>
-    <li>Multiple proposals are welcome!</li>
-    <li>Nominations are welcome!  if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
-</ol>
+    <dt>New ideas</dt>
+    <dd>Sure, we know that Docker's hot right now - but what's going to be hot
+    next year? What about in five years? Present the right idea at the right
+    time, and you could help shape that! To help keep our content fresh,
+    preference will also be given to talks that have never been presented at a
+    conference, or even better, to speakers who aren’t regulars on the
+    “conference circuit”.</dd>
 
-<p>Thank you for helping make DevOpsDays Boston a great event!</p>
-<% end %>
+    <dt>Healthy discussion</dt>
+    <dd>Most session submissions focus on how to use a specific piece of
+    technology - and most of those are not accepted. The most memorable
+    conference talks question assumptions, make predictions, or draw conclusions.
+    It's even okay to (respectfully) tell someone that they're wrong - we'd much
+    rather have a disagreement than a room full of nodding heads! DevOpsDays are
+    centered around open spaces, and a good session should act like fertilizer
+    for them, giving people something to start talking about.</dd>
+  </dl>
 
+    We’re also <span class="strong">very interested in nominations</span>. Did
+    you see an awesome presentation at another conference? Is one of your friends
+    hoping to break into the conference circuit? Let us know who to reach out to,
+    or send an introductory email yourself!
+</p>
+
+<h4>Programming guidelines</h4>
+<p>
+  In 2016, we are actively soliciting programming that addresses these topics:
+  <ul>
+    <li>Software development practices for the devops world</li>
+    <li>Velocity, sustainability, and technical debt</li>
+    <li>Quantifying productivity, failure, and risk metrics</li>
+    <li>Professional development, teaching, training, and mentorships</li>
+    <li>Emotional labor and empathy</li>
+    <li>Teaching junior engineers how to be senior engineers</li>
+    <li>Mental health, stress, and burnout</li>
+    <li>Learning lessons from other fields (manufacturing, military, etc.)</li>
+  </ul>
+<p>
+
+<p>
+  We will also accept submissions on perennially popular topics from previous DevOpsDays:
+  <ul>
+    <li>Continuous deployment</li>
+    <li>Automation</li>
+    <li>Containerization</li>
+    <li>Performance monitoring</li>
+    <li>Configuration management</li>
+    <li>Devops in the enterprise</li>
+    <li>Microservices</li>
+    <li>Development methodology</li>
+    <li>Scaling out devops</li>
+    <li>Hiring for devops</li>
+  </ul>
+</p>
+
+<p>
+  However, please consider that novelty is heavily encouraged as per our
+  guidelines above. These topics are popular, but every year we receive more
+  submissions about them than we can accept.
+</p>
+
+<p>
+  Once you know what you want to talk about, think about the format you'd
+  prefer to do it in:
+  <dl>
+    <dt>Sessions</dt>
+    <dd>20 to 45 minute presentations (recommended: leave 5 minutes for
+    questions). Sessions usually feature either a speaker or a moderated
+    panel.</dd>
+
+    <dt>Lightning talks or ignite talks</dt>
+    <dd>Fast-paced, 5 minute presentations (no questions!) given rapid-fire in
+    a scheduled time slot, right before the evening social.</dd>
+
+    <dt>Tutorials or workshops</dt>
+    <dd>One hour to four hour slots focused on improving skill mastery.
+    Tutorials typically include a mix of presentation content and a hands-on
+    “lab”, often with code samples or collaborative coding. This format is
+    significantly more work than a session, and is not recommended for
+    first-time presenters.</dd>
+</dl>
+</p>
+
+<h4>Submitting a talk</h4>
+<p>
+  Send an email to <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Talk Submission <%= @eventid %>"><%= render(:partial => "/#{@eventhome}/_email_organizers") %></a> with the following information:
+  <ol>
+    <li>Title: we'll help you with this if you want!</li>
+    <li>Format: session, panel, poetry slam, etc.</li>
+    <li>Time slot: session, lightning, or tutorial</li>
+    <li>Description: 500 words or less</li>
+    <li>Personal info: who you are, why you want to speak, where you work, how
+    you heard about DevOpsDays, etc.</li>
+  </ol>
+</p>
+
+<p>
+  <span class="strong">Please keep these guidelines in mind:</span>
+  <dl>
+    <dt class="em">Absolutely no vendor pitches</dt>
+    <dd>If your talk is only interesting to someone paying money for your
+    product, it’s a bad fit for DevOpsDays.</dd>
+
+    <dt>Follow the code of conduct</dt>
+    <dd>For example: no threats, no sexualized language or imagery, no insulting
+    audience members</dd>
+
+    <dt>Explain why your proposal is interesting to the devops community</dt>
+    <dd>We’d rather have a lackluster abstract about a very interesting topic
+    than a detailed outline of a topic that isn’t a good fit.</dd>
+
+    <dt>Your talk will go through a blind review process</dt>
+    <dd>That means that reviewers will receive a version of your talk edited to
+    obscure all names, companies, and so on. Make sure that your proposal still
+    makes sense without this information.</dd>
+
+    <dt>Avoid purely technical talks</dt>
+    <dd>We all love technology, but this isn’t a programming language
+    conference or a Docker conference. Talk about tools in the context in which
+    they’ll be used, and relate them to the problems that they solve.</dd>
+
+    <dt>Multiple proposals won’t all be accepted</dt>
+    <dd>If you send in five proposals, we’ll accept the one that is the best
+    fit for the conference. It’s very rare that any speaker will speak more
+    than once, because that would lead to very homogenous programming.</dd>
+  </dl>
+</p>
+
+<h4>What to expect</h4>
+<p>
+  Shortly after you send in your proposal, we'll reach out to you to confirm
+  acceptance. We'll provide feedback on your proposal and let you know whether
+  it's ready for review, needs work first, or is not going to be a good fit for
+  the event. When we're on the same page about the proposal, we'll put in the
+  review queue.
+</p>
+
+<p>
+  Until the submission deadline, you'll continue to have the opportunity to
+  revise your proposal if desired. The submission deadline closes on
+  <%= @cfp_close %> and within two weeks (about two months before the event),
+  we'll let you know whether your proposal was accepted.
+</p>
+
+<p>
+  If your proposal is accepted, we strongly encourage you to send us your final
+  presentation materials as soon as possible so that we can provide editing and
+  feedback. This applies to everyone, but especially to new speakers and
+  lightning talk or tutorial presenters (as these are challenging formats). We're
+  also more than happy to help you do a test run of your talk over Skype.
+</p>
+
+<p>
+  In the months before the event, you'll need to coordinate with us if you
+  require accommodations for travel, hotel, medical needs, childcare, or anything
+  else that would affect your ability or willingness to attend. (If you are
+  curious about whether we could cover your particular situation, please reach
+  out in advance.)
+</p>
+
+<p>
+  We strongly encourage speakers to attend both days of the conference so you
+  can spread your ideas in the conference open spaces. Note that the Evening
+  Social has typically been on the first evening of the conference, and the
+  Speaker’s Dinner has typically been on the last evening of the conference. we
+  recommend planning your travel to permit attending both of these events, as
+  they’re a great chance to meet attendees who are excited by your talk!
+</p>
+
+<p>
+  When you do arrive, check in with a DevOpsDays volunteer and let them know
+  you're a speaker. They'll introduce you to our staff, get you a speaker
+  badge, and schedule some time for an AV test. We recommend assuming the worst
+  and having your presentation materials accessible in a way that organizers
+  can help you if something breaks, such as sharing it via Google Drive.
+</p>
+
+<p>
+  In 2016, we plan to be a multi-track conference. The front row of each room
+  will be reserved for speakers. Please try to attend the session previous to
+  yours in order to minimize switching time. During your presentation, a
+  volunteer will be sitting next to the podium to assist with AV difficulties
+  and to provide time cues for you.
+</p>

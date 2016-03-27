@@ -3,17 +3,19 @@ extension: html
 filter:
 - erb
 - markdown
-title: welcome
+title: Welcome
 layout: event
+platinum: true
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
 <center>
   <table><tr><td>
         <center>
-         <img border=0 width="250" height="149" src="./devopsdaysboston.jpg"> 
+         <img border=0 width="250" height="149" src="./devopsdaysboston.jpg">
 </td><td valign=top>
-<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
+<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location").rstrip() %>! </strong>
 <br><br>
 Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %>
 <br><br>
