@@ -38,5 +38,7 @@ identifying drivers of example roles in an organization (finance, product, tech
 ops, etc), and the remaining will be focused on use cases and strategies for
 applying this skill towards organizational change.
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/GKiEd1kGYdk" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Matt Stratton, Chef

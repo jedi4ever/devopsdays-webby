@@ -33,6 +33,7 @@ somewhat surprising to customers and auditors alike (yes, even in 2015) and
 we've learned a lot over the years in terms of how to follow best practices
 without negatively impacting our ability to execute and innovate.
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/grKMKIhDHTs?start=625&end=925" frameborder="0" allowfullscreen></iframe>
 
 **Speaker:**
 Sterling Windmill, Duo Security

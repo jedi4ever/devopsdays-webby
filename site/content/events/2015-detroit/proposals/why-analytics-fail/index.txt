@@ -27,5 +27,7 @@ they happened.  The second presents several pearls of wisdom on applying
 analytics successfully with insights as to why they work and real world
 evidence of their value.
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Oz_kwA_u4ig" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Elizabeth (Betsy) A. Nichols, Ph.D, Netutive
