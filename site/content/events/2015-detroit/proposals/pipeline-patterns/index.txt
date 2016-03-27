@@ -21,5 +21,7 @@ it works out. Immutable servers, AMI artefacts, baking vs frying: Max and Max
 (not a typo) will navigate the modern day options and help clarify the benefits
 and shortcomings using a combined ~20 years experience.
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Me5_ZlMiPnk" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Max Griffiths & Max Lincoln, ThoughtWorks

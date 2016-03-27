@@ -30,7 +30,7 @@ important to the simpler question of how to get there.
 * Tricks and tactics for inclusivity and relationship-building within the team
 and across your organization.
 
-
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/lKtMEnql5Pk" frameborder="0" allowfullscreen></iframe>
 
 **Speaker:**
 David Shackelford, PagerDuty

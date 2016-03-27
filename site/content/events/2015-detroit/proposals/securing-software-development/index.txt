@@ -31,6 +31,7 @@ risk across this supply chain, ranging from philosophical questions (how should
 we evaluate what third party tools / libraries to use?) to in-the-weeds
 technical issues (signatures vs. checksums, GPG and Git, TLS, ...)
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/FkpBDQn0DYc?start=58&end=358" frameborder="0" allowfullscreen></iframe>
 
 **Speaker:**
 Adam Goodman, Duo Security
