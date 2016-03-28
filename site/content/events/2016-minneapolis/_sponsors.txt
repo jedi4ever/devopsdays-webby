@@ -28,6 +28,8 @@ end
  { :image => "appdynamics-100x100.jpg", :name => "AppDynamics", :link => "https://www.appdynamics.com/" },
  { :image => "sps-100x100.jpg", :name => "SPS Commerce", :link => "http://www.spscommerce.com/" },
  { :image => "sumologic-100x100.jpg", :name => "SumoLogic", :link => "https://www.sumologic.com/" },
+ { :image => "github-100x100.jpg", :name => "Github", :link => "https://www.github.com/" },
+ { :image => "ca-100x100.jpg", :name => "CA Technologies", :link => "https://www.ca.com/" },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
