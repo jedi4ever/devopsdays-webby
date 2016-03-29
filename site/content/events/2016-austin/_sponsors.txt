@@ -24,6 +24,7 @@ end
 { :image => "dell.png", :name => "Dell", :link => "http://www.dell.com"},
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com"},
 { :image => "solarwinds.png", :name => "SolarWinds", :link => "http://www.solarwinds.com"},
+{ :image => "google.png", :name => "Google", :link => "https://cloud.google.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
