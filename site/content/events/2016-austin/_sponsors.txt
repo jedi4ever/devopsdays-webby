@@ -87,3 +87,14 @@ end
 
 <br/>
 <br/>
+
+<h1>Media sponsors</h1>
+
+<% @msponsors = [
+{ :image => "oreilly.png", :name => "Get the DevOps eBook", :link => "http://www.oreilly.com/pub/get/devops"},
+] %>
+<%= make_sponsor_links(@msponsors) %>
+<br />
+
+<br/>
+<br/>
