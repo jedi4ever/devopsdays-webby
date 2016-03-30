@@ -25,6 +25,10 @@ end
 { :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com"},
 { :image => "solarwinds.png", :name => "SolarWinds", :link => "http://www.solarwinds.com"},
 { :image => "google.png", :name => "Google", :link => "https://cloud.google.com/"},
+{ :image => "10thmagnitude.png", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
+{ :image => "collabnet.png", :name => "CollabNet", :link => "http://www.collabnet.com/"},
+{ :image => "threatstack.png", :name => "Threatstack", :link => "https://www.threatstack.com"},
+{ :image => "netuitive.png", :name => "Netuitive", :link => "http://www.netuitive.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -74,6 +78,7 @@ end
 <% @ssponsors = [
 { :image => "pagerduty.png", :name => "Pagerduty", :link => "https://www.pagerduty.com"},
 { :image => "atlassian.png", :name => "Atlassian", :link => "https://www.atlassian.com/software/jira/service-desk"},
+{ :image => "columnit.png", :name => "Column Technologies", :link => "http://www.columnit.com/"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
