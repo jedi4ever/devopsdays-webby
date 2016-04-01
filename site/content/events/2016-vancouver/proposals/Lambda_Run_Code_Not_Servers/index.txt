@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-ignite: false
+talk: false
+ignite: true
 selected: false
 author: Michael Towbin and Jeremy Dyche
 title: "Lambda: Run Code, Not Servers"

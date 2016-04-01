@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Jason Massey
+title: "It's all Code! Using GitHub, Terraform and CircleCI to build a Dev Pipeline"
+---
+
+**Abstract:**
+
+There's more code than ever being used to manage development pipelines. Infrastructure-as-code, configuration management scripts, application source...where should it all live? Get that code off of your local machine and into version control where it belongs! This talk will showcase a simple dev pipeline using Terraform and Circle CI with code, scripts and configuration all stored in GitHub. We'll walk through the progression of a commit, from `git push` to spinning up infrastructure with Terraform to testing with Circle CI.
+
+**Speaker:**
+
+Jason Massey is a Solutions Engineer at GitHub.

@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Baruch Sadogursky
+title: "Docker in production? Done that, what’s next?"
+---
+
+**Abstract:**
+
+Since we all love Docker, won’t it be fun to use it for other purposes that require a standard and simple way to setup things? In this session we’ll share our experience of using Docker for technical pre- and post-sales, trainings and PoCs, using the Docker Machine, Docker Compose, Docker Swarm, and Google Kubernetes.
+
+**Speaker:**
+
+Baruch Sadogursky (a.k.a JBaruch) is the Developer Advocate of JFrog, the home of Artifactory - the Universal Artifact Repository, and Bintray - the Universal Distribution Hub.
+
+For a living he hangs out with the JFrog tech leaders, writes some code around Artifactory and Bintray, and then speaks and blogs about all that. He does it repeatedly for the last dozen of years and enjoys every moment of it.
