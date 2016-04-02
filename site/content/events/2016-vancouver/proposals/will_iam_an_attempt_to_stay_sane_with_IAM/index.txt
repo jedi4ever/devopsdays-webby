@@ -5,8 +5,8 @@ filter:
 - markdown
 dirty: true
 proposal: true
-talk: true
-ignite: false
+talk: false
+ignite: true
 selected: false
 author: Sebastian Vetter
 title: "will-iam: an attempt to stay sane with IAM"
@@ -22,4 +22,4 @@ At Mobify, we decided to change the way we deal with this and provide a differen
 
 **Speaker:**
 
-Sebastian has discovered his love for Python early on and found ways to use it successfully in various industries. Over the last few years, he's been mainly building things for the web using the Django framework. He's also enthusiastic about Docker and improving life, one container at a time. 
+Sebastian has discovered his love for Python early on and found ways to use it successfully in various industries. Over the last few years, he's been mainly building things for the web using the Django framework. He's also enthusiastic about Docker and improving life, one container at a time.

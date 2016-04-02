@@ -1,0 +1,35 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Dmytro Dyachuk and Max Eisenbraun
+title: "Capacity Planning at Demonware"
+---
+
+**Abstract:**
+
+Uninterrupted online gameplay is critical to the success of popular gaming franchises such as Call of Duty.  Call of Duty and other titles rely on Demonware for backend services such as matchmaking, event logging, leader boards and many many others. Ensuring that all the services are available and have predictable low latency response time is essential for creating a great gaming experience from day zero. This is especially challenging given that the backend services see a very rapid traffic increase from tens to millions of concurrent users within days.
+
+DW performs capacity planning at multiple stages of the service lifecycle, from design to deployment. It is done to ensure that services and data centers are provisioned sufficiently for launch, yet have a financially sound hardware footprint.
+
+The presentation will cover the capacity planning process, as well as tools and methods used at Demonware.
+
+The first part of the talk will focus on capacity planning at various phases of the lifetime of a service, and on the importance of load testing and benchmarking.
+
+The second part will cover key metrics gathering, processing and transformation of data into information suitable for decision making. A special focus will be given to doing capacity planning for large MySQL deployments, and web services.
+
+The third part will be dedicated to discussing Demonware’s capacity planning BI. BI aggregates processed metric data with metadata on data centers and services and allows answering high level capacity related questions.
+
+**Speaker:**
+
+##### Dmytro Dyachuk
+Dmytro Dyachuk has been a capacity planning engineer at Demonware, a subsidiary of Activision-Blizzard, for more than four years. He took part in launching Call of Duty, Guitar Hero and Spyro titles.
+
+##### Max Eisenbraun
+Max Eisenbraun joined Demonware last year and also took part in launching Call of Duty, Guitar Hero and Spyro titles

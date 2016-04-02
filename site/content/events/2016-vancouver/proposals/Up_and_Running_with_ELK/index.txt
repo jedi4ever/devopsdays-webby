@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Ryan MacLean
+title: "Up and Running with ELK (Or: the 5 minute ELK install)"
+---
+
+**Abstract:**
+
+Without being too buzz-word laden, a talk to go over get ELK up and running in AWS in a way that would also apply to on-prem, Azure and other cloud vendors. The key difference will be Beats, Mesos and Marathon, which should allow for some fancy screens and hopefully get people ready for container scheduling on many nodes.
+
+**Speaker:**
+
+Seasoned technical systems operator currently deploying servers, workflows and processes to Amazon Web Services by leveraging years of multi-platform web, database and programming experience. In my spare time I dabble in fashion photography, wrestle dogs and pretend to jog.

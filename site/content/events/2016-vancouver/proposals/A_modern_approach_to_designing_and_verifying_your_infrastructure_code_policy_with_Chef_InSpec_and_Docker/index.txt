@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Kevin J. Dickerson
+title: "A modern approach to designing and verifying your infrastructure code policy with Chef, InSpec, and Docker"
+---
+
+**Abstract:**
+
+I’ll discuss a modern approach to design and verify Chef infrastructure code and policy using Chef’s new resource declaration style, InSpec, and containers. Chef’s fundamental building blocks are resources, not recipes, so why not create, consume, and verify those? This modern approach allows you to rapidly and effectively verify your glorious and perfect infrastructure code.
+
+**Speaker:**
+
+Kevin Dickerson is a former sandwich artisan from Oakland, California. He’s written software for billions of years, and currently travels nationally for many many of Chef's fine customers with the Customer Success organization.

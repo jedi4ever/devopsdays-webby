@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Shih Oon Liong
+title: "Making Deployments more Informative"
+---
+
+**Abstract:**
+
+The key question that every developer goes through when they do a release is whether their release will break the web. This talk will go through what are some of the best practice in making sure developers are comfortable in doing releases in a continuous integration/delivery environment and doing these releases frequently. I will go through the iterations of our deployment flow and what were the lessons we learned from them.
+
+**Speaker:**
+
+​Shih Oon Liong is a Senior Operations Developer at Hootsuite, with nearly a decade of experience in operations and development for the web in both London, UK and Vancouver, Canada.  Despite being part of a company with 200+ engineers, Shih Oon is primarily responsible for managing both infrastructure and build pipeline that handles a significant amount of traffic (15 million requests a month) across 3 major applications.
