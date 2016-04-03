@@ -1,6 +1,7 @@
 - Nathen Harvey <a href="https://twitter.com/nathenharvey">@nathenharvey</a> (Chef)
 - Alan Kraft (United States Patent and Trademark Office (USPTO))
 - Michael Barbine <a href="https://twitter.com/BigNerdLoLz">@BigNerdLoLz</a> (Excella Consulting)
+- Laura Barton <a href="https://twitter.com/laurabartondev">@laurabartondev</a> (Excella Consulting)
 - Mark Cornick <a href="https://twitter.com/markcornick">@markcornick</a> (Learning Objects)
 - Mike DelNegro <a href="https://twitter.com/radiocats">@radiocats</a> (FireEye)
 - Greg Elin <a href="https://twitter.com/gregelin">@gregelin</a> (GovReady)
