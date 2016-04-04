@@ -16,7 +16,7 @@ end
   { :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.co/"  },
   { :image => "victorops.png", :name => "VictorOps", :link => "https://victorops.com/"  },
   { :image => "ahead.png", :name => "AHEAD", :link => "https://www.thinkahead.com/"  },
-  { :image => "threatstack.png", :name => "Threat Stack", :link => "https://www.threatstack.com/"  }
+  { :image => "threatstack.png", :name => "Threat Stack", :link => "https://www.threatstack.com/"  },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -28,7 +28,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-  { :image => "pagerduty.png", :name => "PagerDuty", :link => "https://www.pagerduty.com/"  }
+  { :image => "pagerduty.png", :name => "PagerDuty", :link => "https://www.pagerduty.com/"  },
+  { :image => "servercentral.png", :name => "ServerCentral", :link => "http://www.servercentral.com/"  },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
