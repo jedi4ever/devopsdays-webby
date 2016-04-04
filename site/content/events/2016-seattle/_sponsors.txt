@@ -21,7 +21,8 @@ end
 { :image => "sendachi.png", :name => "Sendachi", :link => "http://sendachi.com/"},
 { :image => "github.png", :name => "GitHub", :link => "http://github.com/"},
 { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://pagerduty.com/"},
-{ :image => "splunk.png", :name => "Splunk", :link => "http://www.splunk.com/"}
+{ :image => "splunk.png", :name => "Splunk", :link => "http://www.splunk.com/"},
+{ :image => "capitalone.png", :name => "Capital One Investing", :link => "http://www.capitaloneinvesting.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
