@@ -22,7 +22,7 @@ end
 <br/>
 <h1>Silver sponsors</h1>
 
-<% @ssponsors = [
+<% @ssponsors = [ { :image => "signalfx.jpg", :name => "SignalFX", :link => "https://signalfx.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
