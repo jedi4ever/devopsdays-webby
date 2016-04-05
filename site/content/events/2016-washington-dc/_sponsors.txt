@@ -13,6 +13,8 @@ filter:    erb
 { :image => "excella.png", :name => "Excella", :link => "http://www.excella.com/"},
 { :image => "solarwinds.png", :name => "SolarWinds", :link => "http://www.solarwinds.com/"},
 { :image => "csra.png", :name => "CSRA", :link => "http://www.csra.com/"},
+{ :image => "docker.png", :name => "Docker", :link => "http://www.docker.com/"},
+{ :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
 ]%>
 <% unless @ptsponsors.empty? %>
 <h1>Platinum Sponsors</h1>
