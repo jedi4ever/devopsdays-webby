@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mesut Özen
+title: "Introduction to Vagrant"
+---
+
+**Abstract:**
+
+Sunumda Vagrant teknolojisinin ne olduğunu, neden kullanmamız gerektiğini anlatmaya çalışacağım. Vagrant ile geliştirme ortamlarının nasıl kolayca yönetilebileceğine değineceğim. Son olarak Vagrant ile ilgili bazı terminolojilere değinip, küçük bir örnek yapacağım Vagrant ile ilgili.
+
+**Speaker:**
+Mesut Özen
+
