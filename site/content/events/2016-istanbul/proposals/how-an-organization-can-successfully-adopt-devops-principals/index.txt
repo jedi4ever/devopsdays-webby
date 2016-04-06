@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Simon Poulton
+title: "Continuous Delivery & DevOps CoE, how an organization can successfully adopt DevOps principals"
+---
+
+**Abstract:**
+
+* Where to start with DevOps and/or Continuous Delivery, some practical examples
+* How to get buy in from the business
+* How to build a CoE, some practical lessons
+
+**Speaker:**
+Simon Poulton
+
