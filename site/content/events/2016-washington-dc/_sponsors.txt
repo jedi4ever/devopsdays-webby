@@ -34,6 +34,7 @@ filter:    erb
 <% end %>
 
 <% @agsponsors = [
+{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
 ]%>
 <% unless @agsponsors.empty? %>
 <h1>Silver Sponsors</h1>
