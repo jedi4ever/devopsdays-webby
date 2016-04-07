@@ -19,7 +19,8 @@ end
   { :image => "splunk.png", :name => "Splunk", :link => "https://www.splunk.com"},
   { :image => "sumologic.png", :name => "Sumologic", :link => "https://www.sumologic.com"},
   { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com"},
-  { :image => "trinimbus.png", :name => "TriNimbus", :link => "http://www.trinimbus.com"}
+  { :image => "trinimbus.png", :name => "TriNimbus", :link => "http://www.trinimbus.com"},
+  { :image => "visual_studio.png", :name => "Visual Studio", :link => "https://www.visualstudio.com/"}
 ]%>
 
 <% @gsponsors.each do |sponsor| %>

@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Anish Kumar
+title: "Orchestrating and automating AWS Spot Fleets in a distributed crawler for profit and fun!"
+---
+
+**Abstract:**
+
+At STAT Search Analytics, we unlock insights in complex data to give brands a competitive advantage in search. Several enterprise brands such as Expedia, Ebay, Pinterest etc. track millions of search terms with us everyday. We crawl these search terms on Google, Yahoo and Bing using our distributed system and report valuable SEO metrics to our clients. This helps our clients stay ahead of the competition and win the search game.
+
+An important and expensive component of the distributed system is the Parser. It parses the HTML on the Search Engine Result Page to inform our clients of their website ranking. The parsers are susceptible to changes in the HTML making their speed and performance vary frequently. In our production system, parsers are setup as standard EC2 instances, with multiple workers running on each instance. The EC2 instances are kept ON for the entire day so that the parsers are ready to process jobs whenever required.
+
+I will describe our distributed crawler at a high level. Then, we will discuss how we are moving to AWS Spot Fleets to reduce costs and improve the efficiency of our parsers. There are several challenges that I will talk about – Bidding on Spot Instances, setting up of Spot Fleets and deployment of code, networking and communication of instances with other parts of the distributed system, automation, fault tolerance and orchestration of the entire process. The system is fairly platform agnostic and can be swapped with other cloud computing services like Google, Azure etc.
+
+This talk will be useful to developers and teams that are building a large scale and efficient distributed system and/or are building Big Data Analytics platforms, financial modelling and analysis systems, image and media encoders and web crawlers.
+
+**Speaker:**
+
+Anish Kumar is the Director of Technology at STAT Search Analytics. He has been working on large-scale distributed systems and analytics web applications for the past 6 years at STAT, where he is leading and growing an amazing team of developers. In a previous career, he was conducting Machine Learning research on Natural Language Processing and speaking at research conferences in Europe and Australia. Anish enjoys long distance running, history, museums, travel and food and loves having an engaging conversation on any of those.

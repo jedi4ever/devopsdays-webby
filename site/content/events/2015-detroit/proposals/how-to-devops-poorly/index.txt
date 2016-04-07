@@ -31,6 +31,7 @@ Topics include:
 * Fear-based Scaling
 * Security by Force
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/grKMKIhDHTs?start=315&end=615" frameborder="0" allowfullscreen></iframe>
 
 **Speaker:**
 Clif Bratcher, Duo Security

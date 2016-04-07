@@ -34,5 +34,7 @@ New attendees, and those looking for more context to their DevOps journey
 **What you get:**
 A guided tour of the history of tech, the birth of DevOps and the future of the movement
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/G-grcyBXz9I" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Steve Pereira, Statflo

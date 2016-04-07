@@ -59,6 +59,10 @@
       Portland
     </a>
     -
+    <a href = "/events/2016-boston">
+      Boston
+    </a>
+    -
     <a href = "/events/2016-chicago">
       Chicago
     </a>
@@ -73,6 +77,10 @@
     -
     <a href="/events/2016-newyork">
       New York
+    -
+    <a href = "/events/2016-boise">
+      Boise
+    </a>
     -
     <a href = "/events/2016-singapore">
       Singapore

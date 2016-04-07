@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Hüseyin BABAL
+title: "Infinite Scalable Systems with Docker, Docker Swarm, and Docker Machine"
+---
+
+**Abstract:**
+
+I want to talk about Infinite Scalable Systems with Docker, Docker Swarm, and Docker Machine. In this session I will mention about Docker and history of containerization technology. I will also mention about Docker Machine to create machines along the cloud providers and then use Docker Swarm to setup native clustering beside those machines. At the end of session, I will show a quick demo.
+
+**Speaker:**
+Hüseyin BABAL
+

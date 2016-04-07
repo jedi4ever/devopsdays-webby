@@ -20,6 +20,7 @@ A narrative of one engineer's experiences here in Michigan, traveling out to the
 * the kindling startup culture here
 * why an engineer in the tech hub of the world might want to be here instead
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/SRqbAHjx_yw" frameborder="0" allowfullscreen></iframe>
 
 **Speaker:**
 David Thompson, DeepField

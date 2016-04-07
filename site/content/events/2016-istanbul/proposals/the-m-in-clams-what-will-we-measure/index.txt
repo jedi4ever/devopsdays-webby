@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Simon Poulton
+title: "DevOps - the M in CALMS, what will we measure"
+---
+
+**Abstract:**
+
+* In the CAMLS approach to DevOps the M is Measurement
+* What shall we measure?
+   - App usage
+   - App performance
+   - Code Stats
+   - Success factors
+* Some examples from the field
+
+**Speaker:**
+Simon Poulton
+

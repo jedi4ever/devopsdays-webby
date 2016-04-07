@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mason Leung
+title: "What does DevOps mean to an AdTech company"
+---
+
+**Abstract:**
+
+The Sharethrough platform has grown both in size and complexity as we expand to support more customers.  How can we refresh our infrastructure and continue to serve millions of ad requests without interruption?  DevOps has been coined a movement, a culture change, to something money can't buy.  What does it mean to an AdTech company?  Being the first DevOps, I have the chance to shape this uncharted area.  In this presentation, I like to share lessons we learned from consolidating multiple AWS accounts and the unexpected side effects.  Unknowingly using social psychology to nudge our engineers to deploy more, as a result completed the last mile of our CD pipeline.  Tools we use to treat our "Infrastructure as Code" and refresh it when there are changes without fear.  Increase security and reduce code complexity by using identity and access management tools.  These projects all contributes to the meaning of DevOps at Sharethrough
+
+**Speaker:**
+
+Mason Leung is a Software Engineer at Sharethrough

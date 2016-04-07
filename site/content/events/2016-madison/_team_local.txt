@@ -2,4 +2,5 @@
 - Christian Herro
 - Javier Alvarez Samayoa
 - Michael Stahnke
+- Cea Stapleton
 - Joshua Zimmerman

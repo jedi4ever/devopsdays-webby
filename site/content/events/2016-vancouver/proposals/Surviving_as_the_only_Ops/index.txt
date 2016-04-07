@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Shih Oon Liong
+title: "Surviving as the only Ops"
+---
+
+**Abstract:**
+
+​Many have ended up in their career, whether it is by choice or by circumstances, in which they
+become sole developer who becomes the go­to guy for anything about infrastructure. They become the
+linchpin in the development team and fighting the fires on the servers. This is especially true in start ups or
+agency work where resources are limited and the pace is fast. This talk will suggest some guidelines such
+developer can follow to survive and grow in such an environment.
+
+**Speaker:**
+
+​Shih Oon Liong is a Senior Operations Developer at Hootsuite, with nearly a decade xperience in operations and development for the web in both London, UK and Vancouver, Canada.  Despite being part of a company with 200+ engineers, Shih Oon is primarily responsible for managing both infrastructure and build pipeline that handles a significant amount of traffic (15 million requests a month) across 3 major applications.

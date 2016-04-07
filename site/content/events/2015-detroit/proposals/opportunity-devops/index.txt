@@ -25,5 +25,7 @@ the opportunist has to gain, how the opportunist is to obtain, and where the
 opportunist will transcend. Touching on monitoring, automating responses,
 CI/CD, creating fan out workflows, and innovation.
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/grKMKIhDHTs?start=10&end=310" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Derek DeJonghe, RightBrain Networks

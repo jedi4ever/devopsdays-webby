@@ -5,7 +5,7 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='100' height='100' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img style='border-style:solid;border-width:1px;padding:1px' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width='96' height='96' src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
@@ -17,7 +17,12 @@ end
 { :image => "victorops100.png", :name => "VictorOps", :link => "http://www.victorops.com/"},
 { :image => "expedia.jpg", :name => "Expedia", :link => "http://www.expedia.com/"},
 { :image => "microsoft100.png", :name => "Microsoft", :link => "http://www.microsoft.com/"},
-{ :image => "slalom100.png", :name => "Slalom", :link => "http://www.slalom.com/"}
+{ :image => "slalom100.png", :name => "Slalom", :link => "http://www.slalom.com/"},
+{ :image => "sendachi.png", :name => "Sendachi", :link => "http://sendachi.com/"},
+{ :image => "github.png", :name => "GitHub", :link => "http://github.com/"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://pagerduty.com/"},
+{ :image => "splunk.png", :name => "Splunk", :link => "http://www.splunk.com/"},
+{ :image => "capitalone.png", :name => "Capital One Investing", :link => "http://www.capitaloneinvesting.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />

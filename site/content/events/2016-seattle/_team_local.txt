@@ -1,11 +1,8 @@
-- Jeremy Dyche
-- Michael Towbin
-- Bradley Clerkin
-- Bryan Liston
-- Todd Wilson
-- Mark Peterson
-- Michael Goetz
-- Dan Dicamillo
 - Rob Cummings
 - Dominica DeGrandis
+- Dan Dicamillo
+- Jeremy Dyche
+- Michael Goetz
 - Ken Mugrage
+- Michael Towbin
+- Todd Wilson

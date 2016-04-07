@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Dr. Jennifer Berdahl
+title: "Gender in organizations: From fixing the women to liberating the men"
+---
+
+**Abstract:**
+
+Male-dominated organizations and industries have struggled with integrating women into their ranks. Professor Berdahl presents the different frameworks that have been used for thinking about this problem, from training women to act more like men to examining how work continues to be the site of masculinity contests. Berdahl discusses the underlying assumptions, implied remedies, and ultimate effectiveness of these different frameworks.
+
+**Speaker:**

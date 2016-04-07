@@ -2,8 +2,6 @@
 - Daniel Dreier
 - Spencer Krum
 - Alice Goldfuss
-- Jonathan Harker
-- Caleb Hailey
 - Michelle Carroll
 - Alastair Drong
 - Jason Yee

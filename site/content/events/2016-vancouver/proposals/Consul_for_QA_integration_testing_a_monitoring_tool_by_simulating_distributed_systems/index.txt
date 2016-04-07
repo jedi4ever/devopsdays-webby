@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Rob Salmond
+title: "Consul for QA - integration testing a monitoring tool by simulating distributed systems."
+---
+
+**Abstract:**
+
+Consul has been winning devops mindshare and establishing itself in production deployments. I will explore a less conventional use of this popular service discovery tool for a specific QA use case and discuss problems and successes of this approach.
+
+We decide to build a means of extracting system architecture information from the performance monitoring data we collect in order to generate a structural overview of the components of a distributed system.
+
+And we need to test it end to end. Build and deploy a wide variety of live distributed systems, capture enough data to infer the structure of the application, compare the inferred structure to the actual designed structure.
+
+Use a service discovery tool to wire canned apps together using test fixture data, making test system configuration fast and repeatable.
+
+Enter Consul:
+
+… hard work and thinking ...
+
+**Speaker:**
+
+Reformed mainframe hacker who loves all things web with a penchant for breaking stuff.

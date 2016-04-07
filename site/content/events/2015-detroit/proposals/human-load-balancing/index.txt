@@ -25,6 +25,7 @@ Details:
 * Race-to-the-pager, round-robin, and availability-driven response
 * Multi-tiered support and NOC use cases
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/FkpBDQn0DYc?start=360&end=660" frameborder="0" allowfullscreen></iframe>
 
 **Speaker:**
 David Shackelford, PagerDuty

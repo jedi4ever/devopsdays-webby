@@ -20,15 +20,6 @@ You've probably heard about Continuous Delivery, and you have definitely heard o
 
 This talk will give you some ideas of what a Continuous Delivery pipeline looks like and a workflow the Dev, QA and Ops groups may want to follow. Particular attention will be paid to the application life after deployment and ways of managing the complexity of an ever more distributed system.
 
-Other Info:
-
-+ what is continuous delivery.
-+ application developer workflow, i.e. branch, peer review, master always shippable.
-+ devops workflow, i.e. test driven infrastructure, continuously delivering infrastructure, self service.
-+ running the application, i.e. log aggregation, monitoring, alerting, health.
-+ managing complexity via uniform health APIs, JSON logs, dependency visualizations, tracing application calls.
-+ Depending on timing, this may include a live demo deploying and running in a PaaS.
-
 **Speaker:**
 
 Arthur Maltson, <a href="https://twitter.com/amaltson" target="_blank">@amaltson</a> 
