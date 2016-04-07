@@ -4,18 +4,29 @@ filter:
 - erb
 - markdown
 title: proposals
-layout: event
+layout: event_kiel
 dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>
-<b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
+
+<!--<b>Call for proposals is open - <a href=https://docs.google.com/forms/d/1NbSgfXr0Zi1Tj7CoZ1XoYNiQZ899wi2arKiK1w6Som4/viewform>submit your talk</a></b></b><br>-->
+
+<b>Call for proposals is now closed!</b></b><br>
+Many thanks for all the proposals we received.<br>
+
+<!--<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>-->
+
+<!--<b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>-->
 Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
 </center>
 
+<br>
+### Please view and comment on the [submitted proposals](../proposals/)
+
+<!--
 <hr>
 There are three ways to propose a session:
 <ol>
@@ -24,7 +35,7 @@ There are three ways to propose a session:
   <li><strong><em>Open Space session</em></strong> : even without a prepared presentation we welcome the discussion and interaction by having people propose a session on the fly during Open Space. Check the <a href="/pages/open-space-format">Open Space explanation</a> for more information.
 </ol>
 
-<!--### Even if you don't propose, please consider [commenting on proposals submitted by others](../proposals/) -->
+### Even if you don't propose, please consider [commenting on proposals submitted by others](../proposals/)
 
 Our main criteria to make it to the top selection are:
 
@@ -32,12 +43,30 @@ Our main criteria to make it to the top selection are:
 - _new presenters_: people who are new to the space and have insightful stuff to say; we want to hear everybody's voice
 - _no vendor pitches_: as much as we value vendors and sponsors, we just don't think this is the right forum. You can demo at your table or during Open Space.
 
+<strong>How to submit a proposal:</strong> Follow the link below and fill 
+out the the form to submit a proposal. If you have any questions don't hesitate to send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>]. 
+
+<h2><a href=https://docs.google.com/forms/d/1NbSgfXr0Zi1Tj7CoZ1XoYNiQZ899wi2arKiK1w6Som4/viewform>submit your talk</a></h2>
+
 <!--<strong>How to submit a proposal:</strong> Send an email to [<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_proposals") %>"><%= render(:partial => "/#{@eventhome}/_email_proposals") %></a>] with the following information
 <ol>
 	<li>Proposal working title (can be changed later)</li>
 	<li>Type (presentation, panel discussion, moderated general discussion, debate, etc.,ignite)</li>
 	<li>Description or abstract</li>
-</ol>
+</ol>-->
+
+
+<!--
+We encourage especially women and newcomer to submit a proposal.
+
+<strong>We are looking for ...</strong>
+<ul>
+<li>new ideas and novel concepts, especially if this is your first time presenting on this topic</li>
+<li>practical approaches</li>
+<li>strong human elements and culture</li>
+<li>topics how to achieve diversity and to deal with problems in this matter</li>
+</ul>
+
 <strong>Rules:</strong>
 <ul>
 	<li>Be specific... we aren't mind readers (a description of about 20 lines is about right)</li>
@@ -45,4 +74,5 @@ Our main criteria to make it to the top selection are:
 	<li>Propose your own talk; don't have someone else do it for you.</li>
 	<li>Nominations welcome... if you know someone who has content/experience relevant to the DevOps conversation, please point us in their direction!</li>
 	<li>Multiple proposals welcome... just follow the other rules</li>
-</ul> -->
+</ul>
+-->

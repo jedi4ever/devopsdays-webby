@@ -1,0 +1,28 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Matteo Emili
+title: Development and QA dilemmas in DevOps
+---
+
+**Abstract:**
+
+The quick rise of Continuous Delivery in the enterprise means that common problems are often approached the other way round. Concepts like Feature Flags and Testing In Production caused several headaches to developers and QA engineers, especially where they have a wealth of experience about traditional development.
+
+There are some challenges and approaches which are very common, and they still scare newcomers. Let's have a look at a few of these, with the most common solutions.
+
+
+The first session is both an homage to Gene Kim and a collection of real world experiences, mistakes included. I found the book quite a good resource, not only for myself but also as a foundational book for people approaching DevOps regardless of their skills or role, so it is a great starting point for the session IMHO. This session can also be in open space format.
+
+The second session is about recurring topics I faced during my years as a consultant first, and as an internal advisor then. All in all, they still come back every now and then, especially given the traction DevOps is getting - for example how to manage major, breaking changes with a pipeline and feature flags in a cloud service.
+
+**Speaker:**
+
+Matteo Emili

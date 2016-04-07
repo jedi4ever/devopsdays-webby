@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Mark Eijsermans
+title: "Taming Jenkins with Docker & Mesos"
+---
+
+**Abstract:**
+
+Jenkins is ubiquitous and powerful, but very quickly becomes unruly with a lot of wasted resources. It ultimately becomes a highly operationally dependent snowflake that is hard to manage. Chances are a lot of DevOps attendees use Jenkins for CI/CD with a love/hate relationship. There is a better way; releasing Jenkins as a service in itself just like other software. We’ll talk about how we Dockerized our Jenkins setup (masters & slaves) as immutable containers, get them to share compute resources on Mesos, and create per-team instances to give your engineering teams autonomy. All the while centrally managing and deploying the Jenkins cluster with roll-backs, HA, and easy to manage dependencies.
+
+**Speaker:**
+
+Mark Eijsermans is a Senior Software Engineer on the Platform team at Hootsuite.

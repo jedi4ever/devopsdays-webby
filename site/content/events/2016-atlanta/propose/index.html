@@ -1,0 +1,17 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: proposals
+layout: event
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<center>
+The call for proposals has ended. Thanks to everyone who submitted!
+<br>
+Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
+</center>

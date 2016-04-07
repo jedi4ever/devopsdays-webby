@@ -1,0 +1,22 @@
+---
+filter:    erb
+---
+
+<%
+def make_sponsor_links(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<br/>
+<h1>Sponsors</h1>
+
+<% @sponsors = [
+] %>
+<%= make_sponsor_links(@sponsors) %>
+<br />
+<% if @sponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Sponsor!</a>
+<% elsif @sponsors.size < 16 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Sponsor!</a><% end %>
+

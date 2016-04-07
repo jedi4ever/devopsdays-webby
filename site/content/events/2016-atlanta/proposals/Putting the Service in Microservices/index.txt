@@ -1,0 +1,24 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Jeff Sussna
+title: "Putting the Service in Microservices"
+---
+
+**Opening Keynote:**
+
+Conway’s Law expresses Melvin Conway’s observation that we are doomed to design systems that mirror the shapes of our organizations. Forward-thinking companies like Amazon and Netflix use Conway’s Law to their advantage. They structure their organizations to reflect the kinds of systems they want to create by matching microservices architectures with so-called “2-pizza” micro-teams.
+
+Conway also, though, observed that designing a system is just the beginning; it also needs continual redesign. He stressed the importance of organizational flexibility to effective design. How can we achieve this flexibility without descending into re-org madness?
+
+This talk will explore the relationship between organizations and systems. It will delve more deeply into Conway’s original article, and introduce ‘Conway’s Corollary’. By connecting Conway’s work to ideas from service design and Promise Theory, it will present an approach that treats the design and operations of systems and organizations as continuous and inseparable.
+
+**Speaker:**
+Jeff Sussna

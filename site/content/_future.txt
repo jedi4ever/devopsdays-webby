@@ -1,22 +1,42 @@
-<div style="height:450px;" id="quicklinks">
+<div style="height:700px;" id="quicklinks">
   <table>
     <tr>
       <td>
-        <strong>2015</strong><br/>
-        <a href="/events/2015-berlin/">Berlin - Oct 26 & 27</a><br/>
-        <a href="/events/2015-charlotte">Charlotte - Nov 2 & 3</a><br/>
-        <a href="/events/2015-siliconvalley">Silicon Valley - Nov 6 & 7</a><br/>
-        <a href="/events/2015-detroit">Detroit - Nov 11 & 12</a><br/>
-        <a href="/events/2015-ohio/">Ohio - Nov 18 & 19</a><br/>
-        <a href="/events/2015-warsaw/">Warsaw - Nov 24 & 25</a><br/>
-        <br/><strong>2016</strong><br/>
-        <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21 2016</a><br/>
-        <a href="/events/2016-edinburgh/">Edinburgh - 2016</a><br/>
-        <a href="/events/2016-seattle/">Seattle - 2016</a><br/>
-        <a href="/events/2016-saltlakecity/">Salt Lake City - 2016</a><br/>
-        <a href="/events/2016-philadelphia/">Philadelphia - 2016</a><br/>
-        <a href="/events/2016-london/">London - 2016</a><br/>
-        <a href="/events/2016-kiel/">Kiel - May 12 & 13 2016</a><br/>
+        <strong>2016</strong><br/>
+        <a href="/events/2016-vancouver/">Vancouver - Apr 15 & 16</a><br/>
+        <a href="/events/2016-london/">London - Apr 19 & 20</a><br/>
+        <a href="/events/2016-denver/">Denver - Apr 21 & 22</a><br/>
+        <a href="/events/2016-atlanta/">Atlanta - Apr 26 & 27</a><br/>
+        <a href="/events/2016-austin/">Austin - May 2 & 3</a><br/>
+        <a href="/events/2016-kiel/">Kiel - May 12 & 13</a><br/>
+        <a href="/events/2016-seattle/">Seattle - May 12 & 13</a><br/>
+        <a href="/events/2016-toronto/">Toronto - May 26 & 27</a><br/>
+        <a href="/events/2016-istanbul/">Istanbul - Jun 3</a><br/>
+        <a href="/events/2016-washington-dc/">Washington, DC - Jun 8 & 9</a><br/>
+        <a href="/events/2016-saltlakecity/">Salt Lake City - Jun 14 & 15</a><br/>
+        <a href="/events/2016-siliconvalley/">Silicon Valley - June 24 & 25</a><br/>
+        <a href="/events/2016-amsterdam/">Amsterdam - Jun 29, 30 & Jul 1</a><br/>
+        <a href="/events/2016-minneapolis/">Minneapolis - Jul 20 & 21</a><br/>
+        <a href="/events/2016-portland/">Portland - Aug 9 & 10</a><br/>
+        <a href="/events/2016-boston/">Boston - Aug 25 & 26</a><br/>
+        <a href="/events/2016-chicago/">Chicago - Aug 30 & 31</a><br/>
+        <a href="/events/2016-oslo/">Oslo - Sep 5 & 6</a><br/>
+        <a href="/events/2016-dallas/">Dallas - Sep 15 & 16</a><br/>
+        <a href="/events/2016-newyork/">New York - Sep 23 & 24</a><br/>
+        <a href="/events/2016-boise/">Boise - Oct 7 & 8</a><br/>
+        <a href="/events/2016-singapore/">Singapore - Oct 8 & 9</a><br/>
+        <a href="/events/2016-detroit/">Detroit - Oct 12 & 13</a><br/>
+        <a href="/events/2016-philadelphia/">Philadelphia - Oct 26 & 27</a><br/>
+	<br/>
+        <strong>2016, Dates TBD</strong><br/>
+        <a href="/events/2016-ghent/">Ghent</a><br/>
+        <a href="/events/2016-raleigh/">Raleigh</a><br/>
+        <a href="/events/2016-kansascity/">Kansas City</a><br/>
+        <a href="/events/2016-newzealand/">New Zealand</a><br/>
+        <a href="/events/2016-ohio/">Ohio</a><br/>
+        <a href="/events/2016-nashville/">Nashville</a><br/>
+        <a href="/events/2016-madison/">Madison</a><br/>
+        <a href="/events/2016-capetown/">Cape Town</a><br/>
       </td>
     </tr>
   </table>

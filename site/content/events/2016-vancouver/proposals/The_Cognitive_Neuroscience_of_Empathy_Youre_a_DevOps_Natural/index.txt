@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Dave Mangot
+title: "The Cognitive Neuroscience of Empathy: You’re a DevOps Natural"
+---
+
+**Abstract:**
+
+There is a understanding in the DevOps community that human empathy is a fundamental component of what is required as collaborators and in understanding our customers (for examples see http://blog.ingineering.it/post/72964480807/empathy-the-essence-of-devops, http://www.opsbs.com/2014/03/empathy-in-oss-its-important/, http://chadfowler.com/blog/2014/01/19/empathy/, http://blog.lusis.org/blog/2014/10/19/software-empathy/).  Scientific discoveries have explored just how innate empathy is to the human condition.  With the discovery of mirror neurons (Rizzolatti, et. al), we’ve learned we don't merely observe the actions of others, we activate the same neural circuits to allow us to imagine their goals and motivations. We were born to partner with others instead of "throwing it over the wall". Combining that knowledge of being able to feel what others are feeling, with the recognition that others have a mind (mentalizing), as well as a desire to help those we consider in our “in-group” (prosocial concern), creates a powerful effect when it comes to working with others on a common goal.  Come and learn what role your neurobiology has in our ability to empathize with teammates and why it is at the core of effective cross-functional teams.
+
+**Speaker:**
+
+Dave Mangot is the Director of Operations for Librato and Papertrail and an accomplished systems engineer with over 20 years of experience. He has held positions in various organizations from small startups like Terracotta to multinational corporations like Cable & Wireless and Salesforce, and from systems administrator, to architect.   He has led transformations of multiple companies both in operational maturity and in a deeper adherence to DevOps thinking.   He enjoys time spent as a mentor, a speaker, and a student of so many talented members of the community.   Dave has a degree in Cognitive Science and lives with his wife and three children in San Francisco.

@@ -1,0 +1,49 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Welcome
+layout: event_la1day
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+        <center>
+        <!-- <img border=0 width="160" height="240" src="./yourlogohere.png"> -->
+</td><td valign=top>
+<strong>
+  DevOpsDays is returning to <%= render(:partial => "/#{@eventhome}/_target_location") %>!
+</strong>
+<br><br>
+Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %>
+<br/><br/>
+
+We are proud to announce 6th Annual DevOps Day LA, to be held Friday, January 22, 2016, co-located
+with <a href="http://www.socallinuxexpo.org">SCALE 14x</a>, at the Pasadena Convention Center.
+<br/><br/>
+
+DevOps Day LA is a single day event dedicated to the DevOps community, and professionals who wish
+to improve the interaction and integration between these traditional silos of Development and
+Operations. We're looking for speakers interested in presenting to this forum. The theme for the
+conference this year is <strong>"Surprise!"</strong>, a phrase that all too often fills devops
+teams with dread, but can also be positive.<br/></br/>
+
+<a href="./propose">Proposals</a> for sessions, open spaces, and ignite style talks will be reviewed through Nov 30th.
+<br><br>
+<a href="https://reg.socallinuxexpo.org/reg6/">Register</a>!<br/>
+<a href="./program">View the program</a>!
+<br><br>
+
+<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers")%>">Sponsor the event</a>! It's a great way to promote your organization.
+<br><br>
+
+<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers")%>">Email the organizers</a>
+<br><br>
+</td>
+</tr>
+</table>
+</center>
+
+<hr>

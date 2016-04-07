@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+workshop: false
+selected: false
+author: Speaker 2
+title: "Example Ignite Title"
+---
+
+**Abstract:**
+
+This is the ignite description as submitted by the user, but with their name removed if they put it in the abstract. This lets you post the ignite so people can see the possible talks ahead of time but without the names.
+
+**Speaker:**
+Speaker
+

@@ -1,0 +1,70 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: Welcome
+layout: event
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<h2><%= render(:partial => "/#{@eventhome}/_event_date_start") %> and <%= render(:partial => "/#{@eventhome}/_event_date_end") %></h2>
+
+<div style="text-align:center;">
+<strong>"We're All in This Together."</strong>
+<img src="./dodPeach.png" style="display: block; margin-left: auto;margin-right:auto;">
+  <p><em>
+    "There ain't no revolution, only evolution, but every time I'm in Georgia I 'eat a peach' for peace."</em>
+    <br>
+    - <a href="http://liveforlivemusic.com/news/today-is-the-44th-anniversary-of-the-allman-brothers-eat-a-peach/">Dwayne Allman</a>
+  </p>
+</div>
+
+<p>
+  <a href="/events/2016-atlanta/program/"><h3>Full Agenda</h3></a>
+  <br />
+<h3>Opening Keynote</h3>
+<strong><a href="/events/2016-atlanta/proposals/Putting%20the%20Service%20in%20Microservices/">Putting the Service in Microservices</a></strong><br/>
+<em>by author &amp; consultant</em> <a href="https://twitter.com/jeffsussna">Jeff Sussna</a>
+</p>
+
+<p>
+<h3>Closing Keynote</h3>
+<em>by Docker Evangelist &amp; DevOps Pioneer</em> <a href="https://twitter.com/botchagalupe">John Willis</a>
+</p>
+
+
+
+<br>
+<h2><a href="https://www.eventbrite.com/e/devopsdaysatl-tickets-21363190879">Register Now</a></h2>
+<table>
+  <tr>
+    <td>
+      <!--
+      <img border=0 width="160" height="240" src="./yourlogohere.png">
+      -->
+    </td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td><a href="/<%= @eventhome %>/location/">The Historic Academy of Medicine at Georgia Tech</a></td>
+  </tr>
+    <tr>
+    <td><b>Sponsors</b></td>
+    <td>If your organization is interested in sponsoring <%= render(:partial => "/#{@eventhome}/_title") %>, please <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsoring DevOpsDays <%= render(:partial => "/#{@eventhome}/_title")%>">email us</a>.</td>
+  </tr>
+  <tr>
+    <td><b>Questions?</b></td>
+    <td><a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a></td>
+  </tr>
+
+<br><br>
+<!-- <a href="./registration">Register</a>! -->
+<br><br>
+<!-- <a href="./program">View the program</a>! -->
+
+  </tr>
+</table>
+
+<hr>

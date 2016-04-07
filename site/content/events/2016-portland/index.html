@@ -1,0 +1,53 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: welcome
+layout: event
+dirty: true
+platinum: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<center>
+  <table><tr><td>
+        <center>
+        <!-- <img border=0 width="160" height="240" src="./yourlogohere.png">
+-->
+</td><td valign=top>
+<strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
+<br><br>
+Dates: <%= render(:partial => "/#{@eventhome}/_target_date") %>
+<div style="text-align:center;">
+  <img alt="DevOpsDays PDX 2016" src="logos/devopsdayspdx.png" />
+</div>
+
+<br><br>
+If you'd like to be notified about DevOpsDays PDX 2016, we've got the
+mailing list for you.  We won't ever sell the addresses on the list, we'll
+never let sponsors email it, it's just for us to let you know what's going
+on.
+<br>
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/devopsdayspdx2016" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/devopsdayspdx2016', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+<!-- <a href="./location">Location</a>
+<br><br>
+ -->
+<a href="./propose">Propose a talk</a>
+<br><br>
+<!-- <a href="./registration">Register</a>!
+<br><br>
+ -->
+<!-- <a href="./program">View the program</a>!
+<br><br>
+ -->
+<a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.
+<br><br>
+
+<a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
+<br><br>
+</td>
+</tr>
+</table>
+</center>
+
+<hr>

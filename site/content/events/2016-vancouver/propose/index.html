@@ -1,0 +1,106 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+layout: event
+title: Proposals
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+## Propose a Talk!
+
+<div><p style="font-size:large;">Deadline: March 31, 2016</p></div>
+
+### Steps
+1. Create a proposal (see the Proposal Checklist below)
+2. Email your proposal to [proposals-vancouver-2016@devopsdays.org](mailto:proposals-vancouver-2016@devopsdays.org)
+3. Answer any clarifying questions (via email)
+4. Get a notification whether your proposal was accepted
+
+### Proposal Checklist
+* Title
+* Speaker name (optionally, company/position)
+* Abstract
+* Talk type (Ignite (5 min) or regular (30 min))
+* Twitter handle (or public means of contact)
+* Email (won’t be published, unless specified by you)
+* Bio (max 200 words, we reserve the right to shorten it for publishing/layout reasons)
+
+### Even if you don't propose, please consider [commenting on proposals submitted by others](../proposals/)
+
+## FAQ
+
+### Does DevOpsDays Vancouver have a code of conduct?
+Yes! It’s [here](/events/2016-vancouver/conduct/). If you have a problem related to a breach of the code of conduct, text or speak with any DevOpsDays volunteer to ask for Jenny Yang who is the point person for this.
+
+### But my topic seems too basic!
+We can’t seem to emphasize this enough: DevOpsDays is a conference for everyone involved in operations and devops - that means experts, but also it means people new to these methodologies and ideas. The selection committee will make sure there’s a good balance as long as people like you submit good talks of all levels.
+
+### I have a rough idea, but I need a sounding board.
+We’re all about community. Talk to some of your coworkers maybe drop in on [#vandevops on freenode](http://webchat.freenode.net/?channels=%23vandevops&uio=d4) to chat with some other members of the local community or contact the organizers [proposals-vancouver-2016@devopsdays.org](mailto:proposals-vancouver-2016@devopsdays.org) and see if anyone is free to meet for a coffee and chat.
+
+### What’s your selection process?
+Our selection process involves two criteria:
+
+1. A talk that contributes to improvement and breadth in the Vancouver DevOps community.
+2. A high quality talk that’s educational and engaging to uninitiated, beginner, intermediate and/or advanced practitioners.
+
+### Does my talk fit?
+The majority of our audience are people engaged in technical operations roles. They may be a dedicated operations person, a business person heavily engaged with the ops team, or developers that work closely with the ops team or who have one foot in operations themselves. Within the context of operations, subjects could include:
+
+* architecture and design
+* deployment
+* testing
+* configuration and orchestration
+* monitoring
+* business value
+* risk assessment
+* reliability
+* automation
+* staffing
+
+We’ve tried to make this comprehensive, if you feel your talk fits or does, we’re probably wrong
+
+### What is an Ignite talk?
+
+An Ignite talk is a 5 minute talk where presenters get 20 slides which automatically advance every 15 seconds.
+For more information and inspiration see [ignitetalks.io](http://www.ignitetalks.io).
+
+### What does a proposal look like?
+
+Ignite Talk (5 minutes)
+> **Title:** Data Sanitization
+
+> **Speaker name:** Bobbi Tables
+
+> **Abstract:** In our highly-connected world with several different identities, usernames, shared-accounts, how do we properly write APIs that allow don’t corrupt one another? This presentation will be a quick look at tips and tricks for protecting your own services from other supposedly “trusted” services.
+
+> **Twitter handle:** @bobbi_tables
+
+> **Email:** bobbitables@fakemail.com
+
+> **Bio:** Bobbi Tables is DBA completing her first year in the industry. She enjoys hiking, cooking, and breaking your tweetz.
+
+Presentation (30 minutes)
+> **Title:** Implementing DevOps: Lessons learned
+
+> **Speaker name:** Collin Murray
+
+> **Abstract:** Bunnyware as a company has grown on many axes; teams, staff, services, and infrastructure. Made relatively early attempts to embrace DevOps - established a DevOps team in early 2011 (disbanding it a year later), have 100+ internal puppet modules with Continuous Deployment to production yet we still struggle to articulate DevOps within the company and bridge the Dev vs Ops divide, especially when everyone is busy and has some service to ship. This talk covers a history of “DevOps” at Bunnyware covering what worked and more importantly what didn’t, and with the benefit of hindsight suggests some possible real world approaches for rolling out DevOps in your organisation.
+
+> **Twitter handle:** @dops
+
+> **Email:** cm@fakemail.com
+
+> **Bio:** Collin Murray is a Principal Systems Engineer at Bunnyware, with over ten years experience at scaling systems.
+
+### I can't afford to travel to Vancouver.
+
+Not in Vancouver but have something to say? Company won’t expense the flight? No problem! If you can’t afford to make it out here, we have some budget to get you here so you can give your talk. [Write to us and explain your situation.](mailto:organizers-vancouver-2016@devopsdays.org) We’ll approve travel funding on a case-by-case basis, so apply soon!
+
+### What about child care?
+
+We understand that some parents who can’t afford child care wouldn’t be able to give a talk at Devopsdays Vancouver 2016. That’s why we have set aside some budget to help you with child care expenses. As in all such cases, [write to us and explain your situation.](mailto:organizers-vancouver-2016@devopsdays.org) If your talk is accepted, we will approve payment of child care expenses on a case-by-case basis.

@@ -1,27 +1,97 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2015-berlin">
-      Berlin
+    <a href="/events/2016-vancouver/">
+     Vancouver
     </a>
     -
-    <a href="/events/2015-charlotte">
-      Charlotte
+    <a href="/events/2016-london/">
+     London
     </a>
-    <br>
-    <a href="/events/2015-siliconvalley">
+    -
+    <a href="/events/2016-denver/">
+     Denver
+    </a>
+    -
+    <a href="/events/2016-atlanta/">
+     Atlanta
+    </a>
+    -
+    <a href="/events/2016-austin/">
+     Austin
+    </a>
+    -
+    <a href="/events/2016-kiel/">
+      Kiel
+    </a>
+    -
+    <a href="/events/2016-seattle">
+      Seattle
+    </a>
+    -
+    <a href="/events/2016-toronto">
+      Toronto
+    </a>
+    -
+    <a href="/events/2016-istanbul">
+      Istanbul
+    -
+    <a href="/events/2016-washington-dc">
+      Washington, DC
+    </a>
+    -
+    <a href="/events/2016-saltlakecity">
+      Salt Lake City
+    </a>
+    -
+    <a href="/events/2016-siliconvalley">
       Silicon Valley
     </a>
     -
-    <a href="/events/2015-detroit">
+    <a href="/events/2016-amsterdam">
+      Amsterdam
+    </a>
+    -
+    <a href="/events/2016-minneapolis">
+      Minneapolis
+    </a>
+    -
+    <a href="/events/2016-portland">
+      Portland
+    </a>
+    -
+    <a href = "/events/2016-boston">
+      Boston
+    </a>
+    -
+    <a href = "/events/2016-chicago">
+      Chicago
+    </a>
+    -
+    <a href = "/events/2016-oslo">
+      Oslo
+    </a>
+    -
+    <a href = "/events/2016-dallas">
+      Dallas
+    </a>
+    -
+    <a href="/events/2016-newyork">
+      New York
+    -
+    <a href = "/events/2016-boise">
+      Boise
+    </a>
+    -
+    <a href = "/events/2016-singapore">
+      Singapore
+    </a>
+    -
+    <a href = "/events/2016-detroit">
       Detroit
     </a>
     -
-    <a href="/events/2015-ohio">
-      Ohio
-    </a>
-    -
-    <a href="/events/2015-warsaw">
-      Warsaw
+    <a href="/events/2016-philadelphia">
+      Philadelphia
     </a>
   </h3>
 </div>

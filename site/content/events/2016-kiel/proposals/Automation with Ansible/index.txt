@@ -1,0 +1,22 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Philipp Krenn
+title: "Automation with Ansible"
+---
+
+**Abstract:**
+
+Ansible is both a simple and powerful tool to automate all your infrastructure tasks. Thus it is fully documented and easy to recreate whenever necessary.
+This talk takes a practical approach and skips the basics. Instead we walk through different tasks: First we configure a system and install some dependencies to run a simple Java application. Next we add Elasticsearch to store searchable data for us. Finally, we make our infrastructure highly available by running multiple applications talking to an Elasticsearch cluster.
+
+**Speaker:**
+
+Philipp is a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things Elasticsearch, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.

@@ -1,0 +1,41 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Michael Coté
+title: Keynote - "Land of the Living Donkeys"
+---
+
+**Abstract:**
+DevOps is now at the cusp of being mainstream. All the normals - "donkeys" -
+are eager to figure it out and use it. While there's predictions of lots of
+people trying it, there's always predictions that 90% of people will fail if
+they don't address the right "cultural" issues. This talk describes the
+progress of DevOps in amongst the donkeys and then gives several tips for how
+we can help make the mainstream successful in adopting DevOps. It also covers
+the current progress and best practices that I'm seeing companies adopt as they
+"do the DevOps."
+
+My intention is to do a "state of DevOps" from the perspective of an industry
+analyst, going over surveys and studies of the market to see what adoption is
+like. I think suggest the framing for how to think about DevOps and cloud to
+assure success (focus on using continuous delivery to start using custom
+written software to run your business) and go over several "meatware" tips.
+
+I try to use this talk to give the audience very real things they can start
+doing when they get back to work. It goes over the process, organization, and
+management things they can take back and argue for: I package and present the
+data in a "corporate friendly" way that helpfully gives the audience some of
+the tools they need to go back and convince their organization to look into
+DevOps.
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/2mj9rDEBnMo" frameborder="0" allowfullscreen></iframe>
+
+**Speaker:**
+Michael Coté, Pivotal

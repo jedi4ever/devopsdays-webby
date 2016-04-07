@@ -17,7 +17,9 @@ end
  { :image => "chef.png", :name => "chef", :link => "https://www.chef.io/"},
  { :image => "newrelic.png", :name => "newrelic", :link => "http://newrelic.com/"},
  { :image => "puppet.png", :name => "puppet", :link => "https://puppetlabs.com/"},
- { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"}
+ { :image => "pivotal.png", :name => "pivotal", :link => "http://pivotal.io/"},
+ { :image => "cloudbees.jpeg", :name => "cloudbees", :link => "https://www.cloudbees.com/"},
+ { :image => "solarwinds.png", :name => "solarwinds", :link => "http://www.solarwinds.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -30,7 +32,12 @@ end
 
 <% @ssponsors = [
  { :image => "fuse.jpg", :name => "fuse", :link => "http://www.cardinalhealth.com/en/about-us/our-business/fuse-by-cardinal-health.html"},
- { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"}
+ { :image => "victorops.png", :name => "victorops", :link => "https://victorops.com/"},
+ { :image => "servicenow.png", :name => "servicenow", :link => "https://www.servicenow.com/"},
+ { :image => "cardinal.png", :name => "cardinal", :link => "http://www.cardinalsolutions.com/"},
+ { :image => "bmc.png", :name => "bmc", :link => "http://www.bmc.com/"},
+ { :image => "appdynamic.png", :name => "appdynamic", :link => "http://www.appdynamics.com/"},
+ { :image => "columntechnologies.jpg", :name => "columntechnologies", :link => "http://www.columnit.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -42,7 +49,9 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
- { :image => "advizex.png", :name => "advizex", :link => "http://www.advizex.com/"}
+ { :image => "advizex.png", :name => "advizex", :link => "http://www.advizex.com/"},
+ { :image => "teksystems.png", :name => "teksystems", :link => "http://www.teksystems.com/"},
+ { :image => "redhat.png", :name => "redhat", :link => "http://www.redhat.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />

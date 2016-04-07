@@ -11,34 +11,52 @@ end
 %>
 
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
+{ :image => "ServerDensity-190x190.png", :name => "server density", :link => "https://www.serverdensity.com/"},
+{ :image => "chef200x200.png", :name => "Chef", :link => "https://www.chef.io/"},
+{ :image => "Nuage-Nokia-VerticalLogo-200x200-COLOR-BB.png", :name => "Nuage Networks", :link => "http://www.nuagenetworks.net/"},
+{ :image => "JFrog200x200.png", :name => "JFrog", :link => "https://www.jfrog.com/"},
+{ :image => "elastic-200x200.png", :name => "Elastic", :link => "https://www.elastic.co/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
-<% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+<% elsif @gsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Host sponsor</h1>
+
+<% @hsponsors = [
+{ :image => "kiwi.png", :name => "Kieler Wirtschaftsförderung GmbH", :link => "http://www.kiwi-kiel.de/"},
+] %>
+<%= make_sponsor_links(@hsponsors) %>
+<br />
+<% if @hsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a>
+<% elsif @hsponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Special sponsors</h1>
+<% @esponsors = [{ :image => "Kieler_Nachrichten_Logo100x100.png", :name => "Kieler Nachrichten", :link => "http://www.kn-online.de/"},
+{ :image => "wobe2.png", :name => "wobe-systems GmbH", :link => "http://www.wobe-team.com"},
+{ :image => "gradwerk_logo.png", :name => "Digitalagentur Gradwerk GmbH", :link => "https://www.gradwerk.de"}
+]%>
+<%= make_sponsor_links(@esponsors) %>
+<br />
+<% if @esponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Special Sponsor!</a>
+<% elsif @esponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Special Sponsor!</a><% end %>
 
 <br/>
 <br/>
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "core-admin-logo-100x100.png", :name => "Core-Admin", :link => "http://www.core-admin.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
 <% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
-<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Bronze sponsors</h1>
-
-<% @bsponsors = [
-] %>
-<%= make_sponsor_links(@bsponsors) %>
-<br />
-<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
-<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+<% elsif @ssponsors.size < 12 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
 <br/>
 <br/>
@@ -49,15 +67,3 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
-
-<br/>
-<br/>
-<h1>Host sponsors</h1>
-<% @hsponsors = [
-{ :image => "kiwi.png", :name => "Kieler Wirtschaftsförderung GmbH", :link => "http://www.kiwi-kiel.de/"},
-] %>
-<%= make_sponsor_links(@hsponsors) %>
-<br />
-<% if @hsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a>
-<% elsif @hsponsors.size < 1 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Host Sponsor!</a><% end %>
-

@@ -1,0 +1,48 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Manfred Moser
+title: "Docker Provides Convenience with Hidden Complexity - How Can We Cope?"
+---
+
+**Abstract:**
+
+Using a container as the new unit of deployment greatly simplifies things on the surface. You no longer have your application and all the components in it. You don’t need to worry about the runtime environment. Or the operating system? It is all there. You just have the containers. But hold on. Think again. Things are a lot easier to manage - but you still have all those parts. You still have an operating system. And a runtime environment like e.g. a Java VM. And your application. It consists of a bunch of third party, open source libraries for the web frontend. Oh.. yeah and persistence is handled by that ORM library. And then there is this command line tool we have in the container to manage a few tasks. Learn how you can apply supply chain principles to get a better understanding of your container and all its parts. Improve the workflows around them, optimize the parts and manage it all efficiently. And take advantage of a number of emerging tools to keep it manageable.
+
+Outline:
+
+Introduction to hidden complexity of components inside containers with examples
+
+  * E.g. JAR files and JS libraries in application
+  * Libraries in application server
+  * Services running on operating system of container
+
+Introduction to supply chain management principles
+
+  * Reduce parts
+  * Reduce suppliers
+  * Higher quality parts
+
+Apply supply chain principles to container management and creation
+
+  * Create your own containers
+  * Understand what is in them - including security and license details
+  * Reduce complexity
+  * Manage them in your own registry
+
+Review helpful tools
+
+  * Docker Trusted Registry as SaaS
+  * Sonatype Nexus Repository Manager as on site registry
+  * TwistLock for security analysis
+
+**Speaker:**
+
+Manfred Moser got involved with agile methodologies, CI servers and the intersection of Ops and Dev, before everybody was talking about it.  He has a passion for tools that help other developers. He is a trainer for Apache Maven and the Nexus Repository Manager and author of multiple books. He is a committer with a number of open source projects. As community advocate for Sonatype, he helps developers with their component usage reaching out from Victoria, BC.

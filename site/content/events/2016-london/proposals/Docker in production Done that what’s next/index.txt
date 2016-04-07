@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author:         JBaruch
+title: Docker in production? Done that, what’s next?
+---
+
+**Abstract:**
+
+Since we all love Docker, won’t it be fun to use it for other purposes that require a standard and simple way to setup things? In this session we’ll share our experience of using Docker for technical pre- and post-sales, trainings and PoCs.
+
+**Speaker:**
+
+        JBaruch

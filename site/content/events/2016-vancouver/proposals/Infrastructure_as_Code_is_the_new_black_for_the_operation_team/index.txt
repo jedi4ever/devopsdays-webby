@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Julien Stroheker
+title: "Infrastructure as Code is the new black for the operation team"
+---
+
+**Abstract:**
+
+In a world of DevOps, with your time to deployment having to be faster, you need to be more efficient and flexible on your environment and don't want to lose a few days to spin a bunch of Virtual Machines or Database just for testing or deploying a new feature.
+ 
+It doesn't matter if you're using your own environment or a public cloud provider's, you need to be sure that your  configuration and architecture are the same everywhere for every deployment in every environment. And this is where Infrastructure as Code (IaC) will help you to spin, multiple environments with the same configuration overtime in only a few minutes.
+ 
+We will share during this session how I experienced the changes in my role, from a classic operations guy to a full fan of automatization.
+
+**Speaker:**
+
+Julien Stroheker is a Technical Evangelist at Microsoft.

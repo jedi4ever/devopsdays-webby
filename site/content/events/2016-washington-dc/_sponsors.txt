@@ -1,0 +1,44 @@
+---
+filter:    erb
+---
+<h1>Platinum &amp; Venue Sponsor</h1>
+<a href="http://www.uspto.gov/"><img border=0 alt="USPTO" title="USPTO" width=280px height=70px src="/events/2016-washington-dc/logos/uspto.jpg"></a>
+
+<% @ptsponsors = [
+{ :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io/"},
+{ :image => "cloudpassage.png", :name => "CloudPassage", :link => "http://www.cloudpassage.com/"},
+{ :image => "netuitive.png", :name => "Netuitive", :link => "http://www.netuitive.com/"},
+{ :image => "capitalone.png", :name => "Capital One", :link => "http://www.capitalone.com/"},
+{ :image => "eglobaltech.png", :name => "eGlobalTech", :link => "http://www.eglobaltech.com/"},
+{ :image => "excella.png", :name => "Excella", :link => "http://www.excella.com/"},
+{ :image => "solarwinds.png", :name => "SolarWinds", :link => "http://www.solarwinds.com/"},
+{ :image => "csra.png", :name => "CSRA", :link => "http://www.csra.com/"},
+{ :image => "docker.png", :name => "Docker", :link => "http://www.docker.com/"},
+{ :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
+]%>
+<% unless @ptsponsors.empty? %>
+<h1>Platinum Sponsors</h1>
+<% @ptsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+<% end %>
+
+<% @ausponsors = [
+{ :image => "comcast.png", :name => "Comcast", :link => "http://www.comcast.com/"},
+]%>
+<% unless @ausponsors.empty? %>
+<h1>Gold Sponsors</h1>
+<% @ausponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+<% end %>
+
+<% @agsponsors = [
+{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
+]%>
+<% unless @agsponsors.empty? %>
+<h1>Silver Sponsors</h1>
+<% @agsponsors.each do |sponsor| %>
+<a href='<%= sponsor[:link] %>'><img border=0 alt='<%= sponsor[:name] %>' title='<%= sponsor[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{sponsor[:image]}")%>'></a>
+<% end %>
+<% end %>

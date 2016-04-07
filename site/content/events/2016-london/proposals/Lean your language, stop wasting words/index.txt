@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Claire Agutter
+title: Lean your language, stop wasting words
+---
+
+**Abstract:**
+
+lean thinking focuses on reducing waste.  This can be applied to many different areas of IT, but in this ignite I would challenge the audience to think about language in particular.  How many words are we wasting in enterprise IT from ridiculously long job titles to hundreds of emails to lengthy documents and role descriptions.  The audience should leave with a new perspective on their language output, and hopefully, a desire to stop wasting words.
+
+**Speaker:**
+
+Claire Agutter

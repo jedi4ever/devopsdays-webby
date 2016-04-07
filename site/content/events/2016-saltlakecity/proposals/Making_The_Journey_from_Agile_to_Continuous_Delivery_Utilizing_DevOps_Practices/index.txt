@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Carmen DeArdo
+title: "Making the Journey from Agile to Continuous Delivery Utilizing DevOps Practices"
+---
+
+**Abstract:**
+
+Enterprises are looking to adopt DevOps Practices to improve delivery lead times, quality and efficiency.   Many companies struggle with how to begin this process and relating this to the application of Lean and Agile principles.   This talk describes a foundational model and roadmap, which is being successfully used by a Fortune 100 company on its journey from Agile to Continuous Delivery utilizing DevOps Practices.  The model includes component of practices and culture to establish a roadmap for successful implementation of a DevOps Program.
+
+**Speaker:**
+
+Carmen DeArdo

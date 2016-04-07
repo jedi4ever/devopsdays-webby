@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Stela Udovicic
+title: Use Analytics as DevOps Feedback Loop
+---
+
+**Abstract:**
+
+Abstract: The deployment of micro services and containers is accelerating DevOps adoption making code releases more frequent than ever before. With shorter release times and more cycles, it is paramount to have  full visibility into all elements of the application delivery lifecycle. Join our session to understand how operational analytics  can help DevOps teams in financial institutions create more stable application releases, push code into production faster and provide operational visibility across the entire application development lifecycle. 
+
+Description: DevOps practices like continuous integration, automated configuration and continuous deployment increase development, QA, and operations teams’ dependency on task tracking, automation tools, source code repositories, build servers and test suites to deliver applications.vAll these systems generate valuable insights about application performance, usage, and infrastructure behavior and making sense of this data is not easy. Analytics platforms can help DevOps teams quickly identify and pinpoint code-level issues at any stage of the development and release process.
+ 
+To illustrate the benefits of getting operational insights from DevOps systems, I will give a live demonstration of how to use analytics as DevOps feedback loop. I will also showcase how few leading financial institutions are using analytics to troubleshoot and improve code delivery throughout DevOps lifecycle.
+
+**Speaker:**
+
+Stela Udovicic

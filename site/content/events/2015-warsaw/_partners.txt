@@ -10,8 +10,43 @@ filter: erb
 <a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
 <% end %>
 
-<% @partners = [
+<% @platinum_partners = [
+  { :image => 'uniteam.png', :name => 'Uniteam', :link => 'http://www.uniteam.pl/'},
+]%>
+
+<h1>Platinum Partner</h1>
+<% @platinum_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @gold_partners = [
+  { :image => 'kainos.png', :name => 'Kainos', :link => 'https://www.kainos.pl/'},
+]%>
+
+<h1>Gold Partner</h1>
+<% @gold_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @regeneration_partners = [
+  { :image => 'connectis.png', :name => 'Connectis', :link => 'http://www.connectis.pl/'},
+]%>
+
+<h1>Regeneration Zone Partner</h1>
+<% @regeneration_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @sponsor_partners = [
   { :image => 'codersmill.png', :name => 'Codersmill', :link => 'http://coders-mill.com/' },
+]%>
+
+<h1>Sponsor</h1>
+<% @sponsor_partners.each do |partner| %>
+<a href='<%= partner[:link] %>'><img border=0 alt='<%= partner[:name] %>' title='<%= partner[:name] %>' width=100px height=100px src='<%= File.join('/',@eventhome,"logos/#{partner[:image]}")%>'></a>
+<% end %>
+
+<% @partners = [
   { :image => 'eventory.png', :name => 'EventoryApp', :link => 'http://eventory.cc/'},
   { :image => 'kamea.png', :name => 'Kamea', :link => 'http://kamea.travel.pl/'},
   { :image => 'teetbee.png', :name => 'Teetbee', :link => 'https://teetbee.com/'},

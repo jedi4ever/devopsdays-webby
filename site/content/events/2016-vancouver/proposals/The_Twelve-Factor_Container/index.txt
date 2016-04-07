@@ -1,0 +1,27 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Casey West
+title: "The Twelve-Factor Container"
+---
+
+**Abstract:**
+
+This talk will use the seminal twelve-factor app essay as a guide to discuss the _do’s_ and _dont’s_ of building and running containers. Each factor gives us an opportunity to consider avoidable anti-patterns if you’re using containers to deploy and manage repeatable, reliable, and portable services.
+
+Containers rose in popularity on an oft used metaphor: lightweight virtual machines. We have a robust understanding of the benefits of virtualized hardware as a method of efficient resource utilization. The idea of _even more efficient_ resource utilization makes sense. Unfortunately it’s a problematic metaphor.
+
+Containers represent a constrained set of capabilities compared to virtual machines in order to make fine-grained guarantees about resource constraints and process isolation. This is a good thing. There is overlap in ideal capabilities between VMs and containers but it isn’t complete. Newcomers to the container ecosystem begin with a “lightweight VM” understanding and fall victim to specific anti-patterns.
+
+After this talk you’ll understand common pitfalls in containerization and how you can avoid them. This discussion is useful for developers who wish to gain greater understanding of the environment their applications are deployed to, as well as operators interested in the benefits of containers for their architecture.
+
+**Speaker:**
+
+Working in Internet infrastructure, web app security, and design taught Casey to be a paranoid, UX-oriented, problem solving Internet plumber; his earliest contributions to Perl live to this day on your Mac. Casey’s speaking and writing ranges from open source communities and culture to technical architecture and automation tips and tricks. Casey West wears the mantle of Principal Technologist focused on Pivotal’s Cloud Foundry Platform and lives in Pittsburgh raising three sarcastic children.

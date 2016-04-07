@@ -1,0 +1,57 @@
+---
+extension: html
+layout: event
+filter:
+- erb
+- markdown
+title: Welcome
+dirty: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
+<center>
+  <img border="0" src="static/devops-days-rockies.jpg" alt="DevOpsDays Rockies">
+</center>
+
+<center>
+    <table>
+    <tr>
+      <td>
+          DevOpsDays is back for its 2nd anual event in the Rocky Mountains <%= render(:partial => "/#{@eventhome}/_target_date") -%>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          The event will be held in Denver, spanning two days of great talks and breakout sessions.
+      </td>
+  </tr>
+  <tr><td>
+          Call for Proposals Has ended, stay tuned for voting!
+  </td></tr>
+    <tr>
+        <td>
+            Check out our site, it will serve as the main place we
+            will update information as well as act as our program for the
+            event.
+            <a href="http://www.devopsdaysrox.org/">http://www.devopsdaysrox.org/</a>
+      </td>
+  </tr>
+  </table>
+</center>
+
+<center>
+  <table>
+    <tr>
+      <td><b>Date</b></td>
+      <td><%= render(:partial => "/#{@eventhome}/_target_date") -%></td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>
+          <a href="http://www.fortrustdatacenter.com/data-centers/denver-data-center/">Fortrust</a>
+          <address>4300 Brighton Boulevard Denver, CO 80216</address>
+      </td>
+    </tr>
+    <tr>
+  </table>
+</center>

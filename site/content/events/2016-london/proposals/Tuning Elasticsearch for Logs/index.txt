@@ -1,0 +1,43 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Radu Gheorghe 
+title: "Tuning Elasticsearch for Logs"
+---
+
+**Abstract:**
+
+The ELK stack (Elasticsearch, Logstash, Kibana) is pretty much ideal
+for centralizing logs. Elasticsearch indexes all your data by default,
+so you can do quick searches and analytics. Maybe even more
+importantly, it’s easy to set up: you can get started in minutes if
+you’ve done this before, or maybe hours if it’s your first time (we’ll
+show the basics in this presentation as well).
+
+So you start using ELK and it’s awesome. This encourages more ideas to
+come up. What if I put all my syslog in here, too, next to my Apache
+logs, and correlate them? And then someone else wants to put in the
+firewall logs, to do some other correlations and create even fancier
+dashboards. Soon enough, what used to be a tiny Elasticsearch cluster
+turns into quite a budget-eater, falling apart under load. It’s time
+to roll up your sleeves and start tuning.
+
+In this presentation, the focus is to share all the important
+performance nuggets we learned in years of fiddling with
+Elasticsearch. Which caches help and which are just eating heap and
+pressuring the garbage collector? How to keep the number of shards in
+check, but still make big shards perform? How to provision your
+cluster for different types of load (hot data vs archive data)? How to
+make good use of the all-too-precious memory? Last but not least,
+we’ll look into how you can make your cluster stable so it doesn’t
+fall apart under a load spike.
+
+**Speaker:**
+Radu Gheorghe

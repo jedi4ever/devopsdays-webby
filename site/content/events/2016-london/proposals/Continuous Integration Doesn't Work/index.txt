@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Yegor Bugayenko 
+title: "Continuous Integration Doesn't Work"
+---
+
+**Abstract:**
+
+Abstract: CI is a well-known and popular methodology, which is supposed to help software projects to stabilize their source code and make the entire development more predictable and surprise-free. Even though all this sounds very good in theory, the practice is different.  in many companies I’ve been consulting with, the situation is very similar - continuous integration is causing troubles if being aggressively enforced. There is a very logical reason for that, which I will discuss at the session and will suggest a vendor-neutral solution.
+
+
+**Speaker:**
+Yegor Bugayenko

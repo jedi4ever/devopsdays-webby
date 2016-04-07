@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Boris Livshutz and Manuel Alvarez
+title: "Making Single Page Applications (SPA) faster"
+---
+
+**Abstract:**
+
+The talk will review and propose solutions to the performance challenges of Single Page Apps (SPAs). SPA frameworks cause memory leaks and are so processing intensive that some devices cannot render pages in an acceptable time. Caching is commonly overlook, which is very bad in the latency bound mobile world we live in. Making things harder, monitoring tools do not accurately track UX.
+
+**Speaker:**
+
+Boris works at Akamai on improving the performance of some of the world's largest websites.   Previously he developed best practices for using performance monitoring tools and helped them scale in the cloud.   In his earlier years, he built database and data warehousing products for enterprise customers.
+
+Manuel works with the largest Akamai customers on advanced caching techniques and API optimization in verticals like Finance, High Tech and Telecom.

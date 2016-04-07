@@ -1,0 +1,38 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Leena S N
+title: Deliver with Impact
+---
+
+**Abstract:**
+
+One common problem any delivery team struggles is to have a common understanding of "why" of a product or feature is being built. The documents such as Project Charter, vision document etc. tries to solve this problem, but it’s common to see such documents exist in the repository hardly known or read by anyone in the team. And this document rarely gets updated too. Ask your team members what is the goal of the project? You may be surprised to know how many actually know about it.
+
+The so-called "vision" or "goal" usually rests within Product Manager/Owner or whatever you call that role as, but there is no forum to converse about these goals or ideas as a team. The planning meetings [both iteration and release planning] are supposed to take care of this, but there are no standard guidelines defined which would help to reiterate the same.
+
+This is where Impact Mapping comes into the picture. It is a "Strategic planning technique", defined by Gojko Azdic, explained in the book Impact Mapping. It is a simple technique based on the idea of "asking the right questions":
+
+Why are we building what we are building? 
+Who we think are the actors who’ll get impacted?
+How do we expect to change the actors’ behavior? 
+What are we going to do to create the impacts? 
+
+Fundamental of Impact Mapping is that Impact means a change in the behavior of an actor which usually results in Reduction in the Cost or Improvement in ROI for the business. 
+
+The above questions need to be answered by the entire team [the IT team and the stakeholders], to avoid the following common anti-patterns during the planning meetings:
+Ad-hoc planning
+Wrong Assumptions 
+Pet features
+The objectiv
+
+**Speaker:**
+
+Leena S N

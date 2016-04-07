@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Jorge Salamero Sanz
+title: "War Games - flight training for DevOps"
+---
+
+**Abstract:**
+
+Here @ Server Density we monitor 100.000+ servers processing 2B metrics a day. Downtime is critical for us, that's why we keep training to react to incidents. We organize our internal War Games were all engineers practice the processes involved in incident handling. We have seen how this improves the associated human factors, our processes and our tools.
+
+**Speaker:**
+
+Jorge co-founded Zentyal, a successful open source Exchange protocol interoperability company. He now drives Server Density evangelism, showing potential customers and community members best practices adopting DevOps practices and monitoring their infrastructure. When he's not writing monitoring plugins he's enjoying walks with his 2 dogs across the countryside. 

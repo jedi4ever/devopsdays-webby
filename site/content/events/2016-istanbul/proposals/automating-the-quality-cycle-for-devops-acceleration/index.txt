@@ -1,0 +1,23 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Huw Price
+title: "Automating the quality cycle for DevOps acceleration"
+---
+
+**Abstract:**
+
+* Apply mathematical techniques to understand what assets are required for testing
+* Leverage automation to create the assets
+* Apply automation to execute
+
+**Speaker:**
+Huw Price
+
