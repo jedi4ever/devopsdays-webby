@@ -11,11 +11,13 @@ end
 %>
 
 <% @gsponsors = [
+ { :image => "../logos/gold-wehkamp.png", :name => "Wehkamp", :link => "https://www.wehkamp.nl/"},
+ { :image => "../logos/gold-solvinity.png", :name => "Solvinity", :link => "https://www.solvinity.com/"},
  { :image => "../logos/gold-schubergphilis.png", :name => "Schuberg Philis", :link => "https://www.schubergphilis.com/"},
  { :image => "../logos/gold-pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"},
  { :image => "../logos/gold-stackstate.png", :name => "StackState", :link => "http://stackstate.com/"},
  { :image => "../logos/gold-ubuntu.png", :name => "Ubuntu", :link => "https://ubuntu.com/"},
-{ :image => "../logos/gold-github.png", :name => "Github", :link => "https://github.com/"}
+ { :image => "../logos/gold-github.png", :name => "Github", :link => "https://github.com/"}
 ] %>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -57,6 +59,13 @@ end
  { :image => "../logos/gold-chef.png", :name => "Chef", :link => "https://www.chef.io/"},
 ] %>
 <%= make_sponsor_links(@bbqsponsor) %>
+
+
+<h1>Beer sponsor</h1>
+<% @beersponsor = [
+ { :image => "../logos/silver-redhat.png", :name => "Red Hat", :link => "https://www.redhat.com/"},
+] %>
+<%= make_sponsor_links(@beersponsor) %>
 
 <br/>
 <br/>
