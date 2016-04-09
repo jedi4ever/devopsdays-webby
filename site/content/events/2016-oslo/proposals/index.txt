@@ -36,7 +36,6 @@ This page lists the proposals we have received. Help the presenters with your fe
 <% end -%>
 </ol>
 
-<!--
 <h2>Workshops</h2>
 <ol>
 <%
@@ -48,4 +47,3 @@ This page lists the proposals we have received. Help the presenters with your fe
 <li><%= link_to_page(workshop) %> - <%= workshop.author %>
 <% end -%>
 </ol>
--->
