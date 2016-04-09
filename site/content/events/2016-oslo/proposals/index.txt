@@ -1,11 +1,11 @@
 ---
 title:  proposals
-created_at: 2014-02-28 22:49:19.082858 -06:00
+created_at: 2016-04-09 15:49:19.082858 +01:00
 filter:     
 - erb
 - markdown
 layout: event
-dirty:      true
+dirty: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% parent="/#{@eventhome}/proposals" %>
@@ -23,7 +23,7 @@ This page lists the proposals we have received. Help the presenters with your fe
 <li><%= link_to_page(page) %> - <%= page.author %> 
 <% end -%>
 </ol>
-
+<!--
 <h2>Ignite Talks</h2>
 <ol>
 <%
@@ -35,7 +35,7 @@ This page lists the proposals we have received. Help the presenters with your fe
 <li><%= link_to_page(ignite) %> - <%= ignite.author %>
 <% end -%>
 </ol>
-
+-->
 <h2>Workshops</h2>
 <ol>
 <%
