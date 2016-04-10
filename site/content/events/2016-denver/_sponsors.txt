@@ -202,6 +202,20 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
+{
+    :name   => 'DigitalOcean',
+    :image  => 'Digitalocean.png',
+    :link   => 'https://www.digitalocean.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Regis',
+    :image  => 'Regis.png',
+    :link   => 'http://www.regis.edu/',
+    :width  => '150px',
+    :height => '50px'
+},
 
 
 ]%>
