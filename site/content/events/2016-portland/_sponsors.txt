@@ -23,7 +23,8 @@ end
 
 <% @gsponsors = [
  { :image => "pivotal.png", :name => "Pivotal", :link => "https://pivotal.io"},
- { :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"}
+ { :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"},
+ { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"}
 ] %>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
