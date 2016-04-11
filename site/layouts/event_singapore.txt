@@ -60,7 +60,7 @@ google.load('jquery', '1.3.2');
       </div>
 
       <div class="span-8 last"></div>
-        <h1>Host Sponsors</h1>
+        <h1>Sponsors</h1>
       </div>
 
       <div class="span-15">
