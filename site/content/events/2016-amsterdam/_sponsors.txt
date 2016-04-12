@@ -17,6 +17,7 @@ end
  { :image => "../logos/gold-pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"},
  { :image => "../logos/gold-stackstate.png", :name => "StackState", :link => "http://stackstate.com/"},
  { :image => "../logos/gold-ubuntu.png", :name => "Ubuntu", :link => "https://ubuntu.com/"},
+ {:image => "../logos/gold-thoughtworks.png", :name => "Thoughtworks", :link => "https://thoughtworks.com/"},
  { :image => "../logos/gold-github.png", :name => "Github", :link => "https://github.com/"}
 ] %>
 <%= make_sponsor_links(@gsponsors) %>
