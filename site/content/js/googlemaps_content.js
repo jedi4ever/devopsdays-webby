@@ -344,4 +344,18 @@ function initialize() {
 
   google.maps.event.addListener(boisemarker, "click", function (e) { location.href="/events/2016-boise"});
 
+  var kansascitylocation=new google.maps.LatLng(39.0997, -94.5786);
+  var kansascitymarker = new MarkerWithLabel({
+    position: kansascitylocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Kansas City<br>Oct 20 & 21",
+    labelAnchor: new google.maps.Point(50, 40),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(kansascitymarker, "click", function (e) { location.href="/events/2016-kansascity"});
+
 }
