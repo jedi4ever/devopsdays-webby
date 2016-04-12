@@ -10,12 +10,14 @@ dirty: true
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <% @eventid = File.basename(@eventhome) %>
 
+### The [call for proposals](propose) closed <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.
+
 Questions about proposing a talk can be directed to
 <%= render(:partial => "/#{@eventhome}/_email_proposals") %>.
 
 ### Full-length talks
 
-This year, we are accepting all full-length (20-25 minute) proposals through our blinder system. 
+This year, we are accepting all full-length (20-25 minute) proposals through our blinder system.
 Talk proposals are accepted until <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.
 
 We are especially interested in talks regarding computer and information security,
