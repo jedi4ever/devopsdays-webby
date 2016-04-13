@@ -17,6 +17,8 @@ end
   { :image => "victorops.png", :name => "VictorOps", :link => "https://victorops.com/"  },
   { :image => "ahead.png", :name => "AHEAD", :link => "https://www.thinkahead.com/"  },
   { :image => "threatstack.png", :name => "Threat Stack", :link => "https://www.threatstack.com/"  },
+  { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"  },
+  { :image => "thoughtworks.png", :name => "ThoughtWorks CD Products", :link => "http://www.thoughtworks.com/products/"  },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -49,12 +51,12 @@ end
 
 <br/>
 <br/>
-<h1>Community sponsors</h1>
+<h1>Community partners</h1>
 <% @msponsors = [
 { :image => "ado.png", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"},
 { :image => "sdt.png", :name => "Software Defined Talk", :link => "http://softwaredefinedtalk.com/"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a>
-<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a><% end %>
+<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Partner!</a>
+<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Partner!</a><% end %>
