@@ -22,7 +22,8 @@ end
 { :image => "github.png", :name => "GitHub", :link => "http://github.com/"},
 { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://pagerduty.com/"},
 { :image => "splunk.png", :name => "Splunk", :link => "http://www.splunk.com/"},
-{ :image => "capitalone.png", :name => "Capital One Investing", :link => "http://www.capitaloneinvesting.com/"}
+{ :image => "capitalone.png", :name => "Capital One Investing", :link => "http://www.capitaloneinvesting.com/"},
+{ :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
