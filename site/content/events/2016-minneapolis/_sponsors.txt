@@ -47,6 +47,7 @@ end
   { :image => "logicmonitor-100x100.jpg", :name => "LogicMonitor", :link => "http://www.logicmonitor.com/" },
   { :image => "victorops-100x100.jpg", :name => "VictorOps", :link => "https://victorops.com" },
   { :image => "elastic-100x100.jpg", :name => "Elastic", :link => "https://www.elastic.co" },
+  { :image => "govdelivery.png", :name => "GovDelivery", :link => "https://www.govdelivery.com" },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
