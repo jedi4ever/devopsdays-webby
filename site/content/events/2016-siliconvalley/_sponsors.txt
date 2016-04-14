@@ -14,7 +14,8 @@ end
   { :image => "bigpanda.png", :name => "BigPanda", :link => "https://bigpanda.io/"},
   { :image => "deis.png", :name => "Deis", :link => "http://deis.io/"},
   { :image => "sumologic.jpg", :name => "Sumo Logic", :link => "https://www.sumologic.com"},
-  { :image => "pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"}
+  { :image => "pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"},
+  { :image => "chef.png", :name => "Chef", :link => "https://chef.io/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -49,6 +50,7 @@ end
 <h1>Afternoon break sponsors</h1>
 
 <% @absponsors = [
+   { :image => "datadog.png", :name => "DataDog", :link => "https://www.datadoghq.com"}
 ] %>
 <%= make_sponsor_links(@absponsors) %>
 <br />
