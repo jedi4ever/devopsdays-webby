@@ -28,6 +28,8 @@ end
 { :image => "threatstack.png", :name => "Threatstack", :link => "https://www.threatstack.com"},
 { :image => "netuitive.png", :name => "Netuitive", :link => "http://www.netuitive.com"},
 { :image => "saucelabs.png", :name => "Sauce Labs", :link => "https://saucelabs.com"},
+# { :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com"},
+# { :image => "rancher.png", :name => "Rancher Labs", :link => "http://rancher.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -79,6 +81,7 @@ end
 { :image => "atlassian.png", :name => "Atlassian", :link => "https://www.atlassian.com/software/jira/service-desk"},
 { :image => "columnit.png", :name => "Column Technologies", :link => "http://www.columnit.com/"},
 { :image => "alienvault.png", :name => "AlienVault", :link => "https://www.alienvault.com/"},
+# { :image => "civitaslearning.png", :name => "Civitas Learning", :link => "https://www.civitaslearning.com"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
