@@ -16,6 +16,7 @@ filter:    erb
 { :image => "docker.png", :name => "Docker", :link => "http://www.docker.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
 { :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 ]%>
 <% unless @ptsponsors.empty? %>
 <h1>Platinum Sponsors</h1>
