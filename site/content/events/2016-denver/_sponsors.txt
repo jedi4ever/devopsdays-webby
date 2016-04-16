@@ -216,7 +216,27 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
-
+{
+    :name   => 'App Dynamics',
+    :image  => 'AppDynamics.png',
+    :link   => 'https://www.appdynamics.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Vincent Benjamin',
+    :image  => 'VincentBenjamin.png',
+    :link   => 'http://vincentbenjamin.com/',
+    :width  => '150px',
+    :height => '50px'
+},
+{
+    :name   => 'Cumulus',
+    :image  => 'Cumulus.png',
+    :link   => 'https://cumulusnetworks.com/',
+    :width  => '150px',
+    :height => '50px'
+},
 
 ]%>
 
