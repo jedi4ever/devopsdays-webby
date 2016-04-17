@@ -237,6 +237,13 @@ filter: erb
     :width  => '150px',
     :height => '50px'
 },
+{
+    :name   => 'Conference Ops',
+    :image  => 'ConfOps.png',
+    :link   => '',
+    :width  => '150px',
+    :height => '50px'
+},
 
 ]%>
 
