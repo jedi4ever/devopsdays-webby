@@ -3,7 +3,6 @@
     <tr>
       <td>
         <strong>2016</strong><br/>
-        <a href="/events/2016-vancouver/">Vancouver - Apr 15 & 16</a><br/>
         <a href="/events/2016-london/">London - Apr 19 & 20</a><br/>
         <a href="/events/2016-denver/">Denver - Apr 21 & 22</a><br/>
         <a href="/events/2016-atlanta/">Atlanta - Apr 26 & 27</a><br/>
