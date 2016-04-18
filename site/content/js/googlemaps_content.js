@@ -150,20 +150,6 @@ function initialize() {
 
   google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2016-amsterdam/"});
 
-  var vancouverlocation = new google.maps.LatLng(49.2827, -123.1207);
-  var vancouvermarker = new MarkerWithLabel({
-  position: vancouverlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Vancouver<br>Apr 15 & 16",
-  labelAnchor: new google.maps.Point(65, 50),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-  });
-
-  google.maps.event.addListener(vancouvermarker, "click", function (e) { location.href="/events/2016-vancouver"});
-
   var austinlocation = new google.maps.LatLng(30.2500, -97.7500);
   var austinmarker = new MarkerWithLabel({
   position: austinlocation,

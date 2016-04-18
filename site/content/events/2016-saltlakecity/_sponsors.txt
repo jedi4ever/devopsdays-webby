@@ -41,6 +41,7 @@ end
 
 <% @ssponsors = [
   { :image => "ca.png", :name => "CA", :link => "http://www.ca.com/us/products/develop-test.html" },
+  { :image => "victorops.png", :name => "VICTOROPS", :link => "https://victorops.com" },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -52,7 +53,7 @@ end
 <h1><font color="Green">Green Circle</font> sponsors</h1>
 
 <% @bsponsors = [
-  { :image => "centurylink.png", :name => "CENTURYLINK", :link => "http://www.centurylink.com/business/" },
+  { :image => "centurylink.png", :name => "CENTURYLINK", :link => "https://www.ctl.io" },
 
 ] %>
 <%= make_sponsor_links(@bsponsors) %>

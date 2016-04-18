@@ -15,6 +15,8 @@ filter:    erb
 { :image => "csra.png", :name => "CSRA", :link => "http://www.csra.com/"},
 { :image => "docker.png", :name => "Docker", :link => "http://www.docker.com/"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.chef.io/"},
+{ :image => "thoughtworks.png", :name => "ThoughtWorks", :link => "http://www.thoughtworks.com/"},
+{ :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 ]%>
 <% unless @ptsponsors.empty? %>
 <h1>Platinum Sponsors</h1>
@@ -25,6 +27,7 @@ filter:    erb
 
 <% @ausponsors = [
 { :image => "comcast.png", :name => "Comcast", :link => "http://www.comcast.com/"},
+{ :image => "karsun.png", :name => "Karsun Solutions", :link => "http://www.karsun-llc.com/"},
 ]%>
 <% unless @ausponsors.empty? %>
 <h1>Gold Sponsors</h1>

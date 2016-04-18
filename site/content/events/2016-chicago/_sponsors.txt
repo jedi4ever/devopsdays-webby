@@ -19,6 +19,7 @@ end
   { :image => "threatstack.png", :name => "Threat Stack", :link => "https://www.threatstack.com/"  },
   { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io/"  },
   { :image => "thoughtworks.png", :name => "ThoughtWorks CD Products", :link => "http://www.thoughtworks.com/products/"  },
+  { :image => "github.png", :name => "GitHub", :link => "https://github.com/"  },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -43,6 +44,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+  { :image => "panopta.png", :name => "Panopta", :link => "http://www.panopta.com/"  },
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
@@ -55,6 +57,7 @@ end
 <% @msponsors = [
 { :image => "ado.png", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"},
 { :image => "sdt.png", :name => "Software Defined Talk", :link => "http://softwaredefinedtalk.com/"},
+{ :image => "doc.png", :name => "DevOps Conferences", :link => "http://devopsconferences.com/"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />

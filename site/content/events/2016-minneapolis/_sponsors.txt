@@ -30,6 +30,7 @@ end
  { :image => "sumologic-100x100.jpg", :name => "SumoLogic", :link => "https://www.sumologic.com/" },
  { :image => "github-100x100.jpg", :name => "Github", :link => "https://www.github.com/" },
  { :image => "ca-100x100.jpg", :name => "CA Technologies", :link => "https://www.ca.com/" },
+ { :image => "target.png", :name => "Target", :link => "http://www.target.com/" },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -47,6 +48,7 @@ end
   { :image => "logicmonitor-100x100.jpg", :name => "LogicMonitor", :link => "http://www.logicmonitor.com/" },
   { :image => "victorops-100x100.jpg", :name => "VictorOps", :link => "https://victorops.com" },
   { :image => "elastic-100x100.jpg", :name => "Elastic", :link => "https://www.elastic.co" },
+  { :image => "govdelivery.png", :name => "GovDelivery", :link => "https://www.govdelivery.com" },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
