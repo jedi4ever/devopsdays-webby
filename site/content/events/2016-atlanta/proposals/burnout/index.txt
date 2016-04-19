@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: John Willis
+title: "Burnout"
+---
+
+
+Over the past few years, there seems to have been an increase in suicides in our sector of the IT industry. With complexity and responsibility ever increasing in the creation and support of digital services industries, we have seen a correlated increase in stress levels. We have come to know this as a term we call “Burnout.” Burnout was coined by German-American psychologist Herbert Freudenberger in 1974. The Japanese have a word for burnout that leads to death -- "karoshi." When suicide is involved they call it "karojisatsu." In this presentation, we are going to break down what we know about Burnout. We will look at some survey data and try to suggest some ways to achieve healthier outcomes for ourselves and our colleagues.
+
+
+**Speaker:**
+John Willis
