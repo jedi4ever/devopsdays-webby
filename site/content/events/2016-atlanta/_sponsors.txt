@@ -18,6 +18,8 @@ end
 { :image => "redislabs.png", :name => "RedisLabs", :link => "http://www.redislabs.com"},
 { :image => "autotrader.png", :name => "AutoTrader", :link => "http://www.autotrader.com"},
 { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
+{ :image => "pindrop.png", :name => "Pindrop", :link => "http://www.pindrop.com"},
+{ :image => "newRelic.png", :name => "New Relic", :link => "http://www.newrelic.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -64,6 +66,15 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+
+<h1>Evening Event sponsor</h1>
+<% @msponsors = [
+{ :image => "pindrop.png", :name => "Pindrop", :link => "https://www.pindrop.com"},
+] %>
+<%= make_sponsor_links(@msponsors) %>
 
 <br/>
 <br/>
