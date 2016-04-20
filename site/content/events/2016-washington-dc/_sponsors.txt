@@ -19,6 +19,7 @@ filter:    erb
 { :image => "pagerduty.png", :name => "PagerDuty", :link => "http://www.pagerduty.com/"},
 { :image => "github.png", :name => "GitHub", :link => "http://www.github.com/"},
 { :image => "customink.png", :name => "CustomInk", :link => "http://www.customink.com/"},
+{ :image => "redhat.png", :name => "Red Hat", :link => "http://www.redhat.com/"},
 ]%>
 <% unless @ptsponsors.empty? %>
 <h1>Platinum Sponsors</h1>
