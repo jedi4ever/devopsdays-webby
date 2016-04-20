@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Stela Udovicic
+title: "Improve the impact of DevOps–driven application delivery with machine data insights"
+---
+
+**Abstract:**
+
+The deployment of microservices and containers is accelerating DevOps driven application releases. With shorter release times and increased complexity, it is important to have the full visibility into all elements of the application delivery lifecycle. Join my talk to understand how mining machine data can help DevOps teams improve the velocity, quality and business impact of DevOps-driven application delivery
+
+**Speaker:**
+
+Stela Udovicic is a Senior Product Marketing Manager at Splunk. At Splunk, Stela is working within IT Markets group, focusing on DevOps. She enjoys traveling, reading and swimming,

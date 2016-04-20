@@ -1,9 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2016-vancouver/">
-     Vancouver
-    </a>
-    -
     <a href="/events/2016-london/">
      London
     </a>
@@ -43,6 +39,10 @@
       Salt Lake City
     </a>
     -
+    <a href="/events/2016-siliconvalley">
+      Silicon Valley
+    </a>
+    -
     <a href="/events/2016-amsterdam">
       Amsterdam
     </a>
@@ -52,15 +52,46 @@
     </a>
     -
     <a href="/events/2016-portland">
-      Portland, OR
+      Portland
+    </a>
+    -
+    <a href = "/events/2016-boston">
+      Boston
     </a>
     -
     <a href = "/events/2016-chicago">
       Chicago
     </a>
     -
-    <a href="/events/2016-detroit">
+    <a href = "/events/2016-oslo">
+      Oslo
+    </a>
+    -
+    <a href = "/events/2016-dallas">
+      Dallas
+    </a>
+    -
+    <a href="/events/2016-newyork">
+      New York
+    -
+    <a href = "/events/2016-boise">
+      Boise
+    </a>
+    -
+    <a href = "/events/2016-singapore">
+      Singapore
+    </a>
+    -
+    <a href = "/events/2016-detroit">
       Detroit
+    </a>
+    -
+    <a href="/events/2016-kansascity">
+      Kansas City
+    </a>
+    -
+    <a href="/events/2016-philadelphia">
+      Philadelphia
     </a>
   </h3>
 </div>

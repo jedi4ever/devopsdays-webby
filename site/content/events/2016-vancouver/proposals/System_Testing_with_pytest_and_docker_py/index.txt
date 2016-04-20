@@ -1,0 +1,31 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Christie Wilson and Michael Tom-Wing
+title: "System Testing with pytest and docker-py"
+---
+
+**Abstract:**
+
+System testing a microservice architecture is challenging. As we move away from monolithic architectures, system testing becomes more important but also more complicated.
+
+In the video game industry, if a game doesn’t work properly immediately after launch, it will heavily impact game success. We have found system testing to be an important tool for pre launch testing of game services and operational tools, to guarantee quality of these services at launch.
+
+We want to share with you best practices for system testing: when to write system tests, what to test and what not to, and common pitfalls to avoid. Using python’s pytest tool and docker-py for setting up services and their dependencies has made it easier than ever to write complex but maintainable system tests and we’ll share with you how we’ve made use of them.
+
+Developers (senior and junior) and ops folks can walk away from this talk with practical tips they can use to apply system testing to their software.
+
+**Speaker:**
+
+##### Christie Wilson
+Christie Wilson is the team lead of the Test Tools team at Demoware, which provides high quality tools and best practices for testing AAA video games. Christie founded and runs the Vancouver BC chapter of PyLadies. She loves lolcats and quality.
+
+##### Michael Tom-Wing
+Michael is a software engineer at Demonware, where he masquerades as a video game title developer but really works on DevOps problems. Recently his focus has been on improving software release and deployment management, but also dockerizing everything in sight. He loves Python and all things Japanese, and has been known to have an “automate first, save time later” attitude.

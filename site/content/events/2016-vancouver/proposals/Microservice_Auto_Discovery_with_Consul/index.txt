@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Bill Monkman
+title: "Microservice Auto-Discovery with Consul"
+---
+
+**Abstract:**
+
+At Hootsuite we have created a new microservice framework called Skyline based on REST HTTP services written primarily in Scala, auto discovering and routing using Nginx and Consul, and running in Docker containers on Mesos.
+
+We are moving away from services using non-standard means of communication (ZeroMQ) and have seen this new framework to be far easier to understand, require fewer moving parts and network hops, and be far more tolerant to instability in the network or system.
+
+This talk will cover our experience with using Consul and Nginx to create an easy to use, scalable, and HA service discovery and routing system.
+
+**Speaker:**
+
+Bill has spent his 15+ year career working almost exclusively for startups. He was one of the early employees at Hootsuite and has spent the last 6 years writing PHP and Scala and tackling the many Distributed Systems problems that are come with scaling from a hundred thousand users to tens of millions.

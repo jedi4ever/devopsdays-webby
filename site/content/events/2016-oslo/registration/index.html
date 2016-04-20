@@ -8,8 +8,17 @@ sidebar: false
 title: registration
 layout: event
 ---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
 <div style="width:100%; text-align:left;">
 
-Embed registration iframe/link/etc.
-</div></div>
+<!-- It will be possible to register very soon! In the meantime <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">drop us an email</a> and we will contact you as soon as we open for registration. -->
+<p><strong>Students, stay tuned for a special student discount.</strong></p>
+
+<!-- Embed registration iframe/link/etc. -->
+<div style="width:100%; text-align:left;" >
+<iframe  src="//eventbrite.co.uk/tickets-external?eid=24508983028&ref=etckt" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+</div>
+
 </div>

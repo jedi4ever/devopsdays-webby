@@ -6,6 +6,7 @@ filter:
 title: welcome
 layout: event
 dirty: true
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
 <center>
@@ -17,6 +18,10 @@ dirty: true
 <strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
 <br><br>
 Dates: <%= render(:partial => "/#{@eventhome}/_target_date") %>
+<div style="text-align:center;">
+  <img alt="DevOpsDays PDX 2016" src="logos/devopsdayspdx.png" />
+</div>
+
 <br><br>
 If you'd like to be notified about DevOpsDays PDX 2016, we've got the
 mailing list for you.  We won't ever sell the addresses on the list, we'll
@@ -27,9 +32,8 @@ on.
 <!-- <a href="./location">Location</a>
 <br><br>
  -->
-<!-- <a href="./propose">Propose a talk</a>!
+<a href="./propose">Propose a talk</a>
 <br><br>
- -->
 <!-- <a href="./registration">Register</a>!
 <br><br>
  -->

@@ -4,16 +4,17 @@ filter:
 - erb
 - markdown
 title: welcome
-layout: event
+layout: event_istanbul
 dirty: true
+platinum: true
 ---
 <% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+
 <center>
-  <table><tr><td>
-        <center>
-        <!-- <img border=0 width="160" height="240" src="./yourlogohere.png">
--->
-</td><td valign=top>
+  <a href="http://devopsdays.devopsturkey.org" target="_blank"><img border=0 width="256px" height="256px" src="logos/devopsdays-istanbul.png"><br>
+  devopsdays.devopsturkey.org</a>
+</center>
+<br><br>
 <strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong>
 <br><br>
 Date: <%= render(:partial => "/#{@eventhome}/_target_date") %>
@@ -21,7 +22,7 @@ Date: <%= render(:partial => "/#{@eventhome}/_target_date") %>
 <a href="./location">Location</a>
 <br><br>
 
-<!-- <a href="./propose">Propose a talk</a>! -->
+<a href="./propose">Propose a talk</a>!
 <br><br>
 
 <!-- <a href="./registration">Register</a>! -->
@@ -35,9 +36,5 @@ Date: <%= render(:partial => "/#{@eventhome}/_target_date") %>
 
 <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>">Email the organizers</a>
 <br><br>
-</td>
-</tr>
-</table>
-</center>
 
 <hr>

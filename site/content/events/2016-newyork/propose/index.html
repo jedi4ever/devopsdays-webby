@@ -1,0 +1,18 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+title: proposals
+layout: event
+dirty: true
+platinum: false
+gold: false
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% @eventid = File.basename(@eventhome) %>
+
+<center>
+<b>Our CFP will be opening soon. Stay tuned!.</b><br>
+</center>
+

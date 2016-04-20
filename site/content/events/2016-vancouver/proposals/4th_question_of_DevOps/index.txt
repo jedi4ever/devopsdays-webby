@@ -1,0 +1,26 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Uchit Vyas
+title: "4th question of DevOps"
+---
+
+**Abstract:**
+
+Why DevOps toolchain fails? we are going to showcase devops implementation with speed and correctness which helps in understanding that in agile CI/CD was designed before DevOps revolution happened to the world. we are going to add a fourth question to daily scrum to make it "Agile for DevOps". This best practice has brought down the devops toolchain Ops quality gate failures down by 75%! for fortune 500 companies.
+So want to describe this journey of experience with devops implementations and the complexity involvement for DevOps.
+
+**Speaker:**
+
+Uchit is an IT industry veteran, Cloud technologist at heart and a hands-on Automation/DevOps Consultant at Opex Software. Through his speaking, writing and analysis, he helps businesses take advantage of the emerging technologies. Uchit loves to play Chess and Age of Empires that helps to clearly see the impact of ideas, research & automation empowering economies of IT.
+
+Uchit works with large IT organizations to automate traditional datacenters flow, explores new-age tools and technologies, defines solutions and best practices for small and large enterprises. He worked at world-class product and service companies like SAP and Infosys, during which time he analyzed various cloud platforms, Big Data, Infrastructure Automation, Containers, DevOps and Continuous Delivery.
+
+He has also published various books on Amazon cloud platform and Enterprise Service Bus named Mule ESB cookbook, AWS Development Essentials, Mastering AWS development, DynamoDB Applied Design Patterns and still counting.

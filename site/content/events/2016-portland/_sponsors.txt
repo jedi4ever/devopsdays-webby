@@ -10,9 +10,22 @@ def make_sponsor_links(sponsors)
 end
 %>
 
+<% @psponsors = [
+] %>
+<%= make_sponsor_links(@psponsors) %>
+<br />
+<% if @psponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Platinum Sponsor!</a>
+<% elsif @psponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Platinum Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Gold sponsors</h1>
+
 <% @gsponsors = [
-# { :image => "chef-100x100.png", :name => "CHEF", :link => "http://www.getchef.com"}
-]%>
+ { :image => "pivotal.png", :name => "Pivotal", :link => "https://pivotal.io"},
+ { :image => "elastic.png", :name => "Elastic", :link => "https://elastic.co"},
+ { :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"}
+] %>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
@@ -23,6 +36,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+ { :image => "victorops.png", :name => "VictorOps", :link => "http://victorops.com"},
+ { :image => "columbia.png", :name => "Columbia", :link => "http://www.columbia.com"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />

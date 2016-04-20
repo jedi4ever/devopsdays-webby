@@ -1,0 +1,55 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Kartik Pandya
+title: "Developing and Operating an Enterprise Application as a 12Factor App using Docker and Amazon Web Services"
+---
+
+An application that follows the principles of the 12 Factor results in highly scalable, portable, disposable and manageable deployment. However, making a large scale enterprise or business application into a 12 Factor App is a non-trivial exercise. The technical aspects outlined below are keys to developing and operating a large scale enterprise application as a 12 Factor App:
+
+·         Componentization:
+
+o    How Spring Boot and microservices architecture could play a big role in breaking a larger monolithic application into finer grained components
+
+o    How these finer grained components could be developed, tested and versioned independently
+
+o    How Spring Cloud and Netflix libraries could be leveraged to build the plumbing around these microservices components that can provide the binding features such as service look ups, load balancing, graceful failure handling and dynamic routing of requests across these components
+
+o    What role unit testing and JUnit frameworks could play to ensure that the developed code is well tested before it reaches the version control system
+
+·         Containerization:
+
+o    How Docker could be leveraged to build, deliver and deploy the component images with consistent naming and versioning schemes.
+
+o    How containerization could help encapsulate the technology stack and application configuration nuances
+
+o    How containerization could help us optimize our applications for cross-platform deployments (cloud or on-premise)
+
+·         Continuous Integration:
+
+o    How a Continuous Integration and Continuous Delivery platform can be built for thoroughly testing microservices components
+
+o    Frequency and scheduling of different phases of testing and verification (functional, performance, upgradability and user acceptance) before code can be promoted to staging and production environments
+
+o    How CI/CD platform can help developers find the defects in minutes after development
+
+·         Cloud Runtime:
+
+o    How Amazon Cloud Formation and EC2 Container Service (ECS) can be leveraged to run, scale and manage microservice components on EC2
+
+o    How to enable frequent, independent and zero-downtime upgrades of the deployed components
+
+o    How to keep the application source-code completely agnostic of the underlying cloud platform such as AWS
+
+
+My presentation/talk would primarily focus on these four topics and will discuss how an organization can manage getting the developers and deployment engineers work in unison to create a consistent environment for development, testing and production.
+
+**Speaker:**
+Kartik Pandya

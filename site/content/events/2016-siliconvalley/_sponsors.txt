@@ -1,0 +1,103 @@
+---
+filter:    erb
+---
+
+<%
+def make_sponsor_links(sponsors)
+  sponsors.map do |sponsor|
+    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+  end.join("\n")
+end
+%>
+
+<% @gsponsors = [
+  { :image => "bigpanda.png", :name => "BigPanda", :link => "https://bigpanda.io/"},
+  { :image => "deis.png", :name => "Deis", :link => "http://deis.io/"},
+  { :image => "sumologic.jpg", :name => "Sumo Logic", :link => "https://www.sumologic.com"},
+  { :image => "pivotal.png", :name => "Pivotal", :link => "https://pivotal.io/"},
+  { :image => "chef.png", :name => "Chef", :link => "https://chef.io/"}
+]%>
+<%= make_sponsor_links(@gsponsors) %>
+<br />
+<% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
+<% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Silver sponsors</h1>
+
+<% @ssponsors = [ { :image => "signalfx.jpg", :name => "SignalFX", :link => "https://signalfx.com"}
+] %>
+<%= make_sponsor_links(@ssponsors) %>
+<br />
+<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
+<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Charging Station sponsors</h1>
+
+<% @cssponsors = [
+   { :image => "victorops.png", :name => "VictorOps", :link => "https://victorops.com"}
+] %>
+<%= make_sponsor_links(@cssponsors) %>
+<br />
+<% if @cssponsors.size == 0 %>Become the <a href="/<%= @eventhome %>/sponsor/#sponsorship">Charging Station Sponsor!</a>
+<% elsif @cssponsors.size < 2 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Charging Station Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Afternoon break sponsors</h1>
+
+<% @absponsors = [
+   { :image => "datadog.png", :name => "DataDog", :link => "https://www.datadoghq.com"}
+] %>
+<%= make_sponsor_links(@absponsors) %>
+<br />
+<% if @absponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Afternoon Break Sponsor!</a>
+<% elsif @absponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Afternoon Break Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Bronze sponsors</h1>
+
+<% @bsponsors = [
+] %>
+<%= make_sponsor_links(@bsponsors) %>
+<br />
+<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
+<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+
+
+<br/>
+<br/>
+<h1>Shirt sponsors</h1>
+
+<% @tsponsors = [
+] %>
+<%= make_sponsor_links(@tsponsors) %>
+<br />
+<% if @tsponsors.size == 0 %>Become our <a href="/<%= @eventhome %>/sponsor/#sponsorship">Shirt Sponsor!</a>
+<% elsif @tsponsors.size < 1 %>Become our <a href="/<%= @eventhome %>/sponsor/#sponsorship">Shirt Sponsor!</a><% end %>
+
+<br/>
+<br/>
+<h1>Party Sponsor</h1>
+<% @psponsors = [
+] %>
+<%= make_sponsor_links(@psponsors) %>
+<br />
+<% if @psponsors.size == 0 %>Become our <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a>
+<% elsif @psponsors.size < 1 %>Become our <a href="/<%= @eventhome %>/sponsor/#sponsorship">Party Sponsor!</a><% end %>
+
+
+<br/>
+<br/>
+<h1>Community sponsors</h1>
+<% @ccsponsors = [
+  { :image => "ado.png", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"}
+] %>
+<%= make_sponsor_links(@ccsponsors) %>
+<br />
+<% if @ccsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a>
+<% elsif @ccsponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Sponsor!</a><% end %>

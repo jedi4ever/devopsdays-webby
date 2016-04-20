@@ -5,7 +5,7 @@ filter:    erb
 <%
 def make_sponsor_links(sponsors)
   sponsors.map do |sponsor|
-    "<a href='#{sponsor[:link]}'><img style='border:1px solid #1e93ba' alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
+    "<a href='#{sponsor[:link]}'><img alt='#{sponsor[:name]}' title='#{sponsor[:name]}' width=100px height=100px src='#{File.join('/',@eventhome,"logos/#{sponsor[:image]}")}'></a>"
   end.join("\n")
 end
 %>
@@ -13,12 +13,13 @@ end
 <% @gsponsors = [
 { :image => "versionone.png", :name => "VersionOne", :link => "http://www.versionone.com"},
 { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"},
-# { :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
-# { :image => "redis.png", :name => "RedisLabs", :link => "http://www.redis.com"},
-# { :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"},
-# { :image => ".png", :name => "", :link => "http://www..com"},
-# { :image => ".png", :name => "", :link => "http://www..com"},
-# { :image => ".png", :name => "", :link => "http://www..com"}
+{ :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"},
+{ :image => "sumologic.png", :name => "SumoLogic", :link => "http://www.sumologic.com"},
+{ :image => "redislabs.png", :name => "RedisLabs", :link => "http://www.redislabs.com"},
+{ :image => "autotrader.png", :name => "AutoTrader", :link => "http://www.autotrader.com"},
+{ :image => "chef.png", :name => "Chef", :link => "http://www.getchef.com"},
+{ :image => "pindrop.png", :name => "Pindrop", :link => "http://www.pindrop.com"},
+{ :image => "newRelic.png", :name => "New Relic", :link => "http://www.newrelic.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -30,8 +31,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-# { :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
-# { :image => ".png", :name => "", :link => "http://www.com"}
+{ :image => "mailchimp.png", :name => "Mailchimp", :link => "http://www.mailchimp.com"},
+{ :image => "tropo.png", :name => "Tropo", :link => "https://www.tropo.com"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -56,9 +57,29 @@ end
 <h1>Media sponsors</h1>
 <% @msponsors = [
 { :image => "bit.png", :name => "Blacks in Technology", :link => "https://www.blacksintechnology.net"},
-{ :image => "ado.png", :name => "Arrested Devops", :link => "https://www.arresteddevops.com"}
+{ :image => "ado.png", :name => "Arrested Devops", :link => "https://www.arresteddevops.com"},
+{ :image => "sonatype.png", :name => "Sonatype", :link => "https://www.sonatype.com"},
+{ :image => "devopsdotcom.png", :name => "DevOps.com", :link => "http://www.devops.com"}
+
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+
+<br/>
+<br/>
+
+<h1>Evening Event sponsor</h1>
+<% @msponsors = [
+{ :image => "pindrop.png", :name => "Pindrop", :link => "https://www.pindrop.com"},
+] %>
+<%= make_sponsor_links(@msponsors) %>
+
+<br/>
+<br/>
+<h1>Badge sponsor</h1>
+<% @msponsors = [
+{ :image => "upguard.png", :name => "Upguard", :link => "https://www.upguard.com"},
+] %>
+<%= make_sponsor_links(@msponsors) %>

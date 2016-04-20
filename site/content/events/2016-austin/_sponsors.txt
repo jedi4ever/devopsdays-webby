@@ -13,6 +13,23 @@ end
 <% @gsponsors = [
 { :image => "pivotal.png", :name => "Pivotal", :link => "http://www.pivotal.io"},
 { :image => "newiron.png", :name => "New Iron", :link => "http://www.newiron.com"},
+{ :image => "thoughtworks.png", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/products"},
+{ :image => "victorops.png", :name => "VictorOps", :link => "http://www.victorops.com"},
+{ :image => "logicmonitor.png", :name => "Logicmonitor", :link => "http://www.logicmonitor.com"},
+{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
+{ :image => "elastic.png", :name => "Elastic", :link => "https://www.elastic.io"},
+{ :image => "parasoft.png", :name => "Parasoft", :link => "https://www.parasoft.com"},
+{ :image => "bmc.png", :name => "BMC", :link => "http://www.bmc.com"},
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com"},
+{ :image => "solarwinds.png", :name => "SolarWinds", :link => "http://www.solarwinds.com"},
+{ :image => "google.png", :name => "Google", :link => "https://cloud.google.com/"},
+{ :image => "10thmagnitude.png", :name => "10th Magnitude", :link => "http://www.10thmagnitude.com/"},
+{ :image => "collabnet.png", :name => "CollabNet", :link => "http://www.collabnet.com/"},
+{ :image => "threatstack.png", :name => "Threatstack", :link => "https://www.threatstack.com"},
+{ :image => "netuitive.png", :name => "Netuitive", :link => "http://www.netuitive.com"},
+{ :image => "saucelabs.png", :name => "Sauce Labs", :link => "https://saucelabs.com"},
+# { :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com"},
+# { :image => "rancher.png", :name => "Rancher Labs", :link => "http://rancher.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -36,6 +53,7 @@ end
 <h1>Happy Hour sponsor</h1>
 
 <% @hhsponsors = [
+{ :image => "chef.png", :name => "Chef", :link => "https://www.chef.io"},
 ] %>
 <%= make_sponsor_links(@hhsponsors) %>
 <br />
@@ -47,6 +65,7 @@ end
 <h1>Lanyard sponsor</h1>
 
 <% @lsponsors = [
+{ :image => "ca.png", :name => "CA", :link => "http://www.ca.com/us.html"},
 ] %>
 <%= make_sponsor_links(@lsponsors) %>
 <br />
@@ -58,11 +77,27 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "pagerduty.png", :name => "Pagerduty", :link => "https://www.pagerduty.com"},
+{ :image => "atlassian.png", :name => "Atlassian", :link => "https://www.atlassian.com/software/jira/service-desk"},
+{ :image => "columnit.png", :name => "Column Technologies", :link => "http://www.columnit.com/"},
+{ :image => "alienvault.png", :name => "AlienVault", :link => "https://www.alienvault.com/"},
+# { :image => "civitaslearning.png", :name => "Civitas Learning", :link => "https://www.civitaslearning.com"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
 <% if @ssponsors.size == 0 %>Be the first to become a <a href="http://www.devopsdaysaustin.com/#sponsors">Silver Sponsor!</a>
 <% elsif @ssponsors.size < 6 %>Become a <a href="http://www.devopsdaysaustin.com/#sponsors">Silver Sponsor!</a><% end %>
+
+<br/>
+<br/>
+
+<h1>Media sponsors</h1>
+
+<% @msponsors = [
+{ :image => "oreilly.png", :name => "Get the DevOps eBook", :link => "http://www.oreilly.com/pub/get/devops"},
+] %>
+<%= make_sponsor_links(@msponsors) %>
+<br />
 
 <br/>
 <br/>

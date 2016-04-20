@@ -1,0 +1,21 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: false
+ignite: true
+selected: false
+author: Jan Ulrich
+title: "Leveling Up Deployment Infrastructure"
+---
+
+**Abstract:**
+
+As our organization grows, we have to grow our deployment tools with it. I will discuss improvements we've made including removing shared SSH keys, pull vs push deployments, using build artifacts, and doing atomic deploys. We've got a fully continuous deployment process, getting our deploy times and our build times under 15 minutes each. I'll also present running the CI tests in Docker containers so that we will be testing the code in the exact same environment as production.
+
+**Speaker:**
+
+Jan Ulrich is the DevOps team manager and developer at Salesforce Pardot, where he's been working on automating internal processes. Previously Jan was co-founder of Optemo Technologies building e-commerce solutions for large retailers.

@@ -37,5 +37,7 @@ Based on my experience over multiple cloud deployments, I will share a
 collection of anti-patterns and best practices to build production-ready
 cloud-native applications.
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/DdTNc4nWP3o" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Mallika Iyer, Pivotal

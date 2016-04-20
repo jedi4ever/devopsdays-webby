@@ -16,8 +16,12 @@ dirty: true
     <td valign=top>
       <p><strong>DevOpsDays is coming to <%= render(:partial => "/#{@eventhome}/_target_location") %>! </strong></p>
       <p>Dates: <%= render(:partial => "/#{@eventhome}/_event_date_start") %> - <%= render(:partial => "/#{@eventhome}/_event_date_end") %></p>
-      <!-- <p><a href="./location">Location</a> </p>-->
-      <!-- <p><a href="./propose">Propose a talk</a>! </p>-->
+      <p><a href="./location">Location</a> (same as <a href="../2015-singapore">last year</a>)</p>
+      <p><a href="./propose">Propose a talk</a>!
+        Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.
+        Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.<br>
+        Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
+      </p>
       <!-- <p><a href="./registration">Register</a>! </p>-->
       <!-- <p><a href="./program">View the program</a>! </p>-->
       <p><a href="./sponsor">Sponsor the event</a>! It's a great way to promote your organization.</p>

@@ -1,0 +1,19 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Rebecca Miller-Webster
+title: "Frameworks for Feedback"
+---
+Code reviews, stand up, retros, and performance reviews — all acknowledge the importance of communication and feedback and they are good starts. But they don’t tell you how to give negative feedback or ensure that you, as a teammate or manager, hear the small things before they become big things.
+
+Let’s talk about feedback and examine frameworks for how to ask for and frame feedback effectively. Not all situations call for the same type of feedback and some are more sensitive than others. We will look at Non-violent communication, techniques from family and marriage therapy, as well as more traditional frameworks for feedback.
+
+**Speaker:**
+Rebecca Miller-Webster

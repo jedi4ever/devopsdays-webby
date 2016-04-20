@@ -13,6 +13,7 @@ end
 <% @psponsors = [
   { :image => "chef-100x100.jpg", :name => "CHEF", :link => "http://www.chef.io" },
   { :image => "pivotal-100x100.jpg", :name => "Pivotal", :link => "http://www.pivotal.io" },
+  { :image => "uhg-100x100.jpg", :name => "UnitedHealth Group", :link => "http://www.unitedhealthgroup.com/" }
 ]%>
 <%= make_sponsor_links(@psponsors) %>
 <br />
@@ -22,8 +23,14 @@ end
 <h1>Gold sponsors</h1>
 
 <% @gsponsors = [
- { :image => "thoughtworks-100x100.jpg", :name => "Thoughtworks", :link => "http://www.thoughtworks.com" },
- { :image => "newrelic-100x100.jpg", :name => "New Relic", :link => "http://www.newrelic.com" }
+ { :image => "thoughtworks-100x100.jpg", :name => "Thoughtworks", :link => "http://www.thoughtworks.com/products" },
+ { :image => "newrelic-100x100.jpg", :name => "New Relic", :link => "http://www.newrelic.com" },
+ { :image => "appdynamics-100x100.jpg", :name => "AppDynamics", :link => "https://www.appdynamics.com/" },
+ { :image => "sps-100x100.jpg", :name => "SPS Commerce", :link => "http://www.spscommerce.com/" },
+ { :image => "sumologic-100x100.jpg", :name => "SumoLogic", :link => "https://www.sumologic.com/" },
+ { :image => "github-100x100.jpg", :name => "Github", :link => "https://www.github.com/" },
+ { :image => "ca-100x100.jpg", :name => "CA Technologies", :link => "https://www.ca.com/" },
+ { :image => "target.png", :name => "Target", :link => "http://www.target.com/" },
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -35,7 +42,13 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-  { :image => "signalfx-100x100.jpg", :name => "SignalFX", :link => "http://www.signalfx.com" }
+  { :image => "signalfx-100x100.jpg", :name => "SignalFX", :link => "http://www.signalfx.com" },
+  { :image => "pantheon-100x100.jpg", :name => "Pantheon", :link => "https://pantheon.io" },
+  { :image => "veritas-100x100.jpg", :name => "Veritas", :link => "https://www.veritas.com/" },
+  { :image => "logicmonitor-100x100.jpg", :name => "LogicMonitor", :link => "http://www.logicmonitor.com/" },
+  { :image => "victorops-100x100.jpg", :name => "VictorOps", :link => "https://victorops.com" },
+  { :image => "elastic-100x100.jpg", :name => "Elastic", :link => "https://www.elastic.co" },
+  { :image => "govdelivery.png", :name => "GovDelivery", :link => "https://www.govdelivery.com" },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -44,11 +57,13 @@ end
 
 <br/>
 <br/>
-<h1>Media sponsors</h1>
+<h1>Community partners</h1>
 <% @msponsors = [
-  { :image => "oreilly-100x100.jpg", :name => "O'Reilly Media", :link => "http://www.oreilly.com/"}
+  { :image => "oreilly-100x100.jpg", :name => "O'Reilly Media", :link => "http://www.oreilly.com/" },
+  { :image => "ado-100x100.jpg", :name => "Arrested DevOps", :link => "https://www.arresteddevops.com/"},
+  { :image => "sdt-100x100.jpg", :name => "Software Defined Talk", :link => "http://cote.io/podcasts/sdt/"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
-<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
-<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+<% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Partner!</a>
+<% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Community Partner!</a><% end %>

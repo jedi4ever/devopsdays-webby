@@ -115,7 +115,7 @@ function initialize() {
   raiseOnDrag: false,
   map: map,
   labelContent: "Toronto<br>May 26 & 27",
-  labelAnchor: new google.maps.Point(-5, 42),
+  labelAnchor: new google.maps.Point(-15, 92),
   labelClass: "labels", // the CSS class for the label
   labelStyle: {opacity: 1}
   });
@@ -149,20 +149,6 @@ function initialize() {
   });
 
   google.maps.event.addListener(amsterdammarker, "click", function (e) { location.href="/events/2016-amsterdam/"});
-
-  var vancouverlocation = new google.maps.LatLng(49.2827, -123.1207);
-  var vancouvermarker = new MarkerWithLabel({
-  position: vancouverlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Vancouver<br>Apr 15 & 16",
-  labelAnchor: new google.maps.Point(55, 50),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-  });
-
-  google.maps.event.addListener(vancouvermarker, "click", function (e) { location.href="/events/2016-vancouver"});
 
   var austinlocation = new google.maps.LatLng(30.2500, -97.7500);
   var austinmarker = new MarkerWithLabel({
@@ -211,7 +197,7 @@ function initialize() {
     draggable: false,
     raiseOnDrag: false,
     map: map,
-    labelContent: "Detroit<br>Oct 11 & 12",
+    labelContent: "Detroit<br>Oct 12 & 13",
     labelAnchor: new google.maps.Point(40, 55),
     labelClass: "labels", // the CSS class for the label
     labelStyle: {opacity: 1}
@@ -245,5 +231,117 @@ function initialize() {
   });
 
   google.maps.event.addListener(portlandmarker, "click", function (e) { location.href="/events/2016-portland/"});
+
+  var dallaslocation = new google.maps.LatLng(32.7767, -96.7970);
+  var dallasmarker = new MarkerWithLabel({
+  position: dallaslocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Dallas<br>Sep 15 & 16",
+  labelAnchor: new google.maps.Point(30, -30),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(dallasmarker, "click", function (e) { location.href="/events/2016-dallas"});
+
+  var newyorklocation = new google.maps.LatLng(40.7127, -74.0059);
+  var newyorkmarker = new MarkerWithLabel({
+  position: newyorklocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "New York<br>Sep 23 & 24",
+  labelAnchor: new google.maps.Point(-15, 76),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(newyorkmarker, "click", function (e) { location.href="/events/2016-newyork"});
+
+  var philadelphialocation = new google.maps.LatLng(39.9500, -75.1667);
+  var philadelphiamarker = new MarkerWithLabel({
+  position: philadelphialocation,
+  draggable: false,
+  raiseOnDrag: false,
+  map: map,
+  labelContent: "Philadelphia<br>Oct 26 & 27",
+  labelAnchor: new google.maps.Point(-10, 54),
+  labelClass: "labels", // the CSS class for the label
+  labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(philadelphiamarker, "click", function (e) { location.href="/events/2016-newyork"});
+
+  var sflocation=new google.maps.LatLng(37.3894, -122.0819);
+  var sfmarker = new MarkerWithLabel({
+    position: sflocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Silicon Valley<br>Jun 24 & 25",
+    labelAnchor: new google.maps.Point(55, -25),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(sfmarker, "click", function (e) { location.href="/events/2016-siliconvalley"});
+
+  var oslolocation=new google.maps.LatLng(59.908174, 10.744303);
+  var oslomarker = new MarkerWithLabel({
+    position: oslolocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Oslo<br>Sep 5 & 6",
+    labelAnchor: new google.maps.Point(55, 50),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(oslomarker, "click", function (e) { location.href="/events/2016-oslo"});
+
+  var bostonlocation=new google.maps.LatLng(42.364506, -71.038887);
+  var bostonmarker = new MarkerWithLabel({
+    position: bostonlocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Boston<br>Aug 25 & 26",
+    labelAnchor: new google.maps.Point(50, 80),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(bostonmarker, "click", function (e) { location.href="/events/2016-boston"});
+
+  var boiselocation=new google.maps.LatLng(43.618881, -116.215019);
+  var boisemarker = new MarkerWithLabel({
+    position: boiselocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Boise<br>Oct 7 & 8",
+    labelAnchor: new google.maps.Point(30, 50),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(boisemarker, "click", function (e) { location.href="/events/2016-boise"});
+
+  var kansascitylocation=new google.maps.LatLng(39.0997, -94.5786);
+  var kansascitymarker = new MarkerWithLabel({
+    position: kansascitylocation,
+    draggable: false,
+    raiseOnDrag: false,
+    map: map,
+    labelContent: "Kansas City<br>Oct 20 & 21",
+    labelAnchor: new google.maps.Point(50, 40),
+    labelClass: "labels", // the CSS class for the label
+    labelStyle: {opacity: 1}
+  });
+
+  google.maps.event.addListener(kansascitymarker, "click", function (e) { location.href="/events/2016-kansascity"});
 
 }

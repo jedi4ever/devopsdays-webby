@@ -35,5 +35,7 @@ data in a "corporate friendly" way that helpfully gives the audience some of
 the tools they need to go back and convince their organization to look into
 DevOps.
 
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/2mj9rDEBnMo" frameborder="0" allowfullscreen></iframe>
+
 **Speaker:**
 Michael Coté, Pivotal

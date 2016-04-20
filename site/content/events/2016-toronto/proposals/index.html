@@ -1,0 +1,40 @@
+---
+title:  proposals
+created_at: 2014-02-28 22:49:19.082858 -06:00
+filter:     
+- erb
+- markdown
+dirty:      true
+layout: event
+platinum: true
+---
+<% @eventhome = @page.directory.split(File::SEPARATOR)[0..1].join(File::SEPARATOR) %>
+<% parent="/#{@eventhome}/proposals" %>
+
+Below are our confirmed talks for 2016. More will be posted as speakers confirm their attendance.
+
+## Conference Talks
+
+<ol>
+<%
+  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "title", :reverse => true, :talk => true)
+  articles.delete(@page)
+  articles.each do |page|
+-%>
+<li><%= link_to_page(page) %> - <%= page.author %> 
+<% end -%>
+</ol>
+
+## Ignite Talks
+
+<ol>
+<%
+  articles = @pages.find(:all, :in_directory => parent, :recursive => true,
+      :sort_by => "title", :reverse => true, :ignite => true)
+  articles.delete(@page)
+  articles.each do |page|
+-%>
+<li><%= link_to_page(page) %> - <%= page.author %> 
+<% end -%>
+</ol>
