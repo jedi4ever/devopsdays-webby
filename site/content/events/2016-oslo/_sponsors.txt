@@ -18,29 +18,28 @@ end
 <% if @gsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a>
 <% elsif @gsponsors.size < 11 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Gold Sponsor!</a><% end %>
 
-<!--
 <br/>
 <br/>
-<h1>Silver sponsors</h1>
+<h1>Student sponsors</h1>
 
 <% @ssponsors = [
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
-<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
-<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
-
+<% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#student_sponsorship">Student Sponsor!</a>
+<% elsif @ssponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#student_sponsorship">Student Sponsor!</a><% end %>
 <br/>
 <br/>
-<h1>Bronze sponsors</h1>
+<h1>Other sponsors</h1>
 
-<% @bsponsors = [
+<% @esponsors = [
 ] %>
-<%= make_sponsor_links(@bsponsors) %>
+<%= make_sponsor_links(@esponsors) %>
 <br />
-<% if @bsponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a>
-<% elsif @bsponsors.size < 6 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Bronze Sponsor!</a><% end %>
+<% if @esponsors.size == 0 %>Be the first to become an <a href="/<%= @eventhome %>/sponsor/#other_sponsorships">Exclusive Sponsor!</a>
+<% elsif @esponsors.size < 6 %>Become an <a href="/<%= @eventhome %>/sponsor/#other_sponsorships">Exclusive Sponsor!</a><% end %>
 
+<!--
 <br/>
 <br/>
 <h1>Media sponsors</h1>
