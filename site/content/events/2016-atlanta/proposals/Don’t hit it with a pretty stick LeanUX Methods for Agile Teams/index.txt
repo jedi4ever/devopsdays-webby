@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: true
+author: Virginia Cagwin
+title: "Don’t hit it with a pretty stick: LeanUX Methods for Agile Teams"
+---
+
+UX is seen as a bottleneck and/or creates lots of rework for Agile teams. I’ll discuss how you can incorporate LeanUX principles within your Agile teams to enable collaboration and continuous learning about your product.
+
+I’ll discuss sharing the design process with the entire team, covering the basics of customer research, interviewing, and how to create lean personas for hypothesis validation.
+
+**Speaker:**
+Virginia Cagwin
