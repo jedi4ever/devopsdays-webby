@@ -43,7 +43,7 @@ end
 <%= make_sponsor_links(@cssponsors) %>
 <br />
 <% if @cssponsors.size == 0 %>Become the <a href="/<%= @eventhome %>/sponsor/#sponsorship">Charging Station Sponsor!</a>
-<% elsif @cssponsors.size < 2 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Charging Station Sponsor!</a><% end %>
+<% elsif @cssponsors.size < 2 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Charging Station Sponsor!</a><% end %>
 
 <br/>
 <br/>
