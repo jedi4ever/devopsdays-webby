@@ -84,6 +84,7 @@ end
 { :image => "alienvault.png", :name => "AlienVault", :link => "https://www.alienvault.com/"},
 { :image => "zenoss.png", :name => "Zenoss", :link => "https://www.zenoss.com/"},
 { :image => "civitaslearning.png", :name => "Civitas Learning", :link => "https://www.civitaslearning.com"},
+{ :image => "appinternals.png", :name => "AppInternals", :link => "http://www.riverbed.com/appinternals/"},
 # { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
