@@ -30,7 +30,7 @@ end
 { :image => "saucelabs.png", :name => "Sauce Labs", :link => "https://saucelabs.com"},
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com"},
 { :image => "deis.png", :name => "deis", :link => "https://deis.com"},
-# { :image => "rancher.png", :name => "Rancher Labs", :link => "http://rancher.com/"},
+{ :image => "rancher.png", :name => "Rancher Labs", :link => "http://rancher.com/"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
