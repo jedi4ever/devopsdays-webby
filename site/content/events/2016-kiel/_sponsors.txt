@@ -15,7 +15,8 @@ end
 { :image => "chef200x200.png", :name => "Chef", :link => "https://www.chef.io/"},
 { :image => "Nuage-Nokia-VerticalLogo-200x200-COLOR-BB.png", :name => "Nuage Networks", :link => "http://www.nuagenetworks.net/"},
 { :image => "JFrog200x200.png", :name => "JFrog", :link => "https://www.jfrog.com/"},
-{ :image => "elastic-200x200.png", :name => "Elastic", :link => "https://www.elastic.co/"}
+{ :image => "elastic-200x200.png", :name => "Elastic", :link => "https://www.elastic.co/"},
+{ :image => "parasoft.png", :name => "Parasoft", :link => "https://www.parasoft.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
