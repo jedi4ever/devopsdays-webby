@@ -20,11 +20,14 @@ platinum: true
   .em { font-style: italic; }
 </style>
 
-<h3 id="annouce">
+<h4 id="annouce">
   Our call for proposals is currently open and will close at midnight on <%= @cfp_close %>!<br/>
-  The final selections will be announced <%= @cfp_annc %>.
-</h3>
+  The final selections will be announced <%= @cfp_annc %>.<br/><br/>
+  <a href="https://www.papercall.io/cfps/83/submissions/new">Submit a talk via papercall.io!</a>
+</h4>
 
+
+<% if false %>
 <p>
   DevOpsDays Boston 2016 is currently accepting session, tutorial, and lightning talk proposals from interested speakers. Our programming is focused on three goals:
 
@@ -223,4 +226,5 @@ platinum: true
   yours in order to minimize switching time. During your presentation, a
   volunteer will be sitting next to the podium to assist with AV difficulties
   and to provide time cues for you.
-</p>
+</>
+<% end %>
