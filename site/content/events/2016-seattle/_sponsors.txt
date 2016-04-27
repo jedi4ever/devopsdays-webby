@@ -25,7 +25,8 @@ end
 { :image => "capitalone.png", :name => "Capital One", :link => "http://www.capitalone.com/"},
 { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
 { :image => "parasoft.png", :name => "Parasoft", :link => "http://www.parasoft.com/"},
-{ :image => "amazon.png", :name => "Amazon Fulfillment", :link => "http://www.amazonfulfillmentcareers.com/opportunities/"}
+{ :image => "amazon.png", :name => "Amazon Fulfillment", :link => "http://www.amazonfulfillmentcareers.com/opportunities/"},
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
