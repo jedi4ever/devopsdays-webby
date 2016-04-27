@@ -11,7 +11,7 @@ talk: true
 ignite: false
 selected: true
 author: John Willis
-title: "Coming soon"
+title: "Devops Enterprise State of the Union"
 ---
 
 **Abstract:**
