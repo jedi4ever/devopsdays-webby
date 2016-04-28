@@ -22,6 +22,7 @@ filter:    erb
 { :image => "redhat.png", :name => "Red Hat", :link => "http://www.redhat.com/"},
 { :image => "ansible.png", :name => "Ansible", :link => "http://www.ansible.com/"},
 { :image => "infozen.png", :name => "InfoZen", :link => "http://www.infozen.com/"},
+{ :image => "dlt.png", :name => "DLT", :link => "http://www.dlt.com/"},
 ]%>
 <% unless @ptsponsors.empty? %>
 <h1>Platinum Sponsors</h1>
