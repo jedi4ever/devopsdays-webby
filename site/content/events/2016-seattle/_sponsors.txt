@@ -24,7 +24,9 @@ end
 { :image => "splunk.png", :name => "Splunk", :link => "http://www.splunk.com/"},
 { :image => "capitalone.png", :name => "Capital One", :link => "http://www.capitalone.com/"},
 { :image => "newrelic.png", :name => "New Relic", :link => "http://www.newrelic.com/"},
-{ :image => "parasoft.png", :name => "Parasoft", :link => "http://www.parasoft.com/"}
+{ :image => "parasoft.png", :name => "Parasoft", :link => "http://www.parasoft.com/"},
+{ :image => "amazon.png", :name => "Amazon Fulfillment", :link => "http://www.amazonfulfillmentcareers.com/opportunities/"},
+{ :image => "sumologic.png", :name => "Sumo Logic", :link => "http://www.sumologic.com/"}
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -36,6 +38,7 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+{ :image => "platform9.png", :name => "Platform9", :link => "https://platform9.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -49,7 +52,8 @@ end
 <% @bsponsors = [
 { :image => "rei.png", :name => "REI", :link => "http://www.rei.com/"},
 { :image => "luxoft.png", :name => "Luxoft", :link => "http://www.luxoft.com/"},
-{ :image => "leankit100.png", :name => "Leankit", :link => "http://www.leankit.com/"}
+{ :image => "leankit100.png", :name => "Leankit", :link => "http://www.leankit.com/"},
+{ :image => "concur.png", :name => "Concur", :link => "https://www.concur.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />

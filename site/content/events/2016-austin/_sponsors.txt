@@ -31,6 +31,8 @@ end
 { :image => "appdynamics.png", :name => "AppDynamics", :link => "https://www.appdynamics.com"},
 { :image => "deis.png", :name => "deis", :link => "https://deis.com"},
 { :image => "rancher.png", :name => "Rancher Labs", :link => "http://rancher.com/"},
+{ :image => "newrelic.png", :name => "NewRelic", :link => "http://newrelic.com/"},
+{ :image => "dell.png", :name => "Dell", :link => "http://www.dell.com"},
 ]%>
 <%= make_sponsor_links(@gsponsors) %>
 <br />
@@ -85,7 +87,7 @@ end
 { :image => "zenoss.png", :name => "Zenoss", :link => "https://www.zenoss.com/"},
 { :image => "civitaslearning.png", :name => "Civitas Learning", :link => "https://www.civitaslearning.com"},
 { :image => "appinternals.png", :name => "AppInternals", :link => "http://www.riverbed.com/appinternals/"},
-# { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
+{ :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -110,6 +112,7 @@ end
 
 <% @msponsors = [
 { :image => "oreilly.png", :name => "Get the DevOps eBook", :link => "http://www.oreilly.com/pub/get/devops"},
+{ :image => "devopsdotcom.png", :name => "DevOps.com", :link => "http://devops.com"},
 ] %>
 <%= make_sponsor_links(@msponsors) %>
 <br />
