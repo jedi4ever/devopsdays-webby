@@ -210,7 +210,7 @@ function initialize() {
     draggable: false,
     raiseOnDrag: false,
     map: map,
-    labelContent: "Istanbul<br>Jun 3",
+    labelContent: "Istanbul<br>Jun 3 & 4",
     labelAnchor: new google.maps.Point(25, 0),
     labelClass: "labels",
     labelStyle: { opacity: 1 }
