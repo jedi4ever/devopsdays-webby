@@ -62,6 +62,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+  { :image => "stackiq.png", :name => "StackIQ", :link => "http://www.stackiq.com"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
