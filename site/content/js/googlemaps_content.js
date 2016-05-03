@@ -26,18 +26,6 @@ function initialize() {
   // Events
 
 
-  var denverlocation = new google.maps.LatLng(39.739236, -104.990251);
-  var denvermaker = new MarkerWithLabel({
-    position: denverlocation,
-    draggable: false,
-    raiseOnDrag: false,
-    map: map,
-    labelContent: "Denver<br>April 21 & 22",
-    labelAnchor: new google.maps.Point(20, 10),
-    labelClass: "labels",
-    labelStyle: { opacity: 1 }
-  });
-
   var dclocation = new google.maps.LatLng(38.8011545,-77.0659376);
   var dcmarker = new MarkerWithLabel({
     position: dclocation,
@@ -122,20 +110,6 @@ function initialize() {
 
   google.maps.event.addListener(torontomarker, "click", function (e) { location.href="/events/2016-toronto"});
 
-  var londonlocation = new google.maps.LatLng(51.5072, -0.1275);
-  var londonmarker = new MarkerWithLabel({
-  position: londonlocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "London<br>Apr 19 & 20",
-  labelAnchor: new google.maps.Point(25, 50),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-  });
-
-  google.maps.event.addListener(londonmarker, "click", function (e) { location.href="/events/2016-london"});
-
   var amsterdamlocation = new google.maps.LatLng(52.373791, 4.920502);
   var amsterdammarker = new MarkerWithLabel({
     position: amsterdamlocation,
@@ -163,20 +137,6 @@ function initialize() {
   });
 
   google.maps.event.addListener(austinmarker, "click", function (e) { location.href="/events/2016-austin"});
-
-  var atlantalocation = new google.maps.LatLng(33.7550, -84.3900);
-  var atlantamarker = new MarkerWithLabel({
-  position: atlantalocation,
-  draggable: false,
-  raiseOnDrag: false,
-  map: map,
-  labelContent: "Atlanta<br>Apr 26 & 27",
-  labelAnchor: new google.maps.Point(-5, 10),
-  labelClass: "labels", // the CSS class for the label
-  labelStyle: {opacity: 1}
-  });
-
-  google.maps.event.addListener(atlantamarker, "click", function (e) { location.href="/events/2016-atlanta"});
 
   var chicagolocation = new google.maps.LatLng(41.882219, -87.640530);
   var chicagomarker = new MarkerWithLabel({

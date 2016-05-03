@@ -1,17 +1,5 @@
 <div class="submenu" style="width:550px">
   <h3>
-    <a href="/events/2016-london/">
-     London
-    </a>
-    -
-    <a href="/events/2016-denver/">
-     Denver
-    </a>
-    -
-    <a href="/events/2016-atlanta/">
-     Atlanta
-    </a>
-    -
     <a href="/events/2016-austin/">
      Austin
     </a>

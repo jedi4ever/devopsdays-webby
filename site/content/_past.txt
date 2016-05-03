@@ -126,6 +126,9 @@
       <strong>2016</strong><br/>
       <a href="/events/2016-losangeles-1day/">Los Angeles (1 day)</a>
       <a href="/events/2016-vancouver/">Vancouver</a><br/>
+      <a href="/events/2016-london/">London</a><br/>
+      <a href="/events/2016-denver/">Denver</a><br/>
+      <a href="/events/2016-atlanta/">Atlanta</a><br/>
       </div>
 </div>
 
