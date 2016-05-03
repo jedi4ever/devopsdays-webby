@@ -35,6 +35,8 @@ filter:    erb
 <% @ausponsors = [
 { :image => "comcast.png", :name => "Comcast", :link => "http://www.comcast.com/"},
 { :image => "karsun.png", :name => "Karsun Solutions", :link => "http://www.karsun-llc.com/"},
+{ :image => "harmonia.png", :name => "Harmonia", :link => "http://www.harmonia.com/"},
+{ :image => "evident.png", :name => "Evident.io", :link => "http://evident.io/"},
 ]%>
 <% unless @ausponsors.empty? %>
 <h1>Gold Sponsors</h1>
