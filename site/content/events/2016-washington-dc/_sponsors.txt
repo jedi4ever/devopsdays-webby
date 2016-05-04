@@ -49,6 +49,7 @@ filter:    erb
 { :image => "sonatype.png", :name => "Sonatype", :link => "http://www.sonatype.com/"},
 { :image => "halvik.png", :name => "Halvik", :link => "http://www.halvik.com/"},
 { :image => "jhc.png", :name => "JHC Technology", :link => "http://www.jhctechnology.com/"},
+{ :image => "stsi.png", :name => "STSI", :link => "http://www.stsiinc.com/"},
 ]%>
 <% unless @agsponsors.empty? %>
 <h1>Silver Sponsors</h1>
