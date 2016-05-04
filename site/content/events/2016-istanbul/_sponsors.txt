@@ -47,6 +47,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
+	{ :image => "agile42.png", :name => "agile42", :link => "http://www.agile42.com/"},
+	{ :image => "iyzico.png", :name => "iyzico", :link => "https://www.iyzico.com/"},
 	{ :image => "kloia.png", :name => "Kloia", :link => "http://kloia.com/"},
 	{ :image => "vngrs.png", :name => "VNGRS", :link => "http://vngrs.com/"}
 ] %>
@@ -60,6 +62,7 @@ end
 <h1>Bronze sponsors</h1>
 
 <% @bsponsors = [
+	{ :image => "vmware.png", :name => "vmware", :link => "http://www.vmware.com/tr"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
