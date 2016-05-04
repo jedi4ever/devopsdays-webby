@@ -1,0 +1,25 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+talk: true
+ignite: false
+selected: false
+author: Kayra Otaner
+title: "Utilizing DevOps dynamics for Security Orchestration and Situational Awareness"
+---
+
+**Abstract:**
+
+Using DevOps orchestration & BigData tools, we'll be demonstrating :
+ * Monitor: How to collect NetFlow data from both network devices and hosts
+ * Analyze: How to analyze NetFlow and various other log metrics utilizing ElasticSearch
+ * Detect : How to detect anomalies and aberrant traffic/activity
+ * Respond : Utilizing DevOps orchestration tools to faster reponse to incident and issues.
+
+**Speaker:**
+Kayra Otaner
+
