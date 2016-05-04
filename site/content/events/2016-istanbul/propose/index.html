@@ -12,8 +12,12 @@ platinum: true
 <% @eventid = File.basename(@eventhome) %>
 
 <center>
-<b>Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.</b><br>
-<b>Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.</b><br>
+<b>Call for proposals closed on <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %> for 30 minutes talks, </b><br>
+
+<b>We still accept proposals for ignite talks as there are open slots.</b><br>
+
+Call for proposals opens <%= render(:partial => "/#{@eventhome}/_cfp_date_start") %>.<br>
+Call for proposals closes <%= render(:partial => "/#{@eventhome}/_cfp_date_end") %>.<br>
 Selected proposals will be announced on <%= render(:partial => "/#{@eventhome}/_cfp_date_announce") %>.
 </center>
 
