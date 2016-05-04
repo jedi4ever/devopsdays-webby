@@ -52,13 +52,16 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-{ :image => "core-admin-logo-100x100.png", :name => "Core-Admin", :link => "http://www.core-admin.com"}
+{ :image => "core-admin-logo-100x100.png", :name => "Core-Admin", :link => "http://www.core-admin.com"},
+{ :image => "Logo_ThoughtWorks_200x200.png", :name => "ThoughtWorks", :link => "https://www.thoughtworks.com/"},
+{ :image => "Logo_AcademicWork_200x200.png", :name => "Academic Work", :link => "https://www.academicwork.de/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
 <% if @ssponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a>
 <% elsif @ssponsors.size < 12 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Silver Sponsor!</a><% end %>
 
+<!--
 <br/>
 <br/>
 <h1>Media sponsors</h1>
@@ -68,3 +71,4 @@ end
 <br />
 <% if @msponsors.size == 0 %>Be the first to become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a>
 <% elsif @msponsors.size < 3 %>Become a <a href="/<%= @eventhome %>/sponsor/#sponsorship">Media Sponsor!</a><% end %>
+-->
