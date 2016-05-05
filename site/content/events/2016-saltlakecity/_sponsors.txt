@@ -44,6 +44,7 @@ end
   { :image => "victorops.png", :name => "VICTOROPS", :link => "https://victorops.com" },
   { :image => "vmware.png", :name => "VMWARE", :link => "http://vmware.com" },
   { :image => "healthcatalyst.png", :name => "HEALTHCATALYST", :link => "https://www.healthcatalyst.com" },
+  { :image => "morpheus_data.png", :name => "MORPHEUSDATA", :link => "https://www.morpheusdata.com/" },
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
