@@ -40,7 +40,8 @@ end
 <h1>Silver sponsors</h1>
 
 <% @ssponsors = [
-{ :image => "platform9.png", :name => "Platform9", :link => "https://platform9.com/"}
+{ :image => "platform9.png", :name => "Platform9", :link => "https://platform9.com/"},
+{ :image => "concur.png", :name => "Concur", :link => "https://www.concur.com/"}
 ] %>
 <%= make_sponsor_links(@ssponsors) %>
 <br />
@@ -54,8 +55,7 @@ end
 <% @bsponsors = [
 { :image => "rei.png", :name => "REI", :link => "http://www.rei.com/"},
 { :image => "luxoft.png", :name => "Luxoft", :link => "http://www.luxoft.com/"},
-{ :image => "leankit100.png", :name => "Leankit", :link => "http://www.leankit.com/"},
-{ :image => "concur.png", :name => "Concur", :link => "https://www.concur.com/"}
+{ :image => "leankit100.png", :name => "Leankit", :link => "http://www.leankit.com/"}
 ] %>
 <%= make_sponsor_links(@bsponsors) %>
 <br />
