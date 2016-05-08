@@ -1,4 +1,12 @@
-This the source of the devopsdays.org website
+This code used to drive the devopsdays.org website. We migrated to https://github.com/devopsdays/devopsdays-web/ on 2016-05-07.
+
+Everything below is left for historical interest.
+
+Thanks to everyone who's worked on the site!
+
+
+----
+
 It uses webby as a framework:
 
 # Installation
