@@ -1,6 +1,6 @@
 Updating the devopsdays.org website using Windows
 -------------------------------------------------
-Unfortunately the devopsdays.org website and webby aren't friendly to use on Microsoft Windows. This guide will help you setup an environment so you can clone, edit and test the devopsdays.org website.  The guide could also be used for Mac and Linux operating systems but the focus is on Windows.
+Unfortunately the devopsdays.org website and webby aren't friendly to use on Microsoft Windows. This guide will help you setup an environment so you can clone, edit and test the devopsdays.org website.  This guide could also be used for Mac and Linux operating systems but the focus is on Windows.
 
 
 #### Why doesn't it work on Windows already?
